@@ -1,0 +1,136 @@
+# -*- coding: UTF-8 -*-
+# kate: syntax Python;
+
+from pology.misc.report import error
+from pology.hook.gettext_tools import msgfilter, msgfmt
+from pology.misc.resolve import resolve_alternatives_simple
+from pology.l10n.sr.hook.cyr2lat import process as sr_c2l
+from pology.l10n.sr.hook.accents import resolve_agraphs as resolve_agraphs_t
+from pology.l10n.sr.hook.limit_chset import limit_to_isocyr
+
+import os
+import re
+
+wrenvar = "WESNOTH_REPO"
+WESVCS = os.getenv(wrenvar)
+if not WESVCS:
+    error("environment variable %s not set to "
+          "local Wesnoth code repository path" % wrenvar)
+if not os.path.isdir(WESVCS):
+    error("local Wesnoth code repository path '%s' "
+          "is not a directory" % WESVCS)
+
+S.templates_lang = "templates"
+
+S.summit = dict(
+    topdir=S.resolve_path_rooted("summit-" + S.options.lang),
+    topdir_templates=S.resolve_path_rooted("summit-" + S.templates_lang),
+)
+
+S.branches = [
+    #dict(
+        #id="trunk",
+        #topdir=os.path.join(WESVCS, "trunk", "po"),
+        #by_lang=S.options.lang,
+    #),
+    dict(
+        id="1.6",
+        topdir=os.path.join(WESVCS, "branches", "1.6", "po"),
+        #topdir=os.path.join(WESVCS, "trunk", "po"),
+        by_lang=S.options.lang,
+    ),
+]
+
+S.mappings = [
+    #("1.2", "wesnoth", "wesnoth", "wesnoth-multiplayer", "wesnoth-units"),
+]
+
+S.summit_unwrap = True
+S.branches_unwrap = False
+S.summit_fine_wrap = False # no markup in Wesnoth
+S.branches_fine_wrap = False # no markup in Wesnoth
+
+lmod = "@latin"
+
+if S.options.lang != S.templates_lang:
+    # Add all @latin branches.
+    more_branches = []
+    for branch in S.branches:
+        lbranch = branch.copy()
+        lbranch["id"] = branch["id"] + lmod
+        lbranch["by_lang"] = branch["by_lang"] + lmod
+        more_branches.append(lbranch)
+    S.branches.extend(more_branches)
+
+    # Add all @latin mappings.
+    more_mappings = []
+    for mapping in S.mappings:
+        more_mappings.append((mapping[0] + lmod,) + mapping[1:])
+    S.mappings.extend(more_mappings)
+
+S.vivify_on_merge = True
+S.vivify_w_translator = "Simulacrum"
+S.vivify_w_langteam = "Serbian"
+S.vivify_w_plurals = (
+    "nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? "
+    "0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;")
+
+S.scatter_min_completeness = 0.9
+
+# ----------------------------------------
+# Resolve accent graphs.
+
+def hook_resolve_agraphs (msgstr, msg, cat):
+
+    return resolve_agraphs_t(msgstr)
+
+# ----------------------------------------
+# Transliterate to Latin.
+def hook_translit (msgstr, msg, cat):
+
+    return sr_c2l(msgstr)
+
+# ----------------------------------------
+# Resolve alternatives.
+
+def hook_alts (ind):
+
+    def hook (msgstr, msg, cat):
+        return resolve_alternatives_simple(msgstr, ind, 2, srcname=cat.filename)
+
+    return hook
+
+# ----------------------------------------
+# Limit character set.
+def limit_to_isocyr_f3c (msgstr, msg, cat):
+
+    return limit_to_isocyr(msgstr)
+
+# ----------------------------------------
+
+# Additional hooks on scattered translations.
+S.hook_on_scatter_msgstr.extend([
+    # Resolve accent graphs in all branches in all POs.
+    # -> before transliterating (accented letters need transliteration too)
+    (hook_resolve_agraphs,),
+
+    # Limit character set of man pages in all branches in all POs.
+    # -> before transliterating (or else it is necessary to limit by script)
+    (limit_to_isocyr_f3c, r"", "manpage"),
+
+    # Transliterate in Latin branches in all POs.
+    (hook_translit, r"%s" % lmod),
+
+    # Resolve alternatives in non-Latin branches in all POs.
+    (hook_alts(1), r"^[^@]*$"),
+    # Resolve alternatives in Latin branches in all POs.
+    (hook_alts(2), r"%s" % lmod),
+])
+
+# Set hooks on scattered branch catalog files.
+S.hook_on_scatter_file.extend([
+    # Check strict gettext-correctness of modified catalogs.
+    (msgfmt(options="--check"),),
+    # Canonically format modified catalogs.
+    (msgfilter("cat"),),
+])
