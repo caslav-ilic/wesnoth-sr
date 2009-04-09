@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-03-18 17:29+0100\n"
+"POT-Creation-Date: 2009-04-05 17:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,7 +75,8 @@ msgstr ""
 
 #. [entry]
 #. +> 1.6
-#: data/campaigns/Legend_of_Wesmere/_main.cfg:66 data/campaigns/Legend_of_Wesmere/_main.cfg:75
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:66
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:75
 msgid "Spiros, George and Alexander Alexiou (Santi/fnaek)"
 msgstr ""
 
@@ -209,7 +210,8 @@ msgstr ""
 #. [objective]: condition=win
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:311
-msgid "Reach the signpost"
+#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:338
+msgid "Kalenz must reach the signpost"
 msgstr ""
 
 #. [objective]: condition=lose
@@ -344,7 +346,8 @@ msgstr ""
 
 #. [message]: id=Velon
 #. +> 1.6
-#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:407 data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:447
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:407
+#: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:447
 msgid "Flee, Kalenz...our hopes ride with you..."
 msgstr ""
 
@@ -430,12 +433,6 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:327
 msgid "Hmm... Perhaps the dwarves' intransigence can serve our purpose. Onwards, and no matter what you do, do NOT step on the eastern band of the river!"
-msgstr ""
-
-#. [objective]: condition=win
-#. +> 1.6
-#: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:338
-msgid "Kalenz must reach the signpost"
 msgstr ""
 
 #. [objective]: condition=win
@@ -734,7 +731,8 @@ msgstr ""
 #. [unit]: type=Saurian Ambusher, id=Spahr
 #. [unit]: type=Saurian Flanker, id=Spahr
 #. +> 1.6
-#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:86 data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:60
+#: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:86
+#: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:60
 msgid "Spahr"
 msgstr ""
 
@@ -1537,7 +1535,6 @@ msgid "Huurgh"
 msgstr ""
 
 #. [side]: type=Saurian Oracle, id=Shhar
-#. +> 1.6
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:69
 msgid "Shhar"
@@ -2912,13 +2909,15 @@ msgstr ""
 
 #. [hides]: id=invisible
 #. +> 1.6
-#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:15 data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:16
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:15
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:16
 msgid "invisible"
 msgstr ""
 
 #. [hides]: id=invisible
 #. +> 1.6
-#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:18 data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:20
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:18
+#: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:20
 msgid ""
 "invisible:\n"
 "Enemy units cannot see this unit, except for wolf-based units who can smell it if close enough. Hence except for wolf-based units, enemy units will not initiate an attack on this unit. Defense is at 90 percent for every terrain except water, where it is 70 percent."
@@ -3184,7 +3183,8 @@ msgstr ""
 
 #. [objective]: condition=lose
 #. +> 1.6
-#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:150 data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:190
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:150
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:190
 msgid "Death of Uradredia"
 msgstr ""
 
@@ -3250,7 +3250,8 @@ msgstr ""
 
 #. [message]: id=Kalenz
 #. +> 1.6
-#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:325 data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:116
+#: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:325
+#: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:116
 msgid "Before you die, know that you lost in Wesmere, you lost at Tath, you will lose here and that your Great Chief is dead!"
 msgstr ""
 
@@ -3517,7 +3518,8 @@ msgstr ""
 
 #. [unit]: type=Elvish Captain, id=Crintil
 #. +> 1.6
-#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:87 data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:95
+#: data/campaigns/Legend_of_Wesmere/scenarios/21_Elvish_Assassins.cfg:87
+#: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:95
 msgid "Crintil"
 msgstr ""
 
