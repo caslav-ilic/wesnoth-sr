@@ -108,6 +108,14 @@ def limit_to_isocyr_f3c (msgstr, msg, cat):
     return limit_to_isocyr(msgstr)
 
 # ----------------------------------------
+# Remove obsolete messages.
+def hook_remove_obsolete (cat):
+
+    for msg in cat:
+        if msg.obsolete:
+            cat.remove_on_sync(msg)
+
+# ----------------------------------------
 # Check congruence of interpolations.
 
 _interp_rx = re.compile(r"\$\w+(?:\.\w+)*", re.U)
@@ -171,6 +179,12 @@ S.hook_on_scatter_msgstr.extend([
 S.hook_on_scatter_msg.extend([
     # Check congruence of interpolations in all branches in all POs.
     (hook_check_interps,),
+])
+
+# Additional hooks on scattered catalogs.
+S.hook_on_scatter_cat.extend([
+    # Remove obsolete messages.
+    (hook_remove_obsolete,),
 ])
 
 # Set hooks on scattered branch catalog files.
