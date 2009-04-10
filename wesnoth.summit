@@ -103,7 +103,7 @@ def hook_alts (ind):
 
 # ----------------------------------------
 # Limit character set.
-def limit_to_isocyr_f3c (msgstr, msg, cat):
+def hook_limit_to_isocyr (msgstr, msg, cat):
 
     return limit_to_isocyr(msgstr)
 
@@ -164,7 +164,7 @@ S.hook_on_scatter_msgstr.extend([
 
     # Limit character set of man pages in all branches in all POs.
     # -> before transliterating (or else it is necessary to limit by script)
-    (limit_to_isocyr_f3c, r"", "manpage"),
+    (hook_limit_to_isocyr, r"", "manpage"),
 
     # Transliterate in Latin branches in all POs.
     (hook_translit, r"%s" % lmod),
