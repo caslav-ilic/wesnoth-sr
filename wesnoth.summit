@@ -2,6 +2,7 @@
 # kate: syntax Python;
 
 from pology.misc.report import error
+from pology.misc.msgreport import warning_on_msg
 from pology.hook.gettext_tools import msgfilter, msgfmt
 from pology.misc.resolve import resolve_alternatives_simple
 from pology.l10n.sr.hook.cyr2lat import process as sr_c2l
@@ -107,6 +108,45 @@ def limit_to_isocyr_f3c (msgstr, msg, cat):
     return limit_to_isocyr(msgstr)
 
 # ----------------------------------------
+# Check congruence of interpolations.
+
+_interp_rx = re.compile(r"\$\w+(?:\.\w+)*", re.U)
+
+def collect_interps (text):
+
+    return set(_interp_rx.findall(text))
+
+
+def hook_check_interps (msg, cat):
+
+    def match_for_index (index, interps_orig, can_miss=0):
+        interps_trans = collect_interps(msg.msgstr[index])
+        if interps_orig != interps_trans:
+            interps_missing = interps_orig.difference(interps_trans)
+            interps_unknown = interps_trans.difference(interps_orig)
+            if interps_missing and len(interps_missing) > can_miss:
+                vfmt = " ".join(interps_missing)
+                warning_on_msg("missing interpolations in msgstr[%d]: %s"
+                               % (index, vfmt), msg, cat)
+            elif interps_unknown:
+                vfmt = " ".join(interps_unknown)
+                warning_on_msg("unknown interpolations in msgstr[%d]: %s"
+                               % (index, vfmt), msg, cat)
+
+    interps_orig = collect_interps(msg.msgid)
+    if msg.msgid_plural is None:
+        match_for_index(0, interps_orig)
+    else:
+        interps_plural = collect_interps(msg.msgid_plural)
+        indices_single = cat.plural_indices_single()
+        for i in range(len(msg.msgstr)):
+            if i in indices_single:
+                match_for_index(i, interps_orig, 1)
+            else:
+                match_for_index(i, interps_plural)
+
+
+# ----------------------------------------
 
 # Additional hooks on scattered translations.
 S.hook_on_scatter_msgstr.extend([
@@ -125,6 +165,12 @@ S.hook_on_scatter_msgstr.extend([
     (hook_alts(1), r"^[^@]*$"),
     # Resolve alternatives in Latin branches in all POs.
     (hook_alts(2), r"%s" % lmod),
+])
+
+# Additional hooks on scattered messages.
+S.hook_on_scatter_msg.extend([
+    # Check congruence of interpolations in all branches in all POs.
+    (hook_check_interps,),
 ])
 
 # Set hooks on scattered branch catalog files.
