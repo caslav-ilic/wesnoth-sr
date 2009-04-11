@@ -167,17 +167,14 @@ def hook_check_interps (msg, cat):
                 warning_on_msg("unknown interpolations in msgstr[%d]: %s"
                                % (index, vfmt), msg, cat)
 
-    interps_orig = collect_interps(msg.msgid)
     if msg.msgid_plural is None:
+        interps_orig = collect_interps(msg.msgid)
         match_for_index(0, interps_orig)
     else:
-        interps_plural = collect_interps(msg.msgid_plural)
+        interps_orig = collect_interps(msg.msgid_plural)
         indices_single = cat.plural_indices_single()
         for i in range(len(msg.msgstr)):
-            if i in indices_single:
-                match_for_index(i, interps_orig, 1)
-            else:
-                match_for_index(i, interps_plural)
+            match_for_index(i, interps_orig, i in indices_single and 1 or 0)
 
 
 # ----------------------------------------
