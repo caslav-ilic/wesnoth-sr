@@ -116,6 +116,32 @@ def hook_remove_obsolete (cat):
             cat.remove_on_sync(msg)
 
 # ----------------------------------------
+# Conditionaly clear all translation.
+def hook_clear_translation (mintr):
+
+    def hook (cat):
+
+        ntotal = 0
+        ntransl = 0
+        for msg in cat:
+            if msg.obsolete:
+                continue
+            ntotal += 1
+            if msg.translated:
+                ntransl += 1
+
+        if float(ntransl) / ntotal < mintr:
+            for msg in cat:
+                if msg.obsolete:
+                    continue
+                msg.unfuzzy()
+                for i in range(len(msg.msgstr)):
+                    msg.msgstr[i] = u""
+                msg.manual_comment = type(msg.manual_comment)()
+
+    return hook
+
+# ----------------------------------------
 # Check congruence of interpolations.
 
 _interp_rx = re.compile(r"\$\w+(?:\.\w+)*", re.U)
@@ -185,6 +211,9 @@ S.hook_on_scatter_msg.extend([
 S.hook_on_scatter_cat.extend([
     # Remove obsolete messages.
     (hook_remove_obsolete,),
+
+    # Clean up all translations if not translated enough.
+    (hook_clear_translation(0.9),),
 ])
 
 # Set hooks on scattered branch catalog files.
