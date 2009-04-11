@@ -144,7 +144,7 @@ def hook_clear_translation (mintr):
 # ----------------------------------------
 # Check congruence of interpolations.
 
-_interp_rx = re.compile(r"\$\w+(?:\.\w+)*", re.U)
+_interp_rx = re.compile(r"\$\w+(?:\.\w+)*") # intentionally no re.U
 
 def collect_interps (text):
 
