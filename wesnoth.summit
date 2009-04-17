@@ -76,7 +76,11 @@ S.vivify_w_plurals = (
     "nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? "
     "0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;")
 
+# Create new branch catalogs on scatter only if complete enough.
 S.scatter_min_completeness = 0.9
+
+# Clear branch catalogs on scatter if not acceptably complete.
+S.scatter_acc_completeness = 0.8
 
 # ----------------------------------------
 # Resolve accent graphs.
@@ -114,32 +118,6 @@ def hook_remove_obsolete (cat):
     for msg in cat:
         if msg.obsolete:
             cat.remove_on_sync(msg)
-
-# ----------------------------------------
-# Conditionaly clear all translation.
-def hook_clear_translation (mintr):
-
-    def hook (cat):
-
-        ntotal = 0
-        ntransl = 0
-        for msg in cat:
-            if msg.obsolete:
-                continue
-            ntotal += 1
-            if msg.translated:
-                ntransl += 1
-
-        if float(ntransl) / ntotal < mintr:
-            for msg in cat:
-                if msg.obsolete:
-                    continue
-                msg.unfuzzy()
-                for i in range(len(msg.msgstr)):
-                    msg.msgstr[i] = u""
-                msg.manual_comment = type(msg.manual_comment)()
-
-    return hook
 
 # ----------------------------------------
 # Check congruence of interpolations.
@@ -208,9 +186,6 @@ S.hook_on_scatter_msg.extend([
 S.hook_on_scatter_cat.extend([
     # Remove obsolete messages.
     (hook_remove_obsolete,),
-
-    # Clean up all translations if not translated enough.
-    (hook_clear_translation(0.9),),
 ])
 
 # Set hooks on scattered branch catalog files.
