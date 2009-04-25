@@ -156,30 +156,72 @@ def hook_check_interps (msg, cat):
 
 
 # ----------------------------------------
+# Convert from and to embedded contexts.
+
+def hook_embedded_to_msgctxt (msg, cat):
+
+    if "^" in msg.msgid:
+        msg.msgctxt, msg.msgid = msg.msgid.split("^", 1)
+
+
+def hook_msgctxt_to_embedded (msg, cat):
+
+    if msg.msgctxt is not None:
+        msg.msgid = "%s^%s" % (msg.msgctxt, msg.msgid)
+        msg.msgctxt = None
+
+
+# ----------------------------------------
+# Branch and catalog selectors.
+
+def is_latin_branch (bid):
+    return lmod in bid
+
+def is_not_latin_branch (bid):
+    return not is_latin_branch(bid)
+
+def is_docbook_cat (cname):
+    return "manual" in cname
+
+def is_manpage_cat (cname):
+    return "manpage" in cname
+
+def is_wesnoth_cat (cname):
+    return not is_docbook_cat(cname) and not is_manpage_cat(cname)
+
+# ----------------------------------------
+
+
+# Additional hooks on gathered messages.
+S.hook_on_gather_msg.extend([
+    # Convert from embedded to proper context.
+    (hook_embedded_to_msgctxt, r"", is_wesnoth_cat),
+])
 
 # Additional hooks on scattered translations.
 S.hook_on_scatter_msgstr.extend([
-    # Resolve accent graphs in all branches in all POs.
+    # Resolve accent graphs.
     # -> before transliterating (accented letters need transliteration too)
     (hook_resolve_agraphs,),
 
-    # Limit character set of man pages in all branches in all POs.
+    # Limit character set of man pages.
     # -> before transliterating (or else it is necessary to limit by script)
-    (hook_limit_to_isocyr, r"", "manpage"),
+    (hook_limit_to_isocyr, r"", is_manpage_cat),
 
-    # Transliterate in Latin branches in all POs.
-    (hook_translit, r"%s" % lmod),
+    # Transliterate to Latin.
+    (hook_translit, is_latin_branch),
 
-    # Resolve alternatives in non-Latin branches in all POs.
-    (hook_alts(1), r"^[^@]*$"),
-    # Resolve alternatives in Latin branches in all POs.
-    (hook_alts(2), r"%s" % lmod),
+    # Resolve alternatives.
+    (hook_alts(1), is_not_latin_branch),
+    (hook_alts(2), is_latin_branch),
 ])
 
 # Additional hooks on scattered messages.
 S.hook_on_scatter_msg.extend([
-    # Check congruence of interpolations in all branches in all POs.
-    (hook_check_interps,),
+    # Convert from proper to embedded context.
+    (hook_msgctxt_to_embedded, r"", is_wesnoth_cat),
+    # Check congruence of interpolations.
+    (hook_check_interps, r"", is_wesnoth_cat,),
 ])
 
 # Additional hooks on scattered catalogs.
