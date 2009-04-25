@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-03-26 12:25+0100\n"
-"PO-Revision-Date: 2009-04-09 22:49+0200\n"
+"PO-Revision-Date: 2009-04-25 12:12+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -1286,12 +1286,14 @@ msgstr "Бележење времена ћаскања"
 
 #. +> 1.6
 #: src/game_preferences_display.cpp:184
-msgid "sound^Advanced Options"
+msgctxt "sound"
+msgid "Advanced Options"
 msgstr "Напредне опције"
 
 #. +> 1.6
 #: src/game_preferences_display.cpp:185
-msgid "sound^Standard Options"
+msgctxt "sound"
+msgid "Standard Options"
 msgstr "Стандардне опције"
 
 #. +> 1.6
@@ -1617,27 +1619,32 @@ msgstr "(празан списак)"
 
 #. +> 1.6
 #: src/game_preferences_display.cpp:1116
-msgid "Prefs section^General"
+msgctxt "Prefs section"
+msgid "General"
 msgstr "Опште"
 
 #. +> 1.6
 #: src/game_preferences_display.cpp:1117
-msgid "Prefs section^Display"
+msgctxt "Prefs section"
+msgid "Display"
 msgstr "Приказ"
 
 #. +> 1.6
 #: src/game_preferences_display.cpp:1118
-msgid "Prefs section^Sound"
+msgctxt "Prefs section"
+msgid "Sound"
 msgstr "Звук"
 
 #. +> 1.6
 #: src/game_preferences_display.cpp:1119
-msgid "Prefs section^Multiplayer"
+msgctxt "Prefs section"
+msgid "Multiplayer"
 msgstr "Вишеиграње"
 
 #. +> 1.6
 #: src/game_preferences_display.cpp:1120
-msgid "Advanced section^Advanced"
+msgctxt "Advanced section"
+msgid "Advanced"
 msgstr "Напредно"
 
 #. +> 1.6

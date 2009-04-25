@@ -10,7 +10,7 @@ msgstr ""
 "#-#-#-#-#  wesnoth.cpp1.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-04-08 12:19+0200\n"
+"POT-Creation-Date: 2009-04-17 13:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  wesnoth.wml.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-04-08 12:19+0200\n"
+"POT-Creation-Date: 2009-04-17 13:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,7 +146,8 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:1241
 #: src/actions.cpp:1057 src/actions.cpp:1332
-msgid "female^slowed"
+msgctxt "female"
+msgid "slowed"
 msgstr ""
 
 #. #-#-#-#-#  wesnoth.wml.po (PACKAGE VERSION)  #-#-#-#-#
@@ -168,7 +169,8 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:17
 #: data/core/macros/abilities.cfg:11
-msgid "female^heals +4"
+msgctxt "female"
+msgid "heals +4"
 msgstr ""
 
 #. [heals]: id=healing
@@ -194,7 +196,8 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:46
 #: data/core/macros/abilities.cfg:31
-msgid "female^heals +8"
+msgctxt "female"
+msgid "heals +8"
 msgstr ""
 
 #. [heals]: id=healing
@@ -1259,7 +1262,8 @@ msgstr ""
 #. [topic]: id=about
 #. +> 1.6
 #: data/core/help.cfg:335
-msgid "ingame_help_item^Contributors"
+msgctxt "ingame_help_item"
+msgid "Contributors"
 msgstr ""
 
 #. [topic]: id=license
@@ -1413,7 +1417,8 @@ msgstr ""
 #. [topic]: id=traits_undead
 #. +> 1.6
 #: data/core/help.cfg:408
-msgid "trait^Undead"
+msgctxt "trait"
+msgid "Undead"
 msgstr ""
 
 #. [topic]: id=traits_undead
@@ -1434,7 +1439,8 @@ msgstr ""
 #. [topic]: id=traits_mechanical
 #. +> 1.6
 #: data/core/help.cfg:416
-msgid "trait^Mechanical"
+msgctxt "trait"
+msgid "Mechanical"
 msgstr ""
 
 #. [topic]: id=traits_mechanical
@@ -2140,7 +2146,8 @@ msgstr ""
 #. [heals]: id=curing
 #. +> 1.6
 #: data/core/macros/abilities.cfg:52
-msgid "female^cures"
+msgctxt "female"
+msgid "cures"
 msgstr ""
 
 #. [heals]: id=curing
@@ -2160,7 +2167,8 @@ msgstr ""
 #. [regenerate]: id=regenerates
 #. +> 1.6
 #: data/core/macros/abilities.cfg:77
-msgid "female^regenerates"
+msgctxt "female"
+msgid "regenerates"
 msgstr ""
 
 #. [regenerate]: id=regenerates
@@ -2180,7 +2188,8 @@ msgstr ""
 #. [resistance]: id=steadfast
 #. +> 1.6
 #: data/core/macros/abilities.cfg:98
-msgid "female^steadfast"
+msgctxt "female"
+msgid "steadfast"
 msgstr ""
 
 #. [resistance]: id=steadfast
@@ -2204,7 +2213,8 @@ msgstr ""
 #: data/core/macros/abilities.cfg:114 data/core/macros/abilities.cfg:137
 #: data/core/macros/abilities.cfg:172 data/core/macros/abilities.cfg:219
 #: data/core/macros/abilities.cfg:278
-msgid "female^leadership"
+msgctxt "female"
+msgid "leadership"
 msgstr ""
 
 #. [leadership]: id=leadership
@@ -2228,7 +2238,8 @@ msgstr ""
 #. [skirmisher]: id=skirmisher
 #. +> 1.6
 #: data/core/macros/abilities.cfg:347
-msgid "female^skirmisher"
+msgctxt "female"
+msgid "skirmisher"
 msgstr ""
 
 #. [skirmisher]: id=skirmisher
@@ -2248,7 +2259,8 @@ msgstr ""
 #. [illuminates]: id=illumination
 #. +> 1.6
 #: data/core/macros/abilities.cfg:363
-msgid "female^illuminates"
+msgctxt "female"
+msgid "illuminates"
 msgstr ""
 
 #. [illuminates]: id=illumination
@@ -2270,7 +2282,8 @@ msgstr ""
 #. [teleport]: id=teleport
 #. +> 1.6
 #: data/core/macros/abilities.cfg:378
-msgid "female^teleport"
+msgctxt "female"
+msgid "teleport"
 msgstr ""
 
 #. [teleport]: id=teleport
@@ -2290,7 +2303,8 @@ msgstr ""
 #. [hides]: id=ambush
 #. +> 1.6
 #: data/core/macros/abilities.cfg:390 data/core/macros/abilities.cfg:392
-msgid "female^ambush"
+msgctxt "female"
+msgid "ambush"
 msgstr ""
 
 #. [hides]: id=ambush
@@ -2323,7 +2337,8 @@ msgstr ""
 #. [hides]: id=nightstalk
 #. +> 1.6
 #: data/core/macros/abilities.cfg:422
-msgid "female^nightstalk"
+msgctxt "female"
+msgid "nightstalk"
 msgstr ""
 
 #. [hides]: id=concealment
@@ -2335,7 +2350,8 @@ msgstr ""
 #. [hides]: id=concealment
 #. +> 1.6
 #: data/core/macros/abilities.cfg:442 data/core/macros/abilities.cfg:448
-msgid "female^concealment"
+msgctxt "female"
+msgid "concealment"
 msgstr ""
 
 #. [hides]: id=concealment
@@ -2357,7 +2373,8 @@ msgstr ""
 #. [hides]: id=submerge
 #. +> 1.6
 #: data/core/macros/abilities.cfg:468 data/core/macros/abilities.cfg:474
-msgid "female^submerge"
+msgctxt "female"
+msgid "submerge"
 msgstr ""
 
 #. [hides]: id=submerge
@@ -2379,7 +2396,8 @@ msgstr ""
 #. [dummy]: id=feeding
 #. +> 1.6
 #: data/core/macros/abilities.cfg:497
-msgid "female^feeding"
+msgctxt "female"
+msgid "feeding"
 msgstr ""
 
 #. [dummy]: id=feeding
@@ -3238,7 +3256,8 @@ msgstr ""
 #. [trait]: id=loyal
 #. +> 1.6
 #: data/core/macros/traits.cfg:9
-msgid "female^loyal"
+msgctxt "female"
+msgid "loyal"
 msgstr ""
 
 #. [trait]: id=loyal
@@ -3256,7 +3275,8 @@ msgstr ""
 #. [trait]: id=undead
 #. +> 1.6
 #: data/core/macros/traits.cfg:23
-msgid "female^undead"
+msgctxt "female"
+msgid "undead"
 msgstr ""
 
 #. [trait]: id=undead
@@ -3275,7 +3295,8 @@ msgstr ""
 #. [trait]: id=mechanical
 #. +> 1.6
 #: data/core/macros/traits.cfg:38
-msgid "female^mechanical"
+msgctxt "female"
+msgid "mechanical"
 msgstr ""
 
 #. [trait]: id=strong
@@ -3287,7 +3308,8 @@ msgstr ""
 #. [trait]: id=strong
 #. +> 1.6
 #: data/core/macros/traits.cfg:52
-msgid "female^strong"
+msgctxt "female"
+msgid "strong"
 msgstr ""
 
 #. [trait]: id=dextrous
@@ -3299,7 +3321,8 @@ msgstr ""
 #. [trait]: id=dextrous
 #. +> 1.6
 #: data/core/macros/traits.cfg:70
-msgid "female^dextrous"
+msgctxt "female"
+msgid "dextrous"
 msgstr ""
 
 #. [trait]: id=quick
@@ -3311,7 +3334,8 @@ msgstr ""
 #. [trait]: id=quick
 #. +> 1.6
 #: data/core/macros/traits.cfg:84
-msgid "female^quick"
+msgctxt "female"
+msgid "quick"
 msgstr ""
 
 #. [trait]: id=intelligent
@@ -3323,7 +3347,8 @@ msgstr ""
 #. [trait]: id=intelligent
 #. +> 1.6
 #: data/core/macros/traits.cfg:101
-msgid "female^intelligent"
+msgctxt "female"
+msgid "intelligent"
 msgstr ""
 
 #. [trait]: id=resilient
@@ -3335,7 +3360,8 @@ msgstr ""
 #. [trait]: id=resilient
 #. +> 1.6
 #: data/core/macros/traits.cfg:114
-msgid "female^resilient"
+msgctxt "female"
+msgid "resilient"
 msgstr ""
 
 #. [trait]: id=healthy
@@ -3347,7 +3373,8 @@ msgstr ""
 #. [trait]: id=healthy
 #. +> 1.6
 #: data/core/macros/traits.cfg:133
-msgid "female^healthy"
+msgctxt "female"
+msgid "healthy"
 msgstr ""
 
 #. [trait]: id=healthy
@@ -3365,7 +3392,8 @@ msgstr ""
 #. [trait]: id=fearless
 #. +> 1.6
 #: data/core/macros/traits.cfg:152 data/core/macros/traits.cfg:165
-msgid "female^fearless"
+msgctxt "female"
+msgid "fearless"
 msgstr ""
 
 #. [trait]: id=fearless
@@ -3383,7 +3411,8 @@ msgstr ""
 #. [trait]: id=weak
 #. +> 1.6
 #: data/core/macros/traits.cfg:175
-msgid "female^weak"
+msgctxt "female"
+msgid "weak"
 msgstr ""
 
 #. [trait]: id=slow
@@ -3395,7 +3424,8 @@ msgstr ""
 #. [trait]: id=slow
 #. +> 1.6
 #: data/core/macros/traits.cfg:193
-msgid "female^slow"
+msgctxt "female"
+msgid "slow"
 msgstr ""
 
 #. [trait]: id=dim
@@ -3407,7 +3437,8 @@ msgstr ""
 #. [trait]: id=dim
 #. +> 1.6
 #: data/core/macros/traits.cfg:210
-msgid "female^dim"
+msgctxt "female"
+msgid "dim"
 msgstr ""
 
 #. [color_range]: id=red
@@ -3476,37 +3507,43 @@ msgstr ""
 #. [race]: id=bats, description=
 #. +> 1.6
 #: data/core/units.cfg:43
-msgid "race^Bat"
+msgctxt "race"
+msgid "Bat"
 msgstr ""
 
 #. [race]: id=bats, description=
 #. +> 1.6
 #: data/core/units.cfg:44
-msgid "race+female^Bat"
+msgctxt "race+female"
+msgid "Bat"
 msgstr ""
 
 #. [race]: id=bats, description=
 #. +> 1.6
 #: data/core/units.cfg:45
-msgid "race^Bats"
+msgctxt "race"
+msgid "Bats"
 msgstr ""
 
 #. [race]: id=drake
 #. +> 1.6
 #: data/core/units.cfg:53
-msgid "race^Drake"
+msgctxt "race"
+msgid "Drake"
 msgstr ""
 
 #. [race]: id=drake
 #. +> 1.6
 #: data/core/units.cfg:54
-msgid "race+female^Drake"
+msgctxt "race+female"
+msgid "Drake"
 msgstr ""
 
 #. [race]: id=drake
 #. +> 1.6
 #: data/core/units.cfg:55
-msgid "race^Drakes"
+msgctxt "race"
+msgid "Drakes"
 msgstr ""
 
 #. [race]: id=drake
@@ -3531,19 +3568,22 @@ msgstr ""
 #. [race]: id=dwarf
 #. +> 1.6
 #: data/core/units.cfg:88
-msgid "race^Dwarf"
+msgctxt "race"
+msgid "Dwarf"
 msgstr ""
 
 #. [race]: id=dwarf
 #. +> 1.6
 #: data/core/units.cfg:89
-msgid "race+female^Dwarf"
+msgctxt "race+female"
+msgid "Dwarf"
 msgstr ""
 
 #. [race]: id=dwarf
 #. +> 1.6
 #: data/core/units.cfg:90
-msgid "race^Dwarves"
+msgctxt "race"
+msgid "Dwarves"
 msgstr ""
 
 #. [race]: id=dwarf
@@ -3560,19 +3600,22 @@ msgstr ""
 #. [race]: id=elf
 #. +> 1.6
 #: data/core/units.cfg:107
-msgid "race^Elf"
+msgctxt "race"
+msgid "Elf"
 msgstr ""
 
 #. [race]: id=elf
 #. +> 1.6
 #: data/core/units.cfg:108
-msgid "race+female^Elf"
+msgctxt "race+female"
+msgid "Elf"
 msgstr ""
 
 #. [race]: id=elf
 #. +> 1.6
 #: data/core/units.cfg:109
-msgid "race^Elves"
+msgctxt "race"
+msgid "Elves"
 msgstr ""
 
 #. [race]: id=elf
@@ -3593,55 +3636,64 @@ msgstr ""
 #. [race]: id=goblin, description=
 #. +> 1.6
 #: data/core/units.cfg:129
-msgid "race^Goblin"
+msgctxt "race"
+msgid "Goblin"
 msgstr ""
 
 #. [race]: id=goblin, description=
 #. +> 1.6
 #: data/core/units.cfg:130
-msgid "race+female^Goblin"
+msgctxt "race+female"
+msgid "Goblin"
 msgstr ""
 
 #. [race]: id=goblin, description=
 #. +> 1.6
 #: data/core/units.cfg:131
-msgid "race^Goblins"
+msgctxt "race"
+msgid "Goblins"
 msgstr ""
 
 #. [race]: id=gryphon, description=
 #. +> 1.6
 #: data/core/units.cfg:144
-msgid "race^Gryphon"
+msgctxt "race"
+msgid "Gryphon"
 msgstr ""
 
 #. [race]: id=gryphon, description=
 #. +> 1.6
 #: data/core/units.cfg:145
-msgid "race+female^Gryphon"
+msgctxt "race+female"
+msgid "Gryphon"
 msgstr ""
 
 #. [race]: id=gryphon, description=
 #. +> 1.6
 #: data/core/units.cfg:146
-msgid "race^Gryphons"
+msgctxt "race"
+msgid "Gryphons"
 msgstr ""
 
 #. [race]: id=human
 #. +> 1.6
 #: data/core/units.cfg:161
-msgid "race^Human"
+msgctxt "race"
+msgid "Human"
 msgstr ""
 
 #. [race]: id=human
 #. +> 1.6
 #: data/core/units.cfg:162
-msgid "race+female^Human"
+msgctxt "race+female"
+msgid "Human"
 msgstr ""
 
 #. [race]: id=human
 #. +> 1.6
 #: data/core/units.cfg:163
-msgid "race^Humans"
+msgctxt "race"
+msgid "Humans"
 msgstr ""
 
 #. [race]: id=human
@@ -3660,115 +3712,134 @@ msgstr ""
 #. [race]: id=lizard, description=
 #. +> 1.6
 #: data/core/units.cfg:178
-msgid "race^Saurian"
+msgctxt "race"
+msgid "Saurian"
 msgstr ""
 
 #. [race]: id=lizard, description=
 #. +> 1.6
 #: data/core/units.cfg:179
-msgid "race+female^Saurian"
+msgctxt "race+female"
+msgid "Saurian"
 msgstr ""
 
 #. [race]: id=lizard, description=
 #. +> 1.6
 #: data/core/units.cfg:180
-msgid "race^Saurians"
+msgctxt "race"
+msgid "Saurians"
 msgstr ""
 
 #. [race]: id=mechanical, description=
 #. +> 1.6
 #: data/core/units.cfg:189
-msgid "race^Mechanical"
+msgctxt "race"
+msgid "Mechanical"
 msgstr ""
 
 #. [race]: id=mechanical, description=
 #. +> 1.6
 #: data/core/units.cfg:190
-msgid "race+plural^Mechanical"
+msgctxt "race+plural"
+msgid "Mechanical"
 msgstr ""
 
 #. [race]: id=merman, description=
 #. +> 1.6
 #: data/core/units.cfg:200
-msgid "race^Merman"
+msgctxt "race"
+msgid "Merman"
 msgstr ""
 
 #. [race]: id=merman, description=
 #. +> 1.6
 #: data/core/units.cfg:201
-msgid "race^Mermaid"
+msgctxt "race"
+msgid "Mermaid"
 msgstr ""
 
 #. [race]: id=merman, description=
 #. +> 1.6
 #: data/core/units.cfg:202
-msgid "race^Mermen"
+msgctxt "race"
+msgid "Mermen"
 msgstr ""
 
 #. [race]: id=monster, description=
 #. +> 1.6
 #: data/core/units.cfg:210
-msgid "race^Monster"
+msgctxt "race"
+msgid "Monster"
 msgstr ""
 
 #. [race]: id=monster, description=
 #. +> 1.6
 #: data/core/units.cfg:211
-msgid "race^Monsters"
+msgctxt "race"
+msgid "Monsters"
 msgstr ""
 
 #. [race]: id=naga, description=
 #. +> 1.6
 #: data/core/units.cfg:219
-msgid "race^Naga"
+msgctxt "race"
+msgid "Naga"
 msgstr ""
 
 #. [race]: id=naga, description=
 #. +> 1.6
 #: data/core/units.cfg:220
-msgid "race^Nagani"
+msgctxt "race"
+msgid "Nagani"
 msgstr ""
 
 #. [race]: id=naga, description=
 #. +> 1.6
 #: data/core/units.cfg:221
-msgid "race^Nagas"
+msgctxt "race"
+msgid "Nagas"
 msgstr ""
 
 #. [race]: id=ogre, description=
 #. +> 1.6
 #: data/core/units.cfg:229
-msgid "race^Ogre"
+msgctxt "race"
+msgid "Ogre"
 msgstr ""
 
 #. [race]: id=ogre, description=
 #. +> 1.6
 #: data/core/units.cfg:230
-msgid "race+female^Ogre"
+msgctxt "race+female"
+msgid "Ogre"
 msgstr ""
 
 #. [race]: id=ogre, description=
 #. +> 1.6
 #: data/core/units.cfg:231
-msgid "race^Ogres"
+msgctxt "race"
+msgid "Ogres"
 msgstr ""
 
 #. [race]: id=orc
 #. +> 1.6
 #: data/core/units.cfg:240
-msgid "race^Orc"
+msgctxt "race"
+msgid "Orc"
 msgstr ""
 
 #. [race]: id=orc
 #. +> 1.6
 #: data/core/units.cfg:241
-msgid "race+female^Orc"
+msgctxt "race+female"
+msgid "Orc"
 msgstr ""
 
 #. [race]: id=orc
 #. +> 1.6
 #: data/core/units.cfg:242
-msgid "race^Orcs"
+msgctxt "race"
+msgid "Orcs"
 msgstr ""
 
 #. [race]: id=orc
@@ -3790,19 +3861,22 @@ msgstr ""
 #. [race]: id=troll
 #. +> 1.6
 #: data/core/units.cfg:259
-msgid "race^Troll"
+msgctxt "race"
+msgid "Troll"
 msgstr ""
 
 #. [race]: id=troll
 #. +> 1.6
 #: data/core/units.cfg:260
-msgid "race+female^Troll"
+msgctxt "race+female"
+msgid "Troll"
 msgstr ""
 
 #. [race]: id=troll
 #. +> 1.6
 #: data/core/units.cfg:261
-msgid "race^Trolls"
+msgctxt "race"
+msgid "Trolls"
 msgstr ""
 
 #. [race]: id=troll
@@ -3820,19 +3894,22 @@ msgstr ""
 #. [race]: id=undead
 #. +> 1.6
 #: data/core/units.cfg:281
-msgid "race^Undead"
+msgctxt "race"
+msgid "Undead"
 msgstr ""
 
 #. [race]: id=undead
 #. +> 1.6
 #: data/core/units.cfg:282
-msgid "race+female^Undead"
+msgctxt "race+female"
+msgid "Undead"
 msgstr ""
 
 #. [race]: id=undead
 #. +> 1.6
 #: data/core/units.cfg:283
-msgid "race+plural^Undead"
+msgctxt "race+plural"
+msgid "Undead"
 msgstr ""
 
 #. [race]: id=undead
@@ -3850,25 +3927,29 @@ msgstr ""
 #. [race]: id=wolf, description=
 #. +> 1.6
 #: data/core/units.cfg:297
-msgid "race^Wolf"
+msgctxt "race"
+msgid "Wolf"
 msgstr ""
 
 #. [race]: id=wolf, description=
 #. +> 1.6
 #: data/core/units.cfg:298
-msgid "race^Wolves"
+msgctxt "race"
+msgid "Wolves"
 msgstr ""
 
 #. [race]: id=wose, description=
 #. +> 1.6
 #: data/core/units.cfg:307
-msgid "race^Wose"
+msgctxt "race"
+msgid "Wose"
 msgstr ""
 
 #. [race]: id=wose, description=
 #. +> 1.6
 #: data/core/units.cfg:308
-msgid "race^Woses"
+msgctxt "race"
+msgid "Woses"
 msgstr ""
 
 #. [server]
@@ -3886,14 +3967,14 @@ msgstr ""
 #. #-#-#-#-#  wesnoth.wml.po (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. +> 1.6
-#: data/gui/default/window/campaign_dialog.cfg:32 src/game.cpp:1113
+#: data/gui/default/window/campaign_dialog.cfg:32 src/game.cpp:1118
 msgid "Play a campaign"
 msgstr ""
 
 #. #-#-#-#-#  wesnoth.wml.po (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #. +> 1.6
-#: data/gui/default/window/campaign_dialog.cfg:170 src/dialogs.cpp:687
+#: data/gui/default/window/campaign_dialog.cfg:170 src/dialogs.cpp:688
 #: src/multiplayer_create.cpp:84
 msgid "OK"
 msgstr ""
@@ -3901,8 +3982,8 @@ msgstr ""
 #. #-#-#-#-#  wesnoth.wml.po (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #. +> 1.6
-#: data/gui/default/window/campaign_dialog.cfg:184 src/dialogs.cpp:688
-#: src/dialogs.cpp:1191 src/dialogs.cpp:1298 src/multiplayer_connect.cpp:1015
+#: data/gui/default/window/campaign_dialog.cfg:184 src/dialogs.cpp:689
+#: src/dialogs.cpp:1192 src/dialogs.cpp:1299 src/multiplayer_connect.cpp:1023
 #: src/multiplayer_create.cpp:83 src/multiplayer_wait.cpp:184
 msgid "Cancel"
 msgstr ""
@@ -4630,13 +4711,15 @@ msgstr ""
 #. +> 1.6
 #: data/themes/default.cfg:428 data/themes/dfool.cfg:467
 #: data/themes/experimental.cfg:368
-msgid "statuspanel^level"
+msgctxt "statuspanel"
+msgid "level"
 msgstr ""
 
 #. [unit_moves]: id=unit-moves
 #. +> 1.6
 #: data/themes/default.cfg:459 data/themes/experimental.cfg:399
-msgid "statuspanel^movement"
+msgctxt "statuspanel"
+msgid "movement"
 msgstr ""
 
 #. [change]: id=actions-menu
@@ -4649,7 +4732,8 @@ msgstr ""
 #. [menu]: id=button-endturn2
 #. +> 1.6
 #: data/themes/default.cfg:1009 data/themes/default.cfg:1017
-msgid "short end-turn^E."
+msgctxt "short end-turn"
+msgid "E."
 msgstr ""
 
 #. [label]: id=label-mp
@@ -4737,7 +4821,7 @@ msgid "Skip animation"
 msgstr ""
 
 #. +> 1.6
-#: src/about.cpp:188 src/help.cpp:3052 src/menu_events.cpp:319
+#: src/about.cpp:188 src/help.cpp:3056 src/menu_events.cpp:319
 #: src/menu_events.cpp:346 src/statistics_dialog.cpp:110
 msgid "Close"
 msgstr ""
@@ -4764,12 +4848,14 @@ msgstr ""
 
 #. +> 1.6
 #: src/actions.cpp:1052 src/actions.cpp:1327
-msgid "female^poisoned"
+msgctxt "female"
+msgid "poisoned"
 msgstr ""
 
 #. +> 1.6
 #: src/actions.cpp:1064 src/actions.cpp:1339
-msgid "female^stone"
+msgctxt "female"
+msgid "stone"
 msgstr ""
 
 #. +> 1.6
@@ -4803,14 +4889,16 @@ msgstr[1] ""
 
 #. +> 1.6
 #: src/actions.cpp:2487
-msgid "Part of 'Units sighted! (...)' sentence^1 friendly"
+msgctxt "Part of 'Units sighted! (...)' sentence"
+msgid "1 friendly"
 msgid_plural "$friends friendly"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> 1.6
 #: src/actions.cpp:2488
-msgid "Part of 'Units sighted! (...)' sentence^1 enemy"
+msgctxt "Part of 'Units sighted! (...)' sentence"
+msgid "1 enemy"
 msgid_plural "$enemies enemy"
 msgstr[0] ""
 msgstr[1] ""
@@ -4831,7 +4919,7 @@ msgid "B"
 msgstr ""
 
 #. +> 1.6
-#: src/addon_management.cpp:363 src/dialogs.cpp:1220
+#: src/addon_management.cpp:363 src/dialogs.cpp:1221
 msgid "KB"
 msgstr ""
 
@@ -4847,47 +4935,56 @@ msgstr ""
 
 #. +> 1.6
 #: src/addon_management.cpp:402
-msgid "addon_type^Campaign"
+msgctxt "addon_type"
+msgid "Campaign"
 msgstr ""
 
 #. +> 1.6
 #: src/addon_management.cpp:404
-msgid "addon_type^Scenario"
+msgctxt "addon_type"
+msgid "Scenario"
 msgstr ""
 
 #. +> 1.6
 #: src/addon_management.cpp:406
-msgid "addon_type^MP era"
+msgctxt "addon_type"
+msgid "MP era"
 msgstr ""
 
 #. +> 1.6
 #: src/addon_management.cpp:408
-msgid "addon_type^MP faction"
+msgctxt "addon_type"
+msgid "MP faction"
 msgstr ""
 
 #. +> 1.6
 #: src/addon_management.cpp:410
-msgid "addon_type^MP map-pack"
+msgctxt "addon_type"
+msgid "MP map-pack"
 msgstr ""
 
 #. +> 1.6
 #: src/addon_management.cpp:412
-msgid "addon_type^MP scenario"
+msgctxt "addon_type"
+msgid "MP scenario"
 msgstr ""
 
 #. +> 1.6
 #: src/addon_management.cpp:414
-msgid "addon_type^MP campaign"
+msgctxt "addon_type"
+msgid "MP campaign"
 msgstr ""
 
 #. +> 1.6
 #: src/addon_management.cpp:416
-msgid "addon_type^Resources"
+msgctxt "addon_type"
+msgid "Resources"
 msgstr ""
 
 #. +> 1.6
 #: src/addon_management.cpp:418
-msgid "addon_type^(unknown)"
+msgctxt "addon_type"
+msgid "(unknown)"
 msgstr ""
 
 #. +> 1.6
@@ -4983,7 +5080,7 @@ msgstr ""
 
 #. +> 1.6
 #: src/addon_management.cpp:726 src/addon_management.cpp:929
-#: src/dialogs.cpp:648 src/menu_events.cpp:199 src/menu_events.cpp:1009
+#: src/dialogs.cpp:649 src/menu_events.cpp:199 src/menu_events.cpp:1009
 msgid "Name"
 msgstr ""
 
@@ -5080,7 +5177,7 @@ msgid "Downloads"
 msgstr ""
 
 #. +> 1.6
-#: src/addon_management.cpp:930 src/help.cpp:1384 src/menu_events.cpp:198
+#: src/addon_management.cpp:930 src/help.cpp:1388 src/menu_events.cpp:198
 #: src/menu_events.cpp:1008 src/menu_events.cpp:1508
 msgid "Type"
 msgstr ""
@@ -5111,7 +5208,7 @@ msgid "Choose the add-on to download."
 msgstr ""
 
 #. +> 1.6
-#: src/addon_management.cpp:1035 src/dialogs.cpp:673 src/menu_events.cpp:1067
+#: src/addon_management.cpp:1035 src/dialogs.cpp:674 src/menu_events.cpp:1067
 #: src/menu_events.cpp:1544
 msgid "Filter: "
 msgstr ""
@@ -5133,7 +5230,7 @@ msgstr ""
 
 #. +> 1.6
 #: src/addon_management.cpp:1090 src/addon_management.cpp:1145
-#: src/dialogs.cpp:283 src/dialogs.cpp:291 src/menu_events.cpp:618
+#: src/dialogs.cpp:284 src/dialogs.cpp:292 src/menu_events.cpp:618
 #: src/multiplayer_create.cpp:533
 msgid "Error"
 msgstr ""
@@ -5269,132 +5366,132 @@ msgid "No objectives available"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:247
+#: src/dialogs.cpp:248
 msgid "Save Game"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:257
+#: src/dialogs.cpp:258
 msgid "Quit Game"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:262
+#: src/dialogs.cpp:263
 msgid "Ignore All"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:284
+#: src/dialogs.cpp:285
 msgid "Save names may not contain colons, slashes, or backslashes. Please choose a different name."
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:292
+#: src/dialogs.cpp:293
 msgid "Save names should not end on '.gz'. Please choose a different name."
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:300
+#: src/dialogs.cpp:301
 msgid "Save already exists. Do you want to overwrite it?"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:301 src/menu_events.cpp:606 src/playcampaign.cpp:418
+#: src/dialogs.cpp:302 src/menu_events.cpp:606 src/playcampaign.cpp:418
 msgid "Name: "
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:302
+#: src/dialogs.cpp:303
 msgid "Overwrite?"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:339
+#: src/dialogs.cpp:340
 msgid "Do you really want to delete this game?"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:341
+#: src/dialogs.cpp:342
 msgid "Don't ask me again!"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:508
+#: src/dialogs.cpp:509
 msgid "%a %b %d %H:%M %Y"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:528
+#: src/dialogs.cpp:529
 msgid "#(Invalid)"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:542
+#: src/dialogs.cpp:543
 msgid "Campaign: $campaign_name"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:549
+#: src/dialogs.cpp:550
 msgid "Multiplayer"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:551
+#: src/dialogs.cpp:552
 msgid "Tutorial"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:559 src/menu_events.cpp:592
+#: src/dialogs.cpp:560 src/menu_events.cpp:592
 msgid "replay"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:561 src/menu_events.cpp:594
+#: src/dialogs.cpp:562 src/menu_events.cpp:594
 msgid "Turn"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:563
+#: src/dialogs.cpp:564
 msgid "Scenario Start"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:566
+#: src/dialogs.cpp:567
 msgid "Difficulty: "
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:568
+#: src/dialogs.cpp:569
 msgid "Version: "
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:592 src/dialogs.cpp:608
+#: src/dialogs.cpp:593 src/dialogs.cpp:609
 msgid "%b %d %y"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:598
+#: src/dialogs.cpp:599
 msgid "%H:%M"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:601
+#: src/dialogs.cpp:602
 msgid "%A, %H:%M"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:604
+#: src/dialogs.cpp:605
 msgid "%b %d"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:632
+#: src/dialogs.cpp:633
 msgid "No Saved Games"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:633
+#: src/dialogs.cpp:634
 msgid ""
 "There are no saved games to load.\n"
 "\n"
@@ -5402,190 +5499,190 @@ msgid ""
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:648
+#: src/dialogs.cpp:649
 msgid "Date"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:665 src/multiplayer_create.cpp:102
+#: src/dialogs.cpp:666 src/multiplayer_create.cpp:102
 msgid "Load Game"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:666
+#: src/dialogs.cpp:667
 msgid "Choose the game to load"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:680
+#: src/dialogs.cpp:681
 msgid "Show replay"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:684
+#: src/dialogs.cpp:685
 msgid "Cancel orders"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:691
+#: src/dialogs.cpp:692
 msgid "Delete Save"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:748
+#: src/dialogs.cpp:749
 msgid "Profile"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:845 src/help.cpp:1238
+#: src/dialogs.cpp:846 src/help.cpp:1242
 msgid "level"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:858 src/help.cpp:1358
+#: src/dialogs.cpp:859 src/help.cpp:1362
 msgid "HP: "
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:861
+#: src/dialogs.cpp:862
 msgid "XP: "
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:865 src/help.cpp:1359
+#: src/dialogs.cpp:866 src/help.cpp:1363
 msgid "Moves: "
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:612 src/game.cpp:1442
+#: src/game.cpp:617 src/game.cpp:1447
 msgid "The Battle for Wesnoth"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:895 src/game.cpp:899
+#: src/game.cpp:900 src/game.cpp:904
 msgid "Warning: The file you have tried to load is corrupt. Loading anyway.\n"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:941 src/multiplayer_connect.cpp:1548
+#: src/game.cpp:946 src/multiplayer_connect.cpp:1559
 msgid "This save is from a version too old to be loaded."
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:947 src/multiplayer_connect.cpp:1555
+#: src/game.cpp:952 src/multiplayer_connect.cpp:1566
 msgid "This save is from a different version of the game. Do you want to try to load it?"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:969 src/game.cpp:977 src/playsingle_controller.cpp:492
+#: src/game.cpp:974 src/game.cpp:982 src/playsingle_controller.cpp:492
 #: src/playsingle_controller.cpp:550
 msgid "The file you have tried to load is corrupt"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:972 src/game.cpp:980 src/multiplayer_connect.cpp:1529
+#: src/game.cpp:977 src/game.cpp:985 src/multiplayer_connect.cpp:1540
 msgid "The file you have tried to load is corrupt: '"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:984
+#: src/game.cpp:989
 msgid "File I/O Error while reading the game"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1071 src/game.cpp:1109
+#: src/game.cpp:1076 src/game.cpp:1114
 msgid "No campaigns are available.\n"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1159
+#: src/game.cpp:1164
 msgid "Difficulty"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1160
+#: src/game.cpp:1165
 msgid "Select difficulty level:"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1321
+#: src/game.cpp:1326
 msgid "Do you really want to start the server?"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1322
+#: src/game.cpp:1327
 msgid "The server will run in a background process until all users have disconnected."
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1326
+#: src/game.cpp:1331
 msgid "Don't show again"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1397
+#: src/game.cpp:1402
 msgid "Error while starting server: "
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1399 src/playcampaign.cpp:97 src/playcampaign.cpp:383
+#: src/game.cpp:1404 src/playcampaign.cpp:97 src/playcampaign.cpp:383
 msgid "The game could not be loaded: "
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1401 src/playcampaign.cpp:99 src/playcampaign.cpp:386
+#: src/game.cpp:1406 src/playcampaign.cpp:99 src/playcampaign.cpp:386
 msgid "Error while playing the game: "
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1421 src/playcampaign.cpp:101 src/playcampaign.cpp:389
+#: src/game.cpp:1426 src/playcampaign.cpp:101 src/playcampaign.cpp:389
 msgid "The game map could not be loaded: "
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1487 src/game.cpp:1608
+#: src/game.cpp:1492 src/game.cpp:1613
 msgid "Error loading game configuration files: '"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1488 src/game.cpp:1609
+#: src/game.cpp:1493 src/game.cpp:1614
 msgid "' (The game will now exit)"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1583
+#: src/game.cpp:1588
 msgid "The following add-on had errors and could not be loaded:"
 msgid_plural "The following add-ons had errors and could not be loaded:"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> 1.6
-#: src/game.cpp:1590
+#: src/game.cpp:1595
 msgid "ERROR DETAILS:"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:1618
+#: src/game.cpp:1623
 msgid "Loading data files"
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:2010
+#: src/game.cpp:2015
 msgid "Loading game configuration."
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:2016
+#: src/game.cpp:2021
 msgid "Re-initialize fonts for the current language."
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:2024
+#: src/game.cpp:2029
 msgid "Searching for installed add-ons."
 msgstr ""
 
 #. +> 1.6
-#: src/game.cpp:2033
+#: src/game.cpp:2038
 msgid "Loading title screen."
 msgstr ""
 
@@ -5700,14 +5797,16 @@ msgstr ""
 
 #. +> 1.6
 #: src/generate_report.cpp:260
-msgid "tooltip^damage"
+msgctxt "tooltip"
+msgid "damage"
 msgid_plural "damage"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> 1.6
 #: src/generate_report.cpp:261
-msgid "tooltip^attack"
+msgctxt "tooltip"
+msgid "attack"
 msgid_plural "attacks"
 msgstr[0] ""
 msgstr[1] ""
@@ -5715,13 +5814,15 @@ msgstr[1] ""
 #. +> 1.6
 #: src/generate_report.cpp:267
 #, no-c-format
-msgid "tooltip^% accuracy"
+msgctxt "tooltip"
+msgid "% accuracy"
 msgstr ""
 
 #. +> 1.6
 #: src/generate_report.cpp:273
 #, no-c-format
-msgid "tooltip^% parry"
+msgctxt "tooltip"
+msgid "% parry"
 msgstr ""
 
 #. +> 1.6
@@ -5765,152 +5866,155 @@ msgid "Help"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1114
+#: src/help.cpp:1118
 msgid "<header>text='Units having this special attack'</header>"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1190
+#: src/help.cpp:1194
 msgid "<header>text='Units having this ability'</header>"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1258
+#: src/help.cpp:1262
 msgid "Advances from: "
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1286
+#: src/help.cpp:1290
 msgid "Advances to: "
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1316 src/help.cpp:1591 src/help.cpp:1642
-msgid "race^Miscellaneous"
+#: src/help.cpp:1320 src/help.cpp:1595 src/help.cpp:1646
+msgctxt "race"
+msgid "Miscellaneous"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1318
+#: src/help.cpp:1322
 msgid "Race: "
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1325
+#: src/help.cpp:1329
 msgid "Abilities: "
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1342
+#: src/help.cpp:1346
 msgid "Ability Upgrades: "
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1360
+#: src/help.cpp:1364
 msgid "Cost: "
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1361
+#: src/help.cpp:1365
 msgid "Alignment: "
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1367
+#: src/help.cpp:1371
 msgid "Required XP: "
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1376
-msgid "unit help^Attacks"
-msgstr ""
-
-#. +> 1.6
-#: src/help.cpp:1383
-msgid "unit help^Name"
-msgstr ""
-
-#. +> 1.6
-#: src/help.cpp:1385
-msgid "Strikes"
-msgstr ""
-
-#. +> 1.6
-#: src/help.cpp:1386
-msgid "Range"
+#: src/help.cpp:1380
+msgctxt "unit help"
+msgid "Attacks"
 msgstr ""
 
 #. +> 1.6
 #: src/help.cpp:1387
+msgctxt "unit help"
+msgid "Name"
+msgstr ""
+
+#. +> 1.6
+#: src/help.cpp:1389
+msgid "Strikes"
+msgstr ""
+
+#. +> 1.6
+#: src/help.cpp:1390
+msgid "Range"
+msgstr ""
+
+#. +> 1.6
+#: src/help.cpp:1391
 msgid "Special"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1437
+#: src/help.cpp:1441
 msgid "Resistances"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1441
+#: src/help.cpp:1445
 msgid "Attack Type"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1442
+#: src/help.cpp:1446
 msgid "Resistance"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1479
+#: src/help.cpp:1483
 msgid "Terrain Modifiers"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1483
+#: src/help.cpp:1487
 msgid "Terrain"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1484
+#: src/help.cpp:1488
 msgid "Defense"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1485
+#: src/help.cpp:1489
 msgid "Movement Cost"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:1648
+#: src/help.cpp:1652
 msgid "<header>text='Units of this race'</header>"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:2582 src/menu_events.cpp:571
+#: src/help.cpp:2586 src/menu_events.cpp:571
 msgid " < Back"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:2583
+#: src/help.cpp:2587
 msgid "Forward >"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:2695
+#: src/help.cpp:2699
 msgid "Reference to unknown topic: "
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:2949
+#: src/help.cpp:2953
 msgid "corrupted original file"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:3055
+#: src/help.cpp:3059
 msgid "The Battle for Wesnoth Help"
 msgstr ""
 
 #. +> 1.6
-#: src/help.cpp:3111
+#: src/help.cpp:3115
 msgid "Parse error when parsing help text: "
 msgstr ""
 
@@ -5937,7 +6041,8 @@ msgstr ""
 #. +> 1.6
 #: src/leader_list.cpp:139 src/menu_events.cpp:1534
 #: src/multiplayer_connect.cpp:215 src/multiplayer_connect.cpp:267
-msgid "gender^Random"
+msgctxt "gender"
+msgid "Random"
 msgstr ""
 
 #. +> 1.6
@@ -6025,12 +6130,14 @@ msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:200 src/menu_events.cpp:1010
-msgid "Level^Lvl."
+msgctxt "Level"
+msgid "Lvl."
 msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:203
-msgid "unit list^Traits"
+msgctxt "unit list"
+msgid "Traits"
 msgstr ""
 
 #. +> 1.6
@@ -6040,7 +6147,8 @@ msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:205
-msgid "Location^Loc."
+msgctxt "Location"
+msgid "Loc."
 msgstr ""
 
 #. +> 1.6
@@ -6064,13 +6172,13 @@ msgid "Leader"
 msgstr ""
 
 #. +> 1.6
-#: src/menu_events.cpp:372 src/multiplayer_connect.cpp:1000
+#: src/menu_events.cpp:372 src/multiplayer_connect.cpp:1008
 msgid "Team"
 msgstr ""
 
 #. +> 1.6
-#: src/menu_events.cpp:373 src/multiplayer_connect.cpp:1011
-#: src/multiplayer_wait.cpp:529
+#: src/menu_events.cpp:373 src/multiplayer_connect.cpp:1019
+#: src/multiplayer_wait.cpp:536
 msgid "Gold"
 msgstr ""
 
@@ -6081,7 +6189,8 @@ msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:375
-msgid "status^Units"
+msgctxt "status"
+msgid "Units"
 msgstr ""
 
 #. +> 1.6
@@ -6090,8 +6199,8 @@ msgid "Upkeep"
 msgstr ""
 
 #. +> 1.6
-#: src/menu_events.cpp:377 src/multiplayer_connect.cpp:1012
-#: src/multiplayer_wait.cpp:533
+#: src/menu_events.cpp:377 src/multiplayer_connect.cpp:1020
+#: src/multiplayer_wait.cpp:540
 msgid "Income"
 msgstr ""
 
@@ -6107,43 +6216,50 @@ msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:497
-msgid "scenario settings^Leader"
+msgctxt "scenario settings"
+msgid "Leader"
 msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:499
-msgid "scenario settings^Side"
+msgctxt "scenario settings"
+msgid "Side"
 msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:500
+msgctxt "scenario settings"
 msgid ""
-"scenario settings^Start\n"
+"Start\n"
 "Gold"
 msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:501
+msgctxt "scenario settings"
 msgid ""
-"scenario settings^Base\n"
+"Base\n"
 "Income"
 msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:502
+msgctxt "scenario settings"
 msgid ""
-"scenario settings^Gold Per\n"
+"Gold Per\n"
 "Village"
 msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:503
-msgid "scenario settings^Fog"
+msgctxt "scenario settings"
+msgid "Fog"
 msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:504
-msgid "scenario settings^Shroud"
+msgctxt "scenario settings"
+msgid "Shroud"
 msgstr ""
 
 #. +> 1.6
@@ -6223,7 +6339,8 @@ msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:874
-msgid "unit^Gold"
+msgctxt "unit"
+msgid "Gold"
 msgid_plural "Gold"
 msgstr[0] ""
 msgstr[1] ""
@@ -6669,7 +6786,8 @@ msgstr ""
 
 #. +> 1.6
 #: src/menu_events.cpp:3105 src/menu_events.cpp:3121
-msgid "prompt^Command:"
+msgctxt "prompt"
+msgid "Command:"
 msgstr ""
 
 #. +> 1.6
@@ -6770,19 +6888,19 @@ msgstr ""
 
 #. +> 1.6
 #: src/multiplayer_connect.cpp:481 src/multiplayer_connect.cpp:609
-#: src/multiplayer_wait.cpp:525 src/multiplayer_wait.cpp:533
+#: src/multiplayer_wait.cpp:532 src/multiplayer_wait.cpp:540
 msgid "("
 msgstr ""
 
 #. +> 1.6
 #: src/multiplayer_connect.cpp:481 src/multiplayer_connect.cpp:609
-#: src/multiplayer_wait.cpp:525 src/multiplayer_wait.cpp:536
+#: src/multiplayer_wait.cpp:532 src/multiplayer_wait.cpp:543
 msgid ")"
 msgstr ""
 
 #. +> 1.6
 #: src/multiplayer_connect.cpp:483 src/multiplayer_connect.cpp:611
-#: src/multiplayer_wait.cpp:535
+#: src/multiplayer_wait.cpp:542
 msgid "+"
 msgstr ""
 
@@ -6792,124 +6910,124 @@ msgid "Default AI"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:642
+#: src/multiplayer_connect.cpp:649
 msgid "(Vacant slot)"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:650
+#: src/multiplayer_connect.cpp:657
 msgid "Anonymous local player"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:663
+#: src/multiplayer_connect.cpp:670
 msgid "Computer player"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:666
+#: src/multiplayer_connect.cpp:673
 msgid "(Empty slot)"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:673
+#: src/multiplayer_connect.cpp:680
 msgid "(Reserved for $playername)"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:803
+#: src/multiplayer_connect.cpp:810
 msgid "Reserved"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:804
+#: src/multiplayer_connect.cpp:811
 msgid "--give--"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:926
+#: src/multiplayer_connect.cpp:933
 msgid "Only random sides in the current era."
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:950
+#: src/multiplayer_connect.cpp:957
 msgid "Unable to find a leader type for faction $faction"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:987
+#: src/multiplayer_connect.cpp:994
 msgid "Game Lobby: "
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1007
+#: src/multiplayer_connect.cpp:1015
 msgid "Player/Type"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1008
+#: src/multiplayer_connect.cpp:1016
 msgid "Faction"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1009
+#: src/multiplayer_connect.cpp:1017
 msgid "Team/Gender"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1010
+#: src/multiplayer_connect.cpp:1018
 msgid "Color"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1014
+#: src/multiplayer_connect.cpp:1022
 msgid "I'm Ready"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1025
+#: src/multiplayer_connect.cpp:1033
 msgid "The scenario is invalid because it has no sides."
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1417
+#: src/multiplayer_connect.cpp:1428
 msgid "Network Player"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1419
+#: src/multiplayer_connect.cpp:1430
 msgid "Local Player"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1420
+#: src/multiplayer_connect.cpp:1431
 msgid "Computer Player"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1421
+#: src/multiplayer_connect.cpp:1432
 msgid "Empty"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1537
+#: src/multiplayer_connect.cpp:1548
 msgid "This is not a multiplayer save"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1665
+#: src/multiplayer_connect.cpp:1676
 msgid "Cannot find era $era"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1686
+#: src/multiplayer_connect.cpp:1697
 msgid ""
 "Victory:\n"
 "@Defeat enemy leader(s)"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1750
+#: src/multiplayer_connect.cpp:1761
 msgid "Waiting for players to join..."
 msgstr ""
 
@@ -7564,77 +7682,72 @@ msgid "The file you have tried to load is corrupt. Continue playing?"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:129
+#: src/serialization/parser.cpp:130
 msgid "Unexpected characters at line start"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:159
+#: src/serialization/parser.cpp:160
 msgid "Missing closing tag for tag $tag at $pos"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:174
+#: src/serialization/parser.cpp:175
 msgid "Unterminated [element] tag"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:184 src/serialization/parser.cpp:222
+#: src/serialization/parser.cpp:185 src/serialization/parser.cpp:223
 msgid "Invalid tag name"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:187
+#: src/serialization/parser.cpp:188
 msgid "Unterminated [+element] tag"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:203
+#: src/serialization/parser.cpp:204
 msgid "Invalid closing tag name"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:206
+#: src/serialization/parser.cpp:207
 msgid "Unterminated closing tag"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:208
+#: src/serialization/parser.cpp:209
 msgid "Unexpected closing tag"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:216
+#: src/serialization/parser.cpp:217
 msgid "Found invalid closing tag $tag2 for tag $tag (opened at $pos)"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:241 src/serialization/parser.cpp:253
+#: src/serialization/parser.cpp:242 src/serialization/parser.cpp:254
 msgid "Empty variable name"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:247
+#: src/serialization/parser.cpp:248
 msgid "Unexpected characters after variable name (expected , or =)"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:282 src/serialization/parser.cpp:306
+#: src/serialization/parser.cpp:283 src/serialization/parser.cpp:307
 msgid "Unterminated quoted string"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:329
-msgid " included from "
-msgstr ""
-
-#. +> 1.6
-#: src/serialization/parser.cpp:357
+#: src/serialization/parser.cpp:346
 msgid "$error, value '$value', previous '$previous_value' at $pos"
 msgstr ""
 
 #. +> 1.6
-#: src/serialization/parser.cpp:361
+#: src/serialization/parser.cpp:350
 msgid "$error, value '$value' at $pos"
 msgstr ""
 
@@ -7715,72 +7828,86 @@ msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:411
-msgid "TitleScreen button^Tutorial"
+msgctxt "TitleScreen button"
+msgid "Tutorial"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:412
-msgid "TitleScreen button^Campaign"
+msgctxt "TitleScreen button"
+msgid "Campaign"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:413
-msgid "TitleScreen button^Multiplayer"
+msgctxt "TitleScreen button"
+msgid "Multiplayer"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:414
-msgid "TitleScreen button^Load"
+msgctxt "TitleScreen button"
+msgid "Load"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:415
-msgid "TitleScreen button^Add-ons"
+msgctxt "TitleScreen button"
+msgid "Add-ons"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:417
-msgid "TitleScreen button^Map Editor"
+msgctxt "TitleScreen button"
+msgid "Map Editor"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:419
-msgid "TitleScreen button^Language"
+msgctxt "TitleScreen button"
+msgid "Language"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:420
-msgid "TitleScreen button^Preferences"
+msgctxt "TitleScreen button"
+msgid "Preferences"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:421
-msgid "TitleScreen button^Credits"
+msgctxt "TitleScreen button"
+msgid "Credits"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:422
-msgid "TitleScreen button^Quit"
+msgctxt "TitleScreen button"
+msgid "Quit"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:425
-msgid "TitleScreen button^Previous"
+msgctxt "TitleScreen button"
+msgid "Previous"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:426
-msgid "TitleScreen button^Next"
+msgctxt "TitleScreen button"
+msgid "Next"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:427
-msgid "TitleScreen button^Help"
+msgctxt "TitleScreen button"
+msgid "Help"
 msgstr ""
 
 #. +> 1.6
 #: src/titlescreen.cpp:429
-msgid "TitleScreen button^Help Wesnoth"
+msgctxt "TitleScreen button"
+msgid "Help Wesnoth"
 msgstr ""
 
 #. +> 1.6
@@ -7951,17 +8078,20 @@ msgstr ""
 
 #. +> 1.6
 #: src/unit_types.cpp:1015
-msgid "female^chaotic"
+msgctxt "female"
+msgid "chaotic"
 msgstr ""
 
 #. +> 1.6
 #: src/unit_types.cpp:1015
-msgid "female^lawful"
+msgctxt "female"
+msgid "lawful"
 msgstr ""
 
 #. +> 1.6
 #: src/unit_types.cpp:1015
-msgid "female^neutral"
+msgctxt "female"
+msgid "neutral"
 msgstr ""
 
 #. +> 1.6

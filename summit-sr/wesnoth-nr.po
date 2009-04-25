@@ -207,29 +207,6 @@ msgstr ""
 msgid "Then one day Al'Tar, the current 'master' of Dwarven Doors, was attacked by a neighboring tribe of orcs. Tallin seized his moment. Using knowledge born of years of watching, listening and planning, he managed to steal a few weapons and a small amount of Al'Tar's gold. He fled to an abandoned ruin in the forest to rally his fellow peasants."
 msgstr ""
 
-#. [side]: type=Peasant, id=Tallin
-#. [side]: type=Lieutenant, id=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/04_Clearing_the_Mines.cfg:19
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:31
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:47
-#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:26
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:139
-#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:134
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:43
-#: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:70
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:177
-#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:20
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:96
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:309
-#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:196
-#: data/campaigns/Northern_Rebirth/scenarios/14a_Epilogue.cfg:21
-#: data/campaigns/Northern_Rebirth/scenarios/09b_Judgement.cfg:28
-#: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:77
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:124
-msgid "Tallin"
-msgstr ""
-
 #. [side]: type=Orcish Warlord, id=Al'Tar
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:97
@@ -246,53 +223,6 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:159
 msgid "Defeat enemy leaders"
-msgstr ""
-
-#. [objective]: condition=lose
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/04_Clearing_the_Mines.cfg:315
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:396
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:419
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:185
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:600
-#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:397
-#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:441
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:333
-#: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:88
-#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:359
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:923
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:946
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:969
-#: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:58
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:155
-#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:331
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:146
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:564
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:766
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:885
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1010
-#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:663
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:42
-#: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:163
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:432
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:455
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:478
-msgid "Death of Tallin"
-msgstr ""
-
-#. [objective]: condition=lose
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:408
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:193
-#: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:92
-#: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:62
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:167
-#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:343
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:154
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:897
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1022
-#: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:167
-msgid "Turns run out"
 msgstr ""
 
 #. [unit]: type=Peasant, id=Zlex, role=Supporter
@@ -469,103 +399,59 @@ msgstr ""
 msgid "Mission? What mission?"
 msgstr ""
 
-#. [scenario]: id=infested_caves
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:4
-msgid "Infested Caves"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:12
-msgid "Ill-armed and untrained though they were, the people of Dwarven Doors rose against the Orcs. Although their losses had been tremendous, never once did they break or falter. In the end, the orcish host was smashed and the survivors sent scurrying for their lives."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:15
-msgid "Grief for the fallen could not suppress the people's joy in their newfound freedom. They ransacked the orcish storehouses, sang, danced and drank with abandon. New-fledged warriors boasted of their deeds in the battle, while the women and children looked on with awe."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:18
-msgid "Amidst all the revelry, Tallin alone remained grave. He knew it likely that the orcs would return with a vengeance and slaughter every last one of them. The following morning, he gathered the cooler heads about him so they could set their next course. How might they, untrained in the art of war and without expectation of aid from the prosperous human lands of the south, defend themselves?"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:21
-msgid "The war council's thoughts quickly turned to the dwarves, close allies in the past. However, nobody knew the state of things in the Knalgan tunnels. The bravest of scouts found in there the spoor of many trolls, and of creatures darker than trolls. It was even rumored that the dwarven dead from the invasion of Knalga had risen in unlife, roaming the tunnels to slay the living. Fighting through all manner of unknown monsters in the mere hope of finding surviving dwarves held but little appeal."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:25
-msgid "So the matter lay, and the peasants dithered from one suggested plan of action to the next, never arriving at any conclusion. In the meantime, some help, unlooked for, arrived in the form of a small band of woodsrunners -- escapees from the orcs, grown wood-wise and crafty, and in contact with larger bands of poachers and outlaws roaming the night. Embassies were sent; agreements made. A handful of experienced fighters, scarred and closemouthed, came to Dwarven Doors to find and train the most willing in their rugged fighting style."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:29
-msgid "A fortnight after their victory, the town was awakened from slumber in the dead of night by the distant booming of orcish drums. Scouts training with the nightrunners returned to cry the news that a strong orcish company was approaching. Frightened as they had never been before, the folk of Dwarven Doors looked to Tallin for guidance."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:32
-msgid "Faced with certain destruction at the hands of the orcs, or a fate unknown in the caves of Knalga, Tallin chose the latter. The people quickly gathered together and collected whatever food and weapons they could and plunged into the darkness of the caves."
-msgstr ""
-
 #. [side]: type=Peasant, id=Tallin
-#. [side]: type=Dwarvish Lord, id=Hamel
+#. [side]: type=Lieutenant, id=Tallin
 #. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:54
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:95
-msgid "Rebels"
+#: data/campaigns/Northern_Rebirth/scenarios/04_Clearing_the_Mines.cfg:19
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:31
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:47
+#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:26
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:139
+#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:134
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:43
+#: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:70
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:177
+#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:20
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:96
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:309
+#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:196
+#: data/campaigns/Northern_Rebirth/scenarios/14a_Epilogue.cfg:21
+#: data/campaigns/Northern_Rebirth/scenarios/09b_Judgement.cfg:28
+#: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:77
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:124
+msgid "Tallin"
 msgstr ""
 
-#. [side]: type=Troll, id=Knash
+#. [objective]: condition=lose
 #. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:62
-msgid "Knash"
-msgstr ""
-
-#. [side]: type=Troll, id=Knash
-#. [side]: type=Troll, id=Krog
-#. [side]: type=Troll Warrior, id=Thung
-#. [side]: type=Troll, id=Franik
-#. [side]: type=Troll, id=Henie
-#. [side]: type=Troll Warrior, id=Tor
-#. [side]: type=Troll Warrior, id=Bor
-#. [side]: type=Troll Warrior, id=Oof
-#. [side]: type=Troll Warrior, id=Glu
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:68
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:81
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:122
-#: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:57
-#: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:72
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:331
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:362
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:392
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:423
-msgid "Trolls"
-msgstr ""
-
-#. [side]: type=Troll, id=Krog
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:75
-msgid "Krog"
-msgstr ""
-
-#. [side]: type=Dwarvish Lord, id=Hamel
-#. [unit]: type=Dwarvish Lord, id=Hamel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:88
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:242
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:123
-msgid "Hamel"
+#: data/campaigns/Northern_Rebirth/scenarios/04_Clearing_the_Mines.cfg:315
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:396
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:419
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:185
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:600
+#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:397
+#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:441
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:333
+#: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:88
+#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:359
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:923
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:946
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:969
+#: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:58
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:155
+#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:331
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:146
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:564
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:766
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:885
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1010
+#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:663
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:42
+#: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:163
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:432
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:455
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:478
+msgid "Death of Tallin"
 msgstr ""
 
 #. [side]: type=Ancient Lich, id=Malifor
@@ -601,24 +487,6 @@ msgstr ""
 msgid "Undead"
 msgstr ""
 
-#. [side]: type=Troll Warrior, id=Thung
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:116
-msgid "Thung"
-msgstr ""
-
-#. [objective]: condition=win
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:177
-msgid "Find the Dwarves"
-msgstr ""
-
-#. [objective]: condition=win
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:181
-msgid "Clear the Caves"
-msgstr ""
-
 #. [objective]: condition=lose
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/04_Clearing_the_Mines.cfg:319
@@ -631,330 +499,6 @@ msgstr ""
 msgid "Death of Hamel"
 msgstr ""
 
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:206
-msgid "So here we are..."
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:210
-msgid " *trip* OOF!!!"
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:214
-msgid "Great idea, Tallin, I probably couldn't even fight a bat down here."
-msgstr ""
-
-#. [message]: type=Blood Bat
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:225
-msgid "Neep Neep!"
-msgstr ""
-
-#. [message]: role=Supporter
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:229
-#: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:433
-msgid "Ahhhh!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:233
-msgid "Calm down. Come what may, we'll handle them. Come on now, let's find those dwarves!"
-msgstr ""
-
-#. [unit]: type=Arch Mage, id=Camerin
-#. [side]: type=Great Mage, id=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:250
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:714
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:115
-msgid "Camerin"
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:261
-msgid "PREPARE TO DIE, YOU FOUL ORC!"
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:265
-msgid "Hold it! I am no orc, I am a human!"
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:269
-msgid "A human! Amazing, I haven't seen a human ever since the orcs attacked."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:273
-msgid "How have you managed to survive all this time?"
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:277
-msgid "By frying every orc, troll or skeleton I come across. Duh! Those monsters desecrated my life's work, now I shall not rest till I send every last one of them to hell! Oh, and just between me and you, it is actually good fun - more fun anyway than sitting on your backside studying all day..."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:281
-msgid "...uh ok!"
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:285
-msgid "But silly me, where are my manners. Would you like to come inside for tea?"
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:289
-msgid "Um... err.... well actually we are presently busy fighting our way through hordes of trolls and skeletons trying to find the dwarves... if there are any left."
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:293
-msgid "Hordes of trolls and skeletons! Where!? Let's go burn 'em all!"
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:297
-msgid "Err... ok...."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:301
-msgid " *Is it safe to have this lunatic with us?*"
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:317
-msgid "BURN, YOU DISGUSTING FILTH!"
-msgstr ""
-
-#. [message]: speaker=second_unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:321
-msgid "Ahhh! Fire!"
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:334
-msgid "YEAH! DIE, SCUM, DIE!"
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:351
-msgid "This tunnel keeps on going..."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:355
-msgid "I think we should finish searching this part of Knalga first before we go deeper into the caves."
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:368
-msgid "Grim Gods of Darkness, what are those things!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:372
-msgid "Skeletons!"
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:376
-msgid "Look at the axes they bear. At one time those skeletons must have been dwarves!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:380
-msgid "Stand firm, men. The dwarven defenders of Knalga rise again. Now it remains to be seen whether or not they recognize us as friends."
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:396
-msgid "They are attacking us!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:400
-msgid "Destroy them!"
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:422
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:476
-msgid "Hey look, it's an ancient door. It seems the trolls were too stupid to find how to open it."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:428
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:482
-msgid "Hey look, it's an ancient door. It seems the skeletons were too stupid to find how to open it."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:434
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:488
-msgid "Well, let's see what's behind it."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:438
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:492
-msgid "Alright. *Grunt* *Strain* It's not moving, it seems to be stuck."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:442
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:496
-msgid "Well, just kick it down then."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:446
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:500
-msgid "...right."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:450
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:504
-#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:1832
-#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:1855
-msgid " *SMASH*"
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:524
-msgid "Wow, this place is interesting."
-msgstr ""
-
-#. [message]: speaker=Hamel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:528
-msgid "This is how we get our food, me lad. Since we are a tad close to the surface here, some sunlight shines down through the cracks in the roof. If we baby the plants, we can usually get enough. They taste unco' foul but that's how we ha' survived all these long years."
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:541
-msgid "Tallin, this situation is hopeless - there are endless monsters swarming from all directions!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:545
-msgid "We are in a dire situation indeed - but just see - the trolls and the skeletons are also attacking each other. We must all stay together in one group; let each man support the man next to him. If our ranks are imposing enough the monsters may shy away from us in favor of easier prey."
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:549
-msgid "But still, Tallin, we will take losses, and for each one of us, there is no replacement - whereas for every monster we kill, it seems that two more come to take its place!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:553
-msgid "Which is why we must make haste to find the dwarves. Dwarves are hardy creatures and they know their caves backwards and forwards - so I am sure at least some must have survived! Indeed, this is our only hope for otherwise, be it on the surface or be it down here, any way we turn we face certain destruction!"
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:566
-msgid "Stand where ye be, you... Och! A human!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:570
-msgid "Greetings from the people of Dwarven Doors, friend."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:574
-msgid "Dwarven Doors? I thought ye surface humans had been enslaved or slain by the orcs years ago."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:578
-msgid "Yes, we were enslaved, but we rose against Al'Tar and defeated his warband. In order to stay free, we seek help and equipment from our old allies, the dwarves."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:582
-msgid "Och, the dwarves of Knalga are themselves in desperate straits - but we havena' forgotten the old bonds. Be welcome to our keep. Aye, and have speech with our chieftain, the Lord Hamel."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. [message]: speaker=unit
-#. [message]: id=Father Marcus
-#. [message]: id=Ro'Arthian
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:586
-#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:1623
-#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:2396
-#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:2447
-#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:2499
-#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:2533
-#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:576
-#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:807
-msgid "Very well."
-msgstr ""
-
-#. [objective]: condition=win
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:592
-msgid "Move Tallin to a Dwarvish castle keep or..."
-msgstr ""
-
-#. [objective]: condition=win
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:596
-msgid "Clear the Caves (Bonus)"
-msgstr ""
-
 #. [objective]: condition=lose
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/04_Clearing_the_Mines.cfg:323
@@ -964,289 +508,6 @@ msgstr ""
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:467
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:490
 msgid "Turns Run Out"
-msgstr ""
-
-#. [message]: speaker=Hamel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:624
-msgid "Well met, Tallin. My men have told me of your victory against Al'Tar."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:628
-msgid "Thank you and well-met indeed, Lord Hamel."
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:632
-msgid "Whew, we did it!"
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:636
-msgid "Awww! Are we done already?"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:656
-msgid "Good, we managed to clear the caves... for now, anyway. Now let's get to the dwarven keep and dicker for better weapons."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:662
-msgid "Good, there are no more monsters lurking in these parts of the tunnels. I think I can hear the clamor of dwarves just ahead. Come on men, let's go meet them."
-msgstr ""
-
-#. [message]: role=Messenger
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:684
-msgid "Tallin, we have just received the news that the dwarvish Lord Hamel has just been slain. We are too late!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:688
-#: data/campaigns/Northern_Rebirth/utils/herodeaths.cfg:843
-msgid "No! Without the dwarvish weapons we have no hope!"
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:726
-msgid "Hey, what's going on in here?"
-msgstr ""
-
-#. [message]: role=Admirer
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:734
-msgid "We are killing lots of trolls and skeletons."
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:738
-msgid "Really! Did you save any for me?"
-msgstr ""
-
-#. [message]: role=Admirer
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:742
-msgid "Uh, not really..."
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:746
-msgid "Awwwwww."
-msgstr ""
-
-#. [message]: role=Admirer
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:750
-msgid "But hey, if you want to join us, I am sure we will be fighting a lot more orcs, trolls and skeletons in the near future."
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:754
-msgid "Really! Oh yeah, I am in!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:758
-msgid "...that was rather odd. Who is this guy?"
-msgstr ""
-
-#. [message]: speaker=Hamel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:768
-msgid "Oh, dinna' mind him, that'd be Camerin. He used to be yer usual scholarly mage, and he moved awa' up here to be alone and study. But then when the orcs invaded he went a little loony. My guess is that some roving orcs ransacked his place and burnt his notes or something. Whatever it was, he couldna' take it and became fey. Ever since he has been roving these caves destroying any manner of monster that he comes across. They all give him a very wide berth by now. So just be polite, give him some room and you'll find he is relatively harmless..."
-msgstr ""
-
-#. [scenario]: id=dwarven_mines
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:4
-msgid "To the Mines"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:12
-msgid "After reaching the dwarvish keep and tending to their wounded the humans led by Tallin and the dwarves led by Lord Hamel made council."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:15
-msgid "Be welcome to the Southern Tunnels, friends... or at least, what's left o' them."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:19
-msgid "Thank you, Lord Hamel. Though Knalga lies in chaos, it is a great relief to see that at least some dwarves have survived."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:23
-msgid "Thank you, human. It is likewise a great relief to see that our allies of old have managed to break their bonds, and live as free men once again."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:27
-msgid "Yes, that touches on the main reason for our visit. We have broken free, but to stay free we need better weapons and armor. Clubs and pitchforks will not carry us through the long run."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:31
-msgid "Dwarves are known to be the finest metalworkers and weapon-smiths. We were hoping that you would be able to help us."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:35
-msgid "Aye, our craft is great...but we dinna' ha' much of weapons and armor ourselves. We're but a remnant that survived the orcs' in-taking of these caves. There may be other remnants; but if there are, we dinna' yet ken of them."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:39
-msgid "If you don't mind me asking, Lord Hamel, how exactly did you manage to survive the orcish invasion? And since it was the orcs who reduced Knalga to this sorry state - where are they now? From what I have seen, it is mostly trolls and skeletons who lately haunt these caves."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:43
-msgid "Oh, there are orcs enough down here, but ye'll not likely see them; they hide from us like vermin. You see, lad, in these caves there is no more fearsome a foe then a dwarf. Not only do we move through the caves swiftly, but we know them like the backs of our hands. The orcs did indeed manage to swamp our defenses with their sheer numbers all those long years ago, but not before we surprised and slew their leader - the cursed Khazg Black-Tusk. Since then, although the orcs still foul these caves with their stench, their attacks have been uncoordinated and erratic, wi' the orcs as likely to attack each other as they are to attack us."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:47
-msgid "In more recent years, however, I ha' noticed that there have been fewer orcs and more skeletons around. The orcs seem to fear them and shy away from them whenever possible, but their troll allies are another matter. Yon trolls actually seem to take great pleasure out of crushing the skeletons to the dust and sucking any marrow that remains in their bones..."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:51
-msgid "What is the story with those skeletons anyway? They look like they were dwarves when they lived, but now they just seem to be mindless killers, attacking anyone and anything."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:55
-msgid "In truth, we ha' no idea. They just started appearing one day some years after we were trapped here - by ones and twos in the beginning, and now by the hordes. We were fair frightened when we first encountered them, but we soon discovered they fell to our hammers just as readily as the orcs fell to our axes. So, it is not their existence I fear - for we have faced far worse trials - but their rising numbers gives cause for worry..."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:59
-msgid "Well, we are here with you now Lord Hamel, and in exchange for proper weapons, we will gladly assist you in clearing these caves of monsters."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:63
-msgid "That is the problem lad, we ha' been stranded in these tunnels for years now, almost completely cut off from sources of food or metals or tools. It ha' been as much as we could do to survive. We'll get more food again now that we can reach the surface, and tools aplenty there are in the stores where we couldna' reach while the orcs and trolls held them. But metal will be scarce for a while yet; ore will have to be brought in for smelting, first."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:67
-msgid "So, is there not any source of good ores nearby?"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:71
-msgid "Aye, there is. A few miles north of here is the place where we mined many of our raw metals. However, that place also seems to be where all those skeletons are coming from. For all that we have managed to hold the skeletons off in our own keep, I dare not venture right into their lair. To go there would mean certain death."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:75
-msgid "With all respect, my Lord Hamel, we the people from Dwarven Doors have faced certain death many times now. Rising up against the orcs was said to be certain death. Plunging headfirst into these bleak caves was said to be certain death. If our fate is death then so be it. Until that time comes, my people will fight and I will lead them to fight!"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:79
-msgid "Och, human though ye be, ye speak very like a dwarf, lad. Form, up men! To the mines! Let the guardsmen stay behind along with the noncombatants - for their safety and to hold the keep."
-msgstr ""
-
-#. [side]: type=Direwolf Rider, id=Pruol
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:107
-msgid "Pruol"
-msgstr ""
-
-#. [objective]: condition=win
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:138
-msgid "Get into the mines or..."
-msgstr ""
-
-#. [objective]: condition=win
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:142
-msgid "Just kill the annoying little puppies"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:169
-msgid "Hoping to bypass the monsters which seemed to lurk at every corner in the caves, the humans and the dwarves returned to the surface hoping to speedily reach the mines. However, once they left the caves they found that they faced a new threat."
-msgstr ""
-
-#. [message]: speaker=Pruol
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:174
-msgid "Hey look, there is our meat! Come on, boys, lunchtime!"
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:178
-msgid "I don't think so, buddy."
-msgstr ""
-
-#. [message]: speaker=Pruol
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:191
-msgid "Argh! They are stronger then we thought. Someone go tell the Master..."
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:195
-msgid "What's with this 'Master' business? It's starting to make me nervous."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:210
-msgid "Here is the entrance to the dwarven mines. In we go!"
-msgstr ""
-
-#. [message]: speaker=Pruol
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:214
-msgid "Hey, there goes our lunch! Hmmm, they are stronger then we thought, let's go tell Master."
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:218
-msgid "What's with this whole 'Master' business? It's starting to make me nervous."
 msgstr ""
 
 #. [scenario]: id=clearing_the_mines
@@ -1598,6 +859,1108 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/04_Clearing_the_Mines.cfg:738
 msgid "Thank you, Lord Hamel."
+msgstr ""
+
+#. [objective]: condition=lose
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:408
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:193
+#: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:92
+#: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:62
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:167
+#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:343
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:154
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:897
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1022
+#: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:167
+msgid "Turns run out"
+msgstr ""
+
+#. [side]: type=Drake Burner, id=Krash
+#. [unit]: type=Drake Burner, id=Krash
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:118
+#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:904
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:227
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:190
+msgid "Krash"
+msgstr ""
+
+#. [unit]: type=Orcish Sovereign, id=Rakshas
+#. [side]: type=Orcish Sovereign, id=Rakshas
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:191
+#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:151
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:57
+#: data/campaigns/Northern_Rebirth/scenarios/09b_Judgement.cfg:43
+msgid "Rakshas"
+msgstr ""
+
+#. [side]: type=Troll Warrior, id=Gore
+#. [side]: type=Orcish Warlord, id=Carron
+#. [side]: type=Orcish Warlord, id=Rash
+#. [side]: type=Orcish Warlord, id=Al'Mar
+#. [side]: type=Orcish Warlord, id=Ha'Tang
+#. [side]: type=Orcish Sovereign, id=Rakshas
+#. [side]: type=Orcish Warlord, id=Drung
+#. [side]: type=Orcish Warlord, id=Poul
+#. [side]: type=Orcish Warlord, id=Ha'Tuil
+#. [side]: type=Orcish Warlord, id=Ar'Muff
+#. [side]: type=Orcish Warlord, id=Calter
+#. [side]: type=Orcish Warlord, id=Halter
+#. [side]: type=Orcish Warlord, id=Atul
+#. [side]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:52
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:69
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:82
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:95
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:108
+#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:158
+#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:177
+#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:195
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:65
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:102
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:134
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:166
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:198
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:197
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:205
+msgid "Orcs"
+msgstr ""
+
+#. [message]: speaker=Anita
+#. [message]: id=Ro'Sothian
+#. [message]: speaker=Ro'Sothian
+#. [message]: id=Ro'Arthian
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:451
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:1037
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1093
+#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:771
+msgid " *snicker*"
+msgstr ""
+
+#. [objective]: condition=lose
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:400
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:423
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:927
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:950
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:973
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:159
+#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:335
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:568
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:770
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:889
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1014
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:436
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:459
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:482
+msgid "Death of Ro'Arthian"
+msgstr ""
+
+#. [objective]: condition=lose
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:404
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:427
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:931
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:954
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:977
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:163
+#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:339
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:572
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:774
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:893
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1018
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:440
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:463
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:486
+msgid "Death of Ro'Sothian"
+msgstr ""
+
+#. [unit]: type=Elvish Marshal, id=Hidel
+#. [unit]: id=Hidel, type=Elvish Marshal
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:217
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:800
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1115
+msgid "Hidel"
+msgstr ""
+
+#. [objective]: condition=win
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:392
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:415
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:919
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:942
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:965
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1006
+msgid "Defeat the enemy leaders"
+msgstr ""
+
+#. [scenario]: id=eastern_flank
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:5
+msgid "The Eastern Flank"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:19
+msgid "After breaking out of their encirclement, the party continued in pursuit of the trolls."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:22
+msgid "Following the bank of a river, they soon entered a valley. At the mouth of the valley there loomed the massive orcish fortress of Angthurim."
+msgstr ""
+
+#. [side]: type=Troll Warrior, id=Gore
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:44
+msgid "Gore"
+msgstr ""
+
+#. [side]: type=Orcish Warlord, id=Carron
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:62
+msgid "Carron"
+msgstr ""
+
+#. [side]: type=Orcish Warlord, id=Rash
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:75
+msgid "Rash"
+msgstr ""
+
+#. [side]: type=Orcish Warlord, id=Al'Mar
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:88
+msgid "Al'Mar"
+msgstr ""
+
+#. [side]: type=Orcish Warlord, id=Ha'Tang
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:101
+msgid "Ha'Tang"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:201
+msgid "Gods of Light! Look at that fortress. The castle Angthurim is even grimmer than its reputation."
+msgstr ""
+
+#. [message]: speaker=Anita
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:211
+msgid "I was not idle in my captivity; I watched, and listened, and learned. The hints I got from my guards' boastings and foul jests have been confirmed by our scouts; Angthurim is the linchpin of their entire eastern flank. If we could reduce it, their defense would be near to collapse."
+msgstr ""
+
+#. [message]: speaker=Ro'Arthian
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:226
+msgid "Fitting. My gryphons tell me Angthurim is the keystone of their entire eastern flank. If we can reduce it their defense will be near to collapse."
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:232
+msgid "Hey, look who is here!"
+msgstr ""
+
+#. [message]: speaker=Rakshas
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:236
+msgid "Where is my gold!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:240
+msgid "It's Rakshas!"
+msgstr ""
+
+#. [message]: speaker=Gore
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:244
+msgid "Right here, Master."
+msgstr ""
+
+#. [message]: speaker=Rakshas
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:248
+msgid "Ahhhhh, very good, my loyal servant. You will be richly rewarded for this! Tell me, what news do you have on that human vermin that has so persistently evaded my clutches?"
+msgstr ""
+
+#. [message]: speaker=Gore
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:252
+msgid "We trapped him and his pitiful band of followers. By now they will have been mashed to paste and fed to the whelps."
+msgstr ""
+
+#. [message]: speaker=Rakshas
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:256
+msgid "Hahahaha! Very g..."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:260
+msgid "RAKSHAS!!!"
+msgstr ""
+
+#. [message]: speaker=Rakshas
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:264
+msgid "What!? YOU! YOU ANNOYING, DISGUSTING LITTLE VERMIN! DON'T YOU KNOW HOW TO DIE!?"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:268
+msgid "Foul one, the only one who will be dying here is you and anyone who comes between us. Stand and fight!"
+msgstr ""
+
+#. [message]: speaker=Rakshas
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:272
+msgid "Bah! I have better things to do then stamp out your insignificant life. Generals, kill him and bring me his head!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:304
+msgid "Blast it. The coward has fled. Anita, your elves are good at moving quickly through the forests. Do you think they can overtake and pin him down while we deal with this fortress?"
+msgstr ""
+
+#. [message]: speaker=Anita
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:308
+msgid "Hidel?"
+msgstr ""
+
+#. [message]: speaker=Hidel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:312
+msgid "Easily, princess. We shall move unseen through the trees, overtake him, and put an end to his flight."
+msgstr ""
+
+#. [message]: speaker=Anita
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:316
+msgid "Then do it. I shall stay with Tallin and... um... because he could use my assistance."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:320
+msgid " *blushes slightly*"
+msgstr ""
+
+#. [message]: speaker=Sister Theta
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:324
+msgid " *wink wink*"
+msgstr ""
+
+#. [message]: speaker=Hidel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:328
+msgid " *raises eyebrow* Very well, princess."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:355
+msgid "Blast it. The coward has fled. Quickly men, we must storm this fortress before he can spend that gold."
+msgstr ""
+
+#. [message]: speaker=Stalrag
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:359
+msgid "Aye! Down wi' the orcs!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:366
+msgid "Ro'Arthian, send a message to Hamel. Tell him it's time."
+msgstr ""
+
+#. [message]: speaker=Ro'Arthian
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:379
+msgid "It's done."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:383
+msgid "Very well. Forward! Victory or death!"
+msgstr ""
+
+#. [message]: speaker=Krash
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:387
+msgid "Come on boys, let's give it to 'em!"
+msgstr ""
+
+#. [message]: speaker=Gore
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:439
+msgid "Move, you stupid orcs! I am trying to recruit here!"
+msgstr ""
+
+#. [message]: speaker=Rash
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:443
+msgid "Suit yourself, you dumb troll!"
+msgstr ""
+
+#. [message]: speaker=Sister Theta
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:447
+msgid "Awww, aren't they the most loving, sharing bunch of orcs you have ever seen?"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:466
+msgid "We have torn the heart from their eastern defenses. Now let us make haste to rescue Hidel. I am uneasy for him; some of those bodyguards Rakshas keeps are fell fighters."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:472
+msgid "We have torn the heart from their eastern defenses. Now to settle scores with Rakshas once and for all!"
+msgstr ""
+
+#. [scenario]: id=infested_caves
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:4
+msgid "Infested Caves"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:12
+msgid "Ill-armed and untrained though they were, the people of Dwarven Doors rose against the Orcs. Although their losses had been tremendous, never once did they break or falter. In the end, the orcish host was smashed and the survivors sent scurrying for their lives."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:15
+msgid "Grief for the fallen could not suppress the people's joy in their newfound freedom. They ransacked the orcish storehouses, sang, danced and drank with abandon. New-fledged warriors boasted of their deeds in the battle, while the women and children looked on with awe."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:18
+msgid "Amidst all the revelry, Tallin alone remained grave. He knew it likely that the orcs would return with a vengeance and slaughter every last one of them. The following morning, he gathered the cooler heads about him so they could set their next course. How might they, untrained in the art of war and without expectation of aid from the prosperous human lands of the south, defend themselves?"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:21
+msgid "The war council's thoughts quickly turned to the dwarves, close allies in the past. However, nobody knew the state of things in the Knalgan tunnels. The bravest of scouts found in there the spoor of many trolls, and of creatures darker than trolls. It was even rumored that the dwarven dead from the invasion of Knalga had risen in unlife, roaming the tunnels to slay the living. Fighting through all manner of unknown monsters in the mere hope of finding surviving dwarves held but little appeal."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:25
+msgid "So the matter lay, and the peasants dithered from one suggested plan of action to the next, never arriving at any conclusion. In the meantime, some help, unlooked for, arrived in the form of a small band of woodsrunners -- escapees from the orcs, grown wood-wise and crafty, and in contact with larger bands of poachers and outlaws roaming the night. Embassies were sent; agreements made. A handful of experienced fighters, scarred and closemouthed, came to Dwarven Doors to find and train the most willing in their rugged fighting style."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:29
+msgid "A fortnight after their victory, the town was awakened from slumber in the dead of night by the distant booming of orcish drums. Scouts training with the nightrunners returned to cry the news that a strong orcish company was approaching. Frightened as they had never been before, the folk of Dwarven Doors looked to Tallin for guidance."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:32
+msgid "Faced with certain destruction at the hands of the orcs, or a fate unknown in the caves of Knalga, Tallin chose the latter. The people quickly gathered together and collected whatever food and weapons they could and plunged into the darkness of the caves."
+msgstr ""
+
+#. [side]: type=Peasant, id=Tallin
+#. [side]: type=Dwarvish Lord, id=Hamel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:54
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:95
+msgid "Rebels"
+msgstr ""
+
+#. [side]: type=Troll, id=Knash
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:62
+msgid "Knash"
+msgstr ""
+
+#. [side]: type=Troll, id=Knash
+#. [side]: type=Troll, id=Krog
+#. [side]: type=Troll Warrior, id=Thung
+#. [side]: type=Troll, id=Franik
+#. [side]: type=Troll, id=Henie
+#. [side]: type=Troll Warrior, id=Tor
+#. [side]: type=Troll Warrior, id=Bor
+#. [side]: type=Troll Warrior, id=Oof
+#. [side]: type=Troll Warrior, id=Glu
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:68
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:81
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:122
+#: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:57
+#: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:72
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:331
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:362
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:392
+#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:423
+msgid "Trolls"
+msgstr ""
+
+#. [side]: type=Troll, id=Krog
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:75
+msgid "Krog"
+msgstr ""
+
+#. [side]: type=Dwarvish Lord, id=Hamel
+#. [unit]: type=Dwarvish Lord, id=Hamel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:88
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:242
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:123
+msgid "Hamel"
+msgstr ""
+
+#. [side]: type=Troll Warrior, id=Thung
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:116
+msgid "Thung"
+msgstr ""
+
+#. [objective]: condition=win
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:177
+msgid "Find the Dwarves"
+msgstr ""
+
+#. [objective]: condition=win
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:181
+msgid "Clear the Caves"
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:206
+msgid "So here we are..."
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:210
+msgid " *trip* OOF!!!"
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:214
+msgid "Great idea, Tallin, I probably couldn't even fight a bat down here."
+msgstr ""
+
+#. [message]: type=Blood Bat
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:225
+msgid "Neep Neep!"
+msgstr ""
+
+#. [message]: role=Supporter
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:229
+#: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:433
+msgid "Ahhhh!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:233
+msgid "Calm down. Come what may, we'll handle them. Come on now, let's find those dwarves!"
+msgstr ""
+
+#. [unit]: type=Arch Mage, id=Camerin
+#. [side]: type=Great Mage, id=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:250
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:714
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:115
+msgid "Camerin"
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:261
+msgid "PREPARE TO DIE, YOU FOUL ORC!"
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:265
+msgid "Hold it! I am no orc, I am a human!"
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:269
+msgid "A human! Amazing, I haven't seen a human ever since the orcs attacked."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:273
+msgid "How have you managed to survive all this time?"
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:277
+msgid "By frying every orc, troll or skeleton I come across. Duh! Those monsters desecrated my life's work, now I shall not rest till I send every last one of them to hell! Oh, and just between me and you, it is actually good fun - more fun anyway than sitting on your backside studying all day..."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:281
+msgid "...uh ok!"
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:285
+msgid "But silly me, where are my manners. Would you like to come inside for tea?"
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:289
+msgid "Um... err.... well actually we are presently busy fighting our way through hordes of trolls and skeletons trying to find the dwarves... if there are any left."
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:293
+msgid "Hordes of trolls and skeletons! Where!? Let's go burn 'em all!"
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:297
+msgid "Err... ok...."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:301
+msgid " *Is it safe to have this lunatic with us?*"
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:317
+msgid "BURN, YOU DISGUSTING FILTH!"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:321
+msgid "Ahhh! Fire!"
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:334
+msgid "YEAH! DIE, SCUM, DIE!"
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:351
+msgid "This tunnel keeps on going..."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:355
+msgid "I think we should finish searching this part of Knalga first before we go deeper into the caves."
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:368
+msgid "Grim Gods of Darkness, what are those things!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:372
+msgid "Skeletons!"
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:376
+msgid "Look at the axes they bear. At one time those skeletons must have been dwarves!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:380
+msgid "Stand firm, men. The dwarven defenders of Knalga rise again. Now it remains to be seen whether or not they recognize us as friends."
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:396
+msgid "They are attacking us!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:400
+msgid "Destroy them!"
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:422
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:476
+msgid "Hey look, it's an ancient door. It seems the trolls were too stupid to find how to open it."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:428
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:482
+msgid "Hey look, it's an ancient door. It seems the skeletons were too stupid to find how to open it."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:434
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:488
+msgid "Well, let's see what's behind it."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:438
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:492
+msgid "Alright. *Grunt* *Strain* It's not moving, it seems to be stuck."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:442
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:496
+msgid "Well, just kick it down then."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:446
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:500
+msgid "...right."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:450
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:504
+#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:1832
+#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:1855
+msgid " *SMASH*"
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:524
+msgid "Wow, this place is interesting."
+msgstr ""
+
+#. [message]: speaker=Hamel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:528
+msgid "This is how we get our food, me lad. Since we are a tad close to the surface here, some sunlight shines down through the cracks in the roof. If we baby the plants, we can usually get enough. They taste unco' foul but that's how we ha' survived all these long years."
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:541
+msgid "Tallin, this situation is hopeless - there are endless monsters swarming from all directions!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:545
+msgid "We are in a dire situation indeed - but just see - the trolls and the skeletons are also attacking each other. We must all stay together in one group; let each man support the man next to him. If our ranks are imposing enough the monsters may shy away from us in favor of easier prey."
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:549
+msgid "But still, Tallin, we will take losses, and for each one of us, there is no replacement - whereas for every monster we kill, it seems that two more come to take its place!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:553
+msgid "Which is why we must make haste to find the dwarves. Dwarves are hardy creatures and they know their caves backwards and forwards - so I am sure at least some must have survived! Indeed, this is our only hope for otherwise, be it on the surface or be it down here, any way we turn we face certain destruction!"
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:566
+msgid "Stand where ye be, you... Och! A human!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:570
+msgid "Greetings from the people of Dwarven Doors, friend."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:574
+msgid "Dwarven Doors? I thought ye surface humans had been enslaved or slain by the orcs years ago."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:578
+msgid "Yes, we were enslaved, but we rose against Al'Tar and defeated his warband. In order to stay free, we seek help and equipment from our old allies, the dwarves."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:582
+msgid "Och, the dwarves of Knalga are themselves in desperate straits - but we havena' forgotten the old bonds. Be welcome to our keep. Aye, and have speech with our chieftain, the Lord Hamel."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. [message]: speaker=unit
+#. [message]: id=Father Marcus
+#. [message]: id=Ro'Arthian
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:586
+#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:1623
+#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:2396
+#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:2447
+#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:2499
+#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:2533
+#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:576
+#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:807
+msgid "Very well."
+msgstr ""
+
+#. [objective]: condition=win
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:592
+msgid "Move Tallin to a Dwarvish castle keep or..."
+msgstr ""
+
+#. [objective]: condition=win
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:596
+msgid "Clear the Caves (Bonus)"
+msgstr ""
+
+#. [message]: speaker=Hamel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:624
+msgid "Well met, Tallin. My men have told me of your victory against Al'Tar."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:628
+msgid "Thank you and well-met indeed, Lord Hamel."
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:632
+msgid "Whew, we did it!"
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:636
+msgid "Awww! Are we done already?"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:656
+msgid "Good, we managed to clear the caves... for now, anyway. Now let's get to the dwarven keep and dicker for better weapons."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:662
+msgid "Good, there are no more monsters lurking in these parts of the tunnels. I think I can hear the clamor of dwarves just ahead. Come on men, let's go meet them."
+msgstr ""
+
+#. [message]: role=Messenger
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:684
+msgid "Tallin, we have just received the news that the dwarvish Lord Hamel has just been slain. We are too late!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:688
+#: data/campaigns/Northern_Rebirth/utils/herodeaths.cfg:843
+msgid "No! Without the dwarvish weapons we have no hope!"
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:726
+msgid "Hey, what's going on in here?"
+msgstr ""
+
+#. [message]: role=Admirer
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:734
+msgid "We are killing lots of trolls and skeletons."
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:738
+msgid "Really! Did you save any for me?"
+msgstr ""
+
+#. [message]: role=Admirer
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:742
+msgid "Uh, not really..."
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:746
+msgid "Awwwwww."
+msgstr ""
+
+#. [message]: role=Admirer
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:750
+msgid "But hey, if you want to join us, I am sure we will be fighting a lot more orcs, trolls and skeletons in the near future."
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:754
+msgid "Really! Oh yeah, I am in!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:758
+msgid "...that was rather odd. Who is this guy?"
+msgstr ""
+
+#. [message]: speaker=Hamel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/02_Infested_Caves.cfg:768
+msgid "Oh, dinna' mind him, that'd be Camerin. He used to be yer usual scholarly mage, and he moved awa' up here to be alone and study. But then when the orcs invaded he went a little loony. My guess is that some roving orcs ransacked his place and burnt his notes or something. Whatever it was, he couldna' take it and became fey. Ever since he has been roving these caves destroying any manner of monster that he comes across. They all give him a very wide berth by now. So just be polite, give him some room and you'll find he is relatively harmless..."
+msgstr ""
+
+#. [scenario]: id=dwarven_mines
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:4
+msgid "To the Mines"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:12
+msgid "After reaching the dwarvish keep and tending to their wounded the humans led by Tallin and the dwarves led by Lord Hamel made council."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:15
+msgid "Be welcome to the Southern Tunnels, friends... or at least, what's left o' them."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:19
+msgid "Thank you, Lord Hamel. Though Knalga lies in chaos, it is a great relief to see that at least some dwarves have survived."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:23
+msgid "Thank you, human. It is likewise a great relief to see that our allies of old have managed to break their bonds, and live as free men once again."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:27
+msgid "Yes, that touches on the main reason for our visit. We have broken free, but to stay free we need better weapons and armor. Clubs and pitchforks will not carry us through the long run."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:31
+msgid "Dwarves are known to be the finest metalworkers and weapon-smiths. We were hoping that you would be able to help us."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:35
+msgid "Aye, our craft is great...but we dinna' ha' much of weapons and armor ourselves. We're but a remnant that survived the orcs' in-taking of these caves. There may be other remnants; but if there are, we dinna' yet ken of them."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:39
+msgid "If you don't mind me asking, Lord Hamel, how exactly did you manage to survive the orcish invasion? And since it was the orcs who reduced Knalga to this sorry state - where are they now? From what I have seen, it is mostly trolls and skeletons who lately haunt these caves."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:43
+msgid "Oh, there are orcs enough down here, but ye'll not likely see them; they hide from us like vermin. You see, lad, in these caves there is no more fearsome a foe then a dwarf. Not only do we move through the caves swiftly, but we know them like the backs of our hands. The orcs did indeed manage to swamp our defenses with their sheer numbers all those long years ago, but not before we surprised and slew their leader - the cursed Khazg Black-Tusk. Since then, although the orcs still foul these caves with their stench, their attacks have been uncoordinated and erratic, wi' the orcs as likely to attack each other as they are to attack us."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:47
+msgid "In more recent years, however, I ha' noticed that there have been fewer orcs and more skeletons around. The orcs seem to fear them and shy away from them whenever possible, but their troll allies are another matter. Yon trolls actually seem to take great pleasure out of crushing the skeletons to the dust and sucking any marrow that remains in their bones..."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:51
+msgid "What is the story with those skeletons anyway? They look like they were dwarves when they lived, but now they just seem to be mindless killers, attacking anyone and anything."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:55
+msgid "In truth, we ha' no idea. They just started appearing one day some years after we were trapped here - by ones and twos in the beginning, and now by the hordes. We were fair frightened when we first encountered them, but we soon discovered they fell to our hammers just as readily as the orcs fell to our axes. So, it is not their existence I fear - for we have faced far worse trials - but their rising numbers gives cause for worry..."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:59
+msgid "Well, we are here with you now Lord Hamel, and in exchange for proper weapons, we will gladly assist you in clearing these caves of monsters."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:63
+msgid "That is the problem lad, we ha' been stranded in these tunnels for years now, almost completely cut off from sources of food or metals or tools. It ha' been as much as we could do to survive. We'll get more food again now that we can reach the surface, and tools aplenty there are in the stores where we couldna' reach while the orcs and trolls held them. But metal will be scarce for a while yet; ore will have to be brought in for smelting, first."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:67
+msgid "So, is there not any source of good ores nearby?"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:71
+msgid "Aye, there is. A few miles north of here is the place where we mined many of our raw metals. However, that place also seems to be where all those skeletons are coming from. For all that we have managed to hold the skeletons off in our own keep, I dare not venture right into their lair. To go there would mean certain death."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:75
+msgid "With all respect, my Lord Hamel, we the people from Dwarven Doors have faced certain death many times now. Rising up against the orcs was said to be certain death. Plunging headfirst into these bleak caves was said to be certain death. If our fate is death then so be it. Until that time comes, my people will fight and I will lead them to fight!"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:79
+msgid "Och, human though ye be, ye speak very like a dwarf, lad. Form, up men! To the mines! Let the guardsmen stay behind along with the noncombatants - for their safety and to hold the keep."
+msgstr ""
+
+#. [side]: type=Direwolf Rider, id=Pruol
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:107
+msgid "Pruol"
+msgstr ""
+
+#. [objective]: condition=win
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:138
+msgid "Get into the mines or..."
+msgstr ""
+
+#. [objective]: condition=win
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:142
+msgid "Just kill the annoying little puppies"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:169
+msgid "Hoping to bypass the monsters which seemed to lurk at every corner in the caves, the humans and the dwarves returned to the surface hoping to speedily reach the mines. However, once they left the caves they found that they faced a new threat."
+msgstr ""
+
+#. [message]: speaker=Pruol
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:174
+msgid "Hey look, there is our meat! Come on, boys, lunchtime!"
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:178
+msgid "I don't think so, buddy."
+msgstr ""
+
+#. [message]: speaker=Pruol
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:191
+msgid "Argh! They are stronger then we thought. Someone go tell the Master..."
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:195
+msgid "What's with this 'Master' business? It's starting to make me nervous."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:210
+msgid "Here is the entrance to the dwarven mines. In we go!"
+msgstr ""
+
+#. [message]: speaker=Pruol
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:214
+msgid "Hey, there goes our lunch! Hmmm, they are stronger then we thought, let's go tell Master."
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/03_To_The_Mines.cfg:218
+msgid "What's with this whole 'Master' business? It's starting to make me nervous."
 msgstr ""
 
 #. [scenario]: id=pursuit
@@ -2034,16 +2397,6 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:883
 msgid "You're telling me."
-msgstr ""
-
-#. [side]: type=Drake Burner, id=Krash
-#. [unit]: type=Drake Burner, id=Krash
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:118
-#: data/campaigns/Northern_Rebirth/scenarios/05a_The_Pursuit.cfg:904
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:227
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:190
-msgid "Krash"
 msgstr ""
 
 #. [message]: speaker=unit
@@ -3276,20 +3629,6 @@ msgstr ""
 msgid "Tallin never knew exactly how much time passed, but eventually Malifor's lich-servants declared him fit for service and he was summoned before their dread Master. Through a hideous blood ritual, Malifor gave him the power to animate corpses. He was then sent to a distant network of tunnels to clear out a group of trolls who had taken up residence there."
 msgstr ""
 
-#. [side]: type=Peasant, id=Tallin
-#. [side]: type=Ancient Lich, id=Malifor
-#. [side]: type=Dark Adept, id=Deory
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:146
-#: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:44
-#: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:77
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:56
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:107
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:185
-#: data/campaigns/Northern_Rebirth/scenarios/09b_Judgement.cfg:35
-msgid "Minions"
-msgstr ""
-
 #. [side]: type=Troll, id=Franik
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:51
@@ -3313,6 +3652,541 @@ msgstr ""
 #: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:245
 #: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:332
 msgid "Argh! I have failed my master."
+msgstr ""
+
+#. [side]: type=Peasant, id=Tallin
+#. [side]: type=Ancient Lich, id=Malifor
+#. [side]: type=Dark Adept, id=Deory
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:146
+#: data/campaigns/Northern_Rebirth/scenarios/05b_Compelled.cfg:44
+#: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:77
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:56
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:107
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:185
+#: data/campaigns/Northern_Rebirth/scenarios/09b_Judgement.cfg:35
+msgid "Minions"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:576
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:367
+msgid "At last, I am free..."
+msgstr ""
+
+#. [scenario]: id=lost
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:4
+msgid "Ray of Hope"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:11
+msgid "With Malifor's death, the magical controls over Tallin's will vanished. Being suddenly confronted with the reality of his actions was too much for him, and so he fled. As he did so, visions of his dying friends - friends that he had slain - flashed before his eyes, while their voices chided him from the darkness. Frantically he tried to escape their condemnation, but it seemed that at every successive turn their numbers grew greater and greater, and their words cut more and more deeply into his ravaged soul. Screaming in desperation, he called upon his arts to banish them forever into the lands of the dead, but they seemed to laugh at his attempts and rebuke him even more forcibly for his betrayal."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:16
+msgid "His thoughts soon turned to death as the only way to escape his punishment, and he immediately drew his dagger and plunged it into his heart. But as he stabbed himself again and again, he found that his feeble body failed to collapse, and his life force continued to dwell within his bones. Desperate, Tallin cast about for other ways of self-destruction. He soon detected the presence of a large body of water nearby, and some great monster living within its depths, and he stumbled blindly towards the oblivion offered by both."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:20
+msgid "But as he approached the dark and menacing depths, he was accosted by the ghost of yet another creature."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:24
+msgid "Abhai: Halt right there, oh vile minion of Malifor! Your attempts to enslave me yet again will fail. All you shall find here will be your own destruction!"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:29
+msgid "By the gods of darkness, what harm have I done to you? You have not been slain by me, nor by my minions. And Malifor is dead, and by the Gods I will never serve any of his likes ever again! Now get out of my way!"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:34
+msgid "Abhai: Hold! Malifor has been slain? Then why am I not yet free of this ethereal body? Am I doomed to an eternity of unlife?"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:39
+msgid "Your troubles are none of my concerns. Begone!"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:44
+msgid "Abhai: Now wait! Who are you, and what are you doing coming in this direction? I sense you are well versed in the dark arts; can you rid me of this body?"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:49
+msgid "I am Tallin. I was once a free man leading my people in a revolution against their orcish overlords, but I was tricked and enslaved by Malifor. While under his control, I have done unthinkable deeds - I have studied the most forbidden of arts, I have robbed the dead of their rest, and I have mercilessly butchered my friends like some sort of mindless abomination. Now I am haunted by all the evil I have done, and I see no way of escaping this torment other then self destruction."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:54
+msgid "Abhai: I don't think death will help you, my boy. As I am sure you have already learned, death itself will have nothing to do with you. Even if your body is destroyed, your life force will still roam this world in torment. Such is the fate for the likes of us."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:59
+msgid "Then what shall we do? The dying shrieks of my friends haunt me endlessly. It was because of me that they rose up against the orcs in the first place! They trusted me to always be there with them, guiding and leading them, and putting myself in the forefront of every battle. If I were not there they never would have risked their lives - nay, if I were not there they wouldn't be dead right now! And I betrayed them! Those who trusted me most I slew with my own hands!"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:64
+msgid "Abhai: Be at peace, Tallin. I know of the trials that you have gone through, for I have faced them myself, and having faced those same trials I can say that you are not at fault. It was Malifor who had bound you to his will, and thus the blame of all your crimes falls on him. Now that he is dead, you are free, both of his will, and of the crimes he has committed through you."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:69
+msgid "Nevertheless, it was my hands which wielded the staff that shattered the skulls of my friends. It was my lips which spoke the incantations to blast them with spells, or beset them with nightmares from another world. It was I who was not strong enough to resist his will. Your words, although kind, are not enough to relieve me of my guilt."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:74
+msgid "Abhai: Whether or not you are at fault is often impossible for men like us to judge. Sometimes you think you are at fault while you actually are not, and at other times, you sometimes think you have committed no crime while you actually have. But there is one way in which this matter can be settled beyond the shadow of a doubt."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:79
+msgid "How is that?"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:84
+msgid "Abhai: You must find the Rod of Justice."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:89
+msgid "The Rod of Justice? I have never heard of it."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:94
+msgid "Abhai: You haven't? It was an ancient artifact even when I was young. They say it was crafted by the Great Gods themselves, and given to the first true Ruler of Men to ensure peace, harmony and above all - justice. For hundreds of years now, it passed from king to successor. Ever since it has been wielded by men, the ruling class never became corrupt, the people never lacked justice and neither evil nor wars ever troubled the land."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:99
+msgid "Well, that certainly isn't the state of affairs now. Knalga lies in ruins, orcs ravish the surface, and dark and evil creatures haunt the underground passages. In the meantime, Wesnoth is said to be ruled by the wicked and cruel queen Asheviere, while the rightful heir must have long since perished in his vain quest for the Scepter of Fire."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:104
+msgid "I had assumed things would be in such a state, as I can faintly sense the presence of the Rod of Justice nearby. I thought that if I could somehow reach the Rod, I would be able to destroy Malifor and be free of this state. Alas, it seems to be in vain now..."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:109
+msgid "But you said that this Rod may be able to help me?"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:114
+msgid "Abhai: Yes, my boy. When I was king, I wielded the Rod of Justice. It contains such power that no creature that I have ever encountered can dare stand before it. However, if a person who grasps the staff is a criminal, or has a heart full of dark and evil, then the staff will smite them down as surely as you are standing there."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:119
+msgid "So you suggest that I grasp this Rod of Justice, as if it were to judge me?"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:124
+msgid "Abhai: That is exactly what I suggest, my boy. When you grasp it, if you are destroyed, then that is an end to your torment. If you are not, then you know beyond a shadow of a doubt that the Great Gods do not hold you responsible for the acts Malifor has committed through you. Either way, it will be an end to your suffering."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:129
+msgid "Then we must find this rod. Lead the way, my friend."
+msgstr ""
+
+#. [side]: type=Fire Dragon, id=Machador
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:154
+msgid "Machador"
+msgstr ""
+
+#. [side]: type=Fire Dragon, id=Machador
+#. [side]: type=Blood Bat, id=Blood Bat 3
+#. [side]: type=Blood Bat, id=Blood Bat 4
+#. [side]: type=Blood Bat, id=Blood Bat 5
+#. [side]: type=Blood Bat, id=Blood Bat 6
+#. [side]: type=Blood Bat, id=Blood Bat 7
+#. [side]: type=Troll Warrior, id=Gurk
+#. [side]: type=Drake Flare, id=Kishmish
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:158
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:169
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:196
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:224
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:251
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:278
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:306
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:318
+msgid "Monsters"
+msgstr ""
+
+#. [side]: type=Troll Warrior, id=Gurk
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:302
+msgid "Gurk"
+msgstr ""
+
+#. [side]: type=Drake Flare, id=Kishmish
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:314
+msgid "Kishmish"
+msgstr ""
+
+#. [objective]: condition=win
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:329
+msgid "Find the Rod of Justice"
+msgstr ""
+
+#. [objective]: condition=lose
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:337
+msgid "Death of Abhai"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:529
+msgid "Tallin, accompanied by the ghost of the king - whose name he soon discovered to be Abhai - set off down the tunnels in search of the Rod of Justice. However, their way was soon blocked by the body of water that Tallin had sensed, as well as the monster that dwelt in its depths."
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:535
+msgid "I have tried to pass by this body of water many times, but each time the creature that dwells in the depths blocks me. I have cut off many of it's arms and yet they still keep growing back. However, without entering the depths of these waters we can't destroy the creature."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:541
+msgid "Then we shall have to pass it by. If we quickly cut off it's arms we may be able to make a safe crossing."
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:546
+msgid "To do this, Tallin, you must call upon your art, for simply the both of us together will not be sufficient to cut off it's arms fast enough."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:552
+msgid "Never! I refuse to utter those cursed words!"
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:557
+msgid "No art in itself is ever evil, my boy; evil or good is in is the use to which it is put. But now is not the time to argue; see how the arms of this creature reach for us! Quickly, we must defeat this creature!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:563
+msgid "Very well, if there is no other way..."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:595
+msgid "I don't know what it is, but I can sense some sort of energy radiating from yonder passage. Could this possibly be the Rod of Justice, Abhai?"
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:600
+msgid "I don't think so, my boy. I sense the Rod's power coming from another direction. However, one can never be too sure in matters such as these. It would be wise to investigate."
+msgstr ""
+
+#. [message]: type=Giant Spider
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:623
+msgid "HISSSSSS"
+msgstr ""
+
+#. [object]: id=strength_amulet
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:643
+msgid "Showing signs of ancient elvish manufacture, this amulet grants whomever is wearing it increased strength, stamina and protection against fire and arcane attacks."
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:667
+msgid "The Amulet of Strength, how fascinating. However - though it may be a useful trinket, it is hardly the Rod of Justice. Let us proceed in our mission."
+msgstr ""
+
+#. [message]: speaker=Troll
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:701
+msgid "Bah! More undead. Alert chief!"
+msgstr ""
+
+#. [unit]: type=Dwarvish Lord, id=Haffel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:745
+msgid "Haffel"
+msgstr ""
+
+#. [unit]: type=Dwarvish Dragonguard, id=Hekkna
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:754
+msgid "Hekkna"
+msgstr ""
+
+#. [message]: speaker=Haffel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:822
+msgid "Sound the alert boys, a group of undead approach."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:828
+msgid "Peace, peace! We do not wish to fight. Let us pass and we shall do you no harm."
+msgstr ""
+
+#. [message]: speaker=Haffel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:833
+msgid "Ha! You hear that, brother! This scum says he means us no harm, and simply wishes to pass!"
+msgstr ""
+
+#. [message]: speaker=Hekkna
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:838
+msgid "Haha! As if he can just 'pass through' a Drake nesting cave."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:844
+msgid "We have no business with these creatures you speak of. We simply seek the Rod of Justice."
+msgstr ""
+
+#. [message]: speaker=Haffel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:849
+msgid "Ah ha! That's what he is after. I bet he is having delusions of using it to conquer the world or something."
+msgstr ""
+
+#. [message]: speaker=Hekkna
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:854
+msgid "Haha!"
+msgstr ""
+
+#. [message]: speaker=Haffel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:859
+msgid "Well, tell you what buddy, I just ate so I am not really in the mood for a fight right now. Let me just give you the facts and then you can turn around and leave."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:865
+msgid "What facts?"
+msgstr ""
+
+#. [message]: speaker=Haffel
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:870
+msgid "First of all, most people can't hold the Rod of Justice for more then a few seconds without it burning their hand. For you, it would probably burn you up alive in seconds. Secondly, it has been in the possession of an extremely powerful and ancient dragon for centuries now. Not only will the dragon roast you alive, but he has a whole nest of drakes at his beck and call to join in the fun."
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:875
+msgid "A dragon. Hmmm, creatures such as these are often fascinated by magical objects. However, the Rod of Justice is far too important to be simply the plaything of a dragon. Tallin, we must retrieve it and bring peace to this land."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:881
+msgid "Now hold on, here, what is this talk of me saving the world all the sudden. Just take a look at who you are talking to here..."
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:886
+msgid "I guess now is not the right time to bring up this topic. However, the fact remains, we much reach the Rod of Justice."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:892
+msgid "Agreed, but I do not wish to stain my hands with the blood of these creatures as well."
+msgstr ""
+
+#. [message]: speaker=Hekkna
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:897
+msgid "We also would much rather take a nap, but if you don't hurry up and move it we will shoot you down."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:903
+msgid "You leave us with no choice."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:922
+msgid "Pew, it's hot down here!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:928
+msgid "I have a feeling that this is the lair of that dragon those chaps were talking about a while back."
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:933
+msgid "You must be right, I feel that the Rod of Justice is extremely close now."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:948
+msgid "We have broken into the drake nest. Although we must fight our way through, let us avoid the side passages where I am sure the hatchlings are raised. Destroying them would simply be needless killing."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:962
+msgid "Wow, that's a long way up! This must be the place where drakes leave their nest when they grow wings."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:976
+msgid "I can see a tiny speck of light in the distance. We must be miles from the surface."
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:981
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1000
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1019
+msgid "If you are quite finished enjoying the view, then get your sorry soul back in line. I don't know why you bothered going down that passage in the first place - nothing there but a bunch of bats."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:995
+msgid "I found a way to the surface - that is if you feel like climbing straight up for miles on end..."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1014
+msgid "Wow, a tiny patch of sunlight all the way down here."
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1033
+msgid "Don't bother heading down this passage further Tallin, I am sure that The Rod is not in this direction."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1047
+msgid "I can faintly feel a breeze of fresh air. Perhaps this passage leads to the surface."
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1052
+msgid "We do not seek the surface, Tallin, we seek the Rod of Justice. I see no gain from exploring this passage further."
+msgstr ""
+
+#. [message]: speaker=Machador
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1064
+msgid "You fools! Have the land of the dead refused you entry that you have dared come here!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1070
+msgid "We do not wish to fight you, Great One, we simply seek the Rod of Justice - which we believe is in your possession."
+msgstr ""
+
+#. [message]: speaker=Machador
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1075
+msgid "The Rod of Justice was not made to be the plaything of a demented sorcerer such as you. It is perhaps the most powerful artifact that I have ever encountered."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1081
+msgid "We need that Rod of Justice, dragon. If you don't hand it over to us peacefully, then we will have to take it by force."
+msgstr ""
+
+#. [message]: speaker=Machador
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1086
+msgid "I tire of your insolence! Prepare to die!"
+msgstr ""
+
+#. [message]: speaker=Machador
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1098
+msgid "How shameful! I have lived for over fifty thousand years, I have crushed countless foes and raised countless generations of drakes - and now I am defeated by a mere Sorcerer!"
+msgstr ""
+
+#. [message]: speaker=Abhai
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1103
+msgid "Well done, Tallin. The Rod of Justice is ours now. Now go forth, grasp the Rod of Justice and put all your fears and nightmares to rest."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1131
+msgid "I really should slay the dragon before I touch this..."
 msgstr ""
 
 #. [scenario]: id=old_friend
@@ -3507,49 +4381,6 @@ msgstr ""
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:220
 #: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:120
 msgid "Knalgans"
-msgstr ""
-
-#. [unit]: type=Orcish Sovereign, id=Rakshas
-#. [side]: type=Orcish Sovereign, id=Rakshas
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:191
-#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:151
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:57
-#: data/campaigns/Northern_Rebirth/scenarios/09b_Judgement.cfg:43
-msgid "Rakshas"
-msgstr ""
-
-#. [side]: type=Troll Warrior, id=Gore
-#. [side]: type=Orcish Warlord, id=Carron
-#. [side]: type=Orcish Warlord, id=Rash
-#. [side]: type=Orcish Warlord, id=Al'Mar
-#. [side]: type=Orcish Warlord, id=Ha'Tang
-#. [side]: type=Orcish Sovereign, id=Rakshas
-#. [side]: type=Orcish Warlord, id=Drung
-#. [side]: type=Orcish Warlord, id=Poul
-#. [side]: type=Orcish Warlord, id=Ha'Tuil
-#. [side]: type=Orcish Warlord, id=Ar'Muff
-#. [side]: type=Orcish Warlord, id=Calter
-#. [side]: type=Orcish Warlord, id=Halter
-#. [side]: type=Orcish Warlord, id=Atul
-#. [side]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:52
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:69
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:82
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:95
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:108
-#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:158
-#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:177
-#: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:195
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:65
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:102
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:134
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:166
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:198
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:197
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:205
-msgid "Orcs"
 msgstr ""
 
 #. [side]: type=Orcish Warlord, id=Drung
@@ -4148,14 +4979,6 @@ msgstr ""
 msgid " *giggle* Something like that."
 msgstr ""
 
-#. [message]: speaker=Tallin
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:141
-#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:145
-msgid " *rolls eyes*"
-msgstr ""
-
 #. [part]
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:149
@@ -4216,22 +5039,6 @@ msgstr ""
 msgid "And so Tallin and his party set out to secure the help of the mages."
 msgstr ""
 
-#. [unit]: type=Dwarvish Lord, id=Stalrag
-#. [side]: type=Dwarvish Lord, id=Stalrag
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:244
-#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:213
-msgid "Stalrag"
-msgstr ""
-
-#. [unit]: type=Ancient Lich, id=Ro'Arthian
-#. [side]: type=Ancient Lich, id=Ro'Arthian
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:257
-#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:231
-msgid "Ro'Arthian"
-msgstr ""
-
 #. [objective]: condition=win
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:254
@@ -4242,15 +5049,6 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:258
 msgid "Death of Tallin or Stalrag."
-msgstr ""
-
-#. [unit]: type=Lich, id=Ro'Sothian
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:269
-#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:302
-#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:608
-#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:735
-msgid "Ro'Sothian"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -4626,18 +5424,6 @@ msgstr ""
 msgid "Wait a second, Tallin. Are you saying that we should abandon our homeland to these wretched mages!?"
 msgstr ""
 
-#. [message]: speaker=Anita
-#. [message]: id=Ro'Sothian
-#. [message]: speaker=Ro'Sothian
-#. [message]: id=Ro'Arthian
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:451
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:1037
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1093
-#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:771
-msgid " *snicker*"
-msgstr ""
-
 #. [message]: id=Tallin
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:775
@@ -4704,996 +5490,12 @@ msgstr ""
 msgid "No! If Stalrag dies now none of his men will follow us. We are finished."
 msgstr ""
 
-#. [scenario]: id=protecting_the_master
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:4
-msgid "Protecting the Master"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:17
-msgid "As Tallin sat staring blankly at the body of his former friend - loathing and hating what he had become - he received an urgent summons from his Master."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:21
-msgid "The attack Tallin had been sent to thwart had been a decoy. While Tallin was away, Tallin's former friends had attacked Malifor's study with overwhelming force."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:26
-msgid "Although Tallin was glad in his heart to see Malifor in such distress, the sorcerous geas on his mind compelled him to go to his Master's aid. When he got there, he found that all the outer defenses had been smashed and Malifor had bolted himself up in his study. Bound by the will of their Master, Tallin and his minions took up positions outside Malifor's study door."
-msgstr ""
-
-#. [objective]: condition=win
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:38
-msgid "Resist Till the End of Turns"
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:343
-msgid "Look, the traitor Tallin has come to protect his master."
-msgstr ""
-
 #. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:349
-msgid " Camerin! Please get out of here. Don't make me kill you too."
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:354
-msgid "Fat chance, buddy. I can handle the likes of you in my sleep. Fall on them, boys!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:576
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:367
-msgid "At last, I am free..."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:380
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:587
-msgid " *BOOM!*"
-msgstr ""
-
-#. [message]: speaker=Malifor
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:426
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:635
-msgid "What the.... NO!!!"
-msgstr ""
-
-#. [message]: speaker=Sister Theta
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:431
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:640
-msgid "HEEEEE-YAAAAA!!!"
-msgstr ""
-
-#. [message]: speaker=Malifor
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:456
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:665
-msgid "CURSES ON YOU YOU BLASTED MAGES, CURSES ON YOU YOU BLASTED HUMANS, CURSES ON YOU YOU BLASTED DWARVES! MAY YOUR MISERABLE LIVES BE FULL OF TORTURE! MAY YOUR PEOPLE NEVER BE FREE! MAY ALL YOUR NEAR AND DEAR DESERT YOU! MAY A THUNDERBOLT HIT YOUR HEAD! MAY..."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:482
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:696
-msgid "Malifor is dead... what have I done? What am I going to do? I must flee this place!"
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:487
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:701
-msgid "Hey, there goes the traitor Tallin!"
-msgstr ""
-
-#. [message]: speaker=Father Marcus
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:492
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:706
-msgid "Let him go. He was not acting under his free will and thus there is no blame attached to him. I have known of many such poor souls. If he does trouble us in the future, however, we should not spare him."
-msgstr ""
-
-#. [message]: speaker=Sister Theta
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:497
-msgid "Besides, he will probably just go and drown himself in the nearest river anyway, so why bother killing him?"
-msgstr ""
-
-#. [message]: speaker=Deory
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:513
-msgid "Ahhh! Master, help me!"
-msgstr ""
-
-#. [message]: speaker=Malifor
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:518
-msgid "Serves you right, you useless excuse for a slave."
-msgstr ""
-
-#. [message]: speaker=Deory
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:532
-msgid "Master! Tallin is taking my villages!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:538
-msgid "Shut up, you idiot. I know what I am doing."
-msgstr ""
-
-#. [message]: speaker=Malifor
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:543
-msgid "Agreed. And if you don't keep your mouth shut, I will personally shut it for you!"
-msgstr ""
-
-#. [message]: speaker=Deory
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:548
-msgid " *Gulp*"
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:563
-msgid "Hmmm, you aren't as bad as I thought, Tallin. Unfortunately for you, we aren't ready to give up just yet."
-msgstr ""
-
-#. [message]: speaker=Camerin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:690
-msgid "Pew! Nick of time too - I almost bought it there!"
-msgstr ""
-
-#. [message]: speaker=Sister Theta
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:711
-msgid "Besides, he will probably just go and drown himself in the nearest river anyway, so why bother?"
-msgstr ""
-
-#. [scenario]: id=elvish_princess
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:5
-msgid "Elvish Princess"
-msgstr ""
-
 #. [part]
 #. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:20
-msgid "After securing the help of the two lich-mages, the party returned to Knalga."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:24
-msgid "Och, that was a piece o' good work, lad, getting both the lich-mages and Stalrag on our side. Now let's plan our way to bringing Rakshas down..."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:27
-msgid "The lich-mages sent forth gryphons to scout out the number, formation and deployment of the orcish forces, and to seek allies as well."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:30
-msgid "One day a gryphon came screeching into the caves with the news that a large elvish force approached from the east. Messages were quickly dispatched to the elves asking their purpose. The haughty reply was that their purpose was none of any dwarf's or human's business, and that all would be well-advised to stay in their holes when the elves passed near."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:33
-msgid "Before the humans and dwarves could respond to this message, another gryphon arrived with the news that the orcs were holding an elvish sorceress prisoner in the castle of Bitterhold, less than a day's march distant to the northwest. The castle had attracted notice because it had been recently rebuilt and manned by a unit known to include some of the hardiest and toughest of veteran orcs."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:36
-msgid "Gryphons and a picked force of human woodsmen were sent out that very night, and less than two days later managed to ambush an orcish messenger on the road out of Bitterhold. The messenger was carrying a ransom demand to the elves - for the sorceress was, in fact, a princess of the highest rank."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:39
-msgid "The leaders met in council, considering what to do..."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:42
-msgid "This kidnapped princess explains a great deal. It is not easy to draw the elves out of their forests."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:46
-msgid "Aye, lad. Her kin will have come either to do battle or pay ransom. By the looks of things, they've busked themselves for either."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:51
-msgid "Pahhh, who cares. Let the elves and orcs chop each other into mincemeat. It will just make things easier for us."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:55
-msgid "Hah! I ken yer brain has rotted awa' entire. Think on it, skull-head, what would happen if the elves dinna' fight and pay the ransom instead?"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:59
-msgid "Do you want to die, dwarf?"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:63
-msgid "Peace, peace! If you two want to kill something, there are plenty of orcs outside."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:67
-msgid "But you do have a point, Stalrag, That ransom will buy more troops and weapons for the orcs, worse news for us."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:71
-msgid "I think we have a chance to make new some allies here..."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:75
-msgid "Allies? I take it we're to go to them and ask them to join us in return for our help in rescuing their Princess? You heard their message - those elves have got their noses so high in the air they canna' see over them. They wouldna' ally themselves with the likes o' us."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:79
-msgid "Of course we won't do that. As a matter of fact I think it's best that we don't say anything to the elves at all."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:83
-msgid "Why d'ye say that?"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:87
-msgid "Well, suppose we do join up with the elves - assuming they will let us - and we make a combined raid on the fortress, what will the orcs most likely do when the ransom slips from their grasp?"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:91
-msgid "Kenning the way of orcs, belike they'd kill the princess, especially if it seems the rescue ha' any chance of succeeding."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:95
-msgid "Exactly. On the other hand, if we raided the fortress while the orcs were talking ransom with the elves, the orcs might hesitate just long enough."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:99
-msgid "Hmmm...I think you've the right of it, lad. Most orcs being thicker than a wood-knot, I'd lay odds on Rakshas giving strict orders that she not be touched without his direct word on the matter."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:103
-msgid "But it would be unwise to trust that the orcs will stay stupid forever. If we do go ahead with this raid, we are going to have to be in and out like lightning."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:107
-msgid "My Shinsplitters will be invaluable for a job like this. They are fierce and never give ground and will not stop attacking until either they or their opponent lies dead. No fortress can stand long against them."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:111
-msgid "Ha ha, I like this plan. Once we get our hands on this little sorceress the elves will be forced to do whatever we want them to."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:115
-msgid "Remember, Ro'Arthian, we need willing allies rather than resentful lackeys that would turn on us at the first reverse. If we rescue their princess, the elves may yet choose not to help us, but that is a risk we'll have to take."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:119
-msgid "Elves are deeply honor-bound, especially in matters that touch their kin. If we rescue the princess, I am certain the deed will not go without reward."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:123
-msgid "And at the very least, the orcs will not be able to raise troops with ransom money they don't have."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:127
-msgid "Bah...weak, soft humans. Have it your way if you must."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:131
-msgid "So it shall be, Tallin, I'll hold the caves here while you and Stalrag's Shinsplitters fare to Bitterhold. The orcs still haven't given up their attack on our southern tunnels."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:135
-msgid "Then to arms, men! For Knalga and the princess!"
-msgstr ""
-
-#. [objective]: condition=win
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:151
-msgid "Rescue the Princess"
-msgstr ""
-
-#. [objective]: condition=lose
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:400
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:423
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:927
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:950
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:973
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:159
-#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:335
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:568
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:770
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:889
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1014
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:436
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:459
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:482
-msgid "Death of Ro'Arthian"
-msgstr ""
-
-#. [objective]: condition=lose
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:404
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:427
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:931
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:954
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:977
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:163
-#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:339
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:572
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:774
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:893
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1018
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:440
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:463
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:486
-msgid "Death of Ro'Sothian"
-msgstr ""
-
-#. [side]: type=Orcish Warlord, id=Atul
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:190
-msgid "Atul"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:462
-msgid "Upon emerging from the mouth of a hidden tunnel near the fortress, Tallin and his men surveyed the scene before them."
-msgstr ""
-
-#. [message]: id=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:467
-msgid "There's the fortress of Bitterhold. A grim and impressive pile indeed..."
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:471
-msgid "They have dammed the river to make a moat for their castle."
-msgstr ""
-
-#. [message]: id=Ro'Arthian
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:475
-msgid "Are we here to sight-see or to rescue this blasted sorceress? And if you really want to sight-see, then check out that orcish encampment south of us."
-msgstr ""
-
-#. [message]: id=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:479
-msgid "Just our luck to be here when they're mustering a field force - probably to attack the caves. Avoid them if you can, kill them if you can't."
-msgstr ""
-
-#. [message]: id=Atul
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:483
-msgid "INTRUDERS! KILL THEM!!!"
-msgstr ""
-
-#. [unit]: type=Elvish Sorceress, id=Anita
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:504
-msgid "Anita"
-msgstr ""
-
-#. [message]: id=Anita
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:515
-msgid "I am free! Thank you, my saviors. Who has come to rescue me from vile captivity?"
-msgstr ""
-
-#. [message]: id=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:520
-msgid "Later, princess, first let's get outta -- uh, let us take our leave of this place as swiftly as may be!"
-msgstr ""
-
-#. [message]: id=Anita
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:524
-msgid "Lead; I will follow."
-msgstr ""
-
-#. [message]: race=orc
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:538
-msgid "Hey, those intruders are going to free the elf! We can't let that happen! Kill her! Kill the elf!"
-msgstr ""
-
-#. [message]: id=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:542
-msgid "Darn it! We weren't fast enough."
-msgstr ""
-
-#. [scenario]: id=lost
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:4
-msgid "Ray of Hope"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:11
-msgid "With Malifor's death, the magical controls over Tallin's will vanished. Being suddenly confronted with the reality of his actions was too much for him, and so he fled. As he did so, visions of his dying friends - friends that he had slain - flashed before his eyes, while their voices chided him from the darkness. Frantically he tried to escape their condemnation, but it seemed that at every successive turn their numbers grew greater and greater, and their words cut more and more deeply into his ravaged soul. Screaming in desperation, he called upon his arts to banish them forever into the lands of the dead, but they seemed to laugh at his attempts and rebuke him even more forcibly for his betrayal."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:16
-msgid "His thoughts soon turned to death as the only way to escape his punishment, and he immediately drew his dagger and plunged it into his heart. But as he stabbed himself again and again, he found that his feeble body failed to collapse, and his life force continued to dwell within his bones. Desperate, Tallin cast about for other ways of self-destruction. He soon detected the presence of a large body of water nearby, and some great monster living within its depths, and he stumbled blindly towards the oblivion offered by both."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:20
-msgid "But as he approached the dark and menacing depths, he was accosted by the ghost of yet another creature."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:24
-msgid "Abhai: Halt right there, oh vile minion of Malifor! Your attempts to enslave me yet again will fail. All you shall find here will be your own destruction!"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:29
-msgid "By the gods of darkness, what harm have I done to you? You have not been slain by me, nor by my minions. And Malifor is dead, and by the Gods I will never serve any of his likes ever again! Now get out of my way!"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:34
-msgid "Abhai: Hold! Malifor has been slain? Then why am I not yet free of this ethereal body? Am I doomed to an eternity of unlife?"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:39
-msgid "Your troubles are none of my concerns. Begone!"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:44
-msgid "Abhai: Now wait! Who are you, and what are you doing coming in this direction? I sense you are well versed in the dark arts; can you rid me of this body?"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:49
-msgid "I am Tallin. I was once a free man leading my people in a revolution against their orcish overlords, but I was tricked and enslaved by Malifor. While under his control, I have done unthinkable deeds - I have studied the most forbidden of arts, I have robbed the dead of their rest, and I have mercilessly butchered my friends like some sort of mindless abomination. Now I am haunted by all the evil I have done, and I see no way of escaping this torment other then self destruction."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:54
-msgid "Abhai: I don't think death will help you, my boy. As I am sure you have already learned, death itself will have nothing to do with you. Even if your body is destroyed, your life force will still roam this world in torment. Such is the fate for the likes of us."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:59
-msgid "Then what shall we do? The dying shrieks of my friends haunt me endlessly. It was because of me that they rose up against the orcs in the first place! They trusted me to always be there with them, guiding and leading them, and putting myself in the forefront of every battle. If I were not there they never would have risked their lives - nay, if I were not there they wouldn't be dead right now! And I betrayed them! Those who trusted me most I slew with my own hands!"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:64
-msgid "Abhai: Be at peace, Tallin. I know of the trials that you have gone through, for I have faced them myself, and having faced those same trials I can say that you are not at fault. It was Malifor who had bound you to his will, and thus the blame of all your crimes falls on him. Now that he is dead, you are free, both of his will, and of the crimes he has committed through you."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:69
-msgid "Nevertheless, it was my hands which wielded the staff that shattered the skulls of my friends. It was my lips which spoke the incantations to blast them with spells, or beset them with nightmares from another world. It was I who was not strong enough to resist his will. Your words, although kind, are not enough to relieve me of my guilt."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:74
-msgid "Abhai: Whether or not you are at fault is often impossible for men like us to judge. Sometimes you think you are at fault while you actually are not, and at other times, you sometimes think you have committed no crime while you actually have. But there is one way in which this matter can be settled beyond the shadow of a doubt."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:79
-msgid "How is that?"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:84
-msgid "Abhai: You must find the Rod of Justice."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:89
-msgid "The Rod of Justice? I have never heard of it."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:94
-msgid "Abhai: You haven't? It was an ancient artifact even when I was young. They say it was crafted by the Great Gods themselves, and given to the first true Ruler of Men to ensure peace, harmony and above all - justice. For hundreds of years now, it passed from king to successor. Ever since it has been wielded by men, the ruling class never became corrupt, the people never lacked justice and neither evil nor wars ever troubled the land."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:99
-msgid "Well, that certainly isn't the state of affairs now. Knalga lies in ruins, orcs ravish the surface, and dark and evil creatures haunt the underground passages. In the meantime, Wesnoth is said to be ruled by the wicked and cruel queen Asheviere, while the rightful heir must have long since perished in his vain quest for the Scepter of Fire."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:104
-msgid "I had assumed things would be in such a state, as I can faintly sense the presence of the Rod of Justice nearby. I thought that if I could somehow reach the Rod, I would be able to destroy Malifor and be free of this state. Alas, it seems to be in vain now..."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:109
-msgid "But you said that this Rod may be able to help me?"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:114
-msgid "Abhai: Yes, my boy. When I was king, I wielded the Rod of Justice. It contains such power that no creature that I have ever encountered can dare stand before it. However, if a person who grasps the staff is a criminal, or has a heart full of dark and evil, then the staff will smite them down as surely as you are standing there."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:119
-msgid "So you suggest that I grasp this Rod of Justice, as if it were to judge me?"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:124
-msgid "Abhai: That is exactly what I suggest, my boy. When you grasp it, if you are destroyed, then that is an end to your torment. If you are not, then you know beyond a shadow of a doubt that the Great Gods do not hold you responsible for the acts Malifor has committed through you. Either way, it will be an end to your suffering."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:129
-msgid "Then we must find this rod. Lead the way, my friend."
-msgstr ""
-
-#. [side]: type=Fire Dragon, id=Machador
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:154
-msgid "Machador"
-msgstr ""
-
-#. [side]: type=Fire Dragon, id=Machador
-#. [side]: type=Blood Bat, id=Blood Bat 3
-#. [side]: type=Blood Bat, id=Blood Bat 4
-#. [side]: type=Blood Bat, id=Blood Bat 5
-#. [side]: type=Blood Bat, id=Blood Bat 6
-#. [side]: type=Blood Bat, id=Blood Bat 7
-#. [side]: type=Troll Warrior, id=Gurk
-#. [side]: type=Drake Flare, id=Kishmish
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:158
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:169
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:196
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:224
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:251
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:278
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:306
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:318
-msgid "Monsters"
-msgstr ""
-
-#. [side]: type=Troll Warrior, id=Gurk
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:302
-msgid "Gurk"
-msgstr ""
-
-#. [side]: type=Drake Flare, id=Kishmish
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:314
-msgid "Kishmish"
-msgstr ""
-
-#. [objective]: condition=win
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:329
-msgid "Find the Rod of Justice"
-msgstr ""
-
-#. [objective]: condition=lose
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:337
-msgid "Death of Abhai"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:529
-msgid "Tallin, accompanied by the ghost of the king - whose name he soon discovered to be Abhai - set off down the tunnels in search of the Rod of Justice. However, their way was soon blocked by the body of water that Tallin had sensed, as well as the monster that dwelt in its depths."
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:535
-msgid "I have tried to pass by this body of water many times, but each time the creature that dwells in the depths blocks me. I have cut off many of it's arms and yet they still keep growing back. However, without entering the depths of these waters we can't destroy the creature."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:541
-msgid "Then we shall have to pass it by. If we quickly cut off it's arms we may be able to make a safe crossing."
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:546
-msgid "To do this, Tallin, you must call upon your art, for simply the both of us together will not be sufficient to cut off it's arms fast enough."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:552
-msgid "Never! I refuse to utter those cursed words!"
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:557
-msgid "No art in itself is ever evil, my boy; evil or good is in is the use to which it is put. But now is not the time to argue; see how the arms of this creature reach for us! Quickly, we must defeat this creature!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:563
-msgid "Very well, if there is no other way..."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:595
-msgid "I don't know what it is, but I can sense some sort of energy radiating from yonder passage. Could this possibly be the Rod of Justice, Abhai?"
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:600
-msgid "I don't think so, my boy. I sense the Rod's power coming from another direction. However, one can never be too sure in matters such as these. It would be wise to investigate."
-msgstr ""
-
-#. [message]: type=Giant Spider
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:623
-msgid "HISSSSSS"
-msgstr ""
-
-#. [object]: id=strength_amulet
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:643
-msgid "Showing signs of ancient elvish manufacture, this amulet grants whomever is wearing it increased strength, stamina and protection against fire and arcane attacks."
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:667
-msgid "The Amulet of Strength, how fascinating. However - though it may be a useful trinket, it is hardly the Rod of Justice. Let us proceed in our mission."
-msgstr ""
-
-#. [message]: speaker=Troll
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:701
-msgid "Bah! More undead. Alert chief!"
-msgstr ""
-
-#. [unit]: type=Dwarvish Lord, id=Haffel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:745
-msgid "Haffel"
-msgstr ""
-
-#. [unit]: type=Dwarvish Dragonguard, id=Hekkna
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:754
-msgid "Hekkna"
-msgstr ""
-
-#. [message]: speaker=Haffel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:822
-msgid "Sound the alert boys, a group of undead approach."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:828
-msgid "Peace, peace! We do not wish to fight. Let us pass and we shall do you no harm."
-msgstr ""
-
-#. [message]: speaker=Haffel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:833
-msgid "Ha! You hear that, brother! This scum says he means us no harm, and simply wishes to pass!"
-msgstr ""
-
-#. [message]: speaker=Hekkna
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:838
-msgid "Haha! As if he can just 'pass through' a Drake nesting cave."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:844
-msgid "We have no business with these creatures you speak of. We simply seek the Rod of Justice."
-msgstr ""
-
-#. [message]: speaker=Haffel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:849
-msgid "Ah ha! That's what he is after. I bet he is having delusions of using it to conquer the world or something."
-msgstr ""
-
-#. [message]: speaker=Hekkna
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:854
-msgid "Haha!"
-msgstr ""
-
-#. [message]: speaker=Haffel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:859
-msgid "Well, tell you what buddy, I just ate so I am not really in the mood for a fight right now. Let me just give you the facts and then you can turn around and leave."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:865
-msgid "What facts?"
-msgstr ""
-
-#. [message]: speaker=Haffel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:870
-msgid "First of all, most people can't hold the Rod of Justice for more then a few seconds without it burning their hand. For you, it would probably burn you up alive in seconds. Secondly, it has been in the possession of an extremely powerful and ancient dragon for centuries now. Not only will the dragon roast you alive, but he has a whole nest of drakes at his beck and call to join in the fun."
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:875
-msgid "A dragon. Hmmm, creatures such as these are often fascinated by magical objects. However, the Rod of Justice is far too important to be simply the plaything of a dragon. Tallin, we must retrieve it and bring peace to this land."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:881
-msgid "Now hold on, here, what is this talk of me saving the world all the sudden. Just take a look at who you are talking to here..."
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:886
-msgid "I guess now is not the right time to bring up this topic. However, the fact remains, we much reach the Rod of Justice."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:892
-msgid "Agreed, but I do not wish to stain my hands with the blood of these creatures as well."
-msgstr ""
-
-#. [message]: speaker=Hekkna
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:897
-msgid "We also would much rather take a nap, but if you don't hurry up and move it we will shoot you down."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:903
-msgid "You leave us with no choice."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:922
-msgid "Pew, it's hot down here!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:928
-msgid "I have a feeling that this is the lair of that dragon those chaps were talking about a while back."
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:933
-msgid "You must be right, I feel that the Rod of Justice is extremely close now."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:948
-msgid "We have broken into the drake nest. Although we must fight our way through, let us avoid the side passages where I am sure the hatchlings are raised. Destroying them would simply be needless killing."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:962
-msgid "Wow, that's a long way up! This must be the place where drakes leave their nest when they grow wings."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:976
-msgid "I can see a tiny speck of light in the distance. We must be miles from the surface."
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:981
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1000
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1019
-msgid "If you are quite finished enjoying the view, then get your sorry soul back in line. I don't know why you bothered going down that passage in the first place - nothing there but a bunch of bats."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:995
-msgid "I found a way to the surface - that is if you feel like climbing straight up for miles on end..."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1014
-msgid "Wow, a tiny patch of sunlight all the way down here."
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1033
-msgid "Don't bother heading down this passage further Tallin, I am sure that The Rod is not in this direction."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1047
-msgid "I can faintly feel a breeze of fresh air. Perhaps this passage leads to the surface."
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1052
-msgid "We do not seek the surface, Tallin, we seek the Rod of Justice. I see no gain from exploring this passage further."
-msgstr ""
-
-#. [message]: speaker=Machador
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1064
-msgid "You fools! Have the land of the dead refused you entry that you have dared come here!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1070
-msgid "We do not wish to fight you, Great One, we simply seek the Rod of Justice - which we believe is in your possession."
-msgstr ""
-
-#. [message]: speaker=Machador
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1075
-msgid "The Rod of Justice was not made to be the plaything of a demented sorcerer such as you. It is perhaps the most powerful artifact that I have ever encountered."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1081
-msgid "We need that Rod of Justice, dragon. If you don't hand it over to us peacefully, then we will have to take it by force."
-msgstr ""
-
-#. [message]: speaker=Machador
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1086
-msgid "I tire of your insolence! Prepare to die!"
-msgstr ""
-
-#. [message]: speaker=Machador
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1098
-msgid "How shameful! I have lived for over fifty thousand years, I have crushed countless foes and raised countless generations of drakes - and now I am defeated by a mere Sorcerer!"
-msgstr ""
-
-#. [message]: speaker=Abhai
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1103
-msgid "Well done, Tallin. The Rod of Justice is ours now. Now go forth, grasp the Rod of Justice and put all your fears and nightmares to rest."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/08b_Ray_of_Hope.cfg:1131
-msgid "I really should slay the dragon before I touch this..."
+#: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:141
+#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:145
+msgid " *rolls eyes*"
 msgstr ""
 
 #. [scenario]: id=introductions
@@ -6018,6 +5820,464 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:379
 msgid "A troll? What in the world are trolls doing this close to Knalga? Something is up, men, let's hurry up and get back."
+msgstr ""
+
+#. [unit]: type=Dwarvish Lord, id=Stalrag
+#. [side]: type=Dwarvish Lord, id=Stalrag
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:244
+#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:213
+msgid "Stalrag"
+msgstr ""
+
+#. [unit]: type=Ancient Lich, id=Ro'Arthian
+#. [side]: type=Ancient Lich, id=Ro'Arthian
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:257
+#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:231
+msgid "Ro'Arthian"
+msgstr ""
+
+#. [unit]: type=Lich, id=Ro'Sothian
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:269
+#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:302
+#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:608
+#: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:735
+msgid "Ro'Sothian"
+msgstr ""
+
+#. [scenario]: id=elvish_princess
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:5
+msgid "Elvish Princess"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:20
+msgid "After securing the help of the two lich-mages, the party returned to Knalga."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:24
+msgid "Och, that was a piece o' good work, lad, getting both the lich-mages and Stalrag on our side. Now let's plan our way to bringing Rakshas down..."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:27
+msgid "The lich-mages sent forth gryphons to scout out the number, formation and deployment of the orcish forces, and to seek allies as well."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:30
+msgid "One day a gryphon came screeching into the caves with the news that a large elvish force approached from the east. Messages were quickly dispatched to the elves asking their purpose. The haughty reply was that their purpose was none of any dwarf's or human's business, and that all would be well-advised to stay in their holes when the elves passed near."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:33
+msgid "Before the humans and dwarves could respond to this message, another gryphon arrived with the news that the orcs were holding an elvish sorceress prisoner in the castle of Bitterhold, less than a day's march distant to the northwest. The castle had attracted notice because it had been recently rebuilt and manned by a unit known to include some of the hardiest and toughest of veteran orcs."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:36
+msgid "Gryphons and a picked force of human woodsmen were sent out that very night, and less than two days later managed to ambush an orcish messenger on the road out of Bitterhold. The messenger was carrying a ransom demand to the elves - for the sorceress was, in fact, a princess of the highest rank."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:39
+msgid "The leaders met in council, considering what to do..."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:42
+msgid "This kidnapped princess explains a great deal. It is not easy to draw the elves out of their forests."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:46
+msgid "Aye, lad. Her kin will have come either to do battle or pay ransom. By the looks of things, they've busked themselves for either."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:51
+msgid "Pahhh, who cares. Let the elves and orcs chop each other into mincemeat. It will just make things easier for us."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:55
+msgid "Hah! I ken yer brain has rotted awa' entire. Think on it, skull-head, what would happen if the elves dinna' fight and pay the ransom instead?"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:59
+msgid "Do you want to die, dwarf?"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:63
+msgid "Peace, peace! If you two want to kill something, there are plenty of orcs outside."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:67
+msgid "But you do have a point, Stalrag, That ransom will buy more troops and weapons for the orcs, worse news for us."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:71
+msgid "I think we have a chance to make new some allies here..."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:75
+msgid "Allies? I take it we're to go to them and ask them to join us in return for our help in rescuing their Princess? You heard their message - those elves have got their noses so high in the air they canna' see over them. They wouldna' ally themselves with the likes o' us."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:79
+msgid "Of course we won't do that. As a matter of fact I think it's best that we don't say anything to the elves at all."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:83
+msgid "Why d'ye say that?"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:87
+msgid "Well, suppose we do join up with the elves - assuming they will let us - and we make a combined raid on the fortress, what will the orcs most likely do when the ransom slips from their grasp?"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:91
+msgid "Kenning the way of orcs, belike they'd kill the princess, especially if it seems the rescue ha' any chance of succeeding."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:95
+msgid "Exactly. On the other hand, if we raided the fortress while the orcs were talking ransom with the elves, the orcs might hesitate just long enough."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:99
+msgid "Hmmm...I think you've the right of it, lad. Most orcs being thicker than a wood-knot, I'd lay odds on Rakshas giving strict orders that she not be touched without his direct word on the matter."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:103
+msgid "But it would be unwise to trust that the orcs will stay stupid forever. If we do go ahead with this raid, we are going to have to be in and out like lightning."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:107
+msgid "My Shinsplitters will be invaluable for a job like this. They are fierce and never give ground and will not stop attacking until either they or their opponent lies dead. No fortress can stand long against them."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:111
+msgid "Ha ha, I like this plan. Once we get our hands on this little sorceress the elves will be forced to do whatever we want them to."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:115
+msgid "Remember, Ro'Arthian, we need willing allies rather than resentful lackeys that would turn on us at the first reverse. If we rescue their princess, the elves may yet choose not to help us, but that is a risk we'll have to take."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:119
+msgid "Elves are deeply honor-bound, especially in matters that touch their kin. If we rescue the princess, I am certain the deed will not go without reward."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:123
+msgid "And at the very least, the orcs will not be able to raise troops with ransom money they don't have."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:127
+msgid "Bah...weak, soft humans. Have it your way if you must."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:131
+msgid "So it shall be, Tallin, I'll hold the caves here while you and Stalrag's Shinsplitters fare to Bitterhold. The orcs still haven't given up their attack on our southern tunnels."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:135
+msgid "Then to arms, men! For Knalga and the princess!"
+msgstr ""
+
+#. [objective]: condition=win
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:151
+msgid "Rescue the Princess"
+msgstr ""
+
+#. [side]: type=Orcish Warlord, id=Atul
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:190
+msgid "Atul"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:462
+msgid "Upon emerging from the mouth of a hidden tunnel near the fortress, Tallin and his men surveyed the scene before them."
+msgstr ""
+
+#. [message]: id=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:467
+msgid "There's the fortress of Bitterhold. A grim and impressive pile indeed..."
+msgstr ""
+
+#. [message]: role=Supporter
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:471
+msgid "They have dammed the river to make a moat for their castle."
+msgstr ""
+
+#. [message]: id=Ro'Arthian
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:475
+msgid "Are we here to sight-see or to rescue this blasted sorceress? And if you really want to sight-see, then check out that orcish encampment south of us."
+msgstr ""
+
+#. [message]: id=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:479
+msgid "Just our luck to be here when they're mustering a field force - probably to attack the caves. Avoid them if you can, kill them if you can't."
+msgstr ""
+
+#. [message]: id=Atul
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:483
+msgid "INTRUDERS! KILL THEM!!!"
+msgstr ""
+
+#. [unit]: type=Elvish Sorceress, id=Anita
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:504
+msgid "Anita"
+msgstr ""
+
+#. [message]: id=Anita
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:515
+msgid "I am free! Thank you, my saviors. Who has come to rescue me from vile captivity?"
+msgstr ""
+
+#. [message]: id=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:520
+msgid "Later, princess, first let's get outta -- uh, let us take our leave of this place as swiftly as may be!"
+msgstr ""
+
+#. [message]: id=Anita
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:524
+msgid "Lead; I will follow."
+msgstr ""
+
+#. [message]: race=orc
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:538
+msgid "Hey, those intruders are going to free the elf! We can't let that happen! Kill her! Kill the elf!"
+msgstr ""
+
+#. [message]: id=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:542
+msgid "Darn it! We weren't fast enough."
+msgstr ""
+
+#. [scenario]: id=protecting_the_master
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:4
+msgid "Protecting the Master"
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:17
+msgid "As Tallin sat staring blankly at the body of his former friend - loathing and hating what he had become - he received an urgent summons from his Master."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:21
+msgid "The attack Tallin had been sent to thwart had been a decoy. While Tallin was away, Tallin's former friends had attacked Malifor's study with overwhelming force."
+msgstr ""
+
+#. [part]
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:26
+msgid "Although Tallin was glad in his heart to see Malifor in such distress, the sorcerous geas on his mind compelled him to go to his Master's aid. When he got there, he found that all the outer defenses had been smashed and Malifor had bolted himself up in his study. Bound by the will of their Master, Tallin and his minions took up positions outside Malifor's study door."
+msgstr ""
+
+#. [objective]: condition=win
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:38
+msgid "Resist Till the End of Turns"
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:343
+msgid "Look, the traitor Tallin has come to protect his master."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:349
+msgid " Camerin! Please get out of here. Don't make me kill you too."
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:354
+msgid "Fat chance, buddy. I can handle the likes of you in my sleep. Fall on them, boys!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:380
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:587
+msgid " *BOOM!*"
+msgstr ""
+
+#. [message]: speaker=Malifor
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:426
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:635
+msgid "What the.... NO!!!"
+msgstr ""
+
+#. [message]: speaker=Sister Theta
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:431
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:640
+msgid "HEEEEE-YAAAAA!!!"
+msgstr ""
+
+#. [message]: speaker=Malifor
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:456
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:665
+msgid "CURSES ON YOU YOU BLASTED MAGES, CURSES ON YOU YOU BLASTED HUMANS, CURSES ON YOU YOU BLASTED DWARVES! MAY YOUR MISERABLE LIVES BE FULL OF TORTURE! MAY YOUR PEOPLE NEVER BE FREE! MAY ALL YOUR NEAR AND DEAR DESERT YOU! MAY A THUNDERBOLT HIT YOUR HEAD! MAY..."
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:482
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:696
+msgid "Malifor is dead... what have I done? What am I going to do? I must flee this place!"
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:487
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:701
+msgid "Hey, there goes the traitor Tallin!"
+msgstr ""
+
+#. [message]: speaker=Father Marcus
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:492
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:706
+msgid "Let him go. He was not acting under his free will and thus there is no blame attached to him. I have known of many such poor souls. If he does trouble us in the future, however, we should not spare him."
+msgstr ""
+
+#. [message]: speaker=Sister Theta
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:497
+msgid "Besides, he will probably just go and drown himself in the nearest river anyway, so why bother killing him?"
+msgstr ""
+
+#. [message]: speaker=Deory
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:513
+msgid "Ahhh! Master, help me!"
+msgstr ""
+
+#. [message]: speaker=Malifor
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:518
+msgid "Serves you right, you useless excuse for a slave."
+msgstr ""
+
+#. [message]: speaker=Deory
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:532
+msgid "Master! Tallin is taking my villages!"
+msgstr ""
+
+#. [message]: speaker=Tallin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:538
+msgid "Shut up, you idiot. I know what I am doing."
+msgstr ""
+
+#. [message]: speaker=Malifor
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:543
+msgid "Agreed. And if you don't keep your mouth shut, I will personally shut it for you!"
+msgstr ""
+
+#. [message]: speaker=Deory
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:548
+msgid " *Gulp*"
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:563
+msgid "Hmmm, you aren't as bad as I thought, Tallin. Unfortunately for you, we aren't ready to give up just yet."
+msgstr ""
+
+#. [message]: speaker=Camerin
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:690
+msgid "Pew! Nick of time too - I almost bought it there!"
+msgstr ""
+
+#. [message]: speaker=Sister Theta
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:711
+msgid "Besides, he will probably just go and drown himself in the nearest river anyway, so why bother?"
 msgstr ""
 
 #. [scenario]: id=judgement
@@ -6717,15 +6977,6 @@ msgstr ""
 msgid "Help Tallin defeat the enemy leaders or"
 msgstr ""
 
-#. [unit]: type=Elvish Marshal, id=Hidel
-#. [unit]: id=Hidel, type=Elvish Marshal
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:217
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:800
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1115
-msgid "Hidel"
-msgstr ""
-
 #. [message]: speaker=Hidel
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:836
@@ -6877,17 +7128,6 @@ msgstr ""
 msgid "You are a fool, human! Watch how we will crush and destroy you!"
 msgstr ""
 
-#. [objective]: condition=win
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:392
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:415
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:919
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:942
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:965
-#: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1006
-msgid "Defeat the enemy leaders"
-msgstr ""
-
 #. [message]: speaker=Tallin
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1061
@@ -7027,246 +7267,6 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1206
 msgid "Very well, people. The road ahead is clear, onward to victory!"
-msgstr ""
-
-#. [scenario]: id=eastern_flank
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:5
-msgid "The Eastern Flank"
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:19
-msgid "After breaking out of their encirclement, the party continued in pursuit of the trolls."
-msgstr ""
-
-#. [part]
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:22
-msgid "Following the bank of a river, they soon entered a valley. At the mouth of the valley there loomed the massive orcish fortress of Angthurim."
-msgstr ""
-
-#. [side]: type=Troll Warrior, id=Gore
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:44
-msgid "Gore"
-msgstr ""
-
-#. [side]: type=Orcish Warlord, id=Carron
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:62
-msgid "Carron"
-msgstr ""
-
-#. [side]: type=Orcish Warlord, id=Rash
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:75
-msgid "Rash"
-msgstr ""
-
-#. [side]: type=Orcish Warlord, id=Al'Mar
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:88
-msgid "Al'Mar"
-msgstr ""
-
-#. [side]: type=Orcish Warlord, id=Ha'Tang
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:101
-msgid "Ha'Tang"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:201
-msgid "Gods of Light! Look at that fortress. The castle Angthurim is even grimmer than its reputation."
-msgstr ""
-
-#. [message]: speaker=Anita
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:211
-msgid "I was not idle in my captivity; I watched, and listened, and learned. The hints I got from my guards' boastings and foul jests have been confirmed by our scouts; Angthurim is the linchpin of their entire eastern flank. If we could reduce it, their defense would be near to collapse."
-msgstr ""
-
-#. [message]: speaker=Ro'Arthian
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:226
-msgid "Fitting. My gryphons tell me Angthurim is the keystone of their entire eastern flank. If we can reduce it their defense will be near to collapse."
-msgstr ""
-
-#. [message]: role=Supporter
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:232
-msgid "Hey, look who is here!"
-msgstr ""
-
-#. [message]: speaker=Rakshas
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:236
-msgid "Where is my gold!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:240
-msgid "It's Rakshas!"
-msgstr ""
-
-#. [message]: speaker=Gore
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:244
-msgid "Right here, Master."
-msgstr ""
-
-#. [message]: speaker=Rakshas
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:248
-msgid "Ahhhhh, very good, my loyal servant. You will be richly rewarded for this! Tell me, what news do you have on that human vermin that has so persistently evaded my clutches?"
-msgstr ""
-
-#. [message]: speaker=Gore
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:252
-msgid "We trapped him and his pitiful band of followers. By now they will have been mashed to paste and fed to the whelps."
-msgstr ""
-
-#. [message]: speaker=Rakshas
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:256
-msgid "Hahahaha! Very g..."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:260
-msgid "RAKSHAS!!!"
-msgstr ""
-
-#. [message]: speaker=Rakshas
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:264
-msgid "What!? YOU! YOU ANNOYING, DISGUSTING LITTLE VERMIN! DON'T YOU KNOW HOW TO DIE!?"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:268
-msgid "Foul one, the only one who will be dying here is you and anyone who comes between us. Stand and fight!"
-msgstr ""
-
-#. [message]: speaker=Rakshas
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:272
-msgid "Bah! I have better things to do then stamp out your insignificant life. Generals, kill him and bring me his head!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:304
-msgid "Blast it. The coward has fled. Anita, your elves are good at moving quickly through the forests. Do you think they can overtake and pin him down while we deal with this fortress?"
-msgstr ""
-
-#. [message]: speaker=Anita
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:308
-msgid "Hidel?"
-msgstr ""
-
-#. [message]: speaker=Hidel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:312
-msgid "Easily, princess. We shall move unseen through the trees, overtake him, and put an end to his flight."
-msgstr ""
-
-#. [message]: speaker=Anita
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:316
-msgid "Then do it. I shall stay with Tallin and... um... because he could use my assistance."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:320
-msgid " *blushes slightly*"
-msgstr ""
-
-#. [message]: speaker=Sister Theta
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:324
-msgid " *wink wink*"
-msgstr ""
-
-#. [message]: speaker=Hidel
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:328
-msgid " *raises eyebrow* Very well, princess."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:355
-msgid "Blast it. The coward has fled. Quickly men, we must storm this fortress before he can spend that gold."
-msgstr ""
-
-#. [message]: speaker=Stalrag
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:359
-msgid "Aye! Down wi' the orcs!"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:366
-msgid "Ro'Arthian, send a message to Hamel. Tell him it's time."
-msgstr ""
-
-#. [message]: speaker=Ro'Arthian
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:379
-msgid "It's done."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:383
-msgid "Very well. Forward! Victory or death!"
-msgstr ""
-
-#. [message]: speaker=Krash
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:387
-msgid "Come on boys, let's give it to 'em!"
-msgstr ""
-
-#. [message]: speaker=Gore
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:439
-msgid "Move, you stupid orcs! I am trying to recruit here!"
-msgstr ""
-
-#. [message]: speaker=Rash
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:443
-msgid "Suit yourself, you dumb troll!"
-msgstr ""
-
-#. [message]: speaker=Sister Theta
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:447
-msgid "Awww, aren't they the most loving, sharing bunch of orcs you have ever seen?"
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:466
-msgid "We have torn the heart from their eastern defenses. Now let us make haste to rescue Hidel. I am uneasy for him; some of those bodyguards Rakshas keeps are fell fighters."
-msgstr ""
-
-#. [message]: speaker=Tallin
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/11a_Eastern_Flank.cfg:472
-msgid "We have torn the heart from their eastern defenses. Now to settle scores with Rakshas once and for all!"
 msgstr ""
 
 #. [scenario]: id=get_gold
@@ -7437,13 +7437,6 @@ msgstr ""
 msgid "It seemed to the gryphon that the elves were sore beset. The party quickly turned south and plunged into the forest."
 msgstr ""
 
-#. [side]: type=Orcish Warlord, id=Ha'Tuil
-#. +> 1.6
-#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:95
-#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:155
-msgid "Ha'Tuil"
-msgstr ""
-
 #. [message]: speaker=narrator
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:381
@@ -7564,6 +7557,13 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:549
 msgid "Thanks to Hidel and the elves, we have recovered our gold. Now let's run down Rakshas and settle up with him once and for all."
+msgstr ""
+
+#. [side]: type=Orcish Warlord, id=Ha'Tuil
+#. +> 1.6
+#: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:95
+#: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:155
+msgid "Ha'Tuil"
 msgstr ""
 
 #. [scenario]: id=Showdown
