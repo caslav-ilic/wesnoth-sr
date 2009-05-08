@@ -30,6 +30,19 @@ msgstr "Па, кад тако велиш..."
 msgid "Wesnoth Tutorial"
 msgstr "Подучавање Весноту"
 
+#. [side]: type=Fighter, id=student
+#. [command]
+#. [option]: speaker=narrator
+#. +> 1.6
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:295
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:296
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:75
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:76
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:151
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:153
+msgid "Konrad"
+msgstr "Конрад"
+
 #. [unit]: id=Delfador, type=Elder Mage
 #. +> 1.6
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:113
@@ -69,6 +82,17 @@ msgstr "Настрадаш ли"
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:149
 msgid "Who would you like to play?"
 msgstr "У чије би чизме да ускочиш?"
+
+#. [unit]: type=Fighteress, id=student
+#. [command]
+#. [option]: speaker=narrator
+#. +> 1.6
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:365
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:158
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:160
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:172
+msgid "Li'sar"
+msgstr "Лиза́ра"
 
 #. [message]: speaker=narrator
 #. +> 1.6
@@ -338,6 +362,14 @@ msgstr "Кликни на „Готово“ доле десно"
 msgid "Ouch! I need to heal! Only $student_hp hitpoints left!"
 msgstr "Ајао! Видара, видара! Ударпоени ми одоше, остаде ми $student_hp|!"
 
+#. [event]
+#. [then]
+#. +> 1.6
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:448
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:491
+msgid "Village"
+msgstr "Село"
+
 #. [message]: id=Delfador
 #. +> 1.6
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:494
@@ -392,6 +424,14 @@ msgstr "Сада ће ти извидати $hp_difference ударпоена, �
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:578
 msgid "I'll recruit some elves!"
 msgstr "Позваћу вилењаке добре!"
+
+#. [event]
+#. [then]
+#. +> 1.6
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:964
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:580
+msgid "Keep"
+msgstr "замак"
 
 #. [message]: id=Delfador
 #. +> 1.6
@@ -670,45 +710,34 @@ msgstr "Не, мислим да све схватих."
 msgid "After your victory notice, the map will be grayed out to indicate that the scenario is over, but you will be able to examine the final positions and state of your troops before clicking 'End Scenario' to continue to the next scenario."
 msgstr "После саопштења победе, мапа ће бити засивљена да укаже на крај сценарија, али ћеш моћи да испиташ коначне положаје и стање своје војске. Потом кликни на „Крај“ да продужиш на следећи сценарио."
 
-#. [side]: type=Fighter, id=student
-#. [command]
-#. [option]: speaker=narrator
 #. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:295
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:296
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:75
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:76
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:151
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:153
-msgid "Konrad"
-msgstr "Конрад"
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:27
+msgid ""
+"*Remember:\n"
+"You can press 'u' to undo most things; useful for correcting mistakes."
+msgstr ""
+"*Запамти:\n"
+"Притиском ‘u’ можеш опозвати већину ствари — корисно за исправљање грешака."
 
-#. [unit]: type=Fighteress, id=student
-#. [command]
-#. [option]: speaker=narrator
+#. [message]: speaker=narrator
 #. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:365
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:158
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:160
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:172
-msgid "Li'sar"
-msgstr "Лиза́ра"
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:39
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:49
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:62
+msgid "*Galdrad"
+msgstr "*Галдрад"
 
-#. [event]
 #. [then]
 #. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:448
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:491
-msgid "Village"
-msgstr "Село"
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:74
+msgid ", your new recruit, has two traits: strong and intelligent. Strong means a unit does more damage, and intelligent means it requires less experience to advance a level."
+msgstr ", твој нови борац, има две особине: јачину и оштроумност. Јачина значи да наноси више штете, а оштроумност да му треба мање искуства да достигне следећи ниво."
 
-#. [event]
 #. [then]
 #. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:964
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:580
-msgid "Keep"
-msgstr "замак"
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:87
+msgid " has two traits: quick and resilient. Quick means a unit can move one tile further each turn, and resilient means it has more hitpoints."
+msgstr " има две особине: брзину и жилавост. Брзина значи да се може померити једно поље више сваки потез, а жилавост да има више ударпоена."
 
 #. [then]
 #. +> 1.6
@@ -1532,46 +1561,11 @@ msgstr "Дуго ти је требало! Сада се никада нећем
 msgid "You are victorious! You may want to try Novice-level campaigns such as: The South Guard, An Orcish Incursion, A Tale of Two Brothers, and Heir to the Throne. The South Guard was specifically designed as a beginner's campaign. Konrad, Li'sar and Delfador are characters from Heir to the Throne."
 msgstr "Победа! Сада се можеш окушати у неком од похода почетничке тежине, као што су: „Јужњачка гарда“, „Орковски упад“, „Прича о два брата“ или „Наследник престола“. „Јужњачка гарда“ је посебно пројектована као поход за почетнике. Конрад, Лиза́ра и Делфадор, ликови су из „Наследника престола“."
 
-#. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:27
-msgid ""
-"*Remember:\n"
-"You can press 'u' to undo most things; useful for correcting mistakes."
-msgstr ""
-"*Запамти:\n"
-"Притиском ‘u’ можеш опозвати већину ствари — корисно за исправљање грешака."
-
-#. [message]: speaker=narrator
-#. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:39
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:49
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:62
-msgid "*Galdrad"
-msgstr "*Галдрад"
-
-#. [then]
-#. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:74
-msgid ", your new recruit, has two traits: strong and intelligent. Strong means a unit does more damage, and intelligent means it requires less experience to advance a level."
-msgstr ", твој нови борац, има две особине: јачину и оштроумност. Јачина значи да наноси више штете, а оштроумност да му треба мање искуства да достигне следећи ниво."
-
-#. [then]
-#. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:87
-msgid " has two traits: quick and resilient. Quick means a unit can move one tile further each turn, and resilient means it has more hitpoints."
-msgstr " има две особине: брзину и жилавост. Брзина значи да се може померити једно поље више сваки потез, а жилавост да има више ударпоена."
-
 #. [unit_type]: id=Fighter, race=human
 #. +> 1.6
 #: data/campaigns/tutorial/units/Fighter.cfg:4
 msgid "Fighter"
 msgstr "борац"
-
-#. [attack]: type=blade
-#. +> 1.6
-#: data/campaigns/tutorial/units/Fighter.cfg:22
-msgid "sword"
-msgstr "мач"
 
 #. [unit_type]: id=Fighteress, race=human
 #. [unit_type]: id=Fighter, race=human
@@ -1580,6 +1574,12 @@ msgstr "мач"
 #: data/campaigns/tutorial/units/Fighter.cfg:17
 msgid "Young and brash, Fighters are skilled with swords and are vulnerable to attack from enemies. However, they have the potential to become great warriors one day."
 msgstr "Млади и дрски, борци су умешни с мачем, али рањиви при налету непријатеља. Ипак, имају могућности да једнога дана постану велики ратници."
+
+#. [attack]: type=blade
+#. +> 1.6
+#: data/campaigns/tutorial/units/Fighter.cfg:22
+msgid "sword"
+msgstr "мач"
 
 #. [unit_type]: id=Fighteress, race=human
 #. +> 1.6

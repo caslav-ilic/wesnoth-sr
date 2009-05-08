@@ -22,6 +22,19 @@ msgstr ""
 msgid "Wesnoth Tutorial"
 msgstr ""
 
+#. [side]: type=Fighter, id=student
+#. [command]
+#. [option]: speaker=narrator
+#. +> 1.6
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:295
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:296
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:75
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:76
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:151
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:153
+msgid "Konrad"
+msgstr ""
+
 #. [unit]: id=Delfador, type=Elder Mage
 #. +> 1.6
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:113
@@ -55,6 +68,17 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:149
 msgid "Who would you like to play?"
+msgstr ""
+
+#. [unit]: type=Fighteress, id=student
+#. [command]
+#. [option]: speaker=narrator
+#. +> 1.6
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:365
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:158
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:160
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:172
+msgid "Li'sar"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -311,6 +335,14 @@ msgstr ""
 msgid "Ouch! I need to heal! Only $student_hp hitpoints left!"
 msgstr ""
 
+#. [event]
+#. [then]
+#. +> 1.6
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:448
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:491
+msgid "Village"
+msgstr ""
+
 #. [message]: id=Delfador
 #. +> 1.6
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:494
@@ -364,6 +396,14 @@ msgstr ""
 #. +> 1.6
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:578
 msgid "I'll recruit some elves!"
+msgstr ""
+
+#. [event]
+#. [then]
+#. +> 1.6
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:964
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:580
+msgid "Keep"
 msgstr ""
 
 #. [message]: id=Delfador
@@ -621,44 +661,31 @@ msgstr ""
 msgid "After your victory notice, the map will be grayed out to indicate that the scenario is over, but you will be able to examine the final positions and state of your troops before clicking 'End Scenario' to continue to the next scenario."
 msgstr ""
 
-#. [side]: type=Fighter, id=student
-#. [command]
-#. [option]: speaker=narrator
 #. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:295
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:296
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:75
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:76
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:151
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:153
-msgid "Konrad"
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:27
+msgid ""
+"*Remember:\n"
+"You can press 'u' to undo most things; useful for correcting mistakes."
 msgstr ""
 
-#. [unit]: type=Fighteress, id=student
-#. [command]
-#. [option]: speaker=narrator
+#. [message]: speaker=narrator
 #. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:365
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:158
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:160
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:172
-msgid "Li'sar"
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:39
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:49
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:62
+msgid "*Galdrad"
 msgstr ""
 
-#. [event]
 #. [then]
 #. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:448
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:491
-msgid "Village"
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:74
+msgid ", your new recruit, has two traits: strong and intelligent. Strong means a unit does more damage, and intelligent means it requires less experience to advance a level."
 msgstr ""
 
-#. [event]
 #. [then]
 #. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:964
-#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:580
-msgid "Keep"
+#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:87
+msgid " has two traits: quick and resilient. Quick means a unit can move one tile further each turn, and resilient means it has more hitpoints."
 msgstr ""
 
 #. [then]
@@ -1463,43 +1490,10 @@ msgstr ""
 msgid "You are victorious! You may want to try Novice-level campaigns such as: The South Guard, An Orcish Incursion, A Tale of Two Brothers, and Heir to the Throne. The South Guard was specifically designed as a beginner's campaign. Konrad, Li'sar and Delfador are characters from Heir to the Throne."
 msgstr ""
 
-#. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:27
-msgid ""
-"*Remember:\n"
-"You can press 'u' to undo most things; useful for correcting mistakes."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:39
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:49
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:62
-msgid "*Galdrad"
-msgstr ""
-
-#. [then]
-#. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:74
-msgid ", your new recruit, has two traits: strong and intelligent. Strong means a unit does more damage, and intelligent means it requires less experience to advance a level."
-msgstr ""
-
-#. [then]
-#. +> 1.6
-#: data/campaigns/tutorial/scenarios/2_Speaking.cfg:87
-msgid " has two traits: quick and resilient. Quick means a unit can move one tile further each turn, and resilient means it has more hitpoints."
-msgstr ""
-
 #. [unit_type]: id=Fighter, race=human
 #. +> 1.6
 #: data/campaigns/tutorial/units/Fighter.cfg:4
 msgid "Fighter"
-msgstr ""
-
-#. [attack]: type=blade
-#. +> 1.6
-#: data/campaigns/tutorial/units/Fighter.cfg:22
-msgid "sword"
 msgstr ""
 
 #. [unit_type]: id=Fighteress, race=human
@@ -1508,6 +1502,12 @@ msgstr ""
 #: data/campaigns/tutorial/units/Fighteress.cfg:17
 #: data/campaigns/tutorial/units/Fighter.cfg:17
 msgid "Young and brash, Fighters are skilled with swords and are vulnerable to attack from enemies. However, they have the potential to become great warriors one day."
+msgstr ""
+
+#. [attack]: type=blade
+#. +> 1.6
+#: data/campaigns/tutorial/units/Fighter.cfg:22
+msgid "sword"
 msgstr ""
 
 #. [unit_type]: id=Fighteress, race=human

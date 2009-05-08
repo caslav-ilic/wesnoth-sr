@@ -353,6 +353,12 @@ msgstr ""
 
 #. [option]: speaker=unit
 #. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:47 data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:229
+msgid "Nothing"
+msgstr ""
+
+#. [option]: speaker=unit
+#. +> 1.6
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:239
 msgid ""
 "Donate Funds\n"
@@ -421,10 +427,112 @@ msgstr ""
 msgid "Our talks are complete - the Elves shall aid you in this battle. Which our of kin do you wish to recruit?"
 msgstr ""
 
+#. [set_menu_item]: id=anl_choose_new_recruit
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:9
+msgid "Choose New Recruit"
+msgstr ""
+
+#. [message]: speaker=unit
+#. [message]: speaker=narrator
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:33
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:210
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:227
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:243
+msgid "Study Complete"
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:35
+msgid "Which type of unit would you like to be able to recruit?"
+msgstr ""
+
+#. [set_menu_item]: id=anl_oversee_research
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:56
+msgid "Oversee Research"
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:95
+msgid "Research"
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:101
+msgid ""
+"We are currently studying $player_$side_number|.research.current_target|. To which end would you have our scholars devote their minds?\n"
+"\n"
+"Our farms produce $player_$side_number|.farming.gold|g\n"
+"Our mines produce $player_$side_number|.mining.gold|g\n"
+""
+msgstr ""
+
 #. [option]: speaker=unit
 #. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:47 data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:229
-msgid "Nothing"
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:105
+msgid "Continue as before"
+msgstr ""
+
+#. [option]: speaker=unit
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:117
+msgid ""
+"Agriculture\n"
+"Farmers produce +1 gold\n"
+"Study Progress: $player_$side_number|.farming.progress|/$player_$side_number|.farming.target"
+msgstr ""
+
+#. [option]: speaker=unit
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:131
+msgid ""
+"Mining\n"
+"Miners produce +1 gold\n"
+"Study Progress: $player_$side_number|.mining.progress|/$player_$side_number|.mining.target"
+msgstr ""
+
+#. [option]: speaker=unit
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:145
+msgid ""
+"Warfare\n"
+"Allows you to recruit a new type of unit\n"
+"Study Progress: $player_$side_number|.warfare.progress|/$player_$side_number|.warfare.target"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:212
+msgid "$player_$side_number|.name|'s farms now produce $player_$side_number|.farming.gold gold."
+msgstr ""
+
+#. [message]: speaker=narrator
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:229
+msgid "$player_$side_number|.name|'s mines now produce $player_$side_number|.mining.gold gold."
+msgstr ""
+
+#. [message]: speaker=narrator
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:245
+msgid "$player_$side_number|.name|, we have finished researching warfare. Right-click on a mage in a university to select a unit to recruit."
+msgstr ""
+
+#. [message]: speaker=unit
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_special_macros.cfg:149
+msgid "Let's cut you free!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. +> 1.6
+#: data/multiplayer/scenarios/ANL_utils/ANL_special_macros.cfg:153
+msgid "You release the creature from the web and it agrees to help you."
 msgstr ""
 
 #. [set_menu_item]: id=anl_get_to_work
@@ -605,112 +713,4 @@ msgstr ""
 #. +> 1.6
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:402
 msgid "Clear the Ground"
-msgstr ""
-
-#. [set_menu_item]: id=anl_choose_new_recruit
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:9
-msgid "Choose New Recruit"
-msgstr ""
-
-#. [message]: speaker=unit
-#. [message]: speaker=narrator
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:33
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:210
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:227
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:243
-msgid "Study Complete"
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:35
-msgid "Which type of unit would you like to be able to recruit?"
-msgstr ""
-
-#. [set_menu_item]: id=anl_oversee_research
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:56
-msgid "Oversee Research"
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:95
-msgid "Research"
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:101
-msgid ""
-"We are currently studying $player_$side_number|.research.current_target|. To which end would you have our scholars devote their minds?\n"
-"\n"
-"Our farms produce $player_$side_number|.farming.gold|g\n"
-"Our mines produce $player_$side_number|.mining.gold|g\n"
-""
-msgstr ""
-
-#. [option]: speaker=unit
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:105
-msgid "Continue as before"
-msgstr ""
-
-#. [option]: speaker=unit
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:117
-msgid ""
-"Agriculture\n"
-"Farmers produce +1 gold\n"
-"Study Progress: $player_$side_number|.farming.progress|/$player_$side_number|.farming.target"
-msgstr ""
-
-#. [option]: speaker=unit
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:131
-msgid ""
-"Mining\n"
-"Miners produce +1 gold\n"
-"Study Progress: $player_$side_number|.mining.progress|/$player_$side_number|.mining.target"
-msgstr ""
-
-#. [option]: speaker=unit
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:145
-msgid ""
-"Warfare\n"
-"Allows you to recruit a new type of unit\n"
-"Study Progress: $player_$side_number|.warfare.progress|/$player_$side_number|.warfare.target"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:212
-msgid "$player_$side_number|.name|'s farms now produce $player_$side_number|.farming.gold gold."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:229
-msgid "$player_$side_number|.name|'s mines now produce $player_$side_number|.mining.gold gold."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:245
-msgid "$player_$side_number|.name|, we have finished researching warfare. Right-click on a mage in a university to select a unit to recruit."
-msgstr ""
-
-#. [message]: speaker=unit
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_special_macros.cfg:149
-msgid "Let's cut you free!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. +> 1.6
-#: data/multiplayer/scenarios/ANL_utils/ANL_special_macros.cfg:153
-msgid "You release the creature from the web and it agrees to help you."
 msgstr ""
