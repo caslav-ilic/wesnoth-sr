@@ -3207,86 +3207,86 @@ msgstr "Убијеш ли орковског великог поглавицу �
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:279
 msgid "Here we are at last. Landar, are you sure you want to go through with this?"
-msgstr ""
+msgstr "Напокон пред циљем. Ландаре, јеси ли сигуран да желиш да се упустиш у ово?"
 
 #. [message]: id=Landar
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:283
 msgid "Absolutely. Let's do it!"
-msgstr ""
+msgstr "Без двоумљења. Учинимо то!"
 
 #. [message]: id=Kalenz
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:287
 msgid "We need to kill the Great Chief and get out before the effect of the philter ends. Time to drink it down now!"
-msgstr ""
+msgstr "Морамо убити великог поглавицу и извући се пре него што дејство напитка ишчили. Испијмо га сада!"
 
 #. [message]: id=Kalenz
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:331
 msgid "This feels passing strange! Landar, remember to stay far from the wolves-they may be able to smell us."
-msgstr ""
+msgstr "Чудна ли проласка! Ландаре, пази да се држиш подаље од вукова, могли би нас намирисати."
 
 #. [message]: id=Kalenz
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:349
 msgid "The orcish chieftain is dead! Now we must make appear he was slain by an orcish hand!"
-msgstr ""
+msgstr "Орковски поглавица је мртав! Сада морамо уредити да изгледа да је страдао од орковске руке!"
 
 #. [message]: id=Kalenz
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:358
 msgid "We are too late, the potion effects have worn off and we are visible!"
-msgstr ""
+msgstr "Закаснисмо, дејство напитка је престало и могу нас видети!"
 
 #. [message]: id=Kalenz
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:380
 msgid "Done!"
-msgstr ""
+msgstr "Урађено!"
 
 #. [message]: id=Ozul
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:397
 msgid "The Great Chief has been murdered! Whoever did it will only get da throne over my dead stinking body!"
-msgstr ""
+msgstr "Велики поглавица је убијен! Ко год да је то учинио, домоћи ће се престола само преко мене мртвог!"
 
 #. [message]: id=Tamitahan
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:401
 msgid "I am the strongest warlord! I will be Chief!"
-msgstr ""
+msgstr "Ја сам најјачи ратовођ! Бићу поглавица!"
 
 #. [message]: id=Gvur
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:405
 msgid "No way anyone will steal my throne!"
-msgstr ""
+msgstr "Нико неће преотети мој престо!"
 
 #. [message]: id=Khrubar
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:409
 msgid "This is my time and I will kill anyone who disputes it!"
-msgstr ""
+msgstr "Дошло је моје време и убићу свакога ко се успротиви!"
 
 #. [message]: id=Kalenz
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:413
 msgid "The plan is working! Now we will take back what's ours!"
-msgstr ""
+msgstr "Наум делује! Вратимо сада што је наше!"
 
 #. [object]: id=invisibility_potion_{USER_ID}
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:5
 msgid "Crelanu's philter affecting "
-msgstr ""
+msgstr "Дејство Крелануовог напитка: "
 
 #. [hides]: id=invisible
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:15
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:16
 msgid "invisible"
-msgstr ""
+msgstr "невидљивост"
 
 #. [hides]: id=invisible
 #. +> 1.6
@@ -3296,344 +3296,392 @@ msgid ""
 "invisible:\n"
 "Enemy units cannot see this unit, except for wolf-based units who can smell it if close enough. Hence except for wolf-based units, enemy units will not initiate an attack on this unit. Defense is at 90 percent for every terrain except water, where it is 70 percent."
 msgstr ""
+"невидљивост:\n"
+"\n"
+"Непријатељске јединице не могу видети ову јединицу, али је оне с вуковима могу намирисати када су довољно близу. Стога, осим вучјих, непријатељске јединице неће напасти ову јединицу. Одбрана је на 90% за сваки терен осим воде, где је 70%."
 
+# |, no-check-spell
 #. [unit]: type=Goblin Pillager, id=Odrun
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:55
 msgid "Odrun"
-msgstr ""
+msgstr "Одрун"
 
+# |, no-check-spell
 #. [unit]: type=Direwolf Rider, id=Gragul
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:71
 msgid "Gragul"
-msgstr ""
+msgstr "Грагул"
 
+# |, no-check-spell
 #. [unit]: type=Goblin Pillager, id=Kardur
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:87
 msgid "Kardur"
-msgstr ""
+msgstr "Кардур"
 
+# |, no-check-spell
 #. [unit]: type=Goblin Knight, id=Muhtr
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:103
 msgid "Muhtr"
-msgstr ""
+msgstr "Мутр"
 
+# |, no-check-spell
 #. [unit]: type=Goblin Pillager, id=Kartrog
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:118
 msgid "Kartrog"
-msgstr ""
+msgstr "Картрог"
 
+# |, no-check-spell
 #. [unit]: type=Wolf Rider, id=Griul
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:133
 msgid "Griul"
-msgstr ""
+msgstr "Гријул"
 
+# |, no-check-spell
 #. [unit]: type=Goblin Knight, id=Sdrul
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:148
 msgid "Sdrul"
-msgstr ""
+msgstr "Сдрул"
 
+# |, no-check-spell
 #. [unit]: type=Wolf Rider, id=Etruw
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:164
 msgid "Etruw"
-msgstr ""
+msgstr "Етрув"
 
+# |, no-check-spell
 #. [unit]: type=Direwolf Rider, id=Utrub
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:180
 msgid "Utrub"
-msgstr ""
+msgstr "Утруб"
 
+# |, no-check-spell
 #. [unit]: type=Goblin Pillager, id=Bihlas
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:196
 msgid "Bihlas"
-msgstr ""
+msgstr "Бихлас"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Grunt, id=Grut
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:214
 msgid "Grut"
-msgstr ""
+msgstr "Грут"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Grunt, id=Krolru
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:222
 msgid "Krolru"
-msgstr ""
+msgstr "Кролру"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Warrior, id=Kryl
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:230
 msgid "Kryl"
-msgstr ""
+msgstr "Крил"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Crossbowman, id=Erdug
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:238
 msgid "Erdug"
-msgstr ""
+msgstr "Ердуг"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Warrior, id=Urdol
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:246
 msgid "Urdol"
-msgstr ""
+msgstr "Урдол"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Warrior, id=Tan-Drur
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:254
 msgid "Tan-Drur"
-msgstr ""
+msgstr "Тан-Друр"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Crossbowman, id=Brim
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:262
 msgid "Brim"
-msgstr ""
+msgstr "Брим"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Grunt, id=Krud
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:270
 msgid "Krud"
-msgstr ""
+msgstr "Круд"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Warrior, id=Krulr
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:278
 msgid "Krulr"
-msgstr ""
+msgstr "Крулр"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Warrior, id=Draglar
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:286
 msgid "Draglar"
-msgstr ""
+msgstr "Драглар"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Warrior, id=Qmrun
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:294
 msgid "Qmrun"
-msgstr ""
+msgstr "Кумрун"
 
+# |, no-check-spell
 #. [unit]: type=Goblin Impaler, id=Erdog
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:302
 msgid "Erdog"
-msgstr ""
+msgstr "Ердог"
 
+# |, no-check-spell
 #. [unit]: type=Goblin Spearman, id=Sbrak
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:310
 msgid "Sbrak"
-msgstr ""
+msgstr "Збрак"
 
+# |, no-check-spell
 #. [unit]: type=Goblin Spearman, id=Urdum
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:318
 msgid "Urdum"
-msgstr ""
+msgstr "Урдум"
 
+# |, no-check-spell
 #. [unit]: type=Goblin Impaler, id=Ozdul
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:326
 msgid "Ozdul"
-msgstr ""
+msgstr "Оздул"
 
+# |, no-check-spell
 #. [unit]: type=Goblin Impaler, id=Zuzerd
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:334
 msgid "Zuzerd"
-msgstr ""
+msgstr "Зузерд"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Archer, id=Egrok
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:341
 msgid "Egrok"
-msgstr ""
+msgstr "Егрок"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Assassin, id=Urbrus
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:348
 msgid "Urbrus"
-msgstr ""
+msgstr "Урбрус"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Slayer, id=Erbru
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:355
 msgid "Erbru"
-msgstr ""
+msgstr "Ербру"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Warrior, id=Muhmr
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:363
 msgid "Muhmr"
-msgstr ""
+msgstr "Мумр"
 
+# |, no-check-spell
 #. [unit]: type=Goblin Knight, id=Uhmit
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:371
 msgid "Uhmit"
-msgstr ""
+msgstr "Ухмит"
 
+# |, no-check-spell
 #. [unit]: type=Direwolf Rider, id=Mrat
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:387
 msgid "Mrat"
-msgstr ""
+msgstr "Мрат"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Crossbowman, id=Cfrul
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:403
 msgid "Cfrul"
-msgstr ""
+msgstr "Крфул"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Crossbowman, id=Irkrul
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:411
 msgid "Irkrul"
-msgstr ""
+msgstr "Иркрул"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Grunt, id=Cebrun
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:419
 msgid "Cebrun"
-msgstr ""
+msgstr "Себрун"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Grunt, id=Krundrum
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:427
 msgid "Krundrum"
-msgstr ""
+msgstr "Крундрум"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Grunt, id=Arrkud
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:435
 msgid "Arrkud"
-msgstr ""
+msgstr "Аркуд"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Grunt, id=Gulmod
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die_utils.cfg:443
 msgid "Gulmod"
-msgstr ""
+msgstr "Гулмод"
 
 #. [scenario]: id=17_Breaking_the_siege
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:3
 msgid "Breaking the siege"
-msgstr ""
+msgstr "Пробој кроз опсаду"
 
 #. [part]
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:21
 msgid "With the orcs embroiled in a civil war, Kalenz seized the chance to take back his beloved home. Reports had been arriving of an enclave of Northern Elves yet holding out against the orcish invaders. It was quickly decided to send a force to their aid. But harsh winter weather descended while it was en route..."
-msgstr ""
+msgstr "С орковима упетљаним у међусобни сукоб, Каленз уграби прилику да поврати свој вољени дом. Пристизаше извештаји о обручу северњачких вилењака који се још увек држи против орковског завојевача, те паде одлука да им се пошаљу снаге у помоћ. Али се спусти оштра зима у путу..."
 
+# |, no-check-spell
 #. [unit]: type=Orcish Warlord, id=Kior-Pur
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:63
 msgid "Kior-Pur"
-msgstr ""
+msgstr "Киор-Пур"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Warlord, id=Mbiran
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:101
 msgid "Mbiran"
-msgstr ""
+msgstr "Мбиран"
 
+# |, no-check-spell
 #. [unit]: type=Orcish Warlord, id=Tan-Durr
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:138
 msgid "Tan-Durr"
-msgstr ""
+msgstr "Тан-Дур"
 
 #. [objective]: condition=lose
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:150
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:190
 msgid "Death of Uradredia"
-msgstr ""
+msgstr "Настрада ли Урадредија"
 
 #. [message]: id=Kior-Pur
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:221
 msgid "I see troops coming from the south! It must be that our army has beaten these elves and humans and will now help us crush these remaining elves!"
-msgstr ""
+msgstr "Неке снаге пристижу с југа! Мора бити да је наша војска сломила отпор вилењака и људи, а сада ће нам помоћи да здробимо ове преостале вилењачиће!"
 
 #. [message]: id=Uradredia
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:225
 msgid "Our defenses are stretched thin. Men, prepare to face another orcish attack!"
-msgstr ""
+msgstr "Одбрана нам је развучена и истањена. Спремите се за још један орковски налет!"
 
 #. [message]: id=Kalenz
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:229
 msgid "The North Elves still stand. Prepare for battle!"
-msgstr ""
+msgstr "Северни вилењаци се још увек држе. Спремите се за бој!"
 
 #. [message]: id=Kalenz
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:237
 msgid "The North Elves are now free! "
-msgstr ""
+msgstr "Северни вилњаци су сада слободни!"
 
 #. [message]: id=Uradredia
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:242
 msgid "Our thanks to you, Kalenz, son of Kliada. Our troops are at your command."
-msgstr ""
+msgstr "Захвални смо ти, Калензе, сине Клијаде. Прими наше снаге под своју заповест."
 
 #. [message]: id=Kior-Pur
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:255
 msgid "The elves are attacking us! Reserves!"
-msgstr ""
+msgstr "Вилењаци нас нападају! Позадина!"
 
+# |, no-check-spell
 #. [unit]: type=Direwolf Rider, id=Zhuk
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:266
 msgid "Zhuk"
-msgstr ""
+msgstr "Жук"
 
+# |, no-check-spell
 #. [unit]: type=Direwolf Rider, id=Dran
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:283
 msgid "Dran"
-msgstr ""
+msgstr "Дран"
 
+# |, no-check-spell
 #. [unit]: type=Direwolf Rider, id=Hrugt
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:295
 msgid "Hrugt"
-msgstr ""
+msgstr "Хрукт"
 
+# |, no-check-spell
 #. [unit]: type=Direwolf Rider, id=Orhtib
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:307
 msgid "Orhtib"
-msgstr ""
+msgstr "Орхтиб"
 
 #. [message]: id=Kalenz
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/17_Breaking_the_siege.cfg:325
 #: data/campaigns/Legend_of_Wesmere/utils/deaths.cfg:116
 msgid "Before you die, know that you lost in Wesmere, you lost at Tath, you will lose here and that your Great Chief is dead!"
-msgstr ""
+msgstr "Пре него умреш, знај да сте изгубили у Весмеру, изгубили код Тата, изгубићете и овде, и да вам је велики поглавица мртав!"
 
 #. [scenario]: id=18_hour_of_glory
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/18_Hour_of_Glory.cfg:3
 msgid "Hour of Glory"
-msgstr ""
+msgstr "Час славе"
 
 #. [part]
 #. +> 1.6
@@ -3643,6 +3691,9 @@ msgid ""
 "\n"
 "Kalenz, your mission is complete. The orcish Great Chieftain is dead and you have recaptured your home. Yet I sense there is turmoil in your mind..."
 msgstr ""
+"@Клеодил\n"
+"\n"
+"Калензе, твој задатак је довршен. Велики поглавица оркова је мртав, повратио си свој дом. Па ипак, осећам немир у твом уму..."
 
 #. [part]
 #. +> 1.6
@@ -3652,6 +3703,9 @@ msgid ""
 "\n"
 "It is indeed as you say, Cleodil. It is that potion that gnaws at me. I cannot enjoy our victories, nor can I rest. I am fighting it every single moment."
 msgstr ""
+"@Каленз\n"
+"\n"
+"Уистину је како кажеш, Клеодил. Онај ме напитак гризе. Не могу уживати у нашим победама, нити се опустити. Сваки тренутак трошим опирући му се."
 
 #. [part]
 #. +> 1.6
@@ -3661,6 +3715,9 @@ msgid ""
 "\n"
 "Crelanu warned us this might occur..."
 msgstr ""
+"@Клеодил\n"
+"\n"
+"Крелану нас је упозорио да до тога може доћи..."
 
 #. [part]
 #. +> 1.6
@@ -3670,6 +3727,9 @@ msgid ""
 "\n"
 "There was no other choice. Even if we die, it was worth it."
 msgstr ""
+"@Каленз\n"
+"\n"
+"Није било другог пута. Чак и ако умремо, вредело је."
 
 #. [part]
 #. +> 1.6
@@ -3679,6 +3739,9 @@ msgid ""
 "\n"
 "You will not die. You must fight it. I have faith in you Kalenz...beloved...you will overcome and master it. It will be hard and painful, but you will beat the potion. It is Landar that truly concerns me..."
 msgstr ""
+"@Клеодил\n"
+"\n"
+"Нећеш умрети. Мораш се борити. Верујем у тебе, Калензе... вољени... надјачаћеш га и зауздати. Биће напорно и болно, али ћеш превазићи напитак. Ландар је тај који ме заиста брине..."
 
 #. [part]
 #. +> 1.6
@@ -3688,6 +3751,9 @@ msgid ""
 "\n"
 "He seems to handle it better than do I..."
 msgstr ""
+"@Каленз\n"
+"\n"
+"Чини се да га он боље подноси од мене..."
 
 #. [part]
 #. +> 1.6
@@ -3697,6 +3763,9 @@ msgid ""
 "\n"
 "It does seem so, Kalenz. But I fear things may not be as they seem. Landar's mind has become dark and clouded to my healing senses."
 msgstr ""
+"@Клеодил\n"
+"\n"
+"Чини се, Калензе. Али се плашим да ствари нису каквим изгледају. Ландаров ум је постао мрачан и замагљен пред мојим видарским чулима."
 
 #. [part]
 #. +> 1.6
@@ -3706,6 +3775,9 @@ msgid ""
 "\n"
 "I understand too well what that may portend, beloved, but I do not wish to believe it. Landar is my friend, near as dear to me as you are."
 msgstr ""
+"@Каленз\n"
+"\n"
+"Предобро схватам на шта то слути, вољена, али не желим да поверујем. Ландар је мој пријатељ, при срцу ми скоро колико и ти."
 
 #. [part]
 #. +> 1.6
@@ -3715,6 +3787,9 @@ msgid ""
 "\n"
 "Some dwarves have been found dead in our camp. Landar is extremely unfriendly towards them, and ill-feeling is growing. I think the dwarves will leave us soon."
 msgstr ""
+"@Клеодил\n"
+"\n"
+"Неки патуљци нађени су мртви у нашем логору. Ландар је изузетно непријатан према њима, и зломишље нараста. Мислим да ће нас патуљци убрзо напустити."
 
 #. [part]
 #. +> 1.6
@@ -3724,6 +3799,9 @@ msgid ""
 "\n"
 "I will try to mend matters between them..."
 msgstr ""
+"@Каленз\n"
+"\n"
+"Покушаћу да изравнам размирице међу њима..."
 
 #. [part]
 #. +> 1.6
@@ -3733,60 +3811,64 @@ msgid ""
 "\n"
 "I see I cannot convince you. Go, do as you must; but be careful Kalenz, for I fear for us all..."
 msgstr ""
+"@Клеодил\n"
+"\n"
+"Видим да те не могу убедити. Пођи, чини што мораш; али буди опрезан, Калензе, јер се плашим за све нас..."
 
 #. [scenario]: id=19_Costly_Revenge
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:4
 msgid "Costly Revenge"
-msgstr ""
+msgstr "Скупа освета"
 
 #. [part]
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:22
 msgid "But Kalenz failed to persuade the dwarves. The dwarves left, and at Landar's insistence the elves marched on the empire of the Saurians..."
-msgstr ""
+msgstr "Каленз не успе да убеди патуљке, и они одоше. На Ландарово наваљивање, вилењаци пођоше на царство сауријанаца..."
 
+# |, no-check-spell
 #. [unit]: type=Saurian Flanker, id=Hgyr
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:91
 msgid "Hgyr"
-msgstr ""
+msgstr "Хгир"
 
 #. [message]: id=Kalenz
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:164
 msgid "We have finally reached Saurgrath, their capitol. Remember whose side they have taken in the war against us."
-msgstr ""
+msgstr "Напокон досегосмо Саурграт, њихову престоницу. Не заборавите којој су се страни приклонили у рату против нас."
 
 #. [message]: id=Cleodil
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:168
 msgid "I fear this will be a bloodbath..."
-msgstr ""
+msgstr "Плашим се да ће бити крвопролића..."
 
 #. [message]: id=Landar
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:172
 msgid "It is our chance to finish them off..."
-msgstr ""
+msgstr "Ово нам је прилика да их довршимо."
 
 #. [message]: id=Kalenz
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:181
 msgid "Victory is ours. "
-msgstr ""
+msgstr "Победа је наша."
 
 #. [scenario]: id=20_Council_ruling
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:3
 msgid "Council ruling"
-msgstr ""
+msgstr "Пресуда већа"
 
 #. [part]
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/20_Council_ruling.cfg:13
 msgid "With the once mighty Saurian empire destroyed, saurians had been reduced to scattered bands lurking in waste places. But the Elves still had problems of their own..."
-msgstr ""
+msgstr "По уништењу некада моћног сауријанског царства, сауријанци се сведоше на раштркане банде што вребају по пустошима. Али проблемима вилењака још увек не беше крај..."
 
 #. [part]
 #. +> 1.6
@@ -3796,6 +3878,9 @@ msgid ""
 "\n"
 "Kalenz, the council has called you here to demand that you apologize for your actions. You took the decision to help the humans at Tath, and hence risk further war with the Orcs; to strike at the orcs north; and last to attack the Saurians. These were decisions to be taken by the council, not by a field commander! "
 msgstr ""
+"@Легмир\n"
+"\n"
+"Калензе, веће те је сазвало овде да затражи да се извиниш за своје поступке. Донео си одлуку да помогнеш људима код Тата, тиме ризикујући даљи сукоб са орковима; да удариш на оркове на северу; на крају, да нападнеш сауријанце. Такве су одлуке на већу да их донесе, не на војном заповеднику!"
 
 #. [part]
 #. +> 1.6
@@ -3805,6 +3890,9 @@ msgid ""
 "\n"
 "With all respect my lords, we were and still are in a war. We could not spare the time to consult with you, lest our opportunities slip from our grasp and make the war longer and more costly. Besides, all our actions have been beneficial to our cause: The orcs are now in a civil war for succession, the North Elves are free and the Saurians are no longer a threat."
 msgstr ""
+"@Каленз\n"
+"\n"
+"Уз дужно поштовање, господари, били смо и још увек смо у рату. Није било времена да се саветујемо с вама, не би ли смо испустили прилике из шака и тиме рат још развукли и платили већу цену. Осим тога, сви наши поступци допринели су нашој ствари: оркови су сада у међусобном сукобу, северни вилењаци су слободни, а сауријанци више нису претња."
 
 #. [part]
 #. +> 1.6
@@ -3814,6 +3902,9 @@ msgid ""
 "\n"
 "The council is not blind to these benefits. But, still, you cannot decide high matters of statecraft on behalf of the Elves. We cannot allow it."
 msgstr ""
+"@Урипур\n"
+"\n"
+"Веће није слепо за те користи. Свеједно, не можеш ти одлучивати о високим питањима државотворним у име свих вилењака. Не можемо то допустити."
 
 #. [part]
 #. +> 1.6
@@ -3823,6 +3914,9 @@ msgid ""
 "\n"
 "If it weren't for Kalenz and his men, none of us would be here to argue the point today. "
 msgstr ""
+"@Галтрид\n"
+"\n"
+"Да не би Каленза и његових снага, нико од нас не би био овде да данас разматра ову ствар."
 
 #. [part]
 #. +> 1.6
@@ -3832,6 +3926,9 @@ msgid ""
 "\n"
 "I agree. What's done is done. Let us concentrate on the future, not the past. "
 msgstr ""
+"@Урадредија\n"
+"\n"
+"Слажем се. Што је учињено, учињено је. Усредсредимо се на будућност, не на прошлост."
 
 #. [part]
 #. +> 1.6
@@ -3841,6 +3938,9 @@ msgid ""
 "\n"
 "Kalenz, the council has decided that you are to be stripped of all military authority. You may now go."
 msgstr ""
+"@Ирадија\n"
+"\n"
+"Калензе, веће је одлучило да се разрешиш свих војних надлежности. Сада можеш поћи."
 
 #. [part]
 #. +> 1.6
@@ -3850,6 +3950,9 @@ msgid ""
 "\n"
 "I lay down my burden humbly and gladly. But we need to have a strong army, as the orcs will return!"
 msgstr ""
+"@Каленз\n"
+"\n"
+"Полажем то бреме покорно и драговољно. Али мораћемо држати јаку војску, јер ће се оркови вратити!"
 
 #. [part]
 #. +> 1.6
@@ -3859,6 +3962,9 @@ msgid ""
 "\n"
 "Cowards and traitors!"
 msgstr ""
+"@Ландар\n"
+"\n"
+"Кукавице и издајице!"
 
 #. [scenario]: id=21_Elvish_Assassins
 #. +> 1.6
