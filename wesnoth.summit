@@ -29,15 +29,14 @@ S.summit = dict(
 )
 
 S.branches = [
-    #dict(
-        #id="trunk",
-        #topdir=os.path.join(WESVCS, "trunk", "po"),
-        #by_lang=S.options.lang,
-    #),
+    dict(
+        id="trunk",
+        topdir=os.path.join(WESVCS, "trunk", "po"),
+        by_lang=S.options.lang,
+    ),
     dict(
         id="1.6",
         topdir=os.path.join(WESVCS, "branches", "1.6", "po"),
-        #topdir=os.path.join(WESVCS, "trunk", "po"),
         by_lang=S.options.lang,
     ),
 ]
