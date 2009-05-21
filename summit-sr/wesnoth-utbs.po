@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-05-17 17:42+0200\n"
-"PO-Revision-Date: 2009-05-03 13:59+0200\n"
+"PO-Revision-Date: 2009-05-21 00:29+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -78,18 +78,12 @@ msgstr "пустињски тумарач"
 #. [campaign]: id=Under_the_Burning_Suns
 #. +> trunk
 #: data/campaigns/Under_the_Burning_Suns/_main.cfg:26
-#, fuzzy
-#| msgid ""
-#| "In the distant future a small band of elves struggles to survive amidst the ruins of fallen empires. Lead your people out of the desert on an epic journey to find a new home.\n"
-#| "\n"
-#| "(Expert level, 11 scenarios, some under reconstruction)\n"
 msgid ""
 "In the distant future a small band of elves struggles to survive amidst the ruins of fallen empires. Lead your people out of the desert on an epic journey to find a new home.\n"
 "\n"
 msgstr ""
 "У далекој будућности, мала скупина вилењака се бори за опстанак сред рушевина палих царстава. Поведи свој народ из пустиње, на епско путовање у потрази за новим домом.\n"
 "\n"
-"(Зналачки ниво, 11 сценарија, неки се преправљају)\n"
 
 #. [campaign]: id=Under_the_Burning_Suns
 #. +> 1.6
@@ -101,13 +95,13 @@ msgid ""
 msgstr ""
 "У далекој будућности, мала скупина вилењака се бори за опстанак сред рушевина палих царстава. Поведи свој народ из пустиње, на епско путовање у потрази за новим домом.\n"
 "\n"
-"(Зналачки ниво, 11 сценарија, неки се преправљају)\n"
+"(Зналачки ниво, 11 сценарија, неки се преправљају.)\n"
 
 #. [campaign]: id=Under_the_Burning_Suns
 #. +> trunk
 #: data/campaigns/Under_the_Burning_Suns/_main.cfg:27
 msgid "(Expert level, 11 scenarios, some under reconstruction)\n"
-msgstr ""
+msgstr "(Зналачки ниво, 11 сценарија, неки се преправљају.)\n"
 
 #. [about]
 #. +> trunk 1.6
@@ -11598,16 +11592,12 @@ msgstr "ошамућивање"
 #. +> trunk
 #: data/campaigns/Under_the_Burning_Suns/units/Kaleh.cfg:305
 #: data/campaigns/Under_the_Burning_Suns/units/Kaleh.cfg:308
-#, fuzzy
-#| msgid ""
-#| "Stun:\n"
-#| "This attack puts enormous pressure on the enemy, disrupting his ZOC if a hit is landed. The attacker is exposing himself to attack and will be slowed as a result of the effort. Not active on defense."
 msgid ""
 "Stun:\n"
 "This attack puts enormous pressure on the enemy, disrupting his ZOC if a hit is landed. Not active on defense."
 msgstr ""
 "Ошамућивање:\n"
-"Овај удар неизмерно притиска непријатеља, кварећи му НАПОЈ кад год дође до поготка. Као резултат напора, и сам нападач се отвара за напад и успорава. Не делује у одбрани."
+"Овај удар неизмерно притиска непријатеља, кварећи му НАПОЈ кад год дође до поготка. Не делује у одбрани."
 
 #. [chance_to_hit]: id=stun
 #. +> 1.6
@@ -11623,14 +11613,14 @@ msgstr ""
 #. +> trunk
 #: data/campaigns/Under_the_Burning_Suns/units/Kaleh.cfg:322
 msgid "skilled in surviving the desert"
-msgstr ""
+msgstr "вешт у преживљавању у пустињи"
 
 #. [hides]: id=camouflage
 #. +> trunk
 #: data/campaigns/Under_the_Burning_Suns/units/Kaleh.cfg:330
 #: data/campaigns/Under_the_Burning_Suns/units/Kaleh.cfg:331
 msgid "camouflage"
-msgstr ""
+msgstr "прикривање"
 
 #. [hides]: id=camouflage
 #. +> trunk
@@ -11642,6 +11632,10 @@ msgid ""
 "\n"
 "Enemy units cannot see this unit while it is in desert dunes, desert mountains, oasis and craters, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr ""
+"Прикривање:\n"
+"Ова јединица уме да се сакрива у пешчаним динама, пустињским планинама и кратерима, тако да је непријатељ не може открити.\n"
+"\n"
+"Непријатељске јединице не могу уочити ову док је у пешчаним динама, пустињским планинама, оазама и кратерима, осим ако ступе тачно до ње. Она непријатељска јединица која је открије одмах губи све преостало кретање."
 
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/units/Kaleh.cfg:355

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-05-17 17:39+0200\n"
-"PO-Revision-Date: 2009-05-03 13:59+0200\n"
+"PO-Revision-Date: 2009-05-21 00:40+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. +> trunk 1.6
 #: data/_main.cfg:56
 msgid "Compressed Saves"
-msgstr "компресовани снимци"
+msgstr "компресовани уписи"
 
 #. [advanced_preference]: type=boolean
 #. +> trunk 1.6
@@ -71,7 +71,7 @@ msgstr "приказ борбе"
 #. +> trunk
 #: data/ai/scenarios/ai_arena_small/0002-poisoning.cfg:16
 msgid "This situation should test the ability of AI to spread poison around..."
-msgstr ""
+msgstr "Овај случај служи да испита способност ВИ-ја да около шири отров..."
 
 #. [time]: id=underground
 #. [illuminated_time]: id=underground_illum
@@ -631,10 +631,8 @@ msgstr "Својства оружја"
 #. [section]: id=factions_section
 #. +> trunk
 #: data/core/help.cfg:67 src/help.cpp:1286 src/help.cpp:1288
-#, fuzzy
-#| msgid "Faction"
 msgid "Factions"
-msgstr "фракција"
+msgstr "Фракције"
 
 #. [section]: id=terrains
 #. [topic]: id=..terrains
@@ -780,7 +778,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Када добијете сценарио, мапа ће се засивети и дугме „Готово“ при дну променити у „Крај“. Пре него што кликнете на дугме да наставите, можете променити опције чувања, или (у вишеиграчком окружењу) попричати са саиграчима."
+"Када добијете сценарио, мапа ће се засивети и дугме „Готово“ при дну променити у „Крај“. Пре него што кликнете на дугме да наставите, можете променити опције уписивања, или (у вишеигрању) попричати са саиграчима."
 
 #. [topic]: id=recruit_and_recall
 #. +> trunk 1.6
@@ -852,7 +850,7 @@ msgstr "Куглице"
 #. +> trunk 1.6
 #: data/core/help.cfg:188
 msgid "On top of the energy bar shown next to each unit of yours is an orb. For units you control, this orb is:"
-msgstr "Поврх енерготраке приказане поред сваке ваше јединице, стоји куглица. За јединице под вашом контролом, куглица је:"
+msgstr "Поврх енерготраке приказане поред сваке ваше јединице, стоји куглица. За јединице под вашом управом, куглица је:"
 
 #. [topic]: id=orbs
 #. +> trunk 1.6
@@ -876,7 +874,7 @@ msgstr "црвена, ако је истрошила сву покретљиво
 #. +> trunk 1.6
 #: data/core/help.cfg:192
 msgid "The orb is blue if the unit is an ally you do not control."
-msgstr "Куглица је плава ако је јединица савезник, којег не контролишете."
+msgstr "Куглица је плава ако је јединица савезник којим не управљате."
 
 #. [topic]: id=orbs
 #. +> trunk 1.6
@@ -2162,7 +2160,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"улази у исправљачки режим (не ради у вишеиграчком режиму); погледајте <ref>dst='debug_commands' text='Исправљачке наредбе'</ref>.\n"
+"улази у исправљачки режим (не ради у вишеигрању); погледајте <ref>dst='debug_commands' text='Исправљачке наредбе'</ref>.\n"
 "Исправљање се искључује напуштањем игре или наредбом :nodebug.\n"
 "\n"
 
@@ -2175,7 +2173,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"задаје или пребацује страну играча између човека и ВИ. Играч/клијент који контролише ту страну мора да изда ову наредбу. Ако се други параметар не зада, обрће између човека и ВИ; ако је ‘on’, контролор постаје ВИ, а уз ‘off’ човек. Спада на тренутно активну страну ако се не зада ни један параметар.\n"
+"задаје или пребацује страну играча између човека и ВИ. Играч/клијент који управља том страном мора да изда ову наредбу. Ако се други параметар не зада, обрће између човека и ВИ; ако је ‘on’, управљач постаје ВИ, а уз ‘off’ човек. Спада на тренутно активну страну ако се не зада ни један параметар.\n"
 "\n"
 
 #. [topic]: id=general_commands
@@ -2247,7 +2245,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"чува игру (без упита).\n"
+"уписује игру (без питања).\n"
 "\n"
 
 #. [topic]: id=general_commands
@@ -2258,7 +2256,7 @@ msgid ""
 "Save the game and quit the scenario (without prompting)."
 msgstr ""
 "\n"
-"напушта сценарио уз чување игре (без упита)."
+"напушта сценарио уз уписивање игре (без питања)."
 
 #. [topic]: id=mp_commands
 #. +> trunk 1.6
@@ -2269,35 +2267,25 @@ msgstr "Вишеиграчке наредбе"
 #. [topic]: id=mp_commands
 #. +> trunk
 #: data/core/help.cfg:810
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Ban a user in a multiplayer game by the IP address used by that username and kick him.\n"
-#| "\n"
 msgid ""
 "\n"
 "Ban a user in a multiplayer game by the IP address used by that username and kick him. Can be used on users not in the game but on the server. (Of course they won't be kicked then.)\n"
 "\n"
 msgstr ""
 "\n"
-"забрањује играча по ИП адреси коју користи то корисничко име, и избацује га.\n"
+"забрањује играча по ИП адреси коју користи то корисничко име, и избацује га. Може се користити на корисницима ван игре али на серверу (наравно, тада их се нема одакле избацити.)\n"
 "\n"
 
 #. [topic]: id=mp_commands
 #. +> trunk
 #: data/core/help.cfg:813
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Change the controller for side (write here the number of the side) to username (write here the nick of the player or observer). You can check what side belongs to which player in the 'Scenario Settings' dialog (Press the 'more' button in the 'Status Table' (alt+s by default) to get there.).\n"
-#| "\n"
 msgid ""
 "\n"
 "Change the controller for side (write here the number of the side) to username (write here the nick of the player or observer). You can check what side belongs to which player in the 'Scenario Settings' dialog (Press the 'more' button in the 'Status Table' (alt+s by default) to get there.). The host can change control of any side.\n"
 "\n"
 msgstr ""
 "\n"
-"мења контролора стране (задате бројем) на дато корисничко име (надимак играча или посматрача). Који играч припада којој страни можете проверити у дијалогу „Поставке сценарија“; притисните дугме за више у табели стања (подразумевно алт+S) да дођете дотле.\n"
+"мења управљача стране (задате бројем) на дато корисничко име (надимак играча или посматрача). Који играч припада којој страни можете проверити у дијалогу „Поставке сценарија“; притисните дугме за више у табели стања (подразумевно алт+S) да дођете дотле. Домаћин може изменити управљање било којом страном.\n"
 "\n"
 
 #. [topic]: id=mp_commands
@@ -2309,24 +2297,19 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"мења контролора стране (задате бројем) на дато корисничко име (надимак играча или посматрача). Који играч припада којој страни можете проверити у дијалогу „Поставке сценарија“; притисните дугме за више у табели стања (подразумевно алт+S) да дођете дотле.\n"
+"мења управљача стране (задате бројем) на дато корисничко име (надимак играча или посматрача). Који играч припада којој страни можете проверити у дијалогу „Поставке сценарија“; притисните дугме за више у табели стања (подразумевно алт+S) да дођете дотле.\n"
 "\n"
 
 #. [topic]: id=mp_commands
 #. +> trunk
 #: data/core/help.cfg:816
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Kick a user in multiplayer. They will be able to rejoin the game. Generally a friendly way to remove someone who is having connection or other difficulties.\n"
-#| "\n"
 msgid ""
 "\n"
 "Kick a user in multiplayer. They will be able to rejoin the game. If you just want to change control of their side(s) use the :control command instead.\n"
 "\n"
 msgstr ""
 "\n"
-"избацује играча из игре. Избачени ће моћи да се поново прикључе. Сматра се пријатељским начином да се уклони неко ко има проблема са везом или друге потешкоће.\n"
+"избацује играча из игре. Избачени ће моћи да се поново прикључе. Ако само желите да измените којом страном играч управља, употребите наредбу :control уместо ове.\n"
 "\n"
 
 #. [topic]: id=mp_commands
@@ -2356,17 +2339,14 @@ msgstr ""
 #. [topic]: id=mp_commands
 #. +> trunk
 #: data/core/help.cfg:822
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Toggle muting/silencing of all observers on/off."
 msgid ""
 "\n"
 "Toggle muting/silencing of all observers on/off.\n"
 "\n"
 msgstr ""
 "\n"
-"укљученост свих посматрача у писање и разговор."
+"укљученост свих посматрача у писање и разговор.\n"
+"\n"
 
 #. [topic]: id=mp_commands
 #. +> 1.6
@@ -2376,23 +2356,19 @@ msgid ""
 "Toggle muting/silencing of all observers on/off."
 msgstr ""
 "\n"
-"укљученост свих посматрача у писање и разговор."
+"укљученост свих посматрача у писање и разговор.\n"
+"\n"
 
 #. [topic]: id=mp_commands
 #. +> trunk
 #: data/core/help.cfg:825
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Ban a user in a multiplayer game by the IP address used by that username and kick him.\n"
-#| "\n"
 msgid ""
 "\n"
 "Unban a user in a multiplayer game by the IP address used by that username. Can be used on users not in the game but on the server.\n"
 "\n"
 msgstr ""
 "\n"
-"забрањује играча по ИП адреси коју користи то корисничко име, и избацује га.\n"
+"укида забрану играчу по ИП адреси коју користи то корисничко име. Може се употребити и на корисницима ван игре али на серверу.\n"
 "\n"
 
 #. [topic]: id=mp_commands
@@ -2410,17 +2386,12 @@ msgstr ""
 #. [topic]: id=mp_commands
 #. +> trunk
 #: data/core/help.cfg:826
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Mute a specific observer. If no username is supplied the muted usernames are displayed.\n"
-#| "\n"
 msgid ""
 "\n"
 "Unmute a specific observer. If no username is supplied the list of muted observers is cleared."
 msgstr ""
 "\n"
-"утишава одређеног посматрача. Ако се не зада корисничко име, приказују се сва која су утишана.\n"
+"укида утишаност одређеног посматрача. Ако се не зада корисничко име, чисти се списак утишаних посматрача.\n"
 "\n"
 
 #. [topic]: id=debug_commands
@@ -2906,14 +2877,10 @@ msgstr ""
 #. +> trunk
 #: data/core/macros/abilities.cfg:614
 msgid "petrifies"
-msgstr ""
+msgstr "окамењивање"
 
 #. +> trunk
 #: data/core/macros/abilities.cfg:616
-#, fuzzy
-#| msgid ""
-#| "Stone:\n"
-#| "This attack turns the target to stone. Units that have been turned to stone may not move or attack."
 msgid ""
 "Petrify:\n"
 "This attack petrifies the target, turning it to stone. Units that have been petrified may not move or attack."
@@ -3947,7 +3914,7 @@ msgstr "приглупост"
 #. +> trunk
 #: data/core/macros/traits.cfg:222
 msgid "aged"
-msgstr ""
+msgstr "старост"
 
 #. [color_range]: id=red
 #. [color_range]: id=1
@@ -4641,127 +4608,130 @@ msgstr "$name|ска шума,$name|ска гора"
 msgid "$name Lake"
 msgstr "$name-језеро"
 
+# well-spelled: ај
 #. [language]
 #. +> trunk
 #: data/hardwired/english.cfg:24
 msgid "$name's Peak,Mount $name"
-msgstr ""
+msgstr "$name|ски врх,$name|ска планина,$name|ник,$name|ај"
 
 #. [language]
 #. +> trunk
 #: data/hardwired/english.cfg:25
-#, fuzzy
-#| msgid "$name|ham,$name|ton,$name|field"
 msgid "$name's Swamp,$name|marsh,$name|fen"
-msgstr "$name|ем,$name|тон,$name|филд"
+msgstr "$name|ска мочвара,$name|ска бара,$name|ска мртваја,$name|ски плав"
 
+# >> village names
 #. [language]
 #. +> trunk
 #: data/hardwired/english.cfg:26
-#, fuzzy
-#| msgid "$name|bury,$name|ham,$name|ton"
 msgid "$name|bury,$name|ham,$name|ton,$name|bury"
-msgstr "$name|бери,$name|ем,$name|тон"
+msgstr "$name|бери,$name|ем,$name|тон,$name|бери"
 
+# >> village names
 #. [language]
 #. +> 1.6
 #: data/hardwired/english.cfg:24
 msgid "$name|bury,$name|ham,$name|ton"
 msgstr "$name|бери,$name|ем,$name|тон"
 
+# >> village names
 #. [language]
 #. +> trunk
 #: data/hardwired/english.cfg:27
-#, fuzzy
-#| msgid "$name|harbor,$name|port"
 msgid "$name|harbor,$name|port,$lake|port,$lake|harbor"
-msgstr "$name|харбор,$name|порт"
+msgstr "Лука $name|,$name|ски стај,Лука $lake|,$lake|ски стај"
 
+# >> village names
 #. [language]
 #. +> 1.6
 #: data/hardwired/english.cfg:25
 msgid "$name|harbor,$name|port"
-msgstr "$name|харбор,$name|порт"
+msgstr "Лука $name|,$name|ски стај"
 
+# >> village names
 #. [language]
 #. +> trunk
 #: data/hardwired/english.cfg:28
-#, fuzzy
-#| msgid "$name|ham,$name|ford,$name|cross,$river|ford,$river|cross"
 msgid "$name|ham,$name|ford,$name|cross,$river|ford,$river|cross,$name on river"
-msgstr "$name|ем,$name|форд,$name|крос,$river|форд,$river|крос"
+msgstr "$name|ем,$name|форд,$name|ски прелаз,$river|форд,$river|ски прелаз,$name на реци"
 
+# >> village names
 #. [language]
 #. +> 1.6
 #: data/hardwired/english.cfg:26
 msgid "$name|ham,$name|ford,$name|cross,$river|ford,$river|cross"
-msgstr "$name|ем,$name|форд,$name|крос,$river|форд,$river|крос"
+msgstr "$name|ем,$name|форд,$name|ски прелаз,$river|форд,$river|ски прелаз"
 
+# >> village names
 #. [language]
 #. +> trunk
 #: data/hardwired/english.cfg:29
-#, fuzzy
-#| msgid "$river|bridge,$river|bridge,$river|bridge,$name|ham,$name|bridge"
 msgid "$river|bridge,$river|bridge,$river|bridge,$name|ham,$name|bridge,$bridge|ham,$bridge|ton"
-msgstr "$river|бриџ,$river|бриџ,$river|бриџ,$name|ем,$name|бриџ"
+msgstr "$river|ски мост,$river|ски мост,$river|ски мост,$name|ем,$name|ски мост,$bridge|ем,$bridge|тон"
 
+# >> village names
 #. [language]
 #. +> 1.6
 #: data/hardwired/english.cfg:27
 msgid "$river|bridge,$river|bridge,$river|bridge,$name|ham,$name|bridge"
-msgstr "$river|бриџ,$river|бриџ,$river|бриџ,$name|ем,$name|бриџ"
+msgstr "$river|ски мост,$river|ски мост,$river|ски мост,$name|ем,$name|ски мост"
 
+# >> village names
 #. [language]
 #. +> trunk 1.6
 #: data/hardwired/english.cfg:30
 msgid "$name|ham,$name|ton,$name|field"
-msgstr "$name|ем,$name|тон,$name|филд"
+msgstr "$name|ем,$name|тон,$name|ско поље"
 
+# >> village names
 #. [language]
 #. +> trunk
 #: data/hardwired/english.cfg:31
-#, fuzzy
-#| msgid "$name|ham,$name|ton,$name|wood,$name Forest"
 msgid "$name|ham,$name|ton,$name|wood,$name Forest,$forest|wood,$forest|ham,$forest|ton"
-msgstr "$name|ем,$name|тон,$name|вуд"
+msgstr "$name|ем,$name|тон,$name|вуд,$forest|вуд,$forest|ем,$forest|тон"
 
+# >> village names
 #. [language]
 #. +> trunk 1.6
 #: data/hardwired/english.cfg:32
 msgid "$name|ham,$name|bury,$name|ton,$name|hill,$name|crest"
-msgstr "$name|ем,$name|бери,$name|тон,$name|хил,$name|крест"
+msgstr "$name|ем,$name|бери,$name|тон,$name|ско брдо,$name|ски венац"
 
+# >> village names
 #. [language]
 #. +> 1.6
 #: data/hardwired/english.cfg:29
 msgid "$name|ham,$name|ton,$name|wood,$name Forest"
-msgstr "$name|ем,$name|тон,$name|вуд"
+msgstr "$name|ем,$name|тон,$name|вуд,$name|ска шума"
 
+# >> village names
 #. [language]
 #. +> trunk
 #: data/hardwired/english.cfg:33
 msgid "$mountain|mont,$mountain|cliff,$mountain|bury,$mountain|ham"
-msgstr ""
+msgstr "Мон $mountain|,$mountain|ска литица,$mountain|бери,$mountain|ем"
 
+# >> village names
 #. [language]
 #. +> trunk 1.6
 #: data/hardwired/english.cfg:34
 msgid "$name|ham,$name|bury,$name|ton,$name|mont,$name|mont,$name|cliff,$name|cliff"
-msgstr "$name|ем,$name|бери,$name|тон,$name|монт,$name|монт,$name|клиф,$name|клиф"
+msgstr "$name|ем,$name|бери,$name|тон,$name|,Мон $name|,$name|ска литица,$name|ска литица"
 
+# >> village names
 #. [language]
 #. +> trunk
 #: data/hardwired/english.cfg:35
 msgid "$road's Rest,$road's Waypoint,$road|bury,$road|ham,$name|bury,$name|ham"
-msgstr ""
+msgstr "$road|ски пут,$road|ска тачка,$road|бери,$road|ем,$name|бери,$name|ем"
 
+# >> village names
 #. [language]
 #. +> trunk
 #: data/hardwired/english.cfg:36
-#, fuzzy
-#| msgid "$name|bury,$name|ham,$name|ton"
 msgid "$name|bury,$name|ham,$name|ton,$swamp|bury,$swamp|ham,$swamp|ton,"
-msgstr "$name|бери,$name|ем,$name|тон"
+msgstr "$name|бери,$name|ем,$name|тон,$swamp|бери,$swamp|ем,$swamp|тон"
 
 #. [language]
 #. +> trunk 1.6
@@ -5506,21 +5476,17 @@ msgstr "У замку нема више слободних поља за нов�
 #. +> 1.6
 #: src/actions.cpp:266 src/actions.cpp:286 src/actions.cpp:291
 msgid "An invalid weapon is selected, possibly by the Python AI."
-msgstr "Изабрано неисправно оружје, можда кривицом питонске ВИ."
+msgstr "Изабрано неваљано оружје, можда кривицом питонске ВИ."
 
 #. +> trunk
 #: src/actions.cpp:293 src/actions.cpp:355 src/actions.cpp:940
-#, fuzzy
-#| msgid "Invalid era selected"
 msgid "An invalid attacker weapon got selected."
-msgstr "Изабрана је неисправна епоха"
+msgstr "Изабрано је неваљано оружје за нападача."
 
 #. +> trunk
 #: src/actions.cpp:298
-#, fuzzy
-#| msgid "Invalid era selected"
 msgid "An invalid defender weapon got selected."
-msgstr "Изабрана је неисправна епоха"
+msgstr "Изабрано је неваљано оружје за браниоца."
 
 #. +> trunk 1.6
 #: src/actions.cpp:1063 src/actions.cpp:1338
@@ -5543,12 +5509,12 @@ msgstr "окамењен"
 #: src/actions.cpp:1075 src/actions.cpp:1350
 msgctxt "female"
 msgid "petrified"
-msgstr ""
+msgstr "окамењена"
 
 #. +> trunk
 #: src/actions.cpp:1075 src/actions.cpp:1350
 msgid "petrified"
-msgstr ""
+msgstr "окамењен"
 
 #. +> trunk 1.6
 #: src/actions.cpp:2444
@@ -6083,12 +6049,12 @@ msgstr "Не питај ме поново!"
 #. +> 1.6
 #: src/dialogs.cpp:285
 msgid "Save names may not contain colons, slashes, or backslashes. Please choose a different name."
-msgstr "Имена позиција не могу садржати двотачке, косе и обрнуте косе црте. Задајте другачије име."
+msgstr "Имена уписа не могу садржати двотачке, косе и обрнуте косе црте. Задајте другачије име."
 
 #. +> 1.6
 #: src/dialogs.cpp:301
 msgid "Save already exists. Do you want to overwrite it?"
-msgstr "Позиција већ постоји. Желите ли да је пребришете?"
+msgstr "Упис већ постоји. Желите ли да га пребришете?"
 
 #. +> 1.6
 #: src/dialogs.cpp:302 src/menu_events.cpp:606 src/playcampaign.cpp:418
@@ -6108,7 +6074,7 @@ msgstr "%a %b %d %H.%M %Y"
 #. +> trunk 1.6
 #: src/dialogs.cpp:456
 msgid "#(Invalid)"
-msgstr "#(неисправно)"
+msgstr "#(неваљано)"
 
 #. +> trunk 1.6
 #: src/dialogs.cpp:474
@@ -6118,7 +6084,7 @@ msgstr "Поход: $campaign_name"
 #. +> trunk 1.6
 #: src/dialogs.cpp:481
 msgid "Multiplayer"
-msgstr "Више играча"
+msgstr "Вишеиграње"
 
 #. +> trunk 1.6
 #: src/dialogs.cpp:483
@@ -6369,7 +6335,7 @@ msgstr "Учитавам насловни екран."
 #. +> trunk 1.6
 #: src/game_config.cpp:285
 msgid "Invalid color range: "
-msgstr "Неисправан опсег боја: "
+msgstr "Неваљан опсег боја: "
 
 #. +> trunk 1.6
 #: src/game_events.cpp:180
@@ -6450,20 +6416,18 @@ msgstr "окамењена: "
 
 #. +> trunk
 #: src/generate_report.cpp:115
-#, fuzzy
-#| msgid "This unit has been turned to stone. It may not move or attack."
 msgid "This unit has been petrified. It may not move or attack."
-msgstr "Ова јединица је претворена у камен. Не може се кретати нити нападати."
+msgstr "Ова јединица је окамењена. Не може се кретати нити нападати."
 
 #. +> 1.6
 #: src/generate_report.cpp:113
 msgid "This unit has been turned to stone. It may not move or attack."
-msgstr "Ова јединица је претворена у камен. Не може се кретати нити нападати."
+msgstr "Ова јединица је окамењена. Не може се кретати нити нападати."
 
 #. +> trunk
 #: src/generate_report.cpp:115
 msgid "petrified: "
-msgstr ""
+msgstr "окамењена: "
 
 #. +> trunk 1.6
 #: src/generate_report.cpp:170
@@ -6566,17 +6530,13 @@ msgstr "<header>text='Јединице с овом способношћу'</head
 
 #. +> trunk
 #: src/help.cpp:1248
-#, fuzzy
-#| msgid "Leader: "
 msgid "Leaders:"
-msgstr "вођ: "
+msgstr "вођ:"
 
 #. +> trunk
 #: src/help.cpp:1257
-#, fuzzy
-#| msgid "Recruits: "
 msgid "Recruits:"
-msgstr "регрути: "
+msgstr "регрути:"
 
 #. +> trunk 1.6
 #: src/help.cpp:1271 src/multiplayer_create.cpp:77
@@ -6585,15 +6545,13 @@ msgstr "епоха:"
 
 #. +> trunk
 #: src/help.cpp:1279
-#, fuzzy
-#| msgid "Faction"
 msgid "Factions:"
-msgstr "фракција"
+msgstr "фракције:"
 
 #. +> trunk
 #: src/help.cpp:1289
 msgid "Factions are only used in multiplayer"
-msgstr ""
+msgstr "Фракције се користе само у вишеигрању"
 
 #. +> trunk 1.6
 #: src/help.cpp:1364
@@ -6782,8 +6740,6 @@ msgstr "?"
 
 #. +> trunk
 #: src/loadscreen.cpp:235
-#, fuzzy
-#| msgid "Verifying cache"
 msgid "Verifying cache..."
 msgstr "Оверавам кеш..."
 
@@ -6794,8 +6750,6 @@ msgstr "Оверавам кеш..."
 
 #. +> trunk
 #: src/loadscreen.cpp:254
-#, fuzzy
-#| msgid "Reading unit files."
 msgid "Reading unit files..."
 msgstr "Читам датотеке јединица..."
 
@@ -6806,8 +6760,6 @@ msgstr "Читам датотеке јединица..."
 
 #. +> trunk
 #: src/loadscreen.cpp:273
-#, fuzzy
-#| msgid "Reading files and creating cache."
 msgid "Reading files and creating cache..."
 msgstr "Читам датотеке и стварам кеш..."
 
@@ -7029,7 +6981,7 @@ msgstr "Мапа сачувана."
 #. +> trunk 1.6
 #: src/menu_events.cpp:604
 msgid "Could not save the map: $msg"
-msgstr "Не могу да снимим мапу: $msg"
+msgstr "Не могу да сачувам мапу: $msg"
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:619
@@ -7192,7 +7144,7 @@ msgstr "Забрањује и избацује играча или посмат�
 #. +> trunk
 #: src/menu_events.cpp:2048
 msgid "Unban a user. He does not have to be in the game but on the server."
-msgstr ""
+msgstr "Укида забрану играчу, који не мора бити у игри, али мора на серверу."
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:2051
@@ -7206,17 +7158,13 @@ msgstr "Утишава посматрача. Без аргумената при�
 
 #. +> trunk
 #: src/menu_events.cpp:2055
-#, fuzzy
-#| msgid "Mute an observer. Without an argument displays the mute status."
 msgid "Unmute an observer. Without an argument unmutes everyone."
-msgstr "Утишава посматрача. Без аргумената приказује стање утишаности."
+msgstr "Укида утишаност посматрача. Без аргумената укида утишаност свима."
 
 #. +> trunk
 #: src/menu_events.cpp:2057
-#, fuzzy
-#| msgid "Mute all observers."
 msgid "Mute/Unmute all observers. (toggles)"
-msgstr "Утишава све посматраче."
+msgstr "Утишава или укида утишаност свих посматрача."
 
 #. +> 1.6
 #: src/menu_events.cpp:2172
@@ -7366,7 +7314,7 @@ msgstr "Искључује исправљачки режим."
 #. +> trunk
 #: src/menu_events.cpp:2262
 msgid "Execute a Lua statement."
-msgstr ""
+msgstr "Извршава ~@/Lua/луа/ исказ."
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:2264
@@ -7396,7 +7344,7 @@ msgstr "Мења променљиву јединице. (Подржани су �
 #. +> trunk
 #: src/menu_events.cpp:2278
 msgid "Discover all units in help."
-msgstr ""
+msgstr "Открива све јединице у помоћи."
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:2283
@@ -7466,7 +7414,7 @@ msgstr "Додат на списак игнорисаних: "
 #. +> trunk 1.6
 #: src/menu_events.cpp:2454 src/menu_events.cpp:2470
 msgid "Invalid username: "
-msgstr "Неисправно корисничко име: "
+msgstr "Неваљано корисничко име: "
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:2468
@@ -7492,7 +7440,7 @@ msgstr "Нисам могао да нађем етикету или једини
 #. +> trunk 1.6
 #: src/menu_events.cpp:2698
 msgid "Can't droid invalid side: '$side'."
-msgstr "Не може се дроидовати неисправна страна: ‘$side|’."
+msgstr "Не може се дроидовати неваљана страна: ‘$side|’."
 
 # well-spelled: дроидовати
 #. +> trunk 1.6
@@ -7503,12 +7451,12 @@ msgstr "Не може се дроидовати умрежена страна: �
 #. +> trunk 1.6
 #: src/menu_events.cpp:2740
 msgid "Can't change control of invalid side: '$side'."
-msgstr "Не може се променити контрола над неисправном страном: ‘$side|’."
+msgstr "Не може се променити управљање над неваљаном страном: ‘$side|’."
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:2746
 msgid "Can't change control of out-of-bounds side: '$side'."
-msgstr "Не може се променити контрола над страном ван граница: ‘$side|’."
+msgstr "Не може се променити управљање над страном ван граница: ‘$side|’."
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:2811
@@ -7687,10 +7635,8 @@ msgstr "(резервисано за $playername)"
 
 #. +> trunk
 #: src/multiplayer_connect.cpp:682
-#, fuzzy
-#| msgid "Empty"
 msgid "(empty)"
-msgstr "празно"
+msgstr "(празно)"
 
 #. +> trunk 1.6
 #: src/multiplayer_connect.cpp:808
@@ -7745,7 +7691,7 @@ msgstr "У бој!"
 #. +> trunk 1.6
 #: src/multiplayer_connect.cpp:1032
 msgid "The scenario is invalid because it has no sides."
-msgstr "Сценарио није исправан јер нема страна."
+msgstr "Сценарио није није ваљан јер нема страна."
 
 #. +> trunk 1.6
 #: src/multiplayer_connect.cpp:1425
@@ -7950,7 +7896,7 @@ msgstr "$login-ова игра"
 #. +> trunk 1.6
 #: src/multiplayer_create.cpp:284
 msgid "Invalid era selected"
-msgstr "Изабрана је неисправна епоха"
+msgstr "Изабрана је неваљана епоха"
 
 #. +> trunk 1.6
 #: src/multiplayer_create.cpp:326
@@ -8125,62 +8071,57 @@ msgstr "Напусти"
 #. +> trunk
 #: src/multiplayer_lobby.cpp:733
 msgid "Apply Filer"
-msgstr ""
+msgstr "Примени филтер"
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:734
 msgid "Invert"
-msgstr ""
+msgstr "Изврни"
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:735
-#, fuzzy
-#| msgid "Vacant Slot:"
-#| msgid_plural "Vacant Slots:"
 msgid "Vacant Slots"
-msgstr "слободна места:"
+msgstr "Слободна места"
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:736
 msgid "Friends in Game"
-msgstr ""
+msgstr "Пријатељи у игри"
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:737
-#, fuzzy
-#| msgid "Search"
 msgid "Search:"
-msgstr "Тражи"
+msgstr "Тражи:"
 
 #. +> trunk 1.6
 #: src/multiplayer_lobby.cpp:746
 msgid "Skip quickly to the active turn when observing"
-msgstr "Брзо скочи на активни потез при посматрању"
+msgstr "Брзо скочи на активни потез при посматрању."
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:750
 msgid "Enable the games filter. If unchecked all games are shown, regardless of any filter."
-msgstr ""
+msgstr "Укључи филтер игара. Ако је празно, приказују се све игре без обзира на филтер."
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:753
 msgid "Show all games that do *not* match your filter. Useful for hiding games you are not interested in."
-msgstr ""
+msgstr "Прикажи све игре које филтер *не* поклапа. Корисно за скривање игара које вас не занимају."
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:757
 msgid "Only show games that have a least one vacant slot"
-msgstr ""
+msgstr "Прикажи само игре са бар једним слободним местом."
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:761
 msgid "Only show games that are played or observed by at least one of your friends"
-msgstr ""
+msgstr "Прикажи само игре које игра или посматра бар један од пријатеља."
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:765
 msgid "Only show games whose title or description contain the entered text"
-msgstr ""
+msgstr "Прикажи само игре чији наслов или опис садржи унети текст."
 
 #. +> trunk 1.6
 #: src/multiplayer_lobby.cpp:899
@@ -8190,7 +8131,7 @@ msgstr "Придруживање овој игри само уз лозинку.
 #. +> trunk 1.6
 #: src/multiplayer_ui.cpp:197
 msgid "Invalid Color"
-msgstr "Неисправна боја"
+msgstr "Неваљана боја"
 
 #. +> trunk 1.6
 #: src/multiplayer_ui.cpp:430
@@ -8225,7 +8166,7 @@ msgstr "Нема података о епохама."
 #. +> trunk 1.6
 #: src/multiplayer_wait.cpp:274
 msgid "No multiplayer sides found"
-msgstr "Нема страна за више играча"
+msgstr "Нема вишеиграчких страна"
 
 #. +> trunk 1.6
 #: src/multiplayer_wait.cpp:307
@@ -8240,7 +8181,7 @@ msgstr "Почетни положај: "
 #. +> trunk 1.6
 #: src/network.cpp:104
 msgid "invalid network handle"
-msgstr "неисправна мрежна ручка"
+msgstr "неваљана мрежна ручка"
 
 #. +> trunk 1.6
 #: src/network.cpp:137
@@ -8460,17 +8401,19 @@ msgstr "Победили сте!"
 
 #. +> trunk
 #: src/playsingle_controller.cpp:514
-#, fuzzy
-#| msgid "A network disconnection has occurred, and the game cannot continue. Do you want to save the game?"
 msgid ""
 "A network disconnection has occurred, and the game\n"
 "cannot continue. Do you want to save the game?"
-msgstr "Мрежна веза је прекинута и игра се не може наставити. Желите ли да сачувате игру?"
+msgstr ""
+"Мрежна веза је прекинута и игра се не може наставити.\n"
+"Желите ли да сачувате игру?"
 
 #. +> 1.6
 #: src/playsingle_controller.cpp:502
 msgid "A network disconnection has occurred, and the game cannot continue. Do you want to save the game?"
-msgstr "Мрежна веза је прекинута и игра се не може наставити. Желите ли да сачувате игру?"
+msgstr ""
+"Мрежна веза је прекинута и игра се не може наставити.\n"
+"Желите ли да сачувате игру?"
 
 #. +> trunk 1.6
 #: src/playsingle_controller.cpp:691
@@ -8520,17 +8463,17 @@ msgstr "Упозорење: Датотека коју сте покушали д
 #. +> trunk 1.6
 #: src/savegame.cpp:400
 msgid "This save is from a version too old to be loaded."
-msgstr "Ова позиција је сачувана верзијом игре престаром да би се учитала."
+msgstr "Овај упис је сачуван верзијом игре престаром да би се учитао."
 
 #. +> trunk 1.6
 #: src/savegame.cpp:405
 msgid "This save is from a different version of the game. Do you want to try to load it?"
-msgstr "Ова позиција је сачувана различитом верзијом игре. Желите ли да покушате учитавање?"
+msgstr "Овај упис је сачуван различитом верзијом игре. Желите ли да покушате учитавање?"
 
 #. +> trunk 1.6
 #: src/savegame.cpp:453
 msgid "This is not a multiplayer save"
-msgstr "Ово није позиција вишеиграчке сесије"
+msgstr "Ово није вишеиграчки упис"
 
 #. +> trunk 1.6
 #: src/savegame.cpp:479
@@ -8540,7 +8483,7 @@ msgstr "Игру није било могуће сачувати"
 #. +> trunk 1.6
 #: src/savegame.cpp:576
 msgid "Save names should not end on '.gz'. Please choose a different name."
-msgstr "Имена позиција не треба завршавати са ‘.gz’. Задајте другачије име."
+msgstr "Имена уписа не треба завршавати са ‘.gz’. Задајте другачије име."
 
 #. +> trunk 1.6
 #: src/savegame.cpp:619
@@ -8590,7 +8533,7 @@ msgstr "Недовршена ознака [element]"
 #. +> trunk 1.6
 #: src/serialization/parser.cpp:186 src/serialization/parser.cpp:224
 msgid "Invalid tag name"
-msgstr "Неисправно име ознаке"
+msgstr "Неваљано име ознаке"
 
 #. +> trunk 1.6
 #: src/serialization/parser.cpp:189
@@ -8600,7 +8543,7 @@ msgstr "Недовршена ознака [+element]"
 #. +> trunk 1.6
 #: src/serialization/parser.cpp:205
 msgid "Invalid closing tag name"
-msgstr "Неисправно име затварајуће ознаке"
+msgstr "Неваљано име затварајуће ознаке"
 
 #. +> trunk 1.6
 #: src/serialization/parser.cpp:208
@@ -8615,7 +8558,7 @@ msgstr "Неочекивана затварајућа ознака"
 #. +> trunk 1.6
 #: src/serialization/parser.cpp:218
 msgid "Found invalid closing tag $tag2 for tag $tag (opened at $pos)"
-msgstr "Нађена неисправна затварајућа ознака $tag2 за $tag (отворено код $pos)"
+msgstr "Нађена неваљана затварајућа ознака $tag2 за $tag (отворено код $pos)"
 
 #. +> trunk 1.6
 #: src/serialization/parser.cpp:243 src/serialization/parser.cpp:255

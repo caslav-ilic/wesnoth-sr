@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-low\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-05-12 11:16+0200\n"
-"PO-Revision-Date: 2009-05-08 23:33+0200\n"
+"PO-Revision-Date: 2009-05-20 10:52+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -32,23 +32,17 @@ msgstr "Весмерско предање"
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/_main.cfg:52
 msgid "(Intermediate level, 17 playable scenarios.)"
-msgstr ""
+msgstr "(Средњи ниво, 17 игривих сценарија.)"
 
 #. [campaign]: id=LOW
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/_main.cfg:52
-#, fuzzy
-#| msgid ""
-#| "The tale of Kalenz, the High Lord who rallied his people after the second orcish invasion of the Great Continent and became the most renowned hero in the recorded history of the Elves.\n"
-#| "\n"
-#| "(Intermediate level, 17 playable scenarios.)"
 msgid ""
 "The tale of Kalenz, the High Lord who rallied his people after the second orcish invasion of the Great Continent and became the most renowned hero in the recorded history of the Elves.\n"
 "\n"
 msgstr ""
 "Прича о Калензу, надгосподару који је ујединио свој народ по другој орковској најезди на Велики континент и постао најчувенији јунак у забележеној историји вилењака.\n"
 "\n"
-"(Средњи ниво, 17 игривих сценарија.)"
 
 #. [campaign]: id=LOW
 #. +> 1.6
@@ -225,7 +219,6 @@ msgstr "старост"
 msgid "T'baran"
 msgstr "Тбаран"
 
-# |, no-check-spell
 #. [unit]: type=Orcish Warrior, id=Wrulf
 #. +> trunk 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:190
@@ -322,10 +315,8 @@ msgstr "Истекну ли потези"
 #. [objective]: condition=bonus
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:317
-#, fuzzy
-#| msgid "Defeat Grugl"
 msgid "Defeat Wrulf"
-msgstr "Поразиш ли Гругла"
+msgstr "Поразиш ли Врулфа"
 
 #. [message]: id=Kalenz
 #. +> trunk 1.6
@@ -804,8 +795,6 @@ msgstr "Упаднеш ли у сауријанску ризницу и поку
 #. [message]: id=Kalenz
 #. +> trunk 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:156
-#, fuzzy
-#| msgid "There they are. They have dumped our gold in their treasury. We must strike quickly and leave with the gold before they bring in reinforcements"
 msgid "There they are. They have dumped our gold in their treasury. We must strike quickly and leave with the gold before they bring in reinforcements."
 msgstr "Ено их. Истоварили су наше злато у своју ризницу. Морамо ударити хитро и умаћи са златом пре него што призову појачања."
 
@@ -921,7 +910,7 @@ msgstr "Поразиш ли непријатељске вође"
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/06_Acquaintance_in_Need.cfg:217
 msgid "Try to save leveled dwarf units"
-msgstr ""
+msgstr "Покушаш ли да сачуваш напредовале патуљачке јединице"
 
 #. [message]: id=Kalenz
 #. +> trunk 1.6
@@ -1301,6 +1290,8 @@ msgid ""
 "These are hardened orc and troll veterans. Men, prepare for a long, hard fight...\n"
 "*Strong AI*"
 msgstr ""
+"Ово су прекаљени орковски и троловски ветерани. Спремите се за дугу и тешку борбу...\n"
+"*јака ВИ*"
 
 #. [option]: id=Kalenz
 #. +> trunk
@@ -1309,18 +1300,20 @@ msgid ""
 "I see the orcish army is big but consists mostly of inexperienced fighters. This should not take too long...\n"
 "*Weak AI*"
 msgstr ""
+"Орковска је војска велика, али се састоји углавном од неискусних бораца. Ово не би требало да потраје...\n"
+"*слаба ВИ*"
 
 #. [message]: speaker=narrator
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:512
 msgid "In this scenario, behavior of a side's AI is manipulated from the context menu brought up by clicking on the allied side's leader."
-msgstr ""
+msgstr "У овом сценарију, понашање ВИ-ја неке стране може се задати кроз контекстни мени на клик на вођа савезничке стране."
 
 #. [objectives]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand.cfg:555
 msgid "New Objective:"
-msgstr ""
+msgstr "Нови циљ:"
 
 #. [message]: id=Galtrid
 #. +> trunk 1.6
@@ -1435,16 +1428,12 @@ msgstr "То је Олурф! Стиже!"
 #. [message]: id=Olurf
 #. +> trunk 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:106
-#, fuzzy
-#| msgid "I told ye I'd be here"
 msgid "I told ye I'd be here."
 msgstr "Рекох ти да ћемо доћи."
 
 #. [message]: id=Landar
 #. +> trunk 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:110
-#, fuzzy
-#| msgid "It's not much of an army he is bringing with him, though"
 msgid "It's not much of an army he is bringing with him, though."
 msgstr "Мада и не доводи неку војску са собом."
 
@@ -1475,8 +1464,6 @@ msgstr "За неколико дана? Прекасно! Враћај злат�
 #. [message]: id=Olurf
 #. +> trunk 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/07_Elves_last_stand_utils.cfg:130
-#, fuzzy
-#| msgid "Sure, minus expenses"
 msgid "Sure, minus expenses."
 msgstr "Може, умањено за трошкове."
 
@@ -1543,11 +1530,6 @@ msgstr ""
 #. [part]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/08_Council_of_hard_choices.cfg:32
-#, fuzzy
-#| msgid ""
-#| "Kalenz\n"
-#| "\n"
-#| "My lords, this is Olurf. He and his dwarves have fought by our side and have well earned a place in this meeting. The war that comes upon us must be met by all in Wesnoth, Elves, Dwarves and Humans."
 msgid ""
 "@Kalenz\n"
 "\n"
@@ -1740,10 +1722,8 @@ msgstr "нешто искусних ратника"
 #. [set_variable]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:94
-#, fuzzy
-#| msgid "$left_behind and $l3_selector_store[$i].name"
 msgid "$left_behind and $l3_store[$i].name"
-msgstr "$left_behind и $l3_selector_store[$i].name"
+msgstr "$left_behind и $l3_store[$i].name"
 
 #. [set_variable]
 #. +> 1.6
@@ -1754,10 +1734,8 @@ msgstr "$left_behind и $l3_selector_store[$i].name"
 #. [set_variable]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/09_Bounty_hunters.cfg:100
-#, fuzzy
-#| msgid "$left_behind|, $l3_selector_store[$i].name"
 msgid "$left_behind|, $l3_store[$i].name"
-msgstr "$left_behind|, $l3_selector_store[$i].name"
+msgstr "$left_behind|, $l3_store[$i].name"
 
 #. [set_variable]
 #. +> 1.6
@@ -2822,16 +2800,14 @@ msgstr "Хафа-Ург"
 #. [objective]: condition=win
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:224
-#, fuzzy
-#| msgid "Last for 25 turns"
 msgid "Last for the end of turns"
-msgstr "Истрајеш ли 25 потеза"
+msgstr "Опстанеш ли док не истегну потези"
 
 #. [objective]: condition=win
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/14_Human_Alliance.cfg:210
 msgid "Last for 25 turns"
-msgstr "Истрајеш ли 25 потеза"
+msgstr "Опстанеш ли 25 потеза"
 
 #. [objective]: condition=lose
 #. +> trunk 1.6
@@ -3206,10 +3182,6 @@ msgstr "По окончању битке за Тат, Каленз и Ланда
 #. [part]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:50
-#, fuzzy
-#| msgid ""
-#| "Cleodil\n"
-#| "I have taught you all that I dare. My lord...Kalenz...I pray you come back safely. My heart aches when I think of you going into such danger as this. It is peril not merely to your body, but to the essence of yourself."
 msgid ""
 "@Cleodil\n"
 "\n"
@@ -3233,10 +3205,6 @@ msgstr ""
 #. [part]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:57
-#, fuzzy
-#| msgid ""
-#| "Kalenz\n"
-#| "Cleodil..."
 msgid ""
 "@Kalenz\n"
 "\n"
@@ -3260,10 +3228,6 @@ msgstr ""
 #. [part]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:64
-#, fuzzy
-#| msgid ""
-#| "Cleodil\n"
-#| "I do not think I could bear your death. Still less could I bear the corruption of your soul; the grief would ruin me."
 msgid ""
 "@Cleodil\n"
 "\n"
@@ -3287,10 +3251,6 @@ msgstr ""
 #. [part]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/16_The_Chief_must_die.cfg:71
-#, fuzzy
-#| msgid ""
-#| "Kalenz\n"
-#| "My eyes are open. To the danger, and...to you. You glow like a star in the night, Cleodil. You will be my guide out of darkness."
 msgid ""
 "@Kalenz\n"
 "\n"
@@ -3972,40 +3932,38 @@ msgstr "Скупа освета"
 #. [part]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:22
-#, fuzzy
-#| msgid "But Kalenz failed to persuade the dwarves. The dwarves left, and at Landar's insistence the elves marched on the empire of the Saurians..."
 msgid "But Kalenz failed to persuade the dwarves. The dwarves left, and Landar insisted the elves must march on the empire of the Saurians..."
-msgstr "Каленз не успе да убеди патуљке, и они одоше. На Ландарово наваљивање, вилењаци пођоше на царство сауријанаца..."
+msgstr "Каленз не успе да убеди патуљке. Они одоше, а Ландар навали да вилењаци морају ударити на царство сауријанаца..."
 
 #. [part]
 #. +> 1.6
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:22
 msgid "But Kalenz failed to persuade the dwarves. The dwarves left, and at Landar's insistence the elves marched on the empire of the Saurians..."
-msgstr "Каленз не успе да убеди патуљке, и они одоше. На Ландарово наваљивање, вилењаци пођоше на царство сауријанаца..."
+msgstr "Каленз не успе да убеди патуљке. Они одоше, а Ландар навали да вилењаци морају ударити на царство сауријанаца..."
 
 #. [part]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:27
 msgid "Kalenz...the shydes and druids are not happy with this. The saurians are already beaten, and there is too much hate in Landar's heart. Something is not right here."
-msgstr ""
+msgstr "Калензе... шејде и друидке нису задовољне овим. Сауријанци су већ поражени, а у Ландаровом срцу је превише мржње. Нешто ту није у реду."
 
 #. [part]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:31
 msgid "I am not entirely easy with this myself, Cleodil. But there is something to what Landar says; the wide green world must know there is a price, a heavy price, for raiding in the forest of Wesmere."
-msgstr ""
+msgstr "Ни мени се ово сасвим не мили, Клеодил. Али има истине у томе што Ландар збори; широки зелени свет мора знати да се за упад у Весмерску шуму плаћа данак, тежак данак."
 
 #. [part]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:35
 msgid "Then you who walk the earth path and carry steel can collect that price. Those on the faerie path will not be with you. Not this time. "
-msgstr ""
+msgstr "Онда тај данак морате однети ви што ходите земаљским стазама и носите челик. Ми на вилинском путу нећемо бити с вама. Не овога пута."
 
 #. [part]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:39
 msgid "We do as we must."
-msgstr ""
+msgstr "Чинимо што морамо."
 
 # |, no-check-spell
 #. [unit]: type=Saurian Flanker, id=Hgyr
@@ -4017,24 +3975,20 @@ msgstr "Хгир"
 #. [objective]: condition=win
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:172
-#, fuzzy
-#| msgid "Defeat all enemies"
 msgid "Defeat every enemy unit"
-msgstr "Поразиш ли све непријатеље"
+msgstr "Поразиш ли све непријатељске јединице"
 
 #. [objectives]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:175
-#, fuzzy
-#| msgid "Landar"
 msgid "and"
-msgstr "Ландар"
+msgstr "и"
 
 #. [objective]: condition=win
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:177
 msgid "Destroy all villages"
-msgstr ""
+msgstr "Уништиш ли сва села"
 
 #. [message]
 #. +> trunk 1.6
@@ -4058,7 +4012,7 @@ msgstr "Плашим се да ће бити крвопролића..."
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:228
 msgid "Destroy their homes and bring death to all of them!"
-msgstr ""
+msgstr "Сравните им домове и пошаљите их све у смрт!"
 
 #. [message]: id=Kalenz
 #. +> trunk 1.6
@@ -4308,8 +4262,6 @@ msgstr "Ландаре, слушај ме! Не мора се свести на 
 #. [message]: id=Landar
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/22_Northern_Battle.cfg:196
-#, fuzzy
-#| msgid "Here is Kalenz. There can be no talk with traitors! Let none of them alive!"
 msgid "Here is Kalenz. There can be no talk with traitors! Leave none of them alive!"
 msgstr "Ето Каленза. Нема разговора са издајницима! Не оставите једног живог!"
 
