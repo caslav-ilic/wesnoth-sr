@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-06-13 20:36+0200\n"
-"PO-Revision-Date: 2009-05-21 00:40+0200\n"
+"PO-Revision-Date: 2009-06-13 21:24+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -3327,10 +3327,8 @@ msgstr "Отров тече венама ове јединице баш у ов�
 
 #. +> trunk
 #: data/core/macros/items.cfg:287
-#, fuzzy
-#| msgid "This water will make melee weapons have the 'arcane' damage type until the end of the current scenario."
 msgid "Sprinkling this water on melee weapons grants them the 'arcane' damage type until the end of the current scenario. Should $unit.name use it?"
-msgstr "Ова вода дарује оружју за блиску борбу ‘волшебни’ вид штете до краја текућег сценарија."
+msgstr "Попрскана овом водом, оружја за блиску борбу наносе ‘волшебни’ вид штете до краја текућег сценарија. Да ли да је $unit.name употреби?"
 
 #. +> trunk 1.6
 #: data/core/macros/items.cfg:288
@@ -5655,7 +5653,7 @@ msgstr "ресурси"
 #: src/addon_management.cpp:420
 msgctxt "addon_type"
 msgid "Other"
-msgstr ""
+msgstr "друго"
 
 #. +> trunk 1.6
 #: src/addon_management.cpp:422
@@ -7695,10 +7693,8 @@ msgstr "У бој!"
 
 #. +> trunk 1.6
 #: src/multiplayer_connect.cpp:1031
-#, fuzzy
-#| msgid "The scenario is invalid because it has no sides."
 msgid "The scenario is invalid because it has no id."
-msgstr "Сценарио није није ваљан јер нема страна."
+msgstr "Сценарио није није ваљан јер нема ИД."
 
 #. +> trunk 1.6
 #: src/multiplayer_connect.cpp:1035
@@ -7732,14 +7728,8 @@ msgstr "Не могу да нађем епоху $era"
 
 #. +> trunk
 #: src/multiplayer_connect.cpp:1653
-#, fuzzy
-#| msgid ""
-#| "Victory:\n"
-#| "@Defeat enemy leader(s)"
 msgid "Defeat enemy leader(s)"
-msgstr ""
-"победа:\n"
-"@Поразиш ли противничке вође"
+msgstr "Поразиш ли противничке вође"
 
 #. +> 1.6
 #: src/multiplayer_connect.cpp:1700
@@ -8208,15 +8198,13 @@ msgstr "Почетни положај: "
 
 #. +> trunk 1.6
 #: src/multiplayer_wait.cpp:530
-#, fuzzy
-#| msgid "Gold"
 msgctxt "multiplayer_starting_gold"
 msgid "Gold"
 msgid_plural "multiplayer_starting_gold^Gold"
-msgstr[0] "злато"
-msgstr[1] "злато"
-msgstr[2] "злато"
-msgstr[3] "злато"
+msgstr[0] "златник"
+msgstr[1] "златника"
+msgstr[2] "златника"
+msgstr[3] "златник"
 
 #. +> trunk 1.6
 #: src/network.cpp:104
@@ -8597,10 +8585,8 @@ msgstr "Неочекивана затварајућа ознака"
 
 #. +> trunk 1.6
 #: src/serialization/parser.cpp:218
-#, fuzzy
-#| msgid "Found invalid closing tag $tag2 for tag $tag (opened at $pos)"
 msgid "Found invalid closing tag $tag2 for tag $tag1 (opened at $pos)"
-msgstr "Нађена неваљана затварајућа ознака $tag2 за $tag (отворено код $pos)"
+msgstr "Нађена неваљана затварајућа ознака $tag2 за $tag1 (отворено код $pos)"
 
 #. +> trunk 1.6
 #: src/serialization/parser.cpp:243 src/serialization/parser.cpp:255
@@ -9013,6 +8999,3 @@ msgstr "Укључи слање сажетака"
 #: src/ai.cpp:1732
 msgid "Unknown unit type : "
 msgstr "Непознат тип јединице: "
-
-#~ msgid "Do you still want to download it?"
-#~ msgstr "Желите ли још увек да га преузмете?"

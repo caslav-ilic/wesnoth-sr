@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-06-13 20:37+0200\n"
-"PO-Revision-Date: 2009-05-20 10:52+0200\n"
+"PO-Revision-Date: 2009-06-13 21:24+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -607,18 +607,12 @@ msgstr "Одупреш ли се док потези не истекну"
 #. [objective]: condition=win
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/02_Blackwater_Port.cfg:24
-#, fuzzy
-#| msgid ""
-#| "<255,255,255>Alternative objective:\n"
-#| "@Defeat the enemy leader\n"
-#| "`(special bonus)"
 msgid ""
 "<span color='white'>Alternative objective:</span>\n"
 "<span color='#00ff00'>Defeat the enemy leader</span> <small>(special bonus)</small>"
 msgstr ""
-"<255,255,255>Алтернативни циљ:\n"
-"@Поразиш ли непријатељског вођа\n"
-"`(специјални бонус)"
+"<span color='white'>Алтернативни циљ:</span>\n"
+"<span color='#00ff00'>Поразиш ли непријатељског вођа</span> <small>(специјални бонус)</small>"
 
 #. [objective]: condition=win
 #. +> 1.6
@@ -1041,18 +1035,12 @@ msgstr "Поразиш ли једног непријатељског вођа, 
 #. [objective]: condition=win
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:24
-#, fuzzy
-#| msgid ""
-#| "<255,255,255>Alternative objective:\n"
-#| "@Defeat all enemy leaders\n"
-#| "`(early finish bonus)"
 msgid ""
 "<span color='white'>Alternative objective:</span>\n"
 "<span color='#00ff00'>Defeat all enemy leaders</span> <small>(early finish bonus)</small>"
 msgstr ""
-"<255,255,255>Алтернативни циљ:\n"
-"@Поразиш ли непријатељске вође\n"
-"`(бонус за рани завршетак)"
+"<span color='white'>Алтернативни циљ:</span>\n"
+"<span color='#00ff00'>Поразиш ли непријатељске вође</span> <small>(бонус за рани завршетак)</small>"
 
 #. [objective]: condition=win
 #. +> 1.6
@@ -1552,6 +1540,8 @@ msgid ""
 "<span color='white'>Alternative objective:</span>\n"
 "<span color='#00ff00'>Defeat Muff Malal</span> <small>(early finish bonus)</small>"
 msgstr ""
+"<span color='white'>Алтернативни циљ:</span>\n"
+"<span color='#00ff00'>Поразиш ли мафа Малала</span> <small>(бонус за рани завршетак)</small>"
 
 #. [objective]: condition=win
 #. +> 1.6
@@ -1676,18 +1666,12 @@ msgstr "Острво проклетих"
 #. [objective]: condition=win
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/05b_Isle_of_the_Damned.cfg:24
-#, fuzzy
-#| msgid ""
-#| "<255,255,255>Alternative objective:\n"
-#| "@Defeat all enemy leaders\n"
-#| "`(special bonus)"
 msgid ""
 "<span color='white'>Alternative objective:</span>\n"
 "<span color='#00ff00'>Defeat all enemy leaders</span> <small>(special bonus)</small>"
 msgstr ""
-"<255,255,255>Алтернативни циљ:\n"
-"@Поразиш ли све непријатељске вође\n"
-"`(специјални бонус)"
+"<span color='white'>Алтернативни циљ:</span>\n"
+"<span color='#00ff00'>Поразиш ли све непријатељске вође</span> <small>(специјални бонус)</small>"
 
 #. [objective]: condition=win
 #. +> 1.6
@@ -2667,18 +2651,12 @@ msgstr "Преживиш ли два дана"
 #. [objective]: condition=win
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/09_The_Valley_of_Death.cfg:23
-#, fuzzy
-#| msgid ""
-#| "<255,255,255>Alternative objective:\n"
-#| "@Eradicate the liches\n"
-#| "`(early finish bonus)"
 msgid ""
 "<span color='white'>Alternative objective:</span>\n"
 "<span color='#00ff00'>Eradicate the liches</span> <small>(early finish bonus)</small>"
 msgstr ""
-"<255,255,255>Алтернативни циљ:\n"
-"@Истребиш ли косце\n"
-"`(бонус за рани завршетак)"
+"<span color='white'>Алтернативни циљ:</span>\n"
+"<span color='#00ff00'>Истребиш ли косце</span> <small>(бонус за рани завршетак)</small>"
 
 #. [objective]: condition=win
 #. +> 1.6
@@ -5110,6 +5088,8 @@ msgid ""
 "<span color='white'>Bonus objective:</span>\n"
 "<span color='#00ff00'>Defeat all Death Knights first</span>"
 msgstr ""
+"<span color='white'>Бонус циљ:</span>\n"
+"<span color='#00ff00'>Поразиш ли прво све мртве витезове</span>"
 
 #. [objective]: condition=win
 #. +> 1.6
@@ -5689,6 +5669,8 @@ msgid ""
 "<span color='white'>Optional objective:</span>\n"
 "<span color='#00ff00'>Rescue the sergeant</span>"
 msgstr ""
+"<span color='white'>Допунски циљ:</span>\n"
+"<span color='#00ff00'>Спасиш ли наредника</span>"
 
 #. [objective]: condition=win
 #. +> 1.6
@@ -6144,16 +6126,12 @@ msgstr "Нађеш ли излаза из подземља и спроведеш
 #. [objective]: condition=win
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/20b_Underground_Channels.cfg:28
-#, fuzzy
-#| msgid ""
-#| "<255,255,255>Optional objective:\n"
-#| "@Help the Wose fend off the undead attack"
 msgid ""
 "<span color='white'>Optional objective:</span>\n"
 "<span color='#00ff00'>Help the Wose fend off the undead attack</span>"
 msgstr ""
-"<255,255,255>Допунски циљ:\n"
-"@Помогнеш ли иверима да одбију напад немртвих"
+"<span color='white'>Допунски циљ:</span>\n"
+"<span color='#00ff00'>Помогнеш ли иверима да одбију напад немртвих</span>"
 
 #. [objective]: condition=win
 #. +> 1.6
@@ -6676,6 +6654,8 @@ msgid ""
 "<span color='white'>Bonus objective:</span>\n"
 "<span color='green'>Defeat all enemy leaders</span>"
 msgstr ""
+"<span color='white'>Бонус циљ:</span>\n"
+"<span color='green'>Поразиш ли све непријатељске вође</span>"
 
 #. [side]: type=Grand Knight, id=Sir Alric
 #. [side]: type=Grand Knight, id=Sir Ruga
@@ -7147,96 +7127,86 @@ msgstr "Као што сатрех твог сина, сада ћу и тебе.
 #. [message]: speaker=Asheviere
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:398
-#, fuzzy
-#| msgid "You were always defiant, wizard, and no one has thwarted my plans as much as you."
 msgid "You were always defiant, wizard, and no one has thwarted my plans as determinedly as you."
-msgstr "Увек ћеш бити пркосан, чаробњаче, нико никада не смрси моје планове као што си ти."
+msgstr "Увек ћеш бити пркосан, чаробњаче, нико никада не смрси моје планове одлучно колико ти."
 
 #. [message]: speaker=Asheviere
 #. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:398
 msgid "You were always defiant, wizard, and no one has thwarted my plans as much as you."
-msgstr "Увек ћеш бити пркосан, чаробњаче, нико никада не смрси моје планове као што си ти."
+msgstr "Увек ћеш бити пркосан, чаробњаче, нико никада не смрси моје планове одлучно колико ти."
 
 #. [message]: speaker=Delfador
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:402
-#, fuzzy
-#| msgid "I have always been the humble servant of the crown, even now."
 msgid "I have always been a humble servant of the Crown, and remain such even now."
-msgstr "Одувек бејах понизни слуга круни, као што сам и сада."
+msgstr "Одувек бејах понизни слуга круни, и то ћу бити и сада."
 
 #. [message]: speaker=Delfador
 #. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:402
 msgid "I have always been the humble servant of the crown, even now."
-msgstr "Одувек бејах понизни слуга круни, као што сам и сада."
+msgstr "Одувек бејах понизни слуга круни, и то ћу бити и сада."
 
 #. [message]: speaker=Asheviere
 #. +> trunk 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:406
 msgid "Delfador! You utterly disgust me, you sniveling worm. How dare you confront me, your queen."
-msgstr "Делфадор! Неизмерно ми се гадиш, ти цмиздрави црве. Како се усуђујеш да се испречиш својој краљици."
+msgstr "Делфадоре! Неизмерно ми се гадиш, ти цмиздрави црве. Како се усуђујеш да се испречиш својој краљици."
 
 #. [message]: speaker=Delfador
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:411
-#, fuzzy
-#| msgid "How dare I? I am Delfador, High Provost of the Council of Archmagi..."
 msgid "How dare I? I High Provost of the Council of Archmagi..."
-msgstr "Како се усуђујем? Ја сам Делфадор, високи ректор Већа архимагова..."
+msgstr "Како се усуђујем? Ја сам високи ректор Већа архимагова..."
 
 #. [message]: speaker=Delfador
 #. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:411
 msgid "How dare I? I am Delfador, High Provost of the Council of Archmagi..."
-msgstr "Како се усуђујем? Ја сам Делфадор, високи ректор Већа архимагова..."
+msgstr "Како се усуђујем? Ја сам високи ректор Већа архимагова..."
 
 #. [message]: speaker=Delfador
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:416
-#, fuzzy
-#| msgid "... bearer of the staff of Emeric, guardian of the book of Crelanu ..."
 msgid "... bearer of the staff of An-Usrukhar, guardian of the book of Crelanu ..."
-msgstr "...носилац штапа Емериковог, чувар књиге Крелануа..."
+msgstr "...носилац штапа Ан Усрукара, чувар књиге Крелануа..."
 
 #. [message]: speaker=Delfador
 #. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:416
 msgid "... bearer of the staff of Emeric, guardian of the book of Crelanu ..."
-msgstr "...носилац штапа Емериковог, чувар књиге Крелануа..."
+msgstr "...носилац штапа Ан Усрукара, чувар књиге Крелануа..."
 
 #. [message]: speaker=Delfador
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:420
-#, fuzzy
-#| msgid "... Mage Protector of The Kingdom Of The Peoples From The West-North, Chief Advisor to the CROWN..."
 msgid "... Mage Protector of The Kingdom Of The Peoples Of The West-North, Chief Advisor to the <i>Crown</i>..."
-msgstr "...маг заштитник краљевства народа са северозапада, врховни саветник КРУНЕ..."
+msgstr "...маг заштитник краљевства народ^а северозапада, врховни саветник <i>круне</i>..."
 
 #. [message]: speaker=Delfador
 #. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:420
 msgid "... Mage Protector of The Kingdom Of The Peoples From The West-North, Chief Advisor to the CROWN..."
-msgstr "...маг заштитник краљевства народа са северозапада, врховни саветник КРУНЕ..."
+msgstr "...маг заштитник краљевства народ^а северозапада, врховни саветник КРУНЕ..."
 
 #. [message]: speaker=Delfador
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:424
 msgid "... and personal counselor to my King and my <i>friend</i>, Garard the Second, who you most <i>foully</i> betrayed..."
-msgstr ""
+msgstr "...и лични повереник мога краља и <i>пријатеља</i>, Гарарда Другог, којег тако <i>прљаво</i> издаде..."
 
 #. [message]: speaker=Delfador
 #. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:424
 msgid "... AND PERSONAL COUNSELOR TO MY FRIEND AND KING, GARARD THE SECOND! TODAY YOU MEET YOUR ATONEMENT!"
-msgstr "...И ЛИЧНИ ПОВЕРЕНИК МОГ ПРИЈАТЕЉА И КРАЉА, ГАРАРДА ДРУГОГ! ДАНАС ЋЕ БИТИ ИЗМИРЕЊА!"
+msgstr "...И ЛИЧНИ ПОВЕРЕНИК МОГ ПРИЈАТЕЉА И КРАЉА, ГАРАРДА ДРУГОГ! ДАНАС ЋЕ БИТИ НАМИРЕЊА!"
 
 #. [message]: speaker=Delfador
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:428
 msgid "I am Delfador the Great and TODAY YOU MEET YOUR ATONEMENT!"
-msgstr ""
+msgstr "Ја сам Делфадор Велики и ДАНАС ЋЕ БИТИ НАМИРЕЊА!"
 
 #. [message]: speaker=narrator
 #. +> trunk 1.6
