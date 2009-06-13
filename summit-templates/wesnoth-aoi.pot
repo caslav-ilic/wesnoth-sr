@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-05-15 11:42+0200\n"
+"POT-Creation-Date: 2009-06-01 23:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,7 +138,7 @@ msgstr ""
 
 #. [side]: type=Lich, id=Keremal
 #. [side]: type=Orcish Slayer, id=Gharlsa
-#. [side]: type=Orcish Sovereign, id=Rualsha-Tan
+#. [side]: type=Orcish Sovereign, id=Rualsha
 #. [side]: type=Orcish Warlord, id=Krughnar
 #. [side]: type=Orcish Warlord, id=Gnargha
 #. [side]: type=Orcish Warrior, id=Urugha
@@ -493,7 +493,15 @@ msgid "Perhaps, but not here. The tribe this camp housed was too small to impres
 msgstr ""
 
 #. [objectives]
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:84
+msgid ""
+"Hint:\n"
+"There are no villages in this scenario - you must use healers instead. Use hit-and-run tactics to weaken enemy units who cannot heal themselves."
+msgstr ""
+
+#. [objectives]
+#. +> 1.6
 #: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:84
 msgid ""
 "Hint:\n"
@@ -633,8 +641,14 @@ msgid "Damn it. Sound the retreat, we'll try again when reinforcements arrive."
 msgstr ""
 
 #. [message]: speaker=narrator
-#. +> trunk 1.6
+#. +> trunk
 #: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:328
+msgid "The expected relief caught up with them a few days later. The following morning they took the field against a far larger host of orcs. The battle ended in a draw; the war raged on for years..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#. +> 1.6
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:321
 msgid "They waited next few days before the expected relief caught up with them. Next morning they took the field against a far larger host of orcs. The battle ended in a draw; the war raged on for years..."
 msgstr ""
 
@@ -817,7 +831,13 @@ msgid "During their retreat, the  pass was crossed by another army moving in the
 msgstr ""
 
 #. [message]: role=Advisor
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:301
+msgid "We can't get through, my Lord. These whelps are not individually very dangerous, but there are huge numbers of them."
+msgstr ""
+
+#. [message]: role=Advisor
+#. +> 1.6
 #: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:301
 msgid "We can't get through lord. These whelps are not individually very dangerous, but there are huge number of them."
 msgstr ""
@@ -1117,9 +1137,15 @@ msgstr ""
 msgid "Showdown"
 msgstr ""
 
-#. [side]: type=Orcish Sovereign, id=Rualsha-Tan
-#. +> trunk 1.6
+#. [side]: type=Orcish Sovereign, id=Rualsha
+#. +> trunk
 #: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:91
+msgid "Rualsha"
+msgstr ""
+
+#. [side]: type=Orcish Sovereign, id=Rualsha-Tan
+#. +> 1.6
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:94
 msgid "Rualsha-Tan"
 msgstr ""
 
@@ -1140,7 +1166,13 @@ msgid ""
 msgstr ""
 
 #. [objective]: condition=win
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:114
+msgid "Defeat Rualsha"
+msgstr ""
+
+#. [objective]: condition=win
+#. +> 1.6
 #: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:114
 msgid "Defeat Rualsha-Tan"
 msgstr ""
@@ -1157,7 +1189,7 @@ msgstr ""
 msgid "My lord! We have ridden hard for over a week to catch up with you! The council has deliberated, and asks you to defeat Rualsha quickly before he can muster a full invasion force."
 msgstr ""
 
-#. [message]: speaker=Rualsha-Tan
+#. [message]: speaker=Rualsha
 #. +> trunk 1.6
 #: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:224
 msgid "Puny elves! My full army will be here soon, and then we will crush you. You will beg for a quick death!"

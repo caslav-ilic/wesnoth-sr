@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-05-15 11:42+0200\n"
+"POT-Creation-Date: 2009-06-01 23:53+0200\n"
 "PO-Revision-Date: 2009-05-20 10:03+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -151,7 +151,7 @@ msgstr "Уруга"
 
 #. [side]: type=Lich, id=Keremal
 #. [side]: type=Orcish Slayer, id=Gharlsa
-#. [side]: type=Orcish Sovereign, id=Rualsha-Tan
+#. [side]: type=Orcish Sovereign, id=Rualsha
 #. [side]: type=Orcish Warlord, id=Krughnar
 #. [side]: type=Orcish Warlord, id=Gnargha
 #. [side]: type=Orcish Warrior, id=Urugha
@@ -511,7 +511,21 @@ msgid "Perhaps, but not here. The tribe this camp housed was too small to impres
 msgstr "Можда, али не овде. Племе које је овај логор смештао било је премало да утисне страх другим орковима. Следеће јутро, вилењаци су били спремни за бој."
 
 #. [objectives]
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:84
+#, fuzzy
+#| msgid ""
+#| "Hint:\n"
+#| "There are no villages in this scenario - you must use healers instead. Use hit and run tactics to weaken enemy units who cannot heal themselves."
+msgid ""
+"Hint:\n"
+"There are no villages in this scenario - you must use healers instead. Use hit-and-run tactics to weaken enemy units who cannot heal themselves."
+msgstr ""
+"Савет:\n"
+"У овом сценарију нема села — наместо њих мораш користити видаре. Примени тактику „удри и бежи“ да ослабиш непријатељске јединице које се не умеју лечити."
+
+#. [objectives]
+#. +> 1.6
 #: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:84
 msgid ""
 "Hint:\n"
@@ -653,8 +667,16 @@ msgid "Damn it. Sound the retreat, we'll try again when reinforcements arrive."
 msgstr "Проклетство. Огласи повлачење, навалићемо опет кад стигну појачања."
 
 #. [message]: speaker=narrator
-#. +> trunk 1.6
+#. +> trunk
 #: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:328
+#, fuzzy
+#| msgid "They waited next few days before the expected relief caught up with them. Next morning they took the field against a far larger host of orcs. The battle ended in a draw; the war raged on for years..."
+msgid "The expected relief caught up with them a few days later. The following morning they took the field against a far larger host of orcs. The battle ended in a draw; the war raged on for years..."
+msgstr "Сачекали су неколико наредних дана да их сустигне очекивана смена. Јутро после тога ступили су на бојиште против много веће главнине оркова. Бој се оконча без победника; рат се настави годинама..."
+
+#. [message]: speaker=narrator
+#. +> 1.6
+#: data/campaigns/An_Orcish_Incursion/scenarios/3_Wasteland.cfg:321
 msgid "They waited next few days before the expected relief caught up with them. Next morning they took the field against a far larger host of orcs. The battle ended in a draw; the war raged on for years..."
 msgstr "Сачекали су неколико наредних дана да их сустигне очекивана смена. Јутро после тога ступили су на бојиште против много веће главнине оркова. Бој се оконча без победника; рат се настави годинама..."
 
@@ -841,7 +863,15 @@ msgid "During their retreat, the  pass was crossed by another army moving in the
 msgstr "Током њиховог повлачења, кроз пролаз прође друга војска у супротном смеру. Оркови су се вратили јужно од пролаза, и овог пута, остаће дуго, дуго времена."
 
 #. [message]: role=Advisor
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:301
+#, fuzzy
+#| msgid "We can't get through lord. These whelps are not individually very dangerous, but there are huge number of them."
+msgid "We can't get through, my Lord. These whelps are not individually very dangerous, but there are huge numbers of them."
+msgstr "Не можемо се пробити, господару. Ови штенци нису појединачно превише опасни, али их је небројено мноштво."
+
+#. [message]: role=Advisor
+#. +> 1.6
 #: data/campaigns/An_Orcish_Incursion/scenarios/4_Valley_of_Trolls.cfg:301
 msgid "We can't get through lord. These whelps are not individually very dangerous, but there are huge number of them."
 msgstr "Не можемо се пробити, господару. Ови штенци нису појединачно превише опасни, али их је небројено мноштво."
@@ -1147,9 +1177,17 @@ msgstr "Свакако. Драга ће ми бити ваша помоћ."
 msgid "Showdown"
 msgstr "Обрачун"
 
-#. [side]: type=Orcish Sovereign, id=Rualsha-Tan
-#. +> trunk 1.6
+#. [side]: type=Orcish Sovereign, id=Rualsha
+#. +> trunk
 #: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:91
+#, fuzzy
+#| msgid "Rualsha-Tan"
+msgid "Rualsha"
+msgstr "Руалша-Тан"
+
+#. [side]: type=Orcish Sovereign, id=Rualsha-Tan
+#. +> 1.6
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:94
 msgid "Rualsha-Tan"
 msgstr "Руалша-Тан"
 
@@ -1174,7 +1212,15 @@ msgstr ""
 "Непријатељ твој добро је брањен од напада са југа. Поведи шумочуваре у шуњање кроз шуму и изведи изненадни напад са севера."
 
 #. [objective]: condition=win
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:114
+#, fuzzy
+#| msgid "Defeat Rualsha-Tan"
+msgid "Defeat Rualsha"
+msgstr "Поразиш ли Руалшу-Тана"
+
+#. [objective]: condition=win
+#. +> 1.6
 #: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:114
 msgid "Defeat Rualsha-Tan"
 msgstr "Поразиш ли Руалшу-Тана"
@@ -1191,7 +1237,7 @@ msgstr "Господару! Напорно јахасмо више од седм
 msgid "My lord! We have ridden hard for over a week to catch up with you! The council has deliberated, and asks you to defeat Rualsha quickly before he can muster a full invasion force."
 msgstr "Господару! Напорно јахасмо више од седмице да вас достигнемо! Калијан је промислио, и тражи од вас да поразите Руалшу брзо, пре него што сакупи сву силу за најезду."
 
-#. [message]: speaker=Rualsha-Tan
+#. [message]: speaker=Rualsha
 #. +> trunk 1.6
 #: data/campaigns/An_Orcish_Incursion/scenarios/7_Showdown.cfg:224
 msgid "Puny elves! My full army will be here soon, and then we will crush you. You will beg for a quick death!"
