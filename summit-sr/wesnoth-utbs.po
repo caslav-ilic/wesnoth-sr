@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-06-13 20:38+0200\n"
+"POT-Creation-Date: 2009-06-28 13:17+0200\n"
 "PO-Revision-Date: 2009-06-13 22:04+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -3473,20 +3473,24 @@ msgid "There seems to be an abandoned Dwarvish fortress right in front of us. If
 msgstr "Надомак десно од нас изгледа да стоји напуштена патуљачка тврђава. Ако се успемо пробити до њене куле, можемо почети са сазивањем наших ратника да се придруже боју."
 
 #. [then]
+#. [set_variable]
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1577
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1579
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1580
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1582
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1906
 msgid "Troll Skirmisher"
 msgstr "трол-чаркаш"
 
 #. [else]
+#. [set_variable]
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1590
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1592
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1594
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1601
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1881
 msgid "Dwarf Skirmisher"
 msgstr "патуљ-чаркаш"
 
@@ -11980,6 +11984,20 @@ msgstr "Овде не може бити крај, толико тога је ј�
 #: data/campaigns/Under_the_Burning_Suns/utils/deaths.cfg:251
 msgid "How could we have let her die? I've never seen fire magic like that before. She will be sorely missed."
 msgstr "Како могасмо да допустимо да страда? Никада раније не видех такве ватрене магије. Јако ће нам недостајати."
+
+#. [unstore_unit]
+#. +> trunk 1.6
+#: data/campaigns/Under_the_Burning_Suns/utils/kaleh-abilities.cfg:22
+#, fuzzy
+#| msgid "stun"
+msgid "stunned"
+msgstr "ошамућивање"
+
+#. [unstore_unit]
+#. +> 1.6
+#: data/campaigns/Under_the_Burning_Suns/utils/kaleh-abilities.cfg:28
+msgid "slowed"
+msgstr ""
 
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/utils/macros.cfg:120

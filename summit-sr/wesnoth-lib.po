@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-06-13 20:37+0200\n"
+"POT-Creation-Date: 2009-06-28 18:07+0200\n"
 "PO-Revision-Date: 2009-06-13 21:24+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -696,6 +696,7 @@ msgstr "Следећи генератор"
 #. +> trunk 1.6
 #: data/gui/default/window/editor_generate_map.cfg:90
 #: data/gui/default/window/editor_generate_map.cfg:91
+#: data/gui/default/window/lobby_main.cfg:261
 msgid "Settings"
 msgstr "Поставке"
 
@@ -708,7 +709,7 @@ msgstr "Створи"
 #. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. +> trunk 1.6
-#: data/gui/default/window/editor_new_map.cfg:27 src/hotkeys.cpp:108
+#: data/gui/default/window/editor_new_map.cfg:27 src/hotkeys.cpp:109
 msgid "New Map"
 msgstr "Нова мапа"
 
@@ -736,7 +737,7 @@ msgstr "Направи нову мапу"
 #. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. +> trunk 1.6
-#: data/gui/default/window/editor_resize_map.cfg:27 src/hotkeys.cpp:153
+#: data/gui/default/window/editor_resize_map.cfg:27 src/hotkeys.cpp:154
 msgid "Resize Map"
 msgstr "Промени величину мапе"
 
@@ -786,7 +787,7 @@ msgstr "Промени величину мапе"
 #. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. +> trunk 1.6
-#: data/gui/default/window/editor_settings.cfg:38 src/hotkeys.cpp:106
+#: data/gui/default/window/editor_settings.cfg:38 src/hotkeys.cpp:107
 msgid "Editor Settings"
 msgstr "Поставке уређивача"
 
@@ -797,9 +798,11 @@ msgid "Time of day lighting preset"
 msgstr "Предефинисан осветљај за доба дана"
 
 #. [button]: id=next_tod
+#. [button]: id=next_tip
 #. +> trunk 1.6
 #: data/gui/default/window/editor_settings.cfg:75
 #: data/gui/default/window/editor_settings.cfg:76
+#: data/gui/default/window/title_screen.cfg:138
 msgid "Next"
 msgstr "Следеће"
 
@@ -849,8 +852,8 @@ msgstr "Дозволи више од једне отворене мапе ист
 #: data/gui/default/window/mp_method_selection.cfg:209
 #: data/gui/default/window/wml_message.cfg:442
 #: data/gui/default/window/wml_message.cfg:648 src/construct_dialog.cpp:125
-#: src/construct_dialog.cpp:132 src/gui/dialogs/message.cpp:186
-#: src/gui/dialogs/message.cpp:193
+#: src/construct_dialog.cpp:132 src/gui/dialogs/message.cpp:188
+#: src/gui/dialogs/message.cpp:195
 msgid "OK"
 msgstr "У реду"
 
@@ -894,7 +897,7 @@ msgstr "×"
 #: data/gui/default/window/game_save_oos.cfg:187
 #: data/gui/default/window/game_save_overwrite.cfg:88
 #: data/gui/default/window/game_save_overwrite.cfg:89
-#: src/construct_dialog.cpp:128 src/gui/dialogs/message.cpp:200
+#: src/construct_dialog.cpp:128 src/gui/dialogs/message.cpp:202
 msgid "Yes"
 msgstr "Да"
 
@@ -904,7 +907,7 @@ msgstr "Да"
 #: data/gui/default/window/game_save_message.cfg:154
 #: data/gui/default/window/game_save_oos.cfg:201
 #: data/gui/default/window/game_save_overwrite.cfg:103
-#: src/construct_dialog.cpp:129 src/gui/dialogs/message.cpp:202
+#: src/construct_dialog.cpp:129 src/gui/dialogs/message.cpp:204
 msgid "No"
 msgstr "Не"
 
@@ -923,7 +926,7 @@ msgstr "Игнориши све"
 #. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=quit_game
 #. +> trunk 1.6
-#: data/gui/default/window/game_save_oos.cfg:159 src/hotkeys.cpp:83
+#: data/gui/default/window/game_save_oos.cfg:159 src/hotkeys.cpp:84
 msgid "Quit Game"
 msgstr "Напусти игру"
 
@@ -943,7 +946,7 @@ msgstr "Сачувана игра већ постоји. Желите ли да 
 #. [label]
 #. +> trunk 1.6
 #: data/gui/default/window/language_selection.cfg:31
-#: data/gui/default/window/title_screen.cfg:83
+#: data/gui/default/window/title_screen.cfg:188
 msgid "Language"
 msgstr "Језик"
 
@@ -959,6 +962,66 @@ msgstr "Изаберите жељени језик:"
 #: data/gui/default/window/language_selection.cfg:120
 msgid "Change language"
 msgstr "Промени језик"
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:27
+#, fuzzy
+#| msgid "Multiplayer"
+msgid "Multiplayer Lobby"
+msgstr "Вишеиграње"
+
+#. [button]: id=join
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:192
+msgid "Join"
+msgstr ""
+
+#. [button]: id=observe
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:199
+msgid "Observe"
+msgstr ""
+
+#. [button]: id=send_message
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:237
+msgid "Send"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=quit
+#. [grid]
+#. +> trunk 1.6
+#: data/gui/default/window/lobby_main.cfg:252
+#: data/gui/default/window/title_screen.cfg:191 src/hotkeys.cpp:654
+#: src/hotkeys.cpp:944
+msgid "Quit"
+msgstr "Напуштање"
+
+#. [button]: id=refresh
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:270
+#, fuzzy
+#| msgid "Refresh Display"
+msgid "Refresh"
+msgstr "Освежи приказ"
+
+#. [label]
+#. [button]: id=create
+#. +> trunk 1.6
+#: data/gui/default/window/lobby_main.cfg:279
+#: data/gui/default/window/mp_create_game.cfg:33
+msgid "Create Game"
+msgstr "Направи игру"
+
+#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=help
+#. +> trunk 1.6
+#: data/gui/default/window/lobby_main.cfg:288
+#: data/gui/default/window/title_screen.cfg:109 src/hotkeys.cpp:185
+msgid "Help"
+msgstr "Помоћ"
 
 #. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
@@ -1075,12 +1138,6 @@ msgstr "Сада ћете се повезати са вишеиграчким с
 #: data/gui/default/window/mp_connect.cfg:148
 msgid "View List"
 msgstr "Прикажи списак"
-
-#. [label]
-#. +> trunk 1.6
-#: data/gui/default/window/mp_create_game.cfg:33
-msgid "Create Game"
-msgstr "Направи игру"
 
 #. [label]
 #. [text_box]: id=game_name
@@ -1217,7 +1274,7 @@ msgstr "Подсетник лозинке"
 #. [grid]
 #. +> trunk 1.6
 #: data/gui/default/window/mp_method_selection.cfg:31
-#: data/gui/default/window/title_screen.cfg:79
+#: data/gui/default/window/title_screen.cfg:184
 msgid "Multiplayer"
 msgstr "Вишеиграње"
 
@@ -1294,57 +1351,57 @@ msgstr "Адреса"
 msgid "Select"
 msgstr "Изабери"
 
+#. [button]: id=previous_tip
+#. +> trunk
+#: data/gui/default/window/title_screen.cfg:124
+#, fuzzy
+#| msgid "Previous Unit"
+msgid "Previous"
+msgstr "Претходна јединица"
+
 #. [grid]
 #. +> trunk 1.6
-#: data/gui/default/window/title_screen.cfg:77
+#: data/gui/default/window/title_screen.cfg:182
 msgid "Tutorial"
 msgstr "Подучавање"
 
 #. [grid]
 #. +> trunk 1.6
-#: data/gui/default/window/title_screen.cfg:78
+#: data/gui/default/window/title_screen.cfg:183
 msgid "Campaign"
 msgstr "Поход"
 
 #. [grid]
 #. +> trunk 1.6
-#: data/gui/default/window/title_screen.cfg:80
+#: data/gui/default/window/title_screen.cfg:185
 msgid "Load"
 msgstr "Учитај"
 
 #. [grid]
 #. +> trunk 1.6
-#: data/gui/default/window/title_screen.cfg:81
+#: data/gui/default/window/title_screen.cfg:186
 msgid "Add-ons"
 msgstr "Додаци"
 
 #. [grid]
 #. +> trunk 1.6
-#: data/gui/default/window/title_screen.cfg:82
+#: data/gui/default/window/title_screen.cfg:187
 msgid "Editor"
 msgstr "Уређивач"
 
 #. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
 #. [grid]
 #. +> trunk 1.6
-#: data/gui/default/window/title_screen.cfg:84
-#: src/game_preferences_display.cpp:52 src/hotkeys.cpp:77
+#: data/gui/default/window/title_screen.cfg:189
+#: src/game_preferences_display.cpp:52 src/hotkeys.cpp:78
 msgid "Preferences"
 msgstr "Поставке"
 
 #. [grid]
 #. +> trunk 1.6
-#: data/gui/default/window/title_screen.cfg:85
+#: data/gui/default/window/title_screen.cfg:190
 msgid "Credits"
 msgstr "Заслуге"
-
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
-#. [grid]
-#. +> trunk 1.6
-#: data/gui/default/window/title_screen.cfg:86 src/hotkeys.cpp:653
-#: src/hotkeys.cpp:940
-msgid "Quit"
-msgstr "Напуштање"
 
 #. +> trunk 1.6
 #: src/filechooser.cpp:74
@@ -1377,12 +1434,12 @@ msgid "Creation of the directory failed."
 msgstr "Стварање директоријума није успело."
 
 #. +> trunk 1.6
-#: src/game_preferences.cpp:290
+#: src/game_preferences.cpp:308
 msgid "No server has been defined."
 msgstr "Сервер није задат."
 
 #. +> trunk 1.6
-#: src/game_preferences.cpp:352
+#: src/game_preferences.cpp:370
 msgid "player"
 msgstr "играч"
 
@@ -1915,7 +1972,7 @@ msgid "No known themes. Try changing from within an existing game."
 msgstr "Нема познатих тема. Покушајте да промените у оквиру текуће игре."
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:1211
+#: src/game_preferences_display.cpp:1212
 msgid "Find $filename server binary to host networked games"
 msgstr "Пронађите серверску извршну $filename, за удомљавање мрежних игара."
 
@@ -1940,58 +1997,58 @@ msgid "Text doesn't start on canvas."
 msgstr "Текст не стаје на платно."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:320 src/gui/widgets/settings.cpp:512
+#: src/gui/auxiliary/window_builder.cpp:308 src/gui/widgets/settings.cpp:513
 msgid "No resolution defined."
 msgstr "Резолуција није дефинисана."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:416
-#: src/gui/auxiliary/window_builder.cpp:1037
-#: src/gui/auxiliary/window_builder.cpp:1345 src/gui/widgets/settings.cpp:767
-#: src/gui/widgets/settings.cpp:863 src/gui/widgets/settings.cpp:952
-#: src/gui/widgets/settings.cpp:994
+#: src/gui/auxiliary/window_builder.cpp:411
+#: src/gui/auxiliary/window_builder/panel.cpp:35
+#: src/gui/auxiliary/window_builder/toggle_panel.cpp:41
+#: src/gui/widgets/settings.cpp:768 src/gui/widgets/settings.cpp:864
+#: src/gui/widgets/settings.cpp:953 src/gui/widgets/settings.cpp:995
 msgid "No grid defined."
 msgstr "Мрежа није дефинисана."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:523
+#: src/gui/auxiliary/window_builder.cpp:518
 msgid "A row must have a column."
 msgstr "Врста мора имати колону."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:524
+#: src/gui/auxiliary/window_builder.cpp:519
 msgid "Number of columns differ."
 msgstr "Број колона се разликује."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:797
-#: src/gui/auxiliary/window_builder.cpp:1192
+#: src/gui/auxiliary/window_builder.cpp:618
+#: src/gui/auxiliary/window_builder.cpp:869
 msgid "No list defined."
 msgstr "Списак није задат."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:800
+#: src/gui/auxiliary/window_builder.cpp:621
 msgid "A 'list_definition' should contain one row."
 msgstr "Поље list_definition мора садржати једну врсту."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:818
-#: src/gui/auxiliary/window_builder.cpp:985
+#: src/gui/auxiliary/window_builder.cpp:639
+#: src/gui/auxiliary/window_builder.cpp:723
 msgid "'list_data' must have the same number of columns as the 'list_definition'."
 msgstr "Поље list_data мора имати исти број колона као list_definition."
 
 #. +> trunk
-#: src/gui/auxiliary/window_builder.cpp:962
+#: src/gui/auxiliary/window_builder.cpp:700
 msgid "No page defined."
 msgstr "Страница није дефинисана."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:1264
+#: src/gui/auxiliary/window_builder.cpp:942
 msgid "The number of value_labels and values don't match."
 msgstr "Број value_labels и вредности се не слаже."
 
 #. +> trunk 1.6
-#: src/gui/dialogs/message.cpp:214
+#: src/gui/dialogs/message.cpp:216
 msgid "Error"
 msgstr "Грешка"
 
@@ -2006,7 +2063,7 @@ msgid "Load Game..."
 msgstr "Учитај игру..."
 
 #. +> trunk 1.6
-#: src/gui/dialogs/title_screen.cpp:68
+#: src/gui/dialogs/title_screen.cpp:77
 msgid "Version"
 msgstr "верзија"
 
@@ -2016,27 +2073,27 @@ msgid "Mandatory widget '$id' hasn't been defined."
 msgstr "Обавезни виџет „$id“ није дефинисан."
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:138
+#: src/gui/widgets/settings.cpp:139
 msgid "No default gui defined."
 msgstr "Подразумевано сучеље није дефинисано."
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:299
+#: src/gui/widgets/settings.cpp:300
 msgid "Window not defined."
 msgstr "Прозор није дефинисан."
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:396
+#: src/gui/widgets/settings.cpp:397
 msgid "Widget definition '$definition' doesn't contain the definition for '$id'."
 msgstr "Дефиниција виџета „$definition“ не садржи дефиницију за „$id“."
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:538
+#: src/gui/widgets/settings.cpp:539
 msgid "No state or draw section defined."
 msgstr "Одељак стања или цртања није дефинисан."
 
 #. +> trunk 1.6
-#: src/gui/widgets/window.cpp:684
+#: src/gui/widgets/window.cpp:682
 msgid "Failed to show a dialog, which doesn't fit on the screen."
 msgstr "Не могу да прикажем дијалог који не стаје на екран."
 
@@ -2094,7 +2151,7 @@ msgstr "Основно увећање"
 # >> Take screenshot
 # >> Base for screenshot file names
 #. +> trunk 1.6
-#: src/hotkeys.cpp:57 src/hotkeys.cpp:895
+#: src/hotkeys.cpp:57 src/hotkeys.cpp:899
 msgid "Screenshot"
 msgstr "Снимак екрана"
 
@@ -2148,38 +2205,45 @@ msgstr "Сазови"
 msgid "End Turn"
 msgstr "Готово"
 
-#. +> trunk 1.6
+#. +> trunk
 #: src/hotkeys.cpp:70
-msgid "Toggle Grid"
+#, fuzzy
+#| msgid "Toggle Grid"
+msgid "Toggle Ellipses"
 msgstr "Приказ мреже"
 
 #. +> trunk 1.6
 #: src/hotkeys.cpp:71
+msgid "Toggle Grid"
+msgstr "Приказ мреже"
+
+#. +> trunk 1.6
+#: src/hotkeys.cpp:72
 msgid "Mouse Scrolling"
 msgstr "Клизање мишем"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:72
+#: src/hotkeys.cpp:73
 msgid "Status Table"
 msgstr "Табела стања"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:73
+#: src/hotkeys.cpp:74
 msgid "Mute"
 msgstr "Утишај"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:74
+#: src/hotkeys.cpp:75
 msgid "Speak"
 msgstr "Причај"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:75
+#: src/hotkeys.cpp:76
 msgid "Create Unit (Debug!)"
 msgstr "Направи јединицу (испр.!)"
 
 #. +> trunk
-#: src/hotkeys.cpp:76
+#: src/hotkeys.cpp:77
 msgid "Change Side (Debug!)"
 msgstr "Промени страну (испр.!)"
 
@@ -2189,398 +2253,393 @@ msgid "Change Unit Side (Debug!)"
 msgstr "Промени страну (испр.!)"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:78
+#: src/hotkeys.cpp:79
 msgid "Scenario Objectives"
 msgstr "Циљеви сценарија"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:79
+#: src/hotkeys.cpp:80
 msgid "Unit List"
 msgstr "Списак јединица"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:80
+#: src/hotkeys.cpp:81
 msgid "Statistics"
 msgstr "Статистика"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:81 src/hotkeys.cpp:91
+#: src/hotkeys.cpp:82 src/hotkeys.cpp:92
 msgid "Stop"
 msgstr "Стани"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:82 src/hotkeys.cpp:89
+#: src/hotkeys.cpp:83 src/hotkeys.cpp:90
 msgid "Play"
 msgstr "Играј"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:84
+#: src/hotkeys.cpp:85
 msgid "Set Team Label"
 msgstr "Етикетирај тим"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:85
+#: src/hotkeys.cpp:86
 msgid "Set Label"
 msgstr "Етикетирај"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:86
+#: src/hotkeys.cpp:87
 msgid "Clear Labels"
 msgstr "Уклони етикете"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:87
+#: src/hotkeys.cpp:88
 msgid "Show Enemy Moves"
 msgstr "Прикажи противничке потезе"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:88
+#: src/hotkeys.cpp:89
 msgid "Best Possible Enemy Moves"
 msgstr "Најбољи противнички потези"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:90
+#: src/hotkeys.cpp:91
 msgid "Reset"
 msgstr "Ресетуј"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:92
+#: src/hotkeys.cpp:93
 msgid "Next Turn"
 msgstr "Следећи потез"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:93
+#: src/hotkeys.cpp:94
 msgid "Next Side"
 msgstr "Следећа страна"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:95
+#: src/hotkeys.cpp:96
 msgid "Full map"
 msgstr "Цела мапа"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:97
+#: src/hotkeys.cpp:98
 msgid "Each team"
 msgstr "Сваки тим"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:99
+#: src/hotkeys.cpp:100
 msgid "Team 1"
 msgstr "Тим 1"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:100
+#: src/hotkeys.cpp:101
 msgid "Skip animation"
 msgstr "Прескочи анимацију"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:103
+#: src/hotkeys.cpp:104
 msgid "Quit to Desktop"
 msgstr "Изађи на површ"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:104
+#: src/hotkeys.cpp:105
 msgid "Close Map"
 msgstr "Затвори мапу"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:105
+#: src/hotkeys.cpp:106
 msgid "Switch Map"
 msgstr "Пребаци мапу"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:107
+#: src/hotkeys.cpp:108
 msgid "Partial Undo"
 msgstr "Делимично опозови"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:109
+#: src/hotkeys.cpp:110
 msgid "Load Map"
 msgstr "Учитај мапу"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:110
+#: src/hotkeys.cpp:111
 msgid "Save Map"
 msgstr "Сачувај мапу"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:111
+#: src/hotkeys.cpp:112
 msgid "Save Map As"
 msgstr "Сачувај мапу као"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:112
+#: src/hotkeys.cpp:113
 msgid "Revert All Changes"
 msgstr "Врати све измене"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:113
+#: src/hotkeys.cpp:114
 msgid "Map Information"
 msgstr "Подаци о мапи"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:115
+#: src/hotkeys.cpp:116
 msgid "Swap fore- and background terrains"
 msgstr "Размени терен спреда и позадине"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:116
+#: src/hotkeys.cpp:117
 msgid "Next Tool"
 msgstr "Следећа алатка"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:117
+#: src/hotkeys.cpp:118
 msgid "Paint Tool"
 msgstr "Алатка сликања"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:118
+#: src/hotkeys.cpp:119
 msgid "Fill Tool"
 msgstr "Алатка испуне"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:119
+#: src/hotkeys.cpp:120
 msgid "Selection Tool"
 msgstr "Алатка избора"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:121
+#: src/hotkeys.cpp:122
 msgid "Set Starting Positions Tool"
 msgstr "Алатка задавања почетних положаја"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:122
+#: src/hotkeys.cpp:123
 msgid "Next Brush"
 msgstr "Следећа четкица"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:123
+#: src/hotkeys.cpp:124
 msgid "Default Brush"
 msgstr "Подразумевана четкица"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:124
+#: src/hotkeys.cpp:125
 msgid "Cut"
 msgstr "Исеци"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:125
+#: src/hotkeys.cpp:126
 msgid "Copy"
 msgstr "Умножи"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:126
+#: src/hotkeys.cpp:127
 msgid "Paste"
 msgstr "Налепи"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:127
+#: src/hotkeys.cpp:128
 msgid "Export selected coordinates to system clipboard"
 msgstr "Извези изабране координате у системску оставу"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:129
+#: src/hotkeys.cpp:130
 msgid "Select All"
 msgstr "Изабери све"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:131
+#: src/hotkeys.cpp:132
 msgid "Select Inverse"
 msgstr "Обрни избор"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:133
+#: src/hotkeys.cpp:134
 msgid "Select None"
 msgstr "Поништи избор"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:135
+#: src/hotkeys.cpp:136
 msgid "Rotate Clipboard Clockwise"
 msgstr "Заокрени оставу у смеру казаљке"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:137
+#: src/hotkeys.cpp:138
 msgid "Rotate Clipboard Counter-Clockwise"
 msgstr "Заокрени оставу супротно смеру казаљке"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:139
+#: src/hotkeys.cpp:140
 msgid "Flip Clipboard Horizontally"
 msgstr "Преврни оставу водоравно"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:141
+#: src/hotkeys.cpp:142
 msgid "Flip Clipboard Vertically"
 msgstr "Преврни оставу усправно"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:143
+#: src/hotkeys.cpp:144
 msgid "Rotate Selection"
 msgstr "Заокрени избор"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:145
+#: src/hotkeys.cpp:146
 msgid "Flip Selection"
 msgstr "Преврни избор"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:147
+#: src/hotkeys.cpp:148
 msgid "Fill Selection"
 msgstr "Испуни избор"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:149
+#: src/hotkeys.cpp:150
 msgid "Generate Tiles In Selection"
 msgstr "Створи плочице у избору"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:151
+#: src/hotkeys.cpp:152
 msgid "Randomize Tiles In Selection"
 msgstr "Насумично плочице у избору"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:155
+#: src/hotkeys.cpp:156
 msgid "Rotate Map"
 msgstr "Заокрени мапу"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:157
+#: src/hotkeys.cpp:158
 msgid "Generate Map"
 msgstr "Створи мапу"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:159
+#: src/hotkeys.cpp:160
 msgid "Apply a Mask"
 msgstr "Примени маску"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:161
+#: src/hotkeys.cpp:162
 msgid "Create Mask"
 msgstr "Створи маску"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:163
+#: src/hotkeys.cpp:164
 msgid "Refresh Display"
 msgstr "Освежи приказ"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:165
+#: src/hotkeys.cpp:166
 msgid "Update Terrain Transitions"
 msgstr "Ажурирај прелазе терена"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:167
+#: src/hotkeys.cpp:168
 msgid "Auto-update Terrain Transitions"
 msgstr "Самоажурирај прелазе терена"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:169
+#: src/hotkeys.cpp:170
 msgid "Refresh Image Cache"
 msgstr "Освежи кеш слика"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:171
+#: src/hotkeys.cpp:172
 msgid "Draw Hex Coordinates"
 msgstr "Цртај координате поља"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:173
+#: src/hotkeys.cpp:174
 msgid "Draw Terrain Codes"
 msgstr "Цртај теренске кодове"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:178
+#: src/hotkeys.cpp:179
 msgid "Delay Shroud Updates"
 msgstr "Застој ажурирања покрова"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:179
+#: src/hotkeys.cpp:180
 msgid "Update Shroud Now"
 msgstr "Ажурирај покров сада"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:180
+#: src/hotkeys.cpp:181
 msgid "Continue Move"
 msgstr "Настави потез"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:181
+#: src/hotkeys.cpp:182
 msgid "Find Label or Unit"
 msgstr "Нађи етикету или јединицу"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:182
+#: src/hotkeys.cpp:183
 msgid "Speak to Ally"
 msgstr "Причај савезнику"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:183
+#: src/hotkeys.cpp:184
 msgid "Speak to All"
 msgstr "Причај свима"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:184
-msgid "Help"
-msgstr "Помоћ"
-
-#. +> trunk 1.6
-#: src/hotkeys.cpp:185
+#: src/hotkeys.cpp:186
 msgid "View Chat Log"
 msgstr "Прикажи дневник ћаскања"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:186
+#: src/hotkeys.cpp:187
 msgid "Change the language"
 msgstr "Промени језик"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:188
+#: src/hotkeys.cpp:189
 msgid "Enter user command"
 msgstr "Корисничка наредба"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:189
+#: src/hotkeys.cpp:190
 msgid "Custom command"
 msgstr "Посебна наредба"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:190
+#: src/hotkeys.cpp:191
 msgid "Run AI formula"
 msgstr "Изврши ВИ формулу"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:191
+#: src/hotkeys.cpp:192
 msgid "Clear messages"
 msgstr "Очисти поруке"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:193
+#: src/hotkeys.cpp:194
 msgid "User-Command#2"
 msgstr "Корисничка-наредба#2"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:194
+#: src/hotkeys.cpp:195
 msgid "User-Command#3"
 msgstr "Корисничка-наредба#3"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:653 src/hotkeys.cpp:940
+#: src/hotkeys.cpp:654 src/hotkeys.cpp:944
 msgid "Do you really want to quit?"
 msgstr "Стварно би да отиђеш?"
 
 # >> Base for map screenshot file names
 #. +> trunk 1.6
-#: src/hotkeys.cpp:895
+#: src/hotkeys.cpp:899
 msgid "Map-Screenshot"
 msgstr "снимак-с-мапом"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:902
+#: src/hotkeys.cpp:906
 msgid "Screenshot done"
 msgstr "Снимање завршено"
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:904
+#: src/hotkeys.cpp:908
 msgid "Screenshot failed"
 msgstr "Снимање неуспело"
 
@@ -2601,7 +2660,7 @@ msgid "en_US"
 msgstr "sr"
 
 #. +> trunk 1.6
-#: src/mapgen_dialog.cpp:109 src/preferences_display.cpp:203
+#: src/mapgen_dialog.cpp:109 src/preferences_display.cpp:208
 msgid "Close Window"
 msgstr "Затвори прозор"
 
@@ -2666,7 +2725,7 @@ msgid "Island"
 msgstr "острвски"
 
 #. +> trunk 1.6
-#: src/marked-up_text.cpp:395
+#: src/marked-up_text.cpp:397
 msgid "The maximum text width is less than 1."
 msgstr "Највећа ширина текста је испод 1."
 
@@ -2686,52 +2745,52 @@ msgid "The video mode could not be changed. Your window manager must be set to 1
 msgstr "Промена видео режима није успела. Менаџер прозора мора подржавати 16 бита по пикселу да би игра радила у прозору. Приказ мора подржавати 1024×768×16 да би игра ишла преко целог екрана."
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:207
+#: src/preferences_display.cpp:212
 msgid "Hotkey Settings"
 msgstr "Поставке пречица"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:213 src/preferences_display.cpp:281
+#: src/preferences_display.cpp:218 src/preferences_display.cpp:286
 msgid "Press desired Hotkey (Esc cancels)"
 msgstr "Притисните жељену пречицу (Escape одустаје)"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:232
+#: src/preferences_display.cpp:237
 msgid "Action"
 msgstr "радња"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:232
+#: src/preferences_display.cpp:237
 msgid "Binding"
 msgstr "свеза"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:244
+#: src/preferences_display.cpp:249
 msgid "Change Hotkey"
 msgstr "Промени пречицу"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:247
+#: src/preferences_display.cpp:252
 msgid "Clear Hotkey"
 msgstr "Очисти пречицу"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:315
+#: src/preferences_display.cpp:320
 msgid "This Hotkey is already in use."
 msgstr "Пречица је већ у употреби."
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:326
+#: src/preferences_display.cpp:331
 msgid "Warning: screenshot hotkeys not combined with Control, Alt or Meta keys."
 msgstr "Упозорење: пречице за снимање екрана нису комбинације са тастерима Ctrl, Alt или Meta."
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:417
+#: src/preferences_display.cpp:422
 msgid "There are no alternative video modes available"
 msgstr "Нема алтернативних видео режима"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:446
+#: src/preferences_display.cpp:451
 msgid "Choose Resolution"
 msgstr "Изабери резолуцију"
 
