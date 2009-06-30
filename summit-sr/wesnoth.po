@@ -9,14 +9,13 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-06-28 18:06+0200\n"
-"PO-Revision-Date: 2009-06-13 21:24+0200\n"
+"PO-Revision-Date: 2009-06-30 11:01+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #. [advanced_preference]: type=boolean
@@ -76,10 +75,8 @@ msgstr "Овај случај служи да испита способност 
 #. [message]: speaker=narrator
 #. +> trunk
 #: data/ai/scenarios/ai_arena_small/0003-simple_combat.cfg:16
-#, fuzzy
-#| msgid "This situation should test the ability of AI to spread poison around..."
 msgid "This situation should test the ability of AI to make an attack..."
-msgstr "Овај случај служи да испита способност ВИ-ја да около шири отров..."
+msgstr "Овај случај служи да испита способност ВИ-ја да изведе напад..."
 
 #. [time]: id=underground
 #. [illuminated_time]: id=underground_illum
@@ -3213,10 +3210,8 @@ msgstr "Без бонуса за рани завршетак."
 
 #. +> trunk
 #: data/core/macros/carryover-utils.cfg:15
-#, fuzzy
-#| msgid "`(early finish bonus)"
 msgid "<small>(early finish bonus)</small>"
-msgstr "(бонус за рани завршетак)"
+msgstr "<small>(бонус за рани завршетак)</small>"
 
 #. +> trunk 1.6
 #: data/core/macros/carryover-utils.cfg:18
@@ -6382,7 +6377,7 @@ msgstr "пораз:"
 #. +> trunk
 #: src/game_events.cpp:3473
 msgid "[unit_worth]'s filter didn't match any units!"
-msgstr ""
+msgstr "Филтер [unit_worth] не поклапа ниједну јединицу."
 
 #. +> trunk 1.6
 #: src/gamestatus.cpp:728
@@ -7258,30 +7253,28 @@ msgstr "Захтева списак детаља које можете зада�
 
 #. +> trunk
 #: src/menu_events.cpp:2128
-#, fuzzy
-#| msgid "Join Game"
 msgid "Join a room."
-msgstr "На произвољан сервер"
+msgstr "Придружи се соби."
 
 #. +> trunk
 #: src/menu_events.cpp:2130
 msgid "Part a room."
-msgstr ""
+msgstr "Напусти собу."
 
 #. +> trunk
 #: src/menu_events.cpp:2132
 msgid "List room members."
-msgstr ""
+msgstr "Наброји чланове собе."
 
 #. +> trunk
 #: src/menu_events.cpp:2134
 msgid "List available rooms."
-msgstr ""
+msgstr "Наброји доступне собе."
 
 #. +> trunk
 #: src/menu_events.cpp:2136
 msgid "Room msg."
-msgstr ""
+msgstr "Порука собе."
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:2263
@@ -8167,8 +8160,6 @@ msgstr "Прикажи све игре које филтер *не* поклап
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:757
-#, fuzzy
-#| msgid "Only show games that have a least one vacant slot"
 msgid "Only show games that have at least one vacant slot"
 msgstr "Прикажи само игре са бар једним слободним местом."
 
@@ -8356,14 +8347,12 @@ msgstr "Име:"
 #. +> trunk
 #: src/playmp_controller.cpp:150
 msgid "$name has taken control"
-msgstr ""
+msgstr "$name преузе управљање"
 
 #. +> trunk
 #: src/playmp_controller.cpp:153
-#, fuzzy
-#| msgid "ranged"
 msgid "Turn changed"
-msgstr "одступни"
+msgstr "Промена потеза"
 
 #. +> trunk 1.6
 #: src/playmp_controller.cpp:228
