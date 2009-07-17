@@ -186,7 +186,8 @@ def is_manpage_cat (cname, csubdir):
     return "manpage" in cname
 
 def is_wesnoth_cat (cname, csubdir):
-    return not is_docbook_cat(cname) and not is_manpage_cat(cname)
+    return (    not is_docbook_cat(cname, csubdir)
+            and not is_manpage_cat(cname, csubdir))
 
 # ----------------------------------------
 
