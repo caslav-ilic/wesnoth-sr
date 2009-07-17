@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-06-28 13:17+0200\n"
+"POT-Creation-Date: 2009-07-14 23:06+0200\n"
 "PO-Revision-Date: 2009-06-16 13:59+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -35,6 +35,12 @@ msgstr "ЈГ"
 #. [campaign]: id=The_South_Guard
 #. +> trunk
 #: data/campaigns/The_South_Guard/_main.cfg:19
+msgid "(Novice level, 8 or 9 scenarios depending on the branch you take.)"
+msgstr "(Почетнички ниво, 8 или 9 сценарија према изабраном рачвању.)"
+
+#. [campaign]: id=The_South_Guard
+#. +> trunk
+#: data/campaigns/The_South_Guard/_main.cfg:19
 msgid ""
 "A young Knight, Deoran, is dispatched to take command of the South Guard... Note: This campaign is designed as an introduction to Wesnoth. The 'Civilian' difficulty level is aimed at first-time players.\n"
 "\n"
@@ -55,22 +61,16 @@ msgstr ""
 "(Почетнички ниво, 8 или 9 сценарија према изабраном рачвању.)"
 
 #. [campaign]: id=The_South_Guard
-#. +> trunk
-#: data/campaigns/The_South_Guard/_main.cfg:19
-msgid "(Novice level, 8 or 9 scenarios depending on the branch you take.)"
-msgstr "(Почетнички ниво, 8 или 9 сценарија према изабраном рачвању.)"
+#. +> trunk 1.6
+#: data/campaigns/The_South_Guard/_main.cfg:22
+msgid "(Beginner)"
+msgstr "(почетник)"
 
 #. [campaign]: id=The_South_Guard
 #. +> trunk 1.6
 #: data/campaigns/The_South_Guard/_main.cfg:22
 msgid "Civilian"
 msgstr "цивил"
-
-#. [campaign]: id=The_South_Guard
-#. +> trunk 1.6
-#: data/campaigns/The_South_Guard/_main.cfg:22
-msgid "(Beginner)"
-msgstr "(почетник)"
 
 #. [campaign]: id=The_South_Guard
 #. +> trunk 1.6
@@ -87,14 +87,14 @@ msgstr "регрут"
 #. [campaign]: id=The_South_Guard
 #. +> trunk 1.6
 #: data/campaigns/The_South_Guard/_main.cfg:24
-msgid "Soldier"
-msgstr "војник"
+msgid "(Normal)"
+msgstr "(нормално)"
 
 #. [campaign]: id=The_South_Guard
 #. +> trunk 1.6
 #: data/campaigns/The_South_Guard/_main.cfg:24
-msgid "(Normal)"
-msgstr "(нормално)"
+msgid "Soldier"
+msgstr "војник"
 
 #. [about]
 #. +> trunk 1.6
@@ -123,20 +123,20 @@ msgstr "Рођен за барјак"
 #. [side]: type=Horseman Commander, id=Deoran
 #. [side]: id=Deoran
 #. +> trunk 1.6
-#: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:26
-#: data/campaigns/The_South_Guard/scenarios/10a_Elf_Epilogue.cfg:17
-#: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:26
-#: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:65
+#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:30
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:40
 #: data/campaigns/The_South_Guard/scenarios/03_A_Desparate_Errand.cfg:31
-#: data/campaigns/The_South_Guard/scenarios/07b_Pebbles_In_The_Flood.cfg:31
+#: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:26
 #: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:28
 #: data/campaigns/The_South_Guard/scenarios/06a_Tidings_Good_And_Ill.cfg:33
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:29
-#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:30
-#: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:30
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:40
-#: data/campaigns/The_South_Guard/scenarios/09b_Bandit_Epilogue.cfg:17
 #: data/campaigns/The_South_Guard/scenarios/06b_The_Long_March.cfg:35
+#: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:26
+#: data/campaigns/The_South_Guard/scenarios/07b_Pebbles_In_The_Flood.cfg:31
+#: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:65
+#: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:30
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:29
+#: data/campaigns/The_South_Guard/scenarios/09b_Bandit_Epilogue.cfg:17
+#: data/campaigns/The_South_Guard/scenarios/10a_Elf_Epilogue.cfg:17
 msgid "Deoran"
 msgstr "Деоран"
 
@@ -146,23 +146,23 @@ msgstr "Деоран"
 #. [side]: type=Lieutenant, id=Plynry
 #. [side]: id=Deoran
 #. +> trunk 1.6
+#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:35
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:44
+#: data/campaigns/The_South_Guard/scenarios/03_A_Desparate_Errand.cfg:35
 #: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:30
-#: data/campaigns/The_South_Guard/scenarios/10a_Elf_Epilogue.cfg:20
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:32
+#: data/campaigns/The_South_Guard/scenarios/06a_Tidings_Good_And_Ill.cfg:37
+#: data/campaigns/The_South_Guard/scenarios/06b_The_Long_March.cfg:38
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:30
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:142
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:184
+#: data/campaigns/The_South_Guard/scenarios/07b_Pebbles_In_The_Flood.cfg:35
 #: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:69
 #: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:146
-#: data/campaigns/The_South_Guard/scenarios/03_A_Desparate_Errand.cfg:35
-#: data/campaigns/The_South_Guard/scenarios/07b_Pebbles_In_The_Flood.cfg:35
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:32
-#: data/campaigns/The_South_Guard/scenarios/06a_Tidings_Good_And_Ill.cfg:37
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:33
-#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:35
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:34
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:44
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:33
 #: data/campaigns/The_South_Guard/scenarios/09b_Bandit_Epilogue.cfg:20
-#: data/campaigns/The_South_Guard/scenarios/06b_The_Long_March.cfg:38
+#: data/campaigns/The_South_Guard/scenarios/10a_Elf_Epilogue.cfg:20
 msgid "South Guard"
 msgstr "Јужњачка гарда"
 
@@ -179,12 +179,12 @@ msgstr "Урза Матин"
 #. [side]: type=Outlaw, id=Urza Nalmath
 #. [side]
 #. +> trunk 1.6
-#: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:107
-#: data/campaigns/The_South_Guard/scenarios/03_A_Desparate_Errand.cfg:60
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:69
 #: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:58
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:66
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:102
+#: data/campaigns/The_South_Guard/scenarios/03_A_Desparate_Errand.cfg:60
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:69
+#: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:107
 msgid "Bandits"
 msgstr "Разбојници"
 
@@ -209,50 +209,50 @@ msgstr "Поразиш ли Урзу Матина"
 
 #. [objective]: condition=lose
 #. +> trunk 1.6
+#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:112
+#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:280
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:213
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:263
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:348
+#: data/campaigns/The_South_Guard/scenarios/03_A_Desparate_Errand.cfg:171
 #: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:228
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:247
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:551
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:616
+#: data/campaigns/The_South_Guard/scenarios/06b_The_Long_March.cfg:516
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:334
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:515
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:572
 #: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:41
-#: data/campaigns/The_South_Guard/scenarios/03_A_Desparate_Errand.cfg:171
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:247
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:551
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:616
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:234
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:377
-#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:112
-#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:280
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:414
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:432
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:479
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:213
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:263
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:348
-#: data/campaigns/The_South_Guard/scenarios/06b_The_Long_March.cfg:516
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:234
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:377
 msgid "Death of Deoran"
 msgstr "Настрада ли Деоран"
 
 #. [objective]: condition=lose
 #. +> trunk 1.6
-#: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:244
-#: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:346
-#: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:527
-#: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:584
-#: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:53
+#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:116
+#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:288
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:221
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:271
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:360
 #: data/campaigns/The_South_Guard/scenarios/03_A_Desparate_Errand.cfg:183
+#: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:244
 #: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:263
 #: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:567
 #: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:632
 #: data/campaigns/The_South_Guard/scenarios/06a_Tidings_Good_And_Ill.cfg:220
 #: data/campaigns/The_South_Guard/scenarios/06a_Tidings_Good_And_Ill.cfg:298
-#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:116
-#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:288
+#: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:346
+#: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:527
+#: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:584
+#: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:53
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:418
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:436
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:483
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:221
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:271
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:360
 msgid "Time runs out"
 msgstr "Истекне ли време"
 
@@ -348,17 +348,17 @@ msgstr "Јединице са обележјем јуначким, суштин�
 
 #. [objective]: condition=lose
 #. +> trunk 1.6
-#: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:232
+#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:284
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:217
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:267
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:352
 #: data/campaigns/The_South_Guard/scenarios/03_A_Desparate_Errand.cfg:175
+#: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:232
 #: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:251
 #: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:555
 #: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:620
 #: data/campaigns/The_South_Guard/scenarios/06a_Tidings_Good_And_Ill.cfg:216
 #: data/campaigns/The_South_Guard/scenarios/06a_Tidings_Good_And_Ill.cfg:294
-#: data/campaigns/The_South_Guard/scenarios/01_Born_To_The_Banner.cfg:284
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:217
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:267
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:352
 #: data/campaigns/The_South_Guard/scenarios/06b_The_Long_March.cfg:520
 msgid "Death of Sir Gerrick"
 msgstr "Настрада ли сер Герик"
@@ -722,17 +722,17 @@ msgstr "Убијеш ли Урзу Налмата, вођа разбојника
 
 #. [objective]: condition=lose
 #. +> trunk 1.6
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:356
+#: data/campaigns/The_South_Guard/scenarios/03_A_Desparate_Errand.cfg:179
 #: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:236
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:255
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:559
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:624
+#: data/campaigns/The_South_Guard/scenarios/06b_The_Long_March.cfg:524
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:338
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:519
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:576
 #: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:45
-#: data/campaigns/The_South_Guard/scenarios/03_A_Desparate_Errand.cfg:179
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:255
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:559
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:624
-#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:356
-#: data/campaigns/The_South_Guard/scenarios/06b_The_Long_March.cfg:524
 msgid "Death of Minister Hylas"
 msgstr "Настрада ли намесник Хилас"
 
@@ -1091,14 +1091,14 @@ msgstr "мал Акаји"
 #. +> trunk 1.6
 #: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:74
 #: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:116
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:90
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:125
+#: data/campaigns/The_South_Guard/scenarios/06b_The_Long_March.cfg:72
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:53
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:103
 #: data/campaigns/The_South_Guard/scenarios/07b_Pebbles_In_The_Flood.cfg:59
 #: data/campaigns/The_South_Guard/scenarios/07b_Pebbles_In_The_Flood.cfg:88
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:90
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:125
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:57
-#: data/campaigns/The_South_Guard/scenarios/06b_The_Long_March.cfg:72
 msgid "Undead"
 msgstr "Немртви"
 
@@ -1184,12 +1184,12 @@ msgstr "Доведеш ли Етилијел у Мебриново село"
 #. [objective]: condition=lose
 #. +> trunk 1.6
 #: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:240
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:259
+#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:628
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:342
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:523
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:580
 #: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:49
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:259
-#: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:628
 #: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:238
 #: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:381
 msgid "Death of Ethiliel"
@@ -2921,8 +2921,8 @@ msgstr "Вестинско веће стиже у потезу $council_arrive_t
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:302
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:513
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:302
 #: data/campaigns/The_South_Guard/utils/sg_deaths.cfg:12
 msgid "I have failed my kingdom and duty..."
 msgstr "Изневерих своје краљевство и дужност..."
@@ -3127,8 +3127,8 @@ msgstr "Осећам као да ми је овде место."
 #. [scenario]: id=10a_Elf_Epilogue
 #. [scenario]: id=9b_Bandit_Epilogue
 #. +> trunk 1.6
-#: data/campaigns/The_South_Guard/scenarios/10a_Elf_Epilogue.cfg:5
 #: data/campaigns/The_South_Guard/scenarios/09b_Bandit_Epilogue.cfg:5
+#: data/campaigns/The_South_Guard/scenarios/10a_Elf_Epilogue.cfg:5
 msgid "Epilogue"
 msgstr "Епилог"
 
@@ -3179,26 +3179,26 @@ msgstr "Деоран и даље беше опасан заповедник, ч�
 
 #. [attack]: type=pierce
 #. +> trunk 1.6
-#: data/campaigns/The_South_Guard/units/Junior_Commander.cfg:31
 #: data/campaigns/The_South_Guard/units/Dismounted_Commander.cfg:28
+#: data/campaigns/The_South_Guard/units/Junior_Commander.cfg:31
 msgid "spear"
 msgstr "копље"
 
 #. [attack]: type=pierce
 #. +> trunk 1.6
-#: data/campaigns/The_South_Guard/units/Mounted_General.cfg:33
 #: data/campaigns/The_South_Guard/units/Dismounted_Commander.cfg:104
 #: data/campaigns/The_South_Guard/units/Dismounted_Commander.cfg:227
 #: data/campaigns/The_South_Guard/units/Horseman_Commander.cfg:31
+#: data/campaigns/The_South_Guard/units/Mounted_General.cfg:33
 msgid "lance"
 msgstr "бојно копље"
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/campaigns/The_South_Guard/units/Mounted_General.cfg:44
 #: data/campaigns/The_South_Guard/units/Dismounted_Commander.cfg:115
 #: data/campaigns/The_South_Guard/units/Dismounted_Commander.cfg:238
 #: data/campaigns/The_South_Guard/units/Horseman_Commander.cfg:42
+#: data/campaigns/The_South_Guard/units/Mounted_General.cfg:44
 msgid "mace"
 msgstr "топуз"
 

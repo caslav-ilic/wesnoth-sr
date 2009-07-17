@@ -1,8 +1,14 @@
+# #-#-#-#-#  wesnoth-units.cpp.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Wesnoth development team
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-06-28 13:17+0200\n"
+"POT-Creation-Date: 2009-07-14 23:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,14 +40,14 @@ msgstr ""
 #: data/core/units/bats/Bat_Blood.cfg:176
 #: data/core/units/bats/Bat_Dread.cfg:29
 #: data/core/units/bats/Bat_Vampire.cfg:176
-#: data/core/units/monsters/Wolf.cfg:49
+#: data/core/units/goblins/Direwolf_Rider.cfg:33
+#: data/core/units/goblins/Knight.cfg:35
+#: data/core/units/goblins/Pillager.cfg:34
+#: data/core/units/goblins/Wolf_Rider.cfg:51
 #: data/core/units/monsters/Cave_Spider.cfg:34
 #: data/core/units/monsters/Sea_Serpent.cfg:27
 #: data/core/units/monsters/Water_Serpent.cfg:43
-#: data/core/units/goblins/Pillager.cfg:34
-#: data/core/units/goblins/Wolf_Rider.cfg:51
-#: data/core/units/goblins/Knight.cfg:35
-#: data/core/units/goblins/Direwolf_Rider.cfg:33
+#: data/core/units/monsters/Wolf.cfg:49
 msgid "fangs"
 msgstr ""
 
@@ -119,8 +125,8 @@ msgstr ""
 
 #. [attack]: type=pierce
 #. +> trunk 1.6
-#: data/core/units/boats/Transport_Galleon.cfg:22
 #: data/core/units/boats/Pirate_Galleon.cfg:21
+#: data/core/units/boats/Transport_Galleon.cfg:22
 msgid "ballista"
 msgstr ""
 
@@ -156,32 +162,32 @@ msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/monsters/Skeletal_Dragon.cfg:42
-#: data/core/units/gryphons/Gryphon_Rider.cfg:42
-#: data/core/units/gryphons/Gryphon_Master.cfg:42
-#: data/core/units/gryphons/Gryphon.cfg:41 data/core/units/drakes/Fire.cfg:71
-#: data/core/units/drakes/Burner.cfg:64
 #: data/core/units/drakes/Armageddon.cfg:85
+#: data/core/units/drakes/Burner.cfg:64 data/core/units/drakes/Fire.cfg:71
 #: data/core/units/drakes/Inferno.cfg:72
 #: data/core/units/goblins/Direwolf_Rider.cfg:42
+#: data/core/units/gryphons/Gryphon.cfg:41
+#: data/core/units/gryphons/Gryphon_Master.cfg:42
+#: data/core/units/gryphons/Gryphon_Rider.cfg:42
+#: data/core/units/monsters/Skeletal_Dragon.cfg:42
+#: data/core/units/undead/Corpse_Ghoul.cfg:27
 #: data/core/units/undead/Corpse_Necrophage.cfg:28
 #: data/core/units/undead/Spirit_Nightgaunt.cfg:54
 #: data/core/units/undead/Spirit_Shadow.cfg:122
-#: data/core/units/undead/Corpse_Ghoul.cfg:27
 msgid "claws"
 msgstr ""
 
 #. [attack]: type=fire
 #. +> trunk 1.6
-#: data/core/units/monsters/Fire_Dragon.cfg:46
-#: data/core/units/drakes/Flare.cfg:92 data/core/units/drakes/Fire.cfg:80
-#: data/core/units/drakes/Burner.cfg:73 data/core/units/drakes/Warrior.cfg:82
-#: data/core/units/drakes/Glider.cfg:85
 #: data/core/units/drakes/Armageddon.cfg:94
-#: data/core/units/drakes/Flameheart.cfg:88
-#: data/core/units/drakes/Hurricane.cfg:100 data/core/units/drakes/Sky.cfg:99
 #: data/core/units/drakes/Blademaster.cfg:78
-#: data/core/units/drakes/Inferno.cfg:81 data/core/units/drakes/Fighter.cfg:75
+#: data/core/units/drakes/Burner.cfg:73 data/core/units/drakes/Fighter.cfg:75
+#: data/core/units/drakes/Fire.cfg:80 data/core/units/drakes/Flameheart.cfg:88
+#: data/core/units/drakes/Flare.cfg:92 data/core/units/drakes/Glider.cfg:85
+#: data/core/units/drakes/Hurricane.cfg:100
+#: data/core/units/drakes/Inferno.cfg:81 data/core/units/drakes/Sky.cfg:99
+#: data/core/units/drakes/Warrior.cfg:82
+#: data/core/units/monsters/Fire_Dragon.cfg:46
 msgid "fire breath"
 msgstr ""
 
@@ -200,38 +206,33 @@ msgstr ""
 #. [attack]: type=blade
 #. [attack]: type=arcane
 #. +> trunk 1.6
-#: data/core/units/orcs/Grunt.cfg:71 data/core/units/orcs/Leader.cfg:28
-#: data/core/units/elves/Avenger.cfg:76 data/core/units/elves/Marksman.cfg:66
-#: data/core/units/elves/Scout.cfg:47 data/core/units/elves/Marshal.cfg:46
-#: data/core/units/elves/Ranger.cfg:73 data/core/units/elves/Outrider.cfg:46
-#: data/core/units/elves/Archer.cfg:37 data/core/units/elves/Captain.cfg:47
-#: data/core/units/elves/Rider.cfg:48 data/core/units/elves/Lord.cfg:39
-#: data/core/units/elves/High_Lord.cfg:73 data/core/units/elves/Hero.cfg:35
-#: data/core/units/elves/Champion.cfg:36 data/core/units/elves/Fighter.cfg:36
-#: data/core/units/elves/Sharpshooter.cfg:63
-#: data/core/units/nagas/Warrior.cfg:29 data/core/units/nagas/Myrmidon.cfg:31
-#: data/core/units/nagas/Fighter.cfg:90 data/core/units/drakes/Flare.cfg:83
-#: data/core/units/drakes/Enforcer.cfg:66
-#: data/core/units/drakes/Warrior.cfg:73
-#: data/core/units/drakes/Gladiator.cfg:66
-#: data/core/units/drakes/Flameheart.cfg:79
 #: data/core/units/drakes/Blademaster.cfg:69
-#: data/core/units/drakes/Clasher.cfg:77
-#: data/core/units/humans/Woodsman_Ranger.cfg:59
-#: data/core/units/humans/Loyalist_Longbowman.cfg:39
-#: data/core/units/humans/Loyalist_General.cfg:56
-#: data/core/units/humans/Loyalist_Sergeant.cfg:47
-#: data/core/units/humans/Horse_Grand_Knight.cfg:24
-#: data/core/units/humans/Loyalist_Royal_Guard.cfg:40
-#: data/core/units/humans/Loyalist_Master_Bowman.cfg:39
-#: data/core/units/humans/Loyalist_Cavalryman.cfg:52
-#: data/core/units/humans/Loyalist_Swordsman.cfg:39
+#: data/core/units/drakes/Clasher.cfg:89
+#: data/core/units/drakes/Enforcer.cfg:78
+#: data/core/units/drakes/Flameheart.cfg:79
+#: data/core/units/drakes/Flare.cfg:83 data/core/units/drakes/Gladiator.cfg:78
+#: data/core/units/drakes/Warrior.cfg:73 data/core/units/elves/Archer.cfg:37
+#: data/core/units/elves/Avenger.cfg:76 data/core/units/elves/Captain.cfg:47
+#: data/core/units/elves/Champion.cfg:36 data/core/units/elves/Fighter.cfg:36
+#: data/core/units/elves/Hero.cfg:35 data/core/units/elves/High_Lord.cfg:73
+#: data/core/units/elves/Lord.cfg:39 data/core/units/elves/Marksman.cfg:66
+#: data/core/units/elves/Marshal.cfg:46 data/core/units/elves/Outrider.cfg:46
+#: data/core/units/elves/Ranger.cfg:73 data/core/units/elves/Rider.cfg:48
+#: data/core/units/elves/Scout.cfg:47
+#: data/core/units/elves/Sharpshooter.cfg:63
 #: data/core/units/humans/Horse_Knight.cfg:35
 #: data/core/units/humans/Horse_Paladin.cfg:40
-#: data/core/units/humans/Loyalist_Lieutenant.cfg:46
-#: data/core/units/humans/Loyalist_Cavalier.cfg:38
+#: data/core/units/humans/Loyalist_Cavalryman.cfg:52
 #: data/core/units/humans/Loyalist_Dragoon.cfg:37
-#: data/core/units/humans/Loyalist_Grand_Marshal.cfg:52
+#: data/core/units/humans/Loyalist_Lieutenant.cfg:46
+#: data/core/units/humans/Loyalist_Longbowman.cfg:39
+#: data/core/units/humans/Loyalist_Master_Bowman.cfg:39
+#: data/core/units/humans/Loyalist_Sergeant.cfg:47
+#: data/core/units/humans/Loyalist_Swordsman.cfg:39
+#: data/core/units/humans/Woodsman_Ranger.cfg:59
+#: data/core/units/nagas/Fighter.cfg:90 data/core/units/nagas/Myrmidon.cfg:31
+#: data/core/units/nagas/Warrior.cfg:29 data/core/units/orcs/Grunt.cfg:71
+#: data/core/units/orcs/Leader.cfg:28
 msgid "sword"
 msgstr ""
 
@@ -254,7 +255,16 @@ msgid "Drake Clasher"
 msgstr ""
 
 #. [unit_type]: id=Drake Clasher, race=drake
-#. +> trunk 1.6
+#. +> trunk
+#: data/core/units/drakes/Clasher.cfg:21
+msgid ""
+"The Clashers are members of a unique caste among the Drakes. Their thick armor, while compensating for the Drakes' natural weakness against spears and arrows, is so heavy and restricting that they are not able to fly or muster enough breath to use their inner fire. They have embraced this handicap, completely encasing their wings to emphasize that they do not need flight to triumph in battle.\n"
+"\n"
+"This is also the only caste that is allowed to break taboo and fight with spears in addition to the drake's traditional metal claws, which makes them particularly good at "
+msgstr ""
+
+#. [unit_type]: id=Drake Clasher, race=drake
+#. +> 1.6
 #: data/core/units/drakes/Clasher.cfg:21
 msgid ""
 "A Drake Clasher is incapable of either flight and fire-breathing, and most assume their relegation to melee combat is because of disability - an attempt to garner use from what otherwise would be a liability. It is possible that they have some mild deficiency in those skills, but those who support this theory have failed to consider how uniquely well-suited they are to combat a fellow drake.\n"
@@ -264,33 +274,34 @@ msgstr ""
 
 #. [attack]: type=pierce
 #. +> trunk 1.6
-#: data/core/units/saurians/Skirmisher.cfg:133
-#: data/core/units/saurians/Skirmisher.cfg:142
-#: data/core/units/saurians/Flanker.cfg:40
-#: data/core/units/saurians/Flanker.cfg:49
-#: data/core/units/saurians/Ambusher.cfg:39
-#: data/core/units/saurians/Ambusher.cfg:48
-#: data/core/units/dwarves/Stalwart.cfg:46
+#: data/core/units/drakes/Clasher.cfg:98
+#: data/core/units/drakes/Enforcer.cfg:96
+#: data/core/units/drakes/Gladiator.cfg:87
 #: data/core/units/dwarves/Guardsman.cfg:43
 #: data/core/units/dwarves/Sentinel.cfg:51
-#: data/core/units/merfolk/Hunter.cfg:25 data/core/units/merfolk/Hunter.cfg:33
-#: data/core/units/merfolk/Netcaster.cfg:24
-#: data/core/units/merfolk/Entangler.cfg:25
-#: data/core/units/merfolk/Spearman.cfg:24
-#: data/core/units/merfolk/Spearman.cfg:32
-#: data/core/units/merfolk/Javelineer.cfg:25
-#: data/core/units/merfolk/Javelineer.cfg:33
-#: data/core/units/drakes/Enforcer.cfg:84
-#: data/core/units/drakes/Gladiator.cfg:75
-#: data/core/units/drakes/Clasher.cfg:86
-#: data/core/units/humans/Horseman.cfg:24
-#: data/core/units/humans/Loyalist_Javelineer.cfg:40
-#: data/core/units/humans/Loyalist_Spearman.cfg:59
+#: data/core/units/dwarves/Stalwart.cfg:46
+#: data/core/units/goblins/Impaler.cfg:28
+#: data/core/units/goblins/Impaler.cfg:40
 #: data/core/units/goblins/Rouser.cfg:37
 #: data/core/units/goblins/Spearman.cfg:42
 #: data/core/units/goblins/Spearman.cfg:52
-#: data/core/units/goblins/Impaler.cfg:28
-#: data/core/units/goblins/Impaler.cfg:40
+#: data/core/units/humans/Horseman.cfg:36
+#: data/core/units/humans/Loyalist_Javelineer.cfg:40
+#: data/core/units/humans/Loyalist_Spearman.cfg:59
+#: data/core/units/merfolk/Entangler.cfg:25
+#: data/core/units/merfolk/Hoplite.cfg:36
+#: data/core/units/merfolk/Hunter.cfg:25 data/core/units/merfolk/Hunter.cfg:33
+#: data/core/units/merfolk/Javelineer.cfg:25
+#: data/core/units/merfolk/Javelineer.cfg:33
+#: data/core/units/merfolk/Netcaster.cfg:24
+#: data/core/units/merfolk/Spearman.cfg:24
+#: data/core/units/merfolk/Spearman.cfg:32
+#: data/core/units/saurians/Ambusher.cfg:39
+#: data/core/units/saurians/Ambusher.cfg:48
+#: data/core/units/saurians/Flanker.cfg:40
+#: data/core/units/saurians/Flanker.cfg:49
+#: data/core/units/saurians/Skirmisher.cfg:133
+#: data/core/units/saurians/Skirmisher.cfg:142
 #: data/core/units/undead/Skele_Chocobone.cfg:25
 msgid "spear"
 msgstr ""
@@ -309,15 +320,15 @@ msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/drakes/Enforcer.cfg:75
-#: data/core/units/drakes/Gladiator.cfg:84
-#: data/core/units/humans/Royal_Warrior.cfg:35
-#: data/core/units/humans/Outlaw_Bandit.cfg:35
-#: data/core/units/humans/Outlaw.cfg:23
+#: data/core/units/drakes/Enforcer.cfg:87
+#: data/core/units/drakes/Gladiator.cfg:96
 #: data/core/units/humans/Loyalist_Heavy_Infantryman.cfg:37
 #: data/core/units/humans/Loyalist_Iron_Mauler.cfg:33
+#: data/core/units/humans/Outlaw.cfg:36
+#: data/core/units/humans/Outlaw_Bandit.cfg:35
+#: data/core/units/humans/Outlaw_Fugitive.cfg:41
 #: data/core/units/humans/Outlaw_Highwayman.cfg:25
-#: data/core/units/humans/Outlaw_Fugitive.cfg:28
+#: data/core/units/humans/Royal_Warrior.cfg:35
 msgid "mace"
 msgstr ""
 
@@ -394,7 +405,13 @@ msgid "Drake Gladiator"
 msgstr ""
 
 #. [unit_type]: id=Drake Gladiator, race=drake
-#. +> trunk 1.6
+#. +> trunk
+#: data/core/units/drakes/Gladiator.cfg:19
+msgid "Instead of letting themselves be bound by their armor, Gladiators have learned to redirect its weight to supplement their bodies' momentum, adding power to the blows of their short spears and hand-mounted claws. Equipment and body are one; even their thick helms and the thick skulls beneath them are weapons. A Gladiator will gladly fulfill his caste duties, as long as it can be done on the battlefield."
+msgstr ""
+
+#. [unit_type]: id=Drake Gladiator, race=drake
+#. +> 1.6
 #: data/core/units/drakes/Gladiator.cfg:19
 msgid "The Gladiator has taken a completely different path from the Slashers. Rather than emphasize training, they have chosen to focus on the craft of their weaponry. They are the smiths of Drake society, and it follows that they possess the best weaponry - the sharpest blades and spears, and the maces which complement their already impressive array. Their intense focus on their weapons confers offensive capability at the cost of a slight reduction in their defensive abilities."
 msgstr ""
@@ -449,7 +466,13 @@ msgid "Sky Drake"
 msgstr ""
 
 #. [unit_type]: id=Sky Drake, race=drake
-#. +> trunk 1.6
+#. +> trunk
+#: data/core/units/drakes/Sky.cfg:27
+msgid "Sky drakes are truly the kings of the sky. The momentum of their terrible stooping dive and their fire breath combine into a terrible weapon. By attacking from the air, they can spit fire with great precision into positions which would otherwise afford a great defensive advantage to their foes."
+msgstr ""
+
+#. [unit_type]: id=Sky Drake, race=drake
+#. +> 1.6
 #: data/core/units/drakes/Sky.cfg:27
 msgid "Sky drakes are truly the kings of the sky. The momentum of their terrible stooping dive and and their fire breath combine into a terrible weapon. By attacking from the air, they can spit fire with great precision into positions which would otherwise afford a great defensive advantage to their foes."
 msgstr ""
@@ -469,8 +492,8 @@ msgstr ""
 #. [attack]: type=blade
 #. [attack]: type=pierce
 #. +> trunk 1.6
-#: data/core/units/drakes/Warden.cfg:75 data/core/units/drakes/Warden.cfg:84
-#: data/core/units/drakes/Slasher.cfg:69 data/core/units/drakes/Slasher.cfg:78
+#: data/core/units/drakes/Slasher.cfg:41 data/core/units/drakes/Slasher.cfg:50
+#: data/core/units/drakes/Warden.cfg:42 data/core/units/drakes/Warden.cfg:51
 #: data/core/units/humans/Loyalist_Halberdier.cfg:41
 #: data/core/units/humans/Loyalist_Halberdier.cfg:53
 msgid "halberd"
@@ -533,18 +556,18 @@ msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/orcs/Archer.cfg:71 data/core/units/orcs/Assassin.cfg:26
-#: data/core/units/orcs/Slayer.cfg:27
 #: data/core/units/dwarves/Dragonguard.cfg:39
 #: data/core/units/dwarves/Thunderer.cfg:110
 #: data/core/units/dwarves/Thunderguard.cfg:39
 #: data/core/units/humans/Outlaw_Assassin.cfg:40
 #: data/core/units/humans/Outlaw_Rogue.cfg:39
-#: data/core/units/humans/Woodsman_Trapper.cfg:82
 #: data/core/units/humans/Outlaw_Thief.cfg:188
 #: data/core/units/humans/Woodsman.cfg:41
 #: data/core/units/humans/Woodsman_Huntsman.cfg:51
 #: data/core/units/humans/Woodsman_Poacher.cfg:48
+#: data/core/units/humans/Woodsman_Trapper.cfg:82
+#: data/core/units/orcs/Archer.cfg:71 data/core/units/orcs/Assassin.cfg:26
+#: data/core/units/orcs/Slayer.cfg:27
 #: data/core/units/undead/Skele_Banebow.cfg:31
 #: data/core/units/undead/Skele_Bone_Shooter.cfg:29
 msgid "dagger"
@@ -570,24 +593,23 @@ msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/dwarves/Explorer.cfg:31
+#: data/core/units/dwarves/Explorer.cfg:32 data/core/units/dwarves/Lord.cfg:42
 #: data/core/units/dwarves/Steelclad.cfg:42
-#: data/core/units/dwarves/Lord.cfg:42
 #: data/core/units/undead/Skele_Death_Knight.cfg:59
 msgid "battle axe"
 msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/dwarves/Scout.cfg:26 data/core/units/dwarves/Scout.cfg:34
-#: data/core/units/dwarves/Pathfinder.cfg:27
-#: data/core/units/dwarves/Pathfinder.cfg:35
-#: data/core/units/dwarves/Explorer.cfg:40
+#: data/core/units/dwarves/Explorer.cfg:41
 #: data/core/units/dwarves/Fighter.cfg:47
+#: data/core/units/dwarves/Pathfinder.cfg:29
+#: data/core/units/dwarves/Pathfinder.cfg:37
+#: data/core/units/dwarves/Scout.cfg:27 data/core/units/dwarves/Scout.cfg:35
 #: data/core/units/undead/Skele_Deathblade.cfg:149
+#: data/core/units/undead/Skele_Draug.cfg:30
 #: data/core/units/undead/Skele_Revenant.cfg:30
 #: data/core/units/undead/Skeleton.cfg:106
-#: data/core/units/undead/Skele_Draug.cfg:30
 msgid "axe"
 msgstr ""
 
@@ -605,9 +627,9 @@ msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
+#: data/core/units/dwarves/Fighter.cfg:55 data/core/units/dwarves/Lord.cfg:51
 #: data/core/units/dwarves/Steelclad.cfg:51
-#: data/core/units/dwarves/Lord.cfg:51 data/core/units/dwarves/Fighter.cfg:55
-#: data/core/units/trolls/Warrior.cfg:27 data/core/units/trolls/Great.cfg:27
+#: data/core/units/trolls/Great.cfg:27 data/core/units/trolls/Warrior.cfg:27
 msgid "hammer"
 msgstr ""
 
@@ -625,9 +647,9 @@ msgstr ""
 
 #. [attack]: type=pierce
 #. +> trunk 1.6
-#: data/core/units/dwarves/Stalwart.cfg:55
 #: data/core/units/dwarves/Guardsman.cfg:52
 #: data/core/units/dwarves/Sentinel.cfg:60
+#: data/core/units/dwarves/Stalwart.cfg:55
 #: data/core/units/humans/Loyalist_Javelineer.cfg:51
 #: data/core/units/humans/Loyalist_Spearman.cfg:71
 msgid "javelin"
@@ -796,24 +818,23 @@ msgstr ""
 #. [attack]: type=pierce
 #. [attack]: type=fire
 #. +> trunk 1.6
-#: data/core/units/orcs/Archer.cfg:80 data/core/units/orcs/Archer.cfg:89
-#: data/core/units/orcs/Warlord.cfg:34 data/core/units/elves/Avenger.cfg:85
-#: data/core/units/elves/Scout.cfg:56 data/core/units/elves/Marshal.cfg:55
-#: data/core/units/elves/Ranger.cfg:82 data/core/units/elves/Outrider.cfg:55
-#: data/core/units/elves/Archer.cfg:46 data/core/units/elves/Captain.cfg:56
-#: data/core/units/elves/Rider.cfg:57 data/core/units/elves/Hero.cfg:44
-#: data/core/units/elves/Champion.cfg:45 data/core/units/elves/Fighter.cfg:45
-#: data/core/units/humans/Woodsman_Trapper.cfg:91
-#: data/core/units/humans/Woodsman_Ranger.cfg:68
-#: data/core/units/humans/Loyalist_Longbowman.cfg:48
+#: data/core/units/elves/Archer.cfg:46 data/core/units/elves/Avenger.cfg:85
+#: data/core/units/elves/Captain.cfg:56 data/core/units/elves/Champion.cfg:45
+#: data/core/units/elves/Fighter.cfg:45 data/core/units/elves/Hero.cfg:44
+#: data/core/units/elves/Marshal.cfg:55 data/core/units/elves/Outrider.cfg:55
+#: data/core/units/elves/Ranger.cfg:82 data/core/units/elves/Rider.cfg:57
+#: data/core/units/elves/Scout.cfg:56
+#: data/core/units/humans/Loyalist_Bowman.cfg:46
 #: data/core/units/humans/Woodsman.cfg:50
-#: data/core/units/humans/Loyalist_Master_Bowman.cfg:48
 #: data/core/units/humans/Woodsman_Huntsman.cfg:60
 #: data/core/units/humans/Woodsman_Poacher.cfg:57
-#: data/core/units/humans/Loyalist_Bowman.cfg:46
-#: data/core/units/undead/Skeleton_Archer.cfg:40
+#: data/core/units/humans/Woodsman_Ranger.cfg:68
+#: data/core/units/humans/Woodsman_Trapper.cfg:91
+#: data/core/units/orcs/Archer.cfg:80 data/core/units/orcs/Archer.cfg:89
+#: data/core/units/orcs/Warlord.cfg:34
 #: data/core/units/undead/Skele_Banebow.cfg:40
 #: data/core/units/undead/Skele_Bone_Shooter.cfg:38
+#: data/core/units/undead/Skeleton_Archer.cfg:40
 msgid "bow"
 msgstr ""
 
@@ -888,21 +909,21 @@ msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/elves/Enchantress.cfg:38 data/core/units/elves/Druid.cfg:40
+#: data/core/units/elves/Druid.cfg:40 data/core/units/elves/Enchantress.cfg:38
 #: data/core/units/elves/Shaman.cfg:42 data/core/units/elves/Sorceress.cfg:40
-#: data/core/units/saurians/Soothsayer.cfg:78
-#: data/core/units/saurians/Augur.cfg:78
-#: data/core/units/saurians/Oracle.cfg:78
-#: data/core/units/merfolk/Priestess.cfg:97
+#: data/core/units/humans/Mage.cfg:67 data/core/units/humans/Mage_Arch.cfg:81
+#: data/core/units/humans/Mage_Elder.cfg:25
+#: data/core/units/humans/Mage_Great.cfg:42
+#: data/core/units/humans/Mage_Red.cfg:66
+#: data/core/units/humans/Mage_Silver.cfg:48
+#: data/core/units/humans/Mage_White.cfg:133
+#: data/core/units/merfolk/Diviner.cfg:100
 #: data/core/units/merfolk/Enchantress.cfg:37
 #: data/core/units/merfolk/Initiate.cfg:40
-#: data/core/units/merfolk/Diviner.cfg:100 data/core/units/humans/Mage.cfg:67
-#: data/core/units/humans/Mage_White.cfg:133
-#: data/core/units/humans/Mage_Great.cfg:42
-#: data/core/units/humans/Mage_Elder.cfg:25
-#: data/core/units/humans/Mage_Silver.cfg:48
-#: data/core/units/humans/Mage_Arch.cfg:81
-#: data/core/units/humans/Mage_Red.cfg:66
+#: data/core/units/merfolk/Priestess.cfg:97
+#: data/core/units/saurians/Augur.cfg:78
+#: data/core/units/saurians/Oracle.cfg:78
+#: data/core/units/saurians/Soothsayer.cfg:78
 #: data/core/units/undead/Necro_Dark_Sorcerer.cfg:91
 msgid "staff"
 msgstr ""
@@ -941,8 +962,8 @@ msgstr ""
 
 #. [attack]: type=arcane
 #. +> trunk 1.6
-#: data/core/units/elves/Enchantress.cfg:59 data/core/units/elves/Lord.cfg:48
-#: data/core/units/elves/High_Lord.cfg:82
+#: data/core/units/elves/Enchantress.cfg:59
+#: data/core/units/elves/High_Lord.cfg:82 data/core/units/elves/Lord.cfg:48
 #: data/core/units/elves/Sorceress.cfg:61 data/core/units/elves/Sylph.cfg:65
 msgid "faerie fire"
 msgstr ""
@@ -1027,6 +1048,8 @@ msgstr ""
 #. +> trunk 1.6
 #: data/core/units/elves/Marksman.cfg:75
 #: data/core/units/elves/Sharpshooter.cfg:72
+#: data/core/units/humans/Loyalist_Longbowman.cfg:48
+#: data/core/units/humans/Loyalist_Master_Bowman.cfg:48
 msgid "longbow"
 msgstr ""
 
@@ -1268,9 +1291,9 @@ msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/merfolk/Netcaster.cfg:32
-#: data/core/units/merfolk/Entangler.cfg:33
 #: data/core/units/goblins/Pillager.cfg:52
+#: data/core/units/merfolk/Entangler.cfg:33
+#: data/core/units/merfolk/Netcaster.cfg:32
 msgid "net"
 msgstr ""
 
@@ -1364,12 +1387,22 @@ msgstr ""
 msgid "Grand Knights have reached the acme of skill with sword and lance. Wearing full plate, and riding steeds bred more for power than for speed, these warriors form the core of any serious cavalry force. A grand knight at the head of a charge is a terrifying sight for infantry, and is often enough to break right through a defensive line."
 msgstr ""
 
+#. [attack]: type=blade
+#. +> trunk
+#: data/core/units/humans/Horse_Grand_Knight.cfg:24
+#: data/core/units/humans/Loyalist_Cavalier.cfg:38
+#: data/core/units/humans/Loyalist_General.cfg:56
+#: data/core/units/humans/Loyalist_Grand_Marshal.cfg:52
+#: data/core/units/humans/Loyalist_Royal_Guard.cfg:40
+msgid "longsword"
+msgstr ""
+
 #. [attack]: type=pierce
 #. +> trunk 1.6
 #: data/core/units/humans/Horse_Grand_Knight.cfg:33
 #: data/core/units/humans/Horse_Knight.cfg:44
-#: data/core/units/humans/Horse_Paladin.cfg:49
 #: data/core/units/humans/Horse_Lancer.cfg:24
+#: data/core/units/humans/Horse_Paladin.cfg:49
 msgid "lance"
 msgstr ""
 
@@ -1438,8 +1471,8 @@ msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/orcs/Crossbowman.cfg:24 data/core/units/orcs/Slurbow.cfg:29
 #: data/core/units/humans/Loyalist_Bowman.cfg:37
+#: data/core/units/orcs/Crossbowman.cfg:24 data/core/units/orcs/Slurbow.cfg:29
 msgid "short sword"
 msgstr ""
 
@@ -1458,19 +1491,18 @@ msgstr ""
 #. [attack]: type=pierce
 #. [attack]: type=fire
 #. +> trunk 1.6
-#: data/core/units/orcs/Sovereign.cfg:37
-#: data/core/units/orcs/Crossbowman.cfg:33
-#: data/core/units/orcs/Crossbowman.cfg:42 data/core/units/orcs/Slurbow.cfg:38
-#: data/core/units/orcs/Slurbow.cfg:47 data/core/units/orcs/Leader.cfg:37
-#: data/core/units/orcs/Ruler.cfg:36
-#: data/core/units/humans/Loyalist_Duelist.cfg:81
-#: data/core/units/humans/Loyalist_General.cfg:65
-#: data/core/units/humans/Loyalist_Sergeant.cfg:56
-#: data/core/units/humans/Loyalist_Master_at_Arms.cfg:40
-#: data/core/units/humans/Loyalist_Lieutenant.cfg:55
 #: data/core/units/humans/Loyalist_Cavalier.cfg:47
 #: data/core/units/humans/Loyalist_Dragoon.cfg:46
+#: data/core/units/humans/Loyalist_Duelist.cfg:81
+#: data/core/units/humans/Loyalist_General.cfg:65
 #: data/core/units/humans/Loyalist_Grand_Marshal.cfg:61
+#: data/core/units/humans/Loyalist_Lieutenant.cfg:55
+#: data/core/units/humans/Loyalist_Master_at_Arms.cfg:40
+#: data/core/units/humans/Loyalist_Sergeant.cfg:56
+#: data/core/units/orcs/Crossbowman.cfg:33
+#: data/core/units/orcs/Crossbowman.cfg:42 data/core/units/orcs/Leader.cfg:37
+#: data/core/units/orcs/Ruler.cfg:36 data/core/units/orcs/Slurbow.cfg:38
+#: data/core/units/orcs/Slurbow.cfg:47 data/core/units/orcs/Sovereign.cfg:37
 #: data/core/units/undead/Skele_Death_Knight.cfg:68
 msgid "crossbow"
 msgstr ""
@@ -1724,10 +1756,9 @@ msgid "Shock troopers are the elite of the heavy infantry, and a significant par
 msgstr ""
 
 #. [attack]: type=impact
-#. +> trunk 1.6
-#: data/core/units/humans/Mage_of_Light.cfg:111
+#. +> trunk
 #: data/core/units/humans/Loyalist_Shock_Trooper.cfg:36
-msgid "morning star"
+msgid "flail"
 msgstr ""
 
 #. [unit_type]: id=Spearman, race=human
@@ -1801,8 +1832,8 @@ msgstr ""
 
 #. [attack]: type=fire
 #. +> trunk 1.6
-#: data/core/units/humans/Mage_Great.cfg:51
 #: data/core/units/humans/Mage_Arch.cfg:90
+#: data/core/units/humans/Mage_Great.cfg:51
 #: data/core/units/humans/Mage_Red.cfg:75
 msgid "fireball"
 msgstr ""
@@ -1924,10 +1955,10 @@ msgstr ""
 
 #. [attack]: type=arcane
 #. +> trunk 1.6
-#: data/core/units/merfolk/Priestess.cfg:106
-#: data/core/units/merfolk/Diviner.cfg:109
-#: data/core/units/humans/Mage_of_Light.cfg:120
 #: data/core/units/humans/Mage_White.cfg:142
+#: data/core/units/humans/Mage_of_Light.cfg:120
+#: data/core/units/merfolk/Diviner.cfg:109
+#: data/core/units/merfolk/Priestess.cfg:106
 msgid "lightbeam"
 msgstr ""
 
@@ -1953,6 +1984,12 @@ msgid ""
 "Following a strict code of piety and honor, these men and women work tirelessly to bring life and order to the troubled world in which they live."
 msgstr ""
 
+#. [attack]: type=impact
+#. +> trunk 1.6
+#: data/core/units/humans/Mage_of_Light.cfg:111
+msgid "morning star"
+msgstr ""
+
 #. [female]
 #. +> trunk 1.6
 #: data/core/units/humans/Mage_of_Light.cfg:245
@@ -1968,7 +2005,7 @@ msgstr ""
 
 #. [unit_type]: id=Outlaw, race=human
 #. +> trunk 1.6
-#: data/core/units/humans/Outlaw.cfg:18
+#: data/core/units/humans/Outlaw.cfg:19
 msgid "After some years of service, former 'footpads' rise up in the ranks of their fellow outlaws. Having proven themselves in combat, they are given more dangerous tasks, and a greater share of the spoils. Though many opponents would mock their choice of weaponry, the outlaws are well aware of its deadly capacity, and also of the ready availability of ammunition. Outlaws are somewhat ill at ease fighting during the day, preferring the cover of nightfall."
 msgstr ""
 
@@ -1981,16 +2018,16 @@ msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/humans/Outlaw_Footpad.cfg:34
-#: data/core/units/humans/Outlaw.cfg:31
-#: data/core/units/humans/Outlaw_Fugitive.cfg:37
+#: data/core/units/humans/Outlaw.cfg:44
+#: data/core/units/humans/Outlaw_Footpad.cfg:47
+#: data/core/units/humans/Outlaw_Fugitive.cfg:50
 #: data/core/units/trolls/Rocklobber.cfg:36
 msgid "sling"
 msgstr ""
 
 #. [female]
 #. +> trunk 1.6
-#: data/core/units/humans/Outlaw.cfg:102
+#: data/core/units/humans/Outlaw.cfg:115
 msgctxt "female"
 msgid "Outlaw"
 msgstr ""
@@ -2041,7 +2078,7 @@ msgstr ""
 
 #. [unit_type]: id=Footpad, race=human
 #. +> trunk 1.6
-#: data/core/units/humans/Outlaw_Footpad.cfg:20
+#: data/core/units/humans/Outlaw_Footpad.cfg:21
 msgid "These petty criminals are often derisively called 'footpads' by their superiors, for they are tasked with any job that requires a great deal of running around, often being employed as couriers, or scouts. The endurance and agility they gain from this serves them well in combat, and despite their inferior weaponry they are quite good at harrying their enemies, especially under cover of darkness."
 msgstr ""
 
@@ -2054,16 +2091,16 @@ msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/humans/Outlaw_Footpad.cfg:25
+#: data/core/units/humans/Outlaw_Footpad.cfg:38
 #: data/core/units/humans/Outlaw_Ruffian.cfg:23
 #: data/core/units/humans/Outlaw_Thug.cfg:24
-#: data/core/units/trolls/Troll.cfg:26 data/core/units/trolls/Hero.cfg:26
+#: data/core/units/trolls/Hero.cfg:26 data/core/units/trolls/Troll.cfg:26
 msgid "club"
 msgstr ""
 
 #. [female]
 #. +> trunk 1.6
-#: data/core/units/humans/Outlaw_Footpad.cfg:163
+#: data/core/units/humans/Outlaw_Footpad.cfg:176
 msgctxt "female"
 msgid "Footpad"
 msgstr ""
@@ -2076,7 +2113,7 @@ msgstr ""
 
 #. [unit_type]: id=Fugitive, race=human
 #. +> trunk 1.6
-#: data/core/units/humans/Outlaw_Fugitive.cfg:20
+#: data/core/units/humans/Outlaw_Fugitive.cfg:21
 msgid "Veteran criminals become notorious for both their ruthlessness and ability to elude capture. They can be dangerous and rightly fearful in their element, but are no match for the sheer numbers that law-abiding soldiery can throw at them."
 msgstr ""
 
@@ -2089,7 +2126,7 @@ msgstr ""
 
 #. [female]
 #. +> trunk 1.6
-#: data/core/units/humans/Outlaw_Fugitive.cfg:109
+#: data/core/units/humans/Outlaw_Fugitive.cfg:122
 msgctxt "female"
 msgid "Fugitive"
 msgstr ""
@@ -2101,7 +2138,13 @@ msgid "Highwayman"
 msgstr ""
 
 #. [unit_type]: id=Highwayman, race=human
-#. +> trunk 1.6
+#. +> trunk
+#: data/core/units/humans/Outlaw_Highwayman.cfg:20
+msgid "Highwaymen have gained an infamous reputation for underhanded deeds of violence. Ready to hire themselves out to whoever will pay the most, they lead bands of lesser rogues against their employer's enemies, often attacking on lonely roads or in the dead of night. Their experience with such encounters makes them deadly foes in hand to hand combat."
+msgstr ""
+
+#. [unit_type]: id=Highwayman, race=human
+#. +> 1.6
 #: data/core/units/humans/Outlaw_Highwayman.cfg:20
 msgid "Armed with heavy mace, Highwaymen are the last people you want to meet on a deserted road late at night."
 msgstr ""
@@ -2298,9 +2341,8 @@ msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/merfolk/Siren.cfg:54
 #: data/core/units/merfolk/Enchantress.cfg:46
-#: data/core/units/merfolk/Initiate.cfg:49
+#: data/core/units/merfolk/Initiate.cfg:49 data/core/units/merfolk/Siren.cfg:54
 msgid "water spray"
 msgstr ""
 
@@ -2331,10 +2373,9 @@ msgstr ""
 #. [attack]: type=pierce
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/merfolk/Warrior.cfg:24
-#: data/core/units/merfolk/Triton.cfg:26 data/core/units/merfolk/Triton.cfg:34
 #: data/core/units/merfolk/Fighter.cfg:25
-#: data/core/units/merfolk/Hoplite.cfg:36
+#: data/core/units/merfolk/Triton.cfg:26 data/core/units/merfolk/Triton.cfg:34
+#: data/core/units/merfolk/Warrior.cfg:24
 msgid "trident"
 msgstr ""
 
@@ -2504,8 +2545,8 @@ msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/monsters/Tentacle.cfg:62
 #: data/core/units/monsters/Cuttle_Fish.cfg:35
+#: data/core/units/monsters/Tentacle.cfg:62
 msgid "tentacle"
 msgstr ""
 
@@ -2556,19 +2597,19 @@ msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/monsters/Yeti.cfg:36
 #: data/core/units/monsters/Giant_Mudcrawler.cfg:47
+#: data/core/units/monsters/Yeti.cfg:36
 #: data/core/units/trolls/Rocklobber.cfg:27
-#: data/core/units/trolls/Whelp.cfg:39
 #: data/core/units/trolls/Troll_Shaman.cfg:31
+#: data/core/units/trolls/Whelp.cfg:39
 #: data/core/units/undead/Skeleton_Archer.cfg:31
 msgid "fist"
 msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/monsters/Mudcrawler.cfg:47
 #: data/core/units/monsters/Giant_Mudcrawler.cfg:56
+#: data/core/units/monsters/Mudcrawler.cfg:46
 msgid "mud glob"
 msgstr ""
 
@@ -2604,7 +2645,7 @@ msgstr ""
 
 #. [unit_type]: id=Mudcrawler, race=monster
 #. +> trunk 1.6
-#: data/core/units/monsters/Mudcrawler.cfg:20
+#: data/core/units/monsters/Mudcrawler.cfg:19
 msgid "Mudcrawlers are magical constructs of soil and water. They attack by belching lumps of mud at their foes."
 msgstr ""
 
@@ -2789,7 +2830,13 @@ msgid "Orcish Archer"
 msgstr ""
 
 #. [unit_type]: id=Orcish Archer, race=orc
-#. +> trunk 1.6
+#. +> trunk
+#: data/core/units/orcs/Archer.cfg:19
+msgid "Amongst orcs, bows are often regarded as a cowardly weapon; but even orcs, especially youths and those of slight build, are pragmatic enough to use them in spite of this. Orcish archers are seldom well equipped, and have no semblance of training. Even as poorly handled as they are, their weapons can still be quite deadly, and the wielders thereof rarely march alone."
+msgstr ""
+
+#. [unit_type]: id=Orcish Archer, race=orc
+#. +> 1.6
 #: data/core/units/orcs/Archer.cfg:19
 msgid "Amongst orcs, bows are often regarded as a cowardly weapon; but even orcs, especially youths and and those of slight build, are pragmatic enough to use them in spite of this. Orcish archers are seldom well equipped, and have no semblance of training. Even as poorly handled as they are, their weapons can still be quite deadly, and the wielders thereof rarely march alone."
 msgstr ""
@@ -2862,8 +2909,8 @@ msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/orcs/Warrior.cfg:23 data/core/units/orcs/Sovereign.cfg:28
-#: data/core/units/orcs/Warlord.cfg:25 data/core/units/orcs/Ruler.cfg:27
+#: data/core/units/orcs/Ruler.cfg:27 data/core/units/orcs/Sovereign.cfg:28
+#: data/core/units/orcs/Warlord.cfg:25 data/core/units/orcs/Warrior.cfg:23
 msgid "greatsword"
 msgstr ""
 
@@ -2956,8 +3003,9 @@ msgstr ""
 
 #. [attack]: type=cold
 #. +> trunk 1.6
+#: data/core/units/saurians/Augur.cfg:87
+#: data/core/units/saurians/Oracle.cfg:87
 #: data/core/units/saurians/Soothsayer.cfg:87
-#: data/core/units/saurians/Augur.cfg:87 data/core/units/saurians/Oracle.cfg:87
 msgid "curse"
 msgstr ""
 
@@ -3144,11 +3192,11 @@ msgstr ""
 #. [attack]: type=impact
 #. [attack]: type=arcane
 #. +> trunk 1.6
+#: data/core/units/undead/Corpse_Soulless.cfg:26
 #: data/core/units/undead/Corpse_Walking.cfg:25
 #: data/core/units/undead/Necro_Ancient_Lich.cfg:48
-#: data/core/units/undead/Spirit_Ghost.cfg:132
 #: data/core/units/undead/Necro_Lich.cfg:48
-#: data/core/units/undead/Corpse_Soulless.cfg:26
+#: data/core/units/undead/Spirit_Ghost.cfg:132
 msgid "touch"
 msgstr ""
 
@@ -3185,11 +3233,11 @@ msgstr ""
 
 #. [attack]: type=arcane
 #. +> trunk 1.6
-#: data/core/units/undead/Necro_Dark_Adept.cfg:55
 #: data/core/units/undead/Necro_Ancient_Lich.cfg:72
+#: data/core/units/undead/Necro_Dark_Adept.cfg:55
+#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:112
 #: data/core/units/undead/Necro_Lich.cfg:72
 #: data/core/units/undead/Necromancer.cfg:63
-#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:112
 msgid "shadow wave"
 msgstr ""
 
@@ -3221,8 +3269,8 @@ msgstr ""
 #. [attack]: type=cold
 #. +> trunk 1.6
 #: data/core/units/undead/Necro_Dark_Adept.cfg:43
-#: data/core/units/undead/Necromancer.cfg:51
 #: data/core/units/undead/Necro_Dark_Sorcerer.cfg:100
+#: data/core/units/undead/Necromancer.cfg:51
 msgid "chill wave"
 msgstr ""
 
@@ -3431,9 +3479,9 @@ msgstr ""
 
 #. [attack]: type=cold
 #. +> trunk 1.6
-#: data/core/units/undead/Spirit_Wraith.cfg:32
 #: data/core/units/undead/Spirit_Ghost.cfg:144
 #: data/core/units/undead/Spirit_Spectre.cfg:57
+#: data/core/units/undead/Spirit_Wraith.cfg:32
 msgid "wail"
 msgstr ""
 
@@ -3481,8 +3529,8 @@ msgstr ""
 
 #. [attack]: type=arcane
 #. +> trunk 1.6
-#: data/core/units/undead/Spirit_Wraith.cfg:21
 #: data/core/units/undead/Spirit_Spectre.cfg:46
+#: data/core/units/undead/Spirit_Wraith.cfg:21
 msgid "baneblade"
 msgstr ""
 
@@ -3515,8 +3563,8 @@ msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/wose/Wose.cfg:30 data/core/units/wose/Ancient.cfg:92
-#: data/core/units/wose/Elder.cfg:91
+#: data/core/units/wose/Ancient.cfg:92 data/core/units/wose/Elder.cfg:91
+#: data/core/units/wose/Wose.cfg:30
 msgid "crush"
 msgstr ""
 

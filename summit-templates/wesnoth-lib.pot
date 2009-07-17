@@ -1,4 +1,4 @@
-# #-#-#-#-#  wesnoth-lib.cpp1.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  wesnoth-lib.cpp.pot (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Wesnoth development team
 # This file is distributed under the same license as the PACKAGE package.
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-06-28 18:07+0200\n"
+"POT-Creation-Date: 2009-07-14 23:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -615,7 +615,7 @@ msgstr ""
 #. +> trunk 1.6
 #: data/gui/default/window/addon_connect.cfg:32
 #: data/gui/default/window/mp_connect.cfg:31
-#: data/gui/default/window/mp_method_selection.cfg:151
+#: data/gui/default/window/mp_method_selection.cfg:149
 #: data/gui/default/window/mp_server_list.cfg:31
 msgid "Connect to Server"
 msgstr ""
@@ -656,14 +656,16 @@ msgstr ""
 msgid "Connect"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #. +> trunk 1.6
 #: data/gui/default/window/addon_connect.cfg:216
+#: data/gui/default/window/campaign_dialog.cfg:304
 #: data/gui/default/window/editor_generate_map.cfg:111
 #: data/gui/default/window/editor_new_map.cfg:111
 #: data/gui/default/window/editor_resize_map.cfg:275
 #: data/gui/default/window/editor_settings.cfg:240
+#: data/gui/default/window/game_load.cfg:410
 #: data/gui/default/window/game_save.cfg:134
 #: data/gui/default/window/language_selection.cfg:134
 #: data/gui/default/window/message.cfg:122
@@ -671,10 +673,34 @@ msgstr ""
 #: data/gui/default/window/mp_connect.cfg:190
 #: data/gui/default/window/mp_create_game.cfg:551
 #: data/gui/default/window/mp_login.cfg:262
-#: data/gui/default/window/mp_method_selection.cfg:223
+#: data/gui/default/window/mp_method_selection.cfg:219
 #: data/gui/default/window/mp_server_list.cfg:216 src/construct_dialog.cpp:133
 #: src/construct_dialog.cpp:136
 msgid "Cancel"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/campaign_dialog.cfg:34
+msgid "Play a campaign"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=ok
+#. +> trunk 1.6
+#: data/gui/default/window/campaign_dialog.cfg:290
+#: data/gui/default/window/editor_settings.cfg:230
+#: data/gui/default/window/game_load.cfg:395
+#: data/gui/default/window/game_load.cfg:396
+#: data/gui/default/window/game_save.cfg:119
+#: data/gui/default/window/game_save.cfg:120
+#: data/gui/default/window/mp_login.cfg:234
+#: data/gui/default/window/mp_method_selection.cfg:205
+#: data/gui/default/window/wml_message.cfg:442
+#: data/gui/default/window/wml_message.cfg:648 src/construct_dialog.cpp:125
+#: src/construct_dialog.cpp:132 src/gui/dialogs/message.cpp:188
+#: src/gui/dialogs/message.cpp:195
+msgid "OK"
 msgstr ""
 
 #. [label]
@@ -694,7 +720,6 @@ msgstr ""
 #. +> trunk 1.6
 #: data/gui/default/window/editor_generate_map.cfg:90
 #: data/gui/default/window/editor_generate_map.cfg:91
-#: data/gui/default/window/lobby_main.cfg:261
 msgid "Settings"
 msgstr ""
 
@@ -704,21 +729,21 @@ msgstr ""
 msgid "Generate"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. +> trunk 1.6
 #: data/gui/default/window/editor_new_map.cfg:27 src/hotkeys.cpp:109
 msgid "New Map"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. +> trunk 1.6
 #: data/gui/default/window/editor_new_map.cfg:46 src/mapgen_dialog.cpp:120
 msgid "Width:"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. +> trunk 1.6
 #: data/gui/default/window/editor_new_map.cfg:73 src/mapgen_dialog.cpp:121
@@ -732,7 +757,7 @@ msgstr ""
 msgid "Create new map"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. +> trunk 1.6
 #: data/gui/default/window/editor_resize_map.cfg:27 src/hotkeys.cpp:154
@@ -782,7 +807,7 @@ msgstr ""
 msgid "Resize map"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. +> trunk 1.6
 #: data/gui/default/window/editor_settings.cfg:38 src/hotkeys.cpp:107
@@ -800,6 +825,7 @@ msgstr ""
 #. +> trunk 1.6
 #: data/gui/default/window/editor_settings.cfg:75
 #: data/gui/default/window/editor_settings.cfg:76
+#: data/gui/default/window/lobby_main.cfg:553
 #: data/gui/default/window/title_screen.cfg:138
 msgid "Next"
 msgstr ""
@@ -840,22 +866,7 @@ msgstr ""
 msgid "Allow more than one map to be open at the same time (MDI)"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
-#. [button]: id=ok
-#. +> trunk 1.6
-#: data/gui/default/window/editor_settings.cfg:230
-#: data/gui/default/window/game_save.cfg:119
-#: data/gui/default/window/game_save.cfg:120
-#: data/gui/default/window/mp_login.cfg:234
-#: data/gui/default/window/mp_method_selection.cfg:209
-#: data/gui/default/window/wml_message.cfg:442
-#: data/gui/default/window/wml_message.cfg:648 src/construct_dialog.cpp:125
-#: src/construct_dialog.cpp:132 src/gui/dialogs/message.cpp:188
-#: src/gui/dialogs/message.cpp:195
-msgid "OK"
-msgstr ""
-
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=apply
 #. +> trunk 1.6
 #: data/gui/default/window/editor_settings.cfg:250
@@ -863,7 +874,92 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. [label]: id=lblTitle
+#. +> trunk
+#: data/gui/default/window/game_delete.cfg:32
+msgid "Delete Save"
+msgstr ""
+
+#. [label]: id=lblMessage
+#. +> trunk
+#: data/gui/default/window/game_delete.cfg:52
+msgid "Do you really want to delete this game?"
+msgstr ""
+
+#. [toggle_button]: id=dont_ask_again
+#. +> trunk
+#: data/gui/default/window/game_delete.cfg:70
+msgid "Don't ask me again!"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=ok
+#. +> trunk 1.6
+#: data/gui/default/window/game_delete.cfg:106
+#: data/gui/default/window/game_delete.cfg:107
+#: data/gui/default/window/game_save_message.cfg:139
+#: data/gui/default/window/game_save_message.cfg:140
+#: data/gui/default/window/game_save_oos.cfg:186
+#: data/gui/default/window/game_save_oos.cfg:187
+#: data/gui/default/window/game_save_overwrite.cfg:88
+#: data/gui/default/window/game_save_overwrite.cfg:89
+#: src/construct_dialog.cpp:128 src/gui/dialogs/message.cpp:202
+msgid "Yes"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=cancel
+#. +> trunk 1.6
+#: data/gui/default/window/game_delete.cfg:121
+#: data/gui/default/window/game_save_message.cfg:154
+#: data/gui/default/window/game_save_oos.cfg:201
+#: data/gui/default/window/game_save_overwrite.cfg:103
+#: src/construct_dialog.cpp:129 src/gui/dialogs/message.cpp:204
+msgid "No"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]: id=lblTitle
+#. +> trunk 1.6
+#: data/gui/default/window/game_load.cfg:32
+#: src/gui/dialogs/mp_create_game.cpp:78 src/hotkeys.cpp:65
+msgid "Load Game"
+msgstr ""
+
+#. [label]: id=lblChoose
+#. +> trunk
+#: data/gui/default/window/game_load.cfg:167
+msgid "Choose the game to load"
+msgstr ""
+
+#. [label]: id=lblFilter
+#. +> trunk
+#: data/gui/default/window/game_load.cfg:187
+msgid "Filter"
+msgstr ""
+
+#. [label]: id=name
+#. [label]: id=filename
+#. +> trunk 1.6
+#: data/gui/default/window/game_load.cfg:238
+#: data/gui/default/window/mp_server_list.cfg:86
+msgid "Name"
+msgstr ""
+
+#. [label]: id=date
+#. +> trunk
+#: data/gui/default/window/game_load.cfg:254
+msgid "Date"
+msgstr ""
+
+#. [button]: id=delete
+#. +> trunk
+#: data/gui/default/window/game_load.cfg:368
+#: data/gui/default/window/game_load.cfg:369
+msgid "Delete"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #. +> trunk 1.6
 #: data/gui/default/window/game_save.cfg:32
@@ -886,29 +982,6 @@ msgstr ""
 msgid "x"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
-#. [button]: id=ok
-#. +> trunk 1.6
-#: data/gui/default/window/game_save_message.cfg:139
-#: data/gui/default/window/game_save_message.cfg:140
-#: data/gui/default/window/game_save_oos.cfg:186
-#: data/gui/default/window/game_save_oos.cfg:187
-#: data/gui/default/window/game_save_overwrite.cfg:88
-#: data/gui/default/window/game_save_overwrite.cfg:89
-#: src/construct_dialog.cpp:128 src/gui/dialogs/message.cpp:202
-msgid "Yes"
-msgstr ""
-
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
-#. [button]: id=cancel
-#. +> trunk 1.6
-#: data/gui/default/window/game_save_message.cfg:154
-#: data/gui/default/window/game_save_oos.cfg:201
-#: data/gui/default/window/game_save_overwrite.cfg:103
-#: src/construct_dialog.cpp:129 src/gui/dialogs/message.cpp:204
-msgid "No"
-msgstr ""
-
 #. [label]: id=lblMessage
 #. +> trunk
 #: data/gui/default/window/game_save_oos.cfg:52
@@ -921,7 +994,7 @@ msgstr ""
 msgid "Ignore All"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=quit_game
 #. +> trunk 1.6
 #: data/gui/default/window/game_save_oos.cfg:159 src/hotkeys.cpp:84
@@ -963,63 +1036,99 @@ msgstr ""
 
 #. [label]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:27
+#: data/gui/default/window/lobby_main.cfg:355
 msgid "Multiplayer Lobby"
 msgstr ""
 
-#. [button]: id=join
-#. +> trunk
-#: data/gui/default/window/lobby_main.cfg:192
-msgid "Join"
-msgstr ""
-
-#. [button]: id=observe
-#. +> trunk
-#: data/gui/default/window/lobby_main.cfg:199
-msgid "Observe"
-msgstr ""
-
-#. [button]: id=send_message
-#. +> trunk
-#: data/gui/default/window/lobby_main.cfg:237
-msgid "Send"
-msgstr ""
-
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=quit
 #. [grid]
 #. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:252
+#: data/gui/default/window/lobby_main.cfg:364
 #: data/gui/default/window/title_screen.cfg:191 src/hotkeys.cpp:654
 #: src/hotkeys.cpp:944
 msgid "Quit"
 msgstr ""
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=show_preferences
+#. [grid]
+#. +> trunk 1.6
+#: data/gui/default/window/lobby_main.cfg:370
+#: data/gui/default/window/title_screen.cfg:189
+#: src/game_preferences_display.cpp:52 src/hotkeys.cpp:78
+msgid "Preferences"
+msgstr ""
+
 #. [button]: id=refresh
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:270
+#: data/gui/default/window/lobby_main.cfg:376
 msgid "Refresh"
+msgstr ""
+
+#. [button]: id=join_global
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:382
+msgid "Join"
+msgstr ""
+
+#. [button]: id=observe_global
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:388
+msgid "Observe"
 msgstr ""
 
 #. [label]
 #. [button]: id=create
 #. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:279
+#: data/gui/default/window/lobby_main.cfg:394
 #: data/gui/default/window/mp_create_game.cfg:33
 msgid "Create Game"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=show_help
 #. [button]: id=help
 #. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:288
+#: data/gui/default/window/lobby_main.cfg:400
 #: data/gui/default/window/title_screen.cfg:109 src/hotkeys.cpp:185
 msgid "Help"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:496
+msgid "Filter:"
+msgstr ""
+
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:507
+msgid "Friends"
+msgstr ""
+
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:513
+msgid "No ignored"
+msgstr ""
+
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:519
+msgid "Vacant slots"
+msgstr ""
+
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:525
+msgid "Invert filter"
+msgstr ""
+
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:547
+msgid "Send"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #. +> trunk 1.6
+#: data/gui/default/window/lobby_main.cfg:559
 #: data/gui/default/window/message.cfg:136 src/construct_dialog.cpp:139
 msgid "Close"
 msgstr ""
@@ -1060,7 +1169,7 @@ msgstr ""
 msgid "Friends/Ignored List"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=add_friend
 #. +> trunk 1.6
 #: data/gui/default/window/mp_cmd_wrapper.cfg:162
@@ -1068,7 +1177,7 @@ msgstr ""
 msgid "Add As Friend"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=add_ignore
 #. +> trunk 1.6
 #: data/gui/default/window/mp_cmd_wrapper.cfg:177
@@ -1076,7 +1185,7 @@ msgstr ""
 msgid "Add As Ignore"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=remove
 #. +> trunk 1.6
 #: data/gui/default/window/mp_cmd_wrapper.cfg:192
@@ -1250,7 +1359,7 @@ msgstr ""
 msgid "Password:"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=remember_password
 #. +> trunk 1.6
 #: data/gui/default/window/mp_login.cfg:190
@@ -1264,11 +1373,13 @@ msgstr ""
 msgid "Password Reminder"
 msgstr ""
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. [grid]
 #. +> trunk 1.6
 #: data/gui/default/window/mp_method_selection.cfg:31
 #: data/gui/default/window/title_screen.cfg:184
+#: src/gui/dialogs/game_load.cpp:235
 msgid "Multiplayer"
 msgstr ""
 
@@ -1284,50 +1395,44 @@ msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:140
+#: data/gui/default/window/mp_method_selection.cfg:139
 msgid "Join Official Server"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:141
+#: data/gui/default/window/mp_method_selection.cfg:140
 msgid "Log on to the official Wesnoth multiplayer server"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:152
+#: data/gui/default/window/mp_method_selection.cfg:150
 msgid "Join a different server"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:162
+#: data/gui/default/window/mp_method_selection.cfg:159
 msgid "Host Networked Game"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:163
+#: data/gui/default/window/mp_method_selection.cfg:160
 msgid "Host a game using dedicated server 'wesnothd'"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:173
+#: data/gui/default/window/mp_method_selection.cfg:169
 msgid "Local Game"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:174
+#: data/gui/default/window/mp_method_selection.cfg:170
 msgid "Play a multiplayer game with the AI or humans sharing the same machine"
-msgstr ""
-
-#. [label]: id=name
-#. +> trunk 1.6
-#: data/gui/default/window/mp_server_list.cfg:86
-msgid "Name"
 msgstr ""
 
 #. [label]: id=address
@@ -1348,9 +1453,11 @@ msgstr ""
 msgid "Previous"
 msgstr ""
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [grid]
 #. +> trunk 1.6
 #: data/gui/default/window/title_screen.cfg:182
+#: src/gui/dialogs/game_load.cpp:237
 msgid "Tutorial"
 msgstr ""
 
@@ -1376,14 +1483,6 @@ msgstr ""
 #. +> trunk 1.6
 #: data/gui/default/window/title_screen.cfg:187
 msgid "Editor"
-msgstr ""
-
-#. #-#-#-#-#  wesnoth-lib.wml.po (PACKAGE VERSION)  #-#-#-#-#
-#. [grid]
-#. +> trunk 1.6
-#: data/gui/default/window/title_screen.cfg:189
-#: src/game_preferences_display.cpp:52 src/hotkeys.cpp:78
-msgid "Preferences"
 msgstr ""
 
 #. [grid]
@@ -1413,7 +1512,7 @@ msgid "Deletion of the file failed."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/filechooser.cpp:205 src/gui/dialogs/game_save.cpp:118
+#: src/filechooser.cpp:205
 msgid "Name: "
 msgstr ""
 
@@ -1432,9 +1531,9 @@ msgstr ""
 msgid "player"
 msgstr ""
 
-#. +> trunk 1.6
-#: src/game_preferences_display.cpp:153 src/hotkeys.cpp:56
-msgid "Toggle Full Screen"
+#. +> trunk
+#: src/game_preferences_display.cpp:153
+msgid "Full Screen"
 msgstr ""
 
 #. +> trunk 1.6
@@ -1975,64 +2074,100 @@ msgid "Text doesn't start on canvas."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:308 src/gui/widgets/settings.cpp:513
+#: src/gui/auxiliary/window_builder.cpp:168 src/gui/widgets/settings.cpp:520
 msgid "No resolution defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:411
+#: src/gui/auxiliary/window_builder.cpp:273
 #: src/gui/auxiliary/window_builder/panel.cpp:35
-#: src/gui/auxiliary/window_builder/toggle_panel.cpp:41
-#: src/gui/widgets/settings.cpp:768 src/gui/widgets/settings.cpp:864
-#: src/gui/widgets/settings.cpp:953 src/gui/widgets/settings.cpp:995
+#: src/gui/auxiliary/window_builder/toggle_panel.cpp:38
+#: src/gui/widgets/settings.cpp:775 src/gui/widgets/settings.cpp:871
+#: src/gui/widgets/settings.cpp:960 src/gui/widgets/settings.cpp:1002
+#: src/gui/widgets/settings.cpp:1120
 msgid "No grid defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:518
+#: src/gui/auxiliary/window_builder.cpp:380
 msgid "A row must have a column."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:519
+#: src/gui/auxiliary/window_builder.cpp:381
 msgid "Number of columns differ."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:618
-#: src/gui/auxiliary/window_builder.cpp:869
+#: src/gui/auxiliary/window_builder/listbox.cpp:51
+#: src/gui/auxiliary/window_builder/scrollbar_panel.cpp:40
 msgid "No list defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:621
+#: src/gui/auxiliary/window_builder/listbox.cpp:55
 msgid "A 'list_definition' should contain one row."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:639
-#: src/gui/auxiliary/window_builder.cpp:723
+#: src/gui/auxiliary/window_builder/listbox.cpp:71
+#: src/gui/auxiliary/window_builder/multi_page.cpp:58
 msgid "'list_data' must have the same number of columns as the 'list_definition'."
 msgstr ""
 
 #. +> trunk
-#: src/gui/auxiliary/window_builder.cpp:700
+#: src/gui/auxiliary/window_builder/multi_page.cpp:37
 msgid "No page defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:942
+#: src/gui/auxiliary/window_builder/slider.cpp:66
 msgid "The number of value_labels and values don't match."
+msgstr ""
+
+#. +> trunk
+#: src/gui/auxiliary/window_builder/stacked_widget.cpp:35
+msgid "No stack defined."
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/game_load.cpp:210
+msgid "#(Invalid)"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/game_load.cpp:228
+msgid "Campaign: $campaign_name"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/game_load.cpp:245
+msgid "replay"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/game_load.cpp:247
+msgid "Turn"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/game_load.cpp:249
+msgid "Scenario Start"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/game_load.cpp:252
+msgid "Difficulty: "
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/game_load.cpp:254
+msgid "Version: "
 msgstr ""
 
 #. +> trunk 1.6
 #: src/gui/dialogs/message.cpp:216
 msgid "Error"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/gui/dialogs/mp_create_game.cpp:78 src/hotkeys.cpp:65
-msgid "Load Game"
 msgstr ""
 
 #. +> trunk 1.6
@@ -2051,27 +2186,27 @@ msgid "Mandatory widget '$id' hasn't been defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:139
+#: src/gui/widgets/settings.cpp:140
 msgid "No default gui defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:300
+#: src/gui/widgets/settings.cpp:307
 msgid "Window not defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:397
+#: src/gui/widgets/settings.cpp:404
 msgid "Widget definition '$definition' doesn't contain the definition for '$id'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:539
+#: src/gui/widgets/settings.cpp:546
 msgid "No state or draw section defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/window.cpp:682
+#: src/gui/widgets/window.cpp:707 src/tests/gui/test_gui2.cpp:232
 msgid "Failed to show a dialog, which doesn't fit on the screen."
 msgstr ""
 
@@ -2123,6 +2258,11 @@ msgstr ""
 #. +> trunk 1.6
 #: src/hotkeys.cpp:55
 msgid "Default Zoom"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/hotkeys.cpp:56
+msgid "Toggle Full Screen"
 msgstr ""
 
 #. +> trunk 1.6
@@ -2697,7 +2837,7 @@ msgid "Island"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/marked-up_text.cpp:397
+#: src/marked-up_text.cpp:401
 msgid "The maximum text width is less than 1."
 msgstr ""
 

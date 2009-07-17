@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-06-01 23:54+0200\n"
+"POT-Creation-Date: 2009-07-14 23:06+0200\n"
 "PO-Revision-Date: 2009-06-13 21:24+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -66,12 +66,12 @@ msgstr "Подучавање Весноту"
 #. [command]
 #. [option]: speaker=narrator
 #. +> trunk 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:295
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:296
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:82
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:83
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:158
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:160
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:295
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:296
 msgid "Konrad"
 msgstr "Конрад"
 
@@ -119,10 +119,10 @@ msgstr "У чије би чизме да ускочиш?"
 #. [command]
 #. [option]: speaker=narrator
 #. +> trunk 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:365
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:165
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:167
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:179
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:365
 msgid "Li'sar"
 msgstr "Лиза́ра"
 
@@ -412,8 +412,8 @@ msgstr "Ајао! Видара, видара! Ударпоени ми одоше
 #. [event]
 #. [then]
 #. +> trunk 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:448
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:479
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:448
 msgid "Village"
 msgstr "Село"
 
@@ -475,8 +475,8 @@ msgstr "Позваћу вилењаке добре!"
 #. [event]
 #. [then]
 #. +> trunk 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:965
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:567
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:965
 msgid "Keep"
 msgstr "замак"
 
@@ -699,8 +699,16 @@ msgstr ""
 "Када изабереш јединицу, видећеш проценте за различита поља терена. Виши проценат значи да ће се јединица лакше бранити. На пример, одбрана је јака у замковима и селима, а лоша усред реке. Међутим, напад ових лутака је магичан, тако да имају 70% изгледа да те ударе где год да стојиш."
 
 #. [message]: speaker=second_unit
-#. +> trunk 1.6
+#. +> trunk
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:996
+#, fuzzy
+#| msgid "The quintain is dead, sirs, and I have gained more experience!"
+msgid "The quintain is dead, and I have gained more experience!"
+msgstr "Дрвенко је уништен, господо, а ја сакупих искуства!"
+
+#. [message]: speaker=second_unit
+#. +> 1.6
+#: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:1010
 msgid "The quintain is dead, sirs, and I have gained more experience!"
 msgstr "Дрвенко је уништен, господо, а ја сакупих искуства!"
 
@@ -778,10 +786,10 @@ msgstr ""
 #. [unit]: id=Galdrad, type=Elvish Captain
 #. [message]: speaker=narrator
 #. +> trunk 1.6
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:388
 #: data/campaigns/tutorial/scenarios/2_Speaking.cfg:39
 #: data/campaigns/tutorial/scenarios/2_Speaking.cfg:49
 #: data/campaigns/tutorial/scenarios/2_Speaking.cfg:62
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:388
 msgid "Galdrad"
 msgstr "Галдрад"
 
@@ -931,15 +939,15 @@ msgstr "Ово није игра, Конраде! "
 #. [event]
 #. +> trunk 1.6
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:418
-msgid "This is no game, Li'sar! "
-msgstr "Ово није игра, Лиза́ра! "
+#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:419
+msgid "Orcs have encamped across the river. This is elven country; they are fools to enter here. We Elves are fast and hard to hit in forests. You must defeat their leader so they never threaten us again. I will advise you."
+msgstr "Оркови су се улогорили преко реке. Ово је вилењачка земља, будале су ако мисле да продру овамо. Ми вилењаци смо брзи и тешко нас је поразити у шумама. Мораш победити њиховог вођа, да нам више никада не запрете. Ја ћу те саветовати."
 
 #. [event]
 #. +> trunk 1.6
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:418
-#: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:419
-msgid "Orcs have encamped across the river. This is elven country; they are fools to enter here. We Elves are fast and hard to hit in forests. You must defeat their leader so they never threaten us again. I will advise you."
-msgstr "Оркови су се улогорили преко реке. Ово је вилењачка земља, будале су ако мисле да продру овамо. Ми вилењаци смо брзи и тешко нас је поразити у шумама. Мораш победити њиховог вођа, да нам више никада не запрете. Ја ћу те саветовати."
+msgid "This is no game, Li'sar! "
+msgstr "Ово није игра, Лиза́ра! "
 
 #. [event]
 #. +> trunk 1.6
@@ -1642,8 +1650,8 @@ msgstr "борац"
 #. [unit_type]: id=Fighteress, race=human
 #. [unit_type]: id=Fighter, race=human
 #. +> trunk 1.6
-#: data/campaigns/tutorial/units/Fighteress.cfg:17
 #: data/campaigns/tutorial/units/Fighter.cfg:17
+#: data/campaigns/tutorial/units/Fighteress.cfg:17
 msgid "Young and brash, Fighters are skilled with swords and are vulnerable to attack from enemies. However, they have the potential to become great warriors one day."
 msgstr "Млади и дрски, борци су умешни с мачем, али рањиви при налету непријатеља. Ипак, имају могућности да једнога дана постану велики ратници."
 
