@@ -179,13 +179,13 @@ def is_latin_branch (bid):
 def is_not_latin_branch (bid):
     return not is_latin_branch(bid)
 
-def is_docbook_cat (cname):
+def is_docbook_cat (cname, csubdir):
     return "manual" in cname
 
-def is_manpage_cat (cname):
+def is_manpage_cat (cname, csubdir):
     return "manpage" in cname
 
-def is_wesnoth_cat (cname):
+def is_wesnoth_cat (cname, csubdir):
     return not is_docbook_cat(cname) and not is_manpage_cat(cname)
 
 # ----------------------------------------
