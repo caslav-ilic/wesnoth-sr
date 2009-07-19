@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-07-14 23:06+0200\n"
+"POT-Creation-Date: 2009-07-19 13:46+0200\n"
 "PO-Revision-Date: 2009-06-30 11:01+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -45,8 +45,8 @@ msgstr "Крво-шишмиши тако су названи услед свој
 #: data/core/units/bats/Bat_Vampire.cfg:176
 #: data/core/units/goblins/Direwolf_Rider.cfg:33
 #: data/core/units/goblins/Knight.cfg:35
-#: data/core/units/goblins/Pillager.cfg:34
-#: data/core/units/goblins/Wolf_Rider.cfg:51
+#: data/core/units/goblins/Pillager.cfg:47
+#: data/core/units/goblins/Wolf_Rider.cfg:64
 #: data/core/units/monsters/Cave_Spider.cfg:34
 #: data/core/units/monsters/Sea_Serpent.cfg:27
 #: data/core/units/monsters/Water_Serpent.cfg:43
@@ -210,7 +210,7 @@ msgstr "Змагови који загосподаре употребом мач
 #. [attack]: type=arcane
 #. +> trunk 1.6
 #: data/core/units/drakes/Blademaster.cfg:69
-#: data/core/units/drakes/Clasher.cfg:89
+#: data/core/units/drakes/Clasher.cfg:38
 #: data/core/units/drakes/Enforcer.cfg:78
 #: data/core/units/drakes/Flameheart.cfg:79
 #: data/core/units/drakes/Flare.cfg:83 data/core/units/drakes/Gladiator.cfg:78
@@ -225,7 +225,7 @@ msgstr "Змагови који загосподаре употребом мач
 #: data/core/units/elves/Sharpshooter.cfg:63
 #: data/core/units/humans/Horse_Knight.cfg:35
 #: data/core/units/humans/Horse_Paladin.cfg:40
-#: data/core/units/humans/Loyalist_Cavalryman.cfg:52
+#: data/core/units/humans/Loyalist_Cavalryman.cfg:64
 #: data/core/units/humans/Loyalist_Dragoon.cfg:37
 #: data/core/units/humans/Loyalist_Lieutenant.cfg:46
 #: data/core/units/humans/Loyalist_Longbowman.cfg:39
@@ -258,18 +258,6 @@ msgid "Drake Clasher"
 msgstr "змаго-сударач"
 
 #. [unit_type]: id=Drake Clasher, race=drake
-#. +> trunk
-#: data/core/units/drakes/Clasher.cfg:21
-msgid ""
-"The Clashers are members of a unique caste among the Drakes. Their thick armor, while compensating for the Drakes' natural weakness against spears and arrows, is so heavy and restricting that they are not able to fly or muster enough breath to use their inner fire. They have embraced this handicap, completely encasing their wings to emphasize that they do not need flight to triumph in battle.\n"
-"\n"
-"This is also the only caste that is allowed to break taboo and fight with spears in addition to the drake's traditional metal claws, which makes them particularly good at "
-msgstr ""
-"Сударачи су припадници јединствене касте у змагова. Њихови дебели оклопи, иако надомештају урођену слабост змагова на копља и стреле, толико су тешки и ограничавајући да сударачи не могу летети нити доћи до довољно даха да упрегну своју унутрашњу ватру. Они су, пак, пригрлили овај недостатак, потпуно опточавајући своја крила, како би истакли да им летење није неопходно да би превладали у боју.\n"
-"\n"
-"Ово је такође једина каста којој је дозвољено да прекрши табу борећи се копљима, у додатак змашким обичајним металним канџама. То их чини посебно добрим у „разрешавању“ територијалних размирица са осталим змаговима и наметању закона̂ свога племена."
-
-#. [unit_type]: id=Drake Clasher, race=drake
 #. +> 1.6
 #: data/core/units/drakes/Clasher.cfg:21
 msgid ""
@@ -281,9 +269,26 @@ msgstr ""
 "\n"
 "Они су, у ствари, Судије у Змашкој хијерархији, и иако им је наоружање углавном парадно, ни случајно није неефикасно. У својим сусретима са нижим расама, открили су да је њихова природна величина и снага сама по себи моћно оружје, а када се још упаре са наоружањем које носи њихова каста, ови ратници бивају лишени неких типичних слабости своје расе, каква је рањивост на копља и стреле."
 
+#. [unit_type]: id=Drake Clasher, race=drake
+#. +> trunk
+#: data/core/units/drakes/Clasher.cfg:22
+#, fuzzy
+#| msgid ""
+#| "The Clashers are members of a unique caste among the Drakes. Their thick armor, while compensating for the Drakes' natural weakness against spears and arrows, is so heavy and restricting that they are not able to fly or muster enough breath to use their inner fire. They have embraced this handicap, completely encasing their wings to emphasize that they do not need flight to triumph in battle.\n"
+#| "\n"
+#| "This is also the only caste that is allowed to break taboo and fight with spears in addition to the drake's traditional metal claws, which makes them particularly good at "
+msgid ""
+"The Clashers are members of a unique caste among the Drakes. Their thick armor, while compensating for the Drakes' natural weakness against spears and arrows, is so heavy and restricting that they are not able to fly or muster enough breath to use their inner fire. They have embraced this handicap, completely encasing their wings to emphasize that they do not need flight to triumph in battle.\n"
+"\n"
+"This is also the only caste that is allowed to break taboo and fight with spears in addition to the drake's traditional metal claws, which makes them particularly good at \"resolving\" territorial disputes with other drakes and enforcing the laws of their tribe."
+msgstr ""
+"Сударачи су припадници јединствене касте у змагова. Њихови дебели оклопи, иако надомештају урођену слабост змагова на копља и стреле, толико су тешки и ограничавајући да сударачи не могу летети нити доћи до довољно даха да упрегну своју унутрашњу ватру. Они су, пак, пригрлили овај недостатак, потпуно опточавајући своја крила, како би истакли да им летење није неопходно да би превладали у боју.\n"
+"\n"
+"Ово је такође једина каста којој је дозвољено да прекрши табу борећи се копљима, у додатак змашким обичајним металним канџама. То их чини посебно добрим у „разрешавању“ територијалних размирица са осталим змаговима и наметању закона̂ свога племена."
+
 #. [attack]: type=pierce
 #. +> trunk 1.6
-#: data/core/units/drakes/Clasher.cfg:98
+#: data/core/units/drakes/Clasher.cfg:47
 #: data/core/units/drakes/Enforcer.cfg:96
 #: data/core/units/drakes/Gladiator.cfg:87
 #: data/core/units/dwarves/Guardsman.cfg:43
@@ -596,13 +601,13 @@ msgstr "патуљ-истраживач"
 
 #. [unit_type]: id=Dwarvish Explorer, race=dwarf
 #. +> trunk
-#: data/core/units/dwarves/Explorer.cfg:26
+#: data/core/units/dwarves/Explorer.cfg:27
 msgid "Dwarven Explorers often travel alone through unknown lands, slaying enemies and scouting out new deposits of ore and other precious minerals. They are strong enough to wear full battle armor, giving them added protection against physical attacks. They are powerful fighters, second only to the Dwarven lords, and their amazing maneuverability makes them dangerous indeed."
 msgstr "Патуљачки истраживачи обично путују сами кроз незнане земље, истребљујући непријатеље и трагајући за новим налазиштима руде и вредних минерала. Довољно су јаки да понесу пуни бојни оклоп, ради допунске заштите против физичких напада. Моћни су борци, надмашени једино патуљ-господарима, а запањујућа покретљивост чини их изванредно опасним."
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/dwarves/Explorer.cfg:32 data/core/units/dwarves/Lord.cfg:42
+#: data/core/units/dwarves/Explorer.cfg:45 data/core/units/dwarves/Lord.cfg:42
 #: data/core/units/dwarves/Steelclad.cfg:42
 #: data/core/units/undead/Skele_Death_Knight.cfg:59
 msgid "battle axe"
@@ -610,7 +615,7 @@ msgstr "бојна секира"
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/dwarves/Explorer.cfg:41
+#: data/core/units/dwarves/Explorer.cfg:54
 #: data/core/units/dwarves/Fighter.cfg:47
 #: data/core/units/dwarves/Pathfinder.cfg:29
 #: data/core/units/dwarves/Pathfinder.cfg:37
@@ -618,7 +623,7 @@ msgstr "бојна секира"
 #: data/core/units/undead/Skele_Deathblade.cfg:149
 #: data/core/units/undead/Skele_Draug.cfg:30
 #: data/core/units/undead/Skele_Revenant.cfg:30
-#: data/core/units/undead/Skeleton.cfg:106
+#: data/core/units/undead/Skeleton.cfg:119
 msgid "axe"
 msgstr "секира"
 
@@ -1318,19 +1323,19 @@ msgstr "гобли-пљачкаш"
 
 #. [unit_type]: id=Goblin Pillager, race=wolf
 #. +> trunk 1.6
-#: data/core/units/goblins/Pillager.cfg:19
+#: data/core/units/goblins/Pillager.cfg:20
 msgid "Some Goblins train their wolves to overcome their fear of fire. In raids, these goblins take a supporting role; they will torch the homes and crops of their foes, and also carry nets to wreak havoc against those attempting to rally for defense or reprisal."
 msgstr "Неки гоблини вежбају своје вукове да превазиђу урођени страх од ватре. У походима, ови гоблини имају улогу подршке; палиће домове и летину својих противника, и носити мреже за уношење пометње међу оне који покушају да збију редове за одбрану или одмазду."
 
 #. [attack]: type=fire
 #. +> trunk 1.6
-#: data/core/units/goblins/Pillager.cfg:43
+#: data/core/units/goblins/Pillager.cfg:56
 msgid "torch"
 msgstr "бакља"
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/goblins/Pillager.cfg:52
+#: data/core/units/goblins/Pillager.cfg:65
 #: data/core/units/merfolk/Entangler.cfg:33
 #: data/core/units/merfolk/Netcaster.cfg:32
 msgid "net"
@@ -1374,7 +1379,7 @@ msgstr "вукоседлаш"
 
 #. [unit_type]: id=Wolf Rider, race=wolf
 #. +> trunk 1.6
-#: data/core/units/goblins/Wolf_Rider.cfg:36
+#: data/core/units/goblins/Wolf_Rider.cfg:37
 msgid ""
 "No one is quite sure how the practice of taming and riding wolves came into being, but the advantages of it for a goblin are obvious. Goblins are smaller and much weaker than their orcish kin, and are often tasked to the most dangerous and unwanted parts of a fight. Any who can manage to win themselves a mount have a much safer, and daresay, more amusing role in combat.\n"
 "\n"
@@ -3587,7 +3592,7 @@ msgstr "скелет"
 
 #. [unit_type]: id=Skeleton, race=undead
 #. +> trunk 1.6
-#: data/core/units/undead/Skeleton.cfg:18
+#: data/core/units/undead/Skeleton.cfg:19
 msgid "Skeletons are warriors who have been slain in battle and brought back by dark magics. Nearly mindless, and unwavering in their purpose, they fear neither pain, nor death, and their mere presence will often frighten away any who would challenge their master."
 msgstr "Скелети су ратници посечени у бици, који су у неживот враћени заслугом мрачних магија. Скоро бесловесни, непоколебљиви у својој намени, не боје се ни бола ни смрти. Њихово само присуство често ће устрашити и отерати оне који би да се супротставе њиховом господару."
 
