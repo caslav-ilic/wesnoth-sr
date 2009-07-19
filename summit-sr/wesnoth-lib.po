@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-07-19 13:31+0200\n"
-"PO-Revision-Date: 2009-06-30 11:01+0200\n"
+"PO-Revision-Date: 2009-07-19 14:24+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -928,7 +928,7 @@ msgstr "Не"
 #: data/gui/default/window/game_load.cfg:32
 #: src/gui/dialogs/mp_create_game.cpp:78 src/hotkeys.cpp:65
 msgid "Load Game"
-msgstr "Учитај игру"
+msgstr "Учитавање игре"
 
 #. [label]: id=lblChoose
 #. +> trunk
@@ -966,18 +966,14 @@ msgstr "Обриши"
 #. [toggle_button]: id=show_replay
 #. +> trunk
 #: data/gui/default/window/game_load.cfg:391
-#, fuzzy
-#| msgid "replay"
 msgid "Show replay"
-msgstr "снимак"
+msgstr "Прикажи снимак"
 
 #. [toggle_button]: id=cancel_orders
 #. +> trunk
 #: data/gui/default/window/game_load.cfg:403
-#, fuzzy
-#| msgid "Cancel"
 msgid "Cancel orders"
-msgstr "Одустани"
+msgstr "Обустави наређења"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
@@ -2117,7 +2113,7 @@ msgstr "Текст не стаје на платно."
 #. +> trunk
 #: src/gui/auxiliary/window_builder.cpp:138
 msgid "Linked '$id' group has multiple definitions."
-msgstr ""
+msgstr "Повезана група ‘$id’ има вишеструке дефиниције."
 
 #. +> trunk 1.6
 #: src/gui/auxiliary/window_builder.cpp:186 src/gui/widgets/settings.cpp:520
@@ -2137,7 +2133,7 @@ msgstr "Мрежа није дефинисана."
 #. +> trunk
 #: src/gui/auxiliary/window_builder.cpp:325
 msgid "Linked '$id' group needs a 'fixed_width' or 'fixed_height' key."
-msgstr ""
+msgstr "Повезана група ‘$id’ тражи кључ ‘fixed_width’ или ‘fixed_height’."
 
 #. +> trunk 1.6
 #: src/gui/auxiliary/window_builder.cpp:424
