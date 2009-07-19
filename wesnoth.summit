@@ -119,42 +119,6 @@ def hook_remove_obsolete (cat):
             cat.remove_on_sync(msg)
 
 # ----------------------------------------
-# Check congruence of interpolations.
-
-_interp_rx = re.compile(r"\$\w+(?:\.\w+)*") # intentionally no re.U
-
-def collect_interps (text):
-
-    return set(_interp_rx.findall(text))
-
-
-def hook_check_interps (msg, cat):
-
-    def match_for_index (index, interps_orig, can_miss=0):
-        interps_trans = collect_interps(msg.msgstr[index])
-        if interps_orig != interps_trans:
-            interps_missing = interps_orig.difference(interps_trans)
-            interps_unknown = interps_trans.difference(interps_orig)
-            if interps_missing and len(interps_missing) > can_miss:
-                vfmt = " ".join(interps_missing)
-                warning_on_msg("missing interpolations in msgstr[%d]: %s"
-                               % (index, vfmt), msg, cat)
-            elif interps_unknown:
-                vfmt = " ".join(interps_unknown)
-                warning_on_msg("unknown interpolations in msgstr[%d]: %s"
-                               % (index, vfmt), msg, cat)
-
-    if msg.msgid_plural is None:
-        interps_orig = collect_interps(msg.msgid)
-        match_for_index(0, interps_orig)
-    else:
-        interps_orig = collect_interps(msg.msgid_plural)
-        indices_single = cat.plural_indices_single()
-        for i in range(len(msg.msgstr)):
-            match_for_index(i, interps_orig, i in indices_single and 1 or 0)
-
-
-# ----------------------------------------
 # Convert from and to embedded contexts.
 
 def hook_embedded_to_msgctxt (msg, cat):
@@ -220,8 +184,6 @@ S.hook_on_scatter_msgstr.extend([
 S.hook_on_scatter_msg.extend([
     # Convert from proper to embedded context.
     (hook_msgctxt_to_embedded, r"", is_wesnoth_cat),
-    # Check congruence of interpolations.
-    (hook_check_interps, r"", is_wesnoth_cat,),
 ])
 
 # Additional hooks on scattered catalogs.
