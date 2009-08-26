@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-08-10 17:58+0300\n"
-"PO-Revision-Date: 2009-05-20 10:52+0200\n"
+"PO-Revision-Date: 2009-08-26 17:28+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "MIME-Version: 1.0\n"
@@ -265,7 +265,7 @@ msgstr "B<-l,\\ --load>I<\\ датотека>"
 #. +> trunk 1.6
 #: ../../doc/man/wesnoth.6:108
 msgid "loads the savegame I<file> from the standard save game directory.  If the B<-e> or B<--editor> option is used as well, starts the editor with the map from I<file> open. If it is a directory, the editor will start with a load map dialog opened there."
-msgstr "учитава сачувану игру I<датотека> из стандардног директоријума сачуваних игара. Ако је задата и опција B<-e> или B<--editor>, покреће се уређивач са отвореном мапом из те датотеке. Ако је I<датотека> у ствари директоријум, уређивач ће на њему отворити дијалог за учитавање мапе."
+msgstr "учитава позицију I<датотека> из стандардног директоријума сачуваних позиција. Ако је задата и опција B<-e> или B<--editor>, покреће се уређивач са отвореном мапом из те датотеке. Ако је I<датотека> у ствари директоријум, уређивач ће на њему отворити дијалог за учитавање мапе."
 
 #. type: TP
 #. +> trunk 1.6
@@ -316,16 +316,14 @@ msgstr "B<-m, --multiplayer>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:132
-#, fuzzy
-#| msgid "runs a multiplayer game. There are additional options that can be used together with B<--multiplayer> as explained below."
 msgid "runs a multiplayer game. There are additional options that can be used together with B<--multiplayer> as explained below. Only these additional options can follow B<--multiplayer>."
-msgstr "покреће вишеиграчку игру. Уз ову опцију могу бити употребљене још неке, наведене испод."
+msgstr "покреће вишеиграчку партију. Уз ову опцију могу бити употребљене још неке, наведене испод (само оне могу пратити B<--multiplayer>)."
 
 #. type: Plain text
 #. +> 1.6
 #: ../../doc/man/wesnoth.6:131
 msgid "runs a multiplayer game. There are additional options that can be used together with B<--multiplayer> as explained below."
-msgstr "покреће вишеиграчку игру. Уз ову опцију могу бити употребљене још неке, наведене испод."
+msgstr "покреће вишеиграчку партију. Уз ову опцију могу бити употребљене још неке, наведене испод."
 
 #. type: TP
 #. +> trunk 1.6
@@ -494,7 +492,7 @@ msgstr "B<--with-replay>"
 #. +> trunk 1.6
 #: ../../doc/man/wesnoth.6:176
 msgid "replays the game loaded with the B<--load> option."
-msgstr "врти снимак игре учитане опцијом B<--load>."
+msgstr "пушта снимак партије учитане опцијом B<--load>."
 
 #. type: SH
 #. +> trunk 1.6
@@ -680,10 +678,8 @@ msgstr "АУТОРСКА ПРАВА"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:252 ../../doc/man/wesnothd.6:272
-#, fuzzy
-#| msgid "Copyright \\(co 2003-2007 David White E<lt>davidnwhite@verizon.netE<gt>"
 msgid "Copyright \\(co 2003-2009 David White E<lt>davidnwhite@verizon.netE<gt>"
-msgstr "Ауторска права \\(co 2003-2007 Дејвид Вајт (David White) E<lt>davidnwhite@verizon.netE<gt>."
+msgstr "Ауторска права \\(co 2003-2009 Дејвид Вајт (David White) E<lt>davidnwhite@verizon.netE<gt>."
 
 #. type: Plain text
 #. +> 1.6
@@ -753,7 +749,7 @@ msgstr "B<wesnothd> B<-V>"
 #. +> trunk 1.6
 #: ../../doc/man/wesnothd.6:44
 msgid "Manages Battle for Wesnoth multiplayer games. See http://www.wesnoth.org/wiki/ServerAdministration on what commands the server accepts via the wesnoth client (/query ...) or the fifo."
-msgstr "Управља вишеиграчким сесијама „Боја за Веснот“. Погледајте http://www.wesnoth.org/wiki/ServerAdministration за наредбе које сервер прихвата преко клијента (/query ...) или фифоа."
+msgstr "Управља вишеиграчким партијама „Боја за Веснот“. Погледајте http://www.wesnoth.org/wiki/ServerAdministration за наредбе које сервер прихвата преко клијента (/query ...) или фифоа."
 
 #. type: TP
 #. +> trunk 1.6
@@ -908,13 +904,13 @@ msgstr "Глобални кључеви:"
 #: ../../doc/man/wesnothd.6:110
 #, no-wrap
 msgid "B<allow_remote_shutdown>"
-msgstr ""
+msgstr "B<allow_remote_shutdown>"
 
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:114
 msgid "If set to `no' (default), shut_down and restart requests are ignored unless the come from the fifo.  Set it to `yes' to allow remote shutdown via a /query by an administrator."
-msgstr ""
+msgstr "ако се зада ‘no’ (подразумевано), захтеви за гашење и поновно покретање се игноришу осим ако стижу из фифоа. Задајте ‘yes’ да дозволите удаљено гашење на /query администратора."
 
 #. type: TP
 #. +> trunk 1.6
@@ -934,13 +930,13 @@ msgstr "Пуна или релативна путања до (гзиповане
 #: ../../doc/man/wesnothd.6:118
 #, no-wrap
 msgid "B<compress_stored_rooms>"
-msgstr ""
+msgstr "B<compress_stored_rooms>"
 
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:121
 msgid "Determines whether the rooms file should be read and written to in compressed form. Defaults to `yes'."
-msgstr ""
+msgstr "одређује да ли фајл соба треба читати и писати у компресованом облику. Подразумевано ‘yes’."
 
 #. type: TP
 #. +> trunk 1.6
@@ -979,7 +975,7 @@ msgstr "B<fifo_path>"
 #. +> trunk 1.6
 #: ../../doc/man/wesnothd.6:135
 msgid "The path to the fifo you can echo server commands into (same as /query ... from wesnoth).  If not specified defaults to the compile-time specified path (default: /var/run/socket/wesnothd/socket)."
-msgstr "Путања до фифоа из којег сервер може да чита наредбе (исте као /query ... из игре). Ако није задато, спада на подразумевану уграђену (/var/run/socket/wesnothd/socket)."
+msgstr "путања до фифоа из којег сервер може да чита наредбе (исте као /query ... из игре). Ако није задато, спада на подразумевану уграђену (/var/run/socket/wesnothd/socket)."
 
 #. type: TP
 #. +> trunk 1.6
@@ -1025,13 +1021,13 @@ msgstr "порука дана"
 #: ../../doc/man/wesnothd.6:144
 #, no-wrap
 msgid "B<new_room_policy>"
-msgstr ""
+msgstr "B<new_room_policy>"
 
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:147
 msgid "Determines who can create new rooms on the server. Available values are `everyone', `registered', `admin' and `nobody', and give the permission respectively to everyone, registered users, admin users or disables new room creation. Default value is `everyone'."
-msgstr ""
+msgstr "одређује ко може да ствара нове собе на серверу. Могуће вредности су ‘everyone’, ‘registered’, ‘admin’ и ‘nobody’, дајући дозволу, редом, свима, регистрованим корисницима, администраторима и никоме. Подразумевана вредност је ‘everyone’."
 
 #. type: TP
 #. +> trunk 1.6
@@ -1057,7 +1053,7 @@ msgstr "B<replay_save_path>"
 #. +> trunk 1.6
 #: ../../doc/man/wesnothd.6:153
 msgid "The directory where the server stores game replays. (Don't forget the trailing /!) Defaults to `' which means the directory wesnothd was started in."
-msgstr "Директоријум где сервер смешта снимке игара (не заборавите пратеће /!). Подразумевано је ‘’ (празно), што значи директоријум у којем је wesnothd покренут."
+msgstr "Директоријум где сервер смешта снимке партија (не заборавите пратеће /!). Подразумевано је ‘’ (празно), што значи директоријум у којем је wesnothd покренут."
 
 #. type: TP
 #. +> trunk 1.6
@@ -1075,16 +1071,15 @@ msgstr "Наредба којом сервер покреће нови серв�
 #. type: TP
 #. +> trunk
 #: ../../doc/man/wesnothd.6:156
-#, fuzzy, no-wrap
-#| msgid "B<ban_save_file>"
+#, no-wrap
 msgid "B<room_save_file>"
-msgstr "B<ban_save_file>"
+msgstr "B<room_save_file>"
 
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:159
 msgid "Path to a file where the room info should be stored. This file is read on server startup and written to later. If empty or not set, rooms are not loaded and not saved."
-msgstr ""
+msgstr "путања до фајла где се складиште подаци собе. Овај фајл чита сервер при покретању, и касније уписује. Ако је празно или није задато, собе се не учитавају нити уписују."
 
 #. type: TP
 #. +> trunk 1.6
@@ -1097,7 +1092,7 @@ msgstr "B<save_replays>"
 #. +> trunk 1.6
 #: ../../doc/man/wesnothd.6:162
 msgid "Defines whether the server will automatically save replays of games. (default: B<false>)"
-msgstr "Одређује да ли сервер аутоматски уписује снимке игара (подразумевно: B<false>)."
+msgstr "Одређује да ли сервер аутоматски уписује снимке партија (подразумевно: B<false>)."
 
 #. type: TP
 #. +> trunk 1.6
@@ -1400,6 +1395,3 @@ msgstr "Написао Дејвид Вајт (David White) E<lt>davidnwhite@veri
 #: ../../doc/man/wesnothd.6:279
 msgid "B<wesnoth>(6), B<wesnoth_editor>(6)"
 msgstr "B<wesnoth>(6), B<wesnoth_editor>(6)"
-
-#~ msgid "B<-e, --editor \\ file>"
-#~ msgstr "B<-e, --editor \\ датотека>"
