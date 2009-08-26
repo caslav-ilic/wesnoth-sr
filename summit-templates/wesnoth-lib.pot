@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-07-19 13:31+0200\n"
+"POT-Creation-Date: 2009-08-26 14:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. [toggle_button]: id=shroud
 #. [terrain_type]: id=shroud
 #. +> trunk 1.6
-#: data/core/terrain.cfg:22 data/gui/default/window/mp_create_game.cfg:472
+#: data/core/terrain.cfg:22 data/gui/default/window/mp_create_game.cfg:471
 msgid "Shroud"
 msgstr ""
 
@@ -500,6 +500,7 @@ msgstr ""
 #. [terrain_type]: id=mountain_village
 #. [terrain_type]: id=tropical_forest_village
 #. [terrain_type]: id=camp_village
+#. [terrain_type]: id=drake_village
 #. [terrain_type]: id=underground_village
 #. [terrain_type]: id=dwarven_village
 #. [terrain_type]: id=hut_village
@@ -521,92 +522,92 @@ msgstr ""
 #: data/core/terrain.cfg:1089 data/core/terrain.cfg:1100
 #: data/core/terrain.cfg:1111 data/core/terrain.cfg:1123
 #: data/core/terrain.cfg:1134 data/core/terrain.cfg:1145
-#: data/core/terrain.cfg:1156 data/core/terrain.cfg:1169
+#: data/core/terrain.cfg:1156 data/core/terrain.cfg:1167
 #: data/core/terrain.cfg:1180 data/core/terrain.cfg:1191
 #: data/core/terrain.cfg:1202 data/core/terrain.cfg:1213
 #: data/core/terrain.cfg:1224 data/core/terrain.cfg:1235
 #: data/core/terrain.cfg:1246 data/core/terrain.cfg:1257
-#: data/core/terrain.cfg:1270 data/core/terrain.cfg:1285
-#: data/core/terrain.cfg:1296
+#: data/core/terrain.cfg:1268 data/core/terrain.cfg:1281
+#: data/core/terrain.cfg:1296 data/core/terrain.cfg:1307
 msgid "Village"
 msgstr ""
 
 #. [terrain_type]: id=deep_water
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1311
+#: data/core/terrain.cfg:1322
 msgid "Deep Water"
 msgstr ""
 
 #. [terrain_type]: id=shallow_water
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1321
+#: data/core/terrain.cfg:1332
 msgid "Shallow Water"
 msgstr ""
 
 #. [terrain_type]: id=ford
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1331
+#: data/core/terrain.cfg:1342
 msgid "River Ford"
 msgstr ""
 
 #. [terrain_type]: id=reef
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1342
+#: data/core/terrain.cfg:1353
 msgid "Coastal Reef"
 msgstr ""
 
 #. [terrain_type]: id=cloud
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1356
+#: data/core/terrain.cfg:1367
 msgid "Impassable Mountains"
 msgstr ""
 
 #. [terrain_type]: id=clouddesert
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1365
+#: data/core/terrain.cfg:1376
 msgid "Impassable Desert Mountains"
 msgstr ""
 
 #. [terrain_type]: id=cavewall
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1374
+#: data/core/terrain.cfg:1385
 msgid "Cave Wall"
 msgstr ""
 
 #. [terrain_type]: id=wall_stone
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1383
+#: data/core/terrain.cfg:1394
 msgid "Wall"
 msgstr ""
 
 #. [terrain_type]: id=impassable_overlay
 #. [terrain_type]: id=impassable
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1393 data/core/terrain.cfg:1431
+#: data/core/terrain.cfg:1404 data/core/terrain.cfg:1442
 msgid "Impassable"
 msgstr ""
 
 #. [terrain_type]: id=void
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1404
+#: data/core/terrain.cfg:1415
 msgid "Void"
 msgstr ""
 
 #. [terrain_type]: id=flat
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1417
+#: data/core/terrain.cfg:1428
 msgid "Flat"
 msgstr ""
 
 #. [terrain_type]: id=frozen
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1424
+#: data/core/terrain.cfg:1435
 msgid "Frozen"
 msgstr ""
 
 #. [terrain_type]: id=unwalkable
 #. +> trunk 1.6
-#: data/core/terrain.cfg:1438
+#: data/core/terrain.cfg:1449
 msgid "Unwalkable"
 msgstr ""
 
@@ -615,7 +616,7 @@ msgstr ""
 #. +> trunk 1.6
 #: data/gui/default/window/addon_connect.cfg:32
 #: data/gui/default/window/mp_connect.cfg:31
-#: data/gui/default/window/mp_method_selection.cfg:149
+#: data/gui/default/window/mp_method_selection.cfg:148
 #: data/gui/default/window/mp_server_list.cfg:41
 msgid "Connect to Server"
 msgstr ""
@@ -660,44 +661,48 @@ msgstr ""
 #. [button]: id=cancel
 #. +> trunk 1.6
 #: data/gui/default/window/addon_connect.cfg:216
-#: data/gui/default/window/campaign_dialog.cfg:304
+#: data/gui/default/window/campaign_dialog.cfg:315
 #: data/gui/default/window/editor_generate_map.cfg:111
 #: data/gui/default/window/editor_new_map.cfg:111
 #: data/gui/default/window/editor_resize_map.cfg:275
 #: data/gui/default/window/editor_settings.cfg:240
-#: data/gui/default/window/game_load.cfg:444
+#: data/gui/default/window/game_load.cfg:457
 #: data/gui/default/window/game_save.cfg:134
-#: data/gui/default/window/language_selection.cfg:134
-#: data/gui/default/window/message.cfg:122
+#: data/gui/default/window/language_selection.cfg:133
+#: data/gui/default/window/message.cfg:136
 #: data/gui/default/window/mp_cmd_wrapper.cfg:462
 #: data/gui/default/window/mp_connect.cfg:190
-#: data/gui/default/window/mp_create_game.cfg:551
+#: data/gui/default/window/mp_create_game.cfg:550
 #: data/gui/default/window/mp_login.cfg:262
-#: data/gui/default/window/mp_method_selection.cfg:219
-#: data/gui/default/window/mp_server_list.cfg:231 src/construct_dialog.cpp:133
+#: data/gui/default/window/mp_method_selection.cfg:218
+#: data/gui/default/window/mp_server_list.cfg:229
+#: data/gui/default/window/unit_create.cfg:216
+#: data/gui/default/window/unit_create.cfg:217 src/construct_dialog.cpp:133
 #: src/construct_dialog.cpp:136
 msgid "Cancel"
 msgstr ""
 
 #. [label]
 #. +> trunk
-#: data/gui/default/window/campaign_dialog.cfg:34
+#: data/gui/default/window/campaign_dialog.cfg:44
 msgid "Play a campaign"
 msgstr ""
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #. +> trunk 1.6
-#: data/gui/default/window/campaign_dialog.cfg:290
+#: data/gui/default/window/campaign_dialog.cfg:301
 #: data/gui/default/window/editor_settings.cfg:230
-#: data/gui/default/window/game_load.cfg:429
-#: data/gui/default/window/game_load.cfg:430
+#: data/gui/default/window/game_load.cfg:442
+#: data/gui/default/window/game_load.cfg:443
 #: data/gui/default/window/game_save.cfg:119
 #: data/gui/default/window/game_save.cfg:120
 #: data/gui/default/window/mp_login.cfg:234
-#: data/gui/default/window/mp_method_selection.cfg:205
-#: data/gui/default/window/wml_message.cfg:442
-#: data/gui/default/window/wml_message.cfg:648 src/construct_dialog.cpp:125
+#: data/gui/default/window/mp_method_selection.cfg:204
+#: data/gui/default/window/unit_create.cfg:204
+#: data/gui/default/window/unit_create.cfg:205
+#: data/gui/default/window/wml_message.cfg:458
+#: data/gui/default/window/wml_message.cfg:679 src/construct_dialog.cpp:125
 #: src/construct_dialog.cpp:132 src/gui/dialogs/message.cpp:188
 #: src/gui/dialogs/message.cpp:195
 msgid "OK"
@@ -821,12 +826,10 @@ msgid "Time of day lighting preset"
 msgstr ""
 
 #. [button]: id=next_tod
-#. [button]: id=next_window
 #. [button]: id=next_tip
 #. +> trunk 1.6
 #: data/gui/default/window/editor_settings.cfg:75
 #: data/gui/default/window/editor_settings.cfg:76
-#: data/gui/default/window/lobby_main.cfg:396
 #: data/gui/default/window/title_screen.cfg:138
 msgid "Next"
 msgstr ""
@@ -871,8 +874,80 @@ msgstr ""
 #. [button]: id=apply
 #. +> trunk 1.6
 #: data/gui/default/window/editor_settings.cfg:250
-#: src/game_preferences_display.cpp:194
+#: src/game_preferences_display.cpp:195
 msgid "Apply"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/formula_debugger.cfg:28
+msgid "Formula debugger"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/formula_debugger.cfg:51
+msgid "Welcome"
+msgstr ""
+
+#. [label]: id=state
+#. +> trunk
+#: data/gui/default/window/formula_debugger.cfg:63
+msgid "state"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/formula_debugger.cfg:77
+msgid "Call stack"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/formula_debugger.cfg:86
+msgid "Actions"
+msgstr ""
+
+#. [button]: id=step
+#. +> trunk
+#: data/gui/default/window/formula_debugger.cfg:120
+msgid "Step operation"
+msgstr ""
+
+#. [button]: id=next
+#. +> trunk
+#: data/gui/default/window/formula_debugger.cfg:130
+msgid "Next operation"
+msgstr ""
+
+#. [button]: id=stepout
+#. +> trunk
+#: data/gui/default/window/formula_debugger.cfg:140
+msgid "Step out"
+msgstr ""
+
+#. [button]: id=continue
+#. +> trunk
+#: data/gui/default/window/formula_debugger.cfg:150
+msgid "Continue"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/formula_debugger.cfg:166
+msgid "Execution trace"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=cancel
+#. [button]: id=quit
+#. [grid]
+#. +> trunk 1.6
+#: data/gui/default/window/formula_debugger.cfg:222
+#: data/gui/default/window/lobby_main.cfg:539
+#: data/gui/default/window/title_screen.cfg:191 src/hotkeys.cpp:642
+#: src/hotkeys.cpp:930
+msgid "Quit"
 msgstr ""
 
 #. [label]: id=lblTitle
@@ -922,53 +997,53 @@ msgstr ""
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #. +> trunk 1.6
-#: data/gui/default/window/game_load.cfg:32
+#: data/gui/default/window/game_load.cfg:42
 #: src/gui/dialogs/mp_create_game.cpp:78 src/hotkeys.cpp:65
 msgid "Load Game"
 msgstr ""
 
 #. [label]: id=lblChoose
 #. +> trunk
-#: data/gui/default/window/game_load.cfg:167
+#: data/gui/default/window/game_load.cfg:177
 msgid "Choose the game to load"
 msgstr ""
 
 #. [label]: id=lblFilter
 #. +> trunk
-#: data/gui/default/window/game_load.cfg:187
+#: data/gui/default/window/game_load.cfg:197
 msgid "Filter"
 msgstr ""
 
 #. [label]: id=name
 #. [label]: id=filename
 #. +> trunk 1.6
-#: data/gui/default/window/game_load.cfg:238
-#: data/gui/default/window/mp_server_list.cfg:98
+#: data/gui/default/window/game_load.cfg:248
+#: data/gui/default/window/mp_server_list.cfg:96
 msgid "Name"
 msgstr ""
 
 #. [label]: id=date
 #. +> trunk
-#: data/gui/default/window/game_load.cfg:254
+#: data/gui/default/window/game_load.cfg:265
 msgid "Date"
 msgstr ""
 
 #. [button]: id=delete
 #. +> trunk
-#: data/gui/default/window/game_load.cfg:368
-#: data/gui/default/window/game_load.cfg:369
+#: data/gui/default/window/game_load.cfg:381
+#: data/gui/default/window/game_load.cfg:382
 msgid "Delete"
 msgstr ""
 
 #. [toggle_button]: id=show_replay
 #. +> trunk
-#: data/gui/default/window/game_load.cfg:391
+#: data/gui/default/window/game_load.cfg:404
 msgid "Show replay"
 msgstr ""
 
 #. [toggle_button]: id=cancel_orders
 #. +> trunk
-#: data/gui/default/window/game_load.cfg:403
+#: data/gui/default/window/game_load.cfg:416
 msgid "Cancel orders"
 msgstr ""
 
@@ -1042,115 +1117,286 @@ msgstr ""
 
 #. [button]: id=ok
 #. +> trunk 1.6
+#: data/gui/default/window/language_selection.cfg:118
 #: data/gui/default/window/language_selection.cfg:119
-#: data/gui/default/window/language_selection.cfg:120
 msgid "Change language"
+msgstr ""
+
+#. [row]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:108
+msgid "Games"
+msgstr ""
+
+#. [row]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:176
+msgid "Requires a password to join"
+msgstr ""
+
+#. [toggle_button]: id=use_map_settings
+#. [row]
+#. +> trunk 1.6
+#: data/gui/default/window/lobby_main.cfg:177
+#: data/gui/default/window/mp_create_game.cfg:313
+msgid "Use map settings"
+msgstr ""
+
+#. [row]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:178
+msgid "Reloaded game"
+msgstr ""
+
+#. [row]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:179
+msgid "Unknown era"
+msgstr ""
+
+#. [row]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:181
+msgid "Gold per village"
+msgstr ""
+
+#. [label]
+#. [row]
+#. +> trunk 1.6
+#: data/gui/default/window/lobby_main.cfg:183
+#: data/gui/default/window/mp_create_game.cfg:412
+msgid "Experience modifier"
+msgstr ""
+
+#. [row]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:185
+msgid "Time limit"
 msgstr ""
 
 #. [label]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:325
+#: data/gui/default/window/lobby_main.cfg:304
+msgid "Sort players:"
+msgstr ""
+
+#. [toggle_button]: id=player_list_sort_relation
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:312
+msgid "Friends first, ignored people last"
+msgstr ""
+
+#. [toggle_button]: id=player_list_sort_name
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:320
+msgid "Alphabetically"
+msgstr ""
+
+#. [definition]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:332
+msgid "Selected game"
+msgstr ""
+
+#. [definition]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:333
+msgid "Current room"
+msgstr ""
+
+#. [definition]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:334
+msgid "Lobby"
+msgstr ""
+
+#. [definition]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:335
+msgid "Other games"
+msgstr ""
+
+#. [label]: id=room
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:357
+msgid "Rooms"
+msgstr ""
+
+#. [image]: id=pending_messages
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:375
+msgid "Messages waiting"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:451
 msgid "Multiplayer Lobby"
 msgstr ""
 
 #. [label]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:333
+#: data/gui/default/window/lobby_main.cfg:459
 msgid "Filter:"
 msgstr ""
 
 #. [toggle_button]: id=filter_with_friends
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:344
+#: data/gui/default/window/lobby_main.cfg:470
 msgid "Friends"
 msgstr ""
 
 #. [toggle_button]: id=filter_without_ignored
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:350
+#: data/gui/default/window/lobby_main.cfg:476
 msgid "No ignored"
 msgstr ""
 
 #. [toggle_button]: id=filter_vacant_slots
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:356
+#: data/gui/default/window/lobby_main.cfg:482
 msgid "Vacant slots"
 msgstr ""
 
 #. [toggle_button]: id=filter_invert
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:362
+#: data/gui/default/window/lobby_main.cfg:488
 msgid "Invert filter"
-msgstr ""
-
-#. [button]: id=send_message
-#. +> trunk
-#: data/gui/default/window/lobby_main.cfg:390
-msgid "Send"
 msgstr ""
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
+#. [button]: id=cancel
 #. [button]: id=close_window
 #. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:402
-#: data/gui/default/window/message.cfg:136 src/construct_dialog.cpp:139
+#: data/gui/default/window/lobby_main.cfg:503
+#: data/gui/default/window/lobby_player_info.cfg:192
+#: data/gui/default/window/message.cfg:122 src/construct_dialog.cpp:139
 msgid "Close"
 msgstr ""
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [button]: id=quit
-#. [grid]
-#. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:414
-#: data/gui/default/window/title_screen.cfg:191 src/hotkeys.cpp:654
-#: src/hotkeys.cpp:944
-msgid "Quit"
+#. [button]: id=send_message
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:527
+msgid "Send"
 msgstr ""
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=show_preferences
 #. [grid]
 #. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:420
+#: data/gui/default/window/lobby_main.cfg:545
 #: data/gui/default/window/title_screen.cfg:189
-#: src/game_preferences_display.cpp:52 src/hotkeys.cpp:78
+#: src/game_preferences_display.cpp:53 src/hotkeys.cpp:78
 msgid "Preferences"
 msgstr ""
 
 #. [button]: id=refresh
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:426
+#: data/gui/default/window/lobby_main.cfg:551
 msgid "Refresh"
-msgstr ""
-
-#. [button]: id=join_global
-#. +> trunk
-#: data/gui/default/window/lobby_main.cfg:432
-msgid "Join"
-msgstr ""
-
-#. [button]: id=observe_global
-#. +> trunk
-#: data/gui/default/window/lobby_main.cfg:438
-msgid "Observe"
-msgstr ""
-
-#. [label]
-#. [button]: id=create
-#. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:444
-#: data/gui/default/window/mp_create_game.cfg:33
-msgid "Create Game"
 msgstr ""
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=show_help
 #. [button]: id=help
 #. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:450
+#: data/gui/default/window/lobby_main.cfg:557
 #: data/gui/default/window/title_screen.cfg:109 src/hotkeys.cpp:185
 msgid "Help"
+msgstr ""
+
+#. [label]
+#. [button]: id=create
+#. +> trunk 1.6
+#: data/gui/default/window/lobby_main.cfg:565
+#: data/gui/default/window/mp_create_game.cfg:33
+msgid "Create Game"
+msgstr ""
+
+#. [button]: id=join_global
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:571
+msgid "Join"
+msgstr ""
+
+#. [button]: id=observe_global
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:577
+msgid "Observe"
+msgstr ""
+
+#. [toggle_button]: id=skip_replay
+#. +> trunk
+#: data/gui/default/window/lobby_main.cfg:583
+msgid "Quick replay"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/lobby_player_info.cfg:30
+msgid "Player Info - "
+msgstr ""
+
+#. [button]: id=start_whisper
+#. +> trunk
+#: data/gui/default/window/lobby_player_info.cfg:62
+msgid "Send private message"
+msgstr ""
+
+#. [button]: id=add_to_friends
+#. +> trunk
+#: data/gui/default/window/lobby_player_info.cfg:91
+msgid "Add to friends list"
+msgstr ""
+
+#. [button]: id=add_to_ignores
+#. +> trunk
+#: data/gui/default/window/lobby_player_info.cfg:100
+msgid "Add to ignores list"
+msgstr ""
+
+#. [button]: id=remove_from_list
+#. +> trunk
+#: data/gui/default/window/lobby_player_info.cfg:109
+msgid "Remove from list"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/lobby_player_info.cfg:133
+msgid "Moderation"
+msgstr ""
+
+#. [button]: id=check_status
+#. +> trunk
+#: data/gui/default/window/lobby_player_info.cfg:140
+msgid "Check status"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/lobby_player_info.cfg:147
+msgid "Kick / ban reason:"
+msgstr ""
+
+#. [button]: id=kick
+#. +> trunk 1.6
+#: data/gui/default/window/lobby_player_info.cfg:160
+#: data/gui/default/window/mp_cmd_wrapper.cfg:381
+msgid "Kick"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/lobby_player_info.cfg:167
+msgid "Ban time:"
+msgstr ""
+
+#. [button]: id=kick_ban
+#. +> trunk
+#: data/gui/default/window/lobby_player_info.cfg:180
+msgid "Kick/ban"
 msgstr ""
 
 #. [window]: id=mp_cmd_wrapper
@@ -1193,7 +1439,7 @@ msgstr ""
 #. [button]: id=add_friend
 #. +> trunk 1.6
 #: data/gui/default/window/mp_cmd_wrapper.cfg:162
-#: src/game_preferences_display.cpp:171
+#: src/game_preferences_display.cpp:172
 msgid "Add As Friend"
 msgstr ""
 
@@ -1201,7 +1447,7 @@ msgstr ""
 #. [button]: id=add_ignore
 #. +> trunk 1.6
 #: data/gui/default/window/mp_cmd_wrapper.cfg:177
-#: src/game_preferences_display.cpp:172
+#: src/game_preferences_display.cpp:173
 msgid "Add As Ignore"
 msgstr ""
 
@@ -1209,7 +1455,7 @@ msgstr ""
 #. [button]: id=remove
 #. +> trunk 1.6
 #: data/gui/default/window/mp_cmd_wrapper.cfg:192
-#: src/game_preferences_display.cpp:173
+#: src/game_preferences_display.cpp:174
 msgid "Remove"
 msgstr ""
 
@@ -1235,12 +1481,6 @@ msgstr ""
 #. +> trunk 1.6
 #: data/gui/default/window/mp_cmd_wrapper.cfg:366
 msgid "Status"
-msgstr ""
-
-#. [button]: id=kick
-#. +> trunk 1.6
-#: data/gui/default/window/mp_cmd_wrapper.cfg:381
-msgid "Kick"
 msgstr ""
 
 #. [button]: id=ban
@@ -1306,51 +1546,39 @@ msgstr ""
 msgid "Map to play:"
 msgstr ""
 
-#. [toggle_button]: id=use_map_settings
-#. +> trunk 1.6
-#: data/gui/default/window/mp_create_game.cfg:314
-msgid "Use map settings"
-msgstr ""
-
 #. [label]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_create_game.cfg:332
+#: data/gui/default/window/mp_create_game.cfg:331
 msgid "Number of turns"
 msgstr ""
 
 #. [slider]: id=turn_count
 #. +> trunk 1.6
-#: data/gui/default/window/mp_create_game.cfg:355
+#: data/gui/default/window/mp_create_game.cfg:354
 msgid "Unlimited"
 msgstr ""
 
 #. [label]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_create_game.cfg:373
+#: data/gui/default/window/mp_create_game.cfg:372
 msgid "Village gold"
-msgstr ""
-
-#. [label]
-#. +> trunk 1.6
-#: data/gui/default/window/mp_create_game.cfg:413
-msgid "Experience modifier"
 msgstr ""
 
 #. [toggle_button]: id=fog
 #. +> trunk 1.6
-#: data/gui/default/window/mp_create_game.cfg:453
+#: data/gui/default/window/mp_create_game.cfg:452
 msgid "Fog of War"
 msgstr ""
 
 #. [toggle_button]: id=random_start_time
 #. +> trunk 1.6
-#: data/gui/default/window/mp_create_game.cfg:494
+#: data/gui/default/window/mp_create_game.cfg:493
 msgid "Random start time"
 msgstr ""
 
 #. [button]: id=ok
 #. +> trunk 1.6
-#: data/gui/default/window/mp_create_game.cfg:536
+#: data/gui/default/window/mp_create_game.cfg:535
 msgid "Create game"
 msgstr ""
 
@@ -1383,7 +1611,7 @@ msgstr ""
 #. [toggle_button]: id=remember_password
 #. +> trunk 1.6
 #: data/gui/default/window/mp_login.cfg:190
-#: src/game_preferences_display.cpp:167
+#: src/game_preferences_display.cpp:168
 msgid "Save password to preferences (clear text)"
 msgstr ""
 
@@ -1399,7 +1627,7 @@ msgstr ""
 #. +> trunk 1.6
 #: data/gui/default/window/mp_method_selection.cfg:31
 #: data/gui/default/window/title_screen.cfg:184
-#: src/gui/dialogs/game_load.cpp:239
+#: src/gui/dialogs/game_load.cpp:262
 msgid "Multiplayer"
 msgstr ""
 
@@ -1415,55 +1643,55 @@ msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:139
+#: data/gui/default/window/mp_method_selection.cfg:138
 msgid "Join Official Server"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:140
+#: data/gui/default/window/mp_method_selection.cfg:139
 msgid "Log on to the official Wesnoth multiplayer server"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:150
+#: data/gui/default/window/mp_method_selection.cfg:149
 msgid "Join a different server"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:159
+#: data/gui/default/window/mp_method_selection.cfg:158
 msgid "Host Networked Game"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:160
+#: data/gui/default/window/mp_method_selection.cfg:159
 msgid "Host a game using dedicated server 'wesnothd'"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:169
+#: data/gui/default/window/mp_method_selection.cfg:168
 msgid "Local Game"
 msgstr ""
 
 #. [column]
 #. +> trunk 1.6
-#: data/gui/default/window/mp_method_selection.cfg:170
+#: data/gui/default/window/mp_method_selection.cfg:169
 msgid "Play a multiplayer game with the AI or humans sharing the same machine"
 msgstr ""
 
 #. [label]: id=address
 #. +> trunk 1.6
-#: data/gui/default/window/mp_server_list.cfg:115
+#: data/gui/default/window/mp_server_list.cfg:113
 msgid "Address"
 msgstr ""
 
 #. [button]: id=ok
 #. +> trunk 1.6
-#: data/gui/default/window/mp_server_list.cfg:217
+#: data/gui/default/window/mp_server_list.cfg:215
 msgid "Select"
 msgstr ""
 
@@ -1477,7 +1705,7 @@ msgstr ""
 #. [grid]
 #. +> trunk 1.6
 #: data/gui/default/window/title_screen.cfg:182
-#: src/gui/dialogs/game_load.cpp:241
+#: src/gui/dialogs/game_load.cpp:264
 msgid "Tutorial"
 msgstr ""
 
@@ -1511,6 +1739,49 @@ msgstr ""
 msgid "Credits"
 msgstr ""
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]
+#. +> trunk 1.6
+#: data/gui/default/window/unit_create.cfg:37 src/hotkeys.cpp:76
+msgid "Create Unit (Debug!)"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/unit_create.cfg:59
+msgid "Gender:"
+msgstr ""
+
+#. [toggle_button]: id=male_toggle
+#. +> trunk
+#: data/gui/default/window/unit_create.cfg:69
+msgid "Male"
+msgstr ""
+
+#. [toggle_button]: id=female_toggle
+#. +> trunk
+#: data/gui/default/window/unit_create.cfg:79
+msgid "Female"
+msgstr ""
+
+#. [toggle_button]: id=namegen_toggle
+#. +> trunk
+#: data/gui/default/window/unit_create.cfg:97
+msgid "Generate name"
+msgstr ""
+
+#. [label]: id=race
+#. +> trunk
+#: data/gui/default/window/unit_create.cfg:126
+msgid "Race"
+msgstr ""
+
+#. [label]: id=unit_type
+#. +> trunk
+#: data/gui/default/window/unit_create.cfg:138
+msgid "Type"
+msgstr ""
+
 #. +> trunk 1.6
 #: src/filechooser.cpp:74
 msgid "File: "
@@ -1542,564 +1813,564 @@ msgid "Creation of the directory failed."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences.cpp:307
+#: src/game_preferences.cpp:286
 msgid "No server has been defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences.cpp:369
+#: src/game_preferences.cpp:348
 msgid "player"
 msgstr ""
 
 #. +> trunk
-#: src/game_preferences_display.cpp:155
+#: src/game_preferences_display.cpp:156
 msgid "Full Screen"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:156
+#: src/game_preferences_display.cpp:157
 msgid "Enable scroll tracking of unit actions"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:157
+#: src/game_preferences_display.cpp:158
 msgid "Accelerated Speed"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:158
+#: src/game_preferences_display.cpp:159
 msgid "Skip AI Moves"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:159
+#: src/game_preferences_display.cpp:160
 msgid "Show Grid"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:160 src/game_preferences_display.cpp:338
+#: src/game_preferences_display.cpp:161 src/game_preferences_display.cpp:339
 msgid "Save Replay on SP/MP Victory or MP Defeat"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:161 src/game_preferences_display.cpp:341
+#: src/game_preferences_display.cpp:162 src/game_preferences_display.cpp:342
 msgid "Delete Auto-Saves on SP/MP Victory or MP Defeat"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:162
+#: src/game_preferences_display.cpp:163
 msgid "Do Not Show Lobby Joins"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:163
+#: src/game_preferences_display.cpp:164
 msgid "Show Lobby Joins Of Friends Only"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:164
+#: src/game_preferences_display.cpp:165
 msgid "Show All Lobby Joins"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:165
+#: src/game_preferences_display.cpp:166
 msgid "Sort Lobby List"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:166
+#: src/game_preferences_display.cpp:167
 msgid "Iconize Lobby List"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:168
+#: src/game_preferences_display.cpp:169
 msgid "Set path to wesnothd"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:169
+#: src/game_preferences_display.cpp:170
 msgid "Friends List"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:170
+#: src/game_preferences_display.cpp:171
 msgid "Multiplayer Options"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:174
+#: src/game_preferences_display.cpp:175
 msgid "Show Floating Labels"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:175
+#: src/game_preferences_display.cpp:176
 msgid "Turn Dialog"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:176
+#: src/game_preferences_display.cpp:177
 msgid "Turn Bell"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:177
+#: src/game_preferences_display.cpp:178
 msgid "Show Team Colors"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:178
+#: src/game_preferences_display.cpp:179
 msgid "Show Color Cursors"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:179
+#: src/game_preferences_display.cpp:180
 msgid "Show Haloing Effects"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:180
+#: src/game_preferences_display.cpp:181
 msgid "Change Resolution"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:181
+#: src/game_preferences_display.cpp:182
 msgid "Theme"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:182
+#: src/game_preferences_display.cpp:183
 msgid "Hotkeys"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:183
+#: src/game_preferences_display.cpp:184
 msgid "Reverse Time Graphics"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:185
+#: src/game_preferences_display.cpp:186
 msgid "Sound effects"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:186
+#: src/game_preferences_display.cpp:187
 msgid "Music"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:187
-msgid "Chat Timestamping"
-msgstr ""
-
-#. +> trunk 1.6
 #: src/game_preferences_display.cpp:188
-msgctxt "sound"
-msgid "Advanced Options"
+msgid "Chat Timestamping"
 msgstr ""
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:189
 msgctxt "sound"
-msgid "Standard Options"
+msgid "Advanced Options"
 msgstr ""
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:190
+msgctxt "sound"
+msgid "Standard Options"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/game_preferences_display.cpp:191
 msgid "User Interface Sounds"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:193
+#: src/game_preferences_display.cpp:194
 msgid "Custom"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:195
+#: src/game_preferences_display.cpp:196
 msgid "Show Unit Idle Animations"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:197
+#: src/game_preferences_display.cpp:198
 msgid "Music Volume:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:197
+#: src/game_preferences_display.cpp:198
 msgid "SFX Volume:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:198
+#: src/game_preferences_display.cpp:199
 msgid "UI Sound Volume:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:199
+#: src/game_preferences_display.cpp:200
 msgid "Bell Volume:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:199
+#: src/game_preferences_display.cpp:200
 msgid "Scroll Speed:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:202
+#: src/game_preferences_display.cpp:203
 msgid "Sample Rate (Hz):"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:203
+#: src/game_preferences_display.cpp:204
 msgid "Frequency:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:228
+#: src/game_preferences_display.cpp:229
 msgid "Sound effects on/off"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:232
+#: src/game_preferences_display.cpp:233
 msgid "Change the sound effects volume"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:235
+#: src/game_preferences_display.cpp:236
 msgid "Music on/off"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:239
+#: src/game_preferences_display.cpp:240
 msgid "Change the music volume"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:245
+#: src/game_preferences_display.cpp:246
 msgid "Change the bell volume"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:248
+#: src/game_preferences_display.cpp:249
 msgid "Turn menu and button sounds on/off"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:252
+#: src/game_preferences_display.cpp:253
 msgid "Change the sound volume for button clicks, etc."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:254
+#: src/game_preferences_display.cpp:255
 msgid "Change the sample rate"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:263
+#: src/game_preferences_display.cpp:264
 msgid "User defined sample rate"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:272 src/game_preferences_display.cpp:276
+#: src/game_preferences_display.cpp:273 src/game_preferences_display.cpp:277
 msgid "Change the buffer size"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:274 src/game_preferences_display.cpp:822
+#: src/game_preferences_display.cpp:275 src/game_preferences_display.cpp:823
 msgid "Buffer Size: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:281
+#: src/game_preferences_display.cpp:282
 msgid "Change the speed of scrolling around the map"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:286 src/game_preferences_display.cpp:288
+#: src/game_preferences_display.cpp:287 src/game_preferences_display.cpp:289
 msgid "Set the amount of chat lines shown"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:291
+#: src/game_preferences_display.cpp:292
 msgid "Add a timestamp to chat messages"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:294
+#: src/game_preferences_display.cpp:295
 msgid "Choose whether the game should run full screen or in a window"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:297
+#: src/game_preferences_display.cpp:298
 msgid "Should the map view scroll to a unit when an action or move is animated."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:300
+#: src/game_preferences_display.cpp:301
 msgid "Make units move and fight faster"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:317
+#: src/game_preferences_display.cpp:318
 msgid "Units move and fight speed"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:320
+#: src/game_preferences_display.cpp:321
 msgid "Show unit idle animations"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:326
+#: src/game_preferences_display.cpp:327
 msgid "Set the frequency of unit idle animations"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:331
+#: src/game_preferences_display.cpp:332
 msgid "Set maximum number of automatic saves to be retained"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:335
+#: src/game_preferences_display.cpp:336
 msgid "Do not animate AI units moving"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:343
+#: src/game_preferences_display.cpp:344
 msgid "Overlay a grid onto the map"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:346
+#: src/game_preferences_display.cpp:347
 msgid "Sort the player list in the lobby by player groups"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:349
+#: src/game_preferences_display.cpp:350
 msgid "Show icons in front of the player names in the lobby."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:352
+#: src/game_preferences_display.cpp:353
 msgid "Uncheck to delete the saved password (on exit)."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:355
+#: src/game_preferences_display.cpp:356
 msgid "Do not show messages about players joining the multiplayer lobby"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:357
+#: src/game_preferences_display.cpp:358
 msgid "Show messages about your friends joining the multiplayer lobby"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:359
+#: src/game_preferences_display.cpp:360
 msgid "Show messages about all players joining the multiplayer lobby"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:361
+#: src/game_preferences_display.cpp:362
 msgid "Find and set path to MP server to host LAN games."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:362
+#: src/game_preferences_display.cpp:363
 msgid "View and edit your friends and ignores list"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:363
+#: src/game_preferences_display.cpp:364
 msgid "Back to the multiplayer options"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:364
+#: src/game_preferences_display.cpp:365
 msgid "Add this username to your friends list"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:365
+#: src/game_preferences_display.cpp:366
 msgid "Add this username to your ignores list"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:366
+#: src/game_preferences_display.cpp:367
 msgid "Remove this username from your list"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:369
+#: src/game_preferences_display.cpp:370
 msgid "Insert a username"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:372
+#: src/game_preferences_display.cpp:373
 msgid "Show text above a unit when it is hit to display damage inflicted"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:374
+#: src/game_preferences_display.cpp:375
 msgid "Change the resolution the game runs at"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:375
+#: src/game_preferences_display.cpp:376
 msgid "Change the theme the game runs with"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:378
+#: src/game_preferences_display.cpp:379
 msgid "Display a dialog at the beginning of your turn"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:381
+#: src/game_preferences_display.cpp:382
 msgid "Play a bell sound at the beginning of your turn"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:384
+#: src/game_preferences_display.cpp:385
 msgid "Show a colored circle around the base of each unit to show which side it is on"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:387
+#: src/game_preferences_display.cpp:388
 msgid "Choose whether the sun moves left-to-right or right-to-left"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:390
+#: src/game_preferences_display.cpp:391
 msgid "Use colored mouse cursors (may be slower)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:393
+#: src/game_preferences_display.cpp:394
 msgid "Use graphical special effects (may be slower)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:395
+#: src/game_preferences_display.cpp:396
 msgid "View and configure keyboard shortcuts"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:690
+#: src/game_preferences_display.cpp:691
 msgid "Speed: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:695 src/game_preferences_display.cpp:697
+#: src/game_preferences_display.cpp:696 src/game_preferences_display.cpp:698
 msgid "Maximum Auto-Saves: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:695
+#: src/game_preferences_display.cpp:696
 msgid "infinite"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:874
+#: src/game_preferences_display.cpp:875
 msgid "Chat Lines: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:896 src/game_preferences_display.cpp:904
+#: src/game_preferences_display.cpp:897 src/game_preferences_display.cpp:905
 msgid "Invalid username"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:1007
+#: src/game_preferences_display.cpp:1008
 msgid "yes"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:1009
+#: src/game_preferences_display.cpp:1010
 msgid "no"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:1042
+#: src/game_preferences_display.cpp:1043
 msgid "(empty list)"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/game_preferences_display.cpp:1163
-msgctxt "Prefs section"
-msgid "General"
 msgstr ""
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:1164
 msgctxt "Prefs section"
-msgid "Display"
+msgid "General"
 msgstr ""
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:1165
 msgctxt "Prefs section"
-msgid "Sound"
+msgid "Display"
 msgstr ""
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:1166
 msgctxt "Prefs section"
-msgid "Multiplayer"
+msgid "Sound"
 msgstr ""
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:1167
+msgctxt "Prefs section"
+msgid "Multiplayer"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/game_preferences_display.cpp:1168
 msgctxt "Advanced section"
 msgid "Advanced"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:1202
+#: src/game_preferences_display.cpp:1203
 msgid "Saved Theme Preference: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:1208
+#: src/game_preferences_display.cpp:1209
 msgid "New theme will take effect on next new or loaded game."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:1212
+#: src/game_preferences_display.cpp:1213
 msgid "No known themes. Try changing from within an existing game."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_preferences_display.cpp:1255
+#: src/game_preferences_display.cpp:1256
 msgid "Find $filename server binary to host networked games"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/canvas.cpp:343
+#: src/gui/auxiliary/canvas.cpp:356
 msgid "Line doesn't fit on canvas."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/canvas.cpp:478
+#: src/gui/auxiliary/canvas.cpp:491
 msgid "Rectangle doesn't fit on canvas."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/canvas.cpp:849
+#: src/gui/auxiliary/canvas.cpp:862
 msgid "Text has a font size of 0."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/canvas.cpp:914
+#: src/gui/auxiliary/canvas.cpp:936
 msgid "Text doesn't start on canvas."
 msgstr ""
 
 #. +> trunk
-#: src/gui/auxiliary/window_builder.cpp:138
+#: src/gui/auxiliary/window_builder.cpp:140
 msgid "Linked '$id' group has multiple definitions."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:186 src/gui/widgets/settings.cpp:520
+#: src/gui/auxiliary/window_builder.cpp:188 src/gui/widgets/settings.cpp:516
 msgid "No resolution defined."
 msgstr ""
 
@@ -2107,9 +2378,9 @@ msgstr ""
 #: src/gui/auxiliary/window_builder.cpp:294
 #: src/gui/auxiliary/window_builder/panel.cpp:35
 #: src/gui/auxiliary/window_builder/toggle_panel.cpp:38
-#: src/gui/widgets/settings.cpp:775 src/gui/widgets/settings.cpp:871
-#: src/gui/widgets/settings.cpp:960 src/gui/widgets/settings.cpp:1002
-#: src/gui/widgets/settings.cpp:1120
+#: src/gui/widgets/settings.cpp:780 src/gui/widgets/settings.cpp:879
+#: src/gui/widgets/settings.cpp:972 src/gui/widgets/settings.cpp:1014
+#: src/gui/widgets/settings.cpp:1129
 msgid "No grid defined."
 msgstr ""
 
@@ -2129,18 +2400,21 @@ msgid "Number of columns differ."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder/listbox.cpp:53
+#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:41
+#: src/gui/auxiliary/window_builder/listbox.cpp:51
 #: src/gui/auxiliary/window_builder/scrollbar_panel.cpp:40
 msgid "No list defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder/listbox.cpp:57
+#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:45
+#: src/gui/auxiliary/window_builder/listbox.cpp:55
 msgid "A 'list_definition' should contain one row."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder/listbox.cpp:73
+#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:61
+#: src/gui/auxiliary/window_builder/listbox.cpp:71
 #: src/gui/auxiliary/window_builder/multi_page.cpp:58
 msgid "'list_data' must have the same number of columns as the 'list_definition'."
 msgstr ""
@@ -2161,38 +2435,73 @@ msgid "No stack defined."
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:214
+#: src/gui/dialogs/game_load.cpp:235
 msgid "#(Invalid)"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:232
+#: src/gui/dialogs/game_load.cpp:255
 msgid "Campaign: $campaign_name"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:249
+#: src/gui/dialogs/game_load.cpp:274
 msgid "replay"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:251
+#: src/gui/dialogs/game_load.cpp:276
 msgid "Turn"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:253
+#: src/gui/dialogs/game_load.cpp:278
 msgid "Scenario Start"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:256
+#: src/gui/dialogs/game_load.cpp:281
 msgid "Difficulty: "
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:258
+#: src/gui/dialogs/game_load.cpp:285
 msgid "Version: "
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_main.cpp:386
+msgid "Observers allowed"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_main.cpp:389
+msgid "Observers not allowed"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_main.cpp:664
+msgid "Whisper session with $name started. If you don't want to receive messages from this user, type /ignore $name\n"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_main.cpp:670
+msgid "Room $name joined"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_main.cpp:1088
+msgid "Password Required"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_main.cpp:1089
+msgid "Joining this game requires a password."
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_main.cpp:1090
+msgid "Password: "
 msgstr ""
 
 #. +> trunk 1.6
@@ -2206,7 +2515,7 @@ msgid "Load Game..."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/dialogs/title_screen.cpp:77
+#: src/gui/dialogs/title_screen.cpp:88
 msgid "Version"
 msgstr ""
 
@@ -2216,27 +2525,27 @@ msgid "Mandatory widget '$id' hasn't been defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:140
+#: src/gui/widgets/settings.cpp:143
 msgid "No default gui defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:307
+#: src/gui/widgets/settings.cpp:303
 msgid "Window not defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:404
+#: src/gui/widgets/settings.cpp:400
 msgid "Widget definition '$definition' doesn't contain the definition for '$id'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:546
+#: src/gui/widgets/settings.cpp:542
 msgid "No state or draw section defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/window.cpp:712 src/tests/gui/test_gui2.cpp:232
+#: src/gui/widgets/window.cpp:710 src/tests/gui/test_gui2.cpp:232
 msgid "Failed to show a dialog, which doesn't fit on the screen."
 msgstr ""
 
@@ -2296,7 +2605,7 @@ msgid "Toggle Full Screen"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:57 src/hotkeys.cpp:899
+#: src/hotkeys.cpp:57 src/hotkeys.cpp:885
 msgid "Screenshot"
 msgstr ""
 
@@ -2326,7 +2635,12 @@ msgid "Save Replay"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:64
+#: src/hotkeys.cpp:64 src/hotkeys.cpp:111
+msgid "Save Map"
+msgstr ""
+
+#. +> 1.6
+#: src/hotkeys.cpp:63
 msgid "Save The Map"
 msgstr ""
 
@@ -2378,11 +2692,6 @@ msgstr ""
 #. +> trunk 1.6
 #: src/hotkeys.cpp:75
 msgid "Speak"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/hotkeys.cpp:76
-msgid "Create Unit (Debug!)"
 msgstr ""
 
 #. +> trunk
@@ -2503,11 +2812,6 @@ msgstr ""
 #. +> trunk 1.6
 #: src/hotkeys.cpp:110
 msgid "Load Map"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/hotkeys.cpp:111
-msgid "Save Map"
 msgstr ""
 
 #. +> trunk 1.6
@@ -2766,22 +3070,22 @@ msgid "User-Command#3"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:654 src/hotkeys.cpp:944
+#: src/hotkeys.cpp:642 src/hotkeys.cpp:930
 msgid "Do you really want to quit?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:899
+#: src/hotkeys.cpp:885
 msgid "Map-Screenshot"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:906
+#: src/hotkeys.cpp:892
 msgid "Screenshot done"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/hotkeys.cpp:908
+#: src/hotkeys.cpp:894
 msgid "Screenshot failed"
 msgstr ""
 
@@ -2867,7 +3171,7 @@ msgid "Island"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/marked-up_text.cpp:401
+#: src/marked-up_text.cpp:397
 msgid "The maximum text width is less than 1."
 msgstr ""
 

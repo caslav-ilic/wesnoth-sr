@@ -7,10 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  wesnoth.cpp.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-07-19 13:31+0200\n"
+"POT-Creation-Date: 2009-08-26 15:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +17,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"#-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-07-19 13:31+0200\n"
+"POT-Creation-Date: 2009-08-26 14:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,6 +93,30 @@ msgstr ""
 msgid "Number of seconds to wait for a ping reply before we time out. Disable with 0."
 msgstr ""
 
+#. [advanced_preference]: type=boolean
+#. +> trunk
+#: data/advanced_preferences.cfg:79
+msgid "Accept whisper messages from friends only"
+msgstr ""
+
+#. [advanced_preference]: type=boolean
+#. +> trunk
+#: data/advanced_preferences.cfg:86
+msgid "Auto-open whisper windows in lobby"
+msgstr ""
+
+#. [advanced_preference]: type=boolean
+#. +> trunk
+#: data/advanced_preferences.cfg:93
+msgid "Group players in lobby"
+msgstr ""
+
+#. [advanced_preference]: type=boolean
+#. +> trunk
+#: data/advanced_preferences.cfg:100
+msgid "Lobby sounds"
+msgstr ""
+
 #. [message]: speaker=narrator
 #. +> trunk
 #: data/ai/scenarios/ai_arena_small/0002-poisoning.cfg:16
@@ -119,7 +141,7 @@ msgstr ""
 #. [unstore_unit]
 #. +> trunk 1.6
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_Desert_Of_Death.cfg:304
-#: src/actions.cpp:1125 src/actions.cpp:1400
+#: src/actions.cpp:1142 src/actions.cpp:1417
 msgid "poisoned"
 msgstr ""
 
@@ -175,7 +197,7 @@ msgstr ""
 #. [then]
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:1241
-#: src/actions.cpp:1130 src/actions.cpp:1405
+#: src/actions.cpp:1147 src/actions.cpp:1422
 msgctxt "female"
 msgid "slowed"
 msgstr ""
@@ -184,7 +206,7 @@ msgstr ""
 #. [else]
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:1244
-#: src/actions.cpp:1130 src/actions.cpp:1405
+#: src/actions.cpp:1147 src/actions.cpp:1422
 msgid "slowed"
 msgstr ""
 
@@ -250,349 +272,349 @@ msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:194
+#: data/core/about.cfg:201
 msgid "General Purpose Administration and Coordination"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:212
+#: data/core/about.cfg:219
 msgid "Artwork and Graphics"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:531
+#: data/core/about.cfg:547
 msgid "Music"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:565
+#: data/core/about.cfg:581
 msgid "Sound Effects"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:581
+#: data/core/about.cfg:597
 msgid "Campaign Design"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:648
+#: data/core/about.cfg:664
 msgid "Multiplayer Maps and Balancing"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:689
+#: data/core/about.cfg:705
 msgid "Packagers"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:755
+#: data/core/about.cfg:771
 msgid "Miscellaneous contributors"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:964
+#: data/core/about.cfg:974
 msgid "Internationalization Managers"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:989
+#: data/core/about.cfg:999
 msgid "English strings edition"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:996
+#: data/core/about.cfg:1006
 msgid "Afrikaans Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1012
+#: data/core/about.cfg:1022
 msgid "Arabic Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1019
+#: data/core/about.cfg:1029
 msgid "Basque Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1032
+#: data/core/about.cfg:1042
 msgid "Bulgarian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1051
+#: data/core/about.cfg:1061
 msgid "Catalan Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1089
+#: data/core/about.cfg:1099
 msgid "Chinese Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1127
+#: data/core/about.cfg:1137
 msgid "Chinese (Taiwan) Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1149
+#: data/core/about.cfg:1159
 msgid "Croatian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1156
+#: data/core/about.cfg:1166
 msgid "Czech Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1216
+#: data/core/about.cfg:1226
 msgid "Danish Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1247
+#: data/core/about.cfg:1257
 msgid "Dutch Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1305
+#: data/core/about.cfg:1315
 msgid "English (GB) Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1318
+#: data/core/about.cfg:1328
 msgid "Esperanto Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1337
+#: data/core/about.cfg:1347
 msgid "Estonian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1347
+#: data/core/about.cfg:1357
 msgid "Filipino Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1357
+#: data/core/about.cfg:1367
 msgid "Finnish Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1397
+#: data/core/about.cfg:1407
 msgid "French Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1523
+#: data/core/about.cfg:1545
 msgid "Friulian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1530
+#: data/core/about.cfg:1552
 msgid "Galician Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1565
+#: data/core/about.cfg:1587
 msgid "German Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1620
+#: data/core/about.cfg:1642
 msgid "Greek Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1651
+#: data/core/about.cfg:1673
 msgid "Hebrew Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1664
+#: data/core/about.cfg:1686
 msgid "Hungarian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1725
+#: data/core/about.cfg:1747
 msgid "Icelandic translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1735
+#: data/core/about.cfg:1757
 msgid "Indonesian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1742
+#: data/core/about.cfg:1764
 msgid "Italian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1777
+#: data/core/about.cfg:1799
 msgid "Japanese Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1803
+#: data/core/about.cfg:1825
 msgid "Korean Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1810
+#: data/core/about.cfg:1832
 msgid "Latin Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1817
+#: data/core/about.cfg:1839
 msgid "Latvian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1824
+#: data/core/about.cfg:1846
 msgid "Lithuanian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1838
+#: data/core/about.cfg:1863
 msgid "Macedonian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1846
+#: data/core/about.cfg:1871
 msgid "Marathi Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1855
+#: data/core/about.cfg:1880
 msgid "Norwegian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1880
+#: data/core/about.cfg:1905
 msgid "Polish Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1929
+#: data/core/about.cfg:1954
 msgid "Portuguese Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1936
+#: data/core/about.cfg:1961
 msgid "Portuguese (Brazil) Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1971
+#: data/core/about.cfg:1996
 msgid "Romanian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1979
+#: data/core/about.cfg:2004
 msgid "Russian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2036
+#: data/core/about.cfg:2061
 msgid "Serbian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2051
+#: data/core/about.cfg:2076
 msgid "Slovak Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2077
+#: data/core/about.cfg:2102
 msgid "Slovenian Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2090
+#: data/core/about.cfg:2115
 msgid "Spanish Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2142
+#: data/core/about.cfg:2167
 msgid "Swedish Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2171
+#: data/core/about.cfg:2196
 msgid "Turkish Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2193
+#: data/core/about.cfg:2218
 msgid "Valencian (southern Catalan) Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2206
+#: data/core/about.cfg:2231
 msgid "RACV's Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2213
+#: data/core/about.cfg:2238
 msgid "Bots"
 msgstr ""
 
@@ -614,7 +636,7 @@ msgstr ""
 #. [section]: id=traits_section
 #. [topic]: id=..traits_section
 #. +> trunk 1.6
-#: data/core/help.cfg:33 data/core/help.cfg:355 src/menu_events.cpp:855
+#: data/core/help.cfg:33 data/core/help.cfg:355 src/menu_events.cpp:845
 msgid "Traits"
 msgstr ""
 
@@ -1829,7 +1851,7 @@ msgstr ""
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [topic]: id=terrain_village
 #. +> trunk 1.6
-#: data/core/help.cfg:669 src/terrain.cpp:141
+#: data/core/help.cfg:669 src/terrain.cpp:148
 msgid "Village"
 msgstr ""
 
@@ -2214,11 +2236,28 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=debug_commands
-#. +> trunk 1.6
-#: data/core/help.cfg:859
+#. +> trunk
+#: data/core/help.cfg:861
+msgid ""
+"\n"
+"Modifies the specified property of the selected unit. Example: :unit hitpoints=100\n"
+"\n"
+msgstr ""
+
+#. [topic]: id=debug_commands
+#. +> 1.6
+#: data/core/help.cfg:846
 msgid ""
 "\n"
 "Modifies the specified property of the selected unit. Example: :unit hitpoints=100"
+msgstr ""
+
+#. [topic]: id=debug_commands
+#. +> trunk
+#: data/core/help.cfg:862
+msgid ""
+"\n"
+"Makes the selected unit level up N times. Example: :unit advances=2"
 msgstr ""
 
 #. [heals]: id=curing
@@ -3097,98 +3136,108 @@ msgstr ""
 msgid "storm trident"
 msgstr ""
 
-#. +> trunk 1.6
+#. +> trunk
+#: data/core/macros/names.cfg:18
+msgid "Egar,Elch,Ga'ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin Ohn,Garrutin,Gart'lo,Garushi,Gashinar,Gashol,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Gost,Grada,Græt Ihn,Grashen,Gravlan,Grag,Grelnit,Grenn Ohn,Greth,Gribbel,Gridda,Grish,Gron Ihn,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kask,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Margian,Mar'Ildian,Markan,Markinos,Mar Ohn,Marra Di'lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermad,Vertick,Vladnir"
+msgstr ""
+
+#. +> 1.6
 #: data/core/macros/names.cfg:3
 msgid "Egar,Elch,Ga'ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin ohn,Garrutin,Gart'lo,Garushi,Gashinar,Gashöl,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Goyst,Grada,Græt Ihn,Grashen,Gravlan,Gray,Grelnit,Grenn ohn,Gretz,Gribbel,Gridda,Grish,Gron ih,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kasp,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Mal,Margian,Marhildian,Markan,Markinos,Mar Ohn,Marra Di'lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermay,Vertick,Vladnir"
 msgstr ""
 
-#. +> trunk 1.6
+#. +> trunk
+#: data/core/macros/names.cfg:19
+msgid "Alen Ka,Alinash Mal,Ashirt,Auginet Ka,Auuglann,Damell,Dell,Demla,Dinsill,Eshi,Olath,Omage,Omagrra,Orra Ka,Orridan,Orrida,Oshibi,Vallin,Valnirra,Valnitt,Velisk,Verra,Vellin Ka,Veshtar,Vushtin"
+msgstr ""
+
+#. +> 1.6
 #: data/core/macros/names.cfg:4
 msgid "Alen Ka,Alinash Mal,Ashijt,Auginet Ka,Auuglann,Damell,Dell,Demla,Dinsill,Eshyi,Olath,Omage,Omagrra,Orra Ka,Orridan,Orriday,Oshibi,Vallin,Valnirra,Valnitt,Velisp,Vellin Ka,Vushtin,Werra,Weshter,Wilniss"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:8
+#: data/core/macros/names.cfg:23
 msgid "Aigaithas,Aigaithil,Aigaithing,Aigaithol,Aigalas,Aigaling,Aigalis,Aigalol,Aigalsil,Aigatas,Aigatis,Aigatlos,Aigatsil,Aigatsol,Aigatus,Aigcatas,Aigcatil,Aigcating,Aigcatis,Aigcatsil,Aigcatsol,Aigcatus,Aigdring,Aigdris,Aigdrlos,Aigdrsil,Aigdrsol,Aigduras,Aigdurlos,Aigdursol,Aigthaing,Aigthais,Aigthasil,Aigthaus,Alaithas,Alaithis,Alaithlos,Alaithol,Alaithsol,Alaithus,Alalas,Alalil,Alalol,Alalsol,Alalus,Alatas,Alatil,Alating,Alatlos,Alatsil,Alcatil,Alcatis,Alcatlos,Alcatsil,Aldras,Aldril,Aldring,Aldris,Aldrlos,Aldrol,Aldrsol,Alduras,Aldurlos,Aldurol,Althaas,Althail,Althalos,Althaol,Althasil,Althasol,Althaus,Anaithas,Anaithil,Anaithing,Anaithis,Anaithsil,Anaithus,Analil,Anallos,Analol,Analsil,Analus,Anatas,Anating,Anatis,Anatol,Anatsol,Ancatas,Ancatil,Ancatol,Ancatus,Andril,Andris,Andrlos,Andrus,Anduril,Andurol,Andursol,Andurus,Anthaas,Anthaing,Anthais,Anthaol,Anthasil,Anthasol,Anthaus,Augaithas,Augaithing,Augaithsil,Augaithus,Augalas,Augaling,Augalol,Augating,Augatlos,Augatol,Augatsil,Augatsol,Augcatas,Augcatil,Augcatis,Augcatol,Augcatsil,Augcatus,Augdras,Augdris,Augdrsil,Augdrus,Augduras,Augduril,Augduring,Augdurol,Augdursol,Augdurus,Augthail,Augthais,Augthalos,Augthaol,Dulaithil,Dulaithing,Dulaithlos,Dulaithsil,Dulaithsol,Dulalas,Dulaling,Dulalis,Dulalsil,Dulatil,Dulating,Dulatol,Dulatsol,Dulatus,Dulcatil,Dulcating,Dulcatlos,Dulcatol,Dulcatsil,Dulcatsol,Duldril,Duldris,Duldrlos,Duldrol,Duldrsil,Duldrus,Dulduras,Dulduring,Duldursil,Duldurus,Dulthalos,Dulthasil,Dulthasol,Dulthaus,Glamaithil,Glamaithis,Glamaithol,Glamaithsol,Glamalil,Glamaling,Glamalis,Glamallos,Glamalsil,Glamalus,Glamatil,Glamatus,Glamcatas,Glamcatil,Glamcating,Glamcatsil,Glamcatus,Glamdras,Glamdril,Glamdrlos,Glamdrsol,Glamduras,Glamduril,Glamduring,Glamduris,Glamdursol,Glamthaas,Glamthaol,Glamthasil,Glamthasol,Glamthaus,Glomin,Gomaithas,Gomaithil,Gomaithol,Gomaithsol,Gomalil,Gomalis,Gomalus,Gomatas,Gomatil,Gomating,Gomatis,Gomatlos,Gomatol,Gomcatil,Gomcatis,Gomcatlos,Gomdras,Gomdril,Gomdring,Gomdris,Gomdrol,Gomdrsil,Gomduris,Gomdurlos,Gomdursil,Gomdursol,Gomdurus,Gomthaas,Gomthalos,Gomthasol,Naraithil,Naraithing,Naraithol,Naraithsil,Naraithsol,Naraithus,Naralas,Naralil,Naralsil,Naralus,Naratlos,Naratol,Naratsil,Narcating,Narcatis,Narcatol,Narcatsil,Narcatsol,Nardras,Nardril,Nardring,Nardris,Nardrol,Nardrsil,Nardrsol,Nardrus,Narduras,Narduril,Nardurol,Narthalos,Narthaol,Pelaithas,Pelaithil,Pelaithing,Pelaithis,Pelaithlos,Pelaithol,Pelaithsil,Pelaithsol,Pelalil,Pelaling,Pelalis,Pelalsil,Pelalsol,Pelalus,Pelatil,Pelating,Pelatis,Pelatol,Pelatsil,Pelatus,Pelcating,Pelcatlos,Pelcatol,Pelcatsil,Peldras,Peldril,Peldrsol,Peldrus,Pelduril,Pelduring,Pelduris,Peldurol,Peldursol,Peldurus,Pelthaas,Pelthail,Pelthasil,Trithaithas,Trithaithil,Trithaithis,Trithaithlos,Trithaithol,Trithaithsil,Trithaithsol,Trithaithus,Trithalis,Trithalol,Trithatas,Trithatil,Trithatlos,Trithatsol,Trithcatlos,Trithcatsol,Trithcatus,Trithdril,Trithdring,Trithdris,Trithdrlos,Trithdrol,Trithdrsol,Trithdrus,Trithduril,Trithduring,Trithdurlos,Trithdurol,Trithdursil,Trithdurus,Triththaas,Triththail,Triththaing,Triththasol,Triththaus"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:12
+#: data/core/macros/names.cfg:27
 msgid "Amadrieriand,Amáril,Amelad,Ameldor,Amendel,Ameng,Amilmaldur,Amilmalith,Amilmandir,Amind,Amiol,Amiorion,Amithrarion,Amóldor,Amorfimir,Amorfir,Amowyn,Amulas,Amundil,Anán,Anebrin,Anebrir,Anémbor,Anénduil,Anerion,Anilad,Anil-Gawyn,Anilmambor,Anilmariand,Anior,Anithranduil,Anol,Anon,Anorfing,Anundil,Belán,Belandil,Belarandel,Belel,Belén,Belil-Gandil,Belilmand,Belilmang,Beliondil,Beliril,Belithraldor,Belithrawyn,Belólad,Belómir,Belondel,Belyrion,Cadriembor,Cadrieriand,Cálad,Caladrielas,Calándel,Caldur,Cáldur,Calebrindel,Calebrindir,Calénduil,Calil-Gandir,Calil-Gawyn,Calioriand,Caliril,Calónduil,Caloril,Cándir,Canduil,Caraldur,Carang,Célad,Celadrieriand,Celang,Celaral,Celarandil,Celáriand,Celebririon,Celelas,Celendel,Celér,Celilmalas,Celiondir,Celior,Celiorion,Celong,Celór,Celóril,Celorion,Celundir,Celuwyn,Celyndel,Cénduil,Cindil,Ciong,Cithralad,Cithraldur,Cithrand,Cithrandel,Cithraril,Col,Corfil,Corfildur,Cówyn,Cun,Cundir,Cylas,Delán,Delánd,Delandel,Delaraldur,Deláril,Delawyn,Deléng,Delilmaldor,Deliol,Delithrar,Deliwyn,Delóldor,Delorfilad,Delorfilith,Delorion,Delundil,Eäradriendel,Eäradrier,Eäránduil,Eäraralad,Eärebrindel,Eäréldor,Eäreng,Eärérion,Eärithrandil,Eäromir,Eärorfiriand,Eäryldur,Eäryriand,Eladrieng,Elálith,Elánd,Elándil,Elebrildor,Elebrindel,Elebriril,Elélas,Elémbor,Elemir,Elen,Elil-Garil,Elilmaldur,Eliomir,Eliondil,Elolas,Elólas,Elor,Elorfilad,Elradrien,Elralith,Elran,Elreldur,Elrilmand,Elrioldor,Elriolith,Elrithralith,Elrithranduil,Elrorfir,Elval,Elvandir,Elvaramir,Elváwyn,Elvebrind,Elvebrindel,Elvélith,Elvémir,Elverion,Elvil-Garion,Elvilmaldur,Elvilmaril,Elvioldur,Elvombor,Elvónduil,Elvorfimir,Elvorfiriand,Elvorfiril,Elvóriand,Elvund,Elyldor,Elyrion,Eowambor,Eowanduil,Eowar,Eowaraldor,Eowaran,Eowarar,Eowariand,Eowarion,Eowebrind,Eowémir,Eowil-Garion,Eowimbor,Eowiomir,Eowithrawyn,Eowóldur,Eoworfildor,Eowówyn,Eowylas,Fadriendel,Fandel,Farandir,Fáwyn,Fendel,Fer,Filman,Fioril,Fithraril,Forfilas,Fyrion,Gadriendil,Gadrieng,Galadrieldor,Galálad,Galálas,Galalith,Galar,Galelas,Galeldur,Galelith,Galémbor,Galithrariand,Galoldur,Galuldur,Galur,Galurion,Gambor,Gán,Ganduil,Garaldor,Gararil,Gelad,Géril,Gil-Gandel,Gil-Gang,Giombor,Githral,Githralad,Gladriendil,Glal,Glámbor,Glandil,Glarang,Glararil,Glilmal,Glimir,Glior,Glólas,Gloldor,Glómir,Glon,Glul,Golad,Gor,Gumbor,Gyl,Gymbor,Gyn,Harariand,Háriand,Hebril,Hemir,Hénduil,Hilas,Hil-Garion,Hilmariand,Hiong,Hirion,Hithrandel,Horfilad,Horfindel,Hundel,Hymir,Hyrion,Hywyn,Isadrieng,Isándir,Isarandel,Isarar,Iselas,Isér,Isilmandel,Isirion,Isithral,Isól,Isóndel,Isóng,Isorfilad,Isorfindir,Isuwyn,Isyndel,Legal,Legaran,Legémir,Legéril,Legilad,Legil-Gal,Legiondel,Legithralith,Legorfindil,Legorfirion,Legówyn,Legyl,Legyn,Linduilas,Lómadrieril,Lómarand,Lómariand,Lómebrilad,Lómebrind,Lómémbor,Lómilmaril,Lómiriand,Lómorfindil,Lómowyn,Madrieril,Maldur,Mánduil,Maraldur,Mebrin,Méng,Mérion,Miolith,Miomir,Mithrand,Mondir,Móndir,Morfilas,Morfin,Morfiriand,Mylith,Nadrieldor,Nalith,Nán,Nél,Nil-Galas,Nil-Galith,Nil-Gar,Nilmar,Nóndel,Norfildor,Norfilith,Norfindil,Norfindir,Numbor,Nyldur,Padrieriand,Padrieril,Pamir,Paraldor,Parariand,Pilmalad,Pindir,Pór,Porfildur,Pumbor,Pyldur,Rebrir,Réndir,Rilmandil,Rithrandil,Ról,Róldor,Roldur,Róldur,Rorfilad,Rorfindil,Rówyn,Ryn,Sadrielas,Sebrin,Sebriril,Sénd,Sil-Gal,Sólad,Sorfind,Sóriand,Tadriendir,Taral,Taraldur,Táriand,Tendel,Téwyn,Thradrieriand,Thrambor,Thraral,Threbring,Thrélad,Thréldur,Thril-Gamir,Thril-Gandir,Thril-Gar,Thrilmandel,Thrimir,Thrion,Thrithran,Throlas,Thrón,Thróng,Thrund,Thryriand,Til-Gan,Tilmalad,Tilmalas,Tinandir,Tinarambor,Tinarariand,Tinén,Tinil-Ganduil,Tinilmand,Tinilmawyn,Tinimir,Tinindil,Tinithrar,Tinoldor,Tinond,Tinorfind,Tinorfiriand,Tinóriand,Tinowyn,Tinun,Tinyl,Tion,Tolas,Torfildur,Tówyn,Tylad,Unadrieldor,Unadrier,Unál,Unalas,Unálas,Unaraldur,Unaril,Unárion,Unebrin,Unebrind,Uneldor,Unil,Unil-Gan,Uniolith,Unioril,Unólith,Unombor,Unóndel,Unondir,Unorfildor,Unorfiril,Unorfiwyn,Unulad,Uradrielas,Uradrierion,Urálas,Urálith,Urambor,Urér,Uril-Gambor,Urilmalith,Uróldor,Urorfildor,Urul,Urymir,Válad,Ván,Vándel,Vandir,Varalas,Vararion,Vebril,Vebrilas,Vebrinduil,Vel,Vilith,Vol,Vólas,Vóldur,Vondel,Vorfin,Vorfindil,Vulas,Vuldur,Vunduil,Vylas,Vyldor"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:13
+#: data/core/macros/names.cfg:28
 msgid "Amadrielia,Amadrielindë,Amadriendra,Amadriewen,Amarang,Amebrilindë,Amedë,Améthien,Amewien,Amil-Gadith,Amil-Garith,Amilmadia,Amiolith,Amionia,Amithraniel,Amithrawien,Amiwen,Amodë,Amorfilith,Amorith,Amulia,Amuviel,Amuwen,Analia,Anang,Anaraclya,Anáthien,Anebriniel,Anilmarith,Aning,Aniorith,Anówien,Anundra,Anuthiel,Anuthien,Anylindë,Anythien,Anywien,Belaclya,Beladrielith,Beladriewen,Beladriewien,Belarania,Belaraviel,Belebrindra,Belendra,Beliolia,Belithraniel,Belithrawiel,Belithrawien,Belowen,Belulindë,Cádë,Cadriewen,Caladrieng,Calándra,Calang,Calánia,Calebriwien,Calewen,Calewiel,Calil-Galith,Calilmalith,Calithraclya,Calóniel,Calorfiniel,Calówien,Caluclya,Ceclya,Celadë,Celália,Celálindë,Celarandra,Celararith,Celárith,Celebriniel,Celebriviel,Celelith,Celéng,Celérith,Celidien,Celilith,Celindë,Celiodë,Celioniel,Celith,Celithradith,Celódith,Celorfilindë,Celorfing,Celorfiwien,Celówien,Celylia,Cethien,Cing,Cithralith,Cithrania,Cithrawen,Cólindë,Corfiviel,Cydia,Delararith,Delebrinia,Deléthien,Delil-Ganiel,Deliowen,Delithrathiel,Delóndra,Delorfilindë,Delorfithien,Deloviel,Delydien,Eäradriedien,Eärániel,Eärarawien,Eärélia,Eärenia,Eärewen,Eäréwiel,Eärilmadë,Eärilmathien,Eäriolith,Eärithrang,Eärorfiwien,Eärudë,Eladriedë,Eladrielia,Elarawiel,Elebrindra,Eledë,Elelith,Elil-Gang,Elilmalia,Elilmawien,Elithraclya,Elithradien,Elóndra,Elorfing,Elorfithien,Elradrierith,Elránia,Elrebridith,Elréthiel,Elrilindë,Elrilmandra,Elrilmathien,Elrithiel,Elrithradith,Elriwen,Elródith,Elrorfidia,Eluviel,Elvádia,Elvánia,Elvil-Gawien,Elvilmathiel,Elviniel,Elviondra,Elvithrang,Elvithrathien,Elvowien,Elvyniel,Elvyviel,Elynia,Elywen,Eowalia,Eowarawien,Eowathiel,Eowebridith,Eowedith,Eowidien,Eowil-Galindë,Eowilindë,Eowiowien,Eowylia,Eowyniel,Fadriedith,Fadrielia,Fadriendra,Fadrienia,Falindë,Fáthiel,Fathien,Fáwien,Feclya,Féthiel,Fil-Galia,Fil-Gathiel,Fil-Gawien,Filmaclya,Fioniel,Fódë,Fólindë,Fulindë,Gadrieclya,Gadrieviel,Galadriethien,Galándra,Galaraniel,Galebrilia,Galebrindra,Galédë,Galedien,Galéwiel,Galil-Gania,Galilmadia,Galiothiel,Galithrathien,Galólia,Galolindë,Galorfiwiel,Galothiel,Galowen,Galundra,Galyniel,Gathien,Gáviel,Gebririth,Gewen,Gil-Gawien,Gilia,Gioniel,Gioviel,Giowen,Githrania,Githrawiel,Glália,Glebrithien,Gléndra,Glilmadien,Glilmawiel,Glithiel,Gloclya,Glodith,Glorfilith,Gloviel,Glowiel,Goclya,Godien,Gólia,Golindë,Guviel,Harawiel,Haviel,Háwien,Héclya,Hedia,Helith,Hewen,Hil-Gania,Hiodë,Hiwien,Hodia,Hódia,Horfinia,Horfiwien,Hóthiel,Huclya,Hunia,Huthien,Hyclya,Hythiel,Hythien,Isadrieng,Isáwen,Isebridien,Isebrinia,Isendra,Iséng,Iseviel,Isil-Garith,Isilindë,Isithradë,Isithradien,Isithrarith,Isithrawiel,Isóthien,Legádë,Legadien,Legadrieclya,Legadriedë,Legadrieniel,Legaraclya,Legebrilia,Legelith,Legeng,Legéniel,Legethiel,Legidia,Legil-Galindë,Legilmadith,Legilmawiel,Legithralindë,Legithrandra,Legithrania,Legolith,Legondra,Legorfidë,Lómániel,Lómebriclya,Lómebriniel,Lómedia,Lómeniel,Lómiclya,Lómilindë,Lómilmathiel,Lómilmawiel,Lómithradë,Lómithrarith,Lómódë,Lómolith,Lómóndra,Lómorfing,Lómorith,Lómudia,Lómulindë,Lómuniel,Lómuthiel,Lómynia,Lómythien,Mádia,Madrieclya,Maraclya,Mebriwiel,Meclya,Medien,Mil-Gathiel,Mil-Gathien,Milindë,Milith,Miowen,Miowiel,Mithradë,Mithralindë,Módë,Módia,Moniel,Morfilindë,Munia,Myndra,Mywiel,Narania,Naraniel,Náviel,Nawen,Newen,Nil-Gang,Nilmadia,Niodien,Niolia,Niothien,Nithraniel,Nithrarith,Nowen,Nydith,Pádia,Padriedith,Paralindë,Parandra,Pawen,Pebridien,Pil-Gadia,Pil-Gadien,Pilindë,Pindra,Pong,Porfindra,Porfiwien,Póviel,Pulia,Puthien,Reniel,Réviel,Ril-Gawien,Rindra,Riothien,Róng,Rorfiviel,Sadrienia,Sadrierith,Sálindë,Sáng,Saradith,Sarandra,Sédith,Sendra,Sethien,Silmaclya,Silmathiel,Sioclya,Siorith,Sithrang,Sithrawen,Soniel,Sothiel,Sothien,Syniel,Tadrierith,Tang,Taradien,Tarathiel,Tathiel,Terith,Thradia,Thrália,Thraraviel,Threbriniel,Thredien,Thrérith,Thridith,Thrinia,Thrithradia,Thrithrandra,Thrithraniel,Throlith,Throng,Throthiel,Thrulith,Thruthien,Thryng,Til-Gandra,Tilmaclya,Tilmaviel,Tináclya,Tinadriethien,Tinálindë,Tinaraniel,Tinarathien,Tinawiel,Tinebrithiel,Tinerith,Tinil-Gania,Tinil-Gawiel,Tiniolith,Tinithrathiel,Tinóng,Tinorfilith,Tinorfithien,Tinudia,Tiorith,Tithrathien,Tówiel,Tuniel,Unadrieng,Unáthien,Unebridë,Unénia,Unil-Gadia,Unilmadia,Unindra,Uniodë,Uniolia,Uniong,Unionia,Unóndra,Unorfiwen,Unulindë,Unuviel,Unynia,Uraclya,Uradriedia,Uránia,Urárith,Urebriclya,Ureclya,Urilmadia,Urilmawiel,Uriolia,Urithralindë,Uruthien,Uryrith,Vadrierith,Vadrieviel,Vadriewen,Varawiel,Vebrithien,Vil-Gandra,Violindë,Viowiel,Vithrang,Vithraniel,Viwiel,Vódia,Vóng,Vorficlya,Vorfing,Vorfirith,Vorfiwiel,Vówien"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:18
+#: data/core/macros/names.cfg:33
 msgid "Graa,Greaa,Gree,Kaaa,Kassshh,Kessshh,Korro,Kraa,Kuu,Kzaaa,Kzuuu"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:19
+#: data/core/macros/names.cfg:34
 msgid "Kaasa,Kayya,Keyya,Kiira,Korra"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:23
+#: data/core/macros/names.cfg:38
 msgid "Addraecyn,Addraenvan,Addraer,Addraercyn,Addraryn,Addreddry,Addredry,Addregwyn,Addrenyc,Addreoddry,Addreoddyn,Addreonyc,Addreorcyn,Addreran,Addribryn,Addriddyn,Addrocyn,Addroryn,Addrunvan,Addrurcyn,Addryllyn,Addrynvan,Aethacyn,Aethadry,Aethaec,Aethaeran,Aethaeryn,Aethagwyn,Aethanry,Aetharcyn,Aethec,Aethellyn,Aethenvan,Aetheoc,Aetheollyn,Aetheonyc,Aetheorcyn,Aethercyn,Aetherraent,Aethibryn,Aethiddry,Aethircyn,Aethobryn,Aethoddyn,Aethonnyn,Aethuc,Aethudry,Aethugwyn,Aethun,Aethunry,Aethydry,Aethynyc,Blac,Bladoc,Blaec,Blaedry,Blanry,Blebryn,Bledoc,Blemyr,Blennyn,Blenvan,Bleollyn,Blercyn,Blidd,Bliddry,Blillyn,Blinvan,Blollyn,Blubryn,Blucyn,Bludry,Blullyn,Bluran,Blybryn,Blydd,Blygwyn,Blymyr,Blyr,Bucyn,Cac,Cadry,Caebryn,Caedry,Caeran,Caercyn,Car,Carac,Caraddry,Caradoc,Caraedry,Caraennyn,Cararyn,Caredd,Careddry,Caregwyn,Caren,Careobryn,Careogwyn,Careonvan,Careorraent,Careoryn,Carercyn,Caric,Cariddry,Carocyn,Caroddyn,Caror,Caroran,Carraent,Carudoc,Carullyn,Carygwyn,Caryn,Cebryn,Cemyr,Cennyn,Ceoc,Ceoddry,Ceoddyn,Ceomyr,Ceonnyn,Ceonry,Ceoryn,Cicyn,Cin,Cinry,Coc,Convan,Corcyn,Cubryn,Cunry,Curyn,Cynyc,Cyryn,Dac,Dadd,Dadoc,Daeddry,Daedoc,Daellyn,Demyr,Denvan,Deodd,Deollyn,Deonyc,Derraent,Dibryn,Dinnyn,Dircyn,Dycyn,Dyddyn,Gaddry,Gaebryn,Gaedry,Gaercyn,Gagwyn,Gan,Gannyn,Gar,Gecyn,Geddyn,Gegwyn,Geodry,Ginvan,Glacyn,Gladoc,Glaercyn,Glarraent,Gleddry,Gleoddyn,Gleran,Gliddyn,Glillyn,Glinry,Glircyn,Gloddry,Gloddyn,Glonry,Glonvan,Glumyr,Glun,Glunry,Glunvan,Glyc,Glydd,Glydoc,Glynry,Glynvan,Glyran,Goc,Gor,Gubryn,Gudd,Gullyn,Gumyr,Gur,Gwadoc,Gwaec,Gwaeddyn,Gwan,Gweddyn,Gwegwyn,Gwellyn,Gwennyn,Gwenyc,Gweocyn,Gweodd,Gweodoc,Gweodry,Gweogwyn,Gweoran,Gwidoc,Gwilam,Gwodd,Gwoddyn,Gwollyn,Gwor,Gwucyn,Gwudoc,Gwumyr,Gwuran,Gwybryn,Gwycyn,Gwyddry,Gwydoc,Gwymyr,Gwynnyn,Gydoc,Gyllyn,Gymyr,Haldar,Labryn,Ladoc,Laellyn,Lan,Lannyn,Laran,Lec,Lemyr,Lenvan,Leogwyn,Lercyn,Ligwyn,Lin,Liryn,Lonnyn,Lorraent,Luddry,Ludoc,Lunnyn,Lunvan,Lurraent,Mac,Maddyn,Maennyn,Manry,Manyc,Marcyn,Mec,Menvan,Meollyn,Meon,Meonnyn,Meorraent,Middry,Midry,Mimyr,Modd,Moddry,Monry,Moran,Morcyn,Mubryn,Mudoc,Mugwyn,Murcyn,Mydoc,Mygwyn,Myn,Myrraent,Owac,Owadd,Owaddyn,Owaecyn,Owaedry,Owain,Owarcyn,Owaryn,Owecyn,Owedry,Oweomyr,Oweor,Oweorcyn,Oweran,Owercyn,Owidry,Owinvan,Owinyc,Owodd,Owoddry,Owogwyn,Owollyn,Oworan,Oworcyn,Oworraent,Owuddry,Owuddyn,Owugwyn,Owur,Owyran,Rabryn,Radd,Ranvan,Rar,Reoddyn,Reodry,Rhaecyn,Rhaedoc,Rhaemyr,Rhaerraent,Rhanry,Rharcyn,Rhenry,Rhenvan,Rhenyc,Rheodd,Rheoddyn,Rheollyn,Rheor,Rheoran,Rheorraent,Rheran,Rherraent,Rhobryn,Rhodry,Rhollyn,Rhonvan,Rhubryn,Rhugwyn,Rhunyc,Rhur,Rhygwyn,Rhyllyn,Rhynyc,Rhyrcyn,Rhyrraent,Rocyn,Roddyn,Romyr,Ron,Ronry,Rubryn,Ruddry,Rumyr,Run,Rurcyn,Rybryn,Rycyn,Ryddry,Rygwyn,Rynnyn,Rynry,Saec,Saellyn,Saemyr,Saenvan,Saercyn,Sanyc,Saran,Sarraent,Secyn,Seddyn,Sedry,Sellyn,Sennyn,Seoddry,Seorcyn,Sercyn,Siddry,Simyr,Siryn,Sodd,Sodry,Soran,Suc,Sudd,Surcyn,Sydd,Syran,Syryn,Tabryn,Taec,Taedd,Taedoc,Taemyr,Taenvan,Taercyn,Tanry,Tarcyn,Teddyn,Tegwyn,Ten,Tennyn,Tenvan,Teobryn,Teoddyn,Teor,Teorcyn,Terraent,Tinry,Tinvan,Tiryn,Todd,Tudd,Tuddry,Tudoc,Tunvan,Turraent,Tyddyn,Vaddyn,Vaeddyn,Vaedry,Vaennyn,Varcyn,Ven,Vennyn,Veocyn,Veoddyn,Veodry,Veogwyn,Veomyr,Vinvan,Vinyc,Virraent,Vobryn,Vogwyn,Vonry,Vuddyn,Vugwyn,Vyc,Vygwyn,Vyrcyn,Yracyn,Yraec,Yran,Yrannyn,Yranvan,Yraryn,Yredd,Yreddyn,Yregwyn,Yreryn,Yrinvan,Yrirraent,Yroddry,Yrullyn,Yrumyr,Yrunnyn,Yrunvan,Yryllyn,Yrymyr,Yrynyc,Yryrcyn"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:24
+#: data/core/macros/names.cfg:39
 msgid "Alabrylla,Alaebrylla,Alaeniver,Alalla,Alalonna,Alaryan,Aleacla,Aleaniver,Aleara,Alearka,Alena,Alengwen,Alilonna,Alingwen,Alolla,Alolonna,Alora,Alubrylla,Aluniver,Aluryan,Alussa,Alwcla,Alwllyra,Alwlyan,Alwna,Alybrylla,Alynoic,Alyra,Alyryan,Braedda,Brassa,Bravyan,Breabrylla,Breall,Brealla,Brealonna,Breana,Brell,Brellyra,Brera,Brerka,Breryan,Bricla,Brirka,Brobrylla,Brollyra,Brona,Bronoic,Brora,Brorka,Brungwen,Bruryan,Brwra,Brycla,Brynoic,Caella,Caena,Caengwen,Caevyan,Call,Calla,Cassa,Cealonna,Cera,Ceryan,Cibrylla,Cicla,Cinoic,Cira,Cissa,Clacla,Claella,Claelyan,Claenoic,Clalla,Clallyra,Clara,Clarka,Clavyan,Cleacla,Cleall,Clealyan,Cleana,Cleanoic,Clenoic,Clibrylla,Clill,Clillyra,Clilyan,Clinoic,Clissa,Clobrylla,Clollyra,Clona,Clongwen,Clungwen,Clurka,Cluvyan,Clwdda,Clwlla,Clwvyan,Clydda,Clylla,Cora,Coryan,Cucla,Cudda,Curyan,Cwdda,Cwlonna,Cwngwen,Cwvyan,Cydda,Cylla,Cyllyra,Cylyan,Cyniver,Cyvyan,Daedda,Daelyan,Daengwen,Daenoic,Dalla,Dallyra,Dangwen,Dara,Dassa,Deanoic,Deassa,Della,Devyan,Dicla,Diniver,Dissa,Dollyra,Dullyra,Dulonna,Dwbrylla,Dwdda,Dwna,Dwnoic,Dwra,Dybrylla,Dydda,Dyssa,Elacla,Elaedda,Elaell,Elaelonna,Elaessa,Elaevyan,Elallyra,Elalonna,Elara,Elavyan,Elealla,Eleanoic,Elearka,Elenoic,Elerka,Elivyan,Elulonna,Elurka,Elwllyra,Elwlonna,Elwngwen,Elwra,Elycla,Elyllyra,Elyngwen,Elyniver,Elyrka,Gwaera,Gwaessa,Gwangwen,Gweacla,Gwedda,Gwerka,Gwicla,Gwirka,Gwobrylla,Gwoll,Gwona,Gwongwen,Gwonoic,Gworyan,Gwullyra,Gwussa,Gwwcla,Gwwna,Gwwvyan,Gwycla,Gwydda,Heldra,Jacla,Jaena,Jaerka,Jaevyan,Jalyan,Jana,Jarka,Jassa,Jeabrylla,Jealla,Jeanoic,Jeniver,Jiryan,Jissa,Joll,Jolla,Jona,Jongwen,Jonoic,Jora,Jorka,Jovyan,Judda,Jull,Julonna,Jura,Jwll,Jwlyan,Jycla,Jyniver,Jynoic,Jyrka,Jyvyan,Laeniver,Laenoic,Laeryan,Langwen,Larka,Lassa,Lealonna,Lealyan,Ledda,Lelonna,Lelyan,Lengwen,Lerka,Lessa,Lidda,Lill,Lina,Lirka,Liryan,Livyan,Locla,Lodda,Lollyra,Lolonna,Lulla,Lulyan,Lungwen,Lunoic,Luryan,Lwcla,Lwlla,Lwnoic,Lwryan,Lycla,Lylla,Lylyan,Lyna,Lynoic,Maecla,Maeniver,Mavyan,Meacla,Mealyan,Meana,Meangwen,Meanoic,Medda,Melonna,Mengwen,Meniver,Meradda,Meraecla,Meraelyan,Merall,Merallyra,Meralonna,Merana,Meranoic,Merealonna,Mereangwen,Mereaniver,Merebrylla,Merella,Merengwen,Meressa,Merilyan,Merina,Merinoic,Merissa,Merivyan,Merolla,Merolyan,Merona,Meroniver,Merubrylla,Merudda,Merurka,Merwlla,Merwnoic,Merwryan,Merydda,Merylyan,Messa,Milonna,Molyan,Moniver,Mossa,Mudda,Mullyra,Mulyan,Muryan,Mwbrylla,Mwlyan,Mwngwen,Mwnoic,Mycla,Myll,Mylla,Myra,Myvyan,Nabrylla,Naebrylla,Naecla,Naell,Nalyan,Nangwen,Nealla,Neallyra,Nealonna,Neavyan,Nera,Nessa,Ninoic,Niryan,Nivyan,Nobrylla,Nolla,Nonoic,Norka,Noryan,Nucla,Nulla,Nulyan,Nungwen,Nuvyan,Nwllyra,Nwryan,Nwvyan,Nybrylla,Nyll,Nylyan,Nyryan,Nyssa,Nyvyan,Raebrylla,Raera,Raerka,Ralonna,Rara,Rarka,Rassa,Reacla,Realla,Reana,Reangwen,Rella,Relyan,Rengwen,Rerka,Revyan,Rilonna,Rilyan,Rirka,Rora,Rucla,Ruryan,Rwdda,Rwlla,Rwllyra,Rwlonna,Rwngwen,Rybrylla,Ryna,Ryngwen,Saell,Saellyra,Saeniver,Saerka,Saessa,Sallyra,Sanoic,Sara,Sassa,Searka,Sena,Senoic,Sera,Silonna,Sira,Siryan,Sona,Sorka,Subrylla,Sull,Sulonna,Sulyan,Sura,Sussa,Swlla,Swlyan,Swngwen,Swnoic,Swvyan,Syllyra,Sylyan,Syssa,Ysacla,Ysaenoic,Ysaerka,Ysanoic,Yseacla,Ysealonna,Ysealyan,Ysedda,Ysell,Yselonna,Ysilyan,Ysinoic,Ysodda,Ysongwen,Ysonoic,Ysura,Yswniver,Ysycla,Ysylla,Ysylyan,Ysyrka,Ysyssa"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:28
+#: data/core/macros/names.cfg:43
 msgid "Amprixta,Anexir,Anitraz,Arix,Axiz,Bzz'Kza,Chamil,Cleezi,Clezz,Fazzis,Fizztrax,Flixta,Flizzil,Frikes,Frizzle,Hasz,Heffez,Hertrazzir,Hesz,Hezzir,Hezzis,Hix,Inexis,Irix,Jezzix,Jizz,Kaliez,Kepzs,Kernix,Kersezz,Kertrasz,Kerx,Kerxenix,Kezz,Klexaz,Klezyx,Krarax,Krenarex,Krex,Krinex,Krisess,Laizix,Lazki,Lixeez,Merax,Mexiss,Moxanzz,Naxisz,Nix,Pekzs,Plaxis,Plesix,Presch,Sailik,Salanix,Salik,Sandix,Saprazz,Satras,Skalix,Skandix,Skazix,Skeely,Skeezix,Sklizle,Skrez,Slizilx,Sprizz,Ssexur,Ssizer,Ssorix,Sszasz,Sterizz,Talerez,Tarex,Tarnix,Tezzaz,Tirasch,Tirax,Tirix,Trezz,Venezz,Vriss,Waks,Xaffrasz,Xartrez,Xasz,Xaztex,Xerxix,Xirasz,Xirr,Xirtras,Xirtrez,Xirz,Zandler,Zedrix,Zilrix,Zizzasz,Zslap,Zzalkz,Zzupde"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:32
+#: data/core/macros/names.cfg:47
 msgid "Absu,Abzu,Aigaion,Alastyn,Apalala,Apam,Apsu,Aremata,Atlahua,Atlaua,Barinthus,Dhakhan,Dylan,Elcmar,Ember,Enki,Faro,Habaek,Ikatere,Jamm,Jin,Kinilau,Kulullu,Labuna,Laut,Lir,Llyr,Ludd,Makara,Maui,Melicertes,Mimir,Natat,Nechtan,Neptune,Nereus,Nethuns,Njord,Nuada,Nudd,Nudimmud,Nun,Oceanus,Okeanos,Phorcys,Pontus,Popoa,Poseidon,Proteus,Raja,Rau,Rorua,Ryujin,Scylla,Sinilau,Sisiutl,Tagaloa,Tanaoa,Tangaloa,Tangaroa,Thaumas,Tikitiki,Tini,Tinilau,Tinirau,Toniwha,Triton,Vizi,Vodnik,Vourukasa"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:33
+#: data/core/macros/names.cfg:48
 msgid "Aglaopheme,Amphitrite,Aphrodite,Ariel,Atargatis,Calypso,Delphine,Derceto,Diktynna,Electra,Galatea,Himeropa,Jengu,Leucosia,Ligia,Lori Lamaris,Mama Wata,Marina,Miranda,Miriam,Molpe,Parthenope,Pelagia,Pisinoe,Rân,Sedna,Stella Maris,Thelxiepia,Tirgata,Vatea,Ved-Ava,Veen emo,Vete-ema"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:37
+#: data/core/macros/names.cfg:52
 msgid "Abraxas,Aleiss,Amail,Axmail,Blanal,Bleii,Blo,Bress,Briss,Gaxmol,Griam,Griss,Grissileii,Hailoss,Hainoss,Harxos,Huzel,Inaloss,Ineii,Issal,Klezel,Kras,Krezkps,Kzap,Lamaiss,Lameii,Lexpek,Liness,Lobor,Maissol,Malinos,Milbor,Mileii,Nildloss,Oxpeii,Poniaz,Psell,Pson,Pzakp,Reii,Sassal,Saxil,Saxrireii,Sekol,Silas,Skell,Skepz,Slell,Snol,Soill,Sorkol,Srell,Trixoz,Vilail,Vissal,Vlanis,Xabrak,Xamalel,Xinas,Xnamos,Xopkon,Zalsp,Zlek,Zpsek,Zsekp"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:38
+#: data/core/macros/names.cfg:53
 msgid "Aliasse,Amailis,Axmailia,Blai,Blanalai,Bli,Bliana,Brassas,Brissal,Gaxmail,Griama,Grissa,Grissilai,Haila,Haina,Harxias,Huzi,Inai,Inalai,Issalai,Klez,Kras,Krezkps,Kzap,Lamai,Lamaissa,Lexpek,Liabra,Lilin,Linassa,Maissa,Malina,Mila,Milbra,Nildlasi,Oxpel,Poniazal,Psal,Psen,Pzakp,Riaa,Sall,Sassalia,Saxiala,Saxririaa,Sek,Skal,Skepz,Sla,Snelia,Srak,Sral,Szak,Trixzed,Vilaila,Vissalai,Vlanissa,Xabrak,Xamalia,Xina,Xinasia,Xnamas,Xopkne,Zalsp,Zlek,Zpsek,Zsekp"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:42
+#: data/core/macros/names.cfg:57
 msgid "Akoark,Akort,Akzalk,Arkarm,Barkuk,Blokkar,Borkuk,Bukkak,Bulruk,Corkkar,Delkkak,Garkuk,Gnukk,Goruk,Grak,Gurk,Gurm,Kalknix,Karak,Karbuk,Kargnak,Karterak,Kayrak,Kelkrar,Kerta,Kilkrar,Kingrok,Kirk,Klud,Kokkan,Kolk,Komak,Korgnak,Kork,Koruck,Kramak,Krog,Krukrak,Krumuk,Kuknuk,Kurkur,Kurmak,Makron,Markaak,Markuk,Merknik,Nargak,Olk,Orkut,Reknak,Takolak,Trabuk,Trakkon,Urkar,Urkark"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:46
+#: data/core/macros/names.cfg:61
 msgid "Badush,Bagar,Bagdish,Barag,Barbag,Bart,Bashnak,Bidish,Bidush,Bik,Bilg,Bilo,Binak,Bink,Biol,Birt,Bogar,Bogdish,Bogdush,Bogor,Bok,Bolg,Bong,Borg,Bork,Bort,Boshnak,Budush,Bugdish,Buk,Bunak,Bung,Bunk,Burag,Burg,Burk,Buurk,Eradash,Eradish,Eragdish,Eragdush,Eragor,Eranak,Erang,Erarag,Erarg,Erart,Erigdush,Erik,Erinak,Eriol,Erirag,Erirbag,Erirg,Erirt,Erishnak,Eriurk,Erogdish,Erogdush,Erok,Erong,Eronk,Erorbag,Erudish,Erudush,Erugar,Erugdush,Erulo,Erunk,Eruol,Erurag,Eruurk,Gadash,Gagar,Gagdush,Gagor,Galo,Ganak,Gank,Gaol,Garag,Gashnak,Gigor,Ginak,Ging,Gink,Girt,Gogdish,Gogdush,Gong,Gork,Gort,Goshnak,Gradash,Gragar,Gragor,Grak,Gralg,Gralo,Granak,Graol,Grarbag,Gridash,Gridish,Gridush,Grigar,Grigor,Grilg,Grilo,Grink,Grirag,Grirg,Grirk,Grishnak,Grodish,Grogar,Grogdish,Grok,Grolg,Grong,Gronk,Grorag,Grorg,Grork,Grort,Groshnak,Grudash,Grugar,Grugdish,Grugdush,Gruk,Grulo,Grunk,Gruol,Grurg,Grurk,Grurt,Gruurk,Gugdish,Gugdush,Gulg,Gulo,Gunak,Gurbag,Gurt,Gushnak,Hadash,Hadish,Hadush,Hagar,Hagdush,Hagor,Hak,Halg,Hank,Hashnak,Hidash,Hidish,Hidush,Higdush,Hilg,Hinak,Hing,Hink,Hiol,Hirag,Hirg,Hodush,Hogar,Hogor,Hong,Hool,Horbag,Hork,Hort,Hoshnak,Hudash,Hudish,Hugor,Huk,Hulg,Hulo,Hunk,Huol,Hurag,Hurbag,Hurk,Hushnak,Huurk,Pagdish,Pagor,Palg,Palo,Paol,Parag,Pashnak,Pidush,Pigdish,Pigdush,Pilg,Pinak,Pink,Pirbag,Podash,Podish,Podush,Pogdish,Polg,Porbag,Porg,Pork,Port,Poshnak,Pradish,Pragdush,Pragor,Pralg,Pralo,Prang,Praol,Prarag,Prarbag,Prarg,Prark,Prart,Prashnak,Praurk,Pridish,Prigar,Prigdish,Prigor,Prilg,Prilo,Prinak,Priol,Prirbag,Prirg,Prirt,Priurk,Prodash,Prodish,Prodush,Prolg,Prolo,Pronak,Prong,Pronk,Prool,Prourk,Prudish,Prugar,Prugdish,Pruk,Prunak,Prunk,Prurg,Prurk,Pruurk,Puk,Pulg,Pulo,Punak,Pung,Punk,Purag,Purbag,Purg,Puurk,Radash,Ragar,Ragdish,Rak,Rang,Rank,Raol,Rarag,Rarbag,Rark,Rashnak,Raurk,Rigor,Rik,Rilg,Rinak,Rink,Rirg,Rirk,Rodish,Rodush,Rogdish,Rok,Rolo,Ronak,Rudash,Rugar,Rugdish,Ruk,Rung,Ruol,Rurag,Rushnak,Vadash,Vadish,Vadush,Vak,Valo,Vank,Varag,Varbag,Vigar,Vigdish,Vigor,Vilg,Vilo,Vink,Virag,Virt,Vishnak,Vogdish,Vogor,Vonak,Vong,Vorg,Vork,Voshnak,Vourk,Vradash,Vragar,Vragdush,Vragor,Vralo,Vrang,Vrarbag,Vrarg,Vrart,Vraurk,Vridash,Vridish,Vrigor,Vrik,Vrinak,Vring,Vrirt,Vrishnak,Vriurk,Vrodash,Vrodish,Vrogar,Vrogor,Vrolo,Vrong,Vrorg,Vrork,Vrudish,Vrugdush,Vrulg,Vrung,Vruol,Vrurg,Vrurt,Vruurk,Vudish,Vuk,Vulg,Vulo,Vunak,Vurag,Vurbag,Vurg,Vushnak"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:50
+#: data/core/macros/names.cfg:65
 msgid "Äg,Agh,Bog Äh,Borb,Brag,Brag Goh,Brok,Dak,Drog,Frok,Ga,Gah,Gark,Gnarf,Grar,Grokk,Grumph,Gulk,Hak,Hask,Hoth,Hug Bah,Hu Kah,Kak,Krak,Krug,Kub,Kuh,Lok,Luk,Nak,Nuk Kar,Pag,Reck,Rok,Ruk,Sark,Shak,Shuf,Stuh,Targ,Thog,Thruf,Thur,Tohg,Torg,Trok,Tsok,Tuh,Tuk Ruh,Ugg,Üh,Urg,Urgh,Urk,Vak,Zog,Zuug"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:54
+#: data/core/macros/names.cfg:69
 msgid "Bludebalmen,Boladrumbadrum,Bolwuldelman,Bombempomgontor,Bomtanbomkenton,Bomtanbomtonum,Bregalad,Bremdebubde,Brenbasnudnem,Brendumadoak,Brommantendronnor,Brumbendublun,Brumennarunom,Brummdlebroak,Bumbadadabum,Buomdumdenlol,Carnimirië,Dabumdabumtam,Dammantongonnur,Danmonlulbam,Debundbemun,Delmduelmdelom,Diblembumnde,Dolmannumbil,Drongnoblemdu,Dulmandarook,Dulwulmendom,Dumdumdumatum,Elmaroomadrum,Grelmadrumbumadum,Gulladroamadoak,Gumabeladrelm,Laffalialomdium,Landunwonbam,Lassemista,Lefnublemdde,Libleddnumm,Lolmandindel,Monlamwimdan,Muldondindal,Mundionalafla,Mundumblemdum,Munnamdulbon,Nanmildaldum,Nunmaldildun,Orofarnië,Pambedrumne,Pomtamkomtrobum,Rithramcamhan,Tantondernintan,Temtundembenn,Temtunnongetem,Tondenkontenkon,Troombadoom,Tumtentantarun,Tumtonnongatum,Tumtumgamtomtom,Wonrunmaldin,Wudadoonopl"
 msgstr ""
 
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:58
+#: data/core/macros/names.cfg:73
 msgid "Bal,Cam,Corn,Del,Earl,El,Fox,Fren,Gel,Hel,Hex,Hol,Hox,Il,Kin,Nam,Nes,New,Ol,Old,Olf,Oul,Ox,Rock,Rook,Sal,Sam,Sed,Sel,Sen,Sil,Tal,Water,Wet,York"
 msgstr ""
 
@@ -4831,8 +4880,8 @@ msgstr ""
 #. [label]: id=label-hp
 #. +> trunk 1.6
 #: data/themes/default.cfg:212 data/themes/dfool.cfg:232
-#: data/themes/experimental.cfg:181 src/menu_events.cpp:195 src/unit.cpp:2609
-#: src/unit.cpp:2771
+#: data/themes/experimental.cfg:181 src/menu_events.cpp:197 src/unit.cpp:2518
+#: src/unit.cpp:2672
 msgid "HP"
 msgstr ""
 
@@ -4840,8 +4889,8 @@ msgstr ""
 #. [label]: id=label-xp
 #. +> trunk 1.6
 #: data/themes/default.cfg:221 data/themes/dfool.cfg:242
-#: data/themes/experimental.cfg:190 src/menu_events.cpp:196
-#: src/menu_events.cpp:853
+#: data/themes/experimental.cfg:190 src/menu_events.cpp:198
+#: src/menu_events.cpp:843
 msgid "XP"
 msgstr ""
 
@@ -4994,23 +5043,23 @@ msgid "Skip animation"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/about.cpp:198 src/help.cpp:3157 src/menu_events.cpp:313
-#: src/menu_events.cpp:340 src/statistics_dialog.cpp:114
+#: src/about.cpp:198 src/help.cpp:3157 src/menu_events.cpp:315
+#: src/menu_events.cpp:342 src/statistics_dialog.cpp:114
 msgid "Close"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:234
+#: src/actions.cpp:235
 msgid "You don't have a leader to recruit with."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:241
+#: src/actions.cpp:242
 msgid "You must have your leader on a keep to recruit or recall units."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:260
+#: src/actions.cpp:261
 msgid "There are no vacant castle tiles in which to recruit a unit."
 msgstr ""
 
@@ -5020,17 +5069,17 @@ msgid "An invalid weapon is selected, possibly by the Python AI."
 msgstr ""
 
 #. +> trunk
-#: src/actions.cpp:378 src/actions.cpp:437 src/actions.cpp:1004
+#: src/actions.cpp:395 src/actions.cpp:454 src/actions.cpp:1021
 msgid "An invalid attacker weapon got selected."
 msgstr ""
 
 #. +> trunk
-#: src/actions.cpp:383
+#: src/actions.cpp:400
 msgid "An invalid defender weapon got selected."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:1125 src/actions.cpp:1400
+#: src/actions.cpp:1142 src/actions.cpp:1417
 msgctxt "female"
 msgid "poisoned"
 msgstr ""
@@ -5047,42 +5096,42 @@ msgid "stone"
 msgstr ""
 
 #. +> trunk
-#: src/actions.cpp:1137 src/actions.cpp:1412
+#: src/actions.cpp:1154 src/actions.cpp:1429
 msgctxt "female"
 msgid "petrified"
 msgstr ""
 
 #. +> trunk
-#: src/actions.cpp:1137 src/actions.cpp:1412
+#: src/actions.cpp:1154 src/actions.cpp:1429
 msgid "petrified"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2491
+#: src/actions.cpp:2477
 msgid "Ambushed!"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2498
+#: src/actions.cpp:2484
 msgid "Failed teleport! Exit not empty"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2543
+#: src/actions.cpp:2529
 msgid "Friendly unit sighted"
 msgid_plural "$friends friendly units sighted"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2546
+#: src/actions.cpp:2532
 msgid "Enemy unit sighted!"
 msgid_plural "$enemies enemy units sighted!"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2551
+#: src/actions.cpp:2537
 msgctxt "Part of 'Units sighted! (...)' sentence"
 msgid "1 friendly"
 msgid_plural "$friends friendly"
@@ -5090,7 +5139,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2552
+#: src/actions.cpp:2538
 msgctxt "Part of 'Units sighted! (...)' sentence"
 msgid "1 enemy"
 msgid_plural "$enemies enemy"
@@ -5098,12 +5147,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2553
+#: src/actions.cpp:2539
 msgid "Units sighted! ($friendphrase, $enemyphrase)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2562
+#: src/actions.cpp:2548
 msgid "(press $hotkey to keep moving)"
 msgstr ""
 
@@ -5113,7 +5162,7 @@ msgid "B"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:365 src/dialogs.cpp:1055
+#: src/addon_management.cpp:365 src/dialogs.cpp:1056
 msgid "KB"
 msgstr ""
 
@@ -5218,7 +5267,7 @@ msgstr ""
 
 #. +> trunk 1.6
 #: src/addon_management.cpp:477 src/addon_management.cpp:549
-#: src/multiplayer.cpp:213 src/multiplayer.cpp:268 src/multiplayer_ui.cpp:77
+#: src/multiplayer.cpp:213 src/multiplayer.cpp:268 src/multiplayer_ui.cpp:78
 msgid "Connection timed out"
 msgstr ""
 
@@ -5244,7 +5293,7 @@ msgstr ""
 
 #. +> trunk 1.6
 #: src/addon_management.cpp:529 src/addon_management.cpp:554
-#: src/multiplayer_wait.cpp:411
+#: src/multiplayer_wait.cpp:403
 msgid "Response"
 msgstr ""
 
@@ -5292,7 +5341,7 @@ msgstr ""
 
 #. +> trunk 1.6
 #: src/addon_management.cpp:729 src/addon_management.cpp:932
-#: src/dialogs.cpp:575 src/menu_events.cpp:193 src/menu_events.cpp:851
+#: src/dialogs.cpp:576 src/menu_events.cpp:195 src/menu_events.cpp:841
 msgid "Name"
 msgstr ""
 
@@ -5389,8 +5438,8 @@ msgid "Downloads"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:933 src/help.cpp:1458 src/menu_events.cpp:192
-#: src/menu_events.cpp:850 src/menu_events.cpp:1372
+#: src/addon_management.cpp:933 src/help.cpp:1458 src/menu_events.cpp:194
+#: src/menu_events.cpp:840 src/menu_events.cpp:1425
 msgid "Type"
 msgstr ""
 
@@ -5420,8 +5469,8 @@ msgid "Choose the add-on to download."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1037 src/dialogs.cpp:600 src/menu_events.cpp:910
-#: src/menu_events.cpp:1408
+#: src/addon_management.cpp:1037 src/dialogs.cpp:601 src/menu_events.cpp:900
+#: src/menu_events.cpp:1461
 msgid "Filter: "
 msgstr ""
 
@@ -5481,7 +5530,7 @@ msgid "Add-on could not be deleted properly:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/ai/default/move.cpp:83
+#: src/ai/default/move.cpp:85
 msgid "Movement cost is 0, probably a terrain with movement cost of 0."
 msgstr ""
 
@@ -5541,7 +5590,7 @@ msgid "Chance of being unscathed"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/attack_prediction_display.cpp:547 src/mouse_events.cpp:639
+#: src/attack_prediction_display.cpp:547 src/mouse_events.cpp:647
 msgid "Damage Calculations"
 msgstr ""
 
@@ -5556,108 +5605,108 @@ msgid "What should our victorious unit become?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:229
+#: src/dialogs.cpp:230
 msgid "No objectives available"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:263
+#: src/dialogs.cpp:264
 msgid "Ignore All"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:264
+#: src/dialogs.cpp:265
 msgid "Do you really want to delete this game?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:266
+#: src/dialogs.cpp:267
 msgid "Don't ask me again!"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:285
+#: src/dialogs.cpp:286
 msgid "Save names may not contain colons, slashes, or backslashes. Please choose a different name."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:432 src/savegame.cpp:130
+#: src/dialogs.cpp:433 src/savegame.cpp:130
 msgid "%a %b %d %H:%M %Y"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:448
+#: src/dialogs.cpp:449
 msgid "#(Invalid)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:466
+#: src/dialogs.cpp:467
 msgid "Campaign: $campaign_name"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:473
+#: src/dialogs.cpp:474
 msgid "Multiplayer"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:475
+#: src/dialogs.cpp:476
 msgid "Tutorial"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:483 src/savegame.cpp:925
+#: src/dialogs.cpp:484 src/savegame.cpp:908
 msgid "replay"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:485 src/savegame.cpp:1006
+#: src/dialogs.cpp:486 src/savegame.cpp:981
 msgid "Turn"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:487
+#: src/dialogs.cpp:488
 msgid "Scenario Start"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:490
+#: src/dialogs.cpp:491
 msgid "Difficulty: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:492
+#: src/dialogs.cpp:493
 msgid "Version: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:516 src/dialogs.cpp:532 src/savegame.cpp:159
+#: src/dialogs.cpp:517 src/dialogs.cpp:533 src/savegame.cpp:159
 #: src/savegame.cpp:175
 msgid "%b %d %y"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:522 src/savegame.cpp:165
+#: src/dialogs.cpp:523 src/savegame.cpp:165
 msgid "%H:%M"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:525 src/savegame.cpp:168
+#: src/dialogs.cpp:526 src/savegame.cpp:168
 msgid "%A, %H:%M"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:528 src/savegame.cpp:171
+#: src/dialogs.cpp:529 src/savegame.cpp:171
 msgid "%b %d"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:556
+#: src/dialogs.cpp:557
 msgid "No Saved Games"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:557
+#: src/dialogs.cpp:558
 msgid ""
 "There are no saved games to load.\n"
 "\n"
@@ -5665,192 +5714,192 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:575
+#: src/dialogs.cpp:576
 msgid "Date"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:592 src/multiplayer_create.cpp:104
+#: src/dialogs.cpp:593 src/multiplayer_create.cpp:104
 msgid "Load Game"
 msgstr ""
 
 #. +> 1.6
-#: src/dialogs.cpp:258
+#: src/dialogs.cpp:259
 msgid "Quit Game"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:593
+#: src/dialogs.cpp:594
 msgid "Choose the game to load"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:607
+#: src/dialogs.cpp:608
 msgid "Show replay"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:611
+#: src/dialogs.cpp:612
 msgid "Cancel orders"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:614 src/multiplayer_create.cpp:86
+#: src/dialogs.cpp:615 src/multiplayer_create.cpp:86
 msgid "OK"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:615 src/dialogs.cpp:1026 src/dialogs.cpp:1133
-#: src/multiplayer_connect.cpp:1022 src/multiplayer_create.cpp:85
-#: src/multiplayer_wait.cpp:184
+#: src/dialogs.cpp:616 src/dialogs.cpp:1027 src/dialogs.cpp:1134
+#: src/multiplayer_connect.cpp:1024 src/multiplayer_create.cpp:85
+#: src/multiplayer_wait.cpp:176
 msgid "Cancel"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:618
+#: src/dialogs.cpp:619
 msgid "Delete Save"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:674
+#: src/dialogs.cpp:675
 msgid "Profile"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:769 src/help.cpp:1330
+#: src/dialogs.cpp:770 src/help.cpp:1330
 msgid "level"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:782 src/help.cpp:1432
+#: src/dialogs.cpp:783 src/help.cpp:1432
 msgid "HP: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:785
+#: src/dialogs.cpp:786
 msgid "XP: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:789 src/help.cpp:1433
+#: src/dialogs.cpp:790 src/help.cpp:1433
 msgid "Moves: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:661 src/game.cpp:1377
+#: src/game.cpp:666 src/game.cpp:1395
 msgid "The Battle for Wesnoth"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:977 src/game.cpp:985 src/playsingle_controller.cpp:471
-#: src/playsingle_controller.cpp:530
+#: src/game.cpp:995 src/game.cpp:1003 src/playsingle_controller.cpp:491
+#: src/playsingle_controller.cpp:546
 msgid "The file you have tried to load is corrupt"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:980 src/game.cpp:988 src/savegame.cpp:521
+#: src/game.cpp:998 src/game.cpp:1006 src/savegame.cpp:535
 msgid "The file you have tried to load is corrupt: '"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:992
+#: src/game.cpp:1010
 msgid "File I/O Error while reading the game"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1087
+#: src/game.cpp:1105
 msgid "No campaigns are available.\n"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1120
+#: src/game.cpp:1138
 msgid "Difficulty"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1121
+#: src/game.cpp:1139
 msgid "Select difficulty level:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1256
+#: src/game.cpp:1274
 msgid "Do you really want to start the server?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1257
+#: src/game.cpp:1275
 msgid "The server will run in a background process until all users have disconnected."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1261
+#: src/game.cpp:1279
 msgid "Don't show again"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1332
+#: src/game.cpp:1350
 msgid "Error while starting server: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1334 src/playcampaign.cpp:98 src/playcampaign.cpp:367
+#: src/game.cpp:1352 src/playcampaign.cpp:99 src/playcampaign.cpp:365
 msgid "The game could not be loaded: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1336 src/playcampaign.cpp:100 src/playcampaign.cpp:370
+#: src/game.cpp:1354 src/playcampaign.cpp:101 src/playcampaign.cpp:368
 msgid "Error while playing the game: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1356 src/playcampaign.cpp:102 src/playcampaign.cpp:373
+#: src/game.cpp:1374 src/playcampaign.cpp:103 src/playcampaign.cpp:371
 msgid "The game map could not be loaded: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1500
+#: src/game.cpp:1518
 msgid "The following add-on had errors and could not be loaded:"
 msgid_plural "The following add-ons had errors and could not be loaded:"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1507
+#: src/game.cpp:1525
 msgid "ERROR DETAILS:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1525
+#: src/game.cpp:1543
 msgid "Error loading game configuration files: '"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1526
+#: src/game.cpp:1544
 msgid "' (The game will now exit)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1535
+#: src/game.cpp:1553
 msgid "Loading data files"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1966
+#: src/game.cpp:1989
 msgid "Loading game configuration."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1972
+#: src/game.cpp:1995
 msgid "Re-initialize fonts for the current language."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1980
+#: src/game.cpp:2003
 msgid "Searching for installed add-ons."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1989
+#: src/game.cpp:2012
 msgid "Loading title screen."
 msgstr ""
 
@@ -5860,67 +5909,67 @@ msgid "Invalid color range: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:180
+#: src/game_events.cpp:179
 msgid "Error: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:183
+#: src/game_events.cpp:182
 msgid "Warning: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:186
+#: src/game_events.cpp:185
 msgid "Debug: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:189
+#: src/game_events.cpp:188
 msgid "Info: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:1165 src/multiplayer_connect.cpp:1651
+#: src/game_events.cpp:1168 src/multiplayer_connect.cpp:1654
 msgid "Victory:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:1168
+#: src/game_events.cpp:1171
 msgid "Defeat:"
 msgstr ""
 
 #. +> trunk
-#: src/game_events.cpp:3403
+#: src/game_events.cpp:3457
 msgid "[unit_worth]'s filter didn't match any units!"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gamestatus.cpp:824
+#: src/gamestatus.cpp:722
 msgid "Duplicate side definition for side '$side|' found."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:105
+#: src/generate_report.cpp:106
 msgid "This unit is invisible. It cannot be seen or attacked by enemy units."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:105
+#: src/generate_report.cpp:106
 msgid "invisible: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:110
+#: src/generate_report.cpp:111
 msgid "This unit has been slowed. It will only deal half its normal damage when attacking and its movement cost is doubled."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:110
+#: src/generate_report.cpp:111
 msgid "slowed: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:115
+#: src/generate_report.cpp:116
 msgid ""
 "This unit is poisoned. It will lose 8 HP every turn until it can seek a cure to the poison in a village or from a friendly unit with the 'cures' ability.\n"
 "\n"
@@ -5928,7 +5977,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:115
+#: src/generate_report.cpp:116
 msgid "poisoned: "
 msgstr ""
 
@@ -5938,7 +5987,7 @@ msgid "stone: "
 msgstr ""
 
 #. +> trunk
-#: src/generate_report.cpp:122
+#: src/generate_report.cpp:123
 msgid "This unit has been petrified. It may not move or attack."
 msgstr ""
 
@@ -5948,27 +5997,27 @@ msgid "This unit has been turned to stone. It may not move or attack."
 msgstr ""
 
 #. +> trunk
-#: src/generate_report.cpp:122
+#: src/generate_report.cpp:123
 msgid "petrified: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:177
+#: src/generate_report.cpp:178
 msgid "Resistances: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:179
+#: src/generate_report.cpp:180
 msgid "(Att / Def)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:198 src/multiplayer_create.cpp:402
+#: src/generate_report.cpp:199 src/multiplayer_create.cpp:402
 msgid "Experience Modifier: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:266
+#: src/generate_report.cpp:267
 msgctxt "tooltip"
 msgid "damage"
 msgid_plural "damage"
@@ -5976,7 +6025,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:267
+#: src/generate_report.cpp:268
 msgctxt "tooltip"
 msgid "attack"
 msgid_plural "attacks"
@@ -5984,52 +6033,72 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:273
+#: src/generate_report.cpp:274
 #, no-c-format
 msgctxt "tooltip"
 msgid "% accuracy"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:279
+#: src/generate_report.cpp:280
 #, no-c-format
 msgctxt "tooltip"
 msgid "% parry"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:290
+#: src/generate_report.cpp:291
 msgid "weapon range: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:291
+#: src/generate_report.cpp:292
 msgid "damage type: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:312
+#: src/generate_report.cpp:313
 msgid "vs"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:361
+#: src/generate_report.cpp:362
 msgid "Lawful units: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:363
+#: src/generate_report.cpp:364
 msgid "Neutral units: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:364
+#: src/generate_report.cpp:365
 msgid "Chaotic units: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:511
+#: src/generate_report.cpp:512
 msgid "Observers:"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_player_info.cpp:63
+msgid "In game:"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_player_info.cpp:65
+msgid "(observing)"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_player_info.cpp:67
+msgid "(playing)"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_player_info.cpp:70
+msgid "In lobby"
 msgstr ""
 
 #. +> trunk 1.6
@@ -6186,7 +6255,7 @@ msgid "<header>text='Units of this race'</header>"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/help.cpp:2681 src/menu_events.cpp:565
+#: src/help.cpp:2681 src/menu_events.cpp:567
 msgid " < Back"
 msgstr ""
 
@@ -6221,36 +6290,36 @@ msgid "The End"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/language.cpp:163
+#: src/language.cpp:158
 msgid "System default language"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:139 src/menu_events.cpp:1398
-#: src/multiplayer_connect.cpp:221 src/multiplayer_connect.cpp:273
+#: src/leader_list.cpp:139 src/menu_events.cpp:1451
+#: src/multiplayer_connect.cpp:216 src/multiplayer_connect.cpp:268
 msgctxt "gender"
 msgid "Random"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:149 src/multiplayer_connect.cpp:217
-#: src/multiplayer_connect.cpp:269
+#: src/leader_list.cpp:149 src/multiplayer_connect.cpp:212
+#: src/multiplayer_connect.cpp:264
 msgid "Female ♀"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:153 src/multiplayer_connect.cpp:219
-#: src/multiplayer_connect.cpp:271
+#: src/leader_list.cpp:153 src/multiplayer_connect.cpp:214
+#: src/multiplayer_connect.cpp:266
 msgid "Male ♂"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:164 src/leader_list.cpp:197
+#: src/leader_list.cpp:164 src/leader_list.cpp:192
 msgid "Random"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:245 src/leader_list.cpp:251
+#: src/leader_list.cpp:240 src/leader_list.cpp:246
 msgid "?"
 msgstr ""
 
@@ -6285,60 +6354,60 @@ msgid "Reading files and creating cache."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:226 src/multiplayer_lobby.cpp:430
+#: src/lobby_data.cpp:234 src/multiplayer_lobby.cpp:431
 msgid "Unknown era: $era_id"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:231 src/multiplayer_lobby.cpp:434
+#: src/lobby_data.cpp:239 src/multiplayer_lobby.cpp:435
 msgid "Unknown era"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:286 src/multiplayer_lobby.cpp:496
+#: src/lobby_data.cpp:294 src/multiplayer_lobby.cpp:497
 msgid "Remote scenario"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:294 src/multiplayer_lobby.cpp:503
+#: src/lobby_data.cpp:302 src/multiplayer_lobby.cpp:504
 msgid "Unknown scenario: $scenario_id"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:299 src/multiplayer_lobby.cpp:507
+#: src/lobby_data.cpp:307 src/multiplayer_lobby.cpp:508
 msgid "Unknown scenario"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:305 src/multiplayer_lobby.cpp:512
+#: src/lobby_data.cpp:313 src/multiplayer_lobby.cpp:513
 msgid "Reloaded game"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:316 src/multiplayer_lobby.cpp:528
+#: src/lobby_data.cpp:324 src/multiplayer_lobby.cpp:529
 msgid "Turn "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:320 src/multiplayer_lobby.cpp:532
+#: src/lobby_data.cpp:328 src/multiplayer_lobby.cpp:533
 msgid "Vacant Slot:"
 msgid_plural "Vacant Slots:"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:326 src/multiplayer_lobby.cpp:543
+#: src/lobby_data.cpp:334 src/multiplayer_lobby.cpp:544
 msgid "Fog"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:329 src/lobby_data.cpp:332 src/multiplayer_create.cpp:83
-#: src/multiplayer_lobby.cpp:547 src/multiplayer_lobby.cpp:553
+#: src/lobby_data.cpp:337 src/lobby_data.cpp:340 src/multiplayer_create.cpp:83
+#: src/multiplayer_lobby.cpp:548 src/multiplayer_lobby.cpp:554
 msgid "Shroud"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:334 src/multiplayer_lobby.cpp:557
+#: src/lobby_data.cpp:342 src/multiplayer_lobby.cpp:558
 msgid "none"
 msgstr ""
 
@@ -6353,134 +6422,134 @@ msgid "Random maps with an odd width aren't supported."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:83 src/menu_events.cpp:86 src/menu_events.cpp:90
+#: src/menu_events.cpp:85 src/menu_events.cpp:88 src/menu_events.cpp:92
 msgid "Do you really want to dismiss him?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:83
+#: src/menu_events.cpp:85
 msgid "My lord, this unit is loyal and requires no upkeep! "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:84 src/menu_events.cpp:87 src/menu_events.cpp:91
+#: src/menu_events.cpp:86 src/menu_events.cpp:89 src/menu_events.cpp:93
 msgid "Do you really want to dismiss her?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:86
+#: src/menu_events.cpp:88
 msgid "My lord, this unit is an experienced one, having advanced levels! "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:90
+#: src/menu_events.cpp:92
 msgid "My lord, this unit is close to advancing a level! "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:183
+#: src/menu_events.cpp:185
 msgid "Statistics"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:194 src/menu_events.cpp:852
+#: src/menu_events.cpp:196 src/menu_events.cpp:842
 msgctxt "Level"
 msgid "Lvl."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:197
+#: src/menu_events.cpp:199
 msgctxt "unit list"
 msgid "Traits"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:198
+#: src/menu_events.cpp:200
 msgid "Moves"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:199
+#: src/menu_events.cpp:201
 msgctxt "Location"
 msgid "Loc."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:200
+#: src/menu_events.cpp:202
 msgid "Status"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:308
+#: src/menu_events.cpp:310
 msgid "Unit List"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:311 src/menu_events.cpp:333
+#: src/menu_events.cpp:313 src/menu_events.cpp:335
 msgid "Scroll To"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:365
+#: src/menu_events.cpp:367
 msgid "Leader"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:366 src/multiplayer_connect.cpp:1007
+#: src/menu_events.cpp:368 src/multiplayer_connect.cpp:1009
 msgid "Team"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:367 src/multiplayer_connect.cpp:1018
+#: src/menu_events.cpp:369 src/multiplayer_connect.cpp:1020
 msgid "Gold"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:368
+#: src/menu_events.cpp:370
 msgid "Villages"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:369
+#: src/menu_events.cpp:371
 msgctxt "status"
 msgid "Units"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:370
+#: src/menu_events.cpp:372
 msgid "Upkeep"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:371 src/multiplayer_connect.cpp:1019
-#: src/multiplayer_wait.cpp:534
+#: src/menu_events.cpp:373 src/multiplayer_connect.cpp:1021
+#: src/multiplayer_wait.cpp:518
 msgid "Income"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:472
+#: src/menu_events.cpp:474
 msgid "Current Status"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:473
+#: src/menu_events.cpp:475
 msgid "More >"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:491
-msgctxt "scenario settings"
-msgid "Leader"
 msgstr ""
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:493
 msgctxt "scenario settings"
+msgid "Leader"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:495
+msgctxt "scenario settings"
 msgid "Side"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:494
+#: src/menu_events.cpp:496
 msgctxt "scenario settings"
 msgid ""
 "Start\n"
@@ -6488,7 +6557,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:495
+#: src/menu_events.cpp:497
 msgctxt "scenario settings"
 msgid ""
 "Base\n"
@@ -6496,7 +6565,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:496
+#: src/menu_events.cpp:498
 msgctxt "scenario settings"
 msgid ""
 "Gold Per\n"
@@ -6504,49 +6573,49 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:497
+#: src/menu_events.cpp:499
 msgctxt "scenario settings"
 msgid "Fog"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:498
+#: src/menu_events.cpp:500
 msgctxt "scenario settings"
 msgid "Shroud"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:545 src/menu_events.cpp:546
+#: src/menu_events.cpp:547 src/menu_events.cpp:548
 msgid "no"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:545 src/menu_events.cpp:546
+#: src/menu_events.cpp:547 src/menu_events.cpp:548
 msgid "yes"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:562
+#: src/menu_events.cpp:564
 msgid "Scenario Settings"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:584
+#: src/menu_events.cpp:586
 msgid "Save the Map As"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:589
+#: src/menu_events.cpp:591
 msgid "The map already exists. Do you want to overwrite it?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:601
+#: src/menu_events.cpp:603
 msgid "Map saved."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:605
+#: src/menu_events.cpp:607
 msgid "Could not save the map: $msg"
 msgstr ""
 
@@ -6556,27 +6625,27 @@ msgid "The game could not be saved"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:620
+#: src/menu_events.cpp:622
 msgid "Chat Log"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:630
+#: src/menu_events.cpp:632
 msgid "Message:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:631
+#: src/menu_events.cpp:633
 msgid "Send to allies only"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:631
+#: src/menu_events.cpp:633
 msgid "Send to observers only"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:712
+#: src/menu_events.cpp:699
 msgctxt "unit"
 msgid "Gold"
 msgid_plural "Gold"
@@ -6584,512 +6653,517 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:719
+#: src/menu_events.cpp:706
 msgid "You have no units available to recruit."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:731
+#: src/menu_events.cpp:718
 msgid "Recruit"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:732 src/menu_events.cpp:904
+#: src/menu_events.cpp:719 src/menu_events.cpp:895
 msgid "Select unit:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:778
+#: src/menu_events.cpp:765
 msgid "You don't have enough gold to recruit that unit"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:822
+#: src/menu_events.cpp:811
 msgid "You are separated from your soldiers and may not recall them"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:844
+#: src/menu_events.cpp:832
 msgid ""
 "There are no troops available to recall\n"
 "(You must have veteran survivors from a previous scenario)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:903
+#: src/menu_events.cpp:894
 msgid "Recall"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:914
+#: src/menu_events.cpp:904
 msgid "Dismiss Unit"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:932
+#: src/menu_events.cpp:922
 msgid "You must have at least 1 gold piece to recall a unit"
 msgid_plural "You must have at least $cost gold pieces to recall a unit"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1284
+#: src/menu_events.cpp:1277
 msgid "You have not started your turn yet. Do you really want to end your turn?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1292 src/menu_events.cpp:1297
+#: src/menu_events.cpp:1285 src/menu_events.cpp:1290
 msgid "Some units have movement left. Do you really want to end your turn?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1332
+#: src/menu_events.cpp:1325
 msgid "Rename Unit"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1371
+#: src/menu_events.cpp:1424
 msgid "Race"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1395
+#: src/menu_events.cpp:1448
 msgid "Create Unit (Debug!)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1398 src/multiplayer_wait.cpp:136
+#: src/menu_events.cpp:1451 src/multiplayer_wait.cpp:128
 msgid "Gender: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1489
+#: src/menu_events.cpp:1542
 msgid "Place Label"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1491
+#: src/menu_events.cpp:1544
 msgid "Label: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1492
+#: src/menu_events.cpp:1545
 msgid "Team only"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1609
+#: src/menu_events.cpp:1662
 msgid "Search"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1789
+#: src/menu_events.cpp:1843
 msgid "This command is currently unavailable."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1800
+#: src/menu_events.cpp:1854
 msgid "Available commands list and command-specific help. Use \"help all\" to include currently unavailable commands."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1905
+#: src/menu_events.cpp:1959
 msgid " No help available."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2063
+#: src/menu_events.cpp:2118
 msgid "Send a query to the server. Without arguments the server should tell you the available commands."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2066
+#: src/menu_events.cpp:2122
 msgid "Ban and kick a player or observer. If he is not in the game but on the server he will only be banned."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2069
+#: src/menu_events.cpp:2125
 msgid "Unban a user. He does not have to be in the game but on the server."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2072
+#: src/menu_events.cpp:2128
 msgid "Kick a player or observer."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2074
+#: src/menu_events.cpp:2130
 msgid "Mute an observer. Without an argument displays the mute status."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2076
+#: src/menu_events.cpp:2132
 msgid "Unmute an observer. Without an argument unmutes everyone."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2078
+#: src/menu_events.cpp:2134
 msgid "Mute/Unmute all observers. (toggles)"
 msgstr ""
 
 #. +> 1.6
-#: src/menu_events.cpp:2171
+#: src/menu_events.cpp:2172
 msgid "Mute all observers."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2088
+#: src/menu_events.cpp:2144
 msgid "Send a message to the server admins currently online"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2090
+#: src/menu_events.cpp:2146
 msgid "Send an emotion or personal action in chat."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2093
+#: src/menu_events.cpp:2149
 msgid "Sends a private message. You can't send messages to players that don't control a side in a running game you are in."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2099
+#: src/menu_events.cpp:2155
 msgid "Change the log level of a log domain."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2101
+#: src/menu_events.cpp:2157
 msgid "Add a nick to your ignores list."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2103
+#: src/menu_events.cpp:2159
 msgid "Add a nick to your friends list."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2105
+#: src/menu_events.cpp:2161
 msgid "Remove a nick from your ignores or friends list."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2107
+#: src/menu_events.cpp:2163
 msgid "Show your ignores and friends list."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2110
+#: src/menu_events.cpp:2166
 msgid "Display version information."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2112
+#: src/menu_events.cpp:2168
 msgid "Register your nick"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2114
+#: src/menu_events.cpp:2170
 msgid "Drop your nick."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2116
+#: src/menu_events.cpp:2172
 msgid "Update details for your nick. For possible details see '/details'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2119
+#: src/menu_events.cpp:2175
 msgid "Request information about a nick."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2121
+#: src/menu_events.cpp:2177
 msgid "Request a list of details you can set for your registered nick."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2123
+#: src/menu_events.cpp:2179
 msgid "Join a room."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2125
+#: src/menu_events.cpp:2182
 msgid "Part a room."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2127
+#: src/menu_events.cpp:2184
 msgid "List room members."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2129
+#: src/menu_events.cpp:2186
 msgid "List available rooms."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2131
-msgid "Room msg."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2258
-msgid "Refresh gui."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2260
-msgid "Switch a side to/from AI control."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2263
-msgid "Assign control of a side to a different player or observer."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2265
-msgid "Clear chat history."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2267
-msgid "Visualize the screen refresh procedure."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2270
-msgid "Save game."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2272
-msgid "Quit game."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2276
-msgid "Save and quit."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2279
-msgid "Ignore replay errors."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2281
-msgid "Disable autosaves."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2283
-msgid "Advance to the next scenario, or scenario identified by 'id'"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2286
-msgid "Choose next scenario"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2289
-msgid "Turn debug mode on."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2291
-msgid "Turn debug mode off."
+#: src/menu_events.cpp:2188
+msgid "Room message."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2293
-msgid "Execute a Lua statement."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2295
-msgid "Set the command used by the custom command hotkey"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2297
-msgid "Set or show alias to a command"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2299
-msgid "Set a scenario variable."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2301
-msgid "Show a scenario variable."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2303
-msgid "Modify a unit variable. (Only top level keys are supported.)"
-msgstr ""
-
-#. +> trunk
-#: src/menu_events.cpp:2309
-msgid "Discover all units in help."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2314
-msgid "Create a unit."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2316
-msgid "Toggle fog for the current player."
+#: src/menu_events.cpp:2190
+msgid "Room query."
 msgstr ""
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:2318
-msgid "Toggle shroud for the current player."
+msgid "Refresh gui."
 msgstr ""
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:2320
-msgid "Give gold to the current player."
+msgid "Switch a side to/from AI control."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2322
-msgid "Fire a game event."
+#: src/menu_events.cpp:2323
+msgid "Assign control of a side to a different player or observer."
 msgstr ""
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:2325
-msgid "Toggle overlaying of x,y coordinates on hexes."
+msgid "Clear chat history."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2328
-msgid "Toggle overlaying of terrain codes on hexes."
+#: src/menu_events.cpp:2327
+msgid "Visualize the screen refresh procedure."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2372
-msgid "Unknown debug level: '$level'."
+#: src/menu_events.cpp:2330
+msgid "Save game."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2374 src/menu_events.cpp:2383
-msgid "error"
+#: src/menu_events.cpp:2332
+msgid "Quit game."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2335
+msgid "Save and quit."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2338
+msgid "Ignore replay errors."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2340
+msgid "Disable autosaves."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2342
+msgid "Advance to the next scenario, or scenario identified by 'id'"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2345
+msgid "Choose next scenario"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2348
+msgid "Turn debug mode on."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2350
+msgid "Turn debug mode off."
+msgstr ""
+
+#. +> trunk
+#: src/menu_events.cpp:2352
+msgid "Execute a Lua statement."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2354
+msgid "Set the command used by the custom command hotkey"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2356
+msgid "Set or show alias to a command"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2358
+msgid "Set a scenario variable."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2360
+msgid "Show a scenario variable."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2362
+msgid "Modify a unit variable. (Only top level keys are supported.)"
+msgstr ""
+
+#. +> trunk
+#: src/menu_events.cpp:2368
+msgid "Discover all units in help."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2373
+msgid "Create a unit."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2375
+msgid "Toggle fog for the current player."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2377
+msgid "Toggle shroud for the current player."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2379
+msgid "Give gold to the current player."
 msgstr ""
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:2381
-msgid "Unknown debug domain: '$domain'."
+msgid "Fire a game event."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2384
+msgid "Toggle overlaying of x,y coordinates on hexes."
 msgstr ""
 
 #. +> 1.6
-#: src/menu_events.cpp:2385
+#: src/menu_events.cpp:2386
 msgid "Remove a trait from a unit. (Does not work yet.)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2390
+#: src/menu_events.cpp:2387
+msgid "Toggle overlaying of terrain codes on hexes."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2431
+msgid "Unknown debug level: '$level'."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2433 src/menu_events.cpp:2442
+msgid "error"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2440
+msgid "Unknown debug domain: '$domain'."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2449
 msgid "Switched domain: '$domain' to level: '$level'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2549
+#: src/menu_events.cpp:2623
 msgid "Added to ignore list: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2551 src/menu_events.cpp:2567
+#: src/menu_events.cpp:2626 src/menu_events.cpp:2643
 msgid "Invalid username: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2565
+#: src/menu_events.cpp:2641
 msgid "Added to friends list: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2578
+#: src/menu_events.cpp:2655
 msgid "Removed from list: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2596
+#: src/menu_events.cpp:2673
 msgid "There are no players on your friends or ignore list."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2766
+#: src/menu_events.cpp:2843
 msgid "Couldn't find label or unit containing the string '$search'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2795
+#: src/menu_events.cpp:2872
 msgid "Can't droid invalid side: '$side'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2800
+#: src/menu_events.cpp:2877
 msgid "Can't droid networked side: '$side'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2837
+#: src/menu_events.cpp:2914
 msgid "Can't change control of invalid side: '$side'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2843
+#: src/menu_events.cpp:2920
 msgid "Can't change control of out-of-bounds side: '$side'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2908
+#: src/menu_events.cpp:2985
 msgid "Choose Scenario (Debug!)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2921
+#: src/menu_events.cpp:2998
 msgid "Debug mode activated!"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2924
+#: src/menu_events.cpp:3001
 msgid "Debug mode not available in network games"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2929
+#: src/menu_events.cpp:3006
 msgid "Debug mode deactivated!"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3102
+#: src/menu_events.cpp:3180
 msgid "ai"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3110 src/menu_events.cpp:3126
+#: src/menu_events.cpp:3190 src/menu_events.cpp:3205
 msgctxt "prompt"
 msgid "Command:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3146
+#: src/menu_events.cpp:3225
 msgid "User-Command#3"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/mouse_events.cpp:650
+#: src/mouse_events.cpp:658
 msgid "Attack Enemy"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/mouse_events.cpp:651
+#: src/mouse_events.cpp:659
 msgid "Choose weapon:"
 msgstr ""
 
@@ -7169,26 +7243,26 @@ msgid "The password you provided was incorrect."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:88 src/multiplayer_connect.cpp:491
-#: src/multiplayer_connect.cpp:620
+#: src/multiplayer_connect.cpp:88 src/multiplayer_connect.cpp:486
+#: src/multiplayer_connect.cpp:615
 msgid "Normal"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:487 src/multiplayer_connect.cpp:616
-#: src/multiplayer_wait.cpp:526 src/multiplayer_wait.cpp:534
+#: src/multiplayer_connect.cpp:482 src/multiplayer_connect.cpp:611
+#: src/multiplayer_wait.cpp:510 src/multiplayer_wait.cpp:518
 msgid "("
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:487 src/multiplayer_connect.cpp:616
-#: src/multiplayer_wait.cpp:526 src/multiplayer_wait.cpp:537
+#: src/multiplayer_connect.cpp:482 src/multiplayer_connect.cpp:611
+#: src/multiplayer_wait.cpp:510 src/multiplayer_wait.cpp:521
 msgid ")"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:489 src/multiplayer_connect.cpp:618
-#: src/multiplayer_wait.cpp:536
+#: src/multiplayer_connect.cpp:484 src/multiplayer_connect.cpp:613
+#: src/multiplayer_wait.cpp:520
 msgid "+"
 msgstr ""
 
@@ -7198,18 +7272,18 @@ msgid "Default AI"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:649
+#: src/multiplayer_connect.cpp:645
 msgid "(Vacant slot)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:657
+#: src/multiplayer_connect.cpp:653
 msgid "Anonymous local player"
 msgstr ""
 
-#. +> trunk 1.6
-#: src/multiplayer_connect.cpp:667
-msgid "Computer player"
+#. +> trunk
+#: src/multiplayer_connect.cpp:666
+msgid "$playername $side"
 msgstr ""
 
 #. +> trunk 1.6
@@ -7228,109 +7302,114 @@ msgid "(empty)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:808
+#: src/multiplayer_connect.cpp:810
 msgid "Reserved"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:809
+#: src/multiplayer_connect.cpp:811
 msgid "--give--"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:933
+#: src/multiplayer_connect.cpp:935
 msgid "Only random sides in the current era."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:957
+#: src/multiplayer_connect.cpp:959
 msgid "Unable to find a leader type for faction $faction"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:994
+#: src/multiplayer_connect.cpp:996
 msgid "Game Lobby: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1014
+#: src/multiplayer_connect.cpp:1016
 msgid "Player/Type"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1015
+#: src/multiplayer_connect.cpp:1017
 msgid "Faction"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1016
+#: src/multiplayer_connect.cpp:1018
 msgid "Team/Gender"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1017
+#: src/multiplayer_connect.cpp:1019
 msgid "Color"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1021
+#: src/multiplayer_connect.cpp:1023
 msgid "I'm Ready"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1031
+#: src/multiplayer_connect.cpp:1033
 msgid "The scenario is invalid because it has no id."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1035
+#: src/multiplayer_connect.cpp:1037
 msgid "The scenario is invalid because it has no sides."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1428
+#: src/multiplayer_connect.cpp:1430
 msgid "Network Player"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1430
+#: src/multiplayer_connect.cpp:1432
 msgid "Local Player"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1431
+#: src/multiplayer_connect.cpp:1433
 msgid "Computer Player"
 msgstr ""
 
+#. +> 1.6
+#: src/multiplayer_connect.cpp:670
+msgid "Computer player"
+msgstr ""
+
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1432
+#: src/multiplayer_connect.cpp:1434
 msgid "Empty"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1628
+#: src/multiplayer_connect.cpp:1631
 msgid "Cannot find era $era"
 msgstr ""
 
 #. +> trunk
-#: src/multiplayer_connect.cpp:1653
+#: src/multiplayer_connect.cpp:1656
 msgid "Defeat enemy leader(s)"
 msgstr ""
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1700
+#: src/multiplayer_connect.cpp:1701
 msgid ""
 "Victory:\n"
 "@Defeat enemy leader(s)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1717
+#: src/multiplayer_connect.cpp:1720
 msgid "Waiting for players to join..."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_create.cpp:49 src/multiplayer_lobby.cpp:726
+#: src/multiplayer_create.cpp:49 src/multiplayer_lobby.cpp:727
 msgid "Create Game"
 msgstr ""
 
@@ -7350,7 +7429,7 @@ msgid "Map to play:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_create.cpp:80 src/multiplayer_lobby.cpp:271
+#: src/multiplayer_create.cpp:80 src/multiplayer_lobby.cpp:272
 msgid "Use map settings"
 msgstr ""
 
@@ -7500,7 +7579,7 @@ msgid "Set Password"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_create.cpp:333 src/multiplayer_lobby.cpp:900
+#: src/multiplayer_create.cpp:333 src/multiplayer_lobby.cpp:901
 msgid "Password: "
 msgstr ""
 
@@ -7565,162 +7644,162 @@ msgid "Error"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:118
+#: src/multiplayer_lobby.cpp:119
 msgid "--no games open--"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:152
+#: src/multiplayer_lobby.cpp:153
 msgid " (Unknown Era)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:535 src/multiplayer_lobby.cpp:898
+#: src/multiplayer_lobby.cpp:536 src/multiplayer_lobby.cpp:899
 msgid "Password Required"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:719 src/multiplayer_wait.cpp:183
+#: src/multiplayer_lobby.cpp:720 src/multiplayer_wait.cpp:175
 msgid "Game Lobby"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:724
+#: src/multiplayer_lobby.cpp:725
 msgid "Observe Game"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:725
+#: src/multiplayer_lobby.cpp:726
 msgid "Join Game"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:727
+#: src/multiplayer_lobby.cpp:728
 msgid "Quick Replays"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:729
+#: src/multiplayer_lobby.cpp:730
 msgid "Preferences"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:731
+#: src/multiplayer_lobby.cpp:732
 msgid "Quit"
 msgstr ""
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:733
-msgid "Apply Filer"
-msgstr ""
-
-#. +> trunk
 #: src/multiplayer_lobby.cpp:734
-msgid "Invert"
+msgid "Apply Filter"
 msgstr ""
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:735
-msgid "Vacant Slots"
+msgid "Invert"
 msgstr ""
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:736
-msgid "Friends in Game"
+msgid "Vacant Slots"
 msgstr ""
 
 #. +> trunk
 #: src/multiplayer_lobby.cpp:737
+msgid "Friends in Game"
+msgstr ""
+
+#. +> trunk
+#: src/multiplayer_lobby.cpp:738
 msgid "Search:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:746
+#: src/multiplayer_lobby.cpp:747
 msgid "Skip quickly to the active turn when observing"
 msgstr ""
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:750
+#: src/multiplayer_lobby.cpp:751
 msgid "Enable the games filter. If unchecked all games are shown, regardless of any filter."
 msgstr ""
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:753
+#: src/multiplayer_lobby.cpp:754
 msgid "Show all games that do *not* match your filter. Useful for hiding games you are not interested in."
 msgstr ""
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:757
+#: src/multiplayer_lobby.cpp:758
 msgid "Only show games that have at least one vacant slot"
 msgstr ""
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:761
+#: src/multiplayer_lobby.cpp:762
 msgid "Only show games that are played or observed by at least one of your friends"
 msgstr ""
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:765
+#: src/multiplayer_lobby.cpp:766
 msgid "Only show games whose title or description contain the entered text"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:899
+#: src/multiplayer_lobby.cpp:900
 msgid "Joining this game requires a password."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_ui.cpp:198
+#: src/multiplayer_ui.cpp:193
 msgid "Invalid Color"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_ui.cpp:431
+#: src/multiplayer_ui.cpp:425
 msgid "Selected user: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:134
+#: src/multiplayer_wait.cpp:126
 msgid "Leader: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:138
+#: src/multiplayer_wait.cpp:130
 msgid "Recruits: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:185
+#: src/multiplayer_wait.cpp:177
 msgid "Waiting for game to start..."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:208
+#: src/multiplayer_wait.cpp:200
 msgid "Getting game data..."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:270
+#: src/multiplayer_wait.cpp:262
 msgid "No era information found."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:274
+#: src/multiplayer_wait.cpp:266
 msgid "No multiplayer sides found"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:307
+#: src/multiplayer_wait.cpp:299
 msgid "Choose your faction:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:307
+#: src/multiplayer_wait.cpp:299
 msgid "Starting position: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:530
+#: src/multiplayer_wait.cpp:514
 msgctxt "multiplayer_starting_gold"
 msgid "Gold"
 msgid_plural "multiplayer_starting_gold^Gold"
@@ -7738,17 +7817,17 @@ msgid "Client disconnected"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/network.cpp:570
+#: src/network.cpp:531
 msgid "Could not add socket to socket set"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/network.cpp:583
+#: src/network.cpp:543
 msgid "Could not send initial handshake"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/pathfind.cpp:439
+#: src/pathfind.cpp:454
 msgid "Terrain with a movement cost less than 1 encountered."
 msgstr ""
 
@@ -7778,33 +7857,33 @@ msgid "Starting game"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:886 src/savegame.cpp:290 src/savegame.cpp:302
-#: src/savegame.cpp:953 src/savegame.cpp:955
+#: src/play_controller.cpp:923 src/savegame.cpp:290 src/savegame.cpp:302
+#: src/savegame.cpp:934 src/savegame.cpp:936
 msgid "Auto-Save"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:893
+#: src/play_controller.cpp:930
 msgid "Back to turn "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:124 src/playcampaign.cpp:159
+#: src/playcampaign.cpp:126 src/playcampaign.cpp:161
 msgid "Defeat"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:125 src/playcampaign.cpp:160
+#: src/playcampaign.cpp:127 src/playcampaign.cpp:162
 msgid "You have been defeated!"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:377
+#: src/playcampaign.cpp:375
 msgid "Error while reading the WML: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:414
+#: src/playcampaign.cpp:411
 msgid "This scenario has ended. Do you want to continue the campaign?"
 msgstr ""
 
@@ -7814,17 +7893,17 @@ msgid "The replay could not be saved"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:440
+#: src/playcampaign.cpp:437
 msgid "Downloading next scenario..."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:576
+#: src/playcampaign.cpp:571
 msgid "Do you want to save your game?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:594
+#: src/playcampaign.cpp:588
 msgid "Unknown scenario: '$scenario|'"
 msgstr ""
 
@@ -7834,32 +7913,32 @@ msgid "Name:"
 msgstr ""
 
 #. +> trunk
-#: src/playmp_controller.cpp:150
+#: src/playmp_controller.cpp:92
 msgid "$name has taken control"
 msgstr ""
 
 #. +> trunk
-#: src/playmp_controller.cpp:153
+#: src/playmp_controller.cpp:94
 msgid "Turn changed"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:227
+#: src/playmp_controller.cpp:228
 msgid "Undoing moves not yet transmitted to the server."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:305
+#: src/playmp_controller.cpp:307
 msgid "End scenario"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:406
+#: src/playmp_controller.cpp:408
 msgid "Waiting for next scenario..."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:535
+#: src/playmp_controller.cpp:537
 msgid ""
 "The game is out of sync, and cannot continue. There are a number of reasons this could happen: this can occur if you or another player have modified their game settings. This may mean one of the players is attempting to cheat. It could also be due to a bug in the game, but this is less likely.\n"
 "\n"
@@ -7867,76 +7946,76 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:196
+#: src/playsingle_controller.cpp:224
 msgid "Remaining gold: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:200
+#: src/playsingle_controller.cpp:228
 msgid "Early finish bonus: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:202
+#: src/playsingle_controller.cpp:230
 msgid "per turn"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:203
+#: src/playsingle_controller.cpp:231
 msgid "Turns finished early: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:205
+#: src/playsingle_controller.cpp:233
 msgid "Bonus: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:208
+#: src/playsingle_controller.cpp:236
 msgid "Gold: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:212
+#: src/playsingle_controller.cpp:240
 msgid "Carry over percentage: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:215
+#: src/playsingle_controller.cpp:243
 msgid "Bonus Gold: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:217
+#: src/playsingle_controller.cpp:245
 msgid "Retained Gold: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:227
+#: src/playsingle_controller.cpp:255
 msgid "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgid_plural "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:235
+#: src/playsingle_controller.cpp:263
 msgid "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgid_plural "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:381
+#: src/playsingle_controller.cpp:416
 msgid "Game Over"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:382
+#: src/playsingle_controller.cpp:417
 msgid "The game is over."
 msgstr ""
 
 #. +> trunk
-#: src/playsingle_controller.cpp:482
+#: src/playsingle_controller.cpp:502
 msgid ""
 "A network disconnection has occurred, and the game\n"
 "cannot continue. Do you want to save the game?"
@@ -7948,52 +8027,52 @@ msgid "A network disconnection has occurred, and the game cannot continue. Do yo
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:657
+#: src/playsingle_controller.cpp:668
 msgid "It is now $name|'s turn"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:880
+#: src/playsingle_controller.cpp:900
 msgid "Scenario Report"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:882
+#: src/playsingle_controller.cpp:902
 msgid "Victory"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:883
+#: src/playsingle_controller.cpp:903
 msgid "You have emerged victorious!"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playturn.cpp:225
+#: src/playturn.cpp:230
 msgid "Replace with AI"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playturn.cpp:226
+#: src/playturn.cpp:231
 msgid "Replace with local player"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playturn.cpp:227
+#: src/playturn.cpp:232
 msgid "Abort game"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playturn.cpp:233 src/playturn.cpp:247
+#: src/playturn.cpp:238 src/playturn.cpp:252
 msgid "Replace with $player"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playturn.cpp:253
+#: src/playturn.cpp:258
 msgid "$player has left the game. What do you want to do?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/replay_controller.cpp:82
+#: src/replay_controller.cpp:81
 msgid "The file you have tried to load is corrupt. Continue playing?"
 msgstr ""
 
@@ -8003,77 +8082,77 @@ msgid " replay"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:443 src/savegame.cpp:447
+#: src/savegame.cpp:445 src/savegame.cpp:449
 msgid "Warning: The file you have tried to load is corrupt. Loading anyway.\n"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:474
+#: src/savegame.cpp:488
 msgid "This save is from a version too old to be loaded."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:478
+#: src/savegame.cpp:492
 msgid "This save is from a different version of the game. Do you want to try to load it?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:527
+#: src/savegame.cpp:541
 msgid "This is not a multiplayer save"
 msgstr ""
 
 #. +> trunk
-#: src/savegame.cpp:553
+#: src/savegame.cpp:567
 msgid "The game could not be saved: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:640
+#: src/savegame.cpp:654
 msgid "Name: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:640
+#: src/savegame.cpp:654
 msgid "Save already exists. Do you want to overwrite it?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:641
+#: src/savegame.cpp:655
 msgid "Overwrite?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:651
+#: src/savegame.cpp:665
 msgid "Save names should not end on '.gz'. Please choose a different name."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:713
+#: src/savegame.cpp:727
 msgid "Saved"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:713
+#: src/savegame.cpp:727
 msgid "The game has been saved"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:747 src/savegame.cpp:810
+#: src/savegame.cpp:761 src/savegame.cpp:786
 msgid "Could not write to file"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:916
+#: src/savegame.cpp:899
 msgid "Save Replay"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:936
+#: src/savegame.cpp:917
 msgid "Could not auto save the game. Please save the game manually."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:992
+#: src/savegame.cpp:969
 msgid "Save Game"
 msgstr ""
 
@@ -8203,27 +8282,27 @@ msgid "Taken"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/storyscreen/controller.cpp:131
+#: src/storyscreen/controller.cpp:128
 msgid "Next"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/storyscreen/controller.cpp:132
+#: src/storyscreen/controller.cpp:129
 msgid "Skip"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/terrain.cpp:146
+#: src/terrain.cpp:153
 msgid "Allied village"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/terrain.cpp:151
+#: src/terrain.cpp:158
 msgid "Enemy village"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/terrain.cpp:156
+#: src/terrain.cpp:163
 msgid "Owned village"
 msgstr ""
 
@@ -8392,53 +8471,53 @@ msgid "Help Wesnoth by sending us information"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/tod_manager.cpp:102 src/tod_manager.cpp:134 src/tod_manager.cpp:242
-#: src/tod_manager.cpp:255 src/tod_manager.cpp:305
+#: src/tod_manager.cpp:102 src/tod_manager.cpp:134 src/tod_manager.cpp:238
+#: src/tod_manager.cpp:251 src/tod_manager.cpp:301
 msgid "No time of day has been defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:603
+#: src/unit.cpp:502
 msgid "Unknown unit type '$type|' while generating traits"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:783
+#: src/unit.cpp:684
 msgid "Unknown unit type '$type|'"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2566 src/unit.cpp:2759 src/unit.cpp:2832
+#: src/unit.cpp:2475 src/unit.cpp:2660 src/unit.cpp:2733
 msgid " and "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2577
+#: src/unit.cpp:2486
 msgid "$attack_list|: $effect_description"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2642
+#: src/unit.cpp:2551
 msgid "moves"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2660 src/unit.cpp:2786
+#: src/unit.cpp:2569 src/unit.cpp:2687
 msgid "XP to advance"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2778
+#: src/unit.cpp:2679
 msgid " move"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2794
+#: src/unit.cpp:2695
 msgid "$effect_description per level"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2841
+#: src/unit.cpp:2742
 msgid "$trait_name|: $trait_description "
 msgstr ""
 
@@ -8469,65 +8548,65 @@ msgid "% parry"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:928
+#: src/unit_types.cpp:924
 msgid "No description available."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:984
+#: src/unit_types.cpp:980
 msgid "chaotic"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:984
+#: src/unit_types.cpp:980
 msgid "lawful"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:984
+#: src/unit_types.cpp:980
 msgid "neutral"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:985
+#: src/unit_types.cpp:981
 msgctxt "female"
 msgid "chaotic"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:985
+#: src/unit_types.cpp:981
 msgctxt "female"
 msgid "lawful"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:985
+#: src/unit_types.cpp:981
 msgctxt "female"
 msgid "neutral"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:342
+#: src/upload_log.cpp:520
 msgid "Wesnoth relies on volunteers like yourself for feedback, especially beginners and new players. Wesnoth keeps summaries of your games: you can help us improve game play by giving permission to send these summaries (anonymously) to wesnoth.org.\n"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:343
+#: src/upload_log.cpp:521
 msgid "Summaries are stored here:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:345
+#: src/upload_log.cpp:523
 msgid "You can view the results at:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:347
+#: src/upload_log.cpp:525
 msgid "Help us make Wesnoth better for you!"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:349
+#: src/upload_log.cpp:527
 msgid "Enable summary uploads"
 msgstr ""
 

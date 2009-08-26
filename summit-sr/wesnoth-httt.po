@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-07-14 23:06+0200\n"
+"POT-Creation-Date: 2009-08-26 14:50+0200\n"
 "PO-Revision-Date: 2009-06-13 21:24+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
-"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
@@ -38,13 +38,10 @@ msgstr "НП"
 msgid "(Beginner)"
 msgstr "(почетник)"
 
-#. [variation]: id=Fighter, race=human
-#. [unit_type]: id=Fighter, race=human
 #. [campaign]: id=Heir_To_The_Throne
 #. +> trunk 1.6
 #: data/campaigns/Heir_To_The_Throne/_main.cfg:16
-#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:4
-#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:33
+#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:5
 msgid "Fighter"
 msgstr "борац"
 
@@ -245,7 +242,7 @@ msgstr "Истекну ли потези"
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Return_to_Wesnoth.cfg:87
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Test_of_the_Clans.cfg:79
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:94
-#: data/campaigns/Heir_To_The_Throne/scenarios/25_HttT_Epilogue.cfg:44
+#: data/campaigns/Heir_To_The_Throne/scenarios/25_HttT_Epilogue.cfg:46
 msgid "Konrad"
 msgstr "Конрад"
 
@@ -4740,63 +4737,65 @@ msgstr "Верујем да би још мало испомагања било �
 
 #. [message]: speaker=Kalenz
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:232
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:233
 msgid "I can tell where we are. That is the river that is known as Longlier to men, called Arkan-thoria in my people's ancient tongue. The home of my people lies to the east."
 msgstr "Ја могу рећи где се налазимо. Ова је река знана као Лонглијер међу људима, а Аркан-торија на древном језику мога народа. Њихови су домови источно одавде."
 
 #. [message]: speaker=Konrad
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:237
+#, fuzzy
+#| msgid "Then perhaps we should head East along the river, and seek refuge and rest there for a time?"
+msgid "Then perhaps we should head east along the river, and seek refuge and rest there for a time?"
+msgstr "Онда можда да кренемо источно уз реку, и потражимо уточиште и одмор код њих на неко време?"
+
+#. [message]: speaker=Konrad
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:236
 msgid "Then perhaps we should head East along the river, and seek refuge and rest there for a time?"
 msgstr "Онда можда да кренемо источно уз реку, и потражимо уточиште и одмор код њих на неко време?"
 
 #. [message]: speaker=Kalenz
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:240
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:241
 msgid "We should indeed seek refuge there, my lord, but not by going east along the river. Its name means 'The River of Bones'. Great and evil creatures lurk along its banks, its waters are not fit to drink, and it runs over the Cliffs of Thoria. It has been many centuries since any man or elf has passed over the Cliffs and survived. No, Prince, we must choose another way."
 msgstr "Заиста би требало тамо да се склонимо, али не идући источно дуж реке. Њено име значи „река костурница“. Велика и зла створења вребају дуж њених обала, вода није подобна за пиће, и протиче кроз клисуре Торије. Много векова је прошло од када је било човек било вилењак пошао тим клисурама и преживео. Не, принче, морамо изабрати други пут."
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:244
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:245
 msgid "But which way, Kalenz?"
 msgstr "Али који пут, Калензе?"
 
 #. [message]: speaker=Kalenz
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:248
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:249
 msgid "We may take two paths which avoid the river. North, through the ancient home of my people, and then east to where they now live. Or we can go south, passing through the swamps, before turning east and then north. We would cross the river one time more if we chose that route, but I know a safe place for the crossing."
 msgstr "Можемо кренути двема стазама које се клоне реке. На север, кроз древни дом мог народа, па онда на исток где сада обитавају. Или можемо на југ, газећи кроз мочваре, пре него што скренемо на исток па на север. Овим другим путем бисмо морали још једном да пређемо реку, али знам безбедно место за прелазак."
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:252
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:253
 msgid "And will you join us in seeking refuge with the North Elves, Princess?"
 msgstr "Хоћеш ли нам се и ти придружити у дому северњачких вилењака, принцезо?"
 
 #. [message]: speaker=Li'sar
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:256
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:257
 msgid "If the elves will promise me refuge and safe passage, then I will go."
 msgstr "Ако ми вилењаци јемче за уточиште и безбедан пролаз, поћи ћу."
 
 #. [message]: speaker=Kalenz
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:260
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:261
 msgid "That we will, Princess. Even though you are the daughter of the Queen, our enemy, we shall not harm you on this encounter, for you have helped us."
 msgstr "То је сигурно, принцезо. Иако си кћер Краљице, нашег непријатеља, нећемо те повредити при овом сусрету, јер си нам помогла."
 
 #. [message]: speaker=Delfador
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:264
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:265
 msgid "So, we must choose. To the north past the orcs, where lie the ancient snow plains of the elves, or to the south, beyond the armies of the Walking Dead where the dreaded swamps await."
 msgstr "Дакле, морамо изабрати. На север поред оркова, где леже древне снежне равнице вилењака, или на југ, иза војски немртвих, где чекају страшне мочваре."
-
-#. [message]: speaker=unit
-#. +> trunk
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:283
-msgid "Prince Konrad, you and your friends keep talking about avoiding the river. But we can lead you up the river. With the help of us merfolk, you could reach the home of the North Elves much sooner by going up the river instead of taking either one of the land routes. I can not promise you that it will be a safe journey, because I do not know what lies ahead, but it is an option and you should consider it, my lord."
-msgstr "Принче Конраде, ви и ваши пријатељи често помињете да реку треба избећи. Али вас ми можемо повести уз њу. Уз помоћ нас морејаца, кретањем узводно могли бисте досећи дом северњачких вилењака много пре него икојим од копнених путева. Не могу вам обећати безбедно путовање јер не знам шта лежи пред нама, али је то могућност о којој бисте могли поразмислити, господару."
 
 #. [message]: speaker=unit
 #. +> 1.6
@@ -4804,9 +4803,17 @@ msgstr "Принче Конраде, ви и ваши пријатељи чес�
 msgid "Prince Konrad, you and your friends keep talking about avoiding the river. But we can lead you up the river. With the help of us Merfolk, you could reach the home of the North Elves much sooner by going up the river instead of taking either one of the land routes. I can not promise you that it will be a safe journey, because I do not know what lies ahead, but it is an option and you should consider it, my lord."
 msgstr "Принче Конраде, ви и ваши пријатељи често помињете да реку треба избећи. Али вас ми можемо повести уз њу. Уз помоћ нас морејаца, кретањем узводно могли бисте досећи дом северњачких вилењака много пре него икојим од копнених путева. Не могу вам обећати безбедно путовање јер не знам шта лежи пред нама, али је то могућност о којој бисте могли поразмислити, господару."
 
+#. [message]: speaker=unit
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:284
+#, fuzzy
+#| msgid "Prince Konrad, you and your friends keep talking about avoiding the river. But we can lead you up the river. With the help of us merfolk, you could reach the home of the North Elves much sooner by going up the river instead of taking either one of the land routes. I can not promise you that it will be a safe journey, because I do not know what lies ahead, but it is an option and you should consider it, my lord."
+msgid "Prince Konrad, you and your friends keep talking about avoiding the Arkan-thoria. But we can lead you down this river. With the help of us merfolk, you could reach the home of the North Elves much sooner by the river road, rather than by taking either one of the land routes. I can not promise you that it will be a safe journey, because I do not know what lies ahead, but it is an option and you should consider it, my lord."
+msgstr "Принче Конраде, ви и ваши пријатељи често помињете да реку треба избећи. Али вас ми можемо повести уз њу. Уз помоћ нас морејаца, кретањем узводно могли бисте досећи дом северњачких вилењака много пре него икојим од копнених путева. Не могу вам обећати безбедно путовање јер не знам шта лежи пред нама, али је то могућност о којој бисте могли поразмислити, господару."
+
 #. [message]: speaker=Konrad
 #. +> trunk
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:293
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:294
 msgid "Loyal merfolk, you have served far beyond what your debt of gratitude requires. I will trust your strength and loyalty through this tribulation even as you trusted us to lead you through the heart of a volcano."
 msgstr "Одани морејци, одужили сте нам се далеко преко захтева дуга захвалности. Вероваћу вашој снази и оданости и кроз ову невољу, као што сте ви нама када смо вас повели кроз срце вулкана."
 
@@ -4818,115 +4825,115 @@ msgstr "Одани морејци, одужили сте нам се далек�
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:299
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:300
 msgid "Your people have already saved me once from a watery death, noble mer, fighting by my side as undead horrors threatened to devour us. I entrust our army to your strength and protection."
 msgstr "Ваш народ већ ме је једном спасио водоносне смрти, племенити морејцу, борећи се уза нас док су немртви ужаси претили да нас растргну. Поверавам нашу војску вашој снази и окриљу."
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:305
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:306
 msgid "If you are confident you can navigate these waters and guide our forces to safety, then lead on."
 msgstr "Ако сте уверени да се можете снаћи у овим водама и извести наше снаге на безбедно, поведите."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:309
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:310
 msgid "I am, my liege. We press ahead. Stay close, noble masters."
 msgstr "Јесам, господару. Онда полазимо. Не удаљавајте се, племенити сапутници."
 
 #. [message]: speaker=Delfador
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:313
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:314
 msgid "I suspected you would attempt to lead us down the banks of Longlier..."
 msgstr "Сумњах да ћете покушати да нас поведете низ обале Лонглијера..."
 
 #. [message]: speaker=Kalenz
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:317
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:318
 msgid "(shock) What!? Konrad, your folly is appalling! Do you flout my advice?"
 msgstr "[запањен] Шта!? Конраде, ваша је наивност невиђена! Ругате ли се то мом савету?"
 
 #. [message]: speaker=Li'sar
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:321
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:322
 msgid "We are traveling east? Down the river? Konrad, I hope you know what you are committing us to."
 msgstr "Идемо на исток? Низ реку? Конраде, надам се да знаш у шта нас увлачиш."
 
 #. [message]: speaker=Kalenz
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:325
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:326
 msgid "Of course not, whelp, else he would have chosen a safer route."
 msgstr "Наравно да не, штенце, иначе би изабрао безбедније стазе."
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:330
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:331
 msgid "Hold your tongue, Kalenz. The princess is our ally and of royal blood. She deserves not your disrespect."
 msgstr "Језик за зубе, Калензе. Принцеза је наш савезник и краљевске крви. Не заслужује твоје ниподаштавање."
 
 #. [message]: speaker=Kalenz
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:334
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:335
 msgid "Delfador, you cannot allow this to happen! We march to our death!"
 msgstr "Делфадоре, не можеш дозволити да ово прође! Ступамо право у смрт!"
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:338
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:339
 msgid "Lord elf, I am in command. I have held council with the Merfolk, and they believe they can find a path down the river and over the falls. We will take the most direct route to your homeland and escape the grasp of the Northerner armies that swarm the wilderness."
 msgstr "Вилењачки господару, ја овде заповедам. Већао сам са морејцима, и они верују да могу испратити пут низ реку и преко водопад^а. Кренућемо најнепосреднијим путем ка твојој домовини и избећи стиску северњачких војски што се роје дивљином."
 
 #. [message]: speaker=Delfador
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:342
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:343
 msgid "(sigh) I have been spoiled by years of genteel living among your kind, Kalenz. An elf's capacity for introspection and serenity is exceeded only by his ferocity and passion in battle."
 msgstr "[уздише] Размазише ме године лагодног живота међу твојима, Калензе. Способност једног вилењака за самоспознају и спокојност надмашена је само његовом жестином и страшћу у боју."
 
 #. [message]: speaker=Delfador
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:346
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:347
 msgid "It offends your pride and wisdom to suffer the indignity of accepting the will of humans, especially in such a harsh predicament. I urge you to remember how far we have come under Konrad's leadership, and how close we are to bringing the hammer of destiny crashing down on Queen Asheviere's ill-gotten throne. We will journey east."
 msgstr "Вређа твој понос и мудрост да трпиш недостојанство прихватања воље људи, посебно под тако тешком сумњом. Молим те да се присетиш докле догурасмо под Конрадовим вођством, и колико смо близу маљем судбине разбити злоосвојени престо краљице Ашевире. Поћи ћемо на исток."
 
 #. [message]: speaker=Kalenz
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:350
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:351
 msgid "I do not like this, old friend. There are legends of things dwelling on this river that even I dare not speak of..."
 msgstr "Мори ме ово, стари пријатељу. О стварима које настањују ову реку круже предања која ни ја не усуђујем испричати..."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:358
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:359
 msgid "Prince Konrad, are you sure you want to do this?"
 msgstr "Принче Конраде, желите ли уистину да поступите тако?"
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:362
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:363
 msgid "I say that..."
 msgstr "Кажем..."
 
 #. [option]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:364
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:365
 msgid "Our need for speed outweighs the danger. With the Merfolk to help us, we will win through."
 msgstr "Преча неопходност надмашује опасност. Са морејцима на испомоћи, пробићемо се."
 
 #. [option]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:377
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:378
 msgid "On second thought, perhaps we should choose a safer way to go."
 msgstr "Кад боље промислим, можда нам је боље изабрати безбеднији пут."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:381
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:382
 msgid "As you say, my lord."
 msgstr "Како заповедате, господару."
 
 #. [message]: speaker=narrator
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:386
+#: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:387
 msgid "If you want to choose the river path later, move a merman to the right end of the river again."
 msgstr "Пожелиш ли касније да пођеш речним током, поново помери морејца на десни крај реке."
 
@@ -5263,25 +5270,57 @@ msgid "Warven"
 msgstr "Варвен"
 
 #. [message]: speaker=narrator
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:277
+#, fuzzy
+#| msgid "The party traveled up the river for days, sometimes walking through the shallow water, sometimes swimming, helped by the Merfolk."
+msgid "The party traveled down the river for days, sometimes walking through the shallow water, sometimes swimming, helped by the Merfolk."
+msgstr "Дружина се креташе уз реку данима, понекад газећи плитком водом, понекад пливајући, уз помоћ морејску."
+
+#. [message]: speaker=narrator
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:277
 msgid "The party traveled up the river for days, sometimes walking through the shallow water, sometimes swimming, helped by the Merfolk."
 msgstr "Дружина се креташе уз реку данима, понекад газећи плитком водом, понекад пливајући, уз помоћ морејску."
 
 #. [message]: speaker=narrator
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:282
+#, fuzzy
+#| msgid "One day they saw a gruesome sight - a fleet of ships sunk or shattered among the river islands. Konrad sent some of the mermen to investigate."
+msgid "One day they saw a gruesome sight - a fleet of boats and rafts sunk or shattered among the river islands. Konrad sent some of the mermen to investigate."
+msgstr "Један дан наиђоше на језив призор — бродовље што насукано што разбијено међу речним острвима. Конрад отпосла неке од морејаца да извиде."
+
+#. [message]: speaker=narrator
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:282
 msgid "One day they saw a gruesome sight - a fleet of ships sunk or shattered among the river islands. Konrad sent some of the mermen to investigate."
 msgstr "Један дан наиђоше на језив призор — бродовље што насукано што разбијено међу речним острвима. Конрад отпосла неке од морејаца да извиде."
 
 #. [message]: role=merman-advisor
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:286
+#, fuzzy
+#| msgid "It seems like the ships were sunk in battle, not by a storm. Those that were not capsized have been burned. The battle must have taken place not long ago, perhaps only a few weeks past. We've found no survivors. One more thing...all the sunk ships fly the banner of the Crown of Wesnoth."
+msgid "These are not proper ships, but shallow-draft boats built only recently; much of their timber is green. They were sunk in battle, not by a storm. Those that were not capsized have been burned. The battle must have taken place not long ago, perhaps only a few weeks past. We've found no survivors. One more thing...all flew the banner of the Crown of Wesnoth."
+msgstr "Наликује да су бродови потопљени у боју, не олујом. Који су остали непреврнути, спаљени су. Мора да је до битке дошло недавно, колико пре неколико седмица. Не нађосмо преживелих. Још нешто... Сви потопљени бродови носе барјак веснотске круне."
+
+#. [message]: role=merman-advisor
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:286
 msgid "It seems like the ships were sunk in battle, not by a storm. Those that were not capsized have been burned. The battle must have taken place not long ago, perhaps only a few weeks past. We've found no survivors. One more thing...all the sunk ships fly the banner of the Crown of Wesnoth."
 msgstr "Наликује да су бродови потопљени у боју, не олујом. Који су остали непреврнути, спаљени су. Мора да је до битке дошло недавно, колико пре неколико седмица. Не нађосмо преживелих. Још нешто... Сви потопљени бродови носе барјак веснотске круне."
 
 #. [message]: speaker=Delfador
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:290
+#, fuzzy
+#| msgid "Haven't you found any enemy ships, ones the Wesnothians were fighting against?"
+msgid "Haven't you found any enemy boats, ones the Wesnothians were fighting against?"
+msgstr "Не нађосте ли неки од противничких бродова, са којима су се Весноћани сукобили?"
+
+#. [message]: speaker=Delfador
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:290
 msgid "Haven't you found any enemy ships, ones the Wesnothians were fighting against?"
 msgstr "Не нађосте ли неки од противничких бродова, са којима су се Весноћани сукобили?"
@@ -5293,13 +5332,27 @@ msgid "No we have not. If there were any, they are long gone."
 msgstr "Не, не нађосмо. Ако их је и било, одавно су отпловили."
 
 #. [message]: speaker=Li'sar
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:298
+#, fuzzy
+#| msgid "Perhaps the monsters Lord Kalenz alluded to sunk the ships."
+msgid "Perhaps the monsters Lord Kalenz alluded to sunk the boats."
+msgstr "Можда бродове потопише чудовишта која спомену господар Каленз."
+
+#. [message]: speaker=Li'sar
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:298
 msgid "Perhaps the monsters Lord Kalenz alluded to sunk the ships."
 msgstr "Можда бродове потопише чудовишта која спомену господар Каленз."
 
 #. [message]: speaker=Kalenz
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:302
+msgid "That is possible. I would guess they were seeking a way east, just as we are."
+msgstr ""
+
+#. [message]: speaker=Kalenz
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:302
 msgid "That is possible..."
 msgstr "Може бити..."
@@ -5325,7 +5378,9 @@ msgstr "Не бих то препоручио. Давно, један косац
 #. [message]: speaker=Li'sar
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:318
-msgid "Then we have only two choices: to proceed up the river or to go back where we came from and fight our way through the orcs or the undead."
+#, fuzzy
+#| msgid "Then we have only two choices: to proceed up the river or to go back where we came from and fight our way through the orcs or the undead."
+msgid "Then we have only two choices: to proceed down the river or to go back where we came from and fight our way through the orcs or the undead."
 msgstr "Онда су нам само два избора: даље уз реку, или назад одакле смо пошли и пробити се кроз оркове или немртве."
 
 #. [message]: speaker=Li'sar
@@ -5421,7 +5476,16 @@ msgstr "Рођен сам у Бисерном заливу и провео це�
 
 # well-spelled: ГРРРОАР
 #. [message]: speaker=Keh Ohn
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:388
+#, fuzzy
+#| msgid "GRROAR!! Will you self-oriented creatures finally show some manners and pay some attention to me?"
+msgid "GRROAR!! Will you silly self-centered creatures show some manners and pay some attention to me?"
+msgstr "ГРРРОАР!! Хоће ли једно од вас самозадовољних створења напокон исказати лепо понашање и посветити ми нешто пажње?"
+
+# well-spelled: ГРРРОАР
+#. [message]: speaker=Keh Ohn
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:388
 msgid "GRROAR!! Will you self-oriented creatures finally show some manners and pay some attention to me?"
 msgstr "ГРРРОАР!! Хоће ли једно од вас самозадовољних створења напокон исказати лепо понашање и посветити ми нешто пажње?"
@@ -5456,7 +5520,15 @@ msgstr ""
 "Тааако... Ви посласте своје подређене да ударе на нас. Пошто смо их уништили, сада долазите да сами завршите посао."
 
 #. [message]: speaker=Konrad
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:408
+#, fuzzy
+#| msgid "No...There is an ongoing civil war amongst us humans. The ships were sent by our enemies, not by us, even if they were Wesnothian ships."
+msgid "No...There is an ongoing civil war amongst us humans. The boats were sent by our enemies, not by us, even if they were Wesnothian boats."
+msgstr "Не... Међу људима дуго пламти грађански рат. Бродове послаше наши непријатељи, не ми, и поред тога што су под весноћанским барјацима."
+
+#. [message]: speaker=Konrad
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:408
 msgid "No...There is an ongoing civil war amongst us humans. The ships were sent by our enemies, not by us, even if they were Wesnothian ships."
 msgstr "Не... Међу људима дуго пламти грађански рат. Бродове послаше наши непријатељи, не ми, и поред тога што су под весноћанским барјацима."
@@ -5492,7 +5564,15 @@ msgid "If you defy my warning - prepare for battle."
 msgstr "Пренебрегнете ли моје упозорење — спремите се боју."
 
 #. [message]: speaker=Konrad
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:428
+#, fuzzy
+#| msgid "So be it. We have to go up the river; we have no choice. We'll fight our way through if necessary."
+msgid "So be it. We have to go down the river; we have no choice. We'll fight our way through if necessary."
+msgstr "Онда тако мора бити. Морамо уз реку, избора немамо. Ако нема друге, борићемо се."
+
+#. [message]: speaker=Konrad
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:428
 msgid "So be it. We have to go up the river; we have no choice. We'll fight our way through if necessary."
 msgstr "Онда тако мора бити. Морамо уз реку, избора немамо. Ако нема друге, борићемо се."
@@ -5563,7 +5643,15 @@ msgid "Our leader is dead, but it matters not! Time enough to appoint a new lead
 msgstr "Наш вођ је мртав, али не мари! Биће времена за устоличење другог пошто се битка добије! Борите се до последњег, другови!"
 
 #. [message]: speaker=Konrad
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:827
+#, fuzzy
+#| msgid "Keep on going up the river. While we're at it, let us force as many drakes as possible to pay with their lives. They have defied us, and now they will meet the same fate as their leader!"
+msgid "Keep on going down the river. While we're at it, let us force as many drakes as possible to pay with their lives. They have defied us, and now they will meet the same fate as their leader!"
+msgstr "Наставите уз реку. Кад смо већ при томе, натерајмо што је више змагова могуће да животима плате. У свом пркосу доживеће исту судбину као и њихов поглавар!"
+
+#. [message]: speaker=Konrad
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:827
 msgid "Keep on going up the river. While we're at it, let us force as many drakes as possible to pay with their lives. They have defied us, and now they will meet the same fate as their leader!"
 msgstr "Наставите уз реку. Кад смо већ при томе, натерајмо што је више змагова могуће да животима плате. У свом пркосу доживеће исту судбину као и њихов поглавар!"
@@ -5718,8 +5806,8 @@ msgstr "Крени с нама кад узмогнеш, и пази се чуд�
 #. [message]: speaker=unit
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1159
-msgid "There is a waterfall ahead. It is so high I can barely see the top of it! Neither the merfolk, even less the land dwellers can swim up the waterfall. Even gryphons might have trouble flying up so far! I am afraid, Your Highness, that we are stuck."
-msgstr "Пред нама је водопад, толико висок да му једва могу видети врха! Ни морејци, а житељи копна још мање, не могу пливати уз водопад. Чак и грифонима може бити заморно да полете тако високо! Бојим се, височанство, да смо заглављени."
+msgid "There is a cataract ahead. By the thunder of the water and the height of the spume, it must drop several hundred feet at least. We must leave the river before we are swept into it, or we will surely perish!"
+msgstr ""
 
 #. [message]: speaker=unit
 #. +> 1.6
@@ -5727,63 +5815,77 @@ msgstr "Пред нама је водопад, толико висок да му
 msgid "There is a waterfall ahead. It is so high I can barely see the top of it! Neither the Mermen, even less the land dwellers can swim up the waterfall. Even Gryphons might have trouble flying up so far! I am afraid, Your Highness, that we are stuck."
 msgstr "Пред нама је водопад, толико висок да му једва могу видети врха! Ни морејци, а житељи копна још мање, не могу пливати уз водопад. Чак и грифонима може бити заморно да полете тако високо! Бојим се, височанство, да смо заглављени."
 
+#. [message]: role=merman-advisor
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1168
+msgid "Even we merfolk cannot swim that. The road east is blocked."
+msgstr ""
+
 #. [message]: speaker=Konrad
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1172
+#, fuzzy
+#| msgid "What about the tributary which flows into the river from inside the mountain? There seems to be a cave..."
+msgid "Wait. What about the tributary which flows into the river from inside the mountain? There seems to be a cave..."
+msgstr "А шта је са притоком која се улива у реку из унутрашњости планине? То као да има нека пећина тамо..."
+
+#. [message]: speaker=Konrad
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1168
 msgid "What about the tributary which flows into the river from inside the mountain? There seems to be a cave..."
 msgstr "А шта је са притоком која се улива у реку из унутрашњости планине? То као да има нека пећина тамо..."
 
 #. [message]: speaker=Kalenz
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1173
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1177
 msgid "Legend says that that little river comes from the land of the North Elves. It is said that it is an outflow of Everlore, which flows in the land of my home and that there is a cave system in that area with several cave entrances and springs which flow into the ground. I can say no more about it, except that it is swarming with undead and other creatures which find power in the darkness of the caves. We elves prefer not to venture into the caves; instead we put guards near the entrances to kill any foul creature foolish enough to wander outside. No elves have been inside for centuries and that area is unknown to us. Truly, I don't recommend entering the cave if we have any other options."
 msgstr "Предања говоре да та мала река стиже из земаља северњачких вилењака. Каже се да је истока из Свенаука, који тече кроз моју домовину, и да у тој области постоји пећинска мрежа с неколико улаза и извора који отичу у тло. Ништа више не могу рећи, осим да врви немртвима и другим створењима која црпе снагу из пећинске таме. Ми вилењаци тежимо да не залазимо у пећине; уместо тога поставимо страже на улазима, да сатру свако погано створење које залута напоље. Ниједан вилењак није ступио унутра већ столећима, те нам је подручје непознато. Збиља не препоручујем урањање у пећину ако имамо икаквог другог избора."
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1177
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1181
 msgid "Unfortunately, we have no other options. Onward into the cave!"
 msgstr "Нажалост, немамо. Напред у пећину!"
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1196
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1200
 msgid "I've reached the cave entrance. There seems to be a system of channels running through the mountains. Follow me, and let us hope we somehow manage to get out alive."
 msgstr "Стигох до уста пећине. Као да се подно планина пружа мрежа канала. Пратите ме, и надајмо се да ћемо се некако живи извући."
 
 #. [message]: speaker=Li'sar
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1200
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1204
 msgid "That is so very encouraging...."
 msgstr "Врло охрабрујуће..."
 
 #. [message]: speaker=Delfador
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1204
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1208
 msgid "I wonder what kind of monsters await us inside."
 msgstr "Питам се какве нас немани очекују унутра."
 
 #. [message]: speaker=Kalenz
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1208
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1212
 msgid "We are soon going to find out."
 msgstr "Убрзо ћемо сазнати."
 
 #. [message]: speaker=Li'sar
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1212
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1216
 msgid "Well, there is no point in delaying any further. Let us go and find out."
 msgstr "Па, нема сврхе даље одуговлачити. Уђимо и откријмо."
 
 #. [message]: speaker=Warven
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1217
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1221
 msgid "Yes, my lady!"
 msgstr "Да, госпо!"
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1221
+#: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1225
 msgid "Everybody inside..."
 msgstr "Сви улазите..."
 
@@ -7067,9 +7169,9 @@ msgstr "Овако ти, вештице!"
 #. [object]
 #. +> trunk 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:269
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:326
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:378
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:485
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:327
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:380
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:488
 msgid "The Queen is Dead"
 msgstr "Краљица је мртва"
 
@@ -7099,37 +7201,37 @@ msgstr "Лиза́ра зададе смртни ударац!"
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:342
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:343
 msgid "You have hunted me across the countryside, indeed across the years. Here I am, Dark Queen."
 msgstr "Гонила си ме преко целе земље, уистину, годинама. Па ево ме, мрачна краљице."
 
 #. [message]: speaker=Asheviere
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:346
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:347
 msgid "I was sure I had killed you, yet you haunt me still. Be gone, demon! I banish you, ghost!"
 msgstr "Бејах уверена да сам те убила, а ево ме још увек опседаш. Нестани, демону! Истерујем те, авети!"
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:350
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:351
 msgid "Oh, wretched lady, I am very real. The land has suffered from your greed and ambition. You will now be held to account for your misdeeds. For the young prince Konrad! For WESNOTH!"
 msgstr "О, злобна госпо, врло сам стваран. Земља је пропатила твоју похлепу и амбиције. Сада ће ти се пресудити за злодела твоја. За младог принца Конрада! За Веснот!"
 
 #. [message]: speaker=narrator
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:356
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:357
 msgid "Konrad strikes a killing blow!"
 msgstr "Конрад зададе смртни ударац!"
 
 #. [message]: speaker=Delfador
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:394
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:396
 msgid "As I destroyed your son, I now destroy you."
 msgstr "Као што сатрех твог сина, сада ћу и тебе."
 
 #. [message]: speaker=Asheviere
 #. +> trunk
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:398
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:400
 msgid "You were always defiant, wizard, and no one has thwarted my plans as determinedly as you."
 msgstr "Увек ћеш бити пркосан, чаробњаче, нико никада не смрси моје планове одлучно колико ти."
 
@@ -7141,7 +7243,7 @@ msgstr "Увек ћеш бити пркосан, чаробњаче, нико н
 
 #. [message]: speaker=Delfador
 #. +> trunk
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:402
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:404
 msgid "I have always been a humble servant of the Crown, and remain such even now."
 msgstr "Одувек бејах понизни слуга круни, и то ћу бити и сада."
 
@@ -7153,13 +7255,13 @@ msgstr "Одувек бејах понизни слуга круни, и то ћ
 
 #. [message]: speaker=Asheviere
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:406
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:408
 msgid "Delfador! You utterly disgust me, you sniveling worm. How dare you confront me, your queen."
 msgstr "Делфадоре! Неизмерно ми се гадиш, ти цмиздрави црве. Како се усуђујеш да се испречиш својој краљици."
 
 #. [message]: speaker=Delfador
 #. +> trunk
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:411
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:413
 msgid "How dare I? I High Provost of the Council of Archmagi..."
 msgstr "Како се усуђујем? Ја сам високи ректор Већа архимагова..."
 
@@ -7171,7 +7273,7 @@ msgstr "Како се усуђујем? Ја сам високи ректор В
 
 #. [message]: speaker=Delfador
 #. +> trunk
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:416
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:418
 msgid "... bearer of the staff of An-Usrukhar, guardian of the book of Crelanu ..."
 msgstr "...носилац штапа Ан Усрукара, чувар књиге Крелануа..."
 
@@ -7183,7 +7285,7 @@ msgstr "...носилац штапа Ан Усрукара, чувар књиг�
 
 #. [message]: speaker=Delfador
 #. +> trunk
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:420
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:422
 msgid "... Mage Protector of The Kingdom Of The Peoples Of The West-North, Chief Advisor to the <i>Crown</i>..."
 msgstr "...маг заштитник краљевства народ^а северозапада, врховни саветник <i>круне</i>..."
 
@@ -7194,12 +7296,6 @@ msgid "... Mage Protector of The Kingdom Of The Peoples From The West-North, Chi
 msgstr "...маг заштитник краљевства народ^а северозапада, врховни саветник КРУНЕ..."
 
 #. [message]: speaker=Delfador
-#. +> trunk
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:424
-msgid "... and personal counselor to my King and my <i>friend</i>, Garard the Second, who you most <i>foully</i> betrayed..."
-msgstr "...и лични повереник мога краља и <i>пријатеља</i>, Гарарда Другог, којег тако <i>прљаво</i> издаде..."
-
-#. [message]: speaker=Delfador
 #. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:424
 msgid "... AND PERSONAL COUNSELOR TO MY FRIEND AND KING, GARARD THE SECOND! TODAY YOU MEET YOUR ATONEMENT!"
@@ -7207,49 +7303,55 @@ msgstr "...И ЛИЧНИ ПОВЕРЕНИК МОГ ПРИЈАТЕЉА И КРА�
 
 #. [message]: speaker=Delfador
 #. +> trunk
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:428
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:426
+msgid "... and personal counselor to my King and my <i>friend</i>, Garard the Second, who you most <i>foully</i> betrayed..."
+msgstr "...и лични повереник мога краља и <i>пријатеља</i>, Гарарда Другог, којег тако <i>прљаво</i> издаде..."
+
+#. [message]: speaker=Delfador
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:430
 msgid "I am Delfador the Great and TODAY YOU MEET YOUR ATONEMENT!"
 msgstr "Ја сам Делфадор Велики и ДАНАС ЋЕ БИТИ НАМИРЕЊА!"
 
 #. [message]: speaker=narrator
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:433
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:435
 msgid "In a horrific inferno of magical rage, Asheviere is completely annihilated!"
 msgstr "У ужасавајућем, пакленом вихору магије, од Ашевире ништа не остаде!"
 
 #. [message]: speaker=Asheviere
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:482
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:485
 msgid "Treason! The evil ones have slain me!"
 msgstr "Издаја! Зликовци ме посекоше!"
 
 #. [message]: speaker=Delfador
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:507
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:510
 msgid "And so passes Asheviere, the dark queen of Wesnoth."
 msgstr "И тако прође Ашевира, мрачна краљица Веснота."
 
 #. [message]: speaker=Konrad
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:511
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:514
 msgid "We have won at last! Li'sar! You will be queen!"
 msgstr "Напокон победисмо! Лиза́ро! Ти ћеш бити краљица!"
 
 #. [message]: speaker=Li'sar
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:515
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:518
 msgid "Yes, but I won't ever forget what you have done for me, Konrad, Delfador, and Kalenz."
 msgstr "Да, али никада нећу заборавити ваша дела, Конраде, Делфадоре, и Калензе."
 
 #. [message]: speaker=Kalenz
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:519
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:522
 msgid "So much blood. So much death. For what? A title?"
 msgstr "Толико крви, толико смрти. А за шта? За титулу?"
 
 #. [message]: speaker=Li'sar
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:523
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:526
 msgid "For justice, Elf Lord. We fight because if we do not, evil would prevail. But, I implore you to let the dead have their rest. We have taken victory. Tomorrow is a new day, friends... let us build this kingdom anew."
 msgstr "За правду, господару вилењаку. Борисмо се, јер да нисмо, зло би превагнуло. Али те молим да дамо мртвима одмора. Победа је наша, а сутра је нови дан, пријатељи... Подигнимо ово краљевство из пепела."
 
@@ -7324,37 +7426,23 @@ msgstr "сабља"
 #. [attack]: type=fire
 #. +> trunk 1.6
 #: data/campaigns/Heir_To_The_Throne/units/Battle_Princess.cfg:124
-#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:192
-#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:59
-#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:232
+#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:158
+#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:80
+#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:194
 #: data/campaigns/Heir_To_The_Throne/units/Princess.cfg:163
 msgid "scepter of fire"
 msgstr "ватрено жезло"
 
-#. [variation]: id=Commander, race=human
-#. [unit_type]: id=Commander, race=human
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:4
-#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:148
+#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:5
 msgid "Commander"
 msgstr "заповедник"
-
-#. [variation]: id=Commander, race=human
-#. [unit_type]: id=Commander, race=human
-#. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:27
-#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:171
-msgid "The rank of Commander is held by those who lead battle groups into combat. Possessing leadership skills, they give lower-level units in adjacent hexes improved performance in combat. Commanders are best skilled with the sword, although they also carry a bow to use when necessary. If the Commander is lost, so is the battle."
-msgstr "Чин заповедника имају они што воде бојне саставе у битку. Њихове вештине вођства побољшавају борбени учинак јединица у суседним пољима. Заповедници су сами највештији с мачем, али носе и лук за случајеве где затреба. Изгуби ли се заповедник, изгубљена је и битка."
 
 #. [attack]: type=blade
 #. +> trunk 1.6
 #: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:31
-#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:175
-#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:22
-#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:50
-#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:34
-#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:214
+#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:21
+#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:32
 #: data/campaigns/Heir_To_The_Throne/units/Sea_Orc.cfg:22
 msgid "sword"
 msgstr "мач"
@@ -7362,11 +7450,17 @@ msgstr "мач"
 #. [attack]: type=pierce
 #. +> trunk 1.6
 #: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:40
-#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:184
-#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:43
-#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:223
+#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:41
 msgid "bow"
 msgstr "лук"
+
+#. [variation]
+#. [unit_type]
+#. +> trunk 1.6
+#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:148
+#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:155
+msgid "The rank of Commander is held by those who lead battle groups into combat. Possessing leadership skills, they give lower-level units in adjacent hexes improved performance in combat. Commanders are best skilled with the sword, although they also carry a bow to use when necessary. If the Commander is lost, so is the battle."
+msgstr "Чин заповедника имају они што воде бојне саставе у битку. Њихове вештине вођства побољшавају борбени учинак јединица у суседним пољима. Заповедници су сами највештији с мачем, али носе и лук за случајеве где затреба. Изгуби ли се заповедник, изгубљена је и битка."
 
 #. [variation]: id=Dark Queen, race=human
 #. [unit_type]: id=Dark Queen, race=human
@@ -7397,14 +7491,16 @@ msgstr "жезло"
 msgid "raging blizzard"
 msgstr "љута мећава"
 
-#. [unit_type]: id=Fighter, race=human
+#. [variation]
+#. [unit_type]
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:18
+#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:72
+#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:77
 msgid "Young and brash, Fighters attack with a sword, and are vulnerable to more seasoned enemies. However they have the potential to become great warriors one day."
 msgstr "Млади и дрски, борци нападају мачем, и рањиви су на искусније противнике. Ипак имају могућности да једнога дана постану велики ратници."
 
 #. [variation]: id=Fighter, race=human
-#. +> trunk 1.6
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:46
 msgid "Young and brash, Fighters fight with a sword, and are vulnerable to attack from enemies. However they have the potential to become great warriors one day."
 msgstr "Млади и дрски, борци се служе мачем, и рањиви су у нападу непријатеља. Ипак имају могућности да једнога дана постану велики ратници."
@@ -7415,19 +7511,16 @@ msgstr "Млади и дрски, борци се служе мачем, и ра
 msgid "Injured Sergeant"
 msgstr "повређени наредник"
 
-#. [variation]: id=Lord, race=human
-#. [unit_type]: id=Lord, race=human
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:4
-#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:175
+#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:5
 msgid "Lord"
 msgstr "господар"
 
-#. [variation]: id=Lord, race=human
-#. [unit_type]: id=Lord, race=human
+#. [variation]
+#. [unit_type]
 #. +> trunk 1.6
-#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:28
-#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:199
+#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:175
+#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:181
 msgid "The noble leaders of many troops, Lords are especially strong in melee combat, and also possess skill with the bow. Like Commanders, Lords possess leadership skills, and improve the fighting ability of all adjacent lower-level units."
 msgstr "Племенити вођи велике војске, господари су посебно снажни у блиској борби, а умешни и са луком. Као и заповедници, господари познају вештине вођства, те побољшавају борбени учинак свих јединица нижег нивоа у пољима око себе."
 
@@ -7754,3 +7847,6 @@ msgstr "Убрзо пошто вести о Ашевирином наређењ�
 #: data/campaigns/Heir_To_The_Throne/utils/intro.cfg:50
 msgid "Fleeing to the Aethenwood beyond the south-western border of Wesnoth, Delfador raised the child Konrad under the protection of the Elves, watching sadly as Asheviere's reign of terror over the land began..."
 msgstr "Избегавши у Етенвуд, са ону страну југозападне границе Веснота, Делфадор одгајаше Конрада под заштитом вилењака, посматрајући тужно како отпоче Ашеверина страховлада над земљом..."
+
+#~ msgid "There is a waterfall ahead. It is so high I can barely see the top of it! Neither the merfolk, even less the land dwellers can swim up the waterfall. Even gryphons might have trouble flying up so far! I am afraid, Your Highness, that we are stuck."
+#~ msgstr "Пред нама је водопад, толико висок да му једва могу видети врха! Ни морејци, а житељи копна још мање, не могу пливати уз водопад. Чак и грифонима може бити заморно да полете тако високо! Бојим се, височанство, да смо заглављени."

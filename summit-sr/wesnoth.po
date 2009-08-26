@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-07-19 13:31+0200\n"
+"POT-Creation-Date: 2009-08-26 15:02+0200\n"
 "PO-Revision-Date: 2009-07-19 14:24+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
-"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 
@@ -85,6 +85,30 @@ msgstr "прековреме пинга"
 msgid "Number of seconds to wait for a ping reply before we time out. Disable with 0."
 msgstr "Колико секунди чекати на одзив пинга пре него што прекорачи време. 0 искључује."
 
+#. [advanced_preference]: type=boolean
+#. +> trunk
+#: data/advanced_preferences.cfg:79
+msgid "Accept whisper messages from friends only"
+msgstr ""
+
+#. [advanced_preference]: type=boolean
+#. +> trunk
+#: data/advanced_preferences.cfg:86
+msgid "Auto-open whisper windows in lobby"
+msgstr ""
+
+#. [advanced_preference]: type=boolean
+#. +> trunk
+#: data/advanced_preferences.cfg:93
+msgid "Group players in lobby"
+msgstr ""
+
+#. [advanced_preference]: type=boolean
+#. +> trunk
+#: data/advanced_preferences.cfg:100
+msgid "Lobby sounds"
+msgstr ""
+
 #. [message]: speaker=narrator
 #. +> trunk
 #: data/ai/scenarios/ai_arena_small/0002-poisoning.cfg:16
@@ -109,7 +133,7 @@ msgstr "подземље"
 #. [unstore_unit]
 #. +> trunk 1.6
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_Desert_Of_Death.cfg:304
-#: src/actions.cpp:1125 src/actions.cpp:1400
+#: src/actions.cpp:1142 src/actions.cpp:1417
 msgid "poisoned"
 msgstr "отрован"
 
@@ -171,7 +195,7 @@ msgstr ""
 #. [then]
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:1241
-#: src/actions.cpp:1130 src/actions.cpp:1405
+#: src/actions.cpp:1147 src/actions.cpp:1422
 msgctxt "female"
 msgid "slowed"
 msgstr "успорена"
@@ -180,7 +204,7 @@ msgstr "успорена"
 #. [else]
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:1244
-#: src/actions.cpp:1130 src/actions.cpp:1405
+#: src/actions.cpp:1147 src/actions.cpp:1422
 msgid "slowed"
 msgstr "успорен"
 
@@ -256,163 +280,163 @@ msgstr "Програмирање"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:194
+#: data/core/about.cfg:201
 msgid "General Purpose Administration and Coordination"
 msgstr "Општа администрација и координација"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:212
+#: data/core/about.cfg:219
 msgid "Artwork and Graphics"
 msgstr "Графика и цртање"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:531
+#: data/core/about.cfg:547
 msgid "Music"
 msgstr "Музика"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:565
+#: data/core/about.cfg:581
 msgid "Sound Effects"
 msgstr "Звучни ефекти"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:581
+#: data/core/about.cfg:597
 msgid "Campaign Design"
 msgstr "Дизајн похода"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:648
+#: data/core/about.cfg:664
 msgid "Multiplayer Maps and Balancing"
 msgstr "Вишеиграчке мапе и уравнотежавање"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:689
+#: data/core/about.cfg:705
 msgid "Packagers"
 msgstr "Припрема пакета"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:755
+#: data/core/about.cfg:771
 msgid "Miscellaneous contributors"
 msgstr "Разни доприноси"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:964
+#: data/core/about.cfg:974
 msgid "Internationalization Managers"
 msgstr "Управљање интернационализацијом"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:989
+#: data/core/about.cfg:999
 msgid "English strings edition"
 msgstr "Издање с британским нискама"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:996
+#: data/core/about.cfg:1006
 msgid "Afrikaans Translation"
 msgstr "Африканс превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1012
+#: data/core/about.cfg:1022
 msgid "Arabic Translation"
 msgstr "Арапски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1019
+#: data/core/about.cfg:1029
 msgid "Basque Translation"
 msgstr "Баскијски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1032
+#: data/core/about.cfg:1042
 msgid "Bulgarian Translation"
 msgstr "Бугарски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1051
+#: data/core/about.cfg:1061
 msgid "Catalan Translation"
 msgstr "Каталонски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1089
+#: data/core/about.cfg:1099
 msgid "Chinese Translation"
 msgstr "Кинески превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1127
+#: data/core/about.cfg:1137
 msgid "Chinese (Taiwan) Translation"
 msgstr "Кинески (Тајван) превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1149
+#: data/core/about.cfg:1159
 msgid "Croatian Translation"
 msgstr "Хрватски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1156
+#: data/core/about.cfg:1166
 msgid "Czech Translation"
 msgstr "Чешки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1216
+#: data/core/about.cfg:1226
 msgid "Danish Translation"
 msgstr "Дански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1247
+#: data/core/about.cfg:1257
 msgid "Dutch Translation"
 msgstr "Холандски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1305
+#: data/core/about.cfg:1315
 msgid "English (GB) Translation"
 msgstr "Британски енглески превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1318
+#: data/core/about.cfg:1328
 msgid "Esperanto Translation"
 msgstr "Есперанто превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1337
+#: data/core/about.cfg:1347
 msgid "Estonian Translation"
 msgstr "Естонски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1347
+#: data/core/about.cfg:1357
 msgid "Filipino Translation"
 msgstr "Филипински превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1357
+#: data/core/about.cfg:1367
 msgid "Finnish Translation"
 msgstr "Фински превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1397
+#: data/core/about.cfg:1407
 msgid "French Translation"
 msgstr "Француски превод"
 
@@ -420,191 +444,191 @@ msgstr "Француски превод"
 # well-spelled: Фурлански
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1523
+#: data/core/about.cfg:1545
 msgid "Friulian Translation"
 msgstr "Фурлански превод"
 
 # well-spelled: Галицијански
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1530
+#: data/core/about.cfg:1552
 msgid "Galician Translation"
 msgstr "Галицијански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1565
+#: data/core/about.cfg:1587
 msgid "German Translation"
 msgstr "Немачки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1620
+#: data/core/about.cfg:1642
 msgid "Greek Translation"
 msgstr "Грчки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1651
+#: data/core/about.cfg:1673
 msgid "Hebrew Translation"
 msgstr "Хебрејски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1664
+#: data/core/about.cfg:1686
 msgid "Hungarian Translation"
 msgstr "Мађарски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1725
+#: data/core/about.cfg:1747
 msgid "Icelandic translation"
 msgstr "Исландски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1735
+#: data/core/about.cfg:1757
 msgid "Indonesian Translation"
 msgstr "Индонежански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1742
+#: data/core/about.cfg:1764
 msgid "Italian Translation"
 msgstr "Италијански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1777
+#: data/core/about.cfg:1799
 msgid "Japanese Translation"
 msgstr "Јапански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1803
+#: data/core/about.cfg:1825
 msgid "Korean Translation"
 msgstr "Корејски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1810
+#: data/core/about.cfg:1832
 msgid "Latin Translation"
 msgstr "Латински превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1817
+#: data/core/about.cfg:1839
 msgid "Latvian Translation"
 msgstr "Летонски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1824
+#: data/core/about.cfg:1846
 msgid "Lithuanian Translation"
 msgstr "Литвански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1838
+#: data/core/about.cfg:1863
 msgid "Macedonian Translation"
 msgstr "Македонски превод"
 
 # well-spelled: Марати
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1846
+#: data/core/about.cfg:1871
 msgid "Marathi Translation"
 msgstr "Марати превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1855
+#: data/core/about.cfg:1880
 msgid "Norwegian Translation"
 msgstr "Норвешки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1880
+#: data/core/about.cfg:1905
 msgid "Polish Translation"
 msgstr "Пољски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1929
+#: data/core/about.cfg:1954
 msgid "Portuguese Translation"
 msgstr "Португалски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1936
+#: data/core/about.cfg:1961
 msgid "Portuguese (Brazil) Translation"
 msgstr "Португалски бразилски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1971
+#: data/core/about.cfg:1996
 msgid "Romanian Translation"
 msgstr "Румунски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1979
+#: data/core/about.cfg:2004
 msgid "Russian Translation"
 msgstr "Руски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2036
+#: data/core/about.cfg:2061
 msgid "Serbian Translation"
 msgstr "Српски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2051
+#: data/core/about.cfg:2076
 msgid "Slovak Translation"
 msgstr "Словачки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2077
+#: data/core/about.cfg:2102
 msgid "Slovenian Translation"
 msgstr "Словеначки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2090
+#: data/core/about.cfg:2115
 msgid "Spanish Translation"
 msgstr "Шпански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2142
+#: data/core/about.cfg:2167
 msgid "Swedish Translation"
 msgstr "Шведски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2171
+#: data/core/about.cfg:2196
 msgid "Turkish Translation"
 msgstr "Турски превод"
 
 # well-spelled: јужнокаталонски
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2193
+#: data/core/about.cfg:2218
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Валенсијски (јужнокаталонски) превод"
 
 # well-spelled: РАЦВ
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2206
+#: data/core/about.cfg:2231
 msgid "RACV's Translation"
 msgstr "Валенсијски (РАЦВ) превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2213
+#: data/core/about.cfg:2238
 msgid "Bots"
 msgstr "Ботови"
 
@@ -626,7 +650,7 @@ msgstr "Играње"
 #. [section]: id=traits_section
 #. [topic]: id=..traits_section
 #. +> trunk 1.6
-#: data/core/help.cfg:33 data/core/help.cfg:355 src/menu_events.cpp:855
+#: data/core/help.cfg:33 data/core/help.cfg:355 src/menu_events.cpp:845
 msgid "Traits"
 msgstr "Особине"
 
@@ -2037,7 +2061,7 @@ msgstr ""
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [topic]: id=terrain_village
 #. +> trunk 1.6
-#: data/core/help.cfg:669 src/terrain.cpp:141
+#: data/core/help.cfg:669 src/terrain.cpp:148
 msgid "Village"
 msgstr "село"
 
@@ -2519,14 +2543,37 @@ msgstr ""
 "\n"
 
 #. [topic]: id=debug_commands
-#. +> trunk 1.6
-#: data/core/help.cfg:859
+#. +> trunk
+#: data/core/help.cfg:861
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "Modifies the specified property of the selected unit. Example: :unit hitpoints=100"
+msgid ""
+"\n"
+"Modifies the specified property of the selected unit. Example: :unit hitpoints=100\n"
+"\n"
+msgstr ""
+"\n"
+"измењује наведено својство изабране јединице, на пример: :unit hitpoints=100"
+
+#. [topic]: id=debug_commands
+#. +> 1.6
+#: data/core/help.cfg:846
 msgid ""
 "\n"
 "Modifies the specified property of the selected unit. Example: :unit hitpoints=100"
 msgstr ""
 "\n"
 "измењује наведено својство изабране јединице, на пример: :unit hitpoints=100"
+
+#. [topic]: id=debug_commands
+#. +> trunk
+#: data/core/help.cfg:862
+msgid ""
+"\n"
+"Makes the selected unit level up N times. Example: :unit advances=2"
+msgstr ""
 
 #. [heals]: id=curing
 #. +> trunk 1.6
@@ -3471,116 +3518,132 @@ msgid "storm trident"
 msgstr "олујни трозубац"
 
 # |, no-check-spell
-#. +> trunk 1.6
+#. +> trunk
+#: data/core/macros/names.cfg:18
+#, fuzzy
+#| msgid "Egar,Elch,Ga'ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin ohn,Garrutin,Gart'lo,Garushi,Gashinar,Gashöl,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Goyst,Grada,Græt Ihn,Grashen,Gravlan,Gray,Grelnit,Grenn ohn,Gretz,Gribbel,Gridda,Grish,Gron ih,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kasp,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Mal,Margian,Marhildian,Markan,Markinos,Mar Ohn,Marra Di'lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermay,Vertick,Vladnir"
+msgid "Egar,Elch,Ga'ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin Ohn,Garrutin,Gart'lo,Garushi,Gashinar,Gashol,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Gost,Grada,Græt Ihn,Grashen,Gravlan,Grag,Grelnit,Grenn Ohn,Greth,Gribbel,Gridda,Grish,Gron Ihn,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kask,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Margian,Mar'Ildian,Markan,Markinos,Mar Ohn,Marra Di'lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermad,Vertick,Vladnir"
+msgstr "Егар,Елх,Гаш,Гадеј Ин,Гакреј Ом,Галек,Галш,Гарадин,Гарчин,Гарк,Гарлан,Гарлин Он,Гарутин,Гартло,Гаруши,Гашинар,Гашел,Гауши,Гаустун,Гекчи,Гелка Кон,Гелкник,Гилан,Гишари,Гојст,Града,Грет Ин,Грашен,Гравлан,Греј,Грелнит,Грен Он,Грец,Грибел,Грида,Гриш,Грон Их,Ка,Кан Их,Кариган,Кари Кон,Карон,Касп,Кегрид,Керат Ин,Керат Кор,Клаш,Кон Гарашеј,Краг,Крал Он,Кран Кор,Краш,Краслар,Кренли,Круген,Кун,Ма Тоа,Мал,Маргијан,Марилдијан,Маркан,Маркинос,Мар Он,Мара Дилек,Марито,Маритос,Меркуш,Меритос Гарк,Морустеј,Мур,Оматакеј,Решан,Вашит,Велник,Вералон,Верамо,Верат,Вердит,Веркон,Верлин,Вермај,Вертик,Владнир"
+
+# |, no-check-spell
+#. +> 1.6
 #: data/core/macros/names.cfg:3
 msgid "Egar,Elch,Ga'ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin ohn,Garrutin,Gart'lo,Garushi,Gashinar,Gashöl,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Goyst,Grada,Græt Ihn,Grashen,Gravlan,Gray,Grelnit,Grenn ohn,Gretz,Gribbel,Gridda,Grish,Gron ih,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kasp,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Mal,Margian,Marhildian,Markan,Markinos,Mar Ohn,Marra Di'lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermay,Vertick,Vladnir"
 msgstr "Егар,Елх,Гаш,Гадеј Ин,Гакреј Ом,Галек,Галш,Гарадин,Гарчин,Гарк,Гарлан,Гарлин Он,Гарутин,Гартло,Гаруши,Гашинар,Гашел,Гауши,Гаустун,Гекчи,Гелка Кон,Гелкник,Гилан,Гишари,Гојст,Града,Грет Ин,Грашен,Гравлан,Греј,Грелнит,Грен Он,Грец,Грибел,Грида,Гриш,Грон Их,Ка,Кан Их,Кариган,Кари Кон,Карон,Касп,Кегрид,Керат Ин,Керат Кор,Клаш,Кон Гарашеј,Краг,Крал Он,Кран Кор,Краш,Краслар,Кренли,Круген,Кун,Ма Тоа,Мал,Маргијан,Марилдијан,Маркан,Маркинос,Мар Он,Мара Дилек,Марито,Маритос,Меркуш,Меритос Гарк,Морустеј,Мур,Оматакеј,Решан,Вашит,Велник,Вералон,Верамо,Верат,Вердит,Веркон,Верлин,Вермај,Вертик,Владнир"
 
 # |, no-check-spell
-#. +> trunk 1.6
+#. +> trunk
+#: data/core/macros/names.cfg:19
+#, fuzzy
+#| msgid "Alen Ka,Alinash Mal,Ashijt,Auginet Ka,Auuglann,Damell,Dell,Demla,Dinsill,Eshyi,Olath,Omage,Omagrra,Orra Ka,Orridan,Orriday,Oshibi,Vallin,Valnirra,Valnitt,Velisp,Vellin Ka,Vushtin,Werra,Weshter,Wilniss"
+msgid "Alen Ka,Alinash Mal,Ashirt,Auginet Ka,Auuglann,Damell,Dell,Demla,Dinsill,Eshi,Olath,Omage,Omagrra,Orra Ka,Orridan,Orrida,Oshibi,Vallin,Valnirra,Valnitt,Velisk,Verra,Vellin Ka,Veshtar,Vushtin"
+msgstr "Ален Ка,Алинаш Мал,Ашијт,Огинет Ка,Оуглан,Дамел,Дел,Демла,Динсил,Ешиј,Олат,Омаж,Омагра,Ора Ка,Оридан,Оридеј,Ошиби,Валин,Валнира,Валнит,Велисп,Велин Ка,Вуштин,Вера,Вештер,Вилнис"
+
+# |, no-check-spell
+#. +> 1.6
 #: data/core/macros/names.cfg:4
 msgid "Alen Ka,Alinash Mal,Ashijt,Auginet Ka,Auuglann,Damell,Dell,Demla,Dinsill,Eshyi,Olath,Omage,Omagrra,Orra Ka,Orridan,Orriday,Oshibi,Vallin,Valnirra,Valnitt,Velisp,Vellin Ka,Vushtin,Werra,Weshter,Wilniss"
 msgstr "Ален Ка,Алинаш Мал,Ашијт,Огинет Ка,Оуглан,Дамел,Дел,Демла,Динсил,Ешиј,Олат,Омаж,Омагра,Ора Ка,Оридан,Оридеј,Ошиби,Валин,Валнира,Валнит,Велисп,Велин Ка,Вуштин,Вера,Вештер,Вилнис"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:8
+#: data/core/macros/names.cfg:23
 msgid "Aigaithas,Aigaithil,Aigaithing,Aigaithol,Aigalas,Aigaling,Aigalis,Aigalol,Aigalsil,Aigatas,Aigatis,Aigatlos,Aigatsil,Aigatsol,Aigatus,Aigcatas,Aigcatil,Aigcating,Aigcatis,Aigcatsil,Aigcatsol,Aigcatus,Aigdring,Aigdris,Aigdrlos,Aigdrsil,Aigdrsol,Aigduras,Aigdurlos,Aigdursol,Aigthaing,Aigthais,Aigthasil,Aigthaus,Alaithas,Alaithis,Alaithlos,Alaithol,Alaithsol,Alaithus,Alalas,Alalil,Alalol,Alalsol,Alalus,Alatas,Alatil,Alating,Alatlos,Alatsil,Alcatil,Alcatis,Alcatlos,Alcatsil,Aldras,Aldril,Aldring,Aldris,Aldrlos,Aldrol,Aldrsol,Alduras,Aldurlos,Aldurol,Althaas,Althail,Althalos,Althaol,Althasil,Althasol,Althaus,Anaithas,Anaithil,Anaithing,Anaithis,Anaithsil,Anaithus,Analil,Anallos,Analol,Analsil,Analus,Anatas,Anating,Anatis,Anatol,Anatsol,Ancatas,Ancatil,Ancatol,Ancatus,Andril,Andris,Andrlos,Andrus,Anduril,Andurol,Andursol,Andurus,Anthaas,Anthaing,Anthais,Anthaol,Anthasil,Anthasol,Anthaus,Augaithas,Augaithing,Augaithsil,Augaithus,Augalas,Augaling,Augalol,Augating,Augatlos,Augatol,Augatsil,Augatsol,Augcatas,Augcatil,Augcatis,Augcatol,Augcatsil,Augcatus,Augdras,Augdris,Augdrsil,Augdrus,Augduras,Augduril,Augduring,Augdurol,Augdursol,Augdurus,Augthail,Augthais,Augthalos,Augthaol,Dulaithil,Dulaithing,Dulaithlos,Dulaithsil,Dulaithsol,Dulalas,Dulaling,Dulalis,Dulalsil,Dulatil,Dulating,Dulatol,Dulatsol,Dulatus,Dulcatil,Dulcating,Dulcatlos,Dulcatol,Dulcatsil,Dulcatsol,Duldril,Duldris,Duldrlos,Duldrol,Duldrsil,Duldrus,Dulduras,Dulduring,Duldursil,Duldurus,Dulthalos,Dulthasil,Dulthasol,Dulthaus,Glamaithil,Glamaithis,Glamaithol,Glamaithsol,Glamalil,Glamaling,Glamalis,Glamallos,Glamalsil,Glamalus,Glamatil,Glamatus,Glamcatas,Glamcatil,Glamcating,Glamcatsil,Glamcatus,Glamdras,Glamdril,Glamdrlos,Glamdrsol,Glamduras,Glamduril,Glamduring,Glamduris,Glamdursol,Glamthaas,Glamthaol,Glamthasil,Glamthasol,Glamthaus,Glomin,Gomaithas,Gomaithil,Gomaithol,Gomaithsol,Gomalil,Gomalis,Gomalus,Gomatas,Gomatil,Gomating,Gomatis,Gomatlos,Gomatol,Gomcatil,Gomcatis,Gomcatlos,Gomdras,Gomdril,Gomdring,Gomdris,Gomdrol,Gomdrsil,Gomduris,Gomdurlos,Gomdursil,Gomdursol,Gomdurus,Gomthaas,Gomthalos,Gomthasol,Naraithil,Naraithing,Naraithol,Naraithsil,Naraithsol,Naraithus,Naralas,Naralil,Naralsil,Naralus,Naratlos,Naratol,Naratsil,Narcating,Narcatis,Narcatol,Narcatsil,Narcatsol,Nardras,Nardril,Nardring,Nardris,Nardrol,Nardrsil,Nardrsol,Nardrus,Narduras,Narduril,Nardurol,Narthalos,Narthaol,Pelaithas,Pelaithil,Pelaithing,Pelaithis,Pelaithlos,Pelaithol,Pelaithsil,Pelaithsol,Pelalil,Pelaling,Pelalis,Pelalsil,Pelalsol,Pelalus,Pelatil,Pelating,Pelatis,Pelatol,Pelatsil,Pelatus,Pelcating,Pelcatlos,Pelcatol,Pelcatsil,Peldras,Peldril,Peldrsol,Peldrus,Pelduril,Pelduring,Pelduris,Peldurol,Peldursol,Peldurus,Pelthaas,Pelthail,Pelthasil,Trithaithas,Trithaithil,Trithaithis,Trithaithlos,Trithaithol,Trithaithsil,Trithaithsol,Trithaithus,Trithalis,Trithalol,Trithatas,Trithatil,Trithatlos,Trithatsol,Trithcatlos,Trithcatsol,Trithcatus,Trithdril,Trithdring,Trithdris,Trithdrlos,Trithdrol,Trithdrsol,Trithdrus,Trithduril,Trithduring,Trithdurlos,Trithdurol,Trithdursil,Trithdurus,Triththaas,Triththail,Triththaing,Triththasol,Triththaus"
 msgstr "Ајгајтас,Ајгајтил,Ајгајтинг,Ајгајтол,Ајгалас,Ајгалинг,Ајгалис,Ајгалол,Ајгалсил,Ајгатас,Ајгатис,Ајгатлос,Ајгатсил,Ајгатсол,Ајгатус,Ајкатас,Ајкатил,Ајкатинг,Ајкатис,Ајкатсил,Ајкатсол,Ајкатус,Ајдринг,Ајдрис,Ајдрлос,Ајдрсил,Ајдрсол,Ајдурас,Ајдурлос,Ајдурсол,Ајтајинг,Ајтајис,Ајтасил,Ајтаус,Алајтас,Алајтис,Алајтлос,Алајтол,Алајтсол,Алајтус,Алалас,Алалил,Алалол,Алалсол,Алалус,Алатас,Алатил,Алатинг,Алатлос,Алатсил,Алкатил,Алкатис,Алкатлос,Алкатсил,Алдрас,Алдрил,Алдринг,Алдрис,Алдрлос,Алдрол,Алдрсол,Алдурас,Алдурлос,Алдурол,Алтас,Алтајил,Алталос,Алтаол,Алтасил,Алтасол,Алтаус,Анајтас,Анајтил,Анајтинг,Анајтис,Анајтсил,Анајтус,Аналил,Аналос,Аналол,Аналсил,Аналус,Анатас,Анатинг,Анатис,Анатол,Анатсол,Анкатас,Анкатил,Анкатол,Анкатус,Андрил,Андрис,Андрлос,Андрус,Андурил,Андурол,Андурсол,Андурус,Антас,Антајнг,Антајис,Антаол,Антасил,Антасол,Антаус,Аугајтас,Аугајтинг,Аугајтсил,Аугајтус,Аугалас,Аугалинг,Аугалол,Аугатинг,Аугатлос,Аугатол,Аугатсил,Аугатсол,Ауктас,Аукатил,Аукатис,Аукатол,Аукатсил,Аукатус,Аугдрас,Аугдрис,Аугдрсил,Аугдрус,Аугдурас,Аугдурил,Аугдуринг,Аугдурол,Аугдурсол,Аугудрус,Аугтајил,Аугтајис,Аугатлос,Аугатол,Дулајтил,Дулајтинг,Дулајтлос,Дулајтсил,Дулајтсол,Дулалас,Дулалинг,Дулалис,Дулалсил,Дулатил,Дулатанг,Дулатол,Дулатсол,Дулатус,Дулактил,Дулкатинг,Дулкатлос,Дулкатол,Дулкатсил,Дулкатсол,Дулдрил,Дулдрис,Дулдрсол,Дулдрол,Дулдрсил,Дулдрус,Дулдрас,Дулдуринг,Дулдурсил,Дулдрус,Дулталос,Дултасил,Дултасол,Дултаус,Гламајтил,Гламајтис,Гламајтол,Гламајтсол,Гламалил,Гламалинг,Гламалис,Гламалос,Гламалсил,Гламалус,Гламатил,Гламатус,Гламкатас,Гламкатил,Гламкатинг,Гламкатсил,Гламкатус,Гламдрас,Гламдрил,Гламдрлос,Гламдрсол,Гламдурас,Гламдурил,Гламдуринг,Гламдурис,Гламдурсол,Гламтас,Гламтаол,Гламтасил,Гламтасол,Гламтаус,Гломин,Гломајтас,Гомајтил,Гомајтол,Гомајтсол,Гомалил,Гомалис,Гомалус,Гоматас,Гоматил,Гоматинг,Гоматис,Гоматлос,Гоматол,Гомкатил,Гомкатис,Гомкатлос,Гомдрас,Гомдрил,Гомдринг,Гомдрис,Гомдрол,Гомдрсил,Гомдурис,Гомдурлос,Гомдурсил,Гомдурсол,Гомдурус,Гомтас,Гомталос,Гомтасол,Нарајтил,Нарајтинг,Нарајтол,Нарајтсил,Нарајтсол,Нарајтус,Наралас,Наралил,Наралсил,Наралус,Наратлос,Наратол,Наратис,Наркатинг,Наркатис,Наркатол,Наркатсил,Наркатсол,Нардрас,Нардрил,Нардринг,Нардрис,Нардрол,Нардрсил,Нардрсол,Нардрус,Нардурас,Нардурил,Нардурол,Нарталос,Нартаол,Пелајтас,Пелајтил,Пелајтинг,Пелајтис,Пелајтлос,Пелајтол,Пелајтсил,Пелајтсол,Пелалил,Пелалинг,Пелалис,Пелалсил,Пелалсол,Пелалус,Пелатил,Пелатинг,Пелатис,Пелатол,Пелатсил,Пелатус,Пелкатинг,Пелкатлос,Пелкатол,Пелкатсил,Пелдрас,Пелдрил,Пелдрсол,Пелдрус,Пелдурил,Пелдуринг,Пелдурис,Пелдурол,Пелдурсол,Пелдурус,Пелтас,Пелтајил,Пелтасол,Тритајтас,Тритајтил,Тритајтис,Тритајтлос,Тритајтол,Тритајтсил,Тритајтсол,Тритајтус,Триталис,Триталол,Тритатас,Тритатил,Триталсол,Тритатсол,Трикатлос,Трикатлос,Трикатус,Тридрил,Тридринг,Тридрис,Тридрсол,Тридрол,Тридрсол,Тридрус,Тридурил,Тридуринг,Тридурлос,Тридурлол,Тридурсил,Тридурус,Тритас,Тритајил,Тритајинг,Тритасол,Тритаус"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:12
+#: data/core/macros/names.cfg:27
 msgid "Amadrieriand,Amáril,Amelad,Ameldor,Amendel,Ameng,Amilmaldur,Amilmalith,Amilmandir,Amind,Amiol,Amiorion,Amithrarion,Amóldor,Amorfimir,Amorfir,Amowyn,Amulas,Amundil,Anán,Anebrin,Anebrir,Anémbor,Anénduil,Anerion,Anilad,Anil-Gawyn,Anilmambor,Anilmariand,Anior,Anithranduil,Anol,Anon,Anorfing,Anundil,Belán,Belandil,Belarandel,Belel,Belén,Belil-Gandil,Belilmand,Belilmang,Beliondil,Beliril,Belithraldor,Belithrawyn,Belólad,Belómir,Belondel,Belyrion,Cadriembor,Cadrieriand,Cálad,Caladrielas,Calándel,Caldur,Cáldur,Calebrindel,Calebrindir,Calénduil,Calil-Gandir,Calil-Gawyn,Calioriand,Caliril,Calónduil,Caloril,Cándir,Canduil,Caraldur,Carang,Célad,Celadrieriand,Celang,Celaral,Celarandil,Celáriand,Celebririon,Celelas,Celendel,Celér,Celilmalas,Celiondir,Celior,Celiorion,Celong,Celór,Celóril,Celorion,Celundir,Celuwyn,Celyndel,Cénduil,Cindil,Ciong,Cithralad,Cithraldur,Cithrand,Cithrandel,Cithraril,Col,Corfil,Corfildur,Cówyn,Cun,Cundir,Cylas,Delán,Delánd,Delandel,Delaraldur,Deláril,Delawyn,Deléng,Delilmaldor,Deliol,Delithrar,Deliwyn,Delóldor,Delorfilad,Delorfilith,Delorion,Delundil,Eäradriendel,Eäradrier,Eäránduil,Eäraralad,Eärebrindel,Eäréldor,Eäreng,Eärérion,Eärithrandil,Eäromir,Eärorfiriand,Eäryldur,Eäryriand,Eladrieng,Elálith,Elánd,Elándil,Elebrildor,Elebrindel,Elebriril,Elélas,Elémbor,Elemir,Elen,Elil-Garil,Elilmaldur,Eliomir,Eliondil,Elolas,Elólas,Elor,Elorfilad,Elradrien,Elralith,Elran,Elreldur,Elrilmand,Elrioldor,Elriolith,Elrithralith,Elrithranduil,Elrorfir,Elval,Elvandir,Elvaramir,Elváwyn,Elvebrind,Elvebrindel,Elvélith,Elvémir,Elverion,Elvil-Garion,Elvilmaldur,Elvilmaril,Elvioldur,Elvombor,Elvónduil,Elvorfimir,Elvorfiriand,Elvorfiril,Elvóriand,Elvund,Elyldor,Elyrion,Eowambor,Eowanduil,Eowar,Eowaraldor,Eowaran,Eowarar,Eowariand,Eowarion,Eowebrind,Eowémir,Eowil-Garion,Eowimbor,Eowiomir,Eowithrawyn,Eowóldur,Eoworfildor,Eowówyn,Eowylas,Fadriendel,Fandel,Farandir,Fáwyn,Fendel,Fer,Filman,Fioril,Fithraril,Forfilas,Fyrion,Gadriendil,Gadrieng,Galadrieldor,Galálad,Galálas,Galalith,Galar,Galelas,Galeldur,Galelith,Galémbor,Galithrariand,Galoldur,Galuldur,Galur,Galurion,Gambor,Gán,Ganduil,Garaldor,Gararil,Gelad,Géril,Gil-Gandel,Gil-Gang,Giombor,Githral,Githralad,Gladriendil,Glal,Glámbor,Glandil,Glarang,Glararil,Glilmal,Glimir,Glior,Glólas,Gloldor,Glómir,Glon,Glul,Golad,Gor,Gumbor,Gyl,Gymbor,Gyn,Harariand,Háriand,Hebril,Hemir,Hénduil,Hilas,Hil-Garion,Hilmariand,Hiong,Hirion,Hithrandel,Horfilad,Horfindel,Hundel,Hymir,Hyrion,Hywyn,Isadrieng,Isándir,Isarandel,Isarar,Iselas,Isér,Isilmandel,Isirion,Isithral,Isól,Isóndel,Isóng,Isorfilad,Isorfindir,Isuwyn,Isyndel,Legal,Legaran,Legémir,Legéril,Legilad,Legil-Gal,Legiondel,Legithralith,Legorfindil,Legorfirion,Legówyn,Legyl,Legyn,Linduilas,Lómadrieril,Lómarand,Lómariand,Lómebrilad,Lómebrind,Lómémbor,Lómilmaril,Lómiriand,Lómorfindil,Lómowyn,Madrieril,Maldur,Mánduil,Maraldur,Mebrin,Méng,Mérion,Miolith,Miomir,Mithrand,Mondir,Móndir,Morfilas,Morfin,Morfiriand,Mylith,Nadrieldor,Nalith,Nán,Nél,Nil-Galas,Nil-Galith,Nil-Gar,Nilmar,Nóndel,Norfildor,Norfilith,Norfindil,Norfindir,Numbor,Nyldur,Padrieriand,Padrieril,Pamir,Paraldor,Parariand,Pilmalad,Pindir,Pór,Porfildur,Pumbor,Pyldur,Rebrir,Réndir,Rilmandil,Rithrandil,Ról,Róldor,Roldur,Róldur,Rorfilad,Rorfindil,Rówyn,Ryn,Sadrielas,Sebrin,Sebriril,Sénd,Sil-Gal,Sólad,Sorfind,Sóriand,Tadriendir,Taral,Taraldur,Táriand,Tendel,Téwyn,Thradrieriand,Thrambor,Thraral,Threbring,Thrélad,Thréldur,Thril-Gamir,Thril-Gandir,Thril-Gar,Thrilmandel,Thrimir,Thrion,Thrithran,Throlas,Thrón,Thróng,Thrund,Thryriand,Til-Gan,Tilmalad,Tilmalas,Tinandir,Tinarambor,Tinarariand,Tinén,Tinil-Ganduil,Tinilmand,Tinilmawyn,Tinimir,Tinindil,Tinithrar,Tinoldor,Tinond,Tinorfind,Tinorfiriand,Tinóriand,Tinowyn,Tinun,Tinyl,Tion,Tolas,Torfildur,Tówyn,Tylad,Unadrieldor,Unadrier,Unál,Unalas,Unálas,Unaraldur,Unaril,Unárion,Unebrin,Unebrind,Uneldor,Unil,Unil-Gan,Uniolith,Unioril,Unólith,Unombor,Unóndel,Unondir,Unorfildor,Unorfiril,Unorfiwyn,Unulad,Uradrielas,Uradrierion,Urálas,Urálith,Urambor,Urér,Uril-Gambor,Urilmalith,Uróldor,Urorfildor,Urul,Urymir,Válad,Ván,Vándel,Vandir,Varalas,Vararion,Vebril,Vebrilas,Vebrinduil,Vel,Vilith,Vol,Vólas,Vóldur,Vondel,Vorfin,Vorfindil,Vulas,Vuldur,Vunduil,Vylas,Vyldor"
 msgstr "Амадријеријанд,Амарил,Амелад,Амелдор,Амендел,Аменг,Амилмалдур,Амилмалит,Амилмандир,Аминд,Амиол,Амиорон,Амитрарион,Амолдор,Аморфимир,Аморфир,Амовин,Амулас,Амундил,Анан,Анебрин,Анебрир,Анембор,Анендујил,Анерион,Анилад,Анил-Гавин,Анилмамбор,Анилмаријанд,Аниор,Анитрандујил,Анол,Анон,Анорфинг,Анундил,Белан,Беландил,Беларандел,Белел,Белен,Белил-Гандил,Белилманд,Белилманг,Белиондил,Белирил,Белитралдор,Белитравин,Белолад,Беломир,Белондел,Белирион,Кадријембор,Кадријеријанд,Калад,Каладријелас,Каландел,Калдур,Калдур,Калебриндел,Калебриндир,Календујил,Калил-Гандир,Калил-Гавин,Калиоријанд,Калирил,Калондујил,Калорил,Кандир,Кандујил,Сералдур,Серанг,Селад,Селадријеријанд,Селанг,Селарал,Селерандил,Селаријанд,Селебрирон,Селелас,Селендел,Селерион,Слилмалас,Селиондир,Селиор,Селиорион,Селонг,Селор,Селорил,Селорион,Селундир,Селувин,Селиндел,Сендујил,Синдил,Сионг,Ситралад,Ситралдур,Ситранд,Ситрандел,Ситрарил,Кол,Корфил,Корфилдур,Ковин,Кун,Кундир,Силас,Делан,Деланд,Деландел,Деларлдур,Деларил,Делавин,Деленг,Делилмалдор,Делиол,Делитрар,Деливин,Делолдор,Делорфилад,Делорфилит,Делорион,Делундил,Ејарадријендел,Ејарадријер,Ејарандујил,Ејараралад,Ејаребриндел,Ејарелдор,Ејаренг,Ејарерион,Ејаритрандрил,Ејаромир,Ејарорфиријанд,Ејарилдур,Ејариријанд,Еладријенг,Елалит,Еланд,Еландил,Елебрилдор,Елебриндел,Елебририл,Елелас,Елембор,Елемир,Елен,Елил-Гарил,Елилмалдур,Елиомир,Елиондил,Елолас,Елолас,Елор,Елорфилад,Елрадријен,Елралит,Елран,Елрелдур,Елрилманд,Елриолдор,Елриолит,Елритралит,Елритрандујил,Елрорфир,Елвал,Елвандри,Елварамир,Елвавин,Елвебринд,Елвебриндел,Елвелит,Елвемир,Елверион,Елвил-Гарион,Елвилмалдур,Елвилмарил,Елвиолдур,Елвомбор,Елвондујил,Елворфимир,Елворфиријанд,Елворфирил,Елворијанд,Елвунд,Елилдор,Елирион,Еовамбор,Еовандујил,Еовар,Еоваралдор,Еоваран,Еоварар,Еовиријанд,Еоварион,Еовебринд,Еовемир,Еовил-Гарион,Еовимбор,Еовиомир,Еовитравин,Еоволдур,Еоворфилдор,Еововин,Еовилас,Фандријендел,Фандел,Фарандир,Фавин,Фендел,Фер,Филман,Фиорил,Фитрарил,Форфилас,Фирион,Гадријендил,Гадријенг,Галадријелдор,Галалад,Галалас,Галалит,Галар,Галелас,Галелдур,Галелит,Галембор,Галитраријанд,Галолдур,Галулдур,Галур,Галурион,Гамбор,Ган,Гандујил,Гаралдор,Гарарил,Гелад,Герил,Гил-Гандел,Гил-Ганг,Гиомбор,Гитрал,Гитралад,Гладријендил,Глал,Гламбор,Гландил,Гларанг,Гларарил,Глилмал,Глимир,Глиор,Глолас,Глолдор,Гломир,Глон,Глул,Голад,Гор,Гумбор,Гил,Гимбор,Гин,Хараријанд,Наријанд,Хебрил,Хемир,Хендујил,Хилас,Хил-Гарион,Хилмаријанд,Хионг,Хирион,Хитрандел,Хорфилад,Хорфиндел,Хундел,Химир,Хирион,Хивин,Исадријенг,Исандир,Исарандел,Исарар,Иселас,Исер,Исилмандел,Исирион,Иситрал,Исол,Исондел,Исонг,Исорфилад,Исорфиндил,Исувин,Исиндел,Легол,Легаран,Легемир,Легерил,Легилад,Легил-Гал,Легиондел,Легитралит,Легорфиндил,Легорфирион,Леговин,Легил,Легин,Линдулас,Ломадријерил,Ломаранд,Ломаријанд,Ломебрилад,Ломебринд,Ломембор,Ломилмарил,Ломиријанд,Ломорфиндил,Ломовин,Мадријерил,Малдур,Мандујил,Маралдур,Мебрин,Менг,Мерион,Миолит,Миомир,Митранд,Мондир,Мондир,Морфилас,Морфин,Морфиријанд,Милит,Надријелдор,Налит,Нан,Нел,Нил-Галас,Нил-Галит,Нил-Гар,Нилмар,Нондел,Норфилдор,Норфилит,Норфиндил,Норфиндир,Нумбор,Нилдур,Падријеријанд,Падријерил,Памир,Паралдор,Параријанд,Пилмалад,Пиндир,Пор,Порфилдур,Пумбор,Пилдур,Ребрир,Рендир,Рилмандил,Ритрандил,Рол,Ролдор,Ролдур,Ролдур,Рорфилад,Рорфиндил,Ровин,Рин,Садријелас,Себрин,Себририл,Сенд,Сил-Гал,Солад,Сорфинд,Соријанд,Тадријендир,Тарал,Таралдур,Таријанд,Тендел,Тевин,Тадријеријанд,Трамбор,Трарал,Требринг,Трелад,Трелдур,Трил-Гамир,Трил-Гандир,Трил-Гар,Трилмандел,Тримир,Трион,Тритран,Тролас,Трон,Тронг,Трунд,Триријанд,Тил-Ган,Тилмалад,Tilmalas,Tinandir,Tinarambor,Tinarariand,Tinén,Tinil-Ganduil,Tinilmand,Тинилмавин,Тинимир,Тининдил,Тинитрар,Тинолдор,Тинонд,Тинорфинд,Тинорфиријанд,Тиноријанд,Тиновин,Тинун,Тинил,Тион,Толас,Торфилдур,Товин,Тилад,Унадријелдор,Унадријер,Унал,Уналас,Уналас,Унаралдур,Унарил,Унарион,Унебрин,Унебринд,Унелдор,Унил,Унил-Ган,Униолит,Униорил,Унолит,Уномбор,Унондел,Унондир,Унорфилдор,Унорфирил,Унорфивин,Унулад,Урадријелас,Урадријерион,Уралас,Уралит,Урамбор,Урер,Урил-Гамбор,Урилмалит,Уролдор,Урорфилдор,Урул,Уремир,Валад,Ван,Вандел,Вандир,Варалас,Варарион,Вебрил,Вебрилас,Вебриндујил,Вел,Вилит,Вол,Волас,Волдур,Вондел,Ворфин,Ворфиндил,Вулас,Вулдур,Вундујил,Вилас,Вилдор"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:13
+#: data/core/macros/names.cfg:28
 msgid "Amadrielia,Amadrielindë,Amadriendra,Amadriewen,Amarang,Amebrilindë,Amedë,Améthien,Amewien,Amil-Gadith,Amil-Garith,Amilmadia,Amiolith,Amionia,Amithraniel,Amithrawien,Amiwen,Amodë,Amorfilith,Amorith,Amulia,Amuviel,Amuwen,Analia,Anang,Anaraclya,Anáthien,Anebriniel,Anilmarith,Aning,Aniorith,Anówien,Anundra,Anuthiel,Anuthien,Anylindë,Anythien,Anywien,Belaclya,Beladrielith,Beladriewen,Beladriewien,Belarania,Belaraviel,Belebrindra,Belendra,Beliolia,Belithraniel,Belithrawiel,Belithrawien,Belowen,Belulindë,Cádë,Cadriewen,Caladrieng,Calándra,Calang,Calánia,Calebriwien,Calewen,Calewiel,Calil-Galith,Calilmalith,Calithraclya,Calóniel,Calorfiniel,Calówien,Caluclya,Ceclya,Celadë,Celália,Celálindë,Celarandra,Celararith,Celárith,Celebriniel,Celebriviel,Celelith,Celéng,Celérith,Celidien,Celilith,Celindë,Celiodë,Celioniel,Celith,Celithradith,Celódith,Celorfilindë,Celorfing,Celorfiwien,Celówien,Celylia,Cethien,Cing,Cithralith,Cithrania,Cithrawen,Cólindë,Corfiviel,Cydia,Delararith,Delebrinia,Deléthien,Delil-Ganiel,Deliowen,Delithrathiel,Delóndra,Delorfilindë,Delorfithien,Deloviel,Delydien,Eäradriedien,Eärániel,Eärarawien,Eärélia,Eärenia,Eärewen,Eäréwiel,Eärilmadë,Eärilmathien,Eäriolith,Eärithrang,Eärorfiwien,Eärudë,Eladriedë,Eladrielia,Elarawiel,Elebrindra,Eledë,Elelith,Elil-Gang,Elilmalia,Elilmawien,Elithraclya,Elithradien,Elóndra,Elorfing,Elorfithien,Elradrierith,Elránia,Elrebridith,Elréthiel,Elrilindë,Elrilmandra,Elrilmathien,Elrithiel,Elrithradith,Elriwen,Elródith,Elrorfidia,Eluviel,Elvádia,Elvánia,Elvil-Gawien,Elvilmathiel,Elviniel,Elviondra,Elvithrang,Elvithrathien,Elvowien,Elvyniel,Elvyviel,Elynia,Elywen,Eowalia,Eowarawien,Eowathiel,Eowebridith,Eowedith,Eowidien,Eowil-Galindë,Eowilindë,Eowiowien,Eowylia,Eowyniel,Fadriedith,Fadrielia,Fadriendra,Fadrienia,Falindë,Fáthiel,Fathien,Fáwien,Feclya,Féthiel,Fil-Galia,Fil-Gathiel,Fil-Gawien,Filmaclya,Fioniel,Fódë,Fólindë,Fulindë,Gadrieclya,Gadrieviel,Galadriethien,Galándra,Galaraniel,Galebrilia,Galebrindra,Galédë,Galedien,Galéwiel,Galil-Gania,Galilmadia,Galiothiel,Galithrathien,Galólia,Galolindë,Galorfiwiel,Galothiel,Galowen,Galundra,Galyniel,Gathien,Gáviel,Gebririth,Gewen,Gil-Gawien,Gilia,Gioniel,Gioviel,Giowen,Githrania,Githrawiel,Glália,Glebrithien,Gléndra,Glilmadien,Glilmawiel,Glithiel,Gloclya,Glodith,Glorfilith,Gloviel,Glowiel,Goclya,Godien,Gólia,Golindë,Guviel,Harawiel,Haviel,Háwien,Héclya,Hedia,Helith,Hewen,Hil-Gania,Hiodë,Hiwien,Hodia,Hódia,Horfinia,Horfiwien,Hóthiel,Huclya,Hunia,Huthien,Hyclya,Hythiel,Hythien,Isadrieng,Isáwen,Isebridien,Isebrinia,Isendra,Iséng,Iseviel,Isil-Garith,Isilindë,Isithradë,Isithradien,Isithrarith,Isithrawiel,Isóthien,Legádë,Legadien,Legadrieclya,Legadriedë,Legadrieniel,Legaraclya,Legebrilia,Legelith,Legeng,Legéniel,Legethiel,Legidia,Legil-Galindë,Legilmadith,Legilmawiel,Legithralindë,Legithrandra,Legithrania,Legolith,Legondra,Legorfidë,Lómániel,Lómebriclya,Lómebriniel,Lómedia,Lómeniel,Lómiclya,Lómilindë,Lómilmathiel,Lómilmawiel,Lómithradë,Lómithrarith,Lómódë,Lómolith,Lómóndra,Lómorfing,Lómorith,Lómudia,Lómulindë,Lómuniel,Lómuthiel,Lómynia,Lómythien,Mádia,Madrieclya,Maraclya,Mebriwiel,Meclya,Medien,Mil-Gathiel,Mil-Gathien,Milindë,Milith,Miowen,Miowiel,Mithradë,Mithralindë,Módë,Módia,Moniel,Morfilindë,Munia,Myndra,Mywiel,Narania,Naraniel,Náviel,Nawen,Newen,Nil-Gang,Nilmadia,Niodien,Niolia,Niothien,Nithraniel,Nithrarith,Nowen,Nydith,Pádia,Padriedith,Paralindë,Parandra,Pawen,Pebridien,Pil-Gadia,Pil-Gadien,Pilindë,Pindra,Pong,Porfindra,Porfiwien,Póviel,Pulia,Puthien,Reniel,Réviel,Ril-Gawien,Rindra,Riothien,Róng,Rorfiviel,Sadrienia,Sadrierith,Sálindë,Sáng,Saradith,Sarandra,Sédith,Sendra,Sethien,Silmaclya,Silmathiel,Sioclya,Siorith,Sithrang,Sithrawen,Soniel,Sothiel,Sothien,Syniel,Tadrierith,Tang,Taradien,Tarathiel,Tathiel,Terith,Thradia,Thrália,Thraraviel,Threbriniel,Thredien,Thrérith,Thridith,Thrinia,Thrithradia,Thrithrandra,Thrithraniel,Throlith,Throng,Throthiel,Thrulith,Thruthien,Thryng,Til-Gandra,Tilmaclya,Tilmaviel,Tináclya,Tinadriethien,Tinálindë,Tinaraniel,Tinarathien,Tinawiel,Tinebrithiel,Tinerith,Tinil-Gania,Tinil-Gawiel,Tiniolith,Tinithrathiel,Tinóng,Tinorfilith,Tinorfithien,Tinudia,Tiorith,Tithrathien,Tówiel,Tuniel,Unadrieng,Unáthien,Unebridë,Unénia,Unil-Gadia,Unilmadia,Unindra,Uniodë,Uniolia,Uniong,Unionia,Unóndra,Unorfiwen,Unulindë,Unuviel,Unynia,Uraclya,Uradriedia,Uránia,Urárith,Urebriclya,Ureclya,Urilmadia,Urilmawiel,Uriolia,Urithralindë,Uruthien,Uryrith,Vadrierith,Vadrieviel,Vadriewen,Varawiel,Vebrithien,Vil-Gandra,Violindë,Viowiel,Vithrang,Vithraniel,Viwiel,Vódia,Vóng,Vorficlya,Vorfing,Vorfirith,Vorfiwiel,Vówien"
 msgstr "Амадријелија,Амадријелинде,Амдријендра,Амадријевен,Амаранг,Амебрилинде,Амеде,Аметијен,Амевијен,Амил-Гадит,Амил-Гарит,Амилмадија,Амиолит,Амионија,Амитранијел,Амитравијен,Амивен,Амоде,Аморфилит,Аморит,Амулија,Амувијел,Амувен,Анелија,Ананг,Анараклија,Анатијен,Анебринијел,Анилмарит,Анинг,Аниорит,Ановијен,Анундра,Анутијел,Анутијен,Анилинде,Анитијен,Анивијен,Белаклија,Беладријелит,Беладријевен,Беладријевијен,Беларанија,Беларавијел,Белебриндра,Белендра,Белиолија,Белитранијел,Белитравијел,Белитравијен,Беловен,Белулинде,Каде,Дадријевен,Каладријент,Каландра,Каланг,Каланија,Калебривијен,Калевен,Калевијел,Калил-Галит,Калилмалит,Калитраклија,Калонијел,Калорфинијел,Каловијен,Калуклија,Секлија,Селаде,Селалија,Селалинде,Селарандра,Селарарит,Селарит,Селебринијел,Селебривијел,Селелит,Селенг,Селерит,Селидијен,Селилит,Селинде,Селиоде,Селионијел,Селит,Селитрадит,Селодит,Селорфилинде,Селорфинг,Селорфивијен,Селовијен,Селилија,Сетијен,Синг,Ситралит,Ситранија,Ситравен,Колинде,Корфивијел,Сидија,Деларарит,Делебринија,Делетијен,Делил-Ганијел,Делиовен,Делитратијел,Делондра,Делорфилинде,Делорфитијен,Деловијел,Делидијен,Ејарадриједијен,Ејаранијел,Ејараравијен,Ејарелија,Ејаренија,Ејаревен,Ејаревијел,Ејарилмаде,Ејарилматијен,Ејариолит,Ејаритранг,Ејарорфивијен,Ејаруде,Еладриједе,Еладријелија,Еларавијел,Елебриндра,Еледе,Елелит,Елил-Ганг,Елималија,Елилмавијен,Елитраклија,Елитрадијен,Елондра,Елорфинг,Елорфитијен,Елрадријерит,Елранија,Елребридит,Елратијел,Елрилинде,Елрилмандра,Елрилматијен,Елритијел,Елритрадит,Елривен,Елродит,Елрорфидија,Елувијел,Елвадија,Елванија,Елвил-Гавијен,Елвилматијел,Елвинијел,Елвиондра,Елвитранг,Елвитратијен,Елвовијен,Елвинијел,Елвивијел,Елинија,Еливен,Еовалија,Еоваравијен,Еоватијел,Еовабридит,Еоведит,Еовидијен,Еовил-Галинде,Еовилинде,Еовиовијен,Еовилија,Еовинијел,Фадриједит,Фадријелија,Фадријендра,Фадријенија,Фалинде,Фатијел,Фатијен,Фавијен,Феклија,Фетијел,Фил-Галија,Фил-Гатијел,Фил-Гавијен,Филмаклија,Фионијел,Фоде,Фолинде,Фулинде,Гадријеклија,Гадријевијел,Галадријетијен,Галандра,Галаранијел,Галебрилија,Белбриндра,Галеде,Галедијен,Галевијел,Галил-Ганија,Галимадија,Галиотијел,Галитратијен,Галолија,Галолинде,Галорфивијел,Галотијел,Галовен,Галундра,Галинијел,Гатијен,Гавијел,Гебририт,Гевен,Гил-Гавијен,Гилија,Гионијел,Гиовијел,Гиовен,Гитранија,Гитравијел,Глалија,Глебритијен,Глендра,Глилмадијен,Глилмавијел,Глитијел,Глоклија,Глодит,Глорфилит,Гловијел,Гловијел,Гоклија,Годијен,Гелија,Голинде,Гувијел,Харавијел,Хавијел,Хавијен,Хеклија,Хедија,Хелит,Хевен,Хил-Ганија,Хиоде,Хивијен,Ходија,Ходија,Хорфинија,Хорфивијен,Хотијел,Хуклија,Хунија,Хутијен,Хиклија,Хитијел,Хитијен,Исадријенг,Исавен,Исебридијен,Исебринија,Исендра,Исенг,Исевијел,Исил-Гарит,Исилинде,Иситраде,Иситрадијен,Иситрарит,Иситравијел,Исотијен,Легаде,Легадијен,Легадријеклија,Легадриједе,Легадријенијел,Легараклија,Легебрилија,Легелит,Легенг,Легенијел,Легетијел,Легидија,Легил-Галинде,Легилмадит,Легилмавијел,Легитралинде,Легитрандра,Легитранија,Леголит,Легондра,Легорфиде,Ломанијел,Ломебриклија,Ломебринијел,Ломедија,Ломенијел,Ломиклија,Ломилинде,Ломилматијел,Ломилмавијел,Ломитраде,Лимитрарит,Ломоде,Ломолит,Ломондра,Ломорфинг,Ломорит,Ломедија,Ломулинде,Ломунијел,Ломутијел,Ломинија,Ломитијен,Мадија,Мадријеклија,Мараклија,Мебривијел,Меклија,Медијен,Мил-Гатијел,Мил-Гатијен,Милинде,Милит,Миовен,Миовијел,Митраде,Митралинде,Моде,Модија,Менијел,Морфилинде,Мунија,Миндра,Мивијел,Наренија,Наранијел,Навијел,Навен,Нивен,Нил-Ганг,Нилмадија,Ниодијен,Ниолија,Ниотијен,Нитранијел,Нитрарит,Новен,Нидит,Падија,Падриједит,Паралинде,Парандра,Павен,Пебридијен,Пил-Годија,Пил-Гадијен,Пилинде,Пиндра,Понг,Порфиндра,Порфивијен,Повијел,Пулија,Путијен,Ренијел,Ревијел,Рил-Гавијен,Риндра,Риотијен,Ронг,Рорфивијел,Садријенија,Садријерит,Салинде,Санг,Сарадит,Сарандра,Седит,Сендра,Сетијен,Силмаклија,Силматијел,Сиоклија,Сиорит,Ситранг,Ситравен,Сонијел,Сотијел,Сотијен,Синијел,Тадријерит,Танг,Тарадијен,Таратијел,Татијел,Терит,Традија,Тралија,Траравијел,Требринијел,Тредијен,Трерит,Тридит,Тринија,Тритрадија,Тритрандра,Тритранијел,Тролит,Тронг,Тротијел,Трелит,Третијен,Тринг,Тил-Гандра,Тилмаклија,Тилмавијел,Тинаклија,Тинадријетијен,Тиналинде,Тинаранијел,Тинаратијен,Тинавијел,Тинебритијел,Тинерит,Тинил-Ганија,Тинил-Гавијел,Тиниолит,Тинитратијел,Тинонг,Тинорфилит,Тинорфитијен,Тинедија,Тиорит,Титретијен,Товијел,Танијел,Унадријенг,Унатијен,Унебринде,Уненија,Унил-Гадија,Унилмадија,Униндра,Униоде,Униолија,Унијенг,Унионија,Унондра,Унорфивен,Унулинде,Унувијел,Унинија,Ураклија,Урадриједија,Уранија,Урарит,Уребриклија,Уреклија,Урилмадија,Урилмавијел,Уриолија,Уритралинде,Урутијен,Уририт,Вадријерит,Вадријевијел,Вадријевен,Варавијел,Вебритијен,Вил-Гандра,Виолинде,Виовијел,Витранг,Витранијел,Вивијел,Водија,Вонг,Ворфиклија,Ворфинг,Ворфирит,Ворфивијел,Вовијен"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:18
+#: data/core/macros/names.cfg:33
 msgid "Graa,Greaa,Gree,Kaaa,Kassshh,Kessshh,Korro,Kraa,Kuu,Kzaaa,Kzuuu"
 msgstr "Граа,Греаа,Грее,Каа,Кааш,Кееш,Коро,Краа,Куу,Кзаа,Кзуу"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:19
+#: data/core/macros/names.cfg:34
 msgid "Kaasa,Kayya,Keyya,Kiira,Korra"
 msgstr "Кааса,Каја,Кеја,Киира,Кора"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:23
+#: data/core/macros/names.cfg:38
 msgid "Addraecyn,Addraenvan,Addraer,Addraercyn,Addraryn,Addreddry,Addredry,Addregwyn,Addrenyc,Addreoddry,Addreoddyn,Addreonyc,Addreorcyn,Addreran,Addribryn,Addriddyn,Addrocyn,Addroryn,Addrunvan,Addrurcyn,Addryllyn,Addrynvan,Aethacyn,Aethadry,Aethaec,Aethaeran,Aethaeryn,Aethagwyn,Aethanry,Aetharcyn,Aethec,Aethellyn,Aethenvan,Aetheoc,Aetheollyn,Aetheonyc,Aetheorcyn,Aethercyn,Aetherraent,Aethibryn,Aethiddry,Aethircyn,Aethobryn,Aethoddyn,Aethonnyn,Aethuc,Aethudry,Aethugwyn,Aethun,Aethunry,Aethydry,Aethynyc,Blac,Bladoc,Blaec,Blaedry,Blanry,Blebryn,Bledoc,Blemyr,Blennyn,Blenvan,Bleollyn,Blercyn,Blidd,Bliddry,Blillyn,Blinvan,Blollyn,Blubryn,Blucyn,Bludry,Blullyn,Bluran,Blybryn,Blydd,Blygwyn,Blymyr,Blyr,Bucyn,Cac,Cadry,Caebryn,Caedry,Caeran,Caercyn,Car,Carac,Caraddry,Caradoc,Caraedry,Caraennyn,Cararyn,Caredd,Careddry,Caregwyn,Caren,Careobryn,Careogwyn,Careonvan,Careorraent,Careoryn,Carercyn,Caric,Cariddry,Carocyn,Caroddyn,Caror,Caroran,Carraent,Carudoc,Carullyn,Carygwyn,Caryn,Cebryn,Cemyr,Cennyn,Ceoc,Ceoddry,Ceoddyn,Ceomyr,Ceonnyn,Ceonry,Ceoryn,Cicyn,Cin,Cinry,Coc,Convan,Corcyn,Cubryn,Cunry,Curyn,Cynyc,Cyryn,Dac,Dadd,Dadoc,Daeddry,Daedoc,Daellyn,Demyr,Denvan,Deodd,Deollyn,Deonyc,Derraent,Dibryn,Dinnyn,Dircyn,Dycyn,Dyddyn,Gaddry,Gaebryn,Gaedry,Gaercyn,Gagwyn,Gan,Gannyn,Gar,Gecyn,Geddyn,Gegwyn,Geodry,Ginvan,Glacyn,Gladoc,Glaercyn,Glarraent,Gleddry,Gleoddyn,Gleran,Gliddyn,Glillyn,Glinry,Glircyn,Gloddry,Gloddyn,Glonry,Glonvan,Glumyr,Glun,Glunry,Glunvan,Glyc,Glydd,Glydoc,Glynry,Glynvan,Glyran,Goc,Gor,Gubryn,Gudd,Gullyn,Gumyr,Gur,Gwadoc,Gwaec,Gwaeddyn,Gwan,Gweddyn,Gwegwyn,Gwellyn,Gwennyn,Gwenyc,Gweocyn,Gweodd,Gweodoc,Gweodry,Gweogwyn,Gweoran,Gwidoc,Gwilam,Gwodd,Gwoddyn,Gwollyn,Gwor,Gwucyn,Gwudoc,Gwumyr,Gwuran,Gwybryn,Gwycyn,Gwyddry,Gwydoc,Gwymyr,Gwynnyn,Gydoc,Gyllyn,Gymyr,Haldar,Labryn,Ladoc,Laellyn,Lan,Lannyn,Laran,Lec,Lemyr,Lenvan,Leogwyn,Lercyn,Ligwyn,Lin,Liryn,Lonnyn,Lorraent,Luddry,Ludoc,Lunnyn,Lunvan,Lurraent,Mac,Maddyn,Maennyn,Manry,Manyc,Marcyn,Mec,Menvan,Meollyn,Meon,Meonnyn,Meorraent,Middry,Midry,Mimyr,Modd,Moddry,Monry,Moran,Morcyn,Mubryn,Mudoc,Mugwyn,Murcyn,Mydoc,Mygwyn,Myn,Myrraent,Owac,Owadd,Owaddyn,Owaecyn,Owaedry,Owain,Owarcyn,Owaryn,Owecyn,Owedry,Oweomyr,Oweor,Oweorcyn,Oweran,Owercyn,Owidry,Owinvan,Owinyc,Owodd,Owoddry,Owogwyn,Owollyn,Oworan,Oworcyn,Oworraent,Owuddry,Owuddyn,Owugwyn,Owur,Owyran,Rabryn,Radd,Ranvan,Rar,Reoddyn,Reodry,Rhaecyn,Rhaedoc,Rhaemyr,Rhaerraent,Rhanry,Rharcyn,Rhenry,Rhenvan,Rhenyc,Rheodd,Rheoddyn,Rheollyn,Rheor,Rheoran,Rheorraent,Rheran,Rherraent,Rhobryn,Rhodry,Rhollyn,Rhonvan,Rhubryn,Rhugwyn,Rhunyc,Rhur,Rhygwyn,Rhyllyn,Rhynyc,Rhyrcyn,Rhyrraent,Rocyn,Roddyn,Romyr,Ron,Ronry,Rubryn,Ruddry,Rumyr,Run,Rurcyn,Rybryn,Rycyn,Ryddry,Rygwyn,Rynnyn,Rynry,Saec,Saellyn,Saemyr,Saenvan,Saercyn,Sanyc,Saran,Sarraent,Secyn,Seddyn,Sedry,Sellyn,Sennyn,Seoddry,Seorcyn,Sercyn,Siddry,Simyr,Siryn,Sodd,Sodry,Soran,Suc,Sudd,Surcyn,Sydd,Syran,Syryn,Tabryn,Taec,Taedd,Taedoc,Taemyr,Taenvan,Taercyn,Tanry,Tarcyn,Teddyn,Tegwyn,Ten,Tennyn,Tenvan,Teobryn,Teoddyn,Teor,Teorcyn,Terraent,Tinry,Tinvan,Tiryn,Todd,Tudd,Tuddry,Tudoc,Tunvan,Turraent,Tyddyn,Vaddyn,Vaeddyn,Vaedry,Vaennyn,Varcyn,Ven,Vennyn,Veocyn,Veoddyn,Veodry,Veogwyn,Veomyr,Vinvan,Vinyc,Virraent,Vobryn,Vogwyn,Vonry,Vuddyn,Vugwyn,Vyc,Vygwyn,Vyrcyn,Yracyn,Yraec,Yran,Yrannyn,Yranvan,Yraryn,Yredd,Yreddyn,Yregwyn,Yreryn,Yrinvan,Yrirraent,Yroddry,Yrullyn,Yrumyr,Yrunnyn,Yrunvan,Yryllyn,Yrymyr,Yrynyc,Yryrcyn"
 msgstr "Адресин,Адренван,Адрајер,Адрајерсин,Адрарин,Адредри,Адредри,Адрегвин,Адреник,Адреодри,Адреодин,Адреоник,Адреорсин,Адреран,Адрибрин,Адридин,Адросин,Адрорин,Адрунван,Адрурсин,Адрилин,Адринван,Етасин,Етадри,Етајек,Етајран,Етерин,Етагвин,Етанри,Етарсин,Етек,Етелин,Етенван,Етеок,Етеолин,Етеоник,Етеорсин,Етерсин,Етерент,Етибрин,Етидри,Етирсин,Етобрин,Етодин,Етонин,Етук,Етудри,Етугвин,Етун,Етунри,Етидри,Етиник,Блак,Бладок,Блајек,Блаједри,Бланри,Блебрин,Бледок,Блемир,Бленин,Бленван,Блеолин,Блерсин,Блид,Блидри,Блилин,Блинван,Блолин,Блубрин,Блусин,Блудри,Блулин,Блуран,Блибрин,Блид,Блигвин,Блимир,Блир,Бусин,Как,Кадри,Кајебрин,Каједри,Кајеран,Кајерсин,Кар,Карак,Карадри,Карадок,Караједри,Карајенин,Карарин,Каред,Караједри,Карегвни,Карен,Кареобрин,Кареогвин,Кареонван,Кареорајент,Кареорин,Карерсин,Карик,Каридри,Каросин,,Кародин,Карор,Кароран,Карајент,Карудок,Карулин,Каригвни,Карин,Сајебрин,Семир,Сенин,Сеок,Сеодри,Сеодин,Сеомир,Сеонин,Сеонри,Сеорин,Сесин,Син,Синри,Кок,Конван,Корсин,Кубрин,Кунри,Керин,Синик,Сирин,Дак,Дад,Дадок,Даједри,Даједок,Дајелин,Демир,Денван,Деод,Деолин,Деоник,Дерајент,Дибрин,Динин,Дирсин,Дисин,Дидин,Гадри,Гајебрин,Гаједри,Гајерсин,Гагвин,Ган,Ганин,Гар,Гесин,Гедин,Гегвин,Геодри,Гинван,Гласин,Гладок,Глајерсин,Гларајент,Гледри,Гелодин,Глеран,Глидин,Глилин,Глинри,Глирсин,Глодри,Глодин,Глонри,Глонван,Глумир,Глун,Глунри,Глунван,Глик,Глид,Глидок,Глинри,Глинван,Глиран,Гок,Гор,Губрин,Гуд,Гулин,Гумир,Гур,Гвадок,Гвајек,Гваједин,Гван,Гведин,Гвегвин,Гвелин,Гвенин,Гвеник,Гвеосин,Гвеод,Гвеодок,Гвеодри,Гвеогвин,Гвеоран,Гвидок,Гвилам,Гвод,Гводин,Гволин,Гвор,Гвусин,Гвудок,Гвумир,Гвуран,Гвибрин,Гвисин,Гвидри,Гвидок,Гвимир,Гвинин,Гидок,Гилин,Гимир,Халдар,Лабрин,Ладок,Лајелин,Лан,Ланин,Ларан,Лек,Лемир,Ленван,Леогвин,Лерсин,Лигвин,Лин,Лирин,Лонин,Лорајент,Лудри,Лудок,Лунин,Лунван,Лурајент,Мак,Мадин,Мајенин,Манри,Маник,Марсин,Мек,Менван,Меолин,Меон,Меонин,Меорајент,Мидри,Мидри,Мимир,Мод,Модри,Монри,Моран,Морсин,Мубрин,Мидок,Мугвин,Мурсин,Мидок,Мигвин,Мин,Мирајент,Овак,Овад,Овадин,Овајекин,Оваједри,Овејн,Оварсин,Оварин,Овесин,Оведри,Овеомир,Овеор,Овеорсин,Оверан,Оверсин,Овидри,Овинван,Овиник,Овод,Оводри,Овогвин,Оволин,Оворан,Оворсин,Оворајент,Овудри,Овудин,Овугвин,Овур,Овиран,Рабрин,Рад,Ранван,Рар,Реодин,Реодри,Рајесин,Раједок,Рајемир,Рајерајент,Ранри,Рарсин,Ренри,Ренван,Реник,Реод,Реодин,Реолин,Реор,Реоран,Реорајент,Реран,Рерајент,Робрин,Родри,Ролин,Ронван,Рубрин,Ругвин,Руник,Рур,Ригвин,Рилин,Риник,Рирсин,Рирајент,Росин,Родин,Ромир,Рон,Ронри,Рубрин,Рудри,Румир,Рун,Рурсин,Рибрин,Рисин,Ридри,Ригвин,Ринин,Ринри,Сајек,Сајелин,Сајемир,Сајенван,Сајерсин,Саник,Саран,Сарајент,Сесин,Седин,Седри,Селин,Сенин,Сеодри,Сеорсин,Серсин,Сидри,Симир,Сирин,Сод,Содри,Соран,Сук,Суд,Сурсин,Сид,Сиран,Сирин,Табрин,Тајек,Тајед,Таједок,Тајемир,Тајенван,Тајерсин,Танри,Тарсин,Тедин,Тегвин,Тен,Тенин,Тенван,Теобрин,Теодин,Теор,Теорсин,Тарајент,Тинри,Тинван,Тирин,Тод,Туд,Тудри,Тудок,Тунван,Трајент,Тидин,Вадин,Ваједин,Ваједри,Вајенин,Варсин,Вен,Венин,Веосин,Веодин,Веодри,Веогвин,Веомир,Винван,Виник,Вирајент,Вобрин,Вогвин,Вонри,Вудин,Вугвин,Вик,Вигвин,Вирсин,Ирасин,Ирајек,Иран,Иранин,Иранван,Ирарин,Иред,Иредин,Ирегвин,Ирерин,Иринван,Ирирајент,Иродри,Ирулин,Ирумир,Ирунин,Ирунван,Ирилин,Иримир,Ириник,Ирирсин"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:24
+#: data/core/macros/names.cfg:39
 msgid "Alabrylla,Alaebrylla,Alaeniver,Alalla,Alalonna,Alaryan,Aleacla,Aleaniver,Aleara,Alearka,Alena,Alengwen,Alilonna,Alingwen,Alolla,Alolonna,Alora,Alubrylla,Aluniver,Aluryan,Alussa,Alwcla,Alwllyra,Alwlyan,Alwna,Alybrylla,Alynoic,Alyra,Alyryan,Braedda,Brassa,Bravyan,Breabrylla,Breall,Brealla,Brealonna,Breana,Brell,Brellyra,Brera,Brerka,Breryan,Bricla,Brirka,Brobrylla,Brollyra,Brona,Bronoic,Brora,Brorka,Brungwen,Bruryan,Brwra,Brycla,Brynoic,Caella,Caena,Caengwen,Caevyan,Call,Calla,Cassa,Cealonna,Cera,Ceryan,Cibrylla,Cicla,Cinoic,Cira,Cissa,Clacla,Claella,Claelyan,Claenoic,Clalla,Clallyra,Clara,Clarka,Clavyan,Cleacla,Cleall,Clealyan,Cleana,Cleanoic,Clenoic,Clibrylla,Clill,Clillyra,Clilyan,Clinoic,Clissa,Clobrylla,Clollyra,Clona,Clongwen,Clungwen,Clurka,Cluvyan,Clwdda,Clwlla,Clwvyan,Clydda,Clylla,Cora,Coryan,Cucla,Cudda,Curyan,Cwdda,Cwlonna,Cwngwen,Cwvyan,Cydda,Cylla,Cyllyra,Cylyan,Cyniver,Cyvyan,Daedda,Daelyan,Daengwen,Daenoic,Dalla,Dallyra,Dangwen,Dara,Dassa,Deanoic,Deassa,Della,Devyan,Dicla,Diniver,Dissa,Dollyra,Dullyra,Dulonna,Dwbrylla,Dwdda,Dwna,Dwnoic,Dwra,Dybrylla,Dydda,Dyssa,Elacla,Elaedda,Elaell,Elaelonna,Elaessa,Elaevyan,Elallyra,Elalonna,Elara,Elavyan,Elealla,Eleanoic,Elearka,Elenoic,Elerka,Elivyan,Elulonna,Elurka,Elwllyra,Elwlonna,Elwngwen,Elwra,Elycla,Elyllyra,Elyngwen,Elyniver,Elyrka,Gwaera,Gwaessa,Gwangwen,Gweacla,Gwedda,Gwerka,Gwicla,Gwirka,Gwobrylla,Gwoll,Gwona,Gwongwen,Gwonoic,Gworyan,Gwullyra,Gwussa,Gwwcla,Gwwna,Gwwvyan,Gwycla,Gwydda,Heldra,Jacla,Jaena,Jaerka,Jaevyan,Jalyan,Jana,Jarka,Jassa,Jeabrylla,Jealla,Jeanoic,Jeniver,Jiryan,Jissa,Joll,Jolla,Jona,Jongwen,Jonoic,Jora,Jorka,Jovyan,Judda,Jull,Julonna,Jura,Jwll,Jwlyan,Jycla,Jyniver,Jynoic,Jyrka,Jyvyan,Laeniver,Laenoic,Laeryan,Langwen,Larka,Lassa,Lealonna,Lealyan,Ledda,Lelonna,Lelyan,Lengwen,Lerka,Lessa,Lidda,Lill,Lina,Lirka,Liryan,Livyan,Locla,Lodda,Lollyra,Lolonna,Lulla,Lulyan,Lungwen,Lunoic,Luryan,Lwcla,Lwlla,Lwnoic,Lwryan,Lycla,Lylla,Lylyan,Lyna,Lynoic,Maecla,Maeniver,Mavyan,Meacla,Mealyan,Meana,Meangwen,Meanoic,Medda,Melonna,Mengwen,Meniver,Meradda,Meraecla,Meraelyan,Merall,Merallyra,Meralonna,Merana,Meranoic,Merealonna,Mereangwen,Mereaniver,Merebrylla,Merella,Merengwen,Meressa,Merilyan,Merina,Merinoic,Merissa,Merivyan,Merolla,Merolyan,Merona,Meroniver,Merubrylla,Merudda,Merurka,Merwlla,Merwnoic,Merwryan,Merydda,Merylyan,Messa,Milonna,Molyan,Moniver,Mossa,Mudda,Mullyra,Mulyan,Muryan,Mwbrylla,Mwlyan,Mwngwen,Mwnoic,Mycla,Myll,Mylla,Myra,Myvyan,Nabrylla,Naebrylla,Naecla,Naell,Nalyan,Nangwen,Nealla,Neallyra,Nealonna,Neavyan,Nera,Nessa,Ninoic,Niryan,Nivyan,Nobrylla,Nolla,Nonoic,Norka,Noryan,Nucla,Nulla,Nulyan,Nungwen,Nuvyan,Nwllyra,Nwryan,Nwvyan,Nybrylla,Nyll,Nylyan,Nyryan,Nyssa,Nyvyan,Raebrylla,Raera,Raerka,Ralonna,Rara,Rarka,Rassa,Reacla,Realla,Reana,Reangwen,Rella,Relyan,Rengwen,Rerka,Revyan,Rilonna,Rilyan,Rirka,Rora,Rucla,Ruryan,Rwdda,Rwlla,Rwllyra,Rwlonna,Rwngwen,Rybrylla,Ryna,Ryngwen,Saell,Saellyra,Saeniver,Saerka,Saessa,Sallyra,Sanoic,Sara,Sassa,Searka,Sena,Senoic,Sera,Silonna,Sira,Siryan,Sona,Sorka,Subrylla,Sull,Sulonna,Sulyan,Sura,Sussa,Swlla,Swlyan,Swngwen,Swnoic,Swvyan,Syllyra,Sylyan,Syssa,Ysacla,Ysaenoic,Ysaerka,Ysanoic,Yseacla,Ysealonna,Ysealyan,Ysedda,Ysell,Yselonna,Ysilyan,Ysinoic,Ysodda,Ysongwen,Ysonoic,Ysura,Yswniver,Ysycla,Ysylla,Ysylyan,Ysyrka,Ysyssa"
 msgstr "Алабрила,Алајебрила,Алајенивер,Алала,Алалона,Аларијан,Алејакла,Алејанивер,Алејара,Алејарка,Алена,Аленгвен,Алилона,Алингвен,Алола,Алолона,Алора,Алубрила,Алунивер,Алуријан,Алуса,Алуакла,Алулира,Алулијан,Алуна,Алибрила,Алиноик,Алира,Алиријан,Браједа,Браса,Бравијан,Брејабрила,Брејал,Брејала,Брејалона,Брејана,Брел,Брелира,Брера,Брерка,Греријан,Брикла,Брирка,Бробрила,Бролира,Брона,Броноик,Брора,Брорка,Брунгвен,Бруријан,Брура,Брикла,Бриноик,Кајела,Кајена,Кајенгвен,Кајевијан,Кал,Кала,Каса,Сејелона,Сера,Серијан,Сибрила,Сикла,Синоик,Сира,Сеса,Клакла,Клајела,Клајелијан,Клајеноик,Клала,Клалира,Клара,Кларка,Клавијан,Клејакла,Клејал,Клејалијан,Клејана,Клејаноик,Кленоик,Клибрила,Клил,Клилира,Клилијан,Клиноик,Клиса,Клобрила,Клолира,Клона,Клонгвен,Клунгвен,Клурка,Клувијан,Клуда,Клула,Клувијан,Клида,Клила,Кора,Коријан,Кукла,Куда,Куријан,Куда,Кулона,Кунгвен,Кувијан,Седа,Сила,Силира,Силијан,Синивер,Сивијан,Даједа,Дајелијан,Дајенгвен,Дајеноик,Дала,Далира,Дангвен,Дара,Даса,Дејаноик,Дејаса,Дела,Девијан,Дикла,Динивер,Диса,Долира,Дулира,Дулона,Дубрила,Дуда,Дуна,Дуноик,Дура,Дибрила,Дида,Диса,Елакла,Елаједа,Елајел,Елајелона,Елајеса,Елајевијан,Елалира,Елалона,Елара,Елавијан,Елејала,Елејаноик,Елејарка,Еленоик,Елерка,Еливијан,Елулона,Елурка,Елулира,Елулона,Елунгвен,Елура,Еликла,Елилира,Елингвен,Елинивер,Елирка,Гвајера,Гвајеса,Гвангвен,Гвејакла,Гведа,Гверка,Гвикла,Гвирка,Гвобрила,Гвол,Гвона,Гвонгвен,Гвоноик,Гворијан,Гвулира,Гвуса,Гувакла,Гвина,Гвивијан,Гвикла,Гвида,Хелдра,Жакла,Жајена,Жајерка,Жајевијан,Жалијан,Жана,Жарка,Жаса,Жејабрила,Жејала,Жејаноик,Женивер,Жиријан,Жиса,Жол,Жола,Жона,Жонгвен,Жоноик,Жора,Жорка,Жовијан,Жуда,Жул,Жулона,Жура,Жул,Жулијан,Жикла,Жинивер,Жиноик,Жирка,Живијан,Лајенивер,Лајеноик,Лајеријан,Лангвен,Ларка,Ласа,Лејалона,Лејалијан,Леда,Лелона,Лелијан,Ленгвен,Лерка,Леса,Лида,Лил,Лина,Лирка,Лиријан,Ливијан,Локла,Лода,Лолира,Лолона,Лула,Лулијан,Лунгвен,Луноик,Луријан,Луакла,Луала,Луаноик,Луаријан,Ликла,Лила,Лилијан,Лина,Линоик,Мајекла,Мајенивер,Мавијан,Мејакла,Мејлијан,Мејана,Мејангвен,Мејаноик,Меда,Мелона,Менгвен,Менивер,Мерада,Мерајекла,Мерајелијан,Мерал,Мералира,Мералона,Мерана,Мераноик,Мерејалона,Мерјангвен,Мерејанивер,Меребрила,Мерела,Меренгвен,Мереса,Мерилијан,Мерина,Мерионик,Мериса,Меривијан,Мерола,Меролијан,Мерона,Меронивер,Мерубрила,Меруда,Мерурка,Меруала,Меруаноик,Меруаријан,Мерида,Мерилијан,Меса,Милона,Молијан,Монивер,Моса,Меда,Мулира,Мулијан,Муријан,Муабрила,Муалијан,Муангвен,Муаноик,Микла,Мил,Мила,Мура,Мивијан,Набрила,Нејабрила,Најекла,Најел,Налијан,Нангвен,Нејала,Нејалира,Нејалона,Нејавијан,Нера,Неса,Ниноик,Ниријан,Нивијан,Нобрила,Нола,Ноноик,Норка,Норијан,Нукла,Нола,Нулијан,Нунгвен,Нувијан,Нуалира,Нуаријан,Нуавијан,Нибрила,Нил,Нилијан,Ниријан,Нисава,Нивијан,Рајебрила,Рајера,Рајерка,Ралона,Рара,Рарка,Раса,Рејакла,Рејала,Рејана,Рејангвен,Рела,Релијан,Ренгвен,Рерка,Ревијан,Рилона,Рилијан,Рирка,Рора,Рукла,Руријан,Руада,Руала,Руалира,Руалона,Руангвен,Рибрила,Рина,Рингвен,Сајел,Сајелира,Сајенивер,Сајерка,Сајеса,Салира,Саноик,Сара,Саса,Сајерка,Сена,Сеноик,Сера,Силона,Сира,Сиријан,Сона,Сорка,Субрила,Сул,Сулона,Сулијан,Сура,Суса,Суала,Суалијан,Суангвен,Суаноик,Суавијан,Силира,Силијан,Сеса,Исакла,Исајеноик,Исајерка,Исаноик,Исајекла,Исејалона,Исејалијан,Иседа,Исел,Иселона,Исилијан,Исионик,Исода,Исонгвен,Исоноик,Исура,Исуанивер,Исикла,Исила,Исилијан,Исирка,Исаса"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:28
+#: data/core/macros/names.cfg:43
 msgid "Amprixta,Anexir,Anitraz,Arix,Axiz,Bzz'Kza,Chamil,Cleezi,Clezz,Fazzis,Fizztrax,Flixta,Flizzil,Frikes,Frizzle,Hasz,Heffez,Hertrazzir,Hesz,Hezzir,Hezzis,Hix,Inexis,Irix,Jezzix,Jizz,Kaliez,Kepzs,Kernix,Kersezz,Kertrasz,Kerx,Kerxenix,Kezz,Klexaz,Klezyx,Krarax,Krenarex,Krex,Krinex,Krisess,Laizix,Lazki,Lixeez,Merax,Mexiss,Moxanzz,Naxisz,Nix,Pekzs,Plaxis,Plesix,Presch,Sailik,Salanix,Salik,Sandix,Saprazz,Satras,Skalix,Skandix,Skazix,Skeely,Skeezix,Sklizle,Skrez,Slizilx,Sprizz,Ssexur,Ssizer,Ssorix,Sszasz,Sterizz,Talerez,Tarex,Tarnix,Tezzaz,Tirasch,Tirax,Tirix,Trezz,Venezz,Vriss,Waks,Xaffrasz,Xartrez,Xasz,Xaztex,Xerxix,Xirasz,Xirr,Xirtras,Xirtrez,Xirz,Zandler,Zedrix,Zilrix,Zizzasz,Zslap,Zzalkz,Zzupde"
 msgstr "Амприкста,Анексир,Анитраз,Арикс,Аксиз,Бзаказа,Камил,Клези,Клез,Фазис,Фистракс,Фликста,Флизил,Фрикес,Фризл,Хаз,Хефез,Хертразир,Хез,Хезир,Хезис,Хикс,Инексис,Ирикс,Језикс,Јиз,Калијез,Кепс,Керникс,Керсез,Кертраз,Керкс,Керксеникс,Кез,Клексаз,Клезикс,Краракс,Кренарекс,Крекс,Кринекс,Крисес,Лајзикс,Ласки,Ликсез,Меракс,Мексис,Моханз,Наксиз,Никс,Пекс,Плаксис,Плесикс,Пресх,Сајлик,Селаникс,Салик,Сандикс,Сапраз,Сатрас,Скаликс,Скандикс,Сказикс,Скели,Скезикс,Склизл,Скрез,Слизликс,Сприз,Сексур,Сизер,Сорикс,Саз,Стериз,Талерез,Тарекс,Тарникс,Тезаз,Тирасх,Тиракс,Тирикс,Трез,Венез,Врис,Вакс,Ксафраз,Ксартрез,Ксаз,Ксастекс,Ксерксикс,Ксираз,Ксир,Ксиртраз,Ксиртрез,Ксирз,Зандлер,Зедрикс,Зилрикс,Зизаз,Злап,Залкс,Зупде"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:32
+#: data/core/macros/names.cfg:47
 msgid "Absu,Abzu,Aigaion,Alastyn,Apalala,Apam,Apsu,Aremata,Atlahua,Atlaua,Barinthus,Dhakhan,Dylan,Elcmar,Ember,Enki,Faro,Habaek,Ikatere,Jamm,Jin,Kinilau,Kulullu,Labuna,Laut,Lir,Llyr,Ludd,Makara,Maui,Melicertes,Mimir,Natat,Nechtan,Neptune,Nereus,Nethuns,Njord,Nuada,Nudd,Nudimmud,Nun,Oceanus,Okeanos,Phorcys,Pontus,Popoa,Poseidon,Proteus,Raja,Rau,Rorua,Ryujin,Scylla,Sinilau,Sisiutl,Tagaloa,Tanaoa,Tangaloa,Tangaroa,Thaumas,Tikitiki,Tini,Tinilau,Tinirau,Toniwha,Triton,Vizi,Vodnik,Vourukasa"
 msgstr "Абсу,Абзу,Ајгајион,Аластин,Апалала,Апам,Апсу,Аремата,Атлахуа,Атлауа,Баринт,Дакан,Дилан,Елкмар,Ембер,Енки,Фаро,Хабајек,Икатере,Јам,Жин,Кинилау,Кулулу,Лабуна,Лаут,Лир,Лир,Луд,Макара,Мауји,Мелисерт,Мимир,Натат,Нехтан,Нептун,Нереј,Нетун,Нјорд,Нуада,Нуд,Нудимед,Нун,Океан,Океон,Форсеј,Понтеј,Попоа,Посејдон,Протеј,Ража,Рау,Роруа,Рујин,Сцила,Синилау,Сисиутл,Тагалоа,Танаоа,Тангалоа,Тангароа,Таум,Тикитики,Тини,Тинилау,Тинирау,Тонива,Тритон,Визи,Водник,Ворукаса"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:33
+#: data/core/macros/names.cfg:48
 msgid "Aglaopheme,Amphitrite,Aphrodite,Ariel,Atargatis,Calypso,Delphine,Derceto,Diktynna,Electra,Galatea,Himeropa,Jengu,Leucosia,Ligia,Lori Lamaris,Mama Wata,Marina,Miranda,Miriam,Molpe,Parthenope,Pelagia,Pisinoe,Rân,Sedna,Stella Maris,Thelxiepia,Tirgata,Vatea,Ved-Ava,Veen emo,Vete-ema"
 msgstr "Аглаофема,Амфитрита,Афродита,Аријел,Атаргатис,Калипсо,Делфина,Дерсето,Диктина,Електра,Галатеа,Химеропа,Женгу,Леукозија,Лигија,Лори Ламарис,Мама Вата,Марина,Миранда,Миријам,Молпе,Партенопа,Пелагија,Пизиное,Ран,Седна,Стела Марис,Телксијепија,Тиргата,Ватеја,Вед-ава,Вен-емо,Вете-ема"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:37
+#: data/core/macros/names.cfg:52
 msgid "Abraxas,Aleiss,Amail,Axmail,Blanal,Bleii,Blo,Bress,Briss,Gaxmol,Griam,Griss,Grissileii,Hailoss,Hainoss,Harxos,Huzel,Inaloss,Ineii,Issal,Klezel,Kras,Krezkps,Kzap,Lamaiss,Lameii,Lexpek,Liness,Lobor,Maissol,Malinos,Milbor,Mileii,Nildloss,Oxpeii,Poniaz,Psell,Pson,Pzakp,Reii,Sassal,Saxil,Saxrireii,Sekol,Silas,Skell,Skepz,Slell,Snol,Soill,Sorkol,Srell,Trixoz,Vilail,Vissal,Vlanis,Xabrak,Xamalel,Xinas,Xnamos,Xopkon,Zalsp,Zlek,Zpsek,Zsekp"
 msgstr "Абраксас,Алејис,Амајил,Аксмајил,Бленал,Блеји,Бло,Брес,Брис,Гаксмол,Гријам,Грис,Грисилеји,Хајилос,Хајинос,Харксос,Хузел,Иналос,Инеји,Исал,Клезел,Крас,Крескпс,Ксап,Ламајис,Ламеји,Лекспек,Линес,Лобор,Мајисол,Малинос,Милбор,Милеји,Нилдлос,Окспеји,Понијаз,Псел,Псон,Псакп,Реји,Сасал,Саксил,Саксриреји,Секол,Силас,Скел,Скепс,Слел,Снол,Соил,Соркол,Срел,Триксоз,Вилајил,Висал,Вланис,Ксабрак,Ксамалел,Ксинас,Кснамос,Ксопкон,Залсп,Злек,Зепсек,Зекп"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:38
+#: data/core/macros/names.cfg:53
 msgid "Aliasse,Amailis,Axmailia,Blai,Blanalai,Bli,Bliana,Brassas,Brissal,Gaxmail,Griama,Grissa,Grissilai,Haila,Haina,Harxias,Huzi,Inai,Inalai,Issalai,Klez,Kras,Krezkps,Kzap,Lamai,Lamaissa,Lexpek,Liabra,Lilin,Linassa,Maissa,Malina,Mila,Milbra,Nildlasi,Oxpel,Poniazal,Psal,Psen,Pzakp,Riaa,Sall,Sassalia,Saxiala,Saxririaa,Sek,Skal,Skepz,Sla,Snelia,Srak,Sral,Szak,Trixzed,Vilaila,Vissalai,Vlanissa,Xabrak,Xamalia,Xina,Xinasia,Xnamas,Xopkne,Zalsp,Zlek,Zpsek,Zsekp"
 msgstr "Алијасе,Амајилис,Аксмајилија,Блаји,Бланаји,Бли,Блијана,Брасас,Брисал,Гаксмајил,Гријама,Гриса,Грисилаји,Хајила,Хајина,Харксијас,Хузи,Инаји,Иналаји,Исалаји,Клез,Крас,Креспс,Кзап,Ламаји,Ламајиса,Лекспек,Лијабра,Лилин,Линаса,Мајиса,Малина,Мила,Милбра,Нилдласи,Окспел,Понијазал,Псал,Псен,Псакп,Рија,Сал,Сасалија,Саксијала,Саксририја,Сек,Скал,Скепс,Сла,Снелија,Срак,Срал,Сак,Триксед,Вилајила,Висалаји,Вланиса,Ксабрак,Ксамалија,Ксина,Кинасија,Кснамас,Ксопкне,Залсп,Злек,Зепсек,Зекп"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:42
+#: data/core/macros/names.cfg:57
 msgid "Akoark,Akort,Akzalk,Arkarm,Barkuk,Blokkar,Borkuk,Bukkak,Bulruk,Corkkar,Delkkak,Garkuk,Gnukk,Goruk,Grak,Gurk,Gurm,Kalknix,Karak,Karbuk,Kargnak,Karterak,Kayrak,Kelkrar,Kerta,Kilkrar,Kingrok,Kirk,Klud,Kokkan,Kolk,Komak,Korgnak,Kork,Koruck,Kramak,Krog,Krukrak,Krumuk,Kuknuk,Kurkur,Kurmak,Makron,Markaak,Markuk,Merknik,Nargak,Olk,Orkut,Reknak,Takolak,Trabuk,Trakkon,Urkar,Urkark"
 msgstr "Акоарк,Акорт,Аксалк,Аркарм,Баркук,Блокар,Боркук,Букак,Булрук,Коркар,Делкак,Гаркук,Гнук,Горук,Грак,Гурк,Гурм,Калкникс,Карак,Карбук,Каргнак,Картерак,Кајрак,Келкрар,Керта,Килкрар,Кингрок,Кирк,Клуд,Кокан,Колк,Комак,Коргнак,Корк,Корук,Крамак,Крог,Крукрак,Крумук,Кукнук,Куркур,Курмак,Макрон,Маркак,Маркук,Меркник,Наргак,Олк,Оркут,Рекнак,Таколак,Трабук,Тракон,Уркар,Иркарк"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:46
+#: data/core/macros/names.cfg:61
 msgid "Badush,Bagar,Bagdish,Barag,Barbag,Bart,Bashnak,Bidish,Bidush,Bik,Bilg,Bilo,Binak,Bink,Biol,Birt,Bogar,Bogdish,Bogdush,Bogor,Bok,Bolg,Bong,Borg,Bork,Bort,Boshnak,Budush,Bugdish,Buk,Bunak,Bung,Bunk,Burag,Burg,Burk,Buurk,Eradash,Eradish,Eragdish,Eragdush,Eragor,Eranak,Erang,Erarag,Erarg,Erart,Erigdush,Erik,Erinak,Eriol,Erirag,Erirbag,Erirg,Erirt,Erishnak,Eriurk,Erogdish,Erogdush,Erok,Erong,Eronk,Erorbag,Erudish,Erudush,Erugar,Erugdush,Erulo,Erunk,Eruol,Erurag,Eruurk,Gadash,Gagar,Gagdush,Gagor,Galo,Ganak,Gank,Gaol,Garag,Gashnak,Gigor,Ginak,Ging,Gink,Girt,Gogdish,Gogdush,Gong,Gork,Gort,Goshnak,Gradash,Gragar,Gragor,Grak,Gralg,Gralo,Granak,Graol,Grarbag,Gridash,Gridish,Gridush,Grigar,Grigor,Grilg,Grilo,Grink,Grirag,Grirg,Grirk,Grishnak,Grodish,Grogar,Grogdish,Grok,Grolg,Grong,Gronk,Grorag,Grorg,Grork,Grort,Groshnak,Grudash,Grugar,Grugdish,Grugdush,Gruk,Grulo,Grunk,Gruol,Grurg,Grurk,Grurt,Gruurk,Gugdish,Gugdush,Gulg,Gulo,Gunak,Gurbag,Gurt,Gushnak,Hadash,Hadish,Hadush,Hagar,Hagdush,Hagor,Hak,Halg,Hank,Hashnak,Hidash,Hidish,Hidush,Higdush,Hilg,Hinak,Hing,Hink,Hiol,Hirag,Hirg,Hodush,Hogar,Hogor,Hong,Hool,Horbag,Hork,Hort,Hoshnak,Hudash,Hudish,Hugor,Huk,Hulg,Hulo,Hunk,Huol,Hurag,Hurbag,Hurk,Hushnak,Huurk,Pagdish,Pagor,Palg,Palo,Paol,Parag,Pashnak,Pidush,Pigdish,Pigdush,Pilg,Pinak,Pink,Pirbag,Podash,Podish,Podush,Pogdish,Polg,Porbag,Porg,Pork,Port,Poshnak,Pradish,Pragdush,Pragor,Pralg,Pralo,Prang,Praol,Prarag,Prarbag,Prarg,Prark,Prart,Prashnak,Praurk,Pridish,Prigar,Prigdish,Prigor,Prilg,Prilo,Prinak,Priol,Prirbag,Prirg,Prirt,Priurk,Prodash,Prodish,Prodush,Prolg,Prolo,Pronak,Prong,Pronk,Prool,Prourk,Prudish,Prugar,Prugdish,Pruk,Prunak,Prunk,Prurg,Prurk,Pruurk,Puk,Pulg,Pulo,Punak,Pung,Punk,Purag,Purbag,Purg,Puurk,Radash,Ragar,Ragdish,Rak,Rang,Rank,Raol,Rarag,Rarbag,Rark,Rashnak,Raurk,Rigor,Rik,Rilg,Rinak,Rink,Rirg,Rirk,Rodish,Rodush,Rogdish,Rok,Rolo,Ronak,Rudash,Rugar,Rugdish,Ruk,Rung,Ruol,Rurag,Rushnak,Vadash,Vadish,Vadush,Vak,Valo,Vank,Varag,Varbag,Vigar,Vigdish,Vigor,Vilg,Vilo,Vink,Virag,Virt,Vishnak,Vogdish,Vogor,Vonak,Vong,Vorg,Vork,Voshnak,Vourk,Vradash,Vragar,Vragdush,Vragor,Vralo,Vrang,Vrarbag,Vrarg,Vrart,Vraurk,Vridash,Vridish,Vrigor,Vrik,Vrinak,Vring,Vrirt,Vrishnak,Vriurk,Vrodash,Vrodish,Vrogar,Vrogor,Vrolo,Vrong,Vrorg,Vrork,Vrudish,Vrugdush,Vrulg,Vrung,Vruol,Vrurg,Vrurt,Vruurk,Vudish,Vuk,Vulg,Vulo,Vunak,Vurag,Vurbag,Vurg,Vushnak"
 msgstr "Бадуш,Багар,Багдиш,Бараг,Барбаг,Барт,Башнак,Бидиш,Бидуш,Бик,Билг,Било,Бинак,Бинк,Биол,Бирт,Богар,Богдиш,Богдуш,Богор,Бок,Болг,Бонг,Борг,Борк,Борт,Бошнак,Будуш,Бугдиш,Бук,Бунак,Бунг,Бунк,Бураг,Бург,Бурк,Бурк,Ерадаш,Ерадиш,Ерагдиш,Ерагдуш,Ерагор,Еранак,Еранг,Ерараг,Ерарг,Ерарт,Еригдуш,Ерик,Еринак,Ериол,Ерираг,Ерирбаг,Ерирг,Ерирт,Еришнак,Еријурк,Ерогдиш,Ерогдуш,Ерок,Еронг,Еронк,Ерорбаг,Ерудиш,Ерудуш,Еругар,Еругдуш,Еруло,Ерунк,Еруол,Ерураг,Ерурк,Гадаш,Гагар,Гагдуш,Гагор,Гало,Ганак,Ганк,Гаол,Гараг,Гашнак,Гигор,Гинак,Гинг,Гинк,Гирт,Гогдиш,Гогдуш,Гонг,Горк,Горт,Гошнак,Градаш,Грагар,Грагор,Грак,Гралг,Грало,Гранак,Граол,Грарбаг,Гридаш,Гридиш,Гридуш,Григар,Григор,Грилг,Грило,Гринк,Грираг,Грирг,Грирк,Гришнак,Гродиш,Грогар,Грогдиш,Грок,Гролг,Гронг,Гронк,Грораг,Грорг,Грорк,Грорт,Грошнак,Грудаш,Гругар,Гругдиш,Гругдуш,Грук,Груло,Грунк,Груол,Грург,Грурк,Грурт,Грурк,Гугдиш,Гугдуш,Гулг,Гуло,Гунак,Гурбаг,Гурт,Гушнак,Хадаш,Хадиш,Хадуш,Хагар,Хагдуш,Хагор,Хак,Халг,Ханк,Хашнак,Хидаш,Хидиш,Хидуш,Хигдуш,Хилг,Хинак,Хинг,Хинк,Хиол,Хираг,Хирг,Ходуш,Хогар,Хогор,Хонг,Хол,Хорбаг,Хорк,Хорт,Хошнак,Худаш,Худиш,Хугор,Хук,Хулг,Хуло,Хунк,Хуол,Хураг,Хурбаг,Хургк,Хушнак,Хурк,Пагдиш,Пагор,Палг,Пало,Паол,Параг,Пашнак,Пидуш,Пигдиш,Пигдуш,Пилг,Пинак,Пинк,Пирбаг,Подаш,Подиш,Подуш,Погдиш,Полг,Порбаг,Порг,Порк,Порт,Пошнак,Прадиш,Прагдуш,Прагор,Пралг,Прало,Пранг,Праол,Прараг,Прарбаг,Прарг,Прарк,Прарт,Прашнак,Праурк,Придиш,Пригар,Пригдиш,Пригор,Прилг,Прило,Принак,Приол,Прирбаг,Прирг,Прирт,Приурк,Продаш,Продиш,Продуш,Пролг,Проло,Пронак,Пронг,Пронк,Прол,Прурк,Прудиш,Пругар,Пругдиш,Прук,Прунак,Прунк,Прург,Прурк,Прурк,Пук,Пулг,Пуло,Пунак,Пунг,Пунк,Пураг,Пурбаг,Пург,Пурк,Радаш,Рагар,Рагдиш,Рак,Ранг,Ранк,Раол,Рараг,Рарбаг,Рарк,Рашнак,Раурк,Ригор,Рик,Рилг,Ринак,Ринк,Рирг,Рирк,Родиш,Родуш,Рогдиш,Рок,Роло,Ронак,Рудаш,Ругар,Ругдиш,Рук,Рунг,Руол,Рураг,Рушнак,Вадаш,Вадиш,Вадуш,Вак,Вало,Ванк,Вараг,Варбаг,Вигар,Вигдиш,Вигор,Вилг,Вило,Винк,Вираг,Вирт,Вишнак,Вогдиш,Вогор,Вонак,Вонг,Ворг,Ворк,Вошнак,Воурк,Врадаш,Врагар,Врагдуш,Врагор,Врало,Вранг,Врарбаг,Врарг,Врарт,Враурк,Вридаш,Вридиш,Вригор,Врик,Вринак,Вринг,Врирт,Вришнак,Вријурк,Вродаш,Вродиш,Врогар,Врогор,Вроло,Вронг,Врорг,Врорк,Врудиш,Вругдуш,Врулг,Врунг,Вруол,Врург,Врурт,Врурк,Вудиш,Вук,Вулг,Вуло,Вунак,Вураг,Вурбаг,Вург,Вушнак"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:50
+#: data/core/macros/names.cfg:65
 msgid "Äg,Agh,Bog Äh,Borb,Brag,Brag Goh,Brok,Dak,Drog,Frok,Ga,Gah,Gark,Gnarf,Grar,Grokk,Grumph,Gulk,Hak,Hask,Hoth,Hug Bah,Hu Kah,Kak,Krak,Krug,Kub,Kuh,Lok,Luk,Nak,Nuk Kar,Pag,Reck,Rok,Ruk,Sark,Shak,Shuf,Stuh,Targ,Thog,Thruf,Thur,Tohg,Torg,Trok,Tsok,Tuh,Tuk Ruh,Ugg,Üh,Urg,Urgh,Urk,Vak,Zog,Zuug"
 msgstr "Ег,Аг,Буг,Ех,Борб,Браг,Браг,Гох,Брок,Дак,Дрог,Фрок,Га,Гах,Гарк,Гнарф,Грар,Грок,Грумф,Гулк,Хак,Хаск,Хот,Хуг,Бах,Ху,Ках,Как,Крак,Круг,Куб,Кух,Лок,Лук,Нак,Нук,Кар,Паг,Рек,Рок,Рук,Сарк,Шак,Шуф,Штух,Тарг,Тог,Труф,Тур,Тог,Торг,Трок,Тсок,Тух,Тук,Рух,Уг,Ух,Ург,Ургх,Урк,Вак,Зог,Зуг"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:54
+#: data/core/macros/names.cfg:69
 msgid "Bludebalmen,Boladrumbadrum,Bolwuldelman,Bombempomgontor,Bomtanbomkenton,Bomtanbomtonum,Bregalad,Bremdebubde,Brenbasnudnem,Brendumadoak,Brommantendronnor,Brumbendublun,Brumennarunom,Brummdlebroak,Bumbadadabum,Buomdumdenlol,Carnimirië,Dabumdabumtam,Dammantongonnur,Danmonlulbam,Debundbemun,Delmduelmdelom,Diblembumnde,Dolmannumbil,Drongnoblemdu,Dulmandarook,Dulwulmendom,Dumdumdumatum,Elmaroomadrum,Grelmadrumbumadum,Gulladroamadoak,Gumabeladrelm,Laffalialomdium,Landunwonbam,Lassemista,Lefnublemdde,Libleddnumm,Lolmandindel,Monlamwimdan,Muldondindal,Mundionalafla,Mundumblemdum,Munnamdulbon,Nanmildaldum,Nunmaldildun,Orofarnië,Pambedrumne,Pomtamkomtrobum,Rithramcamhan,Tantondernintan,Temtundembenn,Temtunnongetem,Tondenkontenkon,Troombadoom,Tumtentantarun,Tumtonnongatum,Tumtumgamtomtom,Wonrunmaldin,Wudadoonopl"
 msgstr "Блудебалмен,Боладрумбадрум,Болвулделман,Бомбемпомгонтор,Бомтанбомкентон,Бомтанбомтонум,Брегелад,Бремдебубде,Бренбаснуднем,Брендумадок,Бромантендронор,Брумбендулун,Бруменаруном,Брумдлеброак,Брумбададабум,Бумдумденлол,Карнимириј,Дамбудабумтам,Дамантонгонур,Данмонлулбам,Дабундемун,Делмдулмделом,Диблембурмде,Долманумбил,Дронгноблемду,Дулмандарук,Дулвулмендом,Думдумдуматум,Елмарумадрум,Грелмадрумбумадум,Гуладромадок,Гумабеладрелм,Лафалијаломдијум,Ландунвонбам,Ласемиста,Лефнублемде,Либледнум,Лолмандиндел,Монламвимдан,Мулдондиндал,Мундионалафла,Мундумблемдум,Мунамдулбон,Нанмилдалдум,Нунмалдилдун,Орофарниј,Пембедрумне,Помтамкомтробум,Ритрамакаман,Тантондернитан,Темтундембен,Темтунонгетем,Тонденконтенкон,Трумбадум,Тумтентантарун,Тумтононгатум,Тумтумгамтомтом,Вонрунмалдин,Вудадунопл"
 
 # |, no-check-spell
 #. +> trunk 1.6
-#: data/core/macros/names.cfg:58
+#: data/core/macros/names.cfg:73
 msgid "Bal,Cam,Corn,Del,Earl,El,Fox,Fren,Gel,Hel,Hex,Hol,Hox,Il,Kin,Nam,Nes,New,Ol,Old,Olf,Oul,Ox,Rock,Rook,Sal,Sam,Sed,Sel,Sen,Sil,Tal,Water,Wet,York"
 msgstr "Бал,Кам,Корн,Ерл,Ел,Фокс,Френ,Гел,Хел,Хекс,Хол,Хокс,Ил,Кин,Нам,Нес,Ол,Олд,Олф,Оул,Окс,Рок,Рук,Сал,Сам,Сед,Сел,Сен,Сил,Тал,Вотер,Вет,Јорк"
 
@@ -5317,8 +5380,8 @@ msgstr "Крај"
 #. [label]: id=label-hp
 #. +> trunk 1.6
 #: data/themes/default.cfg:212 data/themes/dfool.cfg:232
-#: data/themes/experimental.cfg:181 src/menu_events.cpp:195 src/unit.cpp:2609
-#: src/unit.cpp:2771
+#: data/themes/experimental.cfg:181 src/menu_events.cpp:197 src/unit.cpp:2518
+#: src/unit.cpp:2672
 msgid "HP"
 msgstr "УП"
 
@@ -5326,8 +5389,8 @@ msgstr "УП"
 #. [label]: id=label-xp
 #. +> trunk 1.6
 #: data/themes/default.cfg:221 data/themes/dfool.cfg:242
-#: data/themes/experimental.cfg:190 src/menu_events.cpp:196
-#: src/menu_events.cpp:853
+#: data/themes/experimental.cfg:190 src/menu_events.cpp:198
+#: src/menu_events.cpp:843
 msgid "XP"
 msgstr "ИП"
 
@@ -5481,23 +5544,23 @@ msgid "Skip animation"
 msgstr "Прескочи анимацију"
 
 #. +> trunk 1.6
-#: src/about.cpp:198 src/help.cpp:3157 src/menu_events.cpp:313
-#: src/menu_events.cpp:340 src/statistics_dialog.cpp:114
+#: src/about.cpp:198 src/help.cpp:3157 src/menu_events.cpp:315
+#: src/menu_events.cpp:342 src/statistics_dialog.cpp:114
 msgid "Close"
 msgstr "Затвори"
 
 #. +> trunk 1.6
-#: src/actions.cpp:234
+#: src/actions.cpp:235
 msgid "You don't have a leader to recruit with."
 msgstr "Морате имати вођа да бисте унајмљивали."
 
 #. +> trunk 1.6
-#: src/actions.cpp:241
+#: src/actions.cpp:242
 msgid "You must have your leader on a keep to recruit or recall units."
 msgstr "Вођ вам мора бити на кули да би најмио или сазивао јединице."
 
 #. +> trunk 1.6
-#: src/actions.cpp:260
+#: src/actions.cpp:261
 msgid "There are no vacant castle tiles in which to recruit a unit."
 msgstr "У замку нема више слободних поља за новопридошле јединице."
 
@@ -5507,17 +5570,17 @@ msgid "An invalid weapon is selected, possibly by the Python AI."
 msgstr "Изабрано неваљано оружје, можда кривицом питонске ВИ."
 
 #. +> trunk
-#: src/actions.cpp:378 src/actions.cpp:437 src/actions.cpp:1004
+#: src/actions.cpp:395 src/actions.cpp:454 src/actions.cpp:1021
 msgid "An invalid attacker weapon got selected."
 msgstr "Изабрано је неваљано оружје за нападача."
 
 #. +> trunk
-#: src/actions.cpp:383
+#: src/actions.cpp:400
 msgid "An invalid defender weapon got selected."
 msgstr "Изабрано је неваљано оружје за браниоца."
 
 #. +> trunk 1.6
-#: src/actions.cpp:1125 src/actions.cpp:1400
+#: src/actions.cpp:1142 src/actions.cpp:1417
 msgctxt "female"
 msgid "poisoned"
 msgstr "отрована"
@@ -5534,28 +5597,28 @@ msgid "stone"
 msgstr "окамењен"
 
 #. +> trunk
-#: src/actions.cpp:1137 src/actions.cpp:1412
+#: src/actions.cpp:1154 src/actions.cpp:1429
 msgctxt "female"
 msgid "petrified"
 msgstr "окамењена"
 
 #. +> trunk
-#: src/actions.cpp:1137 src/actions.cpp:1412
+#: src/actions.cpp:1154 src/actions.cpp:1429
 msgid "petrified"
 msgstr "окамењен"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2491
+#: src/actions.cpp:2477
 msgid "Ambushed!"
 msgstr "Заседа!"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2498
+#: src/actions.cpp:2484
 msgid "Failed teleport! Exit not empty"
 msgstr "Неуспешна телепортација! Излаз није празан."
 
 #. +> trunk 1.6
-#: src/actions.cpp:2543
+#: src/actions.cpp:2529
 msgid "Friendly unit sighted"
 msgid_plural "$friends friendly units sighted"
 msgstr[0] "Уочена $friends савезничка јединица"
@@ -5564,7 +5627,7 @@ msgstr[2] "Уочено $friends савезничких јединица"
 msgstr[3] "Уочена савезничка јединица"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2546
+#: src/actions.cpp:2532
 msgid "Enemy unit sighted!"
 msgid_plural "$enemies enemy units sighted!"
 msgstr[0] "Уочена $enemies непријатељска јединица!"
@@ -5573,7 +5636,7 @@ msgstr[2] "Уочено $enemies непријатељских јединица!"
 msgstr[3] "Уочена непријатељска јединица!"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2551
+#: src/actions.cpp:2537
 msgctxt "Part of 'Units sighted! (...)' sentence"
 msgid "1 friendly"
 msgid_plural "$friends friendly"
@@ -5583,7 +5646,7 @@ msgstr[2] "$friends савезничких"
 msgstr[3] "једна савезничка"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2552
+#: src/actions.cpp:2538
 msgctxt "Part of 'Units sighted! (...)' sentence"
 msgid "1 enemy"
 msgid_plural "$enemies enemy"
@@ -5593,12 +5656,12 @@ msgstr[2] "$enemies непријатељских"
 msgstr[3] "једна непријатељска"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2553
+#: src/actions.cpp:2539
 msgid "Units sighted! ($friendphrase, $enemyphrase)"
 msgstr "Уочене јединице! ($friendphrase, $enemyphrase)"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2562
+#: src/actions.cpp:2548
 msgid "(press $hotkey to keep moving)"
 msgstr "(притисните $hotkey да продужи)"
 
@@ -5608,7 +5671,7 @@ msgid "B"
 msgstr "B"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:365 src/dialogs.cpp:1055
+#: src/addon_management.cpp:365 src/dialogs.cpp:1056
 msgid "KB"
 msgstr "kB"
 
@@ -5722,7 +5785,7 @@ msgstr "Желите ли да преузмете овај додатак? (Мо
 
 #. +> trunk 1.6
 #: src/addon_management.cpp:477 src/addon_management.cpp:549
-#: src/multiplayer.cpp:213 src/multiplayer.cpp:268 src/multiplayer_ui.cpp:77
+#: src/multiplayer.cpp:213 src/multiplayer.cpp:268 src/multiplayer_ui.cpp:78
 msgid "Connection timed out"
 msgstr "Веза је истекла."
 
@@ -5748,7 +5811,7 @@ msgstr "Сервер је одговорио грешком: \""
 
 #. +> trunk 1.6
 #: src/addon_management.cpp:529 src/addon_management.cpp:554
-#: src/multiplayer_wait.cpp:411
+#: src/multiplayer_wait.cpp:403
 msgid "Response"
 msgstr "Одзив"
 
@@ -5798,7 +5861,7 @@ msgstr "Нема додатака за ажурирање"
 
 #. +> trunk 1.6
 #: src/addon_management.cpp:729 src/addon_management.cpp:932
-#: src/dialogs.cpp:575 src/menu_events.cpp:193 src/menu_events.cpp:851
+#: src/dialogs.cpp:576 src/menu_events.cpp:195 src/menu_events.cpp:841
 msgid "Name"
 msgstr "име"
 
@@ -5897,8 +5960,8 @@ msgid "Downloads"
 msgstr "преузето"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:933 src/help.cpp:1458 src/menu_events.cpp:192
-#: src/menu_events.cpp:850 src/menu_events.cpp:1372
+#: src/addon_management.cpp:933 src/help.cpp:1458 src/menu_events.cpp:194
+#: src/menu_events.cpp:840 src/menu_events.cpp:1425
 msgid "Type"
 msgstr "тип"
 
@@ -5928,8 +5991,8 @@ msgid "Choose the add-on to download."
 msgstr "Изаберите додатак за преузимање."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1037 src/dialogs.cpp:600 src/menu_events.cpp:910
-#: src/menu_events.cpp:1408
+#: src/addon_management.cpp:1037 src/dialogs.cpp:601 src/menu_events.cpp:900
+#: src/menu_events.cpp:1461
 msgid "Filter: "
 msgstr "Филтер: "
 
@@ -5989,7 +6052,7 @@ msgid "Add-on could not be deleted properly:"
 msgstr "Додатак се не може успешно обрисати:"
 
 #. +> trunk 1.6
-#: src/ai/default/move.cpp:83
+#: src/ai/default/move.cpp:85
 msgid "Movement cost is 0, probably a terrain with movement cost of 0."
 msgstr "Трошак кретања 0, вероватно терен са трошком кретања 0."
 
@@ -6049,7 +6112,7 @@ msgid "Chance of being unscathed"
 msgstr "изгледи да прође без озледа"
 
 #. +> trunk 1.6
-#: src/attack_prediction_display.cpp:547 src/mouse_events.cpp:639
+#: src/attack_prediction_display.cpp:547 src/mouse_events.cpp:647
 msgid "Damage Calculations"
 msgstr "Рачунање штете"
 
@@ -6064,108 +6127,108 @@ msgid "What should our victorious unit become?"
 msgstr "Шта ће наша победничка јединица постати?"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:229
+#: src/dialogs.cpp:230
 msgid "No objectives available"
 msgstr "Нема циљева"
 
 #. +> 1.6
-#: src/dialogs.cpp:263
+#: src/dialogs.cpp:264
 msgid "Ignore All"
 msgstr "Игнориши све"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:264
+#: src/dialogs.cpp:265
 msgid "Do you really want to delete this game?"
 msgstr "Желите ли заиста да обришете ову игру?"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:266
+#: src/dialogs.cpp:267
 msgid "Don't ask me again!"
 msgstr "Не питај ме поново!"
 
 #. +> 1.6
-#: src/dialogs.cpp:285
+#: src/dialogs.cpp:286
 msgid "Save names may not contain colons, slashes, or backslashes. Please choose a different name."
 msgstr "Имена уписа не могу садржати двотачке, косе и обрнуте косе црте. Задајте другачије име."
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:432 src/savegame.cpp:130
+#: src/dialogs.cpp:433 src/savegame.cpp:130
 msgid "%a %b %d %H:%M %Y"
 msgstr "%a %b %d %H.%M %Y"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:448
+#: src/dialogs.cpp:449
 msgid "#(Invalid)"
 msgstr "#(неваљано)"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:466
+#: src/dialogs.cpp:467
 msgid "Campaign: $campaign_name"
 msgstr "Поход: $campaign_name"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:473
+#: src/dialogs.cpp:474
 msgid "Multiplayer"
 msgstr "Вишеиграње"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:475
+#: src/dialogs.cpp:476
 msgid "Tutorial"
 msgstr "Подучавање"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:483 src/savegame.cpp:925
+#: src/dialogs.cpp:484 src/savegame.cpp:908
 msgid "replay"
 msgstr "снимак"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:485 src/savegame.cpp:1006
+#: src/dialogs.cpp:486 src/savegame.cpp:981
 msgid "Turn"
 msgstr "потез"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:487
+#: src/dialogs.cpp:488
 msgid "Scenario Start"
 msgstr "почетак сценарија"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:490
+#: src/dialogs.cpp:491
 msgid "Difficulty: "
 msgstr "Тежина: "
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:492
+#: src/dialogs.cpp:493
 msgid "Version: "
 msgstr "Верзија: "
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:516 src/dialogs.cpp:532 src/savegame.cpp:159
+#: src/dialogs.cpp:517 src/dialogs.cpp:533 src/savegame.cpp:159
 #: src/savegame.cpp:175
 msgid "%b %d %y"
 msgstr "%b %d %y"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:522 src/savegame.cpp:165
+#: src/dialogs.cpp:523 src/savegame.cpp:165
 msgid "%H:%M"
 msgstr "%H.%M"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:525 src/savegame.cpp:168
+#: src/dialogs.cpp:526 src/savegame.cpp:168
 msgid "%A, %H:%M"
 msgstr "%A, %H.%M"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:528 src/savegame.cpp:171
+#: src/dialogs.cpp:529 src/savegame.cpp:171
 msgid "%b %d"
 msgstr "%b %d"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:556
+#: src/dialogs.cpp:557
 msgid "No Saved Games"
 msgstr "Нема сачуваних игара"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:557
+#: src/dialogs.cpp:558
 msgid ""
 "There are no saved games to load.\n"
 "\n"
@@ -6176,150 +6239,150 @@ msgstr ""
 "(Игре се чувају аутоматски када завршите сценарио)"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:575
+#: src/dialogs.cpp:576
 msgid "Date"
 msgstr "датум"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:592 src/multiplayer_create.cpp:104
+#: src/dialogs.cpp:593 src/multiplayer_create.cpp:104
 msgid "Load Game"
 msgstr "Учитај игру"
 
 #. +> 1.6
-#: src/dialogs.cpp:258
+#: src/dialogs.cpp:259
 msgid "Quit Game"
 msgstr "Напусти игру"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:593
+#: src/dialogs.cpp:594
 msgid "Choose the game to load"
 msgstr "Изаберите игру за учитавање"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:607
+#: src/dialogs.cpp:608
 msgid "Show replay"
 msgstr "Пусти снимак"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:611
+#: src/dialogs.cpp:612
 msgid "Cancel orders"
 msgstr "Поништи наређења"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:614 src/multiplayer_create.cpp:86
+#: src/dialogs.cpp:615 src/multiplayer_create.cpp:86
 msgid "OK"
 msgstr "У реду"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:615 src/dialogs.cpp:1026 src/dialogs.cpp:1133
-#: src/multiplayer_connect.cpp:1022 src/multiplayer_create.cpp:85
-#: src/multiplayer_wait.cpp:184
+#: src/dialogs.cpp:616 src/dialogs.cpp:1027 src/dialogs.cpp:1134
+#: src/multiplayer_connect.cpp:1024 src/multiplayer_create.cpp:85
+#: src/multiplayer_wait.cpp:176
 msgid "Cancel"
 msgstr "Одустани"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:618
+#: src/dialogs.cpp:619
 msgid "Delete Save"
 msgstr "Обриши сачувано"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:674
+#: src/dialogs.cpp:675
 msgid "Profile"
 msgstr "Профил"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:769 src/help.cpp:1330
+#: src/dialogs.cpp:770 src/help.cpp:1330
 msgid "level"
 msgstr "ниво"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:782 src/help.cpp:1432
+#: src/dialogs.cpp:783 src/help.cpp:1432
 msgid "HP: "
 msgstr "УП: "
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:785
+#: src/dialogs.cpp:786
 msgid "XP: "
 msgstr "ИП: "
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:789 src/help.cpp:1433
+#: src/dialogs.cpp:790 src/help.cpp:1433
 msgid "Moves: "
 msgstr "кретање: "
 
 #. +> trunk 1.6
-#: src/game.cpp:661 src/game.cpp:1377
+#: src/game.cpp:666 src/game.cpp:1395
 msgid "The Battle for Wesnoth"
 msgstr "Бој за Веснот"
 
 #. +> trunk 1.6
-#: src/game.cpp:977 src/game.cpp:985 src/playsingle_controller.cpp:471
-#: src/playsingle_controller.cpp:530
+#: src/game.cpp:995 src/game.cpp:1003 src/playsingle_controller.cpp:491
+#: src/playsingle_controller.cpp:546
 msgid "The file you have tried to load is corrupt"
 msgstr "Датотека коју сте покушали да отворите искварена је"
 
 #. +> trunk 1.6
-#: src/game.cpp:980 src/game.cpp:988 src/savegame.cpp:521
+#: src/game.cpp:998 src/game.cpp:1006 src/savegame.cpp:535
 msgid "The file you have tried to load is corrupt: '"
 msgstr "Датотека коју сте покушали да учитате искварена је: '"
 
 #. +> trunk 1.6
-#: src/game.cpp:992
+#: src/game.cpp:1010
 msgid "File I/O Error while reading the game"
 msgstr "У/И грешка у датотеци приликом читања игре"
 
 #. +> trunk 1.6
-#: src/game.cpp:1087
+#: src/game.cpp:1105
 msgid "No campaigns are available.\n"
 msgstr "Нема ниједног похода.\n"
 
 #. +> trunk 1.6
-#: src/game.cpp:1120
+#: src/game.cpp:1138
 msgid "Difficulty"
 msgstr "Тежина"
 
 #. +> trunk 1.6
-#: src/game.cpp:1121
+#: src/game.cpp:1139
 msgid "Select difficulty level:"
 msgstr "Изаберите ниво тежине:"
 
 #. +> trunk 1.6
-#: src/game.cpp:1256
+#: src/game.cpp:1274
 msgid "Do you really want to start the server?"
 msgstr "Желите ли заиста да покренете сервер?"
 
 #. +> trunk 1.6
-#: src/game.cpp:1257
+#: src/game.cpp:1275
 msgid "The server will run in a background process until all users have disconnected."
 msgstr "Сервер ће радити као позадински процес док се не откаче сви корисници."
 
 #. +> trunk 1.6
-#: src/game.cpp:1261
+#: src/game.cpp:1279
 msgid "Don't show again"
 msgstr "Не показуј поново"
 
 #. +> trunk 1.6
-#: src/game.cpp:1332
+#: src/game.cpp:1350
 msgid "Error while starting server: "
 msgstr "Грешка при покретању сервера: "
 
 #. +> trunk 1.6
-#: src/game.cpp:1334 src/playcampaign.cpp:98 src/playcampaign.cpp:367
+#: src/game.cpp:1352 src/playcampaign.cpp:99 src/playcampaign.cpp:365
 msgid "The game could not be loaded: "
 msgstr "Игру није могуће учитати: "
 
 #. +> trunk 1.6
-#: src/game.cpp:1336 src/playcampaign.cpp:100 src/playcampaign.cpp:370
+#: src/game.cpp:1354 src/playcampaign.cpp:101 src/playcampaign.cpp:368
 msgid "Error while playing the game: "
 msgstr "Грешка приликом играња игре: "
 
 #. +> trunk 1.6
-#: src/game.cpp:1356 src/playcampaign.cpp:102 src/playcampaign.cpp:373
+#: src/game.cpp:1374 src/playcampaign.cpp:103 src/playcampaign.cpp:371
 msgid "The game map could not be loaded: "
 msgstr "Мапу игре није могуће учитати: "
 
 #. +> trunk 1.6
-#: src/game.cpp:1500
+#: src/game.cpp:1518
 msgid "The following add-on had errors and could not be loaded:"
 msgid_plural "The following add-ons had errors and could not be loaded:"
 msgstr[0] "Следећи додаци имају грешку и не могу се учитати:"
@@ -6328,42 +6391,42 @@ msgstr[2] "Следећи додаци имају грешку и не могу 
 msgstr[3] "Следећи додатак има грешку и не може се учитати:"
 
 #. +> trunk 1.6
-#: src/game.cpp:1507
+#: src/game.cpp:1525
 msgid "ERROR DETAILS:"
 msgstr "ДЕТАЉИ ГРЕШКЕ:"
 
 #. +> trunk 1.6
-#: src/game.cpp:1525
+#: src/game.cpp:1543
 msgid "Error loading game configuration files: '"
 msgstr "Грешка при учитавању поставних датотека игре: '"
 
 #. +> trunk 1.6
-#: src/game.cpp:1526
+#: src/game.cpp:1544
 msgid "' (The game will now exit)"
 msgstr "' (игра ће се сад угасити)"
 
 #. +> trunk 1.6
-#: src/game.cpp:1535
+#: src/game.cpp:1553
 msgid "Loading data files"
 msgstr "Учитавам податке."
 
 #. +> trunk 1.6
-#: src/game.cpp:1966
+#: src/game.cpp:1989
 msgid "Loading game configuration."
 msgstr "Учитавам поставу игре."
 
 #. +> trunk 1.6
-#: src/game.cpp:1972
+#: src/game.cpp:1995
 msgid "Re-initialize fonts for the current language."
 msgstr "Васпостављам фонтове за текући језик."
 
 #. +> trunk 1.6
-#: src/game.cpp:1980
+#: src/game.cpp:2003
 msgid "Searching for installed add-ons."
 msgstr "Тражим инсталиране додатке."
 
 #. +> trunk 1.6
-#: src/game.cpp:1989
+#: src/game.cpp:2012
 msgid "Loading title screen."
 msgstr "Учитавам насловни екран."
 
@@ -6373,67 +6436,67 @@ msgid "Invalid color range: "
 msgstr "Неваљан опсег боја: "
 
 #. +> trunk 1.6
-#: src/game_events.cpp:180
+#: src/game_events.cpp:179
 msgid "Error: "
 msgstr "Грешка: "
 
 #. +> trunk 1.6
-#: src/game_events.cpp:183
+#: src/game_events.cpp:182
 msgid "Warning: "
 msgstr "Упозорење: "
 
 #. +> trunk 1.6
-#: src/game_events.cpp:186
+#: src/game_events.cpp:185
 msgid "Debug: "
 msgstr "Исправљање: "
 
 #. +> trunk 1.6
-#: src/game_events.cpp:189
+#: src/game_events.cpp:188
 msgid "Info: "
 msgstr "Податак: "
 
 #. +> trunk 1.6
-#: src/game_events.cpp:1165 src/multiplayer_connect.cpp:1651
+#: src/game_events.cpp:1168 src/multiplayer_connect.cpp:1654
 msgid "Victory:"
 msgstr "победа:"
 
 #. +> trunk 1.6
-#: src/game_events.cpp:1168
+#: src/game_events.cpp:1171
 msgid "Defeat:"
 msgstr "пораз:"
 
 #. +> trunk
-#: src/game_events.cpp:3403
+#: src/game_events.cpp:3457
 msgid "[unit_worth]'s filter didn't match any units!"
 msgstr "Филтер [unit_worth] не поклапа ниједну јединицу."
 
 #. +> trunk 1.6
-#: src/gamestatus.cpp:824
+#: src/gamestatus.cpp:722
 msgid "Duplicate side definition for side '$side|' found."
 msgstr "Нађена удвојена дефиниција стране за страну ‘$side|’."
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:105
+#: src/generate_report.cpp:106
 msgid "This unit is invisible. It cannot be seen or attacked by enemy units."
 msgstr "Ова јединица је невидљива. Непријатељи је не могу видети нити напасти."
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:105
+#: src/generate_report.cpp:106
 msgid "invisible: "
 msgstr "невидљива: "
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:110
+#: src/generate_report.cpp:111
 msgid "This unit has been slowed. It will only deal half its normal damage when attacking and its movement cost is doubled."
 msgstr "Ова јединица је успорена. Нанеће само половину нормалне штете када напада, а трошак кретања јој је удвостручен."
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:110
+#: src/generate_report.cpp:111
 msgid "slowed: "
 msgstr "успорена: "
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:115
+#: src/generate_report.cpp:116
 msgid ""
 "This unit is poisoned. It will lose 8 HP every turn until it can seek a cure to the poison in a village or from a friendly unit with the 'cures' ability.\n"
 "\n"
@@ -6444,7 +6507,7 @@ msgstr ""
 "Јединице не могу бити убијене само отровом. Отров неће смањити УП испод 1."
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:115
+#: src/generate_report.cpp:116
 msgid "poisoned: "
 msgstr "отрована: "
 
@@ -6454,7 +6517,7 @@ msgid "stone: "
 msgstr "окамењена: "
 
 #. +> trunk
-#: src/generate_report.cpp:122
+#: src/generate_report.cpp:123
 msgid "This unit has been petrified. It may not move or attack."
 msgstr "Ова јединица је окамењена. Не може се кретати нити нападати."
 
@@ -6464,27 +6527,27 @@ msgid "This unit has been turned to stone. It may not move or attack."
 msgstr "Ова јединица је окамењена. Не може се кретати нити нападати."
 
 #. +> trunk
-#: src/generate_report.cpp:122
+#: src/generate_report.cpp:123
 msgid "petrified: "
 msgstr "окамењена: "
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:177
+#: src/generate_report.cpp:178
 msgid "Resistances: "
 msgstr "отпорности: "
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:179
+#: src/generate_report.cpp:180
 msgid "(Att / Def)"
 msgstr "(нпд/обр)"
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:198 src/multiplayer_create.cpp:402
+#: src/generate_report.cpp:199 src/multiplayer_create.cpp:402
 msgid "Experience Modifier: "
 msgstr "модификатор искуства: "
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:266
+#: src/generate_report.cpp:267
 msgctxt "tooltip"
 msgid "damage"
 msgid_plural "damage"
@@ -6494,7 +6557,7 @@ msgstr[2] "штете"
 msgstr[3] "штете"
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:267
+#: src/generate_report.cpp:268
 msgctxt "tooltip"
 msgid "attack"
 msgid_plural "attacks"
@@ -6504,53 +6567,75 @@ msgstr[2] "напада"
 msgstr[3] "напад"
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:273
+#: src/generate_report.cpp:274
 #, no-c-format
 msgctxt "tooltip"
 msgid "% accuracy"
 msgstr "% прецизности"
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:279
+#: src/generate_report.cpp:280
 #, no-c-format
 msgctxt "tooltip"
 msgid "% parry"
 msgstr "% парирања"
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:290
+#: src/generate_report.cpp:291
 msgid "weapon range: "
 msgstr "домет оружја: "
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:291
+#: src/generate_report.cpp:292
 msgid "damage type: "
 msgstr "вид штете: "
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:312
+#: src/generate_report.cpp:313
 msgid "vs"
 msgstr "пр."
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:361
+#: src/generate_report.cpp:362
 msgid "Lawful units: "
 msgstr "законите јединице: "
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:363
+#: src/generate_report.cpp:364
 msgid "Neutral units: "
 msgstr "неутралне јединице: "
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:364
+#: src/generate_report.cpp:365
 msgid "Chaotic units: "
 msgstr "хаотичне јединице: "
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:511
+#: src/generate_report.cpp:512
 msgid "Observers:"
 msgstr "посматрачи:"
+
+#. +> trunk
+#: src/gui/dialogs/lobby_player_info.cpp:63
+#, fuzzy
+#| msgid "Name:"
+msgid "In game:"
+msgstr "Име:"
+
+#. +> trunk
+#: src/gui/dialogs/lobby_player_info.cpp:65
+msgid "(observing)"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_player_info.cpp:67
+msgid "(playing)"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_player_info.cpp:70
+msgid "In lobby"
+msgstr ""
 
 #. +> trunk 1.6
 #: src/help.cpp:46
@@ -6709,7 +6794,7 @@ msgid "<header>text='Units of this race'</header>"
 msgstr "<header>text='Јединице ове расе'</header>"
 
 #. +> trunk 1.6
-#: src/help.cpp:2681 src/menu_events.cpp:565
+#: src/help.cpp:2681 src/menu_events.cpp:567
 msgid " < Back"
 msgstr " < Назад"
 
@@ -6744,36 +6829,36 @@ msgid "The End"
 msgstr "Крај"
 
 #. +> trunk 1.6
-#: src/language.cpp:163
+#: src/language.cpp:158
 msgid "System default language"
 msgstr "Системски језик"
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:139 src/menu_events.cpp:1398
-#: src/multiplayer_connect.cpp:221 src/multiplayer_connect.cpp:273
+#: src/leader_list.cpp:139 src/menu_events.cpp:1451
+#: src/multiplayer_connect.cpp:216 src/multiplayer_connect.cpp:268
 msgctxt "gender"
 msgid "Random"
 msgstr "насумичан"
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:149 src/multiplayer_connect.cpp:217
-#: src/multiplayer_connect.cpp:269
+#: src/leader_list.cpp:149 src/multiplayer_connect.cpp:212
+#: src/multiplayer_connect.cpp:264
 msgid "Female ♀"
 msgstr "женски ♀"
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:153 src/multiplayer_connect.cpp:219
-#: src/multiplayer_connect.cpp:271
+#: src/leader_list.cpp:153 src/multiplayer_connect.cpp:214
+#: src/multiplayer_connect.cpp:266
 msgid "Male ♂"
 msgstr "мушки ♂"
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:164 src/leader_list.cpp:197
+#: src/leader_list.cpp:164 src/leader_list.cpp:192
 msgid "Random"
 msgstr "насумично"
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:245 src/leader_list.cpp:251
+#: src/leader_list.cpp:240 src/leader_list.cpp:246
 msgid "?"
 msgstr "?"
 
@@ -6808,42 +6893,42 @@ msgid "Reading files and creating cache."
 msgstr "Читам датотеке и стварам кеш..."
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:226 src/multiplayer_lobby.cpp:430
+#: src/lobby_data.cpp:234 src/multiplayer_lobby.cpp:431
 msgid "Unknown era: $era_id"
 msgstr "непозната епоха: $era_id"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:231 src/multiplayer_lobby.cpp:434
+#: src/lobby_data.cpp:239 src/multiplayer_lobby.cpp:435
 msgid "Unknown era"
 msgstr "непозната епоха"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:286 src/multiplayer_lobby.cpp:496
+#: src/lobby_data.cpp:294 src/multiplayer_lobby.cpp:497
 msgid "Remote scenario"
 msgstr "удаљени сценарио"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:294 src/multiplayer_lobby.cpp:503
+#: src/lobby_data.cpp:302 src/multiplayer_lobby.cpp:504
 msgid "Unknown scenario: $scenario_id"
 msgstr "непознат сценарио: $scenario_id"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:299 src/multiplayer_lobby.cpp:507
+#: src/lobby_data.cpp:307 src/multiplayer_lobby.cpp:508
 msgid "Unknown scenario"
 msgstr "непознат сценарио"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:305 src/multiplayer_lobby.cpp:512
+#: src/lobby_data.cpp:313 src/multiplayer_lobby.cpp:513
 msgid "Reloaded game"
 msgstr "учитана игра"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:316 src/multiplayer_lobby.cpp:528
+#: src/lobby_data.cpp:324 src/multiplayer_lobby.cpp:529
 msgid "Turn "
 msgstr "потез "
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:320 src/multiplayer_lobby.cpp:532
+#: src/lobby_data.cpp:328 src/multiplayer_lobby.cpp:533
 msgid "Vacant Slot:"
 msgid_plural "Vacant Slots:"
 msgstr[0] "слободна места:"
@@ -6852,18 +6937,18 @@ msgstr[2] "слободна места:"
 msgstr[3] "слободно место:"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:326 src/multiplayer_lobby.cpp:543
+#: src/lobby_data.cpp:334 src/multiplayer_lobby.cpp:544
 msgid "Fog"
 msgstr "магла"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:329 src/lobby_data.cpp:332 src/multiplayer_create.cpp:83
-#: src/multiplayer_lobby.cpp:547 src/multiplayer_lobby.cpp:553
+#: src/lobby_data.cpp:337 src/lobby_data.cpp:340 src/multiplayer_create.cpp:83
+#: src/multiplayer_lobby.cpp:548 src/multiplayer_lobby.cpp:554
 msgid "Shroud"
 msgstr "покров"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:334 src/multiplayer_lobby.cpp:557
+#: src/lobby_data.cpp:342 src/multiplayer_lobby.cpp:558
 msgid "none"
 msgstr "нема"
 
@@ -6878,134 +6963,134 @@ msgid "Random maps with an odd width aren't supported."
 msgstr "Насумичне мапе непарне ширине нису подржане."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:83 src/menu_events.cpp:86 src/menu_events.cpp:90
+#: src/menu_events.cpp:85 src/menu_events.cpp:88 src/menu_events.cpp:92
 msgid "Do you really want to dismiss him?"
 msgstr "Желите ли заиста да га отпустите?"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:83
+#: src/menu_events.cpp:85
 msgid "My lord, this unit is loyal and requires no upkeep! "
 msgstr "Господару, ова јединица је одана и не тражи издатке! "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:84 src/menu_events.cpp:87 src/menu_events.cpp:91
+#: src/menu_events.cpp:86 src/menu_events.cpp:89 src/menu_events.cpp:93
 msgid "Do you really want to dismiss her?"
 msgstr "Желите ли заиста да је отпустите?"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:86
+#: src/menu_events.cpp:88
 msgid "My lord, this unit is an experienced one, having advanced levels! "
 msgstr "Господару, ова јединица је искусна, и на вишем нивоу! "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:90
+#: src/menu_events.cpp:92
 msgid "My lord, this unit is close to advancing a level! "
 msgstr "Господару, ова јединица је близу напредовању! "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:183
+#: src/menu_events.cpp:185
 msgid "Statistics"
 msgstr "Статистика"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:194 src/menu_events.cpp:852
+#: src/menu_events.cpp:196 src/menu_events.cpp:842
 msgctxt "Level"
 msgid "Lvl."
 msgstr "нв."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:197
+#: src/menu_events.cpp:199
 msgctxt "unit list"
 msgid "Traits"
 msgstr "особине"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:198
+#: src/menu_events.cpp:200
 msgid "Moves"
 msgstr "кретњи"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:199
+#: src/menu_events.cpp:201
 msgctxt "Location"
 msgid "Loc."
 msgstr "пол."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:200
+#: src/menu_events.cpp:202
 msgid "Status"
 msgstr "стање"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:308
+#: src/menu_events.cpp:310
 msgid "Unit List"
 msgstr "Списак јединица"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:311 src/menu_events.cpp:333
+#: src/menu_events.cpp:313 src/menu_events.cpp:335
 msgid "Scroll To"
 msgstr "Склизни до"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:365
+#: src/menu_events.cpp:367
 msgid "Leader"
 msgstr "вођ"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:366 src/multiplayer_connect.cpp:1007
+#: src/menu_events.cpp:368 src/multiplayer_connect.cpp:1009
 msgid "Team"
 msgstr "тим"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:367 src/multiplayer_connect.cpp:1018
+#: src/menu_events.cpp:369 src/multiplayer_connect.cpp:1020
 msgid "Gold"
 msgstr "злато"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:368
+#: src/menu_events.cpp:370
 msgid "Villages"
 msgstr "села"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:369
+#: src/menu_events.cpp:371
 msgctxt "status"
 msgid "Units"
 msgstr "јединице"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:370
+#: src/menu_events.cpp:372
 msgid "Upkeep"
 msgstr "издаци"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:371 src/multiplayer_connect.cpp:1019
-#: src/multiplayer_wait.cpp:534
+#: src/menu_events.cpp:373 src/multiplayer_connect.cpp:1021
+#: src/multiplayer_wait.cpp:518
 msgid "Income"
 msgstr "приход"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:472
+#: src/menu_events.cpp:474
 msgid "Current Status"
 msgstr "Тренутно стање"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:473
+#: src/menu_events.cpp:475
 msgid "More >"
 msgstr "Још >"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:491
+#: src/menu_events.cpp:493
 msgctxt "scenario settings"
 msgid "Leader"
 msgstr "вођ"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:493
+#: src/menu_events.cpp:495
 msgctxt "scenario settings"
 msgid "Side"
 msgstr "страна"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:494
+#: src/menu_events.cpp:496
 msgctxt "scenario settings"
 msgid ""
 "Start\n"
@@ -7015,7 +7100,7 @@ msgstr ""
 "злата"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:495
+#: src/menu_events.cpp:497
 msgctxt "scenario settings"
 msgid ""
 "Base\n"
@@ -7025,7 +7110,7 @@ msgstr ""
 "приход"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:496
+#: src/menu_events.cpp:498
 msgctxt "scenario settings"
 msgid ""
 "Gold Per\n"
@@ -7035,49 +7120,49 @@ msgstr ""
 "по селу"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:497
+#: src/menu_events.cpp:499
 msgctxt "scenario settings"
 msgid "Fog"
 msgstr "магла"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:498
+#: src/menu_events.cpp:500
 msgctxt "scenario settings"
 msgid "Shroud"
 msgstr "покров"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:545 src/menu_events.cpp:546
+#: src/menu_events.cpp:547 src/menu_events.cpp:548
 msgid "no"
 msgstr "не"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:545 src/menu_events.cpp:546
+#: src/menu_events.cpp:547 src/menu_events.cpp:548
 msgid "yes"
 msgstr "да"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:562
+#: src/menu_events.cpp:564
 msgid "Scenario Settings"
 msgstr "Поставке сценарија"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:584
+#: src/menu_events.cpp:586
 msgid "Save the Map As"
 msgstr "Сачувај мапу као"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:589
+#: src/menu_events.cpp:591
 msgid "The map already exists. Do you want to overwrite it?"
 msgstr "Мапа већ постоји. Желите ли да је пребришете?"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:601
+#: src/menu_events.cpp:603
 msgid "Map saved."
 msgstr "Мапа сачувана."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:605
+#: src/menu_events.cpp:607
 msgid "Could not save the map: $msg"
 msgstr "Не могу да сачувам мапу: $msg"
 
@@ -7087,27 +7172,27 @@ msgid "The game could not be saved"
 msgstr "Не могу да сачувам игру"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:620
+#: src/menu_events.cpp:622
 msgid "Chat Log"
 msgstr "Дневник ћаскања"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:630
+#: src/menu_events.cpp:632
 msgid "Message:"
 msgstr "порука:"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:631
+#: src/menu_events.cpp:633
 msgid "Send to allies only"
 msgstr "Пошаљи само савезницима"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:631
+#: src/menu_events.cpp:633
 msgid "Send to observers only"
 msgstr "Пошаљи само посматрачима"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:712
+#: src/menu_events.cpp:699
 msgctxt "unit"
 msgid "Gold"
 msgid_plural "Gold"
@@ -7117,32 +7202,32 @@ msgstr[2] "златника"
 msgstr[3] "златник"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:719
+#: src/menu_events.cpp:706
 msgid "You have no units available to recruit."
 msgstr "Нема јединица спремних за унајмљивање."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:731
+#: src/menu_events.cpp:718
 msgid "Recruit"
 msgstr "Унајми"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:732 src/menu_events.cpp:904
+#: src/menu_events.cpp:719 src/menu_events.cpp:895
 msgid "Select unit:"
 msgstr "Изаберите јединицу:"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:778
+#: src/menu_events.cpp:765
 msgid "You don't have enough gold to recruit that unit"
 msgstr "Немате довољно злата да унајмите ту јединицу"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:822
+#: src/menu_events.cpp:811
 msgid "You are separated from your soldiers and may not recall them"
 msgstr "Растављени сте од својих војника и не можете их сазвати"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:844
+#: src/menu_events.cpp:832
 msgid ""
 "There are no troops available to recall\n"
 "(You must have veteran survivors from a previous scenario)"
@@ -7151,17 +7236,17 @@ msgstr ""
 "(Морате имати неке преживеле из претходног сценарија)"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:903
+#: src/menu_events.cpp:894
 msgid "Recall"
 msgstr "Сазови"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:914
+#: src/menu_events.cpp:904
 msgid "Dismiss Unit"
 msgstr "Отпусти јединицу"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:932
+#: src/menu_events.cpp:922
 msgid "You must have at least 1 gold piece to recall a unit"
 msgid_plural "You must have at least $cost gold pieces to recall a unit"
 msgstr[0] "Морате имати барем $cost златник да бисте сазвали јединицу"
@@ -7170,465 +7255,474 @@ msgstr[2] "Морате имати барем $cost златника да бис
 msgstr[3] "Морате имати барем један златник да бисте сазвали јединицу"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1284
+#: src/menu_events.cpp:1277
 msgid "You have not started your turn yet. Do you really want to end your turn?"
 msgstr "Нисте ни започели свој потез, желите ли заиста већ да га окончате?"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1292 src/menu_events.cpp:1297
+#: src/menu_events.cpp:1285 src/menu_events.cpp:1290
 msgid "Some units have movement left. Do you really want to end your turn?"
 msgstr "Неке јединице се још могу кретати. Желите ли заиста да завршите потез?"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1332
+#: src/menu_events.cpp:1325
 msgid "Rename Unit"
 msgstr "Преименуј јединицу"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1371
+#: src/menu_events.cpp:1424
 msgid "Race"
 msgstr "раса"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1395
+#: src/menu_events.cpp:1448
 msgid "Create Unit (Debug!)"
 msgstr "Створи јединицу (испр.!)"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1398 src/multiplayer_wait.cpp:136
+#: src/menu_events.cpp:1451 src/multiplayer_wait.cpp:128
 msgid "Gender: "
 msgstr "пол: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1489
+#: src/menu_events.cpp:1542
 msgid "Place Label"
 msgstr "Постави етикету"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1491
+#: src/menu_events.cpp:1544
 msgid "Label: "
 msgstr "Етикета: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1492
+#: src/menu_events.cpp:1545
 msgid "Team only"
 msgstr "Само тимски"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1609
+#: src/menu_events.cpp:1662
 msgid "Search"
 msgstr "Тражи"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1789
+#: src/menu_events.cpp:1843
 msgid "This command is currently unavailable."
 msgstr "Ова наредба тренутно није доступна."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1800
+#: src/menu_events.cpp:1854
 msgid "Available commands list and command-specific help. Use \"help all\" to include currently unavailable commands."
 msgstr "Списак доступних наредби и помоћ за њих. Употребите „help all“ да укључите и тренутно недоступне наредбе."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1905
+#: src/menu_events.cpp:1959
 msgid " No help available."
 msgstr " Помоћ није доступна."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2063
+#: src/menu_events.cpp:2118
 msgid "Send a query to the server. Without arguments the server should tell you the available commands."
 msgstr "Шаље упит серверу. Без аргумената, сервер треба да наброји доступне наредбе."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2066
+#: src/menu_events.cpp:2122
 msgid "Ban and kick a player or observer. If he is not in the game but on the server he will only be banned."
 msgstr "Забрањује и избацује играча или посматрача. Ако није у игри, већ на серверу, биће само забрањен."
 
 #. +> trunk
-#: src/menu_events.cpp:2069
+#: src/menu_events.cpp:2125
 msgid "Unban a user. He does not have to be in the game but on the server."
 msgstr "Укида забрану играчу, који не мора бити у игри, али мора на серверу."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2072
+#: src/menu_events.cpp:2128
 msgid "Kick a player or observer."
 msgstr "Избацује играча или посматрача."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2074
+#: src/menu_events.cpp:2130
 msgid "Mute an observer. Without an argument displays the mute status."
 msgstr "Утишава посматрача. Без аргумената приказује стање утишаности."
 
 #. +> trunk
-#: src/menu_events.cpp:2076
+#: src/menu_events.cpp:2132
 msgid "Unmute an observer. Without an argument unmutes everyone."
 msgstr "Укида утишаност посматрача. Без аргумената укида утишаност свима."
 
 #. +> trunk
-#: src/menu_events.cpp:2078
+#: src/menu_events.cpp:2134
 msgid "Mute/Unmute all observers. (toggles)"
 msgstr "Утишава или укида утишаност свих посматрача."
 
 #. +> 1.6
-#: src/menu_events.cpp:2171
+#: src/menu_events.cpp:2172
 msgid "Mute all observers."
 msgstr "Утишава све посматраче."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2088
+#: src/menu_events.cpp:2144
 msgid "Send a message to the server admins currently online"
 msgstr "Шаље поруку администраторима сервера тренутно на вези."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2090
+#: src/menu_events.cpp:2146
 msgid "Send an emotion or personal action in chat."
 msgstr "Шаље емоцију или личну радњу у ћаскање."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2093
+#: src/menu_events.cpp:2149
 msgid "Sends a private message. You can't send messages to players that don't control a side in a running game you are in."
 msgstr "Шаље приватну поруку. Не можете слати поруке играчима који не управљају неком страном у текућој игри у којој сте и сами."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2099
+#: src/menu_events.cpp:2155
 msgid "Change the log level of a log domain."
 msgstr "Мења ниво бележења за домен бележења."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2101
+#: src/menu_events.cpp:2157
 msgid "Add a nick to your ignores list."
 msgstr "Додаје надимак на списак игнорисаних."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2103
+#: src/menu_events.cpp:2159
 msgid "Add a nick to your friends list."
 msgstr "Додаје надимак на списак пријатеља."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2105
+#: src/menu_events.cpp:2161
 msgid "Remove a nick from your ignores or friends list."
 msgstr "Уклања играча са списка игнорисаних или пријатеља."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2107
+#: src/menu_events.cpp:2163
 msgid "Show your ignores and friends list."
 msgstr "Приказује списак игнорисаних и пријатеља."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2110
+#: src/menu_events.cpp:2166
 msgid "Display version information."
 msgstr "Приказује податак о верзији."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2112
+#: src/menu_events.cpp:2168
 msgid "Register your nick"
 msgstr "Региструје ваш надимак."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2114
+#: src/menu_events.cpp:2170
 msgid "Drop your nick."
 msgstr "Испушта ваш надимак."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2116
+#: src/menu_events.cpp:2172
 msgid "Update details for your nick. For possible details see '/details'."
 msgstr "Ажурира детаље вашег надимка. За могуће детаље, извршити „/details“."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2119
+#: src/menu_events.cpp:2175
 msgid "Request information about a nick."
 msgstr "Затражите податке о надимку."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2121
+#: src/menu_events.cpp:2177
 msgid "Request a list of details you can set for your registered nick."
 msgstr "Захтева списак детаља које можете задати уз регистровани надимак."
 
 #. +> trunk
-#: src/menu_events.cpp:2123
+#: src/menu_events.cpp:2179
 msgid "Join a room."
 msgstr "Придружи се соби."
 
 #. +> trunk
-#: src/menu_events.cpp:2125
+#: src/menu_events.cpp:2182
 msgid "Part a room."
 msgstr "Напусти собу."
 
 #. +> trunk
-#: src/menu_events.cpp:2127
+#: src/menu_events.cpp:2184
 msgid "List room members."
 msgstr "Наброји чланове собе."
 
 #. +> trunk
-#: src/menu_events.cpp:2129
+#: src/menu_events.cpp:2186
 msgid "List available rooms."
 msgstr "Наброји доступне собе."
 
 #. +> trunk
-#: src/menu_events.cpp:2131
-msgid "Room msg."
+#: src/menu_events.cpp:2188
+#, fuzzy
+#| msgid "Room msg."
+msgid "Room message."
+msgstr "Порука собе."
+
+#. +> trunk
+#: src/menu_events.cpp:2190
+#, fuzzy
+#| msgid "Room msg."
+msgid "Room query."
 msgstr "Порука собе."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2258
+#: src/menu_events.cpp:2318
 msgid "Refresh gui."
 msgstr "Освежава сучеље."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2260
+#: src/menu_events.cpp:2320
 msgid "Switch a side to/from AI control."
 msgstr "Даје или одузима управљање страном ВИ."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2263
+#: src/menu_events.cpp:2323
 msgid "Assign control of a side to a different player or observer."
 msgstr "Додељује управљање страном другом играчу или посматрачу."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2265
+#: src/menu_events.cpp:2325
 msgid "Clear chat history."
 msgstr "Чисти историјат ћаскања."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2267
+#: src/menu_events.cpp:2327
 msgid "Visualize the screen refresh procedure."
 msgstr "Сагледава поступак освежавања екрана."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2270
+#: src/menu_events.cpp:2330
 msgid "Save game."
 msgstr "Уписује игру."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2272
+#: src/menu_events.cpp:2332
 msgid "Quit game."
 msgstr "Напушта игру."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2276
+#: src/menu_events.cpp:2335
 msgid "Save and quit."
 msgstr "Уписује и напушта."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2279
+#: src/menu_events.cpp:2338
 msgid "Ignore replay errors."
 msgstr "Игнорише грешке у снимку."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2281
+#: src/menu_events.cpp:2340
 msgid "Disable autosaves."
 msgstr "Искључује самоупис."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2283
+#: src/menu_events.cpp:2342
 msgid "Advance to the next scenario, or scenario identified by 'id'"
 msgstr "Прелази на следећи сценарио, или онај са датим идентификатором."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2286
+#: src/menu_events.cpp:2345
 msgid "Choose next scenario"
 msgstr "Избор наредног сценарија."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2289
+#: src/menu_events.cpp:2348
 msgid "Turn debug mode on."
 msgstr "Укључује исправљачки режим."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2291
+#: src/menu_events.cpp:2350
 msgid "Turn debug mode off."
 msgstr "Искључује исправљачки режим."
 
 #. +> trunk
-#: src/menu_events.cpp:2293
+#: src/menu_events.cpp:2352
 msgid "Execute a Lua statement."
 msgstr "Извршава ~@/Lua/луа/ исказ."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2295
+#: src/menu_events.cpp:2354
 msgid "Set the command used by the custom command hotkey"
 msgstr "Поставља наредбу на пречицу посебне наредбе."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2297
+#: src/menu_events.cpp:2356
 msgid "Set or show alias to a command"
 msgstr "Поставља или приказује алијас наредбе."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2299
+#: src/menu_events.cpp:2358
 msgid "Set a scenario variable."
 msgstr "Поставља променљиву сценарија."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2301
+#: src/menu_events.cpp:2360
 msgid "Show a scenario variable."
 msgstr "Приказује променљиву сценарија."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2303
+#: src/menu_events.cpp:2362
 msgid "Modify a unit variable. (Only top level keys are supported.)"
 msgstr "Мења променљиву јединице. (Подржани су само кључеви највишег нивоа.)"
 
 #. +> trunk
-#: src/menu_events.cpp:2309
+#: src/menu_events.cpp:2368
 msgid "Discover all units in help."
 msgstr "Открива све јединице у помоћи."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2314
+#: src/menu_events.cpp:2373
 msgid "Create a unit."
 msgstr "Ствара јединицу."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2316
+#: src/menu_events.cpp:2375
 msgid "Toggle fog for the current player."
 msgstr "Магла за текућег играча."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2318
+#: src/menu_events.cpp:2377
 msgid "Toggle shroud for the current player."
 msgstr "Са или без покрова за текућег играча."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2320
+#: src/menu_events.cpp:2379
 msgid "Give gold to the current player."
 msgstr "Даје злато текућем играчу."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2322
+#: src/menu_events.cpp:2381
 msgid "Fire a game event."
 msgstr "Окида догађај у игри."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2325
+#: src/menu_events.cpp:2384
 msgid "Toggle overlaying of x,y coordinates on hexes."
 msgstr "Преклапање x- и y-координата по пољима."
 
-#. +> trunk 1.6
-#: src/menu_events.cpp:2328
-msgid "Toggle overlaying of terrain codes on hexes."
-msgstr "Преклапање теренских кодова по пољима."
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2372
-msgid "Unknown debug level: '$level'."
-msgstr "Непознат исправљачки ниво: ‘$level|’."
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2374 src/menu_events.cpp:2383
-msgid "error"
-msgstr "грешка"
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2381
-msgid "Unknown debug domain: '$domain'."
-msgstr "Непознат исправљачки домен: ‘$domain|’."
-
 #. +> 1.6
-#: src/menu_events.cpp:2385
+#: src/menu_events.cpp:2386
 msgid "Remove a trait from a unit. (Does not work yet.)"
 msgstr "Уклања особину јединице. (Још увек не ради.)"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2390
+#: src/menu_events.cpp:2387
+msgid "Toggle overlaying of terrain codes on hexes."
+msgstr "Преклапање теренских кодова по пољима."
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2431
+msgid "Unknown debug level: '$level'."
+msgstr "Непознат исправљачки ниво: ‘$level|’."
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2433 src/menu_events.cpp:2442
+msgid "error"
+msgstr "грешка"
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2440
+msgid "Unknown debug domain: '$domain'."
+msgstr "Непознат исправљачки домен: ‘$domain|’."
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2449
 msgid "Switched domain: '$domain' to level: '$level'."
 msgstr "Домен пребачен: ‘$domain|’ на ниво: ‘$level|’."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2549
+#: src/menu_events.cpp:2623
 msgid "Added to ignore list: "
 msgstr "Додат на списак игнорисаних: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2551 src/menu_events.cpp:2567
+#: src/menu_events.cpp:2626 src/menu_events.cpp:2643
 msgid "Invalid username: "
 msgstr "Неваљано корисничко име: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2565
+#: src/menu_events.cpp:2641
 msgid "Added to friends list: "
 msgstr "Додат на списак пријатеља: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2578
+#: src/menu_events.cpp:2655
 msgid "Removed from list: "
 msgstr "Уклоњен са списка: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2596
+#: src/menu_events.cpp:2673
 msgid "There are no players on your friends or ignore list."
 msgstr "Нема играча ни на вашем списку пријатеља ни игнорисаних."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2766
+#: src/menu_events.cpp:2843
 msgid "Couldn't find label or unit containing the string '$search'."
 msgstr "Нисам могао да нађем етикету или јединицу која садржи ‘$search|’."
 
 # well-spelled: дроидовати
 #. +> trunk 1.6
-#: src/menu_events.cpp:2795
+#: src/menu_events.cpp:2872
 msgid "Can't droid invalid side: '$side'."
 msgstr "Не може се дроидовати неваљана страна: ‘$side|’."
 
 # well-spelled: дроидовати
 #. +> trunk 1.6
-#: src/menu_events.cpp:2800
+#: src/menu_events.cpp:2877
 msgid "Can't droid networked side: '$side'."
 msgstr "Не може се дроидовати умрежена страна: ‘$side|’."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2837
+#: src/menu_events.cpp:2914
 msgid "Can't change control of invalid side: '$side'."
 msgstr "Не може се променити управљање над неваљаном страном: ‘$side|’."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2843
+#: src/menu_events.cpp:2920
 msgid "Can't change control of out-of-bounds side: '$side'."
 msgstr "Не може се променити управљање над страном ван граница: ‘$side|’."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2908
+#: src/menu_events.cpp:2985
 msgid "Choose Scenario (Debug!)"
 msgstr "Избор сценарија (испр.!)"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2921
+#: src/menu_events.cpp:2998
 msgid "Debug mode activated!"
 msgstr "Исправљање активирано!"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2924
+#: src/menu_events.cpp:3001
 msgid "Debug mode not available in network games"
 msgstr "Исправљање није доступно у мрежним играма."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2929
+#: src/menu_events.cpp:3006
 msgid "Debug mode deactivated!"
 msgstr "Исправљање деактивирано!"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3102
+#: src/menu_events.cpp:3180
 msgid "ai"
 msgstr "ВИ"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3110 src/menu_events.cpp:3126
+#: src/menu_events.cpp:3190 src/menu_events.cpp:3205
 msgctxt "prompt"
 msgid "Command:"
 msgstr "наредба:"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3146
+#: src/menu_events.cpp:3225
 msgid "User-Command#3"
 msgstr "корисничка-наредба#3"
 
 #. +> trunk 1.6
-#: src/mouse_events.cpp:650
+#: src/mouse_events.cpp:658
 msgid "Attack Enemy"
 msgstr "Нападни"
 
 #. +> trunk 1.6
-#: src/mouse_events.cpp:651
+#: src/mouse_events.cpp:659
 msgid "Choose weapon:"
 msgstr "Избор оружја:"
 
@@ -7708,26 +7802,26 @@ msgid "The password you provided was incorrect."
 msgstr "Дали сте неисправну лозинку."
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:88 src/multiplayer_connect.cpp:491
-#: src/multiplayer_connect.cpp:620
+#: src/multiplayer_connect.cpp:88 src/multiplayer_connect.cpp:486
+#: src/multiplayer_connect.cpp:615
 msgid "Normal"
 msgstr "уобичајено"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:487 src/multiplayer_connect.cpp:616
-#: src/multiplayer_wait.cpp:526 src/multiplayer_wait.cpp:534
+#: src/multiplayer_connect.cpp:482 src/multiplayer_connect.cpp:611
+#: src/multiplayer_wait.cpp:510 src/multiplayer_wait.cpp:518
 msgid "("
 msgstr "("
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:487 src/multiplayer_connect.cpp:616
-#: src/multiplayer_wait.cpp:526 src/multiplayer_wait.cpp:537
+#: src/multiplayer_connect.cpp:482 src/multiplayer_connect.cpp:611
+#: src/multiplayer_wait.cpp:510 src/multiplayer_wait.cpp:521
 msgid ")"
 msgstr ")"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:489 src/multiplayer_connect.cpp:618
-#: src/multiplayer_wait.cpp:536
+#: src/multiplayer_connect.cpp:484 src/multiplayer_connect.cpp:613
+#: src/multiplayer_wait.cpp:520
 msgid "+"
 msgstr "+"
 
@@ -7737,19 +7831,19 @@ msgid "Default AI"
 msgstr "основна ВИ"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:649
+#: src/multiplayer_connect.cpp:645
 msgid "(Vacant slot)"
 msgstr "(слободно)"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:657
+#: src/multiplayer_connect.cpp:653
 msgid "Anonymous local player"
 msgstr "Никоговић"
 
-#. +> trunk 1.6
-#: src/multiplayer_connect.cpp:667
-msgid "Computer player"
-msgstr "Симулакрум"
+#. +> trunk
+#: src/multiplayer_connect.cpp:666
+msgid "$playername $side"
+msgstr ""
 
 #. +> trunk 1.6
 #: src/multiplayer_connect.cpp:670
@@ -7767,97 +7861,102 @@ msgid "(empty)"
 msgstr "(празно)"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:808
+#: src/multiplayer_connect.cpp:810
 msgid "Reserved"
 msgstr "резервисано"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:809
+#: src/multiplayer_connect.cpp:811
 msgid "--give--"
 msgstr "--дај--"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:933
+#: src/multiplayer_connect.cpp:935
 msgid "Only random sides in the current era."
 msgstr "Само насумичне стране у изабраној епохи."
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:957
+#: src/multiplayer_connect.cpp:959
 msgid "Unable to find a leader type for faction $faction"
 msgstr "Не могу да нађем тип вођа за фракцију $faction"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:994
+#: src/multiplayer_connect.cpp:996
 msgid "Game Lobby: "
 msgstr "Играчки хол: "
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1014
+#: src/multiplayer_connect.cpp:1016
 msgid "Player/Type"
 msgstr "играч/тип"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1015
+#: src/multiplayer_connect.cpp:1017
 msgid "Faction"
 msgstr "фракција"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1016
+#: src/multiplayer_connect.cpp:1018
 msgid "Team/Gender"
 msgstr "тим/пол"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1017
+#: src/multiplayer_connect.cpp:1019
 msgid "Color"
 msgstr "боја"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1021
+#: src/multiplayer_connect.cpp:1023
 msgid "I'm Ready"
 msgstr "У бој!"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1031
+#: src/multiplayer_connect.cpp:1033
 msgid "The scenario is invalid because it has no id."
 msgstr "Сценарио није није ваљан јер нема ИД."
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1035
+#: src/multiplayer_connect.cpp:1037
 msgid "The scenario is invalid because it has no sides."
 msgstr "Сценарио није није ваљан јер нема страна."
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1428
+#: src/multiplayer_connect.cpp:1430
 msgid "Network Player"
 msgstr "мрежни играч"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1430
+#: src/multiplayer_connect.cpp:1432
 msgid "Local Player"
 msgstr "локални играч"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1431
+#: src/multiplayer_connect.cpp:1433
 msgid "Computer Player"
 msgstr "рачунарски играч"
 
+#. +> 1.6
+#: src/multiplayer_connect.cpp:670
+msgid "Computer player"
+msgstr "Симулакрум"
+
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1432
+#: src/multiplayer_connect.cpp:1434
 msgid "Empty"
 msgstr "празно"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1628
+#: src/multiplayer_connect.cpp:1631
 msgid "Cannot find era $era"
 msgstr "Не могу да нађем епоху $era"
 
 #. +> trunk
-#: src/multiplayer_connect.cpp:1653
+#: src/multiplayer_connect.cpp:1656
 msgid "Defeat enemy leader(s)"
 msgstr "Поразиш ли противничке вође"
 
 #. +> 1.6
-#: src/multiplayer_connect.cpp:1700
+#: src/multiplayer_connect.cpp:1701
 msgid ""
 "Victory:\n"
 "@Defeat enemy leader(s)"
@@ -7866,12 +7965,12 @@ msgstr ""
 "@Поразиш ли противничке вође"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1717
+#: src/multiplayer_connect.cpp:1720
 msgid "Waiting for players to join..."
 msgstr "Чекамо да се придруже играчи..."
 
 #. +> trunk 1.6
-#: src/multiplayer_create.cpp:49 src/multiplayer_lobby.cpp:726
+#: src/multiplayer_create.cpp:49 src/multiplayer_lobby.cpp:727
 msgid "Create Game"
 msgstr "Направи игру"
 
@@ -7891,7 +7990,7 @@ msgid "Map to play:"
 msgstr "мапа за играње:"
 
 #. +> trunk 1.6
-#: src/multiplayer_create.cpp:80 src/multiplayer_lobby.cpp:271
+#: src/multiplayer_create.cpp:80 src/multiplayer_lobby.cpp:272
 msgid "Use map settings"
 msgstr "према поставкама мапе"
 
@@ -8041,7 +8140,7 @@ msgid "Set Password"
 msgstr "Намештање лозинке"
 
 #. +> trunk 1.6
-#: src/multiplayer_create.cpp:333 src/multiplayer_lobby.cpp:900
+#: src/multiplayer_create.cpp:333 src/multiplayer_lobby.cpp:901
 msgid "Password: "
 msgstr "Лозинка: "
 
@@ -8107,162 +8206,164 @@ msgid "Error"
 msgstr "Грешка"
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:118
+#: src/multiplayer_lobby.cpp:119
 msgid "--no games open--"
 msgstr "--нема отворених игара--"
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:152
+#: src/multiplayer_lobby.cpp:153
 msgid " (Unknown Era)"
 msgstr " (непозната епоха)"
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:535 src/multiplayer_lobby.cpp:898
+#: src/multiplayer_lobby.cpp:536 src/multiplayer_lobby.cpp:899
 msgid "Password Required"
 msgstr "неопходна лозинка"
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:719 src/multiplayer_wait.cpp:183
+#: src/multiplayer_lobby.cpp:720 src/multiplayer_wait.cpp:175
 msgid "Game Lobby"
 msgstr "Играчки хол"
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:724
+#: src/multiplayer_lobby.cpp:725
 msgid "Observe Game"
 msgstr "Посматрај игру"
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:725
+#: src/multiplayer_lobby.cpp:726
 msgid "Join Game"
 msgstr "На произвољан сервер"
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:727
+#: src/multiplayer_lobby.cpp:728
 msgid "Quick Replays"
 msgstr "Убрзани снимци"
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:729
+#: src/multiplayer_lobby.cpp:730
 msgid "Preferences"
 msgstr "Поставке"
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:731
+#: src/multiplayer_lobby.cpp:732
 msgid "Quit"
 msgstr "Напусти"
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:733
-msgid "Apply Filer"
+#: src/multiplayer_lobby.cpp:734
+#, fuzzy
+#| msgid "Apply Filer"
+msgid "Apply Filter"
 msgstr "Примени филтер"
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:734
+#: src/multiplayer_lobby.cpp:735
 msgid "Invert"
 msgstr "Изврни"
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:735
+#: src/multiplayer_lobby.cpp:736
 msgid "Vacant Slots"
 msgstr "Слободна места"
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:736
+#: src/multiplayer_lobby.cpp:737
 msgid "Friends in Game"
 msgstr "Пријатељи у игри"
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:737
+#: src/multiplayer_lobby.cpp:738
 msgid "Search:"
 msgstr "Тражи:"
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:746
+#: src/multiplayer_lobby.cpp:747
 msgid "Skip quickly to the active turn when observing"
 msgstr "Брзо скочи на активни потез при посматрању."
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:750
+#: src/multiplayer_lobby.cpp:751
 msgid "Enable the games filter. If unchecked all games are shown, regardless of any filter."
 msgstr "Укључи филтер игара. Ако је празно, приказују се све игре без обзира на филтер."
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:753
+#: src/multiplayer_lobby.cpp:754
 msgid "Show all games that do *not* match your filter. Useful for hiding games you are not interested in."
 msgstr "Прикажи све игре које филтер *не* поклапа. Корисно за скривање игара које вас не занимају."
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:757
+#: src/multiplayer_lobby.cpp:758
 msgid "Only show games that have at least one vacant slot"
 msgstr "Прикажи само игре са бар једним слободним местом."
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:761
+#: src/multiplayer_lobby.cpp:762
 msgid "Only show games that are played or observed by at least one of your friends"
 msgstr "Прикажи само игре које игра или посматра бар један од пријатеља."
 
 #. +> trunk
-#: src/multiplayer_lobby.cpp:765
+#: src/multiplayer_lobby.cpp:766
 msgid "Only show games whose title or description contain the entered text"
 msgstr "Прикажи само игре чији наслов или опис садржи унети текст."
 
 #. +> trunk 1.6
-#: src/multiplayer_lobby.cpp:899
+#: src/multiplayer_lobby.cpp:900
 msgid "Joining this game requires a password."
 msgstr "Придруживање овој игри само уз лозинку."
 
 #. +> trunk 1.6
-#: src/multiplayer_ui.cpp:198
+#: src/multiplayer_ui.cpp:193
 msgid "Invalid Color"
 msgstr "Неваљана боја"
 
 #. +> trunk 1.6
-#: src/multiplayer_ui.cpp:431
+#: src/multiplayer_ui.cpp:425
 msgid "Selected user: "
 msgstr "Изабрани корисник: "
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:134
+#: src/multiplayer_wait.cpp:126
 msgid "Leader: "
 msgstr "вођ: "
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:138
+#: src/multiplayer_wait.cpp:130
 msgid "Recruits: "
 msgstr "регрути: "
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:185
+#: src/multiplayer_wait.cpp:177
 msgid "Waiting for game to start..."
 msgstr "Чекам да игра почне ..."
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:208
+#: src/multiplayer_wait.cpp:200
 msgid "Getting game data..."
 msgstr "Преузимам податке игре..."
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:270
+#: src/multiplayer_wait.cpp:262
 msgid "No era information found."
 msgstr "Нема података о епохама."
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:274
+#: src/multiplayer_wait.cpp:266
 msgid "No multiplayer sides found"
 msgstr "Нема вишеиграчких страна"
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:307
+#: src/multiplayer_wait.cpp:299
 msgid "Choose your faction:"
 msgstr "Изаберите своју фракцију:"
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:307
+#: src/multiplayer_wait.cpp:299
 msgid "Starting position: "
 msgstr "Почетни положај: "
 
 #. +> trunk 1.6
-#: src/multiplayer_wait.cpp:530
+#: src/multiplayer_wait.cpp:514
 msgctxt "multiplayer_starting_gold"
 msgid "Gold"
 msgid_plural "multiplayer_starting_gold^Gold"
@@ -8282,17 +8383,17 @@ msgid "Client disconnected"
 msgstr "Клијент прекиде везу"
 
 #. +> trunk 1.6
-#: src/network.cpp:570
+#: src/network.cpp:531
 msgid "Could not add socket to socket set"
 msgstr "Не могу додати утичницу скупу утичница"
 
 #. +> trunk 1.6
-#: src/network.cpp:583
+#: src/network.cpp:543
 msgid "Could not send initial handshake"
 msgstr "Не могу послати почетно руковање"
 
 #. +> trunk 1.6
-#: src/pathfind.cpp:439
+#: src/pathfind.cpp:454
 msgid "Terrain with a movement cost less than 1 encountered."
 msgstr "Нађен терен са трошком кретања мањим од 1."
 
@@ -8322,33 +8423,33 @@ msgid "Starting game"
 msgstr "Отпочињем игру..."
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:886 src/savegame.cpp:290 src/savegame.cpp:302
-#: src/savegame.cpp:953 src/savegame.cpp:955
+#: src/play_controller.cpp:923 src/savegame.cpp:290 src/savegame.cpp:302
+#: src/savegame.cpp:934 src/savegame.cpp:936
 msgid "Auto-Save"
 msgstr "Самоупис"
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:893
+#: src/play_controller.cpp:930
 msgid "Back to turn "
 msgstr "Назад на потез "
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:124 src/playcampaign.cpp:159
+#: src/playcampaign.cpp:126 src/playcampaign.cpp:161
 msgid "Defeat"
 msgstr "Пораз"
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:125 src/playcampaign.cpp:160
+#: src/playcampaign.cpp:127 src/playcampaign.cpp:162
 msgid "You have been defeated!"
 msgstr "Поражени сте!"
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:377
+#: src/playcampaign.cpp:375
 msgid "Error while reading the WML: "
 msgstr "Грешка при читању ~@/ВМЛ/WML/-а: "
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:414
+#: src/playcampaign.cpp:411
 msgid "This scenario has ended. Do you want to continue the campaign?"
 msgstr "Сценарио је окончан. Желите ли да наставите поход?"
 
@@ -8358,17 +8459,17 @@ msgid "The replay could not be saved"
 msgstr "Снимак није било могуће сачувати"
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:440
+#: src/playcampaign.cpp:437
 msgid "Downloading next scenario..."
 msgstr "Преузимам следећи сценарио..."
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:576
+#: src/playcampaign.cpp:571
 msgid "Do you want to save your game?"
 msgstr "Желите ли да сачувате игру?"
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:594
+#: src/playcampaign.cpp:588
 msgid "Unknown scenario: '$scenario|'"
 msgstr "Непознат сценарио: ‘$scenario|’"
 
@@ -8378,33 +8479,33 @@ msgid "Name:"
 msgstr "Име:"
 
 #. +> trunk
-#: src/playmp_controller.cpp:150
+#: src/playmp_controller.cpp:92
 msgid "$name has taken control"
 msgstr "$name преузе управљање"
 
 #. +> trunk
-#: src/playmp_controller.cpp:153
+#: src/playmp_controller.cpp:94
 msgid "Turn changed"
 msgstr "Промена потеза"
 
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:227
+#: src/playmp_controller.cpp:228
 msgid "Undoing moves not yet transmitted to the server."
 msgstr "Опозив покрета се не може одаслати на сервер."
 
 # намерно кратко, на уском дугмету
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:305
+#: src/playmp_controller.cpp:307
 msgid "End scenario"
 msgstr "Крај"
 
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:406
+#: src/playmp_controller.cpp:408
 msgid "Waiting for next scenario..."
 msgstr "Чекам на наредни сценарио..."
 
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:535
+#: src/playmp_controller.cpp:537
 msgid ""
 "The game is out of sync, and cannot continue. There are a number of reasons this could happen: this can occur if you or another player have modified their game settings. This may mean one of the players is attempting to cheat. It could also be due to a bug in the game, but this is less likely.\n"
 "\n"
@@ -8415,52 +8516,52 @@ msgstr ""
 "Желите ли да сачувате дневник грешака текуће игре?"
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:196
+#: src/playsingle_controller.cpp:224
 msgid "Remaining gold: "
 msgstr "преостало злато: "
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:200
+#: src/playsingle_controller.cpp:228
 msgid "Early finish bonus: "
 msgstr "бонус за рани завршетак: "
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:202
+#: src/playsingle_controller.cpp:230
 msgid "per turn"
 msgstr "по потезу"
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:203
+#: src/playsingle_controller.cpp:231
 msgid "Turns finished early: "
 msgstr "потеза завршено раније: "
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:205
+#: src/playsingle_controller.cpp:233
 msgid "Bonus: "
 msgstr "бонус: "
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:208
+#: src/playsingle_controller.cpp:236
 msgid "Gold: "
 msgstr "злато: "
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:212
+#: src/playsingle_controller.cpp:240
 msgid "Carry over percentage: "
 msgstr "процената преношења: "
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:215
+#: src/playsingle_controller.cpp:243
 msgid "Bonus Gold: "
 msgstr "бонус злата: "
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:217
+#: src/playsingle_controller.cpp:245
 msgid "Retained Gold: "
 msgstr "задржано злато: "
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:227
+#: src/playsingle_controller.cpp:255
 msgid "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgid_plural "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgstr[0] "Почињете наредни сценарио са $gold златником додатим на задати најмањи почетни број."
@@ -8469,7 +8570,7 @@ msgstr[2] "Почињете наредни сценарио са $gold злат�
 msgstr[3] "Почињете наредни сценарио са једним златником додатим на задати најмањи почетни број."
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:235
+#: src/playsingle_controller.cpp:263
 msgid "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgid_plural "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgstr[0] "Почињете наредни сценарио са већим од $gold златника и најмањег задатог почетног броја."
@@ -8478,17 +8579,17 @@ msgstr[2] "Почињете наредни сценарио са већим од
 msgstr[3] "Почињете наредни сценарио са већим од једног златника и најмањег задатог почетног броја."
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:381
+#: src/playsingle_controller.cpp:416
 msgid "Game Over"
 msgstr "Крај игре"
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:382
+#: src/playsingle_controller.cpp:417
 msgid "The game is over."
 msgstr "Игра је завршена."
 
 #. +> trunk
-#: src/playsingle_controller.cpp:482
+#: src/playsingle_controller.cpp:502
 msgid ""
 "A network disconnection has occurred, and the game\n"
 "cannot continue. Do you want to save the game?"
@@ -8504,52 +8605,52 @@ msgstr ""
 "Желите ли да сачувате игру?"
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:657
+#: src/playsingle_controller.cpp:668
 msgid "It is now $name|'s turn"
 msgstr "На потезу је $name"
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:880
+#: src/playsingle_controller.cpp:900
 msgid "Scenario Report"
 msgstr "Извештај сценарија"
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:882
+#: src/playsingle_controller.cpp:902
 msgid "Victory"
 msgstr "Победа"
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:883
+#: src/playsingle_controller.cpp:903
 msgid "You have emerged victorious!"
 msgstr "Победили сте!"
 
 #. +> trunk 1.6
-#: src/playturn.cpp:225
+#: src/playturn.cpp:230
 msgid "Replace with AI"
 msgstr "Замени са ВИ"
 
 #. +> trunk 1.6
-#: src/playturn.cpp:226
+#: src/playturn.cpp:231
 msgid "Replace with local player"
 msgstr "Замени локалним играчем"
 
 #. +> trunk 1.6
-#: src/playturn.cpp:227
+#: src/playturn.cpp:232
 msgid "Abort game"
 msgstr "Прекини игру"
 
 #. +> trunk 1.6
-#: src/playturn.cpp:233 src/playturn.cpp:247
+#: src/playturn.cpp:238 src/playturn.cpp:252
 msgid "Replace with $player"
 msgstr "$player у замену"
 
 #. +> trunk 1.6
-#: src/playturn.cpp:253
+#: src/playturn.cpp:258
 msgid "$player has left the game. What do you want to do?"
 msgstr "$player напусти игру. Шта желите да учините?"
 
 #. +> trunk 1.6
-#: src/replay_controller.cpp:82
+#: src/replay_controller.cpp:81
 msgid "The file you have tried to load is corrupt. Continue playing?"
 msgstr "Покушали сте да отворите искварену датотеку. Настављате с игром?"
 
@@ -8559,77 +8660,77 @@ msgid " replay"
 msgstr " снимак"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:443 src/savegame.cpp:447
+#: src/savegame.cpp:445 src/savegame.cpp:449
 msgid "Warning: The file you have tried to load is corrupt. Loading anyway.\n"
 msgstr "Упозорење: Датотека коју сте покушали да учитате искварена је. Свеједно учитавам.\n"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:474
+#: src/savegame.cpp:488
 msgid "This save is from a version too old to be loaded."
 msgstr "Овај упис је сачуван верзијом игре престаром да би се учитао."
 
 #. +> trunk 1.6
-#: src/savegame.cpp:478
+#: src/savegame.cpp:492
 msgid "This save is from a different version of the game. Do you want to try to load it?"
 msgstr "Овај упис је сачуван различитом верзијом игре. Желите ли да покушате учитавање?"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:527
+#: src/savegame.cpp:541
 msgid "This is not a multiplayer save"
 msgstr "Ово није вишеиграчки упис"
 
 #. +> trunk
-#: src/savegame.cpp:553
+#: src/savegame.cpp:567
 msgid "The game could not be saved: "
 msgstr "Не могу да сачувам игру: "
 
 #. +> trunk 1.6
-#: src/savegame.cpp:640
+#: src/savegame.cpp:654
 msgid "Name: "
 msgstr "Име: "
 
 #. +> trunk 1.6
-#: src/savegame.cpp:640
+#: src/savegame.cpp:654
 msgid "Save already exists. Do you want to overwrite it?"
 msgstr "Упис већ постоји. Желите ли да га пребришете?"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:641
+#: src/savegame.cpp:655
 msgid "Overwrite?"
 msgstr "Пребрисати?"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:651
+#: src/savegame.cpp:665
 msgid "Save names should not end on '.gz'. Please choose a different name."
 msgstr "Имена уписа не треба завршавати са ‘.gz’. Задајте другачије име."
 
 #. +> trunk 1.6
-#: src/savegame.cpp:713
+#: src/savegame.cpp:727
 msgid "Saved"
 msgstr "Сачувано"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:713
+#: src/savegame.cpp:727
 msgid "The game has been saved"
 msgstr "Игра је сачувана"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:747 src/savegame.cpp:810
+#: src/savegame.cpp:761 src/savegame.cpp:786
 msgid "Could not write to file"
 msgstr "Не могу писати у датотеку"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:916
+#: src/savegame.cpp:899
 msgid "Save Replay"
 msgstr "Сачувај снимак"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:936
+#: src/savegame.cpp:917
 msgid "Could not auto save the game. Please save the game manually."
 msgstr "Не могу да аутоматски сачувам игру. Покушајте да је сачувате ручно."
 
 #. +> trunk 1.6
-#: src/savegame.cpp:992
+#: src/savegame.cpp:969
 msgid "Save Game"
 msgstr "Сачувај игру"
 
@@ -8759,27 +8860,27 @@ msgid "Taken"
 msgstr "примљена"
 
 #. +> trunk 1.6
-#: src/storyscreen/controller.cpp:131
+#: src/storyscreen/controller.cpp:128
 msgid "Next"
 msgstr "Даље"
 
 #. +> trunk 1.6
-#: src/storyscreen/controller.cpp:132
+#: src/storyscreen/controller.cpp:129
 msgid "Skip"
 msgstr "Прескочи"
 
 #. +> trunk 1.6
-#: src/terrain.cpp:146
+#: src/terrain.cpp:153
 msgid "Allied village"
 msgstr "савезничко село"
 
 #. +> trunk 1.6
-#: src/terrain.cpp:151
+#: src/terrain.cpp:158
 msgid "Enemy village"
 msgstr "противничко село"
 
 #. +> trunk 1.6
-#: src/terrain.cpp:156
+#: src/terrain.cpp:163
 msgid "Owned village"
 msgstr "запоседнуто село"
 
@@ -8948,53 +9049,53 @@ msgid "Help Wesnoth by sending us information"
 msgstr "Помозите Весноту шаљући нам информације"
 
 #. +> trunk 1.6
-#: src/tod_manager.cpp:102 src/tod_manager.cpp:134 src/tod_manager.cpp:242
-#: src/tod_manager.cpp:255 src/tod_manager.cpp:305
+#: src/tod_manager.cpp:102 src/tod_manager.cpp:134 src/tod_manager.cpp:238
+#: src/tod_manager.cpp:251 src/tod_manager.cpp:301
 msgid "No time of day has been defined."
 msgstr "Доба дана није одређено."
 
 #. +> trunk 1.6
-#: src/unit.cpp:603
+#: src/unit.cpp:502
 msgid "Unknown unit type '$type|' while generating traits"
 msgstr "Непознат тип јединице ‘$type|’ при стварању особина"
 
 #. +> trunk 1.6
-#: src/unit.cpp:783
+#: src/unit.cpp:684
 msgid "Unknown unit type '$type|'"
 msgstr "Непознат тип јединице ‘$type|’"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2566 src/unit.cpp:2759 src/unit.cpp:2832
+#: src/unit.cpp:2475 src/unit.cpp:2660 src/unit.cpp:2733
 msgid " and "
 msgstr " и "
 
 #. +> trunk 1.6
-#: src/unit.cpp:2577
+#: src/unit.cpp:2486
 msgid "$attack_list|: $effect_description"
 msgstr "$attack_list|: $effect_description"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2642
+#: src/unit.cpp:2551
 msgid "moves"
 msgstr "кретњи"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2660 src/unit.cpp:2786
+#: src/unit.cpp:2569 src/unit.cpp:2687
 msgid "XP to advance"
 msgstr "ИП за напредовање"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2778
+#: src/unit.cpp:2679
 msgid " move"
 msgstr " покрет"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2794
+#: src/unit.cpp:2695
 msgid "$effect_description per level"
 msgstr "$effect_description по нивоу"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2841
+#: src/unit.cpp:2742
 msgid "$trait_name|: $trait_description "
 msgstr "$trait_name|: $trait_description "
 
@@ -9029,65 +9130,65 @@ msgid "% parry"
 msgstr "% парирања"
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:928
+#: src/unit_types.cpp:924
 msgid "No description available."
 msgstr "Опис није доступан."
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:984
+#: src/unit_types.cpp:980
 msgid "chaotic"
 msgstr "хаотичан"
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:984
+#: src/unit_types.cpp:980
 msgid "lawful"
 msgstr "законит"
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:984
+#: src/unit_types.cpp:980
 msgid "neutral"
 msgstr "неутралан"
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:985
+#: src/unit_types.cpp:981
 msgctxt "female"
 msgid "chaotic"
 msgstr "хаотична"
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:985
+#: src/unit_types.cpp:981
 msgctxt "female"
 msgid "lawful"
 msgstr "законита"
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:985
+#: src/unit_types.cpp:981
 msgctxt "female"
 msgid "neutral"
 msgstr "неутрална"
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:342
+#: src/upload_log.cpp:520
 msgid "Wesnoth relies on volunteers like yourself for feedback, especially beginners and new players. Wesnoth keeps summaries of your games: you can help us improve game play by giving permission to send these summaries (anonymously) to wesnoth.org.\n"
 msgstr "Веснот очекује реаговања од волонтера попут вас, поготову почетника и нових играча. Веснот чува сажетке ваших игара: можете нам помоћи у побољшању игривости дајући дозволу да се ови сажеци (анонимно) пошаљу на wesnoth.org.\n"
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:343
+#: src/upload_log.cpp:521
 msgid "Summaries are stored here:"
 msgstr "Сажеци се чувају овде:"
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:345
+#: src/upload_log.cpp:523
 msgid "You can view the results at:"
 msgstr "Резултате можете видети на:"
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:347
+#: src/upload_log.cpp:525
 msgid "Help us make Wesnoth better for you!"
 msgstr "Помозите нам да побољшамо Веснот за вас!"
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:349
+#: src/upload_log.cpp:527
 msgid "Enable summary uploads"
 msgstr "Укључи слање сажетака"
 

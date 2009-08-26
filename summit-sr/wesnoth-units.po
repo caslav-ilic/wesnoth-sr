@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-07-19 13:46+0200\n"
+"POT-Creation-Date: 2009-08-26 14:50+0200\n"
 "PO-Revision-Date: 2009-07-19 14:24+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
-"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 
@@ -43,8 +43,8 @@ msgstr "Крво-шишмиши тако су названи услед свој
 #: data/core/units/bats/Bat_Blood.cfg:176
 #: data/core/units/bats/Bat_Dread.cfg:29
 #: data/core/units/bats/Bat_Vampire.cfg:176
-#: data/core/units/goblins/Direwolf_Rider.cfg:33
-#: data/core/units/goblins/Knight.cfg:35
+#: data/core/units/goblins/Direwolf_Rider.cfg:46
+#: data/core/units/goblins/Knight.cfg:48
 #: data/core/units/goblins/Pillager.cfg:47
 #: data/core/units/goblins/Wolf_Rider.cfg:64
 #: data/core/units/monsters/Cave_Spider.cfg:34
@@ -151,6 +151,30 @@ msgstr "Товарне галије су добро наоружани брод�
 msgid "Transport Galleons are well-armed ships that carry troops. If they reach the shore, they can deposit the troops to attack."
 msgstr "Товарне галије су добро наоружани бродови, који носе и војску. Када пристигну на обалу, могу искрцати те снаге у напад."
 
+#. [unit_type]: id=Drake Arbiter, race=drake
+#. +> trunk
+#: data/core/units/drakes/Arbiter.cfg:4
+#, fuzzy
+#| msgid "Drake Fighter"
+msgid "Drake Arbiter"
+msgstr "змаго-борац"
+
+#. [unit_type]: id=Drake Arbiter, race=drake
+#. +> trunk
+#: data/core/units/drakes/Arbiter.cfg:19
+msgid "Arbiters take their caste very seriously. In order to better execute their duties, they have abandoned the drakes' traditional hand-mounted claws and traded their spears for the spike and blade of the halberd. In their minds, the loss of maneuverability is a fair price for the raw heft the massive metal head provides. The thick plate these drakes wear protects them well against weapons that could slip between their scales."
+msgstr ""
+
+#. [attack]: type=blade
+#. [attack]: type=pierce
+#. +> trunk 1.6
+#: data/core/units/drakes/Arbiter.cfg:41 data/core/units/drakes/Arbiter.cfg:50
+#: data/core/units/drakes/Warden.cfg:42 data/core/units/drakes/Warden.cfg:51
+#: data/core/units/humans/Loyalist_Halberdier.cfg:41
+#: data/core/units/humans/Loyalist_Halberdier.cfg:53
+msgid "halberd"
+msgstr "хелебарда"
+
 #. [unit_type]: id=Armageddon Drake, race=drake
 #. +> trunk 1.6
 #: data/core/units/drakes/Armageddon.cfg:4
@@ -166,9 +190,9 @@ msgstr "Да није оклопа који носе, поједини змаг�
 #. [attack]: type=blade
 #. +> trunk 1.6
 #: data/core/units/drakes/Armageddon.cfg:85
-#: data/core/units/drakes/Burner.cfg:64 data/core/units/drakes/Fire.cfg:71
+#: data/core/units/drakes/Burner.cfg:108 data/core/units/drakes/Fire.cfg:71
 #: data/core/units/drakes/Inferno.cfg:72
-#: data/core/units/goblins/Direwolf_Rider.cfg:42
+#: data/core/units/goblins/Direwolf_Rider.cfg:55
 #: data/core/units/gryphons/Gryphon.cfg:41
 #: data/core/units/gryphons/Gryphon_Master.cfg:42
 #: data/core/units/gryphons/Gryphon_Rider.cfg:42
@@ -184,12 +208,13 @@ msgstr "канџе"
 #. +> trunk 1.6
 #: data/core/units/drakes/Armageddon.cfg:94
 #: data/core/units/drakes/Blademaster.cfg:78
-#: data/core/units/drakes/Burner.cfg:73 data/core/units/drakes/Fighter.cfg:75
-#: data/core/units/drakes/Fire.cfg:80 data/core/units/drakes/Flameheart.cfg:88
-#: data/core/units/drakes/Flare.cfg:92 data/core/units/drakes/Glider.cfg:85
-#: data/core/units/drakes/Hurricane.cfg:100
-#: data/core/units/drakes/Inferno.cfg:81 data/core/units/drakes/Sky.cfg:99
-#: data/core/units/drakes/Warrior.cfg:82
+#: data/core/units/drakes/Burner.cfg:117
+#: data/core/units/drakes/Fighter.cfg:117 data/core/units/drakes/Fire.cfg:80
+#: data/core/units/drakes/Flameheart.cfg:88
+#: data/core/units/drakes/Flare.cfg:92 data/core/units/drakes/Glider.cfg:119
+#: data/core/units/drakes/Hurricane.cfg:127
+#: data/core/units/drakes/Inferno.cfg:81 data/core/units/drakes/Sky.cfg:126
+#: data/core/units/drakes/Warrior.cfg:116
 #: data/core/units/monsters/Fire_Dragon.cfg:46
 msgid "fire breath"
 msgstr "ватрени дах"
@@ -211,30 +236,29 @@ msgstr "Змагови који загосподаре употребом мач
 #. +> trunk 1.6
 #: data/core/units/drakes/Blademaster.cfg:69
 #: data/core/units/drakes/Clasher.cfg:38
-#: data/core/units/drakes/Enforcer.cfg:78
+#: data/core/units/drakes/Enforcer.cfg:36
 #: data/core/units/drakes/Flameheart.cfg:79
-#: data/core/units/drakes/Flare.cfg:83 data/core/units/drakes/Gladiator.cfg:78
-#: data/core/units/drakes/Warrior.cfg:73 data/core/units/elves/Archer.cfg:37
-#: data/core/units/elves/Avenger.cfg:76 data/core/units/elves/Captain.cfg:47
-#: data/core/units/elves/Champion.cfg:36 data/core/units/elves/Fighter.cfg:36
-#: data/core/units/elves/Hero.cfg:35 data/core/units/elves/High_Lord.cfg:73
-#: data/core/units/elves/Lord.cfg:39 data/core/units/elves/Marksman.cfg:66
-#: data/core/units/elves/Marshal.cfg:46 data/core/units/elves/Outrider.cfg:46
-#: data/core/units/elves/Ranger.cfg:73 data/core/units/elves/Rider.cfg:48
-#: data/core/units/elves/Scout.cfg:47
+#: data/core/units/drakes/Flare.cfg:83 data/core/units/drakes/Thrasher.cfg:23
+#: data/core/units/elves/Archer.cfg:37 data/core/units/elves/Avenger.cfg:76
+#: data/core/units/elves/Captain.cfg:47 data/core/units/elves/Champion.cfg:36
+#: data/core/units/elves/Fighter.cfg:36 data/core/units/elves/Hero.cfg:35
+#: data/core/units/elves/High_Lord.cfg:73 data/core/units/elves/Lord.cfg:39
+#: data/core/units/elves/Marksman.cfg:66 data/core/units/elves/Marshal.cfg:46
+#: data/core/units/elves/Outrider.cfg:46 data/core/units/elves/Ranger.cfg:73
+#: data/core/units/elves/Rider.cfg:48 data/core/units/elves/Scout.cfg:47
 #: data/core/units/elves/Sharpshooter.cfg:63
 #: data/core/units/humans/Horse_Knight.cfg:35
-#: data/core/units/humans/Horse_Paladin.cfg:40
+#: data/core/units/humans/Horse_Paladin.cfg:52
 #: data/core/units/humans/Loyalist_Cavalryman.cfg:64
-#: data/core/units/humans/Loyalist_Dragoon.cfg:37
+#: data/core/units/humans/Loyalist_Dragoon.cfg:49
 #: data/core/units/humans/Loyalist_Lieutenant.cfg:46
 #: data/core/units/humans/Loyalist_Longbowman.cfg:39
 #: data/core/units/humans/Loyalist_Master_Bowman.cfg:39
 #: data/core/units/humans/Loyalist_Sergeant.cfg:47
 #: data/core/units/humans/Loyalist_Swordsman.cfg:39
 #: data/core/units/humans/Woodsman_Ranger.cfg:59
-#: data/core/units/nagas/Fighter.cfg:90 data/core/units/nagas/Myrmidon.cfg:31
-#: data/core/units/nagas/Warrior.cfg:29 data/core/units/orcs/Grunt.cfg:71
+#: data/core/units/nagas/Fighter.cfg:102 data/core/units/nagas/Myrmidon.cfg:43
+#: data/core/units/nagas/Warrior.cfg:41 data/core/units/orcs/Grunt.cfg:71
 #: data/core/units/orcs/Leader.cfg:28
 msgid "sword"
 msgstr "мач"
@@ -247,7 +271,7 @@ msgstr "змаго-кремен"
 
 #. [unit_type]: id=Drake Burner, race=drake
 #. +> trunk 1.6
-#: data/core/units/drakes/Burner.cfg:19
+#: data/core/units/drakes/Burner.cfg:20
 msgid "Drake Burners are the proud few in whom the blood and strength of their remote ancestors runs truest, giving them the ability to breathe fire. This, coupled with their sheer size and fearsome claws, makes them deadly foes in combat."
 msgstr "Кремен-змагови су они малобројни и поносити у којима тече најчистија крв и снага њихових удаљених предака, дајући им могућност бљувања ватре. То, спрегнуто са њиховом големошћу и застрашујућим канџама, чини их смртоносним противницима у борби."
 
@@ -272,8 +296,13 @@ msgstr ""
 #. [unit_type]: id=Drake Clasher, race=drake
 #. +> trunk
 #: data/core/units/drakes/Clasher.cfg:22
+#, fuzzy
+#| msgid ""
+#| "The Clashers are members of a unique caste among the Drakes. Their thick armor, while compensating for the Drakes' natural weakness against spears and arrows, is so heavy and restricting that they are not able to fly or muster enough breath to use their inner fire. They have embraced this handicap, completely encasing their wings to emphasize that they do not need flight to triumph in battle.\n"
+#| "\n"
+#| "This is also the only caste that is allowed to break taboo and fight with spears in addition to the drake's traditional metal claws, which makes them particularly good at \"resolving\" territorial disputes with other drakes and enforcing the laws of their tribe."
 msgid ""
-"The Clashers are members of a unique caste among the Drakes. Their thick armor, while compensating for the Drakes' natural weakness against spears and arrows, is so heavy and restricting that they are not able to fly or muster enough breath to use their inner fire. They have embraced this handicap, completely encasing their wings to emphasize that they do not need flight to triumph in battle.\n"
+"The Clashers are members of a unique caste among the drakes. Their thick armor, while compensating for the drakes' natural weakness against spears and arrows, is so heavy and restricting that they are not able to fly or muster enough breath to use their inner fire. They have embraced this handicap, completely encasing their wings to emphasize that they do not need flight to triumph in battle.\n"
 "\n"
 "This is also the only caste that is allowed to break taboo and fight with spears in addition to the drake's traditional metal claws, which makes them particularly good at \"resolving\" territorial disputes with other drakes and enforcing the laws of their tribe."
 msgstr ""
@@ -284,25 +313,23 @@ msgstr ""
 #. [attack]: type=pierce
 #. +> trunk 1.6
 #: data/core/units/drakes/Clasher.cfg:47
-#: data/core/units/drakes/Enforcer.cfg:96
-#: data/core/units/drakes/Gladiator.cfg:87
+#: data/core/units/drakes/Enforcer.cfg:54
+#: data/core/units/drakes/Thrasher.cfg:32
 #: data/core/units/dwarves/Guardsman.cfg:43
 #: data/core/units/dwarves/Sentinel.cfg:51
 #: data/core/units/dwarves/Stalwart.cfg:46
-#: data/core/units/goblins/Impaler.cfg:28
-#: data/core/units/goblins/Impaler.cfg:40
-#: data/core/units/goblins/Rouser.cfg:37
+#: data/core/units/goblins/Impaler.cfg:42
+#: data/core/units/goblins/Impaler.cfg:54
+#: data/core/units/goblins/Rouser.cfg:51
 #: data/core/units/goblins/Spearman.cfg:42
 #: data/core/units/goblins/Spearman.cfg:52
 #: data/core/units/humans/Horseman.cfg:36
 #: data/core/units/humans/Loyalist_Javelineer.cfg:40
 #: data/core/units/humans/Loyalist_Spearman.cfg:59
-#: data/core/units/merfolk/Entangler.cfg:25
-#: data/core/units/merfolk/Hoplite.cfg:36
+#: data/core/units/merfolk/Hoplite.cfg:48
 #: data/core/units/merfolk/Hunter.cfg:25 data/core/units/merfolk/Hunter.cfg:33
 #: data/core/units/merfolk/Javelineer.cfg:25
 #: data/core/units/merfolk/Javelineer.cfg:33
-#: data/core/units/merfolk/Netcaster.cfg:24
 #: data/core/units/merfolk/Spearman.cfg:24
 #: data/core/units/merfolk/Spearman.cfg:32
 #: data/core/units/saurians/Ambusher.cfg:39
@@ -322,21 +349,27 @@ msgid "Drake Enforcer"
 msgstr "змаго-силник"
 
 #. [unit_type]: id=Drake Enforcer, race=drake
-#. +> trunk 1.6
+#. +> 1.6
 #: data/core/units/drakes/Enforcer.cfg:20
 msgid "The great Drake Enforcers epitomize the raw strength of their kind. Long hours at the forge have equipped them with a bristling array of weaponry, and they are clad them head to toe in shining armor of proof."
 msgstr "Велики змагови силници узор су сирове снаге своје врсте. Дуги часови у ковачницама пружили су им накострешену спрему оружја, и обујмили сјаним оклопом од главе до пете."
 
+#. [unit_type]: id=Drake Enforcer, race=drake
+#. +> trunk
+#: data/core/units/drakes/Enforcer.cfg:21
+msgid "Rather than hold the battle at a distance, the Enforcers hulk right in wherever the melee is the fiercest. At close range, it doesn't matter that their armor keeps them from spouting flame; all that matters is the power they've learned to focus in each strike. Drake leaders are careful not to besmirch the honor of the Enforcers, and generally call upon them to combat only the most pernicious of enemies."
+msgstr ""
+
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/drakes/Enforcer.cfg:87
-#: data/core/units/drakes/Gladiator.cfg:96
+#: data/core/units/drakes/Enforcer.cfg:45
+#: data/core/units/drakes/Thrasher.cfg:41
 #: data/core/units/humans/Loyalist_Heavy_Infantryman.cfg:37
 #: data/core/units/humans/Loyalist_Iron_Mauler.cfg:33
 #: data/core/units/humans/Outlaw.cfg:36
-#: data/core/units/humans/Outlaw_Bandit.cfg:35
+#: data/core/units/humans/Outlaw_Bandit.cfg:47
 #: data/core/units/humans/Outlaw_Fugitive.cfg:41
-#: data/core/units/humans/Outlaw_Highwayman.cfg:25
+#: data/core/units/humans/Outlaw_Highwayman.cfg:37
 #: data/core/units/humans/Royal_Warrior.cfg:35
 msgid "mace"
 msgstr "топуз"
@@ -349,7 +382,7 @@ msgstr "змаго-борац"
 
 #. [unit_type]: id=Drake Fighter, race=drake
 #. +> trunk
-#: data/core/units/drakes/Fighter.cfg:19
+#: data/core/units/drakes/Fighter.cfg:20
 msgid "Drake Fighters wield curved scimitars, and possess the fire-breathing skills of their ancestors. They can also fly, which is troubling to any foe. Their great strength, coupled with their hardened scales, is rightly frightening to swordsman of any other race."
 msgstr "Змагови борци рукују закривљеним јатаганима, и поседују змајобљувачке способности својих предака. Такође умеју летети, што је забрињавајући било ком противнику. Њихова велика снага, у садејству са отврднулим крљуштима, право је застрашујућа за мачеваоце било које друге расе."
 
@@ -361,7 +394,8 @@ msgstr "Змагови борци рукују закривљеним јатаг
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/drakes/Fighter.cfg:66
+#: data/core/units/drakes/Fighter.cfg:108
+#: data/core/units/drakes/Warrior.cfg:107
 msgid "scimitar"
 msgstr "јатаган"
 
@@ -407,24 +441,6 @@ msgstr "змаго-бакљар"
 msgid "Drakes are an old race, wise enough to hearken to their own natural leaders. Those who are called 'flares' by their enemies are the drakes who aspire to be such leaders, both in war and in peace."
 msgstr "Змагови су стара раса, довољно мудра да слуша своје сопствене природне вође. Они које непријатељи њихови називају бакљарима, јесу змагови који теже да постану такви вођи, и у рату и у миру."
 
-#. [unit_type]: id=Drake Gladiator, race=drake
-#. +> trunk 1.6
-#: data/core/units/drakes/Gladiator.cfg:4
-msgid "Drake Gladiator"
-msgstr "змаго-гладијатор"
-
-#. [unit_type]: id=Drake Gladiator, race=drake
-#. +> trunk
-#: data/core/units/drakes/Gladiator.cfg:19
-msgid "Instead of letting themselves be bound by their armor, Gladiators have learned to redirect its weight to supplement their bodies' momentum, adding power to the blows of their short spears and hand-mounted claws. Equipment and body are one; even their thick helms and the thick skulls beneath them are weapons. A Gladiator will gladly fulfill his caste duties, as long as it can be done on the battlefield."
-msgstr "Уместо да допусте да буду спутани својим оклопом, гладијатори су научили да преусмере његову тежину у корист замаха својих тела, додајући силину ударима својих кратких копаља и борбених канџи. Опрема и тело су једно; чак су и њихове дебеле кациге и тврде лобање под њима оружја. Гладијатор ће радо испуњавати дужности своје касте, док год то може чинити на бојном пољу."
-
-#. [unit_type]: id=Drake Gladiator, race=drake
-#. +> 1.6
-#: data/core/units/drakes/Gladiator.cfg:19
-msgid "The Gladiator has taken a completely different path from the Slashers. Rather than emphasize training, they have chosen to focus on the craft of their weaponry. They are the smiths of Drake society, and it follows that they possess the best weaponry - the sharpest blades and spears, and the maces which complement their already impressive array. Their intense focus on their weapons confers offensive capability at the cost of a slight reduction in their defensive abilities."
-msgstr "Гладијатори су кренули потпуно другим путем у односу на дугорезе. Пре него на вежбање, усредсређују се на ваљаност свог оружја. Они су ковачи у змаговском друштву, из чега следи да поседују најбоље наоружање — најоштрија сечива и копља, и топузе који употпуњују њихов већ импресиван арсенал. Такво поклањање пажње оружју донекле умањује њихове одбрамбене способности."
-
 #. [unit_type]: id=Drake Glider, race=drake
 #. +> trunk 1.6
 #: data/core/units/drakes/Glider.cfg:4
@@ -433,14 +449,14 @@ msgstr "змаго-једрен"
 
 #. [unit_type]: id=Drake Glider, race=drake
 #. +> trunk 1.6
-#: data/core/units/drakes/Glider.cfg:20
+#: data/core/units/drakes/Glider.cfg:21
 msgid "Drake Gliders wear as little encumberment as possible, freeing themselves to fly to their full ability. These Drakes are competent fighters, possessing the internal fire common to many of their kin. Gliders can also effectively use their speed to slam their opponents into submission. From their aerial vantage point, these drakes can see past most defensive cover. Their skill at flying allows them the precision to target enemies under such cover."
 msgstr "Змагови једрени носе што мање спреме могу, како би се ослободили за лет до својих крајњих способности. Ови змагови су способни борци, поседујући унутрашњу ватру својствену многима од њихове врсте. Једрени такође могу учинковито користити своју брзину да окрутно утерају противнике у послушност. Са своје ваздушне тачке гледишта, ови змагови могу видети иза већине одбрамбених покрова, а летачка вештина омогућава им да прецизно нишане непријатеље у заклону."
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/drakes/Glider.cfg:76
-#: data/core/units/drakes/Hurricane.cfg:91 data/core/units/drakes/Sky.cfg:90
+#: data/core/units/drakes/Glider.cfg:110
+#: data/core/units/drakes/Hurricane.cfg:118 data/core/units/drakes/Sky.cfg:117
 msgid "slam"
 msgstr "тресак"
 
@@ -452,7 +468,7 @@ msgstr "змаго-олујник"
 
 #. [unit_type]: id=Hurricane Drake, race=drake
 #. +> trunk 1.6
-#: data/core/units/drakes/Hurricane.cfg:28
+#: data/core/units/drakes/Hurricane.cfg:29
 msgid "Masters of the aerial realm, the Hurricane Drakes are the elite among those drakes which are gifted with flight. Soaring high in the air, they can see past most defensive cover and spit fire at their foes with impunity."
 msgstr "Господари ваздушног царства, змагови олујници су елита међу змаговима обдареним летачким способностима. Једрећи високо на небу, могу заобићи већину одбрамбених појасева, и некажњено бљувати ватру на противнике."
 
@@ -476,7 +492,7 @@ msgstr "змаго-небохват"
 
 #. [unit_type]: id=Sky Drake, race=drake
 #. +> trunk
-#: data/core/units/drakes/Sky.cfg:27
+#: data/core/units/drakes/Sky.cfg:28
 msgid "Sky drakes are truly the kings of the sky. The momentum of their terrible stooping dive and their fire breath combine into a terrible weapon. By attacking from the air, they can spit fire with great precision into positions which would otherwise afford a great defensive advantage to their foes."
 msgstr "Змагови небохвати истински су владари неба. Замах њиховог ужасавајућег обрушавања и ватра коју издувавају заједно делују као страшно оружје. Нападајући из ваздуха, могу врло прецизно бљувати ватру на положаје који би иначе пружали изврсну одбрамбену предност непријатељу."
 
@@ -486,27 +502,21 @@ msgstr "Змагови небохвати истински су владари �
 msgid "Sky drakes are truly the kings of the sky. The momentum of their terrible stooping dive and and their fire breath combine into a terrible weapon. By attacking from the air, they can spit fire with great precision into positions which would otherwise afford a great defensive advantage to their foes."
 msgstr "Змагови небохвати истински су владари неба. Замах њиховог ужасавајућег обрушавања и ватра коју издувавају заједно делују као страшно оружје. Нападајући из ваздуха, могу врло прецизно бљувати ватру на положаје који би иначе пружали изврсну одбрамбену предност непријатељу."
 
-#. [unit_type]: id=Drake Slasher, race=drake
-#. +> trunk 1.6
-#: data/core/units/drakes/Slasher.cfg:4
-msgid "Drake Slasher"
-msgstr "змаго-дугорез"
+#. [unit_type]: id=Drake Thrasher, race=drake
+#. +> trunk
+#: data/core/units/drakes/Thrasher.cfg:4
+#, fuzzy
+#| msgid "Drake Clasher"
+msgid "Drake Thrasher"
+msgstr "змаго-сударач"
 
-#. [unit_type]: id=Drake Slasher, race=drake
-#. +> trunk 1.6
-#: data/core/units/drakes/Slasher.cfg:19
-msgid "Slashers are Clashers who have chosen to master the use of a halberd instead of carrying a sword and the spear. Their great size allows them to use a weapon of matching scale, large enough to skewer a horse as a man would a boar. Their training has also enhanced their stamina and defensive skills, which is a major advantage over their close cousins the Gladiators."
-msgstr "Дугорези су сударачи који су изабрали да овладају руковањем хелебардом, уместо ношења мача и копља. Њихов величанствен стас омогућава им да користе оружје пристајуће величине, довољно велико да преполови коња као што би човек могао свињче. Вежбом такође увећавају издржљивост и одбрамбене способности, што им је главна предност пред блиским сународницима гладијаторима."
-
-#. [attack]: type=blade
-#. [attack]: type=pierce
-#. +> trunk 1.6
-#: data/core/units/drakes/Slasher.cfg:41 data/core/units/drakes/Slasher.cfg:50
-#: data/core/units/drakes/Warden.cfg:42 data/core/units/drakes/Warden.cfg:51
-#: data/core/units/humans/Loyalist_Halberdier.cfg:41
-#: data/core/units/humans/Loyalist_Halberdier.cfg:53
-msgid "halberd"
-msgstr "хелебарда"
+#. [unit_type]: id=Drake Thrasher, race=drake
+#. +> trunk
+#: data/core/units/drakes/Thrasher.cfg:19
+#, fuzzy
+#| msgid "Instead of letting themselves be bound by their armor, Gladiators have learned to redirect its weight to supplement their bodies' momentum, adding power to the blows of their short spears and hand-mounted claws. Equipment and body are one; even their thick helms and the thick skulls beneath them are weapons. A Gladiator will gladly fulfill his caste duties, as long as it can be done on the battlefield."
+msgid "Instead of letting themselves be bound by their armor, Thrashers have learned to redirect its weight to supplement their bodies' momentum, adding power to the blows of their short spears and hand-mounted claws. Equipment and body are one; even their thick helms and the thick skulls beneath them are weapons. A Thrasher will gladly fulfill his caste duties, as long as it can be done on the battlefield."
+msgstr "Уместо да допусте да буду спутани својим оклопом, гладијатори су научили да преусмере његову тежину у корист замаха својих тела, додајући силину ударима својих кратких копаља и борбених канџи. Опрема и тело су једно; чак су и њихове дебеле кациге и тврде лобање под њима оружја. Гладијатор ће радо испуњавати дужности своје касте, док год то може чинити на бојном пољу."
 
 #. [unit_type]: id=Drake Warden, race=drake
 #. +> trunk 1.6
@@ -515,7 +525,13 @@ msgid "Drake Warden"
 msgstr "змаго-надзорник"
 
 #. [unit_type]: id=Drake Warden, race=drake
-#. +> trunk 1.6
+#. +> trunk
+#: data/core/units/drakes/Warden.cfg:20
+msgid "Wardens are set apart from the rest of the Clasher caste by two things: their ornate helms, modeled after their dragon ancestors, and the care with which they drape their armored wings in brightly colored cloth before reporting for duty. Though this mode of dress stems from the pride they feel for their role in drake society, it is far from ceremonial. Their cumbersome bronze plate is the strongest work from the Drake forges, and their halberds can cleave a human in half."
+msgstr ""
+
+#. [unit_type]: id=Drake Warden, race=drake
+#. +> 1.6
 #: data/core/units/drakes/Warden.cfg:20
 msgid "The Warden represents the pinnacle of the clasher caste, being picked from the most able Slashers. They have forged their might such that few warriors on this earth would dare stand against them. The Wardens' weapon of choice is the halberd, which they use to great effect."
 msgstr "Надзорници су врхушка касте сударача, бирани међу најбољим од њих. Исковали су свој моћ тако, да би им се мало ратника који ходе земљом усудило супротставити. Надзорников избор оружја је хелебарда, којом рукују застрашујућом вештином."
@@ -528,7 +544,7 @@ msgstr "змаго-ратник"
 
 #. [unit_type]: id=Drake Warrior, race=drake
 #. +> trunk 1.6
-#: data/core/units/drakes/Warrior.cfg:18
+#: data/core/units/drakes/Warrior.cfg:19
 msgid "Drake Warriors wield swords with great skill, and possess the fire breathing skills of their ancestors. The great strength of their kind allows them to strike devastating blows, and to withstand punishment in equal measure."
 msgstr "Змагови ратници врло вешто рукују мачем, а имају и способност бљувања ватре налик својим предацима. Њихова снага омогућава им да задају разарајуће ударце, и да поднесу узвраћање истом мером."
 
@@ -566,16 +582,16 @@ msgstr "Није познато зашто се змајогарди назив�
 #. [attack]: type=blade
 #. +> trunk 1.6
 #: data/core/units/dwarves/Dragonguard.cfg:39
-#: data/core/units/dwarves/Thunderer.cfg:110
-#: data/core/units/dwarves/Thunderguard.cfg:39
+#: data/core/units/dwarves/Thunderer.cfg:111
+#: data/core/units/dwarves/Thunderguard.cfg:40
 #: data/core/units/humans/Outlaw_Assassin.cfg:40
 #: data/core/units/humans/Outlaw_Rogue.cfg:39
 #: data/core/units/humans/Outlaw_Thief.cfg:188
-#: data/core/units/humans/Woodsman.cfg:41
+#: data/core/units/humans/Woodsman.cfg:42
 #: data/core/units/humans/Woodsman_Huntsman.cfg:51
 #: data/core/units/humans/Woodsman_Poacher.cfg:48
 #: data/core/units/humans/Woodsman_Trapper.cfg:82
-#: data/core/units/orcs/Archer.cfg:71 data/core/units/orcs/Assassin.cfg:26
+#: data/core/units/orcs/Archer.cfg:26 data/core/units/orcs/Assassin.cfg:26
 #: data/core/units/orcs/Slayer.cfg:27
 #: data/core/units/undead/Skele_Banebow.cfg:31
 #: data/core/units/undead/Skele_Bone_Shooter.cfg:29
@@ -597,8 +613,8 @@ msgstr "патуљ-истраживач"
 #. [unit_type]: id=Dwarvish Explorer, race=dwarf
 #. +> trunk
 #: data/core/units/dwarves/Explorer.cfg:27
-msgid "Dwarven Explorers often travel alone through unknown lands, slaying enemies and scouting out new deposits of ore and other precious minerals. They are strong enough to wear full battle armor, giving them added protection against physical attacks. They are powerful fighters, second only to the Dwarven lords, and their amazing maneuverability makes them dangerous indeed."
-msgstr "Патуљачки истраживачи обично путују сами кроз незнане земље, истребљујући непријатеље и трагајући за новим налазиштима руде и вредних минерала. Довољно су јаки да понесу пуни бојни оклоп, ради допунске заштите против физичких напада. Моћни су борци, надмашени једино патуљ-господарима, а запањујућа покретљивост чини их изванредно опасним."
+msgid "Dwarvish Explorers are peerless survivalists. Using only the equipment they carry, they can range for months around the forests and mountains looking for new seams of ore and deposits of minerals. Whilst their skill in a melee is less than some other dwarves, they are unmatched with throwing axes, having practiced this skill hunting in the mountains. Their maneuverability makes them a dangerous force."
+msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk 1.6
@@ -612,12 +628,12 @@ msgstr "бојна секира"
 #. +> trunk 1.6
 #: data/core/units/dwarves/Explorer.cfg:54
 #: data/core/units/dwarves/Fighter.cfg:47
-#: data/core/units/dwarves/Pathfinder.cfg:29
-#: data/core/units/dwarves/Pathfinder.cfg:37
-#: data/core/units/dwarves/Scout.cfg:27 data/core/units/dwarves/Scout.cfg:35
-#: data/core/units/undead/Skele_Deathblade.cfg:149
+#: data/core/units/dwarves/Pathfinder.cfg:41
+#: data/core/units/dwarves/Pathfinder.cfg:49
+#: data/core/units/dwarves/Scout.cfg:40 data/core/units/dwarves/Scout.cfg:48
+#: data/core/units/undead/Skele_Deathblade.cfg:162
 #: data/core/units/undead/Skele_Draug.cfg:30
-#: data/core/units/undead/Skele_Revenant.cfg:30
+#: data/core/units/undead/Skele_Revenant.cfg:43
 #: data/core/units/undead/Skeleton.cfg:119
 msgid "axe"
 msgstr "секира"
@@ -638,7 +654,8 @@ msgstr "Патуљачки борци рукују моћним бојним с�
 #. +> trunk 1.6
 #: data/core/units/dwarves/Fighter.cfg:55 data/core/units/dwarves/Lord.cfg:51
 #: data/core/units/dwarves/Steelclad.cfg:51
-#: data/core/units/trolls/Great.cfg:27 data/core/units/trolls/Warrior.cfg:27
+#: data/core/units/trolls/Great.cfg:27 data/core/units/trolls/Hero.cfg:27
+#: data/core/units/trolls/Warrior.cfg:27
 msgid "hammer"
 msgstr "чекић"
 
@@ -691,8 +708,8 @@ msgstr "патуљ-наступач"
 #. [unit_type]: id=Dwarvish Pathfinder, race=dwarf
 #. +> trunk
 #: data/core/units/dwarves/Pathfinder.cfg:22
-msgid "Dwarvish Pathfinders are faster, stronger and even deadlier with their axes than normal dwarvish scouts. They often race ahead of the main force, scouting out unfamiliar terrain and securing villages and chokepoints."
-msgstr "Патуљачки наступачи су бржи, јачи и још смртоноснији на секири од обичних патуљачких извиђача. Често се крећу испред главнине војске, извиђајући непознати терен и обезбеђујући села и уска грла."
+msgid "These hardy dwarves are sometimes away from their caves for long periods, scouting and patrolling the borders. They spend this time watching for invaders, and fighting bandits and thieves who encroach on dwarvish territory. They are powerful fighters in a melee, and from a distance their deftly thrown axes can rival the power and accuracy of a human archer."
+msgstr ""
 
 #. [unit_type]: id=Dwarvish Runemaster, race=dwarf
 #. +> trunk 1.6
@@ -726,9 +743,9 @@ msgstr "патуљ-извиђач"
 
 #. [unit_type]: id=Dwarvish Scout, race=dwarf
 #. +> trunk
-#: data/core/units/dwarves/Scout.cfg:21
-msgid "Dwarvish Scouts explore both above and below ground. They are adept at both fighting hand to hand with their axes and throwing them, but trade away the full endurance of dwarvish line fighters in return for superior mobility."
-msgstr "Патуљачки извиђачи истражују и земље и подземља. Умешни су како у борби прса у прса тако и у бацању својих секира, али се одричу уобичајене издржљивости патуљачких линијских бораца у корист надмоћне покретљивости."
+#: data/core/units/dwarves/Scout.cfg:22
+msgid "Although the dwarves cannot match the taller races in a sprint, when unencumbered by heavy armor their tremendous stamina and endurance allows them to match all but the fastest on foot. Dwarvish Scouts use this to their advantage, ranging ahead of the main force and reporting back on troop movements and dispositions, or securing important objectives. Outside of battle, they are often used to relay messages between dwarvish communities. However, they pay for their speed with the poorer protection provided by their lighter armor."
+msgstr ""
 
 #. [unit_type]: id=Dwarvish Sentinel, race=dwarf
 #. +> trunk 1.6
@@ -780,8 +797,8 @@ msgstr "Када су људи из Веснота први пут сусрел�
 
 #. [attack]: type=pierce
 #. +> trunk 1.6
-#: data/core/units/dwarves/Thunderer.cfg:119
-#: data/core/units/dwarves/Thunderguard.cfg:48
+#: data/core/units/dwarves/Thunderer.cfg:120
+#: data/core/units/dwarves/Thunderguard.cfg:49
 msgid "thunderstick"
 msgstr "громоштап"
 
@@ -837,12 +854,12 @@ msgstr "Вилењаци су одувек били на гласу по веш�
 #: data/core/units/elves/Ranger.cfg:82 data/core/units/elves/Rider.cfg:57
 #: data/core/units/elves/Scout.cfg:56
 #: data/core/units/humans/Loyalist_Bowman.cfg:46
-#: data/core/units/humans/Woodsman.cfg:50
+#: data/core/units/humans/Woodsman.cfg:51
 #: data/core/units/humans/Woodsman_Huntsman.cfg:60
 #: data/core/units/humans/Woodsman_Poacher.cfg:57
 #: data/core/units/humans/Woodsman_Ranger.cfg:68
 #: data/core/units/humans/Woodsman_Trapper.cfg:91
-#: data/core/units/orcs/Archer.cfg:80 data/core/units/orcs/Archer.cfg:89
+#: data/core/units/orcs/Archer.cfg:35 data/core/units/orcs/Archer.cfg:44
 #: data/core/units/orcs/Warlord.cfg:34
 #: data/core/units/undead/Skele_Banebow.cfg:40
 #: data/core/units/undead/Skele_Bone_Shooter.cfg:38
@@ -1270,7 +1287,7 @@ msgstr "грозоседлаш"
 
 #. [unit_type]: id=Direwolf Rider, race=wolf
 #. +> trunk 1.6
-#: data/core/units/goblins/Direwolf_Rider.cfg:21
+#: data/core/units/goblins/Direwolf_Rider.cfg:22
 msgid ""
 "'Dire wolves' differ from the common variety only in size and color. They typically stand taller than a horse at the shoulder, and have an appetite to match. Only a madman would willingly encounter them; the goblins, at great cost to themselves, have managed to tame and ride them.\n"
 "\n"
@@ -1288,7 +1305,7 @@ msgstr "гобли-набијач"
 
 #. [unit_type]: id=Goblin Impaler, race=goblin
 #. +> trunk 1.6
-#: data/core/units/goblins/Impaler.cfg:19
+#: data/core/units/goblins/Impaler.cfg:20
 msgid "Goblins are used by the orcs as skirmishers to disrupt the enemy's battle line. Those who manage to survive their first few battles equip themselves with a long spear to compensate for their short reach, and better armor to guard their diminuitive frames."
 msgstr "Оркови користе гоблине као потрошно месо за предње линије својих непријатеља. Гоблини који некако успеју да преживе прве бојеве, опремају се дугим копљем које им помаже да надокнаде свој кратак дохват, и бољим оклопом да заклоне своју ситну грађу."
 
@@ -1300,7 +1317,7 @@ msgstr "гобли-витез"
 
 #. [unit_type]: id=Goblin Knight, race=wolf
 #. +> trunk 1.6
-#: data/core/units/goblins/Knight.cfg:20
+#: data/core/units/goblins/Knight.cfg:21
 msgid ""
 "The Goblin 'Knights' have little in common with the men who share that title, and the title is bestowed in mockery by their enemies. The similarity is simply that they are the elite of the wolf riders, likely promoted to their position by their success in some audacious raid.\n"
 "\n"
@@ -1331,8 +1348,8 @@ msgstr "бакља"
 #. [attack]: type=impact
 #. +> trunk 1.6
 #: data/core/units/goblins/Pillager.cfg:65
-#: data/core/units/merfolk/Entangler.cfg:33
-#: data/core/units/merfolk/Netcaster.cfg:32
+#: data/core/units/merfolk/Entangler.cfg:35
+#: data/core/units/merfolk/Netcaster.cfg:34
 msgid "net"
 msgstr "мрежа"
 
@@ -1344,7 +1361,7 @@ msgstr "гобли-подстрекач"
 
 #. [unit_type]: id=Goblin Rouser, race=goblin
 #. +> trunk 1.6
-#: data/core/units/goblins/Rouser.cfg:26
+#: data/core/units/goblins/Rouser.cfg:27
 msgid "Standard-bearers are an oddity amongst goblins. A goblin who has survived enough battles to be considered a veteran is rare enough, and it is rarer still for the other goblins to recognize and respect his veteran status. Nonetheless, a rouser's frenzied goading effectively steels the younger at arms to fight harder and longer before they die."
 msgstr "Носиоци барјака су необичан призор међу гоблинима. Гоблин који је преживео довољно битака да се може сматрати ветераном права је реткост, а још је ређе да му други гоблини признају и поштују ветерански статус. Па ипак, подстрекачево гневно уњкање покреће млађе при оружју да се боре јаче и дуже пре него што страдају."
 
@@ -1435,7 +1452,7 @@ msgstr "Велевитези су достигли врхунац умећа с�
 #. [attack]: type=blade
 #. +> trunk
 #: data/core/units/humans/Horse_Grand_Knight.cfg:24
-#: data/core/units/humans/Loyalist_Cavalier.cfg:38
+#: data/core/units/humans/Loyalist_Cavalier.cfg:50
 #: data/core/units/humans/Loyalist_General.cfg:56
 #: data/core/units/humans/Loyalist_Grand_Marshal.cfg:52
 #: data/core/units/humans/Loyalist_Royal_Guard.cfg:40
@@ -1447,7 +1464,7 @@ msgstr "дуги мач"
 #: data/core/units/humans/Horse_Grand_Knight.cfg:33
 #: data/core/units/humans/Horse_Knight.cfg:44
 #: data/core/units/humans/Horse_Lancer.cfg:24
-#: data/core/units/humans/Horse_Paladin.cfg:49
+#: data/core/units/humans/Horse_Paladin.cfg:61
 msgid "lance"
 msgstr "бојно копље"
 
@@ -1539,13 +1556,13 @@ msgstr "Тријумфални призор на бојишту, кирасир�
 #. [attack]: type=pierce
 #. [attack]: type=fire
 #. +> trunk 1.6
-#: data/core/units/humans/Loyalist_Cavalier.cfg:47
-#: data/core/units/humans/Loyalist_Dragoon.cfg:46
-#: data/core/units/humans/Loyalist_Duelist.cfg:81
+#: data/core/units/humans/Loyalist_Cavalier.cfg:59
+#: data/core/units/humans/Loyalist_Dragoon.cfg:58
+#: data/core/units/humans/Loyalist_Duelist.cfg:94
 #: data/core/units/humans/Loyalist_General.cfg:65
 #: data/core/units/humans/Loyalist_Grand_Marshal.cfg:61
 #: data/core/units/humans/Loyalist_Lieutenant.cfg:55
-#: data/core/units/humans/Loyalist_Master_at_Arms.cfg:40
+#: data/core/units/humans/Loyalist_Master_at_Arms.cfg:53
 #: data/core/units/humans/Loyalist_Sergeant.cfg:56
 #: data/core/units/orcs/Crossbowman.cfg:33
 #: data/core/units/orcs/Crossbowman.cfg:42 data/core/units/orcs/Leader.cfg:37
@@ -1593,7 +1610,7 @@ msgstr "изазивач"
 
 #. [unit_type]: id=Duelist, race=human
 #. +> trunk 1.6
-#: data/core/units/humans/Loyalist_Duelist.cfg:19
+#: data/core/units/humans/Loyalist_Duelist.cfg:20
 msgid ""
 "It is a peculiar custom of Wesnoth's nobility that they typically enroll their sons into one of two orders of armigers, training them either in the art of horsemanship or fencing. Duelists are so named for an unfortunately common practice of young aristocrats, for whom the sting of insult, whether real or fancied, can incite a rash demonstration of their natural right.\n"
 "\n"
@@ -1605,9 +1622,9 @@ msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/humans/Loyalist_Duelist.cfg:72
-#: data/core/units/humans/Loyalist_Fencer.cfg:127
-#: data/core/units/humans/Loyalist_Master_at_Arms.cfg:31
+#: data/core/units/humans/Loyalist_Duelist.cfg:85
+#: data/core/units/humans/Loyalist_Fencer.cfg:140
+#: data/core/units/humans/Loyalist_Master_at_Arms.cfg:44
 msgid "saber"
 msgstr "сабља"
 
@@ -1619,7 +1636,7 @@ msgstr "мачевалац"
 
 #. [unit_type]: id=Fencer, race=human
 #. +> trunk 1.6
-#: data/core/units/humans/Loyalist_Fencer.cfg:20
+#: data/core/units/humans/Loyalist_Fencer.cfg:21
 msgid ""
 "Fencers belong to a school of thought that considers the armor most soldiers wear in combat to be their own worst enemy. While armor can only soften a blow, evading it leaves the defender completely unharmed. Being able to reliably dodge any offensive move is a luxury only afforded to the fit of body, and then only to those who endure rigorous training.\n"
 "\n"
@@ -1757,7 +1774,7 @@ msgstr "мајстор-оружар"
 
 #. [unit_type]: id=Master at Arms, race=human
 #. +> trunk 1.6
-#: data/core/units/humans/Loyalist_Master_at_Arms.cfg:20
+#: data/core/units/humans/Loyalist_Master_at_Arms.cfg:21
 msgid ""
 "Master fencers have an envied place in life. Though the journey to their station was a dangerous way of life, they have reached the time wherein they reap its rewards. Famed for their skill and dashing manner, these gentlemen have the bearing of natural aristocrats, and are followed by the eyes of many a high born lady.\n"
 "\n"
@@ -2184,9 +2201,11 @@ msgstr "Ове ситне криминалчице њихови шефови ч�
 #. [attack]: type=impact
 #. +> trunk 1.6
 #: data/core/units/humans/Outlaw_Footpad.cfg:38
-#: data/core/units/humans/Outlaw_Ruffian.cfg:23
-#: data/core/units/humans/Outlaw_Thug.cfg:24
-#: data/core/units/trolls/Hero.cfg:26 data/core/units/trolls/Troll.cfg:26
+#: data/core/units/humans/Outlaw_Ruffian.cfg:36
+#: data/core/units/humans/Outlaw_Thug.cfg:37
+#: data/core/units/merfolk/Entangler.cfg:27
+#: data/core/units/merfolk/Netcaster.cfg:26
+#: data/core/units/trolls/Troll.cfg:38
 msgid "club"
 msgstr "батина"
 
@@ -2268,7 +2287,7 @@ msgstr "сировина"
 
 #. [unit_type]: id=Ruffian, race=human
 #. +> trunk 1.6
-#: data/core/units/humans/Outlaw_Ruffian.cfg:18
+#: data/core/units/humans/Outlaw_Ruffian.cfg:19
 msgid "Some men without particular skills cannot or will not make an honest living. Those that attempt to make their way through life by the heavy end of a stick, are known as 'Ruffians'. With enough luck and experience, they sometimes manage to avoid the stockade that awaits most of their colleagues."
 msgstr "Неки људи без посебних вештина не могу или не желе поштено да зарађују за живот. За оне који покушавају да се пробију кроз живот тешким крајем мачуге, каже се да су „сировине“. Уз довољно среће и искуства, некада успеју да избегну ћелију која чека већину њихове сорте."
 
@@ -2299,7 +2318,7 @@ msgstr "сецикеса"
 
 #. [unit_type]: id=Thug, race=human
 #. +> trunk 1.6
-#: data/core/units/humans/Outlaw_Thug.cfg:19
+#: data/core/units/humans/Outlaw_Thug.cfg:20
 msgid "Thugs come from a wide variety of sources; while a few are born into thuggery, many are former soldiers deemed unfit to serve in the army or peasants thrown off their lands. They become thugs as a means of sustenance. Regardless of their background, they all share a penchant for beating their victims with large clubs."
 msgstr "Сецикесе пристижу из разних извора; док их се неколицина роди у таквој средини, многи су бивши војници отпуштени као неспособни, или сељаци који су остали без земље. На овакав начин живота брзо се одлучују ради преживљавања. Без обзира на појединачне прошлости, сви деле исти обичај пребијања својих жртава великим батинама."
 
@@ -2458,10 +2477,19 @@ msgid "Merman Entangler"
 msgstr "морен-уплитач"
 
 #. [unit_type]: id=Merman Entangler, race=merman
-#. +> trunk 1.6
+#. +> 1.6
 #: data/core/units/merfolk/Entangler.cfg:20
 msgid "The weighted nets used by mermen in warfare are a difficult weapon to use well; those who master it are valued and revered by their comrades. This weapon helps to cement the utter superiority of a merman in his own element, and makes their race a threat even to enemies who merely approach the water."
 msgstr "Отежане мреже које морејци у борби, тешко су оружје за прикладно руковање; они који тиме овладају на високом су гласу и обожавани међу својим садрузима. Ово оружје доприноси гласу о крајњој надмоћи морејаца у њиховом елементу, и чини их опасним чак и за непријатеље који се колико приближе води."
+
+#. [unit_type]: id=Merman Entangler, race=merman
+#. +> trunk
+#: data/core/units/merfolk/Entangler.cfg:22
+msgid ""
+"Merfolk tend to use a combination of both nets and clubs in fishing; nets to collect the fish, and clubs to finish the kill.  Both of these tools have seen adaptation for warfare, and are valuable enough that auxilliaries who specialize in using them are deliberately brought to battle.\n"
+"\n"
+"    Mermen often find themselves in a standoff with land-based enemies; the merfolk are too strong in the water, and are too weak to make any offense on land.  Nets are a key bit of leverage; without nets, mermen can't give any effective chase over land, and are at a great disadvantage in hand-to-hand combat."
+msgstr ""
 
 #. [unit_type]: id=Merman Fighter, race=merman
 #. +> trunk 1.6
@@ -2478,9 +2506,9 @@ msgstr "Вешта морска створења, морејци су моћни
 #. [attack]: type=pierce
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/merfolk/Fighter.cfg:25
-#: data/core/units/merfolk/Triton.cfg:26 data/core/units/merfolk/Triton.cfg:34
-#: data/core/units/merfolk/Warrior.cfg:24
+#: data/core/units/merfolk/Fighter.cfg:37
+#: data/core/units/merfolk/Triton.cfg:38 data/core/units/merfolk/Triton.cfg:46
+#: data/core/units/merfolk/Warrior.cfg:36
 msgid "trident"
 msgstr "трозубац"
 
@@ -2546,10 +2574,19 @@ msgid "Merman Netcaster"
 msgstr "морен-мрежар"
 
 #. [unit_type]: id=Merman Netcaster, race=merman
-#. +> trunk 1.6
+#. +> 1.6
 #: data/core/units/merfolk/Netcaster.cfg:19
 msgid "Fishing, as practiced by mermen, is largely a matter of chasing schools of fish into waiting nets. These are not very damaging in themselves, but they can be used to great effect against troops attempting to ford a river. Smaller, weighted nets can be cast through the air; though these are not designed for peacetime use, they are especially effective in warfare. Mermen use such weapons both to immobilize troops in water, and more importantly, to level the playing field against troops on land, who would otherwise be at a great advantage."
 msgstr "Пецање, како га изводе морејци, углавном је поступак гоњења јата риба у припремљене мреже. Иако ово само по себи није превише кобно, може изврсно послужити против непријатеља који покушава да прегази реку. Мање, отежане мреже могу се бацати кроз ваздух; иако сачињене за миродобне намене, могу бити врло учинковите у борби. Морејци користе ове мреже да зауставе непријатеља како у води, тако и, што је још важније, на копну, где би копнена бића иначе била у великој предности."
+
+#. [unit_type]: id=Merman Netcaster, race=merman
+#. +> trunk
+#: data/core/units/merfolk/Netcaster.cfg:21
+msgid ""
+"Fishing, as practiced by mermen, is largely a matter of chasing schools of fish into waiting nets, where oar-like clubs are used to dispatch the prey. The improvisation of using these against soldiers proved very effective;  most land-native creatures are already quite awkward when waist-deep in water, and getting caught in a net can nearly render them helpless.\n"
+"    \n"
+"    The effectiveness of this led to the development of smaller, weighted nets, which could be cast through the air; these were useless for fishing, but were useful in both combat, and in hunting game that came too close to shore. Clubs were used in combat with little or no adaptation from fishing, since they were already quite deadly."
+msgstr ""
 
 #. [unit_type]: id=Mermaid Priestess, race=merman
 #. +> trunk 1.6
@@ -2855,7 +2892,7 @@ msgstr "Змијолики нагајци једна су од малоброј�
 
 #. [female]
 #. +> trunk 1.6
-#: data/core/units/nagas/Fighter.cfg:141
+#: data/core/units/nagas/Fighter.cfg:153
 msgid "Nagini Fighter"
 msgstr "нага-борац"
 
@@ -2873,13 +2910,13 @@ msgstr "Најизвежбанији мећу нагајским ратници�
 
 #. [female]
 #. +> trunk 1.6
-#: data/core/units/nagas/Myrmidon.cfg:83
+#: data/core/units/nagas/Myrmidon.cfg:95
 msgid "Nagini Myrmidon"
 msgstr "нага-мирмидонка"
 
 #. [female]
 #. +> trunk 1.6
-#: data/core/units/nagas/Myrmidon.cfg:85
+#: data/core/units/nagas/Myrmidon.cfg:97
 msgid "The most practiced of the nagani blademasters are initiated into the caste of the Myrmidon, masters of their twin-bladed art. They strike as fast as the snakes which they resemble, and dance away from attacks with grace. Not only are they potent enemies on any open terrain, but their ability to swim allows them a deadly mobility."
 msgstr "Најизвежбаније мећу нагајским ратницама уводе се у касту мирмидона, мајстора руковања двосеклим оружјем. Ударају брзо као змије којима наликују, и складно измичу узвратним ударцима. Не само да су моћни противници на било ком отвореном терену, већ им и способност пливања даје смртоносну покретљивост."
 
@@ -2897,13 +2934,13 @@ msgstr "Многи млади нагајски ратници теже да је
 
 #. [female]
 #. +> trunk 1.6
-#: data/core/units/nagas/Warrior.cfg:80
+#: data/core/units/nagas/Warrior.cfg:92
 msgid "Nagini Warrior"
 msgstr "нага-ратница"
 
 #. [female]
 #. +> trunk 1.6
-#: data/core/units/nagas/Warrior.cfg:82
+#: data/core/units/nagas/Warrior.cfg:94
 msgid "Many of the young warriors of the nagani aspire for the day when they merit their second blade. Their martial practice of using twin blades is wholly unlike that of the Orcs and other races, for they have begun to learn the art of using their serpentine form to best effect, twisting and turning to dodge from blows. This makes them potent on land, but the friction of water greatly impedes their ability to do this."
 msgstr "Многе младе нагајске ратнице теже да једнога дана завреде добијања другог сечива. Њихова борилачка вештина употребе двосеклог оружја нимало није налик оној коју користе оркови и друге расе, јер су је ковале са наумом да што боље искористе своје змијско обличје, уврћући се и окрећући како би изврдали ударцима. Ово их чини опасним на копну, али водено окружење доста смета таквој техници."
 
@@ -3551,7 +3588,7 @@ msgstr "смртокос"
 
 #. [unit_type]: id=Deathblade, race=undead
 #. +> trunk 1.6
-#: data/core/units/undead/Skele_Deathblade.cfg:18
+#: data/core/units/undead/Skele_Deathblade.cfg:19
 msgid "In life, the abominations known as 'Deathblades' were masters of combat, soldiers who were both lithe and deadly. Their new masters, recognizing this, outfit them to match the skills they once had. Though frail, these monsters are much faster than the rest of their kind, both on foot and with their blades."
 msgstr "За живота, напасти знане као „смртокоси“ биле су мајстори-борци, војници истовремено и гипки и смртоносни. Ово ће њихови нови господари често препознати, и покушати да искористе опремајући их сагласно њиховим некадашњим вештинама. Иако крхка, ова чудовишта много су бржа од себи сличних, и по кретњама и по руковању сечивима."
 
@@ -3575,7 +3612,7 @@ msgstr "враћеник"
 
 #. [unit_type]: id=Revenant, race=undead
 #. +> trunk 1.6
-#: data/core/units/undead/Skele_Revenant.cfg:18
+#: data/core/units/undead/Skele_Revenant.cfg:19
 msgid "Given false life to do battle once more, the creatures known as Revenants were clearly great warriors in their time, though the memory of that time is now long gone. Even the sorcerers who raised them can only speculate on their past. Such questions aside, a Revenant is a powerful tool in combat: a fearless warrior that feels no pain, and which will fight to the bitter end."
 msgstr "Уливени лажним животом како би се поново борили, створења позната као повраћеници очигледно су била велики ратници у своје доба, иако је сећање на та времена давно избледело. Чак и чаробњаци који су их издигли могу само да нагађају о њиховој прошлости. Без обзира на ове недоумице, враћеник је моћно оруђе у боју: неустрашиви ратник који не осећа бола, и који ће се борити до љутог краја."
 
@@ -3704,7 +3741,7 @@ msgstr "древни ивер"
 
 #. [unit_type]: id=Ancient Wose, race=wose
 #. +> trunk 1.6
-#: data/core/units/wose/Ancient.cfg:20
+#: data/core/units/wose/Ancient.cfg:21
 msgid ""
 "There is a curious story of a farmer who had a great oak in his lawn, a tree which had stood when his father first broke the soil on that land, and under which his family had many memories. It was thus a shock to him, one morning, when he awoke to find it somehow spirited away, with nothing but a bare patch of earth where it once stood.\n"
 "\n"
@@ -3716,8 +3753,8 @@ msgstr ""
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/wose/Ancient.cfg:92 data/core/units/wose/Elder.cfg:91
-#: data/core/units/wose/Wose.cfg:30
+#: data/core/units/wose/Ancient.cfg:105 data/core/units/wose/Elder.cfg:104
+#: data/core/units/wose/Wose.cfg:43
 msgid "crush"
 msgstr "гажење"
 
@@ -3729,7 +3766,7 @@ msgstr "стари ивер"
 
 #. [unit_type]: id=Elder Wose, race=wose
 #. +> trunk 1.6
-#: data/core/units/wose/Elder.cfg:19
+#: data/core/units/wose/Elder.cfg:20
 msgid ""
 "Woses have been said to possess many shapes, all of them tree-like in form, and as they age, to increase in size. Tales tell of woses who resemble trees in this respect as well, towering over the creatures who walk beneath them. This is the greater part of why they are so rarely seen - standing in the slumber which they so often do, a wose of that stature appears to be nothing more than an oddly-shaped tree. Even a careless elf can sometimes be fooled.\n"
 "\n"
@@ -3747,7 +3784,7 @@ msgstr "ивер"
 
 #. [unit_type]: id=Wose, race=wose
 #. +> trunk 1.6
-#: data/core/units/wose/Wose.cfg:20
+#: data/core/units/wose/Wose.cfg:21
 msgid ""
 "Rarely seen even by elves, the Wose is an order of creature about which little is known. The elves are the source of most of this knowledge; they know that these beings are not descended from trees, despite the similarity in form, and they know that a wose is more closely tied to the faerie world than the elves themselves, though in a different way. The motives and workings of their kind are unknown, though most subscribe to the obvious theory that woses are dedicated wardens of the natural world.\n"
 "\n"
@@ -3756,3 +3793,36 @@ msgstr ""
 "Ретко виђани чак и међу вилењацима, ивери су ред створења о којима се мало зна. Вилењаци су извор већине тих сазнања; знају да ова створења нису потомци дрвећа, упркос физичким сличностима, и да су ближе везана за вилински свет него сами вилењаци, премда на другачији начин. Њихови мотиви и понашање нису познати, иако су многи очигледног становишта да су ивери надзорници природног царства.\n"
 "\n"
 "Ивери су сасвим нератоборни, али поседују велику снагу. Међутим, нити обичавају, нити могу да се брзо крећу наоколо."
+
+#. [unit_type]: id=Drake Gladiator, race=drake
+#. +> 1.6
+#: data/core/units/drakes/Gladiator.cfg:4
+msgid "Drake Gladiator"
+msgstr "змаго-гладијатор"
+
+#. [unit_type]: id=Drake Gladiator, race=drake
+#. +> 1.6
+#: data/core/units/drakes/Gladiator.cfg:19
+msgid "The Gladiator has taken a completely different path from the Slashers. Rather than emphasize training, they have chosen to focus on the craft of their weaponry. They are the smiths of Drake society, and it follows that they possess the best weaponry - the sharpest blades and spears, and the maces which complement their already impressive array. Their intense focus on their weapons confers offensive capability at the cost of a slight reduction in their defensive abilities."
+msgstr "Гладијатори су кренули потпуно другим путем у односу на дугорезе. Пре него на вежбање, усредсређују се на ваљаност свог оружја. Они су ковачи у змаговском друштву, из чега следи да поседују најбоље наоружање — најоштрија сечива и копља, и топузе који употпуњују њихов већ импресиван арсенал. Такво поклањање пажње оружју донекле умањује њихове одбрамбене способности."
+
+#. [unit_type]: id=Drake Slasher, race=drake
+#. +> 1.6
+#: data/core/units/drakes/Slasher.cfg:4
+msgid "Drake Slasher"
+msgstr "змаго-дугорез"
+
+#. [unit_type]: id=Drake Slasher, race=drake
+#. +> 1.6
+#: data/core/units/drakes/Slasher.cfg:19
+msgid "Slashers are Clashers who have chosen to master the use of a halberd instead of carrying a sword and the spear. Their great size allows them to use a weapon of matching scale, large enough to skewer a horse as a man would a boar. Their training has also enhanced their stamina and defensive skills, which is a major advantage over their close cousins the Gladiators."
+msgstr "Дугорези су сударачи који су изабрали да овладају руковањем хелебардом, уместо ношења мача и копља. Њихов величанствен стас омогућава им да користе оружје пристајуће величине, довољно велико да преполови коња као што би човек могао свињче. Вежбом такође увећавају издржљивост и одбрамбене способности, што им је главна предност пред блиским сународницима гладијаторима."
+
+#~ msgid "Dwarven Explorers often travel alone through unknown lands, slaying enemies and scouting out new deposits of ore and other precious minerals. They are strong enough to wear full battle armor, giving them added protection against physical attacks. They are powerful fighters, second only to the Dwarven lords, and their amazing maneuverability makes them dangerous indeed."
+#~ msgstr "Патуљачки истраживачи обично путују сами кроз незнане земље, истребљујући непријатеље и трагајући за новим налазиштима руде и вредних минерала. Довољно су јаки да понесу пуни бојни оклоп, ради допунске заштите против физичких напада. Моћни су борци, надмашени једино патуљ-господарима, а запањујућа покретљивост чини их изванредно опасним."
+
+#~ msgid "Dwarvish Pathfinders are faster, stronger and even deadlier with their axes than normal dwarvish scouts. They often race ahead of the main force, scouting out unfamiliar terrain and securing villages and chokepoints."
+#~ msgstr "Патуљачки наступачи су бржи, јачи и још смртоноснији на секири од обичних патуљачких извиђача. Често се крећу испред главнине војске, извиђајући непознати терен и обезбеђујући села и уска грла."
+
+#~ msgid "Dwarvish Scouts explore both above and below ground. They are adept at both fighting hand to hand with their axes and throwing them, but trade away the full endurance of dwarvish line fighters in return for superior mobility."
+#~ msgstr "Патуљачки извиђачи истражују и земље и подземља. Умешни су како у борби прса у прса тако и у бацању својих секира, али се одричу уобичајене издржљивости патуљачких линијских бораца у корист надмоћне покретљивости."

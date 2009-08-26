@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: editor-sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-07-19 13:31+0200\n"
+"POT-Creation-Date: 2009-08-26 14:50+0200\n"
 "PO-Revision-Date: 2009-05-20 10:03+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
-"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
@@ -115,21 +115,21 @@ msgstr "специјално"
 #. [menu]: id=flood_button_editor
 #. +> trunk 1.6
 #: data/core/editor/tool-hints.cfg:7 data/core/editor/tool-hints.cfg:13
-#: data/themes/editor2.cfg:179 data/themes/editor2.cfg:192
+#: data/themes/editor.cfg:179 data/themes/editor.cfg:192
 msgid "Use left/right mouse button to draw fore-/background terrain. Hold Shift to paint base layer only. Ctrl+click to sample terrain under cursor."
 msgstr "Левим/десним дугметом миша цртате терен спреда/у позадини. Држите Shift за сликање само по основном слоју. Ctrl+кликом узимате узорак терена испод показивача."
 
 #. [editor_tool_hint]: id=editor-tool-select
 #. [menu]: id=select_button_editor
 #. +> trunk 1.6
-#: data/core/editor/tool-hints.cfg:19 data/themes/editor2.cfg:214
+#: data/core/editor/tool-hints.cfg:19 data/themes/editor.cfg:214
 msgid "Left mouse button selects, right deselects. Hold Shift for magic-wand selection of tiles with same terrain."
 msgstr "Лево дугме миша бира, десно поништава. Држите Shift за избор магичним штапићем плочица са истим тереном."
 
 #. [editor_tool_hint]: id=editor-tool-starting-position
 #. [menu]: id=start_position_button_editor
 #. +> trunk 1.6
-#: data/core/editor/tool-hints.cfg:25 data/themes/editor2.cfg:203
+#: data/core/editor/tool-hints.cfg:25 data/themes/editor.cfg:203
 msgid "Left mouse button displays player selection, right clears. Number keys scroll to the starting position, alt+number sets respective starting position under cursor, delete clears."
 msgstr "Лево дугме миша приказује избор играча, десно уклања. Тастери бројева клизају до почетних положаја, Alt+број поставља тај почетни положај под показивач, Delete уклања."
 
@@ -141,78 +141,77 @@ msgstr "Кликом налепљујете; умањите приказ за в
 
 #. [menu]: id=menu-editor-file
 #. +> trunk 1.6
-#: data/themes/editor2.cfg:120
+#: data/themes/editor.cfg:120
 msgid "File"
 msgstr "Датотека"
 
 #. [menu]: id=menu-editor-edit
 #. +> trunk 1.6
-#: data/themes/editor2.cfg:131
+#: data/themes/editor.cfg:131
 msgid "Edit"
 msgstr "Уређивање"
 
 #. [menu]: id=menu-editor-map
 #. +> trunk 1.6
-#: data/themes/editor2.cfg:141
+#: data/themes/editor.cfg:141
 msgid "Map"
 msgstr "Мапа"
 
 #. [menu]: id=menu-editor-window
 #. +> trunk 1.6
-#: data/themes/editor2.cfg:151
+#: data/themes/editor.cfg:151
 msgid "Window"
 msgstr "Прозор"
 
 #. [label]: id=villages-icon
 #. +> trunk 1.6
-#: data/themes/editor2.cfg:270
+#: data/themes/editor.cfg:270
 msgid "villages"
 msgstr "села"
 
 #. +> trunk 1.6
-#: src/editor2/action.cpp:32
+#: src/editor/action.cpp:32
 msgid "Error creating action object"
 msgstr "Грешка при стварању објекта радње"
 
 #. +> trunk 1.6
-#: src/editor2/action.cpp:36
+#: src/editor/action.cpp:36
 msgid "Action not implemented"
 msgstr "Радња није изведена"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:133
+#: src/editor/editor_controller.cpp:120
 msgid "Quit Editor"
 msgstr "Напусти уређивач"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:286 src/editor2/editor_controller.cpp:300
+#: src/editor/editor_controller.cpp:275
 msgid "Fatal error"
 msgstr "Кобна грешка"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:316
-#: src/editor2/editor_controller.cpp:1073
+#: src/editor/editor_controller.cpp:300 src/editor/editor_controller.cpp:1060
 msgid "(New Map)"
 msgstr "(нова мапа)"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:322
+#: src/editor/editor_controller.cpp:306
 msgid "Do you really want to quit?"
 msgstr "Желите ли заиста да напустите?"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:324
+#: src/editor/editor_controller.cpp:308
 msgid "Do you really want to quit? Changes in the map since the last save will be lost."
 msgstr "Желите ли заиста да напустите? Измене на мапи од последњег уписа биће изгубљене."
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:326
+#: src/editor/editor_controller.cpp:310
 msgid "Do you really want to quit? The following maps were modified and all changes since the last save will be lost:"
 msgstr "Желите ли заиста да напустите? Следеће мапе су измењене и све измене од последњег уписа биће изгубљене:"
 
 # наслов
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:331
+#: src/editor/editor_controller.cpp:315
 msgid "Quit"
 msgstr "Напуштање"
 
@@ -223,91 +222,91 @@ msgid "Error"
 msgstr "Грешка"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:387
+#: src/editor/editor_controller.cpp:371
 msgid "No editor time-of-day found."
 msgstr "Нема доба дана у уређивачу."
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:423
+#: src/editor/editor_controller.cpp:407
 msgid "Unsaved Changes"
 msgstr "Несачуване измене"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:424
+#: src/editor/editor_controller.cpp:408
 msgid "Do you want to discard all changes you made to the map since the last save?"
 msgstr "Желите ли да одбаците све измене над мапом од последњег уписа?"
 
 # наслов
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:442
+#: src/editor/editor_controller.cpp:426
 msgid "Choose a Map to Open"
 msgstr "Избор мапе за отварање"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:477
+#: src/editor/editor_controller.cpp:461
 msgid "Save the Map As"
 msgstr "Сачувај мапу као"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:481
+#: src/editor/editor_controller.cpp:465
 msgid "The file already exists. Do you want to overwrite it?"
 msgstr "Датотека већ постоји. Желите ли да је пребришете?"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:498
+#: src/editor/editor_controller.cpp:482
 msgid "No random map generators found."
 msgstr "Нема ниједног генератора насумичних мапа."
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:511 src/editor2/editor_controller.cpp:515
+#: src/editor/editor_controller.cpp:495 src/editor/editor_controller.cpp:499
 msgid "Map creation failed."
 msgstr "Стварање мапе није успело."
 
 # наслов
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:530
+#: src/editor/editor_controller.cpp:514
 msgid "Choose a mask to apply"
 msgstr "Избор маске за примењивање"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:537
+#: src/editor/editor_controller.cpp:521
 msgid "Error loading mask"
 msgstr "Грешка при учитавању маске"
 
 # наслов
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:552
+#: src/editor/editor_controller.cpp:536
 msgid "Choose target map"
 msgstr "Избор циљне мапе"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:559 src/editor2/editor_controller.cpp:723
+#: src/editor/editor_controller.cpp:543 src/editor/editor_controller.cpp:707
 msgid "Error loading map"
 msgstr "Грешка при учитавању мапе"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:637 src/editor2/editor_controller.cpp:679
+#: src/editor/editor_controller.cpp:621 src/editor/editor_controller.cpp:663
 msgid "This map is already open."
 msgstr "Ова мапа је већ отворена."
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:658
+#: src/editor/editor_controller.cpp:642
 msgid "Map saved."
 msgstr "Мапа је сачувана."
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:702
+#: src/editor/editor_controller.cpp:686
 msgid "Loaded embedded map data"
 msgstr "Учитани угњеждени подаци мапе."
 
 # >> @title:window
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:703 src/editor2/editor_controller.cpp:717
+#: src/editor/editor_controller.cpp:687 src/editor/editor_controller.cpp:701
 msgid "Map loaded from scenario"
 msgstr "Мапа учитана из сценарија"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:713
+#: src/editor/editor_controller.cpp:697
 msgid ""
 "Loaded referenced map file:\n"
 "$new"
@@ -316,116 +315,116 @@ msgstr ""
 "$new"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:1103
+#: src/editor/editor_controller.cpp:1090
 msgid "Undo"
 msgstr "Опозови"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:1105
+#: src/editor/editor_controller.cpp:1092
 msgid "Can't Undo"
 msgstr "Опозив неизводљив"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:1109
+#: src/editor/editor_controller.cpp:1096
 msgid "Redo"
 msgstr "Понови"
 
 #. +> trunk 1.6
-#: src/editor2/editor_controller.cpp:1111
+#: src/editor/editor_controller.cpp:1098
 msgid "Can't Redo"
 msgstr "Понављање неизводљиво"
 
 #. +> trunk
-#: src/editor2/editor_controller.cpp:1116
+#: src/editor/editor_controller.cpp:1103
 msgid "Auto-update Terrain Transitions: Yes"
 msgstr "Самоажурирање прелаза терена: да"
 
 #. +> trunk
-#: src/editor2/editor_controller.cpp:1119
+#: src/editor/editor_controller.cpp:1106
 msgid "Auto-update Terrain Transitions: Partial"
 msgstr "Самоажурирање прелаза терена: делимично"
 
 #. +> trunk
-#: src/editor2/editor_controller.cpp:1123
+#: src/editor/editor_controller.cpp:1110
 msgid "Auto-update Terrain Transitions: No"
 msgstr "Самоажурирање прелаза терена: не"
 
 #. +> trunk 1.6
-#: src/editor2/editor_map.cpp:150 src/editor2/mouse_action.cpp:439
+#: src/editor/editor_map.cpp:150 src/editor/mouse_action.cpp:439
 msgid "Player"
 msgstr "Играч"
 
 #. +> trunk 1.6
-#: src/editor2/editor_map.cpp:269
+#: src/editor/editor_map.cpp:269
 msgid "The size of the target map is different from the current map"
 msgstr "Величина циљне мапе је различита од текуће"
 
 # >> non-core terrain
 #. +> trunk 1.6
-#: src/editor2/editor_palettes.cpp:510
+#: src/editor/editor_palettes.cpp:506
 msgid "(non-core)"
 msgstr "(спољашњи)"
 
 #. +> trunk 1.6
-#: src/editor2/editor_palettes.cpp:511
+#: src/editor/editor_palettes.cpp:507
 msgid "Will not work in game without extra care."
 msgstr "Неће радити у игри без додатне бриге."
 
 # well-spelled: Исп
 #. +> trunk 1.6
-#: src/editor2/editor_palettes.cpp:536
+#: src/editor/editor_palettes.cpp:532
 msgid "FG"
 msgstr "Исп."
 
 # well-spelled: Поз
 #. +> trunk 1.6
-#: src/editor2/editor_palettes.cpp:538
+#: src/editor/editor_palettes.cpp:534
 msgid "BG"
 msgstr "Поз."
 
 #. +> trunk 1.6
-#: src/editor2/map_context.cpp:70
+#: src/editor/map_context.cpp:70
 msgid "File not found"
 msgstr "Датотека није нађена."
 
 #. +> trunk 1.6
-#: src/editor2/map_context.cpp:84
+#: src/editor/map_context.cpp:84
 msgid "The map file looks like a scenario, but the map_data value does not point to an existing file"
 msgstr "Датотека мапе личи на сценарио, али вредност map_data не показује на постојећу датотеку."
 
 #. +> trunk 1.6
-#: src/editor2/map_context.cpp:99
+#: src/editor/map_context.cpp:99
 msgid "Empty map file"
 msgstr "Празна датотека мапе."
 
 #. +> trunk 1.6
-#: src/editor2/map_context.cpp:219
+#: src/editor/map_context.cpp:219
 msgid "Could not save into scenario"
 msgstr "Не могу да сачувам у сценарио."
 
 #. +> trunk 1.6
-#: src/editor2/map_context.cpp:226
+#: src/editor/map_context.cpp:226
 msgid "Could not save the map: $msg"
 msgstr "Не могу да сачувам мапу: $msg"
 
 #. +> trunk 1.6
-#: src/editor2/mouse_action.cpp:436
+#: src/editor/mouse_action.cpp:436
 msgctxt "(Player)"
 msgid "None"
 msgstr "ниједан"
 
 # наслов
 #. +> trunk 1.6
-#: src/editor2/mouse_action.cpp:443
+#: src/editor/mouse_action.cpp:443
 msgid "Choose player"
 msgstr "Избор играча"
 
 #. +> trunk 1.6
-#: src/editor2/mouse_action.cpp:444
+#: src/editor/mouse_action.cpp:444
 msgid "Which player should start here? You can use alt and a number key to set the starting position for a player, and del to clear the starting position under the cursor. Pressing a number key by itself will scroll to that player's starting position."
 msgstr "Који играч креће одавде? тастером Alt и бројем можете задати почетни положај, а Delete уклања онај под курсором. Само тастер броја отклизаће мапу до почетног положаја тога играча."
 
 #. +> trunk 1.6
-#: src/gui/dialogs/editor_settings.cpp:119
+#: src/gui/dialogs/editor_settings.cpp:161
 msgid "Custom setting"
 msgstr "Посебна поставка"
