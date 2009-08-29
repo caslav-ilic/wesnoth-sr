@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-08-26 14:50+0200\n"
+"POT-Creation-Date: 2009-08-29 12:11+0200\n"
 "PO-Revision-Date: 2009-05-20 10:52+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -368,88 +368,96 @@ msgstr "...Знам... У реду онда, зауставимо те гобл�
 
 #. [message]: speaker=Harper
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:274
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:293
 msgid "We are barely able to survive these orc raids. We lost two men last week, more today... yet Weldyn does nothing!"
+msgstr "Једва преживљамо ове орковске упаде. Изгубисмо два човека прошле седмице, још данас... па опет Велдин ништа не чини!"
+
+#. [message]: speaker=Harper
+#. +> trunk
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:300
+#, fuzzy
+#| msgid "We are barely able to survive these orc raids. We lost two men last week, more today... yet Weldyn does nothing!"
+msgid "We are barely able to survive these orc raids. We lost two men last week, more could have died today... yet Weldyn does nothing!"
 msgstr "Једва преживљамо ове орковске упаде. Изгубисмо два човека прошле седмице, још данас... па опет Велдин ништа не чини!"
 
 #. [message]: speaker=Baldras
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:278
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:306
 msgid "The King stopped sending patrols out here once the war started. Once that happened, the burden fell to us. We are citizens of Wesnoth, and as long as her banner flies we will resist the horde."
 msgstr "Краљ је престао да шаље извиднице овамо како је рат почео. Пошто је тако, терет пада на нас. Ми смо грађани Веснота, и док се његов барјак вијори, одолеваћемо хорди."
 
 #. [message]: speaker=Harper
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:282
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:310
 msgid "The banner will fly over a ghost town if help does not come soon."
 msgstr "Барјак ће се вијорити над градом духова, не стигне ли помоћ ускоро."
 
 #. [message]: speaker=Harper
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:310
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:338
 msgid "They're getting closer to our village! What about the town guards, can they help us?"
 msgstr "Приближавају се селу! Шта са месним стражама, могу ли нам оне помоћи?"
 
 #. [message]: speaker=Baldras
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:314
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:342
 msgid "They'll come out when they see those riders, or us, approaching, but there aren't many of them... I wouldn't count on them being able to protect the village alone for long."
 msgstr "Појавиће се чим спазе пљачкаше, или нас, како се приближавамо, али их нема толико много... Не бих рачунао да сами могу дуго сачувати село."
 
 # |, no-check-spell
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:329
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:357
 msgid "Remald"
 msgstr "Ремалд"
 
 # |, no-check-spell
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:330
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:358
 msgid "Wolmas"
 msgstr "Волмас"
 
 # |, no-check-spell
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:335
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:363
 msgid "Jasken"
 msgstr "Џаскен"
 
 #. [message]: speaker=Wolmas
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:342
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:370
 msgid "What's happening here? Why are you running like mad, $unit.name|?"
 msgstr "Шта се то догађа? Зашто јурцаш тако безглаво, $unit.name|?"
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:346
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:374
 msgid "Goblin riders on the hunt. We must not let any of them to the village!"
 msgstr "Гобли-јахачи у лову. Не смемо пропустити ниједног до села!"
 
 #. [message]: speaker=Wolmas
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:353
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:381
 msgid "Look! Goblin riders are on the hunt - and heading right for Dallben!"
 msgstr "Гле! Гобли-јахачи крећу у лов — и то право ка Далбену!"
 
 #. [message]: speaker=Remald
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:357
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:385
 msgid "Halt!"
 msgstr "Стој!"
 
 #. [message]: speaker=Baldras
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:377
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:405
 msgid "The goblins reached the village! There will surely be nothing left when they are done pillaging it."
 msgstr "Гоблини стигоше до села! Засигурно ништа од њега остати неће кад доврше своје пустошење."
 
 #. [message]: speaker=narrator
 #. +> trunk
-#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:390
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:418
 msgid "None remarked on the passing of the tiny, isolated frontier town. It was but a harbinger of the evil to come under the tyranny of Asheviere."
 msgstr "Нико не запази недаћу маленог, скрајнутог пограничног града. Беше то тек весник зла које ће пристићи под Ашевирином тиранством."
 

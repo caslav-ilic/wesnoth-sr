@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-08-26 14:50+0200\n"
+"POT-Creation-Date: 2009-08-29 12:11+0200\n"
 "PO-Revision-Date: 2009-08-26 17:28+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -186,21 +186,13 @@ msgid "Were it not for the armor they wear, certain drakes might be indistinguis
 msgstr "Да није оклопа који носе, поједини змагови не би се разликовали од истинских змајева, барем у очима обичног човека. Они познати као змагови-судњичаси су узвишена створења, како обдарена неизмерном ватром тако и неосетљива на њу."
 
 #. [attack]: type=blade
-#. +> trunk 1.6
+#. +> trunk
 #: data/core/units/drakes/Armageddon.cfg:85
-#: data/core/units/drakes/Burner.cfg:108 data/core/units/drakes/Fire.cfg:71
 #: data/core/units/drakes/Inferno.cfg:72
-#: data/core/units/goblins/Direwolf_Rider.cfg:55
-#: data/core/units/gryphons/Gryphon.cfg:41
-#: data/core/units/gryphons/Gryphon_Master.cfg:42
-#: data/core/units/gryphons/Gryphon_Rider.cfg:42
-#: data/core/units/monsters/Skeletal_Dragon.cfg:42
-#: data/core/units/undead/Corpse_Ghoul.cfg:27
-#: data/core/units/undead/Corpse_Necrophage.cfg:28
-#: data/core/units/undead/Spirit_Nightgaunt.cfg:54
-#: data/core/units/undead/Spirit_Shadow.cfg:122
-msgid "claws"
-msgstr "канџе"
+#, fuzzy
+#| msgid "battle axe"
+msgid "battle claws"
+msgstr "бојна секира"
 
 #. [attack]: type=fire
 #. +> trunk 1.6
@@ -224,42 +216,28 @@ msgid "Drake Blademaster"
 msgstr "змаго-оштрохват"
 
 #. [unit_type]: id=Drake Blademaster, race=drake
-#. +> trunk 1.6
+#. +> trunk
+#: data/core/units/drakes/Blademaster.cfg:19
+#, fuzzy
+#| msgid "The drakes who master the use of a sword are sworn into a special order. The mark of their initiation is the black-and-white warpaint they display in battle."
+msgid "The drakes who master the use of war blades are sworn into a special order. The mark of their initiation is the black-and-white warpaint they display in battle."
+msgstr "Змагови који загосподаре употребом мача, бивају уведени у посебан ред. Белег су им црне и беле ратничке боје које с поносом носе у битку."
+
+#. [unit_type]: id=Drake Blademaster, race=drake
+#. +> 1.6
 #: data/core/units/drakes/Blademaster.cfg:19
 msgid "The drakes who master the use of a sword are sworn into a special order. The mark of their initiation is the black-and-white warpaint they display in battle."
 msgstr "Змагови који загосподаре употребом мача, бивају уведени у посебан ред. Белег су им црне и беле ратничке боје које с поносом носе у битку."
 
 #. [attack]: type=blade
-#. [attack]: type=arcane
-#. +> trunk 1.6
+#. +> trunk
 #: data/core/units/drakes/Blademaster.cfg:69
-#: data/core/units/drakes/Clasher.cfg:38
-#: data/core/units/drakes/Enforcer.cfg:36
-#: data/core/units/drakes/Flameheart.cfg:79
-#: data/core/units/drakes/Flare.cfg:83 data/core/units/drakes/Thrasher.cfg:23
-#: data/core/units/elves/Archer.cfg:37 data/core/units/elves/Avenger.cfg:76
-#: data/core/units/elves/Captain.cfg:47 data/core/units/elves/Champion.cfg:36
-#: data/core/units/elves/Fighter.cfg:36 data/core/units/elves/Hero.cfg:35
-#: data/core/units/elves/High_Lord.cfg:73 data/core/units/elves/Lord.cfg:39
-#: data/core/units/elves/Marksman.cfg:66 data/core/units/elves/Marshal.cfg:46
-#: data/core/units/elves/Outrider.cfg:46 data/core/units/elves/Ranger.cfg:73
-#: data/core/units/elves/Rider.cfg:48 data/core/units/elves/Scout.cfg:47
-#: data/core/units/elves/Sharpshooter.cfg:63
-#: data/core/units/humans/Horse_Knight.cfg:35
-#: data/core/units/humans/Horse_Paladin.cfg:52
-#: data/core/units/humans/Loyalist_Cavalryman.cfg:64
-#: data/core/units/humans/Loyalist_Dragoon.cfg:49
-#: data/core/units/humans/Loyalist_Lieutenant.cfg:46
-#: data/core/units/humans/Loyalist_Longbowman.cfg:39
-#: data/core/units/humans/Loyalist_Master_Bowman.cfg:39
-#: data/core/units/humans/Loyalist_Sergeant.cfg:47
-#: data/core/units/humans/Loyalist_Swordsman.cfg:39
-#: data/core/units/humans/Woodsman_Ranger.cfg:59
-#: data/core/units/nagas/Fighter.cfg:102 data/core/units/nagas/Myrmidon.cfg:43
-#: data/core/units/nagas/Warrior.cfg:41 data/core/units/orcs/Grunt.cfg:71
-#: data/core/units/orcs/Leader.cfg:28
-msgid "sword"
-msgstr "мач"
+#: data/core/units/drakes/Fighter.cfg:108
+#: data/core/units/drakes/Warrior.cfg:107
+#, fuzzy
+#| msgid "baneblade"
+msgid "war blade"
+msgstr "проклетник"
 
 #. [unit_type]: id=Drake Burner, race=drake
 #. +> trunk 1.6
@@ -272,6 +250,21 @@ msgstr "змаго-кремен"
 #: data/core/units/drakes/Burner.cfg:20
 msgid "Drake Burners are the proud few in whom the blood and strength of their remote ancestors runs truest, giving them the ability to breathe fire. This, coupled with their sheer size and fearsome claws, makes them deadly foes in combat."
 msgstr "Кремен-змагови су они малобројни и поносити у којима тече најчистија крв и снага њихових удаљених предака, дајући им могућност бљувања ватре. То, спрегнуто са њиховом големошћу и застрашујућим канџама, чини их смртоносним противницима у борби."
+
+#. [attack]: type=blade
+#. +> trunk 1.6
+#: data/core/units/drakes/Burner.cfg:108 data/core/units/drakes/Fire.cfg:71
+#: data/core/units/goblins/Direwolf_Rider.cfg:55
+#: data/core/units/gryphons/Gryphon.cfg:41
+#: data/core/units/gryphons/Gryphon_Master.cfg:42
+#: data/core/units/gryphons/Gryphon_Rider.cfg:42
+#: data/core/units/monsters/Skeletal_Dragon.cfg:42
+#: data/core/units/undead/Corpse_Ghoul.cfg:27
+#: data/core/units/undead/Corpse_Necrophage.cfg:28
+#: data/core/units/undead/Spirit_Nightgaunt.cfg:54
+#: data/core/units/undead/Spirit_Shadow.cfg:122
+msgid "claws"
+msgstr "канџе"
 
 #. [unit_type]: id=Drake Clasher, race=drake
 #. +> trunk 1.6
@@ -303,6 +296,14 @@ msgstr ""
 "\n"
 "Ово је такође једина каста којој је дозвољено да прекрши табу борећи се копљима, у додатак змашким обичајним металним канџама. То их чини посебно добрим у „разрешавању“ територијалних размирица са осталим змаговима и наметању закона̂ свога племена."
 
+#. [attack]: type=blade
+#. +> trunk
+#: data/core/units/drakes/Clasher.cfg:38
+#: data/core/units/drakes/Enforcer.cfg:36
+#: data/core/units/drakes/Thrasher.cfg:23
+msgid "war talon"
+msgstr ""
+
 #. [attack]: type=pierce
 #. +> trunk 1.6
 #: data/core/units/drakes/Clasher.cfg:47
@@ -320,7 +321,7 @@ msgstr ""
 #: data/core/units/humans/Loyalist_Javelineer.cfg:40
 #: data/core/units/humans/Loyalist_Spearman.cfg:59
 #: data/core/units/merfolk/Hoplite.cfg:48
-#: data/core/units/merfolk/Hunter.cfg:25 data/core/units/merfolk/Hunter.cfg:33
+#: data/core/units/merfolk/Hunter.cfg:37 data/core/units/merfolk/Hunter.cfg:45
 #: data/core/units/merfolk/Javelineer.cfg:25
 #: data/core/units/merfolk/Javelineer.cfg:33
 #: data/core/units/merfolk/Spearman.cfg:24
@@ -354,18 +355,11 @@ msgid "Rather than hold the battle at a distance, the Enforcers hulk right in wh
 msgstr "Пре него да држе линију на одстојању, силници се јате где год је најжешћа борба прса у прса. На тако блиском растојању, није битно што их оклоп спречава да бљују пламен — битна је само снага коју су научили да усредсреде у сваком удару. Змашки вођи пазе да не укаљају част силника̂, па их позивају у бој само пред најпогубнијим непријатељима."
 
 #. [attack]: type=impact
-#. +> trunk 1.6
+#. +> trunk
 #: data/core/units/drakes/Enforcer.cfg:45
 #: data/core/units/drakes/Thrasher.cfg:41
-#: data/core/units/humans/Loyalist_Heavy_Infantryman.cfg:37
-#: data/core/units/humans/Loyalist_Iron_Mauler.cfg:33
-#: data/core/units/humans/Outlaw.cfg:36
-#: data/core/units/humans/Outlaw_Bandit.cfg:47
-#: data/core/units/humans/Outlaw_Fugitive.cfg:41
-#: data/core/units/humans/Outlaw_Highwayman.cfg:37
-#: data/core/units/humans/Royal_Warrior.cfg:35
-msgid "mace"
-msgstr "топуз"
+msgid "ram"
+msgstr ""
 
 #. [unit_type]: id=Drake Fighter, race=drake
 #. +> trunk 1.6
@@ -376,7 +370,9 @@ msgstr "змаго-борац"
 #. [unit_type]: id=Drake Fighter, race=drake
 #. +> trunk
 #: data/core/units/drakes/Fighter.cfg:20
-msgid "Drake Fighters wield curved scimitars, and possess the fire-breathing skills of their ancestors. They can also fly, which is troubling to any foe. Their great strength, coupled with their hardened scales, is rightly frightening to swordsman of any other race."
+#, fuzzy
+#| msgid "Drake Fighters wield curved scimitars, and possess the fire-breathing skills of their ancestors. They can also fly, which is troubling to any foe. Their great strength, coupled with their hardened scales, is rightly frightening to swordsman of any other race."
+msgid "Drake Fighters wield curved war blades, and possess the fire-breathing skills of their ancestors. They can also fly, which is troubling to any foe. Their great strength, coupled with their hardened scales, is rightly frightening to swordsman of any other race."
 msgstr "Змагови борци рукују закривљеним јатаганима, и поседују змајобљувачке способности својих предака. Такође умеју летети, што је забрињавајући било ком противнику. Њихова велика снага, у садејству са отврднулим крљуштима, право је застрашујућа за мачеваоце било које друге расе."
 
 #. [unit_type]: id=Drake Fighter, race=drake
@@ -386,9 +382,8 @@ msgid "Drake Fighters wield curved scimitars, and possess the fire breathing ski
 msgstr "Змагови борци рукују закривљеним јатаганима, и поседују змајобљувачке способности својих предака. Такође умеју летети, што је забрињавајући било ком противнику. Њихова велика снага, у садејству са отврднулим крљуштима, право је застрашујућа за мачеваоце било које друге расе."
 
 #. [attack]: type=blade
-#. +> trunk 1.6
-#: data/core/units/drakes/Fighter.cfg:108
-#: data/core/units/drakes/Warrior.cfg:107
+#. +> 1.6
+#: data/core/units/drakes/Fighter.cfg:66
 msgid "scimitar"
 msgstr "јатаган"
 
@@ -421,6 +416,35 @@ msgstr "змаго-пламенодух"
 #: data/core/units/drakes/Flameheart.cfg:26
 msgid "It is said that the eldest lines of drakes - the direct descendants of the dragons themselves - have veins which course with fire rather than blood. That they can breathe fire as they do lends credence to this belief, though, for some reason, no one has tried cutting one open to find out."
 msgstr "Каже се да су најстарији у родослову змагова директни потомци змајева лично, са венама кроз које уместо крви тече ватра. Начин на који бљују ватру даје потпору овом уверењу, иако, из неког разлога, нико још није покушао да неког од њих сецира како би се уверио."
+
+#. [attack]: type=blade
+#. [attack]: type=arcane
+#. +> trunk 1.6
+#: data/core/units/drakes/Flameheart.cfg:79
+#: data/core/units/drakes/Flare.cfg:83 data/core/units/elves/Archer.cfg:37
+#: data/core/units/elves/Avenger.cfg:76 data/core/units/elves/Captain.cfg:47
+#: data/core/units/elves/Champion.cfg:36 data/core/units/elves/Fighter.cfg:36
+#: data/core/units/elves/Hero.cfg:35 data/core/units/elves/High_Lord.cfg:73
+#: data/core/units/elves/Lord.cfg:39 data/core/units/elves/Marksman.cfg:66
+#: data/core/units/elves/Marshal.cfg:46 data/core/units/elves/Outrider.cfg:46
+#: data/core/units/elves/Ranger.cfg:73 data/core/units/elves/Rider.cfg:48
+#: data/core/units/elves/Scout.cfg:47
+#: data/core/units/elves/Sharpshooter.cfg:63
+#: data/core/units/humans/Horse_Knight.cfg:35
+#: data/core/units/humans/Horse_Paladin.cfg:52
+#: data/core/units/humans/Loyalist_Cavalryman.cfg:64
+#: data/core/units/humans/Loyalist_Dragoon.cfg:49
+#: data/core/units/humans/Loyalist_Lieutenant.cfg:46
+#: data/core/units/humans/Loyalist_Longbowman.cfg:39
+#: data/core/units/humans/Loyalist_Master_Bowman.cfg:39
+#: data/core/units/humans/Loyalist_Sergeant.cfg:47
+#: data/core/units/humans/Loyalist_Swordsman.cfg:39
+#: data/core/units/humans/Woodsman_Ranger.cfg:59
+#: data/core/units/nagas/Fighter.cfg:102 data/core/units/nagas/Myrmidon.cfg:43
+#: data/core/units/nagas/Warrior.cfg:41 data/core/units/orcs/Grunt.cfg:71
+#: data/core/units/orcs/Leader.cfg:28
+msgid "sword"
+msgstr "мач"
 
 #. [unit_type]: id=Drake Flare, race=drake
 #. +> trunk 1.6
@@ -532,8 +556,16 @@ msgid "Drake Warrior"
 msgstr "змаго-ратник"
 
 #. [unit_type]: id=Drake Warrior, race=drake
-#. +> trunk 1.6
+#. +> trunk
 #: data/core/units/drakes/Warrior.cfg:19
+#, fuzzy
+#| msgid "Drake Warriors wield swords with great skill, and possess the fire breathing skills of their ancestors. The great strength of their kind allows them to strike devastating blows, and to withstand punishment in equal measure."
+msgid "Drake Warriors wield war blades with great skill, and possess the fire breathing skills of their ancestors. The great strength of their kind allows them to strike devastating blows, and to withstand punishment in equal measure."
+msgstr "Змагови ратници врло вешто рукују мачем, а имају и способност бљувања ватре налик својим предацима. Њихова снага омогућава им да задају разарајуће ударце, и да поднесу узвраћање истом мером."
+
+#. [unit_type]: id=Drake Warrior, race=drake
+#. +> 1.6
+#: data/core/units/drakes/Warrior.cfg:18
 msgid "Drake Warriors wield swords with great skill, and possess the fire breathing skills of their ancestors. The great strength of their kind allows them to strike devastating blows, and to withstand punishment in equal measure."
 msgstr "Змагови ратници врло вешто рукују мачем, а имају и способност бљувања ватре налик својим предацима. Њихова снага омогућава им да задају разарајуће ударце, и да поднесу узвраћање истом мером."
 
@@ -1440,7 +1472,7 @@ msgstr "Велевитези су достигли врхунац умећа с�
 
 #. [attack]: type=blade
 #. +> trunk
-#: data/core/units/humans/Horse_Grand_Knight.cfg:24
+#: data/core/units/humans/Horse_Grand_Knight.cfg:36
 #: data/core/units/humans/Loyalist_Cavalier.cfg:50
 #: data/core/units/humans/Loyalist_General.cfg:56
 #: data/core/units/humans/Loyalist_Grand_Marshal.cfg:52
@@ -1450,7 +1482,7 @@ msgstr "дуги мач"
 
 #. [attack]: type=pierce
 #. +> trunk 1.6
-#: data/core/units/humans/Horse_Grand_Knight.cfg:33
+#: data/core/units/humans/Horse_Grand_Knight.cfg:45
 #: data/core/units/humans/Horse_Knight.cfg:44
 #: data/core/units/humans/Horse_Lancer.cfg:24
 #: data/core/units/humans/Horse_Paladin.cfg:61
@@ -1688,6 +1720,18 @@ msgstr "тешкоход"
 #: data/core/units/humans/Loyalist_Heavy_Infantryman.cfg:19
 msgid "Heavy infantry are an unusual choice for outfitting troops. They are very difficult to send afield in war, and are typically useful only in the defense of the city or castle in which they are stationed. Clad head to toe in full plate, and armed with large maces, heavy infantry excel at their sole purpose of melee combat. A few of them in the center of a line will shore up its strength considerably. The downsides to this are obvious, both in the weight of the metal, and the great care that must be taken of it, but in certain situations, these troops are well worth the trade-offs."
 msgstr "Тешка пешадија је необичан избор у опремању снага. Врло их је тешко отпремити у бој, и обично су корисни само у одбрани града или замка у којему су распоређени. Обујмљени од главе до пете тешким челичним оклопом, и наоружани великим топузима, тешкоходи су изврсни у својој јединој дужности, блиској борби. Неколико њих у средишту постројбе значајно ће јој ојачати снагу. Недостаци су очигледни, и по тежини метала и већим захтевима за одржавање, али у одређеним околностима, ове снаге су добрано вредне тога."
+
+#. [attack]: type=impact
+#. +> trunk 1.6
+#: data/core/units/humans/Loyalist_Heavy_Infantryman.cfg:37
+#: data/core/units/humans/Loyalist_Iron_Mauler.cfg:33
+#: data/core/units/humans/Outlaw.cfg:36
+#: data/core/units/humans/Outlaw_Bandit.cfg:47
+#: data/core/units/humans/Outlaw_Fugitive.cfg:41
+#: data/core/units/humans/Outlaw_Highwayman.cfg:37
+#: data/core/units/humans/Royal_Warrior.cfg:35
+msgid "mace"
+msgstr "топуз"
 
 #. [unit_type]: id=Iron Mauler, race=human
 #. +> trunk 1.6
