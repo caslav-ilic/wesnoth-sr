@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-low\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-08-29 12:11+0200\n"
-"PO-Revision-Date: 2009-08-26 17:28+0200\n"
+"PO-Revision-Date: 2009-08-29 12:39+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "MIME-Version: 1.0\n"
@@ -426,8 +426,6 @@ msgstr "Мачеваоца ће бити, колико их брзо будем 
 #. [message]: id=Kalenz
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/01_The_Uprooting.cfg:428
-#, fuzzy
-#| msgid "Velon died, I am so sad!"
 msgid "This is a stub. Velon died, I am so sad!"
 msgstr "Велон пострада, тако сам тужан!"
 
@@ -472,19 +470,16 @@ msgstr "Каленз и његова дружина пробише се кроз
 msgid "Payback time!"
 msgstr "Стиже наплата!"
 
-# |, no-check-spell
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:64
 #: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:153
-#, fuzzy
-#| msgid "Prager"
 msgid "Player"
-msgstr "Прагер"
+msgstr "Играч"
 
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:68
 msgid "Neutral"
-msgstr ""
+msgstr "Неутрални"
 
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:117
@@ -502,7 +497,7 @@ msgstr "Ти смрдљиви тролови загазише на НАШУ зе
 #: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:204
 #: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:228
 msgid "Enemies"
-msgstr ""
+msgstr "Непријатељи"
 
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/02_Hostile_mountains.cfg:186
@@ -667,10 +662,8 @@ msgstr "Мурудин"
 #. [unit]: type=Orcish Slayer, id=orc_leader
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:190
-#, fuzzy
-#| msgid "Murudin"
 msgid "Urudin"
-msgstr "Мурудин"
+msgstr "Урудин"
 
 #. [objective]: condition=win
 #. +> trunk 1.6
@@ -742,10 +735,8 @@ msgstr "Пази! Неко се шуња кроз измаглицу."
 #. [message]: id=orc_leader
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/03_Kalian.cfg:449
-#, fuzzy
-#| msgid "Hand over the stone and we <i>might</i> not destroy your pinky Elvencitadel and we <i>might</i> spare you. Or, at the very least, I'll give you a quick and painless death."
 msgid "Hand over the stone and we <i>might</i> not destroy your pinky Elvencitadel and we <i>might</i> spare you. Or, at the very least, we'll give you a quick and painless death."
-msgstr "Предајте камен, и <i>можда</i> нећемо уништити вашу крхку вилин-тврђавицу и <i>можда</i> ћемо вас поштедети. Или ћу вам бар подарити брзу и безболну смрт."
+msgstr "Предајте камен, и <i>можда</i> нећемо уништити вашу крхку вилин-тврђавицу и <i>можда</i> ћемо вас поштедети. Или ћемо вам бар подарити брзу и безболну смрт."
 
 #. [message]: id=Galtrid
 #. +> trunk
@@ -1002,7 +993,7 @@ msgstr "Ено их. Истоварили су наше злато у своју
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:164
 msgid "This is a stub. We will need horse riders to transport the treasure."
-msgstr ""
+msgstr "Требаће нам јахачи да пренесемо благо."
 
 #. [message]: id=Hraurg
 #. +> trunk 1.6
@@ -1014,7 +1005,7 @@ msgstr "Вилењаци су нас пратили! Морамо сачуват
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:193
 msgid "Treasure Chest"
-msgstr ""
+msgstr "ковчег с благом"
 
 #. [message]: id=unit
 #. +> trunk 1.6
@@ -1066,7 +1057,7 @@ msgstr "Глупи вилењаци помислили да ће ризница 
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/05_Saurian_Treasury.cfg:305
 msgid "New Objective: Transport the treasure with a rider to the signpost"
-msgstr ""
+msgstr "Нови циљ: Пренесеш ли благо јахачем до путоказа"
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
@@ -4906,13 +4897,11 @@ msgstr "Сатрите их, корен и грану. Спалите њихов
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:228
 msgid "Kalenz is not able to recruit or recall shamans or any of their advancements in this scenario."
-msgstr ""
+msgstr "Каленз у овом сценарију не може да унајмљује и сазива врачарке, нити њихове више нивое."
 
 #. [message]
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/19_Costly_Revenge.cfg:286
-#, fuzzy
-#| msgid "These are but eggs and hatclings."
 msgid "These are but eggs and hatchlings."
 msgstr "То су тек јаја и младунци."
 
@@ -5348,19 +5337,19 @@ msgstr "Не! Овде је крај!"
 #: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:184
 #: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:205
 msgid "This is a stub. Forgive me $unit.name|. I will remember the good comrate you have been!"
-msgstr ""
+msgstr "Опрости, $unit.name|. Памтићу те као ваљаног садруга!"
 
 #. [message]: speaker=unit
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:189
 msgid "This is a stub. Whatever $second_unit.name|. I was bored of Live anyway."
-msgstr ""
+msgstr "Нема везе, $second_unit.name|. И тако ми је живот досадио."
 
 #. [message]: speaker=unit
 #. +> trunk
 #: data/campaigns/Legend_of_Wesmere/scenarios/23_End_of_War.cfg:210
 msgid "This is a stub."
-msgstr ""
+msgstr "Заметак."
 
 #. [message]: id=Landar
 #. +> trunk 1.6
