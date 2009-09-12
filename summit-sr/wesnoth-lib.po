@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-08-29 12:11+0200\n"
+"POT-Creation-Date: 2009-09-06 15:04+0200\n"
 "PO-Revision-Date: 2009-08-29 12:39+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 
@@ -908,6 +908,7 @@ msgstr "Стек позива"
 #. [label]
 #. +> trunk
 #: data/gui/default/window/formula_debugger.cfg:86
+#: data/gui/default/window/gamestate_inspector.cfg:187
 msgid "Actions"
 msgstr "Радње"
 
@@ -1104,6 +1105,44 @@ msgstr "Пребрисати?"
 msgid "Save already exists. Do you want to overwrite it?"
 msgstr "Сачувана игра већ постоји. Желите ли да је пребришете?"
 
+#. [label]
+#. +> trunk
+#: data/gui/default/window/gamestate_inspector.cfg:33
+msgid "Gamestate Inspector"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/gamestate_inspector.cfg:86
+#, fuzzy
+#| msgid "Continue"
+msgid "Content"
+msgstr "Настави"
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/gamestate_inspector.cfg:97
+msgid "Inspection window"
+msgstr ""
+
+#. [label]: id=name
+#. +> trunk
+#: data/gui/default/window/gamestate_inspector.cfg:125
+msgid "Variable"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=ok
+#. [button]: id=cancel
+#. [button]: id=close_window
+#. +> trunk 1.6
+#: data/gui/default/window/gamestate_inspector.cfg:250
+#: data/gui/default/window/lobby_main.cfg:503
+#: data/gui/default/window/lobby_player_info.cfg:192
+#: data/gui/default/window/message.cfg:122 src/construct_dialog.cpp:139
+msgid "Close"
+msgstr "Затвори"
+
 #. [grid]
 #. [label]
 #. +> trunk 1.6
@@ -1266,17 +1305,6 @@ msgstr "Слободних места"
 #: data/gui/default/window/lobby_main.cfg:488
 msgid "Invert filter"
 msgstr "Изврни филтер"
-
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [button]: id=ok
-#. [button]: id=cancel
-#. [button]: id=close_window
-#. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:503
-#: data/gui/default/window/lobby_player_info.cfg:192
-#: data/gui/default/window/message.cfg:122 src/construct_dialog.cpp:139
-msgid "Close"
-msgstr "Затвори"
 
 #. [button]: id=send_message
 #. +> trunk
@@ -1630,7 +1658,7 @@ msgstr "Подсетник лозинке"
 #. +> trunk 1.6
 #: data/gui/default/window/mp_method_selection.cfg:31
 #: data/gui/default/window/title_screen.cfg:184
-#: src/gui/dialogs/game_load.cpp:262
+#: src/gui/dialogs/game_load.cpp:266
 msgid "Multiplayer"
 msgstr "Вишеиграње"
 
@@ -1711,7 +1739,7 @@ msgstr "Претходно"
 #. [grid]
 #. +> trunk 1.6
 #: data/gui/default/window/title_screen.cfg:182
-#: src/gui/dialogs/game_load.cpp:264
+#: src/gui/dialogs/game_load.cpp:268
 msgid "Tutorial"
 msgstr "Подучавање"
 
@@ -2387,7 +2415,7 @@ msgid "Linked '$id' group has multiple definitions."
 msgstr "Повезана група ‘$id’ има вишеструке дефиниције."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:188 src/gui/widgets/settings.cpp:516
+#: src/gui/auxiliary/window_builder.cpp:188 src/gui/widgets/settings.cpp:517
 msgid "No resolution defined."
 msgstr "Резолуција није дефинисана."
 
@@ -2395,9 +2423,9 @@ msgstr "Резолуција није дефинисана."
 #: src/gui/auxiliary/window_builder.cpp:294
 #: src/gui/auxiliary/window_builder/panel.cpp:35
 #: src/gui/auxiliary/window_builder/toggle_panel.cpp:38
-#: src/gui/widgets/settings.cpp:780 src/gui/widgets/settings.cpp:879
-#: src/gui/widgets/settings.cpp:972 src/gui/widgets/settings.cpp:1014
-#: src/gui/widgets/settings.cpp:1129
+#: src/gui/widgets/settings.cpp:781 src/gui/widgets/settings.cpp:880
+#: src/gui/widgets/settings.cpp:973 src/gui/widgets/settings.cpp:1016
+#: src/gui/widgets/settings.cpp:1131
 msgid "No grid defined."
 msgstr "Мрежа није дефинисана."
 
@@ -2452,72 +2480,72 @@ msgid "No stack defined."
 msgstr "Стек није задат."
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:235
+#: src/gui/dialogs/game_load.cpp:239
 msgid "#(Invalid)"
 msgstr "#(неваљан)"
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:255
+#: src/gui/dialogs/game_load.cpp:259
 msgid "Campaign: $campaign_name"
 msgstr "Поход: $campaign_name"
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:274
+#: src/gui/dialogs/game_load.cpp:278
 msgid "replay"
 msgstr "снимак"
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:276
+#: src/gui/dialogs/game_load.cpp:280
 msgid "Turn"
 msgstr "Потез"
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:278
+#: src/gui/dialogs/game_load.cpp:282
 msgid "Scenario Start"
 msgstr "Почетак сценарија"
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:281
+#: src/gui/dialogs/game_load.cpp:285
 msgid "Difficulty: "
 msgstr "Тежина: "
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:285
+#: src/gui/dialogs/game_load.cpp:289
 msgid "Version: "
 msgstr "Верзија: "
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:386
+#: src/gui/dialogs/lobby_main.cpp:401
 msgid "Observers allowed"
 msgstr "Посматрачи дозвољени"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:389
+#: src/gui/dialogs/lobby_main.cpp:404
 msgid "Observers not allowed"
 msgstr "Посматрачи нису дозвољени"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:664
+#: src/gui/dialogs/lobby_main.cpp:679
 msgid "Whisper session with $name started. If you don't want to receive messages from this user, type /ignore $name\n"
 msgstr "Започета сесија шаптања за $name|. Ако не желите да примате поруке овог корисника, упишите /ignore $name\n"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:670
+#: src/gui/dialogs/lobby_main.cpp:685
 msgid "Room $name joined"
 msgstr "У соби $name"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1088
+#: src/gui/dialogs/lobby_main.cpp:1103
 msgid "Password Required"
 msgstr "Неопходна лозинка"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1089
+#: src/gui/dialogs/lobby_main.cpp:1104
 msgid "Joining this game requires a password."
 msgstr "За прикључивање овој партији неопходна је лозинка."
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1090
+#: src/gui/dialogs/lobby_main.cpp:1105
 msgid "Password: "
 msgstr "Лозинка: "
 
@@ -2542,22 +2570,22 @@ msgid "Mandatory widget '$id' hasn't been defined."
 msgstr "Обавезни виџет „$id“ није дефинисан."
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:143
+#: src/gui/widgets/settings.cpp:144
 msgid "No default gui defined."
 msgstr "Подразумевано сучеље није дефинисано."
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:303
+#: src/gui/widgets/settings.cpp:304
 msgid "Window not defined."
 msgstr "Прозор није дефинисан."
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:400
+#: src/gui/widgets/settings.cpp:401
 msgid "Widget definition '$definition' doesn't contain the definition for '$id'."
 msgstr "Дефиниција виџета „$definition“ не садржи дефиницију за „$id“."
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:542
+#: src/gui/widgets/settings.cpp:543
 msgid "No state or draw section defined."
 msgstr "Одељак стања или цртања није дефинисан."
 

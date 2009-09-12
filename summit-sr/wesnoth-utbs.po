@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-08-29 12:11+0200\n"
+"POT-Creation-Date: 2009-09-06 15:04+0200\n"
 "PO-Revision-Date: 2009-06-30 11:01+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 
@@ -373,7 +373,7 @@ msgstr "Калех, Ним, помозите!"
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:343
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:512
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:702
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6259
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6262
 msgid "What in Uria's name is that?"
 msgstr "Шта је то за име Урије?"
 
@@ -724,9 +724,9 @@ msgstr "Чуо сам ја за твоју сорту, погани некром
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1549
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2998
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3111
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4045
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4971
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5118
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4089
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4974
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5121
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1025
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:2872
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:1098
@@ -5141,125 +5141,133 @@ msgid "What?!"
 msgstr "Шта?!"
 
 #. [message]: speaker=Elyssa
-#. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:546
+#. +> trunk
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:547
+#, fuzzy
+#| msgid "I have learned a lot about the dwarves in my time here, and yet there's so much more to learn. Have you seen their forges? They really know how to work fire and use it in amazing ways. They have some interesting ideas about how they might improve their smithing with my magical fire. And have you seen their records? They have kept records of their dealings that go back generations upon generations. They even know of the dwarven clan who helped craft the scepter of fire. Imagine if I could find the dwarves who helped build such an artifact!"
+msgid "I have learned a lot about the dwarves in my time here, and yet there's so much more to learn. Have you seen their forges? They really know how to work fire and use it in amazing ways. They have some interesting ideas about how they might improve their smithing with my magical fire. And have you seen their records? They have kept records of their dealings that go back generations upon generations. They even know of the dwarven clan who helped craft the sceptre of fire. Imagine if I could find the dwarves who helped build such an artifact!"
+msgstr "Пуно сам сазнала о патуљцима за време које смо овде провели, па ипак остало је још пуно тога да се научи. Да ли си видео њихове ковачнице? Знају како да обликују ватру и користе је на запањујуће начине. Имају неке занимљиве науме како би могли још побољшати поступке мојом магичном ватром. А да ли си видео њихове записе? Сежу назад у прошлост поколења и поколења. Зна се у њима чак и за патуљачки клан који је помогао да се изради Ватрено жезло. Замисли када бих могла да пронађем патуљке који су учествовали у изради таквог предмета!"
+
+#. [message]: speaker=Elyssa
+#. +> 1.6
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:671
 msgid "I have learned a lot about the dwarves in my time here, and yet there's so much more to learn. Have you seen their forges? They really know how to work fire and use it in amazing ways. They have some interesting ideas about how they might improve their smithing with my magical fire. And have you seen their records? They have kept records of their dealings that go back generations upon generations. They even know of the dwarven clan who helped craft the scepter of fire. Imagine if I could find the dwarves who helped build such an artifact!"
 msgstr "Пуно сам сазнала о патуљцима за време које смо овде провели, па ипак остало је још пуно тога да се научи. Да ли си видео њихове ковачнице? Знају како да обликују ватру и користе је на запањујуће начине. Имају неке занимљиве науме како би могли још побољшати поступке мојом магичном ватром. А да ли си видео њихове записе? Сежу назад у прошлост поколења и поколења. Зна се у њима чак и за патуљачки клан који је помогао да се изради Ватрено жезло. Замисли када бих могла да пронађем патуљке који су учествовали у изради таквог предмета!"
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:551
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:552
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:550
 msgid "But we need you! What would we do without you?"
 msgstr "Али потребна си нам! Шта ћемо чинити без тебе?"
 
 #. [message]: speaker=Elyssa
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:556
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:557
 msgid "With the help of the dwarves, I think you will do just fine. I don't know what home your god has planned for you, Kaleh, but I believe in you, and I know that you will find a place for your people. My place is here, with the dwarves. And you don't really need me, you have each other."
 msgstr "Уз помоћ патуљака, верујем да ћете се сасвим добро снаћи. Не знам шта вам је ваша богиња наменила, Калех, али верујем у тебе, и знам да ћеш пронаћи место за свој народ. Мени је место овде, са патуљцима. И нисам вам заиста потребна, док имате једни друге."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:561
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:562
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:560
 msgid "If your mind is set, then I won't try to convince you. But we will miss you."
 msgstr "Ако си тако зацртала, нећу покушавати да те одвратим. Али ћеш нам недостајати."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:566
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:567
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:565
 msgid "I thank Eloh for the brief time that she has let you spend with us."
 msgstr "Хвала Елох за кратко време које ти је наменила да проведеш с нама."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:571
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:572
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:570
 msgid "You take care of yourself, and someday maybe we'll meet again."
 msgstr "Пази на себе, и једног дана можемо се поново срести."
 
 #. [message]: speaker=Elyssa
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:576
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:577
 msgid "Thank you. And I owe you so much for helping me meet the dwarves. I never would have come down here myself. With some help from the dwarves I have enchanted this fire blade for you. May its flames always light your path, and strike down your enemies. I give this to all of you as a token of my gratitude."
 msgstr "Хвала вам. И толико вам дугујем што сте учинили да се сретнем са патуљцима. Сама никада не бих пошла овамо доле. Уз помоћ патуљака, зачарала сам за вас ово ватросечиво. Нека вам његови пламени обасјавају стазу, и сатиру ваше непријатеље. Подарујем га вама свима, као израз своје захвалности."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:583
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:584
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:582
 msgid "A flaming sword. That's amazing. I just don't know who should use it. "
 msgstr "Пламтећи мач. Запањујуће. Не знам само ко би га најбоље користио."
 
 #. [message]: speaker=Elyssa
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:588
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:589
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:587
 msgid "I will let you decide; use it in the best way that you see fit."
 msgstr "Ви сами одлучите; употребите га како год сматрате за сходно."
 
 #. [message]: speaker=narrator
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:593
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:594
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:592
 msgid "You can choose which unit you want to take the flaming sword. If you want another unit to wield the sword, Kaleh can recruit or recall other units."
 msgstr "Можеш изабрати која ће јединица понети пламтећи мач. Ако желиш да нека друга јединица добије мач, Калех је може унајмити или сазвати."
 
 #. [message]: speaker=King Thurongar
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:614
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:684
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:615
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:685
 msgid "And now I think you should be off as soon as possible. The trolls have retreated back into their holes for the present, but who knows when they will strike again."
 msgstr "Сада мислим да је најбоље да кренете што пре можете. Тролови су се тренутно повукли у своје рупе, али ко зна када ће поново ударити."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:619
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:689
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:620
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:690
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:685
 msgid "This is a marvelous city, but I for one can't wait to feel the sun upon my face again and the wind in my hair."
 msgstr "Овај је град чудесан, али барем ја не могу дочекати да поново осетим сунчеве зраке на лицу и ветар у коси."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:650
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:651
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:649
 msgid "Should I take this sword?"
 msgstr "Да ли да узмем овај мач?"
 
 #. [option]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:652
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:653
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:651
 msgid "Yes, I'll take it."
 msgstr "Да, узми га."
 
 #. [object]: id=FlamingSword
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:664
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:665
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:663
 msgid "Flaming Sword"
 msgstr "пламтећи мач"
 
 #. [object]: id=FlamingSword
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:665
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:666
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:664
 msgid "This sword will make all your melee attacks do fire damage."
 msgstr "Овај мач чини да сви блиски напади наносе ватрену штету."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:679
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:680
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:675
 msgid "I will wield this blade proudly, and whenever I look upon it I shall remember you, Elyssa."
 msgstr "С поносом ћу руковати овим мачем, и кад год га погледам, сећаћу се Елисе."
 
 #. [option]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:709
+#: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:710
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:703
 msgid "No, I think someone else should wield it."
 msgstr "Не, боље да га неко други понесе."
@@ -6490,329 +6498,329 @@ msgstr "И нека буде. Није ме брига."
 
 #. [message]: speaker=$explorer.id
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3678
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3722
 msgid "Look, daylight! I think we finally made it out of the caves!"
 msgstr "Гледајте, светло дана! Напокон излаз из пећина!"
 
 #. [message]: speaker=$explorer.id
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3683
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3727
 msgid "What's this? Someone has built an outpost at the end of the cave. Where are its occupants?"
 msgstr "Шта је ово? Неко је саградио испоставу на крају пећине. Где су њени станари?"
 
 #. [message]: speaker=$explorer.id
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3703
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3747
 msgid "Kaleh, I think you should come up and see this."
 msgstr "Калех, требало би да дођеш и видиш ово."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3715
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3759
 msgid "Oh, Eloh. They're all dead. Butchered. Quick, we have to clean this up, we don't want the rest of our people to have to see such horror."
 msgstr "О, Елох. Сви су мртви. Искасапљени. Брзо, морамо све да рашчистимо, пре него што остатак нашег народа види овај ужас."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3720
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3764
 msgid "Now, Keratur, I will have my answers. Did you have a hand in this?"
 msgstr "Сада, Кературе, добићу одговоре које тражим. Јеси ли ти имао удела у овоме?"
 
 #. [unit]: type=Dark Assassin3, id=Keratur
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3728
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3772
 msgid "Keratur"
 msgstr "Кератур"
 
 #. [message]: speaker=Keratur
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3743
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3787
 msgid "They heard me and...and they got in the way. But they aren't even elves, what do they matter?"
 msgstr "Чули су ме... и испречили ми се на путу. Али они нису били чак ни вилењаци, од какве је то важности?"
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3748
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3792
 msgid "You idiot--"
 msgstr "Ти будало—"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3753
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3797
 msgid "Quiet, Nym. But I still don't understand how you got here. We were sure you were dead. We searched and searched, but never found your body."
 msgstr "Тишина, Ним. Али и даље не разумем како си доспео овамо. Били смо убеђени да си мртав. Тражили смо и тражили, али не нађосмо твоје тело."
 
 #. [message]: speaker=Keratur
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3759
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3803
 msgid "Heh, heh, no you didn't find me. I awoke trapped under the rubble, and when I finally escaped the village was deserted. Just the stink of death and destruction. And then I saw them, hordes of undead pouring down from across the dunes. A cabal of necromancers... they found me and made me watch, they made me watch it all! "
 msgstr "Хе, хе, не, нисте ме нашли. Пробудио сам се заробљен под рушевинама, и када сам се коначно извукао, село је било напуштено. Само задах смрт и разарања. И тада сам их видео, хорде немртвих што се сливају низ дине. Дружина некромантска... нашли су ме, и натерали да посматрам, да гледам све што се дешава!"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3764
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3808
 msgid "Watch what?"
 msgstr "Да гледаш шта?"
 
 #. [message]: speaker=Keratur
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3770
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3814
 msgid "They brought some humans, bound up tight. So beautiful...she had flaming red hair...they cut her...I can still hear her screaming. But that was only the beginning. They chanted words of power, and spilled the hot blood onto the sand and then I heard their screams of agony and pain..."
 msgstr "Довели су неке људе, чврсто везане. Тако лепа... ватрена црвена коса... исекли су је... и даље је могу чути како вришти. Али то је био тек почетак. Рецитовали су речи моћи, и проливали крв на врели песак, а затим сам слушао њихове крике у агонији, и бол..."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3775
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3819
 msgid "From the humans?"
 msgstr "Од људи?"
 
 #. [message]: speaker=Keratur
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3781
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3825
 msgid "Faugh. No, I heard the screams of the dead, torn from their rest, their souls rose into the air howling in agony."
 msgstr "Фу. Не, чуо сам вриштање мртвих, истргнутих из својих починака, њихове душе што се издизаше у ваздух, јечећи у агонији."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3786
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3830
 msgid "But, but we burned the bodies so they couldn't be raised."
 msgstr "Али, сахранили смо тела да их се не би могло подићи."
 
 #. [message]: speaker=Keratur
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3792
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3836
 msgid "Fool. That did not stop their dark power. Nothing could stop them. I felt the rush of flying spirits, and the unbearable cold, so cold. For a moment I felt their torment. But no, they wouldn't kill me. They let me go as a witness and laughed as I scrambled over the dunes."
 msgstr "Будало. То није спречило мрачну моћ. Ништа их не би могло спречити. Осетио сам навалу лебдећих сабласти, неподношљиву хладноћу, тако хладно. На тренутак сам осећао њихову патњу. Али не, нису хтели да ме убију. Пустили су ме да идем, као сведока, и смејали се док сам се ја саплитао преко дина."
 
 #. [message]: speaker=Keratur
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3798
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3842
 msgid "I was able to follow your trail, and I slipped among your people. No one noticed me, no I was too sneaky. And you wondered how I managed to follow you through the tunnels? Hah, you escorted me."
 msgstr "Успео сам да испратим ваш траг, и увукао се међу народ. Нико ме није приметио, био сам врло вешт у томе. А ви се питате како сам вас пратио кроз тунеле? Ха, ви сте пратили мене."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3803
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3847
 msgid "But why, why did you want to kill us?"
 msgstr "Али зашто, зашто ти је била жеља да нас побијеш?"
 
 #. [message]: speaker=Keratur
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3809
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3853
 msgid "You abandoned them! The pain, the agony, I still see their ghostly faces and hear their wails. And the necromancers kept chanting one name over and over: Yechnagoth, Yechnagoth, it reverberated in my ears. And every time I sleep I hear that name, and laughter, hideous laughter. She kept telling me it was your fault. And I believed her. Kaleh, forgive me, I just wanted to make the pain stop."
 msgstr "Напустили сте их! Бол, агонија, и даље видим њихова утварна лица и чујем њихове јауке. А некроманти су настављали да сричу једно име, изнова и изнова: Јехнагот, Јехнагот, одјекивало је у мојим ушима. И сваки пут када заспим, поново чујем то име, и смех, гнусан смех. Стално ми је причала да је грешка твоја, и веровах јој. Калех, опрости ми, само сам желео да бол престане."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3814
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3858
 msgid "I...I forgive you."
 msgstr "Ја... опраштам ти."
 
 #. [message]: speaker=Keratur
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3820
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3864
 msgid "I do not fear death any more."
 msgstr "Више се не плашим смрти."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3833
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3877
 msgid "He's dead. Rest in peace. Oh, what have I done? All our dead kin, desecrated and tormented for eternity."
 msgstr "Мртав је. Почивај у миру. О, шта сам то учинио? Сви наши мртви, оскрнављени и у мукама за целу вечност."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3838
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3882
 msgid "As you said yourself, the past is the past, there is nothing you can do now."
 msgstr "Као што и сам рече, прошлост је прошлост, сада се ту више ништа не може учинити."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3843
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3887
 msgid "Don't blame yourself. You didn't know. If we had stayed behind we too would have been killed by the undead; we could not have defended our village against so many. We had no choice."
 msgstr "Не криви себе. Ниси могао знати. Да смо заостали, немртви би и нас побили — нисмо могли бранити село пред толиком силом. Нисмо имали избора."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3848
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3892
 msgid "That is small consolation. My deeds have turned to ashes in my mouth. Eloh forgive me. I did not know."
 msgstr "Слаба је то утеха. Моја дела претворише се у пепео у мојим устима. Елох, опрости ми, не знадох."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3859
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3903
 msgid "With your permission, Kaleh, I think I should go scout around a bit outside. We have no idea what lies out there. And I can sneak around unseen many places you can't."
 msgstr "Уз твоју дозволу, Калех, радо бих извидела мало околину напољу. Не знамо шта нас чека, а ја могу да се прошуњам непримећена кроз многа места где ти не можеш."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3864
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3908
 msgid "Okay Nym, just be careful."
 msgstr "У реду, Ним, само буди опрезна."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3869
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3913
 msgid "I'm always careful. I'll be back soon."
 msgstr "Ја сам увек опрезна. Вратићу се ускоро."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3889
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3933
 msgid "Well, at least we can use this outpost to rally our surviving troops. How many of our people made it out of the caves, Zhul?"
 msgstr "Па, барем можемо употребити ову постају да прикупимо преостале снаге. Колико је народа успело да се провуче кроз пећине, Жул?"
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3894
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3938
 msgid "We're still trying to get a head count, but between the underground horrors and the water, we lost quite a few. Recruiting new warriors is going to be even more difficult. Still we should thank Eloh, and you, Kaleh, that so many of us did survive."
 msgstr "И даље смо заузети пребројавањем, али између подземних ужаса и воде, страдало је немало. Позивање нових ратника биће од сада још теже. Па ипак, Калех, треба да смо захвални Елох, што нас је толико преживело."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4041
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4085
 msgid "Well, Nym's right, we don't know what's out there. So we should set up a perimeter guard around the cave mouth and start discovering what this side of the mountains looks like."
 msgstr "Па, Ним је у праву, не знамо шта је тамо напољу. Зато је најбоље да поставимо стражу око уста пећине, и почнемо да истражујемо како изгледа ова страна планина."
 
 #. [objective]: condition=win
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4048
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4092
 msgid "Explore Outside"
 msgstr "Истражиш ли спољашњост"
 
 #. [objective]: condition=lose
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4052
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4978
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5129
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4096
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4981
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5132
 msgid "Death of Kaleh, Nym, or Zhul"
 msgstr "Настрада ли Калех, Ним, или Жул"
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4094
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4138
 msgid "Look, the tunnel slopes sharply downwards to the left. And it's big enough that it should divert most of the rising water."
 msgstr "Гледајте, тунел се нагло спушта и скреће улево. И довољно је велики да одведе већи део воде."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4099
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4143
 msgid "And I think I see a faint light off to the right."
 msgstr "И чини ми се да видим трачак светлости десно."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4104
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4148
 msgid "Could it be? Could we actually be almost out of this seemingly never-ending darkness?"
 msgstr "Може ли то бити? Да ли смо заиста надомак изласка из ове бескрајне таме?"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4146
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4190
 msgid "$intl_ally_name, I want to thank you so much for guiding us out of the caves. We never would have found our way without your help. But with the tunnels flooded, how are you going to find your way back to your people?"
 msgstr "$intl_ally_name, желим да ти захвалим за то што нас доведе до изласка из пећина. Пут никада не бисмо пронашли без твоје помоћи. Али пошто су тунели поплављени, како ћеш се вратити назад свом народу?"
 
 #. [message]: speaker=$ally_name
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4151
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4195
 msgid "Och, it is I who should be congratulating you, laddie. I showed you the way, but it was you and your people who defeated the many perils and obstacles to your escape. In all my years such bravery and courage I have rarely seen."
 msgstr "Ја сам тај који треба да честита теби, момче. Показао сам пут, али сте се ти и твој народ изборили са свим опасностима и препрекама на које наиђосмо. За све своје године, ретко видех такву храброст и одважност."
 
 #. [message]: speaker=$ally_name
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4156
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4200
 msgid "But truly I cannot return the way I came and even if there are other tunnels which lead back down to my homeland, I do not know where to search for them. I know as little about the land above ground as you do."
 msgstr "Уистину се не могу вратити путем којим смо дошли. Чак и ако има других тунела који воде назад мојој домовини, не знам где би их потражио. О земљама што се простиру напољу, знам једнако мало колико и ти."
 
 #. [message]: speaker=$ally_name
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4161
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4205
 msgid "But my king told me to protect you from all dangers, and I plan to keep that oath. I do not like the above ground, it is too open and exposed; I feel that I could be attacked from any direction. But an oath is an oath and so I will follow you and your people wherever you may go and protect you as best I can. The tunnels cannot stay flooded forever; later perhaps if am able to return this way, I may be able to find my way back to my homeland. But for now I am yours to command."
 msgstr "Али, краљ ми заповеди да те штитим од сваке опасности, и намеран сам да одржим заклетву. Не волим површину, превише је отворена и изложена; осећам као да ће нас напасти са свих страна. Међутим, заклетва је заклетва, и тако ћу пратити тебе и твој народ куда год да се запутите, и чувати вас најбоље што умем. Тунели не могу занавек остати под водом; касније се можда могу вратити истим путем, назад своме дому. Али за сада, биће како ти заповедиш."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4166
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4210
 msgid "Your loyalty is a credit to your people. I am glad indeed to have you fighting by my side."
 msgstr "Твоја оданост служи на част твоме народу. Збиља ми је драго да се нађеш крај мене у борбама које предстоје."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4173
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4217
 msgid "$intl_ally_name, thank you so much for leading us out of the caves. We never would have found our way without your help. But with the tunnels flooded, how are you going to find your way back to your people?"
 msgstr "$intl_ally_name, хвала ти што нас изведе из пећина. Без твоје помоћи, никада не бисмо пронашли пут. Али пошто су тунели поплављени, како ћеш се вратити своме народу?"
 
 #. [message]: speaker=$ally_name
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4178
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4222
 msgid "$intl_ally_name proud of little elves too. He would not have made it this far without all your help. $intl_ally_name is surprised by your bravery and strength."
 msgstr "И $intl_ally_name поносан на мале вилењаке. Не би стигао скроз довде без све ваше помоћи. $intl_ally_name изненађен вашом храброшћу и снагом."
 
 #. [message]: speaker=$ally_name
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4183
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4227
 msgid "Truth is that $intl_ally_name not know much of sunlight lands. Sun and stars are scary, everything is open, exposed, no safe places to hide. But $intl_ally_name cannot go back through all that water. And $intl_ally_name doesn't know where to find other tunnels back to his home. He is as lost as elves are."
 msgstr "Истина је да $intl_ally_name не зна много о осунчаним земљама. Сунца и звезде плаше, све је отворено, изложено, без места за сакривање. Али $intl_ally_name не може назад кроз толику воду. Ни $intl_ally_name не зна где да нађе друге тунеле који воде назад кући. Изгубљен као и вилењаци што су."
 
 #. [message]: speaker=$ally_name
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4188
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4232
 msgid "But $intl_ally_name not afraid. Great leader told $intl_ally_name to guide and protect elves, and $intl_ally_name will keep his oath. $intl_ally_name will follow elves wherever they may go and protect them from danger as best he can. Maybe later, $intl_ally_name will find another way back down to the caves of his people. But for now, $intl_ally_name will continue to serve and protect you."
 msgstr "Али $intl_ally_name није уплашен. Велики вођа каже $intl_ally_name да води и штити вилењаке, и $intl_ally_name одржава своју заклетву. $intl_ally_name прати вилењаке куда год да крену, и штити их од опасности најбоље што уме. Можда касније, $intl_ally_name нађе неки други пут кроз пећине, до свог народа. Али за сада, $intl_ally_name ће наставити да служи и штити."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4193
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4237
 msgid " Your loyalty is a credit to your people. I am glad indeed to have you fighting by my side."
 msgstr " Твоја оданост служи на част твоме народу. Збиља ми је драго да се нађеш крај мене у борбама које предстоје."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4278
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4281
 msgid "Looks like the guards at this outpost had been saving away a bit of loot. I don't suppose they're going to mind anymore if we made use of it."
 msgstr "Изгледа да је претходна посада ове постаје стављала на страну нешто плена. Не верујем да ће им сметати ако се ми послужимо тиме."
 
 #. [message]: speaker=unit
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4339
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4428
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4342
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4431
 msgid "Praise Eloh, it is so good to be outside again. To see the sky stretching out above me, to feel the wind in my face..."
 msgstr "Хваљена Елох, тако је добро поново бити напољу. Да видим небо где се простире надамном, да осетим ветар на лицу..."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4372
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4375
 msgid "I think we finally made it outside. I'd forgotten how big the sky is and how windy it can be."
 msgstr "Коначно смо напољу. Скоро заборавих колико је небо и како ветровито може бити."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4380
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4383
 msgid "We made it. Outside look strange to $intl_ally_name, $intl_ally_name not used to big open spaces."
 msgstr "Успели смо. $intl_ally_name мисли да споља изгледа чудно, $intl_ally_name није навикао на велики отворени простор."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4406
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4409
 msgid "Kromph is outside, but everything looks strange. What does mistress want Kromph to do?"
 msgstr "Кромф је напољу, али све изгледа чудно. Шта жели господарица да Кромф чини?"
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4411
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4414
 msgid "Just stay where you are, I'll come up there myself"
 msgstr "Само стој ту где си, сама ћу се попети тамо."
 
 #. [message]: race=elf
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4440
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4443
 msgid "Can you see very far? Do you have any idea where we are?"
 msgstr "Колико далеко се може видети? Икаквих назнака где смо?"
 
 #. [message]: speaker=$explorer.id
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4446
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4449
 msgid "We've come out on the side of a mountain, overlooking a large valley. The land seems to be much the same as the foothills south of the mountains. The valley is filled with sand dunes, though the center is flat. There seems to be some sort of settlement in the center of the valley. And far to the north I can see something sparkling on the horizon, but I don't know what it is."
 msgstr "Изађосмо на обронку планине, што гледа ка великој долини. Земља изгледа прилично слично као и подножје планина на јужној страни. Долина је испуњена пешчаним динама, али је средиште равно. У њему се налази некаква насеобина. А далеко на северу, видим неко светлуцање под обзорјем, али не знам шта је."
 
@@ -6821,7 +6829,7 @@ msgstr "Изађосмо на обронку планине, што гледа �
 #. [side]
 #. [unit]: type=Divine Incarnation, id=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4530
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4533
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:832
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:1689
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:51
@@ -6833,247 +6841,247 @@ msgstr "Елох"
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4563
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4566
 msgid "Kaleh, Kaleh, come to me."
 msgstr "Калех, Калех, дођи к мени."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4568
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4571
 msgid "What is the voice? It sounds so familiar."
 msgstr "Какав је то глас? Звучи тако познато."
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4573
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4576
 msgid "Come out so that I might see you. Your god calls to you."
 msgstr "Изађи да те могу видети. Твоја богиња те дозива."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4578
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4581
 msgid "Am I dreaming? Is this real? I'm coming, I'm coming."
 msgstr "Сањам ли ја то? Да ли је ово збиља? Долазим, долазим."
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4592
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4595
 msgid "Hail Kaleh, it is I, Eloh."
 msgstr "Поздрав, Калех, то сам ја, Елох."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4599
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4602
 msgid "But I am not asleep? And yet I can see you? How is this possible?"
 msgstr "Али ја нисам у сну? Па ипак те могу видети? Како је то могуће?"
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4604
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4607
 msgid "Do you doubt my powers? You have come out of the darkness, and I appear unto you to congratulate you."
 msgstr "Сумњаш ли у моје моћи? Изашли сте из тмине, и јављам се да вам честитам."
 
 #. [message]: speaker=$explorer.id
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4619
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4636
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4622
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4639
 msgid "Kaleh, who are you talking to?"
 msgstr "Калех, с ким то причаш?"
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4624
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4641
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4627
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4644
 msgid "For now, I appear only to you, for you, Kaleh, are special, you are the Chosen One."
 msgstr "За сада, приказујем се само теби, јер ти си, Калех, посебан. Ти си Изабрани."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4629
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4632
 msgid " $speaker.name|, be quiet, I'll explain it all later."
 msgstr " $speaker.name|, тишина, објаснићу све касније."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4646
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4649
 msgid "Be quiet Zhul, I'll explain it all later."
 msgstr "Тишина, Жул, објаснићу све касније."
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4653
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4656
 msgid "Yes, I have chosen you as the one to lead my people out of danger and death and into a life of eternal salvation. Crossing under the mountains was a very important step, and your destruction of the unbelievers proves your-"
 msgstr "Да, изабрала сам те као онога који ће повести мој народ из опасности и смрти, у живот вечног спасења. Пролазак испод планина био је врло важан корак, и то што си уништио невернике доказује твоју—"
 
 #. [message]: speaker=$ally_name
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4667
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4670
 msgid "Kaleh, a quick question-"
 msgstr "Калех, једно брзо питање—"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4672
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4675
 msgid "Not now $intl_ally_name, I'm busy."
 msgstr "Не сада $intl_ally_name, заузет сам."
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4677
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4680
 msgid "What's this? You did not kill the unbelievers?!"
 msgstr "Шта је то? Ниси побио невернике?!"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4689
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4692
 msgid "I am sorry I could not have fulfilled your command, but we found ourselves in the middle of a war. We were vastly outnumbered and we needed help. In fact the Dwarves have been very helpful. They helped protect us from the trolls and without their guidance we would not have made it out of the caves alive."
 msgstr "Жао ми је што нисам успео да испуним твоју заповест, али се нађосмо усред ратног вихора. Били смо неизмерно надјачани, и требала нам је помоћ. У ствари, патуљци су нам били од велике помоћи. Штитили су нас од тролова, а без њихове помоћи не бисмо ни успели да се живи извучемо из пећина."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4696
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4699
 msgid "I am sorry I could not have fulfilled your command, but we found ourselves in the middle of a war. We were vastly outnumbered and we needed help. In fact the Trolls have been very helpful. They helped protect us from the dwarves and without them we would not have made it out of the caves alive."
 msgstr "Жао ми је што нисам успео да испуним твоју заповест, али се нађосмо усред ратног вихора. Били смо неизмерно надјачани, и требала нам је помоћ. У ствари, тролови су нам били од велике помоћи. Штитили су нас од патуљака, а без њихове помоћи не бисмо ни успели да се живи извучемо из пећина."
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4703
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4706
 msgid "You were weak and foolish, but I forgive you. You must remember, Kaleh, that without my guidance, your people would have died out years ago. I am your god, and you must follow my every command."
 msgstr "Био си слаб и несмотрен, али ти опраштам. Али мораш имати на уму, Калех, да би без мојег вођства твој народ страдао још пре много година. Ја сам твоја богиња, и мораш пратити сваку моју заповест."
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4708
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4711
 msgid "Now, in the valley live a group of humans who have also seen the light. They may seem strange, but they are my obedient followers. You must trust them, they will show you the way north. Follow them and they will lead you to me. "
 msgstr "Сада, у тој долини живи скупина људи, која је такође спознала светлост. Могу ти деловати чудно, али су моји верни следбеници. Мораш им веровати, показаће ти пут ка северу. Следи их и одвешће те до мене."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4713
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4716
 msgid "What do you mean 'lead you to me'? You are a god, don't you exist everywhere? I thought you were going to show us our new home."
 msgstr "Како то мислиш „одвести до мене“? Ти си богиња, зар не постојиш свуда око нас? Мислих да ћеш нам показати нови дом."
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4718
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4721
 msgid "Of course I am. Oh, how little you understand. Do not worry yourself with all those tiny questions. Come to me and all will be made clear."
 msgstr "Наравно да јесам. О, како мало ти разумеш. Не мучи себе свим тим ситним питањима. Дођи к мени, и све ће ти постати јасно."
 
 #. [unit]: type=Human Commander, id=Sergeant Durstrag
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4729
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4867
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4732
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4870
 msgid "Sergeant Durstrag"
 msgstr "наредник Дурстраг"
 
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4730
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4731
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4732
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4733
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4878
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4879
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4880
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4734
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4735
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4736
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4881
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4882
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4883
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4884
 msgid "Human Guard"
 msgstr "људска стража"
 
 #. [message]: speaker=Sergeant Durstrag
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4739
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4742
 msgid "I saw the distress signal from the outpost on the bluff. Who in the Dark Lady's name are you and what have you done with my men?"
 msgstr "Видех позив за помоћ из постаје на обронку. У име Госпе таме, ко си ти и шта си урадио с мојим људима?"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4744
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4747
 msgid "My name is Kaleh, and these are my people. We come from the south and unfortunately we found your men dead--"
 msgstr "Име ми је Калех, а ово је мој народ. Долазимо с југа, и нажалост затекосмо твоје људе мртве—"
 
 #. [message]: speaker=Sergeant Durstrag
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4749
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4752
 msgid "Dead?! You 'found' them you say? You'll pardon me if I don't take you at your word. We haven't seen elves for generations, but we remember your ancient betrayal. What are elves doing sneaking up through the caves out onto our back doorstep? "
 msgstr "Мртве?! „Затекосте“ их, кажеш? Извинућеш ме ако не поверујем у то на твоју реч. Поколењима већ не видесмо вилењаке, али памтимо вашу древну издају. Шта сада раде вилењаци, шуњајући се кроз пећине, на нашем прагу?"
 
 #. [message]: speaker=$ally_name
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4754
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4757
 msgid "Well, actually they were fleeing from--"
 msgstr "У ствари, ми смо бежали од—"
 
 #. [message]: speaker=Sergeant Durstrag
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4766
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4769
 msgid "A troll! This just gets better and better. We haven't seen one of your kind up here for many years, but I have a long memory. I still remember the troll raids when I was a youth."
 msgstr "Трол! Ово постаје све лепше од лепшег. Припаднике твоје сорте нисмо видели овамо горе већ много година, али имамо добро памћење. Још увек се сећам троловских удара када сам био мали."
 
 #. [message]: speaker=Sergeant Durstrag
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4773
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4776
 msgid "A dwarf! This just gets better and better. We haven't seen one of your kind up here for many years, but we have a long memories. I remember how your 'traders' used to come up and cheat us out of our valuables. You'll find we're not so easy to fool this time."
 msgstr "Патуљак! Ово постаје све лепше од лепшег. Припаднике твоје сорте нисмо видели овамо горе већ много година, али имамо добро памћење. Још увек се сећам ваших „трговаца“, који су долазили овамо и на превару нам узимали вредности. Видећеш да нас сада није тако лако израдити."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4780
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4783
 msgid "Look, if you'll just let me explain--"
 msgstr "Ако бисте ме само пустили да објасним—"
 
 #. [message]: speaker=Sergeant Durstrag
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4792
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4795
 msgid "Oh there is no need to explain, it's pretty obvious what you're up to. Here we have a whole legion of elves, consorting with trolls, sneaking up behind our defenses. This looks an awful lot like an invasion to me."
 msgstr "Нема никакве потребе за објашњавањем, сасвим је очигледно шта сте наумили. Ето читаве легије вилењака, у дослуху са троловима, где се шуњају иза наших линија. Мени то потпуно наличи на инвазију."
 
 #. [message]: speaker=Sergeant Durstrag
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4799
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4802
 msgid "Oh they're no need to explain, it's pretty obvious what you're up to. Here we have a whole legion of elves, consorting with dwarves, sneaking up behind our defenses. This looks an awful lot like an invasion to me. "
 msgstr "Нема никакве потребе за објашњавањем, сасвим је очигледно шта сте наумили. Ето читаве легије вилењака, у дослуху са патуљцима, где се шуњају иза наших линија. Мени то потпуно наличи на инвазију."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4806
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4809
 msgid "No, no. You don't understand! We were told you could help us."
 msgstr "Не, не. Не разумете! Речено нам је да нам ви можете помоћи."
 
 #. [message]: speaker=Human Guard
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4811
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4814
 msgid "Sir, remember the edict passed down by councilman Noblis? About any foreigners spotted on the borders?"
 msgstr "Господине, сећате ли се едикта који је у дело спровео већник Ноблис? О странцима који се затекну на границама?"
 
 #. [message]: speaker=Sergeant Durstrag
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4816
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4819
 msgid "I have no idea what you're babbling about, elf, but you're just lucky you caught me on a good day. You get to explain everything to the Iron Council. Now you and your people just lay down your weapons and we will take you into custody to be judged. They'll deal with you as they see fit."
 msgstr "Уопште ми није јасно шта то трабуњаш, вилењаку, али имаш среће што сте ме затекли на добар дан. Имаћете прилику да све објасните пред Гвозденим већем. Сада лепо ти и твоји људи положите оружје, и задржаћемо вас у притвору до суђења. Они ће се побринути за вас како доличи."
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4821
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4824
 msgid "Everything will be fine. Do as he says."
 msgstr "Све ће бити у реду. Учини као што захтева."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4826
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4829
 msgid "I am my own master. I will not be ordered around, not even by you, Eloh."
 msgstr "Свој сам господар. Нико ми неће наређивати, чак ни ти, Елох."
 
 #. [message]: speaker=Sergeant Durstrag
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4831
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4834
 msgid "What's that, boy? Are you talking back to me? This isn't a negotiation. You are on my land, and under my jurisdiction. Lay down your weapons and submit peacefully or I'll make you sorry you didn't."
 msgstr "Шта то чујем, момче? Је л' ти то мени узвраћаш? Није ти ово преговарање. На мојој си земљи, у мојој надлежности. Положите оружје и пођите у миру, или ћете зажалити што нисте."
 
 #. [message]: speaker=Eloh
 #. +> trunk
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4837
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4840
 msgid "Kaleh, I am Eloh, bearer of the staff of Ishtar and slayer of the demon-god Zhangor. Do as I say! Submit to him or I will abandon your people to suffering and death. Your bones will litter the sand dunes, and vultures shall pick at your flesh. I am not a forgiving god, Kaleh."
 msgstr "Калех, ја сам Елох, носилац штапа Иштара и крвник богу-демону Жангору. Учини како кажем! Предај се, или ћу препустити твој народ патњи и смрти. Ваше ће се кости повлачити пешчаним динама, и лешинари ће вам кљуцати месо. Ја нисам богиња која лако опрашта, Калех."
 
@@ -7085,194 +7093,194 @@ msgstr "Калех, ја сам Елох, носилац штапа Иштара
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4842
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4845
 msgid "Then kill me if you must, but I will not give myself over to those who threaten me and my people. I have not come through peril and darkness just to surrender to a man such as you."
 msgstr "Онда ме убиј ако мораш, али се не могу предати ономе који прети мени и моме народу. Нисам прошао кроз недаће и таму да би се предао некоме ко се понаша као ти."
 
 #. [message]: speaker=Sergeant Durstrag
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4847
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4850
 msgid "Your dare defy me?!? All who refuse to submit to the authority of the Iron Council shall be killed. By the Dark Lady, I shall not put up with this bickering any longer. To battle men! Drive those heathens back into the caves!"
 msgstr "Усуђујеш се да ми се успротивиш?! Сви који одбију да се подвргну власти Гвозденог већа, биће убијени. Тако ми Госпе таме, више нећу трпети ово нагваждање. На оружје, људи! Сатерајте незнабошце назад у пећине!"
 
 #. [message]: speaker=Eloh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4885
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4888
 msgid "You disappoint me, Kaleh. You are weak, and not worthy of my guidance. Do what you will, but this is not over. You may be the appointed leader of your people but I am your god, and I will not let you usurp my authority."
 msgstr "Разочараваш ме, Калех. Слаб си, ниси достојан мог вођства. Чини како ти драго, али ништа још није готово. Можда си одређен за вођа свог народа, али ја сам ваша богиња, и нећу ти допустити да доведеш у сумњу моју надмоћ."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4896
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4899
 msgid "You are not the god I grew up with. You may be all powerful, but I will not be your puppet. I am still their leader and as long as I draw breath I will do what I think is best for my people."
 msgstr "Ти ниси богиња уз коју сам одрастао. Можеш бити свемоћна, али нећу зато бити твој лутак. Ја сам још увек њихов вођ, и до последњег даха ћу чинити што мислим да је најбоље за мој народ."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4901
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4904
 msgid "Kaleh, would you mind telling me what in Uria's name is going on."
 msgstr "Калех, би ли ми рекао шта се то, за име Урије, догађа?"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4906
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4909
 msgid "There's no time. Right now we have to prepare ourselves for another battle. I'd better head back to the outpost and rally our troops. I fear a whole lot of hurt is going to be coming up through those hills very soon."
 msgstr "Нема времена. Овога се тренутка морамо припремити за још један бој. Боље да пожурим назад у постају и окупим наше снаге. Плашим се да ће много невоље нахрупити преко тих брда, врло ускоро."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4911
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4914
 msgid "Well, now we're really in for it. I hope you know what you're doing, Kaleh."
 msgstr "Па, сада смо стварно у невољи. Надам се да знаш шта чиниш, Калех."
 
 #. [message]: speaker=$ally_name
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4930
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4933
 msgid "$intl_ally_name no like humans either. They mean. But they sound great when they go squish."
 msgstr "$intl_ally_name исто не воли људе. Они зли. Али много добро звучи кад их се спљеска."
 
 #. [message]: speaker=$ally_name
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4937
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4940
 msgid "I never liked humans much anyway. I'll be glad to be fighting something besides undead."
 msgstr "Уосталом, никада нисам ни волео људе. Биће ми драго да се борим против још нечег поред немртвих."
 
 #. [objective]: condition=win
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4974
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5121
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4977
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5124
 msgid "Defeat Sergeant Durstrag"
 msgstr "Поразиш ли наредника Дурстрага"
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5084
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5087
 msgid "I'm back, Kaleh."
 msgstr "Вратила сам се, Калех."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5089
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5092
 msgid "Ah! You scared me, Nym. I didn't hear you coming."
 msgstr "Еј! Уплаши ме, Ним. Нисам те чуо како прилазиш."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5094
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5097
 msgid "Of course you didn't. That's why it's called sneaking."
 msgstr "Дабоме да ниси. Зато се зове шуњање."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5099
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5102
 msgid "Anyway you've really gotten us into a mess. The good news is that the outpost isn't guarded as heavily as you might think. The garrison seems only half-manned. They obviously didn't expect any serious attack to come from this direction."
 msgstr "Како било, стварно си нас гурнуо у збрку. Добра вест је да постаја није чувана онако добро као што си можда мислио. Изгледа да је посада тек пола од пуног састава. Очигледно нису очекивали никакав озбиљан напад из овог правца."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5104
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5107
 msgid "And what's the bad news?"
 msgstr "А шта је лоша вест?"
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5109
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5112
 msgid "The bad news is that I overheard the commander ordering a special group of his men to get ready to ride north and summon reinforcements. It seems that the humans have a bigger village to the north. This outpost is lightly guarded enough that we might be able to defeat them, but in our weakened state if they bring the full strength of their army against us I fear we may be crushed."
 msgstr "Лоше је то што сам начула заповедника како наређује посебној дружини својих људи да се спреме за јахање на север, да би дозвали појачања. Звучи као да људи имају веће село ка северу. Ова постаја је довољно лако брањена да је можемо надјачати, али у овако ослабљеном стању, бојим се да ће нас прегазити ако успеју да нас притисну свом силом своје војске."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5114
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5117
 msgid "Then we'll just have to make sure that no messenger escapes this valley to summon reinforcements."
 msgstr "Онда морамо осигурати да ниједан њихов гласник не измакне из долине да би позвао појачања."
 
 #. [objective]: condition=lose
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5125
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5128
 msgid "If a human messenger escapes the valley"
 msgstr "Умакне ли неки људски гласник из долине"
 
 #. [objectives]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5132
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5135
 msgid "The messenger is the leader of the special white colored units"
 msgstr "Гласник је вођ посебних, у бело обојених јединица"
 
 #. [then]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5233
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5236
 msgid "Undead Emissary"
 msgstr "изасланик немртвих"
 
 #. [message]: speaker=Undead Emissary
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5238
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5241
 msgid "Cursed Elves, you tracked your filth through our halls and you defiled our sanctuary. You have besmirched our honor, and we will have our revenge. We are the Order of the Crimson Talon, and even death shall not stop us. You shall rue the day that you ever trespassed into our lair!"
 msgstr "Проклети вилењаци, испратисте своју прљавштину кроз наше дворане и оскрнависте наше уточиште. Укаљасте нашу част, и за то ћемо се осветити. Ми смо ред Црвене канџе, чак нас ни смрт не може зауставити. Жалићете дан када сте преступили у нашу јазбину!"
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5255
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5258
 msgid "Can't the dead ever just stay dead? And aren't they trapped by the flooded tunnels and caves?"
 msgstr "Зар не могу мртви просто остати мртви? И зар нису заробљени иза поплављених тунела и пећина?"
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5260
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5263
 msgid "Undead don't have to breathe and I don't think a little water is going to stop them. Besides, you saw how the ghost just flew through the rock; if they can move through walls then what do they care about flooded tunnels?"
 msgstr "Не мртви нису оптерећени дисањем, не мислим да би их мало воде зауставило. Поред тога, видео си како је дух управо излетео кроз стену. Ако могу пролазити кроз зидове, шта маре онда за поплављене тунеле?"
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5265
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5268
 msgid "Great. So now we're fighting in a haunted valley."
 msgstr "Изврсно. Сада се боримо против поседнуте долине."
 
 #. [unit]: type=Spectre, id=Undead Leader
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5288
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5291
 msgid "Undead Leader"
 msgstr "вођ немртвих"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5326
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5329
 msgid "I don't understand. What are these humans doing here? I've never seen so many in one place before."
 msgstr "Не разумем. Шта ови људи раде овде? Никад их не видех у толиком броју на једном месту."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5331
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5334
 msgid "Humans aren't just the bandits and outlaws you're familiar with from the deserts, Kaleh. Remember that long ago the great human empire of Wesnoth spread all across the known lands. Some of our people say that it was the humans who brought the Great Fall upon us. But to blame others is folly. Eloh says that it was not the darkness without, but the darkness within us that was the cause of our corruption and downfall."
 msgstr "Људи нису тек разбојници и одметници с којима си се носио у пустињи, Калех. Сети се да се некада давно, велико људско царство Веснота простирало преко свих познатих земаља. Неки међу нама веле да су људи ти који су нам свима навукли Велики пад. Али кривити друге је улудо. Елох каже да није тама извана, већ тама у нама та која је узроковала искварење и пропаст."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5336
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5339
 msgid "But now is not a time for preaching. Humans once spread to many lands, and despite all the ravages of time, I have no doubt that at least a few of them have survived. They are a hardy people and quickly adapt to new conditions. I only wish that the same could be said of our brethren."
 msgstr "Али сада није време проповедању. Људи су некада настањивали многе земље, и упркос пустоши времена, не сумњам нимало да су бар неке од њих опстале. То је издржљив народ, који се брзо прилагођава новим условима. Како бих волела када би се то могло рећи и за наш род."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5341
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5344
 msgid "There might be other elves somewhere. We can't be sure."
 msgstr "Може бити и других вилењака негде. Не можемо бити сигурни."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5346
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5349
 msgid "No we can't. But for now we must deal with the problem at hand. Thank you for the information, Zhul; these humans are good fighters but they are no match for our speed and skill. I grew up fighting in dunes such as these, and I will not be bested by a bunch of ruffians."
 msgstr "Не, не можемо. Али за сада се морамо позабавити присутним проблемом. Хвала на твојим упутима, Жул; ови су људи добри ратници, али нису дорасли нашој брзини и вештини. Одрастао сам борећи се по динама какве су ове, и неће ме надјачати гомила силеџија."
 
 #. [message]: speaker=Sergeant Durstrag
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5394
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5397
 msgid "Send forth the messenger and his escort. Go north and bring help as soon as possible!"
 msgstr "Отпошаљите гласника и његову пратњу. Пођите на север и доведите помоћ што је пре могуће!"
 
 #. [unit]: type=Dragoon, id=Human Messenger
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5414
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5417
 msgid "Human Messenger"
 msgstr "људски гласник"
 
@@ -7280,329 +7288,329 @@ msgstr "људски гласник"
 #. [unit]: type=Spearman, type=Javelineer, type=Swordsman, id=Human Escort
 #. [unit]: type=Spearman, type=Longbowman, type=Master Bowman, id=Human Escort
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5434
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5453
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5472
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5491
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5437
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5456
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5475
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5494
 msgid "Human Escort"
 msgstr "људска пратња"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5501
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5504
 msgid "If that messenger escapes the valley, we'll be in trouble. We have to stop him!"
 msgstr "Ако тај гласник умакне из долине, у грдној смо невољи. Морамо га зауставити!"
 
 #. [message]: speaker=Human Messenger
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5519
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5522
 msgid "No! I must get help!"
 msgstr "Не! Морам сазвати помоћ!"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5524
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5527
 msgid "Good. We're safe for now. We just have to defeat Durstrag before he sends another messenger for reinforcements."
 msgstr "Врло добро. Безбедни смо за сада. Само морамо поразити Дурстрага пре него пошаље још гласника по појачања."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5547
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5550
 msgid "The messenger has escaped! He will surely return with reinforcements. We are doomed!"
 msgstr "Гласник је избегао! Засигурно ће довести са собом појачања. Пропали смо!"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5566
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5569
 msgid "Don't worry. We're not the monsters you seem to think we are. I will not kill you in cold blood."
 msgstr "Не брини. Нисмо ми чудовишта каквим нас замишљаш. Нећу те хладнокрвно убити."
 
 #. [message]: speaker=Sergeant Durstrag
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5571
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5574
 msgid "Faugh, boy, you know nothing! There are fates worse than death."
 msgstr "Фу, дечаче, ништа ти не знаш! Има судбина горих од смрти."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5582
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5585
 msgid "He killed himself rather then surrender to us!"
 msgstr "Радије се самоубио него да се нама преда!"
 
 #. [message]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5587
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5590
 msgid "They killed Sergeant Durstrag! Run for your lives!"
 msgstr "Убили су наредника Дурстрага! Спасавај се ко може!"
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5604
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5607
 msgid "The rest of the humans are fleeing."
 msgstr "Преостали људи беже."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5609
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5612
 msgid "Let them go. We have won this battle and I am weary of all this bloodshed."
 msgstr "Пустите их. Добили смо ову битку, и уморан сам од свог крвопролића."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5614
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5617
 msgid "What was it that the human Durstrag was so afraid of?"
 msgstr "Чега се то човек Дурстраг тако плашио?"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5619
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5622
 msgid "I don't know, but I fear we may find out."
 msgstr "Не знам, али се бојим да ћемо сазнати."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5624
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5627
 msgid "You're being very cryptic, Kaleh. Now that the battle is over would you care to explain to us who you were talking to back when we first met the humans?"
 msgstr "Врло си тајновит, Калех. Сада кад је битка завршена, били нам објаснио с ким си то причао тамо назад, где први пут сретосмо људе?"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5629
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5632
 msgid "No, not yet."
 msgstr "Не, не још."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5634
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5637
 msgid "What's wrong, Kaleh? Don't you trust us?"
 msgstr "Шта није у реду, Калех? Зар нам не верујеш?"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5639
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5642
 msgid "Yes, yes of course I do. But it's just a theory. I don't want to say more until I have proof. Give me until tomorrow night, then I'll tell you everything."
 msgstr "Да, наравно да верујем. Али је то само теорија. Не желим ништа више да кажем док не будем имао доказа. Дајте ми времена до сутра увече, а онда ћу вам све испричати."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5644
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5647
 msgid "Very well. I've trusted your decisions and your leadership so far; I'll wait a little longer."
 msgstr "Врло добро. До сада сам веровала твојим одлукама и твом вођству; могу сачекати још мало."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5649
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5652
 msgid "So what do we do now? The land seems to be about the same on the northern side of the mountains as it was on the south. And we can't hang around here forever. The humans will be back with reinforcements eventually, and the valley is still haunted with undead."
 msgstr "Онда, шта ћемо даље чинити? Поднебље изгледа отприлике исто на северној страни како је било и на јужној страни планина. А не можемо се овде довека задржати. Људи ће се на концу вратити, са појачањима, а долину још увек поседају немртви."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5654
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5657
 msgid "Yes, I think the sooner we leave this valley the better. But we don't know anything about the surrounding terrain. Without anyone to guide us, we have no idea what perils may be nearby. I don't like sending our people across foreign lands when I don't know what's in front of us. We've lost too many people already. I don't want to lead us into a trap."
 msgstr "Да, што пре напустимо ову долину, то боље. Али не познајемо нимало околне пределе. Без некога да нас предводи, не знамо какве нас опасности могу затећи на путу. Није ми пријатно да кренемо с народом преко туђинске земље, а да не знамо шта нас очекује испред. Већ смо превише народа изгубили. Не желим да нас спроведем у нечију замку."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5659
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5662
 msgid "When I was scouting around I think I saw a small oasis near the entrance to this valley. If we move out there we should be out of range of the undead. I think it would be safe, at least for the short term."
 msgstr "Док сам извиђала около, мислим да сам видела малу оазу у близини улаза у долину. Ако се преместимо тамо, требало би да будемо изван домашаја немртвима. Мислим да ће то бити безбедно одмориште, бар накратко."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5664
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5667
 msgid "Indeed. Undead ghosts such as these are often bound to the places they died: the farther away they travel, the weaker they are. So if we move out of the immediate vicinity we should be pretty safe."
 msgstr "Заиста, немртви духови као ови често су везани за места на којима су умрли: што се више удаљимо, то су они слабији. Тако да ако се уклонимо из непосредне близине, требало би да будемо прилично безбедни."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5669
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5672
 msgid "Good, we'll move our people out and camp by the oasis. Now, Nym, you know who our best scouts are; I want you to lead a few elves to do some reconnaissance. We'll send out small groups of scouts to the north, northeast and northwest. Don't go too far, try not to be seen, and please don't do anything dangerous. But I want to know what's out there."
 msgstr "Добро онда, изведимо народ и улогоримо се покрај оазе. Сада, Ним, ти знаш који су наши најбољи извиђачи; желим да поведеш неколико њих са собом у извидницу. Послаћемо мале дружине извиђача ка северу, североистоку и северозападу. Не удаљавајте се превише, покушајте да вас не уоче, и, молим вас, не чините ништа опасно. Али желим да знам шта нас чека тамо."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5674
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5677
 msgid "But hasn't Eloh told you where to go and what dangers you face?"
 msgstr "Али, зар ти није Елох зборила где да идемо и какве нас опасности чекају?"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5679
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5682
 msgid "She was ... rather vague. I know we're supposed to generally go north, but I want more information before I commit us to a direction."
 msgstr "Била је... прилично неодређена. Знам да треба да се крећемо оквирно ка северу, али желим још података пре него што нас покренем у одређеном правцу."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5684
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5687
 msgid "Don't you worry about us, Kaleh. We'll be careful. I'll organize five bands to scout out the nearby lands. We should be back in about half a day."
 msgstr "Не брини за нас, Калех. Бићемо опрезни. Одредићу пет дружина за извиђање околних предела. Требало би да се вратимо за око пола дана."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5689
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5692
 msgid "Good, until then we'll settle around that oasis and set up as good a defense as we can. Until I know what's out there, I'm not taking any chances."
 msgstr "У реду, до тада ми ћемо се окупити око оазе и подићи колико одбране можемо. Док нас не известите, не желим ништа да препустим случају."
 
 #. [message]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5893
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5896
 msgid "Help, I'm drowning!"
 msgstr "Упомоћ, давим се!"
 
 #. [message]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6024
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6063
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6027
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6066
 msgid "Look, the water is pouring out the side tunnel into the valley! That's a lot of water: it's even creating a small river. I sure wouldn't want to be downstream of that deluge right now."
 msgstr "Гледајте, вода се излива из бочног тунела, у долину! Доста воде има: чак ће се створити и мала река. Баш не бих волео сада да будем низводно од тог потопа."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6113
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6116
 msgid "Look, up there in the valley. The water has poured out of the side tunnel and created a small river and lake. I'm glad we weren't downstream of that deluge when the water came rushing out of the tunnel."
 msgstr "Гледајте, горе у долини. Вода се излила из бочног тунела и направила малу реку и језеро. Драго ми је што не бисмо низводно кад је вода јурнула из тунела."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6126
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6129
 msgid "I can see human reinforcements arriving on the horizon. We'll surely be overwhelmed now! If only we had moved faster."
 msgstr "Ви�им на обзорју људска појачања што се приближавају. Сада ће нас засигурно прегазити! Да смо само били бржи."
 
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6171
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6174
 msgid "Dummy Unit1"
 msgstr "статиста 1"
 
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6172
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6175
 msgid "Dummy Unit2"
 msgstr "статиста 2"
 
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6173
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6176
 msgid "Dummy Unit3"
 msgstr "статиста 3"
 
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6174
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6177
 msgid "Dummy Unit4"
 msgstr "статиста 4"
 
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6175
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6178
 msgid "Dummy Unit5"
 msgstr "статиста 5"
 
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6176
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6179
 msgid "Dummy Unit6"
 msgstr "статиста 6"
 
 #. [message]: speaker=narrator
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6188
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6191
 msgid "Several hours pass..."
 msgstr "Прође неколико часова..."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6213
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6216
 msgid "In Eloh's name, Nym, you look terrible. Are you okay?"
 msgstr "За име Елох, Ним, изгледаш страшно. Је ли ти добро?"
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6218
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6221
 msgid "Yes. Just...let me...catch...my breath."
 msgstr "Да. Само... да... дођем... до даха."
 
 #. [unit]: type=Merman Netcaster, id=Esanoo
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6235
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6238
 msgid "Esanoo"
 msgstr "Есану"
 
 #. [message]: speaker=Esanoo
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6254
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6257
 msgid "Water. Sweet water. By the gods, I thought my scales would fall off."
 msgstr "Вода. Слатка вода. Богова му, мислих да ће ми крљушт отпасти."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6264
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6267
 msgid "Relax, he's a friend. Just let me explain."
 msgstr "Опустите се, он је пријатељ. Пустите ме да објасним."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6269
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6272
 msgid "You're really beat up, Nym. Are you sure you're okay?"
 msgstr "Стварно си узрујана, Ним. Јеси ли сигурна да ти је добро?"
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6274
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6277
 msgid "I'm fine. But I found someone who really wanted to speak with you."
 msgstr "Сасвим. Али сам наишла на неког ко заиста жели да поприча с тобом."
 
 #. [message]: speaker=$ally_name
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6279
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6282
 msgid "He looks like a half-man half-fish."
 msgstr "Изгледа као пола човек, пола риба."
 
 #. [message]: speaker=Esanoo
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6284
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6287
 msgid "Indeed. I come from the ocean, and long have I been looking for you."
 msgstr "Заиста. Долазим из океана, и дуго сам за тобом трагао."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6289
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6292
 msgid "The Ocean? What are you talking about?"
 msgstr "Океан? О чему то говориш?"
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6294
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6297
 msgid "Don't try to explain, Esanoo. We'll have to show them instead."
 msgstr "Не покушавај да објасниш, Есану. Мораћемо да им покажемо."
 
 #. [message]: speaker=Esanoo
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6299
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6302
 msgid "It's not important. What's important is that I am an emissary from one who much desires to speak with you, Kaleh. Despite the danger, my master sent me and my brethren to scour the dry land searching for you."
 msgstr "Није ни важно. Већ је важно то да сам ја изасланик неког ко заиста жели да разговара с тобом, Калех. Упркос опасност, моја господарица одасла мене и моју сабраћу да тумарамо сувим земљама у потрази за тобом."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6304
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6307
 msgid "There are more of you? Where are the others?"
 msgstr "Има вас још? Где су остали?"
 
 #. [message]: speaker=Esanoo
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6309
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6312
 msgid "They have been captured by the foul humans. I just barely managed to hide and escape, with the help of your friend."
 msgstr "Заробише их погани људи. Ја се једва некако сакрих и избегох, уз помоћ твоје пријатељице."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6314
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6317
 msgid "And why should we trust anything you say?"
 msgstr "А зашто бисмо веровали ичему што збориш?"
 
 #. [message]: speaker=Esanoo
 #. +> trunk
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6319
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6322
 msgid "My master thought you might be suspicious. She said that what we must talk with you about concerns the fate of your people. Apparently it concerns 'Yechnagoth' and 'Zhangor'. She said that you would understand, Kaleh."
 msgstr "Господарица је имала на уму да можеш бити сумњичав. Каже да се оно о чему морамо разговарати са тобом тиче судбине твога народа. То јест, тиче се „Јехнагот“ и „Жангора“. Рекла је да ћеш разумети, Калех."
 
@@ -7614,55 +7622,55 @@ msgstr "Господарица је имала на уму да можеш би�
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6324
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6327
 msgid "Hmmmm...yes, yes I think I do. I don't know why, but I trust you."
 msgstr "Хм... да, мислим да разумем. Не знам зашто, али ти верујем."
 
 #. [message]: speaker=Esanoo
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6329
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6332
 msgid "Thank you. Now I have a boon to ask of you. Our instructions were to find you and to bring you and your people to meet with my master. The problem is that I don't know where she is hiding."
 msgstr "Хвала ти. Сада морам да ти затражим услугу. Упућени смо били да те нађемо и доведемо тебе и твој народ на сусрет с мојом господарицом. Мука је у томе што не знем где се она сада скрива."
 
 #. [message]: speaker=Zhul
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6334
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6337
 msgid "You don't know where to find your master?"
 msgstr "Не знаш где да нађеш своју господарицу?"
 
 #. [message]: speaker=Esanoo
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6339
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6342
 msgid "It's complicated, and I don't know how much I am allowed to tell you. My people are fighting a desperate war against...against a powerful foe. Many times our enemy has tried to assassinate my master. My master worried that her presence was a danger to the rest of my kind. So right after she sent us on our mission she went into hiding. I am the youngest member of our group, and so I wasn't told the location. You must understand, there are spies everywhere. Only the leaders of our group knew, but the rest of them were all captured by those foul humans. They are being held in the settlement to the north. If we are to have any chance of finding my master, we must first rescue them. I would do it myself, but..."
 msgstr "Све је то замршено, а ја не знам колико ми дозвољено да ти кажем. Мој народ води очајнички рат против... против моћног противника. Много пута је наш непријатељ покушао атентат на моју господарицу. Стога, чим нас је изаслала на задатак, прешла је у скривање. Ја сам најмлађи члан наше дружине, и није ми откривено њено кретање. Мораш разумети, уходе су посвуда. Само су вођи наше дружине то знали, али их људи све заробише. Држе их у насеобини на северу. Ако ћемо имати икаквих изгледа да пронађемо моју господарицу, морамо их прво избавити. Учинио бих то сам, али..."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6344
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6347
 msgid "It would be suicide for you to try to rescue them alone. Of course we will help you."
 msgstr "Било би самоубиство за тебе да сам покушаш спашавање. Наравно да ћемо ти помоћи."
 
 #. [message]: speaker=Esanoo
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6349
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6352
 msgid "Thank you. I am not very good at fighting on the dry ground."
 msgstr "Хвала вам. Нисам превише добар у борби на сувом земљишту."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6354
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6357
 msgid "All the other scouting parties have returned, except for one. Tanstafaal and his scouts haven't reported back yet. I'm starting to get worried."
 msgstr "Све остале извиђачке дружине су се вратиле, осим једне. Ништа још нисмо чули од Танстафала и његових извиђача. Полако почињем да се бринем."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6359
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6362
 msgid "They were sent due north. From Esanoo's description it sounds like they were headed right for the human settlement. I hope nothing bad has happened to them."
 msgstr "Они су били кренули северно. Према Есануовом опису, изгледа да су се запутили право према људској насеобини. Надам се да им се ништа лоше није догодило."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6364
+#: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:6367
 msgid "Things are coming to a head. I'm worried about Tanstafaal and your merfolk friends. Time is of the essence, so let's move out as soon as possible."
 msgstr "Ситуација се закувава. Бринем за Танстафала и твоје морејске пријатеље. Време је од кључне важности, стога пођимо што је пре могуће."
 
@@ -10546,190 +10554,190 @@ msgstr "Епилог"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:88
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:89
 msgid "I stumbled out into the daylight, scarcely believing that we were victorious. Looking out over the island it took me a moment to realize what had changed. The fetid darkness had lifted from the land and I saw the suns shining brightly for what seemed like the first time in ages. Gazing across the bright green trees and sparkling ocean I realized that once this had been a place of beauty. Several of our brethren were waiting for me and I was overjoyed to discover that they were no longer the mindless slaves I had seen before. They too had broken free from their enchantment."
 msgstr "Истетурах се на светлост дана, једва верујући да смо однели победу. Гледајући преко острва, требало ми је неколико тренутака да схватим шта се изменило. Тешка тама се подигла са земље и видех сунца како бљештаво сјаје, после не сећам се колико времена. Лутајући погледом преко светлозеленог дрвећа и светлуцавог океана, схватих да је ово некада истински било место лепоте. Неколико сународника ме је очекивало, и обузе ме радост кад схватих да више нису безумни робови што их видех претходно. И они су се решили бачених чини."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:93
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:94
 msgid "Indeed with Yechnagoth's death it seems that all of her minions reverted to their original chaotic tendencies. Luckily we had already destroyed most of the island's foul inhabitants, and lacking their former discipline we had no trouble exterminating the remaining orcs and undead. The naga too fled before us, and they have not bothered us since. For once we seemed to be safe from imminent danger."
 msgstr "Заиста, по Јехнаготиној смрти, као да су се сви њени поданици вратили својим првобитним хаотичним нагонима. Срећом смо већ били уништили већину поганих становника острва, те без њихове пређашње дисциплине, није нам био никакав проблем да се решимо преосталих оркова и немртвих. Нагајци су такође бежали пред нама, и од тада нас више нису узнемиравали. Напокон је изгледало да смо ван непосредних опасности."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:98
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:99
 msgid "A few days later Melusand herself appeared and she declared the cleansing of this island a miracle. We made a pact between elf and merfolk and vowed to live together in peace and prosperity. Melusand blessed the island, and named it 'Quenoth Isle' in honor of our people. The merfolk have been very helpful in teaching us how to adapt to this strange land, though I still have trouble getting used to being surrounded by water. It used to be more precious than gold. Still, I could hardly imagine a better home for my people. Between the bounty of the sea and the many fruits of the jungle there is no shortage of food. We are isolated from the chaos on the mainland and the merfolk guard the waters. Melusand says now is a time for peace and prosperity. Part of me didn't think we would survive our journey, there were so many close calls. Coming here almost does seem like a miracle. If only I could forget the price we paid..."
 msgstr "Неколико дана потом, појави се и Мелусанда лично, и прогласи прочишћење овог острва чудом. Начинисмо уговор између вилењака и морејаца, заклињући се да ћемо живети једни поред других у миру и изобиљу. Мелусанда благослови острво и назва га „Квенотским острвом“, у част нашег народа. Морејци су били од велике помоћи у учењу како да се прилагодимо овој страној земљи, иако ми је и даље тешко навикнути се на сталну окруженост водом. Некада нам је била вреднија од злата. Па ипак, тешко да сам могао замислити лепши дом за свој народ. Између обилности мора и многих плодова џунгле, не беше никакве оскудице хране. Подвојени смо од метежа копна, а морејци нас чувају с мора. Мелусанда вели да је сада време миру и благостању. Део мене није мислио да ћемо преживети пут, поред толиких блиских сусрета са истребљењем. Одиста, то што смо овде чинило се чудом самим по себи. Да само могадох заборавити цену која је плаћена..."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:112
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:113
 msgid "If you had told me at the start of our journey the price I was to pay in blood, I do not know if I would have had the strength to take that first step. I suppose I should have known that my friends would not let me confront Yechnagoth alone. And it is only through Eloh's grace and a good bit of luck that none of them died in that bloody battle. But so many others that I grew up with were not so lucky. Why did so many of us have to die? I wish I could go back and do it all over again."
 msgstr "Да ми је речено на почетку путовања каква ће цена у крви бити плаћена, не знам да ли бих имао снаге направити и први корак. Вероватно је требало да ми буде јасно како ми пријатељи неће допустити да се сам суочим са Јехнагот. Само Елохином милости и огромном срећом нико од њих не настрада у том крвавом сукобу. Али многи други уз које сам одрастао, не беху те среће. Зашто је толико морало страдати? Када бих могао да се вратим и урадим све из почетка."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:136
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:137
 msgid "If you had told me at the start of our journey the price I was to pay in blood, I do not know if I would have had the strength to take that first step. I suppose I should have known that my friends would not let me confront Yechnagoth alone. But I would gladly give up my life today if I could bring Nym back. She followed me faithfully and fought by my side for so long, to lose her at the end... I wish I could go back and do it all over again."
 msgstr "Да ми је речено на почетку путовања каква ће цена у крви бити плаћена, не знам да ли бих имао снаге направити и први корак. Вероватно је требало да ми буде јасно како ми пријатељи неће допустити да се сам суочим са Јехнагот. Али бих радо на месту данас дао свој живот када бих могао да вратим Ним. Следила ме је верно и борила се уз моју страну толико дуго, да је изгубим на самом крају... Када бих могао да се вратим и урадим све из почетка."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:150
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:151
 msgid "If you had told me at the start of our journey the price I was to pay in blood, I do not know if I would have had the strength to take that first step. I suppose I should have known that my friends would not let me confront Yechnagoth alone. But I would gladly give up my life today if I could bring Zhul back. She followed me faithfully and fought by my side for so long, to lose her at the end... I wish I could go back and do it all over again."
 msgstr "Да ми је речено на почетку путовања каква ће цена у крви бити плаћена, не знам да ли бих имао снаге направити и први корак. Вероватно је требало да ми буде јасно како ми пријатељи неће допустити да се сам суочим са Јехнагот. Али бих радо на месту данас дао свој живот када бих могао да вратим Жул. Следила ме је верно и борила се уз моју страну толико дуго, да је изгубим на самом крају... Када бих могао да се вратим и урадим све из почетка."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:164
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:165
 msgid "If you had told me at the start of our journey the price I was to pay in blood, I do not know if I would have had the strength to take that first step. I suppose I should have known that my friends would not let me confront Yechnagoth alone. But I would gladly give up my life today if I could bring $intl_ally_name back. He left his homeland to fight faithfully by my side, and then to lose him at the end... I wish I could go back and do it all over again."
 msgstr "Да ми је речено на почетку путовања каква ће цена у крви бити плаћена, не знам да ли бих имао снаге направити и први корак. Вероватно је требало да ми буде јасно како ми пријатељи неће допустити да се сам суочим са Јехнагот. Али бих радо на месту данас дао свој живот када би $intl_ally_name могао да се врати. Следио ме је верно и борио се уз моју страну толико дуго, да страда на самом крају... Када бих могао да се вратим и урадим све из почетка."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:180
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:181
 msgid "If you had told me at the start of our journey the price I was to pay in blood, I do not know if I would have had the strength to take that first step. I suppose I should have known that my friends would not let me confront Yechnagoth alone. But I would gladly give up my life today if I could bring any one of them back. They followed me faithfully and fought by my side for so long, to lose them at the end... I wish I could go back and do it all over again."
 msgstr "Да ми је речено на почетку путовања каква ће цена у крви бити плаћена, не знам да ли бих имао снаге направити и први корак. Вероватно је требало да ми буде јасно како ми пријатељи неће допустити да се сам суочим са Јехнагот. Али бих радо на месту данас дао свој живот када бих икога од њих могао да вратим. Следише ме верно и борише се уз моју страну толико дуго, да их изгубим на самом крају... Када бих могао да се вратим и урадим све из почетка."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:201
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:202
 msgid "Although I believe that our battle in the black citadel was our finest hour, I am still haunted by Nym's death in that dark place. And so every morning at sunrise I come out to the southeastern tip of the island and look out upon the waters, upon the world that we sacrificed so much to preserve. I remind myself what Zhul said, and they all believed, that despite all the death and fighting we saw in our journey, this world was a beautiful and good enough place that Nym was willing to sacrifice her life to save it. Looking out over the waters, and back upon the prosperity of my people, I tell myself it was worth it. But sometimes that seems a small consolation."
 msgstr "Иако верујем да је бој у црној цитадели био наш најсветлији час, и даље ме прогања страдање Ним на том мрачном месту. Свако јутро по свитању одем до југоисточног крака острва и гледам преко мора, на свет за који смо толико жртвовали да бисмо га сачували. Присетим се шта је Жул рекла, и сви су они веровали, да је упркос страдањима и борбама које смо доживели на путу, овај свет довољно лепо и ваљано место да Ним буде вољна жртвовати се не би ли га заштитила. Посматрајући напредак свог народа од тада, и сам себи кажем да је вредело. Али је понекад све то од мале утехе."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:215
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:216
 msgid "Although I believe that our battle in the black citadel was our finest hour, I am still haunted by Zhul's death in that dark place. And so every morning at sunrise I come out to the southeastern tip of the island and look out upon the waters, upon the world that we sacrificed so much to preserve. I remind myself what Zhul said, and they all believed, that despite all the death and fighting we saw in our journey, this world was a beautiful and good enough place that Zhul was willing to sacrifice her life to save it. Looking out over the waters, and back upon the prosperity of my people, I tell myself it was worth it. But sometimes that seems a small consolation."
 msgstr "Иако верујем да је бој у црној цитадели био наш најсветлији час, и даље ме прогања страдање Жул на том мрачном месту. Свако јутро по свитању одем до југоисточног крака острва и гледам преко мора, на свет за који смо толико жртвовали да бисмо га сачували. Присетим се шта је Жул рекла, и сви су они веровали, да је упркос страдањима и борбама које смо доживели на путу, овај свет довољно лепо и ваљано место да она буде вољна жртвовати се не би ли га заштитила. Посматрајући напредак свог народа од тада, и сам себи кажем да је вредело. Али је понекад све то од мале утехе."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:234
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:235
 msgid "Although I believe that our battle in the black citadel was our finest hour, I am still haunted by the death of $intl_ally_name in that dark place. And so every morning at sunrise I come out to the southeastern tip of the island and look out upon the waters, upon the world that we sacrificed so much to preserve. I remind myself what Zhul said, and they all believed, that despite all the death and fighting we saw in our journey, this world was a beautiful and good enough place that $intl_ally_name was willing to sacrifice his life to save it. Looking out over the waters, and back upon the prosperity of my people, I tell myself it was worth it. But when I think of the desperate war that his people are probably still fighting underground, it seems a small consolation."
 msgstr "Иако верујем да је бој у црној цитадели био наш најсветлији час, и даље ме прогања што $intl_ally_name страда на том мрачном месту. Свако јутро по свитању одем до југоисточног крака острва и гледам преко мора, на свет за који смо толико жртвовали да бисмо га сачували. Присетим се шта је Жул рекла, и сви су они веровали, да је упркос страдањима и борбама које смо доживели на путу, овај свет довољно лепо и ваљано место да $intl_ally_name буде вољан жртвовати се не би ли га заштитио. Посматрајући напредак свог народа од тада, и сам себи кажем да је вредело. Али је понекад све то од мале утехе."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:250
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:251
 msgid "Although I believe that our battle in the black citadel was our finest hour, I am still haunted by my friends' deaths in that dark place. And so every morning at sunrise I come out to the southeastern tip of the island and look out upon the waters, upon the world that we sacrificed so much to preserve. I remind myself what Zhul said, and they all believed, that despite all the death and fighting we saw in our journey, this world was a beautiful and good enough place that they were willing to sacrifice their lives to save it. Looking out over the waters, and back upon the prosperity of my people, I tell myself it was worth it. But I still miss each one of them horribly."
 msgstr "Иако верујем да је бој у црној цитадели био наш најсветлији час, и даље ме прогањају страдања мојих пријатеља на том мрачном месту. Свако јутро по свитању одем до југоисточног крака острва и гледам преко мора, на свет за који смо толико жртвовали да бисмо га сачували. Присетим се шта је Жул рекла, и сви су они веровали, да је упркос страдањима и борбама које смо доживели на путу, овај свет довољно лепо и ваљано место да буду вољни жртвовати се не би ли га заштитили. Посматрајући напредак свог народа од тада, и сам себи кажем да је вредело. Али је понекад све то од мале утехе."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:265
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:266
 msgid "We carried Nym to a small island to the north which had a single peak with a beautiful view of the surrounding islands. It seemed to me to be a lookout that Nym would appreciate. So I and a few others climbed to the top of the peak and dug a grave for Nym so that she might always look down upon us and see all that we accomplished with her gift. For she gave us the gift of life, and every day I strive to make the most use of it I can. I will always remember her. Nym, who was with me ever since I was a child and during every step of the journey, who was always faithful, but never hesitated to speak her mind, who managed to crack a joke no matter how grim the situation. How I miss her laugh, her smile, her..."
 msgstr "Однели смо Ним на мало острво на северу, што имаше један врх са дивним погледом на околна острва. Изгледало ми је као видик коме би се Ним радовала. Тако се ја и још неколицина попесмо тамо, и ископасмо хумку за Ним, како би занавек могла да гледа доле на нас и види колико смо задужени њеним даром. Јер нам је подарила сопствене животе, и сваког дана се упирем да га искористим како је најбоље могуће. Увек ћу је се сећати. Ним, која је била уз мене од како сам био дете, и на сваком кораку путовања. Вазда одана, али никада не презајући да каже што јој је на уму, способна да изрекне шалу без обзира колико је ситуација очајна. Колико ми недостају њен смех, њен поглед, њена..."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:280
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:281
 msgid "Zhul's funeral was a huge ceremony, like those she told us about from ages ago. I led a procession of our few remaining priestesses and all of the faithful around the entire island, so that she might see all that she had given to us. Being a priestess of the desert sands we buried her in one of the large beaches at the northwest end of the island. At the final battle she was one of the oldest elves left and I suppose I should thank Eloh that she did not die during our journey. She was my guide and my faith and my link to the past. I am sorry that she did not live to see the fruits of her labors, but I hope that she is with Eloh now, in a better place."
 msgstr "Сахрана Жул беше огроман обред, попут оних о којима нам је причала пре толико година. Предводио сам поворку оно мало преосталих свештеника и свих верних са целог острва, да би она могла видети све што нам је подарила. Будући свештеница пустињских пескова, сахранисмо је на једној од великих плажа на северозападном краку острва. На врхунцу битке, Жул беше једна од најстаријих живих вилењака, вероватно треба да захвалим Елох што је не изгубисмо још у току пута. Била је мој водич и моја вера и веза са прошлошћу. Жао ми је што није доживела да види плодове својих напора, али се надам да је сада уз Елох, на неком бољем месту."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:308
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:316
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:309
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:317
 msgid "I am saddened by the death of $intl_ally_name, but by saving my life in the end he did fulfill his life debt to me. I think he also would have been glad to have died in battle. I considered leading an expedition to go back and return his body to his people, but my fellow elves have been weakened by our long journey and I do not want to risk losing any more. Instead I searched all across the islands and at last in the rocky outcroppings to the northwest I found a series of caves. They were not as deep as his homeland but I thought $intl_ally_name would have appreciated being laid to rest under some solid rock. And so we buried him with much honor and will long remember the service that his kind has done for our people."
 msgstr "Жалости ме што је $intl_ally_name страдао, али је спасивши мој живот, на крају одиста одужио свој дуг. Верујем да би му и самом било драго што је погинуо у боју. Размишљах се да поведем посланство које би вратило његове мошти његовом народу, али су моји вилењаци исцрпљени дугим путовањем, и не желим да изгубим још неког од њих. Уместо тога, истражих сва острва, успевши на ободима једног од њих да пронађем ланац пећина. Нису биле дубоке као његова постојбина, али би $intl_ally_name свеједно волео да буде положен испод чврсте стене. И тако га укопасмо уз многе почасти. Дуго ћемо се сећати услуга којим је његов народ задужио наш."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:334
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:335
 msgid "Although I am not as devout as Zhul is, I thank Eloh every day that Nym survived that horrible battle in the Black Citadel. No one has been more enthusiastic than she in embracing our life among the islands. She delights in swimming and sailing among the shallows and spends so much time in the water that sometimes I think she is half mermaid herself. Her sparkling laugh and quick wit are a daily gift to us. She entertains the children with thrilling (though often slightly embellished) tales of our great journey, and at times when I get moody, she reminds me what a joy it is to be alive in this great land. She is a living testament to the fact that even though we were born among the sands we can thrive anywhere we have the will to live."
 msgstr "Иако нисам посвећен колико Жул, сваки дан се захваљујем Елох што је Ним преживела језиву битку у Црној цитадели. Нико не беше усхићенији од ње спознавањем новог начина живота међу острвима. Очарана је пливањем и једрењем по плићацима, и толико времена проводи на води да се понекад запитам није ли сама полу-морејка? Њен искричави смех и оштра памет су нам свакодневни дар. Забавља децу узбудљивим (мада често помало улепшаним) причама о нашем великом путовању, и понекад када ме притисну тешке мисли, подсети ме радостима живота у овим дивним пределима. Ним је отелотворено сведочанство томе да иако смо порасли на песку, можемо напредовати где год желимо само ако имамо воље за животом."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:350
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:351
 msgid "The oldest of the surviving elves, Zhul is moving slower now, but she still has that sparkle in her eye. Despite the hardships of our journey and Yechnagoth's deceptions, our victory has only strengthened her faith. She will be as quick as always to correct the error of your ways if you ever express a disbelief in the powers of Eloh. She told me recently that all the trials and triumphs of our journey were but parts of Eloh's great plan for us, and this new home is our reward. She is spending her time now teaching a whole new generation of priestesses and telling all the old stories to the children so that they won't be forgotten. She has started designing a sacred grove in the jungle for Eloh, as our people did in the olden times. I am still not quite used to seeing so many trees, but perhaps, as some people say, it is a sign that the peace and prosperity of old has come again."
 msgstr "Најстарија међу живим вилењацима, Жул се сада спорије креће, али јој је поглед још увек сјајан. Упркос недаћама током путовања и Јехнаготиним варкама, наша победа јој је само ојачала веру. Биће виспрена као и увек да исправи грешке у нашим размишљањима, искаже ли ико сумњу у моћи Елох. Скоро ми рече како су сва искушења и победе на нашем путу биле тек део Елохиног великог наума за нас, и да нам је овај нови дом награда. Сада проводи време подучавајући ново поколење свештеница, казивајући деци древне приче како се не би заборавиле. Жул је почела и да намешта свети гај у џунгли, у славу Елох, као што је то наш народ чинио у давна времена. Још увек ми је необично да се нађем међу толико стабала, али је можда, као што неки веле, то знак да су мир и благостање из давнина поново међу нама."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:373
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:374
 msgid "By saving my life, $intl_ally_name fulfilled his life debt to me, but we convinced him to hang around for a while and revel in the celebrations that we held after our great victory. We celebrated for days and days, thanking Eloh and the merfolk's god, and delighting in the bounty and beauty of our new home. Afterwards we set to work building new dwellings for our people. $intl_ally_name stayed to help us with the construction, he was the hardest worker among us. But after a while he came to me and told me that he had to return to his own people. $intl_ally_name said his time with us had been like a wonderful dream, and he promised he would remember us always, but his people needed him and he had to go back home. He said that someday he would return and visit us again, but I doubt I shall ever see him again in life. All the same I treasure the memory of him and his kind, and I will long remember his steadfast loyalty and all that he did to aid us in our struggle."
 msgstr "Спасивши ми живот, $intl_ally_name је испунио свој дуг према мени, али га убедисмо да се још мало задржи с нама и присуствује прославама које смо спремали после наше велике победе. Славили смо данима и ноћима, захваљујући Елох и богу морејаца, и радујући се изобиљу и лепоти нашег новог дома. Потом се решисмо да саградимо нова пребивалишта за народ. $intl_ally_name остаде да нам помогне у изградњи, и беше највреднији радник међу нама. Али после извесног времена, $intl_ally_name дође код мене и затражи да се врати свом народу. Рече ми и да му је време проведено међу нама било као предиван сан, и обећа да ће нас се увек сећати, али да је потребан својима и да мора назад к њима. Рече да ће једног дана доћи поново да нас посети, али сумњам да ћу га икада више видети за живота. Како било, драго ми је сећање на њега и његов народ, и дуго ћу памтити његову непоколебљиву оданост и све што је учинио да помогне нашим напорима."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:381
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:382
 msgid "By saving my life, $intl_ally_name fulfilled his life debt to me, but we convinced him to hang around for a while and revel in the celebrations that we held after our great victory. We celebrated for days and days, thanking Eloh and the merfolk's god, and delighting in the bounty and beauty of our new home. And afterwards we set to work building new dwellings for our people. $intl_ally_name stayed to help us with the construction, he was the hardest worker among us. But after a while he came to me and told me that he had to return to his own people. $intl_ally_name said his time with us had been like a wonderful dream, and he promised he would remember us always, but his people needed him and he had to go back home. He said that someday he would return and visit us again, but I doubt I shall ever see him again in life. All the same I treasure the memory of him and his kind, and I will long remember his steadfast loyalty and all that he did to aid us in our struggle. "
 msgstr "Спасивши ми живот, $intl_ally_name је испунио свој дуг према мени, али га убедисмо да се још мало задржи с нама и присуствује прославама које смо спремали после наше велике победе. Славили смо данима и ноћима, захваљујући Елох и богу морејаца, и радујући се изобиљу и лепоти нашег новог дома. Потом се решисмо да саградимо нова пребивалишта за народ. $intl_ally_name остаде да нам помогне у изградњи, и беше највреднији радник међу нама. Али после извесног времена, $intl_ally_name дође код мене и затражи да се врати свом народу. Рече ми и да му је време проведено међу нама било као предиван сан, и обећа да ће нас се увек сећати, али да је потребан својима и да мора назад к њима. Рече да ће једног дана доћи поново да нас посети, али сумњам да ћу га икада више видети за живота. Како било, драго ми је сећање на њега и његов народ, и дуго ћу памтити његову непоколебљиву оданост и све што је учинио да помогне нашим напорима."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:411
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:419
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:412
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:420
 msgid "And I will always remember $intl_ally_name who died along our journey. A braver warrior I have never seen, and though he was taken from us too soon, I am glad for the short time that I knew him."
 msgstr "И увек ће ми у сећању остати $intl_ally_name који страда уз нас на путу. Храбријег ратника у животу не видех, и иако нам га прерано узеше, ценим то кратко време током којег сам га познавао."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:429
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:430
 msgid "So much has happened since we left the desert, but looking back upon our journey I do not want to forget Garak and his sacrifice. I doubt that we would have made it out of the sands alive if it was not for his strength and guidance. I remember how he used to smile when charging into battle, and how he would pray over the bodies of his fallen friends afterwards. I think of him sometimes, buried in the sands with his fellow warriors. I think he would have been proud of us. He was both a great warrior and a great teacher. He will be remembered."
 msgstr "Толико се тога збило откако смо напустили пустињу, али гледајући уназад на наш пут, не желим да заборавим Гарака и његову жртву. Сумњам да бисмо се живи извукли са песка да не би његове снаге и вођства. Сећам се како је обичавао да се смеши при јуришању у бој, и како би се потом молио над телима својих палих пријатеља. Понекад размишљам о њему, закопаном у песку покрај својих сабораца. Верујем да би био поносан на нас. Био је и велики ратник и велики учитељ. Памтићемо га."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:434
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:435
 msgid "As for the Black Citadel, after much discussion we decided to go back to the ancient rituals for purifying unclean land, with fire. We filled the entire structure with wood and oil and set the place ablaze to make sure that any remnants of Yechnagoth's infestation would be purged by holy fire. We then tore the citadel down, stone by stone. I was tempted to save the stones for construction in the future, but I did not know what foul magics might still linger in them, and I did not want to take any chances. So with the help of the merfolk, we carried the stones far out into the water and cast them down to the bottom of the ocean. Once the last stone had been removed, we decided that no matter what we built or grew around it, that area would be left bare as a reminder of the evil that once dwelt here and all those who gave their lives to destroy it."
 msgstr "Што се тиче Црне цитаделе, после много расправа одлучисмо да се вратимо древним обредима за прочишћавање укаљане земље — ватром. Испунисмо читаву грађевину дрветом и уљем, и запалисмо све скупа, како бисмо били сигурни да ће света ватра прочистити и најмањи остатак Јехнаготине заразе. Затим разрушисмо угарке цитаделе, камен по камен. Био сам у искушењу да сачувамо грађу за будуће градње, али како нисмо знали каква се погана магија још у њима може скривати, одлучих да ништа не препустим случају. Тако, уз помоћ морејаца, понесмо камење далеко на отворено море, и предасмо га дубинама океана. Пошто је и последњи камен уклоњен, одлучисмо да ма шта будемо градили или узгајали, земљиште на коме се цитадела издизала остаће огољено као подсетник злу које је некада ту пребивало и спомен онима који су дали животе да се оно уништи."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:439
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:440
 msgid "It has been several years since the events that I chronicle here, and I'm not quite as spry and limber as I used to be, so I decided it was about time that I write this all down lest something happen to me. My one wish is that our descendants do not forget all those who made the ultimate sacrifice so that there might be a future for our people. Looking at the ruins of the ancient empires, I know that time erases all things. We have forgotten so much about the Golden Age. Do not let our story suffer the same fate. For as long as the tales of those now departed are still told, in some sense they are still alive and still with us. Honor those who have died. Remember our mistakes so you will not repeat them. And most of all, treasure every day, for it is a gift, from us to you."
 msgstr "Прошло је неколико година од догађаја о којима овде зборим. Више нисам тако хитар и окретан као што сам некада био, те одлучих да је време да све ово запишем, не би ли ми се нешто пре тога десило. Једна ми је жеља, да наши потомци не забораве све оне који су поднели крајњу жртву да би наш народ имао будућности. Гледајући у рушевине древних царстава, знам да време брише све. Толико тога смо заборавили о Златном добу. Не допустите да и нашу причу дочека иста судбина. Јер све док се приче о онима што више нису међу нама још увек буду причале, на неки ће начин они и даље бити живи и уз нас. Поштујте оне који дадоше своје животе. Памтите наше грешке да их не бисте понављали. И изнад свега, цените сваки дан, јер је он дар од нас, вама."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:499
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:500
 msgid "Hey Kaleh, how's the writing going?"
 msgstr "Еј, Калех, како иде пискарање?"
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:504
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:505
 msgid "Actually I just finished."
 msgstr "У ствари, управо заврших."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:509
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:510
 msgid "You've been working on that thing for months. I'm impressed."
 msgstr "Радиш на томе већ месецима. Задивљена сам."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:514
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:515
 msgid "Yes, it feels good to finally be done."
 msgstr "Да, прија ми што је напокон приведено крају."
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:519
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:520
 msgid "Well, your timing was perfect. Zhul is dedicating the new grove to Eloh, and you know there'll be one heck of a celebration afterwards."
 msgstr "Па, баш си завршио у прави час. Жул посвећује свој нови гај Елох, и знаш да ће после тога уследити силно славље."
 
 #. [message]: speaker=Kaleh
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:524
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:525
 msgid "I suppose we wouldn't want to miss that. I wonder if they will still have any of that wine left from last year?"
 msgstr "Претпостављам да не би требало то пропустити. Питам се да ли још увек имају оног вина од прошле године?"
 
 #. [message]: speaker=Nym
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:529
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:530
 msgid "We'll just have to find out. Come on!"
 msgstr "Мораћемо сами то да извидимо. Хајде!"
 
 #. [print]
 #. +> trunk 1.6
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:536
-#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:590
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:537
+#: data/campaigns/Under_the_Burning_Suns/scenarios/13_Epilogue.cfg:591
 msgid "THE END"
 msgstr "КРАЈ"
 

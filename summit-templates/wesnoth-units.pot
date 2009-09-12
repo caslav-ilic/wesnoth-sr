@@ -4,11 +4,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
+"#-#-#-#-#  wesnoth-units.cpp.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-08-29 12:11+0200\n"
+"POT-Creation-Date: 2009-09-06 15:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  wesnoth-units.wml.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2009-09-06 15:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +36,7 @@ msgstr ""
 
 #. [unit_type]: id=Blood Bat, race=bats
 #. +> trunk
-#: data/core/units/bats/Bat_Blood.cfg:19
+#: data/core/units/bats/Bat_Blood.cfg:20
 msgid "Blood Bats are so named because of their ruddy hue, which some mark as a symbol of their preferred diet. These creatures are fast and can drain the blood of those they attack, thereby gaining some of the health lost by their victims."
 msgstr ""
 
@@ -37,9 +49,9 @@ msgstr ""
 #. [attack]: type=blade
 #. [attack]: type=pierce
 #. +> trunk 1.6
-#: data/core/units/bats/Bat_Blood.cfg:176
-#: data/core/units/bats/Bat_Dread.cfg:29
-#: data/core/units/bats/Bat_Vampire.cfg:176
+#: data/core/units/bats/Bat_Blood.cfg:189
+#: data/core/units/bats/Bat_Dread.cfg:42
+#: data/core/units/bats/Bat_Vampire.cfg:189
 #: data/core/units/goblins/Direwolf_Rider.cfg:46
 #: data/core/units/goblins/Knight.cfg:48
 #: data/core/units/goblins/Pillager.cfg:47
@@ -58,15 +70,15 @@ msgid "Dread Bat"
 msgstr ""
 
 #. [unit_type]: id=Dread Bat, race=bats
-#. +> trunk
-#: data/core/units/bats/Bat_Dread.cfg:25
-msgid "The most vicious, predatory, and successful of the Blood Bats become Dread Bats, gaining the ability to drain not merely the blood but the very life energy of their victims."
-msgstr ""
-
-#. [unit_type]: id=Dread Bat, race=bats
 #. +> 1.6
 #: data/core/units/bats/Bat_Dread.cfg:25
 msgid "Dread Bats are fast and can drain the blood of those they attack, thereby healing themselves, even to the point where they become stronger than they began the battle. Bloated with blood they have grown to a huge size and can feast on bigger and tougher victims."
+msgstr ""
+
+#. [unit_type]: id=Dread Bat, race=bats
+#. +> trunk
+#: data/core/units/bats/Bat_Dread.cfg:26
+msgid "The most vicious, predatory, and successful of the Blood Bats become Dread Bats, gaining the ability to drain not merely the blood but the very life energy of their victims."
 msgstr ""
 
 #. [unit_type]: id=Vampire Bat, race=bats
@@ -77,7 +89,7 @@ msgstr ""
 
 #. [unit_type]: id=Vampire Bat, race=bats
 #. +> trunk 1.6
-#: data/core/units/bats/Bat_Vampire.cfg:19
+#: data/core/units/bats/Bat_Vampire.cfg:20
 msgid "Vampire bats are flying beasts that feed on the blood of other creatures. While their fangs are not very powerful, the health of victims is drained away along with their blood, and given to the Bats."
 msgstr ""
 
@@ -185,20 +197,20 @@ msgstr ""
 #. [attack]: type=blade
 #. +> trunk
 #: data/core/units/drakes/Armageddon.cfg:85
-#: data/core/units/drakes/Inferno.cfg:72
+#: data/core/units/drakes/Fire.cfg:107 data/core/units/drakes/Inferno.cfg:108
 msgid "battle claws"
 msgstr ""
 
 #. [attack]: type=fire
 #. +> trunk 1.6
 #: data/core/units/drakes/Armageddon.cfg:94
-#: data/core/units/drakes/Blademaster.cfg:78
+#: data/core/units/drakes/Blademaster.cfg:117
 #: data/core/units/drakes/Burner.cfg:117
-#: data/core/units/drakes/Fighter.cfg:117 data/core/units/drakes/Fire.cfg:80
+#: data/core/units/drakes/Fighter.cfg:117 data/core/units/drakes/Fire.cfg:116
 #: data/core/units/drakes/Flameheart.cfg:88
 #: data/core/units/drakes/Flare.cfg:92 data/core/units/drakes/Glider.cfg:119
-#: data/core/units/drakes/Hurricane.cfg:127
-#: data/core/units/drakes/Inferno.cfg:81 data/core/units/drakes/Sky.cfg:126
+#: data/core/units/drakes/Hurricane.cfg:135
+#: data/core/units/drakes/Inferno.cfg:117 data/core/units/drakes/Sky.cfg:133
 #: data/core/units/drakes/Warrior.cfg:116
 #: data/core/units/monsters/Fire_Dragon.cfg:46
 msgid "fire breath"
@@ -212,7 +224,7 @@ msgstr ""
 
 #. [unit_type]: id=Drake Blademaster, race=drake
 #. +> trunk
-#: data/core/units/drakes/Blademaster.cfg:19
+#: data/core/units/drakes/Blademaster.cfg:20
 msgid "The drakes who master the use of war blades are sworn into a special order. The mark of their initiation is the black-and-white warpaint they display in battle."
 msgstr ""
 
@@ -224,10 +236,11 @@ msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk
-#: data/core/units/drakes/Blademaster.cfg:69
-#: data/core/units/drakes/Fighter.cfg:108
-#: data/core/units/drakes/Warrior.cfg:107
-msgid "war blade"
+#: data/core/units/drakes/Blademaster.cfg:108
+#: data/core/units/drakes/Clasher.cfg:38
+#: data/core/units/drakes/Enforcer.cfg:36
+#: data/core/units/drakes/Thrasher.cfg:23
+msgid "war talon"
 msgstr ""
 
 #. [unit_type]: id=Drake Burner, race=drake
@@ -244,7 +257,7 @@ msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/drakes/Burner.cfg:108 data/core/units/drakes/Fire.cfg:71
+#: data/core/units/drakes/Burner.cfg:108
 #: data/core/units/goblins/Direwolf_Rider.cfg:55
 #: data/core/units/gryphons/Gryphon.cfg:41
 #: data/core/units/gryphons/Gryphon_Master.cfg:42
@@ -281,18 +294,9 @@ msgid ""
 "This is also the only caste that is allowed to break taboo and fight with spears in addition to the drake's traditional metal claws, which makes them particularly good at \"resolving\" territorial disputes with other drakes and enforcing the laws of their tribe."
 msgstr ""
 
-#. [attack]: type=blade
-#. +> trunk
-#: data/core/units/drakes/Clasher.cfg:38
-#: data/core/units/drakes/Enforcer.cfg:36
-#: data/core/units/drakes/Thrasher.cfg:23
-msgid "war talon"
-msgstr ""
-
 #. [attack]: type=pierce
 #. +> trunk 1.6
 #: data/core/units/drakes/Clasher.cfg:47
-#: data/core/units/drakes/Enforcer.cfg:54
 #: data/core/units/drakes/Thrasher.cfg:32
 #: data/core/units/dwarves/Guardsman.cfg:43
 #: data/core/units/dwarves/Sentinel.cfg:51
@@ -307,10 +311,10 @@ msgstr ""
 #: data/core/units/humans/Loyalist_Spearman.cfg:59
 #: data/core/units/merfolk/Hoplite.cfg:48
 #: data/core/units/merfolk/Hunter.cfg:37 data/core/units/merfolk/Hunter.cfg:45
-#: data/core/units/merfolk/Javelineer.cfg:25
-#: data/core/units/merfolk/Javelineer.cfg:33
-#: data/core/units/merfolk/Spearman.cfg:24
-#: data/core/units/merfolk/Spearman.cfg:32
+#: data/core/units/merfolk/Javelineer.cfg:37
+#: data/core/units/merfolk/Javelineer.cfg:45
+#: data/core/units/merfolk/Spearman.cfg:36
+#: data/core/units/merfolk/Spearman.cfg:44
 #: data/core/units/saurians/Ambusher.cfg:39
 #: data/core/units/saurians/Ambusher.cfg:48
 #: data/core/units/saurians/Flanker.cfg:40
@@ -346,6 +350,16 @@ msgstr ""
 msgid "ram"
 msgstr ""
 
+#. [attack]: type=pierce
+#. [attack]: type=blade
+#. +> trunk 1.6
+#: data/core/units/drakes/Enforcer.cfg:54
+#: data/core/units/merfolk/Fighter.cfg:37
+#: data/core/units/merfolk/Triton.cfg:38 data/core/units/merfolk/Triton.cfg:46
+#: data/core/units/merfolk/Warrior.cfg:36
+msgid "trident"
+msgstr ""
+
 #. [unit_type]: id=Drake Fighter, race=drake
 #. +> trunk 1.6
 #: data/core/units/drakes/Fighter.cfg:4
@@ -370,6 +384,13 @@ msgstr ""
 msgid "scimitar"
 msgstr ""
 
+#. [attack]: type=blade
+#. +> trunk
+#: data/core/units/drakes/Fighter.cfg:108
+#: data/core/units/drakes/Warrior.cfg:107
+msgid "war blade"
+msgstr ""
+
 #. [unit_type]: id=Fire Drake, race=drake
 #. +> trunk 1.6
 #: data/core/units/drakes/Fire.cfg:4
@@ -378,7 +399,7 @@ msgstr ""
 
 #. [unit_type]: id=Fire Drake, race=drake
 #. +> trunk
-#: data/core/units/drakes/Fire.cfg:18
+#: data/core/units/drakes/Fire.cfg:19
 msgid "The great fire-drakes are masters of their internal flame. Clad in shining armor, they belch columns of flame at any who oppose them, a testament to the strength and majesty of their kind."
 msgstr ""
 
@@ -456,7 +477,7 @@ msgstr ""
 #. [attack]: type=impact
 #. +> trunk 1.6
 #: data/core/units/drakes/Glider.cfg:110
-#: data/core/units/drakes/Hurricane.cfg:118 data/core/units/drakes/Sky.cfg:117
+#: data/core/units/drakes/Hurricane.cfg:126 data/core/units/drakes/Sky.cfg:124
 msgid "slam"
 msgstr ""
 
@@ -480,7 +501,7 @@ msgstr ""
 
 #. [unit_type]: id=Inferno Drake, race=drake
 #. +> trunk 1.6
-#: data/core/units/drakes/Inferno.cfg:19
+#: data/core/units/drakes/Inferno.cfg:20
 msgid "The flying conflagrations known as Drake Infernos are the masters of the fire they breathe, and rival their predecessors the Dragons in their ability to use it. This natural ability renders them nearly immune to fire. Their shining, flame-colored armor is a mark of their proud and powerful caste, the ideal to which their brethren aspire."
 msgstr ""
 
@@ -2403,9 +2424,9 @@ msgstr ""
 #. +> trunk
 #: data/core/units/merfolk/Entangler.cfg:22
 msgid ""
-"Merfolk tend to use a combination of both nets and clubs in fishing; nets to collect the fish, and clubs to finish the kill.  Both of these tools have seen adaptation for warfare, and are valuable enough that auxilliaries who specialize in using them are deliberately brought to battle.\n"
+"Merfolk tend to use a combination of both nets and clubs in fishing; nets to collect the fish, and clubs to finish the kill. Both of these tools have seen adaptation for warfare, and are valuable enough that auxilliaries who specialize in using them are deliberately brought to battle.\n"
 "\n"
-"    Mermen often find themselves in a standoff with land-based enemies; the merfolk are too strong in the water, and are too weak to make any offense on land.  Nets are a key bit of leverage; without nets, mermen can't give any effective chase over land, and are at a great disadvantage in hand-to-hand combat."
+"    Mermen often find themselves in a standoff with land-based enemies; the merfolk are too strong in the water, and are too weak to make any offense on land. Nets are a key bit of leverage; without nets, mermen can't give any effective chase over land, and are at a great disadvantage in hand-to-hand combat."
 msgstr ""
 
 #. [unit_type]: id=Merman Fighter, race=merman
@@ -2418,15 +2439,6 @@ msgstr ""
 #. +> trunk 1.6
 #: data/core/units/merfolk/Fighter.cfg:20
 msgid "Skilled creatures of the sea, Mermen are powerful and quick in any watery environment, but lose most of their mobility on land."
-msgstr ""
-
-#. [attack]: type=pierce
-#. [attack]: type=blade
-#. +> trunk 1.6
-#: data/core/units/merfolk/Fighter.cfg:37
-#: data/core/units/merfolk/Triton.cfg:38 data/core/units/merfolk/Triton.cfg:46
-#: data/core/units/merfolk/Warrior.cfg:36
-msgid "trident"
 msgstr ""
 
 #. [unit_type]: id=Merman Hoplite, race=merman
@@ -2497,9 +2509,9 @@ msgstr ""
 #. +> trunk
 #: data/core/units/merfolk/Netcaster.cfg:21
 msgid ""
-"Fishing, as practiced by mermen, is largely a matter of chasing schools of fish into waiting nets, where oar-like clubs are used to dispatch the prey. The improvisation of using these against soldiers proved very effective;  most land-native creatures are already quite awkward when waist-deep in water, and getting caught in a net can nearly render them helpless.\n"
+"Fishing, as practiced by mermen, is largely a matter of chasing schools of fish into waiting nets, where oar-like clubs are used to dispatch the prey. The improvisation of using these against soldiers proved very effective; most land-native creatures are already quite awkward when waist-deep in water, and getting caught in a net can render them nearly helpless.\n"
 "    \n"
-"    The effectiveness of this led to the development of smaller, weighted nets, which could be cast through the air; these were useless for fishing, but were useful in both combat, and in hunting game that came too close to shore. Clubs were used in combat with little or no adaptation from fishing, since they were already quite deadly."
+"    The effectiveness of this method led to the development of smaller, weighted nets, which could be cast through the air; these were useless for fishing, but were useful in both combat, and in hunting game that came too close to shore. Clubs were used in combat with little or no adaptation from fishing, since they were already quite deadly."
 msgstr ""
 
 #. [unit_type]: id=Mermaid Priestess, race=merman

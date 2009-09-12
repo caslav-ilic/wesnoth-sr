@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-08-29 12:11+0200\n"
+"POT-Creation-Date: 2009-09-06 15:04+0200\n"
 "PO-Revision-Date: 2009-08-26 17:28+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 
@@ -2173,7 +2173,9 @@ msgstr "Делфадоре! Тако је добро видети те! Куда
 #. [message]: speaker=Delfador
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:561
-msgid "I have been meeting with the Ka'lian, the Great Council of the Elves. This is Kalenz, a great lord of the Northern Elves who came to the Council to offer us the support of the his people."
+#, fuzzy
+#| msgid "I have been meeting with the Ka'lian, the Great Council of the Elves. This is Kalenz, a great lord of the Northern Elves who came to the Council to offer us the support of the his people."
+msgid "I have been meeting with the Ka'lian, the Great Council of the Elves. This is Kalenz, a great lord of the Northern Elves who came to the Council to offer us the support of his people."
 msgstr "Састанчио сам са Калијаном, великим вилењачким већем. Ово је Каленз, велики господар северњачких вилењака, који дође на Веће да нам понуди подршку својих сународника."
 
 #. [message]: speaker=Delfador
@@ -7225,8 +7227,16 @@ msgid "I have always been the humble servant of the crown, even now."
 msgstr "Одувек бејах понизни слуга круни, и то ћу бити и сада."
 
 #. [message]: speaker=Asheviere
-#. +> trunk 1.6
+#. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:408
+#, fuzzy
+#| msgid "Delfador! You utterly disgust me, you sniveling worm. How dare you confront me, your queen."
+msgid "Delfador! You utterly disgust me, you sniveling worm. How dare you confront me, your queen?"
+msgstr "Делфадоре! Неизмерно ми се гадиш, ти цмиздрави црве. Како се усуђујеш да се испречиш својој краљици."
+
+#. [message]: speaker=Asheviere
+#. +> 1.6
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:406
 msgid "Delfador! You utterly disgust me, you sniveling worm. How dare you confront me, your queen."
 msgstr "Делфадоре! Неизмерно ми се гадиш, ти цмиздрави црве. Како се усуђујеш да се испречиш својој краљици."
 
@@ -7395,12 +7405,24 @@ msgid "saber"
 msgstr "сабља"
 
 #. [attack]: type=fire
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/units/Battle_Princess.cfg:125
+#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:159
+#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:81
+#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:195
+#: data/campaigns/Heir_To_The_Throne/units/Princess.cfg:164
+#, fuzzy
+#| msgid "scepter of fire"
+msgid "sceptre of fire"
+msgstr "ватрено жезло"
+
+#. [attack]: type=fire
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/units/Battle_Princess.cfg:124
-#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:158
-#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:80
-#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:194
 #: data/campaigns/Heir_To_The_Throne/units/Princess.cfg:163
+#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:232
+#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:192
+#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:59
 msgid "scepter of fire"
 msgstr "ватрено жезло"
 
@@ -7549,7 +7571,7 @@ msgstr "Шшш! Грифон спава! Боље ти је да га не пр�
 msgid "claws"
 msgstr "канџе"
 
-#. [message]: speaker=unit
+#. [message]: speaker=last breath
 #. +> trunk 1.6
 #: data/campaigns/Heir_To_The_Throne/utils/deaths.cfg:9
 msgid "We are vanquished, for I have been defeated!"

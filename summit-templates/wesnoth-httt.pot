@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-08-29 12:11+0200\n"
+"POT-Creation-Date: 2009-09-06 15:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2095,7 +2095,7 @@ msgstr ""
 #. [message]: speaker=Delfador
 #. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:561
-msgid "I have been meeting with the Ka'lian, the Great Council of the Elves. This is Kalenz, a great lord of the Northern Elves who came to the Council to offer us the support of the his people."
+msgid "I have been meeting with the Ka'lian, the Great Council of the Elves. This is Kalenz, a great lord of the Northern Elves who came to the Council to offer us the support of his people."
 msgstr ""
 
 #. [message]: speaker=Delfador
@@ -7062,8 +7062,14 @@ msgid "I have always been the humble servant of the crown, even now."
 msgstr ""
 
 #. [message]: speaker=Asheviere
-#. +> trunk 1.6
+#. +> trunk
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:408
+msgid "Delfador! You utterly disgust me, you sniveling worm. How dare you confront me, your queen?"
+msgstr ""
+
+#. [message]: speaker=Asheviere
+#. +> 1.6
+#: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:406
 msgid "Delfador! You utterly disgust me, you sniveling worm. How dare you confront me, your queen."
 msgstr ""
 
@@ -7232,12 +7238,22 @@ msgid "saber"
 msgstr ""
 
 #. [attack]: type=fire
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Heir_To_The_Throne/units/Battle_Princess.cfg:125
+#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:159
+#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:81
+#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:195
+#: data/campaigns/Heir_To_The_Throne/units/Princess.cfg:164
+msgid "sceptre of fire"
+msgstr ""
+
+#. [attack]: type=fire
+#. +> 1.6
 #: data/campaigns/Heir_To_The_Throne/units/Battle_Princess.cfg:124
-#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:158
-#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:80
-#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:194
 #: data/campaigns/Heir_To_The_Throne/units/Princess.cfg:163
+#: data/campaigns/Heir_To_The_Throne/units/Lord.cfg:232
+#: data/campaigns/Heir_To_The_Throne/units/Commander.cfg:192
+#: data/campaigns/Heir_To_The_Throne/units/Fighter.cfg:59
 msgid "scepter of fire"
 msgstr ""
 
@@ -7385,7 +7401,7 @@ msgstr ""
 msgid "claws"
 msgstr ""
 
-#. [message]: speaker=unit
+#. [message]: speaker=last breath
 #. +> trunk 1.6
 #: data/campaigns/Heir_To_The_Throne/utils/deaths.cfg:9
 msgid "We are vanquished, for I have been defeated!"

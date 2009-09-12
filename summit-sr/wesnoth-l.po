@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-08-29 12:11+0200\n"
+"POT-Creation-Date: 2009-09-06 15:04+0200\n"
 "PO-Revision-Date: 2009-08-29 12:39+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 
@@ -192,7 +192,7 @@ msgstr "Досегну ли гоблини село Далбен"
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:127
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:103
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:124
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:156
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:156
 #: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:97
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:287
 msgid "Death of Baldras"
@@ -205,7 +205,7 @@ msgstr "Настрада ли Балдрас"
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:131
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:107
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:128
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:160
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:160
 #: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:101
 msgid "Death of Harper"
 msgstr "Настрада ли Харпер"
@@ -217,7 +217,7 @@ msgstr "Настрада ли Харпер"
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:139
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:115
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:132
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:164
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:164
 #: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:105
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:291
 msgid "Turns run out"
@@ -464,10 +464,10 @@ msgstr "Нико не запази недаћу маленог, скрајнут
 msgid "Civil Disobedience"
 msgstr "Грађанска непослушност"
 
-#. [side]: type=Highwayman, id=Baldras
-#. [side]: type=Shadow Lord, id=Helicrom
-#. [side]
 #. [side]: type=Bandit, id=Baldras
+#. [side]: type=Shadow Lord, id=Helicrom
+#. [side]: type=Highwayman, id=Baldras
+#. [side]
 #. [side]: type=Rogue, id=Hans
 #. [side]: type=Highwayman_Peasant, id=Relnan
 #. [side]: type=General, id=Lord Maddock
@@ -481,8 +481,8 @@ msgstr "Грађанска непослушност"
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:63
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:40
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:96
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:55
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:77
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:55
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:77
 #: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:50
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:58
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:203
@@ -650,9 +650,9 @@ msgstr "Урк Делек"
 #. +> trunk 1.6
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:88
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:109
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:105
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:121
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:138
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:105
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:121
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:138
 msgid "Evil"
 msgstr "Зло"
 
@@ -1046,7 +1046,15 @@ msgid "They're looking for us."
 msgstr "Нас траже."
 
 #. [message]: speaker=Link
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:528
+#, fuzzy
+#| msgid "Well, good thing I found you first. Now hurry, you must make it past the city into the Gray Woods. There is a small path in the southeast that leads into the forest; look for the signpost. My brother Hans is waiting for you there and will take you to our master. Try to avoid the soldiers if you can."
+msgid "Well, good thing I found you first. Now hurry, you must make it past the city into the Grey Woods. There is a small path in the southeast that leads into the forest; look for the signpost. My brother Hans is waiting for you there and will take you to our master. Try to avoid the soldiers if you can."
+msgstr "Ваља онда што сам вас ја нашао први. Сад пожурите, морате се провући покрај града, у Седошумље. Југоисточно пролази уска стаза која води у шуму; потражите путоказ. Тамо ће вас чекати мој брат Ханс, да вас поведе к нашем господару. Покушајте да избегнете војнике ако узмогнете."
+
+#. [message]: speaker=Link
+#. +> 1.6
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:528
 msgid "Well, good thing I found you first. Now hurry, you must make it past the city into the Gray Woods. There is a small path in the southeast that leads into the forest; look for the signpost. My brother Hans is waiting for you there and will take you to our master. Try to avoid the soldiers if you can."
 msgstr "Ваља онда што сам вас ја нашао први. Сад пожурите, морате се провући покрај града, у Седошумље. Југоисточно пролази уска стаза која води у шуму; потражите путоказ. Тамо ће вас чекати мој брат Ханс, да вас поведе к нашем господару. Покушајте да избегнете војнике ако узмогнете."
@@ -1106,7 +1114,15 @@ msgid "You can come if you wish, but the leader is only interested in speaking t
 msgstr "Можете и ви поћи ако желите, али вођ жели да разговара само са Балдрасом."
 
 #. [message]: speaker=Hans
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:748
+#, fuzzy
+#| msgid "Fly, and we may yet evade them in the Gray Woods."
+msgid "Fly, and we may yet evade them in the Grey Woods."
+msgstr "Похитајмо, и још им можемо избећи у Седошумљу."
+
+#. [message]: speaker=Hans
+#. +> 1.6
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:748
 msgid "Fly, and we may yet evade them in the Gray Woods."
 msgstr "Похитајмо, и још им можемо избећи у Седошумљу."
@@ -1120,19 +1136,27 @@ msgstr "Поведи онда..."
 #. [message]: speaker=Baldras
 #. +> trunk 1.6
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:777
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:438
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:438
 msgid "We have spent too much time here. Surely the Queen's forces have returned to Dallben. Our mission is unfinished, but we must return to fight a suicide battle."
 msgstr "Предуго се задржасмо овде. Краљичине снаге засигурно су се вратиле пут Далбена. Наше посланство је недовршено, али морамо назад у безнадежни бој."
 
 #. [scenario]: id=the_gray_woods
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:4
+#, fuzzy
+#| msgid "The Gray Woods"
+msgid "The Grey Woods"
+msgstr "Седошумље"
+
+#. [scenario]: id=the_gray_woods
+#. +> 1.6
 #: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:4
 msgid "The Gray Woods"
 msgstr "Седошумље"
 
 #. [side]: type=Shadow Lord, id=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:61
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:61
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:187
 msgid "Helicrom"
 msgstr "Хеликром"
@@ -1140,195 +1164,203 @@ msgstr "Хеликром"
 # |, no-check-spell
 #. [side]: type=Necromancer, id=Mal-Jarrof
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:96
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:96
 msgid "Mal-Jarrof"
 msgstr "мал Џароф"
 
 # |, no-check-spell
 #. [side]: type=Necromancer, id=Mal-Jerod
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:112
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:112
 msgid "Mal-Jerod"
 msgstr "мал Џерод"
 
 # |, no-check-spell
 #. [side]: type=Lich, id=Sel-Mana
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:128
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:128
 msgid "Sel-Mana"
 msgstr "Сел-Мана"
 
 #. [objective]: condition=win
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:152
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:152
 msgid "Defeat the lich and its minions"
 msgstr "Поразиш ли косца и његове следбенике"
 
 #. [message]: speaker=Baldras
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:220
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:220
 msgid "The leader, I presume."
 msgstr "Вођ, претпостављам."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:224
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:224
 msgid "I am Helicrom, and you should not be so glib. I control dangerous men. My henchmen can slip unseen through any city, rob a man while he sleeps, or attack a caravan head-on. It's not noble work, but our pursuits require plenty of gold."
 msgstr "Ја сам Хеликром, а теби је боље да не будеш тако слаткоречив. Заповедам опасним људима. Моји најамници умеју клизнути непримећени кроз сваки град, опљачкати човека на спавању, или напасти караван с чела. Дела не баш племенита, али наша занимања захтевају обиље злата."
 
 #. [message]: speaker=Baldras
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:228
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:228
 msgid "Your pursuits?"
 msgstr "Ваша занимања?"
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:232
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:232
 msgid "The former King's magic ministry kept a tight control on the training and employment of mages in Wesnoth. Those of us who dared to... depart from the curriculum, you might say, were dealt with harshly. We are outcasts because we seek to master shadow magic. Our secrecy and security are not cheap."
 msgstr "Посланство за магију бившег краља одржавало је чврст стисак над увежбавањем и упошљавањем магова у Весноту. С онима међу нама који су се усудили да... зађу изван наставног плана, такорећи, сурово се обрачунавало. Изгнани смо јер искамо владање магијом из сенке. Наша потаја и безбедност не долазе јефтино."
 
 #. [message]: speaker=Baldras
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:236
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:236
 msgid "I have heard of you. Necromancers. Barely-human scum, I say."
 msgstr "Чуо сам о вама. Некроманти. Једва-људски олош, кажем ја."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:240
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:240
 msgid "Wrong. Necromancers become slaves to their lich masters and eventually lose their humanity. We have proven that practicing the dark arts need not lead down that path to damnation. We remain human, and seek the mystical secret of balance between the ways of light and darkness. We dance between both ways, adhering to neither."
 msgstr "Нетачно. Некроманти постају робови својих господара-косаца и на концу губе човечност. Ми смо показали да бављење мрачним вештинама не мора водити низ ту странпутицу, уклетости. И даље смо људи, који трагају за тајном равнотеже између путева светла и таме. Крочимо по оба, али се не држимо ниједнога."
 
 #. [message]: speaker=Baldras
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:244
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:244
 msgid "I...see, I think. Why do you want to help us?"
 msgstr "А тако... чини ми се. Зашто желите да нам помогнете?"
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:248
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:248
 msgid "We don't. You have sought us out. But, I do know of your situation and am willing to help. Any weakening of the Throne of Wesnoth, whether it be occupied by King or Queen, aids us."
 msgstr "Не желимо. Ви сте потражили нас. Али, познате су ми ваше прилике и вољан сам да помогнем. Свако слабљење престола Веснота, било да заседа краљ или краљица, служи нашој сврси."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:259
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:259
 msgid "Carcyn is always foggy as of late because these woods have recently become home to a lich and two of its underling necromancers. Our experiments may have actually aroused it from sleep... we're not exactly sure."
 msgstr "У последње време Карсин је непрекидно магловит, јер ове шуме недавно постадоше дом једном косцу и двојици његових поданичких некроманата. Можда су га баш наши експерименти разбудили... нисмо сасвим сигурни."
 
 #. [message]: speaker=Baldras
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:263
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:263
 msgid "So now you need to defend your rear as well as your front... I see your predicament. My men will wipe this land clean if you can help us defend our homeland."
 msgstr "Тако да сада морате бранити и своју позадину, поред чела... Јасна ми је ваша тешкоћа. Моји ће људи очистити ову земљу ако нам можете помоћи у одбрани наше домовине."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:288
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:288
 msgid "Finally that creature is dead, yet its foolish minions resist."
 msgstr "Напокон је то створење мртво, па ипак се његови будаласти поданици опиру."
 
 #. [message]: speaker=Baldras
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:295
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:295
 msgid "The lich is destroyed and its minions dead."
 msgstr "Косац је уништен, а његови следбеници мртви."
 
 #. [message]: speaker=narrator
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:312
+#, fuzzy
+#| msgid "The defeat of the evil lich infesting the Gray Woods was a bittersweet victory. With Helicrom dead, the guild of shadow magic was thrown into disarray."
+msgid "The defeat of the evil lich infesting the Grey Woods was a bittersweet victory. With Helicrom dead, the guild of shadow magic was thrown into disarray."
+msgstr "Пораз злог косца што узнемири Седошумље беше горка победа. По смрти Хеликрома, еснаф магије из сенке западе у метеж."
+
+#. [message]: speaker=narrator
+#. +> 1.6
 #: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:312
 msgid "The defeat of the evil lich infesting the Gray Woods was a bittersweet victory. With Helicrom dead, the guild of shadow magic was thrown into disarray."
 msgstr "Пораз злог косца што узнемири Седошумље беше горка победа. По смрти Хеликрома, еснаф магије из сенке западе у метеж."
 
 #. [message]: speaker=narrator
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:317
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:317
 msgid "The remaining members were very grateful and offered Baldras a sizable sum of gold for his help. It was not the help he was hoping for, but he knew it would have to be enough for the coming conflict."
 msgstr "Преостали чланови беху захвални и понудише Балдрасу позамашну количину злата за његову помоћ. Не беше то помоћ каквој се надао, али је знао де ће и таква морати да буде довољна за предстојећи сукоб."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:336
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:336
 msgid "With the undead driven out, we may live here in relative peace and pursue our studies. For this, Baldras, I am grateful."
 msgstr "Пошто су немртви протерани, можемо живети у извесном миру и посветити се нашим изучавањима. За то, Балдрасе, захвалан сам."
 
 #. [message]: speaker=Baldras
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:340
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:340
 msgid "Studies? Peace? You mean to continue feeding on the lawful citizens of Wesnoth. There will be no peace for them."
 msgstr "Изучавања? Мир? Мислиш да наставите да се храните на рачун законитих становника Веснота. За њих неће бити мира."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:344
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:344
 msgid "No one here is in a position to be dispensing moral judgments. Regardless, you have done great service to us today, and we owe you a debt. I will help you to the utmost of my ability."
 msgstr "Нико овде није у положају да изриче моралне осуде. Свеједно, велику сте нам услугу учинили данас, ваши смо дужници. Помоћи ћу вам колико је то у мојој моћи."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:348
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:348
 msgid "I was planning on giving you gold. Any good army is well financed, and with the lich gone we can now spare it."
 msgstr "Намера ми је била да вас дарујем златом. Ваљана војска мора бити добро опремљена, а како косца више нема, можемо то приуштити."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:352
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:352
 msgid "But, I think it would help you more if I lent you some of my men to join you on your adventures. The Queen has been sending mages out here, and my men are itching for some payback."
 msgstr "Али, мислим да ће вам више помоћи ако вам позајмим нешто својих људи, да вас прате у пустоловинама. Краљица је слала магове све до овамо, и моји су људи орни да узврате."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:356
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:356
 msgid "On the other hand, if I keep the full force of my organization here, we might be able to regroup and join you on the battlefield when the time comes."
 msgstr "С друге стране, ако задржим овде сву силу нашег удружења, можда се можемо прерасподелити и придружити вам се на бојном пољу када за то дође време."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:360
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:360
 msgid "I leave it to you to decide."
 msgstr "Биће како ти одлучиш."
 
 #. [option]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:362
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:362
 msgid "I will take the gold. How does 500 sound?"
 msgstr "Узећу злато. Како звучи пет стотина?"
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:366
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:366
 msgid "Agreed. Good luck and farewell to you, Master Baldras."
 msgstr "Договорено. Са срећом и збогом, господару Балдрасе."
 
 #. [option]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:387
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:387
 msgid "Send your men with us. They will be valuable help as we prepare for the assault from the Wesnoth army garrison."
 msgstr "Дај нам своје људе у службу. Биће од велике помоћи кад се будемо припремали на јуриш гарнизона веснотске војске."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:391
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:391
 msgid "Done. My finest mages and thieves are at your disposal. Use them well."
 msgstr "Учињено. На располагању су ти моји најбољи магови и лопови. Користи их мудро."
 
 #. [option]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:405
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:405
 msgid "I wish you to join us in battle against the Queen's forces."
 msgstr "Рад сам да нам се придружиш у борби против краљичиних снага."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:409
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:409
 msgid "Alright. I need time to clean up this forest and recall my men from the countryside. We will be ready to march in 7 days. All now hinges on you! Until then..."
 msgstr "Нека буде. Требаће нешто времена да почистимо шуму и сазовемо људе из оближњих крајева. За седам дана бићемо спремни за покрет. Сада све зависи од тебе! До тада..."
 
 #. [message]: speaker=Helicrom
 #. +> trunk 1.6
-#: data/campaigns/Liberty/scenarios/06_The_Gray_Woods.cfg:459
+#: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:459
 msgid "My men... have failed to protect me! I perish..."
 msgstr "Моји... не успеше да ме заштите! Пропадох..."
 
@@ -1339,13 +1371,29 @@ msgid "The Hunters"
 msgstr "Ловци"
 
 #. [part]
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:24
+#, fuzzy
+#| msgid "Baldras and his men quickly left the Gray Woods, not entirely convinced of their safety even after eradicating the lich."
+msgid "Baldras and his men quickly left the Grey Woods, not entirely convinced of their safety even after eradicating the lich."
+msgstr "Балдрас и његова дружина брзо напустише Седошумље, не сасма убеђени у сопствену безбедност пошто су истребили косца."
+
+#. [part]
+#. +> 1.6
 #: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:24
 msgid "Baldras and his men quickly left the Gray Woods, not entirely convinced of their safety even after eradicating the lich."
 msgstr "Балдрас и његова дружина брзо напустише Седошумље, не сасма убеђени у сопствену безбедност пошто су истребили косца."
 
 #. [part]
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:27
+#, fuzzy
+#| msgid "As they marched, many men and women from the small hamlets peppering the area around Carcyn and the Gray Woods approached the group, asking to join them. The ascent of the Queen had cast an uneasy pall over the citizens of Wesnoth, and some of them were willing to resist it."
+msgid "As they marched, many men and women from the small hamlets peppering the area around Carcyn and the Grey Woods approached the group, asking to join them. The ascent of the Queen had cast an uneasy pall over the citizens of Wesnoth, and some of them were willing to resist it."
+msgstr "Док су напредовали, многи мушкарци и жене из сеоцади разбацаних око Карсина и Седошумља приближише се дружини, с намером да се придруже. Успон краљичин баци мучан покров над становнике Веснота, неки од којих беху вољни да пруже отпор."
+
+#. [part]
+#. +> 1.6
 #: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:27
 msgid "As they marched, many men and women from the small hamlets peppering the area around Carcyn and the Gray Woods approached the group, asking to join them. The ascent of the Queen had cast an uneasy pall over the citizens of Wesnoth, and some of them were willing to resist it."
 msgstr "Док су напредовали, многи мушкарци и жене из сеоцади разбацаних око Карсина и Седошумља приближише се дружини, с намером да се придруже. Успон краљичин баци мучан покров над становнике Веснота, неки од којих беху вољни да пруже отпор."

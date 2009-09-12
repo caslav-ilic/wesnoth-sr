@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-08-29 12:11+0200\n"
+"POT-Creation-Date: 2009-09-06 15:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -905,6 +905,7 @@ msgstr ""
 #. [label]
 #. +> trunk
 #: data/gui/default/window/formula_debugger.cfg:86
+#: data/gui/default/window/gamestate_inspector.cfg:187
 msgid "Actions"
 msgstr ""
 
@@ -1101,6 +1102,42 @@ msgstr ""
 msgid "Save already exists. Do you want to overwrite it?"
 msgstr ""
 
+#. [label]
+#. +> trunk
+#: data/gui/default/window/gamestate_inspector.cfg:33
+msgid "Gamestate Inspector"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/gamestate_inspector.cfg:86
+msgid "Content"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/gamestate_inspector.cfg:97
+msgid "Inspection window"
+msgstr ""
+
+#. [label]: id=name
+#. +> trunk
+#: data/gui/default/window/gamestate_inspector.cfg:125
+msgid "Variable"
+msgstr ""
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=ok
+#. [button]: id=cancel
+#. [button]: id=close_window
+#. +> trunk 1.6
+#: data/gui/default/window/gamestate_inspector.cfg:250
+#: data/gui/default/window/lobby_main.cfg:503
+#: data/gui/default/window/lobby_player_info.cfg:192
+#: data/gui/default/window/message.cfg:122 src/construct_dialog.cpp:139
+msgid "Close"
+msgstr ""
+
 #. [grid]
 #. [label]
 #. +> trunk 1.6
@@ -1262,17 +1299,6 @@ msgstr ""
 #. +> trunk
 #: data/gui/default/window/lobby_main.cfg:488
 msgid "Invert filter"
-msgstr ""
-
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [button]: id=ok
-#. [button]: id=cancel
-#. [button]: id=close_window
-#. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:503
-#: data/gui/default/window/lobby_player_info.cfg:192
-#: data/gui/default/window/message.cfg:122 src/construct_dialog.cpp:139
-msgid "Close"
 msgstr ""
 
 #. [button]: id=send_message
@@ -1627,7 +1653,7 @@ msgstr ""
 #. +> trunk 1.6
 #: data/gui/default/window/mp_method_selection.cfg:31
 #: data/gui/default/window/title_screen.cfg:184
-#: src/gui/dialogs/game_load.cpp:262
+#: src/gui/dialogs/game_load.cpp:266
 msgid "Multiplayer"
 msgstr ""
 
@@ -1705,7 +1731,7 @@ msgstr ""
 #. [grid]
 #. +> trunk 1.6
 #: data/gui/default/window/title_screen.cfg:182
-#: src/gui/dialogs/game_load.cpp:264
+#: src/gui/dialogs/game_load.cpp:268
 msgid "Tutorial"
 msgstr ""
 
@@ -2370,7 +2396,7 @@ msgid "Linked '$id' group has multiple definitions."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:188 src/gui/widgets/settings.cpp:516
+#: src/gui/auxiliary/window_builder.cpp:188 src/gui/widgets/settings.cpp:517
 msgid "No resolution defined."
 msgstr ""
 
@@ -2378,9 +2404,9 @@ msgstr ""
 #: src/gui/auxiliary/window_builder.cpp:294
 #: src/gui/auxiliary/window_builder/panel.cpp:35
 #: src/gui/auxiliary/window_builder/toggle_panel.cpp:38
-#: src/gui/widgets/settings.cpp:780 src/gui/widgets/settings.cpp:879
-#: src/gui/widgets/settings.cpp:972 src/gui/widgets/settings.cpp:1014
-#: src/gui/widgets/settings.cpp:1129
+#: src/gui/widgets/settings.cpp:781 src/gui/widgets/settings.cpp:880
+#: src/gui/widgets/settings.cpp:973 src/gui/widgets/settings.cpp:1016
+#: src/gui/widgets/settings.cpp:1131
 msgid "No grid defined."
 msgstr ""
 
@@ -2435,72 +2461,72 @@ msgid "No stack defined."
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:235
+#: src/gui/dialogs/game_load.cpp:239
 msgid "#(Invalid)"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:255
+#: src/gui/dialogs/game_load.cpp:259
 msgid "Campaign: $campaign_name"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:274
+#: src/gui/dialogs/game_load.cpp:278
 msgid "replay"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:276
+#: src/gui/dialogs/game_load.cpp:280
 msgid "Turn"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:278
+#: src/gui/dialogs/game_load.cpp:282
 msgid "Scenario Start"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:281
+#: src/gui/dialogs/game_load.cpp:285
 msgid "Difficulty: "
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:285
+#: src/gui/dialogs/game_load.cpp:289
 msgid "Version: "
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:386
+#: src/gui/dialogs/lobby_main.cpp:401
 msgid "Observers allowed"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:389
+#: src/gui/dialogs/lobby_main.cpp:404
 msgid "Observers not allowed"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:664
+#: src/gui/dialogs/lobby_main.cpp:679
 msgid "Whisper session with $name started. If you don't want to receive messages from this user, type /ignore $name\n"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:670
+#: src/gui/dialogs/lobby_main.cpp:685
 msgid "Room $name joined"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1088
+#: src/gui/dialogs/lobby_main.cpp:1103
 msgid "Password Required"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1089
+#: src/gui/dialogs/lobby_main.cpp:1104
 msgid "Joining this game requires a password."
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1090
+#: src/gui/dialogs/lobby_main.cpp:1105
 msgid "Password: "
 msgstr ""
 
@@ -2525,22 +2551,22 @@ msgid "Mandatory widget '$id' hasn't been defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:143
+#: src/gui/widgets/settings.cpp:144
 msgid "No default gui defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:303
+#: src/gui/widgets/settings.cpp:304
 msgid "Window not defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:400
+#: src/gui/widgets/settings.cpp:401
 msgid "Widget definition '$definition' doesn't contain the definition for '$id'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:542
+#: src/gui/widgets/settings.cpp:543
 msgid "No state or draw section defined."
 msgstr ""
 

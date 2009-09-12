@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-08-26 14:50+0200\n"
+"POT-Creation-Date: 2009-09-06 15:04+0200\n"
 "PO-Revision-Date: 2009-06-16 13:59+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
@@ -657,7 +657,15 @@ msgid "More bandits?! They'll feel the deadly bite of my lance!"
 msgstr "Још ниткова?! Окусиће смртни угриз мога копља!"
 
 #. [message]: speaker=Minister Hylas
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:315
+#, fuzzy
+#| msgid "Peace! for I am no enemy. I am Minister Hylas, advisor to Sir Loris! You came just in time! We couldn't have held them off another day..."
+msgid "Peace! For I am no enemy. I am Minister Hylas, advisor to Sir Loris! You came just in time! We couldn't have held them off another day..."
+msgstr "Мир с вама! Јер ја нисам непријатељ, већ намесник Хилас, саветник сер Лориса! Стигосте у прави час, не бисмо их могли одбијати ни данак више..."
+
+#. [message]: speaker=Minister Hylas
+#. +> 1.6
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_By_The_Sword.cfg:315
 msgid "Peace! for I am no enemy. I am Minister Hylas, advisor to Sir Loris! You came just in time! We couldn't have held them off another day..."
 msgstr "Мир с вама! Јер ја нисам непријатељ, већ намесник Хилас, саветник сер Лориса! Стигосте у прави час, не бисмо их могли одбијати ни данак више..."
@@ -1086,7 +1094,6 @@ msgstr "мал Акаји"
 #. [side]: type=Ancient Lich, id=Mal M'Brin
 #. [side]: type=Lich, id=Mal Tera
 #. [side]: type=Soulless, id=Gruth
-#. [side]: type=Lich, id=Mal M'brin
 #. [side]
 #. +> trunk 1.6
 #: data/campaigns/The_South_Guard/scenarios/04_Vale_of_Tears.cfg:74
@@ -1357,7 +1364,7 @@ msgstr "Урза Афалас"
 msgid "Gruth"
 msgstr "Грут"
 
-#. [side]: type=Lich, id=Mal M'brin
+#. [side]: type=Lich, id=Mal M'Brin
 #. +> trunk 1.6
 #: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:120
 msgid "?"
@@ -3437,7 +3444,15 @@ msgid "Sir Deoran, Knight of Wesnoth, was summoned to Weldyn for a council with 
 msgstr "Сер Деоран, витез Веснота, беше сазван у Велдин на већање са краљем Халдриком лично. Олујни облаци су се захуктавали широм краљевства, и сваки заповедник ће бити потребан да се олуја преброди..."
 
 #. [part]
-#. +> trunk 1.6
+#. +> trunk
+#: data/campaigns/The_South_Guard/utils/sg_story.cfg:165
+#, fuzzy
+#| msgid "With bitter spears and grim expression, the men of Wesnoth launched the last assault on the undead. As they cut through lifeless flesh and shattered chill bones a ray of sunlight pierced the clouds. The winds died and the men were filled with new life. A great cry they let out as they stormed the encampment of Mal M'brin himself, and threw down the mighty wizard."
+msgid "With bitter spears and grim expression, the men of Wesnoth launched the last assault on the undead. As they cut through lifeless flesh and shattered chill bones a ray of sunlight pierced the clouds. The winds died and the men were filled with new life. A great cry they let out as they stormed the encampment of Mal M'Brin himself, and threw down the mighty wizard."
+msgstr "Горких копаља и мргодних израза, људи Веснота кренуше у последњи јуриш на немртве. Док су секли кроз беживотно месо и ломили хладне кости, зрак сунца се проби кроз облаке. Ветрови утихнуше, и људи се испунише новом животношћу. Уз силне покличе се стустише на логор самог мал Мебрина, и оборише моћног чаробњака."
+
+#. [part]
+#. +> 1.6
 #: data/campaigns/The_South_Guard/utils/sg_story.cfg:165
 msgid "With bitter spears and grim expression, the men of Wesnoth launched the last assault on the undead. As they cut through lifeless flesh and shattered chill bones a ray of sunlight pierced the clouds. The winds died and the men were filled with new life. A great cry they let out as they stormed the encampment of Mal M'brin himself, and threw down the mighty wizard."
 msgstr "Горких копаља и мргодних израза, људи Веснота кренуше у последњи јуриш на немртве. Док су секли кроз беживотно месо и ломили хладне кости, зрак сунца се проби кроз облаке. Ветрови утихнуше, и људи се испунише новом животношћу. Уз силне покличе се стустише на логор самог мал Мебрина, и оборише моћног чаробњака."
