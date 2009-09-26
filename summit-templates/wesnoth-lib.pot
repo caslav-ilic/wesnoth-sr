@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-09-06 15:04+0200\n"
+"POT-Creation-Date: 2009-09-23 12:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -677,8 +677,8 @@ msgstr ""
 #: data/gui/default/window/mp_method_selection.cfg:218
 #: data/gui/default/window/mp_server_list.cfg:229
 #: data/gui/default/window/unit_create.cfg:216
-#: data/gui/default/window/unit_create.cfg:217 src/construct_dialog.cpp:133
-#: src/construct_dialog.cpp:136
+#: data/gui/default/window/unit_create.cfg:217 src/construct_dialog.cpp:134
+#: src/construct_dialog.cpp:137
 msgid "Cancel"
 msgstr ""
 
@@ -702,9 +702,9 @@ msgstr ""
 #: data/gui/default/window/unit_create.cfg:204
 #: data/gui/default/window/unit_create.cfg:205
 #: data/gui/default/window/wml_message.cfg:458
-#: data/gui/default/window/wml_message.cfg:679 src/construct_dialog.cpp:125
-#: src/construct_dialog.cpp:132 src/gui/dialogs/message.cpp:188
-#: src/gui/dialogs/message.cpp:195
+#: data/gui/default/window/wml_message.cfg:679 src/construct_dialog.cpp:126
+#: src/construct_dialog.cpp:133 src/gui/dialogs/message.cpp:163
+#: src/gui/dialogs/message.cpp:170
 msgid "OK"
 msgstr ""
 
@@ -905,7 +905,7 @@ msgstr ""
 #. [label]
 #. +> trunk
 #: data/gui/default/window/formula_debugger.cfg:86
-#: data/gui/default/window/gamestate_inspector.cfg:187
+#: data/gui/default/window/gamestate_inspector.cfg:268
 msgid "Actions"
 msgstr ""
 
@@ -980,7 +980,7 @@ msgstr ""
 #: data/gui/default/window/game_save_oos.cfg:187
 #: data/gui/default/window/game_save_overwrite.cfg:88
 #: data/gui/default/window/game_save_overwrite.cfg:89
-#: src/construct_dialog.cpp:128 src/gui/dialogs/message.cpp:202
+#: src/construct_dialog.cpp:129 src/gui/dialogs/message.cpp:177
 msgid "Yes"
 msgstr ""
 
@@ -991,7 +991,7 @@ msgstr ""
 #: data/gui/default/window/game_save_message.cfg:154
 #: data/gui/default/window/game_save_oos.cfg:201
 #: data/gui/default/window/game_save_overwrite.cfg:103
-#: src/construct_dialog.cpp:129 src/gui/dialogs/message.cpp:204
+#: src/construct_dialog.cpp:130 src/gui/dialogs/message.cpp:179
 msgid "No"
 msgstr ""
 
@@ -999,7 +999,7 @@ msgstr ""
 #. [label]: id=lblTitle
 #. +> trunk 1.6
 #: data/gui/default/window/game_load.cfg:42
-#: src/gui/dialogs/mp_create_game.cpp:78 src/hotkeys.cpp:66
+#: src/gui/dialogs/mp_create_game.cpp:75 src/hotkeys.cpp:66
 msgid "Load Game"
 msgstr ""
 
@@ -1104,25 +1104,39 @@ msgstr ""
 
 #. [label]
 #. +> trunk
-#: data/gui/default/window/gamestate_inspector.cfg:33
+#: data/gui/default/window/gamestate_inspector.cfg:38
 msgid "Gamestate Inspector"
 msgstr ""
 
 #. [label]
 #. +> trunk
-#: data/gui/default/window/gamestate_inspector.cfg:86
+#: data/gui/default/window/gamestate_inspector.cfg:92
+msgid "Types"
+msgstr ""
+
+#. [label]
+#. +> trunk
+#: data/gui/default/window/gamestate_inspector.cfg:103
 msgid "Content"
 msgstr ""
 
 #. [label]
 #. +> trunk
-#: data/gui/default/window/gamestate_inspector.cfg:97
+#: data/gui/default/window/gamestate_inspector.cfg:114
 msgid "Inspection window"
+msgstr ""
+
+#. [label]: id=unit_type
+#. [label]: id=typename
+#. +> trunk
+#: data/gui/default/window/gamestate_inspector.cfg:145
+#: data/gui/default/window/unit_create.cfg:138
+msgid "Type"
 msgstr ""
 
 #. [label]: id=name
 #. +> trunk
-#: data/gui/default/window/gamestate_inspector.cfg:125
+#: data/gui/default/window/gamestate_inspector.cfg:206
 msgid "Variable"
 msgstr ""
 
@@ -1131,10 +1145,10 @@ msgstr ""
 #. [button]: id=cancel
 #. [button]: id=close_window
 #. +> trunk 1.6
-#: data/gui/default/window/gamestate_inspector.cfg:250
+#: data/gui/default/window/gamestate_inspector.cfg:331
 #: data/gui/default/window/lobby_main.cfg:503
 #: data/gui/default/window/lobby_player_info.cfg:192
-#: data/gui/default/window/message.cfg:122 src/construct_dialog.cpp:139
+#: data/gui/default/window/message.cfg:122 src/construct_dialog.cpp:140
 msgid "Close"
 msgstr ""
 
@@ -1653,7 +1667,7 @@ msgstr ""
 #. +> trunk 1.6
 #: data/gui/default/window/mp_method_selection.cfg:31
 #: data/gui/default/window/title_screen.cfg:184
-#: src/gui/dialogs/game_load.cpp:266
+#: src/gui/dialogs/game_load.cpp:259
 msgid "Multiplayer"
 msgstr ""
 
@@ -1731,7 +1745,7 @@ msgstr ""
 #. [grid]
 #. +> trunk 1.6
 #: data/gui/default/window/title_screen.cfg:182
-#: src/gui/dialogs/game_load.cpp:268
+#: src/gui/dialogs/game_load.cpp:261
 msgid "Tutorial"
 msgstr ""
 
@@ -1800,12 +1814,6 @@ msgstr ""
 #. +> trunk
 #: data/gui/default/window/unit_create.cfg:126
 msgid "Race"
-msgstr ""
-
-#. [label]: id=unit_type
-#. +> trunk
-#: data/gui/default/window/unit_create.cfg:138
-msgid "Type"
 msgstr ""
 
 #. +> trunk 1.6
@@ -2396,32 +2404,32 @@ msgid "Linked '$id' group has multiple definitions."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:188 src/gui/widgets/settings.cpp:517
+#: src/gui/auxiliary/window_builder.cpp:198 src/gui/widgets/settings.cpp:445
 msgid "No resolution defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:294
+#: src/gui/auxiliary/window_builder.cpp:305
 #: src/gui/auxiliary/window_builder/panel.cpp:35
 #: src/gui/auxiliary/window_builder/toggle_panel.cpp:38
-#: src/gui/widgets/settings.cpp:781 src/gui/widgets/settings.cpp:880
-#: src/gui/widgets/settings.cpp:973 src/gui/widgets/settings.cpp:1016
-#: src/gui/widgets/settings.cpp:1131
+#: src/gui/widgets/settings.cpp:709 src/gui/widgets/settings.cpp:808
+#: src/gui/widgets/settings.cpp:901 src/gui/widgets/settings.cpp:944
+#: src/gui/widgets/settings.cpp:1059
 msgid "No grid defined."
 msgstr ""
 
 #. +> trunk
-#: src/gui/auxiliary/window_builder.cpp:325
+#: src/gui/auxiliary/window_builder.cpp:336
 msgid "Linked '$id' group needs a 'fixed_width' or 'fixed_height' key."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:424
+#: src/gui/auxiliary/window_builder.cpp:435
 msgid "A row must have a column."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:425
+#: src/gui/auxiliary/window_builder.cpp:436
 msgid "Number of columns differ."
 msgstr ""
 
@@ -2461,82 +2469,82 @@ msgid "No stack defined."
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:239
+#: src/gui/dialogs/game_load.cpp:232
 msgid "#(Invalid)"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:259
+#: src/gui/dialogs/game_load.cpp:252
 msgid "Campaign: $campaign_name"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:278
+#: src/gui/dialogs/game_load.cpp:271
 msgid "replay"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:280
+#: src/gui/dialogs/game_load.cpp:273
 msgid "Turn"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:282
+#: src/gui/dialogs/game_load.cpp:275
 msgid "Scenario Start"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:285
+#: src/gui/dialogs/game_load.cpp:278
 msgid "Difficulty: "
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:289
+#: src/gui/dialogs/game_load.cpp:282
 msgid "Version: "
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:401
+#: src/gui/dialogs/lobby_main.cpp:404
 msgid "Observers allowed"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:404
+#: src/gui/dialogs/lobby_main.cpp:407
 msgid "Observers not allowed"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:679
+#: src/gui/dialogs/lobby_main.cpp:692
 msgid "Whisper session with $name started. If you don't want to receive messages from this user, type /ignore $name\n"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:685
+#: src/gui/dialogs/lobby_main.cpp:698
 msgid "Room $name joined"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1103
+#: src/gui/dialogs/lobby_main.cpp:1123
 msgid "Password Required"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1104
+#: src/gui/dialogs/lobby_main.cpp:1124
 msgid "Joining this game requires a password."
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1105
+#: src/gui/dialogs/lobby_main.cpp:1125
 msgid "Password: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/dialogs/message.cpp:216
+#: src/gui/dialogs/message.cpp:191
 msgid "Error"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/dialogs/mp_create_game.cpp:79
+#: src/gui/dialogs/mp_create_game.cpp:76
 msgid "Load Game..."
 msgstr ""
 
@@ -2566,12 +2574,18 @@ msgid "Widget definition '$definition' doesn't contain the definition for '$id'.
 msgstr ""
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:543
+#: src/gui/widgets/settings.cpp:471
 msgid "No state or draw section defined."
 msgstr ""
 
+#. +> trunk
+#: src/gui/widgets/window.cpp:732
+msgid "Click dismiss needs a 'click_dismiss' or 'ok' button."
+msgstr ""
+
 #. +> trunk 1.6
-#: src/gui/widgets/window.cpp:710 src/tests/gui/test_gui2.cpp:232
+#: src/gui/widgets/window.cpp:757 src/gui/widgets/window.cpp:790
+#: src/tests/gui/test_gui2.cpp:232
 msgid "Failed to show a dialog, which doesn't fit on the screen."
 msgstr ""
 
@@ -3202,7 +3216,7 @@ msgid "Island"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/marked-up_text.cpp:397
+#: src/marked-up_text.cpp:416
 msgid "The maximum text width is less than 1."
 msgstr ""
 

@@ -10,7 +10,7 @@ msgstr ""
 "#-#-#-#-#  wesnoth.cpp.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-09-06 15:04+0200\n"
+"POT-Creation-Date: 2009-09-23 12:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-09-06 15:04+0200\n"
+"POT-Creation-Date: 2009-09-23 12:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,13 +121,13 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. +> trunk
-#: data/ai/scenarios/ai_arena_small/0002-poisoning.cfg:16
+#: data/ai/scenarios/ai_arena_small/0002-poisoning.cfg:17
 msgid "This situation should test the ability of AI to spread poison around..."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. +> trunk
-#: data/ai/scenarios/ai_arena_small/0003-simple_combat.cfg:16
+#: data/ai/scenarios/ai_arena_small/0003-simple_combat.cfg:17
 msgid "This situation should test the ability of AI to make an attack..."
 msgstr ""
 
@@ -143,7 +143,7 @@ msgstr ""
 #. [unstore_unit]
 #. +> trunk 1.6
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_Desert_Of_Death.cfg:304
-#: src/actions.cpp:1142 src/actions.cpp:1417
+#: src/actions.cpp:1099 src/actions.cpp:1372
 msgid "poisoned"
 msgstr ""
 
@@ -199,7 +199,7 @@ msgstr ""
 #. [then]
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:1241
-#: src/actions.cpp:1147 src/actions.cpp:1422
+#: src/actions.cpp:1104 src/actions.cpp:1377
 msgctxt "female"
 msgid "slowed"
 msgstr ""
@@ -208,7 +208,7 @@ msgstr ""
 #. [else]
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:1244
-#: src/actions.cpp:1147 src/actions.cpp:1422
+#: src/actions.cpp:1104 src/actions.cpp:1377
 msgid "slowed"
 msgstr ""
 
@@ -592,31 +592,31 @@ msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2167
+#: data/core/about.cfg:2173
 msgid "Swedish Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2196
+#: data/core/about.cfg:2202
 msgid "Turkish Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2218
+#: data/core/about.cfg:2224
 msgid "Valencian (southern Catalan) Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2231
+#: data/core/about.cfg:2237
 msgid "RACV's Translation"
 msgstr ""
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2238
+#: data/core/about.cfg:2244
 msgid "Bots"
 msgstr ""
 
@@ -638,7 +638,7 @@ msgstr ""
 #. [section]: id=traits_section
 #. [topic]: id=..traits_section
 #. +> trunk 1.6
-#: data/core/help.cfg:33 data/core/help.cfg:355 src/menu_events.cpp:853
+#: data/core/help.cfg:33 data/core/help.cfg:355 src/menu_events.cpp:843
 msgid "Traits"
 msgstr ""
 
@@ -2533,16 +2533,19 @@ msgid ""
 "This unit gains 1 hitpoint added to its maximum whenever it kills a living unit."
 msgstr ""
 
+#. [unstore_unit]
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:524
 msgid "+1 max HP"
 msgstr ""
 
+#. [damage]: id=backstab
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:566
 msgid "backstab"
 msgstr ""
 
+#. [damage]: id=backstab
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:568
 msgid ""
@@ -2550,11 +2553,14 @@ msgid ""
 "When used offensively, this attack deals double damage if there is an enemy of the target on the opposite side of the target, and that unit is not incapacitated (turned to stone or otherwise paralyzed)."
 msgstr ""
 
+#. [plague]: id=plague({TYPE}), type={TYPE}
+#. [plague]: id=plague, type=Walking Corpse
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:580 data/core/macros/abilities.cfg:592
 msgid "plague"
 msgstr ""
 
+#. [plague]: id=plague({TYPE}), type={TYPE}
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:582
 msgid ""
@@ -2562,6 +2568,7 @@ msgid ""
 "When a unit is killed by a Plague attack, that unit is replaced with a unit identical to and on the same side as the unit with the Plague attack. This doesn't work on Undead or units in villages."
 msgstr ""
 
+#. [plague]: id=plague, type=Walking Corpse
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:594
 msgid ""
@@ -2569,6 +2576,7 @@ msgid ""
 "When a unit is killed by a Plague attack, that unit is replaced with a Walking Corpse on the same side as the unit with the Plague attack. This doesn't work on Undead or units in villages."
 msgstr ""
 
+#. [slow]: id=slow
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:604
 msgid "slows"
@@ -2579,6 +2587,7 @@ msgstr ""
 msgid "stones"
 msgstr ""
 
+#. [slow]: id=slow
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:606
 msgid ""
@@ -2586,11 +2595,13 @@ msgid ""
 "This attack slows the target until it ends a turn. Slow halves the damage caused by attacks and the movement cost for a slowed unit is doubled. A unit that is slowed will feature a snail icon in its sidebar information when it is selected."
 msgstr ""
 
+#. [petrifies]: id=petrifies
 #. +> trunk
 #: data/core/macros/abilities.cfg:615
 msgid "petrifies"
 msgstr ""
 
+#. [petrifies]: id=petrifies
 #. +> trunk
 #: data/core/macros/abilities.cfg:617
 msgid ""
@@ -2605,11 +2616,13 @@ msgid ""
 "This attack turns the target to stone. Units that have been turned to stone may not move or attack."
 msgstr ""
 
+#. [chance_to_hit]: id=marksman
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:626
 msgid "marksman"
 msgstr ""
 
+#. [chance_to_hit]: id=marksman
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:628
 msgid ""
@@ -2617,11 +2630,13 @@ msgid ""
 "When used offensively, this attack always has at least a 60% chance to hit."
 msgstr ""
 
+#. [swarm]: id=swarm
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:653
 msgid "swarm"
 msgstr ""
 
+#. [swarm]: id=swarm
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:655
 msgid ""
@@ -2629,11 +2644,13 @@ msgid ""
 "The number of strikes of this attack decreases when the unit is wounded. The number of strikes is proportional to the percentage of its of maximum HP the unit has. For example a unit with 3/4 of its maximum HP will get 3/4 of the number of strikes."
 msgstr ""
 
+#. [damage]: id=charge
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:664
 msgid "charge"
 msgstr ""
 
+#. [damage]: id=charge
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:666
 msgid ""
@@ -2641,11 +2658,13 @@ msgid ""
 "When used offensively, this attack deals double damage to the target. It also causes this unit to take double damage from the target's counterattack."
 msgstr ""
 
+#. [drains]: id=drains
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:678
 msgid "drains"
 msgstr ""
 
+#. [drains]: id=drains
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:680
 msgid ""
@@ -2653,11 +2672,13 @@ msgid ""
 "This unit drains health from living units, healing itself for half the amount of damage it deals (rounded down)."
 msgstr ""
 
+#. [poison]: id=poison
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:700
 msgid "poison"
 msgstr ""
 
+#. [poison]: id=poison
 #. +> trunk 1.6
 #: data/core/macros/abilities.cfg:702
 msgid ""
@@ -3432,13 +3453,13 @@ msgstr ""
 
 #. [trait]: id=undead
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:22
+#: data/core/macros/traits.cfg:29
 msgid "undead"
 msgstr ""
 
 #. [trait]: id=undead
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:23
+#: data/core/macros/traits.cfg:30
 msgctxt "female"
 msgid "undead"
 msgstr ""
@@ -3446,231 +3467,249 @@ msgstr ""
 #. [trait]: id=undead
 #. [trait]: id=mechanical
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:24 data/core/macros/traits.cfg:39
+#: data/core/macros/traits.cfg:31 data/core/macros/traits.cfg:46
 msgid "Immune to drain, poison and plague"
 msgstr ""
 
 #. [trait]: id=mechanical
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:37
+#: data/core/macros/traits.cfg:44
 msgid "mechanical"
 msgstr ""
 
 #. [trait]: id=mechanical
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:38
+#: data/core/macros/traits.cfg:45
 msgctxt "female"
 msgid "mechanical"
 msgstr ""
 
 #. [trait]: id=strong
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:51
+#: data/core/macros/traits.cfg:58
 msgid "strong"
 msgstr ""
 
 #. [trait]: id=strong
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:52
+#: data/core/macros/traits.cfg:59
 msgctxt "female"
 msgid "strong"
 msgstr ""
 
 #. [trait]: id=dextrous
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:69
+#: data/core/macros/traits.cfg:76
 msgid "dextrous"
 msgstr ""
 
 #. [trait]: id=dextrous
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:70
+#: data/core/macros/traits.cfg:77
 msgctxt "female"
 msgid "dextrous"
 msgstr ""
 
 #. [trait]: id=quick
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:83
+#: data/core/macros/traits.cfg:90
 msgid "quick"
 msgstr ""
 
 #. [trait]: id=quick
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:84
+#: data/core/macros/traits.cfg:91
 msgctxt "female"
 msgid "quick"
 msgstr ""
 
 #. [trait]: id=intelligent
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:100
+#: data/core/macros/traits.cfg:107
 msgid "intelligent"
 msgstr ""
 
 #. [trait]: id=intelligent
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:101
+#: data/core/macros/traits.cfg:108
 msgctxt "female"
 msgid "intelligent"
 msgstr ""
 
 #. [trait]: id=resilient
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:113
+#: data/core/macros/traits.cfg:120
 msgid "resilient"
 msgstr ""
 
 #. [trait]: id=resilient
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:114
+#: data/core/macros/traits.cfg:121
 msgctxt "female"
 msgid "resilient"
 msgstr ""
 
 #. [trait]: id=healthy
-#. +> trunk 1.6
-#: data/core/macros/traits.cfg:132
-msgid "healthy"
-msgstr ""
-
-#. [trait]: id=healthy
-#. +> trunk 1.6
-#: data/core/macros/traits.cfg:133
-msgctxt "female"
-msgid "healthy"
-msgstr ""
-
-#. [trait]: id=healthy
-#. +> trunk 1.6
+#. +> 1.6
 #: data/core/macros/traits.cfg:134
 msgid "Can rest while moving, takes a quarter less poison damage"
 msgstr ""
 
+#. [trait]: id=healthy
+#. +> trunk 1.6
+#: data/core/macros/traits.cfg:138
+msgid "healthy"
+msgstr ""
+
+#. [trait]: id=healthy
+#. +> trunk 1.6
+#: data/core/macros/traits.cfg:139
+msgctxt "female"
+msgid "healthy"
+msgstr ""
+
+#. [trait]: id=healthy
+#. +> trunk
+#: data/core/macros/traits.cfg:140
+msgid "Always rest heals"
+msgstr ""
+
 #. [trait]: id=fearless
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:151 data/core/macros/traits.cfg:164
+#: data/core/macros/traits.cfg:157 data/core/macros/traits.cfg:170
 msgid "fearless"
 msgstr ""
 
 #. [trait]: id=fearless
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:152 data/core/macros/traits.cfg:165
+#: data/core/macros/traits.cfg:158 data/core/macros/traits.cfg:171
 msgctxt "female"
 msgid "fearless"
 msgstr ""
 
 #. [trait]: id=fearless
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:153 data/core/macros/traits.cfg:166
+#: data/core/macros/traits.cfg:159 data/core/macros/traits.cfg:172
 msgid "Fights normally during unfavorable times of day/night"
 msgstr ""
 
 #. [trait]: id=weak
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:174
+#: data/core/macros/traits.cfg:180
 msgid "weak"
 msgstr ""
 
 #. [trait]: id=weak
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:175
+#: data/core/macros/traits.cfg:181
 msgctxt "female"
 msgid "weak"
 msgstr ""
 
 #. [trait]: id=slow
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:192
+#: data/core/macros/traits.cfg:198
 msgid "slow"
 msgstr ""
 
 #. [trait]: id=slow
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:193
+#: data/core/macros/traits.cfg:199
 msgctxt "female"
 msgid "slow"
 msgstr ""
 
 #. [trait]: id=dim
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:209
+#: data/core/macros/traits.cfg:215
 msgid "dim"
 msgstr ""
 
 #. [trait]: id=dim
 #. +> trunk 1.6
-#: data/core/macros/traits.cfg:210
+#: data/core/macros/traits.cfg:216
 msgctxt "female"
 msgid "dim"
 msgstr ""
 
 #. [trait]: id=aged
 #. +> trunk
-#: data/core/macros/traits.cfg:222
+#: data/core/macros/traits.cfg:228
 msgid "aged"
 msgstr ""
 
 #. [color_range]: id=red
 #. [color_range]: id=1
 #. +> trunk 1.6
-#: data/core/team-colors.cfg:14 data/core/team-colors.cfg:71
+#: data/core/team-colors.cfg:14 data/core/team-colors.cfg:83
 msgid "Red"
+msgstr ""
+
+#. [color_range]: id=lightred
+#. +> trunk
+#: data/core/team-colors.cfg:20
+msgid "Light Red"
+msgstr ""
+
+#. [color_range]: id=darkred
+#. +> trunk
+#: data/core/team-colors.cfg:26
+msgid "Dark Red"
 msgstr ""
 
 #. [color_range]: id=blue
 #. [color_range]: id=2
 #. +> trunk 1.6
-#: data/core/team-colors.cfg:20 data/core/team-colors.cfg:77
+#: data/core/team-colors.cfg:32 data/core/team-colors.cfg:89
 msgid "Blue"
 msgstr ""
 
 #. [color_range]: id=green
 #. [color_range]: id=3
 #. +> trunk 1.6
-#: data/core/team-colors.cfg:26 data/core/team-colors.cfg:83
+#: data/core/team-colors.cfg:38 data/core/team-colors.cfg:95
 msgid "Green"
 msgstr ""
 
 #. [color_range]: id=purple
 #. [color_range]: id=4
 #. +> trunk 1.6
-#: data/core/team-colors.cfg:32 data/core/team-colors.cfg:89
+#: data/core/team-colors.cfg:44 data/core/team-colors.cfg:101
 msgid "Purple"
 msgstr ""
 
 #. [color_range]: id=orange
 #. [color_range]: id=7
 #. +> trunk 1.6
-#: data/core/team-colors.cfg:38 data/core/team-colors.cfg:95
+#: data/core/team-colors.cfg:50 data/core/team-colors.cfg:107
 msgid "Orange"
 msgstr ""
 
 #. [color_range]: id=black
 #. [color_range]: id=5
 #. +> trunk 1.6
-#: data/core/team-colors.cfg:44 data/core/team-colors.cfg:101
+#: data/core/team-colors.cfg:56 data/core/team-colors.cfg:113
 msgid "Black"
 msgstr ""
 
 #. [color_range]: id=white
 #. [color_range]: id=8
 #. +> trunk 1.6
-#: data/core/team-colors.cfg:50 data/core/team-colors.cfg:107
+#: data/core/team-colors.cfg:62 data/core/team-colors.cfg:119
 msgid "White"
 msgstr ""
 
 #. [color_range]: id=brown
 #. [color_range]: id=6
 #. +> trunk 1.6
-#: data/core/team-colors.cfg:56 data/core/team-colors.cfg:113
+#: data/core/team-colors.cfg:68 data/core/team-colors.cfg:125
 msgid "Brown"
 msgstr ""
 
 #. [color_range]: id=teal
 #. [color_range]: id=9
 #. +> trunk 1.6
-#: data/core/team-colors.cfg:62 data/core/team-colors.cfg:119
+#: data/core/team-colors.cfg:74 data/core/team-colors.cfg:131
 msgid "Teal"
 msgstr ""
 
@@ -4871,7 +4910,7 @@ msgstr ""
 #. [menu]: id=button-endturn
 #. [change]: id=button-endturn
 #. +> trunk 1.6
-#: data/themes/default.cfg:153 data/themes/default.cfg:763
+#: data/themes/default.cfg:153 data/themes/default.cfg:772
 #: data/themes/dfool.cfg:160
 msgid "End Turn"
 msgstr ""
@@ -4880,8 +4919,8 @@ msgstr ""
 #. [change]: id=button-endturn
 #. [menu]: id=button-endturn2
 #. +> trunk 1.6
-#: data/themes/default.cfg:154 data/themes/default.cfg:764
-#: data/themes/default.cfg:1018 data/themes/dfool.cfg:161
+#: data/themes/default.cfg:154 data/themes/default.cfg:773
+#: data/themes/default.cfg:1027 data/themes/dfool.cfg:161
 msgid "End Scenario"
 msgstr ""
 
@@ -4889,8 +4928,8 @@ msgstr ""
 #. [label]: id=label-hp
 #. +> trunk 1.6
 #: data/themes/default.cfg:212 data/themes/dfool.cfg:232
-#: data/themes/experimental.cfg:181 src/menu_events.cpp:205 src/unit.cpp:2521
-#: src/unit.cpp:2675
+#: data/themes/experimental.cfg:181 src/menu_events.cpp:205 src/unit.cpp:2381
+#: src/unit.cpp:2535
 msgid "HP"
 msgstr ""
 
@@ -4899,7 +4938,7 @@ msgstr ""
 #. +> trunk 1.6
 #: data/themes/default.cfg:221 data/themes/dfool.cfg:242
 #: data/themes/experimental.cfg:190 src/menu_events.cpp:206
-#: src/menu_events.cpp:851
+#: src/menu_events.cpp:841
 msgid "XP"
 msgstr ""
 
@@ -4940,29 +4979,43 @@ msgstr ""
 
 #. [unit_level]: id=unit-level
 #. +> trunk 1.6
-#: data/themes/default.cfg:428 data/themes/dfool.cfg:467
-#: data/themes/experimental.cfg:368
+#: data/themes/default.cfg:429 data/themes/dfool.cfg:467
+#: data/themes/experimental.cfg:369
 msgctxt "statuspanel"
 msgid "level"
 msgstr ""
 
 #. [unit_moves]: id=unit-moves
-#. +> trunk 1.6
+#. +> trunk
+#: data/themes/default.cfg:459 data/themes/experimental.cfg:399
+msgctxt "statuspanel"
+msgid "moves"
+msgstr ""
+
+#. [unit_moves]: id=unit-moves
+#. +> 1.6
 #: data/themes/default.cfg:459 data/themes/experimental.cfg:399
 msgctxt "statuspanel"
 msgid "movement"
 msgstr ""
 
+#. [unit_defense]: id=unit-defense
+#. +> trunk
+#: data/themes/default.cfg:468 data/themes/experimental.cfg:408
+msgctxt "statuspanel"
+msgid "terrain def."
+msgstr ""
+
 #. [change]: id=actions-menu
 #. +> trunk 1.6
-#: data/themes/default.cfg:989
+#: data/themes/default.cfg:998
 msgid "Act."
 msgstr ""
 
 #. [remove]: id=button-endturn
 #. [menu]: id=button-endturn2
 #. +> trunk 1.6
-#: data/themes/default.cfg:1009 data/themes/default.cfg:1017
+#: data/themes/default.cfg:1018 data/themes/default.cfg:1026
 msgctxt "short end-turn"
 msgid "E."
 msgstr ""
@@ -5052,23 +5105,23 @@ msgid "Skip animation"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/about.cpp:198 src/help.cpp:3157 src/menu_events.cpp:323
-#: src/menu_events.cpp:350 src/statistics_dialog.cpp:114
+#: src/about.cpp:198 src/help.cpp:3157 src/menu_events.cpp:313
+#: src/menu_events.cpp:340 src/statistics_dialog.cpp:114
 msgid "Close"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:235
+#: src/actions.cpp:192
 msgid "You don't have a leader to recruit with."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:242
+#: src/actions.cpp:199
 msgid "You must have your leader on a keep to recruit or recall units."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:261
+#: src/actions.cpp:218
 msgid "There are no vacant castle tiles in which to recruit a unit."
 msgstr ""
 
@@ -5078,12 +5131,12 @@ msgid "An invalid weapon is selected, possibly by the Python AI."
 msgstr ""
 
 #. +> trunk
-#: src/actions.cpp:395 src/actions.cpp:454 src/actions.cpp:1021
+#: src/actions.cpp:352 src/actions.cpp:411 src/actions.cpp:978
 msgid "An invalid attacker weapon got selected."
 msgstr ""
 
 #. +> trunk
-#: src/actions.cpp:400
+#: src/actions.cpp:357
 msgid "An invalid defender weapon got selected."
 msgstr ""
 
@@ -5093,7 +5146,7 @@ msgid "stone"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:1142 src/actions.cpp:1417
+#: src/actions.cpp:1099 src/actions.cpp:1372
 msgctxt "female"
 msgid "poisoned"
 msgstr ""
@@ -5105,42 +5158,42 @@ msgid "stone"
 msgstr ""
 
 #. +> trunk
-#: src/actions.cpp:1154 src/actions.cpp:1429
+#: src/actions.cpp:1111 src/actions.cpp:1384
 msgctxt "female"
 msgid "petrified"
 msgstr ""
 
 #. +> trunk
-#: src/actions.cpp:1154 src/actions.cpp:1429
+#: src/actions.cpp:1111 src/actions.cpp:1384
 msgid "petrified"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2484
+#: src/actions.cpp:2366
 msgid "Ambushed!"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2491
+#: src/actions.cpp:2373
 msgid "Failed teleport! Exit not empty"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2536
+#: src/actions.cpp:2418
 msgid "Friendly unit sighted"
 msgid_plural "$friends friendly units sighted"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2539
+#: src/actions.cpp:2421
 msgid "Enemy unit sighted!"
 msgid_plural "$enemies enemy units sighted!"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2544
+#: src/actions.cpp:2426
 msgctxt "Part of 'Units sighted! (...)' sentence"
 msgid "1 friendly"
 msgid_plural "$friends friendly"
@@ -5148,7 +5201,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2545
+#: src/actions.cpp:2427
 msgctxt "Part of 'Units sighted! (...)' sentence"
 msgid "1 enemy"
 msgid_plural "$enemies enemy"
@@ -5156,12 +5209,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2546
+#: src/actions.cpp:2428
 msgid "Units sighted! ($friendphrase, $enemyphrase)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/actions.cpp:2555
+#: src/actions.cpp:2437
 msgid "(press $hotkey to keep moving)"
 msgstr ""
 
@@ -5350,7 +5403,7 @@ msgstr ""
 
 #. +> trunk 1.6
 #: src/addon_management.cpp:739 src/addon_management.cpp:942
-#: src/dialogs.cpp:576 src/menu_events.cpp:203 src/menu_events.cpp:849
+#: src/dialogs.cpp:575 src/menu_events.cpp:203 src/menu_events.cpp:839
 msgid "Name"
 msgstr ""
 
@@ -5448,7 +5501,7 @@ msgstr ""
 
 #. +> trunk 1.6
 #: src/addon_management.cpp:943 src/help.cpp:1458 src/menu_events.cpp:202
-#: src/menu_events.cpp:848 src/menu_events.cpp:1427
+#: src/menu_events.cpp:838 src/menu_events.cpp:1417
 msgid "Type"
 msgstr ""
 
@@ -5478,8 +5531,8 @@ msgid "Choose the add-on to download."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1047 src/dialogs.cpp:601 src/menu_events.cpp:908
-#: src/menu_events.cpp:1463
+#: src/addon_management.cpp:1047 src/dialogs.cpp:600 src/menu_events.cpp:898
+#: src/menu_events.cpp:1453
 msgid "Filter: "
 msgstr ""
 
@@ -5599,7 +5652,7 @@ msgid "Chance of being unscathed"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/attack_prediction_display.cpp:547 src/mouse_events.cpp:685
+#: src/attack_prediction_display.cpp:547 src/mouse_events.cpp:702
 msgid "Damage Calculations"
 msgstr ""
 
@@ -5613,9 +5666,19 @@ msgstr ""
 msgid "What should our victorious unit become?"
 msgstr ""
 
+#. +> trunk
+#: src/dialogs.cpp:216
+msgid "Level"
+msgstr ""
+
 #. +> trunk 1.6
-#: src/dialogs.cpp:230
+#: src/dialogs.cpp:235
 msgid "No objectives available"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/dialogs.cpp:264
+msgid "Do you really want to delete this game?"
 msgstr ""
 
 #. +> 1.6
@@ -5624,12 +5687,7 @@ msgid "Ignore All"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:265
-msgid "Do you really want to delete this game?"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/dialogs.cpp:267
+#: src/dialogs.cpp:266
 msgid "Don't ask me again!"
 msgstr ""
 
@@ -5639,83 +5697,83 @@ msgid "Save names may not contain colons, slashes, or backslashes. Please choose
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:433 src/savegame.cpp:130
+#: src/dialogs.cpp:432 src/savegame.cpp:130
 msgid "%a %b %d %H:%M %Y"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:449
+#: src/dialogs.cpp:448
 msgid "#(Invalid)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:467
+#: src/dialogs.cpp:466
 msgid "Campaign: $campaign_name"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:474
+#: src/dialogs.cpp:473
 msgid "Multiplayer"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:476
+#: src/dialogs.cpp:475
 msgid "Tutorial"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:484 src/savegame.cpp:955
+#: src/dialogs.cpp:483 src/savegame.cpp:947
 msgid "replay"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:486 src/savegame.cpp:1028
+#: src/dialogs.cpp:485 src/savegame.cpp:1020
 msgid "Turn"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:488
+#: src/dialogs.cpp:487
 msgid "Scenario Start"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:491
+#: src/dialogs.cpp:490
 msgid "Difficulty: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:493
+#: src/dialogs.cpp:492
 msgid "Version: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:517 src/dialogs.cpp:533 src/savegame.cpp:159
+#: src/dialogs.cpp:516 src/dialogs.cpp:532 src/savegame.cpp:159
 #: src/savegame.cpp:175
 msgid "%b %d %y"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:523 src/savegame.cpp:165
+#: src/dialogs.cpp:522 src/savegame.cpp:165
 msgid "%H:%M"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:526 src/savegame.cpp:168
+#: src/dialogs.cpp:525 src/savegame.cpp:168
 msgid "%A, %H:%M"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:529 src/savegame.cpp:171
+#: src/dialogs.cpp:528 src/savegame.cpp:171
 msgid "%b %d"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:557
+#: src/dialogs.cpp:556
 msgid "No Saved Games"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:558
+#: src/dialogs.cpp:557
 msgid ""
 "There are no saved games to load.\n"
 "\n"
@@ -5723,12 +5781,12 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:576
+#: src/dialogs.cpp:575
 msgid "Date"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:593 src/multiplayer_create.cpp:104
+#: src/dialogs.cpp:592 src/multiplayer_create.cpp:104
 msgid "Load Game"
 msgstr ""
 
@@ -5738,39 +5796,39 @@ msgid "Quit Game"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:594
+#: src/dialogs.cpp:593
 msgid "Choose the game to load"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:608
+#: src/dialogs.cpp:607
 msgid "Show replay"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:612
+#: src/dialogs.cpp:611
 msgid "Cancel orders"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:615 src/multiplayer_create.cpp:86
+#: src/dialogs.cpp:614 src/multiplayer_create.cpp:86
 msgid "OK"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:616 src/dialogs.cpp:1027 src/dialogs.cpp:1134
-#: src/multiplayer_connect.cpp:1024 src/multiplayer_create.cpp:85
+#: src/dialogs.cpp:615 src/dialogs.cpp:1027 src/dialogs.cpp:1134
+#: src/multiplayer_connect.cpp:1006 src/multiplayer_create.cpp:85
 #: src/multiplayer_wait.cpp:176
 msgid "Cancel"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:619
+#: src/dialogs.cpp:618
 msgid "Delete Save"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:675
+#: src/dialogs.cpp:674
 msgid "Profile"
 msgstr ""
 
@@ -5795,198 +5853,190 @@ msgid "Moves: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:665 src/game.cpp:1394
+#: src/game.cpp:666 src/game.cpp:1395
 msgid "The Battle for Wesnoth"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:994 src/game.cpp:1002 src/playsingle_controller.cpp:496
-#: src/playsingle_controller.cpp:551
+#: src/game.cpp:995 src/game.cpp:1003 src/playsingle_controller.cpp:476
+#: src/playsingle_controller.cpp:531
 msgid "The file you have tried to load is corrupt"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:997 src/game.cpp:1005 src/savegame.cpp:535
+#: src/game.cpp:998 src/game.cpp:1006 src/savegame.cpp:535
 msgid "The file you have tried to load is corrupt: '"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1009
+#: src/game.cpp:1010
 msgid "File I/O Error while reading the game"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1104
+#: src/game.cpp:1105
 msgid "No campaigns are available.\n"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1137
+#: src/game.cpp:1138
 msgid "Difficulty"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1138
+#: src/game.cpp:1139
 msgid "Select difficulty level:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1273
+#: src/game.cpp:1274
 msgid "Do you really want to start the server?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1274
+#: src/game.cpp:1275
 msgid "The server will run in a background process until all users have disconnected."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1278
+#: src/game.cpp:1279
 msgid "Don't show again"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1349
+#: src/game.cpp:1350
 msgid "Error while starting server: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1351 src/playcampaign.cpp:99 src/playcampaign.cpp:365
+#: src/game.cpp:1352 src/playcampaign.cpp:104 src/playcampaign.cpp:381
 msgid "The game could not be loaded: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1353 src/playcampaign.cpp:101 src/playcampaign.cpp:368
+#: src/game.cpp:1354 src/playcampaign.cpp:106 src/playcampaign.cpp:384
 msgid "Error while playing the game: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1373 src/playcampaign.cpp:103 src/playcampaign.cpp:371
+#: src/game.cpp:1374 src/playcampaign.cpp:108 src/playcampaign.cpp:387
 msgid "The game map could not be loaded: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1517
+#: src/game.cpp:1518
 msgid "The following add-on had errors and could not be loaded:"
 msgid_plural "The following add-ons had errors and could not be loaded:"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1524
+#: src/game.cpp:1525
 msgid "ERROR DETAILS:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1542
+#: src/game.cpp:1543
 msgid "Error loading game configuration files: '"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1543
+#: src/game.cpp:1544
 msgid "' (The game will now exit)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1552
+#: src/game.cpp:1553
 msgid "Loading data files"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1985
+#: src/game.cpp:1990
 msgid "Loading game configuration."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1991
+#: src/game.cpp:1996
 msgid "Re-initialize fonts for the current language."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:1999
+#: src/game.cpp:2004
 msgid "Searching for installed add-ons."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game.cpp:2008
+#: src/game.cpp:2013
 msgid "Loading title screen."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_config.cpp:285
+#: src/game_config.cpp:291
 msgid "Invalid color range: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:180
+#: src/game_events.cpp:201
 msgid "Error: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:183
+#: src/game_events.cpp:204
 msgid "Warning: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:186
+#: src/game_events.cpp:207
 msgid "Debug: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:189
+#: src/game_events.cpp:210
 msgid "Info: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:1189 src/multiplayer_connect.cpp:1609
+#: src/game_events.cpp:1207 src/multiplayer_connect.cpp:1581
 msgid "Victory:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/game_events.cpp:1192
+#: src/game_events.cpp:1210
 msgid "Defeat:"
 msgstr ""
 
 #. +> trunk
-#: src/game_events.cpp:3478
+#: src/game_events.cpp:3503
 msgid "[unit_worth]'s filter didn't match any units!"
 msgstr ""
 
-#. +> trunk 1.6
-#: src/gamestatus.cpp:727
-msgid "Duplicate side definition for side '$side|' found."
+#. +> trunk
+#: src/gamestatus.cpp:740
+msgid "Leader position not empty - duplicate side definition for side '$side|' found."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:106
-msgid "This unit is invisible. It cannot be seen or attacked by enemy units."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/generate_report.cpp:106
+#: src/generate_report.cpp:128
 msgid "invisible: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:111
-msgid "This unit has been slowed. It will only deal half its normal damage when attacking and its movement cost is doubled."
+#: src/generate_report.cpp:129
+msgid "This unit is invisible. It cannot be seen or attacked by enemy units."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:111
+#: src/generate_report.cpp:132
 msgid "slowed: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:116
-msgid ""
-"This unit is poisoned. It will lose 8 HP every turn until it can seek a cure to the poison in a village or from a friendly unit with the 'cures' ability.\n"
-"\n"
-"Units cannot be killed by poison alone. The poison will not reduce it below 1 HP."
+#: src/generate_report.cpp:133
+msgid "This unit has been slowed. It will only deal half its normal damage when attacking and its movement cost is doubled."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:116
+#: src/generate_report.cpp:136
 msgid "poisoned: "
 msgstr ""
 
@@ -5995,8 +6045,21 @@ msgstr ""
 msgid "stone: "
 msgstr ""
 
+#. +> trunk 1.6
+#: src/generate_report.cpp:137
+msgid ""
+"This unit is poisoned. It will lose 8 HP every turn until it can seek a cure to the poison in a village or from a friendly unit with the 'cures' ability.\n"
+"\n"
+"Units cannot be killed by poison alone. The poison will not reduce it below 1 HP."
+msgstr ""
+
 #. +> trunk
-#: src/generate_report.cpp:123
+#: src/generate_report.cpp:140
+msgid "petrified: "
+msgstr ""
+
+#. +> trunk
+#: src/generate_report.cpp:141
 msgid "This unit has been petrified. It may not move or attack."
 msgstr ""
 
@@ -6005,28 +6068,23 @@ msgstr ""
 msgid "This unit has been turned to stone. It may not move or attack."
 msgstr ""
 
-#. +> trunk
-#: src/generate_report.cpp:123
-msgid "petrified: "
-msgstr ""
-
 #. +> trunk 1.6
-#: src/generate_report.cpp:178
+#: src/generate_report.cpp:195
 msgid "Resistances: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:180
+#: src/generate_report.cpp:197
 msgid "(Att / Def)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:199 src/multiplayer_create.cpp:402
+#: src/generate_report.cpp:214 src/multiplayer_create.cpp:402
 msgid "Experience Modifier: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:267
+#: src/generate_report.cpp:287
 msgctxt "tooltip"
 msgid "damage"
 msgid_plural "damage"
@@ -6034,7 +6092,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:268
+#: src/generate_report.cpp:288
 msgctxt "tooltip"
 msgid "attack"
 msgid_plural "attacks"
@@ -6042,71 +6100,71 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:274
+#: src/generate_report.cpp:294
 #, no-c-format
 msgctxt "tooltip"
 msgid "% accuracy"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:280
+#: src/generate_report.cpp:300
 #, no-c-format
 msgctxt "tooltip"
 msgid "% parry"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:291
+#: src/generate_report.cpp:310
 msgid "weapon range: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:292
+#: src/generate_report.cpp:311
 msgid "damage type: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:313
+#: src/generate_report.cpp:332
 msgid "vs"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:362
+#: src/generate_report.cpp:380
 msgid "Lawful units: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:364
+#: src/generate_report.cpp:382
 msgid "Neutral units: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:365
+#: src/generate_report.cpp:383
 msgid "Chaotic units: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/generate_report.cpp:512
+#: src/generate_report.cpp:558
 msgid "Observers:"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_player_info.cpp:63
+#: src/gui/dialogs/lobby_player_info.cpp:64
 msgid "In game:"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_player_info.cpp:65
+#: src/gui/dialogs/lobby_player_info.cpp:66
 msgid "(observing)"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_player_info.cpp:67
+#: src/gui/dialogs/lobby_player_info.cpp:68
 msgid "(playing)"
 msgstr ""
 
 #. +> trunk
-#: src/gui/dialogs/lobby_player_info.cpp:70
+#: src/gui/dialogs/lobby_player_info.cpp:71
 msgid "In lobby"
 msgstr ""
 
@@ -6264,7 +6322,7 @@ msgid "<header>text='Units of this race'</header>"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/help.cpp:2681 src/menu_events.cpp:575
+#: src/help.cpp:2681 src/menu_events.cpp:565
 msgid " < Back"
 msgstr ""
 
@@ -6304,7 +6362,7 @@ msgid "System default language"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:139 src/menu_events.cpp:1453
+#: src/leader_list.cpp:139 src/menu_events.cpp:1443
 #: src/multiplayer_connect.cpp:216 src/multiplayer_connect.cpp:268
 msgctxt "gender"
 msgid "Random"
@@ -6461,9 +6519,15 @@ msgid "Statistics"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:204 src/menu_events.cpp:850
+#: src/menu_events.cpp:204 src/menu_events.cpp:840
 msgctxt "Level"
 msgid "Lvl."
+msgstr ""
+
+#. +> 1.6
+#: src/menu_events.cpp:205
+msgctxt "Location"
+msgid "Loc."
 msgstr ""
 
 #. +> trunk 1.6
@@ -6479,86 +6543,80 @@ msgstr ""
 
 #. +> trunk 1.6
 #: src/menu_events.cpp:209
-msgctxt "Location"
-msgid "Loc."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:210
 msgid "Status"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:318
+#: src/menu_events.cpp:308
 msgid "Unit List"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:321 src/menu_events.cpp:343
+#: src/menu_events.cpp:311 src/menu_events.cpp:333
 msgid "Scroll To"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:375
+#: src/menu_events.cpp:365
 msgid "Leader"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:376 src/multiplayer_connect.cpp:1009
+#: src/menu_events.cpp:366 src/multiplayer_connect.cpp:991
 msgid "Team"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:377 src/multiplayer_connect.cpp:1020
+#: src/menu_events.cpp:367 src/multiplayer_connect.cpp:1002
 msgid "Gold"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:378
+#: src/menu_events.cpp:368
 msgid "Villages"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:379
+#: src/menu_events.cpp:369
 msgctxt "status"
 msgid "Units"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:380
+#: src/menu_events.cpp:370
 msgid "Upkeep"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:381 src/multiplayer_connect.cpp:1021
+#: src/menu_events.cpp:371 src/multiplayer_connect.cpp:1003
 #: src/multiplayer_wait.cpp:518
 msgid "Income"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:482
+#: src/menu_events.cpp:472
 msgid "Current Status"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:483
+#: src/menu_events.cpp:473
 msgid "More >"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:501
+#: src/menu_events.cpp:491
 msgctxt "scenario settings"
 msgid "Leader"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:503
+#: src/menu_events.cpp:493
 msgctxt "scenario settings"
 msgid "Side"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:504
+#: src/menu_events.cpp:494
 msgctxt "scenario settings"
 msgid ""
 "Start\n"
@@ -6566,7 +6624,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:505
+#: src/menu_events.cpp:495
 msgctxt "scenario settings"
 msgid ""
 "Base\n"
@@ -6574,7 +6632,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:506
+#: src/menu_events.cpp:496
 msgctxt "scenario settings"
 msgid ""
 "Gold Per\n"
@@ -6582,49 +6640,49 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:507
+#: src/menu_events.cpp:497
 msgctxt "scenario settings"
 msgid "Fog"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:508
+#: src/menu_events.cpp:498
 msgctxt "scenario settings"
 msgid "Shroud"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:555 src/menu_events.cpp:556
+#: src/menu_events.cpp:545 src/menu_events.cpp:546
 msgid "no"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:555 src/menu_events.cpp:556
+#: src/menu_events.cpp:545 src/menu_events.cpp:546
 msgid "yes"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:572
+#: src/menu_events.cpp:562
 msgid "Scenario Settings"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:594
+#: src/menu_events.cpp:584
 msgid "Save the Map As"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:599
+#: src/menu_events.cpp:589
 msgid "The map already exists. Do you want to overwrite it?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:611
+#: src/menu_events.cpp:601
 msgid "Map saved."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:615
+#: src/menu_events.cpp:605
 msgid "Could not save the map: $msg"
 msgstr ""
 
@@ -6634,27 +6692,27 @@ msgid "The game could not be saved"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:630
+#: src/menu_events.cpp:620
 msgid "Chat Log"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:640
+#: src/menu_events.cpp:630
 msgid "Message:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:641
+#: src/menu_events.cpp:631
 msgid "Send to allies only"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:641
+#: src/menu_events.cpp:631
 msgid "Send to observers only"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:707
+#: src/menu_events.cpp:697
 msgctxt "unit"
 msgid "Gold"
 msgid_plural "Gold"
@@ -6662,151 +6720,151 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:714
+#: src/menu_events.cpp:704
 msgid "You have no units available to recruit."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:726
+#: src/menu_events.cpp:716
 msgid "Recruit"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:727 src/menu_events.cpp:903
+#: src/menu_events.cpp:717 src/menu_events.cpp:893
 msgid "Select unit:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:773
+#: src/menu_events.cpp:763
 msgid "You don't have enough gold to recruit that unit"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:819
+#: src/menu_events.cpp:809
 msgid "You are separated from your soldiers and may not recall them"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:840
+#: src/menu_events.cpp:830
 msgid ""
 "There are no troops available to recall\n"
 "(You must have veteran survivors from a previous scenario)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:902
+#: src/menu_events.cpp:892
 msgid "Recall"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:912
+#: src/menu_events.cpp:902
 msgid "Dismiss Unit"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:930
+#: src/menu_events.cpp:920
 msgid "You must have at least 1 gold piece to recall a unit"
 msgid_plural "You must have at least $cost gold pieces to recall a unit"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1297
+#: src/menu_events.cpp:1287
 msgid "You have not started your turn yet. Do you really want to end your turn?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1305 src/menu_events.cpp:1310
+#: src/menu_events.cpp:1295 src/menu_events.cpp:1300
 msgid "Some units have movement left. Do you really want to end your turn?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1345
+#: src/menu_events.cpp:1335
 msgid "Rename Unit"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1426
+#: src/menu_events.cpp:1416
 msgid "Race"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1450
+#: src/menu_events.cpp:1440
 msgid "Create Unit (Debug!)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1453 src/multiplayer_wait.cpp:128
+#: src/menu_events.cpp:1443 src/multiplayer_wait.cpp:128
 msgid "Gender: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1544
+#: src/menu_events.cpp:1534
 msgid "Place Label"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1546
+#: src/menu_events.cpp:1536
 msgid "Label: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1547
+#: src/menu_events.cpp:1537
 msgid "Team only"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1664
+#: src/menu_events.cpp:1738
 msgid "Search"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1845
+#: src/menu_events.cpp:1919
 msgid "This command is currently unavailable."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1856
+#: src/menu_events.cpp:1930
 msgid "Available commands list and command-specific help. Use \"help all\" to include currently unavailable commands."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1961
+#: src/menu_events.cpp:2035
 msgid " No help available."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2120
+#: src/menu_events.cpp:2194
 msgid "Send a query to the server. Without arguments the server should tell you the available commands."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2124
+#: src/menu_events.cpp:2198
 msgid "Ban and kick a player or observer. If he is not in the game but on the server he will only be banned."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2127
+#: src/menu_events.cpp:2201
 msgid "Unban a user. He does not have to be in the game but on the server."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2130
+#: src/menu_events.cpp:2204
 msgid "Kick a player or observer."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2132
+#: src/menu_events.cpp:2206
 msgid "Mute an observer. Without an argument displays the mute status."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2134
+#: src/menu_events.cpp:2208
 msgid "Unmute an observer. Without an argument unmutes everyone."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2136
+#: src/menu_events.cpp:2210
 msgid "Mute/Unmute all observers. (toggles)"
 msgstr ""
 
@@ -6816,233 +6874,103 @@ msgid "Mute all observers."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2146
+#: src/menu_events.cpp:2220
 msgid "Send a message to the server admins currently online"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2148
+#: src/menu_events.cpp:2222
 msgid "Send an emotion or personal action in chat."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2151
+#: src/menu_events.cpp:2225
 msgid "Sends a private message. You can't send messages to players that don't control a side in a running game you are in."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2157
+#: src/menu_events.cpp:2231
 msgid "Change the log level of a log domain."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2159
+#: src/menu_events.cpp:2233
 msgid "Add a nick to your ignores list."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2161
+#: src/menu_events.cpp:2235
 msgid "Add a nick to your friends list."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2163
+#: src/menu_events.cpp:2237
 msgid "Remove a nick from your ignores or friends list."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2165
+#: src/menu_events.cpp:2239
 msgid "Show your ignores and friends list."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2168
+#: src/menu_events.cpp:2242
 msgid "Display version information."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2170
+#: src/menu_events.cpp:2244
 msgid "Register your nick"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2172
+#: src/menu_events.cpp:2246
 msgid "Drop your nick."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2174
+#: src/menu_events.cpp:2248
 msgid "Update details for your nick. For possible details see '/details'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2177
+#: src/menu_events.cpp:2251
 msgid "Request information about a nick."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2179
+#: src/menu_events.cpp:2253
 msgid "Request a list of details you can set for your registered nick."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2181
+#: src/menu_events.cpp:2255
 msgid "Join a room."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2184
+#: src/menu_events.cpp:2258
 msgid "Part a room."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2186
+#: src/menu_events.cpp:2260
 msgid "List room members."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2188
+#: src/menu_events.cpp:2262
 msgid "List available rooms."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2190
+#: src/menu_events.cpp:2264
 msgid "Room message."
 msgstr ""
 
 #. +> trunk
-#: src/menu_events.cpp:2192
+#: src/menu_events.cpp:2266
 msgid "Room query."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2321
-msgid "Refresh gui."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2323
-msgid "Switch a side to/from AI control."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2326
-msgid "Assign control of a side to a different player or observer."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2328
-msgid "Clear chat history."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2330
-msgid "Visualize the screen refresh procedure."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2333
-msgid "Save game."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2335
-msgid "Quit game."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2339
-msgid "Save and quit."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2342
-msgid "Ignore replay errors."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2344
-msgid "Disable autosaves."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2346
-msgid "Advance to the next scenario, or scenario identified by 'id'"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2349
-msgid "Choose next scenario"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2352
-msgid "Turn debug mode on."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2354
-msgid "Turn debug mode off."
-msgstr ""
-
-#. +> trunk
-#: src/menu_events.cpp:2356
-msgid "Execute a Lua statement."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2358
-msgid "Set the command used by the custom command hotkey"
-msgstr ""
-
-#. +> trunk
-#: src/menu_events.cpp:2360
-msgid "Launch the gamestate inspector"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2362
-msgid "Set or show alias to a command"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2364
-msgid "Set a scenario variable."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2366
-msgid "Show a scenario variable."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2368
-msgid "Modify a unit variable. (Only top level keys are supported.)"
-msgstr ""
-
-#. +> trunk
-#: src/menu_events.cpp:2374
-msgid "Discover all units in help."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2379
-msgid "Create a unit."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2381
-msgid "Toggle fog for the current player."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2383
-msgid "Toggle shroud for the current player."
-msgstr ""
-
-#. +> trunk 1.6
-#: src/menu_events.cpp:2385
-msgid "Give gold to the current player."
 msgstr ""
 
 #. +> 1.6
@@ -7051,133 +6979,263 @@ msgid "Remove a trait from a unit. (Does not work yet.)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2387
+#: src/menu_events.cpp:2395
+msgid "Refresh gui."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2397
+msgid "Switch a side to/from AI control."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2400
+msgid "Assign control of a side to a different player or observer."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2402
+msgid "Clear chat history."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2404
+msgid "Visualize the screen refresh procedure."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2407
+msgid "Save game."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2409
+msgid "Quit game."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2413
+msgid "Save and quit."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2416
+msgid "Ignore replay errors."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2418
+msgid "Disable autosaves."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2420
+msgid "Advance to the next scenario, or scenario identified by 'id'"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2423
+msgid "Choose next scenario"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2426
+msgid "Turn debug mode on."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2428
+msgid "Turn debug mode off."
+msgstr ""
+
+#. +> trunk
+#: src/menu_events.cpp:2430
+msgid "Execute a Lua statement."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2432
+msgid "Set the command used by the custom command hotkey"
+msgstr ""
+
+#. +> trunk
+#: src/menu_events.cpp:2434
+msgid "Launch the gamestate inspector"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2436
+msgid "Set or show alias to a command"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2438
+msgid "Set a scenario variable."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2440
+msgid "Show a scenario variable."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2442
+msgid "Modify a unit variable. (Only top level keys are supported.)"
+msgstr ""
+
+#. +> trunk
+#: src/menu_events.cpp:2449
+msgid "Discover all units in help."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2454
+msgid "Create a unit."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2456
+msgid "Toggle fog for the current player."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2458
+msgid "Toggle shroud for the current player."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2460
+msgid "Give gold to the current player."
+msgstr ""
+
+#. +> trunk 1.6
+#: src/menu_events.cpp:2462
 msgid "Fire a game event."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2390
+#: src/menu_events.cpp:2465
 msgid "Toggle overlaying of x,y coordinates on hexes."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2393
+#: src/menu_events.cpp:2468
 msgid "Toggle overlaying of terrain codes on hexes."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2437
+#: src/menu_events.cpp:2512
 msgid "Unknown debug level: '$level'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2439 src/menu_events.cpp:2448
+#: src/menu_events.cpp:2514 src/menu_events.cpp:2523
 msgid "error"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2446
+#: src/menu_events.cpp:2521
 msgid "Unknown debug domain: '$domain'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2455
+#: src/menu_events.cpp:2530
 msgid "Switched domain: '$domain' to level: '$level'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2629
+#: src/menu_events.cpp:2704
 msgid "Added to ignore list: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2632 src/menu_events.cpp:2649
+#: src/menu_events.cpp:2707 src/menu_events.cpp:2724
 msgid "Invalid username: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2647
+#: src/menu_events.cpp:2722
 msgid "Added to friends list: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2661
+#: src/menu_events.cpp:2736
 msgid "Removed from list: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2679
+#: src/menu_events.cpp:2754
 msgid "There are no players on your friends or ignore list."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2849
+#: src/menu_events.cpp:2924
 msgid "Couldn't find label or unit containing the string '$search'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2878
+#: src/menu_events.cpp:2953
 msgid "Can't droid invalid side: '$side'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2883
+#: src/menu_events.cpp:2958
 msgid "Can't droid networked side: '$side'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2920
+#: src/menu_events.cpp:2995
 msgid "Can't change control of invalid side: '$side'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2926
+#: src/menu_events.cpp:3001
 msgid "Can't change control of out-of-bounds side: '$side'."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2991
+#: src/menu_events.cpp:3076
 msgid "Choose Scenario (Debug!)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3004
+#: src/menu_events.cpp:3097
 msgid "Debug mode activated!"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3007
+#: src/menu_events.cpp:3100
 msgid "Debug mode not available in network games"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3012
+#: src/menu_events.cpp:3105
 msgid "Debug mode deactivated!"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3194
+#: src/menu_events.cpp:3287
 msgid "ai"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3204 src/menu_events.cpp:3219
+#: src/menu_events.cpp:3297 src/menu_events.cpp:3312
 msgctxt "prompt"
 msgid "Command:"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3239
+#: src/menu_events.cpp:3332
 msgid "User-Command#3"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/mouse_events.cpp:696
+#: src/mouse_events.cpp:712
 msgid "Attack Enemy"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/mouse_events.cpp:697
+#: src/mouse_events.cpp:713
 msgid "Choose weapon:"
 msgstr ""
 
@@ -7316,77 +7374,77 @@ msgid "(empty)"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:810
+#: src/multiplayer_connect.cpp:792
 msgid "Reserved"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:811
+#: src/multiplayer_connect.cpp:793
 msgid "--give--"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:935
+#: src/multiplayer_connect.cpp:917
 msgid "Only random sides in the current era."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:959
+#: src/multiplayer_connect.cpp:941
 msgid "Unable to find a leader type for faction $faction"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:996
+#: src/multiplayer_connect.cpp:978
 msgid "Game Lobby: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1016
+#: src/multiplayer_connect.cpp:998
 msgid "Player/Type"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1017
+#: src/multiplayer_connect.cpp:999
 msgid "Faction"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1018
+#: src/multiplayer_connect.cpp:1000
 msgid "Team/Gender"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1019
+#: src/multiplayer_connect.cpp:1001
 msgid "Color"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1023
+#: src/multiplayer_connect.cpp:1005
 msgid "I'm Ready"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1033
+#: src/multiplayer_connect.cpp:1015
 msgid "The scenario is invalid because it has no id."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1037
+#: src/multiplayer_connect.cpp:1019
 msgid "The scenario is invalid because it has no sides."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1430
+#: src/multiplayer_connect.cpp:1412
 msgid "Network Player"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1432
+#: src/multiplayer_connect.cpp:1414
 msgid "Local Player"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1433
+#: src/multiplayer_connect.cpp:1415
 msgid "Computer Player"
 msgstr ""
 
@@ -7396,17 +7454,17 @@ msgid "Computer player"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1434
+#: src/multiplayer_connect.cpp:1416
 msgid "Empty"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1586
+#: src/multiplayer_connect.cpp:1558
 msgid "Cannot find era $era"
 msgstr ""
 
 #. +> trunk
-#: src/multiplayer_connect.cpp:1611
+#: src/multiplayer_connect.cpp:1583
 msgid "Defeat enemy leader(s)"
 msgstr ""
 
@@ -7418,7 +7476,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1675
+#: src/multiplayer_connect.cpp:1647
 msgid "Waiting for players to join..."
 msgstr ""
 
@@ -7763,12 +7821,12 @@ msgid "Joining this game requires a password."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_ui.cpp:193
+#: src/multiplayer_ui.cpp:194
 msgid "Invalid Color"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/multiplayer_ui.cpp:425
+#: src/multiplayer_ui.cpp:426
 msgid "Selected user: "
 msgstr ""
 
@@ -7841,63 +7899,63 @@ msgid "Could not send initial handshake"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/pathfind.cpp:466
+#: src/pathfind.cpp:476
 msgid "Terrain with a movement cost less than 1 encountered."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:113
+#: src/play_controller.cpp:119
 msgid "Loading level"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:134
+#: src/play_controller.cpp:140
 msgid "Initializing teams"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:161
+#: src/play_controller.cpp:167
 msgid "Loading units"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:168 src/play_controller.cpp:173
+#: src/play_controller.cpp:174 src/play_controller.cpp:179
 msgid "Initializing display"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:209
+#: src/play_controller.cpp:215
 msgid "Starting game"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:923 src/savegame.cpp:290 src/savegame.cpp:302
-#: src/savegame.cpp:981 src/savegame.cpp:983
+#: src/play_controller.cpp:929 src/savegame.cpp:290 src/savegame.cpp:302
+#: src/savegame.cpp:973 src/savegame.cpp:975
 msgid "Auto-Save"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:930
+#: src/play_controller.cpp:936
 msgid "Back to turn "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:126 src/playcampaign.cpp:161
+#: src/playcampaign.cpp:132 src/playcampaign.cpp:170
 msgid "Defeat"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:127 src/playcampaign.cpp:162
+#: src/playcampaign.cpp:133 src/playcampaign.cpp:171
 msgid "You have been defeated!"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:375
+#: src/playcampaign.cpp:391
 msgid "Error while reading the WML: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:411
+#: src/playcampaign.cpp:427
 msgid "This scenario has ended. Do you want to continue the campaign?"
 msgstr ""
 
@@ -7907,23 +7965,23 @@ msgid "The replay could not be saved"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:437
+#: src/playcampaign.cpp:453
 msgid "Downloading next scenario..."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:571
+#: src/playcampaign.cpp:590
 msgid "Do you want to save your game?"
-msgstr ""
-
-#. +> trunk 1.6
-#: src/playcampaign.cpp:588
-msgid "Unknown scenario: '$scenario|'"
 msgstr ""
 
 #. +> 1.6
 #: src/playcampaign.cpp:596
 msgid "Name:"
+msgstr ""
+
+#. +> trunk 1.6
+#: src/playcampaign.cpp:609
+msgid "Unknown scenario: '$scenario|'"
 msgstr ""
 
 #. +> trunk
@@ -7960,76 +8018,76 @@ msgid ""
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:229
+#: src/playsingle_controller.cpp:208
 msgid "Remaining gold: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:233
+#: src/playsingle_controller.cpp:212
 msgid "Early finish bonus: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:235
+#: src/playsingle_controller.cpp:214
 msgid "per turn"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:236
+#: src/playsingle_controller.cpp:215
 msgid "Turns finished early: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:238
+#: src/playsingle_controller.cpp:217
 msgid "Bonus: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:241
+#: src/playsingle_controller.cpp:220
 msgid "Gold: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:245
+#: src/playsingle_controller.cpp:224
 msgid "Carry over percentage: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:248
+#: src/playsingle_controller.cpp:227
 msgid "Bonus Gold: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:250
+#: src/playsingle_controller.cpp:229
 msgid "Retained Gold: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:260
+#: src/playsingle_controller.cpp:239
 msgid "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgid_plural "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:268
+#: src/playsingle_controller.cpp:247
 msgid "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgid_plural "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:421
+#: src/playsingle_controller.cpp:398
 msgid "Game Over"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:422
+#: src/playsingle_controller.cpp:399
 msgid "The game is over."
 msgstr ""
 
 #. +> trunk
-#: src/playsingle_controller.cpp:507
+#: src/playsingle_controller.cpp:487
 msgid ""
 "A network disconnection has occurred, and the game\n"
 "cannot continue. Do you want to save the game?"
@@ -8041,22 +8099,22 @@ msgid "A network disconnection has occurred, and the game cannot continue. Do yo
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:673
+#: src/playsingle_controller.cpp:653
 msgid "It is now $name|'s turn"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:905
+#: src/playsingle_controller.cpp:869
 msgid "Scenario Report"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:907
+#: src/playsingle_controller.cpp:871
 msgid "Victory"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:908
+#: src/playsingle_controller.cpp:872
 msgid "You have emerged victorious!"
 msgstr ""
 
@@ -8116,57 +8174,57 @@ msgid "This is not a multiplayer save"
 msgstr ""
 
 #. +> trunk
-#: src/savegame.cpp:614
+#: src/savegame.cpp:606
 msgid "The game could not be saved: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:701
+#: src/savegame.cpp:693
 msgid "Name: "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:701
+#: src/savegame.cpp:693
 msgid "Save already exists. Do you want to overwrite it?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:702
+#: src/savegame.cpp:694
 msgid "Overwrite?"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:712
+#: src/savegame.cpp:704
 msgid "Save names should not end on '.gz'. Please choose a different name."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:774
+#: src/savegame.cpp:766
 msgid "Saved"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:774
+#: src/savegame.cpp:766
 msgid "The game has been saved"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:808 src/savegame.cpp:833
+#: src/savegame.cpp:800 src/savegame.cpp:825
 msgid "Could not write to file"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:946
+#: src/savegame.cpp:938
 msgid "Save Replay"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:964
+#: src/savegame.cpp:956
 msgid "Could not auto save the game. Please save the game manually."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/savegame.cpp:1016
+#: src/savegame.cpp:1008
 msgid "Save Game"
 msgstr ""
 
@@ -8491,47 +8549,47 @@ msgid "No time of day has been defined."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:505
+#: src/unit.cpp:506
 msgid "Unknown unit type '$type|' while generating traits"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:687
+#: src/unit.cpp:688
 msgid "Unknown unit type '$type|'"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2478 src/unit.cpp:2663 src/unit.cpp:2736
+#: src/unit.cpp:2338 src/unit.cpp:2523 src/unit.cpp:2596
 msgid " and "
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2489
+#: src/unit.cpp:2349
 msgid "$attack_list|: $effect_description"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2554
+#: src/unit.cpp:2414
 msgid "moves"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2572 src/unit.cpp:2690
+#: src/unit.cpp:2432 src/unit.cpp:2550
 msgid "XP to advance"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2682
+#: src/unit.cpp:2542
 msgid " move"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2698
+#: src/unit.cpp:2558
 msgid "$effect_description per level"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit.cpp:2745
+#: src/unit.cpp:2605
 msgid "$trait_name|: $trait_description "
 msgstr ""
 
@@ -8562,39 +8620,39 @@ msgid "% parry"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:924
+#: src/unit_types.cpp:951
 msgid "No description available."
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:980
+#: src/unit_types.cpp:1007
 msgid "chaotic"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:980
+#: src/unit_types.cpp:1007
 msgid "lawful"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:980
+#: src/unit_types.cpp:1007
 msgid "neutral"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:981
+#: src/unit_types.cpp:1008
 msgctxt "female"
 msgid "chaotic"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:981
+#: src/unit_types.cpp:1008
 msgctxt "female"
 msgid "lawful"
 msgstr ""
 
 #. +> trunk 1.6
-#: src/unit_types.cpp:981
+#: src/unit_types.cpp:1008
 msgctxt "female"
 msgid "neutral"
 msgstr ""
@@ -8634,4 +8692,9 @@ msgstr ""
 #. +> 1.6
 #: src/ai.cpp:1732
 msgid "Unknown unit type : "
+msgstr ""
+
+#. +> 1.6
+#: src/config_adapter.cpp:157
+msgid "Duplicate side definition for side '$side|' found."
 msgstr ""
