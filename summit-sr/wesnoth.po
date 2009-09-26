@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-09-23 12:26+0200\n"
-"PO-Revision-Date: 2009-09-12 20:48+0200\n"
+"PO-Revision-Date: 2009-09-26 18:13+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -3974,7 +3974,7 @@ msgstr "здравље"
 #. +> trunk
 #: data/core/macros/traits.cfg:140
 msgid "Always rest heals"
-msgstr ""
+msgstr "Увек се лечи на одмору"
 
 #. [trait]: id=fearless
 #. +> trunk 1.6
@@ -4051,13 +4051,13 @@ msgstr "црвена"
 #. +> trunk
 #: data/core/team-colors.cfg:20
 msgid "Light Red"
-msgstr ""
+msgstr "светлоцрвена"
 
 #. [color_range]: id=darkred
 #. +> trunk
 #: data/core/team-colors.cfg:26
 msgid "Dark Red"
-msgstr ""
+msgstr "тамноцрвена"
 
 #. [color_range]: id=blue
 #. [color_range]: id=2
@@ -5490,8 +5490,6 @@ msgstr "ниво"
 #. [unit_moves]: id=unit-moves
 #. +> trunk
 #: data/themes/default.cfg:459 data/themes/experimental.cfg:399
-#, fuzzy
-#| msgid "moves"
 msgctxt "statuspanel"
 msgid "moves"
 msgstr "кретњи"
@@ -5503,14 +5501,13 @@ msgctxt "statuspanel"
 msgid "movement"
 msgstr "кретање"
 
+# well-spelled: одб
 #. [unit_defense]: id=unit-defense
 #. +> trunk
 #: data/themes/default.cfg:468 data/themes/experimental.cfg:408
-#, fuzzy
-#| msgid "Terrain"
 msgctxt "statuspanel"
 msgid "terrain def."
-msgstr "терен"
+msgstr "теренска одб."
 
 #. [change]: id=actions-menu
 #. +> trunk 1.6
@@ -6196,10 +6193,8 @@ msgstr "Шта ће наша победничка јединица постат�
 
 #. +> trunk
 #: src/dialogs.cpp:216
-#, fuzzy
-#| msgid "level"
 msgid "Level"
-msgstr "ниво"
+msgstr "Ниво"
 
 #. +> trunk 1.6
 #: src/dialogs.cpp:235
@@ -6547,10 +6542,8 @@ msgstr "Филтер [unit_worth] не поклапа ниједну једин�
 
 #. +> trunk
 #: src/gamestatus.cpp:740
-#, fuzzy
-#| msgid "Duplicate side definition for side '$side|' found."
 msgid "Leader position not empty - duplicate side definition for side '$side|' found."
-msgstr "Нађена удвојена дефиниција стране за страну ‘$side|’."
+msgstr "Положај вођа није упражњен — нађена удвојена дефиниција стране за страну ‘$side|’."
 
 #. +> trunk 1.6
 #: src/generate_report.cpp:128

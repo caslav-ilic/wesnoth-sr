@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-09-23 12:26+0200\n"
-"PO-Revision-Date: 2009-09-12 20:48+0200\n"
+"PO-Revision-Date: 2009-09-26 18:13+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -1114,10 +1114,8 @@ msgstr "Испитивач стања игре"
 #. [label]
 #. +> trunk
 #: data/gui/default/window/gamestate_inspector.cfg:92
-#, fuzzy
-#| msgid "Type"
 msgid "Types"
-msgstr "тип"
+msgstr "Типови"
 
 #. [label]
 #. +> trunk
@@ -2597,10 +2595,11 @@ msgstr "Дефиниција виџета „$definition“ не садржи д
 msgid "No state or draw section defined."
 msgstr "Одељак стања или цртања није дефинисан."
 
+# >? Wtf?
 #. +> trunk
 #: src/gui/widgets/window.cpp:732
 msgid "Click dismiss needs a 'click_dismiss' or 'ok' button."
-msgstr ""
+msgstr "Клику отпуштања треба дугме „click_dismiss“ или „ok“."
 
 #. +> trunk 1.6
 #: src/gui/widgets/window.cpp:757 src/gui/widgets/window.cpp:790
