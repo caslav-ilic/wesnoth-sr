@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-09-23 12:26+0200\n"
+"POT-Creation-Date: 2009-10-07 15:42+0200\n"
 "PO-Revision-Date: 2009-09-26 18:13+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -109,18 +109,6 @@ msgstr "Груписање играча у холу"
 msgid "Lobby sounds"
 msgstr "Звукови хола"
 
-#. [message]: speaker=narrator
-#. +> trunk
-#: data/ai/scenarios/ai_arena_small/0002-poisoning.cfg:17
-msgid "This situation should test the ability of AI to spread poison around..."
-msgstr "Овај случај служи да испита способност ВИ-ја да около шири отров..."
-
-#. [message]: speaker=narrator
-#. +> trunk
-#: data/ai/scenarios/ai_arena_small/0003-simple_combat.cfg:17
-msgid "This situation should test the ability of AI to make an attack..."
-msgstr "Овај случај служи да испита способност ВИ-ја да изведе напад..."
-
 #. [time]: id=underground
 #. [illuminated_time]: id=underground_illum
 #. +> trunk 1.6
@@ -133,7 +121,7 @@ msgstr "подземље"
 #. [unstore_unit]
 #. +> trunk 1.6
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_Desert_Of_Death.cfg:304
-#: src/actions.cpp:1099 src/actions.cpp:1372
+#: src/actions.cpp:1101 src/actions.cpp:1377
 msgid "poisoned"
 msgstr "отрован"
 
@@ -195,7 +183,7 @@ msgstr ""
 #. [then]
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:1241
-#: src/actions.cpp:1104 src/actions.cpp:1377
+#: src/actions.cpp:1106 src/actions.cpp:1382
 msgctxt "female"
 msgid "slowed"
 msgstr "успорена"
@@ -204,7 +192,7 @@ msgstr "успорена"
 #. [else]
 #. +> trunk 1.6
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:1244
-#: src/actions.cpp:1104 src/actions.cpp:1377
+#: src/actions.cpp:1106 src/actions.cpp:1382
 msgid "slowed"
 msgstr "успорен"
 
@@ -280,163 +268,163 @@ msgstr "Програмирање"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:201
+#: data/core/about.cfg:205
 msgid "General Purpose Administration and Coordination"
 msgstr "Општа администрација и координација"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:219
+#: data/core/about.cfg:223
 msgid "Artwork and Graphics"
 msgstr "Графика и цртање"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:547
+#: data/core/about.cfg:551
 msgid "Music"
 msgstr "Музика"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:581
+#: data/core/about.cfg:585
 msgid "Sound Effects"
 msgstr "Звучни ефекти"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:597
+#: data/core/about.cfg:601
 msgid "Campaign Design"
 msgstr "Дизајн похода"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:664
+#: data/core/about.cfg:668
 msgid "Multiplayer Maps and Balancing"
 msgstr "Вишеиграчке мапе и уравнотежавање"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:705
+#: data/core/about.cfg:709
 msgid "Packagers"
 msgstr "Припрема пакета"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:771
+#: data/core/about.cfg:775
 msgid "Miscellaneous contributors"
 msgstr "Разни доприноси"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:974
+#: data/core/about.cfg:985
 msgid "Internationalization Managers"
 msgstr "Управљање интернационализацијом"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:999
+#: data/core/about.cfg:1010
 msgid "English strings edition"
 msgstr "Издање с британским нискама"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1006
+#: data/core/about.cfg:1017
 msgid "Afrikaans Translation"
 msgstr "Африканс превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1022
+#: data/core/about.cfg:1033
 msgid "Arabic Translation"
 msgstr "Арапски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1029
+#: data/core/about.cfg:1040
 msgid "Basque Translation"
 msgstr "Баскијски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1042
+#: data/core/about.cfg:1053
 msgid "Bulgarian Translation"
 msgstr "Бугарски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1061
+#: data/core/about.cfg:1072
 msgid "Catalan Translation"
 msgstr "Каталонски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1099
+#: data/core/about.cfg:1110
 msgid "Chinese Translation"
 msgstr "Кинески превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1137
+#: data/core/about.cfg:1148
 msgid "Chinese (Taiwan) Translation"
 msgstr "Кинески (Тајван) превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1159
+#: data/core/about.cfg:1170
 msgid "Croatian Translation"
 msgstr "Хрватски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1166
+#: data/core/about.cfg:1177
 msgid "Czech Translation"
 msgstr "Чешки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1226
+#: data/core/about.cfg:1237
 msgid "Danish Translation"
 msgstr "Дански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1257
+#: data/core/about.cfg:1268
 msgid "Dutch Translation"
 msgstr "Холандски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1315
+#: data/core/about.cfg:1326
 msgid "English (GB) Translation"
 msgstr "Британски енглески превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1328
+#: data/core/about.cfg:1339
 msgid "Esperanto Translation"
 msgstr "Есперанто превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1347
+#: data/core/about.cfg:1358
 msgid "Estonian Translation"
 msgstr "Естонски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1357
+#: data/core/about.cfg:1368
 msgid "Filipino Translation"
 msgstr "Филипински превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1367
+#: data/core/about.cfg:1378
 msgid "Finnish Translation"
 msgstr "Фински превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1407
+#: data/core/about.cfg:1418
 msgid "French Translation"
 msgstr "Француски превод"
 
@@ -444,191 +432,199 @@ msgstr "Француски превод"
 # well-spelled: Фурлански
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1545
+#: data/core/about.cfg:1556
 msgid "Friulian Translation"
 msgstr "Фурлански превод"
 
 # well-spelled: Галицијански
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1552
+#: data/core/about.cfg:1563
 msgid "Galician Translation"
 msgstr "Галицијански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1587
+#: data/core/about.cfg:1598
 msgid "German Translation"
 msgstr "Немачки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1642
+#: data/core/about.cfg:1653
 msgid "Greek Translation"
 msgstr "Грчки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1673
+#: data/core/about.cfg:1684
 msgid "Hebrew Translation"
 msgstr "Хебрејски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1686
+#: data/core/about.cfg:1697
 msgid "Hungarian Translation"
 msgstr "Мађарски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1747
+#: data/core/about.cfg:1758
 msgid "Icelandic translation"
 msgstr "Исландски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1757
+#: data/core/about.cfg:1768
 msgid "Indonesian Translation"
 msgstr "Индонежански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1764
+#: data/core/about.cfg:1775
 msgid "Italian Translation"
 msgstr "Италијански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1799
+#: data/core/about.cfg:1810
 msgid "Japanese Translation"
 msgstr "Јапански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1825
+#: data/core/about.cfg:1836
 msgid "Korean Translation"
 msgstr "Корејски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1832
+#: data/core/about.cfg:1843
 msgid "Latin Translation"
 msgstr "Латински превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1839
+#: data/core/about.cfg:1850
 msgid "Latvian Translation"
 msgstr "Летонски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1846
+#: data/core/about.cfg:1857
 msgid "Lithuanian Translation"
 msgstr "Литвански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1863
+#: data/core/about.cfg:1874
 msgid "Macedonian Translation"
 msgstr "Македонски превод"
 
 # well-spelled: Марати
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1871
+#: data/core/about.cfg:1882
 msgid "Marathi Translation"
 msgstr "Марати превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1880
+#: data/core/about.cfg:1891
 msgid "Norwegian Translation"
 msgstr "Норвешки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1905
+#: data/core/about.cfg:1916
 msgid "Polish Translation"
 msgstr "Пољски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1954
+#: data/core/about.cfg:1965
 msgid "Portuguese Translation"
 msgstr "Португалски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1961
+#: data/core/about.cfg:1972
 msgid "Portuguese (Brazil) Translation"
 msgstr "Португалски бразилски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:1996
+#: data/core/about.cfg:2007
 msgid "Romanian Translation"
 msgstr "Румунски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2004
+#: data/core/about.cfg:2015
 msgid "Russian Translation"
 msgstr "Руски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2061
+#: data/core/about.cfg:2072
 msgid "Serbian Translation"
 msgstr "Српски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2076
+#: data/core/about.cfg:2087
 msgid "Slovak Translation"
 msgstr "Словачки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2102
+#: data/core/about.cfg:2113
 msgid "Slovenian Translation"
 msgstr "Словеначки превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2115
+#: data/core/about.cfg:2126
 msgid "Spanish Translation"
 msgstr "Шпански превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2173
+#: data/core/about.cfg:2184
 msgid "Swedish Translation"
 msgstr "Шведски превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2202
+#: data/core/about.cfg:2213
 msgid "Turkish Translation"
 msgstr "Турски превод"
 
 # well-spelled: јужнокаталонски
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2224
+#: data/core/about.cfg:2235
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Валенсијски (јужнокаталонски) превод"
+
+#. [about]
+#. +> trunk
+#: data/core/about.cfg:2248
+#, fuzzy
+#| msgid "Chinese Translation"
+msgid "Vietnamese Translation"
+msgstr "Кинески превод"
 
 # well-spelled: РАЦВ
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2237
+#: data/core/about.cfg:2255
 msgid "RACV's Translation"
 msgstr "Валенсијски (РАЦВ) превод"
 
 #. [about]
 #. +> trunk 1.6
-#: data/core/about.cfg:2244
+#: data/core/about.cfg:2262
 msgid "Bots"
 msgstr "Ботови"
 
@@ -3056,6 +3052,12 @@ msgstr ""
 "Отров:\n"
 "Овај напад трује животне мете. Отроване јединице губе 8 УП по потезу, док не буду исцељене или сведене на 1 УП. Отров не може сам по себи докрајчити јединицу."
 
+#. [set_menu_item]: id=ai_controller_leader_control_{SIDE_CONTROLLED}
+#. +> trunk
+#: data/core/macros/ai.cfg:408
+msgid "Ask $ally_leader.name (leader of side $ally_leader.side) to move here"
+msgstr ""
+
 #. [option]: type=behaviour
 #. +> trunk 1.6
 #: data/core/macros/ai_controller.cfg:144
@@ -3260,6 +3262,53 @@ msgstr "Постави понашање..."
 #: data/core/macros/ai_controller.cfg:920
 msgid "Exit"
 msgstr "Напусти"
+
+#. +> trunk
+#: data/core/macros/ai_controller.cfg:1047
+#, fuzzy
+#| msgid "Set behavior..."
+msgid "Set special orders..."
+msgstr "Постави понашање..."
+
+#. +> trunk
+#: data/core/macros/ai_controller.cfg:1048
+msgid "Move leader to..."
+msgstr ""
+
+#. +> trunk
+#: data/core/macros/ai_controller.cfg:1049
+#, fuzzy
+#| msgid "Right-click to select a location to defend"
+msgid "Right-click to select a location to move leader to"
+msgstr "Кликните десним да изаберете положај за брањење"
+
+#. +> trunk
+#: data/core/macros/ai_controller.cfg:1050
+msgid "Move leader here"
+msgstr ""
+
+#. +> trunk
+#: data/core/macros/ai_controller.cfg:1051
+msgid "moving leader to $x1|,$y1|."
+msgstr ""
+
+#. +> trunk
+#: data/core/macros/ai_controller.cfg:1052
+#, fuzzy
+#| msgid "Clear all orders"
+msgid "Clear special orders"
+msgstr "Очисти сва наређења"
+
+#. +> trunk
+#: data/core/macros/ai_controller.cfg:1053
+#, fuzzy
+#| msgid ""
+#| "Objective: $ai_controller.side_$ally_side|_current_settings.currently_doing_objective_description\n"
+#| "Behavior: $ai_controller.side_$ally_side|_current_settings.currently_doing_behaviour_description"
+msgid "Special: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description"
+msgstr ""
+"Циљ: $ai_controller.side_$ally_side|_current_settings.currently_doing_objective_description\n"
+"Понашање: $ai_controller.side_$ally_side|_current_settings.currently_doing_behaviour_description"
 
 #. [advancement]: id=amla_default
 #. +> trunk 1.6
@@ -4914,13 +4963,29 @@ msgid "arcane"
 msgstr "волшебни"
 
 #. [fonts]
-#. +> trunk 1.6
+#. +> trunk
+#: data/hardwired/fonts.cfg:7
+#, fuzzy
+#| msgid "DejaVuSans.ttf,wqy-zenhei.ttc"
+msgid "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc"
+msgstr "DejaVuSans.ttf,wqy-zenhei.ttc"
+
+#. [fonts]
+#. +> 1.6
 #: data/hardwired/fonts.cfg:7
 msgid "DejaVuSans.ttf,wqy-zenhei.ttc"
 msgstr "DejaVuSans.ttf,wqy-zenhei.ttc"
 
 #. [fonts]
-#. +> trunk 1.6
+#. +> trunk
+#: data/hardwired/fonts.cfg:8
+#, fuzzy
+#| msgid "DejaVu Sans,WenQuanYi Zen Hei"
+msgid "DejaVu Sans,Andagii,WenQuanYi Zen Hei"
+msgstr "DejaVu Sans,WenQuanYi Zen Hei"
+
+#. [fonts]
+#. +> 1.6
 #: data/hardwired/fonts.cfg:8
 msgid "DejaVu Sans,WenQuanYi Zen Hei"
 msgstr "DejaVu Sans,WenQuanYi Zen Hei"
@@ -5002,7 +5067,15 @@ msgid "- Memoirs of Gweddry, 627YW"
 msgstr "— Животопис Гведрија, 627.гв."
 
 #. [tip]
-#. +> trunk 1.6
+#. +> trunk
+#: data/hardwired/tips.cfg:23
+#, fuzzy
+#| msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you chose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
+msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you choose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
+msgstr "Наредбама „Унајми“ и „Сазови“ можете приступити десним кликом на поље замка. Потом изаберите поље где желите да се нова јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније."
+
+#. [tip]
+#. +> 1.6
 #: data/hardwired/tips.cfg:23
 msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you chose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
 msgstr "Наредбама „Унајми“ и „Сазови“ можете приступити десним кликом на поље замка. Потом изаберите поље где желите да се нова јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније."
@@ -5411,7 +5484,7 @@ msgstr "Радње"
 #. [menu]: id=button-endturn
 #. [change]: id=button-endturn
 #. +> trunk 1.6
-#: data/themes/default.cfg:153 data/themes/default.cfg:772
+#: data/themes/default.cfg:153 data/themes/default.cfg:774
 #: data/themes/dfool.cfg:160
 msgid "End Turn"
 msgstr "Готово"
@@ -5421,8 +5494,8 @@ msgstr "Готово"
 #. [change]: id=button-endturn
 #. [menu]: id=button-endturn2
 #. +> trunk 1.6
-#: data/themes/default.cfg:154 data/themes/default.cfg:773
-#: data/themes/default.cfg:1027 data/themes/dfool.cfg:161
+#: data/themes/default.cfg:154 data/themes/default.cfg:775
+#: data/themes/default.cfg:1033 data/themes/dfool.cfg:161
 msgid "End Scenario"
 msgstr "Крај"
 
@@ -5430,8 +5503,8 @@ msgstr "Крај"
 #. [label]: id=label-hp
 #. +> trunk 1.6
 #: data/themes/default.cfg:212 data/themes/dfool.cfg:232
-#: data/themes/experimental.cfg:181 src/menu_events.cpp:205 src/unit.cpp:2381
-#: src/unit.cpp:2535
+#: data/themes/experimental.cfg:181 src/menu_events.cpp:205 src/unit.cpp:2384
+#: src/unit.cpp:2538
 msgid "HP"
 msgstr "УП"
 
@@ -5511,14 +5584,14 @@ msgstr "теренска одб."
 
 #. [change]: id=actions-menu
 #. +> trunk 1.6
-#: data/themes/default.cfg:998
+#: data/themes/default.cfg:1004
 msgid "Act."
 msgstr "Рад."
 
 #. [remove]: id=button-endturn
 #. [menu]: id=button-endturn2
 #. +> trunk 1.6
-#: data/themes/default.cfg:1018 data/themes/default.cfg:1026
+#: data/themes/default.cfg:1024 data/themes/default.cfg:1032
 msgctxt "short end-turn"
 msgid "E."
 msgstr "К."
@@ -5650,7 +5723,7 @@ msgid "stone"
 msgstr "окамењен"
 
 #. +> trunk 1.6
-#: src/actions.cpp:1099 src/actions.cpp:1372
+#: src/actions.cpp:1101 src/actions.cpp:1377
 msgctxt "female"
 msgid "poisoned"
 msgstr "отрована"
@@ -5662,28 +5735,28 @@ msgid "stone"
 msgstr "окамењена"
 
 #. +> trunk
-#: src/actions.cpp:1111 src/actions.cpp:1384
+#: src/actions.cpp:1113 src/actions.cpp:1389
 msgctxt "female"
 msgid "petrified"
 msgstr "окамењена"
 
 #. +> trunk
-#: src/actions.cpp:1111 src/actions.cpp:1384
+#: src/actions.cpp:1113 src/actions.cpp:1389
 msgid "petrified"
 msgstr "окамењен"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2366
+#: src/actions.cpp:2405
 msgid "Ambushed!"
 msgstr "Заседа!"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2373
+#: src/actions.cpp:2412
 msgid "Failed teleport! Exit not empty"
 msgstr "Неуспешна телепортација! Излаз није празан."
 
 #. +> trunk 1.6
-#: src/actions.cpp:2418
+#: src/actions.cpp:2457
 msgid "Friendly unit sighted"
 msgid_plural "$friends friendly units sighted"
 msgstr[0] "Уочена $friends савезничка јединица"
@@ -5692,7 +5765,7 @@ msgstr[2] "Уочено $friends савезничких јединица"
 msgstr[3] "Уочена савезничка јединица"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2421
+#: src/actions.cpp:2460
 msgid "Enemy unit sighted!"
 msgid_plural "$enemies enemy units sighted!"
 msgstr[0] "Уочена $enemies непријатељска јединица!"
@@ -5701,7 +5774,7 @@ msgstr[2] "Уочено $enemies непријатељских јединица!"
 msgstr[3] "Уочена непријатељска јединица!"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2426
+#: src/actions.cpp:2465
 msgctxt "Part of 'Units sighted! (...)' sentence"
 msgid "1 friendly"
 msgid_plural "$friends friendly"
@@ -5711,7 +5784,7 @@ msgstr[2] "$friends савезничких"
 msgstr[3] "једна савезничка"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2427
+#: src/actions.cpp:2466
 msgctxt "Part of 'Units sighted! (...)' sentence"
 msgid "1 enemy"
 msgid_plural "$enemies enemy"
@@ -5721,107 +5794,112 @@ msgstr[2] "$enemies непријатељских"
 msgstr[3] "једна непријатељска"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2428
+#: src/actions.cpp:2467
 msgid "Units sighted! ($friendphrase, $enemyphrase)"
 msgstr "Уочене јединице! ($friendphrase, $enemyphrase)"
 
 #. +> trunk 1.6
-#: src/actions.cpp:2437
+#: src/actions.cpp:2476
 msgid "(press $hotkey to keep moving)"
 msgstr "(притисните $hotkey да продужи)"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:372
+#: src/addon_management.cpp:340 src/unit_types.cpp:951
+msgid "No description available."
+msgstr "Опис није доступан."
+
+#. +> trunk 1.6
+#: src/addon_management.cpp:413
 msgid "B"
 msgstr "B"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:375 src/dialogs.cpp:1056
+#: src/addon_management.cpp:416 src/dialogs.cpp:1056
 msgid "KB"
 msgstr "kB"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:378
+#: src/addon_management.cpp:419
 msgid "MB"
 msgstr "MB"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:381
+#: src/addon_management.cpp:422
 msgid "GB"
 msgstr "GB"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:414
+#: src/addon_management.cpp:455
 msgctxt "addon_type"
 msgid "Campaign"
 msgstr "поход"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:416
+#: src/addon_management.cpp:457
 msgctxt "addon_type"
 msgid "Scenario"
 msgstr "сценарио"
 
 # well-spelled: вигр
 #. +> trunk 1.6
-#: src/addon_management.cpp:418
+#: src/addon_management.cpp:459
 msgctxt "addon_type"
 msgid "MP era"
 msgstr "вигр. раздобље"
 
 # well-spelled: вигр
 #. +> trunk 1.6
-#: src/addon_management.cpp:420
+#: src/addon_management.cpp:461
 msgctxt "addon_type"
 msgid "MP faction"
 msgstr "вигр. фракција"
 
 # well-spelled: вигр
 #. +> trunk 1.6
-#: src/addon_management.cpp:422
+#: src/addon_management.cpp:463
 msgctxt "addon_type"
 msgid "MP map-pack"
 msgstr "вигр. пакета мапа"
 
 # well-spelled: вигр
 #. +> trunk 1.6
-#: src/addon_management.cpp:424
+#: src/addon_management.cpp:465
 msgctxt "addon_type"
 msgid "MP scenario"
 msgstr "вигр. сценарио"
 
 # well-spelled: вигр
 #. +> trunk 1.6
-#: src/addon_management.cpp:426
+#: src/addon_management.cpp:467
 msgctxt "addon_type"
 msgid "MP campaign"
 msgstr "вигр. поход"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:428
+#: src/addon_management.cpp:469
 msgctxt "addon_type"
 msgid "Resources"
 msgstr "ресурси"
 
 #. +> trunk
-#: src/addon_management.cpp:430
+#: src/addon_management.cpp:471
 msgctxt "addon_type"
 msgid "Other"
 msgstr "друго"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:432
+#: src/addon_management.cpp:473
 msgctxt "addon_type"
 msgid "(unknown)"
 msgstr "(непознато)"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:462
+#: src/addon_management.cpp:503
 msgid "Dependencies"
 msgstr "Зависности"
 
 #. +> trunk
-#: src/addon_management.cpp:466
+#: src/addon_management.cpp:507
 msgid "$addon_title depends upon the following add-on which you have not installed yet:"
 msgid_plural "$addon_title depends upon the following add-ons which you have not installed yet:"
 msgstr[0] "$addon_title се ослања на следеће који још нису инсталирани:"
@@ -5839,7 +5917,7 @@ msgstr[2] "Овај додатак се ослања на следеће кој�
 msgstr[3] "Овај додатак се ослања на следећи који још није инсталиран:"
 
 #. +> trunk
-#: src/addon_management.cpp:469
+#: src/addon_management.cpp:510
 msgid "Do you still want to download $addon_title|? (You will have to install all the dependencies in order to play.)"
 msgstr "Желите ли да преузмете $addon_title|? (Мораћете да инсталирате и све зависности да бисте играли.)"
 
@@ -5849,64 +5927,64 @@ msgid "Do you want to download this add-on? (You will still have to install the 
 msgstr "Желите ли да преузмете овај додатак? (Мораћете да инсталирате и све зависности да бисте играли.)"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:487 src/addon_management.cpp:559
+#: src/addon_management.cpp:528 src/addon_management.cpp:600
 #: src/multiplayer.cpp:213 src/multiplayer.cpp:268 src/multiplayer_ui.cpp:78
 msgid "Connection timed out"
 msgstr "Веза је истекла."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:490
+#: src/addon_management.cpp:531
 msgid "The server responded with an error: \"$error|\""
 msgstr "Сервер је одговорио грешком: „$error|“"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:498
+#: src/addon_management.cpp:539
 msgid "Terms"
 msgstr "Услови"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:532
+#: src/addon_management.cpp:573
 msgid "Sending add-on"
 msgstr "Шаљем додатак"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:536 src/addon_management.cpp:561
+#: src/addon_management.cpp:577 src/addon_management.cpp:602
 msgid "The server responded with an error: \""
 msgstr "Сервер је одговорио грешком: \""
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:539 src/addon_management.cpp:564
+#: src/addon_management.cpp:580 src/addon_management.cpp:605
 #: src/multiplayer_wait.cpp:403
 msgid "Response"
 msgstr "Одзив"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:591
+#: src/addon_management.cpp:632
 msgid "Downloading add-on: $addon_title|..."
 msgstr "Преузимам додатак: $addon_title|..."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:606
+#: src/addon_management.cpp:647
 msgid "The add-on has an invalid file or directory name and can not be installed."
 msgstr "Додатак нема ваљано име датотеке или фасцикле и не може се инсталирати."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:655
+#: src/addon_management.cpp:696
 msgid "The add-on '$addon_title|' has been successfully installed."
 msgstr "Додатак ‘$addon_title|’ успешно инсталиран."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:656
+#: src/addon_management.cpp:697
 msgid "Add-on Installed"
 msgstr "Додатак инсталиран"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:714
+#: src/addon_management.cpp:780
 msgid "Outdated add-ons"
 msgstr "Застарели додаци"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:716
+#: src/addon_management.cpp:782
 msgid "An outdated local add-on has publishing information attached. It will not be offered for updating."
 msgid_plural "Some outdated local add-ons have publishing information attached. They will not be offered for updating."
 msgstr[0] "Уз неке застареле локалне додатке приложени су подаци за објављивање. Неће бити понуђени за ажурирање."
@@ -5915,63 +5993,63 @@ msgstr[2] "Уз неке застареле локалне додатке при
 msgstr[3] "Уз застарели локални додатак приложени су подаци за објављивање. Неће бити понуђен за ажурирање."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:725
+#: src/addon_management.cpp:791
 msgid "Could not find any updated add-ons on this server."
 msgstr "Не могу да нађем ниједан ажурирани додатак на овом серверу."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:725
+#: src/addon_management.cpp:791
 msgid "No add-ons to update"
 msgstr "Нема додатака за ажурирање"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:739 src/addon_management.cpp:942
+#: src/addon_management.cpp:805 src/addon_management.cpp:1005
 #: src/dialogs.cpp:575 src/menu_events.cpp:203 src/menu_events.cpp:839
 msgid "Name"
 msgstr "име"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:739
+#: src/addon_management.cpp:805
 msgid "New version"
 msgstr "нова верзија"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:739
+#: src/addon_management.cpp:805
 msgid "Old version"
 msgstr "стара верзија"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:740 src/addon_management.cpp:943
+#: src/addon_management.cpp:806 src/addon_management.cpp:1006
 msgid "Author"
 msgstr "аутор"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:740 src/addon_management.cpp:943
+#: src/addon_management.cpp:806 src/addon_management.cpp:1006
 msgid "Size"
 msgstr "величина"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:794
+#: src/addon_management.cpp:857
 msgid "Update add-ons"
 msgstr "Ажурирај додатке"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:795
+#: src/addon_management.cpp:858
 msgid "Select an add-on to update:"
 msgstr "Изаберите додатак за ажурирање:"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:809
+#: src/addon_management.cpp:872
 msgid "Update all"
 msgstr "Ажурирај све"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:866
+#: src/addon_management.cpp:929
 msgid "Update failed"
 msgstr "Ажурирање није успело"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:868
+#: src/addon_management.cpp:931
 msgid "The following add-on could not be downloaded or updated successfully:"
 msgid_plural "The following add-ons could not be downloaded or updated successfully:"
 msgstr[0] "Следећи додаци имају грешку и не могу се успешно преузети или ажурирати:"
@@ -5980,146 +6058,146 @@ msgstr[2] "Следећи додаци имају грешку и не могу 
 msgstr[3] "Следећи додатак има грешку и не може се успешно преузети или ажурирати:"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:877
+#: src/addon_management.cpp:940
 msgid "Update succeeded"
 msgstr "Ажурирање успело"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:878
+#: src/addon_management.cpp:941
 msgid "Add-on updated successfully."
 msgstr "Додатак успешно ажуриран."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:879
+#: src/addon_management.cpp:942
 msgid "All add-ons updated successfully."
 msgstr "Сви додаци успешно ажурирани."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:903
+#: src/addon_management.cpp:966
 msgid "Connecting to add-ons server..."
 msgstr "Повезујем се са сервером додатака..."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:906
+#: src/addon_management.cpp:969
 msgid "Could not connect to host."
 msgstr "Не могу да се повежем."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:914
+#: src/addon_management.cpp:977
 msgid "Requesting list of add-ons"
 msgstr "Тражим списак додатака"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:926
+#: src/addon_management.cpp:989
 msgid "An error occurred while communicating with the server."
 msgstr "Грешка у комуникацији са сервером."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:942 src/titlescreen.cpp:342
+#: src/addon_management.cpp:1005 src/titlescreen.cpp:342
 msgid "Version"
 msgstr "верзија"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:943
+#: src/addon_management.cpp:1006
 msgid "Downloads"
 msgstr "преузето"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:943 src/help.cpp:1458 src/menu_events.cpp:202
-#: src/menu_events.cpp:838 src/menu_events.cpp:1417
+#: src/addon_management.cpp:1006 src/help.cpp:1458 src/menu_events.cpp:202
+#: src/menu_events.cpp:838 src/menu_events.cpp:1414
 msgid "Type"
 msgstr "тип"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1009
+#: src/addon_management.cpp:1070
 msgid "Publish add-on: "
 msgstr "Објави додатак: "
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1015
+#: src/addon_management.cpp:1076
 msgid "Delete add-on: "
 msgstr "Обриши додатак: "
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1021
+#: src/addon_management.cpp:1082
 msgid "There are no add-ons available for download from this server."
 msgstr "На овом серверу нема додатака спремних за преузимање."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1034
+#: src/addon_management.cpp:1095
 msgid "Get add-ons"
 msgstr "Добави додатак"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1035
+#: src/addon_management.cpp:1096
 msgid "Choose the add-on to download."
 msgstr "Изаберите додатак за преузимање."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1047 src/dialogs.cpp:600 src/menu_events.cpp:898
-#: src/menu_events.cpp:1453
+#: src/addon_management.cpp:1108 src/dialogs.cpp:600 src/menu_events.cpp:898
+#: src/menu_events.cpp:1450
 msgid "Filter: "
 msgstr "Филтер: "
 
+#. +> trunk
+#: src/addon_management.cpp:1113
+msgid "Description"
+msgstr ""
+
 #. +> trunk 1.6
-#: src/addon_management.cpp:1084
+#: src/addon_management.cpp:1150
 msgid "Network communication error."
 msgstr "Грешка у мрежној комуникацији."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1087
+#: src/addon_management.cpp:1153
 msgid "Remote host disconnected."
 msgstr "Удаљени домаћин је прекинуо везу."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1090
+#: src/addon_management.cpp:1156
 msgid "A problem occurred when trying to create the files necessary to install this add-on."
 msgstr "Проблем при стварању датотека неопходних за инсталирање овог додатка."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1108
+#: src/addon_management.cpp:1174
 msgid "You have no add-ons installed."
 msgstr "Нема инсталираних додатака."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1120
+#: src/addon_management.cpp:1186
 msgid "Choose the add-on to remove."
 msgstr "Изаберите додатак за уклањање."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1120
+#: src/addon_management.cpp:1186
 msgid "Uninstall add-ons"
 msgstr "Деинсталирај додатке"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1132
+#: src/addon_management.cpp:1198
 msgid "Are you sure you want to remove the add-on '$addon|'?"
 msgstr "Желите ли заиста да уклоните ‘$addon|’?"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1137 src/multiplayer.cpp:225
+#: src/addon_management.cpp:1203 src/multiplayer.cpp:225
 msgid "Confirm"
 msgstr "Потврди"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1149
+#: src/addon_management.cpp:1215
 msgid "Add-on '$addon|' deleted."
 msgstr "Додатак ‘$addon|’ обрисан."
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1154
+#: src/addon_management.cpp:1220
 msgid "Add-on deleted"
 msgstr "Додатак обрисан"
 
 #. +> trunk 1.6
-#: src/addon_management.cpp:1162
+#: src/addon_management.cpp:1228
 msgid "Add-on could not be deleted properly:"
 msgstr "Додатак се не може успешно обрисати:"
-
-#. +> trunk 1.6
-#: src/ai/default/move.cpp:85
-msgid "Movement cost is 0, probably a terrain with movement cost of 0."
-msgstr "Трошак кретања 0, вероватно терен са трошком кретања 0."
 
 #. +> trunk 1.6
 #: src/attack_prediction_display.cpp:107 src/attack_prediction_display.cpp:217
@@ -6222,7 +6300,7 @@ msgid "Save names may not contain colons, slashes, or backslashes. Please choose
 msgstr "Имена позиција не могу садржати двотачке, косе и обрнуте косе црте. Задајте другачије име."
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:432 src/savegame.cpp:130
+#: src/dialogs.cpp:432 src/savegame.cpp:132
 msgid "%a %b %d %H:%M %Y"
 msgstr "%a %b %d %H.%M %Y"
 
@@ -6247,12 +6325,12 @@ msgid "Tutorial"
 msgstr "Подучавање"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:483 src/savegame.cpp:947
+#: src/dialogs.cpp:483 src/savegame.cpp:950
 msgid "replay"
 msgstr "снимак"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:485 src/savegame.cpp:1020
+#: src/dialogs.cpp:485 src/savegame.cpp:1022
 msgid "Turn"
 msgstr "потез"
 
@@ -6272,23 +6350,23 @@ msgid "Version: "
 msgstr "Верзија: "
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:516 src/dialogs.cpp:532 src/savegame.cpp:159
-#: src/savegame.cpp:175
+#: src/dialogs.cpp:516 src/dialogs.cpp:532 src/savegame.cpp:161
+#: src/savegame.cpp:177
 msgid "%b %d %y"
 msgstr "%b %d %y"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:522 src/savegame.cpp:165
+#: src/dialogs.cpp:522 src/savegame.cpp:167
 msgid "%H:%M"
 msgstr "%H.%M"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:525 src/savegame.cpp:168
+#: src/dialogs.cpp:525 src/savegame.cpp:170
 msgid "%A, %H:%M"
 msgstr "%A, %H.%M"
 
 #. +> trunk 1.6
-#: src/dialogs.cpp:528 src/savegame.cpp:171
+#: src/dialogs.cpp:528 src/savegame.cpp:173
 msgid "%b %d"
 msgstr "%b %d"
 
@@ -6386,13 +6464,12 @@ msgid "The Battle for Wesnoth"
 msgstr "Бој за Веснот"
 
 #. +> trunk 1.6
-#: src/game.cpp:995 src/game.cpp:1003 src/playsingle_controller.cpp:476
-#: src/playsingle_controller.cpp:531
+#: src/game.cpp:995 src/game.cpp:1003
 msgid "The file you have tried to load is corrupt"
 msgstr "Датотека коју сте покушали да отворите искварена је"
 
 #. +> trunk 1.6
-#: src/game.cpp:998 src/game.cpp:1006 src/savegame.cpp:535
+#: src/game.cpp:998 src/game.cpp:1006 src/savegame.cpp:537
 msgid "The file you have tried to load is corrupt: '"
 msgstr "Датотека коју сте покушали да учитате искварена је: '"
 
@@ -6526,12 +6603,12 @@ msgid "Info: "
 msgstr "Податак: "
 
 #. +> trunk 1.6
-#: src/game_events.cpp:1207 src/multiplayer_connect.cpp:1581
+#: src/game_events.cpp:1203 src/multiplayer_connect.cpp:1583
 msgid "Victory:"
 msgstr "победа:"
 
 #. +> trunk 1.6
-#: src/game_events.cpp:1210
+#: src/game_events.cpp:1206
 msgid "Defeat:"
 msgstr "пораз:"
 
@@ -6541,7 +6618,7 @@ msgid "[unit_worth]'s filter didn't match any units!"
 msgstr "Филтер [unit_worth] не поклапа ниједну јединицу."
 
 #. +> trunk
-#: src/gamestatus.cpp:740
+#: src/gamestatus.cpp:741
 msgid "Leader position not empty - duplicate side definition for side '$side|' found."
 msgstr "Положај вођа није упражњен — нађена удвојена дефиниција стране за страну ‘$side|’."
 
@@ -6902,7 +6979,7 @@ msgid "System default language"
 msgstr "Системски језик"
 
 #. +> trunk 1.6
-#: src/leader_list.cpp:139 src/menu_events.cpp:1443
+#: src/leader_list.cpp:139 src/menu_events.cpp:1440
 #: src/multiplayer_connect.cpp:216 src/multiplayer_connect.cpp:268
 msgctxt "gender"
 msgid "Random"
@@ -6931,7 +7008,7 @@ msgid "?"
 msgstr "?"
 
 #. +> trunk
-#: src/loadscreen.cpp:245
+#: src/loadscreen.cpp:244
 msgid "Verifying cache..."
 msgstr "Оверавам кеш..."
 
@@ -6941,7 +7018,7 @@ msgid "Verifying cache"
 msgstr "Оверавам кеш..."
 
 #. +> trunk
-#: src/loadscreen.cpp:264
+#: src/loadscreen.cpp:262
 msgid "Reading unit files..."
 msgstr "Читам датотеке јединица..."
 
@@ -6951,7 +7028,7 @@ msgid "Reading unit files."
 msgstr "Читам датотеке јединица..."
 
 #. +> trunk
-#: src/loadscreen.cpp:283
+#: src/loadscreen.cpp:280
 msgid "Reading files and creating cache..."
 msgstr "Читам датотеке и стварам кеш..."
 
@@ -6961,42 +7038,42 @@ msgid "Reading files and creating cache."
 msgstr "Читам датотеке и стварам кеш..."
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:238 src/multiplayer_lobby.cpp:431
+#: src/lobby_data.cpp:195 src/multiplayer_lobby.cpp:431
 msgid "Unknown era: $era_id"
 msgstr "непозната епоха: $era_id"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:243 src/multiplayer_lobby.cpp:435
+#: src/lobby_data.cpp:200 src/multiplayer_lobby.cpp:435
 msgid "Unknown era"
 msgstr "непозната епоха"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:298 src/multiplayer_lobby.cpp:497
+#: src/lobby_data.cpp:255 src/multiplayer_lobby.cpp:497
 msgid "Remote scenario"
 msgstr "удаљени сценарио"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:306 src/multiplayer_lobby.cpp:504
+#: src/lobby_data.cpp:263 src/multiplayer_lobby.cpp:504
 msgid "Unknown scenario: $scenario_id"
 msgstr "непознат сценарио: $scenario_id"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:311 src/multiplayer_lobby.cpp:508
+#: src/lobby_data.cpp:268 src/multiplayer_lobby.cpp:508
 msgid "Unknown scenario"
 msgstr "непознат сценарио"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:317 src/multiplayer_lobby.cpp:513
+#: src/lobby_data.cpp:274 src/multiplayer_lobby.cpp:513
 msgid "Reloaded game"
 msgstr "учитана позиција"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:328 src/multiplayer_lobby.cpp:529
+#: src/lobby_data.cpp:285 src/multiplayer_lobby.cpp:529
 msgid "Turn "
 msgstr "потез "
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:332 src/multiplayer_lobby.cpp:533
+#: src/lobby_data.cpp:289 src/multiplayer_lobby.cpp:533
 msgid "Vacant Slot:"
 msgid_plural "Vacant Slots:"
 msgstr[0] "слободна места:"
@@ -7005,18 +7082,18 @@ msgstr[2] "слободна места:"
 msgstr[3] "слободно место:"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:338 src/multiplayer_lobby.cpp:544
+#: src/lobby_data.cpp:295 src/multiplayer_lobby.cpp:544
 msgid "Fog"
 msgstr "магла"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:341 src/lobby_data.cpp:344 src/multiplayer_create.cpp:83
+#: src/lobby_data.cpp:298 src/lobby_data.cpp:301 src/multiplayer_create.cpp:83
 #: src/multiplayer_lobby.cpp:548 src/multiplayer_lobby.cpp:554
 msgid "Shroud"
 msgstr "покров"
 
 #. +> trunk 1.6
-#: src/lobby_data.cpp:346 src/multiplayer_lobby.cpp:558
+#: src/lobby_data.cpp:303 src/multiplayer_lobby.cpp:558
 msgid "none"
 msgstr "нема"
 
@@ -7323,102 +7400,102 @@ msgstr[2] "Морате имати барем $cost златника да бис
 msgstr[3] "Морате имати барем један златник да бисте сазвали јединицу"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1287
+#: src/menu_events.cpp:1284
 msgid "You have not started your turn yet. Do you really want to end your turn?"
 msgstr "Нисте ни започели свој потез, желите ли заиста већ да га окончате?"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1295 src/menu_events.cpp:1300
+#: src/menu_events.cpp:1292 src/menu_events.cpp:1297
 msgid "Some units have movement left. Do you really want to end your turn?"
 msgstr "Неке јединице се још могу кретати. Желите ли заиста да завршите потез?"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1335
+#: src/menu_events.cpp:1332
 msgid "Rename Unit"
 msgstr "Преименуј јединицу"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1416
+#: src/menu_events.cpp:1413
 msgid "Race"
 msgstr "раса"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1440
+#: src/menu_events.cpp:1437
 msgid "Create Unit (Debug!)"
 msgstr "Створи јединицу (испр.!)"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1443 src/multiplayer_wait.cpp:128
+#: src/menu_events.cpp:1440 src/multiplayer_wait.cpp:128
 msgid "Gender: "
 msgstr "пол: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1534
+#: src/menu_events.cpp:1531
 msgid "Place Label"
 msgstr "Постави етикету"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1536
+#: src/menu_events.cpp:1533
 msgid "Label: "
 msgstr "Етикета: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1537
+#: src/menu_events.cpp:1534
 msgid "Team only"
 msgstr "Само тимски"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1738
+#: src/menu_events.cpp:1735
 msgid "Search"
 msgstr "Тражи"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1919
+#: src/menu_events.cpp:1916
 msgid "This command is currently unavailable."
 msgstr "Ова наредба тренутно није доступна."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:1930
+#: src/menu_events.cpp:1927
 msgid "Available commands list and command-specific help. Use \"help all\" to include currently unavailable commands."
 msgstr "Списак доступних наредби и помоћ за њих. Употребите „help all“ да укључите и тренутно недоступне наредбе."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2035
+#: src/menu_events.cpp:2032
 msgid " No help available."
 msgstr " Помоћ није доступна."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2194
+#: src/menu_events.cpp:2191
 msgid "Send a query to the server. Without arguments the server should tell you the available commands."
 msgstr "Шаље упит серверу. Без аргумената, сервер треба да наброји доступне наредбе."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2198
+#: src/menu_events.cpp:2195
 msgid "Ban and kick a player or observer. If he is not in the game but on the server he will only be banned."
 msgstr "Забрањује и избацује играча или посматрача. Ако није у игри, већ на серверу, биће само забрањен."
 
 #. +> trunk
-#: src/menu_events.cpp:2201
+#: src/menu_events.cpp:2198
 msgid "Unban a user. He does not have to be in the game but on the server."
 msgstr "Укида забрану играчу, који не мора бити у игри, али мора на серверу."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2204
+#: src/menu_events.cpp:2201
 msgid "Kick a player or observer."
 msgstr "Избацује играча или посматрача."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2206
+#: src/menu_events.cpp:2203
 msgid "Mute an observer. Without an argument displays the mute status."
 msgstr "Утишава посматрача. Без аргумената приказује стање утишаности."
 
 #. +> trunk
-#: src/menu_events.cpp:2208
+#: src/menu_events.cpp:2205
 msgid "Unmute an observer. Without an argument unmutes everyone."
 msgstr "Укида утишаност посматрача. Без аргумената укида утишаност свима."
 
 #. +> trunk
-#: src/menu_events.cpp:2210
+#: src/menu_events.cpp:2207
 msgid "Mute/Unmute all observers. (toggles)"
 msgstr "Утишава или укида утишаност свих посматрача."
 
@@ -7428,102 +7505,102 @@ msgid "Mute all observers."
 msgstr "Утишава све посматраче."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2220
+#: src/menu_events.cpp:2217
 msgid "Send a message to the server admins currently online"
 msgstr "Шаље поруку администраторима сервера тренутно на вези."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2222
+#: src/menu_events.cpp:2219
 msgid "Send an emotion or personal action in chat."
 msgstr "Шаље емоцију или личну радњу у ћаскање."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2225
+#: src/menu_events.cpp:2222
 msgid "Sends a private message. You can't send messages to players that don't control a side in a running game you are in."
 msgstr "Шаље приватну поруку. Не можете слати поруке играчима који не управљају неком страном у текућој партији у којој сте и сами."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2231
+#: src/menu_events.cpp:2228
 msgid "Change the log level of a log domain."
 msgstr "Мења ниво бележења за домен бележења."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2233
+#: src/menu_events.cpp:2230
 msgid "Add a nick to your ignores list."
 msgstr "Додаје надимак на списак игнорисаних."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2235
+#: src/menu_events.cpp:2232
 msgid "Add a nick to your friends list."
 msgstr "Додаје надимак на списак пријатеља."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2237
+#: src/menu_events.cpp:2234
 msgid "Remove a nick from your ignores or friends list."
 msgstr "Уклања играча са списка игнорисаних или пријатеља."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2239
+#: src/menu_events.cpp:2236
 msgid "Show your ignores and friends list."
 msgstr "Приказује списак игнорисаних и пријатеља."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2242
+#: src/menu_events.cpp:2239
 msgid "Display version information."
 msgstr "Приказује податак о верзији."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2244
+#: src/menu_events.cpp:2241
 msgid "Register your nick"
 msgstr "Региструје ваш надимак."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2246
+#: src/menu_events.cpp:2243
 msgid "Drop your nick."
 msgstr "Испушта ваш надимак."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2248
+#: src/menu_events.cpp:2245
 msgid "Update details for your nick. For possible details see '/details'."
 msgstr "Ажурира детаље вашег надимка. За могуће детаље, извршити „/details“."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2251
+#: src/menu_events.cpp:2248
 msgid "Request information about a nick."
 msgstr "Затражите податке о надимку."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2253
+#: src/menu_events.cpp:2250
 msgid "Request a list of details you can set for your registered nick."
 msgstr "Захтева списак детаља које можете задати уз регистровани надимак."
 
 #. +> trunk
-#: src/menu_events.cpp:2255
+#: src/menu_events.cpp:2252
 msgid "Join a room."
 msgstr "Придружи се соби."
 
 #. +> trunk
-#: src/menu_events.cpp:2258
+#: src/menu_events.cpp:2255
 msgid "Part a room."
 msgstr "Напусти собу."
 
 #. +> trunk
-#: src/menu_events.cpp:2260
+#: src/menu_events.cpp:2257
 msgid "List room members."
 msgstr "Наброји чланове собе."
 
 #. +> trunk
-#: src/menu_events.cpp:2262
+#: src/menu_events.cpp:2259
 msgid "List available rooms."
 msgstr "Наброји доступне собе."
 
 #. +> trunk
-#: src/menu_events.cpp:2264
+#: src/menu_events.cpp:2261
 msgid "Room message."
 msgstr "Порука собе."
 
 #. +> trunk
-#: src/menu_events.cpp:2266
+#: src/menu_events.cpp:2263
 msgid "Room query."
 msgstr "Упит собе."
 
@@ -7533,255 +7610,255 @@ msgid "Remove a trait from a unit. (Does not work yet.)"
 msgstr "Уклања особину јединице. (Још увек не ради.)"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2395
+#: src/menu_events.cpp:2392
 msgid "Refresh gui."
 msgstr "Освежава сучеље."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2397
+#: src/menu_events.cpp:2394
 msgid "Switch a side to/from AI control."
 msgstr "Даје или одузима управљање страном ВИ."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2400
+#: src/menu_events.cpp:2397
 msgid "Assign control of a side to a different player or observer."
 msgstr "Додељује управљање страном другом играчу или посматрачу."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2402
+#: src/menu_events.cpp:2399
 msgid "Clear chat history."
 msgstr "Чисти историјат ћаскања."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2404
+#: src/menu_events.cpp:2401
 msgid "Visualize the screen refresh procedure."
 msgstr "Сагледава поступак освежавања екрана."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2407
+#: src/menu_events.cpp:2404
 msgid "Save game."
 msgstr "Уписује позицију."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2409
+#: src/menu_events.cpp:2406
 msgid "Quit game."
 msgstr "Напушта игру."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2413
+#: src/menu_events.cpp:2410
 msgid "Save and quit."
 msgstr "Уписује и напушта."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2416
+#: src/menu_events.cpp:2413
 msgid "Ignore replay errors."
 msgstr "Игнорише грешке у снимку."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2418
+#: src/menu_events.cpp:2415
 msgid "Disable autosaves."
 msgstr "Искључује аутопозиције."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2420
+#: src/menu_events.cpp:2417
 msgid "Advance to the next scenario, or scenario identified by 'id'"
 msgstr "Прелази на следећи сценарио, или онај са датим идентификатором."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2423
+#: src/menu_events.cpp:2420
 msgid "Choose next scenario"
 msgstr "Избор наредног сценарија."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2426
+#: src/menu_events.cpp:2423
 msgid "Turn debug mode on."
 msgstr "Укључује исправљачки режим."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2428
+#: src/menu_events.cpp:2425
 msgid "Turn debug mode off."
 msgstr "Искључује исправљачки режим."
 
 #. +> trunk
-#: src/menu_events.cpp:2430
+#: src/menu_events.cpp:2427
 msgid "Execute a Lua statement."
 msgstr "Извршава ~@/Lua/луа/ исказ."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2432
+#: src/menu_events.cpp:2429
 msgid "Set the command used by the custom command hotkey"
 msgstr "Поставља наредбу на пречицу посебне наредбе."
 
 #. +> trunk
-#: src/menu_events.cpp:2434
+#: src/menu_events.cpp:2431
 msgid "Launch the gamestate inspector"
 msgstr "Покреће испитивач стања игре."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2436
+#: src/menu_events.cpp:2433
 msgid "Set or show alias to a command"
 msgstr "Поставља или приказује алијас наредбе."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2438
+#: src/menu_events.cpp:2435
 msgid "Set a scenario variable."
 msgstr "Поставља променљиву сценарија."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2440
+#: src/menu_events.cpp:2437
 msgid "Show a scenario variable."
 msgstr "Приказује променљиву сценарија."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2442
+#: src/menu_events.cpp:2439
 msgid "Modify a unit variable. (Only top level keys are supported.)"
 msgstr "Мења променљиву јединице. (Подржани су само кључеви највишег нивоа.)"
 
 #. +> trunk
-#: src/menu_events.cpp:2449
+#: src/menu_events.cpp:2446
 msgid "Discover all units in help."
 msgstr "Открива све јединице у помоћи."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2454
+#: src/menu_events.cpp:2451
 msgid "Create a unit."
 msgstr "Ствара јединицу."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2456
+#: src/menu_events.cpp:2453
 msgid "Toggle fog for the current player."
 msgstr "Магла за текућег играча."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2458
+#: src/menu_events.cpp:2455
 msgid "Toggle shroud for the current player."
 msgstr "Са или без покрова за текућег играча."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2460
+#: src/menu_events.cpp:2457
 msgid "Give gold to the current player."
 msgstr "Даје злато текућем играчу."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2462
+#: src/menu_events.cpp:2459
 msgid "Fire a game event."
 msgstr "Окида догађај у игри."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2465
+#: src/menu_events.cpp:2462
 msgid "Toggle overlaying of x,y coordinates on hexes."
 msgstr "Преклапање x- и y-координата по пољима."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2468
+#: src/menu_events.cpp:2465
 msgid "Toggle overlaying of terrain codes on hexes."
 msgstr "Преклапање теренских кодова по пољима."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2512
+#: src/menu_events.cpp:2509
 msgid "Unknown debug level: '$level'."
 msgstr "Непознат исправљачки ниво: ‘$level|’."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2514 src/menu_events.cpp:2523
+#: src/menu_events.cpp:2511 src/menu_events.cpp:2520
 msgid "error"
 msgstr "грешка"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2521
+#: src/menu_events.cpp:2518
 msgid "Unknown debug domain: '$domain'."
 msgstr "Непознат исправљачки домен: ‘$domain|’."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2530
+#: src/menu_events.cpp:2527
 msgid "Switched domain: '$domain' to level: '$level'."
 msgstr "Домен пребачен: ‘$domain|’ на ниво: ‘$level|’."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2704
+#: src/menu_events.cpp:2701
 msgid "Added to ignore list: "
 msgstr "Додат на списак игнорисаних: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2707 src/menu_events.cpp:2724
+#: src/menu_events.cpp:2704 src/menu_events.cpp:2721
 msgid "Invalid username: "
 msgstr "Неваљано корисничко име: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2722
+#: src/menu_events.cpp:2719
 msgid "Added to friends list: "
 msgstr "Додат на списак пријатеља: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2736
+#: src/menu_events.cpp:2733
 msgid "Removed from list: "
 msgstr "Уклоњен са списка: "
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2754
+#: src/menu_events.cpp:2751
 msgid "There are no players on your friends or ignore list."
 msgstr "Нема играча ни на вашем списку пријатеља ни игнорисаних."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2924
+#: src/menu_events.cpp:2921
 msgid "Couldn't find label or unit containing the string '$search'."
 msgstr "Нисам могао да нађем етикету или јединицу која садржи ‘$search|’."
 
 # well-spelled: дроидовати
 #. +> trunk 1.6
-#: src/menu_events.cpp:2953
+#: src/menu_events.cpp:2950
 msgid "Can't droid invalid side: '$side'."
 msgstr "Не може се дроидовати неваљана страна: ‘$side|’."
 
 # well-spelled: дроидовати
 #. +> trunk 1.6
-#: src/menu_events.cpp:2958
+#: src/menu_events.cpp:2955
 msgid "Can't droid networked side: '$side'."
 msgstr "Не може се дроидовати умрежена страна: ‘$side|’."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:2995
+#: src/menu_events.cpp:2992
 msgid "Can't change control of invalid side: '$side'."
 msgstr "Не може се променити управљање над неваљаном страном: ‘$side|’."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3001
+#: src/menu_events.cpp:2998
 msgid "Can't change control of out-of-bounds side: '$side'."
 msgstr "Не може се променити управљање над страном ван граница: ‘$side|’."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3076
+#: src/menu_events.cpp:3073
 msgid "Choose Scenario (Debug!)"
 msgstr "Избор сценарија (испр.!)"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3097
+#: src/menu_events.cpp:3094
 msgid "Debug mode activated!"
 msgstr "Исправљање активирано!"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3100
+#: src/menu_events.cpp:3097
 msgid "Debug mode not available in network games"
 msgstr "Исправљање није доступно у мрежним партијама."
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3105
+#: src/menu_events.cpp:3102
 msgid "Debug mode deactivated!"
 msgstr "Исправљање деактивирано!"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3287
+#: src/menu_events.cpp:3284
 msgid "ai"
 msgstr "ВИ"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3297 src/menu_events.cpp:3312
+#: src/menu_events.cpp:3294 src/menu_events.cpp:3309
 msgctxt "prompt"
 msgid "Command:"
 msgstr "наредба:"
 
 #. +> trunk 1.6
-#: src/menu_events.cpp:3332
+#: src/menu_events.cpp:3329
 msgid "User-Command#3"
 msgstr "корисничка-наредба#3"
 
@@ -8015,12 +8092,12 @@ msgid "Empty"
 msgstr "празно"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1558
+#: src/multiplayer_connect.cpp:1560
 msgid "Cannot find era $era"
 msgstr "Не могу да нађем епоху $era"
 
 #. +> trunk
-#: src/multiplayer_connect.cpp:1583
+#: src/multiplayer_connect.cpp:1585
 msgid "Defeat enemy leader(s)"
 msgstr "Поразиш ли противничке вође"
 
@@ -8034,7 +8111,7 @@ msgstr ""
 "@Поразиш ли противничке вође"
 
 #. +> trunk 1.6
-#: src/multiplayer_connect.cpp:1647
+#: src/multiplayer_connect.cpp:1649
 msgid "Waiting for players to join..."
 msgstr "Чекамо да се придруже играчи..."
 
@@ -8380,12 +8457,12 @@ msgid "Joining this game requires a password."
 msgstr "Придруживање овој партији само уз лозинку."
 
 #. +> trunk 1.6
-#: src/multiplayer_ui.cpp:194
+#: src/multiplayer_ui.cpp:195
 msgid "Invalid Color"
 msgstr "Неваљана боја"
 
 #. +> trunk 1.6
-#: src/multiplayer_ui.cpp:426
+#: src/multiplayer_ui.cpp:427
 msgid "Selected user: "
 msgstr "Изабрани корисник: "
 
@@ -8490,13 +8567,13 @@ msgid "Starting game"
 msgstr "Отпочињем партију..."
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:929 src/savegame.cpp:290 src/savegame.cpp:302
-#: src/savegame.cpp:973 src/savegame.cpp:975
+#: src/play_controller.cpp:924 src/savegame.cpp:292 src/savegame.cpp:304
+#: src/savegame.cpp:976 src/savegame.cpp:978
 msgid "Auto-Save"
 msgstr "Аутопозиција"
 
 #. +> trunk 1.6
-#: src/play_controller.cpp:936
+#: src/play_controller.cpp:931
 msgid "Back to turn "
 msgstr "Назад на потез "
 
@@ -8531,7 +8608,7 @@ msgid "Downloading next scenario..."
 msgstr "Преузимам следећи сценарио..."
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:590
+#: src/playcampaign.cpp:589
 msgid "Do you want to save your game?"
 msgstr "Желите ли да сачувате позицију?"
 
@@ -8541,38 +8618,38 @@ msgid "Name:"
 msgstr "Име:"
 
 #. +> trunk 1.6
-#: src/playcampaign.cpp:609
+#: src/playcampaign.cpp:607
 msgid "Unknown scenario: '$scenario|'"
 msgstr "Непознат сценарио: ‘$scenario|’"
 
 #. +> trunk
-#: src/playmp_controller.cpp:92
+#: src/playmp_controller.cpp:93
 msgid "$name has taken control"
 msgstr "$name преузе управљање"
 
 #. +> trunk
-#: src/playmp_controller.cpp:94
+#: src/playmp_controller.cpp:95
 msgid "Turn changed"
 msgstr "Промена потеза"
 
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:228
+#: src/playmp_controller.cpp:227
 msgid "Undoing moves not yet transmitted to the server."
 msgstr "Опозив покрета се не може одаслати на сервер."
 
 # намерно кратко, на уском дугмету
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:307
+#: src/playmp_controller.cpp:301
 msgid "End scenario"
 msgstr "Крај"
 
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:408
+#: src/playmp_controller.cpp:400
 msgid "Waiting for next scenario..."
 msgstr "Чекам на наредни сценарио..."
 
 #. +> trunk 1.6
-#: src/playmp_controller.cpp:537
+#: src/playmp_controller.cpp:520
 msgid ""
 "The game is out of sync, and cannot continue. There are a number of reasons this could happen: this can occur if you or another player have modified their game settings. This may mean one of the players is attempting to cheat. It could also be due to a bug in the game, but this is less likely.\n"
 "\n"
@@ -8656,7 +8733,7 @@ msgid "The game is over."
 msgstr "Игра је завршена."
 
 #. +> trunk
-#: src/playsingle_controller.cpp:487
+#: src/playsingle_controller.cpp:484
 msgid ""
 "A network disconnection has occurred, and the game\n"
 "cannot continue. Do you want to save the game?"
@@ -8672,202 +8749,197 @@ msgstr ""
 "Желите ли да сачувате позицију?"
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:653
+#: src/playsingle_controller.cpp:644
 msgid "It is now $name|'s turn"
 msgstr "На потезу је $name"
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:869
+#: src/playsingle_controller.cpp:859
 msgid "Scenario Report"
 msgstr "Извештај сценарија"
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:871
+#: src/playsingle_controller.cpp:861
 msgid "Victory"
 msgstr "Победа"
 
 #. +> trunk 1.6
-#: src/playsingle_controller.cpp:872
+#: src/playsingle_controller.cpp:862
 msgid "You have emerged victorious!"
 msgstr "Победили сте!"
 
 #. +> trunk 1.6
-#: src/playturn.cpp:230
+#: src/playturn.cpp:217
 msgid "Replace with AI"
 msgstr "Замени са ВИ"
 
 #. +> trunk 1.6
-#: src/playturn.cpp:231
+#: src/playturn.cpp:218
 msgid "Replace with local player"
 msgstr "Замени локалним играчем"
 
 #. +> trunk 1.6
-#: src/playturn.cpp:232
+#: src/playturn.cpp:219
 msgid "Abort game"
 msgstr "Прекини игру"
 
 #. +> trunk 1.6
-#: src/playturn.cpp:238 src/playturn.cpp:252
+#: src/playturn.cpp:225 src/playturn.cpp:239
 msgid "Replace with $player"
 msgstr "$player у замену"
 
 #. +> trunk 1.6
-#: src/playturn.cpp:258
+#: src/playturn.cpp:245
 msgid "$player has left the game. What do you want to do?"
 msgstr "$player напусти игру. Шта желите да учините?"
 
 #. +> trunk 1.6
-#: src/replay_controller.cpp:81
-msgid "The file you have tried to load is corrupt. Continue playing?"
-msgstr "Покушали сте да отворите искварену датотеку. Настављате с игром?"
-
-#. +> trunk 1.6
-#: src/savegame.cpp:202 src/savegame.cpp:204
+#: src/savegame.cpp:204 src/savegame.cpp:206
 msgid " replay"
 msgstr " снимак"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:445 src/savegame.cpp:449
+#: src/savegame.cpp:447 src/savegame.cpp:451
 msgid "Warning: The file you have tried to load is corrupt. Loading anyway.\n"
 msgstr "Упозорење: Датотека коју сте покушали да учитате искварена је. Свеједно учитавам.\n"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:488
+#: src/savegame.cpp:490
 msgid "This save is from a version too old to be loaded."
 msgstr "Ова позиција је сачувана престаром верзијом игре да би се учитала."
 
 #. +> trunk 1.6
-#: src/savegame.cpp:492
+#: src/savegame.cpp:494
 msgid "This save is from a different version of the game. Do you want to try to load it?"
 msgstr "Ова позиција је сачувана различитом верзијом игре. Желите ли да покушате учитавање?"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:541
+#: src/savegame.cpp:543
 msgid "This is not a multiplayer save"
 msgstr "Ово није вишеиграчка позиција"
 
 #. +> trunk
-#: src/savegame.cpp:606
+#: src/savegame.cpp:609
 msgid "The game could not be saved: "
 msgstr "Не могу да сачувам позицију: "
 
 #. +> trunk 1.6
-#: src/savegame.cpp:693
+#: src/savegame.cpp:696
 msgid "Name: "
 msgstr "Име: "
 
 #. +> trunk 1.6
-#: src/savegame.cpp:693
+#: src/savegame.cpp:696
 msgid "Save already exists. Do you want to overwrite it?"
 msgstr "Позиција већ постоји. Желите ли да је пребришете?"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:694
+#: src/savegame.cpp:697
 msgid "Overwrite?"
 msgstr "Пребрисати?"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:704
+#: src/savegame.cpp:707
 msgid "Save names should not end on '.gz'. Please choose a different name."
 msgstr "Имена позиција не треба завршавати са ‘.gz’. Задајте другачије име."
 
 #. +> trunk 1.6
-#: src/savegame.cpp:766
+#: src/savegame.cpp:769
 msgid "Saved"
 msgstr "Сачувано"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:766
+#: src/savegame.cpp:769
 msgid "The game has been saved"
 msgstr "Позиција је сачувана"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:800 src/savegame.cpp:825
+#: src/savegame.cpp:803 src/savegame.cpp:828
 msgid "Could not write to file"
 msgstr "Не могу да пишем у датотеку"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:938
+#: src/savegame.cpp:941
 msgid "Save Replay"
 msgstr "Сачувај снимак"
 
 #. +> trunk 1.6
-#: src/savegame.cpp:956
+#: src/savegame.cpp:959
 msgid "Could not auto save the game. Please save the game manually."
 msgstr "Не могу да сачувам позицију аутоматски. Покушајте да је сачувате ручно."
 
 #. +> trunk 1.6
-#: src/savegame.cpp:1008
+#: src/savegame.cpp:1010
 msgid "Save Game"
 msgstr "Сачувај позицију"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:131
+#: src/serialization/parser.cpp:129
 msgid "Unexpected characters at line start"
 msgstr "Неочекивани знакови на почетку линије"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:161
+#: src/serialization/parser.cpp:159
 msgid "Missing closing tag for tag $tag at $pos"
 msgstr "Недостаје затварајућа ознака за $tag код $pos"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:176
+#: src/serialization/parser.cpp:174
 msgid "Unterminated [element] tag"
 msgstr "Недовршена ознака [element]"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:186 src/serialization/parser.cpp:224
+#: src/serialization/parser.cpp:184 src/serialization/parser.cpp:222
 msgid "Invalid tag name"
 msgstr "Неваљано име ознаке"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:189
+#: src/serialization/parser.cpp:187
 msgid "Unterminated [+element] tag"
 msgstr "Недовршена ознака [+element]"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:205
+#: src/serialization/parser.cpp:203
 msgid "Invalid closing tag name"
 msgstr "Неваљано име затварајуће ознаке"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:208
+#: src/serialization/parser.cpp:206
 msgid "Unterminated closing tag"
 msgstr "Недовршена затварајућа ознака"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:210
+#: src/serialization/parser.cpp:208
 msgid "Unexpected closing tag"
 msgstr "Неочекивана затварајућа ознака"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:218
+#: src/serialization/parser.cpp:216
 msgid "Found invalid closing tag $tag2 for tag $tag1 (opened at $pos)"
 msgstr "Нађена неваљана затварајућа ознака $tag2 за $tag1 (отворено код $pos)"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:243 src/serialization/parser.cpp:255
+#: src/serialization/parser.cpp:241 src/serialization/parser.cpp:253
 msgid "Empty variable name"
 msgstr "Празно име променљиве"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:249
+#: src/serialization/parser.cpp:247
 msgid "Unexpected characters after variable name (expected , or =)"
 msgstr "Неочекивани знакови после имена променљиве (очекивах , или =)"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:284 src/serialization/parser.cpp:308
+#: src/serialization/parser.cpp:282 src/serialization/parser.cpp:306
 msgid "Unterminated quoted string"
 msgstr "Недовршен текст под наводницима"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:350
+#: src/serialization/parser.cpp:348
 msgid "$error, value '$value', previous '$previous_value' at $pos"
 msgstr "$error, вредност „$value“, претходна „$previous_value“ код $pos"
 
 #. +> trunk 1.6
-#: src/serialization/parser.cpp:354
+#: src/serialization/parser.cpp:352
 msgid "$error, value '$value' at $pos"
 msgstr "$error, вредност „$value“ код $pos"
 
@@ -9122,47 +9194,47 @@ msgid "No time of day has been defined."
 msgstr "Доба дана није одређено."
 
 #. +> trunk 1.6
-#: src/unit.cpp:506
+#: src/unit.cpp:509
 msgid "Unknown unit type '$type|' while generating traits"
 msgstr "Непознат тип јединице ‘$type|’ при стварању особина"
 
 #. +> trunk 1.6
-#: src/unit.cpp:688
+#: src/unit.cpp:691
 msgid "Unknown unit type '$type|'"
 msgstr "Непознат тип јединице ‘$type|’"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2338 src/unit.cpp:2523 src/unit.cpp:2596
+#: src/unit.cpp:2341 src/unit.cpp:2526 src/unit.cpp:2599
 msgid " and "
 msgstr " и "
 
 #. +> trunk 1.6
-#: src/unit.cpp:2349
+#: src/unit.cpp:2352
 msgid "$attack_list|: $effect_description"
 msgstr "$attack_list|: $effect_description"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2414
+#: src/unit.cpp:2417
 msgid "moves"
 msgstr "кретњи"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2432 src/unit.cpp:2550
+#: src/unit.cpp:2435 src/unit.cpp:2553
 msgid "XP to advance"
 msgstr "ИП за напредовање"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2542
+#: src/unit.cpp:2545
 msgid " move"
 msgstr " покрет"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2558
+#: src/unit.cpp:2561
 msgid "$effect_description per level"
 msgstr "$effect_description по нивоу"
 
 #. +> trunk 1.6
-#: src/unit.cpp:2605
+#: src/unit.cpp:2608
 msgid "$trait_name|: $trait_description "
 msgstr "$trait_name|: $trait_description "
 
@@ -9195,11 +9267,6 @@ msgstr "% прецизности"
 #, no-c-format
 msgid "% parry"
 msgstr "% парирања"
-
-#. +> trunk 1.6
-#: src/unit_types.cpp:951
-msgid "No description available."
-msgstr "Опис није доступан."
 
 #. +> trunk 1.6
 #: src/unit_types.cpp:1007
@@ -9235,27 +9302,27 @@ msgid "neutral"
 msgstr "неутрална"
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:368
+#: src/upload_log.cpp:367
 msgid "Wesnoth relies on volunteers like yourself for feedback, especially beginners and new players. Wesnoth keeps summaries of your games: you can help us improve game play by giving permission to send these summaries (anonymously) to wesnoth.org.\n"
 msgstr "Веснот очекује реаговања од волонтера попут вас, поготову почетника и нових играча. Веснот чува сажетке ваших партија: можете нам помоћи у побољшању игривости дајући дозволу да се ови сажеци (анонимно) пошаљу на wesnoth.org.\n"
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:369
+#: src/upload_log.cpp:368
 msgid "Summaries are stored here:"
 msgstr "Сажеци се чувају овде:"
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:371
+#: src/upload_log.cpp:370
 msgid "You can view the results at:"
 msgstr "Резултате можете видети на:"
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:373
+#: src/upload_log.cpp:372
 msgid "Help us make Wesnoth better for you!"
 msgstr "Помозите нам да побољшамо Веснот за вас!"
 
 #. +> trunk 1.6
-#: src/upload_log.cpp:375
+#: src/upload_log.cpp:374
 msgid "Enable summary uploads"
 msgstr "Укључи слање сажетака"
 
@@ -9272,6 +9339,22 @@ msgid "Unknown unit type : "
 msgstr "Непознат тип јединице: "
 
 #. +> 1.6
+#: src/ai_move.cpp:74
+msgid "Movement cost is 0, probably a terrain with movement cost of 0."
+msgstr "Трошак кретања 0, вероватно терен са трошком кретања 0."
+
+#. +> 1.6
 #: src/config_adapter.cpp:157
 msgid "Duplicate side definition for side '$side|' found."
 msgstr "Нађена удвојена дефиниција стране за страну ‘$side|’."
+
+#. +> 1.6
+#: src/replay_controller.cpp:81
+msgid "The file you have tried to load is corrupt. Continue playing?"
+msgstr "Покушали сте да отворите искварену датотеку. Настављате с игром?"
+
+#~ msgid "This situation should test the ability of AI to spread poison around..."
+#~ msgstr "Овај случај служи да испита способност ВИ-ја да около шири отров..."
+
+#~ msgid "This situation should test the ability of AI to make an attack..."
+#~ msgstr "Овај случај служи да испита способност ВИ-ја да изведе напад..."
