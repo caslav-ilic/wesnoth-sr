@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-10-07 15:42+0200\n"
-"PO-Revision-Date: 2009-09-26 18:13+0200\n"
+"PO-Revision-Date: 2009-10-11 12:58+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -610,10 +610,8 @@ msgstr "Валенсијски (јужнокаталонски) превод"
 #. [about]
 #. +> trunk
 #: data/core/about.cfg:2248
-#, fuzzy
-#| msgid "Chinese Translation"
 msgid "Vietnamese Translation"
-msgstr "Кинески превод"
+msgstr "Вијетнамски превод"
 
 # well-spelled: РАЦВ
 #. [about]
@@ -3056,7 +3054,7 @@ msgstr ""
 #. +> trunk
 #: data/core/macros/ai.cfg:408
 msgid "Ask $ally_leader.name (leader of side $ally_leader.side) to move here"
-msgstr ""
+msgstr "Тражи да се $ally_leader.name (вођ стране $ally_leader.side) помери овде"
 
 #. [option]: type=behaviour
 #. +> trunk 1.6
@@ -3265,50 +3263,38 @@ msgstr "Напусти"
 
 #. +> trunk
 #: data/core/macros/ai_controller.cfg:1047
-#, fuzzy
-#| msgid "Set behavior..."
 msgid "Set special orders..."
-msgstr "Постави понашање..."
+msgstr "Постави посебна наређења..."
 
 #. +> trunk
 #: data/core/macros/ai_controller.cfg:1048
 msgid "Move leader to..."
-msgstr ""
+msgstr "Помери вођа на..."
 
 #. +> trunk
 #: data/core/macros/ai_controller.cfg:1049
-#, fuzzy
-#| msgid "Right-click to select a location to defend"
 msgid "Right-click to select a location to move leader to"
-msgstr "Кликните десним да изаберете положај за брањење"
+msgstr "Кликните десним да изаберете положај где треба померити вођа"
 
 #. +> trunk
 #: data/core/macros/ai_controller.cfg:1050
 msgid "Move leader here"
-msgstr ""
+msgstr "Помери вођа овде"
 
 #. +> trunk
 #: data/core/macros/ai_controller.cfg:1051
 msgid "moving leader to $x1|,$y1|."
-msgstr ""
+msgstr "вођа се помера на $x1|,$y1|."
 
 #. +> trunk
 #: data/core/macros/ai_controller.cfg:1052
-#, fuzzy
-#| msgid "Clear all orders"
 msgid "Clear special orders"
-msgstr "Очисти сва наређења"
+msgstr "Очисти посебна наређења"
 
 #. +> trunk
 #: data/core/macros/ai_controller.cfg:1053
-#, fuzzy
-#| msgid ""
-#| "Objective: $ai_controller.side_$ally_side|_current_settings.currently_doing_objective_description\n"
-#| "Behavior: $ai_controller.side_$ally_side|_current_settings.currently_doing_behaviour_description"
 msgid "Special: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description"
-msgstr ""
-"Циљ: $ai_controller.side_$ally_side|_current_settings.currently_doing_objective_description\n"
-"Понашање: $ai_controller.side_$ally_side|_current_settings.currently_doing_behaviour_description"
+msgstr "Посебно: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description"
 
 #. [advancement]: id=amla_default
 #. +> trunk 1.6
@@ -4965,10 +4951,8 @@ msgstr "волшебни"
 #. [fonts]
 #. +> trunk
 #: data/hardwired/fonts.cfg:7
-#, fuzzy
-#| msgid "DejaVuSans.ttf,wqy-zenhei.ttc"
 msgid "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc"
-msgstr "DejaVuSans.ttf,wqy-zenhei.ttc"
+msgstr "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc"
 
 #. [fonts]
 #. +> 1.6
@@ -4979,10 +4963,8 @@ msgstr "DejaVuSans.ttf,wqy-zenhei.ttc"
 #. [fonts]
 #. +> trunk
 #: data/hardwired/fonts.cfg:8
-#, fuzzy
-#| msgid "DejaVu Sans,WenQuanYi Zen Hei"
 msgid "DejaVu Sans,Andagii,WenQuanYi Zen Hei"
-msgstr "DejaVu Sans,WenQuanYi Zen Hei"
+msgstr "DejaVu Sans,Andagii,WenQuanYi Zen Hei"
 
 #. [fonts]
 #. +> 1.6
@@ -5069,8 +5051,6 @@ msgstr "— Животопис Гведрија, 627.гв."
 #. [tip]
 #. +> trunk
 #: data/hardwired/tips.cfg:23
-#, fuzzy
-#| msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you chose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
 msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you choose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
 msgstr "Наредбама „Унајми“ и „Сазови“ можете приступити десним кликом на поље замка. Потом изаберите поље где желите да се нова јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније."
 
@@ -6142,7 +6122,7 @@ msgstr "Филтер: "
 #. +> trunk
 #: src/addon_management.cpp:1113
 msgid "Description"
-msgstr ""
+msgstr "Опис"
 
 #. +> trunk 1.6
 #: src/addon_management.cpp:1150

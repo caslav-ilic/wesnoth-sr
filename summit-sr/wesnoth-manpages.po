@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-09-27 20:26+0300\n"
-"PO-Revision-Date: 2009-08-26 17:28+0200\n"
+"PO-Revision-Date: 2009-10-11 12:58+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -877,10 +877,8 @@ msgstr "[I<ознака>]"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:103
-#, fuzzy
-#| msgid "key=\"I<value>\""
 msgid "I<key>=\"I<value>\""
-msgstr "кључ=\"I<вредност>\""
+msgstr "I<кључ>=\"I<вредност>\""
 
 #. type: Plain text
 #. +> 1.6
@@ -891,10 +889,8 @@ msgstr "кључ=\"I<вредност>\""
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:105
-#, fuzzy
-#| msgid "key=\"I<value>,I<value>,...\""
 msgid "I<key>=\"I<value>,I<value>,...\""
-msgstr "кључ=\"I<вредност>,I<вредност>,...\""
+msgstr "I<кључ>=\"I<вредност>,I<вредност>,...\""
 
 #. type: Plain text
 #. +> 1.6
@@ -925,10 +921,8 @@ msgstr "B<allow_remote_shutdown>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:114
-#, fuzzy
-#| msgid "If set to `no' (default), shut_down and restart requests are ignored unless the come from the fifo.  Set it to `yes' to allow remote shutdown via a /query by an administrator."
 msgid "If set to B<no> (default), shut_down and restart requests are ignored unless they come from the fifo.  Set it to B<yes> to allow remote shutdown via a /query by an administrator."
-msgstr "ако се зада ‘no’ (подразумевано), захтеви за гашење и поновно покретање се игноришу осим ако стижу из фифоа. Задајте ‘yes’ да дозволите удаљено гашење на /query администратора."
+msgstr "ако се зада B<no> (подразумевано), захтеви за гашење и поновно покретање се игноришу осим ако стижу из фифоа. Задајте B<yes> да дозволите удаљено гашење на /query администратора."
 
 #. type: TP
 #. +> trunk 1.6
@@ -953,10 +947,8 @@ msgstr "B<compress_stored_rooms>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:121
-#, fuzzy
-#| msgid "Determines whether the rooms file should be read and written to in compressed form. Defaults to `yes'."
 msgid "Determines whether the rooms file should be read and written to in compressed form. Defaults to B<yes>."
-msgstr "одређује да ли фајл соба треба читати и писати у компресованом облику. Подразумевано ‘yes’."
+msgstr "одређује да ли фајл соба треба читати и писати у компресованом облику. Подразумевано B<yes>."
 
 #. type: TP
 #. +> trunk 1.6
@@ -981,10 +973,8 @@ msgstr "B<disallow_names>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:131
-#, fuzzy
-#| msgid "Names/nicks that are not accepted by the server. `*' and `?' from wildcard patterns are supported. See B<glob>(7)  for more details.  Default values (used if nothing is specified) are: B<*admin*,*admln*,*server*,ai,ai?,computer,human,network,player>."
 msgid "Names/nicks that are not accepted by the server. B<*> and B<?> from wildcard patterns are supported. See B<glob>(7)  for more details.  Default values (used if nothing is specified) are: B<*admin*,*admln*,*server*,ai,ai?,computer,human,network,player>."
-msgstr "имена/надимци које сервер не прихвата. Прихватају се ‘*’ и ‘?’ као џокери (погледајте B<glob>(7) за више детаља). Подразумеване вредности, које се користе ако се ништа не зада, су: B<*admin*,*admln*,*server*,ai,ai?,computer,human,network,player>."
+msgstr "имена/надимци које сервер не прихвата. Прихватају се B<*> и B<?> као џокери (погледајте B<glob>(7) за више детаља). Подразумеване вредности, које се користе ако се ништа не зада, су: B<*admin*,*admln*,*server*,ai,ai?,computer,human,network,player>."
 
 #. type: Plain text
 #. +> 1.6
@@ -1002,10 +992,8 @@ msgstr "B<fifo_path>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:135
-#, fuzzy
-#| msgid "The path to the fifo you can echo server commands into (same as /query ... from wesnoth).  If not specified defaults to the compile-time specified path (default: /var/run/socket/wesnothd/socket)."
 msgid "The path to the fifo you can echo server commands into (same as /query ... from wesnoth).  If not specified defaults to the compile-time path (default: B</var/run/socket/wesnothd/socket>)."
-msgstr "путања до фифоа из којег сервер може да чита наредбе (исте као /query ... из игре). Ако није задато, спада на подразумевану уграђену (/var/run/socket/wesnothd/socket)."
+msgstr "путања до фифоа из којег сервер може да чита наредбе (исте као /query ... из игре). Ако није задата, спада на уграђену (подразумевано: B</var/run/socket/wesnothd/socket>)."
 
 #. type: Plain text
 #. +> 1.6
@@ -1062,10 +1050,8 @@ msgstr "B<new_room_policy>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:147
-#, fuzzy
-#| msgid "Determines who can create new rooms on the server. Available values are `everyone', `registered', `admin' and `nobody', and give the permission respectively to everyone, registered users, admin users or disables new room creation. Default value is `everyone'."
 msgid "Determines who can create new rooms on the server. Available values are B<everyone>, B<registered>, B<admin> and B<nobody>, and give the permission respectively to everyone, registered users, admin users or disables new room creation. Default value is B<everyone>."
-msgstr "одређује ко може да ствара нове собе на серверу. Могуће вредности су ‘everyone’, ‘registered’, ‘admin’ и ‘nobody’, дајући дозволу, редом, свима, регистрованим корисницима, администраторима и никоме. Подразумевана вредност је ‘everyone’."
+msgstr "одређује ко може да ствара нове собе на серверу. Могуће вредности су B<everyone>, B<registered>, B<admin> и B<nobody>, дајући дозволу, редом, свима, регистрованим корисницима, администраторима и никоме. Подразумевана вредност је B<everyone>."
 
 #. type: TP
 #. +> trunk 1.6
@@ -1077,10 +1063,8 @@ msgstr "B<passwd>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:150
-#, fuzzy
-#| msgid "The password used to gain admin privileges. Usually it starts with `admin '."
 msgid "The password used to gain admin privileges (via B</query admin >I<password>)."
-msgstr "лозинка за стицање администраторских овлашћења. Обично почиње са ‘admin  ’"
+msgstr "лозинка за стицање администраторских овлашћења (путем B</query admin >I<лозинка>)."
 
 #. type: Plain text
 #. +> 1.6
@@ -1111,10 +1095,8 @@ msgstr "B<restart_command>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:156
-#, fuzzy
-#| msgid "The command that the server uses to start a new server process via the `restart' command. (Can only be issued via the fifo.)"
 msgid "The command that the server uses to start a new server process via the B<restart> command. (Can only be issued via the fifo. See the B<allow_remote_shutdown> setting.)"
-msgstr "Наредба којом сервер покреће нови серверски процес при наредби ‘restart’. (Може се издати само преко фифоа.)"
+msgstr "Наредба којом сервер покреће нови серверски процес при наредби B<restart>. (Може се издати само преко фифоа. Види поставку B<allow_remote_shutdown>.)"
 
 #. type: Plain text
 #. +> 1.6
@@ -1158,10 +1140,8 @@ msgstr "B<versions_accepted>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:166
-#, fuzzy
-#| msgid "A comma separated list of version strings to be accepted by the server. `*' and `?' from wildcard patterns are supported.  (defaults to the corresponding wesnoth version)"
 msgid "A comma separated list of version strings to be accepted by the server. B<*> and B<?> from wildcard patterns are supported.  (defaults to the corresponding wesnoth version)"
-msgstr "Запетама раздвојен списак ниски верзија које сервер прихвата. Прихватају се ‘*’ и ‘?’ као џокери (подразумевана је верзија клијента која одговара верзији сервера)"
+msgstr "Запетама раздвојен списак ниски верзија које сервер прихвата. Прихватају се B<*> и B<?> као џокери (подразумевана је верзија клијента која одговара верзији сервера)"
 
 #. type: Plain text
 #. +> 1.6
@@ -1185,10 +1165,8 @@ msgstr "B<user_handler>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:173
-#, fuzzy
-#| msgid "The name of the user handler to use. Currently available user handlers are 'forum' (to connect wesnothd to a phpbb forum database) and 'sample' (a sample implementation of the user handler interface, if you use this on anything real you are insane). The default value is 'forum'. You must also add a B<[user_handler]> section, see below."
 msgid "The name of the user handler to use. Currently available user handlers are B<forum> (to connect wesnothd to a phpbb forum database) and B<sample> (a sample implementation of the user handler interface, if you use this on anything real you are insane). The default value is B<forum>. You must also add a B<[user_handler]> section, see below."
-msgstr "Име руковаоца корисницима. Тренутно доступни су ‘forum’ (сервер се повезује са пхпББ базом података форума) и ‘sample’ (примерна изведба сучеља руковаоца корисницима, луди сте ако ово употребите негде заозбиљно). Подразумевана вредност је ‘forum’. Такође морате додати одељак B<[user_handler]>, в. испод."
+msgstr "Име руковаоца корисницима. Тренутно доступни су B<forum> (сервер се повезује са пхпББ базом података форума) и B<sample> (примерна изведба сучеља руковаоца корисницима, луди сте ако ово употребите негде заозбиљно). Подразумевана вредност је B<forum>. Такође морате додати одељак B<[user_handler]>, в. испод."
 
 #. type: Plain text
 #. +> 1.6
@@ -1277,10 +1255,8 @@ msgstr "B<time>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:207
-#, fuzzy
-#| msgid "The time length definition.  The format is: %d[%s[%d%s[...]]] where %s is s (seconds), m (minutes), h (hours), D (days), M (months) or Y (years) and %d is a number.  If no time modifier is given minutes (m) are assumed.  Example: time=\"1D12h30m\" results in a ban time of 1 day, 12 hours and 30 minutes."
 msgid "The time length definition.  The format is: %d[%s[%d%s[...]]] where %s is s (seconds), m (minutes), h (hours), D (days), M (months) or Y (years) and %d is a number.  If no time modifier is given minutes (m) are assumed.  Example: B<time=\"1D12h30m\"> results in a ban time of 1 day, 12 hours and 30 minutes."
-msgstr "Трајање. Формат је %d[%s[%d%s[...]]] где s из %s означава секунде, m минуте, h сате, D дане, M месеце, Y године, а d је број. Ако није дат модификатор, претпостављају се минути (m). Пример: time=\"1D12h30m\" значи забрану у трајању од једног дана, 12 сати и 30 минута."
+msgstr "Трајање. Формат је %d[%s[%d%s[...]]] где s из %s означава секунде, m минуте, h сате, D дане, M месеце, Y године, а d је број. Ако није дат модификатор, претпостављају се минути (m). Пример: B<time=\"1D12h30m\"> значи забрану у трајању од једног дана, 12 сати и 30 минута."
 
 #. type: Plain text
 #. +> 1.6
@@ -1297,10 +1273,8 @@ msgstr "B<[proxy]> ознака која говори серверу да се �
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:221
-#, fuzzy
-#| msgid "B<[user_handler]> Configures the user handler. Available keys vary depending on which user handler is set with the B<user_handler> key. If no [user_handler] section is present in the configuration the server will run without any nick registration service."
 msgid "B<[user_handler]> Configures the user handler. Available keys vary depending on which user handler is set with the B<user_handler> key. If no B<[user_handler]> section is present in the configuration the server will run without any nick registration service."
-msgstr "B<[user_handler]> подешава руковалац корисницима. Доступност кључева зависи од тога који је руковалац постављен кључем B<user_handler>. Ако у постави нема одељка [user_handler], сервер неће пружати услугу регистровања надимака."
+msgstr "B<[user_handler]> подешава руковалац корисницима. Доступност кључева зависи од тога који је руковалац постављен кључем B<user_handler>. Ако у постави нема одељка B<[user_handler]>, сервер неће пружати услугу регистровања надимака."
 
 #. type: Plain text
 #. +> 1.6
@@ -1383,10 +1357,8 @@ msgstr "B<db_extra_table>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:241
-#, fuzzy
-#| msgid "(for user_handler=forum) The name of the table in which wesnothd will save its own data about users. You will have to create this table manually, e.g.: CREATE TABLE E<lt>table-nameE<gt>(username VARCHAR(255) PRIMARY KEY, user_lastvisit INT UNSIGNED NOT NULL DEFAULT 0, user_is_moderator TINYINT(4) NOT NULL DEFAULT 0);"
 msgid "(for user_handler=forum) The name of the table in which wesnothd will save its own data about users. You will have to create this table manually, e.g.: B<CREATE TABLE E<lt>table-nameE<gt>(username VARCHAR(255) PRIMARY KEY, user_lastvisit INT UNSIGNED NOT NULL DEFAULT 0, user_is_moderator TINYINT(4) NOT NULL DEFAULT 0);>"
-msgstr "(за user_handler=forum) име табеле у коју wesnothd уписује своје податке о корисницима. Ову табелу мораћете ручно да направите, нпр.: CREATE TABLE E<lt>ime-tabeleE<gt>(username VARCHAR(255) PRIMARY KEY, user_lastvisit INT UNSIGNED NOT NULL DEFAULT 0, user_is_moderator TINYINT(4) NOT NULL DEFAULT 0);"
+msgstr "(за user_handler=forum) име табеле у коју wesnothd уписује своје податке о корисницима. Ову табелу мораћете ручно да направите, нпр.: B<CREATE TABLE E<lt>ime-tabeleE<gt>(username VARCHAR(255) PRIMARY KEY, user_lastvisit INT UNSIGNED NOT NULL DEFAULT 0, user_is_moderator TINYINT(4) NOT NULL DEFAULT 0);>"
 
 #. type: Plain text
 #. +> 1.6
