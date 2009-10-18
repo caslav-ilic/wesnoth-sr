@@ -409,7 +409,7 @@ msgstr "Велики ватрени змагови владари су свог 
 #. +> trunk
 #: data/core/units/drakes/Fire.cfg:19
 msgid "Not yet permitted to wear the red-gold reserved for the highest ranks of the Burners, the Fire Drakes trim their armor with silver. Though they have only begun to dedicate their lives to the flame that burns within them, its vitality emanates through their skin, scorching their scales to a reddish-gray."
-msgstr ""
+msgstr "Будући да им још увек није дозвољено ношење црвеног злата, привилегије највиших редова кременаша, ватропири опточавају свој оклоп сребром. Иако су тек ступили на пут посвећивања свом унутрашњем пламену, његова животност избија кроз њихову кожу, прљећи им крљушти црвенкасто сивом."
 
 #. [unit_type]: id=Drake Flameheart, race=drake
 #. +> trunk 1.6
@@ -421,7 +421,7 @@ msgstr "змаго-пламенодух"
 #. +> trunk
 #: data/core/units/drakes/Flameheart.cfg:26
 msgid "Flamehearts lack the strength to defeat other high-ranking drakes in single combat, but prefer in any case to avoid confrontation within the tribe. Experience has taught any drake of this stature the extent of his authority: where he can push those he leads and when it is best to leave them to their own devices. Only occasionally will a Flameheart challenge his tribe's leader for supremacy, and only if he is sure of the support of his fellow drakes."
-msgstr ""
+msgstr "Пламенодусима недостаје снага да се обрачунају са вишим змаговима у борби један на један, али свеједно избегавају сукобљавање у оквиру племена. Искуство је поучило сваког змага овог чина о домету његовог ауторитета: када треба притиснути оне које води, а када их је најбоље оставити сопственим наумима. Врло ретко ће пламенодух изазвати премоћ свог племенског вођа, и то само ако је сигуран у подршку својих парњака."
 
 #. [unit_type]: id=Drake Flameheart, race=drake
 #. +> 1.6
@@ -468,7 +468,7 @@ msgstr "змаго-бакљар"
 #. +> trunk
 #: data/core/units/drakes/Flare.cfg:25
 msgid "Respected for the heat of their flame and revered for their charisma, Flares aspire to become great leaders of their people, both in war and peace. Though a small isolated tribe will sometimes accept a Flare as a leader, they are more often seen leading small war parties or mediating disputes with a subtle hand."
-msgstr ""
+msgstr "Поштовани због врелине свог пламена и обожавани због своје харизме, бакљари стреме да постану велики вођи свога народа, и у рату и у миру. Иако ће покоје мало подвојено племе прихватити бакљара за вођа, чешће се виђају како заповедају мањим ратним дружинама или изглађују размирице лукавим потезима."
 
 #. [unit_type]: id=Drake Flare, race=drake
 #. +> 1.6
@@ -496,6 +496,9 @@ msgid ""
 "\n"
 "Most often, Gliders hunt larger game like deer, swine, or dolphins; the drakes' ancestral ability to aim fire, hampered in other castes by armor, is invaluable for flushing and herding the quarry without harming it. If a Glider is called to the battlefield, he prefers to harass the enemy from a distance – and if all else fails, he will fight with his feet, keeping his precious wings as far from the enemy as possible."
 msgstr ""
+"Многим змаговима прија струјање ваздуха преко крљушти, што их води огртању лаким плаштовима касте једрена. Страст су им дуги ловачки излети у удаљене кутке племенске територије, иако се други змагови често питају шта може навести некога да се прихвати једноличности лова када већа слава чека на бојишту.\n"
+"\n"
+"Једрени се најчешће окомљују на већу ловину, попут јелена, свиња или делфина; змашка урођена способност да усмеравају пламен, ометена у других каста због њихових оклопа, овде је незаменљива за разоткривање и сатеривање плена без повређивања. Када се једрен нађе на бојишту, радије кидише на непријатеља из даљине; када то више није могуће, бориће се ногама, држећи драгоцена крила што даље од непријатеља."
 
 #. [attack]: type=impact
 #. +> trunk 1.6
@@ -514,7 +517,7 @@ msgstr "змаго-олујник"
 #. +> trunk
 #: data/core/units/drakes/Hurricane.cfg:20
 msgid "Hurricane Drakes have moved above the menial hunting and gathering to which the lower members of their caste are relegated. They are an integral part of the drakes' military, scouting ahead of the main forces, carrying messages across the battlefield, and falling upon the enemy where it's least expected. Being allowed - grudgingly - to train with the newcomers from other castes has increased their skill in combat, but their greatest strength still lies in their speed and flight."
-msgstr ""
+msgstr "Змагови олујници издигли су се изнад рутинског лова и сакупљања, за које су задужени нижи чланови њихове касте. Они чине саставни део змашких војски, извиђајући испред главнине снага, разносећи поруке преко бојишта, и заскачући непријатеља где овај то најмање очекује. Борбена вештина им је увећана тиме што им је дозвољено — иако с извесним неодобравањем — да вежбају са придошлицама из других касти, али им највећа предност и даље лежи у брзини и лету."
 
 #. [unit_type]: id=Hurricane Drake, race=drake
 #. +> 1.6
@@ -538,7 +541,7 @@ msgstr "Небеске буктиње знане као змагови пакл�
 #. +> trunk
 #: data/core/units/drakes/Inferno.cfg:21
 msgid "Inferno Drakes are masters of the fire they breathe, respected and feared in their tribes nearly as much as the draconic ancestors themselves. They can prowl unharmed through a firestorm of their own creation, scales tinged red from extensive use of their inner flame, their sculpted red-gold armor enhancing the illusion that they are, in fact, dragons."
-msgstr ""
+msgstr "Пакленици су господари ватре којом дишу, страхопоштовани у својим племенима готово колико и сами њихови змајски преци. То што се могу пробити неповређени кроз ватрену олују сопственог дела, крљушти опрљене до црвенила опсежном употребом унутрашњег плама, и извајани црвено-златни оклоп, појачава привид да су ови змагови, у ствари, змајеви лично."
 
 #. [unit_type]: id=Sky Drake, race=drake
 #. +> trunk 1.6
@@ -550,7 +553,7 @@ msgstr "змаго-небохват"
 #. +> trunk
 #: data/core/units/drakes/Sky.cfg:19
 msgid "The lightweight ceramic armor that the Sky Drakes wear is a symbol of their rank, glazed silver to honor their connection to the air. As leaders of the hunt, they are often away from their homes for long periods of time. Each tries to bring as much game home as possible, competing to gain the respect of their tribe and, just possibly, time with one of the closely-guarded drake females."
-msgstr ""
+msgstr "Лаки керамички оклоп који носе небохвати симбол је њиховог чина, опточен сребром у част њихове повезаности с ваздухом. Као ловачки вођи, често проводе дуго времена изван својих домова. Сваки се труди да кући донесе што више ловине, како би придобио поштовање од свог пламена и, само можда, време с једном од пажљиво чуваних змашких женки."
 
 #. [unit_type]: id=Sky Drake, race=drake
 #. +> 1.6
@@ -604,7 +607,7 @@ msgstr "Змагови ратници врло вешто рукују маче�
 #. +> trunk
 #: data/core/units/drakes/Warrior.cfg:19
 msgid "Drakes of the Fighter caste, like the Warrior, are the foundation of any tribe's army. No special abilities or skills set them apart; only their natural brute strength and military training help them carve their way through enemy forces. They fight as they have for centuries, clad in ceramic-plated leather with the traditional war blade mounted on the back of each hand."
-msgstr ""
+msgstr "Змагови из борачке касте, попут змаго-ратника, ослонац су сваке племенске војске. Немају посебних могућности нити вештина којима би се издвојили; само им урођена сирова снага и војничка увежбаност помажу да се пробију кроз непријатељске редове. Тако се боре већ вековима, одевени у кожу прекривену керамичким плочицама и наоружани ратним сечивима преко надланица."
 
 #. [unit_type]: id=Dwarvish Berserker, race=dwarf
 #. +> trunk 1.6
@@ -1610,7 +1613,7 @@ msgstr "велевитез"
 #. +> trunk 1.6
 #: data/core/units/humans/Horse_Grand_Knight.cfg:20
 msgid "Grand Knights have reached the acme of skill with sword and lance. Wearing full plate, and riding steeds bred more for power than for speed, these warriors form the core of any serious cavalry force. A grand knight at the head of a charge is a terrifying sight for infantry, and is often enough to break right through a defensive line."
-msgstr "Велевитези су достигли врхунац умећа са мачем и бојним копљем. Носећи потпун челични оклоп, и јашући на вранцима узгајаним пре за снагу него брзину, ови ратници чине језгро било које озбиљне коњичке силе. Велевитез на челу јуриша застрашујући је призор за пешадију, и често је довољан да пробије одбрамбену постројбу."
+msgstr "Велевитези су достигли врхунац умећа са мачем и бојним копљем. Носећи пуни челични оклоп, и јашући на вранцима узгајаним пре за снагу него брзину, ови ратници чине језгро било које озбиљне коњичке силе. Велевитез на челу јуриша застрашујући је призор за пешадију, и често је довољан да пробије одбрамбену постројбу."
 
 #. [attack]: type=blade
 #. +> trunk
@@ -1915,13 +1918,13 @@ msgstr "тешкоход"
 #. +> trunk
 #: data/core/units/humans/Loyalist_Heavy_Infantryman.cfg:19
 msgid "Heavy infantry are brawny fighters clad in full plate and wielding massive impact weapons. Though they fight with unmatched power in melee combat, they have poor mobility and are best employed in static defense of fortified positions. A few of these in battle line will stiffen it considerably, albeit at an obvious cost in tactical flexibility."
-msgstr ""
+msgstr "Тешку пешадију чине мишићави борци опремљени пуним челичним оклопом и гломазним ударним оружјем. Иако им је снага у блиској борби ненадмашна, због слабе покретљивости најбоље их је упослити за статичку одбрану утврђених положаја. Неколико тешкохода значајно ће ојачати ударну линију, мада по очигледну цену у тактичкој прилагодљивости."
 
 #. [unit_type]: id=Heavy Infantryman, race=human
 #. +> 1.6
 #: data/core/units/humans/Loyalist_Heavy_Infantryman.cfg:19
 msgid "Heavy infantry are an unusual choice for outfitting troops. They are very difficult to send afield in war, and are typically useful only in the defense of the city or castle in which they are stationed. Clad head to toe in full plate, and armed with large maces, heavy infantry excel at their sole purpose of melee combat. A few of them in the center of a line will shore up its strength considerably. The downsides to this are obvious, both in the weight of the metal, and the great care that must be taken of it, but in certain situations, these troops are well worth the trade-offs."
-msgstr "Тешка пешадија је необичан избор у опремању снага. Врло их је тешко отпремити у бој, и обично су корисни само у одбрани града или замка у којему су распоређени. Обујмљени од главе до пете тешким челичним оклопом, и наоружани великим топузима, тешкоходи су изврсни у својој јединој дужности, блиској борби. Неколико њих у средишту постројбе значајно ће јој ојачати снагу. Недостаци су очигледни, и по тежини метала и већим захтевима за одржавање, али у одређеним околностима, ове снаге су добрано вредне тога."
+msgstr "Тешка пешадија је необичан избор у опремању снага. Врло их је тешко отпремити у бој, и обично су корисни само у одбрани града или замка у којему су распоређени. Обујмљени од главе до пуним челичним оклопом, и наоружани великим топузима, тешкоходи су изврсни у својој јединој дужности, блиској борби. Неколико њих у средишту постројбе значајно ће јој ојачати снагу. Недостаци су очигледни, и по тежини метала и већим захтевима за одржавање, али у одређеним околностима, ове снаге су добрано вредне тога."
 
 #. [attack]: type=impact
 #. +> trunk 1.6
