@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-10-07 15:42+0200\n"
+"POT-Creation-Date: 2009-10-13 22:59+0200\n"
 "PO-Revision-Date: 2009-10-11 20:39+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -303,11 +303,11 @@ msgstr ""
 #: data/core/units/dwarves/Guardsman.cfg:43
 #: data/core/units/dwarves/Sentinel.cfg:51
 #: data/core/units/dwarves/Stalwart.cfg:46
-#: data/core/units/goblins/Impaler.cfg:42
-#: data/core/units/goblins/Impaler.cfg:54
-#: data/core/units/goblins/Rouser.cfg:51
-#: data/core/units/goblins/Spearman.cfg:42
-#: data/core/units/goblins/Spearman.cfg:52
+#: data/core/units/goblins/Impaler.cfg:43
+#: data/core/units/goblins/Impaler.cfg:55
+#: data/core/units/goblins/Rouser.cfg:52
+#: data/core/units/goblins/Spearman.cfg:43
+#: data/core/units/goblins/Spearman.cfg:53
 #: data/core/units/humans/Horseman.cfg:36
 #: data/core/units/humans/Loyalist_Javelineer.cfg:40
 #: data/core/units/humans/Loyalist_Spearman.cfg:59
@@ -691,8 +691,8 @@ msgstr "Патуљ-истраживачи су без премца у умећу
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/dwarves/Explorer.cfg:45 data/core/units/dwarves/Lord.cfg:42
-#: data/core/units/dwarves/Steelclad.cfg:42
+#: data/core/units/dwarves/Explorer.cfg:45 data/core/units/dwarves/Lord.cfg:52
+#: data/core/units/dwarves/Steelclad.cfg:52
 #: data/core/units/undead/Skele_Death_Knight.cfg:59
 msgid "battle axe"
 msgstr "бојна секира"
@@ -731,8 +731,8 @@ msgstr "Патуљачки борци рукују моћним бојним с�
 
 #. [attack]: type=impact
 #. +> trunk 1.6
-#: data/core/units/dwarves/Fighter.cfg:55 data/core/units/dwarves/Lord.cfg:51
-#: data/core/units/dwarves/Steelclad.cfg:51
+#: data/core/units/dwarves/Fighter.cfg:55 data/core/units/dwarves/Lord.cfg:61
+#: data/core/units/dwarves/Steelclad.cfg:61
 #: data/core/units/trolls/Great.cfg:27 data/core/units/trolls/Hero.cfg:27
 #: data/core/units/trolls/Warrior.cfg:27
 msgid "hammer"
@@ -774,7 +774,7 @@ msgstr "Обујмљени сјајним оклопом, ови патуљци 
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/dwarves/Lord.cfg:60
+#: data/core/units/dwarves/Lord.cfg:70
 msgid "hatchet"
 msgstr "секирица"
 
@@ -1145,7 +1145,9 @@ msgstr "вилин-надгосподар"
 #. [unit_type]: id=Elvish High Lord, race=elf
 #. +> trunk
 #: data/core/units/elves/High_Lord.cfg:19
-msgid "The leaders of elvenkind command an instinctive loyalty fronm their people that rulers of other races can only envy, and earn it with great mindfulness and wisdom. Quiet and contemplative in times of peace, a High Lord in the full of his wrath is an awesome sight indeed."
+#, fuzzy
+#| msgid "The leaders of elvenkind command an instinctive loyalty fronm their people that rulers of other races can only envy, and earn it with great mindfulness and wisdom. Quiet and contemplative in times of peace, a High Lord in the full of his wrath is an awesome sight indeed."
+msgid "The leaders of elvenkind command an instinctive loyalty from their people that rulers of other races can only envy, and earn it with great mindfulness and wisdom. Quiet and contemplative in times of peace, a High Lord in the full of his wrath is an awesome sight indeed."
 msgstr "Вођи вилењачки имају нагонску верност свога народа, на каквој им вођи других раса могу само позавидети, а задобијају је великом промишљеношћу и мудрошћу. Тих и замишљен у мирна времена, надгосподар у налету беса уистину је застрашујућ призор."
 
 #. [unit_type]: id=Elvish High Lord, race=elf
@@ -1465,7 +1467,7 @@ msgstr "гобли-набијач"
 
 #. [unit_type]: id=Goblin Impaler, race=goblin
 #. +> trunk 1.6
-#: data/core/units/goblins/Impaler.cfg:20
+#: data/core/units/goblins/Impaler.cfg:21
 msgid "Goblins are used by the orcs as skirmishers to disrupt the enemy's battle line. Those who manage to survive their first few battles equip themselves with a long spear to compensate for their short reach, and better armor to guard their diminuitive frames."
 msgstr "Оркови користе гоблине као потрошно месо за предње линије својих непријатеља. Гоблини који некако успеју да преживе прве бојеве, опремају се дугим копљем које им помаже да надокнаде свој кратак дохват, и бољим оклопом да заклоне своју ситну грађу."
 
@@ -1521,7 +1523,7 @@ msgstr "гобли-подстрекач"
 
 #. [unit_type]: id=Goblin Rouser, race=goblin
 #. +> trunk
-#: data/core/units/goblins/Rouser.cfg:27
+#: data/core/units/goblins/Rouser.cfg:28
 msgid "Standard-bearers are an oddity amongst goblins. A goblin who has survived enough battles to be considered a veteran is rare enough, and it is rarer still for the other goblins to recognize and respect his veteran status. Nonetheless, a rouser's frenzied goading effectively steels the less veteran fighters to strive harder and longer before they die."
 msgstr "Носиоци барјака су необичан призор међу гоблинима. Гоблин који је преживео довољно битака да се може сматрати ветераном права је реткост, а још је ређе да му други гоблини признају и поштују ветерански статус. Па ипак, подстрекачево гневно уњкање покреће млађе борце да се упињу јаче и дуже пре него што страдају."
 
@@ -1539,7 +1541,7 @@ msgstr "гобли-копљаник"
 
 #. [unit_type]: id=Goblin Spearman, race=goblin
 #. +> trunk 1.6
-#: data/core/units/goblins/Spearman.cfg:21
+#: data/core/units/goblins/Spearman.cfg:22
 msgid ""
 "In any litter of orcs, several are born much smaller and weaker than the rest. These runts are called 'Goblins' and are looked down on by the rest of their kin. In battle, these are given the most meager of equipment, and are used as a soak-off force to give the Warlords time to prepare the real assault.\n"
 "\n"
