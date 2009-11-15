@@ -5,7 +5,7 @@ from pology.misc.report import error
 from pology.misc.msgreport import warning_on_msg
 from pology.hook.gettext_tools import msgfilter, msgfmt
 from pology.misc.resolve import resolve_alternatives_simple
-from pology.l10n.sr.hook.cyr2lat import cyr2lat
+from pology.l10n.sr.hook.wconv import ctol
 from pology.l10n.sr.hook.accents import resolve_agraphs as resolve_agraphs_t
 from pology.l10n.sr.hook.limit_chset import limit_to_isocyr
 
@@ -92,7 +92,7 @@ def hook_resolve_agraphs (msgstr, msg, cat):
 # Transliterate to Latin.
 def hook_translit (msgstr, msg, cat):
 
-    return cyr2lat(msgstr)
+    return ctol(msgstr)
 
 # ----------------------------------------
 # Resolve alternatives.
