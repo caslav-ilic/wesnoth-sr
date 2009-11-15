@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-10-13 22:59+0200\n"
+"POT-Creation-Date: 2009-11-15 12:59+0100\n"
 "PO-Revision-Date: 2009-10-11 12:58+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -2414,12 +2414,12 @@ msgid "Rectangle doesn't fit on canvas."
 msgstr "Правоугаоник не стаје на платно."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/canvas.cpp:862
+#: src/gui/auxiliary/canvas.cpp:877
 msgid "Text has a font size of 0."
 msgstr "Величина фонта за текст је 0."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/canvas.cpp:936
+#: src/gui/auxiliary/canvas.cpp:947
 msgid "Text doesn't start on canvas."
 msgstr "Текст не стаје на платно."
 
@@ -2529,37 +2529,47 @@ msgid "Version: "
 msgstr "Верзија: "
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:404
+#: src/gui/dialogs/lobby_main.cpp:166
+msgid "whisper to $receiver"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_main.cpp:367
+msgid "Games: showing $num_shown out of $num_total"
+msgstr ""
+
+#. +> trunk
+#: src/gui/dialogs/lobby_main.cpp:407
 msgid "Observers allowed"
 msgstr "Посматрачи дозвољени"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:407
+#: src/gui/dialogs/lobby_main.cpp:410
 msgid "Observers not allowed"
 msgstr "Посматрачи нису дозвољени"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:689
+#: src/gui/dialogs/lobby_main.cpp:693
 msgid "Whisper session with $name started. If you don't want to receive messages from this user, type /ignore $name\n"
 msgstr "Започета сесија шаптања за $name|. Ако не желите да примате поруке овог корисника, упишите /ignore $name\n"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:695
+#: src/gui/dialogs/lobby_main.cpp:699
 msgid "Room $name joined"
 msgstr "У соби $name"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1120
+#: src/gui/dialogs/lobby_main.cpp:1155
 msgid "Password Required"
 msgstr "Неопходна лозинка"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1121
+#: src/gui/dialogs/lobby_main.cpp:1156
 msgid "Joining this game requires a password."
 msgstr "За прикључивање овој партији неопходна је лозинка."
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1122
+#: src/gui/dialogs/lobby_main.cpp:1157
 msgid "Password: "
 msgstr "Лозинка: "
 
@@ -2605,12 +2615,12 @@ msgstr "Одељак стања или цртања није дефинисан.
 
 # >? Wtf?
 #. +> trunk
-#: src/gui/widgets/window.cpp:781
+#: src/gui/widgets/window.cpp:757
 msgid "Click dismiss needs a 'click_dismiss' or 'ok' button."
 msgstr "Клику отпуштања треба дугме „click_dismiss“ или „ok“."
 
 #. +> trunk 1.6
-#: src/gui/widgets/window.cpp:806 src/gui/widgets/window.cpp:839
+#: src/gui/widgets/window.cpp:782 src/gui/widgets/window.cpp:815
 #: src/tests/gui/test_gui2.cpp:232
 msgid "Failed to show a dialog, which doesn't fit on the screen."
 msgstr "Не могу да прикажем дијалог који не стаје на екран."
@@ -3181,7 +3191,7 @@ msgid "en_US"
 msgstr "~@/sr/sr@latin/"
 
 #. +> trunk 1.6
-#: src/mapgen_dialog.cpp:109 src/preferences_display.cpp:208
+#: src/mapgen_dialog.cpp:109 src/preferences_display.cpp:227
 msgid "Close Window"
 msgstr "Затвори прозор"
 
@@ -3246,7 +3256,7 @@ msgid "Island"
 msgstr "острвски"
 
 #. +> trunk 1.6
-#: src/marked-up_text.cpp:416
+#: src/marked-up_text.cpp:417
 msgid "The maximum text width is less than 1."
 msgstr "Највећа ширина текста је испод 1."
 
@@ -3261,57 +3271,57 @@ msgid "Error creating or aquiring an image."
 msgstr "Грешка у стварању или добављању слике."
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:75 src/preferences_display.cpp:113
+#: src/preferences_display.cpp:75 src/preferences_display.cpp:132
 msgid "The video mode could not be changed. Your window manager must be set to 16 bits per pixel to run the game in windowed mode. Your display must support 1024x768x16 to run the game full screen."
 msgstr "Промена видео режима није успела. Менаџер прозора мора подржавати 16 бита по пикселу да би игра радила у прозору. Приказ мора подржавати 1024×768×16 да би игра ишла преко целог екрана."
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:212
+#: src/preferences_display.cpp:231
 msgid "Hotkey Settings"
 msgstr "Поставке пречица"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:218 src/preferences_display.cpp:286
+#: src/preferences_display.cpp:237 src/preferences_display.cpp:305
 msgid "Press desired Hotkey (Esc cancels)"
 msgstr "Притисните жељену пречицу (Escape одустаје)"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:237
+#: src/preferences_display.cpp:256
 msgid "Action"
 msgstr "радња"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:237
+#: src/preferences_display.cpp:256
 msgid "Binding"
 msgstr "свеза"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:249
+#: src/preferences_display.cpp:268
 msgid "Change Hotkey"
 msgstr "Промени пречицу"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:252
+#: src/preferences_display.cpp:271
 msgid "Clear Hotkey"
 msgstr "Очисти пречицу"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:320
+#: src/preferences_display.cpp:339
 msgid "This Hotkey is already in use."
 msgstr "Пречица је већ у употреби."
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:331
+#: src/preferences_display.cpp:350
 msgid "Warning: screenshot hotkeys not combined with Control, Alt or Meta keys."
 msgstr "Упозорење: пречице за снимање екрана нису комбинације са тастерима Ctrl, Alt или Meta."
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:422
+#: src/preferences_display.cpp:441
 msgid "There are no alternative video modes available"
 msgstr "Нема алтернативних видео режима"
 
 #. +> trunk 1.6
-#: src/preferences_display.cpp:451
+#: src/preferences_display.cpp:470
 msgid "Choose Resolution"
 msgstr "Изабери резолуцију"
 

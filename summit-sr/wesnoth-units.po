@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-10-13 22:59+0200\n"
+"POT-Creation-Date: 2009-11-15 13:01+0100\n"
 "PO-Revision-Date: 2009-10-11 20:39+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -50,7 +50,7 @@ msgstr "Крво-шишмиши тако су названи услед свој
 #: data/core/units/monsters/Cave_Spider.cfg:37
 #: data/core/units/monsters/Sea_Serpent.cfg:27
 #: data/core/units/monsters/Water_Serpent.cfg:43
-#: data/core/units/monsters/Wolf.cfg:49
+#: data/core/units/monsters/Wolf.cfg:50
 msgid "fangs"
 msgstr "очњаци"
 
@@ -203,10 +203,10 @@ msgstr "бојне канџе"
 #: data/core/units/drakes/Armageddon.cfg:94
 #: data/core/units/drakes/Blademaster.cfg:50
 #: data/core/units/drakes/Burner.cfg:49 data/core/units/drakes/Fighter.cfg:165
-#: data/core/units/drakes/Fire.cfg:51 data/core/units/drakes/Flameheart.cfg:88
-#: data/core/units/drakes/Flare.cfg:92 data/core/units/drakes/Glider.cfg:53
-#: data/core/units/drakes/Hurricane.cfg:117
-#: data/core/units/drakes/Inferno.cfg:53 data/core/units/drakes/Sky.cfg:116
+#: data/core/units/drakes/Fire.cfg:51 data/core/units/drakes/Flameheart.cfg:44
+#: data/core/units/drakes/Flare.cfg:43 data/core/units/drakes/Glider.cfg:53
+#: data/core/units/drakes/Hurricane.cfg:136
+#: data/core/units/drakes/Inferno.cfg:53 data/core/units/drakes/Sky.cfg:135
 #: data/core/units/drakes/Warrior.cfg:48
 #: data/core/units/monsters/Fire_Dragon.cfg:49
 msgid "fire breath"
@@ -418,22 +418,22 @@ msgid "Drake Flameheart"
 msgstr "змаго-пламенодух"
 
 #. [unit_type]: id=Drake Flameheart, race=drake
-#. +> trunk
-#: data/core/units/drakes/Flameheart.cfg:26
-msgid "Flamehearts lack the strength to defeat other high-ranking drakes in single combat, but prefer in any case to avoid confrontation within the tribe. Experience has taught any drake of this stature the extent of his authority: where he can push those he leads and when it is best to leave them to their own devices. Only occasionally will a Flameheart challenge his tribe's leader for supremacy, and only if he is sure of the support of his fellow drakes."
-msgstr "Пламенодусима недостаје снага да се обрачунају са вишим змаговима у борби један на један, али свеједно избегавају сукобљавање у оквиру племена. Искуство је поучило сваког змага овог чина о домету његовог ауторитета: када треба притиснути оне које води, а када их је најбоље оставити сопственим наумима. Врло ретко ће пламенодух изазвати премоћ свог племенског вођа, и то само ако је сигуран у подршку својих парњака."
-
-#. [unit_type]: id=Drake Flameheart, race=drake
 #. +> 1.6
 #: data/core/units/drakes/Flameheart.cfg:26
 msgid "It is said that the eldest lines of drakes - the direct descendants of the dragons themselves - have veins which course with fire rather than blood. That they can breathe fire as they do lends credence to this belief, though, for some reason, no one has tried cutting one open to find out."
 msgstr "Каже се да су најстарији у родослову змагова директни потомци змајева лично, са венама кроз које уместо крви тече ватра. Начин на који бљују ватру даје потпору овом уверењу, иако, из неког разлога, нико још није покушао да неког од њих сецира како би се уверио."
 
+#. [unit_type]: id=Drake Flameheart, race=drake
+#. +> trunk
+#: data/core/units/drakes/Flameheart.cfg:27
+msgid "Flamehearts lack the strength to defeat other high-ranking drakes in single combat, but prefer in any case to avoid confrontation within the tribe. Experience has taught any drake of this stature the extent of his authority: where he can push those he leads and when it is best to leave them to their own devices. Only occasionally will a Flameheart challenge his tribe's leader for supremacy, and only if he is sure of the support of his fellow drakes."
+msgstr "Пламенодусима недостаје снага да се обрачунају са вишим змаговима у борби један на један, али свеједно избегавају сукобљавање у оквиру племена. Искуство је поучило сваког змага овог чина о домету његовог ауторитета: када треба притиснути оне које води, а када их је најбоље оставити сопственим наумима. Врло ретко ће пламенодух изазвати премоћ свог племенског вођа, и то само ако је сигуран у подршку својих парњака."
+
 #. [attack]: type=blade
 #. [attack]: type=arcane
 #. +> trunk 1.6
-#: data/core/units/drakes/Flameheart.cfg:79
-#: data/core/units/drakes/Flare.cfg:83 data/core/units/elves/Archer.cfg:37
+#: data/core/units/drakes/Flameheart.cfg:35
+#: data/core/units/drakes/Flare.cfg:34 data/core/units/elves/Archer.cfg:37
 #: data/core/units/elves/Avenger.cfg:76 data/core/units/elves/Captain.cfg:47
 #: data/core/units/elves/Champion.cfg:36 data/core/units/elves/Fighter.cfg:36
 #: data/core/units/elves/Hero.cfg:35 data/core/units/elves/High_Lord.cfg:73
@@ -465,16 +465,16 @@ msgid "Drake Flare"
 msgstr "змаго-бакљар"
 
 #. [unit_type]: id=Drake Flare, race=drake
-#. +> trunk
-#: data/core/units/drakes/Flare.cfg:25
-msgid "Respected for the heat of their flame and revered for their charisma, Flares aspire to become great leaders of their people, both in war and peace. Though a small isolated tribe will sometimes accept a Flare as a leader, they are more often seen leading small war parties or mediating disputes with a subtle hand."
-msgstr "Поштовани због врелине свог пламена и обожавани због своје харизме, бакљари стреме да постану велики вођи свога народа, и у рату и у миру. Иако ће покоје мало подвојено племе прихватити бакљара за вођа, чешће се виђају како заповедају мањим ратним дружинама или изглађују размирице лукавим потезима."
-
-#. [unit_type]: id=Drake Flare, race=drake
 #. +> 1.6
 #: data/core/units/drakes/Flare.cfg:25
 msgid "Drakes are an old race, wise enough to hearken to their own natural leaders. Those who are called 'flares' by their enemies are the drakes who aspire to be such leaders, both in war and in peace."
 msgstr "Змагови су стара раса, довољно мудра да слуша своје сопствене природне вође. Они које непријатељи њихови називају бакљарима, јесу змагови који теже да постану такви вођи, и у рату и у миру."
+
+#. [unit_type]: id=Drake Flare, race=drake
+#. +> trunk
+#: data/core/units/drakes/Flare.cfg:26
+msgid "Respected for the heat of their flame and revered for their charisma, Flares aspire to become great leaders of their people, both in war and peace. Though a small isolated tribe will sometimes accept a Flare as a leader, they are more often seen leading small war parties or mediating disputes with a subtle hand."
+msgstr "Поштовани због врелине свог пламена и обожавани због своје харизме, бакљари стреме да постану велики вођи свога народа, и у рату и у миру. Иако ће покоје мало подвојено племе прихватити бакљара за вођа, чешће се виђају како заповедају мањим ратним дружинама или изглађују размирице лукавим потезима."
 
 #. [unit_type]: id=Drake Glider, race=drake
 #. +> trunk 1.6
@@ -503,7 +503,7 @@ msgstr ""
 #. [attack]: type=impact
 #. +> trunk 1.6
 #: data/core/units/drakes/Glider.cfg:44
-#: data/core/units/drakes/Hurricane.cfg:108 data/core/units/drakes/Sky.cfg:107
+#: data/core/units/drakes/Hurricane.cfg:127 data/core/units/drakes/Sky.cfg:126
 msgid "slam"
 msgstr "тресак"
 
@@ -1056,7 +1056,7 @@ msgstr ""
 #: data/core/units/saurians/Augur.cfg:78
 #: data/core/units/saurians/Oracle.cfg:78
 #: data/core/units/saurians/Soothsayer.cfg:78
-#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:91
+#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:95
 msgid "staff"
 msgstr "штап"
 
@@ -1194,7 +1194,9 @@ msgstr "вилин-оштроок"
 #. [unit_type]: id=Elvish Marksman, race=elf
 #. +> trunk
 #: data/core/units/elves/Marksman.cfg:20
-msgid "Elves are wonerously keen-sighted, a gift whiuch contributes to their mastery of the bow. An elf practiced at archery can hit targets that a man couldn't even see, and can nock a second arrow almost as soon as the first is let fly. Realizing this prodigious skill does come with one cost, that being a lack of practice with the sword."
+#, fuzzy
+#| msgid "Elves are wonerously keen-sighted, a gift whiuch contributes to their mastery of the bow. An elf practiced at archery can hit targets that a man couldn't even see, and can nock a second arrow almost as soon as the first is let fly. Realizing this prodigious skill does come with one cost, that being a lack of practice with the sword."
+msgid "Elves are wonderously keen-sighted, a gift which contributes to their mastery of the bow. An elf practiced at archery can hit targets that a man couldn't even see, and can nock a second arrow almost as soon as the first is let fly. Realizing this prodigious skill does come with one cost, that being a lack of practice with the sword."
 msgstr ""
 "У вилењака је чудесно оштар вид, дар који доприноси њиховом мајсторству у стрељаштву. Вилењак извежбан у стрељаштву може да погоди мете које човек не може ни да види, и запети другу стрелу чим се прва отисне у лет.\n"
 "\n"
@@ -1629,7 +1631,7 @@ msgstr "дуги мач"
 #. +> trunk 1.6
 #: data/core/units/humans/Horse_Grand_Knight.cfg:45
 #: data/core/units/humans/Horse_Knight.cfg:44
-#: data/core/units/humans/Horse_Lancer.cfg:24
+#: data/core/units/humans/Horse_Lancer.cfg:36
 #: data/core/units/humans/Horse_Paladin.cfg:61
 msgid "lance"
 msgstr "бојно копље"
@@ -1722,7 +1724,9 @@ msgstr "кирасир"
 #. [unit_type]: id=Cavalier, race=human
 #. +> trunk
 #: data/core/units/humans/Loyalist_Cavalier.cfg:21
-msgid "Cavaliers are masters at the use of both sword and crossbow from horseback. Their combination of striking power and mobility is fearsome; and they have a reputation for dash and agrssiveness to mAtch it. The daring deeds of Cavaliers are the subject of many a tale and song."
+#, fuzzy
+#| msgid "Cavaliers are masters at the use of both sword and crossbow from horseback. Their combination of striking power and mobility is fearsome; and they have a reputation for dash and agrssiveness to mAtch it. The daring deeds of Cavaliers are the subject of many a tale and song."
+msgid "Cavaliers are masters at the use of both sword and crossbow from horseback. Their combination of striking power and mobility is fearsome; and they have a reputation for dash and aggressiveness to match it. The daring deeds of Cavaliers are the subject of many a tale and song."
 msgstr "Кирасири су мајстори употребе и мача и самострела са коња. Поседују застрашујуће јединство ударне моћи и покретљивости, и на гласу су по томе одговарајућој смелости и ратоборности. Одважна дела кирасира тема су многој причи и песми."
 
 #. [unit_type]: id=Cavalier, race=human
@@ -1807,10 +1811,15 @@ msgstr ""
 #. [unit_type]: id=Duelist, race=human
 #. +> trunk
 #: data/core/units/humans/Loyalist_Duelist.cfg:20
+#, fuzzy
+#| msgid ""
+#| "It is a peculiar custom of Wesnoth's nobility that they typically enroll their sons into one of two orders of armigers, training them either in the art of horsemanship or fencing. Duelists are so named for an unfortunately common practice of young aristocrats, for whom the sting of insult, whether real or fancied, can incite a rash demonstration of their natural right.\n"
+#| "\n"
+#| "Experienced fencers carry with them a small crossbow that is easily concealed under a coat or cape. Slow to load and simetimes thought dishonorable to use, it is in fact very useful, and those of their ranks who live long enough to be veterans typically do so by making such concessions to utility and survival."
 msgid ""
 "It is a peculiar custom of Wesnoth's nobility that they typically enroll their sons into one of two orders of armigers, training them either in the art of horsemanship or fencing. Duelists are so named for an unfortunately common practice of young aristocrats, for whom the sting of insult, whether real or fancied, can incite a rash demonstration of their natural right.\n"
 "\n"
-"Experienced fencers carry with them a small crossbow that is easily concealed under a coat or cape. Slow to load and simetimes thought dishonorable to use, it is in fact very useful, and those of their ranks who live long enough to be veterans typically do so by making such concessions to utility and survival."
+"Experienced fencers carry with them a small crossbow that is easily concealed under a coat or cape. Slow to load and sometimes thought dishonorable to use, it is in fact very useful, and those of their ranks who live long enough to be veterans typically do so by making such concessions to utility and survival."
 msgstr ""
 "Чудна је мода међу Веснотовим племством, да обично учлањују своје синове у један од два реда штитоноша, где се вежбају или уметности јахања, или мачевања. Изазивачи су тако названи по несрећно честој навици међу младим аристократама, које оштрина увреде, било праве или извештачене, може потакнути на нагло испољавање свог природног права.\n"
 "\n"
@@ -3169,7 +3178,7 @@ msgstr "вук"
 
 #. [unit_type]: id=Wolf, race=wolf
 #. +> trunk 1.6
-#: data/core/units/monsters/Wolf.cfg:34
+#: data/core/units/monsters/Wolf.cfg:35
 msgid "Wolves are aggressive animals that hunt in packs. Although weak individually, a wolf pack can kill even the strongest man in minutes."
 msgstr "Вукови су насртљиве животиње које лове у чопорима. Иако слаби појединачно, чопор вукова у трену може убити чак и најјачег човека."
 
@@ -3417,7 +3426,9 @@ msgstr "орко-суверен"
 #. [unit_type]: id=Orcish Sovereign, race=orc
 #. +> trunk
 #: data/core/units/orcs/Sovereign.cfg:19
-msgid "From time to time, an orc will arise who has a natural charisma and command over his ilk. If he is also strong and cunning wnough to survive early leadership struggles, he will inevitably find humself leading a great horde of warriors, and he will also inevitably cause a great deal of trouble for the civilized races of the world. The surest way to disperse such a host is to slay this rare orc who can hold it together."
+#, fuzzy
+#| msgid "From time to time, an orc will arise who has a natural charisma and command over his ilk. If he is also strong and cunning wnough to survive early leadership struggles, he will inevitably find humself leading a great horde of warriors, and he will also inevitably cause a great deal of trouble for the civilized races of the world. The surest way to disperse such a host is to slay this rare orc who can hold it together."
+msgid "From time to time, an orc will arise who has a natural charisma and command over his ilk. If he is also strong and cunning enough to survive early leadership struggles, he will inevitably find himself leading a great horde of warriors, and he will also inevitably cause a great deal of trouble for the civilized races of the world. The surest way to disperse such a host is to slay this rare orc who can hold it together."
 msgstr "С времена на време, појавиће се орк који природном харизматичношћу лако одржава заповедништво над својом врстом. Ако је усто снажан и довољно лукав да преживи рано отимање око вођства, неизбежно ће се наћи на челу неизмерних ратничких хорди, које ће једнако неизбежно изазивати многе невоље цивилизованим расама широм света. Најсигурнији начин за разбијање такве силе јесте отарасити се тог изванредног орка који је одржава на окупу."
 
 #. [unit_type]: id=Orcish Sovereign, race=orc
@@ -3587,7 +3598,9 @@ msgstr "трол-каменохит"
 #. [unit_type]: id=Troll Rocklobber, race=troll
 #. +> trunk
 #: data/core/units/trolls/Rocklobber.cfg:20
-msgid "The thought of throwing a boulder in combat has certainly occurred to many trolls, and some have taken to them as a weapon of choice. Because stones wekll-shaped to flie true are not always easy to find, Rocklobbers have taken to carrying them in sacks slung over their shoulders. The same leather out of which the sack is formed is easily adapted to a crude sling."
+#, fuzzy
+#| msgid "The thought of throwing a boulder in combat has certainly occurred to many trolls, and some have taken to them as a weapon of choice. Because stones wekll-shaped to flie true are not always easy to find, Rocklobbers have taken to carrying them in sacks slung over their shoulders. The same leather out of which the sack is formed is easily adapted to a crude sling."
+msgid "The thought of throwing a boulder in combat has certainly occurred to many trolls, and some have taken to them as a weapon of choice. Because stones well-shaped to fly true are not always easy to find, Rocklobbers have taken to carrying them in sacks slung over their shoulders. The same leather out of which the sack is formed is easily adapted to a crude sling."
 msgstr "Замисао о бацању стена у борби свакако се родила многим троловима, и неки су то чак прихватили као омиљени начин борбе. Пошто камење добро обликовано да лети правилно није увек лако наћи, каменохити се старају да их носе довољно са собом, у врећама пребаченим преко рамена. Иста кожа од које су вреће начињене, лако се преуређује у грубу праћку."
 
 #. [unit_type]: id=Troll Rocklobber, race=troll
@@ -3756,7 +3769,7 @@ msgstr "хладна олуја"
 #. +> trunk 1.6
 #: data/core/units/undead/Necro_Ancient_Lich.cfg:72
 #: data/core/units/undead/Necro_Dark_Adept.cfg:55
-#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:112
+#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:116
 #: data/core/units/undead/Necro_Lich.cfg:72
 #: data/core/units/undead/Necromancer.cfg:63
 msgid "shadow wave"
@@ -3796,7 +3809,7 @@ msgstr ""
 #. [attack]: type=cold
 #. +> trunk 1.6
 #: data/core/units/undead/Necro_Dark_Adept.cfg:43
-#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:100
+#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:104
 #: data/core/units/undead/Necromancer.cfg:51
 msgid "chill wave"
 msgstr "талас мраза"
@@ -3817,8 +3830,13 @@ msgstr "мрачни чаробњак"
 #. [unit_type]: id=Dark Sorcerer, race=human
 #. +> trunk
 #: data/core/units/undead/Necro_Dark_Sorcerer.cfg:21
+#, fuzzy
+#| msgid ""
+#| "The dread inspired by black magic is enhanced by the sewcrecy and fell rumors which sourround. Dark sorcerers have begun to unlock the secrets of life and death, the latter of which is all too easy to inflict. This labor gives the first glimmerings of the connection between the soul and inert matter, and the first successful experiments in manipulating this bond. The terrible unknown that lurks beyond death is glimpsed, and will inevitably be fathomed.\n"
+#| "\n"
+#| "Despite any design they may have of using this to wrest their own immortality from nature's grasp, the first results of their work have immediate, and unpleasant applications. The life they breathe into dead matter can create servants for them, servants which will work, but which will also kill, and will never question their masters. These creations have a loyalty any tyrant would dream of, and it is tempting to those with even the slightest desire for power."
 msgid ""
-"The dread inspired by black magic is enhanced by the sewcrecy and fell rumors which sourround. Dark sorcerers have begun to unlock the secrets of life and death, the latter of which is all too easy to inflict. This labor gives the first glimmerings of the connection between the soul and inert matter, and the first successful experiments in manipulating this bond. The terrible unknown that lurks beyond death is glimpsed, and will inevitably be fathomed.\n"
+"The dread inspired by black magic is enhanced by the secrecy and fell rumors which surround it. Dark sorcerers have begun to unlock the secrets of life and death, the latter of which is all too easy to inflict. This labor gives the first glimmerings of the connection between the soul and inert matter, and the first successful experiments in manipulating this bond. The terrible unknown that lurks beyond death is glimpsed, and will inevitably be fathomed.\n"
 "\n"
 "Despite any design they may have of using this to wrest their own immortality from nature's grasp, the first results of their work have immediate, and unpleasant applications. The life they breathe into dead matter can create servants for them, servants which will work, but which will also kill, and will never question their masters. These creations have a loyalty any tyrant would dream of, and it is tempting to those with even the slightest desire for power."
 msgstr ""
@@ -3828,13 +3846,13 @@ msgstr ""
 
 #. [female]
 #. +> trunk 1.6
-#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:243
+#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:247
 msgid "Dark Sorceress"
 msgstr "мрачна чаробница"
 
 #. [female]
 #. +> trunk 1.6
-#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:249
+#: data/core/units/undead/Necro_Dark_Sorcerer.cfg:253
 msgid ""
 "The dread inspired by black magic comes chiefly from how little is known about it by the common man. Dark sorceresses have begun to unlock the secrets of life and death, the latter of which is all too easy to inflict. This labor gives the first glimmerings of the connection between the soul and inert matter, and the first successful experiments in manipulating this bond. The terrible unknown that lurks beyond death is glimpsed, and will inevitably be fathomed.\n"
 "\n"
@@ -3900,7 +3918,7 @@ msgstr "кужни штап"
 
 #. [female]
 #. +> trunk 1.6
-#: data/core/units/undead/Necromancer.cfg:194
+#: data/core/units/undead/Necromancer.cfg:251
 msgctxt "female"
 msgid "Necromancer"
 msgstr "некромантка"
