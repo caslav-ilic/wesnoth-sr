@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-11-15 13:01+0100\n"
+"POT-Creation-Date: 2009-12-09 09:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,7 +199,7 @@ msgstr ""
 #. +> trunk 1.6
 #: data/core/units/drakes/Armageddon.cfg:94
 #: data/core/units/drakes/Blademaster.cfg:50
-#: data/core/units/drakes/Burner.cfg:49 data/core/units/drakes/Fighter.cfg:165
+#: data/core/units/drakes/Burner.cfg:49 data/core/units/drakes/Fighter.cfg:48
 #: data/core/units/drakes/Fire.cfg:51 data/core/units/drakes/Flameheart.cfg:44
 #: data/core/units/drakes/Flare.cfg:43 data/core/units/drakes/Glider.cfg:53
 #: data/core/units/drakes/Hurricane.cfg:136
@@ -372,15 +372,15 @@ msgid "Drake Fighters wield curved scimitars, and possess the fire breathing ski
 msgstr ""
 
 #. [attack]: type=blade
-#. +> 1.6
-#: data/core/units/drakes/Fighter.cfg:66
-msgid "scimitar"
+#. +> trunk
+#: data/core/units/drakes/Fighter.cfg:39 data/core/units/drakes/Warrior.cfg:39
+msgid "war blade"
 msgstr ""
 
 #. [attack]: type=blade
-#. +> trunk
-#: data/core/units/drakes/Fighter.cfg:156 data/core/units/drakes/Warrior.cfg:39
-msgid "war blade"
+#. +> 1.6
+#: data/core/units/drakes/Fighter.cfg:66
+msgid "scimitar"
 msgstr ""
 
 #. [unit_type]: id=Fire Drake, race=drake
@@ -672,13 +672,13 @@ msgstr ""
 
 #. [unit_type]: id=Dwarvish Explorer, race=dwarf
 #. +> trunk
-#: data/core/units/dwarves/Explorer.cfg:27
+#: data/core/units/dwarves/Explorer.cfg:24
 msgid "Dwarvish Explorers are peerless survivalists. Using only the equipment they carry, they can range for months around the forests and mountains looking for new seams of ore and deposits of minerals. Whilst their skill in a melee is less than some other dwarves, they are unmatched with throwing axes, having practiced this skill hunting in the mountains. Their maneuverability makes them dangerous and tricky foes."
 msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/dwarves/Explorer.cfg:45 data/core/units/dwarves/Lord.cfg:52
+#: data/core/units/dwarves/Explorer.cfg:42 data/core/units/dwarves/Lord.cfg:52
 #: data/core/units/dwarves/Steelclad.cfg:52
 #: data/core/units/undead/Skele_Death_Knight.cfg:59
 msgid "battle axe"
@@ -686,11 +686,11 @@ msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk 1.6
-#: data/core/units/dwarves/Explorer.cfg:54
+#: data/core/units/dwarves/Explorer.cfg:51
 #: data/core/units/dwarves/Fighter.cfg:47
-#: data/core/units/dwarves/Pathfinder.cfg:41
-#: data/core/units/dwarves/Pathfinder.cfg:49
-#: data/core/units/dwarves/Scout.cfg:40 data/core/units/dwarves/Scout.cfg:48
+#: data/core/units/dwarves/Pathfinder.cfg:37
+#: data/core/units/dwarves/Pathfinder.cfg:45
+#: data/core/units/dwarves/Scout.cfg:37 data/core/units/dwarves/Scout.cfg:45
 #: data/core/units/undead/Skele_Deathblade.cfg:162
 #: data/core/units/undead/Skele_Draug.cfg:30
 #: data/core/units/undead/Skele_Revenant.cfg:43
@@ -773,7 +773,7 @@ msgstr ""
 
 #. [unit_type]: id=Dwarvish Pathfinder, race=dwarf
 #. +> trunk
-#: data/core/units/dwarves/Pathfinder.cfg:22
+#: data/core/units/dwarves/Pathfinder.cfg:18
 msgid "These hardy dwarves are sometimes away from their caves for long periods, scouting and patrolling the borders. They spend this time watching for invaders, and fighting bandits and thieves who encroach on dwarvish territory. They are powerful fighters in a melee, and from a distance their deftly thrown axes can rival the power and accuracy of a human archer."
 msgstr ""
 
@@ -809,7 +809,7 @@ msgstr ""
 
 #. [unit_type]: id=Dwarvish Scout, race=dwarf
 #. +> trunk
-#: data/core/units/dwarves/Scout.cfg:22
+#: data/core/units/dwarves/Scout.cfg:19
 msgid "Although the dwarves cannot match the taller races in a sprint, when unencumbered by heavy armor their tremendous stamina and endurance allows them to match all but the fastest on foot. Dwarvish Scouts use this to their advantage, ranging ahead of the main force and reporting back on troop movements and dispositions, or securing important objectives. Outside of battle, they are often used to relay messages between dwarvish communities. However, they pay for their speed with the poorer protection provided by their lighter armor."
 msgstr ""
 
@@ -3222,7 +3222,7 @@ msgstr ""
 #. [attack]: type=blade
 #. +> trunk 1.6
 #: data/core/units/orcs/Ruler.cfg:27 data/core/units/orcs/Sovereign.cfg:28
-#: data/core/units/orcs/Warlord.cfg:25 data/core/units/orcs/Warrior.cfg:23
+#: data/core/units/orcs/Warlord.cfg:25 data/core/units/orcs/Warrior.cfg:35
 msgid "greatsword"
 msgstr ""
 

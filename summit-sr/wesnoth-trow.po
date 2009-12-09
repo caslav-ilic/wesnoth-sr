@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-08-26 14:50+0200\n"
+"POT-Creation-Date: 2009-12-09 09:49+0100\n"
 "PO-Revision-Date: 2009-08-26 17:28+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 
@@ -191,14 +191,14 @@ msgstr "краљ Елдарик Четврти"
 #. [objective]: condition=win
 #. +> trunk 1.6
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/01_A_Summer_of_Storms.cfg:68
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:157
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:154
 msgid "Defeat the Wesfolk Leader"
 msgstr "Поразиш ли вођа Весноћана"
 
 #. [objective]: condition=lose
 #. +> trunk 1.6
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/01_A_Summer_of_Storms.cfg:72
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:161
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:158
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/03_A_Harrowing_Escape.cfg:113
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/04a_The_River_Road.cfg:153
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/04b_The_Midlands.cfg:145
@@ -232,7 +232,7 @@ msgstr "Настрада ли краљ Елдарик"
 #. [objective]: condition=lose
 #. +> trunk 1.6
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/01_A_Summer_of_Storms.cfg:80
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:173
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:170
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/03_A_Harrowing_Escape.cfg:117
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/04a_The_River_Road.cfg:157
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/04b_The_Midlands.cfg:149
@@ -495,25 +495,19 @@ msgid "Tan-Erang"
 msgstr "тан Еранг"
 
 #. [event]: (id=Wesfolk Leader) experience $wesfolk_leader_store.experience}
-#. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:137
-msgid "Thomas"
-msgstr "Томас"
-
-#. [event]: (id=Wesfolk Leader) experience $wesfolk_leader_store.experience}
-#. +> trunk 1.6
+#. +> 1.6
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:139
 msgid "Richard"
 msgstr "Ричард"
 
 #. [event]: (id=Wesfolk Leader) experience $wesfolk_leader_store.experience}
-#. +> trunk 1.6
+#. +> 1.6
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:140
 msgid "Henry"
 msgstr "Хенри"
 
 #. [event]: (id=Wesfolk Leader) experience $wesfolk_leader_store.experience}
-#. +> trunk 1.6
+#. +> 1.6
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:141
 msgid "Robert"
 msgstr "Роберт"
@@ -521,204 +515,210 @@ msgstr "Роберт"
 # |, no-check-spell
 #. [event]: (id=Wesfolk Leader) experience $wesfolk_leader_store.experience}
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:150
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:147
 msgid "Thegwyn"
 msgstr "Тегвин"
 
 # |, no-check-spell
 #. [event]: (id=Wesfolk Leader) experience $wesfolk_leader_store.experience}
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:151
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:148
 msgid "Galdred"
 msgstr "Галдред"
 
 # |, no-check-spell
 #. [event]: (id=Wesfolk Leader) experience $wesfolk_leader_store.experience}
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:152
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:149
 msgid "Tromas"
 msgstr "Тромас"
 
+#. [event]: (id=Wesfolk Leader) experience $wesfolk_leader_store.experience}
+#. +> 1.6
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:137
+msgid "Thomas"
+msgstr "Томас"
+
 #. [objective]: condition=lose
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:165
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:162
 msgid "Death of King Eldaric IV"
 msgstr "Настрада ли краљ Елдарик Четврти"
 
 #. [objective]: condition=lose
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:169
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:166
 msgid "Orcs kill the Wesfolk Leader"
 msgstr "Убију ли оркови вођа Весноћана"
 
 #. [message]: speaker=King Eldaric IV
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:186
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:183
 msgid "Haldric, things have not gone well! The orcs have arrived. We met them at the north keep but they were just too many. They have flanked us to the east in the mountains. I have my personal guards holding the pass to the north, but they won't be able to last long... We must evacuate our home."
 msgstr "Халдриче, ствари се не одвијају добро! Оркови су пристигли. Суочисмо се код северне утврде, али их бејаше превише. Заобишли су нас на истоку у планинама. Моја лична гарда држи пролаз ка северу, али неће дуго истрајати... Морамо напустити наше домове."
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:191
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:188
 msgid "That's awful! And it only gets worse. That Wesfolk rabble has set up shop again in the south pass..."
 msgstr "То је грозно! А бива још и горе. Она руља весноћанска опет постави радњу у јужном пролазу..."
 
 #. [message]: speaker=King Eldaric IV
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:196
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:193
 msgid "That's the only way out of the valley! This is a disaster! We must defeat that Wesfolk scum and flee to the south. Our home is lost... We must make haste."
 msgstr "То нам је једини пут из долине! Ово је катастрофа! Морамо сузбити тај весноћански олош и избећи ка југу. Наши су домови изгубљени... Морамо брзо делати."
 
 #. [message]: speaker=Tan-Rarbag
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:201
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:198
 msgid "So HUMAN, care to make your final stand?"
 msgstr "Па, човече, хоћеш ли пружити задњи отпор?"
 
 #. [message]: speaker=Tan-Erang
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:206
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:203
 msgid "Die! Die! Die!"
 msgstr "Умри! Умри! Умри!"
 
 #. [message]: speaker=Wesfolk Leader
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:211
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:208
 msgid "This is going to get ugly..."
 msgstr "Ово ће бити све горе..."
 
 #. [message]: speaker=King Eldaric IV
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:219
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:216
 msgid "Hurry! Only death awaits in this valley!"
 msgstr "Пожурите! Само нас смрт очекује у овој долини!"
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:263
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:260
 msgid "Umm, I invoke the right of surren..."
 msgstr "Овај, позивам се на право преда..."
 
 #. [message]: speaker=King Eldaric IV
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:268
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:265
 msgid "Nay! Off with your hea- - -"
 msgstr "Нећеш! Скините му гла..."
 
 #. [message]: speaker=unit
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:273
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:270
 msgid "But I can help! Really! You could use me and my men's skills on the long road ahead!"
 msgstr "Али могу помоћи! Збиља! Можете искористити вештине моје и мојих људи на путу који вам предстоји!"
 
 #. [message]: speaker=King Eldaric IV
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:278
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:275
 msgid "Haldric, what say you on this matter?"
 msgstr "Халдриче, шта ти кажеш на ово?"
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:283
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:280
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/09_Fallen_Lich_Point.cfg:361
 msgid "Hmm... after some thought..."
 msgstr "Па... после мало размишљања..."
 
 #. [option]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:286
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:283
 msgid "I think that your skills may be useful. You may join us."
 msgstr "Мислим да нам твоје вештине могу послужити. Придружи нам се."
 
 #. [message]: speaker=Wesfolk Leader
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:290
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:287
 msgid "Let there be peace between us, our survival depends on it."
 msgstr "Нека буде мира међу нама, јер нам опстанак од тога зависи."
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:298
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:295
 msgid "So what shall I call you?"
 msgstr "Како ћемо те онда звати?"
 
 #. [message]: speaker=Wesfolk Leader
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:302
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:299
 msgid "The Lady Outlaw will do."
 msgstr "Госпа-одметница ће послужити."
 
 #. [unit]: id=Lady Outlaw, type=$wesfolk_leader_store.type
 #. [command]: (id=Lady Outlaw)}
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:315
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:359
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:312
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:356
 msgid "Lady Outlaw"
 msgstr "госпа-одметница"
 
 #. [option]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:339
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:336
 msgid "Your word can't be trusted. Prepare to meet your gods!"
 msgstr "Твојој се речи не може веровати. Спреми се к својим боговима!"
 
 #. [message]: speaker=Wesfolk Leader
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:344
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:341
 msgid "Arrogant fools! (Reaches into pocket) POOF!"
 msgstr "Охоле будале! [посеже у џеп] ПУФ!"
 
 #. [message]: speaker=King Eldaric IV
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:372
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:369
 msgid "Argh, she's gone. Next time, more sword, less chat."
 msgstr "Хрнгх, нестаде. Следећи пут, више мачем, мање језиком."
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:377
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:374
 msgid "She's clever! Maybe I made the wrong choice. Well, at least she left some of her gold behind..."
 msgstr "Промућурна је! Можда сам погрешно изабрао. Па, барем је остало нешто злата за њом..."
 
 #. [message]: speaker=King Eldaric IV
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:396
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:393
 msgid "Son, you must lead our people through the south pass. I will remain behind to hold off these vile monsters for as long as I can."
 msgstr "Сине, мораш повести наш народ кроз јужни пролаз. Ја ћу остати за вама, да задржавам ова злокобна створења колико год будем могао."
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:400
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:397
 msgid "But, Father!"
 msgstr "Али, оче!"
 
 #. [message]: speaker=King Eldaric IV
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:404
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:401
 msgid "It's the only way. Go now, and don't look back! Luck be with you!"
 msgstr "То је једини начин. Иди сада, и не осврћи се! Нека те срећа прати!"
 
 #. [message]: speaker=King Eldaric IV
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:426
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:423
 msgid "We're surrounded! The orcs have taken the southern pass! All is lost!"
 msgstr "Опкољени смо! Оркови су заузели јужни пролаз! Све је изгубљено!"
 
 #. [message]: speaker=King Eldaric IV
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:438
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:435
 msgid "We're surrounded! I can see their reinforcements! All is lost!"
 msgstr "Опкољени смо! Могу да видим како им стижу појачања! Све је изгубљено!"
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:451
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:448
 msgid "Our home! Where shall we go!"
 msgstr "Наши домови! Куда ћемо сада!"
 
 #. [message]: speaker=King Eldaric IV
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:455
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/02_The_Fall.cfg:452
 msgid "There can be no looking back! We must go south."
 msgstr "Не смемо се освртати! Морамо на југ."
 
@@ -1476,7 +1476,7 @@ msgstr "Ландунвонбам"
 #. +> trunk 1.6
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/05_The_Oldwood.cfg:161
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/05_The_Oldwood.cfg:169
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:85
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:87
 msgid "Bolwuldelman"
 msgstr "Болвулделман"
 
@@ -1877,189 +1877,189 @@ msgstr "Изгледају-Теби-Исто"
 # |, no-check-spell
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:84
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:86
 msgid "Orofarnië"
 msgstr "Орофарније"
 
 # |, no-check-spell
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:86
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:88
 msgid "Bregalad"
 msgstr "Брегалад"
 
 # |, no-check-spell
 #. [event]
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:87
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:89
 msgid "Dolmannumbil"
 msgstr "Долманумбил"
 
 #. [message]: speaker=narrator
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:107
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:109
 msgid "Prince Haldric has emerged from the Lich-Lord's tomb, with the Ruby of Fire. The forest seems particularly bright this day, but there is a cold breeze. It is late into the fall, and the first snows should fall any day. Prince Haldric has returned to his forest keep, and is pondering what to do next..."
 msgstr "Принц Халдрик изрони из гробнице господара-косца, носећи Ватрени рубин. Шума је тог дана изгледала посебно ведро, али је и хучао хладан поветарац. Већ је било касно доба јесени, и први снег се могао очекивати сваки дан. Принц се врати у своју шумску утврду, и сада дума шта је даље чинити..."
 
 #. [message]: speaker=Elilmaldur-Rithrandil
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:112
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:114
 msgid "So, you have defeated the lich and returned with his jewel of power. The earth feels happy beneath my toes."
 msgstr "Тако, поразио си Косца и вратио се с његовим драгуљем моћи. Земљиште се радује под мојим коренима."
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:116
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:118
 msgid "Yes, it was a tough battle, but we prevailed. Now, I'm having a problem. I know not what I should do next."
 msgstr "Да, беше љута битка, али превладасмо. Сада, налазим се у недоумици — који би ми били наредни кораци?"
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:120
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:122
 msgid "I have the jewel, but I have no idea what it does. To make matters worse, I have no idea what's going on outside this forest. The number of refugees is growing daily. We need to get to Southbay, but I dare not lead us onto the plains and risk a slaughter."
 msgstr "Имам при себи драгуљ, али уопште не знам шта може чинити. Да буде још горе, не знам ни шта се сада догађа изван ове шуме. Река избеглица нараста сваког дана. Морамо стићи до Југозалива, али се не усуђујем повести људе преко равница, да не буде крви до колена."
 
 #. [message]: speaker=Elilmaldur-Rithrandil
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:124
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:126
 msgid "My eyes do not extend beyond the forest. You have indeed shown yourself a tree-friend, I would there were more I could do to help you."
 msgstr "Моје очи не досежу изван шумских међа. Заиста си се показао као дрвећу-пријатељ, волео бих када бих ти још нешто могао помоћи."
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:128
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:130
 msgid "We can't all stay here for the winter; we would starve, or freeze. Your hospitality, though generously meant, has barely sufficed. Hold - I see somebody!"
 msgstr "Не можемо сви остати овде да презимимо; гладовали бисмо или се смрзли. Ваше гостопримство, иако великодушно, и до сада нам је једва било довољно. Тренутак — угледах неког!"
 
 #. [message]: speaker=Lady Outlaw
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:157
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:159
 msgid "You thought that I ran away, didn't you?"
 msgstr "Мислио си да сам побегла, зар не?"
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:161
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:163
 msgid "The thought had crossed my mind."
 msgstr "Прошла ми је и та помисао."
 
 #. [message]: speaker=Lady Outlaw
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:165
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:167
 msgid "Well, I come bearing news of the road to Southbay!"
 msgstr "Па, долазим доносећи вести о путу ка Југозаливу!"
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:169
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:171
 msgid "Really!"
 msgstr "Збиља!"
 
 #. [message]: speaker=Lady Outlaw
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:173
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:175
 msgid "The news is not good. The main host of orcs is between the forest and Southbay. We clearly can't go that way. However, the road to Clearwater Port is free of orcs. Apparently they're bogged down in the swamp of Esten."
 msgstr "Али, нису то добре вести. Главнина силе орковске стоји између шуме и Југозалива. Засигурно не можемо тим путем. Међутим, на путу ка Бистроморској нема оркова. Изгледа да су још увек заглављени у мочвари Естена."
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:177
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:179
 msgid "Well, I certainly don't mind the thought of the orcs floundering around that infernal swamp. But, one question remains."
 msgstr "Уопште ми не смета помисао на орке како бауљају по тој ђаволској мочвари. Али, преостаје још једно питање."
 
 #. [message]: speaker=Lady Outlaw
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:181
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:183
 msgid "What?"
 msgstr "А то је?"
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:185
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:187
 msgid "Can I trust you, and your information? I don't even know your name."
 msgstr "Могу ли ти веровати, и твојим вестима? Не знам ни како се зовеш."
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:191
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:193
 msgid "You again!"
 msgstr "Опет ти!"
 
 #. [message]: speaker=Lady Outlaw
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:195
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:197
 msgid "I come bearing news of the road to Southbay!"
 msgstr "Доносим вести о путу ка Југозаливу!"
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:199
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:201
 msgid "Humph! Your words mean very little to me."
 msgstr "Хмф! Твоје ми речи врло мало значе."
 
 #. [message]: speaker=Lady Outlaw
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:203
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:205
 msgid "It is important, and not good. The main host of orcs is between the forest and Southbay. You clearly can't go that way. However, the road to Clearwater Port is free of orcs. Apparently they're bogged down in the swamp of Esten."
 msgstr "Важно је, и није добро. Главнина силе орковске стоји између шуме и Југозалива. Засигурно не можемо тим путем. Међутим, на путу ка Бистроморској нема оркова. Изгледа да су још увек заглављени у мочвари Естена."
 
 #. [message]: speaker=Lady Outlaw
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:207
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:209
 msgid "I propose we join forces, and make a break for Clearwater Port."
 msgstr "Предлажем да удружимо снаге, не би ли се пробили до луке Бистроморске."
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:211
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:213
 msgid "Well, I certainly don't mind the thought of the orcs floundering around that infernal swamp. But, some questions remain."
 msgstr "Уопште ми не смета помисао на орке како бауљају по тој ђаволској мочвари. Али, преостаје још питања."
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:215
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:217
 msgid "Lady, why would you let those undead monsters lead your people?"
 msgstr "Госпо, зашто сте допустили немртвим зверовима да воде ваше људе?"
 
 #. [message]: speaker=Lady Outlaw
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:219
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:221
 msgid "Haldric, we are an ancient people who lived in a land filled with all manner of man and beast. We needed vision that extended beyond the meager span of human years. The art of Necromancy allowed our best and brightest to live forever, and our worst got to serve as mindless slaves."
 msgstr "Халдриче, ми смо древан народ који је живео у поднебљу пуном сваквих људи и звери. Потребан нам је далековидост које се простире преко кратког распона људског живота. Вештина некромантије омогућила је најбољима и најбистријима међу нама да живе заувек, а најгорима је запало да служе као безумно робље."
 
 #. [message]: speaker=Lady Outlaw
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:223
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:225
 msgid "Other than losing our war back west, then our refugee war to your people, and this orc thing, it wasn't such a bad deal."
 msgstr "Осим што смо изгубили рат на западу, а затим избеглички рат са твојим народом, па и ово с орковима, није то био лош поредак."
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:227
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:229
 msgid "Uh-huh. Have you considered the possibility that the unholy act of turning your best and brightest into undead is what caused them to fall into darkness?"
 msgstr "Ух-ох. Јесте ли промислили могућност да је несвети чин претварања најбољих и најбистријих у немртве, баш оно што их је бацило у наручје таме?"
 
 #. [message]: speaker=Lady Outlaw
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:231
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:233
 msgid "We should save this pointless debate for later. Anything else?"
 msgstr "Одложимо ову бесциљну распру за касније. Још нешто?"
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:235
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:237
 msgid "Why should I trust you, or your information? I don't even know your name, and you have this nasty habit of mysteriously vanishing!"
 msgstr "Зашто бих веровао теби или твојим вестима? Не знам ни како се зовеш, а имаш и ту незгодну навику да тајанствено ишчезаваш!"
 
 #. [message]: speaker=Lady Outlaw
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:244
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:246
 msgid "Bah, have it your way!"
 msgstr "Дођавола, нека буде по твоме!"
 
 #. [unit]: id=Lady Jessene, type=$lady_store.type
 #. +> trunk
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:254
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:256
 msgid "Lady Jessene"
 msgstr "Госпа Џесина"
 
@@ -2071,7 +2071,7 @@ msgstr "Госпа Џесика"
 
 #. [message]: speaker=Lady Jessene
 #. +> trunk
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:285
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:287
 msgid "I am the Lady Jessene, a noble, a princess of the Wesfolk! I was betrayed by the Lich-Lords' dark pact with the orcs, in no small part because your fool Prince of Southbay convinced them that their immortal un-lives were over!"
 msgstr "Ја сам госпа Џесина, племкиња, принцеза Весноћана! Издадоше ме господари-косци тајним договором са орковима, до чега дође немалом заслугом вашег будаластог принца Југозалива, који их убеди да је њиховим бесмртним не-животима дошао крај!"
 
@@ -2083,31 +2083,31 @@ msgstr "Ја сам госпа Џесика, племкиња, принцеза 
 
 #. [message]: speaker=Lady Jessene
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:289
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:291
 msgid "And now, I'm as much a refugee as you. In truth, I don't know if the Lich-Lords are working with the orcs or not. The orcs may have gotten rid of the Lich-Lords, or they may not have, but I do know that the orcs are not going to tolerate living humans outside of the slave mines or stew pot!"
 msgstr "И сада, у збегу сам колико и ви. Искрено, не знам да ли господари-косци заиста другују са орковима, или не. Оркови су се можда отарасили господара-косаца, а можда и нису, али једно знам засигурно: оркови неће трпети живе људе нигде другде осим у ропским рудницима или казанима!"
 
 #. [message]: speaker=Lady Jessene
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:293
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:295
 msgid "Young prince, it is time to go! We must flee before the winter snow!"
 msgstr "Млади принче, време је да пођемо! Морамо умаћи пре зимских снегова!"
 
 #. [message]: speaker=Prince Haldric
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:297
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:299
 msgid "Fair enough. We will head for Clearwater Port. Thank you, Elilmaldur-Rithrandil, I will remember your hospitality!"
 msgstr "Добро онда, кренућемо ка Бистроморској. Хвала ти, Елилмалдур-Ритрандиле, памтићу твоје гостопримство!"
 
 #. [message]: speaker=Elilmaldur-Rithrandil
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:301
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:303
 msgid "Always happy to help a tree-friend. May the Powers of Light guide you on your way!"
 msgstr "Увек се радујем да угостим дрвећу-пријатеља. Нека Силе светлости обасјавају друм пред тобом!"
 
 #. [message]: speaker=Burin the Lost
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:305
+#: data/campaigns/The_Rise_Of_Wesnoth/scenarios/07_Return_to_Oldwood.cfg:307
 msgid "Finally, we're getting out of this forest!"
 msgstr "Напокон, излазимо из ове шуме!"
 
@@ -6563,13 +6563,9 @@ msgstr "Без њега, данца наших бродова биће сасв�
 msgid "You retrieve $amount_gold pieces of gold."
 msgstr "Пронађе $amount_gold златника."
 
-#. [unit]: type=Walking Corpse
-#. [unit]: type=Soulless
-#. [unit]: type=Ghoul
+#. [unit]: type=Walking Corpse, type=Soulless, type=Ghoul
 #. +> trunk 1.6
-#: data/campaigns/The_Rise_Of_Wesnoth/utils/trow-macros.cfg:106
-#: data/campaigns/The_Rise_Of_Wesnoth/utils/trow-macros.cfg:120
-#: data/campaigns/The_Rise_Of_Wesnoth/utils/trow-macros.cfg:134
+#: data/campaigns/The_Rise_Of_Wesnoth/utils/trow-macros.cfg:121
 msgid "A Former Friend"
 msgstr "бивши пријатељ"
 
