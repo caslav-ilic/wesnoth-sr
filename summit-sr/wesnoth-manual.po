@@ -1377,43 +1377,43 @@ msgstr "Свака страна добија нешто злата за поче
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1002
 msgid "Recruiting and Recalling"
-msgstr ""
+msgstr "Унајмљивање и сазивање"
 
 #. type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1003
 msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/recruit-1.5.7.jpg\"/> </imageobject>"
-msgstr ""
+msgstr "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/~@|sr|sr@latin|/recruit-1.7.10.jpg\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1009
 msgid "The major use for gold is to build your army by recruiting new units or recalling units from previous scenarios in a campaign. Units may be recruited or recalled when the leader is on a keep whose castle has at least one vacant castle hex."
-msgstr ""
+msgstr "Злато најпре служи подизању војске унајмљивањем нових јединица и сазивањем оних из претходних сценарија у походу. Јединице се могу унајмити или сазвати када заповедник стоји на кули у замку који има бар једно празно поље."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1016
 msgid "Right-click in an empty castle hex and select Recruit to recruit new units from the list that is presented. The cost to Recruit depends on the unit, but is usually between 10 and 20 gold."
-msgstr ""
+msgstr "Кликните десним на празно поље замка и изаберите <guimenuitem>Recruit</guimenuitem> да унајмите нову јединицу са списка који се појави. Трошак унајмљивања зависи од типа јединице, а обично је између 10 и 20 златника."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1023
 msgid "Right-click in an empty castle hex and select Recall to recall units from previous scenarios. Recalling costs 20 pieces of gold per unit. See <link linkend=\"unit_recall\">recalling units</link> for more information."
-msgstr ""
+msgstr "Кликните десним на празно поље замка и изаберите <guimenuitem>Recall</guimenuitem> да позовете јединицу из претходних сценарија. Сазивање стаје 20 златника по јединици. Погледајте <link linkend=\"unit_recall\">о сазивању јединица</link> за више детаља."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1031
 msgid "Upkeep"
-msgstr ""
+msgstr "Издаци"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> trunk
 #: ../../doc/manual/manual.en.xml:1032
 msgid "Each unit also has an upkeep cost. The upkeep cost is generally equal to the level of the unit, unless the unit has the \"Loyal\" trait (<link linkend=\"traits\">see below</link>). Units that are not initially recruited - i.e. the leader or those that join voluntarily - usually have the Loyal trait. Upkeep is only paid if the total upkeep of a side&#8217;s units is greater than the number of villages that side controls. Upkeep paid is the difference between the number of villages and the upkeep cost."
-msgstr ""
+msgstr "Свака јединица тражи одређене издатке. Издаци су обично једнаки нивоу јединице, осим ако нема особину лојалности (<link linkend=\"traits\">в. испод</link>). Јединице које нису унајмљене на почетку — тј. заповедник и оне које се добровољно придруже — обично имају ову особину. Издаци се наплаћују само ако су већи од броја села које дата страна поседује — трошак је једнак разлици између броја села и укупних издатака."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> 1.6
@@ -1425,148 +1425,148 @@ msgstr ""
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1040
 msgid "Income"
-msgstr ""
+msgstr "Приходи"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1041
 msgid "So, the formula for determining the income per turn is"
-msgstr ""
+msgstr "Формула за одређивање прихода по потезу гласи"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1043
 msgid "where upkeep is equal to the sum of the levels of all your non-loyal units."
-msgstr ""
+msgstr "где су издаци једнаки збиру нивоа свих ваших нелојалних јединица."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1045
 msgid "If the upkeep cost is greater than the number of villages+2 then the side starts losing gold, if it is equal, no income is gained or lost."
-msgstr ""
+msgstr "Ако су укупни издаци већи од броја села плус 2, та страна почиње да губи злато; ако су једнаки, злато се нити добија нити одлива."
 
 #. type: Content of: <book><chapter><section><title>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1050
 msgid "Units"
-msgstr ""
+msgstr "Јединице"
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1051
 msgid "Battle for Wesnoth has hundreds of unit types which are characterized by a rich set of statistics. In addition, individual units can have specific <link linkend=\"traits\">traits</link> that make them subtly different from other units of the same type. Finally, campaign designers can add unique units to their campaigns to further expand the options available to players."
-msgstr ""
+msgstr "Бој за Веснот пружа стотине типова јединица, одређених богатим статистичким прегледом. Поједине јединице могу имати и посебне <link linkend=\"traits\">особине</link>, које их понешто издвајају од других истоврсних јединица. Напокон, дизајнери похода могу додавати јединствене јединице у неке сценарије, како би још више проширили опције доступне играчу."
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1056
 msgid "The basic statistics for a unit include its hit points (HP), the number of movement points it has, and the weapons it can use and the damage they do. In addition, units have other characteristics, such as alignment and special abilities, that are described in more detail below."
-msgstr ""
+msgstr "Основну статистику јединице чини број ударпоена (УП), поена покретљивости, оружја која може да користи и штету коју наносе. Ту су затим поредак и посебне могућности, о чему ће бити речи у наредном."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1061
 msgid "Alignment"
-msgstr ""
+msgstr "Поредак"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1062
 msgid "Every unit has an alignment: lawful, neutral, or chaotic. Alignment affects how units perform at different times of day. Neutral units are unaffected by the time of day. Lawful units do more damage during the day and less at night. Chaotic units do more damage at night and less during the day."
-msgstr ""
+msgstr "Свака јединица припада поретку: законити, неутрални или хаотични. Поредак утиче на учинак јединице у различита доба дана. На неутралне јединице доба дана не утиче. Законите јединице наносе више штете дању а мање ноћу. Хаотичне јединице наносе више штете ноћу а мање дању."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1067
 msgid "The two \"day\" and \"night\" phases are differentiated as Morning, Afternoon and First Watch, Second Watch, by the positions of the sun and moon in the time of day graphic."
-msgstr ""
+msgstr "„Дан“ и „ноћ“ подељени су у по две смене: јутро и поподне, и прва стража и друга стража. Оне се могу видети по положају сунца и месеца на графику доба дана."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1070
 msgid "The following table shows the effects of different times of the day on the damage dealt by lawful and chaotic units:"
-msgstr ""
+msgstr "Наредна табела приказује утицај различитих доба дана на штету коју наносе законите и хаотичне јединице:"
 
 #. type: Content of: <book><chapter><section><section><table><title>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1076
 msgid "Time of the day and damage"
-msgstr ""
+msgstr "Доба дана и штета"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1086
 msgid "Turn"
-msgstr ""
+msgstr "потез"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1089 ../../doc/manual/manual.en.xml:1932
 msgid "Image"
-msgstr ""
+msgstr "слика"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1092
 msgid "Day-phase"
-msgstr ""
+msgstr "смена"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1095
 msgid "Lawful"
-msgstr ""
+msgstr "законите"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1098
 msgid "Chaotic"
-msgstr ""
+msgstr "хаотичне"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1105 ../../doc/manual/manual.en.xml:1796
 #: ../../doc/manual/manual.en.xml:1802
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1108
 msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-dawn.png\"/> </imageobject>"
-msgstr ""
+msgstr "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-dawn.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1116
 msgid "Dawn"
-msgstr ""
+msgstr "зора"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk
 #: ../../doc/manual/manual.en.xml:1119 ../../doc/manual/manual.en.xml:1122
 #: ../../doc/manual/manual.en.xml:1185 ../../doc/manual/manual.en.xml:1188
 msgid "--"
-msgstr ""
+msgstr "—"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1127 ../../doc/manual/manual.en.xml:1807
 #: ../../doc/manual/manual.en.xml:1813
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1130
 msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-morning.png\"/> </imageobject>"
-msgstr ""
+msgstr "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-morning.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1138
 msgid "Day (morning)"
-msgstr ""
+msgstr "дан (јутро)"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
@@ -1574,7 +1574,7 @@ msgstr ""
 #: ../../doc/manual/manual.en.xml:1210 ../../doc/manual/manual.en.xml:1232
 #: ../../doc/manual/manual.en.xml:1254
 msgid "+25%"
-msgstr ""
+msgstr "+25%"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
@@ -1582,120 +1582,120 @@ msgstr ""
 #: ../../doc/manual/manual.en.xml:1207 ../../doc/manual/manual.en.xml:1229
 #: ../../doc/manual/manual.en.xml:1251
 msgid "-25%"
-msgstr ""
+msgstr "–25%"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1149 ../../doc/manual/manual.en.xml:1818
 #: ../../doc/manual/manual.en.xml:1824
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1152
 msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-afternoon.png\"/> </imageobject>"
-msgstr ""
+msgstr "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-afternoon.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1160
 msgid "Day (afternoon)"
-msgstr ""
+msgstr "дан (поподне)"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1171 ../../doc/manual/manual.en.xml:1788
 #: ../../doc/manual/manual.en.xml:1829 ../../doc/manual/manual.en.xml:1835
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1174
 msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-dusk.png\"/> </imageobject>"
-msgstr ""
+msgstr "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-dusk.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> 1.6
 #: ../../doc/manual/manual.en.xml:1176 ../../doc/manual/manual.en.xml:1179
 #: ../../doc/manual/manual.en.xml:1242 ../../doc/manual/manual.en.xml:1245
 msgid "&#8212;"
-msgstr ""
+msgstr "–"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1182
 msgid "Dusk"
-msgstr ""
+msgstr "сумрак"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1193 ../../doc/manual/manual.en.xml:1840
 #: ../../doc/manual/manual.en.xml:1846
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1196
 msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-firstwatch.png\"/> </imageobject>"
-msgstr ""
+msgstr "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-firstwatch.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1204
 msgid "Night (first watch)"
-msgstr ""
+msgstr "ноћ (прва стража)"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1215 ../../doc/manual/manual.en.xml:1851
 #: ../../doc/manual/manual.en.xml:1857
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1218
 msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-secondwatch.png\"/> </imageobject>"
-msgstr ""
+msgstr "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-secondwatch.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1226
 msgid "Night (second watch)"
-msgstr ""
+msgstr "ноћ (друга стража)"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1237
 msgid "Special"
-msgstr ""
+msgstr "посебно"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1240
 msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-underground.png\"/> </imageobject>"
-msgstr ""
+msgstr "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-underground.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1248
 msgid "Underground"
-msgstr ""
+msgstr "подземље"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1260
 msgid "Keep in mind that some scenarios take place underground, where it is perpetually night!"
-msgstr ""
+msgstr "Имајте на уму да се неки сценарији одвијају у подземљу, где је трајна ноћ!"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> trunk
 #: ../../doc/manual/manual.en.xml:1262
 msgid "For example: consider a fight between a Lawful and a Chaotic unit when both have a base damage of 12. At dawn and dusk, both will do 12 points of damage if they hit. During Morning or Afternoon, the Lawful unit will do (<literal>12 \\* 1.25</literal>) or 15 points, while the Chaotic unit will do (<literal>12 \\* 0.75</literal>) or 9 points. During First or Second Watch, the Lawful unit would do 9 points compared to the Chaotic unit&#8217;s 15."
-msgstr ""
+msgstr "На пример, размотримо борбу између законите и хаотичне јединице које обе наносе основну штету 12. У зору и сумрак, обе ће нанети 12 поена штете ако погоде. Током јутра и поподнева, законита јединица ће нанети 12 × 1,25 = 15 поена, док ће хаотична нанети 12 × 0,75 = 9 поена. Током прве и друге страже биће обрнуто, законита јединица нанеће 9 поена према 15 поена хаотичне."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> 1.6
@@ -1707,7 +1707,7 @@ msgstr ""
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:1268
 msgid "If an equivalent Neutral unit were fighting, it would always do 12 points of damage regardless of the hour."
-msgstr ""
+msgstr "Ако се сличне неутралне јединице упусте у борбу, наносиће 12 поена штете без обзира на доба дана."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> trunk 1.6
