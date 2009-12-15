@@ -4,7 +4,7 @@
 from pology.misc.report import error
 from pology.misc.msgreport import warning_on_msg
 from pology.hook.gettext_tools import msgfilter, msgfmt
-from pology.hook.ui_references import resolve_ui_docbook4
+from pology.hook.ui_references import resolve_ui, resolve_ui_docbook4
 from pology.misc.resolve import resolve_alternatives_simple
 from pology.misc.fsops import collect_catalogs
 from pology.l10n.sr.hook.wconv import ctol
@@ -147,6 +147,8 @@ def is_not_latin_branch (bid):
 
 def is_docbook_cat (cname, csubdir):
     return "manual" in cname
+def is_not_docbook_cat (cname, csubdir):
+    return not is_docbook_cat(cname, csubdir)
 
 def is_manpage_cat (cname, csubdir):
     return "manpage" in cname
@@ -170,9 +172,10 @@ uicpaths = collect_catalogs(S.resolve_path_rooted("summit-sr"),
 # Additional hooks on scattered translations.
 S.hook_on_scatter_msgstr.extend([
 
-    # Resolve references to UI strings in the manual.
+    # Resolve references to UI strings.
     # -> at start (to apply everything on resolved string too)
-    (resolve_ui_docbook4(uicpaths=uicpaths), "", "wesnoth-manual"),
+    (resolve_ui(uicpaths=uicpaths), "", is_not_docbook_cat),
+    (resolve_ui_docbook4(uicpaths=uicpaths), "", is_docbook_cat),
 
     # Resolve accent graphs.
     # -> before transliterating (accented letters need transliteration too)
