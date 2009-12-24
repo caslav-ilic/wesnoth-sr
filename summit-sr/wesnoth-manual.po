@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
-"X-Associated-UI-Catalogs: wesnoth wesnoth-tb\n"
+"X-Associated-UI-Catalogs: wesnoth wesnoth-lib wesnoth-multiplayer wesnoth-tb wesnoth-httt\n"
 "X-Wrapping: fine\n"
 
 #. type: Attribute 'lang' of: <book>
@@ -266,7 +266,7 @@ msgstr "Кликните на ово дугме, изаберите језик, 
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:199
 msgid "Preferences"
-msgstr "<guibutton>Preferences</guibutton>"
+msgstr "<guibutton>button|Preferences</guibutton>"
 
 #. type: Content of: <book><chapter><section><variablelist><varlistentry><listitem><simpara>
 #. +> trunk 1.6
@@ -314,7 +314,7 @@ msgstr "Кликом на ово дугме отварате систем пом
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:243
 msgid "Next"
-msgstr "<guibutton>Next</guibutton>"
+msgstr "<guibutton>TitleScreen|Next</guibutton>"
 
 #. type: Content of: <book><chapter><section><variablelist><varlistentry><listitem><simpara>
 #. +> trunk 1.6
@@ -446,7 +446,7 @@ msgstr "Овде уносите своје име на вишеиграчком 
 #. +> trunk 1.6
 #: ../../doc/manual/manual.en.xml:338
 msgid "Join official Server"
-msgstr "<guibutton>Join official Server</guibutton>"
+msgstr "<guibutton>Join Official Server</guibutton>"
 
 #. type: Content of: <book><chapter><section><section><section><simpara>
 #. +> trunk 1.6
@@ -2596,7 +2596,7 @@ msgstr "<emphasis role=\"strong\">~%/blade/</emphasis>: оружја са нао
 #. +> trunk
 #: ../../doc/manual/manual.en.xml:2081
 msgid "<emphasis role=\"strong\">Piercing</emphasis>: Weapons with a sharp point and either a long handle or a missile, used to perforate foe&#8217;s body and damage internal organs. Examples: Knight or infantry pike, arrow."
-msgstr "<emphasis role=\"strong\">~%/piercе/</emphasis>: оружја са заоштреним врхом и дугом дршком, или пројектили, којим се противник пробурази и оштете му се унутрашњи органи. Примери: витешко или пешадијско дуго копље, стрела."
+msgstr "<emphasis role=\"strong\">~%/pierce/</emphasis>: оружја са заоштреним врхом и дугом дршком, или пројектили, којим се противник пробурази и оштете му се унутрашњи органи. Примери: витешко или пешадијско дуго копље, стрела."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> 1.6
@@ -2704,7 +2704,7 @@ msgstr "Чекајући у селу. Јединица ће се лечити о
 #. +> trunk
 #: ../../doc/manual/manual.en.xml:2147
 msgid "Being adjacent to units with the <emphasis>heals</emphasis> ability. The number of hitpoints healed is specified in the unit&#8217;s ability description. This is invariably <emphasis>heals +4</emphasis> or <emphasis>heals +8</emphasis>."
-msgstr "Стојећи крај јединице са способношћу <emphasis>лечења</emphasis>. Број ударпоена који може да излечи дат је у опису способности те јединице, и то као <emphasis>~%/heals +4/</emphasis> или <emphasis>~%/heals +8/</emphasis>."
+msgstr "Стојећи крај јединице са способношћу <emphasis>лечења</emphasis>. Број ударпоена који може да излечи дат је у опису способности те јединице, и то као <emphasis>~%/|heals +4/</emphasis> или <emphasis>~%/|heals +8/</emphasis>."
 
 #. type: Content of: <book><chapter><section><itemizedlist><listitem><simpara>
 #. +> 1.6
