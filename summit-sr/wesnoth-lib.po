@@ -1,8 +1,8 @@
 # Serbian translations for Battle for Wesnoth package.
 # Copyright (C) 2005 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# Branko Kokanovic, 2006.
 # Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009.
+# Branko Kokanovic, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
@@ -15,8 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 "X-Wrapping: fine\n"
 
@@ -1674,16 +1673,12 @@ msgstr "Вишеиграње"
 #. +> trunk 1.6
 #: data/gui/default/window/mp_method_selection.cfg:82
 msgid ""
-"You may login to the official multiplayer server with your forum username "
-"and password.\n"
-"Note that registration is not required to join the server: you need to "
-"supply a password only if you wish to use a registered username.\n"
+"You may login to the official multiplayer server with your forum username and password.\n"
+"Note that registration is not required to join the server: you need to supply a password only if you wish to use a registered username.\n"
 "\n"
 "The Battle for Wesnoth forum can be found at http://www.wesnoth.org/forum/"
 msgstr ""
-"На званични вишеиграчки сервер можете се пријавити под својим форумским "
-"именом и лозинком. Регистрација није неопходна за приступ серверу: лозинку "
-"треба да приложите само ако желите да региструјете корисничко име.\n"
+"На званични вишеиграчки сервер можете се пријавити под својим форумским именом и лозинком. Регистрација није неопходна за приступ серверу: лозинку треба да приложите само ако желите да региструјете корисничко име.\n"
 "\n"
 "Форум „Боја за Веснот“ можете наћи на http://www.wesnoth.org/forum/"
 
@@ -2164,10 +2159,8 @@ msgstr "Да ли се игра преко целог екрана или у п�
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:300
-msgid ""
-"Should the map view scroll to a unit when an action or move is animated."
-msgstr ""
-"Треба ли мапа да отклиза до јединице при анимирању дејства или покрета."
+msgid "Should the map view scroll to a unit when an action or move is animated."
+msgstr "Треба ли мапа да отклиза до јединице при анимирању дејства или покрета."
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:303
@@ -2237,8 +2230,7 @@ msgstr "Прикажи поруке о свим играчима који при
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:368
 msgid "Find and set path to MP server to host LAN games."
-msgstr ""
-"Пронађите и поставите путању до ви. сервера, за удомљавање ЛАН партија."
+msgstr "Пронађите и поставите путању до ви. сервера, за удомљавање ЛАН партија."
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:369
@@ -2297,9 +2289,7 @@ msgstr "Зазвони на почетку мог потеза"
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:391
-msgid ""
-"Show a colored circle around the base of each unit to show which side it is "
-"on"
+msgid "Show a colored circle around the base of each unit to show which side it is on"
 msgstr "Прикажи око основе сваке јединице круг у боји стране којој припада"
 
 #. +> trunk 1.6
@@ -2400,8 +2390,7 @@ msgstr "Сачувана подешавања теме: "
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:1220
 msgid "New theme will take effect on next new or loaded game."
-msgstr ""
-"Нова тема ће се исказати по следећем покретању игре или учитавању позиције."
+msgstr "Нова тема ће се исказати по следећем покретању игре или учитавању позиције."
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:1224
@@ -2485,8 +2474,7 @@ msgstr "Поље list_definition мора садржати једну врсту
 #: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:61
 #: src/gui/auxiliary/window_builder/listbox.cpp:71
 #: src/gui/auxiliary/window_builder/multi_page.cpp:58
-msgid ""
-"'list_data' must have the same number of columns as the 'list_definition'."
+msgid "'list_data' must have the same number of columns as the 'list_definition'."
 msgstr "Поље list_data мора имати исти број колона као list_definition."
 
 #. +> trunk
@@ -2561,12 +2549,8 @@ msgstr "Посматрачи нису дозвољени"
 
 #. +> trunk
 #: src/gui/dialogs/lobby_main.cpp:801
-msgid ""
-"Whisper session with $name started. If you don't want to receive messages "
-"from this user, type /ignore $name\n"
-msgstr ""
-"Започета сесија шаптања за $name|. Ако не желите да примате поруке овог "
-"корисника, упишите /ignore $name\n"
+msgid "Whisper session with $name started. If you don't want to receive messages from this user, type /ignore $name\n"
+msgstr "Започета сесија шаптања за $name|. Ако не желите да примате поруке овог корисника, упишите /ignore $name\n"
 
 #. +> trunk
 #: src/gui/dialogs/lobby_main.cpp:807
@@ -2620,8 +2604,7 @@ msgstr "Прозор није дефинисан."
 
 #. +> trunk 1.6
 #: src/gui/widgets/settings.cpp:412
-msgid ""
-"Widget definition '$definition' doesn't contain the definition for '$id'."
+msgid "Widget definition '$definition' doesn't contain the definition for '$id'."
 msgstr "Дефиниција виџета „$definition“ не садржи дефиницију за „$id“."
 
 #. +> trunk 1.6
@@ -3288,14 +3271,8 @@ msgstr "Грешка у стварању или добављању слике."
 
 #. +> trunk 1.6
 #: src/preferences_display.cpp:79 src/preferences_display.cpp:144
-msgid ""
-"The video mode could not be changed. Your window manager must be set to 16 "
-"bits per pixel to run the game in windowed mode. Your display must support "
-"1024x768x16 to run the game full screen."
-msgstr ""
-"Промена видео режима није успела. Менаџер прозора мора подржавати 16 бита по "
-"пикселу да би игра радила у прозору. Приказ мора подржавати 1024×768×16 да "
-"би игра ишла преко целог екрана."
+msgid "The video mode could not be changed. Your window manager must be set to 16 bits per pixel to run the game in windowed mode. Your display must support 1024x768x16 to run the game full screen."
+msgstr "Промена видео режима није успела. Менаџер прозора мора подржавати 16 бита по пикселу да би игра радила у прозору. Приказ мора подржавати 1024×768×16 да би игра ишла преко целог екрана."
 
 #. +> trunk 1.6
 #: src/preferences_display.cpp:243
@@ -3334,11 +3311,8 @@ msgstr "Пречица је већ у употреби."
 
 #. +> trunk 1.6
 #: src/preferences_display.cpp:362
-msgid ""
-"Warning: screenshot hotkeys not combined with Control, Alt or Meta keys."
-msgstr ""
-"Упозорење: пречице за снимање екрана нису комбинације са тастерима Ctrl, Alt "
-"или Meta."
+msgid "Warning: screenshot hotkeys not combined with Control, Alt or Meta keys."
+msgstr "Упозорење: пречице за снимање екрана нису комбинације са тастерима Ctrl, Alt или Meta."
 
 #. +> trunk 1.6
 #: src/preferences_display.cpp:453
@@ -3352,9 +3326,7 @@ msgstr "Изабери резолуцију"
 
 #. +> trunk 1.6
 #: src/terrain_translation.cpp:703
-msgid ""
-"A terrain with a string with more than 4 characters has been found, the "
-"affected terrain is :"
+msgid "A terrain with a string with more than 4 characters has been found, the affected terrain is :"
 msgstr "Нађен терен са ниском дужом од четири знака. Терен на који ово утиче:"
 
 #. +> trunk 1.6
@@ -3373,12 +3345,8 @@ msgstr "Када пријављујете грешку, молимо укључ�
 
 #. +> trunk 1.6
 #: src/wml_exception.cpp:73
-msgid ""
-"In section '[$section|]' where '$primary_key| = $primary_value' the "
-"mandatory key '$key|' isn't set."
-msgstr ""
-"У одељку ‘[$section|]’ где ‘$primary_key| = $primary_value’ није постављен "
-"обавезни кључ ‘$key|’."
+msgid "In section '[$section|]' where '$primary_key| = $primary_value' the mandatory key '$key|' isn't set."
+msgstr "У одељку ‘[$section|]’ где ‘$primary_key| = $primary_value’ није постављен обавезни кључ ‘$key|’."
 
 #. +> trunk 1.6
 #: src/wml_exception.cpp:76
