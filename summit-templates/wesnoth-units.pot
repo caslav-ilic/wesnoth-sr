@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-12-09 09:49+0100\n"
+"POT-Creation-Date: 2010-01-16 15:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -190,20 +190,20 @@ msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk
-#: data/core/units/drakes/Armageddon.cfg:85 data/core/units/drakes/Fire.cfg:42
+#: data/core/units/drakes/Armageddon.cfg:86 data/core/units/drakes/Fire.cfg:42
 #: data/core/units/drakes/Inferno.cfg:44
 msgid "battle claws"
 msgstr ""
 
 #. [attack]: type=fire
 #. +> trunk 1.6
-#: data/core/units/drakes/Armageddon.cfg:94
+#: data/core/units/drakes/Armageddon.cfg:95
 #: data/core/units/drakes/Blademaster.cfg:50
 #: data/core/units/drakes/Burner.cfg:49 data/core/units/drakes/Fighter.cfg:48
 #: data/core/units/drakes/Fire.cfg:51 data/core/units/drakes/Flameheart.cfg:44
 #: data/core/units/drakes/Flare.cfg:43 data/core/units/drakes/Glider.cfg:53
-#: data/core/units/drakes/Hurricane.cfg:136
-#: data/core/units/drakes/Inferno.cfg:53 data/core/units/drakes/Sky.cfg:135
+#: data/core/units/drakes/Hurricane.cfg:138
+#: data/core/units/drakes/Inferno.cfg:53 data/core/units/drakes/Sky.cfg:137
 #: data/core/units/drakes/Warrior.cfg:48
 #: data/core/units/monsters/Fire_Dragon.cfg:49
 msgid "fire breath"
@@ -230,7 +230,7 @@ msgstr ""
 #. [attack]: type=blade
 #. +> trunk
 #: data/core/units/drakes/Blademaster.cfg:41
-#: data/core/units/drakes/Clasher.cfg:38
+#: data/core/units/drakes/Clasher.cfg:39
 #: data/core/units/drakes/Enforcer.cfg:36
 #: data/core/units/drakes/Thrasher.cfg:23
 msgid "war talon"
@@ -280,16 +280,24 @@ msgstr ""
 
 #. [unit_type]: id=Drake Clasher, race=drake
 #. +> trunk
-#: data/core/units/drakes/Clasher.cfg:22
+#: data/core/units/drakes/Clasher.cfg:23
 msgid ""
-"The Clashers are members of a unique caste among the drakes. Their thick armor, while compensating for the drakes' natural weakness against spears and arrows, is so heavy and restricting that they are not able to fly or muster enough breath to use their inner fire. They have embraced this handicap, completely encasing their wings to emphasize that they do not need flight to triumph in battle.\n"
+"The Clashers are members of a unique caste among the drakes. Their thick "
+"armor, while compensating for the drakes' natural weakness against spears "
+"and arrows, is so heavy and restricting that they are not able to fly or "
+"muster enough breath to use their inner fire. They have embraced this "
+"handicap, completely encasing their wings to emphasize that they do not need "
+"flight to triumph in battle.\n"
 "\n"
-"This is also the only caste that is allowed to break taboo and fight with spears in addition to the drake's traditional metal claws, which makes them particularly good at \"resolving\" territorial disputes with other drakes and enforcing the laws of their tribe."
+"This is also the only caste that is allowed to break taboo and fight with "
+"spears in addition to the drake's traditional metal claws, which makes them "
+"particularly good at \"resolving\" territorial disputes with other drakes "
+"and enforcing the laws of their tribe."
 msgstr ""
 
 #. [attack]: type=pierce
 #. +> trunk 1.6
-#: data/core/units/drakes/Clasher.cfg:47
+#: data/core/units/drakes/Clasher.cfg:48
 #: data/core/units/drakes/Thrasher.cfg:32
 #: data/core/units/dwarves/Guardsman.cfg:43
 #: data/core/units/dwarves/Sentinel.cfg:51
@@ -373,7 +381,9 @@ msgstr ""
 
 #. [attack]: type=blade
 #. +> trunk
-#: data/core/units/drakes/Fighter.cfg:39 data/core/units/drakes/Warrior.cfg:39
+#: data/core/units/drakes/Fighter.cfg:39
+#: data/core/units/drakes/Flameheart.cfg:35
+#: data/core/units/drakes/Flare.cfg:34 data/core/units/drakes/Warrior.cfg:39
 msgid "war blade"
 msgstr ""
 
@@ -419,35 +429,6 @@ msgstr ""
 msgid "Flamehearts lack the strength to defeat other high-ranking drakes in single combat, but prefer in any case to avoid confrontation within the tribe. Experience has taught any drake of this stature the extent of his authority: where he can push those he leads and when it is best to leave them to their own devices. Only occasionally will a Flameheart challenge his tribe's leader for supremacy, and only if he is sure of the support of his fellow drakes."
 msgstr ""
 
-#. [attack]: type=blade
-#. [attack]: type=arcane
-#. +> trunk 1.6
-#: data/core/units/drakes/Flameheart.cfg:35
-#: data/core/units/drakes/Flare.cfg:34 data/core/units/elves/Archer.cfg:37
-#: data/core/units/elves/Avenger.cfg:76 data/core/units/elves/Captain.cfg:47
-#: data/core/units/elves/Champion.cfg:36 data/core/units/elves/Fighter.cfg:36
-#: data/core/units/elves/Hero.cfg:35 data/core/units/elves/High_Lord.cfg:73
-#: data/core/units/elves/Lord.cfg:39 data/core/units/elves/Marksman.cfg:64
-#: data/core/units/elves/Marshal.cfg:46 data/core/units/elves/Outrider.cfg:46
-#: data/core/units/elves/Ranger.cfg:73 data/core/units/elves/Rider.cfg:48
-#: data/core/units/elves/Scout.cfg:47
-#: data/core/units/elves/Sharpshooter.cfg:63
-#: data/core/units/humans/Horse_Knight.cfg:35
-#: data/core/units/humans/Horse_Paladin.cfg:52
-#: data/core/units/humans/Loyalist_Cavalryman.cfg:64
-#: data/core/units/humans/Loyalist_Dragoon.cfg:49
-#: data/core/units/humans/Loyalist_Lieutenant.cfg:46
-#: data/core/units/humans/Loyalist_Longbowman.cfg:39
-#: data/core/units/humans/Loyalist_Master_Bowman.cfg:39
-#: data/core/units/humans/Loyalist_Sergeant.cfg:47
-#: data/core/units/humans/Loyalist_Swordsman.cfg:39
-#: data/core/units/humans/Woodsman_Ranger.cfg:59
-#: data/core/units/nagas/Fighter.cfg:102 data/core/units/nagas/Myrmidon.cfg:43
-#: data/core/units/nagas/Warrior.cfg:41 data/core/units/orcs/Grunt.cfg:71
-#: data/core/units/orcs/Leader.cfg:28
-msgid "sword"
-msgstr ""
-
 #. [unit_type]: id=Drake Flare, race=drake
 #. +> trunk 1.6
 #: data/core/units/drakes/Flare.cfg:4
@@ -490,7 +471,7 @@ msgstr ""
 #. [attack]: type=impact
 #. +> trunk 1.6
 #: data/core/units/drakes/Glider.cfg:44
-#: data/core/units/drakes/Hurricane.cfg:127 data/core/units/drakes/Sky.cfg:126
+#: data/core/units/drakes/Hurricane.cfg:129 data/core/units/drakes/Sky.cfg:128
 msgid "slam"
 msgstr ""
 
@@ -907,6 +888,33 @@ msgstr ""
 msgid "Elves have always had a reputation for archery, a skill that, for many reasons, comes naturally to them. Even the frail of body can be deadly with a bow in hand, and in times of war, many will take up this weapon. Though their relative inexperience with combat leaves them somewhat vulnerable, their natural grace ensures that they can best any of humanity's fresh recruits."
 msgstr ""
 
+#. [attack]: type=blade
+#. [attack]: type=arcane
+#. +> trunk 1.6
+#: data/core/units/elves/Archer.cfg:37 data/core/units/elves/Avenger.cfg:76
+#: data/core/units/elves/Captain.cfg:47 data/core/units/elves/Champion.cfg:36
+#: data/core/units/elves/Fighter.cfg:36 data/core/units/elves/Hero.cfg:35
+#: data/core/units/elves/High_Lord.cfg:73 data/core/units/elves/Lord.cfg:39
+#: data/core/units/elves/Marksman.cfg:64 data/core/units/elves/Marshal.cfg:46
+#: data/core/units/elves/Outrider.cfg:46 data/core/units/elves/Ranger.cfg:73
+#: data/core/units/elves/Rider.cfg:48 data/core/units/elves/Scout.cfg:47
+#: data/core/units/elves/Sharpshooter.cfg:63
+#: data/core/units/humans/Horse_Knight.cfg:35
+#: data/core/units/humans/Horse_Paladin.cfg:52
+#: data/core/units/humans/Loyalist_Cavalryman.cfg:64
+#: data/core/units/humans/Loyalist_Dragoon.cfg:49
+#: data/core/units/humans/Loyalist_Lieutenant.cfg:46
+#: data/core/units/humans/Loyalist_Longbowman.cfg:39
+#: data/core/units/humans/Loyalist_Master_Bowman.cfg:39
+#: data/core/units/humans/Loyalist_Sergeant.cfg:47
+#: data/core/units/humans/Loyalist_Swordsman.cfg:39
+#: data/core/units/humans/Woodsman_Ranger.cfg:59
+#: data/core/units/nagas/Fighter.cfg:102 data/core/units/nagas/Myrmidon.cfg:43
+#: data/core/units/nagas/Warrior.cfg:41 data/core/units/orcs/Grunt.cfg:71
+#: data/core/units/orcs/Leader.cfg:28
+msgid "sword"
+msgstr ""
+
 #. [attack]: type=pierce
 #. [attack]: type=fire
 #. +> trunk 1.6
@@ -1137,15 +1145,19 @@ msgid "Elvish Lady"
 msgstr ""
 
 #. [unit_type]: id=Elvish Lady, race=elf
-#. +> trunk
-#: data/core/units/elves/Lady.cfg:20
-msgid "Elves choose their leaders for their wisdom and sensitivity to the balance of universal forces; foresight is what has protected them in times of uncertainty. Their just reign is rewarded by the unflagging fealty of their people, which is the greatest gift for which any ruler could ask."
-msgstr ""
-
-#. [unit_type]: id=Elvish Lady, race=elf
 #. +> 1.6
 #: data/core/units/elves/Lady.cfg:20
 msgid "Elves choose their leaders for their power and wisdom; foresight is what has protected them in times of uncertainty. Their just reign is rewarded by the unflagging fealty of their people, which is the greatest gift any ruler could ask for."
+msgstr ""
+
+#. [unit_type]: id=Elvish Lady, race=elf
+#. +> trunk
+#: data/core/units/elves/Lady.cfg:21
+msgid ""
+"Elves choose their leaders for their wisdom and sensitivity to the balance "
+"of universal forces; foresight is what has protected them in times of "
+"uncertainty. Their just reign is rewarded by the unflagging fealty of their "
+"people, which is the greatest gift for which any ruler could ask."
 msgstr ""
 
 #. [unit_type]: id=Elvish Lord, race=elf
