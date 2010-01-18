@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sr\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-01-16 15:58+0100\n"
+"POT-Creation-Date: 2010-01-18 23:37+0100\n"
 "PO-Revision-Date: 2009-11-15 13:04+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -15,7 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 "X-Wrapping: fine\n"
 
@@ -710,8 +711,8 @@ msgstr "Играње похода"
 #: data/gui/default/window/unit_create.cfg:205
 #: data/gui/default/window/wml_message.cfg:458
 #: data/gui/default/window/wml_message.cfg:679 src/construct_dialog.cpp:126
-#: src/construct_dialog.cpp:133 src/gui/dialogs/message.cpp:163
-#: src/gui/dialogs/message.cpp:170
+#: src/construct_dialog.cpp:133 src/gui/dialogs/message.cpp:164
+#: src/gui/dialogs/message.cpp:171
 msgid "OK"
 msgstr "У реду"
 
@@ -952,7 +953,7 @@ msgstr "Траг извршавања"
 #. [grid]
 #. +> trunk 1.6
 #: data/gui/default/window/formula_debugger.cfg:222
-#: data/gui/default/window/lobby_main.cfg:550
+#: data/gui/default/window/lobby_main.cfg:555
 #: data/gui/default/window/title_screen.cfg:191 src/hotkeys.cpp:643
 #: src/hotkeys.cpp:934
 msgid "Quit"
@@ -987,7 +988,7 @@ msgstr "Не питај ме поново"
 #: data/gui/default/window/game_save_oos.cfg:187
 #: data/gui/default/window/game_save_overwrite.cfg:88
 #: data/gui/default/window/game_save_overwrite.cfg:89
-#: src/construct_dialog.cpp:129 src/gui/dialogs/message.cpp:177
+#: src/construct_dialog.cpp:129 src/gui/dialogs/message.cpp:178
 msgid "Yes"
 msgstr "Да"
 
@@ -998,7 +999,7 @@ msgstr "Да"
 #: data/gui/default/window/game_save_message.cfg:154
 #: data/gui/default/window/game_save_oos.cfg:201
 #: data/gui/default/window/game_save_overwrite.cfg:103
-#: src/construct_dialog.cpp:130 src/gui/dialogs/message.cpp:179
+#: src/construct_dialog.cpp:130 src/gui/dialogs/message.cpp:180
 msgid "No"
 msgstr "Не"
 
@@ -1006,7 +1007,7 @@ msgstr "Не"
 #. [label]: id=lblTitle
 #. +> trunk 1.6
 #: data/gui/default/window/game_load.cfg:42
-#: src/gui/dialogs/mp_create_game.cpp:75 src/hotkeys.cpp:66
+#: src/gui/dialogs/mp_create_game.cpp:76 src/hotkeys.cpp:66
 msgid "Load Game"
 msgstr "Учитај позицију"
 
@@ -1153,7 +1154,7 @@ msgstr "Променљива"
 #. [button]: id=close_window
 #. +> trunk 1.6
 #: data/gui/default/window/gamestate_inspector.cfg:331
-#: data/gui/default/window/lobby_main.cfg:509
+#: data/gui/default/window/lobby_main.cfg:514
 #: data/gui/default/window/lobby_player_info.cfg:192
 #: data/gui/default/window/message.cfg:122 src/construct_dialog.cpp:140
 msgid "Close"
@@ -1182,149 +1183,149 @@ msgstr "Промени језик"
 
 #. [row]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:108
+#: data/gui/default/window/lobby_main.cfg:109
 msgid "Games"
 msgstr "Партије"
 
 #. [row]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:176
+#: data/gui/default/window/lobby_main.cfg:177
 msgid "Requires a password to join"
 msgstr "Захтева лозинку за прикључивање"
 
 #. [toggle_button]: id=use_map_settings
 #. [row]
 #. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:177
+#: data/gui/default/window/lobby_main.cfg:178
 #: data/gui/default/window/mp_create_game.cfg:313
 msgid "Use map settings"
 msgstr "Са поставкама мапе"
 
 #. [row]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:178
+#: data/gui/default/window/lobby_main.cfg:179
 msgid "Reloaded game"
 msgstr "Учитана позиција"
 
 #. [row]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:179
+#: data/gui/default/window/lobby_main.cfg:180
 msgid "Unknown era"
 msgstr "Непозната епоха"
 
 #. [row]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:181
+#: data/gui/default/window/lobby_main.cfg:182
 msgid "Gold per village"
 msgstr "Злата по селу"
 
 #. [label]
 #. [row]
 #. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:183
+#: data/gui/default/window/lobby_main.cfg:184
 #: data/gui/default/window/mp_create_game.cfg:412
 msgid "Experience modifier"
 msgstr "Модификатор искуства"
 
 #. [row]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:185
+#: data/gui/default/window/lobby_main.cfg:186
 msgid "Time limit"
 msgstr "Временско ограничење"
 
 #. [label]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:305
+#: data/gui/default/window/lobby_main.cfg:306
 msgid "Sort players:"
 msgstr "Ређање играча:"
 
 #. [toggle_button]: id=player_list_sort_relation
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:313
+#: data/gui/default/window/lobby_main.cfg:314
 msgid "Friends first, ignored people last"
 msgstr "Прво пријатељи, игнорисани на крају"
 
 #. [toggle_button]: id=player_list_sort_name
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:321
+#: data/gui/default/window/lobby_main.cfg:322
 msgid "Alphabetically"
 msgstr "~@/Азбучно/Abecedno/"
 
 #. [definition]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:334
+#: data/gui/default/window/lobby_main.cfg:337
 msgid "Selected game"
 msgstr "Изабрана партија"
 
 #. [definition]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:335
+#: data/gui/default/window/lobby_main.cfg:338
 msgid "Current room"
 msgstr "Текућа соба"
 
 #. [definition]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:336
+#: data/gui/default/window/lobby_main.cfg:339
 msgid "Lobby"
 msgstr "Хол"
 
 #. [definition]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:337
+#: data/gui/default/window/lobby_main.cfg:340
 msgid "Other games"
 msgstr "Друге партије"
 
 #. [label]: id=room
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:369
+#: data/gui/default/window/lobby_main.cfg:374
 msgid "Rooms"
 msgstr "Собе"
 
 #. [image]: id=pending_messages
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:387
+#: data/gui/default/window/lobby_main.cfg:392
 msgid "Messages waiting"
 msgstr "Чекају поруке"
 
 #. [label]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:457
+#: data/gui/default/window/lobby_main.cfg:462
 msgid "Multiplayer Lobby"
 msgstr "Вишеиграчки хол"
 
 #. [label]
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:465
+#: data/gui/default/window/lobby_main.cfg:470
 msgid "Filter:"
 msgstr "Филтер:"
 
 #. [toggle_button]: id=filter_with_friends
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:476
+#: data/gui/default/window/lobby_main.cfg:481
 msgid "Friends"
 msgstr "Пријатељи"
 
 #. [toggle_button]: id=filter_without_ignored
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:482
+#: data/gui/default/window/lobby_main.cfg:487
 msgid "No ignored"
 msgstr "Без игнорисаних"
 
 #. [toggle_button]: id=filter_vacant_slots
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:488
+#: data/gui/default/window/lobby_main.cfg:493
 msgid "Vacant slots"
 msgstr "Слободних места"
 
 #. [toggle_button]: id=filter_invert
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:494
+#: data/gui/default/window/lobby_main.cfg:499
 msgid "Invert filter"
 msgstr "Изврни филтер"
 
 #. [button]: id=send_message
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:538
+#: data/gui/default/window/lobby_main.cfg:543
 msgid "Send"
 msgstr "Пошаљи"
 
@@ -1332,7 +1333,7 @@ msgstr "Пошаљи"
 #. [button]: id=show_preferences
 #. [grid]
 #. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:556
+#: data/gui/default/window/lobby_main.cfg:561
 #: data/gui/default/window/title_screen.cfg:189
 #: src/game_preferences_display.cpp:53 src/hotkeys.cpp:79
 msgid "Preferences"
@@ -1340,33 +1341,33 @@ msgstr "Поставке"
 
 #. [button]: id=refresh
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:562
+#: data/gui/default/window/lobby_main.cfg:567
 msgid "Refresh"
 msgstr "Освежи"
 
 #. [label]
 #. [button]: id=create
 #. +> trunk 1.6
-#: data/gui/default/window/lobby_main.cfg:576
+#: data/gui/default/window/lobby_main.cfg:581
 #: data/gui/default/window/mp_create_game.cfg:33
 msgid "Create Game"
 msgstr "Направи партију"
 
 #. [button]: id=join_global
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:582
+#: data/gui/default/window/lobby_main.cfg:587
 msgid "Join"
 msgstr "Придружи се"
 
 #. [button]: id=observe_global
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:588
+#: data/gui/default/window/lobby_main.cfg:593
 msgid "Observe"
 msgstr "Посматрај"
 
 #. [toggle_button]: id=skip_replay
 #. +> trunk
-#: data/gui/default/window/lobby_main.cfg:594
+#: data/gui/default/window/lobby_main.cfg:599
 msgid "Quick replay"
 msgstr "Брзи снимак"
 
@@ -1665,7 +1666,7 @@ msgstr "Подсетник лозинке"
 #. +> trunk 1.6
 #: data/gui/default/window/mp_method_selection.cfg:31
 #: data/gui/default/window/title_screen.cfg:184
-#: src/gui/dialogs/game_load.cpp:270
+#: src/gui/dialogs/game_load.cpp:271
 msgid "Multiplayer"
 msgstr "Вишеиграње"
 
@@ -1673,12 +1674,16 @@ msgstr "Вишеиграње"
 #. +> trunk 1.6
 #: data/gui/default/window/mp_method_selection.cfg:82
 msgid ""
-"You may login to the official multiplayer server with your forum username and password.\n"
-"Note that registration is not required to join the server: you need to supply a password only if you wish to use a registered username.\n"
+"You may login to the official multiplayer server with your forum username "
+"and password.\n"
+"Note that registration is not required to join the server: you need to "
+"supply a password only if you wish to use a registered username.\n"
 "\n"
 "The Battle for Wesnoth forum can be found at http://www.wesnoth.org/forum/"
 msgstr ""
-"На званични вишеиграчки сервер можете се пријавити под својим форумским именом и лозинком. Регистрација није неопходна за приступ серверу: лозинку треба да приложите само ако желите да региструјете корисничко име.\n"
+"На званични вишеиграчки сервер можете се пријавити под својим форумским "
+"именом и лозинком. Регистрација није неопходна за приступ серверу: лозинку "
+"треба да приложите само ако желите да региструјете корисничко име.\n"
 "\n"
 "Форум „Боја за Веснот“ можете наћи на http://www.wesnoth.org/forum/"
 
@@ -1753,7 +1758,7 @@ msgstr "Претходно"
 #. [grid]
 #. +> trunk 1.6
 #: data/gui/default/window/title_screen.cfg:182
-#: src/gui/dialogs/game_load.cpp:272
+#: src/gui/dialogs/game_load.cpp:273
 msgid "Tutorial"
 msgstr "Подучавање"
 
@@ -1825,32 +1830,32 @@ msgid "Race"
 msgstr "раса"
 
 #. +> trunk 1.6
-#: src/filechooser.cpp:74
+#: src/filechooser.cpp:75
 msgid "File: "
 msgstr "Датотека: "
 
 #. +> trunk 1.6
-#: src/filechooser.cpp:77
+#: src/filechooser.cpp:78
 msgid "Delete File"
 msgstr "Обриши датотеку"
 
 #. +> trunk 1.6
-#: src/filechooser.cpp:79 src/filechooser.cpp:204
+#: src/filechooser.cpp:80 src/filechooser.cpp:205
 msgid "New Folder"
 msgstr "Нова фасцикла"
 
 #. +> trunk 1.6
-#: src/filechooser.cpp:192
+#: src/filechooser.cpp:194
 msgid "Deletion of the file failed."
 msgstr "Брисање датотеке није успело."
 
 #. +> trunk 1.6
-#: src/filechooser.cpp:205
+#: src/filechooser.cpp:206
 msgid "Name: "
 msgstr "Име: "
 
 #. +> trunk 1.6
-#: src/filechooser.cpp:210
+#: src/filechooser.cpp:212
 msgid "Creation of the directory failed."
 msgstr "Стварање директоријума није успело."
 
@@ -2159,8 +2164,10 @@ msgstr "Да ли се игра преко целог екрана или у п�
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:300
-msgid "Should the map view scroll to a unit when an action or move is animated."
-msgstr "Треба ли мапа да отклиза до јединице при анимирању дејства или покрета."
+msgid ""
+"Should the map view scroll to a unit when an action or move is animated."
+msgstr ""
+"Треба ли мапа да отклиза до јединице при анимирању дејства или покрета."
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:303
@@ -2230,7 +2237,8 @@ msgstr "Прикажи поруке о свим играчима који при
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:368
 msgid "Find and set path to MP server to host LAN games."
-msgstr "Пронађите и поставите путању до ви. сервера, за удомљавање ЛАН партија."
+msgstr ""
+"Пронађите и поставите путању до ви. сервера, за удомљавање ЛАН партија."
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:369
@@ -2289,7 +2297,9 @@ msgstr "Зазвони на почетку мог потеза"
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:391
-msgid "Show a colored circle around the base of each unit to show which side it is on"
+msgid ""
+"Show a colored circle around the base of each unit to show which side it is "
+"on"
 msgstr "Прикажи око основе сваке јединице круг у боји стране којој припада"
 
 #. +> trunk 1.6
@@ -2390,7 +2400,8 @@ msgstr "Сачувана подешавања теме: "
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:1220
 msgid "New theme will take effect on next new or loaded game."
-msgstr "Нова тема ће се исказати по следећем покретању игре или учитавању позиције."
+msgstr ""
+"Нова тема ће се исказати по следећем покретању игре или учитавању позиције."
 
 #. +> trunk 1.6
 #: src/game_preferences_display.cpp:1224
@@ -2413,72 +2424,76 @@ msgid "Rectangle doesn't fit on canvas."
 msgstr "Правоугаоник не стаје на платно."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/canvas.cpp:970
+#: src/gui/auxiliary/canvas.cpp:971
 msgid "Text has a font size of 0."
 msgstr "Величина фонта за текст је 0."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/canvas.cpp:1040
+#: src/gui/auxiliary/canvas.cpp:1041
 msgid "Text doesn't start on canvas."
 msgstr "Текст не стаје на платно."
 
-#. +> trunk
-#: src/gui/auxiliary/window_builder.cpp:143
-msgid "Linked '$id' group has multiple definitions."
-msgstr "Повезана група ‘$id’ има вишеструке дефиниције."
-
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:201 src/gui/widgets/settings.cpp:456
+#: src/gui/auxiliary/widget_definition.cpp:138
+#: src/gui/auxiliary/window_builder.cpp:202
 msgid "No resolution defined."
 msgstr "Резолуција није дефинисана."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:308
+#: src/gui/auxiliary/widget_definition/listbox.cpp:105
+#: src/gui/auxiliary/widget_definition/multi_page.cpp:54
+#: src/gui/auxiliary/widget_definition/scroll_label.cpp:73
+#: src/gui/auxiliary/widget_definition/scrollbar_panel.cpp:63
+#: src/gui/auxiliary/widget_definition/stacked_widget.cpp:51
+#: src/gui/auxiliary/window_builder.cpp:309
 #: src/gui/auxiliary/window_builder/panel.cpp:35
 #: src/gui/auxiliary/window_builder/toggle_panel.cpp:38
-#: src/gui/widgets/settings.cpp:724 src/gui/widgets/settings.cpp:823
-#: src/gui/widgets/settings.cpp:950 src/gui/widgets/settings.cpp:993
-#: src/gui/widgets/settings.cpp:1108
 msgid "No grid defined."
 msgstr "Мрежа није дефинисана."
 
 #. +> trunk
-#: src/gui/auxiliary/window_builder.cpp:339
+#: src/gui/auxiliary/window_builder.cpp:144
+msgid "Linked '$id' group has multiple definitions."
+msgstr "Повезана група ‘$id’ има вишеструке дефиниције."
+
+#. +> trunk
+#: src/gui/auxiliary/window_builder.cpp:340
 msgid "Linked '$id' group needs a 'fixed_width' or 'fixed_height' key."
 msgstr "Повезана група ‘$id’ тражи кључ ‘fixed_width’ или ‘fixed_height’."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:438
+#: src/gui/auxiliary/window_builder.cpp:439
 msgid "A row must have a column."
 msgstr "Врста мора имати колону."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder.cpp:439
+#: src/gui/auxiliary/window_builder.cpp:440
 msgid "Number of columns differ."
 msgstr "Број колона се разликује."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:41
-#: src/gui/auxiliary/window_builder/listbox.cpp:51
-#: src/gui/auxiliary/window_builder/scrollbar_panel.cpp:40
+#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:42
+#: src/gui/auxiliary/window_builder/listbox.cpp:52
+#: src/gui/auxiliary/window_builder/scrollbar_panel.cpp:41
 msgid "No list defined."
 msgstr "Списак није задат."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:45
-#: src/gui/auxiliary/window_builder/listbox.cpp:55
+#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:46
+#: src/gui/auxiliary/window_builder/listbox.cpp:56
 msgid "A 'list_definition' should contain one row."
 msgstr "Поље list_definition мора садржати једну врсту."
 
 #. +> trunk 1.6
-#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:61
-#: src/gui/auxiliary/window_builder/listbox.cpp:71
-#: src/gui/auxiliary/window_builder/multi_page.cpp:58
-msgid "'list_data' must have the same number of columns as the 'list_definition'."
+#: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:62
+#: src/gui/auxiliary/window_builder/listbox.cpp:72
+#: src/gui/auxiliary/window_builder/multi_page.cpp:59
+msgid ""
+"'list_data' must have the same number of columns as the 'list_definition'."
 msgstr "Поље list_data мора имати исти број колона као list_definition."
 
 #. +> trunk
-#: src/gui/auxiliary/window_builder/multi_page.cpp:37
+#: src/gui/auxiliary/window_builder/multi_page.cpp:38
 msgid "No page defined."
 msgstr "Страница није дефинисана."
 
@@ -2488,102 +2503,106 @@ msgid "The number of value_labels and values don't match."
 msgstr "Број value_labels и вредности се не слаже."
 
 #. +> trunk
-#: src/gui/auxiliary/window_builder/stacked_widget.cpp:35
+#: src/gui/auxiliary/window_builder/stacked_widget.cpp:36
 msgid "No stack defined."
 msgstr "Стек није задат."
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:243
+#: src/gui/dialogs/game_load.cpp:244
 msgid "#(Invalid)"
 msgstr "#(неваљан)"
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:263
+#: src/gui/dialogs/game_load.cpp:264
 msgid "Campaign: $campaign_name"
 msgstr "Поход: $campaign_name"
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:282
+#: src/gui/dialogs/game_load.cpp:283
 msgid "replay"
 msgstr "снимак"
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:284
+#: src/gui/dialogs/game_load.cpp:285
 msgid "Turn"
 msgstr "Потез"
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:286
+#: src/gui/dialogs/game_load.cpp:287
 msgid "Scenario Start"
 msgstr "Почетак сценарија"
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:289
+#: src/gui/dialogs/game_load.cpp:290
 msgid "Difficulty: "
 msgstr "Тежина: "
 
 #. +> trunk
-#: src/gui/dialogs/game_load.cpp:293
+#: src/gui/dialogs/game_load.cpp:294
 msgid "Version: "
 msgstr "Верзија: "
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:170
+#: src/gui/dialogs/lobby_main.cpp:172
 msgid "whisper to $receiver"
 msgstr "шапат за $receiver"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:454
+#: src/gui/dialogs/lobby_main.cpp:575
 msgid "Games: showing $num_shown out of $num_total"
 msgstr "Партије: приказно $num_shown од $num_total"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:498
+#: src/gui/dialogs/lobby_main.cpp:617
 msgid "Observers allowed"
 msgstr "Посматрачи дозвољени"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:501
+#: src/gui/dialogs/lobby_main.cpp:620
 msgid "Observers not allowed"
 msgstr "Посматрачи нису дозвољени"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:801
-msgid "Whisper session with $name started. If you don't want to receive messages from this user, type /ignore $name\n"
-msgstr "Започета сесија шаптања за $name|. Ако не желите да примате поруке овог корисника, упишите /ignore $name\n"
+#: src/gui/dialogs/lobby_main.cpp:921
+msgid ""
+"Whisper session with $name started. If you don't want to receive messages "
+"from this user, type /ignore $name\n"
+msgstr ""
+"Започета сесија шаптања за $name|. Ако не желите да примате поруке овог "
+"корисника, упишите /ignore $name\n"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:807
+#: src/gui/dialogs/lobby_main.cpp:927
 msgid "Room $name joined"
 msgstr "У соби $name"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1266
+#: src/gui/dialogs/lobby_main.cpp:1404
 msgid "Password Required"
 msgstr "Неопходна лозинка"
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1267
+#: src/gui/dialogs/lobby_main.cpp:1405
 msgid "Joining this game requires a password."
 msgstr "За прикључивање овој партији неопходна је лозинка."
 
 #. +> trunk
-#: src/gui/dialogs/lobby_main.cpp:1268
+#: src/gui/dialogs/lobby_main.cpp:1406
 msgid "Password: "
 msgstr "Лозинка: "
 
 #. +> trunk 1.6
-#: src/gui/dialogs/message.cpp:191
+#: src/gui/dialogs/message.cpp:192 src/gui/dialogs/transient_message.cpp:57
 msgid "Error"
 msgstr "Грешка"
 
 #. +> trunk 1.6
-#: src/gui/dialogs/mp_create_game.cpp:76
+#: src/gui/dialogs/mp_create_game.cpp:77
 msgid "Load Game..."
 msgstr "Учитај позицију..."
 
 #. +> trunk 1.6
-#: src/gui/dialogs/title_screen.cpp:90
+#: src/gui/dialogs/title_screen.cpp:91
 msgid "Version"
 msgstr "верзија"
 
@@ -2593,33 +2612,34 @@ msgid "Mandatory widget '$id' hasn't been defined."
 msgstr "Обавезни виџет „$id“ није дефинисан."
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:145
-msgid "No default gui defined."
-msgstr "Подразумевано сучеље није дефинисано."
-
-#. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:307
+#: src/gui/widgets/settings.cpp:299
 msgid "Window not defined."
 msgstr "Прозор није дефинисан."
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:412
-msgid "Widget definition '$definition' doesn't contain the definition for '$id'."
+#: src/gui/widgets/settings.cpp:404
+msgid ""
+"Widget definition '$definition' doesn't contain the definition for '$id'."
 msgstr "Дефиниција виџета „$definition“ не садржи дефиницију за „$id“."
 
 #. +> trunk 1.6
-#: src/gui/widgets/settings.cpp:482
+#: src/gui/widgets/settings.cpp:491
+msgid "No default gui defined."
+msgstr "Подразумевано сучеље није дефинисано."
+
+#. +> trunk 1.6
+#: src/gui/widgets/settings.cpp:518
 msgid "No state or draw section defined."
 msgstr "Одељак стања или цртања није дефинисан."
 
 # >? Wtf?
 #. +> trunk
-#: src/gui/widgets/window.cpp:777
+#: src/gui/widgets/window.cpp:772
 msgid "Click dismiss needs a 'click_dismiss' or 'ok' button."
 msgstr "Клику отпуштања треба дугме „click_dismiss“ или „ok“."
 
 #. +> trunk 1.6
-#: src/gui/widgets/window.cpp:802 src/gui/widgets/window.cpp:835
+#: src/gui/widgets/window.cpp:797 src/gui/widgets/window.cpp:830
 #: src/tests/gui/test_gui2.cpp:229
 msgid "Failed to show a dialog, which doesn't fit on the screen."
 msgstr "Не могу да прикажем дијалог који не стаје на екран."
@@ -3271,8 +3291,14 @@ msgstr "Грешка у стварању или добављању слике."
 
 #. +> trunk 1.6
 #: src/preferences_display.cpp:79 src/preferences_display.cpp:144
-msgid "The video mode could not be changed. Your window manager must be set to 16 bits per pixel to run the game in windowed mode. Your display must support 1024x768x16 to run the game full screen."
-msgstr "Промена видео режима није успела. Менаџер прозора мора подржавати 16 бита по пикселу да би игра радила у прозору. Приказ мора подржавати 1024×768×16 да би игра ишла преко целог екрана."
+msgid ""
+"The video mode could not be changed. Your window manager must be set to 16 "
+"bits per pixel to run the game in windowed mode. Your display must support "
+"1024x768x16 to run the game full screen."
+msgstr ""
+"Промена видео режима није успела. Менаџер прозора мора подржавати 16 бита по "
+"пикселу да би игра радила у прозору. Приказ мора подржавати 1024×768×16 да "
+"би игра ишла преко целог екрана."
 
 #. +> trunk 1.6
 #: src/preferences_display.cpp:243
@@ -3311,8 +3337,11 @@ msgstr "Пречица је већ у употреби."
 
 #. +> trunk 1.6
 #: src/preferences_display.cpp:362
-msgid "Warning: screenshot hotkeys not combined with Control, Alt or Meta keys."
-msgstr "Упозорење: пречице за снимање екрана нису комбинације са тастерима Ctrl, Alt или Meta."
+msgid ""
+"Warning: screenshot hotkeys not combined with Control, Alt or Meta keys."
+msgstr ""
+"Упозорење: пречице за снимање екрана нису комбинације са тастерима Ctrl, Alt "
+"или Meta."
 
 #. +> trunk 1.6
 #: src/preferences_display.cpp:453
@@ -3326,7 +3355,9 @@ msgstr "Изабери резолуцију"
 
 #. +> trunk 1.6
 #: src/terrain_translation.cpp:703
-msgid "A terrain with a string with more than 4 characters has been found, the affected terrain is :"
+msgid ""
+"A terrain with a string with more than 4 characters has been found, the "
+"affected terrain is :"
 msgstr "Нађен терен са ниском дужом од четири знака. Терен на који ово утиче:"
 
 #. +> trunk 1.6
@@ -3345,8 +3376,12 @@ msgstr "Када пријављујете грешку, молимо укључ�
 
 #. +> trunk 1.6
 #: src/wml_exception.cpp:73
-msgid "In section '[$section|]' where '$primary_key| = $primary_value' the mandatory key '$key|' isn't set."
-msgstr "У одељку ‘[$section|]’ где ‘$primary_key| = $primary_value’ није постављен обавезни кључ ‘$key|’."
+msgid ""
+"In section '[$section|]' where '$primary_key| = $primary_value' the "
+"mandatory key '$key|' isn't set."
+msgstr ""
+"У одељку ‘[$section|]’ где ‘$primary_key| = $primary_value’ није постављен "
+"обавезни кључ ‘$key|’."
 
 #. +> trunk 1.6
 #: src/wml_exception.cpp:76
