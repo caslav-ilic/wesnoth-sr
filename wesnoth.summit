@@ -7,7 +7,7 @@ from pology.hook.gettext_tools import msgfilter, msgfmt
 from pology.hook.ui_references import resolve_ui, resolve_ui_docbook4
 from pology.misc.resolve import resolve_alternatives_simple
 from pology.misc.fsops import collect_catalogs
-from pology.l10n.sr.hook.wconv import ctol
+from pology.l10n.sr.hook.wconv import hictoec, hictoel, hictoic, hictoil
 from pology.l10n.sr.hook.accents import resolve_agraphs as resolve_agraphs_t
 from pology.l10n.sr.hook.limit_chset import limit_to_isocyr
 
@@ -52,23 +52,26 @@ S.branches_wrap = True
 S.summit_fine_wrap = False # no markup in Wesnoth
 S.branches_fine_wrap = False # no markup in Wesnoth
 
-lmod = "@latin"
+lmod = "latin"
+imod = "ijekavian"
+ilmod = "ijekavianlatin"
+vmods = [lmod]
 
 if S.options.lang != S.templates_lang:
-    # Add all @latin branches.
-    more_branches = []
-    for branch in S.branches:
-        lbranch = branch.copy()
-        lbranch["id"] = branch["id"] + lmod
-        lbranch["by_lang"] = branch["by_lang"] + lmod
-        more_branches.append(lbranch)
-    S.branches.extend(more_branches)
-
-    # Add all @latin mappings.
-    more_mappings = []
-    for mapping in S.mappings:
-        more_mappings.append((mapping[0] + lmod,) + mapping[1:])
-    S.mappings.extend(more_mappings)
+    for vmod in vmods:
+        # Add variant branches.
+        more_branches = []
+        for branch in S.branches:
+            lbranch = branch.copy()
+            lbranch["id"] = "%s@%s" % (branch["id"], vmod)
+            lbranch["by_lang"] = "%s@%s" % (branch["by_lang"], vmod)
+            more_branches.append(lbranch)
+        S.branches.extend(more_branches)
+        # Add variant mappings.
+        more_mappings = []
+        for mapping in S.mappings:
+            more_mappings.append((mapping[0] + vmod,) + mapping[1:])
+        S.mappings.extend(more_mappings)
 
 S.vivify_on_merge = True
 S.vivify_w_translator = "Simulacrum"
@@ -90,35 +93,46 @@ def hook_resolve_agraphs (msgstr, msg, cat):
 
     return resolve_agraphs_t(msgstr)
 
-# ----------------------------------------
-# Transliterate to Latin.
-def hook_translit (msgstr, msg, cat):
-
-    return ctol(msgstr)
 
 # ----------------------------------------
-# Resolve alternatives.
+# Dehybridization.
 
-def hook_alts (ind):
+def hook_to_ekcyr (msgstr, msg, cat):
 
-    def hook (msgstr, msg, cat):
-        return resolve_alternatives_simple(msgstr, ind, 2, srcname=cat.filename)
+    return hictoec(msgstr)
 
-    return hook
+
+def hook_to_eklat (msgstr, msg, cat):
+
+    return hictoel(msgstr)
+
+
+def hook_to_ijcyr (msgstr, msg, cat):
+
+    return hictoic(msgstr)
+
+
+def hook_to_ijlat (msgstr, msg, cat):
+
+    return hictoil(msgstr)
 
 # ----------------------------------------
 # Limit character set.
+
 def hook_limit_to_isocyr (msgstr, msg, cat):
 
     return limit_to_isocyr(msgstr)
 
+
 # ----------------------------------------
 # Remove obsolete messages.
+
 def hook_remove_obsolete (cat):
 
     for msg in cat:
         if msg.obsolete:
             cat.remove_on_sync(msg)
+
 
 # ----------------------------------------
 # Convert from and to embedded contexts.
@@ -139,11 +153,15 @@ def hook_msgctxt_to_embedded (msg, cat):
 # ----------------------------------------
 # Branch and catalog selectors.
 
-def is_latin_branch (bid):
-    return lmod in bid
-
-def is_not_latin_branch (bid):
-    return not is_latin_branch(bid)
+# NOTE: These checks are dirty, but should do just fine.
+def is_ekcyr_branch (bid):
+    return imod not in bid and lmod not in bid
+def is_eklat_branch (bid):
+    return imod not in bid and lmod in bid
+def is_ijcyr_branch (bid):
+    return imod in bid and lmod not in bid
+def is_ijlat_branch (bid):
+    return imod in bid and lmod in bid
 
 def is_docbook_cat (cname, csubdir):
     return "manual" in cname
@@ -185,12 +203,11 @@ S.hook_on_scatter_msgstr.extend([
     # -> before transliterating (or else it is necessary to limit by script)
     (hook_limit_to_isocyr, r"", is_manpage_cat),
 
-    # Transliterate to Latin.
-    (hook_translit, is_latin_branch),
-
-    # Resolve alternatives.
-    (hook_alts(1), is_not_latin_branch),
-    (hook_alts(2), is_latin_branch),
+    # Dehybridize.
+    (hook_to_ekcyr, is_ekcyr_branch),
+    (hook_to_eklat, is_eklat_branch),
+    (hook_to_ijcyr, is_ijcyr_branch),
+    (hook_to_ijlat, is_ijlat_branch),
 ])
 
 # Additional hooks on scattered messages.
