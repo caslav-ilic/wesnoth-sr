@@ -9,7 +9,7 @@ from pology.misc.resolve import resolve_alternatives_simple
 from pology.misc.fsops import collect_catalogs
 from pology.l10n.sr.hook.wconv import hictoec, hictoel, hictoic, hictoil
 from pology.l10n.sr.hook.accents import resolve_agraphs as resolve_agraphs_t
-from pology.l10n.sr.hook.limit_chset import limit_to_isocyr
+from pology.l10n.sr.hook.limit_chset import limit_to_isocyr, limit_to_isolat
 
 import os
 import re
@@ -116,12 +116,18 @@ def hook_to_ijlat (msgstr, msg, cat):
 
     return hictoil(msgstr)
 
+
 # ----------------------------------------
 # Limit character set.
 
 def hook_limit_to_isocyr (msgstr, msg, cat):
 
     return limit_to_isocyr(msgstr)
+
+
+def hook_limit_to_isolat (msgstr, msg, cat):
+
+    return limit_to_isolat(msgstr)
 
 
 # ----------------------------------------
@@ -162,6 +168,10 @@ def is_ijcyr_branch (bid):
     return imod in bid and lmod not in bid
 def is_ijlat_branch (bid):
     return imod in bid and lmod in bid
+def is_cyr_branch (bid):
+    return lmod not in bid
+def is_lat_branch (bid):
+    return lmod in bid
 
 def is_docbook_cat (cname, csubdir):
     return "manual" in cname
@@ -191,23 +201,24 @@ uicpaths = collect_catalogs(S.resolve_path_rooted("summit-sr"),
 S.hook_on_scatter_msgstr.extend([
 
     # Resolve references to UI strings.
-    # -> at start (to apply everything on resolved string too)
+    # -> at start (to apply all of the rest to resolved string too)
     (resolve_ui(uicpaths=uicpaths), "", is_not_docbook_cat),
     (resolve_ui_docbook4(uicpaths=uicpaths), "", is_docbook_cat),
 
     # Resolve accent graphs.
-    # -> before transliterating (accented letters need transliteration too)
+    # -> before dehybridization (accented letters need transliteration too)
     (hook_resolve_agraphs,),
-
-    # Limit character set of man pages.
-    # -> before transliterating (or else it is necessary to limit by script)
-    (hook_limit_to_isocyr, r"", is_manpage_cat),
 
     # Dehybridize.
     (hook_to_ekcyr, is_ekcyr_branch),
     (hook_to_eklat, is_eklat_branch),
     (hook_to_ijcyr, is_ijcyr_branch),
     (hook_to_ijlat, is_ijlat_branch),
+
+    # Limit character set of man pages.
+    # -> after dehybridization (to avoid tripping on reflex ticks)
+    (hook_limit_to_isocyr, is_cyr_branch, is_manpage_cat),
+    (hook_limit_to_isolat, is_lat_branch, is_manpage_cat),
 ])
 
 # Additional hooks on scattered messages.
