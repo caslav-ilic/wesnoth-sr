@@ -16,8 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 "X-Wrapping: fine\n"
 
@@ -118,47 +117,28 @@ msgstr "специјално"
 #. +> trunk
 #: data/core/editor/tool-hints.cfg:7 data/core/editor/tool-hints.cfg:13
 #: data/themes/editor.cfg:179 data/themes/editor.cfg:192
-msgid ""
-"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
-"paint base layer only. Ctrl+click to sample terrain under cursor."
-msgstr ""
-"Левим/десним дугметом миша цртате терен спреда/у позадини. Држите Shift за "
-"сликање само по основном слоју. Ctrl+кликом узимате узорак терена испод "
-"показивача."
+msgid "Use left/right mouse button to draw fore-/background terrain. Hold Shift to paint base layer only. Ctrl+click to sample terrain under cursor."
+msgstr "Левим/десним дугметом миша цртате терен спреда/у позадини. Држите Shift за сликање само по основном слоју. Ctrl+кликом узимате узорак терена испод показивача."
 
 #. [editor_tool_hint]: id=editor-tool-select
 #. [menu]: id=select_button_editor
 #. +> trunk
 #: data/core/editor/tool-hints.cfg:19 data/themes/editor.cfg:214
-msgid ""
-"Left mouse button selects, right deselects. Hold Shift for magic-wand "
-"selection of tiles with same terrain."
-msgstr ""
-"Лево дугме миша бира, десно поништава. Држите Shift за избор магичним "
-"штапићем плочица са истим тереном."
+msgid "Left mouse button selects, right deselects. Hold Shift for magic-wand selection of tiles with same terrain."
+msgstr "Лево дугме миша бира, десно поништава. Држите Shift за избор магичним штапићем плочица са истим тереном."
 
 #. [editor_tool_hint]: id=editor-tool-starting-position
 #. [menu]: id=start_position_button_editor
 #. +> trunk
 #: data/core/editor/tool-hints.cfg:25 data/themes/editor.cfg:203
-msgid ""
-"Left mouse button displays player selection, right clears. Number keys "
-"scroll to the starting position, alt+number sets respective starting "
-"position under cursor, delete clears."
-msgstr ""
-"Лево дугме миша приказује избор играча, десно уклања. Тастери бројева "
-"клизају до почетних положаја, Alt+број поставља тај почетни положај под "
-"показивач, Delete уклања."
+msgid "Left mouse button displays player selection, right clears. Number keys scroll to the starting position, alt+number sets respective starting position under cursor, delete clears."
+msgstr "Лево дугме миша приказује избор играча, десно уклања. Тастери бројева клизају до почетних положаја, Alt+број поставља тај почетни положај под показивач, Delete уклања."
 
 #. [editor_tool_hint]: id=editor-paste
 #. +> trunk
 #: data/core/editor/tool-hints.cfg:30
-msgid ""
-"Click to paste, zoom out for more accuracy when pasting large areas. Use the "
-"edit menu to transform the clipboard (rotate, mirror)."
-msgstr ""
-"Кликом налепљујете; умањите приказ за више прецизности при налепљивању већих "
-"подручја. Кроз мени „Уређивање“ обрађујете оставу (заокретање, превртање)."
+msgid "Click to paste, zoom out for more accuracy when pasting large areas. Use the edit menu to transform the clipboard (rotate, mirror)."
+msgstr "Кликом налепљујете; умањите приказ за више прецизности при налепљивању већих подручја. Кроз мени „Уређивање“ обрађујете оставу (заокретање, превртање)."
 
 #. [menu]: id=menu-editor-file
 #. +> trunk
@@ -212,21 +192,13 @@ msgstr "Желите ли заиста да напустите?"
 
 #. +> trunk
 #: src/editor/editor_controller.cpp:309
-msgid ""
-"Do you really want to quit? Changes in the map since the last save will be "
-"lost."
-msgstr ""
-"Желите ли заиста да напустите? Измене на мапи од последњег уписа биће "
-"изгубљене."
+msgid "Do you really want to quit? Changes in the map since the last save will be lost."
+msgstr "Желите ли заиста да напустите? Измене на мапи од последњег уписа биће изгубљене."
 
 #. +> trunk
 #: src/editor/editor_controller.cpp:311
-msgid ""
-"Do you really want to quit? The following maps were modified and all changes "
-"since the last save will be lost:"
-msgstr ""
-"Желите ли заиста да напустите? Следеће мапе су измењене и све измене од "
-"последњег уписа биће изгубљене:"
+msgid "Do you really want to quit? The following maps were modified and all changes since the last save will be lost:"
+msgstr "Желите ли заиста да напустите? Следеће мапе су измењене и све измене од последњег уписа биће изгубљене:"
 
 # наслов
 #. +> trunk
@@ -246,8 +218,7 @@ msgstr "Несачуване измене"
 
 #. +> trunk
 #: src/editor/editor_controller.cpp:410
-msgid ""
-"Do you want to discard all changes you made to the map since the last save?"
+msgid "Do you want to discard all changes you made to the map since the last save?"
 msgstr "Желите ли да одбаците све измене над мапом од последњег уписа?"
 
 # наслов
@@ -403,12 +374,8 @@ msgstr "Датотека није нађена."
 
 #. +> trunk
 #: src/editor/map_context.cpp:84
-msgid ""
-"The map file looks like a scenario, but the map_data value does not point to "
-"an existing file"
-msgstr ""
-"Датотека мапе личи на сценарио, али вредност map_data не показује на "
-"постојећу датотеку."
+msgid "The map file looks like a scenario, but the map_data value does not point to an existing file"
+msgstr "Датотека мапе личи на сценарио, али вредност map_data не показује на постојећу датотеку."
 
 #. +> trunk
 #: src/editor/map_context.cpp:99
@@ -439,15 +406,8 @@ msgstr "Избор играча"
 
 #. +> trunk
 #: src/editor/mouse_action.cpp:432
-msgid ""
-"Which player should start here? You can use alt and a number key to set the "
-"starting position for a player, and del to clear the starting position under "
-"the cursor. Pressing a number key by itself will scroll to that player's "
-"starting position."
-msgstr ""
-"Који играч креће одавде? тастером Alt и бројем можете задати почетни "
-"положај, а Delete уклања онај под курсором. Само тастер броја отклизаће мапу "
-"до почетног положаја тога играча."
+msgid "Which player should start here? You can use alt and a number key to set the starting position for a player, and del to clear the starting position under the cursor. Pressing a number key by itself will scroll to that player's starting position."
+msgstr "Који играч креће одавде? тастером Alt и бројем можете задати почетни положај, а Delete уклања онај под курсором. Само тастер броја отклизаће мапу до почетног положаја тога играча."
 
 #. +> trunk
 #: src/gui/dialogs/editor_settings.cpp:162

@@ -15,8 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 "X-Wrapping: fine\n"
 
@@ -90,24 +89,8 @@ msgstr "„Бој за B<Веснот>“ је фантазијска страт
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:42
-msgid ""
-"Defeat all enemy leaders using a well-chosen cadre of troops, taking care to "
-"manage your resources of gold and villages. All units have their own "
-"strengths and weaknesses; to win, deploy your forces to their best advantage "
-"while denying your foes the chance to do the same. As units gain experience, "
-"they acquire new abilities and become more powerful. Play in your own "
-"language and test your skill against a smart computer opponent, or join "
-"Wesnoth's large community of on-line players. Create your own custom units, "
-"scenarios or campaigns, and share them with others."
-msgstr ""
-"Поразите све непријатељске вође добро изабраном војном дружином, старајући "
-"се успут о изворима злата и селима. Свака јединица има своје врлине и мане; "
-"да бисте победили, распоредите снаге тако да се истакну преимућства, притом "
-"спречивши противника да учини то исто. Како јединице постају искусније, "
-"добијају нове способности и постају снажније. Играјте на свом матерњем "
-"језику искушавајући вештине против паметног рачунарског противника, или се "
-"придружите Веснотовој великој заједници играча на вези. Правите сопствене "
-"посебне јединице, сценарије, походе, и поделите их са другим играчима."
+msgid "Defeat all enemy leaders using a well-chosen cadre of troops, taking care to manage your resources of gold and villages. All units have their own strengths and weaknesses; to win, deploy your forces to their best advantage while denying your foes the chance to do the same. As units gain experience, they acquire new abilities and become more powerful. Play in your own language and test your skill against a smart computer opponent, or join Wesnoth's large community of on-line players. Create your own custom units, scenarios or campaigns, and share them with others."
+msgstr "Поразите све непријатељске вође добро изабраном војном дружином, старајући се успут о изворима злата и селима. Свака јединица има своје врлине и мане; да бисте победили, распоредите снаге тако да се истакну преимућства, притом спречивши противника да учини то исто. Како јединице постају искусније, добијају нове способности и постају снажније. Играјте на свом матерњем језику искушавајући вештине против паметног рачунарског противника, или се придружите Веснотовој великој заједници играча на вези. Правите сопствене посебне јединице, сценарије, походе, и поделите их са другим играчима."
 
 #. type: SH
 #. +> trunk
@@ -152,12 +135,8 @@ msgstr "B<--config-dir>I<\\ име>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:57
-msgid ""
-"sets the user configuration directory to I<name> under $HOME or \"My "
-"Documents\\eMy Games\" for windows."
-msgstr ""
-"задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје "
-"игре“ на ~@/Виндоузу/Windowsu/."
+msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows."
+msgstr "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/."
 
 #. type: TP
 #. +> trunk
@@ -182,12 +161,8 @@ msgstr "B<-d, --debug>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:64
-msgid ""
-"enables additional command mode options in-game (see the wiki page at http://"
-"www.wesnoth.org/wiki/CommandMode for more information about command mode)."
-msgstr ""
-"укључује допунске опције командног режима током игре (више детаља потражите "
-"на вики страници http://www.wesnoth.org/wiki/CommandMode)."
+msgid "enables additional command mode options in-game (see the wiki page at http://www.wesnoth.org/wiki/CommandMode for more information about command mode)."
+msgstr "укључује допунске опције командног режима током игре (више детаља потражите на вики страници http://www.wesnoth.org/wiki/CommandMode)."
 
 #. type: TP
 #. +> trunk
@@ -199,12 +174,8 @@ msgstr "B<-e, --editor \\ датотека>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:70
-msgid ""
-"start the in-game map editor directly. If I<file> is specified, equivalent "
-"to B<-e --load>"
-msgstr ""
-"директно покреће уређивач мапа у игри. Ако је задата I<датотека>, истоветно "
-"са B<-e --load>."
+msgid "start the in-game map editor directly. If I<file> is specified, equivalent to B<-e --load>"
+msgstr "директно покреће уређивач мапа у игри. Ако је задата I<датотека>, истоветно са B<-e --load>."
 
 #. type: TP
 #. +> trunk
@@ -216,9 +187,7 @@ msgstr "B<--fps>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:74
-msgid ""
-"displays the number of frames per second the game is currently running at, "
-"in a corner of the screen."
+msgid "displays the number of frames per second the game is currently running at, in a corner of the screen."
 msgstr "приказује број кадрова по секунди док тече игра, у углу екрана."
 
 #. type: TP
@@ -244,12 +213,8 @@ msgstr "B<--gunzip>I<\\ улдат.gz>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:83
-msgid ""
-"decompresses a file which should be in gzip format and stores it without "
-"the .gz suffix. The I<infile.gz> will be removed."
-msgstr ""
-"распакује датотеку, која треба да је у формату ГЗИП, и складишти је без "
-"наставка .gz. I<улдат.gz> ће бити уклоњена."
+msgid "decompresses a file which should be in gzip format and stores it without the .gz suffix. The I<infile.gz> will be removed."
+msgstr "распакује датотеку, која треба да је у формату ГЗИП, и складишти је без наставка .gz. I<улдат.gz> ће бити уклоњена."
 
 #. type: TP
 #. +> trunk
@@ -261,12 +226,8 @@ msgstr "B<--gzip>I<\\ улдат>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:89
-msgid ""
-"compresses a file in gzip format, stores it as I<infile>.gz and removes "
-"I<infile>."
-msgstr ""
-"пакује датотеку у формат ГЗИП, складишти је као I<улдат>.gz и уклања "
-"I<улдат>."
+msgid "compresses a file in gzip format, stores it as I<infile>.gz and removes I<infile>."
+msgstr "пакује датотеку у формат ГЗИП, складишти је као I<улдат>.gz и уклања I<улдат>."
 
 #. type: TP
 #. +> trunk
@@ -278,8 +239,7 @@ msgstr "B<-h, --help>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:92
-msgid ""
-"displays a summary of command line options to standard output, and exits."
+msgid "displays a summary of command line options to standard output, and exits."
 msgstr "приказује сажетак опција командне линије на стандарном излазу."
 
 #. type: TP
@@ -292,16 +252,8 @@ msgstr "B<-l,\\ --load>I<\\ датотека>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:104
-msgid ""
-"loads the savegame I<file> from the standard save game directory.  If the B<-"
-"e> or B<--editor> option is used as well, starts the editor with the map "
-"from I<file> open. If it is a directory, the editor will start with a load "
-"map dialog opened there."
-msgstr ""
-"учитава позицију I<датотека> из стандардног директоријума сачуваних "
-"позиција. Ако је задата и опција B<-e> или B<--editor>, покреће се уређивач "
-"са отвореном мапом из те датотеке. Ако је I<датотека> у ствари директоријум, "
-"уређивач ће на њему отворити дијалог за учитавање мапе."
+msgid "loads the savegame I<file> from the standard save game directory.  If the B<-e> or B<--editor> option is used as well, starts the editor with the map from I<file> open. If it is a directory, the editor will start with a load map dialog opened there."
+msgstr "учитава позицију I<датотека> из стандардног директоријума сачуваних позиција. Ако је задата и опција B<-e> или B<--editor>, покреће се уређивач са отвореном мапом из те датотеке. Ако је I<датотека> у ствари директоријум, уређивач ће на њему отворити дијалог за учитавање мапе."
 
 #. type: TP
 #. +> trunk
@@ -313,14 +265,8 @@ msgstr "B<--log->I<ниво>B<=>I<домен1>B<,>I<домен2>B<,>I<...>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:113
-msgid ""
-"sets the severity level of the log domains.  B<all> can be used to match any "
-"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ "
-"B<debug>.  By default the B<error> level is used."
-msgstr ""
-"поставља ниво озбиљности домена бележења. B<all> се може употребити за "
-"поклапање свих домена, а доступни су: B<error>,\\ B<warning>,\\ B<info>,\\ "
-"B<debug>. Подразумеванo се користи B<error>."
+msgid "sets the severity level of the log domains.  B<all> can be used to match any log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ B<debug>.  By default the B<error> level is used."
+msgstr "поставља ниво озбиљности домена бележења. B<all> се може употребити за поклапање свих домена, а доступни су: B<error>,\\ B<warning>,\\ B<info>,\\ B<debug>. Подразумеванo се користи B<error>."
 
 #. type: TP
 #. +> trunk
@@ -345,12 +291,8 @@ msgstr "B<--max-fps>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:121
-msgid ""
-"the number of frames per second the game can show, the value should be "
-"between the 1 and 1000, the default is B<50>."
-msgstr ""
-"број кадрова по секунди које игра може да прикаже, требало би да буде између "
-"1 и 1000, а подразумевано је B<50>."
+msgid "the number of frames per second the game can show, the value should be between the 1 and 1000, the default is B<50>."
+msgstr "број кадрова по секунди које игра може да прикаже, требало би да буде између 1 и 1000, а подразумевано је B<50>."
 
 #. type: TP
 #. +> trunk
@@ -362,13 +304,8 @@ msgstr "B<-m, --multiplayer>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:128
-msgid ""
-"runs a multiplayer game. There are additional options that can be used "
-"together with B<--multiplayer> as explained below. Only these additional "
-"options can follow B<--multiplayer>."
-msgstr ""
-"покреће вишеиграчку партију. Уз ову опцију могу бити употребљене још неке, "
-"наведене испод (само оне могу пратити B<--multiplayer>)."
+msgid "runs a multiplayer game. There are additional options that can be used together with B<--multiplayer> as explained below. Only these additional options can follow B<--multiplayer>."
+msgstr "покреће вишеиграчку партију. Уз ову опцију могу бити употребљене још неке, наведене испод (само оне могу пратити B<--multiplayer>)."
 
 #. type: TP
 #. +> trunk
@@ -380,12 +317,8 @@ msgstr "B<--no-delay>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:132
-msgid ""
-"runs the game without any delays for graphic benchmarking. This is "
-"automatically enabled by B<--nogui>."
-msgstr ""
-"покреће игру без икаквих застоја, за пробу графичких перформанси. Ово је "
-"аутоматски укључено ако се зада B<--nogui>."
+msgid "runs the game without any delays for graphic benchmarking. This is automatically enabled by B<--nogui>."
+msgstr "покреће игру без икаквих застоја, за пробу графичких перформанси. Ово је аутоматски укључено ако се зада B<--nogui>."
 
 #. type: TP
 #. +> trunk
@@ -462,12 +395,8 @@ msgstr "B<--smallgui>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:151
-msgid ""
-"allows to use screen resolutions down to 800x480 and resizes a few interface "
-"elements."
-msgstr ""
-"омогућава ниже резолуције екрана, до 800×480, уз измену величине неколико "
-"елемената сучеља."
+msgid "allows to use screen resolutions down to 800x480 and resizes a few interface elements."
+msgstr "омогућава ниже резолуције екрана, до 800×480, уз измену величине неколико елемената сучеља."
 
 #. type: TP
 #. +> trunk
@@ -479,12 +408,8 @@ msgstr "B<-s,\\ --server\\ [домаћин]>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:155
-msgid ""
-"connects to the specified host if any, otherwise connect to the first server "
-"in preferences. Example: B<--server server.wesnoth.org>"
-msgstr ""
-"повезује се са домаћином ако је задат, или са првим сервером у поставкама. "
-"На пример: B<--server server.wesnoth.org>"
+msgid "connects to the specified host if any, otherwise connect to the first server in preferences. Example: B<--server server.wesnoth.org>"
+msgstr "повезује се са домаћином ако је задат, или са првим сервером у поставкама. На пример: B<--server server.wesnoth.org>"
 
 #. type: TP
 #. +> trunk
@@ -561,14 +486,8 @@ msgstr "Опције уз --multiplayer"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:180
-msgid ""
-"The side-specific multiplayer options are marked with I<number>.  I<number> "
-"has to be replaced by a side number. It usually is 1 or 2 but depends on the "
-"number of players possible in the chosen scenario."
-msgstr ""
-"Опције посебне по страни у вишеиграчком режиму означене су са I<број>, где "
-"I<број> треба заменити бројем стране. То је обично 1 или 2, али зависи од "
-"броја играча дозвољених за изабрани сценарио."
+msgid "The side-specific multiplayer options are marked with I<number>.  I<number> has to be replaced by a side number. It usually is 1 or 2 but depends on the number of players possible in the chosen scenario."
+msgstr "Опције посебне по страни у вишеиграчком режиму означене су са I<број>, где I<број> треба заменити бројем стране. То је обично 1 или 2, али зависи од броја играча дозвољених за изабрани сценарио."
 
 #. type: TP
 #. +> trunk
@@ -580,8 +499,7 @@ msgstr "B<--ai_config>I<број>B<=>I<вредност>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:183
-msgid ""
-"selects a configuration file to load for the AI controller for this side."
+msgid "selects a configuration file to load for the AI controller for this side."
 msgstr "бира поставну датотеку која се учитава за ВИ управљача ове стране."
 
 #. type: TP
@@ -594,12 +512,8 @@ msgstr "B<--algorithm>I<број>B<=>I<вредност>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:190
-msgid ""
-"selects a non-standard algorithm to be used by the AI controller for this "
-"side. Available values: B<idle_ai> and B<sample_ai>."
-msgstr ""
-"бира нестандардни алгоритам за ВИ управљање задатом страном. Могуће "
-"вредности: B<idle_ai> и B<sample_ai>."
+msgid "selects a non-standard algorithm to be used by the AI controller for this side. Available values: B<idle_ai> and B<sample_ai>."
+msgstr "бира нестандардни алгоритам за ВИ управљање задатом страном. Могуће вредности: B<idle_ai> и B<sample_ai>."
 
 #. type: TP
 #. +> trunk
@@ -611,11 +525,8 @@ msgstr "B<--controller>I<број>B<=>I<вредност>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:196
-msgid ""
-"selects the controller for this side. Available values: B<human> and B<ai>."
-msgstr ""
-"бира управљача за задату страну. Могуће вредности су: B<human> (човек) и "
-"B<ai> (ВИ)."
+msgid "selects the controller for this side. Available values: B<human> and B<ai>."
+msgstr "бира управљача за задату страну. Могуће вредности су: B<human> (човек) и B<ai> (ВИ)."
 
 #. type: TP
 #. +> trunk
@@ -627,14 +538,8 @@ msgstr "B<--era=>I<вредност>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:203
-msgid ""
-"use this option to play in the selected era instead of the B<Default> era. "
-"The era is chosen by an id. Eras are described in the B<data/multiplayer/"
-"eras.cfg> file."
-msgstr ""
-"употребите ово за играње у изабраној епохи уместо подразумеване "
-"(B<Default>). Епоха се бира кључем; могуће вредности описане су у датотеци "
-"B<data/multiplayer/eras.cfg>"
+msgid "use this option to play in the selected era instead of the B<Default> era. The era is chosen by an id. Eras are described in the B<data/multiplayer/eras.cfg> file."
+msgstr "употребите ово за играње у изабраној епохи уместо подразумеване (B<Default>). Епоха се бира кључем; могуће вредности описане су у датотеци B<data/multiplayer/eras.cfg>"
 
 #. type: TP
 #. +> trunk
@@ -646,14 +551,8 @@ msgstr "B<--exit-at-end>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:207
-msgid ""
-"exits once the scenario is over, without displaying victory/defeat dialog "
-"which requires the user to click OK.  This is also used for scriptable "
-"benchmarking."
-msgstr ""
-"излази пошто се сценарио оконча, без приказивања прозора о победи/поразу на "
-"који би корисник морао да одговори. Ово се такође користи за скриптовање "
-"проба перформанси."
+msgid "exits once the scenario is over, without displaying victory/defeat dialog which requires the user to click OK.  This is also used for scriptable benchmarking."
+msgstr "излази пошто се сценарио оконча, без приказивања прозора о победи/поразу на који би корисник морао да одговори. Ово се такође користи за скриптовање проба перформанси."
 
 #. type: TP
 #. +> trunk
@@ -665,12 +564,8 @@ msgstr "B<--nogui>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:212
-msgid ""
-"runs the game without the GUI. Must appear before B<--multiplayer> to have "
-"the desired effect."
-msgstr ""
-"покреће игру без графичког сучеља. Мора се јавити пре B<--multiplayer> да би "
-"имало жељени ефекат."
+msgid "runs the game without the GUI. Must appear before B<--multiplayer> to have the desired effect."
+msgstr "покреће игру без графичког сучеља. Мора се јавити пре B<--multiplayer> да би имало жељени ефекат."
 
 #. type: TP
 #. +> trunk
@@ -682,14 +577,8 @@ msgstr "B<--parm>I<број>B<=>I<име>B<:>I<вредност>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:221
-msgid ""
-"sets additional parameters for this side. This parameter depends on the "
-"options used with B<--controller> and B<--algorithm>.  It should only be "
-"useful for people designing their own AI. (not yet documented completely)"
-msgstr ""
-"поставља додатне параметре за ову страну, који зависе од опција употребљених "
-"уз B<--controller> и B<--algorithm>. Обично корисно онима који пројектују "
-"нове ВИ (још увек није сасвим документовано)"
+msgid "sets additional parameters for this side. This parameter depends on the options used with B<--controller> and B<--algorithm>.  It should only be useful for people designing their own AI. (not yet documented completely)"
+msgstr "поставља додатне параметре за ову страну, који зависе од опција употребљених уз B<--controller> и B<--algorithm>. Обично корисно онима који пројектују нове ВИ (још увек није сасвим документовано)"
 
 #. type: TP
 #. +> trunk
@@ -701,12 +590,8 @@ msgstr "B<--scenario=>I<вредност>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:225
-msgid ""
-"selects a multiplayer scenario by id. The default scenario id is "
-"B<multiplayer_The_Freelands>."
-msgstr ""
-"бира вишеиграчки сценарио по кључу. Подразумеван је "
-"B<multiplayer_The_Freelands>."
+msgid "selects a multiplayer scenario by id. The default scenario id is B<multiplayer_The_Freelands>."
+msgstr "бира вишеиграчки сценарио по кључу. Подразумеван је B<multiplayer_The_Freelands>."
 
 #. type: TP
 #. +> trunk
@@ -718,12 +603,8 @@ msgstr "B<--side>I<број>B<=>I<вредност>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:230
-msgid ""
-"selects a faction of the current era for this side. The faction is chosen by "
-"an id. Factions are described in the data/multiplayer.cfg file."
-msgstr ""
-"бира фракцију из текуће епохе за задату страну. Фракција се бира кључем; "
-"могуће вредности описане су у датотеци data/multiplayer.cfg"
+msgid "selects a faction of the current era for this side. The faction is chosen by an id. Factions are described in the data/multiplayer.cfg file."
+msgstr "бира фракцију из текуће епохе за задату страну. Фракција се бира кључем; могуће вредности описане су у датотеци data/multiplayer.cfg"
 
 #. type: TP
 #. +> trunk
@@ -754,22 +635,14 @@ msgstr "Написао Дејвид Вајт (David White) E<lt>davidnwhite@veri
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:240
-msgid ""
-"Edited by Nils Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon."
-"netE<gt> and Soliton E<lt>soliton.de@gmail.comE<gt>."
-msgstr ""
-"Уредили Нилс Кнојпер (Nils Kneuper) E<lt>crazy-ivanovic@gmx.netE<gt>, ott "
-"E<lt>ott@gaon.netE<gt> и Soliton E<lt>soliton.de@gmail.comE<gt>."
+msgid "Edited by Nils Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon.netE<gt> and Soliton E<lt>soliton.de@gmail.comE<gt>."
+msgstr "Уредили Нилс Кнојпер (Nils Kneuper) E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon.netE<gt> и Soliton E<lt>soliton.de@gmail.comE<gt>."
 
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:242
-msgid ""
-"This manual page was originally written by Cyril Bouthors "
-"E<lt>cyril@bouthors.orgE<gt>."
-msgstr ""
-"Ову упутну страницу првобитно је написао Сирил Бутор (Cyril Bouthors) "
-"E<lt>cyril@bouthors.orgE<gt>."
+msgid "This manual page was originally written by Cyril Bouthors E<lt>cyril@bouthors.orgE<gt>."
+msgstr "Ову упутну страницу првобитно је написао Сирил Бутор (Cyril Bouthors) E<lt>cyril@bouthors.orgE<gt>."
 
 #. type: Plain text
 #. +> trunk
@@ -788,21 +661,13 @@ msgstr "АУТОРСКА ПРАВА"
 #. +> trunk
 #: ../../doc/man/wesnoth.6:248 ../../doc/man/wesnothd.6:276
 msgid "Copyright \\(co 2003-2009 David White E<lt>davidnwhite@verizon.netE<gt>"
-msgstr ""
-"Ауторска права \\(co 2003-2009 Дејвид Вајт (David White) "
-"E<lt>davidnwhite@verizon.netE<gt>."
+msgstr "Ауторска права \\(co 2003-2009 Дејвид Вајт (David White) E<lt>davidnwhite@verizon.netE<gt>."
 
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnoth.6:251 ../../doc/man/wesnothd.6:279
-msgid ""
-"This is Free Software; this software is licensed under the GPL version 2, as "
-"published by the Free Software Foundation.  There is NO warranty; not even "
-"for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
-msgstr ""
-"Ово је слободан софтвер; лиценциран је под условима ОЈЛ верзије 2  (GPLv2), "
-"коју издаје Задужбина за слободни софтвер. Нема БИЛО КАКВЕ ГАРАНЦИЈЕ; чак ни "
-"за КОМЕРЦИЈАЛНУ ВРЕДНОСТ или ИСПУЊАВАЊЕ ОДРЕЂЕНЕ ПОТРЕБЕ."
+msgid "This is Free Software; this software is licensed under the GPL version 2, as published by the Free Software Foundation.  There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+msgstr "Ово је слободан софтвер; лиценциран је под условима ОЈЛ верзије 2  (GPLv2), коју издаје Задужбина за слободни софтвер. Нема БИЛО КАКВЕ ГАРАНЦИЈЕ; чак ни за КОМЕРЦИЈАЛНУ ВРЕДНОСТ или ИСПУЊАВАЊЕ ОДРЕЂЕНЕ ПОТРЕБЕ."
 
 #. type: SH
 #. +> trunk
@@ -847,12 +712,8 @@ msgstr "wesnothd — вишеиграчки мрежни домар „Боја 
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:36
-msgid ""
-"B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<path>\\|] [\\|B<-p> I<port>\\|] [\\|"
-"B<-t> I<number>\\|] [\\|B<-T> I<number>\\|]"
-msgstr ""
-"B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<путања>\\|] [\\|B<-p> I<порт>\\|] [\\|"
-"B<-t> I<број>\\|] [\\|B<-T> I<број>\\|]"
+msgid "B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<path>\\|] [\\|B<-p> I<port>\\|] [\\|B<-t> I<number>\\|] [\\|B<-T> I<number>\\|]"
+msgstr "B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<путања>\\|] [\\|B<-p> I<порт>\\|] [\\|B<-t> I<број>\\|] [\\|B<-T> I<број>\\|]"
 
 #. type: Plain text
 #. +> trunk
@@ -863,14 +724,8 @@ msgstr "B<wesnothd> B<-V>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:44
-msgid ""
-"Manages Battle for Wesnoth multiplayer games. See http://www.wesnoth.org/"
-"wiki/ServerAdministration on what commands the server accepts via the "
-"wesnoth client (/query ...) or the fifo."
-msgstr ""
-"Управља вишеиграчким партијама „Боја за Веснот“. Погледајте http://www."
-"wesnoth.org/wiki/ServerAdministration за наредбе које сервер прихвата преко "
-"клијента (/query ...) или фифоа."
+msgid "Manages Battle for Wesnoth multiplayer games. See http://www.wesnoth.org/wiki/ServerAdministration on what commands the server accepts via the wesnoth client (/query ...) or the fifo."
+msgstr "Управља вишеиграчким партијама „Боја за Веснот“. Погледајте http://www.wesnoth.org/wiki/ServerAdministration за наредбе које сервер прихвата преко клијента (/query ...) или фифоа."
 
 #. type: TP
 #. +> trunk
@@ -882,14 +737,8 @@ msgstr "B<-c\\ >I<путања>B<,\\ --config>I<\\ путања>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:52
-msgid ""
-"tells wesnothd where to find the config file to use. See the section "
-"B<SERVER CONFIG> below for the syntax. You can reload the config with "
-"sending SIGHUP to the server process."
-msgstr ""
-"казује домару где се налази поставна датотека. За синтаксу погледајте одељак "
-"B<ПОСТАВА СЕРВЕРА> испод. Поставу можете поново учитати слањем СИГХУП "
-"серверском процесу."
+msgid "tells wesnothd where to find the config file to use. See the section B<SERVER CONFIG> below for the syntax. You can reload the config with sending SIGHUP to the server process."
+msgstr "казује домару где се налази поставна датотека. За синтаксу погледајте одељак B<ПОСТАВА СЕРВЕРА> испод. Поставу можете поново учитати слањем СИГХУП серверском процесу."
 
 #. type: TP
 #. +> trunk
@@ -913,16 +762,8 @@ msgstr "говори вам шта чине опције командне лин
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:72
-msgid ""
-"sets the severity level of the log domains.  B<all> can be used to match any "
-"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ "
-"B<debug>.  By default the B<error> level is used and the B<info> level for "
-"the B<server> domain."
-msgstr ""
-"поставља ниво озбиљности домена бележења. B<all> се може употребити за "
-"поклапање свих домена, а доступни су: B<error>,\\ B<warning>,\\ B<info>,\\ "
-"B<debug>. Подразумеванo се користи B<error>, осим за домен B<server> где "
-"B<info>."
+msgid "sets the severity level of the log domains.  B<all> can be used to match any log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ B<debug>.  By default the B<error> level is used and the B<info> level for the B<server> domain."
+msgstr "поставља ниво озбиљности домена бележења. B<all> се може употребити за поклапање свих домена, а доступни су: B<error>,\\ B<warning>,\\ B<info>,\\ B<debug>. Подразумеванo се користи B<error>, осим за домен B<server> где B<info>."
 
 #. type: TP
 #. +> trunk
@@ -934,12 +775,8 @@ msgstr "B<-p\\ >I<порт>B<,\\ --port>I<\\ порт>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:77
-msgid ""
-"binds the server to the specified port. If no port is specified, port "
-"B<15000> will be used."
-msgstr ""
-"везује сервер за наведени порт. Ако се порт не наведе, подразумевано се "
-"користи B<15000>."
+msgid "binds the server to the specified port. If no port is specified, port B<15000> will be used."
+msgstr "везује сервер за наведени порт. Ако се порт не наведе, подразумевано се користи B<15000>."
 
 #. type: TP
 #. +> trunk
@@ -951,12 +788,8 @@ msgstr "B<-t\\ >I<број>B<,\\ --threads>I<\\ број>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:81
-msgid ""
-"sets the maximum number of waiting worker threads for network I/O to n "
-"(default: B<5>,\\ max:\\ B<30>)."
-msgstr ""
-"поставља највећи број радних нити на чекању за мрежни У/И (подразумевано: "
-"B<5>,\\ највише:\\ B<30>)."
+msgid "sets the maximum number of waiting worker threads for network I/O to n (default: B<5>,\\ max:\\ B<30>)."
+msgstr "поставља највећи број радних нити на чекању за мрежни У/И (подразумевано: B<5>,\\ највише:\\ B<30>)."
 
 #. type: TP
 #. +> trunk
@@ -968,12 +801,8 @@ msgstr "B<-T\\ >I<број>B<,\\ --max-threads>I<\\ број>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:88
-msgid ""
-"sets the maximum number of worker threads that will be created.  If set to "
-"B<0> there will be no limit (default: B<0>)."
-msgstr ""
-"поставља највећи број радних нити које могу бити створене; ако се зада B<0>, "
-"нема ограничења (подразумевано: B<0>)."
+msgid "sets the maximum number of worker threads that will be created.  If set to B<0> there will be no limit (default: B<0>)."
+msgstr "поставља највећи број радних нити које могу бити створене; ако се зада B<0>, нема ограничења (подразумевано: B<0>)."
 
 #. type: TP
 #. +> trunk
@@ -1056,14 +885,8 @@ msgstr "B<allow_remote_shutdown>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:114
-msgid ""
-"If set to B<no> (default), shut_down and restart requests are ignored unless "
-"they come from the fifo.  Set it to B<yes> to allow remote shutdown via a /"
-"query by an administrator."
-msgstr ""
-"ако се зада B<no> (подразумевано), захтеви за гашење и поновно покретање се "
-"игноришу осим ако стижу из фифоа. Задајте B<yes> да дозволите удаљено гашење "
-"на /query администратора."
+msgid "If set to B<no> (default), shut_down and restart requests are ignored unless they come from the fifo.  Set it to B<yes> to allow remote shutdown via a /query by an administrator."
+msgstr "ако се зада B<no> (подразумевано), захтеви за гашење и поновно покретање се игноришу осим ако стижу из фифоа. Задајте B<yes> да дозволите удаљено гашење на /query администратора."
 
 #. type: TP
 #. +> trunk
@@ -1075,13 +898,8 @@ msgstr "B<ban_save_file>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:118
-msgid ""
-"Full or relative path to a (gzip compressed) file that the server can read "
-"and write.  Bans will be saved to this file and read again on server start."
-msgstr ""
-"Пуна или релативна путања до (гзиповане) датотеке коју сервер може да чита и "
-"пише. Забране ће бити записиване у њу, и читане по наредном покретању "
-"сервера."
+msgid "Full or relative path to a (gzip compressed) file that the server can read and write.  Bans will be saved to this file and read again on server start."
+msgstr "Пуна или релативна путања до (гзиповане) датотеке коју сервер може да чита и пише. Забране ће бити записиване у њу, и читане по наредном покретању сервера."
 
 #. type: TP
 #. +> trunk
@@ -1093,12 +911,8 @@ msgstr "B<compress_stored_rooms>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:121
-msgid ""
-"Determines whether the rooms file should be read and written to in "
-"compressed form. Defaults to B<yes>."
-msgstr ""
-"одређује да ли фајл соба треба читати и писати у компресованом облику. "
-"Подразумевано B<yes>."
+msgid "Determines whether the rooms file should be read and written to in compressed form. Defaults to B<yes>."
+msgstr "одређује да ли фајл соба треба читати и писати у компресованом облику. Подразумевано B<yes>."
 
 #. type: TP
 #. +> trunk
@@ -1110,12 +924,8 @@ msgstr "B<connections_allowed>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:124
-msgid ""
-"The number of allowed connections from the same IP. B<0> means infinite. "
-"(default: B<5>)"
-msgstr ""
-"број дозвољених веза са исте ИП адресе, B<0> значи безброј (подразумевно: "
-"B<5>)"
+msgid "The number of allowed connections from the same IP. B<0> means infinite. (default: B<5>)"
+msgstr "број дозвољених веза са исте ИП адресе, B<0> значи безброј (подразумевно: B<5>)"
 
 #. type: TP
 #. +> trunk
@@ -1127,16 +937,8 @@ msgstr "B<disallow_names>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:131
-msgid ""
-"Names/nicks that are not accepted by the server. B<*> and B<?> from wildcard "
-"patterns are supported. See B<glob>(7)  for more details.  Default values "
-"(used if nothing is specified) are: B<*admin*,*admln*,*server*,ai,ai?,"
-"computer,human,network,player>."
-msgstr ""
-"имена/надимци које сервер не прихвата. Прихватају се B<*> и B<?> као џокери "
-"(погледајте B<glob>(7) за више детаља). Подразумеване вредности, које се "
-"користе ако се ништа не зада, су: B<*admin*,*admln*,*server*,ai,ai?,computer,"
-"human,network,player>."
+msgid "Names/nicks that are not accepted by the server. B<*> and B<?> from wildcard patterns are supported. See B<glob>(7)  for more details.  Default values (used if nothing is specified) are: B<*admin*,*admln*,*server*,ai,ai?,computer,human,network,player>."
+msgstr "имена/надимци које сервер не прихвата. Прихватају се B<*> и B<?> као џокери (погледајте B<glob>(7) за више детаља). Подразумеване вредности, које се користе ако се ништа не зада, су: B<*admin*,*admln*,*server*,ai,ai?,computer,human,network,player>."
 
 #. type: TP
 #. +> trunk
@@ -1148,14 +950,8 @@ msgstr "B<fifo_path>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:135
-msgid ""
-"The path to the fifo you can echo server commands into (same as /query ... "
-"from wesnoth).  If not specified defaults to the compile-time path (default: "
-"B</var/run/socket/wesnothd/socket>)."
-msgstr ""
-"путања до фифоа из којег сервер може да чита наредбе (исте као /query ... из "
-"игре). Ако није задата, спада на уграђену (подразумевано: B</var/run/socket/"
-"wesnothd/socket>)."
+msgid "The path to the fifo you can echo server commands into (same as /query ... from wesnoth).  If not specified defaults to the compile-time path (default: B</var/run/socket/wesnothd/socket>)."
+msgstr "путања до фифоа из којег сервер може да чита наредбе (исте као /query ... из игре). Ако није задата, спада на уграђену (подразумевано: B</var/run/socket/wesnothd/socket>)."
 
 #. type: TP
 #. +> trunk
@@ -1167,10 +963,8 @@ msgstr "B<max_messages>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:138
-msgid ""
-"The number of allowed messages in B<messages_time_period>. (default: B<4>)"
-msgstr ""
-"број дозвољених порука за време B<messages_time_period> (подразумевано: B<4>)"
+msgid "The number of allowed messages in B<messages_time_period>. (default: B<4>)"
+msgstr "број дозвољених порука за време B<messages_time_period> (подразумевано: B<4>)"
 
 #. type: TP
 #. +> trunk
@@ -1182,12 +976,8 @@ msgstr "B<messages_time_period>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:141
-msgid ""
-"The time period (in seconds) message flooding is detected in. (default: "
-"B<10> seconds)"
-msgstr ""
-"временски период у секундама који се разматра за откривање поплаве порука "
-"(подразумевано: B<10> секунди)"
+msgid "The time period (in seconds) message flooding is detected in. (default: B<10> seconds)"
+msgstr "временски период у секундама који се разматра за откривање поплаве порука (подразумевано: B<10> секунди)"
 
 #. type: TP
 #. +> trunk
@@ -1212,16 +1002,8 @@ msgstr "B<new_room_policy>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:147
-msgid ""
-"Determines who can create new rooms on the server. Available values are "
-"B<everyone>, B<registered>, B<admin> and B<nobody>, and give the permission "
-"respectively to everyone, registered users, admin users or disables new room "
-"creation. Default value is B<everyone>."
-msgstr ""
-"одређује ко може да ствара нове собе на серверу. Могуће вредности су "
-"B<everyone>, B<registered>, B<admin> и B<nobody>, дајући дозволу, редом, "
-"свима, регистрованим корисницима, администраторима и никоме. Подразумевана "
-"вредност је B<everyone>."
+msgid "Determines who can create new rooms on the server. Available values are B<everyone>, B<registered>, B<admin> and B<nobody>, and give the permission respectively to everyone, registered users, admin users or disables new room creation. Default value is B<everyone>."
+msgstr "одређује ко може да ствара нове собе на серверу. Могуће вредности су B<everyone>, B<registered>, B<admin> и B<nobody>, дајући дозволу, редом, свима, регистрованим корисницима, администраторима и никоме. Подразумевана вредност је B<everyone>."
 
 #. type: TP
 #. +> trunk
@@ -1233,11 +1015,8 @@ msgstr "B<passwd>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:150
-msgid ""
-"The password used to gain admin privileges (via B</query admin >I<password>)."
-msgstr ""
-"лозинка за стицање администраторских овлашћења (путем B</query admin "
-">I<лозинка>)."
+msgid "The password used to gain admin privileges (via B</query admin >I<password>)."
+msgstr "лозинка за стицање администраторских овлашћења (путем B</query admin >I<лозинка>)."
 
 #. type: TP
 #. +> trunk
@@ -1249,14 +1028,8 @@ msgstr "B<replay_save_path>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:153
-msgid ""
-"The directory where the server stores game replays. (Don't forget the "
-"trailing /!) Defaults to `' which means the directory wesnothd was started "
-"in."
-msgstr ""
-"Директоријум где сервер смешта снимке партија (не заборавите пратеће /!). "
-"Подразумевано је ‘’ (празно), што значи директоријум у којем је wesnothd "
-"покренут."
+msgid "The directory where the server stores game replays. (Don't forget the trailing /!) Defaults to `' which means the directory wesnothd was started in."
+msgstr "Директоријум где сервер смешта снимке партија (не заборавите пратеће /!). Подразумевано је ‘’ (празно), што значи директоријум у којем је wesnothd покренут."
 
 #. type: TP
 #. +> trunk
@@ -1268,13 +1041,8 @@ msgstr "B<restart_command>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:156
-msgid ""
-"The command that the server uses to start a new server process via the "
-"B<restart> command. (Can only be issued via the fifo. See the "
-"B<allow_remote_shutdown> setting.)"
-msgstr ""
-"Наредба којом сервер покреће нови серверски процес при наредби B<restart>. "
-"(Може се издати само преко фифоа. Види поставку B<allow_remote_shutdown>.)"
+msgid "The command that the server uses to start a new server process via the B<restart> command. (Can only be issued via the fifo. See the B<allow_remote_shutdown> setting.)"
+msgstr "Наредба којом сервер покреће нови серверски процес при наредби B<restart>. (Може се издати само преко фифоа. Види поставку B<allow_remote_shutdown>.)"
 
 #. type: TP
 #. +> trunk
@@ -1286,14 +1054,8 @@ msgstr "B<room_save_file>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:159
-msgid ""
-"Path to a file where the room info should be stored. This file is read on "
-"server startup and written to later. If empty or not set, rooms are not "
-"loaded and not saved."
-msgstr ""
-"путања до фајла где се складиште подаци собе. Овај фајл чита сервер при "
-"покретању, и касније уписује. Ако је празно или није задато, собе се не "
-"учитавају нити уписују."
+msgid "Path to a file where the room info should be stored. This file is read on server startup and written to later. If empty or not set, rooms are not loaded and not saved."
+msgstr "путања до фајла где се складиште подаци собе. Овај фајл чита сервер при покретању, и касније уписује. Ако је празно или није задато, собе се не учитавају нити уписују."
 
 #. type: TP
 #. +> trunk
@@ -1305,12 +1067,8 @@ msgstr "B<save_replays>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:162
-msgid ""
-"Defines whether the server will automatically save replays of games. "
-"(default: B<false>)"
-msgstr ""
-"Одређује да ли сервер аутоматски уписује снимке партија (подразумевно: "
-"B<false>)."
+msgid "Defines whether the server will automatically save replays of games. (default: B<false>)"
+msgstr "Одређује да ли сервер аутоматски уписује снимке партија (подразумевно: B<false>)."
 
 #. type: TP
 #. +> trunk
@@ -1322,14 +1080,8 @@ msgstr "B<versions_accepted>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:166
-msgid ""
-"A comma separated list of version strings to be accepted by the server. B<*> "
-"and B<?> from wildcard patterns are supported.  (defaults to the "
-"corresponding wesnoth version)"
-msgstr ""
-"Запетама раздвојен списак ниски верзија које сервер прихвата. Прихватају се "
-"B<*> и B<?> као џокери (подразумевана је верзија клијента која одговара "
-"верзији сервера)"
+msgid "A comma separated list of version strings to be accepted by the server. B<*> and B<?> from wildcard patterns are supported.  (defaults to the corresponding wesnoth version)"
+msgstr "Запетама раздвојен списак ниски верзија које сервер прихвата. Прихватају се B<*> и B<?> као џокери (подразумевана је верзија клијента која одговара верзији сервера)"
 
 #. type: Plain text
 #. +> trunk
@@ -1347,18 +1099,8 @@ msgstr "B<user_handler>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:173
-msgid ""
-"The name of the user handler to use. Currently available user handlers are "
-"B<forum> (to connect wesnothd to a phpbb forum database) and B<sample> (a "
-"sample implementation of the user handler interface, if you use this on "
-"anything real you are insane). The default value is B<forum>. You must also "
-"add a B<[user_handler]> section, see below."
-msgstr ""
-"Име руковаоца корисницима. Тренутно доступни су B<forum> (сервер се повезује "
-"са пхпББ базом података форума) и B<sample> (примерна изведба сучеља "
-"руковаоца корисницима, луди сте ако ово употребите негде заозбиљно). "
-"Подразумевана вредност је B<forum>. Такође морате додати одељак B<"
-"[user_handler]>, в. испод."
+msgid "The name of the user handler to use. Currently available user handlers are B<forum> (to connect wesnothd to a phpbb forum database) and B<sample> (a sample implementation of the user handler interface, if you use this on anything real you are insane). The default value is B<forum>. You must also add a B<[user_handler]> section, see below."
+msgstr "Име руковаоца корисницима. Тренутно доступни су B<forum> (сервер се повезује са пхпББ базом података форума) и B<sample> (примерна изведба сучеља руковаоца корисницима, луди сте ако ово употребите негде заозбиљно). Подразумевана вредност је B<forum>. Такође морате додати одељак B<[user_handler]>, в. испод."
 
 #. type: SS
 #. +> trunk
@@ -1370,12 +1112,8 @@ msgstr "Глобалне ознаке:"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:179
-msgid ""
-"B<[redirect]> A tag to specify a server to redirect certain client versions "
-"to."
-msgstr ""
-"B<[redirect]> ознака за навођење сервера на који се преусмеравају неке "
-"верзије клијента"
+msgid "B<[redirect]> A tag to specify a server to redirect certain client versions to."
+msgstr "B<[redirect]> ознака за навођење сервера на који се преусмеравају неке верзије клијента"
 
 #. type: TP
 #. +> trunk
@@ -1413,22 +1151,14 @@ msgstr "B<version>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:191
-msgid ""
-"A comma separated list of versions to redirect. Behaves the same way as "
-"B<versions_accepted> in regard to wildcard patterns."
-msgstr ""
-"запетама раздвојен списак верзија које се преусмеравају. Понаша се исто као "
-"и B<versions_accepted> у погледу џокера"
+msgid "A comma separated list of versions to redirect. Behaves the same way as B<versions_accepted> in regard to wildcard patterns."
+msgstr "запетама раздвојен списак верзија које се преусмеравају. Понаша се исто као и B<versions_accepted> у погледу џокера"
 
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:195
-msgid ""
-"B<[ban_time]> A tag to define convenient keywords for temporary ban time "
-"lengths."
-msgstr ""
-"B<[ban_time]> ознака за одређивање згодних кључних речи за привремене "
-"забране."
+msgid "B<[ban_time]> A tag to define convenient keywords for temporary ban time lengths."
+msgstr "B<[ban_time]> ознака за одређивање згодних кључних речи за привремене забране."
 
 #. type: TP
 #. +> trunk
@@ -1453,43 +1183,20 @@ msgstr "B<time>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:207
-msgid ""
-"The time length definition.  The format is: %d[%s[%d%s[...]]] where %s is s "
-"(seconds), m (minutes), h (hours), D (days), M (months) or Y (years) and %d "
-"is a number.  If no time modifier is given minutes (m) are assumed.  "
-"Example: B<time=\"1D12h30m\"> results in a ban time of 1 day, 12 hours and "
-"30 minutes."
-msgstr ""
-"Трајање. Формат је %d[%s[%d%s[...]]] где s из %s означава секунде, m минуте, "
-"h сате, D дане, M месеце, Y године, а d је број. Ако није дат модификатор, "
-"претпостављају се минути (m). Пример: B<time=\"1D12h30m\"> значи забрану у "
-"трајању од једног дана, 12 сати и 30 минута."
+msgid "The time length definition.  The format is: %d[%s[%d%s[...]]] where %s is s (seconds), m (minutes), h (hours), D (days), M (months) or Y (years) and %d is a number.  If no time modifier is given minutes (m) are assumed.  Example: B<time=\"1D12h30m\"> results in a ban time of 1 day, 12 hours and 30 minutes."
+msgstr "Трајање. Формат је %d[%s[%d%s[...]]] где s из %s означава секунде, m минуте, h сате, D дане, M месеце, Y године, а d је број. Ако није дат модификатор, претпостављају се минути (m). Пример: B<time=\"1D12h30m\"> значи забрану у трајању од једног дана, 12 сати и 30 минута."
 
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:213
-msgid ""
-"B<[proxy]> A tag to tell the server to act as a proxy and forward the "
-"connected client's requests to the specified server.  Accepts the same keys "
-"as B<[redirect]>."
-msgstr ""
-"B<[proxy]> ознака која говори серверу да се понаша као посредник и "
-"прослеђује захтеве повезаних клијената на одређени сервер. Прихвата исте "
-"кључеве као и B<[redirect]>"
+msgid "B<[proxy]> A tag to tell the server to act as a proxy and forward the connected client's requests to the specified server.  Accepts the same keys as B<[redirect]>."
+msgstr "B<[proxy]> ознака која говори серверу да се понаша као посредник и прослеђује захтеве повезаних клијената на одређени сервер. Прихвата исте кључеве као и B<[redirect]>"
 
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:221
-msgid ""
-"B<[user_handler]> Configures the user handler. Available keys vary depending "
-"on which user handler is set with the B<user_handler> key. If no B<"
-"[user_handler]> section is present in the configuration the server will run "
-"without any nick registration service."
-msgstr ""
-"B<[user_handler]> подешава руковалац корисницима. Доступност кључева зависи "
-"од тога који је руковалац постављен кључем B<user_handler>. Ако у постави "
-"нема одељка B<[user_handler]>, сервер неће пружати услугу регистровања "
-"надимака."
+msgid "B<[user_handler]> Configures the user handler. Available keys vary depending on which user handler is set with the B<user_handler> key. If no B<[user_handler]> section is present in the configuration the server will run without any nick registration service."
+msgstr "B<[user_handler]> подешава руковалац корисницима. Доступност кључева зависи од тога који је руковалац постављен кључем B<user_handler>. Ако у постави нема одељка B<[user_handler]>, сервер неће пружати услугу регистровања надимака."
 
 #. type: TP
 #. +> trunk
@@ -1527,11 +1234,8 @@ msgstr "B<db_user>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:231
-msgid ""
-"(for user_handler=forum) The name of the user under which to log into the "
-"database"
-msgstr ""
-"(за user_handler=forum) име корисника под којим се пријављује у базу података"
+msgid "(for user_handler=forum) The name of the user under which to log into the database"
+msgstr "(за user_handler=forum) име корисника под којим се пријављује у базу података"
 
 #. type: TP
 #. +> trunk
@@ -1556,14 +1260,8 @@ msgstr "B<db_users_table>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:237
-msgid ""
-"(for user_handler=forum) The name of the table in which your phpbb forums "
-"saves its user data. Most likely this will be E<lt>table-prefixE<gt>_users "
-"(e.g. phpbb3_users)."
-msgstr ""
-"(за user_handler=forum) име табеле у којој пхпББ форуми уписују податке о "
-"корисницима. Највероватније ће то бити E<lt>prefiks-tabeleE<gt>_users (нпр. "
-"phpbb3_users)."
+msgid "(for user_handler=forum) The name of the table in which your phpbb forums saves its user data. Most likely this will be E<lt>table-prefixE<gt>_users (e.g. phpbb3_users)."
+msgstr "(за user_handler=forum) име табеле у којој пхпББ форуми уписују податке о корисницима. Највероватније ће то бити E<lt>prefiks-tabeleE<gt>_users (нпр. phpbb3_users)."
 
 #. type: TP
 #. +> trunk
@@ -1575,18 +1273,8 @@ msgstr "B<db_extra_table>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:241
-msgid ""
-"(for user_handler=forum) The name of the table in which wesnothd will save "
-"its own data about users. You will have to create this table manually, e.g.: "
-"B<CREATE TABLE E<lt>table-nameE<gt>(username VARCHAR(255) PRIMARY KEY, "
-"user_lastvisit INT UNSIGNED NOT NULL DEFAULT 0, user_is_moderator TINYINT(4) "
-"NOT NULL DEFAULT 0);>"
-msgstr ""
-"(за user_handler=forum) име табеле у коју wesnothd уписује своје податке о "
-"корисницима. Ову табелу мораћете ручно да направите, нпр.: B<CREATE TABLE "
-"E<lt>ime-tabeleE<gt>(username VARCHAR(255) PRIMARY KEY, user_lastvisit INT "
-"UNSIGNED NOT NULL DEFAULT 0, user_is_moderator TINYINT(4) NOT NULL DEFAULT "
-"0);>"
+msgid "(for user_handler=forum) The name of the table in which wesnothd will save its own data about users. You will have to create this table manually, e.g.: B<CREATE TABLE E<lt>table-nameE<gt>(username VARCHAR(255) PRIMARY KEY, user_lastvisit INT UNSIGNED NOT NULL DEFAULT 0, user_is_moderator TINYINT(4) NOT NULL DEFAULT 0);>"
+msgstr "(за user_handler=forum) име табеле у коју wesnothd уписује своје податке о корисницима. Ову табелу мораћете ручно да направите, нпр.: B<CREATE TABLE E<lt>ime-tabeleE<gt>(username VARCHAR(255) PRIMARY KEY, user_lastvisit INT UNSIGNED NOT NULL DEFAULT 0, user_is_moderator TINYINT(4) NOT NULL DEFAULT 0);>"
 
 #. type: TP
 #. +> trunk
@@ -1598,22 +1286,14 @@ msgstr "B<user_expiration>"
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:244
-msgid ""
-"(for user_handler=sample) The time after which a registered nick expires (in "
-"days)."
-msgstr ""
-"(за user_handler=sample) време по којем регистровани надимак истиче (у "
-"данима)."
+msgid "(for user_handler=sample) The time after which a registered nick expires (in days)."
+msgstr "(за user_handler=sample) време по којем регистровани надимак истиче (у данима)."
 
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:248
-msgid ""
-"B<[mail]> Configures an SMTP server through which the user handler can send "
-"mail. Currently only used by the sample user handler."
-msgstr ""
-"B<[mail]> подешава СМТП сервер кроз који руковалац корисницима шаље пошту. "
-"Тренутно само за примерни руковалац."
+msgid "B<[mail]> Configures an SMTP server through which the user handler can send mail. Currently only used by the sample user handler."
+msgstr "B<[mail]> подешава СМТП сервер кроз који руковалац корисницима шаље пошту. Тренутно само за примерни руковалац."
 
 #. type: TP
 #. +> trunk
@@ -1683,19 +1363,8 @@ msgstr "Порт на којем слуша поштански сервер. П�
 #. type: Plain text
 #. +> trunk
 #: ../../doc/man/wesnothd.6:270
-msgid ""
-"Written by David White E<lt>davidnwhite@verizon.netE<gt>.  Edited by Nils "
-"Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon.netE<gt>, "
-"Soliton E<lt>soliton.de@gmail.comE<gt> and Thomas Baumhauer E<lt>thomas."
-"baumhauer@gmail.comE<gt>.  This manual page was originally written by Cyril "
-"Bouthors E<lt>cyril@bouthors.orgE<gt>."
-msgstr ""
-"Написао Дејвид Вајт (David White) E<lt>davidnwhite@verizon.netE<gt>. Уредили "
-"Нилс Кнојпер (Nils Kneuper) E<lt>crazy-ivanovic@gmx.netE<gt>, ott "
-"E<lt>ott@gaon.netE<gt>, Soliton E<lt>soliton.de@gmail.comE<gt> и Томас "
-"Баумхауер (Thomas Baumhauer) E<lt>thomas.baumhauer@gmail.comE<gt>. Ову "
-"упутну страницу првобитно је написао Сирил Бутор (Cyril Bouthors) "
-"E<lt>cyril@bouthors.orgE<gt>."
+msgid "Written by David White E<lt>davidnwhite@verizon.netE<gt>.  Edited by Nils Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon.netE<gt>, Soliton E<lt>soliton.de@gmail.comE<gt> and Thomas Baumhauer E<lt>thomas.baumhauer@gmail.comE<gt>.  This manual page was originally written by Cyril Bouthors E<lt>cyril@bouthors.orgE<gt>."
+msgstr "Написао Дејвид Вајт (David White) E<lt>davidnwhite@verizon.netE<gt>. Уредили Нилс Кнојпер (Nils Kneuper) E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon.netE<gt>, Soliton E<lt>soliton.de@gmail.comE<gt> и Томас Баумхауер (Thomas Baumhauer) E<lt>thomas.baumhauer@gmail.comE<gt>. Ову упутну страницу првобитно је написао Сирил Бутор (Cyril Bouthors) E<lt>cyril@bouthors.orgE<gt>."
 
 #. type: Plain text
 #. +> trunk
