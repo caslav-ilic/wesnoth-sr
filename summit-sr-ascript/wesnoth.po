@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2010-01-22 12:34+0100\n"
+"PO-Revision-Date: 2010-02-20 10:48+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -1738,33 +1738,11 @@ msgstr ""
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid ""
 "\n"
-"Change the controller for side (write here the number of the side) to username (write here the nick of the player or observer). You can check what side belongs to which player in the 'Scenario Settings' dialog (Press the 'more' button in the 'Status Table' (alt+s by default) to get there.).\n"
-"\n"
-msgstr ""
-"\n"
-"мења управљача стране (задате бројем) на дато корисничко име (надимак играча или посматрача). Који играч припада којој страни можете проверити у дијалогу „~%/Scenario Settings/“; притисните дугме за више у табели стања (подразумевно алт+S) да дођете дотле.\n"
-"\n"
-"|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid ""
-"\n"
 "Kick a user in multiplayer. They will be able to rejoin the game. If you just want to change control of their side(s) use the :control command instead.\n"
 "\n"
 msgstr ""
 "\n"
 "избацује играча из игре. Избачени ће моћи да се поново прикључе. Ако само желите да измените којом страном играч управља, употребите наредбу :control уместо ове.\n"
-"\n"
-"|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid ""
-"\n"
-"Kick a user in multiplayer. They will be able to rejoin the game. Generally a friendly way to remove someone who is having connection or other difficulties.\n"
-"\n"
-msgstr ""
-"\n"
-"избацује играча из игре. Избачени ће моћи да се поново прикључе. Сматра се пријатељским начином да се уклони неко ко има проблема са везом или друге потешкоће.\n"
 "\n"
 "|~"
 
@@ -1793,30 +1771,11 @@ msgstr ""
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid ""
 "\n"
-"Toggle muting/silencing of all observers on/off."
-msgstr ""
-"\n"
-"укљученост свих посматрача у писање и разговор.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid ""
-"\n"
 "Unban a user in a multiplayer game by the IP address used by that username. Can be used on users not in the game but on the server.\n"
 "\n"
 msgstr ""
 "\n"
 "укида забрану играчу по ИП адреси коју користи то корисничко име. Може се употребити и на корисницима ван игре али на серверу.\n"
-"\n"
-"|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid ""
-"\n"
-"Ban a user in a multiplayer game by the IP address used by that username and kick him.\n"
-"\n"
-msgstr ""
-"\n"
-"забрањује играча у вишеиграчкој партији по ИП адреси за корисничким именом, и избацује га.\n"
 "\n"
 "|~"
 
@@ -1930,14 +1889,6 @@ msgstr ""
 "измењује наведено својство изабране јединице, на пример: :unit hitpoints=100\n"
 "\n"
 "|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid ""
-"\n"
-"Modifies the specified property of the selected unit. Example: :unit hitpoints=100"
-msgstr ""
-"\n"
-"измењује наведено својство изабране јединице, на пример: :unit hitpoints=100|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid ""
@@ -2216,10 +2167,6 @@ msgid "slows"
 msgstr "успоравање|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "stones"
-msgstr "окамењивање|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid ""
 "Slow:\n"
 "This attack slows the target until it ends a turn. Slow halves the damage caused by attacks and the movement cost for a slowed unit is doubled. A unit that is slowed will feature a snail icon in its sidebar information when it is selected."
@@ -2235,14 +2182,6 @@ msgstr "окамењивање|~"
 msgid ""
 "Petrify:\n"
 "This attack petrifies the target, turning it to stone. Units that have been petrified may not move or attack."
-msgstr ""
-"Окамењивање:\n"
-"Напад претвара циљану јединицу у камен. Тада се она не може покретати нити нападати.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid ""
-"Stone:\n"
-"This attack turns the target to stone. Units that have been turned to stone may not move or attack."
 msgstr ""
 "Окамењивање:\n"
 "Напад претвара циљану јединицу у камен. Тада се она не може покретати нити нападати.|~"
@@ -2480,10 +2419,6 @@ msgid "Early finish bonus."
 msgstr "Бонус за рани завршетак.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "`(early finish bonus)"
-msgstr "(бонус за рани завршетак)|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "No early finish bonus."
 msgstr "Без бонуса за рани завршетак.|~"
 
@@ -2670,18 +2605,8 @@ msgstr "Егар,Елх,Гаш,Гадеј Ин,Гакреј Ом,Галек,Га
 
 # |, no-check-spell|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Egar,Elch,Ga'ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin ohn,Garrutin,Gart'lo,Garushi,Gashinar,Gashöl,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Goyst,Grada,Græt Ihn,Grashen,Gravlan,Gray,Grelnit,Grenn ohn,Gretz,Gribbel,Gridda,Grish,Gron ih,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kasp,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Mal,Margian,Marhildian,Markan,Markinos,Mar Ohn,Marra Di'lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermay,Vertick,Vladnir"
-msgstr "Егар,Елх,Гаш,Гадеј Ин,Гакреј Ом,Галек,Галш,Гарадин,Гарчин,Гарк,Гарлан,Гарлин Он,Гарутин,Гартло,Гаруши,Гашинар,Гашел,Гауши,Гаустун,Гекчи,Гелка Кон,Гелкник,Гилан,Гишари,Гојст,Града,Грет Ин,Грашен,Гравлан,Греј,Грелнит,Грен Он,Грец,Грибел,Грида,Гриш,Грон Их,Ка,Кан Их,Кариган,Кари Кон,Карон,Касп,Кегрид,Керат Ин,Керат Кор,Клаш,Кон Гарашеј,Краг,Крал Он,Кран Кор,Краш,Краслар,Кренли,Круген,Кун,Ма Тоа,Мал,Маргијан,Марилдијан,Маркан,Маркинос,Мар Он,Мара Дилек,Марито,Маритос,Меркуш,Меритос Гарк,Морустеј,Мур,Оматакеј,Решан,Вашит,Велник,Вералон,Верамо,Верат,Вердит,Веркон,Верлин,Вермај,Вертик,Владнир|~"
-
-# |, no-check-spell|~
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Alen Ka,Alinash Mal,Ashirt,Auginet Ka,Auuglann,Damell,Dell,Demla,Dinsill,Eshi,Olath,Omage,Omagrra,Orra Ka,Orridan,Orrida,Oshibi,Vallin,Valnirra,Valnitt,Velisk,Verra,Vellin Ka,Veshtar,Vushtin"
 msgstr "Ален Ка,Алинаш Мал,Аширт,Огинет Ка,Оуглан,Дамел,Дел,Демла,Динсил,Еши,Олат,Омаж,Омагра,Ора Ка,Оридан,Орида,Ошиби,Валин,Валнира,Валнит,Велиск,Вера,Велин Ка,Вештар,Вуштин|~"
-
-# |, no-check-spell|~
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Alen Ka,Alinash Mal,Ashijt,Auginet Ka,Auuglann,Damell,Dell,Demla,Dinsill,Eshyi,Olath,Omage,Omagrra,Orra Ka,Orridan,Orriday,Oshibi,Vallin,Valnirra,Valnitt,Velisp,Vellin Ka,Vushtin,Werra,Weshter,Wilniss"
-msgstr "Ален Ка,Алинаш Мал,Ашијт,Огинет Ка,Оуглан,Дамел,Дел,Демла,Динсил,Ешиј,Олат,Омаж,Омагра,Ора Ка,Оридан,Оридеј,Ошиби,Валин,Валнира,Валнит,Велисп,Велин Ка,Вуштин,Вера,Вештер,Вилнис|~"
 
 # |, no-check-spell|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
@@ -2992,10 +2917,6 @@ msgid "Always rest heals"
 msgstr "Увек се лечи на одмору|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Can rest while moving, takes a quarter less poison damage"
-msgstr "може се одмарати у покрету, трпи четврт мање штете од отрова|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "fearless"
 msgstr "неустрашивост|~"
 
@@ -3257,24 +3178,6 @@ msgstr "људи|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid ""
 "The race of men is an extremely diverse one. Although they originally came from the Old Continent, men have spread all over the world and split into many different cultures and races. Although they are not imbued with magic like other creatures, humans can learn to wield it and able to learn more types than most others. They have no extra special abilities or aptitudes except their versatility and drive. While often at odds with other races, they can occasionally form alliances with the less aggressive races such as elves and dwarves. The less scrupulous among them do not shrink back from hiring orcish mercenaries, either. They have no natural enemies, although the majority of men, like most people of all races, have an instinctive dislike of the undead. Men are shorter than the elves, but taller still than dwarves. Their skin color can vary, from almost white to dark brown.\n"
-"\n"
-"<header>text='Subjects of the Crown'</header>\n"
-"Many different groups of men exist, but the majority of them on the Great Continent live under the rule of the Crown of Wesnoth. The humans first appeared on the Great Continent from a land far across the ocean to the West, the Green Isle, and soon established their capital at the inland city of Weldyn. Over the following centuries they have built up a number cities across the continent. The soldiers from the Crown of Wesnoth protect the country, forming the most organized military force in the known world. Its warriors come from the main provinces, where all men are conscripted at an early age.\n"
-"\n"
-"<header>text='The Clansmen'</header>\n"
-"The eastern provinces of Wesnoth, known as the Clan Homelands, have a geography consisting of more open plains and rolling hills than the western, more civilized provinces. They are home to the Horse Clans, who are allied with the Crown of Wesnoth but operate independently and maintain their own identity. Some consider them to be a tributary state, which sends food and soldiers to Crown in exchange for protection. Others say they are on equal footing with the western half of Wesnoth. In any case, the eastern provinces do not have a conscript army the way Western Wesnoth does. Training for fighting is part of the way of life of the Clans; the parents teach the children to ride horses, fight and shoot a bow from an early age. In general, the Clan warriors are less organized than the civilized fighters, and the strengths and weaknesses of these groups complement each other."
-msgstr ""
-"Људска је раса до крајњости разнолика. Иако потичу са Старог континента, људи се проширише по целом свету и разделише на многе културе и подрасе. Иако нису прожети магијом као друга створења, људи је умеју спознати и владати њеним разноврснијим видовима него већина осталих. Немају посебних способности ни наклоњености до своје свестраности и нагона. Иако неретко у завади са другим расама, повремено умеју ступити у савез са оним мање ратоборним, попут вилењака или патуљака. Мање обзирни се не устручавају ни од унајмљивања орковских плаћеника. Иако без природних непријатеља, већина људи гаји исконску одбојност према немртвима, као што је случај и с другим расама. Људи су нижи растом од вилењака, а виши од патуљака. Боја коже им је широког распона, од скоро беле до тамносмеђе.\n"
-"\n"
-"<header>text='Поданици Круне'</header>\n"
-"Многе су различите људске скупине, али их већина на Великом континенту потпада под власт Круне Веснота. Први људи на Велики континент стигоше из земље далеко преко океана на западу, са Зеленострва, те убрзо успоставише своју престоницу, од мора далеки град Велдин. Током наредних векова подигоше још многе градове широм континента. Војници веснотске круне штите државу, образујући најуређенију војничку силу познатог света. Њени будући ратници стижу из главних покрајина, где се мушкарци регрутују још као млади.\n"
-"\n"
-"<header>text='Припадници Кланова'</header>\n"
-"Источне покрајине веснотске, познате као домовине Кланова, географски су претежно отворене равнице и валовита брда, за разлику од западних, цивилизованијих покрајина. Њих насељавају Коњички кланови, придружени Круни Веснота, али делујући независно и одржавајући своје порекло. Неки их држе за вазалску државу, што Круни подаје храну и војнике у замену за заштиту. Други, пак, веле да су на равној нози са западном половином Веснота. Како било, источне покрајине не одржавају стајаћу војску како то чини Западни Веснот. Увежбавање за бој саставни је део живота у Клановима; родитељи децу подучавају јахању, борењу и руковању луком од малих ногу. У пресеку, клански су ратници слабије организовани од цивилизованих бораца, али се врлине и мане ових дружина међусобно надопуњују.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid ""
-"The race of men is an extremely diverse one. Although they originally came from the Old Continent, men have spread all over the world and split into many different cultures and races. Although they are not imbued with magic like other creatures, humans can learn to wield it and able to learn more types than most others. They have no extra special abilities or aptitudes except their versatility and drive. Although often at odds with all races, they can occasionally form alliances with the less aggressive races such as elves and dwarves. The less scrupulous among them do not shrink back from hiring orcish mercenaries, either. They have no natural enemies, although the majority of men, like most people of all races, have an instinctive dislike of the undead. Men are shorter than the elves, but taller still than dwarves. Their skin color can vary, from almost white to dark brown.\n"
 "\n"
 "<header>text='Subjects of the Crown'</header>\n"
 "Many different groups of men exist, but the majority of them on the Great Continent live under the rule of the Crown of Wesnoth. The humans first appeared on the Great Continent from a land far across the ocean to the West, the Green Isle, and soon established their capital at the inland city of Weldyn. Over the following centuries they have built up a number cities across the continent. The soldiers from the Crown of Wesnoth protect the country, forming the most organized military force in the known world. Its warriors come from the main provinces, where all men are conscripted at an early age.\n"
@@ -3580,18 +3483,8 @@ msgstr "$name|бери,$name|ем,$name|тон,$name|бери|~"
 
 # >> village names|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "$name|bury,$name|ham,$name|ton"
-msgstr "$name|бери,$name|ем,$name|тон|~"
-
-# >> village names|~
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "$name|harbor,$name|port,$lake|port,$lake|harbor"
 msgstr "Лука $name|,$name|ски стај,Лука $lake|,$lake|ски стај|~"
-
-# >> village names|~
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "$name|harbor,$name|port"
-msgstr "Лука $name|,$name|ски стај|~"
 
 # >> village names|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
@@ -3600,18 +3493,8 @@ msgstr "$name|ем,$name|форд,$name|ски прелаз,$river|форд,$riv
 
 # >> village names|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "$name|ham,$name|ford,$name|cross,$river|ford,$river|cross"
-msgstr "$name|ем,$name|форд,$name|ски прелаз,$river|форд,$river|ски прелаз|~"
-
-# >> village names|~
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "$river|bridge,$river|bridge,$river|bridge,$name|ham,$name|bridge,$bridge|ham,$bridge|ton"
 msgstr "$river|ски мост,$river|ски мост,$river|ски мост,$name|ем,$name|ски мост,$bridge|ем,$bridge|тон|~"
-
-# >> village names|~
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "$river|bridge,$river|bridge,$river|bridge,$name|ham,$name|bridge"
-msgstr "$river|ски мост,$river|ски мост,$river|ски мост,$name|ем,$name|ски мост|~"
 
 # >> village names|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
@@ -3627,11 +3510,6 @@ msgstr "$name|ем,$name|тон,$name|вуд,$forest|вуд,$forest|ем,$forest
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "$name|ham,$name|bury,$name|ton,$name|hill,$name|crest"
 msgstr "$name|ем,$name|бери,$name|тон,$name|ско брдо,$name|ски венац|~"
-
-# >> village names|~
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "$name|ham,$name|ton,$name|wood,$name Forest"
-msgstr "$name|ем,$name|тон,$name|вуд,$name|ска шума|~"
 
 # >> village names|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
@@ -3690,16 +3568,8 @@ msgid "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc"
 msgstr "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "DejaVuSans.ttf,wqy-zenhei.ttc"
-msgstr "DejaVuSans.ttf,wqy-zenhei.ttc|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "DejaVu Sans,Andagii,WenQuanYi Zen Hei"
 msgstr "DejaVu Sans,Andagii,WenQuanYi Zen Hei|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "DejaVu Sans,WenQuanYi Zen Hei"
-msgstr "DejaVu Sans,WenQuanYi Zen Hei|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Battle for Wesnoth automatically sends anonymized statistics about your game advancement to a server where they are stored. This enables several features, and allows us to improve Wesnoth. To learn more about this or disable it, click the envelope in the bottom-right corner."
@@ -3745,10 +3615,6 @@ msgstr "— Животопис Гведрија, 627.гв.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you choose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
-msgstr "Наредбама „~%/Recruit/“ и „~%/Recall/“ можете приступити десним кликом на поље замка. Потом изаберите поље где желите да се нова јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you chose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
 msgstr "Наредбама „~%/Recruit/“ и „~%/Recall/“ можете приступити десним кликом на поље замка. Потом изаберите поље где желите да се нова јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
@@ -4070,11 +3936,6 @@ msgctxt "statuspanel"
 msgid "moves"
 msgstr "кретњи|~"
 
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgctxt "statuspanel"
-msgid "movement"
-msgstr "кретање|~"
-
 # well-spelled: одб|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgctxt "statuspanel"
@@ -4152,10 +4013,6 @@ msgid "Close"
 msgstr "Затвори|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "An invalid weapon is selected, possibly by the Python AI."
-msgstr "Изабрано неваљано оружје, можда кривицом питонске ВИ.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "You don't have a leader to recruit with."
 msgstr "Морате имати вођа да бисте унајмљивали.|~"
 
@@ -4176,18 +4033,9 @@ msgid "An invalid defender weapon got selected."
 msgstr "Изабрано је неваљано оружје за браниоца.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "stone"
-msgstr "окамењен|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgctxt "female"
 msgid "poisoned"
 msgstr "отрована|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgctxt "female"
-msgid "stone"
-msgstr "окамењена|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgctxt "female"
@@ -4336,20 +4184,8 @@ msgstr[2] "$addon_title се ослања на следеће који још н
 msgstr[3] "$addon_title се ослања на следећи који још није инсталиран:|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "This add-on depends upon the following add-on which you have not installed yet:"
-msgid_plural "This add-on depends upon the following add-ons which you have not installed yet:|~"
-msgstr[0] "Овај додатак се ослања на следеће који још нису инсталирани:|~"
-msgstr[1] "Овај додатак се ослања на следеће који још нису инсталирани:|~"
-msgstr[2] "Овај додатак се ослања на следеће који још нису инсталирани:|~"
-msgstr[3] "Овај додатак се ослања на следећи који још није инсталиран:|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Do you still want to download $addon_title|? (You will have to install all the dependencies in order to play.)"
 msgstr "Желите ли да преузмете $addon_title|? (Мораћете да инсталирате и све зависности да бисте играли.)|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Do you want to download this add-on? (You will still have to install the dependencies in order to play.)"
-msgstr "Желите ли да преузмете овај додатак? (Мораћете да инсталирате и све зависности да бисте играли.)|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Connection timed out"
@@ -4637,14 +4473,6 @@ msgid "Don't ask me again!"
 msgstr "Не питај ме поново!|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Ignore All"
-msgstr "Игнориши све|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Save names may not contain colons, slashes, or backslashes. Please choose a different name."
-msgstr "Имена позиција не могу садржати двотачке, косе и обрнуте косе црте. Задајте другачије име.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "%a %b %d %H:%M %Y"
 msgstr "%a %b %d %H.%M %Y|~"
 
@@ -4721,10 +4549,6 @@ msgstr "датум|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Load Game"
 msgstr "Учитавање позиције|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Quit Game"
-msgstr "Напусти игру|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Choose the game to load"
@@ -4889,10 +4713,6 @@ msgid "Info: "
 msgstr "Податак: |~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Defeat:"
-msgstr "пораз:|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "[unit_worth]'s filter didn't match any units!"
 msgstr "Филтер [unit_worth] не поклапа ниједну јединицу.|~"
 
@@ -4917,10 +4737,6 @@ msgid "poisoned: "
 msgstr "отрована: |~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "stone: "
-msgstr "окамењена: |~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid ""
 "This unit is poisoned. It will lose 8 HP every turn until it can seek a cure to the poison in a village or from a friendly unit with the 'cures' ability.\n"
 "\n"
@@ -4936,10 +4752,6 @@ msgstr "окамењена: |~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "This unit has been petrified. It may not move or attack."
-msgstr "Ова јединица је окамењена. Не може се кретати нити нападати.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "This unit has been turned to stone. It may not move or attack."
 msgstr "Ова јединица је окамењена. Не може се кретати нити нападати.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
@@ -5230,28 +5042,12 @@ msgid "Verifying cache..."
 msgstr "Оверавам кеш...|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Verifying cache"
-msgstr "Оверавам кеш...|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Reading unit files..."
-msgstr "Читам датотеке јединица...|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Reading unit files."
 msgstr "Читам датотеке јединица...|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Reading files and creating cache..."
 msgstr "Читам датотеке и стварам кеш...|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Reading files and creating cache."
-msgstr "Читам датотеке и стварам кеш...|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "--no games open--"
-msgstr "--нема започетих партија--|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Unknown era: $era_id"
@@ -5260,10 +5056,6 @@ msgstr "непозната епоха: $era_id|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Unknown era"
 msgstr "непозната епоха|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid " (Unknown Era)"
-msgstr " (непозната епоха)|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Remote scenario"
@@ -5306,38 +5098,6 @@ msgid "none"
 msgstr "нема|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Password Required"
-msgstr "неопходна лозинка|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Observe Game"
-msgstr "Посматрај партију|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Join Game"
-msgstr "На произвољан сервер|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Quick Replays"
-msgstr "Убрзани снимци|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Preferences"
-msgstr "Поставке|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Quit"
-msgstr "Напусти|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Skip quickly to the active turn when observing"
-msgstr "Брзо скочи на активни потез при посматрању.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Joining this game requires a password."
-msgstr "Придруживање овој партији само уз лозинку.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "A map without a header is not supported"
 msgstr "Мапе без заглавља нису подржане.|~"
 
@@ -5372,11 +5132,6 @@ msgstr "Статистика|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Moves"
 msgstr "кретњи|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgctxt "Location"
-msgid "Loc."
-msgstr "пол.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Status"
@@ -5511,10 +5266,6 @@ msgstr "Мапа сачувана.|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Could not save the map: $msg"
 msgstr "Не могу да сачувам мапу: $msg|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "The game could not be saved"
-msgstr "Не могу да сачувам позицију|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Chat Log"
@@ -5666,10 +5417,6 @@ msgid "Mute/Unmute all observers. (toggles)"
 msgstr "Утишава или укида утишаност свих посматрача.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Mute all observers."
-msgstr "Утишава све посматраче.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Send a message to the server admins currently online"
 msgstr "Шаље поруку администраторима сервера тренутно на вези.|~"
 
@@ -5748,10 +5495,6 @@ msgstr "Порука собе.|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Room query."
 msgstr "Упит собе.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Remove a trait from a unit. (Does not work yet.)"
-msgstr "Уклања особину јединице. (Још увек не ради.)|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Refresh gui."
@@ -6041,10 +5784,6 @@ msgid "+"
 msgstr "+|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Default AI"
-msgstr "основна ВИ|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "(Vacant slot)"
 msgstr "(слободно)|~"
 
@@ -6055,10 +5794,6 @@ msgstr "Никоговић|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Computer Player"
 msgstr "рачунарски играч|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Computer player"
-msgstr "Симулакрум|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "$playername $side"
@@ -6147,14 +5882,6 @@ msgstr "победа:|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Defeat enemy leader(s)"
 msgstr "Поразиш ли противничке вође|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid ""
-"Victory:\n"
-"@Defeat enemy leader(s)"
-msgstr ""
-"победа:\n"
-"@Поразиш ли противничке вође|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Waiting for players to join..."
@@ -6467,20 +6194,12 @@ msgid "Error while reading the WML: "
 msgstr "Грешка при читању ~@/ВМЛ/WML/-а: |~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "The replay could not be saved"
-msgstr "Снимак није било могуће сачувати|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "This scenario has ended. Do you want to continue the campaign?"
 msgstr "Сценарио је окончан. Желите ли да наставите поход?|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Downloading next scenario..."
 msgstr "Преузимам следећи сценарио...|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Name:"
-msgstr "Име:|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Do you want to save your game?"
@@ -6501,11 +6220,6 @@ msgstr "Промена потеза|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Undoing moves not yet transmitted to the server."
 msgstr "Опозив покрета се не може одаслати на сервер.|~"
-
-# намерно кратко, на уском дугмету|~
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "End scenario"
-msgstr "Крај|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 msgid "Waiting for next scenario..."
@@ -6585,12 +6299,6 @@ msgstr "Игра је завршена.|~"
 msgid ""
 "A network disconnection has occurred, and the game\n"
 "cannot continue. Do you want to save the game?"
-msgstr ""
-"Мрежна веза је прекинута и игра се не може наставити.\n"
-"Желите ли да сачувате позицију?|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "A network disconnection has occurred, and the game cannot continue. Do you want to save the game?"
 msgstr ""
 "Мрежна веза је прекинута и игра се не може наставити.\n"
 "Желите ли да сачувате позицију?|~"
@@ -7065,24 +6773,377 @@ msgid "Enable summary uploads"
 msgstr "Укључи слање сажетака|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Play a campaign"
-msgstr "Пођите у поход|~"
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid ""
+#~ "\n"
+#~ "Change the controller for side (write here the number of the side) to username (write here the nick of the player or observer). You can check what side belongs to which player in the 'Scenario Settings' dialog (Press the 'more' button in the 'Status Table' (alt+s by default) to get there.).\n"
+#~ "\n"
+#~ msgstr ""
+#~ "\n"
+#~ "мења управљача стране (задате бројем) на дато корисничко име (надимак играча или посматрача). Који играч припада којој страни можете проверити у дијалогу „~%/Scenario Settings/“; притисните дугме за више у табели стања (подразумевно алт+S) да дођете дотле.\n"
+#~ "\n"
+#~ "|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Unknown unit type : "
-msgstr "Непознат тип јединице: |~"
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid ""
+#~ "\n"
+#~ "Kick a user in multiplayer. They will be able to rejoin the game. Generally a friendly way to remove someone who is having connection or other difficulties.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "\n"
+#~ "избацује играча из игре. Избачени ће моћи да се поново прикључе. Сматра се пријатељским начином да се уклони неко ко има проблема са везом или друге потешкоће.\n"
+#~ "\n"
+#~ "|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Movement cost is 0, probably a terrain with movement cost of 0."
-msgstr "Трошак кретања 0, вероватно терен са трошком кретања 0.|~"
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid ""
+#~ "\n"
+#~ "Toggle muting/silencing of all observers on/off."
+#~ msgstr ""
+#~ "\n"
+#~ "укљученост свих посматрача у писање и разговор.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "Duplicate side definition for side '$side|' found."
-msgstr "Нађена удвојена дефиниција стране за страну ‘$side|’.|~"
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid ""
+#~ "\n"
+#~ "Ban a user in a multiplayer game by the IP address used by that username and kick him.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "\n"
+#~ "забрањује играча у вишеиграчкој партији по ИП адреси за корисничким именом, и избацује га.\n"
+#~ "\n"
+#~ "|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-msgid "The file you have tried to load is corrupt. Continue playing?"
-msgstr "Покушали сте да отворите искварену датотеку. Настављате с игром?|~"
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid ""
+#~ "\n"
+#~ "Modifies the specified property of the selected unit. Example: :unit hitpoints=100"
+#~ msgstr ""
+#~ "\n"
+#~ "измењује наведено својство изабране јединице, на пример: :unit hitpoints=100|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "stones"
+#~ msgstr "окамењивање|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid ""
+#~ "Stone:\n"
+#~ "This attack turns the target to stone. Units that have been turned to stone may not move or attack."
+#~ msgstr ""
+#~ "Окамењивање:\n"
+#~ "Напад претвара циљану јединицу у камен. Тада се она не може покретати нити нападати.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "`(early finish bonus)"
+#~ msgstr "(бонус за рани завршетак)|~"
+
+# |, no-check-spell|~
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Egar,Elch,Ga'ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin ohn,Garrutin,Gart'lo,Garushi,Gashinar,Gashöl,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Goyst,Grada,Græt Ihn,Grashen,Gravlan,Gray,Grelnit,Grenn ohn,Gretz,Gribbel,Gridda,Grish,Gron ih,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kasp,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Mal,Margian,Marhildian,Markan,Markinos,Mar Ohn,Marra Di'lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermay,Vertick,Vladnir"
+#~ msgstr "Егар,Елх,Гаш,Гадеј Ин,Гакреј Ом,Галек,Галш,Гарадин,Гарчин,Гарк,Гарлан,Гарлин Он,Гарутин,Гартло,Гаруши,Гашинар,Гашел,Гауши,Гаустун,Гекчи,Гелка Кон,Гелкник,Гилан,Гишари,Гојст,Града,Грет Ин,Грашен,Гравлан,Греј,Грелнит,Грен Он,Грец,Грибел,Грида,Гриш,Грон Их,Ка,Кан Их,Кариган,Кари Кон,Карон,Касп,Кегрид,Керат Ин,Керат Кор,Клаш,Кон Гарашеј,Краг,Крал Он,Кран Кор,Краш,Краслар,Кренли,Круген,Кун,Ма Тоа,Мал,Маргијан,Марилдијан,Маркан,Маркинос,Мар Он,Мара Дилек,Марито,Маритос,Меркуш,Меритос Гарк,Морустеј,Мур,Оматакеј,Решан,Вашит,Велник,Вералон,Верамо,Верат,Вердит,Веркон,Верлин,Вермај,Вертик,Владнир|~"
+
+# |, no-check-spell|~
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Alen Ka,Alinash Mal,Ashijt,Auginet Ka,Auuglann,Damell,Dell,Demla,Dinsill,Eshyi,Olath,Omage,Omagrra,Orra Ka,Orridan,Orriday,Oshibi,Vallin,Valnirra,Valnitt,Velisp,Vellin Ka,Vushtin,Werra,Weshter,Wilniss"
+#~ msgstr "Ален Ка,Алинаш Мал,Ашијт,Огинет Ка,Оуглан,Дамел,Дел,Демла,Динсил,Ешиј,Олат,Омаж,Омагра,Ора Ка,Оридан,Оридеј,Ошиби,Валин,Валнира,Валнит,Велисп,Велин Ка,Вуштин,Вера,Вештер,Вилнис|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Can rest while moving, takes a quarter less poison damage"
+#~ msgstr "може се одмарати у покрету, трпи четврт мање штете од отрова|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid ""
+#~ "The race of men is an extremely diverse one. Although they originally came from the Old Continent, men have spread all over the world and split into many different cultures and races. Although they are not imbued with magic like other creatures, humans can learn to wield it and able to learn more types than most others. They have no extra special abilities or aptitudes except their versatility and drive. Although often at odds with all races, they can occasionally form alliances with the less aggressive races such as elves and dwarves. The less scrupulous among them do not shrink back from hiring orcish mercenaries, either. They have no natural enemies, although the majority of men, like most people of all races, have an instinctive dislike of the undead. Men are shorter than the elves, but taller still than dwarves. Their skin color can vary, from almost white to dark brown.\n"
+#~ "\n"
+#~ "<header>text='Subjects of the Crown'</header>\n"
+#~ "Many different groups of men exist, but the majority of them on the Great Continent live under the rule of the Crown of Wesnoth. The humans first appeared on the Great Continent from a land far across the ocean to the West, the Green Isle, and soon established their capital at the inland city of Weldyn. Over the following centuries they have built up a number cities across the continent. The soldiers from the Crown of Wesnoth protect the country, forming the most organized military force in the known world. Its warriors come from the main provinces, where all men are conscripted at an early age.\n"
+#~ "\n"
+#~ "<header>text='The Clansmen'</header>\n"
+#~ "The eastern provinces of Wesnoth, known as the Clan Homelands, have a geography consisting of more open plains and rolling hills than the western, more civilized provinces. They are home to the Horse Clans, who are allied with the Crown of Wesnoth but operate independently and maintain their own identity. Some consider them to be a tributary state, which sends food and soldiers to Crown in exchange for protection. Others say they are on equal footing with the western half of Wesnoth. In any case, the eastern provinces do not have a conscript army the way Western Wesnoth does. Training for fighting is part of the way of life of the Clans; the parents teach the children to ride horses, fight and shoot a bow from an early age. In general, the Clan warriors are less organized than the civilized fighters, and the strengths and weaknesses of these groups complement each other."
+#~ msgstr ""
+#~ "Људска је раса до крајњости разнолика. Иако потичу са Старог континента, људи се проширише по целом свету и разделише на многе културе и подрасе. Иако нису прожети магијом као друга створења, људи је умеју спознати и владати њеним разноврснијим видовима него већина осталих. Немају посебних способности ни наклоњености до своје свестраности и нагона. Иако неретко у завади са другим расама, повремено умеју ступити у савез са оним мање ратоборним, попут вилењака или патуљака. Мање обзирни се не устручавају ни од унајмљивања орковских плаћеника. Иако без природних непријатеља, већина људи гаји исконску одбојност према немртвима, као што је случај и с другим расама. Људи су нижи растом од вилењака, а виши од патуљака. Боја коже им је широког распона, од скоро беле до тамносмеђе.\n"
+#~ "\n"
+#~ "<header>text='Поданици Круне'</header>\n"
+#~ "Многе су различите људске скупине, али их већина на Великом континенту потпада под власт Круне Веснота. Први људи на Велики континент стигоше из земље далеко преко океана на западу, са Зеленострва, те убрзо успоставише своју престоницу, од мора далеки град Велдин. Током наредних векова подигоше још многе градове широм континента. Војници веснотске круне штите државу, образујући најуређенију војничку силу познатог света. Њени будући ратници стижу из главних покрајина, где се мушкарци регрутују још као млади.\n"
+#~ "\n"
+#~ "<header>text='Припадници Кланова'</header>\n"
+#~ "Источне покрајине веснотске, познате као домовине Кланова, географски су претежно отворене равнице и валовита брда, за разлику од западних, цивилизованијих покрајина. Њих насељавају Коњички кланови, придружени Круни Веснота, али делујући независно и одржавајући своје порекло. Неки их држе за вазалску државу, што Круни подаје храну и војнике у замену за заштиту. Други, пак, веле да су на равној нози са западном половином Веснота. Како било, источне покрајине не одржавају стајаћу војску како то чини Западни Веснот. Увежбавање за бој саставни је део живота у Клановима; родитељи децу подучавају јахању, борењу и руковању луком од малих ногу. У пресеку, клански су ратници слабије организовани од цивилизованих бораца, али се врлине и мане ових дружина међусобно надопуњују.|~"
+
+# >> village names|~
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "$name|bury,$name|ham,$name|ton"
+#~ msgstr "$name|бери,$name|ем,$name|тон|~"
+
+# >> village names|~
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "$name|harbor,$name|port"
+#~ msgstr "Лука $name|,$name|ски стај|~"
+
+# >> village names|~
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "$name|ham,$name|ford,$name|cross,$river|ford,$river|cross"
+#~ msgstr "$name|ем,$name|форд,$name|ски прелаз,$river|форд,$river|ски прелаз|~"
+
+# >> village names|~
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "$river|bridge,$river|bridge,$river|bridge,$name|ham,$name|bridge"
+#~ msgstr "$river|ски мост,$river|ски мост,$river|ски мост,$name|ем,$name|ски мост|~"
+
+# >> village names|~
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "$name|ham,$name|ton,$name|wood,$name Forest"
+#~ msgstr "$name|ем,$name|тон,$name|вуд,$name|ска шума|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "DejaVuSans.ttf,wqy-zenhei.ttc"
+#~ msgstr "DejaVuSans.ttf,wqy-zenhei.ttc|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "DejaVu Sans,WenQuanYi Zen Hei"
+#~ msgstr "DejaVu Sans,WenQuanYi Zen Hei|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you chose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
+#~ msgstr "Наредбама „~%/Recruit/“ и „~%/Recall/“ можете приступити десним кликом на поље замка. Потом изаберите поље где желите да се нова јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgctxt "statuspanel"
+#~ msgid "movement"
+#~ msgstr "кретање|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "An invalid weapon is selected, possibly by the Python AI."
+#~ msgstr "Изабрано неваљано оружје, можда кривицом питонске ВИ.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "stone"
+#~ msgstr "окамењен|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgctxt "female"
+#~ msgid "stone"
+#~ msgstr "окамењена|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "This add-on depends upon the following add-on which you have not installed yet:"
+#~ msgid_plural "This add-on depends upon the following add-ons which you have not installed yet:|~"
+#~ msgstr[0] "Овај додатак се ослања на следеће који још нису инсталирани:|~"
+#~ msgstr[1] "Овај додатак се ослања на следеће који још нису инсталирани:|~"
+#~ msgstr[2] "Овај додатак се ослања на следеће који још нису инсталирани:|~"
+#~ msgstr[3] "Овај додатак се ослања на следећи који још није инсталиран:|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Do you want to download this add-on? (You will still have to install the dependencies in order to play.)"
+#~ msgstr "Желите ли да преузмете овај додатак? (Мораћете да инсталирате и све зависности да бисте играли.)|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Ignore All"
+#~ msgstr "Игнориши све|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Save names may not contain colons, slashes, or backslashes. Please choose a different name."
+#~ msgstr "Имена позиција не могу садржати двотачке, косе и обрнуте косе црте. Задајте другачије име.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Quit Game"
+#~ msgstr "Напусти игру|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Defeat:"
+#~ msgstr "пораз:|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "stone: "
+#~ msgstr "окамењена: |~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "This unit has been turned to stone. It may not move or attack."
+#~ msgstr "Ова јединица је окамењена. Не може се кретати нити нападати.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Verifying cache"
+#~ msgstr "Оверавам кеш...|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Reading unit files."
+#~ msgstr "Читам датотеке јединица...|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Reading files and creating cache."
+#~ msgstr "Читам датотеке и стварам кеш...|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "--no games open--"
+#~ msgstr "--нема започетих партија--|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid " (Unknown Era)"
+#~ msgstr " (непозната епоха)|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Password Required"
+#~ msgstr "неопходна лозинка|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Observe Game"
+#~ msgstr "Посматрај партију|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Join Game"
+#~ msgstr "На произвољан сервер|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Quick Replays"
+#~ msgstr "Убрзани снимци|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Preferences"
+#~ msgstr "Поставке|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Quit"
+#~ msgstr "Напусти|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Skip quickly to the active turn when observing"
+#~ msgstr "Брзо скочи на активни потез при посматрању.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Joining this game requires a password."
+#~ msgstr "Придруживање овој партији само уз лозинку.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgctxt "Location"
+#~ msgid "Loc."
+#~ msgstr "пол.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "The game could not be saved"
+#~ msgstr "Не могу да сачувам позицију|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Mute all observers."
+#~ msgstr "Утишава све посматраче.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Remove a trait from a unit. (Does not work yet.)"
+#~ msgstr "Уклања особину јединице. (Још увек не ради.)|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Default AI"
+#~ msgstr "основна ВИ|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Computer player"
+#~ msgstr "Симулакрум|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid ""
+#~ "Victory:\n"
+#~ "@Defeat enemy leader(s)"
+#~ msgstr ""
+#~ "победа:\n"
+#~ "@Поразиш ли противничке вође|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "The replay could not be saved"
+#~ msgstr "Снимак није било могуће сачувати|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Name:"
+#~ msgstr "Име:|~"
+
+# намерно кратко, на уском дугмету|~
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "End scenario"
+#~ msgstr "Крај|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "A network disconnection has occurred, and the game cannot continue. Do you want to save the game?"
+#~ msgstr ""
+#~ "Мрежна веза је прекинута и игра се не може наставити.\n"
+#~ "Желите ли да сачувате позицију?|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Play a campaign"
+#~ msgstr "Пођите у поход|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Unknown unit type : "
+#~ msgstr "Непознат тип јединице: |~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Movement cost is 0, probably a terrain with movement cost of 0."
+#~ msgstr "Трошак кретања 0, вероватно терен са трошком кретања 0.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "Duplicate side definition for side '$side|' found."
+#~ msgstr "Нађена удвојена дефиниција стране за страну ‘$side|’.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#~ msgid "The file you have tried to load is corrupt. Continue playing?"
+#~ msgstr "Покушали сте да отворите искварену датотеку. Настављате с игром?|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1o
 #~ msgid "This situation should test the ability of AI to make an attack..."
