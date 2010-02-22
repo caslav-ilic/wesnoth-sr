@@ -1,15 +1,16 @@
-# Serbian translations for Battle for Wesnoth package.
+# Translation of wesnoth-lib.po into Serbian.
 # Copyright (C) 2005 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
 # Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009.
+# Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>, 2010.
 # Branko Kokanovic, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: sr\n"
+"Project-Id-Version: wesnoth-lib\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2010-02-20 10:47+0100\n"
-"PO-Revision-Date: 2009-11-15 13:04+0100\n"
-"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"PO-Revision-Date: 2010-02-22 23:53+0100\n"
+"Last-Translator: Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +49,7 @@ msgstr "лед"
 #. +> trunk
 #: data/core/terrain.cfg:53
 msgid "Snow"
-msgstr "снег"
+msgstr "сн›ијег"
 
 #. [terrain_type]: id=bridge
 #. [terrain_type]: id=bridgediag1
@@ -186,7 +187,7 @@ msgstr "запрека"
 #. +> trunk
 #: data/core/terrain.cfg:418
 msgid "Sand"
-msgstr "песак"
+msgstr "п›ијесак"
 
 #. [terrain_type]: id=oasis
 #. +> trunk
@@ -201,13 +202,13 @@ msgstr "оаза"
 #: data/core/terrain.cfg:441 data/core/terrain.cfg:516
 #: data/core/terrain.cfg:561
 msgid "Snow Forest"
-msgstr "снежна шума"
+msgstr "с‹њежна шума"
 
 #. [terrain_type]: id=snow_forest
 #. +> trunk
 #: data/core/terrain.cfg:442
 msgid "Snowy Pine Forest"
-msgstr "снежна зимзелена шума"
+msgstr "с‹њежна зимзелена шума"
 
 #. [terrain_type]: id=great_tree
 #. +> trunk
@@ -246,7 +247,7 @@ msgstr "тропска шума"
 #. +> trunk
 #: data/core/terrain.cfg:484
 msgid "Summer Deciduous Forest"
-msgstr "летња листопадна шума"
+msgstr "‹љетња листопадна шума"
 
 #. [terrain_type]: id=deciduous_forest_fall
 #. +> trunk
@@ -264,13 +265,13 @@ msgstr "зимска листопадна шума"
 #. +> trunk
 #: data/core/terrain.cfg:517
 msgid "Snowy Deciduous Forest"
-msgstr "снежна листопадна шума"
+msgstr "с‹њежна листопадна шума"
 
 #. [terrain_type]: id=mixed_forest_summer
 #. +> trunk
 #: data/core/terrain.cfg:529
 msgid "Summer Mixed Forest"
-msgstr "летња мешовита шума"
+msgstr "‹љетна м›јешовита шума"
 
 #. [terrain_type]: id=mixed_forest_fall
 #. +> trunk
@@ -318,7 +319,7 @@ msgstr "шумовита снежна брда"
 #. +> trunk
 #: data/core/terrain.cfg:598
 msgid "Summer Deciduous Forested Hills"
-msgstr "летња листопадно пошумљена брда"
+msgstr "‹љетња листопадно пошумљена брда"
 
 #. [terrain_type]: id=deciduous_forest_fall_hills
 #. +> trunk
@@ -342,19 +343,19 @@ msgstr "снежна листопадно пошумљена брда"
 #. +> trunk
 #: data/core/terrain.cfg:642
 msgid "Summer Mixed Forested Hills"
-msgstr "летња мешовито пошумљена брда"
+msgstr "‹љетња м›јешовито пошумљена брда"
 
 #. [terrain_type]: id=mixed_forest_winter_hills
 #. +> trunk
 #: data/core/terrain.cfg:663
 msgid "Winter Mixed Forested Hills"
-msgstr "зимска мешовито пошумљена брда"
+msgstr "зимска м›јешовито пошумљена брда"
 
 #. [terrain_type]: id=mixed_forest_winter_snow_hills
 #. +> trunk
 #: data/core/terrain.cfg:674
 msgid "Snowy Mixed Forested Hills"
-msgstr "снежна мешовито пошумљена брда"
+msgstr "с‹њежна м›јешовито пошумљена брда"
 
 #. [terrain_type]: id=grassland
 #. [terrain_type]: id=grassland_flowers
@@ -375,7 +376,7 @@ msgstr "савана"
 #. +> trunk
 #: data/core/terrain.cfg:728
 msgid "Snow Hills"
-msgstr "снежна брда"
+msgstr "с‹њежна брда"
 
 #. [terrain_type]: id=desert_hills
 #. +> trunk
@@ -408,7 +409,7 @@ msgstr "пустињске планине"
 #. +> trunk
 #: data/core/terrain.cfg:779
 msgid "Snowy Mountains"
-msgstr "снежне планине"
+msgstr "с‹њежне планине"
 
 #. [terrain_type]: id=canyon
 #. +> trunk
@@ -482,13 +483,13 @@ msgstr "гљиварски гај"
 #. +> trunk
 #: data/core/terrain.cfg:936
 msgid "Mushroom Grove Lit"
-msgstr "гљиварски гај осветљен"
+msgstr "гљиварски гај осв›ијетљен"
 
 #. [terrain_type]: id=rocky_cave
 #. +> trunk
 #: data/core/terrain.cfg:947
 msgid "Rockbound Cave"
-msgstr "стеновита пећина"
+msgstr "ст›јеновита пећина"
 
 #. [terrain_type]: id=desert_village
 #. [terrain_type]: id=orcish_snow_village
@@ -726,7 +727,7 @@ msgstr "Створи насумичну мапу"
 #: data/gui/default/window/editor_generate_map.cfg:67
 #: data/gui/default/window/editor_generate_map.cfg:68
 msgid "Next Generator"
-msgstr "Следећи генератор"
+msgstr "С‹љедећи генератор"
 
 #. [button]: id=settings
 #. +> trunk
@@ -774,7 +775,7 @@ msgstr "Направи нову мапу"
 #. +> trunk
 #: data/gui/default/window/editor_resize_map.cfg:27 src/hotkeys.cpp:155
 msgid "Resize Map"
-msgstr "Промени величину мапе"
+msgstr "Пром›ијени величину мапе"
 
 #. [label]
 #. +> trunk
@@ -817,7 +818,7 @@ msgstr "Копирај рубни терен"
 #: data/gui/default/window/editor_resize_map.cfg:264
 #: data/gui/default/window/editor_resize_map.cfg:265
 msgid "Resize map"
-msgstr "Промени величину мапе"
+msgstr "Пром›ијени величину мапе"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
@@ -830,7 +831,7 @@ msgstr "Поставке уређивача"
 #. +> trunk
 #: data/gui/default/window/editor_settings.cfg:46
 msgid "Time of day lighting preset"
-msgstr "Предефинисан осветљај за доба дана"
+msgstr "Предефинисан осв›јетљај за доба дана"
 
 #. [button]: id=next_tod
 #. [button]: id=next_tip
@@ -839,13 +840,13 @@ msgstr "Предефинисан осветљај за доба дана"
 #: data/gui/default/window/editor_settings.cfg:76
 #: data/gui/default/window/title_screen.cfg:138
 msgid "Next"
-msgstr "Следеће"
+msgstr "С‹љедеће"
 
 #. [toggle_button]: id=custom_tod_toggle
 #. +> trunk
 #: data/gui/default/window/editor_settings.cfg:83
 msgid "Custom lighting setting"
-msgstr "Поставка посебног осветљаја"
+msgstr "Поставка посебног осв›јетљаја"
 
 #. [toggle_button]: id=custom_tod_auto_refresh
 #. +> trunk
@@ -883,7 +884,7 @@ msgstr "Дозволи више од једне отворене мапе ист
 #: data/gui/default/window/editor_settings.cfg:250
 #: src/game_preferences_display.cpp:197
 msgid "Apply"
-msgstr "Примени"
+msgstr "Прим›ијени"
 
 #. [label]
 #. +> trunk
@@ -926,7 +927,7 @@ msgstr "Коракни операцију"
 #. +> trunk
 #: data/gui/default/window/formula_debugger.cfg:130
 msgid "Next operation"
-msgstr "Следећа операција"
+msgstr "С‹љедећа операција"
 
 #. [button]: id=stepout
 #. +> trunk
@@ -1145,7 +1146,7 @@ msgstr "тип"
 #. +> trunk
 #: data/gui/default/window/gamestate_inspector.cfg:206
 msgid "Variable"
-msgstr "Променљива"
+msgstr "Пром›јенљива"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
@@ -1178,7 +1179,7 @@ msgstr "Изаберите жељени језик:"
 #: data/gui/default/window/language_selection.cfg:118
 #: data/gui/default/window/language_selection.cfg:119
 msgid "Change language"
-msgstr "Промени језик"
+msgstr "Пром›ијени језик"
 
 #. [row]
 #. +> trunk
@@ -1190,7 +1191,7 @@ msgstr "Партије"
 #. +> trunk
 #: data/gui/default/window/lobby_main.cfg:177
 msgid "Requires a password to join"
-msgstr "Захтева лозинку за прикључивање"
+msgstr "Захт›ијева лозинку за прикључивање"
 
 #. [toggle_button]: id=use_map_settings
 #. [row]
@@ -1314,7 +1315,7 @@ msgstr "Без игнорисаних"
 #. +> trunk
 #: data/gui/default/window/lobby_main.cfg:598
 msgid "Vacant slots"
-msgstr "Слободних места"
+msgstr "Слободних м›ијеста"
 
 #. [toggle_button]: id=filter_invert
 #. +> trunk
@@ -1342,7 +1343,7 @@ msgstr "Поставке"
 #. +> trunk
 #: data/gui/default/window/lobby_main.cfg:672
 msgid "Refresh"
-msgstr "Освежи"
+msgstr "Осв›јежи"
 
 #. [label]
 #. [button]: id=create
@@ -1410,7 +1411,7 @@ msgstr "Модерисање"
 #. +> trunk
 #: data/gui/default/window/lobby_player_info.cfg:140
 msgid "Check status"
-msgstr "Провери стање"
+msgstr "Пров›јери стање"
 
 #. [label]
 #. +> trunk
@@ -1507,7 +1508,7 @@ msgstr "Разлог:"
 #. +> trunk
 #: data/gui/default/window/mp_cmd_wrapper.cfg:315
 msgid "Time:"
-msgstr "Време:"
+msgstr "Вр›ијеме:"
 
 #. [button]: id=status
 #. +> trunk
@@ -1606,7 +1607,7 @@ msgstr "Магла рата"
 #. +> trunk
 #: data/gui/default/window/mp_create_game.cfg:493
 msgid "Random start time"
-msgstr "Насумично време почетка"
+msgstr "Насумично вр›ијеме почетка"
 
 #. [button]: id=ok
 #. +> trunk
@@ -1651,7 +1652,7 @@ msgstr "Сачувај лозинку међу поставкама (чист т
 #. +> trunk
 #: data/gui/default/window/mp_login.cfg:248
 msgid "Password Reminder"
-msgstr "Подсетник лозинке"
+msgstr "Подс›јетник лозинке"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
@@ -1704,7 +1705,7 @@ msgstr "Домаћин мрежној партији"
 #. +> trunk
 #: data/gui/default/window/mp_method_selection.cfg:159
 msgid "Host a game using dedicated server 'wesnothd'"
-msgstr "Будите домаћин партије на наменском серверу (wesnothd)"
+msgstr "Будите домаћин партије на нам›јенском серверу (wesnothd)"
 
 #. [column]
 #. +> trunk
@@ -1836,7 +1837,7 @@ msgstr "Нова фасцикла"
 #. +> trunk
 #: src/filechooser.cpp:194
 msgid "Deletion of the file failed."
-msgstr "Брисање датотеке није успело."
+msgstr "Брисање датотеке није усп›јело."
 
 #. +> trunk
 #: src/filechooser.cpp:206
@@ -1846,7 +1847,7 @@ msgstr "Име: "
 #. +> trunk
 #: src/filechooser.cpp:212
 msgid "Creation of the directory failed."
-msgstr "Стварање директоријума није успело."
+msgstr "Стварање директоријума није усп›јело."
 
 #. +> trunk
 #: src/game_preferences.cpp:287
@@ -1861,7 +1862,7 @@ msgstr "играч"
 #. +> trunk
 #: src/game_preferences_display.cpp:157
 msgid "Full Screen"
-msgstr "Преко целог екрана"
+msgstr "Преко ц›ијелог екрана"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:158
@@ -1891,12 +1892,12 @@ msgstr "Прикажи мрежу"
 #. +> trunk
 #: src/game_preferences_display.cpp:163 src/game_preferences_display.cpp:344
 msgid "Save Replay on SP/MP Victory or MP Defeat"
-msgstr "Сачувај снимак при ји./ви. победи или ви. поразу"
+msgstr "Сачувај снимак при ји./ви. поб›једи или ви. поразу"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:164 src/game_preferences_display.cpp:347
 msgid "Delete Auto-Saves on SP/MP Victory or MP Defeat"
-msgstr "Бриши аутопозиције при ји./ви. победи или ви. поразу"
+msgstr "Бриши аутопозиције при ји./ви. поб›једи или ви. поразу"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:165
@@ -1977,7 +1978,7 @@ msgstr "Ореолски ефекти"
 #. +> trunk
 #: src/game_preferences_display.cpp:183
 msgid "Change Resolution"
-msgstr "Промени резолуцију"
+msgstr "Пром›ијени резолуцију"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:184
@@ -2011,7 +2012,7 @@ msgstr "Музика"
 #. +> trunk
 #: src/game_preferences_display.cpp:190
 msgid "Chat Timestamping"
-msgstr "Бележење времена ћаскања"
+msgstr "Б‹иљежење времена ћаскања"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:191
@@ -2084,7 +2085,7 @@ msgstr "Звучни ефекти укљ/искљ"
 #. +> trunk
 #: src/game_preferences_display.cpp:235
 msgid "Change the sound effects volume"
-msgstr "Промени јачину звучних ефеката"
+msgstr "Пром›ијени јачину звучних ефеката"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:238
@@ -2094,12 +2095,12 @@ msgstr "Музика укљ/искљ"
 #. +> trunk
 #: src/game_preferences_display.cpp:242
 msgid "Change the music volume"
-msgstr "Промени јачину музике"
+msgstr "Пром›ијени јачину музике"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:248
 msgid "Change the bell volume"
-msgstr "Промени јачину звона"
+msgstr "Пром›ијени јачину звона"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:251
@@ -2109,12 +2110,12 @@ msgstr "Укључи/искључи звуке менија и дугмади"
 #. +> trunk
 #: src/game_preferences_display.cpp:255
 msgid "Change the sound volume for button clicks, etc."
-msgstr "Промени јачину звука при клику на дугме, итд."
+msgstr "Пром›ијени јачину звука при клику на дугме, итд."
 
 #. +> trunk
 #: src/game_preferences_display.cpp:257
 msgid "Change the sample rate"
-msgstr "Промени учестаност узорковања"
+msgstr "Пром›ијени учестаност узорковања"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:266
@@ -2124,7 +2125,7 @@ msgstr "Кориснички деф. учестаност узорковања"
 #. +> trunk
 #: src/game_preferences_display.cpp:275 src/game_preferences_display.cpp:279
 msgid "Change the buffer size"
-msgstr "Промени величину бафера"
+msgstr "Пром›ијени величину бафера"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:277 src/game_preferences_display.cpp:833
@@ -2134,7 +2135,7 @@ msgstr "Величина бафера: "
 #. +> trunk
 #: src/game_preferences_display.cpp:284
 msgid "Change the speed of scrolling around the map"
-msgstr "Промени брзину клизања мапа"
+msgstr "Пром›ијени брзину клизања мапа"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:289 src/game_preferences_display.cpp:291
@@ -2144,12 +2145,12 @@ msgstr "Постави број приказаних редова ћаскања
 #. +> trunk
 #: src/game_preferences_display.cpp:294
 msgid "Add a timestamp to chat messages"
-msgstr "Додај време у порукама у ћаскању"
+msgstr "Додај вр›ијеме у порукама у ћаскању"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:297
 msgid "Choose whether the game should run full screen or in a window"
-msgstr "Да ли се игра преко целог екрана или у прозору"
+msgstr "Да ли се игра преко ц›ијелог екрана или у прозору"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:300
@@ -2264,12 +2265,12 @@ msgstr "Прикажи изнад јединица текст са претрп�
 #. +> trunk
 #: src/game_preferences_display.cpp:381
 msgid "Change the resolution the game runs at"
-msgstr "Промени резолуцију коју игра користи"
+msgstr "Пром›ијени резолуцију коју игра користи"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:382
 msgid "Change the theme the game runs with"
-msgstr "Промени тему игре"
+msgstr "Пром›ијени тему игре"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:385
@@ -2289,7 +2290,7 @@ msgstr "Прикажи око основе сваке јединице круг 
 #. +> trunk
 #: src/game_preferences_display.cpp:394
 msgid "Choose whether the sun moves left-to-right or right-to-left"
-msgstr "Кретање сунца с лева на десно или обрнуто"
+msgstr "Кретање сунца с л›ијева на десно или обрнуто"
 
 #. +> trunk
 #: src/game_preferences_display.cpp:397
@@ -2384,12 +2385,12 @@ msgstr "Сачувана подешавања теме: "
 #. +> trunk
 #: src/game_preferences_display.cpp:1220
 msgid "New theme will take effect on next new or loaded game."
-msgstr "Нова тема ће се исказати по следећем покретању игре или учитавању позиције."
+msgstr "Нова тема ће се исказати по с‹љедећем покретању игре или учитавању позиције."
 
 #. +> trunk
 #: src/game_preferences_display.cpp:1224
 msgid "No known themes. Try changing from within an existing game."
-msgstr "Нема познатих тема. Покушајте да промените унутар започете партије."
+msgstr "Нема познатих тема. Покушајте да пром›ијените унутар започете партије."
 
 #. +> trunk
 #: src/game_preferences_display.cpp:1267
@@ -2483,7 +2484,7 @@ msgstr "Страница није дефинисана."
 #. +> trunk
 #: src/gui/auxiliary/window_builder/slider.cpp:66
 msgid "The number of value_labels and values don't match."
-msgstr "Број value_labels и вредности се не слаже."
+msgstr "Број value_labels и вр›иједности се не слаже."
 
 #. +> trunk
 #: src/gui/auxiliary/window_builder/stacked_widget.cpp:36
@@ -2603,12 +2604,12 @@ msgstr "Дефиниција виџета „$definition“ не садржи д
 #. +> trunk
 #: src/gui/widgets/settings.cpp:508
 msgid "No default gui defined."
-msgstr "Подразумевано сучеље није дефинисано."
+msgstr "Подразум›ијевано сучеље није дефинисано."
 
 #. +> trunk
 #: src/gui/widgets/settings.cpp:535
 msgid "No state or draw section defined."
-msgstr "Одељак стања или цртања није дефинисан."
+msgstr "Од›јељак стања или цртања није дефинисан."
 
 # >? Wtf?
 #. +> trunk
@@ -2625,7 +2626,7 @@ msgstr "Не могу да прикажем дијалог који не ста�
 #. +> trunk
 #: src/hotkeys.cpp:46
 msgid "Next Unit"
-msgstr "Следећа јединица"
+msgstr "С‹љедећа јединица"
 
 #. +> trunk
 #: src/hotkeys.cpp:47
@@ -2680,7 +2681,7 @@ msgstr "Основно увећање"
 #. +> trunk
 #: src/hotkeys.cpp:57
 msgid "Toggle Full Screen"
-msgstr "Преко целог екрана"
+msgstr "Преко ц›ијелог екрана"
 
 # >! contexts
 # >> Take screenshot
@@ -2773,7 +2774,7 @@ msgstr "Причај"
 #. +> trunk
 #: src/hotkeys.cpp:78
 msgid "Change Side (Debug!)"
-msgstr "Промени страну (испр.!)"
+msgstr "Пром›ијени страну (испр.!)"
 
 #. +> trunk
 #: src/hotkeys.cpp:80
@@ -2833,17 +2834,17 @@ msgstr "Ресетуј"
 #. +> trunk
 #: src/hotkeys.cpp:94
 msgid "Next Turn"
-msgstr "Следећи потез"
+msgstr "С‹љедећи потез"
 
 #. +> trunk
 #: src/hotkeys.cpp:95
 msgid "Next Side"
-msgstr "Следећа страна"
+msgstr "С‹љедећа страна"
 
 #. +> trunk
 #: src/hotkeys.cpp:97
 msgid "Full map"
-msgstr "Цела мапа"
+msgstr "Ц›ијела мапа"
 
 #. +> trunk
 #: src/hotkeys.cpp:99
@@ -2893,7 +2894,7 @@ msgstr "Сачувај мапу као"
 #. +> trunk
 #: src/hotkeys.cpp:114
 msgid "Revert All Changes"
-msgstr "Врати све измене"
+msgstr "Врати све изм›јене"
 
 #. +> trunk
 #: src/hotkeys.cpp:115
@@ -2903,12 +2904,12 @@ msgstr "Подаци о мапи"
 #. +> trunk
 #: src/hotkeys.cpp:117
 msgid "Swap fore- and background terrains"
-msgstr "Размени терен спреда и позадине"
+msgstr "Разм›ијени терен спреда и позадине"
 
 #. +> trunk
 #: src/hotkeys.cpp:118
 msgid "Next Tool"
-msgstr "Следећа алатка"
+msgstr "С‹љедећа алатка"
 
 #. +> trunk
 #: src/hotkeys.cpp:119
@@ -2933,12 +2934,12 @@ msgstr "Алатка задавања почетних положаја"
 #. +> trunk
 #: src/hotkeys.cpp:124
 msgid "Next Brush"
-msgstr "Следећа четкица"
+msgstr "С‹љедећа четкица"
 
 #. +> trunk
 #: src/hotkeys.cpp:125
 msgid "Default Brush"
-msgstr "Подразумевана четкица"
+msgstr "Подразум›ијевана четкица"
 
 #. +> trunk
 #: src/hotkeys.cpp:126
@@ -2953,7 +2954,7 @@ msgstr "Умножи"
 #. +> trunk
 #: src/hotkeys.cpp:128
 msgid "Paste"
-msgstr "Налепи"
+msgstr "Нал›ијепи"
 
 #. +> trunk
 #: src/hotkeys.cpp:129
@@ -2978,12 +2979,12 @@ msgstr "Поништи избор"
 #. +> trunk
 #: src/hotkeys.cpp:137
 msgid "Rotate Clipboard Clockwise"
-msgstr "Заокрени оставу у смеру казаљке"
+msgstr "Заокрени оставу у см›јеру казаљке"
 
 #. +> trunk
 #: src/hotkeys.cpp:139
 msgid "Rotate Clipboard Counter-Clockwise"
-msgstr "Заокрени оставу супротно смеру казаљке"
+msgstr "Заокрени оставу супротно см›јеру казаљке"
 
 #. +> trunk
 #: src/hotkeys.cpp:141
@@ -3043,7 +3044,7 @@ msgstr "Створи маску"
 #. +> trunk
 #: src/hotkeys.cpp:165
 msgid "Refresh Display"
-msgstr "Освежи приказ"
+msgstr "Осв›јежи приказ"
 
 #. +> trunk
 #: src/hotkeys.cpp:167
@@ -3058,7 +3059,7 @@ msgstr "Самоажурирај прелазе терена"
 #. +> trunk
 #: src/hotkeys.cpp:171
 msgid "Refresh Image Cache"
-msgstr "Освежи кеш слика"
+msgstr "Осв›јежи кеш слика"
 
 #. +> trunk
 #: src/hotkeys.cpp:173
@@ -3108,7 +3109,7 @@ msgstr "Прикажи дневник ћаскања"
 #. +> trunk
 #: src/hotkeys.cpp:188
 msgid "Change the language"
-msgstr "Промени језик"
+msgstr "Пром›ијени језик"
 
 #. +> trunk
 #: src/hotkeys.cpp:190
@@ -3159,7 +3160,7 @@ msgstr "Снимање завршено"
 #. +> trunk
 #: src/hotkeys.cpp:898
 msgid "Screenshot failed"
-msgstr "Снимање неуспело"
+msgstr "Снимање неусп›јело"
 
 #. TRANSLATORS: This is the language code which will be used
 #. to store and fetch localized non-textual resources, such as images,
@@ -3260,7 +3261,7 @@ msgstr "Грешка у стварању или добављању слике."
 #. +> trunk
 #: src/preferences_display.cpp:79 src/preferences_display.cpp:144
 msgid "The video mode could not be changed. Your window manager must be set to 16 bits per pixel to run the game in windowed mode. Your display must support 1024x768x16 to run the game full screen."
-msgstr "Промена видео режима није успела. Менаџер прозора мора подржавати 16 бита по пикселу да би игра радила у прозору. Приказ мора подржавати 1024×768×16 да би игра ишла преко целог екрана."
+msgstr "Пром›јена видео режима није усп›јела. Менаџер прозора мора подржавати 16 бита по пикселу да би игра радила у прозору. Приказ мора подржавати 1024×768×16 да би игра ишла преко ц›ијелог екрана."
 
 #. +> trunk
 #: src/preferences_display.cpp:243
@@ -3329,14 +3330,14 @@ msgstr ""
 #. +> trunk
 #: src/wml_exception.cpp:55
 msgid "When reporting the bug please include the following error message :"
-msgstr "Када пријављујете грешку, молимо укључите и следећу поруку:"
+msgstr "Када пријављујете грешку, молимо укључите и с‹љедећу поруку:"
 
 #. +> trunk
 #: src/wml_exception.cpp:73
 msgid "In section '[$section|]' where '$primary_key| = $primary_value' the mandatory key '$key|' isn't set."
-msgstr "У одељку ‘[$section|]’ где ‘$primary_key| = $primary_value’ није постављен обавезни кључ ‘$key|’."
+msgstr "У од›ијељку ‘[$section|]’ где ‘$primary_key| = $primary_value’ није постављен обавезни кључ ‘$key|’."
 
 #. +> trunk
 #: src/wml_exception.cpp:76
 msgid "In section '[$section|]' the mandatory key '$key|' isn't set."
-msgstr "У одељку ‘[$section|]’ није постављен обавезни кључ ‘$key|’."
+msgstr "У од›ијељку ‘[$section|]’ није постављен обавезни кључ ‘$key|’."
