@@ -58,20 +58,23 @@ ilmod = "ijekavianlatin"
 vmods = [lmod]
 
 if S.options.lang != S.templates_lang:
-    for vmod in vmods:
-        # Add variant branches.
-        more_branches = []
-        for branch in S.branches:
+    # Add variant branches.
+    branches_mod = []
+    for branch in S.branches:
+        branches_mod.append(branch)
+        for vmod in vmods:
             lbranch = branch.copy()
             lbranch["id"] = "%s@%s" % (branch["id"], vmod)
             lbranch["by_lang"] = "%s@%s" % (branch["by_lang"], vmod)
-            more_branches.append(lbranch)
-        S.branches.extend(more_branches)
-        # Add variant mappings.
-        more_mappings = []
-        for mapping in S.mappings:
-            more_mappings.append((mapping[0] + vmod,) + mapping[1:])
-        S.mappings.extend(more_mappings)
+            branches_mod.append(lbranch)
+    S.branches = branches_mod
+    # Add variant mappings.
+    mappings_mod = []
+    for mapping in S.mappings:
+        mappings_mod.append(mapping)
+        for vmod in vmods:
+            mappings_mod.append((mapping[0] + vmod,) + mapping[1:])
+    S.mappings = mappings_mod
 
 S.vivify_on_merge = True
 S.vivify_w_translator = "Simulacrum"
