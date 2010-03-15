@@ -55,7 +55,7 @@ S.branches_fine_wrap = False # no markup in Wesnoth
 lmod = "latin"
 imod = "ijekavian"
 ilmod = "ijekavianlatin"
-vmods = [lmod]
+vmods = [lmod, imod, ilmod]
 
 if S.options.lang != S.templates_lang:
     # Add variant branches.
