@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2010-03-15 22:39+0100\n"
+"PO-Revision-Date: 2010-03-28 22:24+0200\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -7622,26 +7622,6 @@ msgstr "Домен пребачен: ‘$domain|’ на ниво: ‘$level|’
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Added to ignore list: "
-msgstr "Додат на списак игнорисаних: |~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Invalid username: "
-msgstr "Неваљано корисничко име: |~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Added to friends list: "
-msgstr "Додат на списак пријатеља: |~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Removed from list: "
-msgstr "Уклоњен са списка: |~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
 msgid "There are no players on your friends or ignore list."
 msgstr "Нема играча ни на вашем списку пријатеља ни игнорисаних.|~"
 
@@ -9120,6 +9100,151 @@ msgstr ""
 "пораз:|~\n"
 "Пораз|~\n"
 "|~e0"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "aged|~"
+msgctxt "female"
+msgid "aged"
+msgstr "старост|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Error: |~"
+msgid "Error:"
+msgstr "Грешка: |~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Message:|~"
+msgid "Usage:"
+msgstr "порука:|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Team only|~"
+msgid "(auth only)"
+msgstr "Само тимски|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Message:|~"
+msgid "<message>"
+msgstr "порука:|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Debug mode commands|~"
+msgid "(debug command)"
+msgstr "Исправљачке наредбе|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Network Player|~"
+msgid " (network only)"
+msgstr "мрежни играч|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Show replay|~"
+msgid "Show fps."
+msgstr "Пусти снимак|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "On ignores list|~"
+msgid "ignores list"
+msgstr "на списку игнорисаних|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Added to ignore list: |~"
+msgid "Added to ignore list: $nick"
+msgstr "Додат на списак игнорисаних: |~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Invalid username: |~"
+msgid "Invalid username: $nick"
+msgstr "Неваљано корисничко име: |~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "On friends list|~"
+msgid "friends list"
+msgstr "на списку пријатеља|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Added to friends list: |~"
+msgid "Added to friends list: $nick"
+msgstr "Додат на списак пријатеља: |~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Removed from list: |~"
+msgid "Removed from list: $nick"
+msgstr "Уклоњен са списка: |~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "On ignores list|~"
+msgid "friends and ignores list"
+msgstr "на списку игнорисаних|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Version|~"
+msgid "version"
+msgstr "верзија|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Request information about a nick.|~"
+msgid "requesting information for user $nick"
+msgstr "Затражите податке о надимку.|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Invalid tag name|~"
+msgid "Invalid unit type"
+msgstr "Неваљано име ознаке|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "Invalid Color|~"
+msgid "Invalid location"
+msgstr "Неваљана боја|~"
+
+#. modified: ilic | 2010-03-28 22:24:28+0200 | 1f
+#, fuzzy
+#| msgid "The game is over.|~"
+msgid "The map is invalid."
+msgstr "Игра је завршена.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-03-28 22:24:28+0200 | o
+#~ msgid "Added to ignore list: "
+#~ msgstr "Додат на списак игнорисаних: |~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-03-28 22:24:28+0200 | o
+#~ msgid "Invalid username: "
+#~ msgstr "Неваљано корисничко име: |~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-03-28 22:24:28+0200 | o
+#~ msgid "Added to friends list: "
+#~ msgstr "Додат на списак пријатеља: |~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-03-28 22:24:28+0200 | o
+#~ msgid "Removed from list: "
+#~ msgstr "Уклоњен са списка: |~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100

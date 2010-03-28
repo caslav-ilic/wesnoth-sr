@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-anl\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-03-14 18:06+0100\n"
+"POT-Creation-Date: 2010-03-28 22:21+0200\n"
 "PO-Revision-Date: 2010-02-22 15:03+0100\n"
 "Last-Translator: Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>\n"
 "Language-Team: Serbian\n"
@@ -21,37 +21,37 @@ msgstr ""
 "X-Wrapping: fine\n"
 
 #. [multiplayer]: id=multiplayer_A_New_Land
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:4
 msgid "4p - A New Land"
 msgstr "4и: Нова земља"
 
 #. [multiplayer]: id=multiplayer_A_New_Land
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:7
 msgid "This 4p survival scenario allows you to construct buildings and terraform the land. Use map settings. Recommended starting gold=100."
 msgstr "Сценарио опстанка за четири играча који дозвољава подизање грађевина и обликовање земље. Употр›ијебите поставке мапе. Препоручено злато на почетку 100."
 
 #. [part]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:25
 msgid "In the aftermath of the great war the remnants of humanity fled to an obscure secluded glen. Though they knew they could not hide from the mighty armies that had crushed their homeland, the leaders of the resistance hoped only for enough time to rebuild their forces."
 msgstr "На крају великог рата, остаци чов›јечанства изб›јегоше у неугледну осамљену гудуру. Иако су знали да се не могу сакрити од моћних војски што им разрушише домовину, вођи отпора надаше се предаху довољном да обнове своје снаге."
 
 #. [objectives]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:33
 msgid "Right-click on your leader during your turn for help"
 msgstr "Током потеза, за помоћ кликни десним на свог вођа."
 
 #. [objective]: condition=win
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:35
 msgid "You must survive until turn 25."
 msgstr "Преживиш ли до потеза 25"
 
 #. [side]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:52
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:67
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:82
@@ -62,7 +62,7 @@ msgstr "Тим 1"
 
 #. [side]: type=Death Knight
 #. [side]: type=Orcish Sovereign
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:115
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:142
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:169
@@ -72,115 +72,115 @@ msgid "Team 2"
 msgstr "Тим 2"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:436
 msgid "You destroy the mushroom mine. The northwest undead now have 10 less income."
 msgstr "Гљиварски рудник је уништен. Немртви с›јеверозапада сада имају 10 мање прихода."
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:456
 msgid "You destroy the mushroom mine. The northeast orcs now have 10 less income."
 msgstr "Гљиварски рудник је уништен. Оркови с›јевероистока сада имају 10 мање прихода."
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:476
 msgid "You destroy the mushroom mine. The southwest orcs now have 10 less income."
 msgstr "Гљиварски рудник је уништен. Оркови југозапада сада имају 10 мање прихода."
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:496
 msgid "You destroy the mushroom mine. The southeast undead now have 10 less income."
 msgstr "Гљиварски рудник је уништен. Немртви североистока сада имају 10 мање прихода."
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:588
 msgid "One of your peasants has happened upon some spider's nests in the north and south."
 msgstr "Један од твојих сељака натрапа на нека гн›ијезда паукова на северу и југу."
 
 #. [message]: type=Peasant
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:594
 msgid "I swear I saw somebody trapped in the spider's web. Maybe we should rescue them?"
 msgstr "Кунем се да сам видео неке ухваћене у пауковој мрежи. Можда би требало да их спасемо?"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:606
 msgid "Move any unit next to these captives and they will join your side. The spiders guarding each captive are currently wounded, the sooner you get there the better chance you have of killing them."
 msgstr "Пом›јери било коју јединицу до заробљеника и прикључиће се твојој страни. Пауци што их чувају тренутно су рањени, те што пр›ије стигнеш до њих, бољи су ти изгледи да их побијеш."
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:617
 msgid "Your men report strange sounds coming from some caves to the east and west."
 msgstr "Твоји људи пријављују чудне звуке из неких пећина на истоку и западу."
 
 #. [message]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:623
 msgid "It would seem the enemy has built some underground mushroom mines nearby - it must be where the mainstay of their resources are produced. If we could destroy them our chances wouldn't nearly be so slim."
 msgstr "Чини се да је непријатељ саградио некакве подземне гљиварске руднике у близини — мора да се тамо производи главнина њихових средстава. Кад бисмо их могли уништити, изгледи би нам се добрано побољшали."
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:635
 msgid "Move any unit onto these villages to destroy the mine. Each one you destroy will reduce the enemy's income by 10."
 msgstr "Пом›јери било коју јединицу на ова села да уништиш рудник. Сваки који уништиш смањиће приход непријатеља за 10."
 
 #. [message]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:647
 msgid "This battle is nearly at an end. Victory is close at hand!"
 msgstr "Овај је бој скоро окончан. Поб›једа је надомак руке!"
 
 #. [message]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:658
 msgid "We have survived the onslaught! The tide of the battle has turned, victory cannot elude us now!"
 msgstr "Прежив›јесмо налет! Ток боја је преокренут, поб›једа нам више не може измаћи!"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:662
 msgid "You have won the game, but you may continue if you wish..."
 msgstr "Игра је добијена, али можеш наставити ако желиш..."
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:677
 msgid "I have fallen, but all is not lost!"
 msgstr "Погибох, али није све изгубљено!"
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:689
 msgid "I am done for, but we have yet to lose this battle!"
 msgstr "Са мном је готово, али битка још није изгубљена!"
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:701
 msgid "Comrades, avenge me!"
 msgstr "Другови, осветите ме!"
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:713
 msgid "Do not fear, there is hope for us still!"
 msgstr "Не бојте се, још има наде за нас!"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_general_macros.cfg:73
 msgid "The chest contains $oc_treasure gold."
 msgstr "Ковчег садржи $oc_treasure злата."
 
 #. [option]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:5
 msgid "Return to menu"
 msgstr "Назад на мени"
@@ -188,14 +188,14 @@ msgstr "Назад на мени"
 # >> @title:window
 #. [message]: speaker=narrator
 #. [option]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:16
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:114
 msgid "Peasants"
 msgstr "Сељаци"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:19
 msgid "Peasants are your workers. Depending on the terrain, right-clicking on a peasant allows you to terraform the landscape and/or build castles, mines, farms, villages and universities."
 msgstr "Сељаци су твоји радници. У зависности од терена, десни клик на сељака даје могућности обликовања земљишта или изградње замкова, рудника, фарми, села и универзитета."
@@ -203,14 +203,14 @@ msgstr "Сељаци су твоји радници. У зависности о�
 # >> @title:window
 #. [message]: speaker=narrator
 #. [option]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:27
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:121
 msgid "Mages"
 msgstr "Магови"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:29
 msgid "Mages are your wise men. They can study at universities, pursuing advances in mining, farming and recruitment."
 msgstr "Магови су твоји мудраци. Могу учити на универзитетима, развијати унапређења у рударству, пољопривреди и војним прим›јенама."
@@ -218,14 +218,14 @@ msgstr "Магови су твоји мудраци. Могу учити на у
 # >> @title:window
 #. [message]: speaker=narrator
 #. [option]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:37
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:128
 msgid "Farms"
 msgstr "Фарме"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:39
 msgid "Farms can only be planted on grassland. Move a peasant onto a farm and he will begin to automatically harvest the cash crop."
 msgstr "Фарме се могу зачињати само на ливадама. Пом›јери сељака на фарму, и сам ће почети да жање приносе."
@@ -233,14 +233,14 @@ msgstr "Фарме се могу зачињати само на ливадама
 # >> @title:window
 #. [message]: speaker=narrator
 #. [option]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:47
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:135
 msgid "Villages"
 msgstr "Села"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:49
 msgid "Villages can only be built on grassland. They provide income and healing as usual. Right-click on a peasant in a village and you can establish a university."
 msgstr "Села се могу дизати само на ливадама. Обезб›јеђују приходе и л›ијечење, као и обично. Кликнеш ли десним на сељака у селу, можеш успоставити универзитет."
@@ -248,14 +248,14 @@ msgstr "Села се могу дизати само на ливадама. Об
 # >> @title:window
 #. [message]: speaker=narrator
 #. [option]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:57
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:142
 msgid "Mines"
 msgstr "Рудници"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:59
 msgid "Mines can be built on hills or mountains. A peasant on a mine will automatically dig for gold at the start of your turn."
 msgstr "Рудници се могу градити на брдима и планинама. Сељак на руднику сам ће ископавати злато на почетку твог потеза."
@@ -263,14 +263,14 @@ msgstr "Рудници се могу градити на брдима и пла�
 # >> @title:window
 #. [message]: speaker=narrator
 #. [option]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:67
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:149
 msgid "Universities"
 msgstr "Универзитети"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:69
 msgid "Any of the 'Elvish' style villages represent universities. At the start of your turn, Mages in universities automatically add to the study progress of your chosen research target. Right-click on a mage in a university to change research target."
 msgstr "Свако село вилењачког устројства представља универзитет. На почетку твог потеза, магови на универзитету аутоматски доприносе напретку ка задатом циљу истраживања. Кликни десним на мага на универзитету да пром›ијениш циљ истраживања."
@@ -279,7 +279,7 @@ msgstr "Свако село вилењачког устројства предс
 #. [message]: speaker=narrator
 #. [option]: speaker=narrator
 #. [set_menu_item]: id=anl_diplomacy
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:77
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:156
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:135
@@ -287,61 +287,61 @@ msgid "Diplomacy"
 msgstr "Дипломатија"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:79
 msgid "Right-clicking on your leader when in a university allows you to select special diplomatic options."
 msgstr "Кликнеш ли десним на свог вођа док је на универзитету, можеш изабрати посебне дипломатске опције."
 
 #. [set_menu_item]: id=anl_help
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:87
 msgid "Help"
 msgstr "Помоћ"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:103
 msgid "A New Land - Help"
 msgstr "Нова земља — помоћ"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:104
 msgid "Select a topic."
 msgstr "Изабери тему."
 
 #. [option]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_help.cfg:107
 msgid "Done"
 msgstr "Готово"
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:19
 msgid "I hereby donate 20 gold to the coffers of $df_player_name|."
 msgstr "Овим прилажем 20 златника у ризницу $df_player_name|."
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:59
 msgid "$sf_player_name|, since our wisdom exceeds yours I have instructed my scholars to further your understanding of agriculture."
 msgstr "$sf_player_name|, пошто наша мудрост надмашује твоју, наложих својим учењацима да продубе твоје разум›ијевање пољопривреде."
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:91
 msgid "$sm_player_name|, since the wisdom of my people exceeds yours I have instructed my scholars to aid you in your efforts to learn the science of mining."
 msgstr "$sm_player_name|, пошто мудрост мога народа надмашује твоју, наложих својим учењацима да допринесу твојим напорима у изучавању рударске науке."
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:123
 msgid "You know worryingly little about the arts of war, $sw_player_name|. I feel an obligation to instruct you in this vital matter."
 msgstr "Забрињавајуће мало знаш о в›јештини ратовања, $sw_player_name|. Ос›јећам дужност да те подучим тој животној материји."
 
 #. [set_variable]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:190
 msgid ""
 "$player_name\n"
@@ -351,7 +351,7 @@ msgstr ""
 "Под›ијели знање о пољопривреди"
 
 #. [set_variable]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:197
 msgid ""
 "$player_name\n"
@@ -361,7 +361,7 @@ msgstr ""
 "Под›ијели знање о рударству"
 
 #. [set_variable]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:204
 msgid ""
 "$player_name\n"
@@ -371,7 +371,7 @@ msgstr ""
 "Под›ијели знање о ратовању"
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:221
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:248
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:282
@@ -379,20 +379,20 @@ msgid "Diplomatic Options"
 msgstr "Дипломатске опције"
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:224
 msgid "What shall I do?"
 msgstr "Шта ми је чинити?"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:230
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:47
 msgid "Nothing"
 msgstr "Ништа"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:241
 msgid ""
 "Donate Funds\n"
@@ -402,20 +402,20 @@ msgstr ""
 "Подај 20 златника другом играчу"
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:251
 msgid "Who will you donate funds to?"
 msgstr "Коме ћеш приложити средства?"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:254
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:288
 msgid "Back"
 msgstr "Назад"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:275
 msgid ""
 "Share Knowledge\n"
@@ -425,13 +425,13 @@ msgstr ""
 "Помози савезника у његовом истраживању"
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:285
 msgid "Who will you share knowledge with?"
 msgstr "С ким ћеш под›ијелити своја сазнања?"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:323
 msgid ""
 "Negotiate with the Dwarves\n"
@@ -443,7 +443,7 @@ msgstr ""
 "Напредак преговора: $player_$side_number|.leader_option_1.progress|/$player_$side_number|.leader_option_1.target"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:350
 msgid ""
 "Negotiate with the Elves\n"
@@ -455,26 +455,26 @@ msgstr ""
 "Напредак преговора: $player_$side_number|.leader_option_2.progress|/$player_$side_number|.leader_option_2.target"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:383
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:407
 msgid "Negotiation Complete"
 msgstr "Преговори довршени"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:386
 msgid "Our talks are complete - the Dwarves will gladly fight by your side. Which of our brethren do you want to recruit?"
 msgstr "Наши су разговори окончани — патуљци ће се радо борити уз твоју страну. Којег би нашег сународника да унајмиш?"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:410
 msgid "Our talks are complete - the Elves shall aid you in this battle. Which our of kin do you wish to recruit?"
 msgstr "Наши су разговори окончани — вилењаци ће ти помоћи у боју. Којег би од нашег рода да унајмиш?"
 
 #. [set_menu_item]: id=anl_choose_new_recruit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:9
 msgid "Choose New Recruit"
 msgstr "Изабери новог најамника"
@@ -482,7 +482,7 @@ msgstr "Изабери новог најамника"
 # >> @title:window
 #. [message]: speaker=unit
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:33
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:214
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:231
@@ -491,26 +491,26 @@ msgid "Study Complete"
 msgstr "Проучавање довршено"
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:35
 msgid "Which type of unit would you like to be able to recruit?"
 msgstr "Који тип јединице желиш да можеш најмити?"
 
 #. [set_menu_item]: id=anl_oversee_research
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:56
 msgid "Oversee Research"
 msgstr "Надгледај истраживање"
 
 # >> @title:window
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:95
 msgid "Research"
 msgstr "Истраживање"
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:101
 msgid ""
 "We are currently studying $player_$side_number|.research.current_target|. To which end would you have our scholars devote their minds?\n"
@@ -524,13 +524,13 @@ msgstr ""
 "Наши рудници производе $player_$side_number|.mining.gold| зл.\n"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:105
 msgid "Continue as before"
 msgstr "Настави као и до сада"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:118
 msgid ""
 "Agriculture\n"
@@ -543,14 +543,14 @@ msgstr ""
 
 #. [command]
 #. [if]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:120
 #: data/multiplayer/scenarios/ANL_utils/ANL_special_macros.cfg:127
 msgid "agriculture"
 msgstr "пољопривреда"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:133
 msgid ""
 "Mining\n"
@@ -563,14 +563,14 @@ msgstr ""
 
 #. [command]
 #. [if]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:135
 #: data/multiplayer/scenarios/ANL_utils/ANL_special_macros.cfg:133
 msgid "mining"
 msgstr "рударство"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:148
 msgid ""
 "Warfare\n"
@@ -583,62 +583,62 @@ msgstr ""
 
 #. [command]
 #. [if]
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:172
 #: data/multiplayer/scenarios/ANL_utils/ANL_special_macros.cfg:139
 msgid "warfare"
 msgstr "ратовање"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:216
 msgid "$player_$side_number|.name|'s farms now produce $player_$side_number|.farming.gold gold."
 msgstr "Фарме играча $player_$side_number|.name| сада производе $player_$side_number|.farming.gold злата."
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:233
 msgid "$player_$side_number|.name|'s mines now produce $player_$side_number|.mining.gold gold."
 msgstr "Рудници играча $player_$side_number|.name| сада производе $player_$side_number|.mining.gold злата."
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:249
 msgid "$player_$side_number|.name|, we have finished researching warfare. Right-click on a mage in a university to select a unit to recruit."
 msgstr "$player_$side_number|.name|, довршили смо истраживање ратовања. Кликни десним на мага на универзитету да унајмиш јединицу."
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_special_macros.cfg:157
 msgid "Let's cut you free!"
 msgstr "Ослободимо те!"
 
 #. [message]: speaker=narrator
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_special_macros.cfg:161
 msgid "You release the creature from the web and it agrees to help you."
 msgstr "Пошто ослободи створење из мреже, оно ти се приклони."
 
 #. [set_menu_item]: id=anl_get_to_work
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:6
 msgid "Get to Work!"
 msgstr "На посао!"
 
 #. [message]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:43
 msgid "What shall I do my liege?"
 msgstr "Шта ми је чинити, вођо?"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:59
 msgid "Convert to Grassland"
 msgstr "Претвори у ливаду"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:59
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:74
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:266
@@ -647,164 +647,164 @@ msgid "Cost: 0g"
 msgstr "трошак: 0 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:74
 msgid "Plant Farm"
 msgstr "Посеј фарму"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:86
 msgid "Build Village"
 msgstr "Сагради село"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:86
 msgid "Cost: 15g"
 msgstr "трошак: 15 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:104
 msgid "Build Castle"
 msgstr "Сагради замак"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:104
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:361
 msgid "Cost: 6g"
 msgstr "трошак: 6 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:121
 msgid "Cost: 4g"
 msgstr "трошак: 4 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:121
 msgid "Flood the Field"
 msgstr "Поплави поље"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:138
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:281
 msgid "Cost: 1g"
 msgstr "трошак: 1 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:138
 msgid "Plant Saplings"
 msgstr "Засади младице"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:158
 msgid "Chop Down Forest"
 msgstr "Сасеци шуму"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:158
 msgid "Earns: 1g"
 msgstr "зарада: 1 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:185
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:206
 msgid "Build Mine"
 msgstr "Сагради рудник"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:185
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:206
 msgid "Cost: 25g"
 msgstr "трошак: 25 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:227
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:319
 msgid "Cost: 3g"
 msgstr "трошак: 3 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:227
 msgid "Make a Ford"
 msgstr "Наспи газ"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:245
 msgid "Cost: 5g"
 msgstr "трошак: 5 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:245
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:281
 msgid "Landfill"
 msgstr "Испуни земљиште"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:266
 msgid "Destroy the Ford"
 msgstr "Разруши газ"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:302
 msgid "Cost: 2g"
 msgstr "трошак: 2 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:302
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:319
 msgid "Smash Cave Floor"
 msgstr "Разбиј под пећине"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:336
 msgid "Earns: 3g"
 msgstr "зарада: 3 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:336
 msgid "Harvest Mushrooms"
 msgstr "Пожањи печурке"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:361
 msgid "Build a Keep"
 msgstr "Сагради кулу"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:381
 msgid "Cost: 7g"
 msgstr "трошак: 7 зл."
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:381
 msgid "Establish University"
 msgstr "Успостави универзитет"
 
 #. [option]: speaker=unit
-#. +> trunk
+#. +> stable
 #: data/multiplayer/scenarios/ANL_utils/ANL_worker_options.cfg:402
 msgid "Clear the Ground"
 msgstr "Рашчисти земљиште"
