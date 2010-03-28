@@ -31,20 +31,19 @@ S.summit = dict(
 )
 
 S.branches = [
-    dict(
-        id="trunk",
-        topdir=os.path.join(WESVCS, "trunk", "po"),
-        by_lang=S.options.lang,
-    ),
     #dict(
-        #id="1.6",
-        #topdir=os.path.join(WESVCS, "branches", "1.6", "po"),
+        #id="devel",
+        #topdir=os.path.join(WESVCS, "trunk", "po"),
         #by_lang=S.options.lang,
     #),
+    dict(
+        id="stable",
+        topdir=os.path.join(WESVCS, "branches", "1.8", "po"),
+        by_lang=S.options.lang,
+    ),
 ]
 
 S.mappings = [
-    #("1.2", "wesnoth", "wesnoth", "wesnoth-multiplayer", "wesnoth-units"),
 ]
 
 S.summit_wrap = False
