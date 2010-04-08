@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-03-28 22:22+0200\n"
+"POT-Creation-Date: 2010-04-08 21:40+0200\n"
 "PO-Revision-Date: 2010-03-28 22:56+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -7275,13 +7275,17 @@ msgstr "алијаси:"
 # well-spelled: аутф
 #. +> stable
 #: src/menu_events.cpp:2200
-msgid "(A) - auth command"
+#, fuzzy
+#| msgid "(A) - auth command"
+msgid "(A) - admin command"
 msgstr "(A) — аутф наредба"
 
 # well-spelled: аутф
 #. +> stable
-#: src/menu_events.cpp:2207
-msgid "(auth only)"
+#: src/menu_events.cpp:2207 src/menu_events.cpp:2405
+#, fuzzy
+#| msgid "(auth only)"
+msgid "(admin only)"
 msgstr "(само аутф)"
 
 #. +> stable
@@ -7469,7 +7473,9 @@ msgstr "Упит собе."
 # well-spelled: аутф
 #. +> stable
 #: src/menu_events.cpp:2397
-msgid "(D) - debug only, (N) - network only, (A) - auth only"
+#, fuzzy
+#| msgid "(D) - debug only, (N) - network only, (A) - auth only"
+msgid "(D) - debug only, (N) - network only, (A) - admin only"
 msgstr "(D) — само исправљање, (N) — само мрежа, (A) — само аутф"
 
 #. +> stable
@@ -7479,14 +7485,10 @@ msgstr "(исправљачка наредба)"
 
 #. +> stable
 #: src/menu_events.cpp:2404
-msgid " (network only)"
+#, fuzzy
+#| msgid " (network only)"
+msgid "(network only)"
 msgstr " (само мрежа)"
-
-# well-spelled: аутф
-#. +> stable
-#: src/menu_events.cpp:2405
-msgid " (auth only)"
-msgstr " (само аутф)"
 
 #. +> stable
 #: src/menu_events.cpp:2429
@@ -8587,7 +8589,7 @@ msgid "Retained Gold: "
 msgstr "задржано злато: "
 
 #. +> stable
-#: src/playsingle_controller.cpp:250
+#: src/playsingle_controller.cpp:247
 msgid "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgid_plural "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgstr[0] "Почињете наредни сценарио са $gold златником додатим на задати најмањи почетни број."
@@ -8596,7 +8598,19 @@ msgstr[2] "Почињете наредни сценарио са $gold злат�
 msgstr[3] "Почињете наредни сценарио са једним златником додатим на задати најмањи почетни број."
 
 #. +> stable
-#: src/playsingle_controller.cpp:258
+#: src/playsingle_controller.cpp:255
+#, fuzzy
+#| msgid "You will start the next scenario with $gold on top of the defined minimum starting gold."
+#| msgid_plural "You will start the next scenario with $gold on top of the defined minimum starting gold."
+msgid "You will start the next scenario with the defined minimum starting gold."
+msgid_plural "You will start the next scenario with the defined minimum starting gold."
+msgstr[0] "Почињете наредни сценарио са $gold златником додатим на задати најмањи почетни број."
+msgstr[1] "Почињете наредни сценарио са $gold златника додата на задати најмањи почетни број."
+msgstr[2] "Почињете наредни сценарио са $gold златника додатих на задати најмањи почетни број."
+msgstr[3] "Почињете наредни сценарио са једним златником додатим на задати најмањи почетни број."
+
+#. +> stable
+#: src/playsingle_controller.cpp:263
 msgid "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgid_plural "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgstr[0] "Почињете наредни сценарио са већим од $gold златника и најмањег задатог почетног броја."
@@ -8605,17 +8619,17 @@ msgstr[2] "Почињете наредни сценарио са већим од
 msgstr[3] "Почињете наредни сценарио са већим од једног златника и најмањег задатог почетног броја."
 
 #. +> stable
-#: src/playsingle_controller.cpp:410
+#: src/playsingle_controller.cpp:415
 msgid "Game Over"
 msgstr "Крај игре"
 
 #. +> stable
-#: src/playsingle_controller.cpp:411
+#: src/playsingle_controller.cpp:416
 msgid "The game is over."
 msgstr "Игра је завршена."
 
 #. +> stable
-#: src/playsingle_controller.cpp:496
+#: src/playsingle_controller.cpp:501
 msgid ""
 "A network disconnection has occurred, and the game\n"
 "cannot continue. Do you want to save the game?"
@@ -8624,22 +8638,22 @@ msgstr ""
 "Желите ли да сачувате позицију?"
 
 #. +> stable
-#: src/playsingle_controller.cpp:659
+#: src/playsingle_controller.cpp:664
 msgid "It is now $name|'s turn"
 msgstr "На потезу је $name"
 
 #. +> stable
-#: src/playsingle_controller.cpp:877
+#: src/playsingle_controller.cpp:882
 msgid "Scenario Report"
 msgstr "Изв›јештај сценарија"
 
 #. +> stable
-#: src/playsingle_controller.cpp:879
+#: src/playsingle_controller.cpp:884
 msgid "Victory"
 msgstr "Победа"
 
 #. +> stable
-#: src/playsingle_controller.cpp:880
+#: src/playsingle_controller.cpp:885
 msgid "You have emerged victorious!"
 msgstr "Поб›иједили сте!"
 
@@ -9195,6 +9209,10 @@ msgstr "Помозите нам да побољшамо Веснот за вас
 #: src/upload_log.cpp:375
 msgid "Enable summary uploads"
 msgstr "Укључи слање сажетака"
+
+# well-spelled: аутф
+#~ msgid " (auth only)"
+#~ msgstr " (само аутф)"
 
 #~ msgid "Unknown unit type '$type|'"
 #~ msgstr "Непознат тип јединице ‘$type|’"
