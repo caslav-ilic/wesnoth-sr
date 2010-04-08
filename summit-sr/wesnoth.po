@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2010-04-08 21:40+0200\n"
-"PO-Revision-Date: 2010-03-28 22:56+0200\n"
+"PO-Revision-Date: 2010-04-08 21:45+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -7272,21 +7272,17 @@ msgstr "Употреба:"
 msgid "aliases:"
 msgstr "алијаси:"
 
-# well-spelled: аутф
+# well-spelled: админ
 #. +> stable
 #: src/menu_events.cpp:2200
-#, fuzzy
-#| msgid "(A) - auth command"
 msgid "(A) - admin command"
-msgstr "(A) — аутф наредба"
+msgstr "(A) — админ. наредба"
 
-# well-spelled: аутф
+# well-spelled: админ
 #. +> stable
 #: src/menu_events.cpp:2207 src/menu_events.cpp:2405
-#, fuzzy
-#| msgid "(auth only)"
 msgid "(admin only)"
-msgstr "(само аутф)"
+msgstr "(само админ.)"
 
 #. +> stable
 #: src/menu_events.cpp:2227
@@ -7470,13 +7466,11 @@ msgstr "<соба> <тип> [вредност]"
 msgid "Room query."
 msgstr "Упит собе."
 
-# well-spelled: аутф
+# well-spelled: админ
 #. +> stable
 #: src/menu_events.cpp:2397
-#, fuzzy
-#| msgid "(D) - debug only, (N) - network only, (A) - auth only"
 msgid "(D) - debug only, (N) - network only, (A) - admin only"
-msgstr "(D) — само исправљање, (N) — само мрежа, (A) — само аутф"
+msgstr "(D) — само исправљање, (N) — само мрежа, (A) — само админ"
 
 #. +> stable
 #: src/menu_events.cpp:2403
@@ -7485,10 +7479,8 @@ msgstr "(исправљачка наредба)"
 
 #. +> stable
 #: src/menu_events.cpp:2404
-#, fuzzy
-#| msgid " (network only)"
 msgid "(network only)"
-msgstr " (само мрежа)"
+msgstr "(само мрежа)"
 
 #. +> stable
 #: src/menu_events.cpp:2429
@@ -8599,15 +8591,12 @@ msgstr[3] "Почињете наредни сценарио са једним з
 
 #. +> stable
 #: src/playsingle_controller.cpp:255
-#, fuzzy
-#| msgid "You will start the next scenario with $gold on top of the defined minimum starting gold."
-#| msgid_plural "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgid "You will start the next scenario with the defined minimum starting gold."
 msgid_plural "You will start the next scenario with the defined minimum starting gold."
-msgstr[0] "Почињете наредни сценарио са $gold златником додатим на задати најмањи почетни број."
-msgstr[1] "Почињете наредни сценарио са $gold златника додата на задати најмањи почетни број."
-msgstr[2] "Почињете наредни сценарио са $gold златника додатих на задати најмањи почетни број."
-msgstr[3] "Почињете наредни сценарио са једним златником додатим на задати најмањи почетни број."
+msgstr[0] "Почињете наредни сценарио са задатим најмањим бројем златника."
+msgstr[1] "Почињете наредни сценарио са задатим најмањим бројем златника."
+msgstr[2] "Почињете наредни сценарио са задатим најмањим бројем златника."
+msgstr[3] "Почињете наредни сценарио са задатим најмањим бројем златника."
 
 #. +> stable
 #: src/playsingle_controller.cpp:263
