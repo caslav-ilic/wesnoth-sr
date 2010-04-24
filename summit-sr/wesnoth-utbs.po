@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-utbs\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-03-28 22:22+0200\n"
+"POT-Creation-Date: 2010-04-24 12:13+0200\n"
 "PO-Revision-Date: 2010-04-05 17:47+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -711,8 +711,8 @@ msgstr "Чуо сам ја за твоју сорту, погани некром
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:2093
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1505
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1549
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3010
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3123
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3016
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3129
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4098
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:4975
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:5122
@@ -1632,7 +1632,7 @@ msgstr "Комешање у ноћи"
 msgid "Azkotep"
 msgstr "Азкотеп"
 
-#. [side]: id=Ystara, type=Spectre
+#. [side]: id=Ystara, type=Death Knight
 #. +> stable
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:103
 msgid "Ystara"
@@ -1663,8 +1663,8 @@ msgstr "Поразиш ли Истару"
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:402
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1512
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:1556
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3017
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3130
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3023
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3136
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:209
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06b_In_the_Domain_of_Dwarves.cfg:298
 msgid "Death of Kaleh, Nym or Zhul"
@@ -2882,7 +2882,7 @@ msgstr "Ово је крај пута. Вода је предубока да б�
 #. [unit]: type=Dark Assassin2, id=Cloaked Figure
 #. +> stable
 #: data/campaigns/Under_the_Burning_Suns/scenarios/04_Descending_into_Darkness.cfg:1338
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3327
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3333
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:3554
 msgid "Cloaked Figure"
 msgstr "маскирани лик"
@@ -3704,7 +3704,7 @@ msgstr "Тролови излажу лобање својих непријате
 
 #. [message]: role=ally
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2919
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2922
 msgid "The dwarves use stone cairns to mark their territory. What a waste of good throwing stones."
 msgstr "Патуљци користе камене купе за об‹иљежавање својих забрана. Какво расипање доброг камења."
 
@@ -3712,7 +3712,7 @@ msgstr "Патуљци користе камене купе за об‹иљеж
 #. [event]
 #. [scenario]: id=5_A_Subterranean_Struggle
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2937
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2943
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06b_In_the_Domain_of_Dwarves.cfg:514
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06b_In_the_Domain_of_Dwarves.cfg:2024
 msgid "Zurg"
@@ -3720,70 +3720,70 @@ msgstr "Зург"
 
 #. [message]: speaker=Zurg
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2957
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2963
 msgid "Congratulations! Some of trolls didn't think you strong enough to beat dwarves."
 msgstr "Честитам! Неки међу троловима нису мислили да сте довољно јаки да поразите патуљке."
 
 #. [message]: speaker=Kaleh
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2962
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3078
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2968
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3084
 msgid "Where did you come from?"
 msgstr "Одакле се ти створи?"
 
 #. [message]: speaker=Zurg
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2967
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2973
 msgid "There many secret tunnels that you sun dwellers not know of. Only troll know. We smarter than you think. Zurg would have killed dwarves himself, but he was just sent back from where real fighting is."
 msgstr "Многи су тајни ходници које ви површњаковићи не познајете. Само трол зна. Ми паметнији него што мислите. Зург могао сам средити патуљке, али управо послат с м›јеста гд›је се одвијала права борба."
 
 #. [message]: speaker=Zhul
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2972
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2978
 msgid "The real fighting? I thought that was what we were waist-deep in?"
 msgstr "Права борба? Мишљах да је то ово у чему смо до рамена били?"
 
 #. [message]: speaker=Zurg
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2978
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2984
 msgid "While you fighting, another clan of dwarves sneak around and flank us. They tricksy like that. We must leave you and run back to defend women and little trolls. Dwarves never give up, many trolls die today, very hard fighting. But dwarves make mistake, you stronger than dwarf or troll thought. You trolls' secret weapon."
 msgstr "Док се ви борили, други клан патуљака пришуњао се около и напао с бока. Они тако превртљиви. Морамо вас оставити и похитати назад да брани жене и мале тролове. Патуљци никад не одустају, многи тролови мртви данас, врло тешка борба. Али патуљци направили грешку, ви јачи него што патуљак или трол мисли. Ви троловско тајно оружје."
 
 #. [message]: speaker=Nym
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2983
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2989
 msgid "How do you mean?"
 msgstr "Како то мислиш?"
 
 #. [message]: speaker=Zurg
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2988
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2994
 msgid "Right before battle, we find secret passage just to the north leading straight to big dwarf stronghold. Hiding in stronghold is big important dwarf, directing the battle. Dwarves always think they best fighters around so they leave only a few dwarves guarding their stronghold. If you elves can break through dwarf defenses and kill dwarf chieftain, then it will do much damage to dwarves, make them afraid and confused, easy prey for trolls. You do this and we can drive them back. Then troll leader can help show you how to return to surface. You come with Zurg, he show you way to secret passage."
 msgstr "Баш пред битку, ми нашли тајни пролаз на с›јеверу који води право у велико упориште патуљака. Тамо се крије један много важан патуљак, управља битком. Патуљци ув›ијек мисле они најбољи борци овд›јена, тако да оставе само неколико чувара у то упориште. Ако ви вилењаци продрете кроз патуљака одбрану и убијете њиховог запов›једника, биће велика штета патуљцима, уплаши их то и збуни, лак пл›ијен за тролове. Ви то урадите и можемо их от›јерати. Онда вођ тролова покаже вама куда да изађете на површину. Ви пођите са Зургом, он вам покаже путеве тајних пролаза."
 
 #. [message]: speaker=Elyssa
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2993
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3108
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2999
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3114
 msgid "Their knowledge of these tunnels is uncanny. I could have sworn a minute ago that that wall was solid rock."
 msgstr "Јежим се од њиховог познавања ових тунела. Могла бих се заклети да је који тренутак раније тај зид био чврста ст›ијена."
 
 #. [message]: speaker=Kaleh
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3004
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3010
 msgid "Wait a moment Zurg, we must deal with this mysterious cloaked figure before we can follow you."
 msgstr "Чекај мало, Зург, морамо се разрачунати са овом тајанственом маскираном особом пр›ије него што пођемо с тобом."
 
 #. [objective]: condition=win
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3013
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3126
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3019
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3132
 msgid "Defeat Cloaked Figure"
 msgstr "Поразиш ли маскирану особу"
 
 #. [message]: speaker=Kaleh
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3033
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3039
 msgid "It sounds like our work is not yet done. Very well, gather yourselves together, we must follow Zurg."
 msgstr "Изгледа да наш посао још ув›ијек није завршен. Врло добро, сакупите се, морамо кренути за Зургом."
 
@@ -3791,7 +3791,7 @@ msgstr "Изгледа да наш посао још ув›ијек није з
 #. [event]
 #. [scenario]: id=5_A_Subterranean_Struggle
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3058
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3064
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:428
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:2196
 msgid "Grimnir"
@@ -3799,117 +3799,117 @@ msgstr "Гримнир"
 
 #. [message]: speaker=Grimnir
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3073
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3079
 msgid "Congratulations, some of me boys didn't think you could beat the trolls."
 msgstr "Честитам, неки од мојих момака нису в›јеровали да можете поб›иједити тролове."
 
 #. [message]: speaker=Grimnir
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3083
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3089
 msgid "Don't think you know all the tunnels and passages that twist through these caves, elf. I would have killed him myself, but I was just sent back from the main front of the battle."
 msgstr "Не помисли, вилењаче, да познајеш све тунеле и пролазе што се увијају кроз ове пећине. Убио бих га сам, да ме нису позвали назад са главне линије пр›ије битке."
 
 #. [message]: speaker=Zhul
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3088
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3094
 msgid "The front? I thought this was the front."
 msgstr "Главне линије? Мислио сам да је овд›је та."
 
 #. [message]: speaker=Grimnir
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3093
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3099
 msgid "While you were fighting a separate clan of trolls sneaked around our sentries and flanked us, attacking our supply depots. There are more of those stinking buggers than we had originally thought. To tell you the truth, we are hard pressed. We're going to have to pull back all our forces in these caves to reinforce the back lines. But your victory here has produced a unexpected opportunity."
 msgstr "Док сте се ви борили, један други клан тролова прошуњао се између наших стража, и ударио по нашим залихама у позадини. Има више тих смрдибуба него што првобитно мислисмо. Истину зборећи, тешко смо притиснути. Мораћемо да повучемо све снаге из ових пећина како бисмо појачали позадину. Али је ваша поб›једа овд›је произвела неочекивану прилику."
 
 #. [message]: speaker=Nym
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3098
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3104
 msgid "It has?"
 msgstr "Јесте?"
 
 #. [message]: speaker=Grimnir
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3103
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3109
 msgid "Right before the trolls overran this area of the mines, our scouts had found an old tunnel south of here that leads almost straight to the main lair of this tribe of trolls. We believe that protected in the lair is one of their main leaders who is directing the battle. We were going to try to sneak in and lead a surprise attack, but frankly we didn't have enough dwarves to spare. If by using this passage you can sneak past their front lines and kill him, then it will throw the trolls into disarray and relieve the pressure on our front lines. If you do this our King has promised to help you return your people to the sunlit lands. When you're ready I'll show you the way. It's not far."
 msgstr "Баш пр›ије него што су тролови прегазили ово подручје рудника, наши извиђачи пронашли су стари тунел јужно одавд›је који води скоро тачно у главну јазбину овог троловског племена. В›јерујемо да се у јазбини чува један од њихових главних вођа, који управља битком. Хт›јели смо да покушамо да се ушуњамо тамо и изведемо изненадни удар, али, искрено, сада не можемо приуштити ниједног патуљка за тај посао. Ако, користећи тај пролаз, усп›ијете да заобиђете њихове предње линије и убијете вођа, тролови ће се наћи у збрци и олакшати притисак на наше предње редове. Ако учините ово, наш краљ је обећао да ће помоћи да изведете народ на осунчану површину. Кад будете спремни, показаћу вам пут. Није далеко."
 
 #. [message]: speaker=Kaleh
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3119
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3125
 msgid "Wait a moment Grimnir, we must deal with this mysterious cloaked figure before we can follow you."
 msgstr "Чекај мало, Гримнире, морамо се прво разрачунати са овом тајанственом маскираном особом пр›ије него што пођемо с тобом."
 
 #. [message]: speaker=Kaleh
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3146
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3152
 msgid "It sounds like our work is not yet done. Very well, gather yourselves together, we must follow Grimnir."
 msgstr "Изгледа да наш посао овд›је још није готов. Врло добро, сакупите се, морамо кренути за Гримниром."
 
 #. [message]: speaker=Fundin
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3171
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3177
 msgid "The rest is silence..."
 msgstr "Остало је тишина..."
 
 #. [message]: speaker=Nori
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3205
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3211
 msgid "I go to my ancestors..."
 msgstr "Одлазим својим прецима..."
 
 # |, no-check-spell
 #. [message]: speaker=Thungar
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3241
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3247
 msgid "Arrggg!!!"
 msgstr "Арррг!!!"
 
 #. [message]: speaker=Gnarl
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3275
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3281
 msgid "I will be avenged..."
 msgstr "Осветиће ме..."
 
 #. [message]: speaker=Cloaked Figure
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3339
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3345
 msgid "Did you think you escaped me Kaleh? I am your shadow, I will always be there until you pay for what you have done."
 msgstr "Мислиш ли да си ми избегао, Калеше? Ја сам твоја с›ијенка, и ув›ијек ћу бити ту док не платиш за оно што си учинио!"
 
 # |, no-check-spell
 #. [message]: speaker=Kaleh
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3346
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3352
 msgid "Ow!"
 msgstr "Оо!"
 
 #. [message]: speaker=Cloaked Figure
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3353
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3359
 msgid "You want to flee, don't you? But you cannot. They couldn't escape her either. Even death could not save them. She will devour us all. But first I shall have my revenge. Do the dance of death for me, Kaleh! Dance! Dance!"
 msgstr "Хоћеш да поб›јегнеш, зар не? Али не можеш. Ни они нису могли да јој поб›јегну. Ни смрт их није могла спасти. Она ће нас све прождрати. Али ће прво мени припасти освета. Заиграј плес смрти за мене, Калеше! Плеши! Плеши!"
 
 #. [message]: speaker=Kaleh
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3377
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3383
 msgid "Where did he go? How does he disappear like that? And what in Uria's name was he ranting about? Whoever that is is starting to make me get edgy."
 msgstr "Куда се д›једе? Како нестаде тек тако? И о чему је то, за име Урије, брбљао? Ко год да је, почиње већ да ме чини нервозним."
 
 #. [message]: speaker=Kaleh
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3391
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3397
 msgid "The cloaked figure is gone. Still, our work is not yet done. Gather yourselves together, we must follow Zurg."
 msgstr "С маскираним ликом је свршено. Па ипак, наш посао још ув›ијек није готов. Сакупите се, морамо поћи за Зургом."
 
 #. [message]: speaker=Kaleh
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3412
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3418
 msgid "The cloaked figure is gone. Still, our work is not yet done. Gather yourselves together, we must follow Grimnir."
 msgstr "С маскираним ликом је свршено. Па ипак, наш посао још ув›ијек није готов. Сакупите се, морамо поћи за Гримниром."
 
 #. [message]: speaker=Kaleh
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3482
+#: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:3488
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:2552
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06b_In_the_Domain_of_Dwarves.cfg:2429
 msgid "Oh no, we took too long and enemy reinforcements have arrived. We'll surely be overwhelmed now!"
