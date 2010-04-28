@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: wesnoth-manpages\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2010-03-28 22:21+0200\n"
-"PO-Revision-Date: 2010-03-28 22:56+0200\n"
-"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"PO-Revision-Date: 2010-04-28 16:24+0200\n"
+"Last-Translator: Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgstr "B<--bpp>I<\\ број>"
 #. +> stable
 #: ../../doc/man/wesnoth.6:49
 msgid "sets BitsPerPixel value. Example: B<--bpp 32>"
-msgstr "поставља вр›иједност BitsPerPixel. Пример: B<--bpp 32>"
+msgstr "поставља вр›иједност BitsPerPixel. Прим›јер: B<--bpp 32>"
 
 #. type: TP
 #. +> stable
@@ -410,7 +410,7 @@ msgstr "B<-s,\\ --server\\ [домаћин]>"
 #. +> stable
 #: ../../doc/man/wesnoth.6:155
 msgid "connects to the specified host if any, otherwise connect to the first server in preferences. Example: B<--server server.wesnoth.org>"
-msgstr "повезује се са домаћином ако је задат, или са првим сервером у поставкама. На пример: B<--server server.wesnoth.org>"
+msgstr "повезује се са домаћином ако је задат, или са првим сервером у поставкама. На прим›јер: B<--server server.wesnoth.org>"
 
 #. type: TP
 #. +> stable
@@ -495,7 +495,7 @@ msgstr "Опције посебне по страни у вишеиграчко�
 #: ../../doc/man/wesnoth.6:180
 #, no-wrap
 msgid "B<--ai_config>I<number>B<=>I<value>"
-msgstr "B<--ai_config>I<број>B<=>I<вредност>"
+msgstr "B<--ai_config>I<број>B<=>I<вр›иједност>"
 
 #. type: Plain text
 #. +> stable
@@ -508,7 +508,7 @@ msgstr "бира поставну датотеку која се учитава 
 #: ../../doc/man/wesnoth.6:183
 #, no-wrap
 msgid "B<--algorithm>I<number>B<=>I<value>"
-msgstr "B<--algorithm>I<број>B<=>I<вредност>"
+msgstr "B<--algorithm>I<број>B<=>I<вр›иједност>"
 
 #. type: Plain text
 #. +> stable
@@ -521,13 +521,13 @@ msgstr "бира нестандардни алгоритам за ВИ упра�
 #: ../../doc/man/wesnoth.6:190
 #, no-wrap
 msgid "B<--controller>I<number>B<=>I<value>"
-msgstr "B<--controller>I<број>B<=>I<вредност>"
+msgstr "B<--controller>I<број>B<=>I<вр›иједност>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:196
 msgid "selects the controller for this side. Available values: B<human> and B<ai>."
-msgstr "бира управљача за задату страну. Могуће вр›иједности су: B<human> (човек) и B<ai> (ВИ)."
+msgstr "бира управљача за задату страну. Могуће вр›иједности су: B<human> (чов›јек) и B<ai> (ВИ)."
 
 #. type: TP
 #. +> stable
@@ -586,7 +586,7 @@ msgstr "поставља додатне параметре за ову стра�
 #: ../../doc/man/wesnoth.6:221
 #, no-wrap
 msgid "B<--scenario=>I<value>"
-msgstr "B<--scenario=>I<вредност>"
+msgstr "B<--scenario=>I<вр›иједност>"
 
 #. type: Plain text
 #. +> stable
@@ -599,13 +599,13 @@ msgstr "бира вишеиграчки сценарио по кључу. Под
 #: ../../doc/man/wesnoth.6:225
 #, no-wrap
 msgid "B<--side>I<number>B<=>I<value>"
-msgstr "B<--side>I<број>B<=>I<вредност>"
+msgstr "B<--side>I<број>B<=>I<вр›иједност>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:230
 msgid "selects a faction of the current era for this side. The faction is chosen by an id. Factions are described in the data/multiplayer.cfg file."
-msgstr "бира фракцију из текуће епохе за задату страну. Фракција се бира кључем; могуће вредности описане су у датотеци data/multiplayer.cfg"
+msgstr "бира фракцију из текуће епохе за задату страну. Фракција се бира кључем; могуће вр›иједности описане су у датотеци data/multiplayer.cfg"
 
 #. type: TP
 #. +> stable
@@ -803,7 +803,7 @@ msgstr "B<-t\\ >I<број>B<,\\ --threads>I<\\ број>"
 #. +> stable
 #: ../../doc/man/wesnothd.6:81
 msgid "sets the maximum number of waiting worker threads for network I/O to n (default: B<5>,\\ max:\\ B<30>)."
-msgstr "поставља највећи број радних нити на чекању за мрежни У/И (подразумевано: B<5>,\\ највише:\\ B<30>)."
+msgstr "поставља највећи број радних нити на чекању за мрежни У/И (подразум›ијевано: B<5>,\\ највише:\\ B<30>)."
 
 #. type: TP
 #. +> stable
@@ -1101,7 +1101,7 @@ msgstr "Запетама раздвојен списак ниски верзиј
 #. +> stable
 #: ../../doc/man/wesnothd.6:168
 msgid "Example: B<versions_accepted=\"*\"> accepts any version string."
-msgstr "Пример: B<versions_accepted=\"*\"> прихвата било коју ниску верзије."
+msgstr "Прим›јер: B<versions_accepted=\"*\"> прихвата било коју ниску верзије."
 
 #. type: TP
 #. +> stable
@@ -1114,7 +1114,7 @@ msgstr "B<user_handler>"
 #. +> stable
 #: ../../doc/man/wesnothd.6:173
 msgid "The name of the user handler to use. Currently available user handlers are B<forum> (to connect wesnothd to a phpbb forum database) and B<sample> (a sample implementation of the user handler interface, if you use this on anything real you are insane). The default value is B<forum>. You must also add a B<[user_handler]> section, see below."
-msgstr "Име руковаоца корисницима. Тренутно доступни су B<forum> (сервер се повезује са пхпББ базом података форума) и B<sample> (прим›јерна изведба сучеља руковаоца корисницима, луди сте ако ово употребите негде заозбиљно). Подразум›ијевана вр›иједност је B<forum>. Такође морате додати од›јељак B<[user_handler]>, в. испод."
+msgstr "Име руковаоца корисницима. Тренутно доступни су B<forum> (сервер се повезује са пхпББ базом података форума) и B<sample> (прим›јерна изведба сучеља руковаоца корисницима, луди сте ако ово употр›ијебите негд›је заозбиљно). Подразум›ијевана вр›иједност је B<forum>. Такође морате додати од›јељак B<[user_handler]>, в. испод."
 
 #. type: SS
 #. +> stable
@@ -1198,7 +1198,7 @@ msgstr "B<time>"
 #. +> stable
 #: ../../doc/man/wesnothd.6:207
 msgid "The time length definition.  The format is: %d[%s[%d%s[...]]] where %s is s (seconds), m (minutes), h (hours), D (days), M (months) or Y (years) and %d is a number.  If no time modifier is given minutes (m) are assumed.  Example: B<time=\"1D12h30m\"> results in a ban time of 1 day, 12 hours and 30 minutes."
-msgstr "Трајање. Формат је %d[%s[%d%s[...]]] гд›је s из %s означава секунде, m минуте, h сате, D дане, M месеце, Y године, а d је број. Ако није дат модификатор, претпостављају се минути (m). Пример: B<time=\"1D12h30m\"> значи забрану у трајању од једног дана, 12 сати и 30 минута."
+msgstr "Трајање. Формат је %d[%s[%d%s[...]]] гд›је s из %s означава секунде, m минуте, h сате, D дане, M м›јесеце, Y године, а d је број. Ако није дат модификатор, претпостављају се минути (m). Прим›јер: B<time=\"1D12h30m\"> значи забрану у трајању од једног дана, 12 сати и 30 минута."
 
 #. type: Plain text
 #. +> stable
@@ -1307,7 +1307,7 @@ msgstr "(за user_handler=sample) вр›ијеме по којем регис�
 #. +> stable
 #: ../../doc/man/wesnothd.6:248
 msgid "B<[mail]> Configures an SMTP server through which the user handler can send mail. Currently only used by the sample user handler."
-msgstr "B<[mail]> подешава СМТП сервер кроз који руковалац корисницима шаље пошту. Тренутно само за примерни руковалац."
+msgstr "B<[mail]> подешава СМТП сервер кроз који руковалац корисницима шаље пошту. Тренутно само за прим›јерни руковалац."
 
 #. type: TP
 #. +> stable

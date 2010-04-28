@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-manpages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2010-03-28 22:56+0200\n"
+"PO-Revision-Date: 2010-04-28 16:24+0200\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -88,10 +88,12 @@ msgstr "B<--bpp>I<\\ број>|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 23:54:43+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "sets BitsPerPixel value. Example: B<--bpp 32>"
 msgstr ""
 "поставља вредност BitsPerPixel. Пример: B<--bpp 32>|~\n"
-"поставља вр›иједност BitsPerPixel. Пример: B<--bpp 32>|~"
+"поставља вр›иједност BitsPerPixel. Пример: B<--bpp 32>|~\n"
+"поставља вр›иједност BitsPerPixel. Прим›јер: B<--bpp 32>|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
@@ -341,8 +343,11 @@ msgstr "B<-s,\\ --server\\ [домаћин]>|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "connects to the specified host if any, otherwise connect to the first server in preferences. Example: B<--server server.wesnoth.org>"
-msgstr "повезује се са домаћином ако је задат, или са првим сервером у поставкама. На пример: B<--server server.wesnoth.org>|~"
+msgstr ""
+"повезује се са домаћином ако је задат, или са првим сервером у поставкама. На пример: B<--server server.wesnoth.org>|~\n"
+"повезује се са домаћином ако је задат, или са првим сервером у поставкама. На прим›јер: B<--server server.wesnoth.org>|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
@@ -409,8 +414,11 @@ msgstr ""
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "B<--ai_config>I<number>B<=>I<value>"
-msgstr "B<--ai_config>I<број>B<=>I<вредност>|~"
+msgstr ""
+"B<--ai_config>I<број>B<=>I<вредност>|~\n"
+"B<--ai_config>I<број>B<=>I<вр›иједност>|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
@@ -419,8 +427,11 @@ msgstr "бира поставну датотеку која се учитава 
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "B<--algorithm>I<number>B<=>I<value>"
-msgstr "B<--algorithm>I<број>B<=>I<вредност>|~"
+msgstr ""
+"B<--algorithm>I<број>B<=>I<вредност>|~\n"
+"B<--algorithm>I<број>B<=>I<вр›иједност>|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 23:54:43+0100 | 1
@@ -432,16 +443,21 @@ msgstr ""
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "B<--controller>I<number>B<=>I<value>"
-msgstr "B<--controller>I<број>B<=>I<вредност>|~"
+msgstr ""
+"B<--controller>I<број>B<=>I<вредност>|~\n"
+"B<--controller>I<број>B<=>I<вр›иједност>|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 23:54:43+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "selects the controller for this side. Available values: B<human> and B<ai>."
 msgstr ""
 "бира управљача за задату страну. Могуће вредности су: B<human> (човек) и B<ai> (ВИ).|~\n"
-"бира управљача за задату страну. Могуће вр›иједности су: B<human> (човек) и B<ai> (ВИ).|~"
+"бира управљача за задату страну. Могуће вр›иједности су: B<human> (човек) и B<ai> (ВИ).|~\n"
+"бира управљача за задату страну. Могуће вр›иједности су: B<human> (чов›јек) и B<ai> (ВИ).|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 23:54:43+0100 | 1
@@ -503,8 +519,11 @@ msgstr ""
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "B<--scenario=>I<value>"
-msgstr "B<--scenario=>I<вредност>|~"
+msgstr ""
+"B<--scenario=>I<вредност>|~\n"
+"B<--scenario=>I<вр›иједност>|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 23:54:43+0100 | 1
@@ -516,13 +535,19 @@ msgstr ""
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "B<--side>I<number>B<=>I<value>"
-msgstr "B<--side>I<број>B<=>I<вредност>|~"
+msgstr ""
+"B<--side>I<број>B<=>I<вредност>|~\n"
+"B<--side>I<број>B<=>I<вр›иједност>|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "selects a faction of the current era for this side. The faction is chosen by an id. Factions are described in the data/multiplayer.cfg file."
-msgstr "бира фракцију из текуће епохе за задату страну. Фракција се бира кључем; могуће вредности описане су у датотеци data/multiplayer.cfg|~"
+msgstr ""
+"бира фракцију из текуће епохе за задату страну. Фракција се бира кључем; могуће вредности описане су у датотеци data/multiplayer.cfg|~\n"
+"бира фракцију из текуће епохе за задату страну. Фракција се бира кључем; могуће вр›иједности описане су у датотеци data/multiplayer.cfg|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 23:54:43+0100 | 1
@@ -687,8 +712,11 @@ msgstr "B<-t\\ >I<број>B<,\\ --threads>I<\\ број>|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "sets the maximum number of waiting worker threads for network I/O to n (default: B<5>,\\ max:\\ B<30>)."
-msgstr "поставља највећи број радних нити на чекању за мрежни У/И (подразумевано: B<5>,\\ највише:\\ B<30>).|~"
+msgstr ""
+"поставља највећи број радних нити на чекању за мрежни У/И (подразумевано: B<5>,\\ највише:\\ B<30>).|~\n"
+"поставља највећи број радних нити на чекању за мрежни У/И (подразум›ијевано: B<5>,\\ највише:\\ B<30>).|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
@@ -965,8 +993,11 @@ msgstr ""
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "Example: B<versions_accepted=\"*\"> accepts any version string."
-msgstr "Пример: B<versions_accepted=\"*\"> прихвата било коју ниску верзије.|~"
+msgstr ""
+"Пример: B<versions_accepted=\"*\"> прихвата било коју ниску верзије.|~\n"
+"Прим›јер: B<versions_accepted=\"*\"> прихвата било коју ниску верзије.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
@@ -976,10 +1007,12 @@ msgstr "B<user_handler>|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 23:54:43+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "The name of the user handler to use. Currently available user handlers are B<forum> (to connect wesnothd to a phpbb forum database) and B<sample> (a sample implementation of the user handler interface, if you use this on anything real you are insane). The default value is B<forum>. You must also add a B<[user_handler]> section, see below."
 msgstr ""
 "Име руковаоца корисницима. Тренутно доступни су B<forum> (сервер се повезује са пхпББ базом података форума) и B<sample> (примерна изведба сучеља руковаоца корисницима, луди сте ако ово употребите негде заозбиљно). Подразумевана вредност је B<forum>. Такође морате додати одељак B<[user_handler]>, в. испод.|~\n"
-"Име руковаоца корисницима. Тренутно доступни су B<forum> (сервер се повезује са пхпББ базом података форума) и B<sample> (прим›јерна изведба сучеља руковаоца корисницима, луди сте ако ово употребите негде заозбиљно). Подразум›ијевана вр›иједност је B<forum>. Такође морате додати од›јељак B<[user_handler]>, в. испод.|~"
+"Име руковаоца корисницима. Тренутно доступни су B<forum> (сервер се повезује са пхпББ базом података форума) и B<sample> (прим›јерна изведба сучеља руковаоца корисницима, луди сте ако ово употребите негде заозбиљно). Подразум›ијевана вр›иједност је B<forum>. Такође морате додати од›јељак B<[user_handler]>, в. испод.|~\n"
+"Име руковаоца корисницима. Тренутно доступни су B<forum> (сервер се повезује са пхпББ базом података форума) и B<sample> (прим›јерна изведба сучеља руковаоца корисницима, луди сте ако ово употр›ијебите негд›је заозбиљно). Подразум›ијевана вр›иједност је B<forum>. Такође морате додати од›јељак B<[user_handler]>, в. испод.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
@@ -1056,10 +1089,12 @@ msgstr "B<time>|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 23:54:43+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "The time length definition.  The format is: %d[%s[%d%s[...]]] where %s is s (seconds), m (minutes), h (hours), D (days), M (months) or Y (years) and %d is a number.  If no time modifier is given minutes (m) are assumed.  Example: B<time=\"1D12h30m\"> results in a ban time of 1 day, 12 hours and 30 minutes."
 msgstr ""
 "Трајање. Формат је %d[%s[%d%s[...]]] где s из %s означава секунде, m минуте, h сате, D дане, M месеце, Y године, а d је број. Ако није дат модификатор, претпостављају се минути (m). Пример: B<time=\"1D12h30m\"> значи забрану у трајању од једног дана, 12 сати и 30 минута.|~\n"
-"Трајање. Формат је %d[%s[%d%s[...]]] гд›је s из %s означава секунде, m минуте, h сате, D дане, M месеце, Y године, а d је број. Ако није дат модификатор, претпостављају се минути (m). Пример: B<time=\"1D12h30m\"> значи забрану у трајању од једног дана, 12 сати и 30 минута.|~"
+"Трајање. Формат је %d[%s[%d%s[...]]] гд›је s из %s означава секунде, m минуте, h сате, D дане, M месеце, Y године, а d је број. Ако није дат модификатор, претпостављају се минути (m). Пример: B<time=\"1D12h30m\"> значи забрану у трајању од једног дана, 12 сати и 30 минута.|~\n"
+"Трајање. Формат је %d[%s[%d%s[...]]] гд›је s из %s означава секунде, m минуте, h сате, D дане, M м›јесеце, Y године, а d је број. Ако није дат модификатор, претпостављају се минути (m). Прим›јер: B<time=\"1D12h30m\"> значи забрану у трајању од једног дана, 12 сати и 30 минута.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 23:54:43+0100 | 1
@@ -1155,8 +1190,11 @@ msgstr ""
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: djuric | 2010-04-28 16:24:33+0200 | 1
 msgid "B<[mail]> Configures an SMTP server through which the user handler can send mail. Currently only used by the sample user handler."
-msgstr "B<[mail]> подешава СМТП сервер кроз који руковалац корисницима шаље пошту. Тренутно само за примерни руковалац.|~"
+msgstr ""
+"B<[mail]> подешава СМТП сервер кроз који руковалац корисницима шаље пошту. Тренутно само за примерни руковалац.|~\n"
+"B<[mail]> подешава СМТП сервер кроз који руковалац корисницима шаље пошту. Тренутно само за прим›јерни руковалац.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
@@ -1222,14 +1260,17 @@ msgid "B<wesnoth>(6), B<wesnoth_editor>(6)"
 msgstr "B<wesnoth>(6), B<wesnoth_editor>(6)|~"
 
 #. modified: ilic | 2010-03-28 22:56:35+0200 | 1
+#. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
 msgid "EXIT STATUS"
 msgstr "ИЗЛАЗНО СТАЊЕ|~"
 
 #. modified: ilic | 2010-03-28 22:56:35+0200 | 1
+#. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
 msgid "Normal exit status is 0. An exit status of 1 indicates an (SDL, video, fonts, etc) initialization error. An exit status of 2 indicates an error with the command line options."
 msgstr "Редовно излазно стање је 0. Стање 1 указује на грешку у припреми (СДЛ-а, фонтова, итд). Стање 2 указује на грешку у опцијама командне линије.|~"
 
 #. modified: ilic | 2010-03-28 22:56:35+0200 | 1
+#. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
 msgid "Normal exit status is 0 when the server was properly shutdown. An exit status of 2 indicates an error with the command line options."
 msgstr "Редовно излазно стање је 0, када је сервер правилно угашен. Стање 2 указује на грешку у опцијама командне линије.|~"
 
