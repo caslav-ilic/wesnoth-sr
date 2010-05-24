@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2010-05-24 20:40+0200\n"
+"PO-Revision-Date: 2010-05-24 20:48+0200\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -7536,8 +7536,11 @@ msgstr "Искључује исправљачки режим.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-05-24 20:48:22+0200 | 1
 msgid "Execute a Lua statement."
-msgstr "Извршава ~@/Lua/луа/ исказ.|~"
+msgstr ""
+"Извршава ~@/Lua/луа/ исказ.|~\n"
+"Извршава ~@/луа/Lua/ исказ.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
@@ -9807,10 +9810,30 @@ msgid "Invert"
 msgstr "Изврни|~"
 
 #. modified: ilic | 2010-05-24 20:40:55+0200 | 1f
-#, fuzzy
-#| msgid "Disable autosaves.|~"
+#. modified: ilic | 2010-05-24 20:48:22+0200 | 1
+#| msgid ""
+#| "Disable autosaves.|~\n"
+#| "|~x"
 msgid "Disable notifications"
-msgstr "Искључује аутопозиције.|~"
+msgstr ""
+"Искључује аутопозиције.|~\n"
+"Без обавештења|~"
+
+#. modified: ilic | 2010-05-24 20:48:22+0200 | 1
+msgid "Grant higher privileges to Lua scripts."
+msgstr "Даје већа овлашћења ~@/луа/Lua/ скриптама.|~"
+
+#. modified: ilic | 2010-05-24 20:48:22+0200 | 1
+msgid "Unsafe Lua scripts."
+msgstr "Небезбедне ~@/луа/Lua/ скрипте.|~"
+
+#. modified: ilic | 2010-05-24 20:48:22+0200 | 1
+msgid "You are about to open a security breach in Wesnoth. Are you sure you want to continue? If you have downloaded add-ons, do not click 'ok'! They would instantly take over your computer. You have been warned."
+msgstr "Овим ћете отворити безбедносни процеп у Весноту. Желите ли заиста да наставите? Ако сте преузели неке додатке, не кликћите на „~%/OK/“! — могли би тог тренутка преузети ваш рачунар. Упозорили смо вас.|~"
+
+#. modified: ilic | 2010-05-24 20:48:22+0200 | 1
+msgid "Unsafe mode enabled!"
+msgstr "Укључен небезбедан режим!|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
