@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-04-24 12:13+0200\n"
+"POT-Creation-Date: 2010-05-24 20:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 
 #. [advanced_preference]: type=boolean
 #. +> stable
@@ -115,6 +116,12 @@ msgstr ""
 #. +> stable
 #: data/advanced_preferences.cfg:100
 msgid "Lobby sounds"
+msgstr ""
+
+#. [advanced_preference]: type=boolean
+#. +> stable
+#: data/advanced_preferences.cfg:107
+msgid "Disable notifications"
 msgstr ""
 
 #. [ai]: id=default # id is needed uniquely identify a MP AI, it is not needed in the scenario AI
@@ -274,361 +281,361 @@ msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:205
+#: data/core/about.cfg:210
 msgid "General Purpose Administration and Coordination"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:223
+#: data/core/about.cfg:228
 msgid "Artwork and Graphics"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:571
+#: data/core/about.cfg:576
 msgid "Music"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:605
+#: data/core/about.cfg:613
 msgid "Sound Effects"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:621
+#: data/core/about.cfg:629
 msgid "Campaign Design"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:688
+#: data/core/about.cfg:696
 msgid "Multiplayer Maps and Balancing"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:729
+#: data/core/about.cfg:737
 msgid "Packagers"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:795
+#: data/core/about.cfg:803
 msgid "Miscellaneous contributors"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1021
+#: data/core/about.cfg:1029
 msgid "Internationalization Managers"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1046
+#: data/core/about.cfg:1054
 msgid "English strings edition"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1053
+#: data/core/about.cfg:1061
 msgid "Afrikaans Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1069
+#: data/core/about.cfg:1077
 msgid "Arabic Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1076
+#: data/core/about.cfg:1084
 msgid "Basque Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1089
+#: data/core/about.cfg:1097
 msgid "Bulgarian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1108
+#: data/core/about.cfg:1116
 msgid "Catalan Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1149
+#: data/core/about.cfg:1157
 msgid "Chinese Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1187
+#: data/core/about.cfg:1211
 msgid "Chinese (Taiwan) Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1209
+#: data/core/about.cfg:1233
 msgid "Croatian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1216
+#: data/core/about.cfg:1240
 msgid "Czech Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1276
+#: data/core/about.cfg:1300
 msgid "Danish Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1307
+#: data/core/about.cfg:1331
 msgid "Dutch Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1368
+#: data/core/about.cfg:1392
 msgid "English (GB) Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1381
+#: data/core/about.cfg:1405
 msgid "English (Shaw) Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1405
+#: data/core/about.cfg:1429
 msgid "Esperanto Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1424
+#: data/core/about.cfg:1448
 msgid "Estonian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1434
+#: data/core/about.cfg:1458
 msgid "Filipino Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1444
+#: data/core/about.cfg:1468
 msgid "Finnish Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1490
+#: data/core/about.cfg:1514
 msgid "French Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1640
+#: data/core/about.cfg:1670
 msgid "Friulian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1647
+#: data/core/about.cfg:1677
 msgid "Galician Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1683
+#: data/core/about.cfg:1713
 msgid "German Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1750
+#: data/core/about.cfg:1780
 msgid "Greek Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1784
+#: data/core/about.cfg:1814
 msgid "Hebrew Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1797
+#: data/core/about.cfg:1827
 msgid "Hungarian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1858
+#: data/core/about.cfg:1888
 msgid "Icelandic translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1868
+#: data/core/about.cfg:1898
 msgid "Indonesian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1875
+#: data/core/about.cfg:1905
 msgid "Italian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1910
+#: data/core/about.cfg:1940
 msgid "Japanese Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1959
+#: data/core/about.cfg:1989
 msgid "Korean Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1966
+#: data/core/about.cfg:1996
 msgid "Latin Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1993
+#: data/core/about.cfg:2023
 msgid "Latvian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2004
+#: data/core/about.cfg:2034
 msgid "Lithuanian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2021
+#: data/core/about.cfg:2051
 msgid "Macedonian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2029
+#: data/core/about.cfg:2059
 msgid "Marathi Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2038
+#: data/core/about.cfg:2068
 msgid "Norwegian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2063
+#: data/core/about.cfg:2093
 msgid "Polish Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2103
+#: data/core/about.cfg:2133
 msgid "Portuguese Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2110
+#: data/core/about.cfg:2140
 msgid "Portuguese (Brazil) Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2149
+#: data/core/about.cfg:2179
 msgid "Romanian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2157
+#: data/core/about.cfg:2187
 msgid "Russian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2224
+#: data/core/about.cfg:2254
 msgid "Serbian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2243
+#: data/core/about.cfg:2273
 msgid "Slovak Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2269
+#: data/core/about.cfg:2299
 msgid "Slovenian Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2282
+#: data/core/about.cfg:2312
 msgid "Spanish Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2343
+#: data/core/about.cfg:2373
 msgid "Swedish Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2372
+#: data/core/about.cfg:2402
 msgid "Turkish Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2394
+#: data/core/about.cfg:2424
 msgid "Valencian (southern Catalan) Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2407
+#: data/core/about.cfg:2437
 msgid "Vietnamese Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2414
+#: data/core/about.cfg:2444
 msgid "RACV's Translation"
 msgstr ""
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2421
+#: data/core/about.cfg:2451
 msgid "Bots"
 msgstr ""
 
@@ -650,7 +657,7 @@ msgstr ""
 #. [section]: id=traits_section
 #. [topic]: id=..traits_section
 #. +> stable
-#: data/core/help.cfg:33 data/core/help.cfg:355 src/menu_events.cpp:846
+#: data/core/help.cfg:33 data/core/help.cfg:355 src/menu_events.cpp:847
 msgid "Traits"
 msgstr ""
 
@@ -4378,429 +4385,417 @@ msgstr ""
 #. [tip]
 #. +> stable
 #: data/hardwired/tips.cfg:3
-msgid "Battle for Wesnoth automatically sends anonymized statistics about your game advancement to a server where they are stored. This enables several features, and allows us to improve Wesnoth. To learn more about this or disable it, click the envelope in the bottom-right corner."
-msgstr ""
-
-#. [tip]
-#. +> stable
-#: data/hardwired/tips.cfg:4
-msgid "Wesnoth Developers"
-msgstr ""
-
-#. [tip]
-#. +> stable
-#: data/hardwired/tips.cfg:7
 msgid "Don't neglect to earn your leader experience! You need to keep him safe, but if you coddle him too much he may be at too low a level to survive future battles."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:8 data/hardwired/tips.cfg:136
+#: data/hardwired/tips.cfg:4 data/hardwired/tips.cfg:132
 msgid "- Great Mage Delfador, 516YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:11
+#: data/hardwired/tips.cfg:7
 msgid "In the 'Actions' menu, you can select 'Show Enemy Moves' to highlight all possible hexes your adversary can actually move to (assuming your units stay where they are). Use this to make sure the enemy can't reach your weak or injured units on his next turn."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:12 data/hardwired/tips.cfg:24
-#: data/hardwired/tips.cfg:28 data/hardwired/tips.cfg:36
-#: data/hardwired/tips.cfg:40 data/hardwired/tips.cfg:56
-#: data/hardwired/tips.cfg:60 data/hardwired/tips.cfg:64
-#: data/hardwired/tips.cfg:68 data/hardwired/tips.cfg:72
-#: data/hardwired/tips.cfg:84 data/hardwired/tips.cfg:88
-#: data/hardwired/tips.cfg:100 data/hardwired/tips.cfg:108
-#: data/hardwired/tips.cfg:112 data/hardwired/tips.cfg:120
-#: data/hardwired/tips.cfg:144 data/hardwired/tips.cfg:148
-#: data/hardwired/tips.cfg:152 data/hardwired/tips.cfg:160
-#: data/hardwired/tips.cfg:168 data/hardwired/tips.cfg:176
-#: data/hardwired/tips.cfg:180 data/hardwired/tips.cfg:184
-#: data/hardwired/tips.cfg:188 data/hardwired/tips.cfg:196
-#: data/hardwired/tips.cfg:200 data/hardwired/tips.cfg:204
-#: data/hardwired/tips.cfg:209
+#: data/hardwired/tips.cfg:8 data/hardwired/tips.cfg:20
+#: data/hardwired/tips.cfg:24 data/hardwired/tips.cfg:32
+#: data/hardwired/tips.cfg:36 data/hardwired/tips.cfg:52
+#: data/hardwired/tips.cfg:56 data/hardwired/tips.cfg:60
+#: data/hardwired/tips.cfg:64 data/hardwired/tips.cfg:68
+#: data/hardwired/tips.cfg:80 data/hardwired/tips.cfg:84
+#: data/hardwired/tips.cfg:96 data/hardwired/tips.cfg:104
+#: data/hardwired/tips.cfg:108 data/hardwired/tips.cfg:116
+#: data/hardwired/tips.cfg:140 data/hardwired/tips.cfg:144
+#: data/hardwired/tips.cfg:148 data/hardwired/tips.cfg:156
+#: data/hardwired/tips.cfg:164 data/hardwired/tips.cfg:172
+#: data/hardwired/tips.cfg:176 data/hardwired/tips.cfg:180
+#: data/hardwired/tips.cfg:184 data/hardwired/tips.cfg:192
+#: data/hardwired/tips.cfg:196 data/hardwired/tips.cfg:200
+#: data/hardwired/tips.cfg:205
 msgid "- The Wesnoth Tactical Guide"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:15
+#: data/hardwired/tips.cfg:11
 msgid "Units with the 'intelligent' trait need fewer experience points to level up. Early in a campaign, try to give killing blows to these units so you can get some high-level troops sooner."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:16
+#: data/hardwired/tips.cfg:12
 msgid "- King Konrad, 536YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:19
+#: data/hardwired/tips.cfg:15
 msgid "The encircling tactic is very powerful, particularly against fast opponents. By placing two units on opposite sides of an enemy, their zones of control will restrict it to one hex of movement in any direction."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:20 data/hardwired/tips.cfg:128
+#: data/hardwired/tips.cfg:16 data/hardwired/tips.cfg:124
 msgid "- Memoirs of Gweddry, 627YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:23
+#: data/hardwired/tips.cfg:19
 msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you choose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:27
+#: data/hardwired/tips.cfg:23
 msgid "There are some helpful summary screens in the main menu: for instance, the 'Status Table' will let you know how your enemies are doing, and how you are doing in comparison."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:31
+#: data/hardwired/tips.cfg:27
 msgid "Units with the 'quick' trait move one extra hex per turn. This can be very important when moving through difficult terrain such as water or caves. It can make the difference between being able to move one hex or two."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:32 data/hardwired/tips.cfg:104
+#: data/hardwired/tips.cfg:28 data/hardwired/tips.cfg:100
 msgid "- High Lord Kalenz, 470YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:35
+#: data/hardwired/tips.cfg:31
 msgid "After you have played a few scenarios, read the 'Gameplay' section in the help screen carefully. Details become important as scenarios get harder!"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:39
+#: data/hardwired/tips.cfg:35
 msgid "It is usually better to start the next scenario in a campaign with lower-level units that are about to level up than with those same units at a higher level."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:43
+#: data/hardwired/tips.cfg:39
 msgid "On www.wesnoth.org you can find strategy guides, technical support, the history of Wesnoth, and much more."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:44
+#: data/hardwired/tips.cfg:40
 msgid "- The Wesnoth Community"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:47
+#: data/hardwired/tips.cfg:43
 msgid "Lawful units fight better by day, and chaotic units fight better at night. Neutral units are unaffected by the time of day."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:48
+#: data/hardwired/tips.cfg:44
 msgid "- Royal Compendium of Battle Terminology - Volume II, 212YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:51
+#: data/hardwired/tips.cfg:47
 msgid "An otherwise sound plan can fail if you attack at the wrong time of day."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:52 data/hardwired/tips.cfg:76
-#: data/hardwired/tips.cfg:124 data/hardwired/tips.cfg:132
+#: data/hardwired/tips.cfg:48 data/hardwired/tips.cfg:72
+#: data/hardwired/tips.cfg:120 data/hardwired/tips.cfg:128
 msgid "- Handbook of Tactical Analysis Volume I - Haldric II, 42YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:55
+#: data/hardwired/tips.cfg:51
 msgid "If you are playing with 'Shroud' or 'Fog of War' turned on, you won't know what you're facing. In this case, long-range scouting units are worth their cost. Try to choose scouts that can easily move across the surrounding terrain, because units see as far as they can move in one turn."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:59
+#: data/hardwired/tips.cfg:55
 msgid "There are six types of attacks: pierce, blade, impact, fire, cold, and arcane. Different units have weaknesses against different types of attacks. Right-click on a unit and select 'Unit Description' to see which attacks it is resistant to, and which will affect it the most."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:63
+#: data/hardwired/tips.cfg:59
 msgid "The terrain your units are occupying determines the chance your opponents have of hitting them in battle. The defensive rating for the currently selected unit in the currently selected terrain is displayed in the top right corner of the screen."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:67
+#: data/hardwired/tips.cfg:63
 msgid "Poisoned units will lose eight hitpoints every turn until they are one point from death. They will remain at death's door until the poison is removed. Healers can prevent a poisoned unit from deteriorating, but the poison will not be removed unless the unit regenerates, or begins a turn in a village or next to a unit with the 'Cures' ability."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:71
+#: data/hardwired/tips.cfg:67
 msgid "You can use units from a previous scenario by selecting 'Recall' in the 'Actions' menu. By recalling the same units over and over, you can build up a powerful and experienced army."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:75
+#: data/hardwired/tips.cfg:71
 msgid "Units of level one and higher have a 'Zone of Control' in each of the hexes next to them. If a unit moves into an enemy's zone of control, it may not move any further that turn. This means that units can have two empty hexes between them and still create a barrier to the enemy. However, skirmishers are skilled enough to ignore these zones."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:79
+#: data/hardwired/tips.cfg:75
 msgid "The chance to hit a unit usually depends on how well that unit can defend itself in the terrain in which it is standing. However, magical attacks always have a 70% chance to hit, and units with the 'marksman' ability will always have at least 60% chance to hit when attacking on their turn."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:80
+#: data/hardwired/tips.cfg:76
 msgid "- Handbook of Tactical Analysis Volume II - Haldric II, 43YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:83
+#: data/hardwired/tips.cfg:79
 msgid "Units stationed in villages will either heal eight hitpoints at the beginning of their turn, or will recover from poisoning."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:87
+#: data/hardwired/tips.cfg:83
 msgid "Don't move an injured unit if you don't have to - let it rest. If a unit does not move or attack, it will recover two hitpoints at the beginning of its next turn."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:91
+#: data/hardwired/tips.cfg:87
 msgid "Foot units tend to defend better in villages and castles than in other terrain types, while most mounted units do not gain any defensive advantages from villages or castles."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:92 data/hardwired/tips.cfg:172
+#: data/hardwired/tips.cfg:88 data/hardwired/tips.cfg:168
 msgid "- Sir Kaylan, 498YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:95
+#: data/hardwired/tips.cfg:91
 msgid "Horse-based units are generally resistant to attacks with bladed or impact weapons, but are vulnerable to attacks with piercing weapons, including bows and spears."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:96
+#: data/hardwired/tips.cfg:92
 msgid "- Sir Kaylan, 502YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:99
+#: data/hardwired/tips.cfg:95
 msgid "Inflicting the killing blow on an enemy unit is the best way to gain experience. Units killing an enemy will gain eight experience points for every level of the unit they kill, or four experience points for a zero-level opponent."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:103
+#: data/hardwired/tips.cfg:99
 msgid "Elvish units move and fight well in forest. Dwarvish units move and fight well in hills, mountains and caves."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:107
+#: data/hardwired/tips.cfg:103
 msgid "Patience is often key. Rather than attacking in bad conditions or with few troops, wait for better conditions and then attack."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:111
+#: data/hardwired/tips.cfg:107
 msgid "If you are attacked from several directions, it may be a good idea to send expendable units in some directions to delay enemy units."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:115
+#: data/hardwired/tips.cfg:111
 msgid "Do not be afraid to retreat and regroup; it is often the key to victory."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:116
+#: data/hardwired/tips.cfg:112
 msgid "- Meneldur, 123YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:119
+#: data/hardwired/tips.cfg:115
 msgid "In most campaigns you will receive a gold bonus for finishing early, depending on the number of villages on the map and the number of turns you finish early. You will always earn more gold this way than through capturing villages and waiting for turns to run out."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:123
+#: data/hardwired/tips.cfg:119
 msgid "Your leader can recruit or recall units from any keep inside a castle, not just the keep they start on. You can capture a keep from an enemy and recruit from there. Also, some of your allies may be willing to make room for you on their keep so you can recruit there."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:127
+#: data/hardwired/tips.cfg:123
 msgid "Skeletons are resistant to piercing, bladed and cold-based attacks but are vulnerable to impact, fire, and arcane attacks."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:131
+#: data/hardwired/tips.cfg:127
 msgid "Units with the 'leadership' ability help lower-level adjacent units on the same side fight better. Use leaders to help your other units level up faster."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:135
+#: data/hardwired/tips.cfg:131
 msgid "Try to avoid moving next to unoccupied villages. An enemy unit may move into the village and attack you, while enjoying the defense and healing of the village."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:139
+#: data/hardwired/tips.cfg:135
 msgid "Use lines of units to screen injured units to let them recover."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:140
+#: data/hardwired/tips.cfg:136
 msgid "- Princess Li'sar, 515YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:143
+#: data/hardwired/tips.cfg:139
 msgid "Read the hotkeys list in the preferences menu."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:147
+#: data/hardwired/tips.cfg:143
 msgid "If you move a unit, but don't attack or discover any additional information, you can undo your move by pressing 'u'."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:151
+#: data/hardwired/tips.cfg:147
 msgid "You can see how far enemy units can move by moving the mouse cursor over them."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:155
+#: data/hardwired/tips.cfg:151
 msgid "Use healers to support your attacks - they will win you battles without needing to attack anything themselves."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:156
+#: data/hardwired/tips.cfg:152
 msgid "- The Scroll of Chantal, 516YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:159
+#: data/hardwired/tips.cfg:155
 msgid "The 'slow' attack ability makes enemy units move slower and halves the damage they do on all attacks until they end a turn."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:163
+#: data/hardwired/tips.cfg:159
 msgid "Arcane attacks are very powerful against undead."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:164
+#: data/hardwired/tips.cfg:160
 msgid "- Great Sage Dacyn, 626YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:167
+#: data/hardwired/tips.cfg:163
 msgid "Units are healed when they advance a level. Used wisely, this can turn a fight."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:171
+#: data/hardwired/tips.cfg:167
 msgid "Charging units are best used against enemies they can kill with a single blow."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:175
+#: data/hardwired/tips.cfg:171
 msgid "Instead of leveling up, high-level units gain an 'After Maximum Level Advancement' (AMLA), which usually increases the unit's maximum hitpoints by three and full-heals them. This is much less than the normal benefits gained from advancing a level, so it is generally more useful to try to advance your lower-level units instead."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:179
+#: data/hardwired/tips.cfg:175
 msgid "On maps where 'Shroud' or 'Fog of War' has been enabled, a unit's sightlines are limited by its maximum movement. Remember this when deciding what unit is best to scout specific types of terrain."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:183
+#: data/hardwired/tips.cfg:179
 msgid "Nearly every icon and word in Wesnoth's playing screen has a tool-tip. Place your mouse pointer over one to get an explanation or description."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:187
+#: data/hardwired/tips.cfg:183
 msgid "You can send the Wesnoth Project an anonymous summary of your progress using the 'Help Wesnoth' button (indicated by the envelope icon near the lower-right-hand corner of the game main screen). This information is vital so we can adjust campaign difficulty."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:191
+#: data/hardwired/tips.cfg:187
 msgid "To advance low-level units quickly, team them with a veteran and use the veteran to damage a joint target heavily enough for the junior partner to get in the killing blow."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:192
+#: data/hardwired/tips.cfg:188
 msgid "- Queen Li'sar, 528YW"
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:195
+#: data/hardwired/tips.cfg:191
 msgid "You cannot undo a move that reveals any fog or shroud. Toggle the 'Delay Shroud Updates' option on when you need to move units while retaining the ability to undo."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:199
+#: data/hardwired/tips.cfg:195
 msgid "If an enemy benefits more from a rare terrain type than you do, occupying that terrain will deprive them of its benefits."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:203
+#: data/hardwired/tips.cfg:199
 msgid "Few units have good defenses in water; a line of attackers along the edge of a river can inflict heavy casualties. Elves can use the edge of a forest in a similar manner, and dwarves can do the same with mountains."
 msgstr ""
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:208
+#: data/hardwired/tips.cfg:204
 msgid "In many campaign scenarios, you may issue simple instructions for your computer-controlled allies using the right-click context menu."
 msgstr ""
 
@@ -4879,7 +4874,7 @@ msgstr ""
 #. [label]: id=label-hp
 #. +> stable
 #: data/themes/default.cfg:212 data/themes/dfool.cfg:237
-#: data/themes/experimental.cfg:181 src/menu_events.cpp:208 src/unit.cpp:2331
+#: data/themes/experimental.cfg:181 src/menu_events.cpp:209 src/unit.cpp:2331
 #: src/unit.cpp:2487
 msgid "HP"
 msgstr ""
@@ -4888,8 +4883,8 @@ msgstr ""
 #. [label]: id=label-xp
 #. +> stable
 #: data/themes/default.cfg:221 data/themes/dfool.cfg:247
-#: data/themes/experimental.cfg:190 src/menu_events.cpp:210
-#: src/menu_events.cpp:844
+#: data/themes/experimental.cfg:190 src/menu_events.cpp:211
+#: src/menu_events.cpp:845
 msgid "XP"
 msgstr ""
 
@@ -5049,8 +5044,8 @@ msgid "Skip animation"
 msgstr ""
 
 #. +> stable
-#: src/about.cpp:198 src/help.cpp:3143 src/menu_events.cpp:317
-#: src/menu_events.cpp:344 src/statistics_dialog.cpp:113
+#: src/about.cpp:198 src/help.cpp:3143 src/menu_events.cpp:318
+#: src/menu_events.cpp:345 src/statistics_dialog.cpp:113
 msgid "Close"
 msgstr ""
 
@@ -5250,7 +5245,7 @@ msgstr ""
 
 #. +> stable
 #: src/addon_management.cpp:532 src/addon_management.cpp:606
-#: src/multiplayer.cpp:216 src/multiplayer.cpp:275 src/multiplayer_ui.cpp:80
+#: src/multiplayer.cpp:215 src/multiplayer.cpp:274 src/multiplayer_ui.cpp:80
 msgid "Connection timed out"
 msgstr ""
 
@@ -5324,7 +5319,7 @@ msgstr ""
 
 #. +> stable
 #: src/addon_management.cpp:813 src/addon_management.cpp:1011
-#: src/dialogs.cpp:571 src/menu_events.cpp:205 src/menu_events.cpp:842
+#: src/dialogs.cpp:571 src/menu_events.cpp:206 src/menu_events.cpp:843
 msgid "Name"
 msgstr ""
 
@@ -5411,7 +5406,7 @@ msgid "An error occurred while communicating with the server."
 msgstr ""
 
 #. +> stable
-#: src/addon_management.cpp:1011 src/titlescreen.cpp:349
+#: src/addon_management.cpp:1011 src/titlescreen.cpp:339
 msgid "Version"
 msgstr ""
 
@@ -5421,8 +5416,8 @@ msgid "Downloads"
 msgstr ""
 
 #. +> stable
-#: src/addon_management.cpp:1012 src/help.cpp:1462 src/menu_events.cpp:204
-#: src/menu_events.cpp:841 src/menu_events.cpp:1438
+#: src/addon_management.cpp:1012 src/help.cpp:1462 src/menu_events.cpp:205
+#: src/menu_events.cpp:842 src/menu_events.cpp:1437
 msgid "Type"
 msgstr ""
 
@@ -5452,8 +5447,8 @@ msgid "Choose the add-on to download."
 msgstr ""
 
 #. +> stable
-#: src/addon_management.cpp:1124 src/dialogs.cpp:596 src/menu_events.cpp:915
-#: src/menu_events.cpp:1474
+#: src/addon_management.cpp:1124 src/dialogs.cpp:596 src/menu_events.cpp:916
+#: src/menu_events.cpp:1473
 msgid "Filter: "
 msgstr ""
 
@@ -5498,7 +5493,7 @@ msgid "Are you sure you want to remove the add-on '$addon|'?"
 msgstr ""
 
 #. +> stable
-#: src/addon_management.cpp:1220 src/multiplayer.cpp:228
+#: src/addon_management.cpp:1220 src/multiplayer.cpp:227
 msgid "Confirm"
 msgstr ""
 
@@ -5754,119 +5749,119 @@ msgid "Moves: "
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:577 src/game.cpp:1311
+#: src/game.cpp:573 src/game.cpp:1305
 msgid "The Battle for Wesnoth"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:908 src/game.cpp:916
+#: src/game.cpp:902 src/game.cpp:910
 msgid "The file you have tried to load is corrupt"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:911 src/game.cpp:919 src/savegame.cpp:534
+#: src/game.cpp:905 src/game.cpp:913 src/savegame.cpp:534
 msgid "The file you have tried to load is corrupt: '"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:923
+#: src/game.cpp:917
 msgid "File I/O Error while reading the game"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1018
+#: src/game.cpp:1012
 msgid "No campaigns are available.\n"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1056
+#: src/game.cpp:1050
 msgid "Difficulty"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1057
+#: src/game.cpp:1051
 msgid "Select difficulty level:"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1192
+#: src/game.cpp:1186
 msgid "Do you really want to start the server?"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1193
+#: src/game.cpp:1187
 msgid "The server will run in a background process until all users have disconnected."
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1197
+#: src/game.cpp:1191
 msgid "Don't show again"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1268
+#: src/game.cpp:1262
 msgid "Error while starting server: "
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1270 src/playcampaign.cpp:105 src/playcampaign.cpp:392
+#: src/game.cpp:1264 src/playcampaign.cpp:104 src/playcampaign.cpp:391
 msgid "The game could not be loaded: "
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1272 src/playcampaign.cpp:107 src/playcampaign.cpp:395
+#: src/game.cpp:1266 src/playcampaign.cpp:106 src/playcampaign.cpp:394
 msgid "Error while playing the game: "
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1290 src/playcampaign.cpp:109 src/playcampaign.cpp:398
+#: src/game.cpp:1284 src/playcampaign.cpp:108 src/playcampaign.cpp:397
 msgid "The game map could not be loaded: "
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1440
+#: src/game.cpp:1426
 msgid "The following add-on had errors and could not be loaded:"
 msgid_plural "The following add-ons had errors and could not be loaded:"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> stable
-#: src/game.cpp:1447
+#: src/game.cpp:1433
 msgid "ERROR DETAILS:"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1467
+#: src/game.cpp:1453
 msgid "Error loading game configuration files: '"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1468
+#: src/game.cpp:1454
 msgid "' (The game will now exit)"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1477
+#: src/game.cpp:1463
 msgid "Loading data files"
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1908
+#: src/game.cpp:1889
 msgid "Loading game configuration."
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1914
+#: src/game.cpp:1895
 msgid "Re-initialize fonts for the current language."
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1922
+#: src/game.cpp:1903
 msgid "Searching for installed add-ons."
 msgstr ""
 
 #. +> stable
-#: src/game.cpp:1931
+#: src/game.cpp:1912
 msgid "Loading title screen."
 msgstr ""
 
@@ -6281,7 +6276,7 @@ msgid "<header>text='Units of this race'</header>"
 msgstr ""
 
 #. +> stable
-#: src/help.cpp:2683 src/menu_events.cpp:569
+#: src/help.cpp:2683 src/menu_events.cpp:570
 msgid " < Back"
 msgstr ""
 
@@ -6321,7 +6316,7 @@ msgid "System default language"
 msgstr ""
 
 #. +> stable
-#: src/leader_list.cpp:137 src/menu_events.cpp:1464
+#: src/leader_list.cpp:137 src/menu_events.cpp:1463
 #: src/multiplayer_connect.cpp:221 src/multiplayer_connect.cpp:265
 msgctxt "gender"
 msgid "Random"
@@ -6375,128 +6370,128 @@ msgid "Random maps with an odd width aren't supported."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:90 src/menu_events.cpp:93 src/menu_events.cpp:97
+#: src/menu_events.cpp:91 src/menu_events.cpp:94 src/menu_events.cpp:98
 msgid "Do you really want to dismiss him?"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:90
+#: src/menu_events.cpp:91
 msgid "My lord, this unit is loyal and requires no upkeep! "
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:91 src/menu_events.cpp:94 src/menu_events.cpp:98
+#: src/menu_events.cpp:92 src/menu_events.cpp:95 src/menu_events.cpp:99
 msgid "Do you really want to dismiss her?"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:93
+#: src/menu_events.cpp:94
 msgid "My lord, this unit is an experienced one, having advanced levels! "
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:97
+#: src/menu_events.cpp:98
 msgid "My lord, this unit is close to advancing a level! "
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:195
+#: src/menu_events.cpp:196
 msgid "Statistics"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:206
+#: src/menu_events.cpp:207
 msgid "Moves"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:207
+#: src/menu_events.cpp:208
 msgid "Status"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:209 src/menu_events.cpp:843
+#: src/menu_events.cpp:210 src/menu_events.cpp:844
 msgctxt "Level"
 msgid "Lvl."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:211
+#: src/menu_events.cpp:212
 msgctxt "unit list"
 msgid "Traits"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:309
+#: src/menu_events.cpp:310
 msgid "Unit List"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:315 src/menu_events.cpp:337
+#: src/menu_events.cpp:316 src/menu_events.cpp:338
 msgid "Scroll To"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:369
+#: src/menu_events.cpp:370
 msgid "Leader"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:370 src/multiplayer_connect.cpp:1017
+#: src/menu_events.cpp:371 src/multiplayer_connect.cpp:1017
 msgid "Team"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:371 src/multiplayer_connect.cpp:1028
+#: src/menu_events.cpp:372 src/multiplayer_connect.cpp:1028
 msgid "Gold"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:372
+#: src/menu_events.cpp:373
 msgid "Villages"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:373
+#: src/menu_events.cpp:374
 msgctxt "status"
 msgid "Units"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:374
+#: src/menu_events.cpp:375
 msgid "Upkeep"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:375 src/multiplayer_connect.cpp:1029
+#: src/menu_events.cpp:376 src/multiplayer_connect.cpp:1029
 #: src/multiplayer_wait.cpp:507
 msgid "Income"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:476
+#: src/menu_events.cpp:477
 msgid "Current Status"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:477
+#: src/menu_events.cpp:478
 msgid "More >"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:495
+#: src/menu_events.cpp:496
 msgctxt "scenario settings"
 msgid "Leader"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:497
+#: src/menu_events.cpp:498
 msgctxt "scenario settings"
 msgid "Side"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:498
+#: src/menu_events.cpp:499
 msgctxt "scenario settings"
 msgid ""
 "Start\n"
@@ -6504,7 +6499,7 @@ msgid ""
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:499
+#: src/menu_events.cpp:500
 msgctxt "scenario settings"
 msgid ""
 "Base\n"
@@ -6512,7 +6507,7 @@ msgid ""
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:500
+#: src/menu_events.cpp:501
 msgctxt "scenario settings"
 msgid ""
 "Gold Per\n"
@@ -6520,74 +6515,74 @@ msgid ""
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:501
+#: src/menu_events.cpp:502
 msgctxt "scenario settings"
 msgid "Fog"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:502
+#: src/menu_events.cpp:503
 msgctxt "scenario settings"
 msgid "Shroud"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:549 src/menu_events.cpp:550
+#: src/menu_events.cpp:550 src/menu_events.cpp:551
 msgid "no"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:549 src/menu_events.cpp:550
+#: src/menu_events.cpp:550 src/menu_events.cpp:551
 msgid "yes"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:566
+#: src/menu_events.cpp:567
 msgid "Scenario Settings"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:588
+#: src/menu_events.cpp:589
 msgid "Save the Map As"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:593
+#: src/menu_events.cpp:594
 msgid "The map already exists. Do you want to overwrite it?"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:605
+#: src/menu_events.cpp:606
 msgid "Map saved."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:609
+#: src/menu_events.cpp:610
 msgid "Could not save the map: $msg"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:624
+#: src/menu_events.cpp:625
 msgid "Chat Log"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:634
+#: src/menu_events.cpp:635
 msgid "Message:"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:635
+#: src/menu_events.cpp:636
 msgid "Send to allies only"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:635
+#: src/menu_events.cpp:636
 msgid "Send to observers only"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:698
+#: src/menu_events.cpp:699
 msgctxt "unit"
 msgid "Gold"
 msgid_plural "Gold"
@@ -6595,356 +6590,356 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> stable
-#: src/menu_events.cpp:705
+#: src/menu_events.cpp:706
 msgid "You have no units available to recruit."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:717
+#: src/menu_events.cpp:718
 msgid "Recruit"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:718 src/menu_events.cpp:910
+#: src/menu_events.cpp:719 src/menu_events.cpp:911
 msgid "Select unit:"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:764
+#: src/menu_events.cpp:765
 msgid "You don't have enough gold to recruit that unit"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:810
+#: src/menu_events.cpp:811
 msgid "You are separated from your soldiers and may not recall them"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:833
+#: src/menu_events.cpp:834
 msgid ""
 "There are no troops available to recall\n"
 "(You must have veteran survivors from a previous scenario)"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:909
+#: src/menu_events.cpp:910
 msgid "Recall"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:919
+#: src/menu_events.cpp:920
 msgid "Dismiss Unit"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:940
+#: src/menu_events.cpp:941
 msgid "You must have at least 1 gold piece to recall a unit"
 msgid_plural "You must have at least $cost gold pieces to recall a unit"
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> stable
-#: src/menu_events.cpp:1306
+#: src/menu_events.cpp:1305
 msgid "You have not started your turn yet. Do you really want to end your turn?"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1314 src/menu_events.cpp:1319
+#: src/menu_events.cpp:1313 src/menu_events.cpp:1318
 msgid "Some units have movement left. Do you really want to end your turn?"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1354
+#: src/menu_events.cpp:1353
 msgid "Rename Unit"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1437
+#: src/menu_events.cpp:1436
 msgid "Race"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1461
+#: src/menu_events.cpp:1460
 msgid "Create Unit (Debug!)"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1464 src/multiplayer_wait.cpp:127
+#: src/menu_events.cpp:1463 src/multiplayer_wait.cpp:127
 msgid "Gender: "
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1551
+#: src/menu_events.cpp:1550
 msgid "Place Label"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1553
+#: src/menu_events.cpp:1552
 msgid "Label: "
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1554
+#: src/menu_events.cpp:1553
 msgid "Team only"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1757
+#: src/menu_events.cpp:1756
 msgid "Search"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1938
+#: src/menu_events.cpp:1937
 msgid "This command is currently unavailable."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1944
+#: src/menu_events.cpp:1943
 msgid "Unknown command '$command', try $help_command for a list of available commands."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1952
+#: src/menu_events.cpp:1951
 msgid "Available commands list and command-specific help. Use \"help all\" to include currently unavailable commands."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1954
+#: src/menu_events.cpp:1953
 msgctxt "do not translate the 'all'"
 msgid "[all|<command>]"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:1998
+#: src/menu_events.cpp:1997
 msgid "Error:"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2004
+#: src/menu_events.cpp:2003
 msgid "Missing argument $arg_id"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2052
+#: src/menu_events.cpp:2051
 msgid ""
 "Available commands $flags_description:\n"
 "$list_of_commands"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2052 src/menu_events.cpp:2053 src/menu_events.cpp:2076
+#: src/menu_events.cpp:2051 src/menu_events.cpp:2052 src/menu_events.cpp:2075
 msgid "help"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2053
+#: src/menu_events.cpp:2052
 msgid "Type $help_command <command> for more info."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2064
+#: src/menu_events.cpp:2063
 msgid " No help available."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2069
+#: src/menu_events.cpp:2068
 msgid "Usage:"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2074
+#: src/menu_events.cpp:2073
 msgid "aliases:"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2200
+#: src/menu_events.cpp:2199
 msgid "(A) - admin command"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2207 src/menu_events.cpp:2405
+#: src/menu_events.cpp:2206 src/menu_events.cpp:2405
 msgid "(admin only)"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2227
+#: src/menu_events.cpp:2226
 msgid "Send a query to the server. Without arguments the server should tell you the available commands."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2231
+#: src/menu_events.cpp:2230
 msgid "Ban and kick a player or observer. If he is not in the game but on the server he will only be banned."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2232 src/menu_events.cpp:2235 src/menu_events.cpp:2237
-#: src/menu_events.cpp:2239 src/menu_events.cpp:2241 src/menu_events.cpp:2266
-#: src/menu_events.cpp:2268 src/menu_events.cpp:2270 src/menu_events.cpp:2284
+#: src/menu_events.cpp:2231 src/menu_events.cpp:2234 src/menu_events.cpp:2236
+#: src/menu_events.cpp:2238 src/menu_events.cpp:2240 src/menu_events.cpp:2265
+#: src/menu_events.cpp:2267 src/menu_events.cpp:2269 src/menu_events.cpp:2283
 msgid "<nick>"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2234
+#: src/menu_events.cpp:2233
 msgid "Unban a user. He does not have to be in the game but on the server."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2237
+#: src/menu_events.cpp:2236
 msgid "Kick a player or observer."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2239
+#: src/menu_events.cpp:2238
 msgid "Mute an observer. Without an argument displays the mute status."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2241
+#: src/menu_events.cpp:2240
 msgid "Unmute an observer. Without an argument unmutes everyone."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2243
+#: src/menu_events.cpp:2242
 msgid "Mute/Unmute all observers. (toggles)"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2253
+#: src/menu_events.cpp:2252
 msgid "Send a message to the server admins currently online"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2255
+#: src/menu_events.cpp:2254
 msgid "<message>"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2255
+#: src/menu_events.cpp:2254
 msgid "Send an emotion or personal action in chat."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2258
+#: src/menu_events.cpp:2257
 msgid "Sends a private message. You can't send messages to players that don't control a side in a running game you are in."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2260
+#: src/menu_events.cpp:2259
 msgid "<nick> <message>"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2264
+#: src/menu_events.cpp:2263
 msgid "<level> <domain>"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2264
+#: src/menu_events.cpp:2263
 msgid "Change the log level of a log domain."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2266
+#: src/menu_events.cpp:2265
 msgid "Add a nick to your ignores list."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2268
+#: src/menu_events.cpp:2267
 msgid "Add a nick to your friends list."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2270
+#: src/menu_events.cpp:2269
 msgid "Remove a nick from your ignores or friends list."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2272
+#: src/menu_events.cpp:2271
 msgid "Show your ignores and friends list."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2275
+#: src/menu_events.cpp:2274
 msgid "Display version information."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2277
+#: src/menu_events.cpp:2276
 msgid "<password> <email (optional)>"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2277
+#: src/menu_events.cpp:2276
 msgid "Register your nick"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2279
+#: src/menu_events.cpp:2278
 msgid "Drop your nick."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2281
+#: src/menu_events.cpp:2280
 msgid "Update details for your nick. For possible details see '/details'."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2282
+#: src/menu_events.cpp:2281
 msgid "<detail> <value>"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2284
+#: src/menu_events.cpp:2283
 msgid "Request information about a nick."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2286
+#: src/menu_events.cpp:2285
 msgid "Request a list of details you can set for your registered nick."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2288 src/menu_events.cpp:2291 src/menu_events.cpp:2293
+#: src/menu_events.cpp:2287 src/menu_events.cpp:2290 src/menu_events.cpp:2292
 msgid "<room>"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2288
+#: src/menu_events.cpp:2287
 msgid "Join a room."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2291
+#: src/menu_events.cpp:2290
 msgid "Part a room."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2293
+#: src/menu_events.cpp:2292
 msgid "List room members."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2295
+#: src/menu_events.cpp:2294
 msgid "List available rooms."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2297
+#: src/menu_events.cpp:2296
 msgid "<room> <msg>"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2297
+#: src/menu_events.cpp:2296
 msgid "Room message."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2299
+#: src/menu_events.cpp:2298
 msgid "<room> <type> [value]"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2299
+#: src/menu_events.cpp:2298
 msgid "Room query."
 msgstr ""
 
@@ -7055,290 +7050,310 @@ msgid "Turn debug mode off."
 msgstr ""
 
 #. +> stable
+#: src/menu_events.cpp:2464 src/menu_events.cpp:2468
+msgid "<command>[;<command>...]"
+msgstr ""
+
+#. +> stable
 #: src/menu_events.cpp:2464
 msgid "Execute a Lua statement."
 msgstr ""
 
 #. +> stable
 #: src/menu_events.cpp:2466
-msgid "<command>[;<command>...]"
-msgstr ""
-
-#. +> stable
-#: src/menu_events.cpp:2466
-msgid "Set the command used by the custom command hotkey"
+msgid "Grant higher privileges to Lua scripts."
 msgstr ""
 
 #. +> stable
 #: src/menu_events.cpp:2468
+msgid "Set the command used by the custom command hotkey"
+msgstr ""
+
+#. +> stable
+#: src/menu_events.cpp:2470
 msgid "Launch the gamestate inspector"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2470
+#: src/menu_events.cpp:2472
 msgid "<name>[=<command>]"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2470
+#: src/menu_events.cpp:2472
 msgid "Set or show alias to a command"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2472
+#: src/menu_events.cpp:2474
 msgid "<var>=<value>"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2472
+#: src/menu_events.cpp:2474
 msgid "Set a scenario variable."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2474
+#: src/menu_events.cpp:2476
 msgid "<var>"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2474
+#: src/menu_events.cpp:2476
 msgid "Show a scenario variable."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2476
+#: src/menu_events.cpp:2478
 msgid "Modify a unit variable. (Only top level keys are supported.)"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2483
+#: src/menu_events.cpp:2485
 msgid "Discover all units in help."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2488
+#: src/menu_events.cpp:2490
 msgid "Create a unit."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2490
+#: src/menu_events.cpp:2492
 msgid "Toggle fog for the current player."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2492
+#: src/menu_events.cpp:2494
 msgid "Toggle shroud for the current player."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2494
+#: src/menu_events.cpp:2496
 msgid "Give gold to the current player."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2496
+#: src/menu_events.cpp:2498
 msgid "Fire a game event."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2499
+#: src/menu_events.cpp:2501
 msgid "Toggle overlaying of x,y coordinates on hexes."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2502
+#: src/menu_events.cpp:2504
 msgid "Toggle overlaying of terrain codes on hexes."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2546
+#: src/menu_events.cpp:2548
 msgid "Unknown debug level: '$level'."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2548 src/menu_events.cpp:2557
+#: src/menu_events.cpp:2550 src/menu_events.cpp:2559
 msgid "error"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2555
+#: src/menu_events.cpp:2557
 msgid "Unknown debug domain: '$domain'."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2564
+#: src/menu_events.cpp:2566
 msgid "Switched domain: '$domain' to level: '$level'."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2635
+#: src/menu_events.cpp:2637
 msgid "whisper to $receiver"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2642
+#: src/menu_events.cpp:2644
 msgid "whisper: $sender"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2738 src/menu_events.cpp:2757
+#: src/menu_events.cpp:2740 src/menu_events.cpp:2759
 #: src/multiplayer_connect.cpp:699
 msgid "(empty)"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2738 src/menu_events.cpp:2744 src/menu_events.cpp:2794
+#: src/menu_events.cpp:2740 src/menu_events.cpp:2746 src/menu_events.cpp:2796
 msgid "ignores list"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2744
+#: src/menu_events.cpp:2746
 msgid "Added to ignore list: $nick"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2747 src/menu_events.cpp:2766
+#: src/menu_events.cpp:2749 src/menu_events.cpp:2768
 msgid "Invalid username: $nick"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2757 src/menu_events.cpp:2764 src/menu_events.cpp:2790
+#: src/menu_events.cpp:2759 src/menu_events.cpp:2766 src/menu_events.cpp:2792
 msgid "friends list"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2764
+#: src/menu_events.cpp:2766
 msgid "Added to friends list: $nick"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2780
+#: src/menu_events.cpp:2782
 msgid "Removed from list: $nick"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2780 src/menu_events.cpp:2798
+#: src/menu_events.cpp:2782 src/menu_events.cpp:2800
 msgid "friends and ignores list"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2798
+#: src/menu_events.cpp:2800
 msgid "There are no players on your friends or ignore list."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2803
+#: src/menu_events.cpp:2805
 msgid "version"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2819
+#: src/menu_events.cpp:2821
 msgid "registering with password *** and no email address"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2823
+#: src/menu_events.cpp:2825
 msgid "registering with password *** and email address $email"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2826 src/menu_events.cpp:2837 src/menu_events.cpp:2855
-#: src/menu_events.cpp:2869
+#: src/menu_events.cpp:2828 src/menu_events.cpp:2839 src/menu_events.cpp:2857
+#: src/menu_events.cpp:2871
 msgid "nick registration"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2837
+#: src/menu_events.cpp:2839
 msgid "dropping your username"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2855
+#: src/menu_events.cpp:2857
 msgid "setting $var to $value"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2869
+#: src/menu_events.cpp:2871
 msgid "requesting information for user $nick"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2981
+#: src/menu_events.cpp:2983
 msgid "Couldn't find label or unit containing the string '$search'."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3010
+#: src/menu_events.cpp:3012
 msgid "Can't droid invalid side: '$side'."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3015
+#: src/menu_events.cpp:3017
 msgid "Can't droid networked side: '$side'."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3052
+#: src/menu_events.cpp:3054
 msgid "Can't change control of invalid side: '$side'."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3058
+#: src/menu_events.cpp:3060
 msgid "Can't change control of out-of-bounds side: '$side'."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3149
+#: src/menu_events.cpp:3151
 msgid "Choose Scenario (Debug!)"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3170
+#: src/menu_events.cpp:3172
 msgid "Debug mode activated!"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3173
+#: src/menu_events.cpp:3175
 msgid "Debug mode not available in network games"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3178
+#: src/menu_events.cpp:3180
 msgid "Debug mode deactivated!"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3224
+#: src/menu_events.cpp:3191
+msgid "Unsafe Lua scripts."
+msgstr ""
+
+#. +> stable
+#: src/menu_events.cpp:3192
+msgid "You are about to open a security breach in Wesnoth. Are you sure you want to continue? If you have downloaded add-ons, do not click 'ok'! They would instantly take over your computer. You have been warned."
+msgstr ""
+
+#. +> stable
+#: src/menu_events.cpp:3195
+msgid "Unsafe mode enabled!"
+msgstr ""
+
+#. +> stable
+#: src/menu_events.cpp:3238
 msgid "Variable not found"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3262
+#: src/menu_events.cpp:3276
 msgid "Invalid alignment: '$alignment', needs to be one of lawful, neutral or chaotic."
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3319
+#: src/menu_events.cpp:3333
 msgid "Invalid unit type"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3332
+#: src/menu_events.cpp:3346
 msgid "Invalid location"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3368
+#: src/menu_events.cpp:3382
 msgid "ai"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3378 src/menu_events.cpp:3393
+#: src/menu_events.cpp:3392 src/menu_events.cpp:3407
 msgctxt "prompt"
 msgid "Command:"
 msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:3413
+#: src/menu_events.cpp:3427
 msgid "User-Command#3"
 msgstr ""
 
@@ -7353,82 +7368,82 @@ msgid "Choose weapon:"
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:138 src/multiplayer.cpp:175
+#: src/multiplayer.cpp:137 src/multiplayer.cpp:174
 msgid "Connecting to Server..."
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:148
+#: src/multiplayer.cpp:147
 msgid "Reading from Server..."
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:158
+#: src/multiplayer.cpp:157
 msgid "The server requires version '$version1' while you are using version '$version2'"
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:169
+#: src/multiplayer.cpp:168
 msgid "Server-side redirect loop"
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:257
+#: src/multiplayer.cpp:256
 msgid "Bad data received from server"
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:298
+#: src/multiplayer.cpp:297
 msgid "You must login first."
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:300
+#: src/multiplayer.cpp:299
 msgid "The nick '$nick' is already taken."
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:302
+#: src/multiplayer.cpp:301
 msgid "The nick '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed."
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:306
+#: src/multiplayer.cpp:305
 msgid "The nick '$nick' is too long. Nicks must be 18 characters or less."
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:309
+#: src/multiplayer.cpp:308
 msgid "The nick '$nick' is reserved and cannot be used by players."
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:311
+#: src/multiplayer.cpp:310
 msgid "The nick '$nick' is not registered on this server."
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:312
+#: src/multiplayer.cpp:311
 msgid " This server disallows unregistered nicks."
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:314 src/multiplayer.cpp:316
+#: src/multiplayer.cpp:313 src/multiplayer.cpp:315
 msgid "The nick '$nick' is registered on this server."
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:317
+#: src/multiplayer.cpp:316
 msgid "WARNING: There is already a client using this nick, logging in will cause that client to be kicked!"
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:320
+#: src/multiplayer.cpp:319
 msgid "Error in the login procedure (the server had no seed for your connection)."
 msgstr ""
 
 #. +> stable
-#: src/multiplayer.cpp:323
+#: src/multiplayer.cpp:322
 msgid "The password you provided was incorrect."
 msgstr ""
 
@@ -8046,62 +8061,62 @@ msgid "Back to turn "
 msgstr ""
 
 #. +> stable
-#: src/playcampaign.cpp:133 src/playcampaign.cpp:171
+#: src/playcampaign.cpp:132 src/playcampaign.cpp:170
 msgid "Defeat"
 msgstr ""
 
 #. +> stable
-#: src/playcampaign.cpp:134 src/playcampaign.cpp:172
+#: src/playcampaign.cpp:133 src/playcampaign.cpp:171
 msgid "You have been defeated!"
 msgstr ""
 
 #. +> stable
-#: src/playcampaign.cpp:402
+#: src/playcampaign.cpp:401
 msgid "Error while reading the WML: "
 msgstr ""
 
 #. +> stable
-#: src/playcampaign.cpp:438
+#: src/playcampaign.cpp:437
 msgid "This scenario has ended. Do you want to continue the campaign?"
 msgstr ""
 
 #. +> stable
-#: src/playcampaign.cpp:464
+#: src/playcampaign.cpp:463
 msgid "Downloading next scenario..."
 msgstr ""
 
 #. +> stable
-#: src/playcampaign.cpp:612
+#: src/playcampaign.cpp:611
 msgid "Do you want to save your game?"
 msgstr ""
 
 #. +> stable
-#: src/playcampaign.cpp:631
+#: src/playcampaign.cpp:630
 msgid "Unknown scenario: '$scenario|'"
 msgstr ""
 
 #. +> stable
-#: src/playmp_controller.cpp:94
+#: src/playmp_controller.cpp:93
 msgid "$name has taken control"
 msgstr ""
 
 #. +> stable
-#: src/playmp_controller.cpp:96
+#: src/playmp_controller.cpp:95
 msgid "Turn changed"
 msgstr ""
 
 #. +> stable
-#: src/playmp_controller.cpp:228
+#: src/playmp_controller.cpp:227
 msgid "Undoing moves not yet transmitted to the server."
 msgstr ""
 
 #. +> stable
-#: src/playmp_controller.cpp:401
+#: src/playmp_controller.cpp:400
 msgid "Waiting for next scenario..."
 msgstr ""
 
 #. +> stable
-#: src/playmp_controller.cpp:522
+#: src/playmp_controller.cpp:521
 msgid ""
 "The game is out of sync, and cannot continue. There are a number of reasons this could happen: this can occur if you or another player have modified their game settings. This may mean one of the players is attempting to cheat. It could also be due to a bug in the game, but this is less likely.\n"
 "\n"
@@ -8109,105 +8124,105 @@ msgid ""
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:213
+#: src/playsingle_controller.cpp:212
 msgid "Remaining gold: "
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:217
+#: src/playsingle_controller.cpp:216
 msgid "Early finish bonus: "
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:219
+#: src/playsingle_controller.cpp:218
 msgid "per turn"
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:220
+#: src/playsingle_controller.cpp:219
 msgid "Turns finished early: "
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:222
+#: src/playsingle_controller.cpp:221
 msgid "Bonus: "
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:225
+#: src/playsingle_controller.cpp:224
 msgid "Gold: "
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:229
+#: src/playsingle_controller.cpp:228
 msgid "Carry over percentage: "
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:232
+#: src/playsingle_controller.cpp:231
 msgid "Bonus Gold: "
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:234
+#: src/playsingle_controller.cpp:233
 msgid "Retained Gold: "
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:247
+#: src/playsingle_controller.cpp:246
 msgid "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgid_plural "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:255
+#: src/playsingle_controller.cpp:254
 msgid "You will start the next scenario with the defined minimum starting gold."
 msgid_plural "You will start the next scenario with the defined minimum starting gold."
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:263
+#: src/playsingle_controller.cpp:262
 msgid "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgid_plural "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgstr[0] ""
 msgstr[1] ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:415
+#: src/playsingle_controller.cpp:405
 msgid "Game Over"
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:416
+#: src/playsingle_controller.cpp:406
 msgid "The game is over."
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:501
+#: src/playsingle_controller.cpp:489
 msgid ""
 "A network disconnection has occurred, and the game\n"
 "cannot continue. Do you want to save the game?"
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:664
+#: src/playsingle_controller.cpp:652
 msgid "It is now $name|'s turn"
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:882
+#: src/playsingle_controller.cpp:870
 msgid "Scenario Report"
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:884
+#: src/playsingle_controller.cpp:872
 msgid "Victory"
 msgstr ""
 
 #. +> stable
-#: src/playsingle_controller.cpp:885
+#: src/playsingle_controller.cpp:873
 msgid "You have emerged victorious!"
 msgstr ""
 
@@ -8442,12 +8457,12 @@ msgid "Taken"
 msgstr ""
 
 #. +> stable
-#: src/storyscreen/controller.cpp:128
+#: src/storyscreen/controller.cpp:130
 msgid "Next"
 msgstr ""
 
 #. +> stable
-#: src/storyscreen/controller.cpp:129
+#: src/storyscreen/controller.cpp:131
 msgid "Skip"
 msgstr ""
 
@@ -8472,162 +8487,147 @@ msgid "border_size should be between 0.0 and 0.5."
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:428
+#: src/titlescreen.cpp:418
 msgctxt "TitleScreen button"
 msgid "Tutorial"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:429
+#: src/titlescreen.cpp:419
 msgctxt "TitleScreen button"
 msgid "Campaign"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:430
+#: src/titlescreen.cpp:420
 msgctxt "TitleScreen button"
 msgid "Multiplayer"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:431
+#: src/titlescreen.cpp:421
 msgctxt "TitleScreen button"
 msgid "Load"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:432
+#: src/titlescreen.cpp:422
 msgctxt "TitleScreen button"
 msgid "Add-ons"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:434
+#: src/titlescreen.cpp:424
 msgctxt "TitleScreen button"
 msgid "Map Editor"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:436
+#: src/titlescreen.cpp:426
 msgctxt "TitleScreen button"
 msgid "Language"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:437
+#: src/titlescreen.cpp:427
 msgctxt "TitleScreen button"
 msgid "Preferences"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:438
+#: src/titlescreen.cpp:428
 msgctxt "TitleScreen button"
 msgid "Credits"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:439
+#: src/titlescreen.cpp:429
 msgctxt "TitleScreen button"
 msgid "Quit"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:442
+#: src/titlescreen.cpp:432
 msgctxt "TitleScreen button"
 msgid "Previous"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:443
+#: src/titlescreen.cpp:433
 msgctxt "TitleScreen button"
 msgid "Next"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:444
+#: src/titlescreen.cpp:434
 msgctxt "TitleScreen button"
 msgid "Help"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:446
+#: src/titlescreen.cpp:436
 msgctxt "TitleScreen button"
 msgid "Help Wesnoth"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:448
+#: src/titlescreen.cpp:438
 msgid "Start a tutorial to familiarize yourself with the game"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:449
+#: src/titlescreen.cpp:439
 msgid "Start a new single player campaign"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:450
+#: src/titlescreen.cpp:440
 msgid "Play multiplayer (hotseat, LAN, or Internet), or a single scenario against the AI"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:451
+#: src/titlescreen.cpp:441
 msgid "Load a saved game"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:452
+#: src/titlescreen.cpp:442
 msgid "Download usermade campaigns, eras, or map packs"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:454
+#: src/titlescreen.cpp:444
 msgid "Start the map editor"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:456
+#: src/titlescreen.cpp:446
 msgid "Change the language"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:457
+#: src/titlescreen.cpp:447
 msgid "Configure the game's settings"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:458
+#: src/titlescreen.cpp:448
 msgid "View the credits"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:459
+#: src/titlescreen.cpp:449
 msgid "Quit the game"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:460
+#: src/titlescreen.cpp:450
 msgid "Show next tip of the day"
 msgstr ""
 
 #. +> stable
-#: src/titlescreen.cpp:461
+#: src/titlescreen.cpp:451
 msgid "Show Battle for Wesnoth help"
-msgstr ""
-
-#. +> stable
-#: src/titlescreen.cpp:462
-msgid "Upload statistics"
-msgstr ""
-
-#. +> stable
-#: src/titlescreen.cpp:521
-msgid "Help Wesnoth"
-msgstr ""
-
-#. +> stable
-#: src/titlescreen.cpp:522
-msgid "Help Wesnoth by sending us information"
 msgstr ""
 
 #. +> stable
@@ -8733,29 +8733,4 @@ msgstr ""
 #: src/unit_types.cpp:1008
 msgctxt "female"
 msgid "neutral"
-msgstr ""
-
-#. +> stable
-#: src/upload_log.cpp:368
-msgid "Wesnoth relies on volunteers like yourself for feedback, especially beginners and new players. Wesnoth keeps summaries of your games: you can help us improve game play by giving permission to send these summaries (anonymously) to wesnoth.org.\n"
-msgstr ""
-
-#. +> stable
-#: src/upload_log.cpp:369
-msgid "Summaries are stored here:"
-msgstr ""
-
-#. +> stable
-#: src/upload_log.cpp:371
-msgid "You can view the results at:"
-msgstr ""
-
-#. +> stable
-#: src/upload_log.cpp:373
-msgid "Help us make Wesnoth better for you!"
-msgstr ""
-
-#. +> stable
-#: src/upload_log.cpp:375
-msgid "Enable summary uploads"
 msgstr ""
