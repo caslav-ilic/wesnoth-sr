@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-04-24 12:13+0200\n"
+"POT-Creation-Date: 2010-05-24 20:40+0200\n"
 "PO-Revision-Date: 2010-04-28 16:24+0200\n"
 "Last-Translator: Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>\n"
 "Language-Team: Serbian\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 "X-Associated-UI-Catalogs: wesnoth-lib wesnoth-httt\n"
@@ -111,6 +111,14 @@ msgstr "Груписање играча у холу"
 #: data/advanced_preferences.cfg:100
 msgid "Lobby sounds"
 msgstr "Звукови хола"
+
+#. [advanced_preference]: type=boolean
+#. +> stable
+#: data/advanced_preferences.cfg:107
+#, fuzzy
+#| msgid "Disable autosaves."
+msgid "Disable notifications"
+msgstr "Искључује аутопозиције."
 
 #. [ai]: id=default # id is needed uniquely identify a MP AI, it is not needed in the scenario AI
 #. +> stable
@@ -285,169 +293,169 @@ msgstr "Програмирање"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:205
+#: data/core/about.cfg:210
 msgid "General Purpose Administration and Coordination"
 msgstr "Општа администрација и координација"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:223
+#: data/core/about.cfg:228
 msgid "Artwork and Graphics"
 msgstr "Графика и цртање"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:571
+#: data/core/about.cfg:576
 msgid "Music"
 msgstr "Музика"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:605
+#: data/core/about.cfg:613
 msgid "Sound Effects"
 msgstr "Звучни ефекти"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:621
+#: data/core/about.cfg:629
 msgid "Campaign Design"
 msgstr "Дизајн похода"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:688
+#: data/core/about.cfg:696
 msgid "Multiplayer Maps and Balancing"
 msgstr "Вишеиграчке мапе и уравнотежавање"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:729
+#: data/core/about.cfg:737
 msgid "Packagers"
 msgstr "Припрема пакета"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:795
+#: data/core/about.cfg:803
 msgid "Miscellaneous contributors"
 msgstr "Разни доприноси"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1021
+#: data/core/about.cfg:1029
 msgid "Internationalization Managers"
 msgstr "Управљање интернационализацијом"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1046
+#: data/core/about.cfg:1054
 msgid "English strings edition"
 msgstr "Издање с британским нискама"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1053
+#: data/core/about.cfg:1061
 msgid "Afrikaans Translation"
 msgstr "Африканс превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1069
+#: data/core/about.cfg:1077
 msgid "Arabic Translation"
 msgstr "Арапски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1076
+#: data/core/about.cfg:1084
 msgid "Basque Translation"
 msgstr "Баскијски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1089
+#: data/core/about.cfg:1097
 msgid "Bulgarian Translation"
 msgstr "Бугарски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1108
+#: data/core/about.cfg:1116
 msgid "Catalan Translation"
 msgstr "Каталонски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1149
+#: data/core/about.cfg:1157
 msgid "Chinese Translation"
 msgstr "Кинески превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1187
+#: data/core/about.cfg:1211
 msgid "Chinese (Taiwan) Translation"
 msgstr "Кинески (Тајван) превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1209
+#: data/core/about.cfg:1233
 msgid "Croatian Translation"
 msgstr "Хрватски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1216
+#: data/core/about.cfg:1240
 msgid "Czech Translation"
 msgstr "Чешки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1276
+#: data/core/about.cfg:1300
 msgid "Danish Translation"
 msgstr "Дански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1307
+#: data/core/about.cfg:1331
 msgid "Dutch Translation"
 msgstr "Холандски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1368
+#: data/core/about.cfg:1392
 msgid "English (GB) Translation"
 msgstr "Британски енглески превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1381
+#: data/core/about.cfg:1405
 msgid "English (Shaw) Translation"
 msgstr "Eнглески (шовијански) превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1405
+#: data/core/about.cfg:1429
 msgid "Esperanto Translation"
 msgstr "Есперанто превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1424
+#: data/core/about.cfg:1448
 msgid "Estonian Translation"
 msgstr "Естонски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1434
+#: data/core/about.cfg:1458
 msgid "Filipino Translation"
 msgstr "Филипински превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1444
+#: data/core/about.cfg:1468
 msgid "Finnish Translation"
 msgstr "Фински превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1490
+#: data/core/about.cfg:1514
 msgid "French Translation"
 msgstr "Француски превод"
 
@@ -455,197 +463,197 @@ msgstr "Француски превод"
 # well-spelled: Фурлански
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1640
+#: data/core/about.cfg:1670
 msgid "Friulian Translation"
 msgstr "Фурлански превод"
 
 # well-spelled: Галицијански
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1647
+#: data/core/about.cfg:1677
 msgid "Galician Translation"
 msgstr "Галицијански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1683
+#: data/core/about.cfg:1713
 msgid "German Translation"
 msgstr "‹Њемачки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1750
+#: data/core/about.cfg:1780
 msgid "Greek Translation"
 msgstr "Грчки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1784
+#: data/core/about.cfg:1814
 msgid "Hebrew Translation"
 msgstr "Хебрејски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1797
+#: data/core/about.cfg:1827
 msgid "Hungarian Translation"
 msgstr "Мађарски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1858
+#: data/core/about.cfg:1888
 msgid "Icelandic translation"
 msgstr "Исландски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1868
+#: data/core/about.cfg:1898
 msgid "Indonesian Translation"
 msgstr "Индонежански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1875
+#: data/core/about.cfg:1905
 msgid "Italian Translation"
 msgstr "Италијански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1910
+#: data/core/about.cfg:1940
 msgid "Japanese Translation"
 msgstr "Јапански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1959
+#: data/core/about.cfg:1989
 msgid "Korean Translation"
 msgstr "Корејски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1966
+#: data/core/about.cfg:1996
 msgid "Latin Translation"
 msgstr "Латински превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1993
+#: data/core/about.cfg:2023
 msgid "Latvian Translation"
 msgstr "Летонски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2004
+#: data/core/about.cfg:2034
 msgid "Lithuanian Translation"
 msgstr "Литвански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2021
+#: data/core/about.cfg:2051
 msgid "Macedonian Translation"
 msgstr "Македонски превод"
 
 # well-spelled: Марати
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2029
+#: data/core/about.cfg:2059
 msgid "Marathi Translation"
 msgstr "Марати превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2038
+#: data/core/about.cfg:2068
 msgid "Norwegian Translation"
 msgstr "Норвешки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2063
+#: data/core/about.cfg:2093
 msgid "Polish Translation"
 msgstr "Пољски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2103
+#: data/core/about.cfg:2133
 msgid "Portuguese Translation"
 msgstr "Португалски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2110
+#: data/core/about.cfg:2140
 msgid "Portuguese (Brazil) Translation"
 msgstr "Португалски бразилски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2149
+#: data/core/about.cfg:2179
 msgid "Romanian Translation"
 msgstr "Румунски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2157
+#: data/core/about.cfg:2187
 msgid "Russian Translation"
 msgstr "Руски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2224
+#: data/core/about.cfg:2254
 msgid "Serbian Translation"
 msgstr "Српски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2243
+#: data/core/about.cfg:2273
 msgid "Slovak Translation"
 msgstr "Словачки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2269
+#: data/core/about.cfg:2299
 msgid "Slovenian Translation"
 msgstr "Словеначки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2282
+#: data/core/about.cfg:2312
 msgid "Spanish Translation"
 msgstr "Шпански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2343
+#: data/core/about.cfg:2373
 msgid "Swedish Translation"
 msgstr "Шведски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2372
+#: data/core/about.cfg:2402
 msgid "Turkish Translation"
 msgstr "Турски превод"
 
 # well-spelled: јужнокаталонски
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2394
+#: data/core/about.cfg:2424
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Валенсијски (јужнокаталонски) превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2407
+#: data/core/about.cfg:2437
 msgid "Vietnamese Translation"
 msgstr "Вијетнамски превод"
 
 # well-spelled: РАЦВ
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2414
+#: data/core/about.cfg:2444
 msgid "RACV's Translation"
 msgstr "Валенсијски (РАЦВ) превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2421
+#: data/core/about.cfg:2451
 msgid "Bots"
 msgstr "Ботови"
 
@@ -667,7 +675,7 @@ msgstr "Играње"
 #. [section]: id=traits_section
 #. [topic]: id=..traits_section
 #. +> stable
-#: data/core/help.cfg:33 data/core/help.cfg:355 src/menu_events.cpp:846
+#: data/core/help.cfg:33 data/core/help.cfg:355 src/menu_events.cpp:847
 msgid "Traits"
 msgstr "Особине"
 
@@ -4842,441 +4850,429 @@ msgstr "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc"
 msgid "DejaVu Sans,Andagii,WenQuanYi Zen Hei"
 msgstr "DejaVu Sans,Andagii,WenQuanYi Zen Hei"
 
-#. [tip]
-#. +> stable
-#: data/hardwired/tips.cfg:3
-msgid "Battle for Wesnoth automatically sends anonymized statistics about your game advancement to a server where they are stored. This enables several features, and allows us to improve Wesnoth. To learn more about this or disable it, click the envelope in the bottom-right corner."
-msgstr "„Бој за Веснот“ аутоматски шаље анонимну статистику вашег напредовања кроз игру серверу који их складишти, што нам отвара неколико могућности за рад на побољшању Веснота. Да бисте више сазнали више о овоме, или искључили слање, кликните на коверат у доњем десном углу."
-
-#. [tip]
-#. +> stable
-#: data/hardwired/tips.cfg:4
-msgid "Wesnoth Developers"
-msgstr "— програмери Веснота"
-
 # >> Great Mage Delfador
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:7
+#: data/hardwired/tips.cfg:3
 msgid "Don't neglect to earn your leader experience! You need to keep him safe, but if you coddle him too much he may be at too low a level to survive future battles."
 msgstr "Не занемари прибављање искуства своме вођу! Мораш га чувати од зла, али ако га превише мазиш, може остати прениског нивоа да би прежив‹ио будуће бојеве."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:8 data/hardwired/tips.cfg:136
+#: data/hardwired/tips.cfg:4 data/hardwired/tips.cfg:132
 msgid "- Great Mage Delfador, 516YW"
 msgstr "— велики маг Делфадор, 516.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:11
+#: data/hardwired/tips.cfg:7
 msgid "In the 'Actions' menu, you can select 'Show Enemy Moves' to highlight all possible hexes your adversary can actually move to (assuming your units stay where they are). Use this to make sure the enemy can't reach your weak or injured units on his next turn."
 msgstr "Из менија „~%/Actions/“ изаберите „~%/Show Enemy Moves/“ да се истакну сва поља која ваш противник заиста може досећи (под претпоставком да ваше јединице остану гд›је јесу). Корисно да се ув›јерите да непријатељ не може дохватити ваше ослабљене или повр›ијеђене јединице у наредном потезу."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:12 data/hardwired/tips.cfg:24
-#: data/hardwired/tips.cfg:28 data/hardwired/tips.cfg:36
-#: data/hardwired/tips.cfg:40 data/hardwired/tips.cfg:56
-#: data/hardwired/tips.cfg:60 data/hardwired/tips.cfg:64
-#: data/hardwired/tips.cfg:68 data/hardwired/tips.cfg:72
-#: data/hardwired/tips.cfg:84 data/hardwired/tips.cfg:88
-#: data/hardwired/tips.cfg:100 data/hardwired/tips.cfg:108
-#: data/hardwired/tips.cfg:112 data/hardwired/tips.cfg:120
-#: data/hardwired/tips.cfg:144 data/hardwired/tips.cfg:148
-#: data/hardwired/tips.cfg:152 data/hardwired/tips.cfg:160
-#: data/hardwired/tips.cfg:168 data/hardwired/tips.cfg:176
-#: data/hardwired/tips.cfg:180 data/hardwired/tips.cfg:184
-#: data/hardwired/tips.cfg:188 data/hardwired/tips.cfg:196
-#: data/hardwired/tips.cfg:200 data/hardwired/tips.cfg:204
-#: data/hardwired/tips.cfg:209
+#: data/hardwired/tips.cfg:8 data/hardwired/tips.cfg:20
+#: data/hardwired/tips.cfg:24 data/hardwired/tips.cfg:32
+#: data/hardwired/tips.cfg:36 data/hardwired/tips.cfg:52
+#: data/hardwired/tips.cfg:56 data/hardwired/tips.cfg:60
+#: data/hardwired/tips.cfg:64 data/hardwired/tips.cfg:68
+#: data/hardwired/tips.cfg:80 data/hardwired/tips.cfg:84
+#: data/hardwired/tips.cfg:96 data/hardwired/tips.cfg:104
+#: data/hardwired/tips.cfg:108 data/hardwired/tips.cfg:116
+#: data/hardwired/tips.cfg:140 data/hardwired/tips.cfg:144
+#: data/hardwired/tips.cfg:148 data/hardwired/tips.cfg:156
+#: data/hardwired/tips.cfg:164 data/hardwired/tips.cfg:172
+#: data/hardwired/tips.cfg:176 data/hardwired/tips.cfg:180
+#: data/hardwired/tips.cfg:184 data/hardwired/tips.cfg:192
+#: data/hardwired/tips.cfg:196 data/hardwired/tips.cfg:200
+#: data/hardwired/tips.cfg:205
 msgid "- The Wesnoth Tactical Guide"
 msgstr "— Тактички водич Веснота"
 
 # >> King Konrad
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:15
+#: data/hardwired/tips.cfg:11
 msgid "Units with the 'intelligent' trait need fewer experience points to level up. Early in a campaign, try to give killing blows to these units so you can get some high-level troops sooner."
 msgstr "Јединице с особином ‘оштроумности’ захт›ијевају мање искуствених поена за напредовање. Покушај да њима задајеш завршне ударце рано током похода, како би војска раније добила јединице виших нивоа."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:16
+#: data/hardwired/tips.cfg:12
 msgid "- King Konrad, 536YW"
 msgstr "— краљ Конрад, 536.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:19
+#: data/hardwired/tips.cfg:15
 msgid "The encircling tactic is very powerful, particularly against fast opponents. By placing two units on opposite sides of an enemy, their zones of control will restrict it to one hex of movement in any direction."
 msgstr "Тактика опкољавања је врло моћна, посебице против хитрог противника. Поставивши две јединице на супротним странама непријатељске, њихови надзорни појасеви ограничиће јој кретање на једно поље у било ком см›јеру."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:20 data/hardwired/tips.cfg:128
+#: data/hardwired/tips.cfg:16 data/hardwired/tips.cfg:124
 msgid "- Memoirs of Gweddry, 627YW"
 msgstr "— Животопис Гведријев, 627.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:23
+#: data/hardwired/tips.cfg:19
 msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you choose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
 msgstr "Наредбама „~%/Recruit/“ и „~%/Recall/“ можете приступити десним кликом на поље замка. Потом изаберите поље гд›је желите да се нова јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:27
+#: data/hardwired/tips.cfg:23
 msgid "There are some helpful summary screens in the main menu: for instance, the 'Status Table' will let you know how your enemies are doing, and how you are doing in comparison."
 msgstr "Главни мени пружа неколико сажетака од користи; на пример, „~%/Status Table/“ показује како се држе ваши непријатељи, и ви насупрот њима."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:31
+#: data/hardwired/tips.cfg:27
 msgid "Units with the 'quick' trait move one extra hex per turn. This can be very important when moving through difficult terrain such as water or caves. It can make the difference between being able to move one hex or two."
 msgstr "Јединице с особином ‘хитрости’ крећу се поље више по потезу. Ово може бити пресудно при напредовању тешким тереном, попут воде или пећина, гд›је чини разлику између једног и два поља могућег покрета."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:32 data/hardwired/tips.cfg:104
+#: data/hardwired/tips.cfg:28 data/hardwired/tips.cfg:100
 msgid "- High Lord Kalenz, 470YW"
 msgstr "— надгосподар Каленз, 470.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:35
+#: data/hardwired/tips.cfg:31
 msgid "After you have played a few scenarios, read the 'Gameplay' section in the help screen carefully. Details become important as scenarios get harder!"
 msgstr "Пошто одиграте неколико сценарија, пажљиво прочитајте од›јељак „~%/Gameplay/“ у оквиру помоћи. Детаљи су све важнији како нараста тежина сценарија!"
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:39
+#: data/hardwired/tips.cfg:35
 msgid "It is usually better to start the next scenario in a campaign with lower-level units that are about to level up than with those same units at a higher level."
 msgstr "Обично је боље започети наредни сценарио у походу јединицама нижег нивоа које само што нису испредњачиле, него са истим таквима вишег нивоа."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:43
+#: data/hardwired/tips.cfg:39
 msgid "On www.wesnoth.org you can find strategy guides, technical support, the history of Wesnoth, and much more."
 msgstr "На www.wesnoth.org можете наћи стратешке водиче, техничку подршку, историјат Веснота, и још много тога."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:44
+#: data/hardwired/tips.cfg:40
 msgid "- The Wesnoth Community"
 msgstr "— Заједница Веснота"
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:47
+#: data/hardwired/tips.cfg:43
 msgid "Lawful units fight better by day, and chaotic units fight better at night. Neutral units are unaffected by the time of day."
 msgstr "Добре јединице боље се боре дању, а хаотичне јединице су јаче ноћу. На неутралне јединице доба дана не утиче."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:48
+#: data/hardwired/tips.cfg:44
 msgid "- Royal Compendium of Battle Terminology - Volume II, 212YW"
 msgstr "— Краљевски зборник бојне терминологије, том II, 212.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:51
+#: data/hardwired/tips.cfg:47
 msgid "An otherwise sound plan can fail if you attack at the wrong time of day."
 msgstr "Наум иначе ваљан може пропасти нападне ли се у погрешно доба дана."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:52 data/hardwired/tips.cfg:76
-#: data/hardwired/tips.cfg:124 data/hardwired/tips.cfg:132
+#: data/hardwired/tips.cfg:48 data/hardwired/tips.cfg:72
+#: data/hardwired/tips.cfg:120 data/hardwired/tips.cfg:128
 msgid "- Handbook of Tactical Analysis Volume I - Haldric II, 42YW"
 msgstr "— Приручник тактичке анализе, том I — Халдрик Други, 42.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:55
+#: data/hardwired/tips.cfg:51
 msgid "If you are playing with 'Shroud' or 'Fog of War' turned on, you won't know what you're facing. In this case, long-range scouting units are worth their cost. Try to choose scouts that can easily move across the surrounding terrain, because units see as far as they can move in one turn."
 msgstr "Ако вам је током игре укључен ‘покров’ или ‘магла рата’, нећете знати с чим сте суочени. У тим околностима, далекодометне извиђачке јединице вр›иједе сваку пару. Покушајте да бирате оне које ће се лако кретати околним тереном, јер јединице виде онолико далеко колико могу превалити у једном потезу."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:59
+#: data/hardwired/tips.cfg:55
 msgid "There are six types of attacks: pierce, blade, impact, fire, cold, and arcane. Different units have weaknesses against different types of attacks. Right-click on a unit and select 'Unit Description' to see which attacks it is resistant to, and which will affect it the most."
 msgstr "Постоји шест типова напада: пробој, с›јечиво, удар, ватра, мраз и волшебни. Они различито утичу на различите јединице. Кликните десним на јединицу, изаберите „~%/Unit Description/“, гд›је можете вид›јети на које је нападе отпорна, а који ће је најтеже погодити."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:63
+#: data/hardwired/tips.cfg:59
 msgid "The terrain your units are occupying determines the chance your opponents have of hitting them in battle. The defensive rating for the currently selected unit in the currently selected terrain is displayed in the top right corner of the screen."
 msgstr "Терен на коме се ваше јединице налазе одређује у каквој су противници прилици да је погоде у борби. Одбрамбени разред тренутно изабране јединице приказан је у горњем десном углу екрана."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:67
+#: data/hardwired/tips.cfg:63
 msgid "Poisoned units will lose eight hitpoints every turn until they are one point from death. They will remain at death's door until the poison is removed. Healers can prevent a poisoned unit from deteriorating, but the poison will not be removed unless the unit regenerates, or begins a turn in a village or next to a unit with the 'Cures' ability."
 msgstr "Отроване јединице губиће осам ударпоена по потезу, док не спадну на један пред смрт. Стајаће тако на корак до смрти док се отров не исц›ијели. Видари могу спр›ијечити погоршање стања отроване јединице, али се отрова неће р›ијешити док се не обнови (ако може), или започне потез у селу или надомак јединице са способношћу ‘исц›јељивања’."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:71
+#: data/hardwired/tips.cfg:67
 msgid "You can use units from a previous scenario by selecting 'Recall' in the 'Actions' menu. By recalling the same units over and over, you can build up a powerful and experienced army."
 msgstr "Можете користити јединице из претходног сценарија, помоћу „~%/Recall/“ из менија „~%/Actions/“. Узастопним сазивањем истих јединица, можете изградити моћну и искусну војску."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:75
+#: data/hardwired/tips.cfg:71
 msgid "Units of level one and higher have a 'Zone of Control' in each of the hexes next to them. If a unit moves into an enemy's zone of control, it may not move any further that turn. This means that units can have two empty hexes between them and still create a barrier to the enemy. However, skirmishers are skilled enough to ignore these zones."
 msgstr "Јединице првог и вишег нивоа постављају „надзорни појас“ у свим пољима до себе. Ако се јединица пом›јери у непријатељев надзорни појас, не може се више пом›ијерати у току тог потеза. Ово значи да и јединице размакнуте два поља запречавају пут непријатељу. Чаркаши су, међутим, довољно в›јешти да их се ови појасеви не дотичу."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:79
+#: data/hardwired/tips.cfg:75
 msgid "The chance to hit a unit usually depends on how well that unit can defend itself in the terrain in which it is standing. However, magical attacks always have a 70% chance to hit, and units with the 'marksman' ability will always have at least 60% chance to hit when attacking on their turn."
 msgstr "Изгледи да се јединица погоди зависе од тога колико се она може добро бранити на терену гд›је се налази. Ипак, магични напади ув›ијек имају 70% изгледа за погодак, а јединице с особином ‘оштроокости’ имају бар 60% изгледа када ударе у свом потезу."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:80
+#: data/hardwired/tips.cfg:76
 msgid "- Handbook of Tactical Analysis Volume II - Haldric II, 43YW"
 msgstr "— Приручник тактичке анализе, том II — Халдрик Други, 43.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:83
+#: data/hardwired/tips.cfg:79
 msgid "Units stationed in villages will either heal eight hitpoints at the beginning of their turn, or will recover from poisoning."
 msgstr "Јединице разм›јештене у селима или ће се зал›ијечити 8 ударпоена на почетку свог потеза, или опоравити од тровања."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:87
+#: data/hardwired/tips.cfg:83
 msgid "Don't move an injured unit if you don't have to - let it rest. If a unit does not move or attack, it will recover two hitpoints at the beginning of its next turn."
 msgstr "Не пом›ијерајте повређену јединицу ако не морате — нека се одмори. Ако се јединица нити пом›јери нити нападне, повратиће 2 ударпоена на почетку с‹љедећег потеза."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:91
+#: data/hardwired/tips.cfg:87
 msgid "Foot units tend to defend better in villages and castles than in other terrain types, while most mounted units do not gain any defensive advantages from villages or castles."
 msgstr "П›јешачке јединице се обично боље бране у селима и замковима него на другом терену, док већина коњичких јединица ту нема никакву одбрамбену добит."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:92 data/hardwired/tips.cfg:172
+#: data/hardwired/tips.cfg:88 data/hardwired/tips.cfg:168
 msgid "- Sir Kaylan, 498YW"
 msgstr "— сер Кајлан, 498.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:95
+#: data/hardwired/tips.cfg:91
 msgid "Horse-based units are generally resistant to attacks with bladed or impact weapons, but are vulnerable to attacks with piercing weapons, including bows and spears."
 msgstr "Коњичке јединице су обично отпорне на нападе сечивима и ударним оружјима, али рањиве на пробојна оружја, укључујући и лукове и копља."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:96
+#: data/hardwired/tips.cfg:92
 msgid "- Sir Kaylan, 502YW"
 msgstr "— сер Кајлан, 502.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:99
+#: data/hardwired/tips.cfg:95
 msgid "Inflicting the killing blow on an enemy unit is the best way to gain experience. Units killing an enemy will gain eight experience points for every level of the unit they kill, or four experience points for a zero-level opponent."
 msgstr "Најбољи начин за добијање искуства јесте наношење завршног ударца непријатељској јединици. Јединице које доврше непријатеља добиће по осам поена искуства на сваки ниво убијене јединице, или четири за несрећника нултог нивоа."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:103
+#: data/hardwired/tips.cfg:99
 msgid "Elvish units move and fight well in forest. Dwarvish units move and fight well in hills, mountains and caves."
 msgstr "Вилењачке јединице се изврсно крећу и боре у шуми. За патуљачке јединице исто важи у брдима, планинама и пећинама."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:107
+#: data/hardwired/tips.cfg:103
 msgid "Patience is often key. Rather than attacking in bad conditions or with few troops, wait for better conditions and then attack."
 msgstr "Стрпљење је често кључно. Ум›јесто нападања у лошим условима, или са мало снага, боље је сачекати повољније прилике и тада ударити."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:111
+#: data/hardwired/tips.cfg:107
 msgid "If you are attacked from several directions, it may be a good idea to send expendable units in some directions to delay enemy units."
 msgstr "Ако вас нападну из неколико праваца, може бити промућурно послати нешто потрошних јединица да запр›ијече те правце, како би се добило на времену."
 
 # >> Meneldur
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:115
+#: data/hardwired/tips.cfg:111
 msgid "Do not be afraid to retreat and regroup; it is often the key to victory."
 msgstr "Не плаши се повлачења ради бољег распоређивања; често је то неопходно за поб›једу."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:116
+#: data/hardwired/tips.cfg:112
 msgid "- Meneldur, 123YW"
 msgstr "— Менелдур, 123.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:119
+#: data/hardwired/tips.cfg:115
 msgid "In most campaigns you will receive a gold bonus for finishing early, depending on the number of villages on the map and the number of turns you finish early. You will always earn more gold this way than through capturing villages and waiting for turns to run out."
 msgstr "У већини похода добијаћете новчане бонусе за рано завршавање сценарија, већ према броју села на мапи и броју потеза које нисте истрошили. Овако ћете ув›ијек добити више злата, него када бисте запос›иједали села и чекали истицање потеза."
 
 # >> Handbook of Tactical Analysis Volume I - Haldric II
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:123
+#: data/hardwired/tips.cfg:119
 msgid "Your leader can recruit or recall units from any keep inside a castle, not just the keep they start on. You can capture a keep from an enemy and recruit from there. Also, some of your allies may be willing to make room for you on their keep so you can recruit there."
 msgstr "Твој вођ може унајмљивати или сазивати јединице са било које куле унутар замка, не само из оног одакле је кренуо. Можеш заробити непријатељев замак, и оданде унајмљивати. Такође, можда ће и неки савезник бити вољан да ти привремено уступи свој замак."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:127
+#: data/hardwired/tips.cfg:123
 msgid "Skeletons are resistant to piercing, bladed and cold-based attacks but are vulnerable to impact, fire, and arcane attacks."
 msgstr "Скелети су отпорни на с›јечива, мраз и пробојне нападе, али рањиви на удар, ватру, и волшебне нападе."
 
 # >> Handbook of Tactical Analysis Volume I - Haldric II
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:131
+#: data/hardwired/tips.cfg:127
 msgid "Units with the 'leadership' ability help lower-level adjacent units on the same side fight better. Use leaders to help your other units level up faster."
 msgstr "Јединице са способношћу ‘вођства’ чине да се сус›једне јединице нижег нивоа боре боље. Користи вође да потпомогнеш напредовање другим јединицама."
 
 # >> Great Mage Delfador
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:135
+#: data/hardwired/tips.cfg:131
 msgid "Try to avoid moving next to unoccupied villages. An enemy unit may move into the village and attack you, while enjoying the defense and healing of the village."
 msgstr "Изб›јегавај ступање надомак незаузетог села. Непријатељска јединица може ускочити у село и напасти твоју, док ужива заштиту и л›ијечење које јој село пружа."
 
 # >> Princess Li'sar
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:139
+#: data/hardwired/tips.cfg:135
 msgid "Use lines of units to screen injured units to let them recover."
 msgstr "Користи фронтове јединица за заштиту рањених при опоравку."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:140
+#: data/hardwired/tips.cfg:136
 msgid "- Princess Li'sar, 515YW"
 msgstr "— принцеза Лиза́ра, 515.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:143
+#: data/hardwired/tips.cfg:139
 msgid "Read the hotkeys list in the preferences menu."
 msgstr "Прочитајте списак пречица са тастатуре у менију поставки."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:147
+#: data/hardwired/tips.cfg:143
 msgid "If you move a unit, but don't attack or discover any additional information, you can undo your move by pressing 'u'."
 msgstr "Ако пом›јерите јединицу, а притом не нападнете или сазнате нове чињенице, можете опозвати потез притиском на ‘u’."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:151
+#: data/hardwired/tips.cfg:147
 msgid "You can see how far enemy units can move by moving the mouse cursor over them."
 msgstr "Можете вид›јети гд›је се непријатељска јединица може пом›јерити помаком миша преко ње."
 
 # >> Scroll of Chantal
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:155
+#: data/hardwired/tips.cfg:151
 msgid "Use healers to support your attacks - they will win you battles without needing to attack anything themselves."
 msgstr "Користи видаре као подршку у нападима — добијаће ти битке, а да сами ништа напали нису."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:156
+#: data/hardwired/tips.cfg:152
 msgid "- The Scroll of Chantal, 516YW"
 msgstr "— Свитак Чанталов, 516.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:159
+#: data/hardwired/tips.cfg:155
 msgid "The 'slow' attack ability makes enemy units move slower and halves the damage they do on all attacks until they end a turn."
 msgstr "Удар ‘успорења’ успорава кретање непријатељске јединице и преполовљава штету коју наноси у свим нападима до краја потеза."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:163
+#: data/hardwired/tips.cfg:159
 msgid "Arcane attacks are very powerful against undead."
 msgstr "Волшебни напади су врло моћни против немртвих."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:164
+#: data/hardwired/tips.cfg:160
 msgid "- Great Sage Dacyn, 626YW"
 msgstr "— велики мудрац Десин, 626.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:167
+#: data/hardwired/tips.cfg:163
 msgid "Units are healed when they advance a level. Used wisely, this can turn a fight."
 msgstr "Јединице се потпуно за‹љечују када испредњаче у нивоу. В›јешто употр›ијебљено, може преокренути битку."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:171
+#: data/hardwired/tips.cfg:167
 msgid "Charging units are best used against enemies they can kill with a single blow."
 msgstr "Јуришне јединице најбоље је користити против непријатеља које могу довршити једним ударом."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:175
+#: data/hardwired/tips.cfg:171
 msgid "Instead of leveling up, high-level units gain an 'After Maximum Level Advancement' (AMLA), which usually increases the unit's maximum hitpoints by three and full-heals them. This is much less than the normal benefits gained from advancing a level, so it is generally more useful to try to advance your lower-level units instead."
 msgstr "Ум›јесто новог нивоа, јединице високог нивоа добијају „напредовање по највишем нивоу“ (НАПОН), што им обично повећава максимум ударпоена за три и потпуно их за‹љечује. Ово је много мања добит од оне при напредовању у нивоу, тако да је обично корисније да радите на унапређењу јединица нижег нивоа."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:179
+#: data/hardwired/tips.cfg:175
 msgid "On maps where 'Shroud' or 'Fog of War' has been enabled, a unit's sightlines are limited by its maximum movement. Remember this when deciding what unit is best to scout specific types of terrain."
 msgstr "На мапама гд›је је укључен ‘покров’ или ‘магла рата’, видик јединице ограничен је њеним дометом кретања. Мислите на то када одлучујете која је јединица најбоља за извиђање одређеног терена."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:183
+#: data/hardwired/tips.cfg:179
 msgid "Nearly every icon and word in Wesnoth's playing screen has a tool-tip. Place your mouse pointer over one to get an explanation or description."
 msgstr "Скоро свака икона и р›ијеч на Веснотовом играчком екрану има облачић —  поставите показивач миша изнад онога за шта желите објашњење или опис."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:187
+#: data/hardwired/tips.cfg:183
 msgid "You can send the Wesnoth Project an anonymous summary of your progress using the 'Help Wesnoth' button (indicated by the envelope icon near the lower-right-hand corner of the game main screen). This information is vital so we can adjust campaign difficulty."
 msgstr "Можете слати Пројекту Веснота анонимне сажетке свог напретка, путем дугмета „~%/button|Help Wesnoth/“ (означеног иконом коверте близу доњег десног угла главног екрана). Ови подаци су нам суштински за подешавање нивоа тежине у походима."
 
 # >> Queen Li'sar
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:191
+#: data/hardwired/tips.cfg:187
 msgid "To advance low-level units quickly, team them with a veteran and use the veteran to damage a joint target heavily enough for the junior partner to get in the killing blow."
 msgstr "Да брзо изнапредујеш јединицу ниског нивоа, упари ја са једном ветеранском, па користи ветерана да оштети заједничког непријатеља довољно тешко да га млађи саборац може уништити у једном нападу."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:192
+#: data/hardwired/tips.cfg:188
 msgid "- Queen Li'sar, 528YW"
 msgstr "— краљица Лиза́ра, 528.гв."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:195
+#: data/hardwired/tips.cfg:191
 msgid "You cannot undo a move that reveals any fog or shroud. Toggle the 'Delay Shroud Updates' option on when you need to move units while retaining the ability to undo."
 msgstr "Не можете опозвати покретање које открије део магле или покрова. Укључите опцију „~%/Delay Shroud Updates/“ ако желите да ув›ијек можете опозвати покретање."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:199
+#: data/hardwired/tips.cfg:195
 msgid "If an enemy benefits more from a rare terrain type than you do, occupying that terrain will deprive them of its benefits."
 msgstr "Ако непријатељу р›иједак тип терена користи више него вама, заузимањем тих поља ускратићете непријатељу њихове предности."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:203
+#: data/hardwired/tips.cfg:199
 msgid "Few units have good defenses in water; a line of attackers along the edge of a river can inflict heavy casualties. Elves can use the edge of a forest in a similar manner, and dwarves can do the same with mountains."
 msgstr "Малобројне су јединице вичне одбрани у води; постројба нападача дуж речне обале може нан›ијети жестоке губитке. Вилењацима слично користи руб шуме, а патуљцима планински обронци."
 
 #. [tip]
 #. +> stable
-#: data/hardwired/tips.cfg:208
+#: data/hardwired/tips.cfg:204
 msgid "In many campaign scenarios, you may issue simple instructions for your computer-controlled allies using the right-click context menu."
 msgstr "У многим сценаријима у походу, савезницима којима управља рачунар можете издавати једноставне упуте преко контекстног менија на десни клик."
 
@@ -5357,7 +5353,7 @@ msgstr "Крај"
 #. [label]: id=label-hp
 #. +> stable
 #: data/themes/default.cfg:212 data/themes/dfool.cfg:237
-#: data/themes/experimental.cfg:181 src/menu_events.cpp:208 src/unit.cpp:2331
+#: data/themes/experimental.cfg:181 src/menu_events.cpp:209 src/unit.cpp:2331
 #: src/unit.cpp:2487
 msgid "HP"
 msgstr "УП"
@@ -5366,8 +5362,8 @@ msgstr "УП"
 #. [label]: id=label-xp
 #. +> stable
 #: data/themes/default.cfg:221 data/themes/dfool.cfg:247
-#: data/themes/experimental.cfg:190 src/menu_events.cpp:210
-#: src/menu_events.cpp:844
+#: data/themes/experimental.cfg:190 src/menu_events.cpp:211
+#: src/menu_events.cpp:845
 msgid "XP"
 msgstr "ИП"
 
@@ -5529,8 +5525,8 @@ msgid "Skip animation"
 msgstr "Прескочи анимацију"
 
 #. +> stable
-#: src/about.cpp:198 src/help.cpp:3143 src/menu_events.cpp:317
-#: src/menu_events.cpp:344 src/statistics_dialog.cpp:113
+#: src/about.cpp:198 src/help.cpp:3143 src/menu_events.cpp:318
+#: src/menu_events.cpp:345 src/statistics_dialog.cpp:113
 msgid "Close"
 msgstr "Затвори"
 
@@ -5745,7 +5741,7 @@ msgstr "Желите ли да преузмете $addon_title|? (Мораћет
 
 #. +> stable
 #: src/addon_management.cpp:532 src/addon_management.cpp:606
-#: src/multiplayer.cpp:216 src/multiplayer.cpp:275 src/multiplayer_ui.cpp:80
+#: src/multiplayer.cpp:215 src/multiplayer.cpp:274 src/multiplayer_ui.cpp:80
 msgid "Connection timed out"
 msgstr "Веза је истекла."
 
@@ -5821,7 +5817,7 @@ msgstr "Не могу да нађем ниједан ажурирани дода
 
 #. +> stable
 #: src/addon_management.cpp:813 src/addon_management.cpp:1011
-#: src/dialogs.cpp:571 src/menu_events.cpp:205 src/menu_events.cpp:842
+#: src/dialogs.cpp:571 src/menu_events.cpp:206 src/menu_events.cpp:843
 msgid "Name"
 msgstr "име"
 
@@ -5910,7 +5906,7 @@ msgid "An error occurred while communicating with the server."
 msgstr "Грешка у комуникацији са сервером."
 
 #. +> stable
-#: src/addon_management.cpp:1011 src/titlescreen.cpp:349
+#: src/addon_management.cpp:1011 src/titlescreen.cpp:339
 msgid "Version"
 msgstr "верзија"
 
@@ -5920,8 +5916,8 @@ msgid "Downloads"
 msgstr "преузето"
 
 #. +> stable
-#: src/addon_management.cpp:1012 src/help.cpp:1462 src/menu_events.cpp:204
-#: src/menu_events.cpp:841 src/menu_events.cpp:1438
+#: src/addon_management.cpp:1012 src/help.cpp:1462 src/menu_events.cpp:205
+#: src/menu_events.cpp:842 src/menu_events.cpp:1437
 msgid "Type"
 msgstr "тип"
 
@@ -5952,8 +5948,8 @@ msgid "Choose the add-on to download."
 msgstr "Изаберите додатак за преузимање."
 
 #. +> stable
-#: src/addon_management.cpp:1124 src/dialogs.cpp:596 src/menu_events.cpp:915
-#: src/menu_events.cpp:1474
+#: src/addon_management.cpp:1124 src/dialogs.cpp:596 src/menu_events.cpp:916
+#: src/menu_events.cpp:1473
 msgid "Filter: "
 msgstr "Филтер: "
 
@@ -5998,7 +5994,7 @@ msgid "Are you sure you want to remove the add-on '$addon|'?"
 msgstr "Желите ли заиста да уклоните ‘$addon|’?"
 
 #. +> stable
-#: src/addon_management.cpp:1220 src/multiplayer.cpp:228
+#: src/addon_management.cpp:1220 src/multiplayer.cpp:227
 msgid "Confirm"
 msgstr "Потврди"
 
@@ -6257,77 +6253,77 @@ msgid "Moves: "
 msgstr "кретање: "
 
 #. +> stable
-#: src/game.cpp:577 src/game.cpp:1311
+#: src/game.cpp:573 src/game.cpp:1305
 msgid "The Battle for Wesnoth"
 msgstr "Бој за Веснот"
 
 #. +> stable
-#: src/game.cpp:908 src/game.cpp:916
+#: src/game.cpp:902 src/game.cpp:910
 msgid "The file you have tried to load is corrupt"
 msgstr "Датотека коју сте покушали да отворите искварена је"
 
 #. +> stable
-#: src/game.cpp:911 src/game.cpp:919 src/savegame.cpp:534
+#: src/game.cpp:905 src/game.cpp:913 src/savegame.cpp:534
 msgid "The file you have tried to load is corrupt: '"
 msgstr "Датотека коју сте покушали да учитате искварена је: '"
 
 #. +> stable
-#: src/game.cpp:923
+#: src/game.cpp:917
 msgid "File I/O Error while reading the game"
 msgstr "У/И грешка у датотеци приликом читања позиције"
 
 #. +> stable
-#: src/game.cpp:1018
+#: src/game.cpp:1012
 msgid "No campaigns are available.\n"
 msgstr "Нема ниједног похода.\n"
 
 #. +> stable
-#: src/game.cpp:1056
+#: src/game.cpp:1050
 msgid "Difficulty"
 msgstr "Тежина"
 
 #. +> stable
-#: src/game.cpp:1057
+#: src/game.cpp:1051
 msgid "Select difficulty level:"
 msgstr "Изаберите ниво тежине:"
 
 #. +> stable
-#: src/game.cpp:1192
+#: src/game.cpp:1186
 msgid "Do you really want to start the server?"
 msgstr "Желите ли заиста да покренете сервер?"
 
 #. +> stable
-#: src/game.cpp:1193
+#: src/game.cpp:1187
 msgid "The server will run in a background process until all users have disconnected."
 msgstr "Сервер ће радити као позадински процес док се не откаче сви корисници."
 
 #. +> stable
-#: src/game.cpp:1197
+#: src/game.cpp:1191
 msgid "Don't show again"
 msgstr "Не показуј поново"
 
 #. +> stable
-#: src/game.cpp:1268
+#: src/game.cpp:1262
 msgid "Error while starting server: "
 msgstr "Грешка при покретању сервера: "
 
 #. +> stable
-#: src/game.cpp:1270 src/playcampaign.cpp:105 src/playcampaign.cpp:392
+#: src/game.cpp:1264 src/playcampaign.cpp:104 src/playcampaign.cpp:391
 msgid "The game could not be loaded: "
 msgstr "Позицију није могуће учитати: "
 
 #. +> stable
-#: src/game.cpp:1272 src/playcampaign.cpp:107 src/playcampaign.cpp:395
+#: src/game.cpp:1266 src/playcampaign.cpp:106 src/playcampaign.cpp:394
 msgid "Error while playing the game: "
 msgstr "Грешка приликом играња партије: "
 
 #. +> stable
-#: src/game.cpp:1290 src/playcampaign.cpp:109 src/playcampaign.cpp:398
+#: src/game.cpp:1284 src/playcampaign.cpp:108 src/playcampaign.cpp:397
 msgid "The game map could not be loaded: "
 msgstr "Мапу игре није могуће учитати: "
 
 #. +> stable
-#: src/game.cpp:1440
+#: src/game.cpp:1426
 msgid "The following add-on had errors and could not be loaded:"
 msgid_plural "The following add-ons had errors and could not be loaded:"
 msgstr[0] "С‹љедећи додаци имају грешку и не могу се учитати:"
@@ -6336,42 +6332,42 @@ msgstr[2] "С‹љедећи додаци имају грешку и не мог
 msgstr[3] "С‹љедећи додатак има грешку и не може се учитати:"
 
 #. +> stable
-#: src/game.cpp:1447
+#: src/game.cpp:1433
 msgid "ERROR DETAILS:"
 msgstr "ДЕТАЉИ ГРЕШКЕ:"
 
 #. +> stable
-#: src/game.cpp:1467
+#: src/game.cpp:1453
 msgid "Error loading game configuration files: '"
 msgstr "Грешка при учитавању поставних датотека игре: '"
 
 #. +> stable
-#: src/game.cpp:1468
+#: src/game.cpp:1454
 msgid "' (The game will now exit)"
 msgstr "' (игра ће се сад угасити)"
 
 #. +> stable
-#: src/game.cpp:1477
+#: src/game.cpp:1463
 msgid "Loading data files"
 msgstr "Учитавам податке."
 
 #. +> stable
-#: src/game.cpp:1908
+#: src/game.cpp:1889
 msgid "Loading game configuration."
 msgstr "Учитавам поставу игре."
 
 #. +> stable
-#: src/game.cpp:1914
+#: src/game.cpp:1895
 msgid "Re-initialize fonts for the current language."
 msgstr "Поново припремам фонтове за текући језик."
 
 #. +> stable
-#: src/game.cpp:1922
+#: src/game.cpp:1903
 msgid "Searching for installed add-ons."
 msgstr "Тражим инсталиране додатке."
 
 #. +> stable
-#: src/game.cpp:1931
+#: src/game.cpp:1912
 msgid "Loading title screen."
 msgstr "Учитавам насловни екран."
 
@@ -6798,7 +6794,7 @@ msgid "<header>text='Units of this race'</header>"
 msgstr "<header>text='Јединице ове расе'</header>"
 
 #. +> stable
-#: src/help.cpp:2683 src/menu_events.cpp:569
+#: src/help.cpp:2683 src/menu_events.cpp:570
 msgid " < Back"
 msgstr " < Назад"
 
@@ -6838,7 +6834,7 @@ msgid "System default language"
 msgstr "Системски језик"
 
 #. +> stable
-#: src/leader_list.cpp:137 src/menu_events.cpp:1464
+#: src/leader_list.cpp:137 src/menu_events.cpp:1463
 #: src/multiplayer_connect.cpp:221 src/multiplayer_connect.cpp:265
 msgctxt "gender"
 msgid "Random"
@@ -6892,128 +6888,128 @@ msgid "Random maps with an odd width aren't supported."
 msgstr "Насумичне мапе непарне ширине нису подржане."
 
 #. +> stable
-#: src/menu_events.cpp:90 src/menu_events.cpp:93 src/menu_events.cpp:97
+#: src/menu_events.cpp:91 src/menu_events.cpp:94 src/menu_events.cpp:98
 msgid "Do you really want to dismiss him?"
 msgstr "Желите ли заиста да га отпустите?"
 
 #. +> stable
-#: src/menu_events.cpp:90
+#: src/menu_events.cpp:91
 msgid "My lord, this unit is loyal and requires no upkeep! "
 msgstr "Господару, ова јединица је одана и не тражи издатке! "
 
 #. +> stable
-#: src/menu_events.cpp:91 src/menu_events.cpp:94 src/menu_events.cpp:98
+#: src/menu_events.cpp:92 src/menu_events.cpp:95 src/menu_events.cpp:99
 msgid "Do you really want to dismiss her?"
 msgstr "Желите ли заиста да је отпустите?"
 
 #. +> stable
-#: src/menu_events.cpp:93
+#: src/menu_events.cpp:94
 msgid "My lord, this unit is an experienced one, having advanced levels! "
 msgstr "Господару, ова јединица је искусна, и на вишем нивоу! "
 
 #. +> stable
-#: src/menu_events.cpp:97
+#: src/menu_events.cpp:98
 msgid "My lord, this unit is close to advancing a level! "
 msgstr "Господару, ова јединица је близу напредовању! "
 
 #. +> stable
-#: src/menu_events.cpp:195
+#: src/menu_events.cpp:196
 msgid "Statistics"
 msgstr "Статистика"
 
 #. +> stable
-#: src/menu_events.cpp:206
+#: src/menu_events.cpp:207
 msgid "Moves"
 msgstr "кретњи"
 
 #. +> stable
-#: src/menu_events.cpp:207
+#: src/menu_events.cpp:208
 msgid "Status"
 msgstr "стање"
 
 #. +> stable
-#: src/menu_events.cpp:209 src/menu_events.cpp:843
+#: src/menu_events.cpp:210 src/menu_events.cpp:844
 msgctxt "Level"
 msgid "Lvl."
 msgstr "нв."
 
 #. +> stable
-#: src/menu_events.cpp:211
+#: src/menu_events.cpp:212
 msgctxt "unit list"
 msgid "Traits"
 msgstr "особине"
 
 #. +> stable
-#: src/menu_events.cpp:309
+#: src/menu_events.cpp:310
 msgid "Unit List"
 msgstr "Списак јединица"
 
 #. +> stable
-#: src/menu_events.cpp:315 src/menu_events.cpp:337
+#: src/menu_events.cpp:316 src/menu_events.cpp:338
 msgid "Scroll To"
 msgstr "Склизни до"
 
 #. +> stable
-#: src/menu_events.cpp:369
+#: src/menu_events.cpp:370
 msgid "Leader"
 msgstr "вођ"
 
 #. +> stable
-#: src/menu_events.cpp:370 src/multiplayer_connect.cpp:1017
+#: src/menu_events.cpp:371 src/multiplayer_connect.cpp:1017
 msgid "Team"
 msgstr "тим"
 
 #. +> stable
-#: src/menu_events.cpp:371 src/multiplayer_connect.cpp:1028
+#: src/menu_events.cpp:372 src/multiplayer_connect.cpp:1028
 msgid "Gold"
 msgstr "злато"
 
 #. +> stable
-#: src/menu_events.cpp:372
+#: src/menu_events.cpp:373
 msgid "Villages"
 msgstr "села"
 
 #. +> stable
-#: src/menu_events.cpp:373
+#: src/menu_events.cpp:374
 msgctxt "status"
 msgid "Units"
 msgstr "јединице"
 
 #. +> stable
-#: src/menu_events.cpp:374
+#: src/menu_events.cpp:375
 msgid "Upkeep"
 msgstr "издаци"
 
 #. +> stable
-#: src/menu_events.cpp:375 src/multiplayer_connect.cpp:1029
+#: src/menu_events.cpp:376 src/multiplayer_connect.cpp:1029
 #: src/multiplayer_wait.cpp:507
 msgid "Income"
 msgstr "приход"
 
 #. +> stable
-#: src/menu_events.cpp:476
+#: src/menu_events.cpp:477
 msgid "Current Status"
 msgstr "Тренутно стање"
 
 #. +> stable
-#: src/menu_events.cpp:477
+#: src/menu_events.cpp:478
 msgid "More >"
 msgstr "Још >"
 
 #. +> stable
-#: src/menu_events.cpp:495
+#: src/menu_events.cpp:496
 msgctxt "scenario settings"
 msgid "Leader"
 msgstr "вођ"
 
 #. +> stable
-#: src/menu_events.cpp:497
+#: src/menu_events.cpp:498
 msgctxt "scenario settings"
 msgid "Side"
 msgstr "страна"
 
 #. +> stable
-#: src/menu_events.cpp:498
+#: src/menu_events.cpp:499
 msgctxt "scenario settings"
 msgid ""
 "Start\n"
@@ -7023,7 +7019,7 @@ msgstr ""
 "злата"
 
 #. +> stable
-#: src/menu_events.cpp:499
+#: src/menu_events.cpp:500
 msgctxt "scenario settings"
 msgid ""
 "Base\n"
@@ -7033,7 +7029,7 @@ msgstr ""
 "приход"
 
 #. +> stable
-#: src/menu_events.cpp:500
+#: src/menu_events.cpp:501
 msgctxt "scenario settings"
 msgid ""
 "Gold Per\n"
@@ -7043,74 +7039,74 @@ msgstr ""
 "по селу"
 
 #. +> stable
-#: src/menu_events.cpp:501
+#: src/menu_events.cpp:502
 msgctxt "scenario settings"
 msgid "Fog"
 msgstr "магла"
 
 #. +> stable
-#: src/menu_events.cpp:502
+#: src/menu_events.cpp:503
 msgctxt "scenario settings"
 msgid "Shroud"
 msgstr "покров"
 
 #. +> stable
-#: src/menu_events.cpp:549 src/menu_events.cpp:550
+#: src/menu_events.cpp:550 src/menu_events.cpp:551
 msgid "no"
 msgstr "не"
 
 #. +> stable
-#: src/menu_events.cpp:549 src/menu_events.cpp:550
+#: src/menu_events.cpp:550 src/menu_events.cpp:551
 msgid "yes"
 msgstr "да"
 
 #. +> stable
-#: src/menu_events.cpp:566
+#: src/menu_events.cpp:567
 msgid "Scenario Settings"
 msgstr "Поставке сценарија"
 
 #. +> stable
-#: src/menu_events.cpp:588
+#: src/menu_events.cpp:589
 msgid "Save the Map As"
 msgstr "Сачувај мапу као"
 
 #. +> stable
-#: src/menu_events.cpp:593
+#: src/menu_events.cpp:594
 msgid "The map already exists. Do you want to overwrite it?"
 msgstr "Мапа већ постоји. Желите ли да је пребришете?"
 
 #. +> stable
-#: src/menu_events.cpp:605
+#: src/menu_events.cpp:606
 msgid "Map saved."
 msgstr "Мапа сачувана."
 
 #. +> stable
-#: src/menu_events.cpp:609
+#: src/menu_events.cpp:610
 msgid "Could not save the map: $msg"
 msgstr "Не могу да сачувам мапу: $msg"
 
 #. +> stable
-#: src/menu_events.cpp:624
+#: src/menu_events.cpp:625
 msgid "Chat Log"
 msgstr "Дневник ћаскања"
 
 #. +> stable
-#: src/menu_events.cpp:634
+#: src/menu_events.cpp:635
 msgid "Message:"
 msgstr "порука:"
 
 #. +> stable
-#: src/menu_events.cpp:635
+#: src/menu_events.cpp:636
 msgid "Send to allies only"
 msgstr "Пошаљи само савезницима"
 
 #. +> stable
-#: src/menu_events.cpp:635
+#: src/menu_events.cpp:636
 msgid "Send to observers only"
 msgstr "Пошаљи само посматрачима"
 
 #. +> stable
-#: src/menu_events.cpp:698
+#: src/menu_events.cpp:699
 msgctxt "unit"
 msgid "Gold"
 msgid_plural "Gold"
@@ -7120,32 +7116,32 @@ msgstr[2] "златника"
 msgstr[3] "златник"
 
 #. +> stable
-#: src/menu_events.cpp:705
+#: src/menu_events.cpp:706
 msgid "You have no units available to recruit."
 msgstr "Нема јединица спремних за унајмљивање."
 
 #. +> stable
-#: src/menu_events.cpp:717
+#: src/menu_events.cpp:718
 msgid "Recruit"
 msgstr "Унајмљивање"
 
 #. +> stable
-#: src/menu_events.cpp:718 src/menu_events.cpp:910
+#: src/menu_events.cpp:719 src/menu_events.cpp:911
 msgid "Select unit:"
 msgstr "Изаберите јединицу:"
 
 #. +> stable
-#: src/menu_events.cpp:764
+#: src/menu_events.cpp:765
 msgid "You don't have enough gold to recruit that unit"
 msgstr "Немате довољно злата да унајмите ту јединицу"
 
 #. +> stable
-#: src/menu_events.cpp:810
+#: src/menu_events.cpp:811
 msgid "You are separated from your soldiers and may not recall them"
 msgstr "Растављени сте од својих војника и не можете их сазвати"
 
 #. +> stable
-#: src/menu_events.cpp:833
+#: src/menu_events.cpp:834
 msgid ""
 "There are no troops available to recall\n"
 "(You must have veteran survivors from a previous scenario)"
@@ -7154,17 +7150,17 @@ msgstr ""
 "(Морате имати неке прежив›јеле из претходног сценарија)"
 
 #. +> stable
-#: src/menu_events.cpp:909
+#: src/menu_events.cpp:910
 msgid "Recall"
 msgstr "Сазови"
 
 #. +> stable
-#: src/menu_events.cpp:919
+#: src/menu_events.cpp:920
 msgid "Dismiss Unit"
 msgstr "Отпусти јединицу"
 
 #. +> stable
-#: src/menu_events.cpp:940
+#: src/menu_events.cpp:941
 msgid "You must have at least 1 gold piece to recall a unit"
 msgid_plural "You must have at least $cost gold pieces to recall a unit"
 msgstr[0] "Морате имати барем $cost златник да бисте сазвали јединицу"
@@ -7173,88 +7169,88 @@ msgstr[2] "Морате имати барем $cost златника да бис
 msgstr[3] "Морате имати барем један златник да бисте сазвали јединицу"
 
 #. +> stable
-#: src/menu_events.cpp:1306
+#: src/menu_events.cpp:1305
 msgid "You have not started your turn yet. Do you really want to end your turn?"
 msgstr "Нисте ни започели свој потез, желите ли заиста већ да га окончате?"
 
 #. +> stable
-#: src/menu_events.cpp:1314 src/menu_events.cpp:1319
+#: src/menu_events.cpp:1313 src/menu_events.cpp:1318
 msgid "Some units have movement left. Do you really want to end your turn?"
 msgstr "Неке јединице се још могу кретати. Желите ли заиста да завршите потез?"
 
 #. +> stable
-#: src/menu_events.cpp:1354
+#: src/menu_events.cpp:1353
 msgid "Rename Unit"
 msgstr "Преименуј јединицу"
 
 #. +> stable
-#: src/menu_events.cpp:1437
+#: src/menu_events.cpp:1436
 msgid "Race"
 msgstr "раса"
 
 #. +> stable
-#: src/menu_events.cpp:1461
+#: src/menu_events.cpp:1460
 msgid "Create Unit (Debug!)"
 msgstr "Створи јединицу (испр.!)"
 
 #. +> stable
-#: src/menu_events.cpp:1464 src/multiplayer_wait.cpp:127
+#: src/menu_events.cpp:1463 src/multiplayer_wait.cpp:127
 msgid "Gender: "
 msgstr "пол: "
 
 #. +> stable
-#: src/menu_events.cpp:1551
+#: src/menu_events.cpp:1550
 msgid "Place Label"
 msgstr "Постави етикету"
 
 #. +> stable
-#: src/menu_events.cpp:1553
+#: src/menu_events.cpp:1552
 msgid "Label: "
 msgstr "Етикета: "
 
 #. +> stable
-#: src/menu_events.cpp:1554
+#: src/menu_events.cpp:1553
 msgid "Team only"
 msgstr "Само тимски"
 
 #. +> stable
-#: src/menu_events.cpp:1757
+#: src/menu_events.cpp:1756
 msgid "Search"
 msgstr "Тражи"
 
 #. +> stable
-#: src/menu_events.cpp:1938
+#: src/menu_events.cpp:1937
 msgid "This command is currently unavailable."
 msgstr "Ова наредба тренутно није доступна."
 
 #. +> stable
-#: src/menu_events.cpp:1944
+#: src/menu_events.cpp:1943
 msgid "Unknown command '$command', try $help_command for a list of available commands."
 msgstr "Непозната наредба ‘$command’ (са $help_command добијате списак доступних наредби)."
 
 #. +> stable
-#: src/menu_events.cpp:1952
+#: src/menu_events.cpp:1951
 msgid "Available commands list and command-specific help. Use \"help all\" to include currently unavailable commands."
 msgstr "Списак доступних наредби и помоћ за њих. Употр›ијебите „help all“ да укључите и тренутно недоступне наредбе."
 
 #. +> stable
-#: src/menu_events.cpp:1954
+#: src/menu_events.cpp:1953
 msgctxt "do not translate the 'all'"
 msgid "[all|<command>]"
 msgstr "[all|<наредба>]"
 
 #. +> stable
-#: src/menu_events.cpp:1998
+#: src/menu_events.cpp:1997
 msgid "Error:"
 msgstr "Грешка:"
 
 #. +> stable
-#: src/menu_events.cpp:2004
+#: src/menu_events.cpp:2003
 msgid "Missing argument $arg_id"
 msgstr "Недостаје аргумент $arg_id"
 
 #. +> stable
-#: src/menu_events.cpp:2052
+#: src/menu_events.cpp:2051
 msgid ""
 "Available commands $flags_description:\n"
 "$list_of_commands"
@@ -7263,221 +7259,221 @@ msgstr ""
 "$list_of_commands"
 
 #. +> stable
-#: src/menu_events.cpp:2052 src/menu_events.cpp:2053 src/menu_events.cpp:2076
+#: src/menu_events.cpp:2051 src/menu_events.cpp:2052 src/menu_events.cpp:2075
 msgid "help"
 msgstr "помоћ"
 
 #. +> stable
-#: src/menu_events.cpp:2053
+#: src/menu_events.cpp:2052
 msgid "Type $help_command <command> for more info."
 msgstr "Упишите $help_command <наредба> за више детаља."
 
 #. +> stable
-#: src/menu_events.cpp:2064
+#: src/menu_events.cpp:2063
 msgid " No help available."
 msgstr " Помоћ није доступна."
 
 #. +> stable
-#: src/menu_events.cpp:2069
+#: src/menu_events.cpp:2068
 msgid "Usage:"
 msgstr "Употреба:"
 
 #. +> stable
-#: src/menu_events.cpp:2074
+#: src/menu_events.cpp:2073
 msgid "aliases:"
 msgstr "алијаси:"
 
 # well-spelled: админ
 #. +> stable
-#: src/menu_events.cpp:2200
+#: src/menu_events.cpp:2199
 msgid "(A) - admin command"
 msgstr "(A) — админ. наредба"
 
 # well-spelled: админ
 #. +> stable
-#: src/menu_events.cpp:2207 src/menu_events.cpp:2405
+#: src/menu_events.cpp:2206 src/menu_events.cpp:2405
 msgid "(admin only)"
 msgstr "(само админ.)"
 
 #. +> stable
-#: src/menu_events.cpp:2227
+#: src/menu_events.cpp:2226
 msgid "Send a query to the server. Without arguments the server should tell you the available commands."
 msgstr "Шаље упит серверу. Без аргумената, сервер треба да наброји доступне наредбе."
 
 #. +> stable
-#: src/menu_events.cpp:2231
+#: src/menu_events.cpp:2230
 msgid "Ban and kick a player or observer. If he is not in the game but on the server he will only be banned."
 msgstr "Забрањује и избацује играча или посматрача. Ако није у игри, већ на серверу, биће само забрањен."
 
 #. +> stable
-#: src/menu_events.cpp:2232 src/menu_events.cpp:2235 src/menu_events.cpp:2237
-#: src/menu_events.cpp:2239 src/menu_events.cpp:2241 src/menu_events.cpp:2266
-#: src/menu_events.cpp:2268 src/menu_events.cpp:2270 src/menu_events.cpp:2284
+#: src/menu_events.cpp:2231 src/menu_events.cpp:2234 src/menu_events.cpp:2236
+#: src/menu_events.cpp:2238 src/menu_events.cpp:2240 src/menu_events.cpp:2265
+#: src/menu_events.cpp:2267 src/menu_events.cpp:2269 src/menu_events.cpp:2283
 msgid "<nick>"
 msgstr "<надимак>"
 
 #. +> stable
-#: src/menu_events.cpp:2234
+#: src/menu_events.cpp:2233
 msgid "Unban a user. He does not have to be in the game but on the server."
 msgstr "Укида забрану играчу, који не мора бити у игри, али мора на серверу."
 
 #. +> stable
-#: src/menu_events.cpp:2237
+#: src/menu_events.cpp:2236
 msgid "Kick a player or observer."
 msgstr "Избацује играча или посматрача."
 
 #. +> stable
-#: src/menu_events.cpp:2239
+#: src/menu_events.cpp:2238
 msgid "Mute an observer. Without an argument displays the mute status."
 msgstr "Утишава посматрача. Без аргумената приказује стање утишаности."
 
 #. +> stable
-#: src/menu_events.cpp:2241
+#: src/menu_events.cpp:2240
 msgid "Unmute an observer. Without an argument unmutes everyone."
 msgstr "Укида утишаност посматрача. Без аргумената укида утишаност свима."
 
 #. +> stable
-#: src/menu_events.cpp:2243
+#: src/menu_events.cpp:2242
 msgid "Mute/Unmute all observers. (toggles)"
 msgstr "Утишава или укида утишаност свих посматрача."
 
 #. +> stable
-#: src/menu_events.cpp:2253
+#: src/menu_events.cpp:2252
 msgid "Send a message to the server admins currently online"
 msgstr "Шаље поруку администраторима сервера тренутно на вези."
 
 #. +> stable
-#: src/menu_events.cpp:2255
+#: src/menu_events.cpp:2254
 msgid "<message>"
 msgstr "<порука>"
 
 #. +> stable
-#: src/menu_events.cpp:2255
+#: src/menu_events.cpp:2254
 msgid "Send an emotion or personal action in chat."
 msgstr "Шаље емоцију или личну радњу у ћаскање."
 
 #. +> stable
-#: src/menu_events.cpp:2258
+#: src/menu_events.cpp:2257
 msgid "Sends a private message. You can't send messages to players that don't control a side in a running game you are in."
 msgstr "Шаље приватну поруку. Не можете слати поруке играчима који не управљају неком страном у текућој партији у којој сте и сами."
 
 #. +> stable
-#: src/menu_events.cpp:2260
+#: src/menu_events.cpp:2259
 msgid "<nick> <message>"
 msgstr "<надимак> <порука>"
 
 #. +> stable
-#: src/menu_events.cpp:2264
+#: src/menu_events.cpp:2263
 msgid "<level> <domain>"
 msgstr "<ниво> <домен>"
 
 #. +> stable
-#: src/menu_events.cpp:2264
+#: src/menu_events.cpp:2263
 msgid "Change the log level of a log domain."
 msgstr "М›ијења ниво б‹иљежења за домен б‹иљежења."
 
 #. +> stable
-#: src/menu_events.cpp:2266
+#: src/menu_events.cpp:2265
 msgid "Add a nick to your ignores list."
 msgstr "Додаје надимак на списак игнорисаних."
 
 #. +> stable
-#: src/menu_events.cpp:2268
+#: src/menu_events.cpp:2267
 msgid "Add a nick to your friends list."
 msgstr "Додаје надимак на списак пријатеља."
 
 #. +> stable
-#: src/menu_events.cpp:2270
+#: src/menu_events.cpp:2269
 msgid "Remove a nick from your ignores or friends list."
 msgstr "Уклања играча са списка игнорисаних или пријатеља."
 
 #. +> stable
-#: src/menu_events.cpp:2272
+#: src/menu_events.cpp:2271
 msgid "Show your ignores and friends list."
 msgstr "Приказује списак игнорисаних и пријатеља."
 
 #. +> stable
-#: src/menu_events.cpp:2275
+#: src/menu_events.cpp:2274
 msgid "Display version information."
 msgstr "Приказује податак о верзији."
 
 #. +> stable
-#: src/menu_events.cpp:2277
+#: src/menu_events.cpp:2276
 msgid "<password> <email (optional)>"
 msgstr "<лозинка> <е-пошта (опционо)>"
 
 #. +> stable
-#: src/menu_events.cpp:2277
+#: src/menu_events.cpp:2276
 msgid "Register your nick"
 msgstr "Региструје ваш надимак."
 
 #. +> stable
-#: src/menu_events.cpp:2279
+#: src/menu_events.cpp:2278
 msgid "Drop your nick."
 msgstr "Испушта ваш надимак."
 
 #. +> stable
-#: src/menu_events.cpp:2281
+#: src/menu_events.cpp:2280
 msgid "Update details for your nick. For possible details see '/details'."
 msgstr "Ажурира детаље вашег надимка. За могуће детаље, извршити „/details“."
 
 #. +> stable
-#: src/menu_events.cpp:2282
+#: src/menu_events.cpp:2281
 msgid "<detail> <value>"
 msgstr "<детаљ> <вр›иједност>"
 
 #. +> stable
-#: src/menu_events.cpp:2284
+#: src/menu_events.cpp:2283
 msgid "Request information about a nick."
 msgstr "Затражите податке о надимку."
 
 #. +> stable
-#: src/menu_events.cpp:2286
+#: src/menu_events.cpp:2285
 msgid "Request a list of details you can set for your registered nick."
 msgstr "Захт›ијева списак детаља које можете задати уз регистровани надимак."
 
 #. +> stable
-#: src/menu_events.cpp:2288 src/menu_events.cpp:2291 src/menu_events.cpp:2293
+#: src/menu_events.cpp:2287 src/menu_events.cpp:2290 src/menu_events.cpp:2292
 msgid "<room>"
 msgstr "<соба>"
 
 #. +> stable
-#: src/menu_events.cpp:2288
+#: src/menu_events.cpp:2287
 msgid "Join a room."
 msgstr "Придружи се соби."
 
 #. +> stable
-#: src/menu_events.cpp:2291
+#: src/menu_events.cpp:2290
 msgid "Part a room."
 msgstr "Напусти собу."
 
 #. +> stable
-#: src/menu_events.cpp:2293
+#: src/menu_events.cpp:2292
 msgid "List room members."
 msgstr "Наброји чланове собе."
 
 #. +> stable
-#: src/menu_events.cpp:2295
+#: src/menu_events.cpp:2294
 msgid "List available rooms."
 msgstr "Наброји доступне собе."
 
 #. +> stable
-#: src/menu_events.cpp:2297
+#: src/menu_events.cpp:2296
 msgid "<room> <msg>"
 msgstr "<соба> <порука>"
 
 #. +> stable
-#: src/menu_events.cpp:2297
+#: src/menu_events.cpp:2296
 msgid "Room message."
 msgstr "Порука собе."
 
 #. +> stable
-#: src/menu_events.cpp:2299
+#: src/menu_events.cpp:2298
 msgid "<room> <type> [value]"
 msgstr "<соба> <тип> [вредност]"
 
 #. +> stable
-#: src/menu_events.cpp:2299
+#: src/menu_events.cpp:2298
 msgid "Room query."
 msgstr "Упит собе."
 
@@ -7589,292 +7585,312 @@ msgid "Turn debug mode off."
 msgstr "Искључује исправљачки режим."
 
 #. +> stable
+#: src/menu_events.cpp:2464 src/menu_events.cpp:2468
+msgid "<command>[;<command>...]"
+msgstr "<наредба>[;<наредба>...]"
+
+#. +> stable
 #: src/menu_events.cpp:2464
 msgid "Execute a Lua statement."
 msgstr "Извршава ~@/Lua/луа/ исказ."
 
 #. +> stable
 #: src/menu_events.cpp:2466
-msgid "<command>[;<command>...]"
-msgstr "<наредба>[;<наредба>...]"
+msgid "Grant higher privileges to Lua scripts."
+msgstr ""
 
 #. +> stable
-#: src/menu_events.cpp:2466
+#: src/menu_events.cpp:2468
 msgid "Set the command used by the custom command hotkey"
 msgstr "Поставља наредбу на пречицу посебне наредбе."
 
 #. +> stable
-#: src/menu_events.cpp:2468
+#: src/menu_events.cpp:2470
 msgid "Launch the gamestate inspector"
 msgstr "Покреће испитивач стања игре."
 
 #. +> stable
-#: src/menu_events.cpp:2470
+#: src/menu_events.cpp:2472
 msgid "<name>[=<command>]"
 msgstr "<име>[=<наредба>]"
 
 #. +> stable
-#: src/menu_events.cpp:2470
+#: src/menu_events.cpp:2472
 msgid "Set or show alias to a command"
 msgstr "Поставља или приказује алијас наредбе."
 
 #. +> stable
-#: src/menu_events.cpp:2472
+#: src/menu_events.cpp:2474
 msgid "<var>=<value>"
 msgstr "<променљива>=<вредност>"
 
 #. +> stable
-#: src/menu_events.cpp:2472
+#: src/menu_events.cpp:2474
 msgid "Set a scenario variable."
 msgstr "Поставља променљиву сценарија."
 
 #. +> stable
-#: src/menu_events.cpp:2474
+#: src/menu_events.cpp:2476
 msgid "<var>"
 msgstr "<променљива>"
 
 #. +> stable
-#: src/menu_events.cpp:2474
+#: src/menu_events.cpp:2476
 msgid "Show a scenario variable."
 msgstr "Приказује променљиву сценарија."
 
 #. +> stable
-#: src/menu_events.cpp:2476
+#: src/menu_events.cpp:2478
 msgid "Modify a unit variable. (Only top level keys are supported.)"
 msgstr "М›ијења пром›јенљиву јединице. (Подржани су само кључеви највишег нивоа.)"
 
 #. +> stable
-#: src/menu_events.cpp:2483
+#: src/menu_events.cpp:2485
 msgid "Discover all units in help."
 msgstr "Открива све јединице у помоћи."
 
 #. +> stable
-#: src/menu_events.cpp:2488
+#: src/menu_events.cpp:2490
 msgid "Create a unit."
 msgstr "Ствара јединицу."
 
 #. +> stable
-#: src/menu_events.cpp:2490
+#: src/menu_events.cpp:2492
 msgid "Toggle fog for the current player."
 msgstr "Магла за текућег играча."
 
 #. +> stable
-#: src/menu_events.cpp:2492
+#: src/menu_events.cpp:2494
 msgid "Toggle shroud for the current player."
 msgstr "Са или без покрова за текућег играча."
 
 #. +> stable
-#: src/menu_events.cpp:2494
+#: src/menu_events.cpp:2496
 msgid "Give gold to the current player."
 msgstr "Даје злато текућем играчу."
 
 #. +> stable
-#: src/menu_events.cpp:2496
+#: src/menu_events.cpp:2498
 msgid "Fire a game event."
 msgstr "Окида догађај у игри."
 
 #. +> stable
-#: src/menu_events.cpp:2499
+#: src/menu_events.cpp:2501
 msgid "Toggle overlaying of x,y coordinates on hexes."
 msgstr "Преклапање x- и y-координата по пољима."
 
 #. +> stable
-#: src/menu_events.cpp:2502
+#: src/menu_events.cpp:2504
 msgid "Toggle overlaying of terrain codes on hexes."
 msgstr "Преклапање теренских кодова по пољима."
 
 #. +> stable
-#: src/menu_events.cpp:2546
+#: src/menu_events.cpp:2548
 msgid "Unknown debug level: '$level'."
 msgstr "Непознат исправљачки ниво: ‘$level|’."
 
 #. +> stable
-#: src/menu_events.cpp:2548 src/menu_events.cpp:2557
+#: src/menu_events.cpp:2550 src/menu_events.cpp:2559
 msgid "error"
 msgstr "грешка"
 
 #. +> stable
-#: src/menu_events.cpp:2555
+#: src/menu_events.cpp:2557
 msgid "Unknown debug domain: '$domain'."
 msgstr "Непознат исправљачки домен: ‘$domain|’."
 
 #. +> stable
-#: src/menu_events.cpp:2564
+#: src/menu_events.cpp:2566
 msgid "Switched domain: '$domain' to level: '$level'."
 msgstr "Домен пребачен: ‘$domain|’ на ниво: ‘$level|’."
 
 #. +> stable
-#: src/menu_events.cpp:2635
+#: src/menu_events.cpp:2637
 msgid "whisper to $receiver"
 msgstr "шапат за $receiver"
 
 #. +> stable
-#: src/menu_events.cpp:2642
+#: src/menu_events.cpp:2644
 msgid "whisper: $sender"
 msgstr "шапат: $sender"
 
 #. +> stable
-#: src/menu_events.cpp:2738 src/menu_events.cpp:2757
+#: src/menu_events.cpp:2740 src/menu_events.cpp:2759
 #: src/multiplayer_connect.cpp:699
 msgid "(empty)"
 msgstr "(празно)"
 
 #. +> stable
-#: src/menu_events.cpp:2738 src/menu_events.cpp:2744 src/menu_events.cpp:2794
+#: src/menu_events.cpp:2740 src/menu_events.cpp:2746 src/menu_events.cpp:2796
 msgid "ignores list"
 msgstr "списак игнорисаних"
 
 #. +> stable
-#: src/menu_events.cpp:2744
+#: src/menu_events.cpp:2746
 msgid "Added to ignore list: $nick"
 msgstr "Додат на списак игнорисаних: $nick"
 
 #. +> stable
-#: src/menu_events.cpp:2747 src/menu_events.cpp:2766
+#: src/menu_events.cpp:2749 src/menu_events.cpp:2768
 msgid "Invalid username: $nick"
 msgstr "Лоше корисничко име: $nick"
 
 #. +> stable
-#: src/menu_events.cpp:2757 src/menu_events.cpp:2764 src/menu_events.cpp:2790
+#: src/menu_events.cpp:2759 src/menu_events.cpp:2766 src/menu_events.cpp:2792
 msgid "friends list"
 msgstr "списак пријатеља"
 
 #. +> stable
-#: src/menu_events.cpp:2764
+#: src/menu_events.cpp:2766
 msgid "Added to friends list: $nick"
 msgstr "Додат на списак пријатеља: $nick"
 
 #. +> stable
-#: src/menu_events.cpp:2780
+#: src/menu_events.cpp:2782
 msgid "Removed from list: $nick"
 msgstr "Уклоњен са списка: $nick"
 
 #. +> stable
-#: src/menu_events.cpp:2780 src/menu_events.cpp:2798
+#: src/menu_events.cpp:2782 src/menu_events.cpp:2800
 msgid "friends and ignores list"
 msgstr "списак пријатеља и игнорисаних"
 
 #. +> stable
-#: src/menu_events.cpp:2798
+#: src/menu_events.cpp:2800
 msgid "There are no players on your friends or ignore list."
 msgstr "Нема играча ни на вашем списку пријатеља ни игнорисаних."
 
 #. +> stable
-#: src/menu_events.cpp:2803
+#: src/menu_events.cpp:2805
 msgid "version"
 msgstr "верзија"
 
 #. +> stable
-#: src/menu_events.cpp:2819
+#: src/menu_events.cpp:2821
 msgid "registering with password *** and no email address"
 msgstr "региструјем са лозинком *** и без адресе е-поште"
 
 #. +> stable
-#: src/menu_events.cpp:2823
+#: src/menu_events.cpp:2825
 msgid "registering with password *** and email address $email"
 msgstr "региструјем са лозинком *** и адресом е-поште $email"
 
 #. +> stable
-#: src/menu_events.cpp:2826 src/menu_events.cpp:2837 src/menu_events.cpp:2855
-#: src/menu_events.cpp:2869
+#: src/menu_events.cpp:2828 src/menu_events.cpp:2839 src/menu_events.cpp:2857
+#: src/menu_events.cpp:2871
 msgid "nick registration"
 msgstr "региструјем надимак"
 
 #. +> stable
-#: src/menu_events.cpp:2837
+#: src/menu_events.cpp:2839
 msgid "dropping your username"
 msgstr "уклањам ваш надимак"
 
 #. +> stable
-#: src/menu_events.cpp:2855
+#: src/menu_events.cpp:2857
 msgid "setting $var to $value"
 msgstr "постављам $var на $value"
 
 #. +> stable
-#: src/menu_events.cpp:2869
+#: src/menu_events.cpp:2871
 msgid "requesting information for user $nick"
 msgstr "тражим податке о кориснику $nick"
 
 #. +> stable
-#: src/menu_events.cpp:2981
+#: src/menu_events.cpp:2983
 msgid "Couldn't find label or unit containing the string '$search'."
 msgstr "Не могу да нађем етикету или јединицу која садржи ‘$search|’."
 
 # well-spelled: дроидовати
 #. +> stable
-#: src/menu_events.cpp:3010
+#: src/menu_events.cpp:3012
 msgid "Can't droid invalid side: '$side'."
 msgstr "Не може се дроидовати лоша страна: ‘$side|’."
 
 # well-spelled: дроидовати
 #. +> stable
-#: src/menu_events.cpp:3015
+#: src/menu_events.cpp:3017
 msgid "Can't droid networked side: '$side'."
 msgstr "Не може се дроидовати умрежена страна: ‘$side|’."
 
 #. +> stable
-#: src/menu_events.cpp:3052
+#: src/menu_events.cpp:3054
 msgid "Can't change control of invalid side: '$side'."
 msgstr "Не може се пром›ијенити управљање над лошом страном: ‘$side|’."
 
 #. +> stable
-#: src/menu_events.cpp:3058
+#: src/menu_events.cpp:3060
 msgid "Can't change control of out-of-bounds side: '$side'."
 msgstr "Не може се пром›ијенити управљање над страном ван граница: ‘$side|’."
 
 #. +> stable
-#: src/menu_events.cpp:3149
+#: src/menu_events.cpp:3151
 msgid "Choose Scenario (Debug!)"
 msgstr "Избор сценарија (испр.!)"
 
 #. +> stable
-#: src/menu_events.cpp:3170
+#: src/menu_events.cpp:3172
 msgid "Debug mode activated!"
 msgstr "Исправљање активирано!"
 
 #. +> stable
-#: src/menu_events.cpp:3173
+#: src/menu_events.cpp:3175
 msgid "Debug mode not available in network games"
 msgstr "Исправљање није доступно у мрежним партијама."
 
 #. +> stable
-#: src/menu_events.cpp:3178
+#: src/menu_events.cpp:3180
 msgid "Debug mode deactivated!"
 msgstr "Исправљање деактивирано!"
 
 #. +> stable
-#: src/menu_events.cpp:3224
+#: src/menu_events.cpp:3191
+msgid "Unsafe Lua scripts."
+msgstr ""
+
+#. +> stable
+#: src/menu_events.cpp:3192
+msgid "You are about to open a security breach in Wesnoth. Are you sure you want to continue? If you have downloaded add-ons, do not click 'ok'! They would instantly take over your computer. You have been warned."
+msgstr ""
+
+#. +> stable
+#: src/menu_events.cpp:3195
+msgid "Unsafe mode enabled!"
+msgstr ""
+
+#. +> stable
+#: src/menu_events.cpp:3238
 msgid "Variable not found"
 msgstr "Променљива није нађена"
 
 #. +> stable
-#: src/menu_events.cpp:3262
+#: src/menu_events.cpp:3276
 msgid "Invalid alignment: '$alignment', needs to be one of lawful, neutral or chaotic."
 msgstr "Лош аргумент: ‘$alignment’ мора бити једно од lawful, neutral или chaotic."
 
 #. +> stable
-#: src/menu_events.cpp:3319
+#: src/menu_events.cpp:3333
 msgid "Invalid unit type"
 msgstr "Лош тип јединице"
 
 #. +> stable
-#: src/menu_events.cpp:3332
+#: src/menu_events.cpp:3346
 msgid "Invalid location"
 msgstr "Лоша локација"
 
 #. +> stable
-#: src/menu_events.cpp:3368
+#: src/menu_events.cpp:3382
 msgid "ai"
 msgstr "ВИ"
 
 #. +> stable
-#: src/menu_events.cpp:3378 src/menu_events.cpp:3393
+#: src/menu_events.cpp:3392 src/menu_events.cpp:3407
 msgctxt "prompt"
 msgid "Command:"
 msgstr "наредба:"
 
 #. +> stable
-#: src/menu_events.cpp:3413
+#: src/menu_events.cpp:3427
 msgid "User-Command#3"
 msgstr "корисничка-наредба#3"
 
@@ -7889,82 +7905,82 @@ msgid "Choose weapon:"
 msgstr "Избор оружја:"
 
 #. +> stable
-#: src/multiplayer.cpp:138 src/multiplayer.cpp:175
+#: src/multiplayer.cpp:137 src/multiplayer.cpp:174
 msgid "Connecting to Server..."
 msgstr "Повезујем се са сервером..."
 
 #. +> stable
-#: src/multiplayer.cpp:148
+#: src/multiplayer.cpp:147
 msgid "Reading from Server..."
 msgstr "Читам са сервера..."
 
 #. +> stable
-#: src/multiplayer.cpp:158
+#: src/multiplayer.cpp:157
 msgid "The server requires version '$version1' while you are using version '$version2'"
 msgstr "Сервер захт›ијева верзију '$version1', док је ваша '$version2'."
 
 #. +> stable
-#: src/multiplayer.cpp:169
+#: src/multiplayer.cpp:168
 msgid "Server-side redirect loop"
 msgstr "Петља преусмеравања на страни сервера"
 
 #. +> stable
-#: src/multiplayer.cpp:257
+#: src/multiplayer.cpp:256
 msgid "Bad data received from server"
 msgstr "Лоши подаци примљени са сервера"
 
 #. +> stable
-#: src/multiplayer.cpp:298
+#: src/multiplayer.cpp:297
 msgid "You must login first."
 msgstr "Морате се прво пријавити."
 
 #. +> stable
-#: src/multiplayer.cpp:300
+#: src/multiplayer.cpp:299
 msgid "The nick '$nick' is already taken."
 msgstr "Надимак „$nick“ већ је заузет."
 
 #. +> stable
-#: src/multiplayer.cpp:302
+#: src/multiplayer.cpp:301
 msgid "The nick '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed."
 msgstr "Надимак „$nick“ садржи лоше знакове. Дозвољена су само слова, бројеви, подвлаке и цртице."
 
 #. +> stable
-#: src/multiplayer.cpp:306
+#: src/multiplayer.cpp:305
 msgid "The nick '$nick' is too long. Nicks must be 18 characters or less."
 msgstr "Надимак „$nick“ је предугачак. Не може имати више од 18 знакова."
 
 #. +> stable
-#: src/multiplayer.cpp:309
+#: src/multiplayer.cpp:308
 msgid "The nick '$nick' is reserved and cannot be used by players."
 msgstr "Надимак „$nick“ је резервисан и играчи га не могу узети."
 
 #. +> stable
-#: src/multiplayer.cpp:311
+#: src/multiplayer.cpp:310
 msgid "The nick '$nick' is not registered on this server."
 msgstr "Надимак „$nick“ није регистрован на овом серверу."
 
 #. +> stable
-#: src/multiplayer.cpp:312
+#: src/multiplayer.cpp:311
 msgid " This server disallows unregistered nicks."
 msgstr " Овај сервер не дозвољава нерегистроване надимке."
 
 #. +> stable
-#: src/multiplayer.cpp:314 src/multiplayer.cpp:316
+#: src/multiplayer.cpp:313 src/multiplayer.cpp:315
 msgid "The nick '$nick' is registered on this server."
 msgstr "Надимак „$nick“ регистрован је на овом серверу."
 
 #. +> stable
-#: src/multiplayer.cpp:317
+#: src/multiplayer.cpp:316
 msgid "WARNING: There is already a client using this nick, logging in will cause that client to be kicked!"
 msgstr "УПОЗОРЕЊЕ: Један клијент већ има овај надимак, пријављивањем ћете га избацити!"
 
 #. +> stable
-#: src/multiplayer.cpp:320
+#: src/multiplayer.cpp:319
 msgid "Error in the login procedure (the server had no seed for your connection)."
 msgstr "Грешка у поступку пријављивања (сервер нема семе за вашу везу)."
 
 #. +> stable
-#: src/multiplayer.cpp:323
+#: src/multiplayer.cpp:322
 msgid "The password you provided was incorrect."
 msgstr "Дали сте неисправну лозинку."
 
@@ -8585,62 +8601,62 @@ msgid "Back to turn "
 msgstr "Назад на потез "
 
 #. +> stable
-#: src/playcampaign.cpp:133 src/playcampaign.cpp:171
+#: src/playcampaign.cpp:132 src/playcampaign.cpp:170
 msgid "Defeat"
 msgstr "Пораз"
 
 #. +> stable
-#: src/playcampaign.cpp:134 src/playcampaign.cpp:172
+#: src/playcampaign.cpp:133 src/playcampaign.cpp:171
 msgid "You have been defeated!"
 msgstr "Поражени сте!"
 
 #. +> stable
-#: src/playcampaign.cpp:402
+#: src/playcampaign.cpp:401
 msgid "Error while reading the WML: "
 msgstr "Грешка при читању ~@/ВМЛ/WML/-а: "
 
 #. +> stable
-#: src/playcampaign.cpp:438
+#: src/playcampaign.cpp:437
 msgid "This scenario has ended. Do you want to continue the campaign?"
 msgstr "Сценарио је окончан. Желите ли да наставите поход?"
 
 #. +> stable
-#: src/playcampaign.cpp:464
+#: src/playcampaign.cpp:463
 msgid "Downloading next scenario..."
 msgstr "Преузимам следећи сценарио..."
 
 #. +> stable
-#: src/playcampaign.cpp:612
+#: src/playcampaign.cpp:611
 msgid "Do you want to save your game?"
 msgstr "Желите ли да сачувате позицију?"
 
 #. +> stable
-#: src/playcampaign.cpp:631
+#: src/playcampaign.cpp:630
 msgid "Unknown scenario: '$scenario|'"
 msgstr "Непознат сценарио: ‘$scenario|’"
 
 #. +> stable
-#: src/playmp_controller.cpp:94
+#: src/playmp_controller.cpp:93
 msgid "$name has taken control"
 msgstr "$name преузе управљање"
 
 #. +> stable
-#: src/playmp_controller.cpp:96
+#: src/playmp_controller.cpp:95
 msgid "Turn changed"
 msgstr "Пром›јена потеза"
 
 #. +> stable
-#: src/playmp_controller.cpp:228
+#: src/playmp_controller.cpp:227
 msgid "Undoing moves not yet transmitted to the server."
 msgstr "Опозив покрета се не може одаслати на сервер."
 
 #. +> stable
-#: src/playmp_controller.cpp:401
+#: src/playmp_controller.cpp:400
 msgid "Waiting for next scenario..."
 msgstr "Чекам на наредни сценарио..."
 
 #. +> stable
-#: src/playmp_controller.cpp:522
+#: src/playmp_controller.cpp:521
 msgid ""
 "The game is out of sync, and cannot continue. There are a number of reasons this could happen: this can occur if you or another player have modified their game settings. This may mean one of the players is attempting to cheat. It could also be due to a bug in the game, but this is less likely.\n"
 "\n"
@@ -8651,52 +8667,52 @@ msgstr ""
 "Желите ли да сачувате дневник грешака текуће партије?"
 
 #. +> stable
-#: src/playsingle_controller.cpp:213
+#: src/playsingle_controller.cpp:212
 msgid "Remaining gold: "
 msgstr "преостало злато: "
 
 #. +> stable
-#: src/playsingle_controller.cpp:217
+#: src/playsingle_controller.cpp:216
 msgid "Early finish bonus: "
 msgstr "бонус за рани завршетак: "
 
 #. +> stable
-#: src/playsingle_controller.cpp:219
+#: src/playsingle_controller.cpp:218
 msgid "per turn"
 msgstr "по потезу"
 
 #. +> stable
-#: src/playsingle_controller.cpp:220
+#: src/playsingle_controller.cpp:219
 msgid "Turns finished early: "
 msgstr "потеза завршено раније: "
 
 #. +> stable
-#: src/playsingle_controller.cpp:222
+#: src/playsingle_controller.cpp:221
 msgid "Bonus: "
 msgstr "бонус: "
 
 #. +> stable
-#: src/playsingle_controller.cpp:225
+#: src/playsingle_controller.cpp:224
 msgid "Gold: "
 msgstr "злато: "
 
 #. +> stable
-#: src/playsingle_controller.cpp:229
+#: src/playsingle_controller.cpp:228
 msgid "Carry over percentage: "
 msgstr "процената преношења: "
 
 #. +> stable
-#: src/playsingle_controller.cpp:232
+#: src/playsingle_controller.cpp:231
 msgid "Bonus Gold: "
 msgstr "бонус злата: "
 
 #. +> stable
-#: src/playsingle_controller.cpp:234
+#: src/playsingle_controller.cpp:233
 msgid "Retained Gold: "
 msgstr "задржано злато: "
 
 #. +> stable
-#: src/playsingle_controller.cpp:247
+#: src/playsingle_controller.cpp:246
 msgid "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgid_plural "You will start the next scenario with $gold on top of the defined minimum starting gold."
 msgstr[0] "Почињете наредни сценарио са $gold златником додатим на задати најмањи почетни број."
@@ -8705,7 +8721,7 @@ msgstr[2] "Почињете наредни сценарио са $gold злат�
 msgstr[3] "Почињете наредни сценарио са једним златником додатим на задати најмањи почетни број."
 
 #. +> stable
-#: src/playsingle_controller.cpp:255
+#: src/playsingle_controller.cpp:254
 msgid "You will start the next scenario with the defined minimum starting gold."
 msgid_plural "You will start the next scenario with the defined minimum starting gold."
 msgstr[0] "Почињете наредни сценарио са задатим најмањим бројем златника."
@@ -8714,7 +8730,7 @@ msgstr[2] "Почињете наредни сценарио са задатим 
 msgstr[3] "Почињете наредни сценарио са задатим најмањим бројем златника."
 
 #. +> stable
-#: src/playsingle_controller.cpp:263
+#: src/playsingle_controller.cpp:262
 msgid "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgid_plural "You will start the next scenario with $gold or its defined minimum starting gold, whichever is higher."
 msgstr[0] "Почињете наредни сценарио са већим од $gold златника и најмањег задатог почетног броја."
@@ -8723,17 +8739,17 @@ msgstr[2] "Почињете наредни сценарио са већим од
 msgstr[3] "Почињете наредни сценарио са већим од једног златника и најмањег задатог почетног броја."
 
 #. +> stable
-#: src/playsingle_controller.cpp:415
+#: src/playsingle_controller.cpp:405
 msgid "Game Over"
 msgstr "Крај игре"
 
 #. +> stable
-#: src/playsingle_controller.cpp:416
+#: src/playsingle_controller.cpp:406
 msgid "The game is over."
 msgstr "Игра је завршена."
 
 #. +> stable
-#: src/playsingle_controller.cpp:501
+#: src/playsingle_controller.cpp:489
 msgid ""
 "A network disconnection has occurred, and the game\n"
 "cannot continue. Do you want to save the game?"
@@ -8742,22 +8758,22 @@ msgstr ""
 "Желите ли да сачувате позицију?"
 
 #. +> stable
-#: src/playsingle_controller.cpp:664
+#: src/playsingle_controller.cpp:652
 msgid "It is now $name|'s turn"
 msgstr "На потезу је $name"
 
 #. +> stable
-#: src/playsingle_controller.cpp:882
+#: src/playsingle_controller.cpp:870
 msgid "Scenario Report"
 msgstr "Изв›јештај сценарија"
 
 #. +> stable
-#: src/playsingle_controller.cpp:884
+#: src/playsingle_controller.cpp:872
 msgid "Victory"
 msgstr "Победа"
 
 #. +> stable
-#: src/playsingle_controller.cpp:885
+#: src/playsingle_controller.cpp:873
 msgid "You have emerged victorious!"
 msgstr "Поб›иједили сте!"
 
@@ -8992,12 +9008,12 @@ msgid "Taken"
 msgstr "примљена"
 
 #. +> stable
-#: src/storyscreen/controller.cpp:128
+#: src/storyscreen/controller.cpp:130
 msgid "Next"
 msgstr "Даље"
 
 #. +> stable
-#: src/storyscreen/controller.cpp:129
+#: src/storyscreen/controller.cpp:131
 msgid "Skip"
 msgstr "Прескочи"
 
@@ -9022,163 +9038,148 @@ msgid "border_size should be between 0.0 and 0.5."
 msgstr "border_size треба да је између 0,0 и 0,5."
 
 #. +> stable
-#: src/titlescreen.cpp:428
+#: src/titlescreen.cpp:418
 msgctxt "TitleScreen button"
 msgid "Tutorial"
 msgstr "Подучавање"
 
 #. +> stable
-#: src/titlescreen.cpp:429
+#: src/titlescreen.cpp:419
 msgctxt "TitleScreen button"
 msgid "Campaign"
 msgstr "Поход"
 
 #. +> stable
-#: src/titlescreen.cpp:430
+#: src/titlescreen.cpp:420
 msgctxt "TitleScreen button"
 msgid "Multiplayer"
 msgstr "Вишеиграње"
 
 #. +> stable
-#: src/titlescreen.cpp:431
+#: src/titlescreen.cpp:421
 msgctxt "TitleScreen button"
 msgid "Load"
 msgstr "Учитај"
 
 #. +> stable
-#: src/titlescreen.cpp:432
+#: src/titlescreen.cpp:422
 msgctxt "TitleScreen button"
 msgid "Add-ons"
 msgstr "Додаци"
 
 #. +> stable
-#: src/titlescreen.cpp:434
+#: src/titlescreen.cpp:424
 msgctxt "TitleScreen button"
 msgid "Map Editor"
 msgstr "Уређивач мапа"
 
 #. +> stable
-#: src/titlescreen.cpp:436
+#: src/titlescreen.cpp:426
 msgctxt "TitleScreen button"
 msgid "Language"
 msgstr "Језик"
 
 #. +> stable
-#: src/titlescreen.cpp:437
+#: src/titlescreen.cpp:427
 msgctxt "TitleScreen button"
 msgid "Preferences"
 msgstr "Поставке"
 
 #. +> stable
-#: src/titlescreen.cpp:438
+#: src/titlescreen.cpp:428
 msgctxt "TitleScreen button"
 msgid "Credits"
 msgstr "Заслуге"
 
 #. +> stable
-#: src/titlescreen.cpp:439
+#: src/titlescreen.cpp:429
 msgctxt "TitleScreen button"
 msgid "Quit"
 msgstr "Напусти"
 
 #. +> stable
-#: src/titlescreen.cpp:442
+#: src/titlescreen.cpp:432
 msgctxt "TitleScreen button"
 msgid "Previous"
 msgstr "Претходно"
 
 #. +> stable
-#: src/titlescreen.cpp:443
+#: src/titlescreen.cpp:433
 msgctxt "TitleScreen button"
 msgid "Next"
 msgstr "Наредно"
 
 #. +> stable
-#: src/titlescreen.cpp:444
+#: src/titlescreen.cpp:434
 msgctxt "TitleScreen button"
 msgid "Help"
 msgstr "Помоћ"
 
 #. +> stable
-#: src/titlescreen.cpp:446
+#: src/titlescreen.cpp:436
 msgctxt "TitleScreen button"
 msgid "Help Wesnoth"
 msgstr "Помогните Веснот"
 
 #. +> stable
-#: src/titlescreen.cpp:448
+#: src/titlescreen.cpp:438
 msgid "Start a tutorial to familiarize yourself with the game"
 msgstr "Покрените подучавање о начинима и чиниоцима играња"
 
 #. +> stable
-#: src/titlescreen.cpp:449
+#: src/titlescreen.cpp:439
 msgid "Start a new single player campaign"
 msgstr "Покрените нови поход за једног играча"
 
 #. +> stable
-#: src/titlescreen.cpp:450
+#: src/titlescreen.cpp:440
 msgid "Play multiplayer (hotseat, LAN, or Internet), or a single scenario against the AI"
 msgstr "Играјте са више играча (усијано, ЛАН или Интернет), или један сценарио против ВИ."
 
 #. +> stable
-#: src/titlescreen.cpp:451
+#: src/titlescreen.cpp:441
 msgid "Load a saved game"
 msgstr "Учитајте позицију"
 
 #. +> stable
-#: src/titlescreen.cpp:452
+#: src/titlescreen.cpp:442
 msgid "Download usermade campaigns, eras, or map packs"
 msgstr "Преузмите корисничке додатке: походе, епохе, или пакете мапа"
 
 #. +> stable
-#: src/titlescreen.cpp:454
+#: src/titlescreen.cpp:444
 msgid "Start the map editor"
 msgstr "Покрените уређивач мапа"
 
 #. +> stable
-#: src/titlescreen.cpp:456
+#: src/titlescreen.cpp:446
 msgid "Change the language"
 msgstr "Пром›ијените језик"
 
 #. +> stable
-#: src/titlescreen.cpp:457
+#: src/titlescreen.cpp:447
 msgid "Configure the game's settings"
 msgstr "Подесите поставке игре"
 
 #. +> stable
-#: src/titlescreen.cpp:458
+#: src/titlescreen.cpp:448
 msgid "View the credits"
 msgstr "Погледајте заслуге"
 
 #. +> stable
-#: src/titlescreen.cpp:459
+#: src/titlescreen.cpp:449
 msgid "Quit the game"
 msgstr "Напустите игру"
 
 #. +> stable
-#: src/titlescreen.cpp:460
+#: src/titlescreen.cpp:450
 msgid "Show next tip of the day"
 msgstr "На с‹љедећи сав›јет дана"
 
 #. +> stable
-#: src/titlescreen.cpp:461
+#: src/titlescreen.cpp:451
 msgid "Show Battle for Wesnoth help"
 msgstr "На помоћ „Боја за Веснот“"
-
-#. +> stable
-#: src/titlescreen.cpp:462
-msgid "Upload statistics"
-msgstr "Статистика слања"
-
-#. +> stable
-#: src/titlescreen.cpp:521
-msgid "Help Wesnoth"
-msgstr "Помогните Веснот"
-
-#. +> stable
-#: src/titlescreen.cpp:522
-msgid "Help Wesnoth by sending us information"
-msgstr "Помозите Весноту шаљући нам информације"
 
 #. +> stable
 #: src/tod_manager.cpp:103 src/tod_manager.cpp:135 src/tod_manager.cpp:239
@@ -9289,30 +9290,35 @@ msgctxt "female"
 msgid "neutral"
 msgstr "неутрална"
 
-#. +> stable
-#: src/upload_log.cpp:368
-msgid "Wesnoth relies on volunteers like yourself for feedback, especially beginners and new players. Wesnoth keeps summaries of your games: you can help us improve game play by giving permission to send these summaries (anonymously) to wesnoth.org.\n"
-msgstr "Веснот очекује реаговања од волонтера попут вас, поготову почетника и нових играча. Веснот чува сажетке ваших партија: можете нам помоћи у побољшању игривости дајући дозволу да се ови сажеци (анонимно) пошаљу на wesnoth.org.\n"
+#~ msgid "Battle for Wesnoth automatically sends anonymized statistics about your game advancement to a server where they are stored. This enables several features, and allows us to improve Wesnoth. To learn more about this or disable it, click the envelope in the bottom-right corner."
+#~ msgstr "„Бој за Веснот“ аутоматски шаље анонимну статистику вашег напредовања кроз игру серверу који их складишти, што нам отвара неколико могућности за рад на побољшању Веснота. Да бисте више сазнали више о овоме, или искључили слање, кликните на коверат у доњем десном углу."
 
-#. +> stable
-#: src/upload_log.cpp:369
-msgid "Summaries are stored here:"
-msgstr "Сажеци се чувају овд›је:"
+#~ msgid "Wesnoth Developers"
+#~ msgstr "— програмери Веснота"
 
-#. +> stable
-#: src/upload_log.cpp:371
-msgid "You can view the results at:"
-msgstr "Резултате можете вид›јети на:"
+#~ msgid "Upload statistics"
+#~ msgstr "Статистика слања"
 
-#. +> stable
-#: src/upload_log.cpp:373
-msgid "Help us make Wesnoth better for you!"
-msgstr "Помозите нам да побољшамо Веснот за вас!"
+#~ msgid "Help Wesnoth"
+#~ msgstr "Помогните Веснот"
 
-#. +> stable
-#: src/upload_log.cpp:375
-msgid "Enable summary uploads"
-msgstr "Укључи слање сажетака"
+#~ msgid "Help Wesnoth by sending us information"
+#~ msgstr "Помозите Весноту шаљући нам информације"
+
+#~ msgid "Wesnoth relies on volunteers like yourself for feedback, especially beginners and new players. Wesnoth keeps summaries of your games: you can help us improve game play by giving permission to send these summaries (anonymously) to wesnoth.org.\n"
+#~ msgstr "Веснот очекује реаговања од волонтера попут вас, поготову почетника и нових играча. Веснот чува сажетке ваших партија: можете нам помоћи у побољшању игривости дајући дозволу да се ови сажеци (анонимно) пошаљу на wesnoth.org.\n"
+
+#~ msgid "Summaries are stored here:"
+#~ msgstr "Сажеци се чувају овд›је:"
+
+#~ msgid "You can view the results at:"
+#~ msgstr "Резултате можете вид›јети на:"
+
+#~ msgid "Help us make Wesnoth better for you!"
+#~ msgstr "Помозите нам да побољшамо Веснот за вас!"
+
+#~ msgid "Enable summary uploads"
+#~ msgstr "Укључи слање сажетака"
 
 # well-spelled: аутф
 #~ msgid " (auth only)"

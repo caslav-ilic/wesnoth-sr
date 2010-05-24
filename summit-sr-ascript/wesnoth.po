@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2010-04-28 19:29+0200\n"
+"PO-Revision-Date: 2010-05-24 20:40+0200\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -4856,16 +4856,6 @@ msgstr "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc|~"
 msgid "DejaVu Sans,Andagii,WenQuanYi Zen Hei"
 msgstr "DejaVu Sans,Andagii,WenQuanYi Zen Hei|~"
 
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Battle for Wesnoth automatically sends anonymized statistics about your game advancement to a server where they are stored. This enables several features, and allows us to improve Wesnoth. To learn more about this or disable it, click the envelope in the bottom-right corner."
-msgstr "„Бој за Веснот“ аутоматски шаље анонимну статистику вашег напредовања кроз игру серверу који их складишти, што нам отвара неколико могућности за рад на побољшању Веснота. Да бисте више сазнали више о овоме, или искључили слање, кликните на коверат у доњем десном углу.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Wesnoth Developers"
-msgstr "— програмери Веснота|~"
-
 # >> Great Mage Delfador|~
 # |~e0
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
@@ -9005,21 +8995,6 @@ msgstr "На помоћ „Боја за Веснот“|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Upload statistics"
-msgstr "Статистика слања|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Help Wesnoth"
-msgstr "Помогните Веснот|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Help Wesnoth by sending us information"
-msgstr "Помозите Весноту шаљући нам информације|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
 msgid "No time of day has been defined."
 msgstr "Доба дана није одређено.|~"
 
@@ -9123,39 +9098,6 @@ msgstr "законита|~"
 msgctxt "female"
 msgid "neutral"
 msgstr "неутрална|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Wesnoth relies on volunteers like yourself for feedback, especially beginners and new players. Wesnoth keeps summaries of your games: you can help us improve game play by giving permission to send these summaries (anonymously) to wesnoth.org.\n"
-msgstr ""
-"Веснот очекује реаговања од волонтера попут вас, поготову почетника и нових играча. Веснот чува сажетке ваших партија: можете нам помоћи у побољшању игривости дајући дозволу да се ови сажеци (анонимно) пошаљу на wesnoth.org.\n"
-"|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. modified: djuric | 2010-02-26 14:38:15+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Summaries are stored here:"
-msgstr ""
-"Сажеци се чувају овде:|~\n"
-"Сажеци се чувају овд›је:|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. modified: djuric | 2010-02-26 14:38:15+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "You can view the results at:"
-msgstr ""
-"Резултате можете видети на:|~\n"
-"Резултате можете вид›јети на:|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Help us make Wesnoth better for you!"
-msgstr "Помозите нам да побољшамо Веснот за вас!|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "Enable summary uploads"
-msgstr "Укључи слање сажетака|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: ilic | 2010-02-20 10:48:51+0100 | o
@@ -9863,6 +9805,80 @@ msgstr "Пријатељи у игри|~"
 #. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
 msgid "Invert"
 msgstr "Изврни|~"
+
+#. modified: ilic | 2010-05-24 20:40:55+0200 | 1f
+#, fuzzy
+#| msgid "Disable autosaves.|~"
+msgid "Disable notifications"
+msgstr "Искључује аутопозиције.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-05-24 20:40:55+0200 | o
+#~ msgid "Battle for Wesnoth automatically sends anonymized statistics about your game advancement to a server where they are stored. This enables several features, and allows us to improve Wesnoth. To learn more about this or disable it, click the envelope in the bottom-right corner."
+#~ msgstr "„Бој за Веснот“ аутоматски шаље анонимну статистику вашег напредовања кроз игру серверу који их складишти, што нам отвара неколико могућности за рад на побољшању Веснота. Да бисте више сазнали више о овоме, или искључили слање, кликните на коверат у доњем десном углу.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-05-24 20:40:55+0200 | o
+#~ msgid "Wesnoth Developers"
+#~ msgstr "— програмери Веснота|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-05-24 20:40:55+0200 | o
+#~ msgid "Upload statistics"
+#~ msgstr "Статистика слања|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-05-24 20:40:55+0200 | o
+#~ msgid "Help Wesnoth"
+#~ msgstr "Помогните Веснот|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-05-24 20:40:55+0200 | o
+#~ msgid "Help Wesnoth by sending us information"
+#~ msgstr "Помозите Весноту шаљући нам информације|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-05-24 20:40:55+0200 | o
+#~ msgid "Wesnoth relies on volunteers like yourself for feedback, especially beginners and new players. Wesnoth keeps summaries of your games: you can help us improve game play by giving permission to send these summaries (anonymously) to wesnoth.org.\n"
+#~ msgstr ""
+#~ "Веснот очекује реаговања од волонтера попут вас, поготову почетника и нових играча. Веснот чува сажетке ваших партија: можете нам помоћи у побољшању игривости дајући дозволу да се ови сажеци (анонимно) пошаљу на wesnoth.org.\n"
+#~ "|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: djuric | 2010-02-26 14:38:15+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-05-24 20:40:55+0200 | o
+#~ msgid "Summaries are stored here:"
+#~ msgstr ""
+#~ "Сажеци се чувају овде:|~\n"
+#~ "Сажеци се чувају овд›је:|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: djuric | 2010-02-26 14:38:15+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-05-24 20:40:55+0200 | o
+#~ msgid "You can view the results at:"
+#~ msgstr ""
+#~ "Резултате можете видети на:|~\n"
+#~ "Резултате можете вид›јети на:|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-05-24 20:40:55+0200 | o
+#~ msgid "Help us make Wesnoth better for you!"
+#~ msgstr "Помозите нам да побољшамо Веснот за вас!|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2010-05-24 20:40:55+0200 | o
+#~ msgid "Enable summary uploads"
+#~ msgstr "Укључи слање сажетака|~"
 
 # |~x
 # well-spelled: аутф|~

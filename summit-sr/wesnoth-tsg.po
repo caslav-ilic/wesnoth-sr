@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-tsg\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-03-28 22:22+0200\n"
+"POT-Creation-Date: 2010-05-24 20:40+0200\n"
 "PO-Revision-Date: 2010-04-28 16:24+0200\n"
 "Last-Translator: Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>\n"
 "Language-Team: Serbian\n"
@@ -216,8 +216,7 @@ msgstr "Поразиш ли Урзу Матина"
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:414
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:432
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:479
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:234
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:376
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:250
 msgid "Death of Deoran"
 msgstr "Настрада ли Деоран"
 
@@ -1178,8 +1177,7 @@ msgstr "Доведеш ли Етилијел у Мебриново село"
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:523
 #: data/campaigns/The_South_Guard/scenarios/07a_Into_The_Depths.cfg:580
 #: data/campaigns/The_South_Guard/scenarios/08a_Return_To_Kerlath.cfg:49
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:238
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:380
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:254
 msgid "Death of Ethiliel"
 msgstr "Настрада ли Етилијел"
 
@@ -2904,7 +2902,7 @@ msgstr "Вестинско веће стиже у потезу $council_arrive_t
 #. [message]: speaker=unit
 #. +> stable
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:515
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:301
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:313
 #: data/campaigns/The_South_Guard/utils/sg_deaths.cfg:12
 msgid "I have failed my kingdom and duty..."
 msgstr "Изнев›јерих своје краљевство и дужност..."
@@ -3036,77 +3034,65 @@ msgstr "Зар и ти, Етилијел? Сви људи су исти! Оба�
 #: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:217
 #: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:218
 #: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:219
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:276
 #: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:288
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:300
 msgid "Disciple of Mebrin"
 msgstr "с‹љедбеник Мебринов"
 
+#. [message]: speaker=Ethiliel
+#. +> stable
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:229
+msgid "We won't be able to hold them off for long. I should go reason with them!"
+msgstr "Не можемо их дуго обијати. Морам их призвати памећу! Неће се усудити мене да нападну."
+
+#. [message]: speaker=Deoran
+#. +> stable
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:233
+msgid "Are you sure that the elves will greet you any more kindly than they have met us? After all, you did lead us into the forests..."
+msgstr "Сигурни сте ли да ће вас вилењаци примити имало срдачније него што су нас? Напосл›ијетку, ви нас заиста и поведосте у шуме..."
+
+#. [message]: speaker=Ethiliel
+#. +> stable
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:237
+msgid "Perhaps not, but it is your only hope. I must reach Ithelden!"
+msgstr "Можда неће, али нам је то једина нада. Морам допрети до Ителдена!"
+
+#. [event]
+#. +> stable
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:240
+msgid "Ithelden's base"
+msgstr "Ителденово упориште"
+
 #. [objective]: condition=win
 #. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:230
-msgid "Keep the enraged elves from sacking Westin"
-msgstr "Спр›ијечиш ли поб›је◃шњеле вилењаке да опустоше Вестин"
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:246
+msgid "Send Ethiliel to the Great Tree and parley with Ithelden"
+msgstr "Отправиш ли Етилијел до Великог дрвета на надмудривање са Ителденом"
 
 #. [message]
 #. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:289
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:301
 msgid "For every one of us you strike down, more will rise!"
 msgstr "За сваког од нас кога пос›ијечете, још ће их се уздићи!"
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:315
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:327
 #: data/campaigns/The_South_Guard/utils/sg_deaths.cfg:52
 msgid "I have given my all for my kingdom! Avenge me, Deoran!"
 msgstr "Дадох све од себе за своје краљевство! Освети ме, Деоране!"
 
 #. [message]: speaker=Minister Hylas
 #. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:328
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:340
 msgid "Ithelden's elves have killed Ethiliel! Now we have no chance to come to an agreement with them. A war with the Elves is imminent."
 msgstr "Ителденови вилењаци убише Етилијел! Сад нам нема изгледа да их уразумимо. Рат са вилењацима је неизб›ијежан."
 
 #. [message]: speaker=Deoran
 #. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:332
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:344
 msgid "We are far away from Weldyn. We'll surely all be killed long before any reinforcements arrive."
 msgstr "Далеко смо од Велдина. Нема сумње да ћемо сви изгинути многе пр›ије но што пристигну појачања."
-
-#. [message]: speaker=Ethiliel
-#. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:355
-msgid "We won't be able to hold them off for long. I should go reason with them!"
-msgstr "Не можемо их дуго обијати. Морам их призвати памећу! Неће се усудити мене да нападну."
-
-#. [message]: speaker=Deoran
-#. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:359
-msgid "Are you sure that the elves will greet you any more kindly than they have met us? After all, you did lead us into the forests..."
-msgstr "Сигурни сте ли да ће вас вилењаци примити имало срдачније него што су нас? Напосл›ијетку, ви нас заиста и поведосте у шуме..."
-
-#. [message]: speaker=Ethiliel
-#. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:363
-msgid "Perhaps not, but it is your only hope. I must reach Ithelden!"
-msgstr "Можда неће, али нам је то једина нада. Морам допрети до Ителдена!"
-
-#. [event]
-#. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:366
-msgid "Ithelden's base"
-msgstr "Ителденово упориште"
-
-#. [objective]: condition=win
-#. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:372
-msgid "Send Ethiliel to the Great Tree and parley with Ithelden"
-msgstr "Отправиш ли Етилијел до Великог дрвета на надмудривање са Ителденом"
-
-#. [message]: speaker=Ethiliel
-#. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:414
-msgid "I feel like I belong on this spot."
-msgstr "Ос›јећам као да ми је овд›је м›јесто."
 
 #. [scenario]: id=10a_Elf_Epilogue
 #. [scenario]: id=9b_Bandit_Epilogue
@@ -3461,3 +3447,9 @@ msgstr "Деоран је проводио дане у пос›јетама р�
 #: data/campaigns/The_South_Guard/utils/sg_story.cfg:195
 msgid "Sir Deoran, Knight of Wesnoth, was summoned to Weldyn for a council with King Haldric himself. Storm clouds were brewing throughout the realm, and every commander would be needed to weather the onslaught..."
 msgstr "Сер Деоран, витез Веснота, б›јеше сазван у Велдин на в›ијећање са краљем Халдриком лично. Олујни облаци су се захуктавали широм краљевства, и сваки запов›једник ће бити потребан да се навала преброди..."
+
+#~ msgid "Keep the enraged elves from sacking Westin"
+#~ msgstr "Спр›ијечиш ли поб›је◃шњеле вилењаке да опустоше Вестин"
+
+#~ msgid "I feel like I belong on this spot."
+#~ msgstr "Ос›јећам као да ми је овд›је м›јесто."
