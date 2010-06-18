@@ -197,7 +197,7 @@ S.hook_on_gather_msg.extend([
 ])
 
 # Catalogs where UI strings may be found.
-uicpaths = collect_catalogs(S.resolve_path_rooted("summit-sr"),
+uicpaths = collect_catalogs(S.resolve_path_rooted("catalogs"),
                             selectf=lambda x: "manual" not in x)
 
 # Additional hooks on scattered translations.
