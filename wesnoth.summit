@@ -24,10 +24,11 @@ if not os.path.isdir(WESVCS):
           "is not a directory" % WESVCS)
 
 S.templates_lang = "templates"
+S.templates_dynamic = True
 
 S.summit = dict(
     topdir=S.resolve_path_rooted("summit-" + S.options.lang),
-    topdir_templates=S.resolve_path_rooted("summit-" + S.templates_lang),
+    topdir_templates=S.resolve_path_rooted("tmp-templates"),
 )
 
 S.branches = [
