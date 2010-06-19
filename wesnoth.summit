@@ -28,7 +28,6 @@ S.templates_dynamic = True
 
 S.summit = dict(
     topdir=S.resolve_path_rooted("catalogs"),
-    topdir_templates=S.resolve_path_rooted("tmp-templates"),
 )
 
 S.branches = [
