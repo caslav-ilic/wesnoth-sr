@@ -190,7 +190,7 @@ def is_wesnoth_cat (cname, csubdir):
 # ----------------------------------------
 
 # Additional hooks on gathered messages.
-S.hook_on_gather_msg.extend([
+S.hook_on_gather_msg_branch.extend([
     # Convert from embedded to proper context.
     (hook_embedded_to_msgctxt, r"", is_wesnoth_cat),
 ])
