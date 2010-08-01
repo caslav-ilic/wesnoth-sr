@@ -1,18 +1,19 @@
 # -*- coding: UTF-8 -*-
 # kate: syntax Python;
 
-from pology.misc.report import error
-from pology.misc.msgreport import warning_on_msg
-from pology.hook.gettext_tools import msgfilter, msgfmt
-from pology.hook.ui_references import resolve_ui, resolve_ui_docbook4
-from pology.misc.resolve import resolve_alternatives_simple
-from pology.misc.fsops import collect_catalogs
-from pology.l10n.sr.hook.wconv import hictoec, hictoel, hictoic, hictoil
-from pology.l10n.sr.hook.accents import resolve_agraphs as resolve_agraphs_t
-from pology.l10n.sr.hook.limit_chset import limit_to_isocyr, limit_to_isolat
-
 import os
 import re
+
+from pology.report import error
+from pology.msgreport import warning_on_msg
+from pology.gettext_tools import msgfilter, msgfmt
+from pology.ui_references import resolve_ui, resolve_ui_docbook4
+from pology.resolve import resolve_alternatives_simple
+from pology.fsops import collect_catalogs
+from pology.lang.sr.wconv import hictoec, hictoel, hictoic, hictoil
+from pology.lang.sr.accents import resolve_agraphs as resolve_agraphs_t
+from pology.lang.sr.limit_chset import limit_to_isocyr, limit_to_isolat
+
 
 wrenvar = "WESNOTH_REPO"
 WESVCS = os.getenv(wrenvar)
