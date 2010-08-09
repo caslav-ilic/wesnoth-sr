@@ -7,7 +7,7 @@ import re
 from pology.report import error
 from pology.msgreport import warning_on_msg
 from pology.gettext_tools import msgfilter, msgfmt
-from pology.ui_references import resolve_ui, resolve_ui_docbook4
+from pology.uiref import resolve_ui, resolve_ui_docbook4
 from pology.resolve import resolve_alternatives_simple
 from pology.fsops import collect_catalogs
 from pology.lang.sr.wconv import hictoec, hictoel, hictoic, hictoil
