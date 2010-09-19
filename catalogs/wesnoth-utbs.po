@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-utbs\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-08-13 20:44+0200\n"
+"POT-Creation-Date: 2010-09-19 12:15+0200\n"
 "PO-Revision-Date: 2010-04-28 13:51+0200\n"
 "Last-Translator: Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>\n"
 "Language-Team: Serbian\n"
@@ -10749,11 +10749,11 @@ msgstr "Прожети мрачним духовима, ови искварен�
 #: data/campaigns/Under_the_Burning_Suns/units/Desert_Marksman.cfg:35
 #: data/campaigns/Under_the_Burning_Suns/units/Desert_Marshal.cfg:46
 #: data/campaigns/Under_the_Burning_Suns/units/Desert_Outrider.cfg:41
-#: data/campaigns/Under_the_Burning_Suns/units/Desert_Prowler.cfg:40
+#: data/campaigns/Under_the_Burning_Suns/units/Desert_Prowler.cfg:39
 #: data/campaigns/Under_the_Burning_Suns/units/Desert_Ranger.cfg:45
 #: data/campaigns/Under_the_Burning_Suns/units/Desert_Rider.cfg:40
 #: data/campaigns/Under_the_Burning_Suns/units/Desert_Scout.cfg:40
-#: data/campaigns/Under_the_Burning_Suns/units/Desert_Sentinel.cfg:40
+#: data/campaigns/Under_the_Burning_Suns/units/Desert_Sentinel.cfg:38
 #: data/campaigns/Under_the_Burning_Suns/units/Desert_Sharpshooter.cfg:43
 #: data/campaigns/Under_the_Burning_Suns/units/Human_Commander.cfg:44
 #: data/campaigns/Under_the_Burning_Suns/units/Kaleh.cfg:390
@@ -11009,8 +11009,8 @@ msgstr "Пустињски ловци су вични тумарању п›иј
 #. [effect]: type=impact
 #. +> stable
 #: data/campaigns/Under_the_Burning_Suns/units/Desert_Hunter.cfg:46
-#: data/campaigns/Under_the_Burning_Suns/units/Desert_Prowler.cfg:49
-#: data/campaigns/Under_the_Burning_Suns/units/Desert_Sentinel.cfg:49
+#: data/campaigns/Under_the_Burning_Suns/units/Desert_Prowler.cfg:48
+#: data/campaigns/Under_the_Burning_Suns/units/Desert_Sentinel.cfg:47
 #: data/campaigns/Under_the_Burning_Suns/units/Kaleh.cfg:70
 #: data/campaigns/Under_the_Burning_Suns/units/Nym.cfg:39
 msgid "bolas"
@@ -11086,7 +11086,7 @@ msgstr "Пустињски тумарачи се шуњају преко п›и
 #. [unit_type]: id=Nym Prowler, race=elf
 #. [female]
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/units/Desert_Prowler.cfg:137
+#: data/campaigns/Under_the_Burning_Suns/units/Desert_Prowler.cfg:145
 #: data/campaigns/Under_the_Burning_Suns/units/Nym.cfg:155
 msgctxt "female"
 msgid "Desert Prowler"
@@ -11137,11 +11137,13 @@ msgstr "Пустињски извиђачи језде п›ијеском ка�
 
 #. [unit_type]: id=Desert Sentinel, race=elf
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/units/Desert_Sentinel.cfg:35
-msgid ""
-"Desert Sentinels patrol the sands; they are trained to avoid enemies when it is advantageous. They can cripple opponents with their bolas and are deadly with their swords.\n"
-"\n"
-"The skirmish ability allows the rogue to ignore enemy units' zones of control and thus move unhindered around them."
+#: data/campaigns/Under_the_Burning_Suns/units/Desert_Sentinel.cfg:33
+#, fuzzy
+#| msgid ""
+#| "Desert Sentinels patrol the sands; they are trained to avoid enemies when it is advantageous. They can cripple opponents with their bolas and are deadly with their swords.\n"
+#| "\n"
+#| "The skirmish ability allows the rogue to ignore enemy units' zones of control and thus move unhindered around them."
+msgid "Desert Sentinels patrol the sands; they are trained to avoid enemies when it is advantageous. They can cripple opponents with their bolas and are deadly with their swords."
 msgstr ""
 "Пустињски стражари надзиру околни п›ијесак; увежбани су да избегну непријатеља кад год ће то довести до веће предности. Боласима сапињу противника, а потом се смртоносно служе мачем.\n"
 "\n"
@@ -11150,7 +11152,7 @@ msgstr ""
 #. [unit_type]: id=Nym Sentinel, race=elf
 #. [female]
 #. +> stable
-#: data/campaigns/Under_the_Burning_Suns/units/Desert_Sentinel.cfg:122
+#: data/campaigns/Under_the_Burning_Suns/units/Desert_Sentinel.cfg:126
 #: data/campaigns/Under_the_Burning_Suns/units/Nym.cfg:141
 msgctxt "female"
 msgid "Desert Sentinel"

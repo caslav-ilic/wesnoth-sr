@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-08-13 20:45+0200\n"
+"POT-Creation-Date: 2010-09-19 12:15+0200\n"
 "PO-Revision-Date: 2010-08-23 19:30+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -510,148 +510,148 @@ msgstr "Индонежански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1917
+#: data/core/about.cfg:1927
 msgid "Italian Translation"
 msgstr "Италијански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1952
+#: data/core/about.cfg:1962
 msgid "Japanese Translation"
 msgstr "Јапански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2004
+#: data/core/about.cfg:2014
 msgid "Korean Translation"
 msgstr "Корејски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2011
+#: data/core/about.cfg:2021
 msgid "Latin Translation"
 msgstr "Латински превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2038
+#: data/core/about.cfg:2048
 msgid "Latvian Translation"
 msgstr "Летонски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2049
+#: data/core/about.cfg:2059
 msgid "Lithuanian Translation"
 msgstr "Литвански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2066
+#: data/core/about.cfg:2076
 msgid "Macedonian Translation"
 msgstr "Македонски превод"
 
 # well-spelled: Марати
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2074
+#: data/core/about.cfg:2084
 msgid "Marathi Translation"
 msgstr "Марати превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2083
+#: data/core/about.cfg:2093
 msgid "Norwegian Translation"
 msgstr "Норвешки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2108
+#: data/core/about.cfg:2118
 msgid "Polish Translation"
 msgstr "Пољски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2148
+#: data/core/about.cfg:2158
 msgid "Portuguese Translation"
 msgstr "Португалски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2155
+#: data/core/about.cfg:2165
 msgid "Portuguese (Brazil) Translation"
 msgstr "Португалски бразилски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2194
+#: data/core/about.cfg:2204
 msgid "Romanian Translation"
 msgstr "Румунски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2202
+#: data/core/about.cfg:2212
 msgid "Russian Translation"
 msgstr "Руски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2269
+#: data/core/about.cfg:2279
 msgid "Serbian Translation"
 msgstr "Српски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2288
+#: data/core/about.cfg:2298
 msgid "Slovak Translation"
 msgstr "Словачки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2314
+#: data/core/about.cfg:2324
 msgid "Slovenian Translation"
 msgstr "Словеначки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2327
+#: data/core/about.cfg:2337
 msgid "Spanish Translation"
 msgstr "Шпански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2388
+#: data/core/about.cfg:2398
 msgid "Swedish Translation"
 msgstr "Шведски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2417
+#: data/core/about.cfg:2427
 msgid "Turkish Translation"
 msgstr "Турски превод"
 
 # well-spelled: јужнокаталонски
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2439
+#: data/core/about.cfg:2449
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Валенсијски (јужнокаталонски) превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2452
+#: data/core/about.cfg:2462
 msgid "Vietnamese Translation"
 msgstr "Вијетнамски превод"
 
 # well-spelled: РАЦВ
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2465
+#: data/core/about.cfg:2478
 msgid "RACV's Translation"
 msgstr "Валенсијски (РАЦВ) превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2472
+#: data/core/about.cfg:2485
 msgid "Bots"
 msgstr "Ботови"
 
@@ -1459,7 +1459,9 @@ msgstr "Да заокружимо"
 #. [topic]: id=wrap_up
 #. +> stable
 #: data/core/help.cfg:337
-msgid "This concludes the fundamentals of Wesnoth. You might want to read up on Basic Strategy, or familiarise yourself with <ref>dst='..traits_section' text='Traits'</ref> and <ref>dst='..abilities_section' text='Abilities'</ref>, but you now know everything you need to know to play the Heir to the Throne campaign. Have fun, and good luck!"
+#, fuzzy
+#| msgid "This concludes the fundamentals of Wesnoth. You might want to read up on Basic Strategy, or familiarise yourself with <ref>dst='..traits_section' text='Traits'</ref> and <ref>dst='..abilities_section' text='Abilities'</ref>, but you now know everything you need to know to play the Heir to the Throne campaign. Have fun, and good luck!"
+msgid "This concludes the fundamentals of Wesnoth. You might want to read up on Basic Strategy, or familiarize yourself with <ref>dst='..traits_section' text='Traits'</ref> and <ref>dst='..abilities_section' text='Abilities'</ref>, but you now know everything you need to know to play the Heir to the Throne campaign. Have fun, and good luck!"
 msgstr "Изложеним до сада, представљене су основе Веснота. Даље можете читати о основној стратегији, или се упознавати са <ref>dst='..traits_section' text='особинама'</ref> и <ref>dst='..abilities_section' text='способностима'</ref>, али већ знате све што вам је неопходно да заиграте поход „~%/Heir to the Throne/“. Забавите се, и срећно!"
 
 #. [topic]: id=about
@@ -5228,7 +5230,9 @@ msgstr "На мапама гд›је је укључен ‘покров’ и�
 #. [tip]
 #. +> stable
 #: data/hardwired/tips.cfg:179
-msgid "Nearly every icon and word in Wesnoth's playing screen has a tool-tip. Place your mouse pointer over one to get an explanation or description."
+#, fuzzy
+#| msgid "Nearly every icon and word in Wesnoth's playing screen has a tool-tip. Place your mouse pointer over one to get an explanation or description."
+msgid "Nearly every icon and word in Wesnoth's playing screen has a tooltip. Place your mouse pointer over one to get an explanation or description."
 msgstr "Скоро свака икона и р›ијеч на Веснотовом играчком екрану има облачић —  поставите показивач миша изнад онога за шта желите објашњење или опис."
 
 #. [tip]
