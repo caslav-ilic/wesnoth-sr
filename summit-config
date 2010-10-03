@@ -24,6 +24,7 @@ if not os.path.isdir(WESVCS):
     error("local Wesnoth code repository path '%s' "
           "is not a directory" % WESVCS)
 
+S.lang = "sr"
 S.templates_lang = "templates"
 S.templates_dynamic = True
 
@@ -35,12 +36,12 @@ S.branches = [
     #dict(
         #id="devel",
         #topdir=os.path.join(WESVCS, "trunk", "po"),
-        #by_lang=S.options.lang,
+        #by_lang=S.lang,
     #),
     dict(
         id="stable",
         topdir=os.path.join(WESVCS, "branches", "1.8", "po"),
-        by_lang=S.options.lang,
+        by_lang=S.lang,
     ),
 ]
 
@@ -57,7 +58,7 @@ imod = "ijekavian"
 ilmod = "ijekavianlatin"
 vmods = [lmod, imod, ilmod]
 
-if S.options.lang != S.templates_lang:
+if S.lang != S.templates_lang:
     # Add variant branches.
     branches_mod = []
     for branch in S.branches:
