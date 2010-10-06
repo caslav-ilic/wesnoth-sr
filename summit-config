@@ -25,11 +25,10 @@ if not os.path.isdir(WESVCS):
           "is not a directory" % WESVCS)
 
 S.lang = "sr"
-S.templates_lang = "templates"
-S.templates_dynamic = True
+S.over_templates = True
 
 S.summit = dict(
-    topdir=S.resolve_path_rooted("catalogs"),
+    topdir=S.relpath("catalogs"),
 )
 
 S.branches = [
@@ -198,7 +197,7 @@ S.hook_on_gather_msg_branch.extend([
 ])
 
 # Catalogs where UI strings may be found.
-uicpaths = collect_catalogs(S.resolve_path_rooted("catalogs"),
+uicpaths = collect_catalogs(S.relpath("catalogs"),
                             selectf=lambda x: "manual" not in x)
 
 # Additional hooks on scattered translations.
