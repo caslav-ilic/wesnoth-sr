@@ -57,7 +57,7 @@ imod = "ijekavian"
 ilmod = "ijekavianlatin"
 vmods = [lmod, imod, ilmod]
 
-if S.lang != S.templates_lang:
+if "gather" not in S.opmodes:
     # Add variant branches.
     branches_mod = []
     for branch in S.branches:
@@ -76,7 +76,6 @@ if S.lang != S.templates_lang:
             mappings_mod.append((mapping[0] + vmod,) + mapping[1:])
     S.mappings = mappings_mod
 
-S.vivify_on_merge = True
 S.vivify_w_translator = "Simulacrum"
 S.vivify_w_langteam = "Serbian"
 S.vivify_w_plurals = (
