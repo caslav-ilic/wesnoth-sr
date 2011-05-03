@@ -1,16 +1,16 @@
 # Translation of wesnoth-lib.po into Serbian.
 # Copyright (C) 2005 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011.
 # Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>, 2010.
 # Branko Kokanovic, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-lib\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-04-24 12:13+0200\n"
-"PO-Revision-Date: 2010-04-28 15:15+0200\n"
-"Last-Translator: Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>\n"
+"POT-Creation-Date: 2011-05-03 23:17+0200\n"
+"PO-Revision-Date: 2011-05-03 23:30+0200\n"
+"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -716,6 +716,62 @@ msgstr "Играње похода"
 msgid "OK"
 msgstr "У реду"
 
+#. [window]: id=chat_log
+#. +> stable
+#: data/gui/default/window/chat_log.cfg:8
+msgid "Chat log dialog."
+msgstr "Дијалог дневника ћаскања."
+
+#. [label]
+#. +> stable
+#: data/gui/default/window/chat_log.cfg:28
+msgid "Chat log"
+msgstr "Дневник ћаскања"
+
+#. [label]
+#. +> stable
+#: data/gui/default/window/chat_log.cfg:53
+msgid "Page"
+msgstr "Страница"
+
+#. [slider]: id=page_number
+#. +> stable
+#: data/gui/default/window/chat_log.cfg:64
+msgid "Last"
+msgstr "Последња"
+
+#. [button]: id=previous_page
+#. [button]: id=previous_tip
+#. +> stable
+#: data/gui/default/window/chat_log.cfg:72
+#: data/gui/default/window/title_screen.cfg:124
+msgid "Previous"
+msgstr "Претходно"
+
+#. [button]: id=next_tod
+#. [button]: id=next_page
+#. [button]: id=next_tip
+#. +> stable
+#: data/gui/default/window/chat_log.cfg:80
+#: data/gui/default/window/editor_settings.cfg:75
+#: data/gui/default/window/editor_settings.cfg:76
+#: data/gui/default/window/title_screen.cfg:138
+msgid "Next"
+msgstr "С‹љедеће"
+
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [button]: id=ok
+#. [button]: id=cancel
+#. [button]: id=close_window
+#. +> stable
+#: data/gui/default/window/chat_log.cfg:133
+#: data/gui/default/window/gamestate_inspector.cfg:331
+#: data/gui/default/window/lobby_main.cfg:619
+#: data/gui/default/window/lobby_player_info.cfg:192
+#: data/gui/default/window/message.cfg:122 src/construct_dialog.cpp:140
+msgid "Close"
+msgstr "Затвори"
+
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_generate_map.cfg:38
@@ -832,15 +888,6 @@ msgstr "Поставке уређивача"
 #: data/gui/default/window/editor_settings.cfg:46
 msgid "Time of day lighting preset"
 msgstr "Предефинисан осв›јетљај за доба дана"
-
-#. [button]: id=next_tod
-#. [button]: id=next_tip
-#. +> stable
-#: data/gui/default/window/editor_settings.cfg:75
-#: data/gui/default/window/editor_settings.cfg:76
-#: data/gui/default/window/title_screen.cfg:138
-msgid "Next"
-msgstr "С‹љедеће"
 
 #. [toggle_button]: id=custom_tod_toggle
 #. +> stable
@@ -1147,18 +1194,6 @@ msgstr "тип"
 #: data/gui/default/window/gamestate_inspector.cfg:206
 msgid "Variable"
 msgstr "Пром›јенљива"
-
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [button]: id=ok
-#. [button]: id=cancel
-#. [button]: id=close_window
-#. +> stable
-#: data/gui/default/window/gamestate_inspector.cfg:331
-#: data/gui/default/window/lobby_main.cfg:619
-#: data/gui/default/window/lobby_player_info.cfg:192
-#: data/gui/default/window/message.cfg:122 src/construct_dialog.cpp:140
-msgid "Close"
-msgstr "Затвори"
 
 #. [grid]
 #. [label]
@@ -1738,12 +1773,6 @@ msgstr "Изабери"
 msgid "Help"
 msgstr "Помоћ"
 
-#. [button]: id=previous_tip
-#. +> stable
-#: data/gui/default/window/title_screen.cfg:124
-msgid "Previous"
-msgstr "Претходно"
-
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [grid]
 #. +> stable
@@ -1850,12 +1879,12 @@ msgid "Creation of the directory failed."
 msgstr "Стварање директоријума није усп›јело."
 
 #. +> stable
-#: src/game_preferences.cpp:301
+#: src/game_preferences.cpp:298
 msgid "No server has been defined."
 msgstr "Сервер није задат."
 
 #. +> stable
-#: src/game_preferences.cpp:363
+#: src/game_preferences.cpp:360
 msgid "player"
 msgstr "играч"
 
@@ -2628,12 +2657,12 @@ msgid "Widget definition '$definition' doesn't contain the definition for '$id'.
 msgstr "Дефиниција виџета „$definition“ не садржи дефиницију за „$id“."
 
 #. +> stable
-#: src/gui/widgets/settings.cpp:495
+#: src/gui/widgets/settings.cpp:496
 msgid "No default gui defined."
 msgstr "Подразум›ијевано сучеље није дефинисано."
 
 #. +> stable
-#: src/gui/widgets/settings.cpp:522
+#: src/gui/widgets/settings.cpp:523
 msgid "No state or draw section defined."
 msgstr "Од›јељак стања или цртања није дефинисан."
 
