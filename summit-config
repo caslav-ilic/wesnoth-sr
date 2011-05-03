@@ -238,7 +238,7 @@ S.hook_on_scatter_cat.extend([
 # Set hooks on scattered branch catalog files.
 S.hook_on_scatter_file.extend([
     # Check strict gettext-correctness of modified catalogs.
-    (msgfmt(options="--check"),),
+    (msgfmt(options=["--check"]),),
     # Canonically format modified catalogs.
-    (msgfilter("cat"),),
+    (msgfilter(["cat"]),),
 ])
