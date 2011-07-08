@@ -73,7 +73,7 @@ if "gather" not in S.opmodes:
     for mapping in S.mappings:
         mappings_mod.append(mapping)
         for vmod in vmods:
-            mappings_mod.append((mapping[0] + vmod,) + mapping[1:])
+            mappings_mod.append(("%s@%s" % (mapping[0], vmod),) + mapping[1:])
     S.mappings = mappings_mod
 
 S.vivify_w_translator = "Simulacrum"
