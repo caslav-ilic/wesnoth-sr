@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-editor\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:34+0100\n"
-"PO-Revision-Date: 2010-04-28 12:56+0200\n"
+"PO-Revision-Date: 2011-09-10 01:15+0200\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -308,18 +308,8 @@ msgstr "Опозови|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
-msgid "Can't Undo"
-msgstr "Опозив неизводљив|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
 msgid "Redo"
 msgstr "Понови|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
-msgid "Can't Redo"
-msgstr "Понављање неизводљиво|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
@@ -356,18 +346,6 @@ msgstr "(спољашњи)|~"
 #. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
 msgid "Will not work in game without extra care."
 msgstr "Неће радити у игри без додатне бриге.|~"
-
-# well-spelled: Исп|~
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
-msgid "FG"
-msgstr "Исп.|~"
-
-# well-spelled: Поз|~
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
-msgid "BG"
-msgstr "Поз.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
@@ -410,17 +388,62 @@ msgid "Choose player"
 msgstr "Избор играча|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. modified: djuric | 2010-02-22 12:08:06+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
-msgid "Which player should start here? You can use alt and a number key to set the starting position for a player, and del to clear the starting position under the cursor. Pressing a number key by itself will scroll to that player's starting position."
-msgstr ""
-"Који играч креће одавде? тастером Alt и бројем можете задати почетни положај, а Delete уклања онај под курсором. Само тастер броја отклизаће мапу до почетног положаја тога играча.|~\n"
-"Који играч креће одавд›је? тастером Alt и бројем можете задати почетни положај, а Delete уклања онај под курсором. Само тастер броја отклизаће мапу до почетног положаја тога играча.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
 msgid "Custom setting"
 msgstr "Посебна поставка|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#, fuzzy
+#| msgid "Can't Undo|~"
+msgid "Can’t Undo"
+msgstr "Опозив неизводљив|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#, fuzzy
+#| msgid "Can't Redo|~"
+msgid "Can’t Redo"
+msgstr "Понављање неизводљиво|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#, fuzzy
+#| msgid "Which player should start here? You can use alt and a number key to set the starting position for a player, and del to clear the starting position under the cursor. Pressing a number key by itself will scroll to that player's starting position.|~"
+msgid "Which player should start here? You can use alt and a number key to set the starting position for a player, and del to clear the starting position under the cursor. Pressing a number key by itself will scroll to that player’s starting position."
+msgstr "Који играч креће одавд›је? тастером Alt и бројем можете задати почетни положај, а Delete уклања онај под курсором. Само тастер броја отклизаће мапу до почетног положаја тога играча.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
+#. modified: ilic | 2011-09-10 01:15:13+0200 | o
+#~ msgid "Can't Undo"
+#~ msgstr "Опозив неизводљив|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
+#. modified: ilic | 2011-09-10 01:15:13+0200 | o
+#~ msgid "Can't Redo"
+#~ msgstr "Понављање неизводљиво|~"
+
+# well-spelled: Исп|~
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
+#. modified: ilic | 2011-09-10 01:15:13+0200 | o
+#~ msgid "FG"
+#~ msgstr "Исп.|~"
+
+# well-spelled: Поз|~
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
+#. modified: ilic | 2011-09-10 01:15:13+0200 | o
+#~ msgid "BG"
+#~ msgstr "Поз.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: djuric | 2010-02-22 12:08:06+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
+#. modified: ilic | 2011-09-10 01:15:13+0200 | o
+#~ msgid "Which player should start here? You can use alt and a number key to set the starting position for a player, and del to clear the starting position under the cursor. Pressing a number key by itself will scroll to that player's starting position."
+#~ msgstr ""
+#~ "Који играч креће одавде? тастером Alt и бројем можете задати почетни положај, а Delete уклања онај под курсором. Само тастер броја отклизаће мапу до почетног положаја тога играча.|~\n"
+#~ "Који играч креће одавд›је? тастером Alt и бројем можете задати почетни положај, а Delete уклања онај под курсором. Само тастер броја отклизаће мапу до почетног положаја тога играча.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: ilic | 2010-02-20 10:48:51+0100 | o
