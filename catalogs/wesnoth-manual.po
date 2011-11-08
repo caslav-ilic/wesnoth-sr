@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-manual\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-09-10 01:00+0200\n"
+"POT-Creation-Date: 2011-11-08 23:49+0100\n"
 "PO-Revision-Date: 2011-09-10 14:17+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -157,18 +157,18 @@ msgstr "Главни мени"
 #: /src/wesnoth/doc/manual/manual.en.xml:401
 #: /src/wesnoth/doc/manual/manual.en.xml:470
 #: /src/wesnoth/doc/manual/manual.en.xml:1326
-#: /src/wesnoth/doc/manual/manual.en.xml:1431
-#: /src/wesnoth/doc/manual/manual.en.xml:1453
-#: /src/wesnoth/doc/manual/manual.en.xml:1475
-#: /src/wesnoth/doc/manual/manual.en.xml:1497
-#: /src/wesnoth/doc/manual/manual.en.xml:1519
-#: /src/wesnoth/doc/manual/manual.en.xml:1541
-#: /src/wesnoth/doc/manual/manual.en.xml:1563
-#: /src/wesnoth/doc/manual/manual.en.xml:2268
-#: /src/wesnoth/doc/manual/manual.en.xml:2284
-#: /src/wesnoth/doc/manual/manual.en.xml:2300
-#: /src/wesnoth/doc/manual/manual.en.xml:2316
-#: /src/wesnoth/doc/manual/manual.en.xml:2332
+#: /src/wesnoth/doc/manual/manual.en.xml:1435
+#: /src/wesnoth/doc/manual/manual.en.xml:1460
+#: /src/wesnoth/doc/manual/manual.en.xml:1485
+#: /src/wesnoth/doc/manual/manual.en.xml:1510
+#: /src/wesnoth/doc/manual/manual.en.xml:1535
+#: /src/wesnoth/doc/manual/manual.en.xml:1560
+#: /src/wesnoth/doc/manual/manual.en.xml:1585
+#: /src/wesnoth/doc/manual/manual.en.xml:2293
+#: /src/wesnoth/doc/manual/manual.en.xml:2309
+#: /src/wesnoth/doc/manual/manual.en.xml:2325
+#: /src/wesnoth/doc/manual/manual.en.xml:2341
+#: /src/wesnoth/doc/manual/manual.en.xml:2357
 msgid "<placeholder type=\"inlinemediaobject\" id=\"0\"/>"
 msgstr "<placeholder type=\"inlinemediaobject\" id=\"0\"/>"
 
@@ -952,7 +952,7 @@ msgstr "Увеличање."
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
 #: /src/wesnoth/doc/manual/manual.en.xml:712
-#: /src/wesnoth/doc/manual/manual.en.xml:2329
+#: /src/wesnoth/doc/manual/manual.en.xml:2354
 msgid "-"
 msgstr "<keycombo><keycap>-</keycap></keycombo>"
 
@@ -965,8 +965,8 @@ msgstr "Умањење."
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
 #: /src/wesnoth/doc/manual/manual.en.xml:720
-#: /src/wesnoth/doc/manual/manual.en.xml:2108
-#: /src/wesnoth/doc/manual/manual.en.xml:2114
+#: /src/wesnoth/doc/manual/manual.en.xml:2133
+#: /src/wesnoth/doc/manual/manual.en.xml:2139
 msgid "0"
 msgstr "<keycombo><keycap>0</keycap></keycombo>"
 
@@ -1818,7 +1818,9 @@ msgstr "Поредак"
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
 #: /src/wesnoth/doc/manual/manual.en.xml:1385
-msgid "Every unit has an alignment: lawful, neutral, or chaotic. Alignment affects how units perform at different times of day. Neutral units are unaffected by the time of day. Lawful units do more damage during the day and less at night. Chaotic units do more damage at night and less during the day."
+#, fuzzy
+#| msgid "Every unit has an alignment: lawful, neutral, or chaotic. Alignment affects how units perform at different times of day. Neutral units are unaffected by the time of day. Lawful units do more damage during the day and less at night. Chaotic units do more damage at night and less during the day."
+msgid "Every unit has an alignment: lawful, neutral, chaotic, or liminal. Alignment affects how units perform at different times of day. Neutral units are unaffected by the time of day. Lawful units do more damage during the day and less at night. Chaotic units do more damage at night and less during the day. Liminal units do less damage during both night and daytime."
 msgstr "Свака јединица припада поретку: законити, неутрални или хаотични. Поредак утиче на учинак јединице у различита доба дана. На неутралне јединице доба дана не утиче. Законите јединице наносе више штете дању а мање ноћу. Хаотичне јединице наносе више штете ноћу а мање дању."
 
 #. type: Content of: <book><chapter><section><section><simpara>
@@ -1830,7 +1832,9 @@ msgstr "„Дан“ и „ноћ“ под›ијељени су у по дв�
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
 #: /src/wesnoth/doc/manual/manual.en.xml:1393
-msgid "The following table shows the effects of different times of the day on the damage dealt by lawful and chaotic units:"
+#, fuzzy
+#| msgid "The following table shows the effects of different times of the day on the damage dealt by lawful and chaotic units:"
+msgid "The following table shows the effects of different times of the day on the damage dealt by lawful, chaotic, and liminal units:"
 msgstr "Наредна табела приказује утицај различитих доба дана на штету коју наносе законите и хаотичне јединице:"
 
 #. type: Content of: <book><chapter><section><section><table><title>
@@ -1841,832 +1845,845 @@ msgstr "Доба дана и штета"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1409
+#: /src/wesnoth/doc/manual/manual.en.xml:1410
 msgid "Turn"
 msgstr "потез"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1412
-#: /src/wesnoth/doc/manual/manual.en.xml:2255
+#: /src/wesnoth/doc/manual/manual.en.xml:1413
+#: /src/wesnoth/doc/manual/manual.en.xml:2280
 msgid "Image"
 msgstr "слика"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1415
+#: /src/wesnoth/doc/manual/manual.en.xml:1416
 msgid "Day-phase"
 msgstr "см›јена"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1418
+#: /src/wesnoth/doc/manual/manual.en.xml:1419
 msgid "Lawful"
 msgstr "законите"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1421
+#: /src/wesnoth/doc/manual/manual.en.xml:1422
 msgid "Chaotic"
 msgstr "хаотичне"
 
+#. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
+#. +> devel
+#: /src/wesnoth/doc/manual/manual.en.xml:1425
+msgid "Liminal"
+msgstr ""
+
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1428
-#: /src/wesnoth/doc/manual/manual.en.xml:2119
-#: /src/wesnoth/doc/manual/manual.en.xml:2125
+#: /src/wesnoth/doc/manual/manual.en.xml:1432
+#: /src/wesnoth/doc/manual/manual.en.xml:2144
+#: /src/wesnoth/doc/manual/manual.en.xml:2150
 msgid "1"
 msgstr "1"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1432
+#: /src/wesnoth/doc/manual/manual.en.xml:1436
 msgid "<imageobject> <imagedata fileref=\"images/schedule-dawn.png\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/schedule-dawn.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1435
+#: /src/wesnoth/doc/manual/manual.en.xml:1439
 msgid "images/schedule-dawn.png"
 msgstr "Зора"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1439
+#: /src/wesnoth/doc/manual/manual.en.xml:1443
 msgid "Dawn"
 msgstr "зора"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1442
-#: /src/wesnoth/doc/manual/manual.en.xml:1445
-#: /src/wesnoth/doc/manual/manual.en.xml:1508
-#: /src/wesnoth/doc/manual/manual.en.xml:1511
+#: /src/wesnoth/doc/manual/manual.en.xml:1446
+#: /src/wesnoth/doc/manual/manual.en.xml:1449
+#: /src/wesnoth/doc/manual/manual.en.xml:1452
+#: /src/wesnoth/doc/manual/manual.en.xml:1521
+#: /src/wesnoth/doc/manual/manual.en.xml:1524
+#: /src/wesnoth/doc/manual/manual.en.xml:1527
 msgid "--"
 msgstr "—"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1450
-#: /src/wesnoth/doc/manual/manual.en.xml:2130
-#: /src/wesnoth/doc/manual/manual.en.xml:2136
+#: /src/wesnoth/doc/manual/manual.en.xml:1457
+#: /src/wesnoth/doc/manual/manual.en.xml:2155
+#: /src/wesnoth/doc/manual/manual.en.xml:2161
 msgid "2"
 msgstr "2"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1454
+#: /src/wesnoth/doc/manual/manual.en.xml:1461
 msgid "<imageobject> <imagedata fileref=\"images/schedule-morning.png\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/schedule-morning.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1457
+#: /src/wesnoth/doc/manual/manual.en.xml:1464
 msgid "images/schedule-morning.png"
 msgstr "Јутро"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1461
+#: /src/wesnoth/doc/manual/manual.en.xml:1468
 msgid "Day (morning)"
 msgstr "дан (јутро)"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1464
-#: /src/wesnoth/doc/manual/manual.en.xml:1486
-#: /src/wesnoth/doc/manual/manual.en.xml:1533
-#: /src/wesnoth/doc/manual/manual.en.xml:1555
-#: /src/wesnoth/doc/manual/manual.en.xml:1577
+#: /src/wesnoth/doc/manual/manual.en.xml:1471
+#: /src/wesnoth/doc/manual/manual.en.xml:1496
+#: /src/wesnoth/doc/manual/manual.en.xml:1549
+#: /src/wesnoth/doc/manual/manual.en.xml:1574
+#: /src/wesnoth/doc/manual/manual.en.xml:1599
 msgid "+25%"
 msgstr "+25%"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1467
-#: /src/wesnoth/doc/manual/manual.en.xml:1489
-#: /src/wesnoth/doc/manual/manual.en.xml:1530
+#: /src/wesnoth/doc/manual/manual.en.xml:1474
+#: /src/wesnoth/doc/manual/manual.en.xml:1477
+#: /src/wesnoth/doc/manual/manual.en.xml:1499
+#: /src/wesnoth/doc/manual/manual.en.xml:1502
+#: /src/wesnoth/doc/manual/manual.en.xml:1546
 #: /src/wesnoth/doc/manual/manual.en.xml:1552
-#: /src/wesnoth/doc/manual/manual.en.xml:1574
+#: /src/wesnoth/doc/manual/manual.en.xml:1571
+#: /src/wesnoth/doc/manual/manual.en.xml:1577
+#: /src/wesnoth/doc/manual/manual.en.xml:1596
+#: /src/wesnoth/doc/manual/manual.en.xml:1602
 msgid "−25%"
 msgstr ""
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1472
-#: /src/wesnoth/doc/manual/manual.en.xml:2141
-#: /src/wesnoth/doc/manual/manual.en.xml:2147
+#: /src/wesnoth/doc/manual/manual.en.xml:1482
+#: /src/wesnoth/doc/manual/manual.en.xml:2166
+#: /src/wesnoth/doc/manual/manual.en.xml:2172
 msgid "3"
 msgstr "3"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1476
+#: /src/wesnoth/doc/manual/manual.en.xml:1486
 msgid "<imageobject> <imagedata fileref=\"images/schedule-afternoon.png\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/schedule-afternoon.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1479
+#: /src/wesnoth/doc/manual/manual.en.xml:1489
 msgid "images/schedule-afternoon.png"
 msgstr "Поподне"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1483
+#: /src/wesnoth/doc/manual/manual.en.xml:1493
 msgid "Day (afternoon)"
 msgstr "дан (поподне)"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1494
-#: /src/wesnoth/doc/manual/manual.en.xml:2111
-#: /src/wesnoth/doc/manual/manual.en.xml:2152
-#: /src/wesnoth/doc/manual/manual.en.xml:2158
+#: /src/wesnoth/doc/manual/manual.en.xml:1507
+#: /src/wesnoth/doc/manual/manual.en.xml:2136
+#: /src/wesnoth/doc/manual/manual.en.xml:2177
+#: /src/wesnoth/doc/manual/manual.en.xml:2183
 msgid "4"
 msgstr "4"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1498
+#: /src/wesnoth/doc/manual/manual.en.xml:1511
 msgid "<imageobject> <imagedata fileref=\"images/schedule-dusk.png\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/schedule-dusk.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1501
+#: /src/wesnoth/doc/manual/manual.en.xml:1514
 msgid "images/schedule-dusk.png"
 msgstr "Сумрак"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1505
+#: /src/wesnoth/doc/manual/manual.en.xml:1518
 msgid "Dusk"
 msgstr "сумрак"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1516
-#: /src/wesnoth/doc/manual/manual.en.xml:2163
-#: /src/wesnoth/doc/manual/manual.en.xml:2169
+#: /src/wesnoth/doc/manual/manual.en.xml:1532
+#: /src/wesnoth/doc/manual/manual.en.xml:2188
+#: /src/wesnoth/doc/manual/manual.en.xml:2194
 msgid "5"
 msgstr "5"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1520
+#: /src/wesnoth/doc/manual/manual.en.xml:1536
 msgid "<imageobject> <imagedata fileref=\"images/schedule-firstwatch.png\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/schedule-firstwatch.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1523
+#: /src/wesnoth/doc/manual/manual.en.xml:1539
 msgid "images/schedule-firstwatch.png"
 msgstr "Прва стража"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1527
+#: /src/wesnoth/doc/manual/manual.en.xml:1543
 msgid "Night (first watch)"
 msgstr "ноћ (прва стража)"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1538
-#: /src/wesnoth/doc/manual/manual.en.xml:2174
-#: /src/wesnoth/doc/manual/manual.en.xml:2180
+#: /src/wesnoth/doc/manual/manual.en.xml:1557
+#: /src/wesnoth/doc/manual/manual.en.xml:2199
+#: /src/wesnoth/doc/manual/manual.en.xml:2205
 msgid "6"
 msgstr "6"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1542
+#: /src/wesnoth/doc/manual/manual.en.xml:1561
 msgid "<imageobject> <imagedata fileref=\"images/schedule-secondwatch.png\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/schedule-secondwatch.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1545
+#: /src/wesnoth/doc/manual/manual.en.xml:1564
 msgid "images/schedule-secondwatch.png"
 msgstr "Друга стража"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1549
+#: /src/wesnoth/doc/manual/manual.en.xml:1568
 msgid "Night (second watch)"
 msgstr "ноћ (друга стража)"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1560
+#: /src/wesnoth/doc/manual/manual.en.xml:1582
 msgid "Special"
 msgstr "посебно"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1564
+#: /src/wesnoth/doc/manual/manual.en.xml:1586
 msgid "<imageobject> <imagedata fileref=\"images/schedule-underground.png\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/schedule-underground.png\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1567
+#: /src/wesnoth/doc/manual/manual.en.xml:1589
 msgid "images/schedule-underground.png"
 msgstr "Подземље"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1571
+#: /src/wesnoth/doc/manual/manual.en.xml:1593
 msgid "Underground"
 msgstr "подземље"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1583
+#: /src/wesnoth/doc/manual/manual.en.xml:1608
 msgid "Keep in mind that some scenarios take place underground, where it is perpetually night!"
 msgstr "Имајте на уму да се неки сценарији одвијају у подземљу, гд›је је трајна ноћ!"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1585
+#: /src/wesnoth/doc/manual/manual.en.xml:1610
 msgid "For example: consider a fight between a Lawful and a Chaotic unit when both have a base damage of 12. At dawn and dusk, both will do 12 points of damage if they hit. During Morning or Afternoon, the Lawful unit will do (<literal>12 \\* 1.25</literal>) or 15 points, while the Chaotic unit will do (<literal>12 \\* 0.75</literal>) or 9 points. During First or Second Watch, the Lawful unit would do 9 points compared to the Chaotic unit&#8217;s 15."
 msgstr "На прим›јер, размотримо борбу између законите и хаотичне јединице које об›је наносе основну штету 12. У зору и сумрак, об›је ће нанети 12 поена штете ако погоде. Током јутра и поподнева, законита јединица ће нан›ијети 12 × 1,25 = 15 поена, док ће хаотична нанети 12 × 0,75 = 9 поена. Током прве и друге страже биће обрнуто, законита јединица нан›ијеће 9 поена према 15 поена хаотичне."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1591
+#: /src/wesnoth/doc/manual/manual.en.xml:1616
 msgid "If an equivalent Neutral unit were fighting, it would always do 12 points of damage regardless of the hour."
 msgstr "Ако се сличне неутралне јединице упусте у борбу, наносиће 12 поена штете без обзира на доба дана."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1595
+#: /src/wesnoth/doc/manual/manual.en.xml:1620
 msgid "Traits"
 msgstr "Особине"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1596
+#: /src/wesnoth/doc/manual/manual.en.xml:1621
 msgid "Units have traits which reflect aspects of their character. Traits are assigned randomly to units when they are created. Most units receive two traits."
 msgstr "Јединице имају особине које одражавају црте њиховог карактера. Особине се насумично дод›јељују јединици при њеном стварању. Већина јединица добија две особине."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1599
+#: /src/wesnoth/doc/manual/manual.en.xml:1624
 msgid "The possible traits for most units are as follows:"
 msgstr "Могуће особине за већину јединица јесу:"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1603
+#: /src/wesnoth/doc/manual/manual.en.xml:1628
 msgid "Intelligent"
 msgstr "оштроумност"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1607
+#: /src/wesnoth/doc/manual/manual.en.xml:1632
 msgid "Intelligent units require 20% less experience than usual to advance (Trolls do not get this trait).  Intelligent units are very useful at the beginning of a campaign as they can advance to higher levels more quickly. Later in campaigns Intelligent is not quite as useful because the After Maximum Level Advancement (AMLA)  is not as significant a change as advancing a level. If you have many <emphasis>maximum level</emphasis> units you may wish to recall units with more useful traits."
 msgstr "Оштроумним јединицама треба 20% мање искуства за напредовање (тролови не могу имати ову особину). Оштроумне јединице су врло корисне на почетку похода, пошто брже могу достићи више нивое. Касније у току похода оштроумност није тако корисна, пошто „напредовање по највећем нивоу“ (НАПОН) није тако значајно као напредовање у нивоу. Ако имате много оваквих јединица <emphasis>највишег нивоа</emphasis>, можда је боље да сазивате јединице са  кориснијим особинама."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1619
+#: /src/wesnoth/doc/manual/manual.en.xml:1644
 msgid "Quick"
 msgstr "хитрост"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1623
+#: /src/wesnoth/doc/manual/manual.en.xml:1648
 msgid "Quick units have 1 extra movement point, but 5% less HP than usual.  Quick is the most noticeable trait, particularly in slower moving units such as trolls or heavy infantry. Units with the Quick trait often have greatly increased mobility in rough terrain, which can be important to consider when deploying your forces. Also, Quick units aren&#8217;t quite as tough as units without this trait and are subsequently less good at holding contested positions."
 msgstr "Хитре јединице имају поен више на покретљивост, али 5% мање УП. Хитрост је најуочљивија особина, посебно код споријих јединица какве су тролови и тешка п›јешадија. Хитре јединице често имају значајно увећану покретљивост на незгодном терену, што може бити важно за разматрање када распоређујете снаге. Такође, ове јединице нису тако робусне као оне без хитрости, и стога су мање погодне за држање положајâ под сталним нападом."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1635
+#: /src/wesnoth/doc/manual/manual.en.xml:1660
 msgid "Resilient"
 msgstr "жилавост"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1639
+#: /src/wesnoth/doc/manual/manual.en.xml:1664
 msgid "Resilient units have 4 HP plus 1 HP per level more than usual.  Resilient units can be useful at all stages of a campaign, and this is a useful trait for all units. Resilient is often most helpful as a trait when it occurs in a unit that has some combination of low hitpoints, good defense, or high resistances. Resilient units are especially useful for holding strategic positions against opponents."
 msgstr "Жилаве јединице имају четири УП више, плус један на сваки ниво. Жилаве јединице могу бити корисне у свим етапама похода, и ова особина је корисна за све типове јединица. Жилавост је често од највеће помоћи јединицама које имају неки сплет ниских ударпоена, добре одбране, или високих отпорности. Овакве јединице су посебно корисне за држање стратешких положаја ван руку противника."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1650
+#: /src/wesnoth/doc/manual/manual.en.xml:1675
 msgid "Strong"
 msgstr "кршност"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1654
+#: /src/wesnoth/doc/manual/manual.en.xml:1679
 msgid "Strong units do 1 more damage for every successful strike in melee combat, and have 1 more HP.  While useful for any close-combat unit, Strong is most effective for units who have a high number of swings such as the Elvish Fighter. Strong units can be very useful when a tiny bit of extra damage is all that is needed to turn a damaging stroke into a killing blow."
 msgstr "Кршне јединице наносе поен штете више за сваки усп›јешан удар у блиској борби, и имају један УП више. Иако корисна било којој јединици која се бори блиско, кршност је најзначајнија јединицама са великим бројем удара у нападу, какви су нпр. вилин-борци. Кршне јединице могу бити врло корисне када је само још зрнце више штете потребно да се оштећујући удар претвори у завршни."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1664
+#: /src/wesnoth/doc/manual/manual.en.xml:1689
 msgid "There are also some traits that are assigned only for certain units or only for units of a certain race. These are:"
 msgstr "Има и особина које се дод›јељују само одређеним јединицама или јединицама одређене расе. То су:"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1669
+#: /src/wesnoth/doc/manual/manual.en.xml:1694
 msgid "Dextrous"
 msgstr "спретност"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1673
+#: /src/wesnoth/doc/manual/manual.en.xml:1698
 msgid "Dextrous units do 1 more damage for every successful strike in ranged combat.  Dextrous is a trait possessed only by Elves. The Elven people are known for their uncanny grace, and their great facility with the bow. Some, however, are gifted with natural talent that exceeds their brethren. These elves inflict an additional point of damage with each arrow."
 msgstr "Спретне јединице наносе поен штете више при сваком усп›јешном удару у одступној борби. Спретност је особина коју пос›једују само вилењаци. Вилењачки народ је познат по својој тајанственој складности и великој в›јештини у руковању луком. Неки од њих, међутим, обдарени су талентом који надмашује њихове сународнике. Такви вилењаци наносе додатан поен штете сваком својом стр›ијелом."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1683
+#: /src/wesnoth/doc/manual/manual.en.xml:1708
 msgid "Healthy"
 msgstr "здравље"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1687
+#: /src/wesnoth/doc/manual/manual.en.xml:1712
 msgid "Renowned for their vitality, some dwarves are sturdier than others and can rest heal even when traveling or fighting.  Healthy units have 1 HP plus 1 HP per level more than usual and rest heal the usual 2 HP after each turn regardless."
 msgstr "Чувени по својој крепкости, неки патуљци су издржљивији од других и могу се л›ијечити одмарањем чак и док путују или се боре. Здраве јединице имају један УП више, и још један по нивоу, у за‹љечују се два УП сваког потеза без обзира на околности."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1696
+#: /src/wesnoth/doc/manual/manual.en.xml:1721
 msgid "Fearless"
 msgstr "неустрашивост"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1700
+#: /src/wesnoth/doc/manual/manual.en.xml:1725
 msgid "Does not suffer from a negative attack bonus during its unfavorable time of day (Heavy Infantry, Necrophage, Trolls, Walking Corpses)."
 msgstr "Неустрашиве јединице не трпе негативни нападни бонус у неповољно доба дана (тешкоходи, некрофази, тролови, бауљаши)."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1706
+#: /src/wesnoth/doc/manual/manual.en.xml:1731
 msgid "There are also some traits that are not assigned randomly.  These traits can either be assigned by the scenario designer or are always assigned based on the unit type:"
 msgstr "Неке особине се не дод›јељују насумично. Дод›јељује их или дизајнер сценарија или се ув›ијек везују за тип јединице:"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1712
+#: /src/wesnoth/doc/manual/manual.en.xml:1737
 msgid "Loyal"
 msgstr "оданост"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1716
+#: /src/wesnoth/doc/manual/manual.en.xml:1741
 msgid "Loyal units don&#8217;t incur upkeep. Most units incur an upkeep cost at the end of every turn, which is equal to their level. Loyal units do not incur this cost.  During campaigns, certain units may opt to join the player&#8217;s forces of their own volition. These units are marked with the Loyal trait. Although they may require payment to be recalled, they never incur any upkeep costs. This can make them invaluable during a long campaign, when gold is in short supply.  This trait is never given to recruited units, so it may be unwise to dismiss such units or to send them to a foolish death."
 msgstr "Одане јединице не праве издатке. Већина јединица има издатке на крају сваког потеза, бројевно једнаке њиховом нивоу. Одане јединице немају таквих захт›ијева. Током похода, одређене јединице могу својевољно одлучити да се придруже вашим снагама. Оне ће тада имати особину оданости. Иако се мора платити њихово касније сазивање, никада не праве издатке у току сценарија. Ово их може учинити драгоц›јеним током дугог похода, када је злато стално на измаку. Унајмљене јединице никада немају ову особину, тако да може бити несмотрено отпуштати одане јединице, или их слати у бесмислену смрт."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1730
+#: /src/wesnoth/doc/manual/manual.en.xml:1755
 msgid "Undead"
 msgstr "немртвост"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1734
+#: /src/wesnoth/doc/manual/manual.en.xml:1759
 msgid "Undead units are immune to poison, also drain and plague doesn&#8217;t work on them.  Undead units generally have <emphasis>Undead</emphasis> as their only trait. Since Undead units are the bodies of the dead, risen to fight again, poison has no effect upon them. This can make them invaluable in dealing with foes who use poison in conjunction with their attacks."
 msgstr "Немртве јединице су имуне на отров, а ни црпљење ни куга немају утицаја на њих. Немртвост им је обично једина особина. Пошто су ове јединице настале од т›ијела мртвих, повраћених да се поново боре, отров нема утицаја на њих. Ово их може учинити изузетно корисним при обрачунавању са противницима који своје нападе подржавају отровима."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1744
+#: /src/wesnoth/doc/manual/manual.en.xml:1769
 msgid "Mechanical"
 msgstr "механичност"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1748
+#: /src/wesnoth/doc/manual/manual.en.xml:1773
 msgid "Mechanical units aren&#8217;t alive and thus are immune to poison, also drain and plague doesn&#8217;t work on them.  Mechanical units generally have <emphasis>Mechanical</emphasis> as their only trait."
 msgstr "Механичке јединице нису живе па су имуне на отров, а ни црпљење ни куга немају утицаја на њих. Обично је ово једина особина механичких јединица."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1757
+#: /src/wesnoth/doc/manual/manual.en.xml:1782
 msgid "Unit Specialties"
 msgstr "Специјалности јединица"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1758
+#: /src/wesnoth/doc/manual/manual.en.xml:1783
 msgid "Certain units have special attacks. These are listed below:"
 msgstr "Неке јединице имају специјалне нападе, набројане испод:"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1762
+#: /src/wesnoth/doc/manual/manual.en.xml:1787
 msgid "Backstab"
 msgstr "нож у леђа"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1766
+#: /src/wesnoth/doc/manual/manual.en.xml:1791
 msgid "When used offensively, this attack deals double damage if there is an enemy of the target on the opposite side of the target, and that unit is not incapacitated (e.g. petrified)."
 msgstr "Употр›ијебљен офанзивно, овај напад наноси двоструку штету ако пријатељска јединица стоји са наспрамне стране нападнуте, и притом није онеспособљена (нпр. окамењена)."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1774
+#: /src/wesnoth/doc/manual/manual.en.xml:1799
 msgid "Berserk"
 msgstr "безглавост"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1778
+#: /src/wesnoth/doc/manual/manual.en.xml:1803
 msgid "Whether used offensively or defensively, this attack presses the engagement until one of the combatants is slain, or 30 rounds of attacks have occurred."
 msgstr "Било да се употребљава у нападу или одбрани, борба траје све док једна упетљана јединица не настрада, или прође 30 рунди напада."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1786
+#: /src/wesnoth/doc/manual/manual.en.xml:1811
 msgid "Charge"
 msgstr "јуриш"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1790
+#: /src/wesnoth/doc/manual/manual.en.xml:1815
 msgid "When used offensively, this attack deals double damage to the target. It also causes this unit to take double damage from the target&#8217;s counterattack."
 msgstr "Употр›ијебљен офанзивно, овај напад наноси двоструку штету мети. Али такође доводи до двоструког оштећења уколико циљана јединица удари у противнападу."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1797
+#: /src/wesnoth/doc/manual/manual.en.xml:1822
 msgid "Drain"
 msgstr "црпљење"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1801
+#: /src/wesnoth/doc/manual/manual.en.xml:1826
 msgid "This unit drains health from living units, healing itself for half the amount of damage it deals (rounded down)."
 msgstr "Јединица црпи здравље животних јединица, л›ијечећи себе у износу половине штете коју нанесе (заокружено надо‹ље)."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1808
+#: /src/wesnoth/doc/manual/manual.en.xml:1833
 msgid "Firststrike"
 msgstr "први удар"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1812
+#: /src/wesnoth/doc/manual/manual.en.xml:1837
 msgid "This unit always strikes first with this attack, even if they are defending."
 msgstr "Јединица ув›ијек удара прва у борби, чак и када се брани."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1818
+#: /src/wesnoth/doc/manual/manual.en.xml:1843
 msgid "Magical"
 msgstr "магичност"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1822
+#: /src/wesnoth/doc/manual/manual.en.xml:1847
 msgid "This attack always has a 70% chance to hit regardless of the defensive ability of the unit being attacked."
 msgstr "Напад ув›ијек има 70% изгледа да погоди, без обзира на одбрамбену способност нападнуте јединице."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1829
+#: /src/wesnoth/doc/manual/manual.en.xml:1854
 msgid "Marksman"
 msgstr "оштроокост"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1833
+#: /src/wesnoth/doc/manual/manual.en.xml:1858
 msgid "When used offensively, this attack always has at least a 60% chance to hit."
 msgstr "При нападу, ув›ијек постоји барем 60% изгледа да дође до поготка."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1839
+#: /src/wesnoth/doc/manual/manual.en.xml:1864
 msgid "Plague"
 msgstr "куга"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1843
+#: /src/wesnoth/doc/manual/manual.en.xml:1868
 msgid "When a unit is killed by a Plague attack, that unit is replaced with a Walking Corpse on the same side as the unit with the Plague attack. This doesn&#8217;t work on Undead or units in villages."
 msgstr "Када јединица настрада под нападом куге, бива зам›ијењена бауљашем на страни оне која је бацила кугу. Ово не ради на немртвима или јединицама у селу."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1851
-#: /src/wesnoth/doc/manual/manual.en.xml:2485
+#: /src/wesnoth/doc/manual/manual.en.xml:1876
+#: /src/wesnoth/doc/manual/manual.en.xml:2510
 msgid "Poison"
 msgstr "отров"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1855
+#: /src/wesnoth/doc/manual/manual.en.xml:1880
 msgid "This attack poisons the target. Poisoned units lose 8 HP every turn until they are cured or are reduced to 1 HP. Poison can not, of itself, kill a unit."
 msgstr "Овај напад трује циљану јединицу. Отроване јединице губе 8 УП по потезу, док не буду исц›ијељене или сведене на 1 УП. Отров не може сам по себи докрајчити јединицу."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1863
+#: /src/wesnoth/doc/manual/manual.en.xml:1888
 msgid "Slow"
 msgstr "успоравање"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1867
+#: /src/wesnoth/doc/manual/manual.en.xml:1892
 msgid "This attack slows the target until it ends a turn. Slow halves the damage caused by attacks and the movement cost for a slowed unit is doubled. A unit that is slowed will feature a snail icon in its sidebar information when it is selected."
 msgstr "Напад успорава циљану јединицу док не заврши потез. Штета коју јединица чини у нападу тиме бива преполовљена, а трошак кретања јој је удвостручен. Успорена јединица носиће икону пужа у подацима са стране када се изабере."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1876
+#: /src/wesnoth/doc/manual/manual.en.xml:1901
 msgid "Petrify"
 msgstr "окамењивање"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1880
+#: /src/wesnoth/doc/manual/manual.en.xml:1905
 msgid "This attack petrifies the target, turning it to stone. Units that have been petrified may not move or attack."
 msgstr "Напад претвара циљану јединицу у камен. Тада се она не може покретати нити нападати."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1887
+#: /src/wesnoth/doc/manual/manual.en.xml:1912
 msgid "Swarm"
 msgstr "рој"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1891
+#: /src/wesnoth/doc/manual/manual.en.xml:1916
 msgid "The number of strikes of this attack decreases when the unit is wounded. The number of strikes is proportional to the % of HP/maximum HP the unit has. For example a unit with 3/4 of its maximum HP will get 3/4 of the number of strikes."
 msgstr "Број удара при нападу се смањује како јединица бива повређивана. Број напада је сразм›јеран односу тренутних УП и највише УП које јединица може имати. На прим›јер, јединица са 3/4 пуних УП имаће 3/4 удара при нападу."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1901
+#: /src/wesnoth/doc/manual/manual.en.xml:1926
 msgid "Abilities"
 msgstr "Способности"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1902
+#: /src/wesnoth/doc/manual/manual.en.xml:1927
 msgid "Some units have abilities that either directly affect other units, or have an effect on how the unit interacts with other units. These abilities are listed below:"
 msgstr "Неке јединице су способне да или непосредно утичу на друге јединице, или да утичу на то како се друге јединице међусобно односе. Овд›је спадају:"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1908
+#: /src/wesnoth/doc/manual/manual.en.xml:1933
 msgid "Ambush"
 msgstr "зас›једа"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1912
+#: /src/wesnoth/doc/manual/manual.en.xml:1937
 msgid "This unit can hide in forest, and remain undetected by its enemies.  Enemy units cannot see this unit while it is in forest, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr "Јединица се може скривати у шуми, тако да је непријатељи не уоче. Противничке јединице не могу вид›јети нити напасти ову јединицу док је у шуми, све док не ступе до ње. Непријатељска јединица која прва открије скривену, истог часа губи сву преосталу покретност у потезу."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1921
+#: /src/wesnoth/doc/manual/manual.en.xml:1946
 msgid "Concealment"
 msgstr "скривање"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1925
+#: /src/wesnoth/doc/manual/manual.en.xml:1950
 msgid "This unit can hide in villages (with the exception of water villages), and remain undetected by its enemies, except by those standing next to it.  Enemy units can not see this unit while it is in a village, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr "Јединица се може скривати у селима (с изузетком водених), тако да је непријатељи не виде осим када стоје покрај ње. Противничке јединице не могу вид›јети нити напасти ову јединицу док је у селу, осим ако јој се не налазе у сус›једству. Непријатељска јединица која прва открије скривену, истог часа губи сву преосталу покретност у потезу."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1935
+#: /src/wesnoth/doc/manual/manual.en.xml:1960
 msgid "Cures"
 msgstr "исц›јељивање"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1939
+#: /src/wesnoth/doc/manual/manual.en.xml:1964
 msgid "A unit which can cure an ally of poison, although the ally will receive no additional healing on the turn it is cured of the poison."
 msgstr "Јединица може ослободити савезничку јединицу од отрова, која међутим неће бити додатно изл›ијечена у потезу у којем је прочишћена од отрова."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1946
+#: /src/wesnoth/doc/manual/manual.en.xml:1971
 msgid "Heals +4"
 msgstr "л›ијечење +4"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1950
+#: /src/wesnoth/doc/manual/manual.en.xml:1975
 msgid "Allows the unit to heal adjacent friendly units at the beginning of each turn.  A unit cared for by this healer may heal up to 4 HP per turn, or stop poison from taking effect for that turn.  A poisoned unit cannot be cured of its poison by a healer, and must seek the care of a village or a unit that can cure."
 msgstr "Омогућава јединици да л›ијечи сус›једне пријатељске јединице на почетку сваког потеза. Јединица под утицајем овог видара може повратити до 4 УП по потезу, или не ос›јетити дејство отрова у датом потезу. Видар не може исц›ијелити отровану јединицу, већ она мора потражити бригу у селу или код јединице која ум›ије да исц›јељује."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1961
+#: /src/wesnoth/doc/manual/manual.en.xml:1986
 msgid "Heals +8"
 msgstr "л›ијечење +8"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1965
+#: /src/wesnoth/doc/manual/manual.en.xml:1990
 msgid "This unit combines herbal remedies with magic to heal units more quickly than is normally possible on the battlefield.  A unit cared for by this healer may heal up to 8 HP per turn, or stop poison from taking effect for that turn.  A poisoned unit cannot be cured of its poison by a healer, and must seek the care of a village or a unit that can cure."
 msgstr "Ова јединица обједињује ‹љековите траве и магију како би л›ијечила брже него што је то уобичајено на бојном пољу. Јединица под утицајем овог видара може повратити до 8 УП по потезу, или не ос›јетити дејство отрова у датом потезу. Видар не може исц›ијелити отровану јединицу, већ она мора потражити бригу у селу или код јединице која ум›ије да исц›јељује."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1976
+#: /src/wesnoth/doc/manual/manual.en.xml:2001
 msgid "Illuminates"
 msgstr "обасјавање"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1980
+#: /src/wesnoth/doc/manual/manual.en.xml:2005
 msgid "This unit illuminates the surrounding area, making lawful units fight better, and chaotic units fight worse.  Any units adjacent to this unit will fight as if it were dusk when it is night, and as if it were day when it is dusk."
 msgstr "Јединица осветљава околно подручје, што чини да се законите јединице боре усп›јешније, а хаотичне лошије. Све јединице сус›једне овој бориће се у току ноћи као да је сумрак, а у време сумрака као да је дан."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1989
+#: /src/wesnoth/doc/manual/manual.en.xml:2014
 msgid "Leadership"
 msgstr "вођство"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:1993
+#: /src/wesnoth/doc/manual/manual.en.xml:2018
 msgid "This unit can lead friendly units that are next to it, making them fight better.  Adjacent friendly units of lower level will do more damage in battle.  When a unit adjacent to, of a lower level than, and on the same side as a unit with Leadership engages in combat, its attacks do 25% more damage times the difference in their levels."
 msgstr "Јединица може запов›иједати јединицама до ње, како би се оне боље бориле. Сус›једне јединице нижег нивоа наносиће више штете у борби. Сус›једна јединица нижег нивоа од пријатељске јединице-вођа, правиће 25% више штете у нападу по нивоу разлике међу њима."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2004
+#: /src/wesnoth/doc/manual/manual.en.xml:2029
 msgid "Nightstalk"
 msgstr "вребање"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2008
+#: /src/wesnoth/doc/manual/manual.en.xml:2033
 msgid "The unit becomes invisible during night.  Enemy units cannot see this unit at night, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr "Јединица постаје невидљива током ноћи. Противничке јединице не могу вид›јети нити напасти ову јединицу када је ноћ, осим ако јој се не налазе у сус›једству. Непријатељска јединица која прва открије невидљиву, истог часа губи сву преосталу покретност у потезу."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2017
+#: /src/wesnoth/doc/manual/manual.en.xml:2042
 msgid "Regenerates"
 msgstr "обнављање"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2021
+#: /src/wesnoth/doc/manual/manual.en.xml:2046
 msgid "This unit will heal itself 8HP per turn. If it is poisoned, it will remove the poison instead of healing."
 msgstr "Јединица ће сама себе л›ијечити 8 УП по потезу. Буде ли отрована, уклониће отров ум›јесто за‹љечивања."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2028
+#: /src/wesnoth/doc/manual/manual.en.xml:2053
 msgid "Skirmisher"
 msgstr "чаркање"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2032
+#: /src/wesnoth/doc/manual/manual.en.xml:2057
 msgid "This unit is skilled in moving past enemies quickly, and ignores all enemy Zones of Control."
 msgstr "Јединица је в›јешта у брзом измицању непријатељима, игноришући све противничке надзорне појасеве."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2039
+#: /src/wesnoth/doc/manual/manual.en.xml:2064
 msgid "Steadfast"
 msgstr "постојаност"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2043
+#: /src/wesnoth/doc/manual/manual.en.xml:2068
 msgid "This unit&#8217;s resistances are doubled, up to a maximum of 50%, when defending. Vulnerabilities are not affected."
 msgstr "Отпорности јединице су удвостручене при одбрани, до највише 50%. Не утиче на рањивост."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2050
+#: /src/wesnoth/doc/manual/manual.en.xml:2075
 msgid "Submerge"
 msgstr "зарањање"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2054
+#: /src/wesnoth/doc/manual/manual.en.xml:2079
 msgid "This unit can hide in deep water, and remain undetected by its enemies.  Enemy units cannot see this unit while it is in deep water, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr "Јединица се може скривати у дубокој води, тако да је непријатељи не виде. Противничке јединице не могу вид›јети нити напасти ову јединицу док је у дубини, осим ако се нађу тачно до ње. Непријатељска јединица која прва открије зароњену, истог часа губи сву преосталу покретност у потезу."
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2063
+#: /src/wesnoth/doc/manual/manual.en.xml:2088
 msgid "Teleport"
 msgstr "телепортација"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2067
+#: /src/wesnoth/doc/manual/manual.en.xml:2092
 msgid "This unit may teleport between any two friendly villages using one of its moves."
 msgstr "Јединица се може телепортовати између било која два пријатељска села, уз утрошак једног покрета."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2075
-#: /src/wesnoth/doc/manual/manual.en.xml:2680
+#: /src/wesnoth/doc/manual/manual.en.xml:2100
+#: /src/wesnoth/doc/manual/manual.en.xml:2706
 msgid "Experience"
 msgstr "Искуство"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2076
+#: /src/wesnoth/doc/manual/manual.en.xml:2101
 msgid "Units are awarded experience for fighting. After obtaining enough experience, they will advance a level and become more powerful. The amount of experience gained depends on the level of the enemy unit and the outcome of the battle: if a unit kills its opponent, it receives 8 experience points per level of the enemy (4 if the enemy is level 0), while units that survive a battle without killing their opponents are awarded 1 experience point per level of the enemy. In other words:"
 msgstr "Јединицама се за борбе дод›јељује искуство. Пошто га сакупе довољно, напредоваће у нивоу и постати снажније. Количина добијеног искуства зависи од нивоа непријатељске јединице и исхода битке: ако јединица збрише противника, добија 8 искуствених поена по нивоу противника (4 ако је нултог нивоа), а ако преживи битку и противник остане жив, један поен по нивоу противника. Другим р›ијечима:"
 
 #. type: Content of: <book><chapter><section><section><table><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2087
+#: /src/wesnoth/doc/manual/manual.en.xml:2112
 msgid "Experience bonuses for killing or fighting enemies of different levels"
 msgstr "Искуствени бонуси за борбу са непријатељима различитих нивоа"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2095
+#: /src/wesnoth/doc/manual/manual.en.xml:2120
 msgid "enemy level"
 msgstr "ниво непријатеља"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2098
+#: /src/wesnoth/doc/manual/manual.en.xml:2123
 msgid "kill bonus"
 msgstr "бонус за уништење"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2101
+#: /src/wesnoth/doc/manual/manual.en.xml:2126
 msgid "fighting bonus"
 msgstr "бонус за борбу"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2122
+#: /src/wesnoth/doc/manual/manual.en.xml:2147
 msgid "8"
 msgstr "8"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2133
+#: /src/wesnoth/doc/manual/manual.en.xml:2158
 msgid "16"
 msgstr "16"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2144
+#: /src/wesnoth/doc/manual/manual.en.xml:2169
 msgid "24"
 msgstr "24"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2155
+#: /src/wesnoth/doc/manual/manual.en.xml:2180
 msgid "32"
 msgstr "32"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2166
+#: /src/wesnoth/doc/manual/manual.en.xml:2191
 msgid "40"
 msgstr "40"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2177
+#: /src/wesnoth/doc/manual/manual.en.xml:2202
 msgid "48"
 msgstr "48"
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2188
+#: /src/wesnoth/doc/manual/manual.en.xml:2213
 msgid "Recalling units"
 msgstr "Сазивање јединица"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2189
+#: /src/wesnoth/doc/manual/manual.en.xml:2214
 msgid "After you complete a scenario, all surviving units will be available to recall in the next scenario. You are not able to move or attack with a unit on the turn you recruit or recall that unit. A Recalled unit retains its previous Level, Experience Points, (sometimes) any magic items acquired, and will arrive with full hitpoints."
 msgstr "Пошто завршите сценарио, све прежив›јеле јединице биће доступне за сазивање у с‹љедећем. Јединицу не можете покренути нити напасти њоме у потезу у коме је сазвана (или унајмљена). Сазвана јединица задржава свој ранији ниво, искуство, (понекад) магичне предмете у пос›једу, и почиње с пуним ударпоенима."
 
 #. type: Content of: <book><chapter><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2197
+#: /src/wesnoth/doc/manual/manual.en.xml:2222
 msgid "Moving"
 msgstr "Покретање"
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2198
+#: /src/wesnoth/doc/manual/manual.en.xml:2223
 #, fuzzy
 #| msgid "Clicking on a unit identifies all the places it can move on its current turn by dimming unreachable hexes (pressing the number keys 2-7 will identify the additional hexes that can be reached in that number of turns in a similar manner). While in this mode, moving the cursor over a hex will identify the path your unit will take towards that hex as well as additional information on the defensive bonus of your unit on that hex and, if it will take more than one turn, the number of turns it will take your unit to arrive. If you do not wish to move the unit this mode can be cancelled by selecting a different unit (by clicking on the new unit or using the <literal>n</literal> or <literal>N</literal> keys) or by right-clicking (Command-click on a Mac) anywhere on the map. The <link linkend=\"orbs\">orbs</link> on the top of a unit&#8217;s energy bar provide a quick way to see which of your units have already moved or can move further in the current turn."
 msgid "Clicking on a unit identifies all the places it can move on its current turn by dimming unreachable hexes (pressing the number keys 2–7 will identify the additional hexes that can be reached in that number of turns in a similar manner). While in this mode, moving the cursor over a hex will identify the path your unit will take towards that hex as well as additional information on the defensive bonus of your unit on that hex and, if it will take more than one turn, the number of turns it will take your unit to arrive. If you do not wish to move the unit this mode can be cancelled by selecting a different unit (by clicking on the new unit or using the <literal>n</literal> or <literal>N</literal> keys) or by right-clicking (Command-click on a Mac) anywhere on the map. The <link linkend=\"orbs\">orbs</link> on the top of a unit&#8217;s energy bar provide a quick way to see which of your units have already moved or can move further in the current turn."
@@ -2674,128 +2691,128 @@ msgstr "Клик на јединицу указује на сва м›јест�
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2211
+#: /src/wesnoth/doc/manual/manual.en.xml:2236
 msgid "If you decide to move the selected unit, click on the hex you want to move to and your unit will move towards that space. If you select a destination which is beyond reach in the current turn, the unit will move as far as it can in the current turn and enter <emphasis>goto-mode</emphasis>. In <emphasis>goto-mode</emphasis> your unit will continue moving towards its destination in subsequent turns. You can easily undo goto movements at the beginning of your next turn. You may also change a unit&#8217;s destination by selecting that unit and choosing a new destination or clicking the unit again to cancel the <emphasis>goto</emphasis>."
 msgstr "Ако одлучите да пом›јерите изабрану јединицу, кликните на одредишно поље и јединица ће кренути ка њему. Ако кликнете на поље изван досега у текућем потезу, јединица ће се пом›јерити најдаље што може и ући у режим <emphasis>путовања</emphasis>. У овом режиму, јединица наставља да се креће ка одредишту кроз наредне потезе. Јединицу можете лако избацити из путовања на почетку наредног потеза. Такође можете изм›ијенити одредиште тако што изаберете јединицу па кликнете на ново одредиште, или кликнете поново на јединицу да укинете путовање."
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2220
+#: /src/wesnoth/doc/manual/manual.en.xml:2245
 msgid "Moving onto a village that is neutral or owned by an enemy will take ownership of it and end your move for that unit."
 msgstr "Уласком јединице у село које је неутрално или у пос›једу непријатеља преузима се посед над селом и окончава кретање те јединице."
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2222
+#: /src/wesnoth/doc/manual/manual.en.xml:2247
 msgid "Most units exert a Zone of Control which affects the hexes your unit can reach and the path your unit takes. These restrictions are automatically reflected in both the path that is displayed for your unit and the hexes it may move to on the current turn."
 msgstr "Већина јединица успоставља надзорни појас, који утиче на то која поља друге јединице могу досећи и којим ће се путем кретати. Ова ограничења аутоматски се одражавају на путању приказану за вашу јединицу и поља на која може да се пом›јери у текућем потезу."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2227
+#: /src/wesnoth/doc/manual/manual.en.xml:2252
 msgid "Zone of Control"
 msgstr "Надзорни појас"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2228
+#: /src/wesnoth/doc/manual/manual.en.xml:2253
 msgid "A unit&#8217;s Zone of Control extends to the six hexes immediately adjacent to the unit, and units that move into an enemy zone of control are forced to stop. Units with the skirmisher ability ignore enemy zones of control and are able to move through them freely without being forced to stop. Level 0 units are considered too feeble to generate a zone of control and all units are able to move through the hexes around an enemy level 0 unit freely."
 msgstr "Надзорни појас јединице протеже се на шест поља у непосредном суседству, и јединице које кроче у непријатељски надзорни појас принуђене су да стану. Јединице са способношћу чаркања занемарују непријатељске надзорне појасеве и могу се слободно кретати кроз њих, без заустављања. Јединице нултог нивоа сматрају се преслабим за успостављање надзорног појаса, па се око непријатеља нултог нивоа све јединице могу слободно кретати."
 
 #. type: Content of: <book><chapter><section><section><table><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2237
-#: /src/wesnoth/doc/manual/manual.en.xml:2244
+#: /src/wesnoth/doc/manual/manual.en.xml:2262
+#: /src/wesnoth/doc/manual/manual.en.xml:2269
 msgid "Orbs"
 msgstr "Куглице"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2238
+#: /src/wesnoth/doc/manual/manual.en.xml:2263
 msgid "On the top of the energy bar shown next to each unit of yours is an orb. This orb is:"
 msgstr "На врху енерготраке покрај сваке пријатељске јединице стоји куглица. Она је:"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2252
+#: /src/wesnoth/doc/manual/manual.en.xml:2277
 msgid "Orb"
 msgstr "куглица"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2258
+#: /src/wesnoth/doc/manual/manual.en.xml:2283
 msgid "Description"
 msgstr "опис"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2265
+#: /src/wesnoth/doc/manual/manual.en.xml:2290
 msgid "Green"
 msgstr "зелена"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2269
+#: /src/wesnoth/doc/manual/manual.en.xml:2294
 msgid "<imageobject> <imagedata fileref=\"images/orb-green.jpg\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/orb-green.jpg\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2272
+#: /src/wesnoth/doc/manual/manual.en.xml:2297
 msgid "Green orb"
 msgstr "Зелена куглица"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2276
+#: /src/wesnoth/doc/manual/manual.en.xml:2301
 msgid "If you control the unit and it hasn&#8217;t moved this turn"
 msgstr "ако јединицом ви управљате и није се пом›ијерала у овом потезу"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2281
+#: /src/wesnoth/doc/manual/manual.en.xml:2306
 msgid "Yellow"
 msgstr "жута"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2285
+#: /src/wesnoth/doc/manual/manual.en.xml:2310
 msgid "<imageobject> <imagedata fileref=\"images/orb-yellow.jpg\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/orb-yellow.jpg\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2288
+#: /src/wesnoth/doc/manual/manual.en.xml:2313
 msgid "Yellow orb"
 msgstr "Жута куглица"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2292
+#: /src/wesnoth/doc/manual/manual.en.xml:2317
 msgid "If you control the unit and it has moved this turn, but could still move further or attack"
 msgstr "ако јединицом ви управљате и пом›јерила се у овом потезу, али се још може кретати или нападати"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2297
+#: /src/wesnoth/doc/manual/manual.en.xml:2322
 msgid "Red"
 msgstr "црвена"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2301
+#: /src/wesnoth/doc/manual/manual.en.xml:2326
 msgid "<imageobject> <imagedata fileref=\"images/orb-red.jpg\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/orb-red.jpg\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2304
+#: /src/wesnoth/doc/manual/manual.en.xml:2329
 msgid "Red orb"
 msgstr "Црвена куглица"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2308
+#: /src/wesnoth/doc/manual/manual.en.xml:2333
 #, fuzzy
 #| msgid "If you control the unit, but it has used all its movement this turn"
 msgid "If you control the unit, but it can no longer move or attack, or the user ended the unit&#8217;s turn"
@@ -2803,79 +2820,79 @@ msgstr "ако јединицом ви управљате и истрошила 
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2313
+#: /src/wesnoth/doc/manual/manual.en.xml:2338
 msgid "Blue"
 msgstr "плава"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2317
+#: /src/wesnoth/doc/manual/manual.en.xml:2342
 msgid "<imageobject> <imagedata fileref=\"images/orb-blue.jpg\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/orb-blue.jpg\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2320
+#: /src/wesnoth/doc/manual/manual.en.xml:2345
 msgid "Blue orb"
 msgstr "Плава куглица"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2324
+#: /src/wesnoth/doc/manual/manual.en.xml:2349
 msgid "If the unit is an ally you do not control"
 msgstr "ако је јединица савезник којим не управљате"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2333
+#: /src/wesnoth/doc/manual/manual.en.xml:2358
 msgid "<imageobject> <imagedata fileref=\"images/orb-none.jpg\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/orb-none.jpg\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject><phrase>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2336
+#: /src/wesnoth/doc/manual/manual.en.xml:2361
 msgid "No orb"
 msgstr "Без куглице"
 
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2340
+#: /src/wesnoth/doc/manual/manual.en.xml:2365
 msgid "Enemy units have no orb on the top of their energy bar"
 msgstr "Непријатељске јединице немају куглицу поврх енерготраке."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2348
+#: /src/wesnoth/doc/manual/manual.en.xml:2373
 msgid "Ellipses, Team Colors, and Hero Icons"
 msgstr "Елипсе, тимске боје и јуначке иконе"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2349
+#: /src/wesnoth/doc/manual/manual.en.xml:2374
 msgid "Below each unit there will normally be a colored ellipses or base. The color identifies its team; in a campaign game, the human-player color is red. The team color will also show up in parts of the unit&#8217;s clothing, or possibly on a shield insignia."
 msgstr "Испод сваке јединице обично стоји обојена елипса или подлога. Боја одређује тим; током играња похода, боја играча је црвена. Тимска боја ће се такође вид›јети на д›ијеловима одежде јединице, или можда на б‹иљегу на штиту."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2353
+#: /src/wesnoth/doc/manual/manual.en.xml:2378
 msgid "Usually the ellipse will be a solid disk. On level 0 units, you will see an ellipse that has broken lines. This indicates that the unit has no Zone of Control."
 msgstr "Елипса је обично пуни диск. Под јединицама нултог нивоа вид›јећете елипсу са испрекиданим линијама — ово указује да јединица нема надзорни појас."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2356
+#: /src/wesnoth/doc/manual/manual.en.xml:2381
 msgid "Some campaigns use a star-shaped base to indicate leaders and heroes (units which are somehow special and for example not allowed to die in the course of the scenario); others use a silver crown icon above the energy bar to mark heroes. Still others have no specific hero indicator at all. Which (if any) is used is a stylistic choice left to campaign designers."
 msgstr "Неки походи користе зв›јездасту подлогу за указивање на вође и јунаке (јединице које су на неки начин посебне, нпр. не см‹ију страдати током сценарија); други јунаке об‹иљежавају иконом сребрне круне изнад енерготраке. А неки походи уопште не истичу јунаке. Ово је стилски избор који лежи на дизајнеру похода."
 
 #. type: Content of: <book><chapter><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2365
+#: /src/wesnoth/doc/manual/manual.en.xml:2390
 msgid "Fighting"
 msgstr "Борба"
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2366
+#: /src/wesnoth/doc/manual/manual.en.xml:2391
 #, fuzzy
 #| msgid "If you move next to an enemy unit, you may attack it. Click on your unit that is next to an enemy unit, and click on the enemy you want to attack - this will bring up a window that presents further options for the fight. Every unit has one or more weapons it can attack with. Some weapons, such as swords, are melee weapons, and some weapons, such as bows, are ranged weapons."
 msgid "If you move next to an enemy unit, you may attack it. Click on your unit that is next to an enemy unit, and click on the enemy you want to attack – this will bring up a window that presents further options for the fight. Every unit has one or more weapons it can attack with. Some weapons, such as swords, are melee weapons, and some weapons, such as bows, are ranged weapons."
@@ -2883,7 +2900,7 @@ msgstr "Ако ваша јединица ступи до непријатељс�
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2372
+#: /src/wesnoth/doc/manual/manual.en.xml:2397
 #, fuzzy
 #| msgid "If you attack with a melee weapon, the enemy you attack will be able to strike back at you with its melee weapon. If you attack with a ranged weapon, the enemy will be able to strike back with its ranged weapon. If an enemy does not have a weapon of the same type as the one you attack with, they will be unable to strike back and do any damage to you in that fight."
 msgid "If you attack with a melee weapon, the enemy you attack will be able to strike back at you with a melee weapon. If you attack with a ranged weapon, the enemy will be able to strike back with a ranged weapon. If an enemy does not have a weapon of the same type as the one you attack with, they will be unable to strike back and do any damage to you in that fight."
@@ -2891,7 +2908,7 @@ msgstr "Ако ударите оружјем за блиску борбу, на�
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2378
+#: /src/wesnoth/doc/manual/manual.en.xml:2403
 #, fuzzy
 #| msgid "Different types of attacks do different amounts of damage, and a certain number of strikes may be made with each weapon. For instance, an Elvish Fighter does 5 points of damage with its sword every time it hits, and can strike 4 blows with the sword in one exchange. This is written as 5-4, meaning 5 damage per hit, and 4 strikes."
 msgid "Different types of attacks do different amounts of damage, and a certain number of strikes may be made with each weapon. For instance, an Elvish Fighter does 5 points of damage with its sword every time it hits, and can strike 4 blows with the sword in one exchange. This is written as 5–4, meaning 5 damage per hit, and 4 strikes."
@@ -2899,464 +2916,466 @@ msgstr "Различити типови напада наносе различи
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2383
+#: /src/wesnoth/doc/manual/manual.en.xml:2408
 msgid "Every unit has a chance of being hit based on the terrain it is in. For instance, units in castles and villages have a lower chance of being hit, and Elves in forest have a low chance of being hit. To see a unit&#8217;s defense rating (i.e. chance not to be hit) in terrain, click on the unit, and then mouse over the terrain you&#8217;re interested in, and the defense rating will be displayed as a percentage value in the status pane, as well as shown over the terrain hex."
 msgstr "Изгледи да јединица буде погођена зависе од терена на коме је. На прим›јер, јединице у замковима и селима имају веће изгледе да не буду погођене, а вилењаци у шуми велике. Да бисте вид›јели одбрамбени разред јединице (тј. изгледе да не буде погођена) на датом терену, кликните на јединицу, па станите мишем над терен који вас занима. Одбрамбени разред ће бити приказан као процентуална вр›иједност у окну стања, као и изнад поља терена."
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2390
+#: /src/wesnoth/doc/manual/manual.en.xml:2415
 msgid "You can obtain additional information, including the chance that the attacker and defender will be killed, by clicking on the \"Damage Calculations\" button in the fight window."
 msgstr "Додатне податке, укључујући изгледе да нападач или бранилац страда, можете добити кликом на дугме <guibutton>Damage Calculations</guibutton> у прозору пред борбу."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2394
+#: /src/wesnoth/doc/manual/manual.en.xml:2419
 msgid "Attack types"
 msgstr "Типови напада"
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2398
+#: /src/wesnoth/doc/manual/manual.en.xml:2423
 msgid "<emphasis role=\"strong\">Blade</emphasis>: Weapons with a cutting edge, used to chop pieces of flesh from a foe. Examples: dagger, scimitar, saber, drake claws."
 msgstr "<emphasis role=\"strong\">~%/blade/</emphasis>: оружја са наоштреном ивицом, за с›јецкање противника у комаде. Прим›јери: бодеж, јатаган, сабља, змашке канџе."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2404
+#: /src/wesnoth/doc/manual/manual.en.xml:2429
 msgid "<emphasis role=\"strong\">Piercing</emphasis>: Weapons with a sharp point and either a long handle or a missile, used to perforate foe&#8217;s body and damage internal organs. Examples: Knight or infantry pike, arrow."
 msgstr "<emphasis role=\"strong\">~%/pierce/</emphasis>: оружја са заоштреним врхом и дугом дршком, или пројектили, којим се противник пробурази и оштете му се унутрашњи органи. Прим›јери: витешко или п›јешадијско дуго копље, стр›ијела."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2411
+#: /src/wesnoth/doc/manual/manual.en.xml:2436
 msgid "<emphasis role=\"strong\">Impact</emphasis>: Weapons having neither a sharp point nor a cutting edge, but heavy enough to break an enemy&#8217;s bones. Examples: mace, staff, Troll fist."
 msgstr "<emphasis role=\"strong\">~%/impact/</emphasis>: оружја која немају ни заоштрен врх ни оштру ивицу, већ су довољно тешка да поломе непријатељу кости. Прим›јери: буздован, штап, троловска песница."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2418
+#: /src/wesnoth/doc/manual/manual.en.xml:2443
 msgid "<emphasis role=\"strong\">Cold</emphasis>: Weapons based on cold or ice missiles. Example: A Dark Adepts&#8217;s chill wave."
 msgstr "<emphasis role=\"strong\">~%/cold/</emphasis>: оружја на мраза или ледени пројектили. Прим›јер: мразни талас мрачног посвећеника."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2424
+#: /src/wesnoth/doc/manual/manual.en.xml:2449
 msgid "<emphasis role=\"strong\">Fire</emphasis>: Weapons using fire to roast the foe like a chicken. Example: A drake&#8217;s fire breath."
 msgstr "<emphasis role=\"strong\">~%/fire/</emphasis>: оружја која роштиљају противника као прасе. Прим›јер: змашки ватродах."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2430
+#: /src/wesnoth/doc/manual/manual.en.xml:2455
 msgid "<emphasis role=\"strong\">Arcane</emphasis>: An attack that dispels the magic animating zombies, specters, and other undead creatures and spirits. Example: A white mage&#8217;s magic attack."
 msgstr "<emphasis role=\"strong\">~%/arcane/</emphasis>: напад који разв‹ијава магију што покреће зомбије, сабласти и друга немртва створења и злодухе. Прим›јер: магични напад б›ијелог мага."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2438
+#: /src/wesnoth/doc/manual/manual.en.xml:2463
 msgid "Resistance"
 msgstr "Отпорности"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2439
+#: /src/wesnoth/doc/manual/manual.en.xml:2464
 msgid "Each unit is more or less vulnerable to the different attack types. 6 figures in the unit description show strength and weakness of the unit against the 6 attack types. A positive resistance figure indicates that the unit will suffer less damages from the attack type. A negative resistance figure indicates that the unit is especially vulnerable to this attack type."
 msgstr "Свака јединица је више или мање рањива на различите типове напада. Шест бројки у опису јединице показују њену снагу и слабост на шест типова напада. Позитивна вр›иједност отпорности говори да ће јединица претрп›јети мање штете од таквог напада. Негативна вр›иједност показује да је јединица посебно рањива на дати напад."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2445
+#: /src/wesnoth/doc/manual/manual.en.xml:2470
 msgid "Examples: Drake scales protect them from most of attack types except from piercing weapon and cold weapon. Human Cavalry units are generally well protected except from piercing attacks which are their weak point. Undead are very resistant to blade and piercing weapon but very vulnerable to impact attacks and arcane attacks."
 msgstr "Прим›јери: крљушти чувају змагове од већине типова напада, осим пробојних и мразних оружја. Људске коњичке јединице су углавном добро заштићене, али су им пробојни напади слаба тачка. Немртви су врло отпорни на с›ијекућа и пробојна оружја, али врло рањиви на ударне и волшебне нападе."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2450
+#: /src/wesnoth/doc/manual/manual.en.xml:2475
 msgid "Using the best attack type against enemy units will substantially increase your chances of killing them."
 msgstr "Коришћење правих типова напада против непријатељских јединица значајно ће вам увећати изгледе да их збришете."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2455
-#: /src/wesnoth/doc/manual/manual.en.xml:2853
+#: /src/wesnoth/doc/manual/manual.en.xml:2480
+#: /src/wesnoth/doc/manual/manual.en.xml:2879
 msgid "Healing"
 msgstr "Л›ијечење"
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2456
+#: /src/wesnoth/doc/manual/manual.en.xml:2481
 msgid "A unit may be healed a maximum of 8 hitpoints per turn. A unit that does not move or fight during a turn is <emphasis>resting</emphasis> and will recover 2 hitpoints. Hitpoints recovered through <emphasis>resting</emphasis> are added on top of hitpoints recovered through healing so it is possible for a unit to recover up to a total of 10 hit points per turn."
 msgstr "Јединица се може зал›ијечити највише осам ударпоена по потезу. За јединицу која се нити пом›ијера нити бори током потеза каже се да се <emphasis>одмара</emphasis>, чиме ће повратити два ударпоена. Ударпоени повраћени кроз одмарање додају се на оне повраћене л›ијечењем, тако да јединица може да поврати до десет ударпоена по потезу."
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2461
+#: /src/wesnoth/doc/manual/manual.en.xml:2486
 msgid "There are two basic ways for a unit to be healed:"
 msgstr "Јединица се може л›ијечити на два основна начина:"
 
 #. type: Content of: <book><chapter><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2465
+#: /src/wesnoth/doc/manual/manual.en.xml:2490
 msgid "Waiting in a village. The unit will heal 8 hitpoints every turn."
 msgstr "Чекајући у селу. Јединица ће се л›ијечити осам ударпоена сваког потеза."
 
 #. type: Content of: <book><chapter><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2470
+#: /src/wesnoth/doc/manual/manual.en.xml:2495
 msgid "Being adjacent to units with the <emphasis>heals</emphasis> ability. The number of hitpoints healed is specified in the unit&#8217;s ability description. This is invariably <emphasis>heals +4</emphasis> or <emphasis>heals +8</emphasis>."
 msgstr "Стојећи крај јединице са способношћу <emphasis>л›ијечења</emphasis>. Број ударпоена који може да изл›ијечи дат је у опису способности те јединице, и то као <emphasis>~%/|heals +4/</emphasis> или <emphasis>~%/|heals +8/</emphasis>."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2477
+#: /src/wesnoth/doc/manual/manual.en.xml:2502
 msgid "Regeneration"
 msgstr "Обнављање"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2478
+#: /src/wesnoth/doc/manual/manual.en.xml:2503
 msgid "Trolls and Woses have the ability to heal themselves naturally through regeneration. They will heal 8 points each turn if they are injured. Note that because all units may only heal a maximum of 8 points per turn, Trolls and Woses gain no additional benefit from being on a village or next to a healing unit."
 msgstr "Тролови и ивери имају способност да се сами природно л›ијече, кроз обнављање. Зал›ијечиће осам ударпоена по потезу када су повр›ијеђени. Имајте у виду да пошто је осам ударпоена највише колико се јединица може л›ијечити по потезу, тролови и ивери немају користи од стајања у селу или покрај видарске јединице."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2486
+#: /src/wesnoth/doc/manual/manual.en.xml:2511
 msgid "Some attacks can inflict poison damage on your unit. When this happens the poisoned unit will take 8 damage each turn until it is cured. Poison can be cured by waiting on a village or being next to a unit with the <emphasis>cures</emphasis> ability. Units with the <emphasis>heals</emphasis> ability can only prevent the poison from causing damage that turn, not cure it. When poison is cured the unit does not gain or lose hitpoints on that turn due to healing/poisoning. A unit can not be healed normally until it is cured of poisoning. Resting is still allowed, although it will not substantially diminish the poison&#8217;s effect."
 msgstr "Неки напади могу нан›ијети отровну штету вашој јединици. Када се то догоди, отрована јединица губи осам ударпоена по потезу док се не исц›ијели. Отров се може исц›ијелити чекањем у селу или стајањем крај јединице са способношћу <emphasis>исц›јељивања</emphasis>. Јединице са способношћу <emphasis>л›ијечења</emphasis> могу само да спр›ијече штету од отрова у потезу, али не и да га уклоне. У потезу у којем се исц›ијели, јединица не добија нити губи ударпоене ус‹љед л›ијечења и тровања. Јединца се не може нормално л›ијечити док се не исц›ијели од отрова; одмарање је и даље могуће, мада неће значајно умањити дејство отрова."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2494
+#: /src/wesnoth/doc/manual/manual.en.xml:2519
 msgid "Some other hints about healing:"
 msgstr "Још неки сав›јети око л›ијечења:"
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2498
+#: /src/wesnoth/doc/manual/manual.en.xml:2523
 msgid "A unit may take several turns to be fully healed."
 msgstr "Јединици може требати неколико потеза до пуног из‹љечења."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2503
+#: /src/wesnoth/doc/manual/manual.en.xml:2528
 msgid "Healers (Elvish Shaman, Elvish Druid, Elvish Shyde, White Mage, Mage of Light, Paladin) heal all wounded units around them, so you can keep units close to the battle without losing them."
 msgstr "Видари (вилин-врачарка, вилин-друидка, вилин-шејда, б›ијели маг, маг св›јетлости, паладин) л›ијече све повређене јединице око себе, тако да можете држати јединице близу борбе а да их не губите."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2510
+#: /src/wesnoth/doc/manual/manual.en.xml:2535
 msgid "Healers do not heal enemy units."
 msgstr "Видари не л›јече непријатељске јединице."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2515
+#: /src/wesnoth/doc/manual/manual.en.xml:2540
 msgid "Healers cannot heal themselves, but see next point."
 msgstr "Видари не могу л›ијечити сами себе (али в. с‹љедеће)."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2520
+#: /src/wesnoth/doc/manual/manual.en.xml:2545
 msgid "Use your healers in pairs, so they can heal each other if needed."
 msgstr "Упарујте видаре, тако да се могу међусобно л›ијечити ако затреба."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2525
+#: /src/wesnoth/doc/manual/manual.en.xml:2550
 msgid "Multiple healers from different allied sides can heal the same unit and speed up healing."
 msgstr "Више видара, и са различитих савезничких страна, могу л›ијечити исту јединицу и тако убрзати л›ијечење."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2531
+#: /src/wesnoth/doc/manual/manual.en.xml:2556
 msgid "Trolls and Woses cannot regenerate other units."
 msgstr "Тролови и ивери не могу обнављати друге јединице."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2536
+#: /src/wesnoth/doc/manual/manual.en.xml:2561
 msgid "Trolls and Woses cure themselves from poison as a village does."
 msgstr "Тролови и ивери исц›јељују сами себе од отрова као што село чини."
 
 #. type: Content of: <book><chapter><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2544
+#: /src/wesnoth/doc/manual/manual.en.xml:2569
 msgid "Strategy and Tips"
 msgstr "Стратегија и сав›јети"
 
 #. type: Content of: <book><chapter><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2546
+#: /src/wesnoth/doc/manual/manual.en.xml:2571
 msgid "Basic Strategy"
 msgstr "Основна стратегија"
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2547
+#: /src/wesnoth/doc/manual/manual.en.xml:2572
 msgid "The following basic combat principles and tips are intended to help starting off your career as a Wesnothian battle veteran. The minor concrete examples are somewhat tied to the \"Heir to the Throne\" campaign."
 msgstr "С‹љедећи основни борбени принципи и сав›јети нам›ијењени су да вас погурају низ пут весноћанског бојног ветерана. Мањи конкретни прим›јери донекле су повезани с походом „~%/Heir to the Throne/“."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2551
+#: /src/wesnoth/doc/manual/manual.en.xml:2576
 msgid "Don&#8217;t waste units"
 msgstr "Не траћите јединице"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2552
+#: /src/wesnoth/doc/manual/manual.en.xml:2577
 msgid "Do not send wounded units to a sure death. Once a unit loses more than half of its hit points (HP), you should seriously consider retreating it to safety and either station it in a village for healing or give him to the care of a healer (like Elvish Shamans or White Mages). Healers are very useful!"
 msgstr "Не шаљите повр›ијеђене јединице у сигурну смрт. Пошто јединица изгуби преко половине ударпоена (УП), озбиљно размислите да је повучете на безб›једно и ради л›ијечења поставите или у село или покрај видара (као што су вилин-врачарке и б›ијели магови). Видари су врло корисни!"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2557
+#: /src/wesnoth/doc/manual/manual.en.xml:2582
 msgid "This is for practical reasons: a heavily wounded unit cannot hold back or kill the enemy. During attack and counterattack, it most often will perish. Further, by sending it to its sure death, its gathered experience points (XP) are lost. Recruiting a replacement may be impossible because the leader is not in its keep or because funds are running low. Even if you can recruit a replacement, it is most often far away from the battle front. So don&#8217;t waste your units."
 msgstr "Разлог овоме је практичан: тешко повр›ијеђена јединица не може да заустави нити одстрани непријатеља. Током напада и противнапада, најчешће ће страдати. Даље, слањем јединице у сигурну смрт губите искуствене поене (ИП) које је сакупила. Унајмити зам›јену може бити немогуће зато што вођ није на кули или зато што су средства на измаку. Чак и ако можете да унајмите зам›јену, најчешће ће то бити далеко од попришта битке. Зато, немојте траћити јединице."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2566
+#: /src/wesnoth/doc/manual/manual.en.xml:2591
 msgid "Out of the enemy&#8217;s reach"
 msgstr "Ван домашаја непријатеља"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2567
+#: /src/wesnoth/doc/manual/manual.en.xml:2592
 msgid "How do you guard wounded units? They are best guarded by being out of the adversary&#8217;s reach. No enemy can attack them if enemies cannot even come near them. The next section about zone of control (ZOC) shows how to restrict the enemy&#8217;s moves."
 msgstr "Како штитите повр›ијеђене јединице? Најбоље тако што их држите изван домашаја непријатеља. Ниједан непријатељ их не може напасти ако не може чак ни да им приђе. Наредни од›јељак, о надзорном појасу (НАПОЈ) показује како ограничити покрете непријатеља."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2571
+#: /src/wesnoth/doc/manual/manual.en.xml:2596
 msgid "In the Action menu, you can select \"Show Enemy Moves\" to highlight all possible hexes your adversary can actually move to. This takes your zone of control into account. Thus you can check that your near death unit, which is behind, indeed cannot be attacked as the enemy cannot move close to it."
 msgstr "Из менија <guimenu>Actions</guimenu> можете изабрати <guimenuitem>Show Enemy Moves</guimenuitem> да истакнете сва могућа поља на која се противник може пом›јерити. Ово узима у обзир ваше надзорни појас. Овако можете пров›јерити да ли ваша јединица на смрти, која је у позадини, заиста не може бити нападнута јер непријатељ не може да ступи до ње."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2576
+#: /src/wesnoth/doc/manual/manual.en.xml:2601
 msgid "When your armies meet, you may want to try to be the first to attack. So try to end your move out of striking range of the enemy army. He cannot attack but most likely will close into your striking range."
 msgstr "Када се војске сусретну, можете же‹љети да будете први који ће ударити. Тада покушајте да завршите потез изван ударног домета непријатеља. Он не може напасти, али ће се најв›јероватније приближити у ваш ударни домет."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2581
+#: /src/wesnoth/doc/manual/manual.en.xml:2606
 msgid "Shield with your zone of control (ZOC)"
 msgstr "Штитите се надзорним појасом (НАПОЈ)"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2582
+#: /src/wesnoth/doc/manual/manual.en.xml:2607
 msgid "Every unit of level 1 or higher maintains a zone of control (ZOC) covering all 6 neighboring hexes. This means that once an enemy moves into one of the six neighboring tiles, it is forced to halt and its movement phase ends (only enemies with the rare skirmisher ability ignore this)."
 msgstr "Свака јединица првог или вишег нивоа успоставља надзорни појас (НАПОЈ) преко шест сус›једних поља: кад непријатељ крочи на једно од тих поља, приморан је да стане и истроши сво кретање. Ово не важи само за непријатеље са р›ијетком способношћу чаркања."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2586
+#: /src/wesnoth/doc/manual/manual.en.xml:2611
 msgid "Because of ZOC, an enemy may not slip between two units which are aligned on a north-south or diagonal line and have exactly 1 or 2 hexes between them. By combining these pairs into a long wall or using them in different directions, you can prevent the enemy from reaching a wounded unit behind. He has to defeat the units imposing the ZOC first. If the enemy can barely reach it, even a single unit may shield a small region behind itself."
 msgstr "НАПОЈ онемогућава непријатељу да се провуче између дв›ије јединице у линији с›јевер-југ или дијагонали на међусобном растојању од тачно једног или два поља. Повезивањем оваквих парова у дугачак зид, или по различитим правцима, можете спр›ијечити непријатеља да досегне повр›ијеђену јединицу у позадини. Прво мора да порази јединице које намећу НАПОЈ. Ако непријатељ једва може стићи до ње, чак и једна јединица може заштити малу област иза себе."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2595
+#: /src/wesnoth/doc/manual/manual.en.xml:2620
 msgid "Maintain a defensive line"
 msgstr "Одржавајте одбрамбену линију"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2596
+#: /src/wesnoth/doc/manual/manual.en.xml:2621
 msgid "By lining up many units directly adjacent or with at most 1 hex space between them, you can build up a powerful defensive line. Note that, because Wesnoth uses hexes, a east-to-west \"line\" is not a straight line but a zig-zag curve. The north south line and the diagonals are the \"real\" lines."
 msgstr "Постројавањем многих јединица једну до друге, или највише са пољем размака између, можете изградити моћну одбрамбену линију. Имајте у виду да, пошто су поља у Весноту шестоугаона, „линија“ исток-запад није права већ цик-цак крива. „Стварне“ линије су с›јевер-југ и дијагонале."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2601
+#: /src/wesnoth/doc/manual/manual.en.xml:2626
 msgid "Coming from one side, the enemy may attack any single of your units in the line with only 2 of his units at a time. As a rule of thumb, a healthy unit without particular weakness can withstand an attack from two normal enemy units of the same level or lower without getting killed."
 msgstr "Пристижући с једне стране, било коју вашу јединицу непријатељ може да нападне највише са дв›ије своје у истом потезу. По правилу, здрава јединица без посебних слабости може да преживи удар две обичне непријатељске јединице истог или нижег нивоа."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2605
+#: /src/wesnoth/doc/manual/manual.en.xml:2630
 msgid "Unfortunately, your line often has to bend to form a wedge or to fit the terrain. At these corner points, 3 enemy units may attack. This also happens at the ends of a line if the line is too short. Use units with high hit point on proper terrain or with proper resistances to hold these weak points. These are the most likely to be killed, so use units with no or few experience points (XP) for this purpose."
 msgstr "Нажалост, линија често мора да се извије како би се створио клин или испратио терен. На угаоне тачке могу ударити три непријатељске јединице. Ово је такође случај на крајевима линије када је прекратка. Ове слабе тачке држите јединицама са пуно ударпоена, на погодном терену и са одговарајућим отпорностима. Пошто су такве јединице у највећој опасности да страдају, најбоље упослите оне без или са мало искуствених поена."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2611
+#: /src/wesnoth/doc/manual/manual.en.xml:2636
 msgid "Lining your troops up also prevents the enemy from surrounding any one of them. For ZOC reasons, a unit with one enemy behind it and one in front is trapped."
 msgstr "Развијање војске у линију такође спречава непријатеља да опколи неку јединицу. НАПОЈ чини да је јединица с једним непријатељем испред и једним иза заробљена."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2616
+#: /src/wesnoth/doc/manual/manual.en.xml:2641
 msgid "Rotate your troops"
 msgstr "См›јењујте своје снаге"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2617
+#: /src/wesnoth/doc/manual/manual.en.xml:2642
 msgid "When a unit in the front line is heavily damaged you can move him safely behind your defensive line. To hold up the line, you will most likely have to replace him with a reserve, so hold a couple of units in back of the front line. If you have healers, damaged units in the second line will quickly recover."
 msgstr "Када јединица на линији фронта буде тешко оштећена, треба да је пошаљете иза одбрамбене линије. Да би се линија одржала в›јероватно је морате зам›ијенити резервом, тако да ув›ијек имајте неколико спремних јединица у позадини. Ако имате видаре, оштећене јединице у другој линији брзо ће се опоравити."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2622
+#: /src/wesnoth/doc/manual/manual.en.xml:2647
 msgid "Note that your units can pass through hexes containing your own troops."
 msgstr "Прим›ијетите да јединице могу прелазити преко поља са пријатељским јединицама."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2625
+#: /src/wesnoth/doc/manual/manual.en.xml:2650
 msgid "Use the terrain"
 msgstr "Користите терен"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2626
+#: /src/wesnoth/doc/manual/manual.en.xml:2651
 msgid "Try to position your troops so that they are attacking from a hex with high defense against an enemy in a hex with low terrain. That way, the enemy&#8217;s counterstrikes will be less likely to do damage."
 msgstr "Покушајте да поређате јединице тако да нападају са поља с високом одбраном, непријатеља на пољу с ниском одбраном. На овај начин су мањи изгледи да непријатељски противнапади нанесу штету."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2629
+#: /src/wesnoth/doc/manual/manual.en.xml:2654
 msgid "For example, you might position your elves just inside of a forest edge so that attacking orcs must stand on grassland while your elves enjoy the high forest defenses."
 msgstr "На прим›јер, можете развити своје вилењаке тик унутар руба шуме, тако да оркови морају да нападају са отвореног док вилењаци уживају одличан шумски заклон."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2634
+#: /src/wesnoth/doc/manual/manual.en.xml:2659
 msgid "Attacking and choosing your targets"
 msgstr "Нападање и бирање мета"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2635
+#: /src/wesnoth/doc/manual/manual.en.xml:2660
 msgid "Advancing and attacking is of course the most interesting part of your way to victory. Kill or weaken enemies in your path and move your defensive line forward. This can become tricky as the enemy gets to attack back on his turn."
 msgstr "Напредовање и нападање је наравно најзанимљивији д‹ио пута ка победи. Циљ вам је да елиминишете и слабите непријатеље пред собом, пом›ијерајући одбрамбену линију унапр›ијед. Ово се може изјаловити како непријатељ узврати нападом у свом потезу."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2639
+#: /src/wesnoth/doc/manual/manual.en.xml:2664
 msgid "Often, you will throw several units at a single enemy unit to finish him off, but these were forming your defensive line which is now partly broken. Maybe this doesn&#8217;t matter because you are out of reach of the next enemy unit. Maybe it does because you only managed to weaken a very strong enemy and next turn, he is going to strike back. Perhaps a Horseman can deliver the killing blow."
 msgstr "Да бисте докрајчили непријатељску јединицу често ћете на њу послати неколико својих, тиме д›јелимично нарушавајући одбрамбену линију чији су д‹ио били. То можда није битно, јер је ван домашаја других непријатеља. Можда је битно, ако сте само ослабили врло јаког непријатеља, који ће у с‹љедећем потезу узвратити. Можда би неки коњаник могао да зада завршни ударац."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2645
+#: /src/wesnoth/doc/manual/manual.en.xml:2670
 msgid "Striking first is an advantage because it allows you the choice of which units will face off. Take advantage of enemy weakness: e.g. direct your ranged attacks against foes without ranged weapons. Take advantage of weaknesses like Horsemen&#8217;s vulnerability to pierce. But remember that they get to attack back on their turn, so you might have weaknesses the enemy may exploit."
 msgstr "Кад нападате први, у предности сте да можете бирати које ће јединице бити суочене. Искористите непријатељеве слабости; на прим›јер, управите одступне нападе на противнике без одступних оружја; или, ослоните се на слабост коњаника на пробојни удар. Али ув›ијек држите на уму да ће непријатељ моћи да узврати у свом потезу, тако да пазите на сопствене слабости које би му ишле у прилог."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2651
+#: /src/wesnoth/doc/manual/manual.en.xml:2676
 msgid "For example, Horsemen can hold up the line against Orcish Grunts and Troll Whelps very well because they have some resistances against blade and impact. But your Horseman may quite quickly fall to Orcish Archers and Goblin Spearmen."
 msgstr "На прим›јер, коњаници могу врло добро држати линију против орко-грокташа и трол-штенаца, јер имају ум›јерену отпорност на с›јечива и ударе. Али ће зато брзо пасти пред орко-стр›ијелцима и гобли-копљаницима."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2655
+#: /src/wesnoth/doc/manual/manual.en.xml:2680
 msgid "It usually pays off if you can definitively kill (or almost kill) the faced unit. If you are unsure of finishing off the enemy in one turn, either ensure that your unit can weather the return attacks or decide that you&#8217;re willing to lose that unit. To withstand the enemy&#8217;s strikes next turn, it is often wise to attack at the range that allows the enemy to do least damage to you, rather than choosing the maximum expected damage to the enemy."
 msgstr "Обично се исплати да докрајчите (или скоро докрајчите) непријатељску јединицу. Ако нисте сигурни да то можете учинити у једном потезу, или се постарајте да ваша јединица може издржати противнапад, или проц›ијените да вр›иједи да је изгубите. Ради преживљавања противнапада, обично је мудро да нападнете тако да непријатељ може нан›ијети најмање штете у узвраћању, пр›ије него онако како би се нан›ијело највише штете непријатељу."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2662
+#: /src/wesnoth/doc/manual/manual.en.xml:2687
 msgid "In particular, use your ranged weapons if the enemy has no ranged attack. The computer&#8217;s default choice only looks for the most damage you can deal, so using it will often result in your units taking more damage than necessary."
 msgstr "У овом смислу, посебно користите одступно оружје против непријатеља који га нема. Подразум›ијевани избор који рачунар нуди обично је онај који наноси највише штете, тако да би често водио непотребном оштећењу ваше јединице."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2668
+#: /src/wesnoth/doc/manual/manual.en.xml:2693
 msgid "Time of Day"
 msgstr "Доба дана"
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2669
-msgid "Remember that Lawful units like humans fight better at daytime and Chaotic units like orcs or undead fight better at night. Ideally you want to first meet the enemy when you are strong and/or he is weak. When the enemy has its strong time, it often pays off to strengthen your lines and hold a favorable defensive position. When its weak time is about to arise, your advance will push forth."
+#: /src/wesnoth/doc/manual/manual.en.xml:2694
+#, fuzzy
+#| msgid "Remember that Lawful units like humans fight better at daytime and Chaotic units like orcs or undead fight better at night. Ideally you want to first meet the enemy when you are strong and/or he is weak. When the enemy has its strong time, it often pays off to strengthen your lines and hold a favorable defensive position. When its weak time is about to arise, your advance will push forth."
+msgid "Remember that Lawful units like humans fight better at daytime, Chaotic units like orcs or undead fight better at night, and Liminal units fight best during the twilight. Ideally you want to first meet the enemy when you are strong and/or he is weak. When the enemy has its strong time, it often pays off to strengthen your lines and hold a favorable defensive position. When its weak time is about to arise, your advance will push forth."
 msgstr "Запамтите да се законите јединице, попут људских, боље боре током дана, а хаотичне, попут орковских и немртвих, током ноћи. Зато ув›ијек желите да сусретнете непријатеља у доба дана када сте ви јаки а он слаб. Када дође непријатељев час, често се исплати збити редове и држати повољне одбрамбене положаје. Када се предност врати на вашу страну, полазите у напредовање."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2675
+#: /src/wesnoth/doc/manual/manual.en.xml:2701
 msgid "For example, elves might hold out a forest during a nightly orcish onslaught and advance on sunrise. You may even note that the computer AI actively retreats his orcs during day."
 msgstr "На прим›јер, вилењаци могу задржати шуму током ноћног налета оркова, и кренути напред у свитање. Можете прим›ијетити и да ВИ рачунара активно повлачи своје оркове током дана."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2681
+#: /src/wesnoth/doc/manual/manual.en.xml:2707
 msgid "Over the course of a campaign, it is critical that you build up a seasoned force. Later scenarios will assume you have level 2 and 3 units available for recall."
 msgstr "У току похода, од кључне је важности да изграђујете искусну силу. Каснији сценарији претпостављају да су вам расположиве за сазивање јединице другог и трећег нивоа."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2684
+#: /src/wesnoth/doc/manual/manual.en.xml:2710
 msgid "Your units gain most experience points (XP) from killing an enemy unit (8XP per level of the unit killed). As such, it often makes sense to have your higher level units weaken an enemy, but cede the kill to a unit more in need of the XP. Healers in particular are often weak in combat and often need to <emphasis>steal</emphasis> kills in this way to advance levels."
 msgstr "Највише искуствених поена (ИП) јединице добијају када збришу непријатељску јединицу — 8 ИП по нивоу страдале јединице. Зато често има смисла да јединицама вишег нивоа ослабите противника, а докрајчите га јединицом којој највише треба искуства. Посебно су видари често слаби у борби, па морају „красти“ поб›једе на овај начин да би напредовали по нивоима."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2689
+#: /src/wesnoth/doc/manual/manual.en.xml:2715
 msgid "At the beginning (when you probably have no high level units), try to give most kills to a small handful of your units. This will fast-track them to becoming Level 2 units, and they can then shepherd others."
 msgstr "На почетку, када в›јероватно немате јединица виших нивоа, покушајте да највећи број поб›иједа препустите шачици својих јединица. Тако ће брзо досп›јети на ниво 2, када могу почети да се брину за друге."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2692
+#: /src/wesnoth/doc/manual/manual.en.xml:2718
 msgid "Don&#8217;t neglect to earn your leader experience. You need to keep him safe, but if you coddle him too much he will be too low level to survive future scenarios anyway."
 msgstr "Немојте занемарити прибављање искуства свом вођу. Тачно је да мора бити безб›један, али ако га превише мазите остаће прениског нивоа да бисте га могли сачувати у каснијим сценаријима."
 
 #. type: Content of: <book><chapter><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2698
+#: /src/wesnoth/doc/manual/manual.en.xml:2724
 msgid "Getting the Most Fun Out of the Game"
 msgstr "За добру забаву"
 
 #. type: Content of: <book><chapter><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2699
+#: /src/wesnoth/doc/manual/manual.en.xml:2725
 msgid "Remember, the idea of a game is to have fun! Here are some recommendations from the development team on how to get the most fun out of the game:"
 msgstr "Не заборавите да је смисао играња да се забавите! Ево неких препорука од развојног тима како да вам игра буде што је забавнија:"
 
 #. type: Content of: <book><chapter><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2704
+#: /src/wesnoth/doc/manual/manual.en.xml:2730
 msgid "Consider playing the campaign on \"Medium\" difficulty level, especially if you have prior experience with strategy games. We feel you&#8217;ll find it much more rewarding."
 msgstr "Размислите о игрању похода на „средњем“ нивоу тежине, посебно ако већ имате искуства са стратешким играма. Ц›ијенимо да ћете се тада ос›јећати много испуњенијим постигнутим."
 
 #. type: Content of: <book><chapter><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2711
+#: /src/wesnoth/doc/manual/manual.en.xml:2737
 msgid "Don&#8217;t sweat it too much when you lose some units. The campaign was designed to accommodate the player losing some units along the way."
 msgstr "Немојте бити превише нервозни због губљења јединица. Походи су и дизајнирани тако да играч може изгубити покоју јединицу успут."
 
 #. type: Content of: <book><chapter><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2717
+#: /src/wesnoth/doc/manual/manual.en.xml:2743
 msgid "Don&#8217;t abuse saved games. Long ago, Wesnoth only allowed saving the game at the end of a scenario. Mid-scenario saving was added as a convenience to use if you had to continue the game another day, or to protect against crashes. We do not recommend loading mid-scenario saved games over and over because your White Mage keeps getting killed. Learn to protect your White Mage instead, and balance risks! That is part of the strategy."
 msgstr "Не злоупотребљавајте сачуване позиције. Некада давно, у Весноту је уписивање позиција било дозвољено само на крају сценарија. Уписивање усред сценарија додато је само као погодност за случај да морате наставити играње касније, и ради сигурности од падова. Не препоручујемо да сваки час учитавате позицију зато што вам тај б›ијели маг стално гине — ум›јесто тога, научите да га штитите, и м›јерите ризике! То је д‹ио стратегије."
 
 #. type: Content of: <book><chapter><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2728
+#: /src/wesnoth/doc/manual/manual.en.xml:2754
 msgid "If you must load a saved game, we recommend going back to the start of the scenario, so that you choose a new strategy that works, rather than simply finding random numbers that favor you."
 msgstr "Ако морате да учитате позицију, препоручујемо да почнете сценарио из почетка и изнађете бољу стратегију, пр›ије него да просто налазите случајне бројеве који вам иду у корист."
 
 #. type: Content of: <book><chapter><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2735
+#: /src/wesnoth/doc/manual/manual.en.xml:2761
 msgid "But remember, the aim is to have fun! You may have different tastes than the developers, so do what you enjoy most! If you enjoy loading the saved game every time you make a mistake, looking for the <emphasis>perfect</emphasis> game where you never lose a unit, by all means, go right ahead!"
 msgstr "Ипак, циљ је забава! Можда вам је укус различит од оног програмера, тако да радите како вам највише прија! Ако уживате да учитавате позицију кад год начините грешку, стремећи ка <emphasis>савршеним</emphasis> партијама у којима никада не губите јединице, само напр›ијед!"
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2743
+#: /src/wesnoth/doc/manual/manual.en.xml:2769
 msgid "At the start of a scenario"
 msgstr "На почетку сценарија"
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2747
+#: /src/wesnoth/doc/manual/manual.en.xml:2773
 #, fuzzy
 #| msgid "First, read the scenario objectives. Sometimes you do not have to kill enemy leaders; instead it is enough that you survive for a certain number of turns, or pick up a particular object"
 msgid "First, read the scenario objectives. Sometimes you do not have to kill enemy leaders; instead it is enough that you survive for a certain number of turns, or pick up a particular object."
@@ -3364,133 +3383,133 @@ msgstr "Прво прочитајте циљеве сценарија. Нека�
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2754
+#: /src/wesnoth/doc/manual/manual.en.xml:2780
 msgid "Look at the map: the terrain, the position of your leader and the other leader(s)."
 msgstr "Проучите мапу: терен, положај вашег вођа и положаје других вођа."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2760
+#: /src/wesnoth/doc/manual/manual.en.xml:2786
 msgid "Then, begin to recruit units. Cheap units are useful to soak up the first wave of an enemy&#8217;s attack; advanced units can then be brought in as support. Fast units can be used as scouts, for exploring the map and to quickly conquer villages."
 msgstr "Затим почните да унајмљујете јединице. Јефтине јединице згодне су за упијање првог таласа непријатеља; напредне јединице могу се накнадно увести као подршка. Хитре јединице добро дођу као извиђачи, за истраживање мапе и брзо запос›иједање села̂."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2769
+#: /src/wesnoth/doc/manual/manual.en.xml:2795
 msgid "During the scenario"
 msgstr "Током сценарија"
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2773
+#: /src/wesnoth/doc/manual/manual.en.xml:2799
 msgid "Try to capture and keep control of as many villages as possible to keep the gold coming in."
 msgstr "Потрудите се да заробите и држите у пос›једу што више села, као би се злато сливало у касу."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2779
+#: /src/wesnoth/doc/manual/manual.en.xml:2805
 msgid "Keep units in packs so the enemy cannot attack from as many sides, and so you can outnumber each enemy unit. Put your units in a line so that the enemy cannot attack any one of your units from more than two sides."
 msgstr "Јединице крећите у групама, тако да непријатељ не може напасти са свих страна, и да можете надјачати осамљене непријатељске јединице. Ређајте јединице у линију, тако да ниједна од њих не може бити нападнута са више од дв›ије стране."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2786
+#: /src/wesnoth/doc/manual/manual.en.xml:2812
 msgid "Different units have different strengths and weaknesses depending on terrain and who they are attacking; right click on units and select \"Unit Description\" to learn more."
 msgstr "Различите јединице имају различите врлине и мане, у зависности од терена и кога нападају. Кликните десним на јединицу и изаберите <guimenuitem>Unit Description</guimenuitem> за више детаља."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2793
+#: /src/wesnoth/doc/manual/manual.en.xml:2819
 msgid "You can use lower level units as cannon fodder, to slow down enemy. E.g. you can use them to block enemies reaching your important units."
 msgstr "Јединице ниског нивоа можете користити као топовско месо, за успоравање непријатеља. На прим›јер, њима можете непријатељу препр›ијечити пут до важнијих јединица."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2799
+#: /src/wesnoth/doc/manual/manual.en.xml:2825
 msgid "You can cause damage to enemies with advanced units and then finish them with lower level units — to give them more experience (and finally make them advance to next level)."
 msgstr "Можете добро оштетити напредније непријатељске јединице, а затим их докрајчити јединицама ниског нивоа, како бисте им дали више искуства (и коначно дигли на наредни ниво)."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2806
+#: /src/wesnoth/doc/manual/manual.en.xml:2832
 msgid "When you have a White Mage (advances from Mage) or Druid (advances from Shaman), put it in the middle of a circle of units to heal them as they move across the map (Shamans can do this too, but not as well)."
 msgstr "Ако имате б›ијелог мага (напредује из мага) или друидку (напредује из врачаре), ставите њега или њу у средину круга јединица како би се л›ијечиле при кретању по мапи. (И врачарке могу да л›ијече, али не тако добро.)"
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2813
+#: /src/wesnoth/doc/manual/manual.en.xml:2839
 msgid "Losing units is expected, even advanced units."
 msgstr "Губљење јединица се очекује, чак и напредних."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2818
+#: /src/wesnoth/doc/manual/manual.en.xml:2844
 msgid "Time of day really matters:"
 msgstr "Доба дана је заиста важно:"
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2823
+#: /src/wesnoth/doc/manual/manual.en.xml:2849
 msgid "lawful units do more damage at day and less damage at night"
 msgstr "законите јединице наносе више штете током дана, а мање ноћу"
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2828
+#: /src/wesnoth/doc/manual/manual.en.xml:2854
 msgid "chaotic units do more damage at night and less damage at day"
 msgstr "хаотичне јединице наносе више штета током ноћи, а мање дању"
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2833
+#: /src/wesnoth/doc/manual/manual.en.xml:2859
 msgid "remember to always check the time of day on the right side of the screen. Plan ahead — think about what it&#8217;s going to be next turn as well as this turn."
 msgstr "ув›ијек држите око на добу дана на десној страни екрана. Планирајте унапр›ијед — мислите на то које ће доба дана бити у с‹љедећем потезу."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2842
+#: /src/wesnoth/doc/manual/manual.en.xml:2868
 msgid "Some units are resistant or vulnerable to different kind of attacks. Mounted units are weak vs pierce attacks. Fire and arcane attacks destroy undead. To see how much a unit resists an attack type, right click on the unit, select \"Unit Description\", then select \"Resistance\". It will show you how resistant a unit is to different types of attacks."
 msgstr "Неке јединице су отпорније или рањивије на изв›јесне врсте напада. Коњичке јединице су слабе на пробојне нападе. Ватрени и волшебни напади десеткују немртве. Колико је јединица отпорна на дати тип напада можете погледати тако што кликните десним на њу, изаберете <guimenuitem>Unit Description</guimenuitem>, па под <guilabel>Resistances</guilabel>. Ту су набројане њене отпорности на различите типове напада."
 
 #. type: Content of: <book><chapter><section><section><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2854
+#: /src/wesnoth/doc/manual/manual.en.xml:2880
 msgid "An important part of succeeding at Battle for Wesnoth is keeping your units healthy. When your units take damage you can heal them by moving them onto villages or next to special healing units (e.g. the Elvish Shaman and White Mage). Some other units you will encounter, such as Trolls, have the ability to heal themselves naturally."
 msgstr "Важан д‹ио постизања успеха у Боју за Веснот чини одржавање јединица здравим. Оштећену јединицу можете зал›ијечити пом›ијерањем на село или надомак посебних видарских јединица (нпр. вилин-врачарке или белог мага). Неке јединице које ћете срести, као што су троловске, способне су да природно л›ијече саме себе."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2861
+#: /src/wesnoth/doc/manual/manual.en.xml:2887
 msgid "Winning a scenario"
 msgstr "Добијање сценарија"
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2865
+#: /src/wesnoth/doc/manual/manual.en.xml:2891
 msgid "Advanced units are needed to quickly kill enemy commanders, and to avoid losing lots of units."
 msgstr "Напредне јединице су неопходне за брзо елиминисање непријатељских запов›једника, и да би се изб›јегло губљење мноштва јединица."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2871
+#: /src/wesnoth/doc/manual/manual.en.xml:2897
 msgid "The quicker you win a scenario, the more gold you get; you will get more gold from winning early than from all of the map&#8217;s villages for the rest of the turns."
 msgstr "Што пр›ије добијете сценарио, више ћете и злата добити. Више злата добијате за рану поб›једу, него што бисте пос›једујући сва села на мапи за све преостале потезе."
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2878
+#: /src/wesnoth/doc/manual/manual.en.xml:2904
 msgid "Killing all enemy leaders usually gives instant victory."
 msgstr "Елиминисање свих непријатељских вођа обично значи тренутну поб›једу."
 
 #. type: Content of: <book><chapter><section><section><title>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2884
+#: /src/wesnoth/doc/manual/manual.en.xml:2910
 msgid "More general tips"
 msgstr "Још општих сав›јета"
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2888
+#: /src/wesnoth/doc/manual/manual.en.xml:2914
 #, fuzzy
 #| msgid "After slaughtering scenarios (where you take lots of punishment) there are usually \"breathing room\" scenarios where you can rather easily gain some gold and experience (advanced units)"
 msgid "After slaughtering scenarios (where you take lots of punishment) there are usually \"breathing room\" scenarios where you can rather easily gain some gold and experience (advanced units)."
@@ -3498,6 +3517,6 @@ msgstr "Посл›ије убитачних сценарија (гд›је и�
 
 #. type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
 #. +> devel
-#: /src/wesnoth/doc/manual/manual.en.xml:2895
+#: /src/wesnoth/doc/manual/manual.en.xml:2921
 msgid "Advanced units have higher upkeep than lower level units (1 gp per level), loyal units are an exception."
 msgstr "Напредне јединице траже веће издатке него јединице нижег нивоа (1 златник по нивоу). Изузетак су лојалне јединице."

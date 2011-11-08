@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2011-09-10 14:16+0200\n"
+"PO-Revision-Date: 2011-11-08 23:50+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -1115,11 +1115,6 @@ msgid "Alignment"
 msgstr "Поредак|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
-msgid "Every unit has an alignment: lawful, neutral, or chaotic. Alignment affects how units perform at different times of day. Neutral units are unaffected by the time of day. Lawful units do more damage during the day and less at night. Chaotic units do more damage at night and less during the day."
-msgstr "Свака јединица припада поретку: законити, неутрални или хаотични. Поредак утиче на учинак јединице у различита доба дана. На неутралне јединице доба дана не утиче. Законите јединице наносе више штете дању а мање ноћу. Хаотичне јединице наносе више штете ноћу а мање дању.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-03-15 21:55:24+0100 | 1
 #. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
 #. modified: ilic | 2010-03-15 22:12:17+0100 | 1
@@ -1130,11 +1125,6 @@ msgstr ""
 "„Дан“ и „ноћ“ подељени су у по две смене: јутро и поподне, и прва стража и друга стража. Оне се могу видети по положају сунца и месеца на графику доба дана.|~\n"
 "„Дан“ и „ноћ“ под›ијељени су у по дијве смјене: јутро и поподне, и прва стража и друга стража. Оне се могу вид›јети по положају сунца и м›јесеца на графику доба дана.|~\n"
 "„Дан“ и „ноћ“ под›ијељени су у по дв›ије см›јене: јутро и поподне, и прва стража и друга стража. Оне се могу вид›јети по положају сунца и м›јесеца на графику доба дана.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
-msgid "The following table shows the effects of different times of the day on the damage dealt by lawful and chaotic units:"
-msgstr "Наредна табела приказује утицај различитих доба дана на штету коју наносе законите и хаотичне јединице:|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
@@ -2569,14 +2559,6 @@ msgstr "Доба дана|~"
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-03-15 21:55:24+0100 | 1
 #. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
-msgid "Remember that Lawful units like humans fight better at daytime and Chaotic units like orcs or undead fight better at night. Ideally you want to first meet the enemy when you are strong and/or he is weak. When the enemy has its strong time, it often pays off to strengthen your lines and hold a favorable defensive position. When its weak time is about to arise, your advance will push forth."
-msgstr ""
-"Запамтите да се законите јединице, попут људских, боље боре током дана, а хаотичне, попут орковских и немртвих, током ноћи. Зато увек желите да сусретнете непријатеља у доба дана када сте ви јаки а он слаб. Када дође непријатељев час, често се исплати збити редове и држати повољне одбрамбене положаје. Када се предност врати на вашу страну, полазите у напредовање.|~\n"
-"Запамтите да се законите јединице, попут људских, боље боре током дана, а хаотичне, попут орковских и немртвих, током ноћи. Зато ув›ијек желите да сусретнете непријатеља у доба дана када сте ви јаки а он слаб. Када дође непријатељев час, често се исплати збити редове и држати повољне одбрамбене положаје. Када се предност врати на вашу страну, полазите у напредовање.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. modified: djuric | 2010-03-15 21:55:24+0100 | 1
-#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
 msgid "For example, elves might hold out a forest during a nightly orcish onslaught and advance on sunrise. You may even note that the computer AI actively retreats his orcs during day."
 msgstr ""
 "На пример, вилењаци могу задржати шуму током ноћног налета оркова, и кренути напред у свитање. Можете приметити и да ВИ рачунара активно повлачи своје оркове током дана.|~\n"
@@ -3166,6 +3148,45 @@ msgstr ""
 #| msgid "After slaughtering scenarios (where you take lots of punishment) there are usually \"breathing room\" scenarios where you can rather easily gain some gold and experience (advanced units)|~"
 msgid "After slaughtering scenarios (where you take lots of punishment) there are usually \"breathing room\" scenarios where you can rather easily gain some gold and experience (advanced units)."
 msgstr "Посл›ије убитачних сценарија (гд›је истрпите пуно губитака) обично сл›иједе сценарији са „простором за дисање“, у којима лако можете прикупити злата и искуства (односно напредне јединице).|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#, fuzzy
+#| msgid "Every unit has an alignment: lawful, neutral, or chaotic. Alignment affects how units perform at different times of day. Neutral units are unaffected by the time of day. Lawful units do more damage during the day and less at night. Chaotic units do more damage at night and less during the day.|~"
+msgid "Every unit has an alignment: lawful, neutral, chaotic, or liminal. Alignment affects how units perform at different times of day. Neutral units are unaffected by the time of day. Lawful units do more damage during the day and less at night. Chaotic units do more damage at night and less during the day. Liminal units do less damage during both night and daytime."
+msgstr "Свака јединица припада поретку: законити, неутрални или хаотични. Поредак утиче на учинак јединице у различита доба дана. На неутралне јединице доба дана не утиче. Законите јединице наносе више штете дању а мање ноћу. Хаотичне јединице наносе више штете ноћу а мање дању.|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#, fuzzy
+#| msgid "The following table shows the effects of different times of the day on the damage dealt by lawful and chaotic units:|~"
+msgid "The following table shows the effects of different times of the day on the damage dealt by lawful, chaotic, and liminal units:"
+msgstr "Наредна табела приказује утицај различитих доба дана на штету коју наносе законите и хаотичне јединице:|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#, fuzzy
+#| msgid "Remember that Lawful units like humans fight better at daytime and Chaotic units like orcs or undead fight better at night. Ideally you want to first meet the enemy when you are strong and/or he is weak. When the enemy has its strong time, it often pays off to strengthen your lines and hold a favorable defensive position. When its weak time is about to arise, your advance will push forth.|~"
+msgid "Remember that Lawful units like humans fight better at daytime, Chaotic units like orcs or undead fight better at night, and Liminal units fight best during the twilight. Ideally you want to first meet the enemy when you are strong and/or he is weak. When the enemy has its strong time, it often pays off to strengthen your lines and hold a favorable defensive position. When its weak time is about to arise, your advance will push forth."
+msgstr "Запамтите да се законите јединице, попут људских, боље боре током дана, а хаотичне, попут орковских и немртвих, током ноћи. Зато ув›ијек желите да сусретнете непријатеља у доба дана када сте ви јаки а он слаб. Када дође непријатељев час, често се исплати збити редове и држати повољне одбрамбене положаје. Када се предност врати на вашу страну, полазите у напредовање.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
+#. modified: ilic | 2011-11-08 23:50:35+0100 | o
+#~ msgid "Every unit has an alignment: lawful, neutral, or chaotic. Alignment affects how units perform at different times of day. Neutral units are unaffected by the time of day. Lawful units do more damage during the day and less at night. Chaotic units do more damage at night and less during the day."
+#~ msgstr "Свака јединица припада поретку: законити, неутрални или хаотични. Поредак утиче на учинак јединице у различита доба дана. На неутралне јединице доба дана не утиче. Законите јединице наносе више штете дању а мање ноћу. Хаотичне јединице наносе више штете ноћу а мање дању.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
+#. modified: ilic | 2011-11-08 23:50:35+0100 | o
+#~ msgid "The following table shows the effects of different times of the day on the damage dealt by lawful and chaotic units:"
+#~ msgstr "Наредна табела приказује утицај различитих доба дана на штету коју наносе законите и хаотичне јединице:|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: djuric | 2010-03-15 21:55:24+0100 | 1
+#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
+#. modified: ilic | 2011-11-08 23:50:35+0100 | o
+#~ msgid "Remember that Lawful units like humans fight better at daytime and Chaotic units like orcs or undead fight better at night. Ideally you want to first meet the enemy when you are strong and/or he is weak. When the enemy has its strong time, it often pays off to strengthen your lines and hold a favorable defensive position. When its weak time is about to arise, your advance will push forth."
+#~ msgstr ""
+#~ "Запамтите да се законите јединице, попут људских, боље боре током дана, а хаотичне, попут орковских и немртвих, током ноћи. Зато увек желите да сусретнете непријатеља у доба дана када сте ви јаки а он слаб. Када дође непријатељев час, често се исплати збити редове и држати повољне одбрамбене положаје. Када се предност врати на вашу страну, полазите у напредовање.|~\n"
+#~ "Запамтите да се законите јединице, попут људских, боље боре током дана, а хаотичне, попут орковских и немртвих, током ноћи. Зато ув›ијек желите да сусретнете непријатеља у доба дана када сте ви јаки а он слаб. Када дође непријатељев час, често се исплати збити редове и држати повољне одбрамбене положаје. Када се предност врати на вашу страну, полазите у напредовање.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100

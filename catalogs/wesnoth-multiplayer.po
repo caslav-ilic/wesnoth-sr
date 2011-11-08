@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-multiplayer\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-09-10 01:00+0200\n"
+"POT-Creation-Date: 2011-11-08 23:49+0100\n"
 "PO-Revision-Date: 2011-09-10 14:17+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -44,12 +44,6 @@ msgstr "подразумевана"
 msgid "Age of Heroes"
 msgstr "Доба јунака"
 
-#. [era]: id=era_khalifate
-#. +> devel
-#: data/multiplayer/eras.cfg:200
-msgid "Default + Khalifate"
-msgstr ""
-
 #. [multiplayer_side]: id=Drakes, type=Drake Flare
 #. [multiplayer_side]: id=Drakes, type=random
 #. +> devel
@@ -57,12 +51,6 @@ msgstr ""
 #: data/multiplayer/factions/drakes-default.cfg:4
 msgid "Drakes"
 msgstr "Змагови"
-
-#. [multiplayer_side]: id=khalifate, type=Muharib
-#. +> devel
-#: data/multiplayer/factions/khalifate-default.cfg:4
-msgid "Khalifate"
-msgstr ""
 
 #. [multiplayer_side]: id=Knalgan Alliance, type=Dwarvish Steelclad
 #. [multiplayer_side]: id=Knalgan Alliance, type=random
@@ -103,6 +91,113 @@ msgstr "Побуњеници"
 #: data/multiplayer/factions/undead-default.cfg:4
 msgid "Undead"
 msgstr "Немртви"
+
+#. [multiplayer]: id=multiplayer_Aethermaw
+#. +> devel
+#: data/multiplayer/scenarios/2p_Aethermaw.cfg:4
+#, fuzzy
+#| msgid "2p — The Freelands"
+msgid "2p — Aethermaw"
+msgstr "2и: Слободоземље"
+
+#. [multiplayer]: id=multiplayer_Aethermaw
+#. +> devel
+#: data/multiplayer/scenarios/2p_Aethermaw.cfg:5
+msgid "Long ago, the Great Mage Sulla was imprisoned in the Aethermaw, a nexus of mystical energy whose chaotic nature was able to prevent her escape. Over the centuries, however, Sulla gradually attuned her powers to the maelstrom of disorder that is the Aethermaw, and has now begun to project its influence onto the material plane, drawing in entire regions of land from hundreds of different worlds, realities and time-periods. She experiments with these disparate pieces of the cosmos, manipulating them, merging them and sending them back and forth between the Aethermaw and their place of origin. Perhaps, as her mastery over the Aethermaw grows, Sulla will one day break free of its bonds. Until that time comes, she will continue to amuse herself by arranging battles between the mortal beings unlucky enough to be drawn into its depths. Designed by Doc Paterson."
+msgstr ""
+
+#. [side]
+#. +> devel
+#: data/multiplayer/scenarios/2p_Aethermaw.cfg:21
+#: data/multiplayer/scenarios/2p_Caves_of_the_Basilisk.cfg:49
+#: data/multiplayer/scenarios/2p_Cynsaun_Battlefield.cfg:22
+#: data/multiplayer/scenarios/2p_Den_of_Onis.cfg:37
+#: data/multiplayer/scenarios/2p_Elensefar_Courtyard.cfg:34
+#: data/multiplayer/scenarios/2p_Hamlets.cfg:22
+#: data/multiplayer/scenarios/2p_Hornshark_Island.cfg:48
+#: data/multiplayer/scenarios/2p_Howling_Ghost_Badlands.cfg:47
+#: data/multiplayer/scenarios/2p_Sablestone_Delta.cfg:21
+#: data/multiplayer/scenarios/2p_Sullas_Ruins.cfg:67
+#: data/multiplayer/scenarios/2p_The_Freelands.cfg:22
+#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:67
+#: data/multiplayer/scenarios/2p_Weldyn_Channel.cfg:21
+#: data/multiplayer/scenarios/3p_Alirok_Marsh.cfg:20
+#: data/multiplayer/scenarios/3p_Island_of_the_Horatii.cfg:20
+#: data/multiplayer/scenarios/3p_Morituri.cfg:20
+#: data/multiplayer/scenarios/4p_Hamlets.cfg:21
+#: data/multiplayer/scenarios/4p_Hamlets.cfg:57
+#: data/multiplayer/scenarios/4p_Morituri.cfg:18
+#: data/multiplayer/scenarios/4p_Morituri.cfg:51
+#: data/multiplayer/scenarios/4p_Xanthe_Chaos.cfg:31
+#: data/multiplayer/scenarios/4p_Xanthe_Chaos.cfg:42
+#: data/multiplayer/scenarios/5p_Forest_of_Fear.cfg:20
+#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:32
+#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:44
+#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:80
+#: data/multiplayer/scenarios/9p_Merkwuerdigliebe.cfg:26
+#: data/multiplayer/scenarios/9p_Merkwuerdigliebe.cfg:74
+#: data/multiplayer/scenarios/9p_Merkwuerdigliebe.cfg:122
+msgctxt "teamname"
+msgid "North"
+msgstr "С›јевер"
+
+#. [side]
+#. +> devel
+#: data/multiplayer/scenarios/2p_Aethermaw.cfg:33
+#: data/multiplayer/scenarios/2p_Caves_of_the_Basilisk.cfg:61
+#: data/multiplayer/scenarios/2p_Cynsaun_Battlefield.cfg:35
+#: data/multiplayer/scenarios/2p_Den_of_Onis.cfg:26
+#: data/multiplayer/scenarios/2p_Elensefar_Courtyard.cfg:22
+#: data/multiplayer/scenarios/2p_Hamlets.cfg:33
+#: data/multiplayer/scenarios/2p_Hornshark_Island.cfg:60
+#: data/multiplayer/scenarios/2p_Howling_Ghost_Badlands.cfg:36
+#: data/multiplayer/scenarios/2p_Sablestone_Delta.cfg:32
+#: data/multiplayer/scenarios/2p_Sullas_Ruins.cfg:55
+#: data/multiplayer/scenarios/2p_The_Freelands.cfg:33
+#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:55
+#: data/multiplayer/scenarios/2p_Weldyn_Channel.cfg:32
+#: data/multiplayer/scenarios/4p_Hamlets.cfg:33
+#: data/multiplayer/scenarios/4p_Hamlets.cfg:45
+#: data/multiplayer/scenarios/4p_Morituri.cfg:29
+#: data/multiplayer/scenarios/4p_Morituri.cfg:40
+#: data/multiplayer/scenarios/4p_Xanthe_Chaos.cfg:20
+#: data/multiplayer/scenarios/4p_Xanthe_Chaos.cfg:53
+#: data/multiplayer/scenarios/5p_Forest_of_Fear.cfg:64
+#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:20
+#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:56
+#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:68
+msgctxt "teamname"
+msgid "South"
+msgstr "Југ"
+
+#. [message]: speaker=narrator
+#. +> devel
+#: data/multiplayer/scenarios/2p_Aethermaw.cfg:276
+msgid "Aethermaw — Created by Doc Paterson"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. +> devel
+#: data/multiplayer/scenarios/2p_Aethermaw.cfg:291
+msgid ""
+"The Great Mage Sulla has transported your armies to this bizarre nexus, and demands that you amuse her by doing battle.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"<span color='red'>Note:</span>\n"
+"\n"
+"<span color='green'>Units may not move into a hex with a rock cairn. They may, however, be recruited to, and move from, such hexes.</span>\n"
+"\n"
+"<span color='green'>Beginning on turn 4, the Great Mage Sulla will begin to unite the two halves of the battlefield. The process will be complete by the end of turn 6.</span>\n"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. +> devel
+#: data/multiplayer/scenarios/2p_Aethermaw.cfg:304
+#: data/multiplayer/scenarios/2p_Aethermaw.cfg:321
+msgid "The Aethermaw growls."
+msgstr ""
 
 #. [multiplayer]: id=multiplayer_Arcanclave_Citadel
 #. +> devel
@@ -194,68 +289,6 @@ msgstr "2и: Пећине Базилиска"
 #| msgid "These caves were once the lair of Chak'kso Ney'yks, a legendary Elder Basilisk. The petrified forms of his victims remain as monuments to his savage power."
 msgid "These caves were once the lair of Chak’kso Ney’yks, a legendary Elder Basilisk. The petrified forms of his victims remain as monuments to his savage power."
 msgstr "Ове пећине некада б‹ијаху јазбина Чаксу Нејиксу, древном базилиску из предања. Окамењена обличја његових жртава стоје као споменици његовој суровој моћи."
-
-#. [side]
-#. +> devel
-#: data/multiplayer/scenarios/2p_Caves_of_the_Basilisk.cfg:49
-#: data/multiplayer/scenarios/2p_Cynsaun_Battlefield.cfg:22
-#: data/multiplayer/scenarios/2p_Den_of_Onis.cfg:37
-#: data/multiplayer/scenarios/2p_Elensefar_Courtyard.cfg:34
-#: data/multiplayer/scenarios/2p_Hamlets.cfg:22
-#: data/multiplayer/scenarios/2p_Hornshark_Island.cfg:48
-#: data/multiplayer/scenarios/2p_Howling_Ghost_Badlands.cfg:54
-#: data/multiplayer/scenarios/2p_Sablestone_Delta.cfg:21
-#: data/multiplayer/scenarios/2p_Sullas_Ruins.cfg:67
-#: data/multiplayer/scenarios/2p_The_Freelands.cfg:22
-#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:72
-#: data/multiplayer/scenarios/2p_Weldyn_Channel.cfg:21
-#: data/multiplayer/scenarios/3p_Alirok_Marsh.cfg:20
-#: data/multiplayer/scenarios/3p_Island_of_the_Horatii.cfg:20
-#: data/multiplayer/scenarios/3p_Morituri.cfg:20
-#: data/multiplayer/scenarios/4p_Hamlets.cfg:21
-#: data/multiplayer/scenarios/4p_Hamlets.cfg:57
-#: data/multiplayer/scenarios/4p_Morituri.cfg:18
-#: data/multiplayer/scenarios/4p_Morituri.cfg:51
-#: data/multiplayer/scenarios/4p_Xanthe_Chaos.cfg:31
-#: data/multiplayer/scenarios/4p_Xanthe_Chaos.cfg:42
-#: data/multiplayer/scenarios/5p_Forest_of_Fear.cfg:20
-#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:32
-#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:44
-#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:80
-#: data/multiplayer/scenarios/9p_Merkwuerdigliebe.cfg:26
-#: data/multiplayer/scenarios/9p_Merkwuerdigliebe.cfg:74
-#: data/multiplayer/scenarios/9p_Merkwuerdigliebe.cfg:122
-msgctxt "teamname"
-msgid "North"
-msgstr "С›јевер"
-
-#. [side]
-#. +> devel
-#: data/multiplayer/scenarios/2p_Caves_of_the_Basilisk.cfg:61
-#: data/multiplayer/scenarios/2p_Cynsaun_Battlefield.cfg:35
-#: data/multiplayer/scenarios/2p_Den_of_Onis.cfg:26
-#: data/multiplayer/scenarios/2p_Elensefar_Courtyard.cfg:22
-#: data/multiplayer/scenarios/2p_Hamlets.cfg:33
-#: data/multiplayer/scenarios/2p_Hornshark_Island.cfg:60
-#: data/multiplayer/scenarios/2p_Howling_Ghost_Badlands.cfg:43
-#: data/multiplayer/scenarios/2p_Sablestone_Delta.cfg:32
-#: data/multiplayer/scenarios/2p_Sullas_Ruins.cfg:55
-#: data/multiplayer/scenarios/2p_The_Freelands.cfg:33
-#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:60
-#: data/multiplayer/scenarios/2p_Weldyn_Channel.cfg:32
-#: data/multiplayer/scenarios/4p_Hamlets.cfg:33
-#: data/multiplayer/scenarios/4p_Hamlets.cfg:45
-#: data/multiplayer/scenarios/4p_Morituri.cfg:29
-#: data/multiplayer/scenarios/4p_Morituri.cfg:40
-#: data/multiplayer/scenarios/4p_Xanthe_Chaos.cfg:20
-#: data/multiplayer/scenarios/4p_Xanthe_Chaos.cfg:53
-#: data/multiplayer/scenarios/5p_Forest_of_Fear.cfg:64
-#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:20
-#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:56
-#: data/multiplayer/scenarios/6p_Waterloo_Sunset.cfg:68
-msgctxt "teamname"
-msgid "South"
-msgstr "Југ"
 
 #. [unit]
 #. +> devel
@@ -635,10 +668,15 @@ msgstr "2и: Мрачна прогноза (опстанак)"
 #. [multiplayer]: id=multiplayer_2p_Dark_Forecast
 #. +> devel
 #: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:8
+#, fuzzy
+#| msgid ""
+#| "Dark Forecast is a survival scenario for solitaire or two-player team-based play against randomly AI spawned units. Victory is achieved by surviving all enemy waves. During the course of play, the terrain will change based on random weather effects.\n"
+#| "\n"
+#| "Note: You need to use map settings for the scenario to work right."
 msgid ""
-"Dark Forecast is a survival scenario for solitaire or two-player team-based play against randomly AI spawned units. Victory is achieved by surviving all enemy waves. During the course of play, the terrain will change based on random weather effects.\n"
+"Dark Forecast is a survival scenario for solitaire or two-player team-based play against randomly-spawned AI units. Victory is achieved by surviving and defeating all enemy waves. During the course of play, the terrain will change based on random weather effects.\n"
 "\n"
-"Note: You need to use map settings for the scenario to work right."
+"Note: You need to use the default map settings for the scenario to work right."
 msgstr ""
 "„Мрачна прогноза“ је сценарио опстанка за самосталну или игру у двоје против насумично извлачених јединица ВИ. Поб›једа се остварује одбијањем свих непријатељских таласа. Током играња, терен ће се м›ијењати према случајним временским условима.\n"
 "\n"
@@ -705,44 +743,48 @@ msgstr "Људи"
 #. [then]
 #. +> devel
 #: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1386
-msgid "Single player mode — uses the reduced strength spawns."
-msgstr "За једног играча — израњања смањене снаге."
+#, fuzzy
+#| msgid "Death of your team leaders."
+msgid "Death of your leader"
+msgstr "Страдају ли ваши вођи тимова."
+
+#. [then]
+#. +> devel
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1387
+msgid "Since your team has only one leader, the enemy waves will not be at full strength."
+msgstr ""
 
 #. [else]
 #. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1389
-msgid "Two player mode — uses the full strength spawns."
-msgstr "За два играча — израњања пуне снаге."
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1390
+#, fuzzy
+#| msgid "Death of your team leaders."
+msgid "Death of both of your team’s leaders"
+msgstr "Страдају ли ваши вођи тимова."
 
-#. [objectives]
+#. [else]
 #. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1409
-msgid "Survive and defeat the waves of opposition."
-msgstr "Преживиш ли и поразиш противничке таласе"
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1391
+msgid "Since your team has two leaders, the enemy waves will be at full strength."
+msgstr ""
 
 #. [objective]: condition=win
 #. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1411
-msgid "Defeat all waves"
-msgstr "Поразиш ли све таласе"
-
-#. [objective]: condition=lose
-#. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1415
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1412
 #, fuzzy
-#| msgid "Lose all your team's leaders"
-msgid "Lose all your team’s leaders"
-msgstr "Страдају ли сви вођи тимова"
+#| msgid "Survive all enemy attacks."
+msgid "Survive and defeat all enemy waves"
+msgstr "Преживите ли све непријатељске налете."
 
 #. [message]: speaker=narrator
 #. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1426
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1431
 msgid "Dark Forecast — a random survival scenario"
 msgstr "Мрачна прогноза — насумични сценарио опстанка"
 
 #. [message]: speaker=narrator
 #. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1449
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1451
 #, fuzzy
 #| msgid ""
 #| "Your aim is to survive the spawning waves and defeat the final arch-enemies.\n"
@@ -765,25 +807,22 @@ msgstr "Мрачна прогноза — насумични сценарио о
 #| "<span color='green'>Rhuvaen</span>\n"
 #| "- WML implementation"
 msgid ""
-"Your aim is to survive the spawning waves and defeat the final arch-enemies.\n"
+"Your aim is to survive the spawning waves of units and defeat the final archenemies.\n"
 "\n"
-"The spawning waves are generated randomly and will different each time Dark Forecast is played.\n"
+"The spawning waves are randomly generated and will be different each time Dark Forecast is played.\n"
 "\n"
-"\n"
-"They appear along the north, south and west map edges — though they are most likely to spawn on the west edge. The spawn waves appear at somewhat regular intervals.\n"
-"\n"
+"They appear along the north, south, and west map edges — though they are most likely to spawn on the west edge. The waves appear at somewhat regular intervals.\n"
 "\n"
 "The weather will also change randomly, affecting the layout of the map.\n"
 "\n"
 "\n"
+"<b>Dark Forecast was made by:</b>\n"
 "\n"
-"<span color='red'>Dark Forecast was made by:</span>\n"
+"<span color='green'>jb:</span>\n"
+"• Map design, spawn groups, and scenario concept\n"
 "\n"
-"<span color='green'>jb</span>\n"
-"— map design, spawn groups and scenario concept\n"
-"\n"
-"<span color='green'>Rhuvaen</span>\n"
-"— WML implementation"
+"<span color='green'>Rhuvaen:</span>\n"
+"• WML implementation"
 msgstr ""
 "Циљ је прежив›јети израњајуће таласе и поразити коначне архинепријатеље.\n"
 "\n"
@@ -807,37 +846,37 @@ msgstr ""
 
 #. [message]
 #. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1454
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1456
 msgid "So this is the accursed valley — a land ours for the taking."
 msgstr "Ово је, дакле, та клета долина — земља наша за заузимање."
 
 #. [message]
 #. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1458
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1460
 msgid "The inhabitants are rumored to be a strange alliance of man and beast, and our claim is not going to be unopposed. We must be prepared for the surprises of this land."
 msgstr "Круже гласине да су насељеници у чудном савезу чов›јека и зв›јери, те наши захт›јеви неће проћи без отпора. Морамо бити спремни на изненађења ове земље."
 
 #. [message]
 #. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1462
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1464
 msgid "Then let us discover what lies in waiting and teach them not to oppose our claim."
 msgstr "Откријмо онда шта вреба притајено и научимо их да нама нема отпора."
 
 #. [message]: speaker=unit
 #. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1499
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1501
 msgid "Ugh! How can this be? Defeated by mere barbarians! My gods have forsaken me..."
 msgstr "Ах! Како ово може бити? Поразише нас обични варвари! Богови ме напустише..."
 
 #. [message]: speaker=second_unit
 #. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1513
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1515
 msgid "Cheers of your enemy are the last thing you hear as you slip into death...their joy fills your last moments with pure hate."
 msgstr "Покличи непријатељски пос‹љедње су што чујеш док клизиш у смрт... Радост њихова испуњава ти пос‹љедње тренутке чистом мржњом."
 
 #. [message]
 #. +> devel
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1535
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:1537
 msgid "The enemy cheers as a dark mist rises from the land, engulfing you. As ghostly wisps drain away your will, you realize that your time in this land is over."
 msgstr "Непријатељ кличе док се мрачна измаглица диже над земљом, обузимајући те. Док ти сабласни снопови црпе вољу, схваташ да је твоје вр›ијеме у овој земљи истекло."
 
@@ -867,7 +906,7 @@ msgstr "Пробиј се кроз пролазе и баште, и превла
 
 #. [time]: id=underground_illum
 #. +> devel
-#: data/multiplayer/scenarios/2p_Elensefar_Courtyard.cfg:111
+#: data/multiplayer/scenarios/2p_Elensefar_Courtyard.cfg:114
 msgid "Underground"
 msgstr "Подземље"
 
@@ -1177,6 +1216,11 @@ msgstr ""
 
 #. [side]
 #. +> devel
+#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:85
+#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:86
+#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:87
+#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:88
+#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:89
 #: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:90
 #: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:91
 #: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:92
@@ -1238,11 +1282,6 @@ msgstr ""
 #: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:148
 #: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:149
 #: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:150
-#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:151
-#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:152
-#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:153
-#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:154
-#: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:155
 #, fuzzy
 #| msgid "statue"
 msgid "Statue"
@@ -1964,3 +2003,20 @@ msgstr "Проба Веснота: шетање кроз покров"
 #: data/multiplayer/scenarios/Wesbench_Shroud_Walk.cfg:10
 msgid "A wesnoth benchmark, use --no-delay --multiplayer --scenario=wesbench_shroud_walk --exit-at-end."
 msgstr "Проба перформанси, употр›ијебите: --no-delay --multiplayer --scenario=wesbench_shroud_walk --exit-at-end"
+
+#~ msgid "Single player mode — uses the reduced strength spawns."
+#~ msgstr "За једног играча — израњања смањене снаге."
+
+#~ msgid "Two player mode — uses the full strength spawns."
+#~ msgstr "За два играча — израњања пуне снаге."
+
+#~ msgid "Survive and defeat the waves of opposition."
+#~ msgstr "Преживиш ли и поразиш противничке таласе"
+
+#~ msgid "Defeat all waves"
+#~ msgstr "Поразиш ли све таласе"
+
+#, fuzzy
+#~| msgid "Lose all your team's leaders"
+#~ msgid "Lose all your team’s leaders"
+#~ msgstr "Страдају ли сви вођи тимова"
