@@ -3,14 +3,13 @@
 # This file is distributed under the same license as the Battle for Wesnoth package.
 # Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011.
 # Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>, 2010, 2011.
-#
 # Branko Kokanovic, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2011-11-08 23:50+0100\n"
-"PO-Revision-Date: 2011-09-10 14:18+0200\n"
+"PO-Revision-Date: 2011-11-09 17:28+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -25,8 +24,6 @@ msgstr ""
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:4
-#, fuzzy
-#| msgid "Compressed Saves"
 msgid "Compressed saves"
 msgstr "Компресоване позиције"
 
@@ -39,16 +36,12 @@ msgstr "Потврда брисања позиција"
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:18
-#, fuzzy
-#| msgid "Mouse Scrolling"
 msgid "Mouse scrolling"
 msgstr "Панирање мишем"
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:25
-#, fuzzy
-#| msgid "Middle-click Scrolling"
 msgid "Middle-click scrolling"
 msgstr "Панирање средњим кликом"
 
@@ -61,56 +54,44 @@ msgstr "Панирање се наставља кад миш напусти пр
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:39
-#, fuzzy
-#| msgid "Randomize time of day in begin"
 msgid "Local time of day area lighting"
-msgstr "Насумично доба дана на почетку"
+msgstr "Осветљење подручја према локалном добу дана"
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:40
 msgid "Custom lighting for local time of day areas (uses more memory)"
-msgstr ""
+msgstr "Посебно осветљење за подручја локалног доба дана (тражи више меморије)."
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:47
-#, fuzzy
-#| msgid "Show Titlescreen Animation"
 msgid "Show titlescreen animation"
 msgstr "Анимација насловног екрана"
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:54
-#, fuzzy
-#| msgid "Show Combat"
 msgid "Show combat"
 msgstr "Приказ борбе"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:61
-#, fuzzy
-#| msgid "Ping Timeout"
 msgid "Ping timeout"
 msgstr "Прековр›ијеме пинга"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:62
-#, fuzzy
-#| msgid "Number of seconds to wait for a ping reply before we time out. Disable with 0."
 msgid "Number of seconds to wait for a ping reply before timing out. Set to 0 to disable"
-msgstr "Колико секунди чекати на одзив пинга пр›ије него што прекорачи вр›ијеме. 0 искључује."
+msgstr "Колико секунди чекати на одзив пинга пр›ије него што прекорачи вр›ијеме. Задајте 0 да искључите."
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:72
-#, fuzzy
-#| msgid "Accept whisper messages from friends only"
 msgid "Accept whispers from friends only"
-msgstr "Шаптачке поруке примају се само од пријатеља"
+msgstr "Шаптања се примају само од пријатеља"
 
 #. [advanced_preference]: type=boolean
 #. +> devel
@@ -140,179 +121,175 @@ msgstr "Без обав›јештења"
 #. +> devel
 #: data/advanced_preferences.cfg:107
 msgid "Reverse time graphics"
-msgstr ""
+msgstr "Обрнута графика времена"
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:108
 msgid "Choose whether the sun moves left-to-right or right-to-left"
-msgstr ""
+msgstr "Да ли се сунце креће слева удесно или здесна улево."
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:115
 msgid "Follow unit actions"
-msgstr ""
+msgstr "Праћење радњи јединица"
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:116
 msgid "Choose whether the map view should scroll to a unit when an action or move is animated"
-msgstr ""
+msgstr "Треба ли приказ мапе да отклиза до јединице при анимацији радње или померања."
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:132
 msgid "Chat message aging"
-msgstr ""
+msgstr "Старење порука у ћаскању"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:133
-#, fuzzy
-#| msgid "Number of seconds to wait for a ping reply before we time out. Disable with 0."
 msgid "Number of minutes to wait before clearing an ingame chat message. Set to 0 to disable"
-msgstr "Колико секунди чекати на одзив пинга пр›ије него што прекорачи вр›ијеме. 0 искључује."
+msgstr "Колико минута сачекати пре него што се почисти порука ћаскања у игри. Задајте 0 да искључите."
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:143
 msgid "Use 12-hour clock format"
-msgstr ""
+msgstr "12-часовни формат сата"
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:150
 msgid "Confirm loading of saves from a different version"
-msgstr ""
+msgstr "Потврда за учитавање позиција из различитог издања"
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:157
-#, fuzzy
-#| msgid "Discover all units in help."
 msgid "Show all unit types in help"
-msgstr "Открива све јединице у помоћи."
+msgstr "Сви типови јединица приказани у помоћи"
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:158
 msgid "Show all unit types in the help (requires restart). This does not alter the list of encountered units"
-msgstr ""
+msgstr "Приказује све типове јединица у помоћи (захтева поновно покретање). Овим се не мења списак сусретнутих јединица."
 
 #. [advanced_preference]: type=boolean
 #. +> devel
 #: data/advanced_preferences.cfg:166
 msgid "Joystick support"
-msgstr ""
+msgstr "Подршка за џојстик"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:173
 msgid "Joystick: number of the scroll X-axis joystick"
-msgstr ""
+msgstr "Џојстик: број џојстика са X-осом за клизање"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:183
 msgid "Joystick: number of the scroll X-axis"
-msgstr ""
+msgstr "Џојстик: број X-осе за клизање"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:193
 msgid "Joystick: number of the scroll Y-axis joystick"
-msgstr ""
+msgstr "Џојстик: број џојстика са Y-осом за клизање"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:203
 msgid "Joystick: number of the scroll Y-axis"
-msgstr ""
+msgstr "Џојстик: број Y-осе за клизање"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:213
 msgid "Joystick: deadzone of the scrolling stick"
-msgstr ""
+msgstr "Џојстик: мртва зона палице за клизање"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:223
 msgid "Joystick: number of the cursor X-axis joystick"
-msgstr ""
+msgstr "Џојстик: број џојстика са X-осом за курсор"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:233
 msgid "Joystick: number of the cursor X-axis"
-msgstr ""
+msgstr "Џојстик: број X-осе за курсор"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:243
 msgid "Joystick: number of the cursor Y-axis joystick"
-msgstr ""
+msgstr "Џојстик: број џојстика са Y-осом за курсор"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:253
 msgid "Joystick: number of the cursor Y-axis"
-msgstr ""
+msgstr "Џојстик: број Y-осе за курсор"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:263
 msgid "Joystick: deadzone of the cursor stick"
-msgstr ""
+msgstr "Џојстик: мртва зона палице за курсор"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:273
 msgid "Joystick: number of the mouse X-axis joystick"
-msgstr ""
+msgstr "Џојстик: број џојстика са X-осом за миш"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:283
 msgid "Joystick: number of the mouse X-axis"
-msgstr ""
+msgstr "Џојстик: број X-осе за миш"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:293
 msgid "Joystick: number of the mouse Y-axis joystick"
-msgstr ""
+msgstr "Џојстик: број џојстика са Y-осом за миш"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:303
 msgid "Joystick: number of the mouse Y-axis"
-msgstr ""
+msgstr "Џојстик: број Y-осе за миш"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:313
 msgid "Joystick: deadzone of the mouse stick"
-msgstr ""
+msgstr "Џојстик: мртва зона палице за миш"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:323
 msgid "Joystick: number of the thrust axis joystick"
-msgstr ""
+msgstr "Џојстик: број џојстика са осом потиска"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:333
 msgid "Joystick: number of the thrust axis"
-msgstr ""
+msgstr "Џојстик: број осе потиска"
 
 #. [advanced_preference]: type=int
 #. +> devel
 #: data/advanced_preferences.cfg:343
 msgid "Joystick: deadzone of the thruster"
-msgstr ""
+msgstr "Џојстик: мртва зона ручке потиска"
 
 #. [ai]: id=testing_ai_default
 #. +> devel
@@ -333,155 +310,129 @@ msgstr "отрован"
 #. +> devel
 #: data/campaigns/test_campaign/_main.cfg:43
 msgid "TestCamp"
-msgstr ""
+msgstr "Пробни поход"
 
 #. [campaign_metadata]: id=TEST_CAMPAIGN_NEW_SYNTAX
 #. +> devel
 #: data/campaigns/test_campaign/_main.cfg:45
 msgid "Test campaign used to check if new campaign syntax is working."
-msgstr ""
+msgstr "Пробни поход за проверу да ли нова синтакса похода ради."
 
 #. [campaign_metadata]: id=TEST_CAMPAIGN_NEW_SYNTAX
 #. +> devel
 #: data/campaigns/test_campaign/_main.cfg:46
-#, fuzzy
-#| msgid "Easy"
 msgid "(Easy)"
-msgstr "лако"
+msgstr "(лако)"
 
 #. [campaign_metadata]: id=TEST_CAMPAIGN_NEW_SYNTAX
 #. +> devel
 #: data/campaigns/test_campaign/_main.cfg:46
 msgid "Soldier"
-msgstr ""
+msgstr "војник"
 
 #. [campaign_metadata]: id=TEST_CAMPAIGN_NEW_SYNTAX
 #. +> devel
 #: data/campaigns/test_campaign/_main.cfg:47
-#, fuzzy
-#| msgid "Normal"
 msgid "(Normal)"
-msgstr "уобичајено"
+msgstr "(нормално)"
 
 #. [campaign_metadata]: id=TEST_CAMPAIGN_NEW_SYNTAX
 #. +> devel
 #: data/campaigns/test_campaign/_main.cfg:47
 msgid "Lord"
-msgstr ""
+msgstr "господар"
 
 #. [campaign_metadata]: id=TEST_CAMPAIGN_NEW_SYNTAX
 #. +> devel
 #: data/campaigns/test_campaign/_main.cfg:48
-#, fuzzy
-#| msgid "Hard"
 msgid "(Hard)"
-msgstr "тешко"
+msgstr "(тешко)"
 
 #. [campaign_metadata]: id=TEST_CAMPAIGN_NEW_SYNTAX
 #. +> devel
 #: data/campaigns/test_campaign/_main.cfg:48
 msgid "High Lord"
-msgstr ""
+msgstr "високи господар"
 
 #. [about]
 #. +> devel
 #: data/campaigns/test_campaign/_main.cfg:52
 msgid "Test campaign test [about] entry"
-msgstr ""
+msgstr "Пробни унос [about] пробног похода"
 
 #. [scenario]: id=01_Grass
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:4
 msgid "Test campaign - first scenario (grass)"
-msgstr ""
+msgstr "Пробни поход — први сценарио (трава)"
 
 #. [side]: id=Alpha, type=Elvish Fighter
 #. [side]: id=Bravo, type=Elvish Archer
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:24
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:41
-#, fuzzy
-#| msgid "Players: "
 msgid "Players"
-msgstr "играча: "
+msgstr "Играчи"
 
 #. [side]: id=Charlie, type=Orcish Grunt
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:53
-#, fuzzy
-#| msgid "Enemy village"
 msgid "Enemies"
-msgstr "противничко село"
+msgstr "Противници"
 
 #. [label]
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:73
 msgid "Passed test color"
-msgstr ""
+msgstr "Боја успеле пробе"
 
 #. [label]
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:80
 msgid "Failed test color"
-msgstr ""
+msgstr "Боја неуспеле пробе"
 
 #. [label]
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:87
-#, fuzzy
-#| msgid "Difficulty: "
 msgid "Difficulty: Easy"
-msgstr "Тежина: "
+msgstr "Тежина: лако"
 
 #. [label]
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:90
-#, fuzzy
-#| msgid "Difficulty: "
 msgid "Difficulty: Normal"
-msgstr "Тежина: "
+msgstr "Тежина: нормално"
 
 #. [label]
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:93
-#, fuzzy
-#| msgid "Difficulty: "
 msgid "Difficulty: Hard"
-msgstr "Тежина: "
+msgstr "Тежина: тешко"
 
-# well-spelled: вигр
 #. [label]
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:100
-#, fuzzy
-#| msgctxt "addon_type"
-#| msgid "MP campaign"
 msgid "Main campaign define"
-msgstr "вигр. поход"
+msgstr "Дефиниција главног похода"
 
 #. [label]
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:111
-#, fuzzy
-#| msgid "Campaign Design"
 msgid "Extra campaign define"
-msgstr "Дизајн похода"
+msgstr "Дефиниција допунског похода"
 
 #. [label]
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:122
-#, fuzzy
-#| msgid "Multiplayer"
 msgid "Multiplayer define"
-msgstr "Вишеиграње"
+msgstr "Дефиниција вишеиграња"
 
 #. [objective]: condition=win
 #. +> devel
 #: data/campaigns/test_campaign/scenarios/01_Grass.cfg:132
-#, fuzzy
-#| msgid "Defeat enemy leader(s)"
 msgid "Defeat enemy leader"
-msgstr "Поразиш ли противничке вође"
+msgstr "Поразиш ли противничког вођа"
 
 #. [about]
 #. +> devel
@@ -534,8 +485,6 @@ msgstr "Припрема пакета"
 #. [about]
 #. +> devel
 #: data/core/about.cfg:878
-#, fuzzy
-#| msgid "Miscellaneous contributors"
 msgid "Miscellaneous Contributors"
 msgstr "Разни доприноси"
 
@@ -713,10 +662,8 @@ msgstr "Индонежански превод"
 #. [about]
 #. +> devel
 #: data/core/about.cfg:2106
-#, fuzzy
-#| msgid "Turkish Translation"
 msgid "Irish Translation"
-msgstr "Турски превод"
+msgstr "Ирски превод"
 
 #. [about]
 #. +> devel
@@ -776,10 +723,8 @@ msgstr "Норвешки превод"
 #. [about]
 #. +> devel
 #: data/core/about.cfg:2325
-#, fuzzy
-#| msgid "English (GB) Translation"
 msgid "Old English Translation"
-msgstr "Британски енглески превод"
+msgstr "Староенглески превод"
 
 #. [about]
 #. +> devel
@@ -860,12 +805,9 @@ msgstr "Валенсијски (јужнокаталонски) превод"
 msgid "Vietnamese Translation"
 msgstr "Вијетнамски превод"
 
-# well-spelled: РАЦВ
 #. [about]
 #. +> devel
 #: data/core/about.cfg:2730
-#, fuzzy
-#| msgid "RACV's Translation"
 msgid "RACV’s Translation"
 msgstr "Валенсијски (РАЦВ) превод"
 
@@ -884,10 +826,8 @@ msgstr "Тражи да се $ally_leader.name (вођ стране $ally_leader
 #. [note]
 #. +> devel
 #: data/core/macros/ai_controller.cfg:5
-#, fuzzy
-#| msgid "In many campaign scenarios, you may issue simple instructions for your computer-controlled allies using the right-click context menu."
 msgid "In this scenario, you may issue instructions to an allied side by right-clicking on a unit that belongs to it."
-msgstr "У многим сценаријима у походу, савезницима којима управља рачунар можете издавати једноставне упуте преко контекстног менија на десни клик."
+msgstr "У овом сценарију можете издавати упуте савезничкој страни, тако што кликнете десним на јединицу која јој припада."
 
 #. [overview_message_has_instructions]: speaker=narrator
 #. [overview_message_no_instructions]: speaker=narrator
@@ -943,10 +883,8 @@ msgstr "Гледај да поразиш..."
 #. [focus_on_enemy]
 #. +> devel
 #: data/core/macros/ai_controller.cfg:72
-#, fuzzy
-#| msgid "Special: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description"
 msgid "focusing on defeating $ai_controller.side_$ally_side|_current_settings.focus_on_enemy.side_description|."
-msgstr "Посебно: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description"
+msgstr "гледа да порази $ai_controller.side_$ally_side|_current_settings.focus_on_enemy.side_description|."
 
 #. [then]
 #. [else]
@@ -990,10 +928,8 @@ msgstr "Гледај да заштитиш..."
 #. [protect]
 #. +> devel
 #: data/core/macros/ai_controller.cfg:202
-#, fuzzy
-#| msgid "Special: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description"
 msgid "focusing on protecting $ai_controller.side_$ally_side|_current_settings.protect.side_description|."
-msgstr "Посебно: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description"
+msgstr "гледа да заштити $ai_controller.side_$ally_side|_current_settings.protect.side_description|."
 
 #. [option]: type=objective
 #. +> devel
@@ -1053,16 +989,12 @@ msgstr "ништа задато."
 #. [do]
 #. +> devel
 #: data/core/macros/ai_controller.cfg:644
-#, fuzzy
-#| msgid ""
-#| "Objective: $ai_controller.side_$ally_side|_current_settings.currently_doing_objective_description\n"
-#| "Behavior: $ai_controller.side_$ally_side|_current_settings.currently_doing_behaviour_description"
 msgid ""
 "Objective: $ai_controller.side_$ally_side|_current_settings.currently_doing_objective_description\n"
 "Behavior: $ai_controller.side_$ally_side|_current_settings.currently_doing_behavior_description"
 msgstr ""
 "Циљ: $ai_controller.side_$ally_side|_current_settings.currently_doing_objective_description\n"
-"Понашање: $ai_controller.side_$ally_side|_current_settings.currently_doing_behaviour_description"
+"Понашање: $ai_controller.side_$ally_side|_current_settings.currently_doing_behavior_description"
 
 #. [literal]
 #. +> devel
@@ -1162,8 +1094,6 @@ msgstr "Једино вр›иједно жеље јесте мир у чита�
 #. [option]: speaker=narrator
 #. +> devel
 #: data/core/macros/items.cfg:68
-#, fuzzy
-#| msgid "Don't make a wish."
 msgid "Don’t make a wish."
 msgstr "Не пожели ништа."
 
@@ -1199,23 +1129,17 @@ msgstr "Отров тече венама ове јединице баш у ов�
 
 #. +> devel
 #: data/core/macros/items.cfg:267
-#, fuzzy
-#| msgid "Sprinkling this water on melee weapons grants them the 'arcane' damage type until the end of the current scenario. Should $unit.name use it?"
 msgid "Sprinkling this water on melee weapons grants them the <i>arcane</i> damage type until the end of the current scenario. Should $unit.name use it?"
-msgstr "Попрскана овом водом, оружја за блиску борбу наносе ‘волшебни’ вид штете до краја текућег сценарија. Да ли да је $unit.name употреби?"
+msgstr "Попрскана овом водом, оружја за блиску борбу наносе <i>волшебни</i> вид штете до краја текућег сценарија. Да ли да је $unit.name употреби?"
 
 #. +> devel
 #: data/core/macros/items.cfg:268
-#, fuzzy
-#| msgid "Take it"
 msgctxt "holy water"
 msgid "Take it"
 msgstr "Узми"
 
 #. +> devel
 #: data/core/macros/items.cfg:269
-#, fuzzy
-#| msgid "Leave it"
 msgctxt "holy water"
 msgid "Leave it"
 msgstr "Остави"
@@ -1234,10 +1158,8 @@ msgstr "света водица"
 #. [object]
 #. +> devel
 #: data/core/macros/items.cfg:275
-#, fuzzy
-#| msgid "This water will make melee weapons have the 'arcane' damage type until the end of the current scenario."
 msgid "This water will make melee weapons have the <i>arcane</i> damage type until the end of the current scenario."
-msgstr "Ова вода дарује оружју за блиску борбу ‘волшебни’ вид штете до краја текућег сценарија."
+msgstr "Ова вода дарује оружју за блиску борбу <i>волшебни</i> вид штете до краја текућег сценарија."
 
 #. [object]: id={ID}
 #. +> devel
@@ -1317,16 +1239,12 @@ msgstr "Треба ли $unit.name да покупи трозубац?"
 
 #. +> devel
 #: data/core/macros/items.cfg:514
-#, fuzzy
-#| msgid "Leave it"
 msgctxt "storm trident"
 msgid "Leave it"
 msgstr "Остави"
 
 #. +> devel
 #: data/core/macros/items.cfg:514
-#, fuzzy
-#| msgid "Take it"
 msgctxt "storm trident"
 msgid "Take it"
 msgstr "Узми"
@@ -1353,13 +1271,11 @@ msgstr "олујни трозубац"
 #. +> devel
 #: data/core/macros/items.cfg:546
 msgid "sceptre of fire"
-msgstr ""
+msgstr "ватрено жезло"
 
 # |, no-check-spell
 #. +> devel
 #: data/core/macros/names.cfg:18
-#, fuzzy
-#| msgid "Egar,Elch,Ga'ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin Ohn,Garrutin,Gart'lo,Garushi,Gashinar,Gashol,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Gost,Grada,Græt Ihn,Grashen,Gravlan,Grag,Grelnit,Grenn Ohn,Greth,Gribbel,Gridda,Grish,Gron Ihn,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kask,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Margian,Mar'Ildian,Markan,Markinos,Mar Ohn,Marra Di'lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermad,Vertick,Vladnir"
 msgid "Egar,Elch,Ga’ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin Ohn,Garrutin,Gart’lo,Garushi,Gashinar,Gashol,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Gost,Grada,Græt Ihn,Grashen,Gravlan,Grag,Grelnit,Grenn Ohn,Greth,Gribbel,Gridda,Grish,Gron Ihn,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kask,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Margian,Mar’Ildian,Markan,Markinos,Mar Ohn,Marra Di’lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermad,Vertick,Vladnir"
 msgstr "Егар,Елх,Гаш,Гадеј Ин,Гакреј Ом,Галек,Галш,Гарадин,Гарчин,Гарк,Гарлан,Гарлин Он,Гарутин,Гартло,Гаруши,Гашинар,Гашел,Гауши,Гаустун,Гекчи,Гелка Кон,Гелкник,Гилан,Гишари,Гост,Града,Грет Ин,Грашен,Гравлан,Греј,Грелнит,Грен Он,Грец,Грибел,Грида,Гриш,Грон Их,Ка,Кан Их,Кариган,Кари Кон,Карон,Касп,Кегрид,Керат Ин,Керат Кор,Клаш,Кон Гарашеј,Краг,Крал Он,Кран Кор,Краш,Краслар,Кренли,Круген,Кун,Ма Тоа,Мал,Маргијан,Марилдијан,Маркан,Маркинос,Мар Он,Мара Дилек,Марито,Маритос,Меркуш,Меритос Гарк,Морустеј,Мур,Оматакеј,Решан,Вашит,Велник,Вералон,Верамо,Верат,Вердит,Веркон,Верлин,Вермад,Вертик,Владнир"
 
@@ -1411,16 +1327,15 @@ msgstr "Адресин,Адренван,Адрајер,Адрајерсин,Ад
 msgid "Alabrylla,Alaebrylla,Alaeniver,Alalla,Alalonna,Alaryan,Aleacla,Aleaniver,Aleara,Alearka,Alena,Alengwen,Alilonna,Alingwen,Alolla,Alolonna,Alora,Alubrylla,Aluniver,Aluryan,Alussa,Alwcla,Alwllyra,Alwlyan,Alwna,Alybrylla,Alynoic,Alyra,Alyryan,Braedda,Brassa,Bravyan,Breabrylla,Breall,Brealla,Brealonna,Breana,Brell,Brellyra,Brera,Brerka,Breryan,Bricla,Brirka,Brobrylla,Brollyra,Brona,Bronoic,Brora,Brorka,Brungwen,Bruryan,Brwra,Brycla,Brynoic,Caella,Caena,Caengwen,Caevyan,Call,Calla,Cassa,Cealonna,Cera,Ceryan,Cibrylla,Cicla,Cinoic,Cira,Cissa,Clacla,Claella,Claelyan,Claenoic,Clalla,Clallyra,Clara,Clarka,Clavyan,Cleacla,Cleall,Clealyan,Cleana,Cleanoic,Clenoic,Clibrylla,Clill,Clillyra,Clilyan,Clinoic,Clissa,Clobrylla,Clollyra,Clona,Clongwen,Clungwen,Clurka,Cluvyan,Clwdda,Clwlla,Clwvyan,Clydda,Clylla,Cora,Coryan,Cucla,Cudda,Curyan,Cwdda,Cwlonna,Cwngwen,Cwvyan,Cydda,Cylla,Cyllyra,Cylyan,Cyniver,Cyvyan,Daedda,Daelyan,Daengwen,Daenoic,Dalla,Dallyra,Dangwen,Dara,Dassa,Deanoic,Deassa,Della,Devyan,Dicla,Diniver,Dissa,Dollyra,Dullyra,Dulonna,Dwbrylla,Dwdda,Dwna,Dwnoic,Dwra,Dybrylla,Dydda,Dyssa,Elacla,Elaedda,Elaell,Elaelonna,Elaessa,Elaevyan,Elallyra,Elalonna,Elara,Elavyan,Elealla,Eleanoic,Elearka,Elenoic,Elerka,Elivyan,Elulonna,Elurka,Elwllyra,Elwlonna,Elwngwen,Elwra,Elycla,Elyllyra,Elyngwen,Elyniver,Elyrka,Gwaera,Gwaessa,Gwangwen,Gweacla,Gwedda,Gwerka,Gwicla,Gwirka,Gwobrylla,Gwoll,Gwona,Gwongwen,Gwonoic,Gworyan,Gwullyra,Gwussa,Gwwcla,Gwwna,Gwwvyan,Gwycla,Gwydda,Heldra,Jacla,Jaena,Jaerka,Jaevyan,Jalyan,Jana,Jarka,Jassa,Jeabrylla,Jealla,Jeanoic,Jeniver,Jiryan,Jissa,Joll,Jolla,Jona,Jongwen,Jonoic,Jora,Jorka,Jovyan,Judda,Jull,Julonna,Jura,Jwll,Jwlyan,Jycla,Jyniver,Jynoic,Jyrka,Jyvyan,Laeniver,Laenoic,Laeryan,Langwen,Larka,Lassa,Lealonna,Lealyan,Ledda,Lelonna,Lelyan,Lengwen,Lerka,Lessa,Lidda,Lill,Lina,Lirka,Liryan,Livyan,Locla,Lodda,Lollyra,Lolonna,Lulla,Lulyan,Lungwen,Lunoic,Luryan,Lwcla,Lwlla,Lwnoic,Lwryan,Lycla,Lylla,Lylyan,Lyna,Lynoic,Maecla,Maeniver,Mavyan,Meacla,Mealyan,Meana,Meangwen,Meanoic,Medda,Melonna,Mengwen,Meniver,Meradda,Meraecla,Meraelyan,Merall,Merallyra,Meralonna,Merana,Meranoic,Merealonna,Mereangwen,Mereaniver,Merebrylla,Merella,Merengwen,Meressa,Merilyan,Merina,Merinoic,Merissa,Merivyan,Merolla,Merolyan,Merona,Meroniver,Merubrylla,Merudda,Merurka,Merwlla,Merwnoic,Merwryan,Merydda,Merylyan,Messa,Milonna,Molyan,Moniver,Mossa,Mudda,Mullyra,Mulyan,Muryan,Mwbrylla,Mwlyan,Mwngwen,Mwnoic,Mycla,Myll,Mylla,Myra,Myvyan,Nabrylla,Naebrylla,Naecla,Naell,Nalyan,Nangwen,Nealla,Neallyra,Nealonna,Neavyan,Nera,Nessa,Ninoic,Niryan,Nivyan,Nobrylla,Nolla,Nonoic,Norka,Noryan,Nucla,Nulla,Nulyan,Nungwen,Nuvyan,Nwllyra,Nwryan,Nwvyan,Nybrylla,Nyll,Nylyan,Nyryan,Nyssa,Nyvyan,Raebrylla,Raera,Raerka,Ralonna,Rara,Rarka,Rassa,Reacla,Realla,Reana,Reangwen,Rella,Relyan,Rengwen,Rerka,Revyan,Rilonna,Rilyan,Rirka,Rora,Rucla,Ruryan,Rwdda,Rwlla,Rwllyra,Rwlonna,Rwngwen,Rybrylla,Ryna,Ryngwen,Saell,Saellyra,Saeniver,Saerka,Saessa,Sallyra,Sanoic,Sara,Sassa,Searka,Sena,Senoic,Sera,Silonna,Sira,Siryan,Sona,Sorka,Subrylla,Sull,Sulonna,Sulyan,Sura,Sussa,Swlla,Swlyan,Swngwen,Swnoic,Swvyan,Syllyra,Sylyan,Syssa,Ysacla,Ysaenoic,Ysaerka,Ysanoic,Yseacla,Ysealonna,Ysealyan,Ysedda,Ysell,Yselonna,Ysilyan,Ysinoic,Ysodda,Ysongwen,Ysonoic,Ysura,Yswniver,Ysycla,Ysylla,Ysylyan,Ysyrka,Ysyssa"
 msgstr "Алабрила,Алајебрила,Алајенивер,Алала,Алалона,Аларијан,Алејакла,Алејанивер,Алејара,Алејарка,Алена,Аленгвен,Алилона,Алингвен,Алола,Алолона,Алора,Алубрила,Алунивер,Алуријан,Алуса,Алуакла,Алулира,Алулијан,Алуна,Алибрила,Алиноик,Алира,Алиријан,Браједа,Браса,Бравијан,Брејабрила,Брејал,Брејала,Брејалона,Брејана,Брел,Брелира,Брера,Брерка,Греријан,Брикла,Брирка,Бробрила,Бролира,Брона,Броноик,Брора,Брорка,Брунгвен,Бруријан,Брура,Брикла,Бриноик,Кајела,Кајена,Кајенгвен,Кајевијан,Кал,Кала,Каса,Сејелона,Сера,Серијан,Сибрила,Сикла,Синоик,Сира,Сеса,Клакла,Клајела,Клајелијан,Клајеноик,Клала,Клалира,Клара,Кларка,Клавијан,Клејакла,Клејал,Клејалијан,Клејана,Клејаноик,Кленоик,Клибрила,Клил,Клилира,Клилијан,Клиноик,Клиса,Клобрила,Клолира,Клона,Клонгвен,Клунгвен,Клурка,Клувијан,Клуда,Клула,Клувијан,Клида,Клила,Кора,Коријан,Кукла,Куда,Куријан,Куда,Кулона,Кунгвен,Кувијан,Седа,Сила,Силира,Силијан,Синивер,Сивијан,Даједа,Дајелијан,Дајенгвен,Дајеноик,Дала,Далира,Дангвен,Дара,Даса,Дејаноик,Дејаса,Дела,Девијан,Дикла,Динивер,Диса,Долира,Дулира,Дулона,Дубрила,Дуда,Дуна,Дуноик,Дура,Дибрила,Дида,Диса,Елакла,Елаједа,Елајел,Елајелона,Елајеса,Елајевијан,Елалира,Елалона,Елара,Елавијан,Елејала,Елејаноик,Елејарка,Еленоик,Елерка,Еливијан,Елулона,Елурка,Елулира,Елулона,Елунгвен,Елура,Еликла,Елилира,Елингвен,Елинивер,Елирка,Гвајера,Гвајеса,Гвангвен,Гвејакла,Гведа,Гверка,Гвикла,Гвирка,Гвобрила,Гвол,Гвона,Гвонгвен,Гвоноик,Гворијан,Гвулира,Гвуса,Гувакла,Гвина,Гвивијан,Гвикла,Гвида,Хелдра,Жакла,Жајена,Жајерка,Жајевијан,Жалијан,Жана,Жарка,Жаса,Жејабрила,Жејала,Жејаноик,Женивер,Жиријан,Жиса,Жол,Жола,Жона,Жонгвен,Жоноик,Жора,Жорка,Жовијан,Жуда,Жул,Жулона,Жура,Жул,Жулијан,Жикла,Жинивер,Жиноик,Жирка,Живијан,Лајенивер,Лајеноик,Лајеријан,Лангвен,Ларка,Ласа,Лејалона,Лејалијан,Леда,Лелона,Лелијан,Ленгвен,Лерка,Леса,Лида,Лил,Лина,Лирка,Лиријан,Ливијан,Локла,Лода,Лолира,Лолона,Лула,Лулијан,Лунгвен,Луноик,Луријан,Луакла,Луала,Луаноик,Луаријан,Ликла,Лила,Лилијан,Лина,Линоик,Мајекла,Мајенивер,Мавијан,Мејакла,Мејлијан,Мејана,Мејангвен,Мејаноик,Меда,Мелона,Менгвен,Менивер,Мерада,Мерајекла,Мерајелијан,Мерал,Мералира,Мералона,Мерана,Мераноик,Мерејалона,Мерјангвен,Мерејанивер,Меребрила,Мерела,Меренгвен,Мереса,Мерилијан,Мерина,Мерионик,Мериса,Меривијан,Мерола,Меролијан,Мерона,Меронивер,Мерубрила,Меруда,Мерурка,Меруала,Меруаноик,Меруаријан,Мерида,Мерилијан,Меса,Милона,Молијан,Монивер,Моса,Меда,Мулира,Мулијан,Муријан,Муабрила,Муалијан,Муангвен,Муаноик,Микла,Мил,Мила,Мура,Мивијан,Набрила,Нејабрила,Најекла,Најел,Налијан,Нангвен,Нејала,Нејалира,Нејалона,Нејавијан,Нера,Неса,Ниноик,Ниријан,Нивијан,Нобрила,Нола,Ноноик,Норка,Норијан,Нукла,Нола,Нулијан,Нунгвен,Нувијан,Нуалира,Нуаријан,Нуавијан,Нибрила,Нил,Нилијан,Ниријан,Нисава,Нивијан,Рајебрила,Рајера,Рајерка,Ралона,Рара,Рарка,Раса,Рејакла,Рејала,Рејана,Рејангвен,Рела,Релијан,Ренгвен,Рерка,Ревијан,Рилона,Рилијан,Рирка,Рора,Рукла,Руријан,Руада,Руала,Руалира,Руалона,Руангвен,Рибрила,Рина,Рингвен,Сајел,Сајелира,Сајенивер,Сајерка,Сајеса,Салира,Саноик,Сара,Саса,Сајерка,Сена,Сеноик,Сера,Силона,Сира,Сиријан,Сона,Сорка,Субрила,Сул,Сулона,Сулијан,Сура,Суса,Суала,Суалијан,Суангвен,Суаноик,Суавијан,Силира,Силијан,Сеса,Исакла,Исајеноик,Исајерка,Исаноик,Исајекла,Исејалона,Исејалијан,Иседа,Исел,Иселона,Исилијан,Исионик,Исода,Исонгвен,Исоноик,Исура,Исуанивер,Исикла,Исила,Исилијан,Исирка,Исаса"
 
+# |, no-check-spell
 #. +> devel
 #: data/core/macros/names.cfg:43
 msgid "Aban,Abbas,Abbud,Abdul-ʿAdl,Abdul-Ahad,Abdul-Alim,Abdul-Aliyy,Abdul-Azim,Abdul-Aziz,Abdul-Badi,Abdul-Baʿith,Abdul-Baqi,Abdul-Bari,Abdul-Barr,Abdul-Basir,Abdul-Basit,Abdul-Fattah,Abdul-Ghaffar,Abdul-Ghafur,Abdul-Ghani,Abdul-Hadi,Abdul-Hafiz,Abdul-Hakam,Abdul-Hakim,Abdul-Halim,Abdul-Hamid,Abdul-Haqq,Abdul-Hasib,Abdul-Hayy,Abdul-Jabbar,Abdul-Jalil,Abdul-Karim,Abdul-Khabir,Abdul-Khaliq,Abdul-Latif,Abdul-Malik,Abdul-Majid,Abdul-Matin,Abdul-Mubdiʾ,Abdul-Mughni,Abdul-Muhaimin,Abdul-Muhsi,Abdul-Muhyi,Abdul-Muʿid,Abdul-Muʿizz,Abdul-Mujib,Abdul-Mumin,Abdul-Muqaddim,Abdul-Muqtadir,Abdul-Musawwir,Abdul-Mutaʿal,Abdul-Nafi,Abdul-Nasser,Abdul-Nasir,Abdul-Nur,Abdul-Qadir,Abdul-Qahhar,Abdul-Qawi,Abdul-Qayyum,Abdul-Quddus,Abdul-Rafi,Abdul-Rahim,Abdul-Rahman,Abdul-Rashid,Abdul-Raʿuf,Abdul-Razzaq,Abdul-Shakur,Abdul-Tawwab,Abdul-Wadud,Abdul-Wahhab,Abdul-Wahid,Abdul-Wajid,Abdul-Wakil,Abdul-Wali,Abdul-Waliy,Abdul-Warith,Abdul-Zahir,Abdullah,ʿAbid,ʿAbidin,Abu Bakr,Aby al-Khayr,Adil,Adham,Adib,ʿAdli,ʿAdnan,ʿAfif,Ahmad,ʿAjib,ʿAkif,Akil,Akram,Alaʾ,Alaʾ al-Din,Alʿ Abbas,Aladdin,al-Bara,al-Hakam,al-Harith,Alhasan,Alhusain,Ali,Alim,Almahdi,al-Safi,Altaf,Altair,al-Tayyib,al-Tijani,al-Tufail,Amid,ʿAmid,Amin,Amir,ʿAmir,Amjad,ʿAmmar,ʿAmro,Anas,Anis,ʿAntarah,Anwar,ʿAqil,Arfan,Arif,ʿArif,Asad,Asʿad,Asadel,Ashraf,Asif,ʿAsim,Aswad,Ataʿ,Ataʿ Allah,Ataʿ al-Rahman,Athil,Athir,ʿAtif,ʿAwad,ʿAwf,Aws,Awwab,Ayham,Ayman,Ayser,Ayyub,Aza,ʿAzab,Azhar,Azim,ʿAziz,ʿAzzam,Badi,Badi al-Zaman,Badr,Badr al-Din,Badri,Bahaʿ,Bahiyy al-Din,Bahij,Bahir,Bakr,Bakri,Baligh,Bandar,Barakah,Barir,Bashshar,Basil,Basim,Bassam,Bayezid,Bayhas,Bilal,Bishr,Boulos,Budail,Burhan,Bushr,Butrus,Dabir,Dani,Darwish,Daʿud,Dhakir,Dhakiy,Dhakwan,Dhul Fiqar,Dirar,Diya,Diya al-Din,Duqaq,Fadi,Fadil,Fadl,Fadl Allah,Fahd,Fahad,Fahmi,Faisal,Faʿiz,Fakhir,Fakhr al-Din,Fakhri,Fakih,Falah,Falih,Faraj,Farhan,Farid,Fariq,Fariq,Faris,Faruq,Fath,Fathi,Fatih,Fatin,Fawwaz,Fawzan,Fawzi,Fayyad,Ferran,Fida,Fikri,Firas,Fuʿad,Fudail,Gamal,Ghayth,Ghali,Ghalib,Ghanim,Ghassan,Ghawth,Ghazwan,Ghiyath,Habbab,Habib,Haddad,Hadi,Hafiz,Hakem,Hakim,Halim,Hamal,Hamas,Hamdan,Hamdi,Hamid,Hamim,Hamzah,Hana,Hanaʾi,Hanbal,Hani,Hanif,Hannad,Haris,Harith,Harun,Hashim,Hassan,Hatim,Haydar,Haytham,Hayyan,Hazim,Hilal,Hilmi,Hisham,Hud,Hudad,Hudhafah,Hudhayfah,Humam,Hussein,Husam,Husam al-Din,Ibrahim,ʿId,Idris,Ihsan,Ihtisham,ʿIkrimah,Ilias,ʿImad,Imad al-Din,Imran,Imtiyaz,Inʿam,Iqbal,ʿIrfan,ʿIsa,ʿIsam,Ishaq,Ismaʿil,Iyad,Iyas,Izz al-Din,Jabbar,Jabr,Jabir,Jad Allah,Jaʿfar,Jal,Jalal,Jalal al-Din,Jalil,Jamal,Jamal al-Din,Jamil,Jarir,Jasim,Jaul,Jaun,Jawad,Jawdah,Jawhar,Jibran,Jibril,Jubair,Jul,Jumah,Junayd,Juwain,Kadar,Kadin,Kadir,Kahil,Kaliq,Kamal,Kamil,Karam,Kardal,Karif,Karim,Kasib,Kasim,Katib,Kazim,Khalaf,Khaldun,Khalid,Khalil,Khalil al-Allah,Khalis,Khatib,Khair al-Din,Khairi,Khoury,Khulus,Khuzaymah,Kutaiba,Labib,Lablab,Latif,Layth,LuʿayLubayd,Luqman,Lut,Lutfi,Maʿd,Madani,Mahbub,Mahdi,Mahfuz,Mahir,Mahjub,Mahmud,Mahrus,Maimun,Majd,Majdy,Majd al-Din,Majid,Makin,Malik,Mamduh,Maʿmun,Maʿin,Mandhur,Mansur,Marghub,Marid,Maʿruf,Marwan,Marzuq,Mashʿal,Mashhur,Masrur,Masʿud,Masun,Maysarah,Mazhar,Mazin,Mehmed,Mihran,Mihyar,Mikaʾil,Miqdad,Misbah,Mishʿal,Miyaz,Muʾadh,Muʾawiyah,Muʾayyad,Mubarak,Mubin,Mudar,Muddaththir,Mufid,Muflih,Muhab,Muhayr,Muhammad,Muhanna,Muhannad,Muhib,Muhibb,Muhsin,Muhtadi,Muhyi al-Din,Muʿin,Muʿizz,Mujab,Mujahid,Mukarram,Mukhlis,Mukhtar,Mulham,Mulhim,Muʿmmar,Muʿmin,Mumtaz,Munahid,Mundhir,Munib,Munif,Munir,Muʿnis,Munjid,Munsif,Muntasir,Murad,Murid,Murshid,Murtada,Musa,Musʿab,Musaʿid,Mushtaq,Muslih,Muslim,Mutafa,Mutaʾ,Muʿtasim,Mutawalli,Muʿtazz,Muthanna,Muti,Muwaffaq,Muyassar,Muzaffar,Mussammil,Nabhan,Nabighah,Nabih,Nabil,Nadhir,Nadim,Nadir,Nafiʾ,Nahid,Naʾil,Naʾim,Naji,Najib,Najid,Najjar,Najm al-Din,Naʿaman,Namir,Nashʿah,Nashʿat,Nashwan,Nasib,Nasih,Nasim,Nasir,Nasir al-Din,Nasr,Nasri,Nasuh,Nawaf,Nawfal,Nayif,Nazih,Nazim,Nazmi,Nibras,Nidal,Nijad,Nimr,Nizar,Nuʿaym,Nuh,Nuhayd,Numair,Nuʿman,Nur al-Din,Nuri,Nusrah,Nusrat,Omar,Orhan,Osman,Qasim,Qays,Qudamah,Qusay,Qatadah,Qutaybah,Qutb,Qutuz,Rabah,Rabi,Radi,Rafi,Rafid,Rafiq,Raghib,Rahman,Raʿid,Raʿif,Rais,Rajaa,Rajab,Raji,Rajih,Rakin,Rami,Ramih,Ramiz,Ramzi,Rani,Rashad,Rashid,Rasil,Rasin,Rasmi,Rasul,Ratib,Raʿuf,Rayhan,Rayyan,Razin,Ridha,Ridwan,Rihab,Riyad,Rizq,Ruhi,Rushd,Rushdi,Ruwayd,Saad,Saʿadah,Sab,Sabih,Sabir,Sabri,Saʿd,Saʿd al-Din,Sadad,Sadid,Sadiq,Saʿdun,Saʿid,Safi,Safiy,Safiy al-Din,Safuh,Safwah,Safwat,Safwan,Sahib,Sahir,Sahl,Saʾib,Saif,Saif al-Din,Sajid,Sajjad,Sakhr,Salah,Salah al-Din,Salamah,Salih,Salim,Salman,Sami,Samih,Samir,Samman,Saqr,Sariyah,Sati,Saud,Sayyid,Shaʿban,Shadi,Shadin,Shafi,Shafiq,Shahid,Shahin,Shahir,Shakib,Shakir,Shams al-Din,Shamal,Shamil,Shamim,Sharaf,Sharif,Shawqi,Shihab,Shihab al-Din,Shihad,Shuʿayb,Shukri,Shumayl,Siddiq,Sinan,Siraj,Siraj al-Din,Sofian,Subhi,Sufyan,Suhayb,Suhayl,Suhaym,Sulaiman,Sumrah,Suraqah,Suʿud,Tahir,Tahsin,Taym Allah,Taj,Taj al-Din,Talal,Talib,Tamim,Tamir,Tamam,Tammam,Taqiy,Tarif,Tariq,Taslim,Tawfiq,Tawhid,Taymullah,Taysir,Tayyib,Thabit,Thamir,Thaqib,Thawab,Thawban,ʿUbaidah,Ubaid,Ubayy,ʿUdayl,ʿUday,ʿUmar,Umarah,Umair,ʾaUrwah,Usaym,Usama,ʿUtbah,Uthal,Uthman,Waddah,Wadi,Wadid,Wafiq,Wahab,Wahhab,Wahid,Waʾil,Wajdi,Wajid,Wajih,Wakil,Walid,Walif,Waliy Allah,Waliy al-Din,Waqar,Waqqas,Ward,Wasif,Wasil,Wasim,Wazir,Yahya,Yaman,Yaʿqub,Yasar,Yasin,Yasir,Yazan,Yazid,Yunus,Yushua,Yusri,Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,Ziyad,Zubayr,Zuhayr"
-msgstr ""
+msgstr "Абан,Абас,Абуд,Абдул-Адл,Абдул-Ахад,Абдул-Алим,Абдул-Алиј,Абдул-Азим,Абдул-Азиз,Абдул-Бади,Абдул-Бајит,Абдул-Баки,Абдул-Бари,Абдул-Бар,Абдул-Басир,Абдул-Басит,Абдул-Фатах,Абдул-Гафар,Абдул-Гафур,Абдул-Гани,Абдул-Хади,Абдул-Хафиз,Абдул-Хакам,Абдул-Хаким,Абдул-Халим,Абдул-Хамид,Абдул-Хак,Абдул-Хасиб,Абдул-Хај,Абдул-Џабар,Абдул-Џалил,Абдул-Карим,Абдул-Кабир,Абдул-Калик,Абдул-Латиф,Абдул-Малик,Абдул-Маџид,Абдул-Матин,Абдул-Мудбид,Абдул-Мугни,Абдул-Мухајмин,Абдул-Муши,Абдул-Мухиј,Абдул-Мујид,Абдул-Мујиз,Абдул-Муџиб,Абдул-Мумин,Абдул-Мугадим,Абдул-Муктадир,Абдул-Мусавир,Абдул-Мутал,Абдул-Нафи,Абдул-Насер,Абдул-Насир,Абдул-Нур,Абдул-Кадир,Абдул-Кахар,Абдул-Кави,Абдул-Кајум,Абдул-Кудус,Абдул-Рафи,Абдул-Рахим,Абдул-Рахман,Абдул-Рашид,Абдул-Рауф,Абдул-Разак,Абдул-Шакур,Абдул-Таваб,Абдул-Вадуд,Абдул-Вахаб,Абдул-Вахид,Абдул-Ваџид,Абдул-Вакил,Абдул-Вали,Абдул-Валиј,Абдул-Варит,Абдул-Захир,Абдулах,Абид,Абидин,Абу Бакр,Абу ел Кајир,Адил,Адам,Адиб,Адли,Аднан,Афиф,Ахмад,Аџиб,Акиф,Акил,Акрам,Ала,Ал ел Дин,Ел Абас,Аладин,Ел Бара,Еl Хакам,Ел Харит,Алхасан,Алхусеин,Али,Алим,Алмади,Ел Сафи,Алтаф,Алтајир,Ел Тајиб,Ел Тијани,Ел Туфајил,Амид,Амид,Амин,Амир,Амир,Амџад,Амар,Амро,Анас,Анис,Антарах,Анвар,Акил,Арфан,Ариф,Ариф,Асад,Асад,Асадел,Ашраф,Асиф,Асим,Асвад,Ата,Ата Ала,Ата ел Рахман,Атил,Атир,Атиф,Авад,Ав,Авс,Аваб,Ајхам,Ајман,Ајсер,Ајуб,Аза,Азаб,Азхар,Азим,Азиз,Азам,Бади,Бади ел Заман,Бадр,Бадр ел Дин,Бадри,Баха,Бахиј ел Дин,Бахиј,Бахир,Бакр,Бакри,Балиг,Бандар,Барак,Барир,Башар,Басил,Басим,Басам,Бајазит,Бејхас,Билал,Бишр,Булос,Будајил,Бурхан,Бушр,Бутрус,Дабир,Дани,Дарвиш,Дауд,Дакир,Дакиј,Дакван,Дул Фикар,Дирар,Дија,Дија ел Дин,Дукак,Фади,Фадил,Фадл,Фадл Алах,Фахд,Фахад,Фахми,Фејсал,Фајиз,Факир,Факр ел Дин,Факри,Факих,Фалах,Фалих,Фараџ,Фархан,Фарид,Фарик,Фарик,Фарис,Фарук,Фат,Фати,Фатих,Фатин,Фаваз,Фавзан,Фавзи,Фајад,Феран,Фида,Фикри,Фирас,Фујад,Фудајил,Гамал,Гајт,Гали,Галиб,Ганим,Гасан,Гавт,Газван,Гиајт,Хабаб,Хабиб,Хадад,Хади,Хафиз,Хакем,Хаким,Халим,Хамал,Хамас,Хамдан,Хамди,Хамид,Хамим,Хамзах,Хана,Ханаји,Ханбал,Хани,Ханиф,Ханад,Харис,Харит,Харун,Хашим,Хасан,Хатим,Хајдар,Хајтам,Хајан,Хазим,Хилал,Хилми,Хишам,Худ,Худад,Худхафах,Худхајфах,Хумам,Хусеин,Хусам,Хусам ел Дин,Ибрахим,Ид,Идрис,Ихсан,Ихтишам,Икримах,Илијас,Имад,Имад ел Дин,Имран,Имтијаз,Инам,Игбал,Ирфан,Иса,Исам,Ишак,Исмајил,Ијад,Ијас,Из ел Дин,Џабар,Џабр,Џабир,Џад Алах,Џафар,Џал,Џалал,Џалал ел Дин,Џалил,Џамал,Џамал ел Дин,Џамил,Џарир,Џасим,Џаул,Џаун,Џавад,Џавдах,Џавхар,Џибран,Џибрил,Џубајир,Џул,Џумх,Џунајид,Џувајин,Кадар,Кадин,Кадир,Кахил,Калик,Камал,Камил,Карам,Кардал,Кариф,Карим,Касиб,Касим,Катиб,Казим,Калаф,Калдун,Калид,Калил,Калил ел Алах,Калис,Катиб,Кајир ел Дин,Кајири,Кори,Кулус,Кузајмах,Кутајба,Лабиб,Лаблаб,Латиф,Лајит,Луај-Лубајд,Лукман,Лут,Луфти,Мад,Мадани,Махбуб,Махди,Махфуз,Махир,Махџуб,Махмуд,Махрус,Мејенум,Маџд,Маџди,Маџд ел Дин,Маџид,Макин,Малик,Мамдух,Мемун,Мајин,Мандур,Мансур,Маргуб,Марид,Маруф,Марван,Марзук,Машал,Масшур,Масрур,Масуд,Масун,Мајсарах,Мазхар,Мазин,Мехмед,Михран,Михјар,Мекајил,Мигдад,Мизбах,Мишал,Мијаз,Муад,Муавијах,Муајид,Мубарак,Мубин,Мудар,Мудатир,Муфид,Муфлих,Мухаб,Мухајр,Мухамед,Мухана,Муханад,Мухиб,Мухиб,Мухсин,Мухтади,Мухји ел Дин,Мујин,Мујиз,Муџаб,Муџахид,Макарам,Муклис,Муктар,Мулхам,Мулхим,Мумар,Мумин,Мумтаз,Мунахид,Мудир,Муниб,Муниф,Мунир,Мунис,Мунџид,Мунсиф,Мунтасир,Мурат,Мурид,Муршид,Муртада,Муса,Мусаб,Мусајид,Муштак,Муслих,Муслим,Мутафа,Мута,Мутасим,Мутавали,Мутаз,Мутана,Мути,Мувфак,Мујасир,Музараф,Мусамил,Набхан,Набигах,Набих,Набил,Надир,Надим,Надир,Нафи,Нахид,Најил,Најим,Наји,Наџиб,Наџид,Наџар,Наџм ел Дин,Наман,Намир,Нашах,Нашат,Нашван,Насиб,Насих,Насим,Насир,Насир ел Дин,Наср,Насри,Насух,Наваф,Навфал,Најиф,Назих,Назим,Назми,Нибрас,Нидал,Ниџад,Нимр,Низар,Нуајм,Нух,Нухајд,Нумајир,Нуман,Нур ел Дин,Нури,Нусрах,Нусрат,Омар,Орхан,Осман,Касим,Кајс,Кудамах,Кусај,Катадах,Кутајбах,Кутб,Кутуз,Рабах,Раби,Ради,Рафи,Рафид,Рафик,Рагиб,Рахман,Рајид,Рајиф,Рајис,Раџа,Раџаб,Раџи,Раџих,Ракин,Рами,Рамих,Рамиз,Рамзи,Рани,Рашад,Рашид,Расил,Расин,Расми,Расул,Ратиб,Рауф,Рајхан,Рајан,Разин,Рида,Ридван,Рихаб,Ријад,Риск,Рухи,Ружд,Ружди,Рувајд,Сад,Садах,Саб,Сабих,Сабир,Сабри,Сад,Сад ел Дин,Садад,Садид,Садик,Садун,Сајид,Сафи,Сафиј,Сафиј ел Дин,Сафух,Сафвах,Сафват,Сафван,Сахиб,Сахир,Сал,Сајиб,Сајиф,Сајиф ел Дин,Саџид,Саџад,Сакр,Салах,Салах ел Дин,Саламах,Салих,Салим,Салман,Сами,Самих,Самир,Саман,Сакр,Саријах,Сати,Сауд,Сајид,Шабан,Шади,Шадин,Шафи,Шафик,Шахид,Шахин,Шахир,Шакиб,Шакир,Шам ел Дин,Шамал,Шамил,Шамим,Шараф,Шариф,Шавки,Шихаб,Шихаб ел Дин,Шихаб,Шуајб,Шукри,Шумајил,Сидик,Синан,Сираџ,Сираџ ел Дин,Софијан,Суби,Суфјан,Сухајиб,Сухајил,Сухајим,Сулејман,Сумрах,Сурак,Суд,Тахир,Тахсин,Тајм Алах,Таџ,Таџ ел Дин,Талал,Талиб,Тамим,Тамир,Тамам,Тамам,Такиј,Тариф,Тарик,Таслим,Тавфик,Тавхид,Тајмулах,Тајсир,Тајиб,Табит,Тамир,Такиб,Таваб,Тавбан,Убајдах,Убајид,Убај,Удајил,Удај,Умар,Умарах,Умајир,Урвах,Усајим,Усама,Утбах,Утал,Утман,Вадах,Вади,Вадид,Вафик,Вахаб,Вахаб,Вахид,Вајил,Ваџди,Ваџид,Ваџих,Вакил,Валид,Валиф,Валиј Алах,Валиј ел Дин,Вакар,Вакас,Вард,Васиф,Васил,Васим,Вазир,Јахја,Јаман,Јакуб,Јасар,Јасин,Јасир,Јазан,Јазид,Јунус,Јушуа,Јусри,Јусуф,Зафар,Зафир,Захид,Захир,Зајд,Зајим,Зајн,Зариф,Закарија,Заки,Закван,Зијад,Зубајир,Зухајир"
 
 # |, no-check-spell
 #. +> devel
 #: data/core/macros/names.cfg:47
-#, fuzzy
-#| msgid "Amprixta,Anexir,Anitraz,Arix,Axiz,Bzz'Kza,Chamil,Cleezi,Clezz,Fazzis,Fizztrax,Flixta,Flizzil,Frikes,Frizzle,Hasz,Heffez,Hertrazzir,Hesz,Hezzir,Hezzis,Hix,Inexis,Irix,Jezzix,Jizz,Kaliez,Kepzs,Kernix,Kersezz,Kertrasz,Kerx,Kerxenix,Kezz,Klexaz,Klezyx,Krarax,Krenarex,Krex,Krinex,Krisess,Laizix,Lazki,Lixeez,Merax,Mexiss,Moxanzz,Naxisz,Nix,Pekzs,Plaxis,Plesix,Presch,Sailik,Salanix,Salik,Sandix,Saprazz,Satras,Skalix,Skandix,Skazix,Skeely,Skeezix,Sklizle,Skrez,Slizilx,Sprizz,Ssexur,Ssizer,Ssorix,Sszasz,Sterizz,Talerez,Tarex,Tarnix,Tezzaz,Tirasch,Tirax,Tirix,Trezz,Venezz,Vriss,Waks,Xaffrasz,Xartrez,Xasz,Xaztex,Xerxix,Xirasz,Xirr,Xirtras,Xirtrez,Xirz,Zandler,Zedrix,Zilrix,Zizzasz,Zslap,Zzalkz,Zzupde"
 msgid "Amprixta,Anexir,Anitraz,Arix,Axiz,Bzz’Kza,Chamil,Cleezi,Clezz,Fazzis,Fizztrax,Flixta,Flizzil,Frikes,Frizzle,Hasz,Heffez,Hertrazzir,Hesz,Hezzir,Hezzis,Hix,Inexis,Irix,Jezzix,Jizz,Kaliez,Kepzs,Kernix,Kersezz,Kertrasz,Kerx,Kerxenix,Kezz,Klexaz,Klezyx,Krarax,Krenarex,Krex,Krinex,Krisess,Laizix,Lazki,Lixeez,Merax,Mexiss,Moxanzz,Naxisz,Nix,Pekzs,Plaxis,Plesix,Presch,Sailik,Salanix,Salik,Sandix,Saprazz,Satras,Skalix,Skandix,Skazix,Skeely,Skeezix,Sklizle,Skrez,Slizilx,Sprizz,Ssexur,Ssizer,Ssorix,Sszasz,Sterizz,Talerez,Tarex,Tarnix,Tezzaz,Tirasch,Tirax,Tirix,Trezz,Venezz,Vriss,Waks,Xaffrasz,Xartrez,Xasz,Xaztex,Xerxix,Xirasz,Xirr,Xirtras,Xirtrez,Xirz,Zandler,Zedrix,Zilrix,Zizzasz,Zslap,Zzalkz,Zzupde"
 msgstr "Амприкста,Анексир,Анитраз,Арикс,Аксиз,Бзаказа,Камил,Клези,Клез,Фазис,Фистракс,Фликста,Флизил,Фрикес,Фризл,Хаз,Хефез,Хертразир,Хез,Хезир,Хезис,Хикс,Инексис,Ирикс,Језикс,Јиз,Калијез,Кепс,Керникс,Керсез,Кертраз,Керкс,Керксеникс,Кез,Клексаз,Клезикс,Краракс,Кренарекс,Крекс,Кринекс,Крисес,Лајзикс,Ласки,Ликсез,Меракс,Мексис,Моханз,Наксиз,Никс,Пекс,Плаксис,Плесикс,Пресх,Сајлик,Селаникс,Салик,Сандикс,Сапраз,Сатрас,Скаликс,Скандикс,Сказикс,Скели,Скезикс,Склизл,Скрез,Слизликс,Сприз,Сексур,Сизер,Сорикс,Саз,Стериз,Талерез,Тарекс,Тарникс,Тезаз,Тирасх,Тиракс,Тирикс,Трез,Венез,Врис,Вакс,Ксафраз,Ксартрез,Ксаз,Ксастекс,Ксерксикс,Ксираз,Ксир,Ксиртраз,Ксиртрез,Ксирз,Зандлер,Зедрикс,Зилрикс,Зизаз,Злап,Залкс,Зупде"
 
@@ -1481,10 +1396,8 @@ msgstr "Бал,Кам,Корн,Ерл,Ел,Фокс,Френ,Гел,Хел,Хе�
 #. [objective]: condition=lose
 #. +> devel
 #: data/core/macros/objective-utils.cfg:7
-#, fuzzy
-#| msgid "Turns: "
 msgid "Turns run out"
-msgstr "потеза: "
+msgstr "Истекну ли потези"
 
 #. +> devel
 #: data/core/macros/objective-utils.cfg:14 data/lua/wml/objectives.lua:114
@@ -1503,10 +1416,8 @@ msgstr "<small>(бонус за рани завршетак)</small>"
 
 #. +> devel
 #: data/core/macros/objective-utils.cfg:25
-#, fuzzy
-#| msgid "Early finish bonus."
 msgid "(early finish bonus)"
-msgstr "Бонус за рани завршетак."
+msgstr "(бонус за рани завршетак)"
 
 #. +> devel
 #: data/core/macros/objective-utils.cfg:29 data/lua/wml/objectives.lua:124
@@ -1547,18 +1458,14 @@ msgstr "Алтернативни циљ:"
 
 #. +> devel
 #: data/core/macros/objective-utils.cfg:52
-#, fuzzy
-#| msgid "Alternative objective:"
 msgid "Bonus objective:"
-msgstr "Алтернативни циљ:"
+msgstr "Бонус циљ:"
 
 #. [note]: description=<b>
 #. +> devel
 #: data/core/macros/objective-utils.cfg:74
-#, fuzzy
-#| msgid "Choose next scenario"
 msgid "This is the last scenario."
-msgstr "Избор наредног сценарија."
+msgstr "Ово је последњи сценарио."
 
 #. [message]: speaker=narrator
 #. +> devel
@@ -1677,7 +1584,7 @@ msgstr ""
 "Законите јединице боље се боре дању, а лошије ноћу.\n"
 "\n"
 "дању: +25% штете\n"
-"ноћу: -25% штете"
+"ноћу: –25% штете"
 
 #. [language]
 #. +> devel
@@ -1696,42 +1603,32 @@ msgid ""
 msgstr ""
 "Хаотичне јединице боље се боре ноћу, а лошије дању.\n"
 "\n"
-"дању: -25% штете\n"
+"дању: –25% штете\n"
 "ноћу: +25% штете"
 
 #. [language]
 #. +> devel
 #: data/english.cfg:20
-#, fuzzy
-#| msgid ""
-#| "Lawful units fight better during the day, and worse at night.\n"
-#| "\n"
-#| "Day: +25% Damage\n"
-#| "Night: −25% Damage"
 msgid ""
 "Liminal units only reach their full strength during twilight.\n"
 "\n"
 "Day: −25% Damage\n"
 "Night: −25% Damage"
 msgstr ""
-"Законите јединице боље се боре дању, а лошије ноћу.\n"
+"Двојствене јединице достижу своју пуну снагу тек око сумрака.\n"
 "\n"
-"дању: +25% штете\n"
-"ноћу: -25% штете"
+"дању: –25% штете\n"
+"ноћу: –25% штете"
 
 #. [language]
 #. +> devel
 #: data/english.cfg:23
-#, fuzzy
-#| msgid "$name's Bridge,$name's Crossing"
 msgid "$name|’s Bridge,$name|’s Crossing"
 msgstr "$name|ски мост,$name|ски прелаз"
 
 #. [language]
 #. +> devel
 #: data/english.cfg:24
-#, fuzzy
-#| msgid "$name's Highway,$name's Pass,Path of $name"
 msgid "$name|’s Highway,$name|’s Pass,Path of $name"
 msgstr "$name|ски друм,$name|ски проход,$name|ски пут"
 
@@ -1745,8 +1642,6 @@ msgstr "$name|ина,$name|ава,$name|ица"
 #. [language]
 #. +> devel
 #: data/english.cfg:26
-#, fuzzy
-#| msgid "$name Forest,$name's Forest"
 msgid "$name Forest,$name|’s Forest"
 msgstr "$name|ска шума,$name|ска гора"
 
@@ -1760,16 +1655,12 @@ msgstr "$name-језеро"
 #. [language]
 #. +> devel
 #: data/english.cfg:28
-#, fuzzy
-#| msgid "$name's Peak,Mount $name"
 msgid "$name|’s Peak,Mount $name"
 msgstr "$name|ски врх,$name|ска планина,$name|ник,$name|ај"
 
 #. [language]
 #. +> devel
 #: data/english.cfg:29
-#, fuzzy
-#| msgid "$name's Swamp,$name|marsh,$name|fen"
 msgid "$name|’s Swamp,$name|marsh,$name|fen"
 msgstr "$name|ска мочвара,$name|ска бара,$name|ска мртваја,$name|ски плав"
 
@@ -1840,8 +1731,6 @@ msgstr "$name|ем,$name|бери,$name|тон,$name|,Мон $name|,$name|ска
 #. [language]
 #. +> devel
 #: data/english.cfg:39
-#, fuzzy
-#| msgid "$road's Rest,$road's Waypoint,$road|bury,$road|ham,$name|bury,$name|ham"
 msgid "$road|’s Rest,$road|’s Waypoint,$road|bury,$road|ham,$name|bury,$name|ham"
 msgstr "$road|ски пут,$road|ска тачка,$road|бери,$road|ем,$name|бери,$name|ем"
 
@@ -1915,43 +1804,33 @@ msgstr "Допунски сервер Веснота"
 #. [fonts]
 #. +> devel
 #: data/hardwired/fonts.cfg:7
-#, fuzzy
-#| msgid "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc"
 msgid "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc,Junicode-Regular.ttf"
-msgstr "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc"
+msgstr "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc,Junicode-Regular.ttf"
 
 #. [fonts]
 #. +> devel
 #: data/hardwired/fonts.cfg:8
-#, fuzzy
-#| msgid "DejaVu Sans,Andagii,WenQuanYi Zen Hei"
 msgid "DejaVu Sans,Andagii,WenQuanYi Zen Hei,Junicode"
-msgstr "DejaVu Sans,Andagii,WenQuanYi Zen Hei"
+msgstr "DejaVu Sans,Andagii,WenQuanYi Zen Hei,Junicode"
 
 # >> Great Mage Delfador
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:4
-#, fuzzy
-#| msgid "Don't neglect to earn your leader experience! You need to keep him safe, but if you coddle him too much he may be at too low a level to survive future battles."
 msgid "Don’t neglect to earn your leader experience! You need to keep him safe, but if you coddle him too much he may be too weak to survive future battles."
-msgstr "Не занемари прибављање искуства своме вођу! Мораш га чувати од зла, али ако га превише мазиш, може остати прениског нивоа да би прежив‹ио будуће бојеве."
+msgstr "Не занемари прибављање искуства своме вођу! Мораш га чувати од зла, али ако га превише мазиш, може остати преслаб да би прежив‹ио будуће бојеве."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:5 data/hardwired/tips.cfg:137
-#, fuzzy
-#| msgid "- Great Mage Delfador, 516YW"
 msgid "<i>― Great Mage Delfador, 516YW</i>"
-msgstr "— велики маг Делфадор, 516.гв."
+msgstr "<i>— велики маг Делфадор, 516. гв.</i>"
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:8
-#, fuzzy
-#| msgid "In the 'Actions' menu, you can select 'Show Enemy Moves' to highlight all possible hexes your adversary can actually move to (assuming your units stay where they are). Use this to make sure the enemy can't reach your weak or injured units on his next turn."
 msgid "In the <b>Actions</b> menu, you can select <b>Show Enemy Moves</b> to highlight all the hexes your adversary can move to (assuming your units stay where they are). Use this to make sure the enemy can’t reach your weak or injured units on his next turn."
-msgstr "Из менија „~%/Actions/“ изаберите „~%/Show Enemy Moves/“ да се истакну сва поља која ваш противник заиста може досећи (под претпоставком да ваше јединице остану гд›је јесу). Корисно да се ув›јерите да непријатељ не може дохватити ваше ослабљене или повр›ијеђене јединице у наредном потезу."
+msgstr "Из менија <b>~%/Actions/</b> изаберите <b>~%/Show Enemy Moves/</b> да се истакну сва поља која ваш противник може досећи (под претпоставком да ваше јединице остану гд›је јесу). Корисно да се ув›јерите да непријатељ не може дохватити ваше ослабљене или повр›ијеђене јединице у наредном потезу."
 
 #. [tip]
 #. +> devel
@@ -1971,84 +1850,64 @@ msgstr "Из менија „~%/Actions/“ изаберите „~%/Show Enemy 
 #: data/hardwired/tips.cfg:197 data/hardwired/tips.cfg:201
 #: data/hardwired/tips.cfg:209 data/hardwired/tips.cfg:229
 #: data/hardwired/tips.cfg:238
-#, fuzzy
-#| msgid "- The Wesnoth Tactical Guide"
 msgid "<i>― The Wesnoth Tactical Guide</i>"
-msgstr "— Тактички водич Веснота"
+msgstr "<i>— Тактички водич Веснота</i>"
 
 # >> King Konrad
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:12
-#, fuzzy
-#| msgid "Units with the 'intelligent' trait need fewer experience points to level up. Early in a campaign, try to give killing blows to these units so you can get some high-level troops sooner."
 msgid "Units with the <i>Intelligent</i> trait need fewer experience points to level up. Early in a campaign, try to give killing blows to these units so you can get some high-level troops sooner."
-msgstr "Јединице с особином ‘оштроумности’ захт›ијевају мање искуствених поена за напредовање. Покушај да њима задајеш завршне ударце рано током похода, како би војска раније добила јединице виших нивоа."
+msgstr "Јединице с особином <i>оштроумности</i> захт›ијевају мање искуствених поена за напредовање. Покушај да њима задајеш завршне ударце рано током похода, како би војска раније добила јединице виших нивоа."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:13
-#, fuzzy
-#| msgid "- King Konrad, 536YW"
 msgid "<i>― King Konrad, 536YW</i>"
-msgstr "— краљ Конрад, 536.гв."
+msgstr "<i>— краљ Конрад, 536. гв.</i>"
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:16
-#, fuzzy
-#| msgid "The encircling tactic is very powerful, particularly against fast opponents. By placing two units on opposite sides of an enemy, their zones of control will restrict it to one hex of movement in any direction."
 msgid "The encircling tactic is very powerful, particularly against fast opponents. By placing two units on opposite sides of an enemy, their zones of control will restrict it to one hex of movement in any direction. Unfortunately, you must completely surround skirmishers to immobilize them."
-msgstr "Тактика опкољавања је врло моћна, посебице против хитрог противника. Поставивши две јединице на супротним странама непријатељске, њихови надзорни појасеви ограничиће јој кретање на једно поље у било ком см›јеру."
+msgstr "Тактика опкољавања је врло моћна, посебице против хитрог противника. Поставивши две јединице на супротним странама непријатељске, њихови надзорни појасеви ограничиће јој кретање на једно поље у било ком см›јеру. Чаркаши се, нажалост, морају потпуно опколити да би се спутали."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:17 data/hardwired/tips.cfg:129
-#, fuzzy
-#| msgid "- Memoirs of Gweddry, 627YW"
 msgid "<i>― Memoirs of Gweddry, 627YW</i>"
-msgstr "— Животопис Гведријев, 627.гв."
+msgstr "<i>— Животопис Гведријев, 627. гв.</i>"
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:20
-#, fuzzy
-#| msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you choose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
 msgid "You can access the <b>Recruit</b> and <b>Recall</b> commands by right-clicking on a castle tile. That will let you choose the precise hex you put a unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
-msgstr "Наредбама „~%/Recruit/“ и „~%/Recall/“ можете приступити десним кликом на поље замка. Потом изаберите поље гд›је желите да се нова јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније."
+msgstr "Наредбама <b>~%/Recruit/</b> и <b>~%/Recall/</b> можете приступити десним кликом на поље замка. Потом изаберите поље гд›је желите да се јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:24
-#, fuzzy
-#| msgid "There are some helpful summary screens in the main menu: for instance, the 'Status Table' will let you know how your enemies are doing, and how you are doing in comparison."
 msgid "There are some helpful summary screens in the main menu: for instance, the <b>Status Table</b> will let you know how your enemies are doing, and how you are doing in comparison."
-msgstr "Главни мени пружа неколико сажетака од користи; на пример, „~%/Status Table/“ показује како се држе ваши непријатељи, и ви насупрот њима."
+msgstr "Главни мени пружа неколико сажетака од користи; на пример, <b>~%/Status Table/</b> показује како се држе ваши непријатељи, и ви насупрот њима."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:28
-#, fuzzy
-#| msgid "Units with the 'quick' trait move one extra hex per turn. This can be very important when moving through difficult terrain such as water or caves. It can make the difference between being able to move one hex or two."
 msgid "Units with the <i>Quick</i> trait get an extra movement point per turn. This can be very important when moving through difficult terrain such as water or caves. It can make the difference between being able to move one hex or two."
-msgstr "Јединице с особином ‘хитрости’ крећу се поље више по потезу. Ово може бити пресудно при напредовању тешким тереном, попут воде или пећина, гд›је чини разлику између једног и два поља могућег покрета."
+msgstr "Јединице с особином <i>хитрости</i> имају један поен покрета више по потезу. Ово може бити пресудно при напредовању тешким тереном, попут воде или пећина, гд›је чини разлику између једног и два поља могућег покрета."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:29 data/hardwired/tips.cfg:105
 #: data/hardwired/tips.cfg:213 data/hardwired/tips.cfg:225
-#, fuzzy
-#| msgid "- High Lord Kalenz, 470YW"
 msgid "<i>― High Lord Kalenz, 470YW</i>"
-msgstr "— надгосподар Каленз, 470.гв."
+msgstr "<i>— надгосподар Каленз, 470. гв.</i>"
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:32
-#, fuzzy
-#| msgid "After you have played a few scenarios, read the 'Gameplay' section in the help screen carefully. Details become important as scenarios get harder!"
 msgid "After you have played a few scenarios, read the <b>Gameplay</b> section in the <b>Help</b> screen carefully. Details become important as scenarios get harder!"
-msgstr "Пошто одиграте неколико сценарија, пажљиво прочитајте од›јељак „~%/Gameplay/“ у оквиру помоћи. Детаљи су све важнији како нараста тежина сценарија!"
+msgstr "Пошто одиграте неколико сценарија, пажљиво прочитајте од›јељак <b>~%/Gameplay/</b> у оквиру помоћи. Детаљи су све важнији како нараста тежина сценарија!"
 
 #. [tip]
 #. +> devel
@@ -2065,26 +1924,20 @@ msgstr "На www.wesnoth.org можете наћи стратешке водич
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:41
-#, fuzzy
-#| msgid "- The Wesnoth Community"
 msgid "<i>― The Wesnoth Community</i>"
-msgstr "— Заједница Веснота"
+msgstr "<i>— Заједница Веснота</i>"
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:44
-#, fuzzy
-#| msgid "Lawful units fight better by day, and chaotic units fight better at night. Neutral units are unaffected by the time of day."
 msgid "<i>Lawful</i> units fight better by day, and <i>chaotic</i> units fight better at night. <i>Neutral</i> units are unaffected by the time of day. The rare <i>liminal</i> units fight best during twilight."
-msgstr "Добре јединице боље се боре дању, а хаотичне јединице су јаче ноћу. На неутралне јединице доба дана не утиче."
+msgstr "<i>Добре</i> јединице боље се боре дању, а <i>хаотичне</i> јединице су јаче ноћу. На <i>неутралне</i> јединице доба дана не утиче. Ретке <i>двојствене</i> јединице најбоље се боре током сумрака."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:45
-#, fuzzy
-#| msgid "- Royal Compendium of Battle Terminology - Volume II, 212YW"
 msgid "<i>― Royal Compendium of Battle Terminology: Volume II (reprinted 221YW)</i>"
-msgstr "— Краљевски зборник бојне терминологије, том II, 212.гв."
+msgstr "<i>— Краљевски зборник бојне терминологије, том II, 212. гв. (доштампано 221. гв.)</i>"
 
 #. [tip]
 #. +> devel
@@ -2097,74 +1950,56 @@ msgstr "Наум иначе ваљан може пропасти нападне 
 #: data/hardwired/tips.cfg:49 data/hardwired/tips.cfg:73
 #: data/hardwired/tips.cfg:125 data/hardwired/tips.cfg:133
 #: data/hardwired/tips.cfg:217
-#, fuzzy
-#| msgid "- Handbook of Tactical Analysis Volume I - Haldric II, 42YW"
 msgid "<i>― Haldric II, 42YW, Handbook of Tactical Analysis: Volume I</i>"
-msgstr "— Приручник тактичке анализе, том I — Халдрик Други, 42.гв."
+msgstr "<i>— Халдрик Други, Приручник тактичке анализе, том I, 42. гв.</i>"
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:52
-#, fuzzy
-#| msgid "If you are playing with 'Shroud' or 'Fog of War' turned on, you won't know what you're facing. In this case, long-range scouting units are worth their cost. Try to choose scouts that can easily move across the surrounding terrain, because units see as far as they can move in one turn."
 msgid "If you are playing with <b>Shroud</b> or <b>Fog of War</b> active, you won’t know what you’re facing. In this case, long-range scouting units are worth their cost. Try to choose scouts that can easily move across the surrounding terrain, because units can only see as far as they can move in one turn."
-msgstr "Ако вам је током игре укључен ‘покров’ или ‘магла рата’, нећете знати с чим сте суочени. У тим околностима, далекодометне извиђачке јединице вр›иједе сваку пару. Покушајте да бирате оне које ће се лако кретати околним тереном, јер јединице виде онолико далеко колико могу превалити у једном потезу."
+msgstr "Ако вам је током игре активан <b>покров</b> или <b>магла рата</b>, нећете знати с чим сте суочени. У тим околностима, далекодометне извиђачке јединице вр›иједе сваку пару. Покушајте да бирате оне које ће се лако кретати околним тереном, јер јединице виде онолико далеко колико могу превалити у једном потезу."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:56
-#, fuzzy
-#| msgid "There are six types of attacks: pierce, blade, impact, fire, cold, and arcane. Different units have weaknesses against different types of attacks. Right-click on a unit and select 'Unit Description' to see which attacks it is resistant to, and which will affect it the most."
 msgid "There are six types of attack: <i>pierce</i>, <i>blade</i>, <i>impact</i>, <i>fire</i>, <i>cold</i> and <i>arcane</i>. Different units have weaknesses against different types of attacks. Right-click on a unit and select <b>Unit Description</b> to see which attacks it is resistant to, and which will affect it the most."
-msgstr "Постоји шест типова напада: пробој, с›јечиво, удар, ватра, мраз и волшебни. Они различито утичу на различите јединице. Кликните десним на јединицу, изаберите „~%/Unit Description/“, гд›је можете вид›јети на које је нападе отпорна, а који ће је најтеже погодити."
+msgstr "Постоји шест типова напада: <i>пробој</i>, <i>с›јечиво</i>, <i>удар</i>, <i>ватра</i>, <i>мраз</i> и <i>волшебни</i>. Они различито утичу на различите јединице. Кликните десним на јединицу, изаберите <b>~%/Unit Description/</b>, гд›је можете вид›јети на које је нападе отпорна, а који ће је најтеже погодити."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:60
-#, fuzzy
-#| msgid "The terrain your units are occupying determines the chance your opponents have of hitting them in battle. The defensive rating for the currently selected unit in the currently selected terrain is displayed in the top right corner of the screen."
 msgid "The terrain occupied by your units is the main factor determining the chance that they will be hit. The defensive rating for the currently selected unit in the currently selected terrain is displayed in the top right corner of the screen."
-msgstr "Терен на коме се ваше јединице налазе одређује у каквој су противници прилици да је погоде у борби. Одбрамбени разред тренутно изабране јединице приказан је у горњем десном углу екрана."
+msgstr "Терен на коме се ваше јединице налазе главни је чинилац за то какви су изгледи противника да их погоде. Одбрамбени разред тренутно изабране јединице приказан је у горњем десном углу екрана."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:64
-#, fuzzy
-#| msgid "Poisoned units will lose eight hitpoints every turn until they are one point from death. They will remain at death's door until the poison is removed. Healers can prevent a poisoned unit from deteriorating, but the poison will not be removed unless the unit regenerates, or begins a turn in a village or next to a unit with the 'Cures' ability."
 msgid "Poisoned units will lose eight hitpoints every turn until they are one point from dying. They will then remain at death’s door until the poison is removed. Healers can prevent a poisoned unit from deteriorating, but the poison will not be removed unless the unit regenerates, or begins a turn in a village or next to a unit with the <i>Cures</i> ability."
-msgstr "Отроване јединице губиће осам ударпоена по потезу, док не спадну на један пред смрт. Стајаће тако на корак до смрти док се отров не исц›ијели. Видари могу спр›ијечити погоршање стања отроване јединице, али се отрова неће р›ијешити док се не обнови (ако може), или започне потез у селу или надомак јединице са способношћу ‘исц›јељивања’."
+msgstr "Отроване јединице губиће осам ударпоена по потезу, док не спадну на један пред смрт. Стајаће тада на корак до смрти док се отров не исц›ијели. Видари могу спр›ијечити погоршање стања отроване јединице, али се отрова неће р›ијешити док се не обнови (ако може), или започне потез у селу или надомак јединице са способношћу <i>исц›јељивања</i>."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:68
-#, fuzzy
-#| msgid "You can use units from a previous scenario by selecting 'Recall' in the 'Actions' menu. By recalling the same units over and over, you can build up a powerful and experienced army."
 msgid "You can reuse units from a previous scenario by selecting <b>Recall</b> from the <b>Actions</b> menu. By recalling the same units over and over, you can build up a powerful and experienced army."
-msgstr "Можете користити јединице из претходног сценарија, помоћу „~%/Recall/“ из менија „~%/Actions/“. Узастопним сазивањем истих јединица, можете изградити моћну и искусну војску."
+msgstr "Можете користити јединице из претходног сценарија, помоћу <b>~%/Recall/</b> из менија <b>~%/Actions/</b>. Узастопним сазивањем истих јединица, можете изградити моћну и искусну војску."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:72
-#, fuzzy
-#| msgid "Units of level one and higher have a 'Zone of Control' in each of the hexes next to them. If a unit moves into an enemy's zone of control, it may not move any further that turn. This means that units can have two empty hexes between them and still create a barrier to the enemy. However, skirmishers are skilled enough to ignore these zones."
 msgid "Units of level one and higher have a <i>Zone of Control</i> in the six hexes around them. If a unit moves into an enemy’s zone of control, it may not move any further that turn. This means that units can have two empty hexes between them and still create a barrier to the enemy. Beware, though: skirmishers can pass through these gaps."
-msgstr "Јединице првог и вишег нивоа постављају „надзорни појас“ у свим пољима до себе. Ако се јединица пом›јери у непријатељев надзорни појас, не може се више пом›ијерати у току тог потеза. Ово значи да и јединице размакнуте два поља запречавају пут непријатељу. Чаркаши су, међутим, довољно в›јешти да их се ови појасеви не дотичу."
+msgstr "Јединице првог и вишег нивоа постављају <i>надзорни појас</i> у шест поља око себе. Ако се јединица пом›јери у непријатељев надзорни појас, не може се више пом›ијерати у току тог потеза. Ово значи да и јединице размакнуте два поља запречавају пут непријатељу. Али пазите: чаркаши, међутим, могу да прођу кроз овакве процепе."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:76
-#, fuzzy
-#| msgid "The chance to hit a unit usually depends on how well that unit can defend itself in the terrain in which it is standing. However, magical attacks always have a 70% chance to hit, and units with the 'marksman' ability will always have at least 60% chance to hit when attacking on their turn."
 msgid "The chance to hit a unit usually depends on how well that unit can defend itself in the terrain in which it is standing. However, magical attacks always have a 70% chance to hit, and units with the <i>Marksman</i> ability are guaranteed at least a 60% chance of a hit when they attack on their own turn."
-msgstr "Изгледи да се јединица погоди зависе од тога колико се она може добро бранити на терену гд›је се налази. Ипак, магични напади ув›ијек имају 70% изгледа за погодак, а јединице с особином ‘оштроокости’ имају бар 60% изгледа када ударе у свом потезу."
+msgstr "Изгледи да се јединица погоди зависе од тога колико се она може добро бранити на терену гд›је се налази. Ипак, магични напади ув›ијек имају 70% изгледа за погодак, а јединице с особином <i>оштроокости</i> имају гарантованих бар 60% изгледа када ударе у свом потезу."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:77
-#, fuzzy
-#| msgid "- Handbook of Tactical Analysis Volume II - Haldric II, 43YW"
 msgid "<i>― Haldric II, 43YW, Handbook of Tactical Analysis: Volume II</i>"
-msgstr "— Приручник тактичке анализе, том II — Халдрик Други, 43.гв."
+msgstr "<i>— Халдрик Други, Приручник тактичке анализе, том II, 43. гв.</i>"
 
 #. [tip]
 #. +> devel
@@ -2175,18 +2010,14 @@ msgstr "Јединице разм›јештене у селима или ће �
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:84
-#, fuzzy
-#| msgid "Don't move an injured unit if you don't have to - let it rest. If a unit does not move or attack, it will recover two hitpoints at the beginning of its next turn."
 msgid "Don’t move an injured unit if you don’t have to — let it rest. If a unit does not move or attack, it will recover two hitpoints at the beginning of its next turn."
 msgstr "Не пом›ијерајте повређену јединицу ако не морате — нека се одмори. Ако се јединица нити пом›јери нити нападне, повратиће 2 ударпоена на почетку с‹љедећег потеза."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:88
-#, fuzzy
-#| msgid "On maps where 'Shroud' or 'Fog of War' has been enabled, a unit's sightlines are limited by its maximum movement. Remember this when deciding what unit is best to scout specific types of terrain."
 msgid "On maps where <i>Shroud</i> or <i>Fog of War</i> has been enabled, all units’ sightlines are limited by their maximum movement. If you have some valuable but slow units, keep at least one fast unit with them so that you are not caught out by a surprise attack."
-msgstr "На мапама гд›је је укључен ‘покров’ или ‘магла рата’, видик јединице ограничен је њеним дометом кретања. Мислите на то када одлучујете која је јединица најбоља за извиђање одређеног терена."
+msgstr "На мапама гд›је је укључен <i>покров</i> или <i>магла рата</i>, видик свих јединица ограничен је њиховим дометом кретања. Ако имате неке вредне али споре јединице, држите крај њих бар једну брзу јединицу како не би биле ухваћене изненадним нападом."
 
 #. [tip]
 #. +> devel
@@ -2197,10 +2028,8 @@ msgstr "П›јешачке јединице се обично боље бран
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:93 data/hardwired/tips.cfg:173
-#, fuzzy
-#| msgid "- Sir Kaylan, 498YW"
 msgid "<i>― Sir Kaylan, 498YW</i>"
-msgstr "— сер Кајлан, 498.гв."
+msgstr "<i>— сер Кајлан, 498. гв.</i>"
 
 #. [tip]
 #. +> devel
@@ -2211,10 +2040,8 @@ msgstr "Коњичке јединице су обично отпорне на н
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:97
-#, fuzzy
-#| msgid "- Sir Kaylan, 502YW"
 msgid "<i>― Sir Kaylan, 502YW</i>"
-msgstr "— сер Кајлан, 502.гв."
+msgstr "<i>— сер Кајлан, 502. гв.</i>"
 
 #. [tip]
 #. +> devel
@@ -2250,27 +2077,21 @@ msgstr "Не плаши се повлачења ради бољег распор
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:117
-#, fuzzy
-#| msgid "- Meneldur, 123YW"
 msgid "<i>― Meneldur, 123YW</i>"
-msgstr "— Менелдур, 123.гв."
+msgstr "<i>— Менелдур, 123. гв.</i>"
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:120
-#, fuzzy
-#| msgid "In most campaigns you will receive a gold bonus for finishing early, depending on the number of villages on the map and the number of turns you finish early. You will always earn more gold this way than through capturing villages and waiting for turns to run out."
 msgid "In most campaigns you will receive a gold bonus for finishing early, depending on the number of villages on the map and the number of turns remaining. You will usually earn more gold this way than through capturing villages and waiting for the turns to run out."
-msgstr "У већини похода добијаћете новчане бонусе за рано завршавање сценарија, већ према броју села на мапи и броју потеза које нисте истрошили. Овако ћете ув›ијек добити више злата, него када бисте запос›иједали села и чекали истицање потеза."
+msgstr "У већини похода добијаћете новчане бонусе за рано завршавање сценарија, већ према броју села на мапи и броју преосталих потеза. Овако ћете обично добити више злата, него када бисте запос›иједали села и чекали истицање потеза."
 
 # >> Handbook of Tactical Analysis Volume I - Haldric II
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:124
-#, fuzzy
-#| msgid "Your leader can recruit or recall units from any keep inside a castle, not just the keep they start on. You can capture a keep from an enemy and recruit from there. Also, some of your allies may be willing to make room for you on their keep so you can recruit there."
 msgid "<i>Leaders</i> can recruit or recall units from any keep inside a castle, not just the keep they start on. Sometimes your allies may be willing to make room for you on their keep so you can recruit from there, and you can even capture an enemy’s keep and use that."
-msgstr "Твој вођ може унајмљивати или сазивати јединице са било које куле унутар замка, не само из оног одакле је кренуо. Можеш заробити непријатељев замак, и оданде унајмљивати. Такође, можда ће и неки савезник бити вољан да ти привремено уступи свој замак."
+msgstr "<i>Вођи</i> могу унајмљивати или сазивати јединице са било које куле унутар замка, не само из оног одакле су кренули. Понекад ће неки савезник бити вољан да ти привремено уступи свој замак ради унајмљивања, а можеш чак заробити непријатељев замак па оданде унајмљивати."
 
 #. [tip]
 #. +> devel
@@ -2282,10 +2103,8 @@ msgstr "Скелети су отпорни на с›јечива, мраз и �
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:132
-#, fuzzy
-#| msgid "Units with the 'leadership' ability help lower-level adjacent units on the same side fight better. Use leaders to help your other units level up faster."
 msgid "Units with the <i>Leadership</i> ability help lower-level adjacent units on the same side fight better. You can move these units slowly along your battle lines and give bonuses to large numbers of lower-level troops."
-msgstr "Јединице са способношћу ‘вођства’ чине да се сус›једне јединице нижег нивоа боре боље. Користи вође да потпомогнеш напредовање другим јединицама."
+msgstr "Јединице са способношћу <i>вођства</i> чине да се сус›једне јединице нижег нивоа боре боље. Овакве јединице можеш споро померати дуж својих фронтова, дајући бонусе великом броју јединица нижег нивоа."
 
 # >> Great Mage Delfador
 #. [tip]
@@ -2298,34 +2117,26 @@ msgstr "Изб›јегавај ступање надомак незаузето
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:140
-#, fuzzy
-#| msgid "Use lines of units to screen injured units to let them recover."
 msgid "Use lines of troops to screen your injured units while they recover."
-msgstr "Користи фронтове јединица за заштиту рањених при опоравку."
+msgstr "Користи фронтове јединица за заштиту својих рањених током опоравка."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:141
-#, fuzzy
-#| msgid "- Princess Li'sar, 515YW"
 msgid "<i>― Princess Li’sar, 515YW</i>"
-msgstr "— принцеза Лиза́ра, 515.гв."
+msgstr "<i>— принцеза Лиза́ра, 515. гв.</i>"
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:144
-#, fuzzy
-#| msgid "Read the hotkeys list in the preferences menu."
 msgid "Read the <b>Hotkeys</b> list in the <b>Preferences</b> menu."
-msgstr "Прочитајте списак пречица са тастатуре у менију поставки."
+msgstr "Прочитајте списак пречица са тастатуре у менију <b>Поставке</b>."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:148
-#, fuzzy
-#| msgid "If you move a unit, but don't attack or discover any additional information, you can undo your move by pressing 'u'."
 msgid "If you move a unit, but don’t attack or discover any additional information, you can undo your move by pressing <b>u</b>."
-msgstr "Ако пом›јерите јединицу, а притом не нападнете или сазнате нове чињенице, можете опозвати потез притиском на ‘u’."
+msgstr "Ако пом›јерите јединицу, а притом не нападнете или сазнате нове чињенице, можете опозвати потез притиском на <b>u</b>."
 
 #. [tip]
 #. +> devel
@@ -2344,34 +2155,26 @@ msgstr "Користи видаре као подршку у нападима �
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:157 data/hardwired/tips.cfg:205
-#, fuzzy
-#| msgid "- The Scroll of Chantal, 516YW"
 msgid "<i>― The Scroll of Chantal, 516YW</i>"
-msgstr "— Свитак Чанталин, 516.гв."
+msgstr "<i>— Свитак Чанталин, 516. гв.</i>"
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:160
-#, fuzzy
-#| msgid "The 'slow' attack ability makes enemy units move slower and halves the damage they do on all attacks until they end a turn."
 msgid "The <i>Slow</i> attack makes enemy units move slower and halves the damage they do on all attacks until they end a turn."
-msgstr "Удар ‘успорења’ успорава кретање непријатељске јединице и преполовљава штету коју наноси у свим нападима до краја потеза."
+msgstr "Удар <i>успорења</i> успорава кретање непријатељске јединице и преполовљава штету коју наноси у свим нападима до краја потеза."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:164
-#, fuzzy
-#| msgid "Arcane attacks are very powerful against undead."
 msgid "<i>Arcane</i> attacks are very powerful against undead."
-msgstr "Волшебни напади су врло моћни против немртвих."
+msgstr "<i>Волшебни</i> напади су врло моћни против немртвих."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:165
-#, fuzzy
-#| msgid "- Great Sage Dacyn, 626YW"
 msgid "<i>― Great Sage Dacyn, 626YW</i>"
-msgstr "— велики мудрац Десин, 626.гв."
+msgstr "<i>— велики мудрац Десин, 626. гв.</i>"
 
 #. [tip]
 #. +> devel
@@ -2388,18 +2191,14 @@ msgstr "Јуришне јединице најбоље је користити �
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:176
-#, fuzzy
-#| msgid "Instead of leveling up, high-level units gain an 'After Maximum Level Advancement' (AMLA), which usually increases the unit's maximum hitpoints by three and full-heals them. This is much less than the normal benefits gained from advancing a level, so it is generally more useful to try to advance your lower-level units instead."
 msgid "Instead of leveling up, high-level units gain an <i>After Maximum Level Advancement</i> (AMLA) bonus, which usually increases the unit’s maximum hitpoints by three and fully heals it. This is much less than the normal benefits of advancing a level, so it is generally wiser to advance your lower-level units instead."
-msgstr "Ум›јесто новог нивоа, јединице високог нивоа добијају „напредовање по највишем нивоу“ (НАПОН), што им обично повећава максимум ударпоена за три и потпуно их за‹љечује. Ово је много мања добит од оне при напредовању у нивоу, тако да је обично корисније да радите на унапређењу јединица нижег нивоа."
+msgstr "Ум›јесто новог нивоа, јединице високог нивоа добијају бонус <i>напредовања по највишем нивоу</i> (НАПОН), што им обично повећава максимум ударпоена за три и потпуно их за‹љечује. Ово је много мања добит од оне при напредовању у нивоу, тако да је обично мудрије да унапређујете јединица нижег нивоа."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:180
-#, fuzzy
-#| msgid "Nearly every icon and word in Wesnoth's playing screen has a tooltip. Place your mouse pointer over one to get an explanation or description."
 msgid "Nearly every button and icon in the Wesnoth game has a tooltip. Hover the mouse pointer over any button or icon to get a description or explanation of what it does."
-msgstr "Скоро свака икона и р›ијеч на Веснотовом играчком екрану има облачић —  поставите показивач миша изнад онога за шта желите објашњење или опис."
+msgstr "Скоро свако дугме и икона током играња Веснота има облачић — поставите показивач миша изнад онога за шта желите опис или објашњење шта ради."
 
 # >> Queen Li'sar
 #. [tip]
@@ -2411,18 +2210,14 @@ msgstr "Да брзо изнапредујеш јединицу ниског н�
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:185
-#, fuzzy
-#| msgid "- Queen Li'sar, 528YW"
 msgid "<i>― Queen Li’sar, 528YW</i>"
-msgstr "— краљица Лиза́ра, 528.гв."
+msgstr "<i>— краљица Лиза́ра, 528. гв.</i>"
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:188
-#, fuzzy
-#| msgid "You cannot undo a move that reveals any fog or shroud. Toggle the 'Delay Shroud Updates' option on when you need to move units while retaining the ability to undo."
 msgid "You cannot undo a move that uncovers hexes hidden by fog or shroud. Turn on the <b>Delay Shroud Updates</b> option when you need to move units while retaining the ability to undo, or use the new Whiteboard planning tool."
-msgstr "Не можете опозвати покретање које открије д‹ио магле или покрова. Укључите опцију „~%/Delay Shroud Updates/“ ако желите да ув›ијек можете опозвати покретање."
+msgstr "Не можете опозвати покрет који открије поља сакривена маглом или покровом. Укључите опцију <b>~%/Delay Shroud Updates/</b> ако желите да ув›ијек можете опозвати покрет, или употребите блокче, нову алатку за планирање."
 
 #. [tip]
 #. +> devel
@@ -2446,61 +2241,61 @@ msgstr "У многим сценаријима у походу, савезниц
 #. +> devel
 #: data/hardwired/tips.cfg:204
 msgid "The <i>Slow</i> ability is extremely powerful because it has such wide-ranging effects. Enemy undead get half the normal benefit from their <i>Drain</i> ability, the damage bonus from <i>Charge</i> or <i>Backstab</i> is cancelled, and the <i>Berserk</i> ability is weakened. Fast foes struggle to escape; slow enemies are almost immobilized, and your own units suffer less retaliation damage, so it’s quicker to heal them."
-msgstr ""
+msgstr "Способност <i>успоравања</i> изванредно је моћна, због свог далекосежног утицаја. Непријатељским немртвима способност <i>црпљења</i> спада напола, бонус на штету при <i>јуришу</i> и <i>ножу у леђа</i> нестаје, а <i>безглавост</i> је ослабљена. Брзи противници напрежу се да измакну, спори бивају готово укопани, а ваше јединице трпе мање узвратне штете, тако да се могу брже залечити."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:208
 msgid "Try to operate units with a small number of powerful attacks—such as Dark Adepts, Horsemen, Orcish Grunts or Dwarvish Thunderers—in pairs or threes. This gives you another try whenever your first devastating attack misses — as inevitably happens from time to time."
-msgstr ""
+msgstr "Покушајте да дејствујете јединицама са малим бројем моћних напада — попут мрачних посвећеника, коњаника, орко-грокташа или патуљ-громовника — у паровима или тројкама. То вам даје додатни покушај кад год први разарајући напад промаши, до чега неминовно долази с времена на време."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:212
 msgid "Units with three or more attacks—especially magical attacks—are ideal for finishing off enemies with only a few hitpoints remaining. Be sure to use leadership—or a strong or dextrous unit—whenever the extra point or two of damage makes a one-hit kill possible."
-msgstr ""
+msgstr "Јединице са три или више напада — посебно магичних — идеалне су за докрајчивање непријатеља којима је остало мало ударпоена. Гледајте да употребите вођство, или кршну или спретну јединицу, кад год један или два додатна поена штете могу омогућити победу из прве."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:216
 msgid "Think twice before dismissing any unit from your recall list, no matter how little experience it has. Sometimes it’s worth paying a premium to know exactly what traits a new arrival will have."
-msgstr ""
+msgstr "Двапут размислите пре него што отпустите јединицу са списка сазивања, ма колико мало искуства имала. Некада вреди добро платити знање о томе тачно које особине ће новопридошла јединица имати."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:220
 msgid "When a tough unit is heavily injured, send it to heal in a village several turns’ movement away from the fighting. Then it can recover in peace (at 10 hitpoints per turn) without tying up front-line villages."
-msgstr ""
+msgstr "Када жилава јединица буде тешко повређена, пошаљите је на лечење у село неколико потеза кретања далеко од борбе. Тако се може опоравити у миру (10 ударпоена по потезу) и без заузимања села на линији фронта."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:221 data/hardwired/tips.cfg:233
 msgid "<i>― Lord Hamel of Knalga</i>"
-msgstr ""
+msgstr "<i>― господар Хамел од Кналге</i>"
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:224
 msgid "Combining multiple special abilities can be deadly. While it may take some work to combine, for example, <i>Leadership</i>, <i>Illuminates</i> and <i>Charge</i> against a slowed opponent, the results can be impressive."
-msgstr ""
+msgstr "Удруживање више специјалних способности може бити смртоносно. Иако може потрајати удруживање, на пример, <i>вођства</i>, <i>обасјавања</i> и <i>јуриша</i> против успореног противника, резултати ће бити импозантни."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:228
 msgid "While finishing early gives a gold bonus, and reduces the opportunities for enemies to kill your valuable troops, it also means you lose chances to earn your units extra experience. When deciding whether or not to finish a scenario early, weigh these factors against one another."
-msgstr ""
+msgstr "Док рани завршетак даје бонус у злату, и одузима непријатељу прилике да вам уништи вредне јединице, такође значи губитак прилика да својим јединицама зарадите још искуства. Када одлучујете да ли ћете сценарио рано завршити, одвагајте ове чиниоце."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:232
 msgid "If your forces have weak defenses everywhere on the map, occupy the areas where your enemies can only attack you by sharing the same disadvantages. Avoid places where your defenses are poor and your enemy’s are merely average. Plan for heavy losses, and take firm control of any hex where the land does favor you."
-msgstr ""
+msgstr "Ако ваше снаге имају слабу одбрану свуда на мапи, заузмите она подручја где вас непријатељ може напасти под за њега једнако лошим условима. Избегавајте места где је ваша одбрана слаба а непријатељева тек просечна. Планирајте са тешким губицима, и чврсто држите свако поље на којем вам терен одговара."
 
 #. [tip]
 #. +> devel
 #: data/hardwired/tips.cfg:237
 msgid "<i>Feral</i> units, such as Bats and wild animals, will avoid villages. Even if they occupy a village hex, they do not gain any defensive benefits from the village, although they will still be healed."
-msgstr ""
+msgstr "<i>Неукроћене</i> јединице, попут слепих мишева и других дивљих животиња, избегаваће села. Чак и када стану на поље са селом, не добијају одбрамбених предности; мада ће ипак бити лечене."
 
 #. +> devel
 #: data/lua/wml-tags.lua:800 src/actions.cpp:1493
@@ -2532,18 +2327,14 @@ msgstr "окамењен"
 
 #. +> devel
 #: data/lua/wml-tags.lua:804
-#, fuzzy
-#| msgid "Unwalkable"
 msgctxt "female"
 msgid "unhealable"
-msgstr "расц›јеп"
+msgstr "неисц›јељива"
 
 #. +> devel
 #: data/lua/wml-tags.lua:804
-#, fuzzy
-#| msgid "Unwalkable"
 msgid "unhealable"
-msgstr "расц›јеп"
+msgstr "неисц›јељив"
 
 #. +> devel
 #: data/lua/wml/objectives.lua:50 src/multiplayer_connect.cpp:1702
@@ -2558,29 +2349,27 @@ msgstr "пораз:"
 #. +> devel
 #: data/lua/wml/objectives.lua:52
 msgid "Gold carryover:"
-msgstr ""
+msgstr "Пренесено злато:"
 
 #. +> devel
 #: data/lua/wml/objectives.lua:53
 msgid "Notes:"
-msgstr ""
+msgstr "Белешке:"
 
 #. +> devel
 #: data/lua/wml/objectives.lua:71
 msgid "(%d turns left)"
-msgstr ""
+msgstr "(још %d потеза)"
 
 #. +> devel
 #: data/lua/wml/objectives.lua:73
 msgid "(this turn left)"
-msgstr ""
+msgstr "(последњи потез)"
 
 #. +> devel
 #: data/lua/wml/objectives.lua:126
-#, fuzzy
-#| msgid "No gold carried over to the next scenario."
 msgid "%d%% of gold carried over to the next scenario."
-msgstr "Злато се не преноси у с‹љедећи сценарио."
+msgstr "%d%% злата се преноси у с‹љедећи сценарио."
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: id=helptip_large, id=tooltip_large, id=the_list, id=the_label, id=the_icon, id=ok, id=cancel, id=flip, id=the_image
@@ -2602,15 +2391,13 @@ msgstr "Одустани"
 #. +> devel
 #: data/scenario-test.cfg:3118
 msgid "very long"
-msgstr ""
+msgstr "врло дугачак"
 
 #. [language]
 #. +> devel
 #: data/scenario-test.cfg:3119
-#, fuzzy
-#| msgid "mechanical"
 msgid "electrical"
-msgstr "механичност"
+msgstr "електрични"
 
 #. [menu]: id=menu-main
 #. +> devel
@@ -2822,52 +2609,38 @@ msgstr "Затвори"
 
 #. +> devel
 #: src/actions.cpp:501
-#, fuzzy
-#| msgid "You don't have a leader to recruit with."
 msgid "You don’t have a leader to recall with."
-msgstr "Морате имати вођа да бисте унајмљивали."
+msgstr "Морате имати вођа да бисте сазивали."
 
 #. +> devel
 #: src/actions.cpp:506
-#, fuzzy
-#| msgid "You must have your leader on a keep to recruit or recall units."
 msgid "None of your leaders is able to recall that unit."
-msgstr "Вођ вам мора бити на кули да би најмио или сазивао јединице."
+msgstr "Ниједан од ваших вођа не може да сазове ту јединцу."
 
 #. +> devel
 #: src/actions.cpp:511
-#, fuzzy
-#| msgid "You must have your leader on a keep to recruit or recall units."
 msgid "You must have a leader on a keep who is able to recall that unit."
-msgstr "Вођ вам мора бити на кули да би најмио или сазивао јединице."
+msgstr "Морате на кули имати вођа који може да сазове ту јединицу."
 
 #. +> devel
 #: src/actions.cpp:516
-#, fuzzy
-#| msgid "There are no vacant castle tiles in which to recruit a unit."
 msgid "There are no vacant castle tiles in which to recall the unit."
-msgstr "У замку нема више слободних поља за новопридошле јединице."
+msgstr "У замку нема више слободних поља за сазивање јединице."
 
 #. +> devel
 #: src/actions.cpp:586
-#, fuzzy
-#| msgid "You don't have a leader to recruit with."
 msgid "You don’t have a leader to recruit with."
 msgstr "Морате имати вођа да бисте унајмљивали."
 
 #. +> devel
 #: src/actions.cpp:591
-#, fuzzy
-#| msgid "You must have your leader on a keep to recruit or recall units."
 msgid "You must have a leader on a keep who is able to recruit the unit."
-msgstr "Вођ вам мора бити на кули да би најмио или сазивао јединице."
+msgstr "Морате на кули имати вођа који може да унајми ту јединицу."
 
 #. +> devel
 #: src/actions.cpp:596
-#, fuzzy
-#| msgid "There are no vacant castle tiles in which to recruit a unit."
 msgid "There are no vacant castle tiles in which to recruit the unit."
-msgstr "У замку нема више слободних поља за новопридошле јединице."
+msgstr "У замку нема више слободних поља за унајмљивање јединице."
 
 #. +> devel
 #: src/actions.cpp:749 src/actions.cpp:808 src/actions.cpp:1729
@@ -2939,8 +2712,6 @@ msgstr "(притисните $hotkey да продужи)"
 
 #. +> devel
 #: src/addon/manager.cpp:423
-#, fuzzy
-#| msgid "B"
 msgctxt "unit_byte"
 msgid "B"
 msgstr "B"
@@ -3012,10 +2783,8 @@ msgstr "(непознато)"
 
 #. +> devel
 #: src/addon/manager.cpp:481
-#, fuzzy
-#| msgid "Requesting list of add-ons"
 msgid "Requesting terms"
-msgstr "Тражим списак додатака"
+msgstr "Тражим услове"
 
 #. +> devel
 #: src/addon/manager.cpp:486
@@ -3045,10 +2814,8 @@ msgstr "Одзив"
 
 #. +> devel
 #: src/addon/manager.cpp:554
-#, fuzzy
-#| msgid "Requesting list of add-ons"
 msgid "Requesting the addon to be deleted"
-msgstr "Тражим списак додатака"
+msgstr "Тражим брисање додатка"
 
 #. +> devel
 #: src/addon/manager.cpp:580
@@ -3057,15 +2824,11 @@ msgstr "Преузимам додатак: $addon_title|..."
 
 #. +> devel
 #: src/addon/manager.cpp:586 src/addon/manager.cpp:1135
-#, fuzzy
-#| msgid "Downloads"
 msgid "Downloading..."
-msgstr "преузето"
+msgstr "Преузимам..."
 
 #. +> devel
 #: src/addon/manager.cpp:598
-#, fuzzy
-#| msgid "The add-on has an invalid file or directory name and can not be installed."
 msgid "The add-on has an invalid file or directory name and cannot be installed."
 msgstr "Додатак има лоше име датотеке или фасцикле и не може се инсталирати."
 
@@ -3109,36 +2872,35 @@ msgstr "величина"
 msgid "Type"
 msgstr "тип"
 
+# >> @title:window
 #. +> devel
 #: src/addon/manager.cpp:798
-#, fuzzy
-#| msgid "Dependencies"
 msgid "Install dependencies"
-msgstr "Зависности"
+msgstr "Инсталирање зависности"
 
 #. +> devel
 #: src/addon/manager.cpp:799
 msgid "The selected add-on has the following dependency. Do you want to install it?"
 msgid_plural "The selected add-on has the following dependencies. Do you want to install them?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?"
+msgstr[1] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?"
+msgstr[2] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?"
+msgstr[3] "Изабрани додатак има следећу зависност. Желите ли да је инсталирате?"
 
 #. +> devel
 #: src/addon/manager.cpp:828
 msgid "Installation of a dependency failed"
-msgstr ""
+msgstr "Инсталирање зависности није успело"
 
 #. +> devel
 #: src/addon/manager.cpp:830
 msgid "While the add-on has been installed, a dependency is missing. Try to update the installed add-ons."
-msgstr ""
+msgstr "Иако је додатак инсталиран, недостају неке зависности. Покушајте да ажурирате инсталиране додатке."
 
 #. +> devel
 #: src/addon/manager.cpp:844
 msgid "Installation failed"
-msgstr ""
+msgstr "Инсталирање није успело"
 
 #. +> devel
 #: src/addon/manager.cpp:846 src/addon/manager.cpp:1074
@@ -3202,13 +2964,13 @@ msgstr "Ажурирај све"
 #: src/addon/manager.cpp:1039 src/addon/manager.cpp:1056
 #: src/addon/manager.cpp:1348
 msgid "Installation of some dependency failed"
-msgstr ""
+msgstr "Инсталирање неке зависности није успело"
 
 #. +> devel
 #: src/addon/manager.cpp:1041 src/addon/manager.cpp:1058
 #: src/addon/manager.cpp:1350
 msgid "While the add-on has been installed, some dependency is missing. Try to update the installed add-ons."
-msgstr ""
+msgstr "Иако је додатак инсталиран, недостаје нека зависност. Покушајте да ажурирате инсталиране додатке."
 
 #. +> devel
 #: src/addon/manager.cpp:1072
@@ -3233,20 +2995,19 @@ msgstr "Сви додаци усп›јешно ажурирани."
 #. +> devel
 #: src/addon/manager.cpp:1098
 msgid "You seem to be the author of '$addon|'. Downloading '$addon|' may overwrite any changes you have made since the last upload and may delete your pbl file. Do you really wish to continue?"
-msgstr ""
+msgstr "Изгледа да сте ви аутор додатка „$addon|“. Његовим преузимањем можете пребрисати све измене које сте начинили од последњег отпремања, као и обрисати своју ПБЛ датотеку. Желите ли заиста да наставите?"
 
+# >> @title:window
 #. +> devel
 #: src/addon/manager.cpp:1101 src/addon/manager.cpp:1330
 #: src/addon/manager.cpp:1423 src/multiplayer.cpp:264
 msgid "Confirm"
-msgstr "Потврди"
+msgstr "Потврда"
 
 #. +> devel
 #: src/addon/manager.cpp:1128
-#, fuzzy
-#| msgid "Connecting to Server..."
 msgid "Connecting..."
-msgstr "Повезујем се са сервером..."
+msgstr "Повезујем се..."
 
 #. +> devel
 #: src/addon/manager.cpp:1128
@@ -3291,15 +3052,13 @@ msgstr "Изаберите додатак за преузимање."
 
 #. +> devel
 #: src/addon/manager.cpp:1286
-#, fuzzy
-#| msgid "Downloads"
 msgid "Download"
-msgstr "преузето"
+msgstr "Преузми"
 
 #. +> devel
 #: src/addon/manager.cpp:1287
 msgid "Done"
-msgstr ""
+msgstr "Готово"
 
 #. +> devel
 #: src/addon/manager.cpp:1299 src/dialogs.cpp:634 src/menu_events.cpp:949
@@ -3315,7 +3074,7 @@ msgstr "Опис"
 #. +> devel
 #: src/addon/manager.cpp:1326
 msgid "Deleting '$addon|' will permanently erase its download and upload counts on the add-ons server. Do you really wish to continue?"
-msgstr ""
+msgstr "Брисањем додатка „$addon|“ биће трајно обрисана и његова статистика преузимања и отпремања на серверу додатака. Желите ли заиста да наставите?"
 
 #. +> devel
 #: src/addon/manager.cpp:1361
@@ -3339,57 +3098,48 @@ msgstr "Нема инсталираних додатака."
 
 #. +> devel
 #: src/addon/manager.cpp:1418
-#, fuzzy
-#| msgid "Are you sure you want to remove the add-on '$addon|'?"
 msgid "Are you sure you want to remove the following installed add-on?"
 msgid_plural "Are you sure you want to remove the following installed add-ons?"
-msgstr[0] "Желите ли заиста да уклоните ‘$addon|’?"
-msgstr[1] "Желите ли заиста да уклоните ‘$addon|’?"
-msgstr[2] "Желите ли заиста да уклоните ‘$addon|’?"
-msgstr[3] "Желите ли заиста да уклоните ‘$addon|’?"
+msgstr[0] "Желите ли заиста да уклоните следеће инсталиране додатке?"
+msgstr[1] "Желите ли заиста да уклоните следеће инсталиране додатке?"
+msgstr[2] "Желите ли заиста да уклоните следеће инсталиране додатке?"
+msgstr[3] "Желите ли заиста да уклоните следећи инсталирани додатак?"
 
 #. +> devel
 #: src/addon/manager.cpp:1444
 msgid "The following add-on appears to have publishing or version control information stored locally, and will not be removed:"
 msgid_plural "The following add-ons appear to have publishing or version control information stored locally, and will not be removed:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "За следеће додатке изгледа да садрже локалне податке о издавању или управљању верзијама, па неће бити уклоњени:"
+msgstr[1] "За следеће додатке изгледа да садрже локалне податке о издавању или управљању верзијама, па неће бити уклоњени:"
+msgstr[2] "За следеће додатке изгледа да садрже локалне податке о издавању или управљању верзијама, па неће бити уклоњени:"
+msgstr[3] "За следећи додатак изгледа да садржи локалне податке о издавању или управљању верзијама, па неће бити уклоњен:"
 
 #. +> devel
 #: src/addon/manager.cpp:1454
-#, fuzzy
-#| msgid "Add-on could not be deleted properly:"
 msgid "The following add-on could not be deleted properly:"
 msgid_plural "The following add-ons could not be deleted properly:"
-msgstr[0] "Додатак се не може усп›јешно обрисати:"
-msgstr[1] "Додатак се не може усп›јешно обрисати:"
-msgstr[2] "Додатак се не може усп›јешно обрисати:"
-msgstr[3] "Додатак се не може усп›јешно обрисати:"
+msgstr[0] "Следеће додатке није било могуће правилно обрисати:"
+msgstr[1] "Следеће додатке није било могуће правилно обрисати:"
+msgstr[2] "Следеће додатке није било могуће правилно обрисати:"
+msgstr[3] "Следећи додатак није било могуће правилно обрисати:"
 
 #. +> devel
 #: src/addon/manager.cpp:1461
-#, fuzzy
-#| msgid "Add-on deleted"
 msgid "Add-on Deleted"
 msgid_plural "Add-ons Deleted"
-msgstr[0] "Додатак обрисан"
-msgstr[1] "Додатак обрисан"
-msgstr[2] "Додатак обрисан"
+msgstr[0] "Додаци обрисани"
+msgstr[1] "Додаци обрисани"
+msgstr[2] "Додаци обрисани"
 msgstr[3] "Додатак обрисан"
 
 #. +> devel
 #: src/addon/manager.cpp:1463
-#, fuzzy
-#| msgid "The following add-on had errors and could not be loaded:"
-#| msgid_plural "The following add-ons had errors and could not be loaded:"
 msgid "The following add-on was successfully deleted:"
 msgid_plural "The following add-ons were successfully deleted:"
-msgstr[0] "С‹љедећи додаци имају грешку и не могу се учитати:"
-msgstr[1] "С‹љедећи додаци имају грешку и не могу се учитати:"
-msgstr[2] "С‹љедећи додаци имају грешку и не могу се учитати:"
-msgstr[3] "С‹љедећи додатак има грешку и не може се учитати:"
+msgstr[0] "Следећи додаци успешно су обрисани:"
+msgstr[1] "Следећи додаци успешно су обрисани:"
+msgstr[2] "Следећи додаци успешно су обрисани:"
+msgstr[3] "Следећи додатак успешно је обрисан:"
 
 #. +> devel
 #: src/attack_prediction_display.cpp:105 src/attack_prediction_display.cpp:237
@@ -3471,10 +3221,9 @@ msgstr "Нема циљева"
 msgid "%a %b %d %H:%M %Y"
 msgstr "%a %b %d %H.%M %Y"
 
+# >> Datetime format, see 'man strftime' for possible placeholders.
 #. +> devel
 #: src/dialogs.cpp:454 src/savegame.cpp:136
-#, fuzzy
-#| msgid "%a %b %d %H:%M %Y"
 msgid "%a %b %d %I:%M %p %Y"
 msgstr "%a %b %d %H.%M %Y"
 
@@ -3500,10 +3249,8 @@ msgstr "Подучавање"
 
 #. +> devel
 #: src/dialogs.cpp:499
-#, fuzzy
-#| msgid "Remote scenario"
 msgid "Test scenario"
-msgstr "удаљени сценарио"
+msgstr "Пробни сценарио"
 
 #. +> devel
 #: src/dialogs.cpp:509 src/savegame.cpp:1050
@@ -3512,8 +3259,6 @@ msgstr "потез"
 
 #. +> devel
 #: src/dialogs.cpp:511
-#, fuzzy
-#| msgid "Scenario Start"
 msgid "Scenario start"
 msgstr "почетак сценарија"
 
@@ -3527,34 +3272,37 @@ msgstr "Тежина: "
 msgid "Version: "
 msgstr "Верзија: "
 
+# >> Datetime format, see 'man strftime' for possible placeholders.
 #. +> devel
 #: src/dialogs.cpp:540 src/dialogs.cpp:566 src/savegame.cpp:166
 #: src/savegame.cpp:192
 msgid "%b %d %y"
 msgstr "%b %d %y"
 
+# >> Datetime format, see 'man strftime' for possible placeholders.
 #. +> devel
 #: src/dialogs.cpp:547 src/reports.cpp:1218 src/savegame.cpp:173
 msgid "%H:%M"
 msgstr "%H.%M"
 
+# >> Datetime format, see 'man strftime' for possible placeholders.
 #. +> devel
 #: src/dialogs.cpp:550 src/reports.cpp:1218 src/savegame.cpp:176
 msgid "%I:%M %p"
-msgstr ""
+msgstr "%H.%M"
 
 #. +> devel
 #: src/dialogs.cpp:555 src/savegame.cpp:181
 msgid "%A, %H:%M"
 msgstr "%A, %H.%M"
 
+# >> Datetime format, see 'man strftime' for possible placeholders.
 #. +> devel
 #: src/dialogs.cpp:558 src/savegame.cpp:184
-#, fuzzy
-#| msgid "%A, %H:%M"
 msgid "%A, %I:%M %p"
 msgstr "%A, %H.%M"
 
+# >> Datetime format, see 'man strftime' for possible placeholders.
 #. +> devel
 #: src/dialogs.cpp:562 src/savegame.cpp:188
 msgid "%b %d"
@@ -3658,10 +3406,8 @@ msgstr "У/И грешка у датотеци приликом читања п�
 
 #. +> devel
 #: src/game_controller.cpp:633
-#, fuzzy
-#| msgid "File I/O Error while reading the game"
 msgid "File I/O Error while reading the game: '"
-msgstr "У/И грешка у датотеци приликом читања позиције"
+msgstr "У/И грешка у датотеци приликом читања позиције: '"
 
 #. +> devel
 #: src/game_controller.cpp:730
@@ -3680,10 +3426,8 @@ msgstr "Сервер ће радити као позадински процес 
 
 #. +> devel
 #: src/game_controller.cpp:967
-#, fuzzy
-#| msgid "Don't show again"
 msgid "Don’t show again"
-msgstr "Не показуј поново"
+msgstr "Не приказуј поново"
 
 #. +> devel
 #: src/game_controller.cpp:1038
@@ -3760,7 +3504,7 @@ msgstr "Податак: "
 #. +> devel
 #: src/game_events.cpp:2376
 msgid "Invalid value in the result key for [end_level]"
-msgstr ""
+msgstr "Лоша вредност у резултату кључа за [end_level]"
 
 #. +> devel
 #: src/gui/dialogs/lobby/lobby_data.cpp:205 src/multiplayer_lobby.cpp:447
@@ -3909,64 +3653,48 @@ msgstr "?"
 
 #. +> devel
 #: src/loadscreen.cpp:222
-#, fuzzy
-#| msgid "Initializing teams"
 msgid "Initializing user interface"
-msgstr "Припремам тимове..."
+msgstr "Припремам корисничко сучеље..."
 
 #. +> devel
 #: src/loadscreen.cpp:223
-#, fuzzy
-#| msgid "Loading game configuration."
 msgid "Loading game configuration"
-msgstr "Учитавам поставу игре."
+msgstr "Учитавам поставу игре..."
 
 #. +> devel
 #: src/loadscreen.cpp:224 src/loadscreen.cpp:231
-#, fuzzy
-#| msgid "Verifying cache..."
 msgid "Verifying cache"
 msgstr "Оверавам кеш..."
 
 #. +> devel
 #: src/loadscreen.cpp:225 src/loadscreen.cpp:232
-#, fuzzy
-#| msgid "Reading files and creating cache..."
 msgid "Reading files and creating cache"
 msgstr "Читам датотеке и стварам кеш..."
 
 #. +> devel
 #: src/loadscreen.cpp:226 src/loadscreen.cpp:233
-#, fuzzy
-#| msgid "Reading unit files..."
 msgid "Reading unit files"
 msgstr "Читам датотеке јединица..."
 
 #. +> devel
 #: src/loadscreen.cpp:227
-#, fuzzy
-#| msgid "Re-initialize fonts for the current language."
 msgid "Reinitialize fonts for the current language"
-msgstr "Поново припремам фонтове за текући језик."
+msgstr "Поново припремам фонтове за текући језик..."
 
 #. +> devel
 #: src/loadscreen.cpp:228
-#, fuzzy
-#| msgid "Searching for installed add-ons."
 msgid "Searching for installed add-ons"
-msgstr "Тражим инсталиране додатке."
+msgstr "Тражим инсталиране додатке..."
 
 #. +> devel
 #: src/loadscreen.cpp:229
-#, fuzzy
-#| msgid "Loading title screen."
 msgid "Loading title screen"
-msgstr "Учитавам насловни екран."
+msgstr "Учитавам насловни екран..."
 
 #. +> devel
 #: src/loadscreen.cpp:230
 msgid "Loading data files"
-msgstr "Учитавам податке."
+msgstr "Учитавам податке..."
 
 #. +> devel
 #: src/loadscreen.cpp:234
@@ -3991,7 +3719,7 @@ msgstr "Припремам приказ..."
 #. +> devel
 #: src/loadscreen.cpp:238
 msgid "Building terrain rules"
-msgstr ""
+msgstr "Градим правила терена..."
 
 #. +> devel
 #: src/loadscreen.cpp:240
@@ -4011,7 +3739,7 @@ msgstr "Насумичне мапе непарне ширине нису под�
 #. +> devel
 #: src/mapgen.cpp:1007
 msgid "No valid castle location found. Too many or too few mountain hexes? (please check the 'max hill size' parameter)"
-msgstr ""
+msgstr "Нема ниједне погодне локације за замак. Превише или премало планинских поља? Проверите параметар ‘max hill size’."
 
 #. +> devel
 #: src/menu_events.cpp:99 src/menu_events.cpp:102 src/menu_events.cpp:106
@@ -4219,7 +3947,7 @@ msgstr "Не могу да сачувам мапу: $msg"
 #. +> devel
 #: src/menu_events.cpp:635
 msgid "Chat Log"
-msgstr ""
+msgstr "Дневник ћаскања"
 
 #. +> devel
 #: src/menu_events.cpp:645
@@ -4263,8 +3991,6 @@ msgstr "Изаберите јединицу:"
 
 #. +> devel
 #: src/menu_events.cpp:785
-#, fuzzy
-#| msgid "You don't have enough gold to recruit that unit"
 msgid "You don’t have enough gold to recruit that unit"
 msgstr "Немате довољно злата да унајмите ту јединицу"
 
@@ -4285,7 +4011,7 @@ msgstr ""
 #. +> devel
 #: src/menu_events.cpp:870
 msgid "You currently can't recall at the highlighted location"
-msgstr ""
+msgstr "Тренутно не можете сазивати на истакнутој локацији"
 
 #. +> devel
 #: src/menu_events.cpp:882
@@ -4313,22 +4039,18 @@ msgstr[3] "Морате имати барем један златник да б�
 
 #. +> devel
 #: src/menu_events.cpp:1376
-#, fuzzy
-#| msgid "pause at end of turn"
 msgid "You cannot end your turn yet!"
-msgstr "паузирај на крају потеза"
+msgstr "Још не можете завршити потез!"
 
 #. +> devel
 #: src/menu_events.cpp:1400
 msgid "You have not started your turn yet. Do you really want to end your turn?"
-msgstr "Нисте ни започели свој потез, желите ли заиста већ да га окончате?"
+msgstr "Нисте ни започели потез, желите ли заиста већ да га окончате?"
 
 #. +> devel
 #: src/menu_events.cpp:1408
-#, fuzzy
-#| msgid "Some units have movement left. Do you really want to end your turn?"
 msgid "Some units have planned actions left. Do you really want to end your turn?"
-msgstr "Неке јединице се још могу кретати. Желите ли заиста да завршите потез?"
+msgstr "Неке јединице имају још планираних радњи. Желите ли заиста да завршите потез?"
 
 #. +> devel
 #: src/menu_events.cpp:1416 src/menu_events.cpp:1421
@@ -4451,8 +4173,6 @@ msgstr "Забрањује и избацује играча или посмат�
 #: src/menu_events.cpp:2332 src/menu_events.cpp:2335 src/menu_events.cpp:2337
 #: src/menu_events.cpp:2339 src/menu_events.cpp:2341 src/menu_events.cpp:2368
 #: src/menu_events.cpp:2370 src/menu_events.cpp:2372 src/menu_events.cpp:2386
-#, fuzzy
-#| msgid "<nick>"
 msgid "<nickname>"
 msgstr "<надимак>"
 
@@ -4484,7 +4204,7 @@ msgstr "Утишава или укида утишаност свих посма�
 #. +> devel
 #: src/menu_events.cpp:2353
 msgid "Report abuse, rule violations, etc. to the server moderators. Make sure to mention relevant nicknames, etc."
-msgstr ""
+msgstr "Пријављује злоупотребе, кршења правила, итд. модераторима сервера. Пазите да поменете релевантне надимке, и сл."
 
 #. +> devel
 #: src/menu_events.cpp:2357
@@ -4498,15 +4218,11 @@ msgstr "Шаље емоцију или личну радњу у ћаскање."
 
 #. +> devel
 #: src/menu_events.cpp:2360
-#, fuzzy
-#| msgid "Sends a private message. You can't send messages to players that don't control a side in a running game you are in."
 msgid "Sends a private message. You cannot send private messages to players in a running game you observe or play in."
-msgstr "Шаље приватну поруку. Не можете слати поруке играчима који не управљају неком страном у текућој партији у којој сте и сами."
+msgstr "Шаље приватну поруку. Не можете слати приватне поруке играчима у текућој партији коју посматрате или у њој играте."
 
 #. +> devel
 #: src/menu_events.cpp:2362
-#, fuzzy
-#| msgid "<nick> <message>"
 msgid "<nickname> <message>"
 msgstr "<надимак> <порука>"
 
@@ -4522,22 +4238,16 @@ msgstr "М›ијења ниво б‹иљежења за домен б‹иље
 
 #. +> devel
 #: src/menu_events.cpp:2368
-#, fuzzy
-#| msgid "Add a nick to your ignores list."
 msgid "Add a nickname to your ignores list."
 msgstr "Додаје надимак на списак игнорисаних."
 
 #. +> devel
 #: src/menu_events.cpp:2370
-#, fuzzy
-#| msgid "Add a nick to your friends list."
 msgid "Add a nickname to your friends list."
 msgstr "Додаје надимак на списак пријатеља."
 
 #. +> devel
 #: src/menu_events.cpp:2372
-#, fuzzy
-#| msgid "Remove a nick from your ignores or friends list."
 msgid "Remove a nickname from your ignores or friends list."
 msgstr "Уклања играча са списка игнорисаних или пријатеља."
 
@@ -4558,22 +4268,16 @@ msgstr "<лозинка> <е-пошта (опционо)>"
 
 #. +> devel
 #: src/menu_events.cpp:2379
-#, fuzzy
-#| msgid "Register your nick"
 msgid "Register your nickname"
 msgstr "Региструје ваш надимак."
 
 #. +> devel
 #: src/menu_events.cpp:2381
-#, fuzzy
-#| msgid "Drop your nick."
 msgid "Drop your nickname."
 msgstr "Испушта ваш надимак."
 
 #. +> devel
 #: src/menu_events.cpp:2383
-#, fuzzy
-#| msgid "Update details for your nick. For possible details see '/details'."
 msgid "Update details for your nickname. For possible details see '/details'."
 msgstr "Ажурира детаље вашег надимка. За могуће детаље, извршити „/details“."
 
@@ -4584,15 +4288,11 @@ msgstr "<детаљ> <вр›иједност>"
 
 #. +> devel
 #: src/menu_events.cpp:2386
-#, fuzzy
-#| msgid "Request information about a nick."
 msgid "Request information about a nickname."
 msgstr "Затражите податке о надимку."
 
 #. +> devel
 #: src/menu_events.cpp:2388
-#, fuzzy
-#| msgid "Request a list of details you can set for your registered nick."
 msgid "Request a list of details you can set for your registered nickname."
 msgstr "Захт›ијева списак детаља које можете задати уз регистровани надимак."
 
@@ -4675,8 +4375,6 @@ msgstr "[<страна> [on/off]]"
 
 #. +> devel
 #: src/menu_events.cpp:2543
-#, fuzzy
-#| msgid "<side> <nick>"
 msgid "<side> <nickname>"
 msgstr "<страна> <надимак>"
 
@@ -4698,12 +4396,12 @@ msgstr "Сагледава поступак осв›јежавања екран
 #. +> devel
 #: src/menu_events.cpp:2549
 msgid "Debug foreground terrain."
-msgstr ""
+msgstr "Исправа предњи план терена."
 
 #. +> devel
 #: src/menu_events.cpp:2551
 msgid "Debug layers from terrain under the mouse."
-msgstr ""
+msgstr "Исправља слојева терена под мишем."
 
 #. +> devel
 #: src/menu_events.cpp:2552
@@ -4753,22 +4451,22 @@ msgstr "Избор наредног сценарија."
 #. +> devel
 #: src/menu_events.cpp:2573
 msgid "Change turn number (and time of day), or increase by one if no number is specified."
-msgstr ""
+msgstr "Мења број потеза (и доба дана), или га повећава за један ако се број не зада."
 
 #. +> devel
 #: src/menu_events.cpp:2573
 msgid "[turn]"
-msgstr ""
+msgstr "[потез]"
 
 #. +> devel
 #: src/menu_events.cpp:2575
 msgid "Change turn limit, or turn the turn limit off if no number is specified or it’s −1."
-msgstr ""
+msgstr "Мења ограничење потеза, или га искључује ако се не зада број или се зада -1."
 
 #. +> devel
 #: src/menu_events.cpp:2575
 msgid "[limit]"
-msgstr ""
+msgstr "[ограничење]"
 
 #. +> devel
 #: src/menu_events.cpp:2577
@@ -4803,7 +4501,7 @@ msgstr "Поставља наредбу на пречицу посебне на�
 #. +> devel
 #: src/menu_events.cpp:2588
 msgid "Invoke a dialog allowing changing control of MP sides."
-msgstr ""
+msgstr "Позива дијалог за промену управљања над вишеиграчким странама."
 
 #. +> devel
 #: src/menu_events.cpp:2592
@@ -4813,7 +4511,7 @@ msgstr "Покреће испитивач стања игре."
 #. +> devel
 #: src/menu_events.cpp:2594
 msgid "Manage persistence data"
-msgstr ""
+msgstr "Управља подацима трајности."
 
 #. +> devel
 #: src/menu_events.cpp:2596
@@ -4855,12 +4553,11 @@ msgstr "М›ијења пром›јенљиву јединице. (Подрж�
 msgid "Discover all units in help."
 msgstr "Открива све јединице у помоћи."
 
+# well-spelled: Одоткрива
 #. +> devel
 #: src/menu_events.cpp:2611
-#, fuzzy
-#| msgid "Discover all units in help."
 msgid "'Undiscover' all units in help."
-msgstr "Открива све јединице у помоћи."
+msgstr "„Одоткрива“ све јединице у помоћи."
 
 #. +> devel
 #: src/menu_events.cpp:2613
@@ -4900,12 +4597,12 @@ msgstr "Преклапање теренских кодова по пољима."
 #. +> devel
 #: src/menu_events.cpp:2630
 msgid "Toggle planning mode."
-msgstr ""
+msgstr "Режим планирања."
 
 #. +> devel
 #: src/menu_events.cpp:2633
 msgid "Access whiteboard options dialog."
-msgstr ""
+msgstr "Приступ дијалогу опција блокчета."
 
 #. +> devel
 #: src/menu_events.cpp:2676
@@ -5048,10 +4745,8 @@ msgstr "Не може се пром›ијенити управљање над �
 
 #. +> devel
 #: src/menu_events.cpp:3279
-#, fuzzy
-#| msgid "Players: "
 msgid "Layers"
-msgstr "играча: "
+msgstr "Слојеви"
 
 #. +> devel
 #: src/menu_events.cpp:3352
@@ -5095,15 +4790,13 @@ msgstr "Пром›јенљива није нађена"
 
 #. +> devel
 #: src/menu_events.cpp:3515
-#, fuzzy
-#| msgid "Invalid alignment: '$alignment', needs to be one of lawful, neutral or chaotic."
 msgid "Invalid alignment: '$alignment', needs to be one of lawful, neutral, chaotic, or liminal."
-msgstr "Лош аргумент: ‘$alignment’ мора бити једно од lawful, neutral или chaotic."
+msgstr "Лош аргумент: ‘$alignment’ мора бити једно од lawful, neutral, chaotic или liminal."
 
 #. +> devel
 #: src/menu_events.cpp:3571
 msgid "Do you wish to clear all of your discovered units from help?"
-msgstr ""
+msgstr "Желите ли да очистите све откривене јединице из помоћи?"
 
 #. +> devel
 #: src/menu_events.cpp:3582
@@ -5117,17 +4810,13 @@ msgstr "Лоша локација"
 
 #. +> devel
 #: src/menu_events.cpp:3630
-#, fuzzy
-#| msgid "Debug mode activated!"
 msgid "Planning mode activated!"
-msgstr "Исправљање активирано!"
+msgstr "Режим планирања активиран!"
 
 #. +> devel
 #: src/menu_events.cpp:3633
-#, fuzzy
-#| msgid "Debug mode deactivated!"
 msgid "Planning mode deactivated!"
-msgstr "Исправљање деактивирано!"
+msgstr "Режим планирања деактивиран!"
 
 #. +> devel
 #: src/menu_events.cpp:3646
@@ -5142,10 +4831,8 @@ msgstr "наредба:"
 
 #. +> devel
 #: src/mouse_events.cpp:672
-#, fuzzy
-#| msgid "You must have your leader on a keep to recruit or recall units."
 msgid "You cannot move your leader away from the keep with some planned recruits left."
-msgstr "Вођ вам мора бити на кули да би најмио или сазивао јединице."
+msgstr "Не можете померити вођа са куле док има још планираних унајмљивања."
 
 #. +> devel
 #: src/mouse_events.cpp:803 src/mouse_events.cpp:883
@@ -5185,21 +4872,17 @@ msgstr "Веза је истекла."
 #. +> devel
 #: src/multiplayer.cpp:239
 msgid "The nickname '$nick' is inactive. You cannot claim ownership of this nickname until you activate your account via email or ask an administrator to do it for you."
-msgstr ""
+msgstr "Надимак „$nick“ није активан. Не можете тврдити власништво над овим надимком док не активирате свој налог, преко е-поште или захтевом администратору да то уради за вас."
 
 #. +> devel
 #: src/multiplayer.cpp:248
-#, fuzzy
-#| msgid "Do you want to save your game?"
 msgid "Do you want to continue?"
-msgstr "Желите ли да сачувате позицију?"
+msgstr "Желите ли да наставите?"
 
 #. +> devel
 #: src/multiplayer.cpp:250
-#, fuzzy
-#| msgid "Warning: "
 msgid "Warning"
-msgstr "Упозорење: "
+msgstr "Упозорење"
 
 #. +> devel
 #: src/multiplayer.cpp:294
@@ -5213,57 +4896,41 @@ msgstr "Морате се прво пријавити."
 
 #. +> devel
 #: src/multiplayer.cpp:337
-#, fuzzy
-#| msgid "The nick '$nick' is already taken."
 msgid "The nickname '$nick' is already taken."
 msgstr "Надимак „$nick“ већ је заузет."
 
 #. +> devel
 #: src/multiplayer.cpp:339
-#, fuzzy
-#| msgid "The nick '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed."
 msgid "The nickname '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed."
 msgstr "Надимак „$nick“ садржи лоше знакове. Дозвољена су само слова, бројеви, подвлаке и цртице."
 
 #. +> devel
 #: src/multiplayer.cpp:343
-#, fuzzy
-#| msgid "The nick '$nick' is too long. Nicks must be 18 characters or less."
 msgid "The nickname '$nick' is too long. Nicks must be 20 characters or less."
-msgstr "Надимак „$nick“ је предугачак. Не може имати више од 18 знакова."
+msgstr "Надимак „$nick“ је предугачак. Не може имати више од 20 знакова."
 
 #. +> devel
 #: src/multiplayer.cpp:346
-#, fuzzy
-#| msgid "The nick '$nick' is reserved and cannot be used by players."
 msgid "The nickname '$nick' is reserved and cannot be used by players."
 msgstr "Надимак „$nick“ је резервисан и играчи га не могу узети."
 
 #. +> devel
 #: src/multiplayer.cpp:348
-#, fuzzy
-#| msgid "The nick '$nick' is not registered on this server."
 msgid "The nickname '$nick' is not registered on this server."
 msgstr "Надимак „$nick“ није регистрован на овом серверу."
 
 #. +> devel
 #: src/multiplayer.cpp:349
-#, fuzzy
-#| msgid " This server disallows unregistered nicks."
 msgid " This server disallows unregistered nicknames."
 msgstr " Овај сервер не дозвољава нерегистроване надимке."
 
 #. +> devel
 #: src/multiplayer.cpp:351 src/multiplayer.cpp:353
-#, fuzzy
-#| msgid "The nick '$nick' is registered on this server."
 msgid "The nickname '$nick' is registered on this server."
 msgstr "Надимак „$nick“ регистрован је на овом серверу."
 
 #. +> devel
 #: src/multiplayer.cpp:354
-#, fuzzy
-#| msgid "WARNING: There is already a client using this nick, logging in will cause that client to be kicked!"
 msgid "WARNING: There is already a client using this nickname, logging in will cause that client to be kicked!"
 msgstr "УПОЗОРЕЊЕ: Један клијент већ има овај надимак, пријављивањем ћете га избацити!"
 
@@ -5280,7 +4947,7 @@ msgstr "Дали сте неисправну лозинку."
 #. +> devel
 #: src/multiplayer.cpp:362
 msgid "You have made too many login attempts."
-msgstr ""
+msgstr "Превише пута сте покушали да се пријавите."
 
 #. +> devel
 #: src/multiplayer_connect.cpp:100 src/multiplayer_connect.cpp:449
@@ -5383,17 +5050,13 @@ msgstr "боја"
 
 #. +> devel
 #: src/multiplayer_connect.cpp:1033
-#, fuzzy
-#| msgid "I'm Ready"
 msgid "I’m Ready"
 msgstr "У бој!"
 
 #. +> devel
 #: src/multiplayer_connect.cpp:1035
-#, fuzzy
-#| msgid "Anonymous local player"
 msgid "Add named local player"
-msgstr "Никоговић"
+msgstr "Додај именованог локалног играча"
 
 #. +> devel
 #: src/multiplayer_connect.cpp:1045
@@ -5408,7 +5071,7 @@ msgstr "Сценарио није је неправилан јер нема ст
 #. +> devel
 #: src/multiplayer_connect.cpp:1116
 msgid "Enter a name for the new player"
-msgstr ""
+msgstr "Унесите име новог играча"
 
 #. +> devel
 #: src/multiplayer_connect.cpp:1117 src/reports.cpp:155 src/savegame.cpp:722
@@ -5443,14 +5106,12 @@ msgstr "Поразиш ли противничке вође"
 #. +> devel
 #: src/multiplayer_connect.cpp:1809
 msgid "Waiting for players to join..."
-msgstr "Чекамо да се придруже играчи..."
+msgstr "Чекам да се придруже играчи..."
 
 #. +> devel
 #: src/multiplayer_connect.cpp:1810
-#, fuzzy
-#| msgid "Waiting for players to join..."
 msgid "Waiting for players to choose factions..."
-msgstr "Чекамо да се придруже играчи..."
+msgstr "Чекам да играчи одаберу фракције..."
 
 #. +> devel
 #: src/multiplayer_create.cpp:56 src/multiplayer_lobby.cpp:742
@@ -5489,8 +5150,6 @@ msgstr "насумично време почетка"
 
 #. +> devel
 #: src/multiplayer_create.cpp:89
-#, fuzzy
-#| msgid "Fog Of War"
 msgid "Fog of war"
 msgstr "магла рата"
 
@@ -5502,7 +5161,7 @@ msgstr "посматрачи"
 #. +> devel
 #: src/multiplayer_create.cpp:92
 msgid "Shuffle sides"
-msgstr ""
+msgstr "промешане стране"
 
 #. +> devel
 #: src/multiplayer_create.cpp:95
@@ -5592,7 +5251,7 @@ msgstr "Дозволи корисницима који не играју да п
 #. +> devel
 #: src/multiplayer_create.cpp:208
 msgid "Assign sides to players at random"
-msgstr ""
+msgstr "Насумично додели стране играчима"
 
 #. +> devel
 #: src/multiplayer_create.cpp:212
@@ -5621,10 +5280,8 @@ msgstr "Нема ниједне епохе"
 
 #. +> devel
 #: src/multiplayer_create.cpp:238
-#, fuzzy
-#| msgid "$login's game"
 msgid "$login|’s game"
-msgstr "$login-ова игра"
+msgstr "$login|-ова игра"
 
 #. +> devel
 #: src/multiplayer_create.cpp:304
@@ -5648,22 +5305,16 @@ msgstr "потеза: "
 
 #. +> devel
 #: src/multiplayer_create.cpp:374
-#, fuzzy
-#| msgid "Unlimited Turns"
 msgid "Unlimited turns"
 msgstr "неограничено"
 
 #. +> devel
 #: src/multiplayer_create.cpp:402
-#, fuzzy
-#| msgid "Init. Limit: "
 msgid "Init. limit: "
 msgstr "почетни лимит: "
 
 #. +> devel
 #: src/multiplayer_create.cpp:407
-#, fuzzy
-#| msgid "Turn Bonus: "
 msgid "Turn bonus: "
 msgstr "бонус потеза: "
 
@@ -5674,22 +5325,16 @@ msgstr "резервоар: "
 
 #. +> devel
 #: src/multiplayer_create.cpp:416
-#, fuzzy
-#| msgid "Action Bonus: "
 msgid "Action bonus: "
 msgstr "бонус радњи: "
 
 #. +> devel
 #: src/multiplayer_create.cpp:423
-#, fuzzy
-#| msgid "Village Gold: "
 msgid "Village gold: "
 msgstr "злата по селу: "
 
 #. +> devel
 #: src/multiplayer_create.cpp:429
-#, fuzzy
-#| msgid "Experience Modifier: "
 msgid "Experience modifier: "
 msgstr "модификатор искуства: "
 
@@ -5735,8 +5380,6 @@ msgstr "Придружи се партији"
 
 #. +> devel
 #: src/multiplayer_lobby.cpp:743
-#, fuzzy
-#| msgid "Quick Replays"
 msgid "Quick replays"
 msgstr "Брзи снимци"
 
@@ -5752,8 +5395,6 @@ msgstr "Напусти"
 
 #. +> devel
 #: src/multiplayer_lobby.cpp:746
-#, fuzzy
-#| msgid "Apply Filter"
 msgid "Apply filter"
 msgstr "Прим›ијени филтер"
 
@@ -5764,24 +5405,18 @@ msgstr "Изврни"
 
 #. +> devel
 #: src/multiplayer_lobby.cpp:748
-#, fuzzy
-#| msgid "Vacant Slots"
 msgid "Vacant slots"
 msgstr "Слободна м›јеста"
 
 #. +> devel
 #: src/multiplayer_lobby.cpp:749
-#, fuzzy
-#| msgid "Friends in Game"
 msgid "Friends in game"
 msgstr "Пријатељи у игри"
 
 #. +> devel
 #: src/multiplayer_lobby.cpp:750
-#, fuzzy
-#| msgid "Search"
 msgid "Search:"
-msgstr "Тражи"
+msgstr "Тражи:"
 
 #. +> devel
 #: src/multiplayer_lobby.cpp:758
@@ -5912,10 +5547,8 @@ msgstr "Не могу послати почетно руковање"
 #. +> devel
 #: src/network_manager_ana.cpp:650 src/network_manager_ana.cpp:667
 #: src/network_manager_ana.cpp:689
-#, fuzzy
-#| msgid "Could not connect to host."
 msgid "Could not connect to host"
-msgstr "Не могу да се повежем."
+msgstr "Не могу да се повежем са домаћином"
 
 #. +> devel
 #: src/pathfind/pathfind.cpp:455
@@ -5946,14 +5579,12 @@ msgstr "Назад на потез "
 #. +> devel
 #: src/play_controller.cpp:1354
 msgid "The game is out of sync. It might not make much sense to continue. Do you want to save your game?"
-msgstr ""
+msgstr "Игра је испала из синхронизације. Вероватно нема много смисла да се настави. Желите ли да сачувате позицију?"
 
 #. +> devel
 #: src/play_controller.cpp:1355 src/replay_controller.cpp:322
-#, fuzzy
-#| msgid "Error:"
 msgid "Error details:"
-msgstr "Грешка:"
+msgstr "Детаљи грешке:"
 
 #. +> devel
 #: src/playcampaign.cpp:137 src/playcampaign.cpp:176
@@ -6100,14 +5731,8 @@ msgstr "Игра је завршена."
 
 #. +> devel
 #: src/playsingle_controller.cpp:532
-#, fuzzy
-#| msgid ""
-#| "A network disconnection has occurred, and the game\n"
-#| "cannot continue. Do you want to save the game?"
 msgid "A network disconnection has occurred, and the game cannot continue. Do you want to save the game?"
-msgstr ""
-"Мрежна веза је прекинута и игра се не може наставити.\n"
-"Желите ли да сачувате позицију?"
+msgstr "Мрежна веза је прекинута и игра се не може наставити. Желите ли да сачувате позицију?"
 
 #. +> devel
 #: src/playsingle_controller.cpp:693
@@ -6156,21 +5781,13 @@ msgstr "$player напусти игру. Шта желите да учините
 
 #. +> devel
 #: src/replay_controller.cpp:321
-#, fuzzy
-#| msgid ""
-#| "A network disconnection has occurred, and the game\n"
-#| "cannot continue. Do you want to save the game?"
 msgid "The replay is corrupt/out of sync. It might not make much sense to continue. Do you want to save the game?"
-msgstr ""
-"Мрежна веза је прекинута и игра се не може наставити.\n"
-"Желите ли да сачувате позицију?"
+msgstr "Снимак је искварен или ван синхронизације. Вероватно нема много смисла да се настави. Желите ли да сачувате позицију?"
 
 #. +> devel
 #: src/reports.cpp:175
-#, fuzzy
-#| msgid "Type"
 msgid "Type: "
-msgstr "тип"
+msgstr "тип: "
 
 #. +> devel
 #: src/reports.cpp:195
@@ -6179,31 +5796,23 @@ msgstr "раса: "
 
 #. +> devel
 #: src/reports.cpp:237
-#, fuzzy
-#| msgid "Label: "
 msgid "Level: "
-msgstr "Етикета: "
+msgstr "ниво: "
 
 #. +> devel
 #: src/reports.cpp:240
-#, fuzzy
-#| msgid "Advancements"
 msgid "No advancement"
-msgstr "напредовања"
+msgstr "без напредовања"
 
 #. +> devel
 #: src/reports.cpp:242
-#, fuzzy
-#| msgid "Advances to: "
 msgid "Advances to:"
 msgstr "може постати: "
 
 #. +> devel
 #: src/reports.cpp:282
-#, fuzzy
-#| msgid "Traits"
 msgid "Trait: "
-msgstr "Особине"
+msgstr "особина: "
 
 #. +> devel
 #: src/reports.cpp:305
@@ -6258,10 +5867,8 @@ msgstr "поредак: "
 
 #. +> devel
 #: src/reports.cpp:370
-#, fuzzy
-#| msgid "Abilities: "
 msgid "Ability: "
-msgstr "способности: "
+msgstr "способност: "
 
 #. +> devel
 #: src/reports.cpp:415
@@ -6280,139 +5887,105 @@ msgstr "модификатор искуства: "
 
 #. +> devel
 #: src/reports.cpp:494
-#, fuzzy
-#| msgid "Terrain"
 msgid "Terrain: "
-msgstr "терен"
+msgstr "терен: "
 
 #. +> devel
 #: src/reports.cpp:512
 msgctxt "maximum"
 msgid "max."
-msgstr ""
+msgstr "макс."
 
 #. +> devel
 #: src/reports.cpp:512
 msgctxt "minimum"
 msgid "min."
-msgstr ""
+msgstr "мин."
 
 #. +> devel
 #: src/reports.cpp:517
-#, fuzzy
-#| msgid "Defense"
 msgid "Defense: "
-msgstr "одбрана"
+msgstr "одбрана: "
 
 #. +> devel
 #: src/reports.cpp:600 src/reports.cpp:790 src/reports.cpp:802
-#, fuzzy
-#| msgid "weapon range: "
 msgid "Weapon: "
-msgstr "домет оружја: "
+msgstr "оружје: "
 
 #. +> devel
 #: src/reports.cpp:601 src/reports.cpp:791
-#, fuzzy
-#| msgid "Damage"
 msgid "Damage: "
-msgstr "штета"
+msgstr "штета: "
 
 #. +> devel
 #: src/reports.cpp:605
-#, fuzzy
-#| msgid "Total damage"
 msgid "Base damage: "
-msgstr "укупна штета"
+msgstr "базна штета: "
 
 #. +> devel
 #: src/reports.cpp:607
-#, fuzzy
-#| msgid "Time of day"
 msgid "Time of day: "
-msgstr "доба дана"
+msgstr "доба дана: "
 
 #. +> devel
 #: src/reports.cpp:611
-#, fuzzy
-#| msgid "Leadership"
 msgid "Leadership: "
-msgstr "вођство"
+msgstr "вођство: "
 
 #. +> devel
 #: src/reports.cpp:615
-#, fuzzy
-#| msgid "slowed: "
 msgid "Slowed: "
 msgstr "успорена: "
 
-# >> Title to table of attacks.
 #. +> devel
 #: src/reports.cpp:619
-#, fuzzy
-#| msgctxt "unit help"
-#| msgid "Attacks"
 msgid "Attacks: "
-msgstr "Напади"
+msgstr "напада: "
 
 #. +> devel
 #: src/reports.cpp:621
 msgid "Base attacks: "
-msgstr ""
+msgstr "базних напада: "
 
 #. +> devel
 #: src/reports.cpp:623
-#, fuzzy
-#| msgid "swarm"
 msgid "Swarm: "
-msgstr "рој"
+msgstr "рој: "
 
 #. +> devel
 #: src/reports.cpp:635
-#, fuzzy
-#| msgid "weapon range: "
 msgid "Weapon range: "
 msgstr "домет оружја: "
 
 #. +> devel
 #: src/reports.cpp:636
-#, fuzzy
-#| msgid "damage type: "
 msgid "Damage type: "
 msgstr "вид штете: "
 
 #. +> devel
 #: src/reports.cpp:637
-#, fuzzy
-#| msgid "damage type: "
 msgid "Damage versus: "
-msgstr "вид штете: "
+msgstr "штета против: "
 
 #. +> devel
 #: src/reports.cpp:681
-#, fuzzy
-#| msgid "% accuracy"
 msgid "Accuracy:"
-msgstr "% прецизности"
+msgstr "прецизност: "
 
 #. +> devel
 #: src/reports.cpp:686
-#, fuzzy
-#| msgid "% parry"
 msgid "Parry:"
-msgstr "% парирања"
+msgstr "парирање: "
 
 #. +> devel
 #: src/reports.cpp:703
-#, fuzzy
-#| msgid "Weapon Specials"
 msgid "Weapon special: "
-msgstr "Својства оружја"
+msgstr "својство оружја: "
 
 #. +> devel
 #: src/reports.cpp:773
 msgid "None"
-msgstr ""
+msgstr "нема"
 
 #. +> devel
 #: src/reports.cpp:965
@@ -6431,10 +6004,8 @@ msgstr "хаотичне јединице: "
 
 #. +> devel
 #: src/reports.cpp:968
-#, fuzzy
-#| msgid "Lawful units: "
 msgid "Liminal units: "
-msgstr "законите јединице: "
+msgstr "двојствене јединице: "
 
 #. +> devel
 #: src/reports.cpp:1181
@@ -6595,127 +6166,109 @@ msgstr "$error, вр›иједност „$value“ код $pos"
 #: src/serialization/string_utils.cpp:299
 msgctxt "prefix_milli"
 msgid "m"
-msgstr ""
+msgstr "m"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:300
 msgctxt "prefix_micro"
 msgid "µ"
-msgstr ""
+msgstr "µ"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:301
-#, fuzzy
-#| msgid "no"
 msgctxt "prefix_nano"
 msgid "n"
-msgstr "не"
+msgstr "n"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:302
 msgctxt "prefix_pico"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:303
 msgctxt "prefix_femto"
 msgid "f"
-msgstr ""
+msgstr "f"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:304
-#, fuzzy
-#| msgid "ai"
 msgctxt "prefix_atto"
 msgid "a"
-msgstr "ВИ"
+msgstr "a"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:305
 msgctxt "prefix_zepto"
 msgid "z"
-msgstr ""
+msgstr "z"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:306
 msgctxt "prefix_yocto"
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:318
-#, fuzzy
-#| msgid "KB"
 msgctxt "prefix_kibi"
 msgid "K"
-msgstr "kB"
+msgstr "k"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:319
 msgctxt "prefix_kilo"
 msgid "k"
-msgstr ""
+msgstr "k"
 
-# well-spelled: ПП
 #. +> devel
 #: src/serialization/string_utils.cpp:321
-#, fuzzy
-#| msgid "MP"
 msgctxt "prefix_mega"
 msgid "M"
-msgstr "ПП"
+msgstr "M"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:322
-#, fuzzy
-#| msgid "GB"
 msgctxt "prefix_giga"
 msgid "G"
-msgstr "GB"
+msgstr "G"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:323
 msgctxt "prefix_tera"
 msgid "T"
-msgstr ""
+msgstr "T"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:324
-#, fuzzy
-#| msgid "HP"
 msgctxt "prefix_peta"
 msgid "P"
-msgstr "УП"
+msgstr "P"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:325
-#, fuzzy
-#| msgctxt "short end-turn"
-#| msgid "E."
 msgctxt "prefix_exa"
 msgid "E"
-msgstr "К."
+msgstr "E"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:326
 msgctxt "prefix_zetta"
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:327
 msgctxt "prefix_yotta"
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #. +> devel
 #: src/serialization/string_utils.cpp:341
-#, fuzzy
-#| msgid "ai"
 msgctxt "infix_binary"
 msgid "i"
-msgstr "ВИ"
+msgstr "i"
 
 #. +> devel
 #: src/statistics_dialog.cpp:70 src/statistics_dialog.cpp:126
@@ -6890,7 +6443,7 @@ msgstr "законит"
 #. +> devel
 #: src/unit_types.cpp:976
 msgid "liminal"
-msgstr ""
+msgstr "двојствен"
 
 #. +> devel
 #: src/unit_types.cpp:976
@@ -6913,7 +6466,7 @@ msgstr "законита"
 #: src/unit_types.cpp:977
 msgctxt "female"
 msgid "liminal"
-msgstr ""
+msgstr "двојствена"
 
 #. +> devel
 #: src/unit_types.cpp:977
@@ -6924,42 +6477,24 @@ msgstr "неутрална"
 #. +> devel
 #: src/whiteboard/manager.cpp:950
 msgid "SHOW ALL allies’ plans"
-msgstr ""
+msgstr "ПРИКАЖИ СВЕ планове савезника"
 
 #. +> devel
 #: src/whiteboard/manager.cpp:951
 msgid "HIDE ALL allies’ plans"
-msgstr ""
+msgstr "САКРИЈ СВЕ планове савезника"
 
 #. +> devel
 #: src/whiteboard/manager.cpp:965
-#, fuzzy
-#| msgid "Show replay"
 msgid "Show plans for $player"
-msgstr "Пусти снимак"
+msgstr "Прикажи планове играча $player"
 
 #. +> devel
 #: src/whiteboard/manager.cpp:967
-#, fuzzy
-#| msgid "Replace with $player"
 msgid "Hide plans for $player"
-msgstr "$player у замену"
+msgstr "Сакриј планове играча $player"
 
 #. +> devel
 #: src/whiteboard/manager.cpp:970
 msgid "Whiteboard Options"
-msgstr ""
-
-#~ msgid "Choose the add-on to remove."
-#~ msgstr "Изаберите додатак за уклањање."
-
-#~ msgid "Uninstall add-ons"
-#~ msgstr "Деинсталирај додатке"
-
-#, fuzzy
-#~| msgid "moves"
-#~ msgid "Remove"
-#~ msgstr "кретњи"
-
-#~ msgid "Add-on '$addon|' deleted."
-#~ msgstr "Додатак ‘$addon|’ обрисан."
+msgstr "Опције блокчета"

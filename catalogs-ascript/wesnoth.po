@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2011-11-08 23:50+0100\n"
+"PO-Revision-Date: 2011-11-09 17:28+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -1848,10 +1848,15 @@ msgstr "Проблем при стварању датотека неопходн
 msgid "You have no add-ons installed."
 msgstr "Нема инсталираних додатака.|~"
 
+# |~x
+# >> @title:window|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "Confirm"
-msgstr "Потврди|~"
+msgstr ""
+"Потврди|~\n"
+"Потврда|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
@@ -1983,25 +1988,40 @@ msgstr "Тежина: |~"
 msgid "Version: "
 msgstr "Верзија: |~"
 
+# |~x
+# >> Datetime format, see 'man strftime' for possible placeholders.|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "%b %d %y"
-msgstr "%b %d %y|~"
+msgstr ""
+"%b %d %y|~\n"
+"|~e0"
 
+# |~x
+# >> Datetime format, see 'man strftime' for possible placeholders.|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "%H:%M"
-msgstr "%H.%M|~"
+msgstr ""
+"%H.%M|~\n"
+"|~e0"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
 msgid "%A, %H:%M"
 msgstr "%A, %H.%M|~"
 
+# |~x
+# >> Datetime format, see 'man strftime' for possible placeholders.|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "%b %d"
-msgstr "%b %d|~"
+msgstr ""
+"%b %d|~\n"
+"|~e0"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
@@ -2178,8 +2198,11 @@ msgstr "' (игра ће се сад угасити)|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "Loading data files"
-msgstr "Учитавам податке.|~"
+msgstr ""
+"Учитавам податке.|~\n"
+"Учитавам податке...|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
@@ -2742,8 +2765,11 @@ msgstr[3] "Морате имати барем један златник да б�
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "You have not started your turn yet. Do you really want to end your turn?"
-msgstr "Нисте ни започели свој потез, желите ли заиста већ да га окончате?|~"
+msgstr ""
+"Нисте ни започели свој потез, желите ли заиста већ да га окончате?|~\n"
+"Нисте ни започели потез, желите ли заиста већ да га окончате?|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
@@ -3355,8 +3381,11 @@ msgstr "Поразиш ли противничке вође|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "Waiting for players to join..."
-msgstr "Чекамо да се придруже играчи...|~"
+msgstr ""
+"Чекамо да се придруже играчи...|~\n"
+"Чекам да се придруже играчи...|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
@@ -4927,219 +4956,354 @@ msgstr ""
 "|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Easy|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Easy|~\n"
+#| "|~x"
 msgid "(Easy)"
-msgstr "лако|~"
+msgstr ""
+"лако|~\n"
+"(лако)|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Normal|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Normal|~\n"
+#| "|~x"
 msgid "(Normal)"
-msgstr "уобичајено|~"
+msgstr ""
+"уобичајено|~\n"
+"(нормално)|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Hard|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Hard|~\n"
+#| "|~x"
 msgid "(Hard)"
-msgstr "тешко|~"
+msgstr ""
+"тешко|~\n"
+"(тешко)|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Players: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Players: |~\n"
+#| "|~x"
 msgid "Players"
-msgstr "играча: |~"
+msgstr ""
+"играча: |~\n"
+"Играчи|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Enemy village|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Enemy village|~\n"
+#| "|~x"
 msgid "Enemies"
-msgstr "противничко село|~"
+msgstr ""
+"противничко село|~\n"
+"Противници|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Difficulty: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Difficulty: |~\n"
+#| "|~x"
 msgid "Difficulty: Easy"
-msgstr "Тежина: |~"
+msgstr ""
+"Тежина: |~\n"
+"Тежина: лако|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Difficulty: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Difficulty: |~\n"
+#| "|~x"
 msgid "Difficulty: Normal"
-msgstr "Тежина: |~"
+msgstr ""
+"Тежина: |~\n"
+"Тежина: нормално|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Difficulty: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Difficulty: |~\n"
+#| "|~x"
 msgid "Difficulty: Hard"
-msgstr "Тежина: |~"
+msgstr ""
+"Тежина: |~\n"
+"Тежина: тешко|~"
 
 # well-spelled: вигр|~
+# |~x
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgctxt "addon_type|~"
-#| msgid "MP campaign|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgctxt ""
+#| "addon_type|~\n"
+#| "|~x"
+#| msgid ""
+#| "MP campaign|~\n"
+#| "|~x"
 msgid "Main campaign define"
-msgstr "вигр. поход|~"
+msgstr ""
+"вигр. поход|~\n"
+"Дефиниција главног похода|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Campaign Design|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Campaign Design|~\n"
+#| "|~x"
 msgid "Extra campaign define"
-msgstr "Дизајн похода|~"
+msgstr ""
+"Дизајн похода|~\n"
+"Дефиниција допунског похода|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Multiplayer|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Multiplayer|~\n"
+#| "|~x"
 msgid "Multiplayer define"
-msgstr "Вишеиграње|~"
+msgstr ""
+"Вишеиграње|~\n"
+"Дефиниција вишеиграња|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Defeat enemy leader(s)|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Defeat enemy leader(s)|~\n"
+#| "|~x"
 msgid "Defeat enemy leader"
-msgstr "Поразиш ли противничке вође|~"
+msgstr ""
+"Поразиш ли противничке вође|~\n"
+"Поразиш ли противничког вођа|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Miscellaneous contributors|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Miscellaneous contributors|~\n"
+#| "|~x"
 msgid "Miscellaneous Contributors"
-msgstr "Разни доприноси|~"
+msgstr ""
+"Разни доприноси|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Turkish Translation|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Turkish Translation|~\n"
+#| "|~x"
 msgid "Irish Translation"
-msgstr "Турски превод|~"
+msgstr ""
+"Турски превод|~\n"
+"Ирски превод|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "English (GB) Translation|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "English (GB) Translation|~\n"
+#| "|~x"
 msgid "Old English Translation"
-msgstr "Британски енглески превод|~"
+msgstr ""
+"Британски енглески превод|~\n"
+"Староенглески превод|~"
 
 # well-spelled: РАЦВ|~
+# |~x
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "RACV's Translation|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "RACV's Translation|~\n"
+#| "|~x"
 msgid "RACV’s Translation"
-msgstr "Валенсијски (РАЦВ) превод|~"
+msgstr ""
+"Валенсијски (РАЦВ) превод|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "In many campaign scenarios, you may issue simple instructions for your computer-controlled allies using the right-click context menu.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "In many campaign scenarios, you may issue simple instructions for your computer-controlled allies using the right-click context menu.|~\n"
+#| "|~x"
 msgid "In this scenario, you may issue instructions to an allied side by right-clicking on a unit that belongs to it."
-msgstr "У многим сценаријима у походу, савезницима којима управља рачунар можете издавати једноставне упуте преко контекстног менија на десни клик.|~"
+msgstr ""
+"У многим сценаријима у походу, савезницима којима управља рачунар можете издавати једноставне упуте преко контекстног менија на десни клик.|~\n"
+"У овом сценарију можете издавати упуте савезничкој страни, тако што кликнете десним на јединицу која јој припада.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Special: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Special: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description|~\n"
+#| "|~x"
 msgid "focusing on defeating $ai_controller.side_$ally_side|_current_settings.focus_on_enemy.side_description|."
-msgstr "Посебно: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description|~"
+msgstr ""
+"Посебно: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description|~\n"
+"гледа да порази $ai_controller.side_$ally_side|_current_settings.focus_on_enemy.side_description|.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Special: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Special: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description|~\n"
+#| "|~x"
 msgid "focusing on protecting $ai_controller.side_$ally_side|_current_settings.protect.side_description|."
-msgstr "Посебно: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description|~"
+msgstr ""
+"Посебно: $ai_controller.side_$ally_side|_current_settings.currently_doing_special_description|~\n"
+"гледа да заштити $ai_controller.side_$ally_side|_current_settings.protect.side_description|.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
 #| "Objective: $ai_controller.side_$ally_side|_current_settings.currently_doing_objective_description\n"
-#| "Behavior: $ai_controller.side_$ally_side|_current_settings.currently_doing_behaviour_description|~"
+#| "Behavior: $ai_controller.side_$ally_side|_current_settings.currently_doing_behaviour_description|~\n"
+#| "|~x"
 msgid ""
 "Objective: $ai_controller.side_$ally_side|_current_settings.currently_doing_objective_description\n"
 "Behavior: $ai_controller.side_$ally_side|_current_settings.currently_doing_behavior_description"
 msgstr ""
 "Циљ: $ai_controller.side_$ally_side|_current_settings.currently_doing_objective_description\n"
-"Понашање: $ai_controller.side_$ally_side|_current_settings.currently_doing_behaviour_description|~"
+"Понашање: $ai_controller.side_$ally_side|_current_settings.currently_doing_behaviour_description|~\n"
+"Циљ: $ai_controller.side_$ally_side|_current_settings.currently_doing_objective_description\n"
+"Понашање: $ai_controller.side_$ally_side|_current_settings.currently_doing_behavior_description|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Don't make a wish.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Don't make a wish.|~\n"
+#| "|~x"
 msgid "Don’t make a wish."
-msgstr "Не пожели ништа.|~"
+msgstr ""
+"Не пожели ништа.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Sprinkling this water on melee weapons grants them the 'arcane' damage type until the end of the current scenario. Should $unit.name use it?|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Sprinkling this water on melee weapons grants them the 'arcane' damage type until the end of the current scenario. Should $unit.name use it?|~\n"
+#| "|~x"
 msgid "Sprinkling this water on melee weapons grants them the <i>arcane</i> damage type until the end of the current scenario. Should $unit.name use it?"
-msgstr "Попрскана овом водом, оружја за блиску борбу наносе ‘волшебни’ вид штете до краја текућег сценарија. Да ли да је $unit.name употреби?|~"
+msgstr ""
+"Попрскана овом водом, оружја за блиску борбу наносе ‘волшебни’ вид штете до краја текућег сценарија. Да ли да је $unit.name употреби?|~\n"
+"Попрскана овом водом, оружја за блиску борбу наносе <i>волшебни</i> вид штете до краја текућег сценарија. Да ли да је $unit.name употреби?|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Take it|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Take it|~\n"
+#| "|~x"
 msgctxt "holy water"
 msgid "Take it"
-msgstr "Узми|~"
+msgstr ""
+"Узми|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Leave it|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Leave it|~\n"
+#| "|~x"
 msgctxt "holy water"
 msgid "Leave it"
-msgstr "Остави|~"
+msgstr ""
+"Остави|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "This water will make melee weapons have the 'arcane' damage type until the end of the current scenario.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "This water will make melee weapons have the 'arcane' damage type until the end of the current scenario.|~\n"
+#| "|~x"
 msgid "This water will make melee weapons have the <i>arcane</i> damage type until the end of the current scenario."
-msgstr "Ова вода дарује оружју за блиску борбу ‘волшебни’ вид штете до краја текућег сценарија.|~"
+msgstr ""
+"Ова вода дарује оружју за блиску борбу ‘волшебни’ вид штете до краја текућег сценарија.|~\n"
+"Ова вода дарује оружју за блиску борбу <i>волшебни</i> вид штете до краја текућег сценарија.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Leave it|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Leave it|~\n"
+#| "|~x"
 msgctxt "storm trident"
 msgid "Leave it"
-msgstr "Остави|~"
+msgstr ""
+"Остави|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Take it|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Take it|~\n"
+#| "|~x"
 msgctxt "storm trident"
 msgid "Take it"
-msgstr "Узми|~"
+msgstr ""
+"Узми|~\n"
+"|~e0"
 
 # |, no-check-spell|~
+# |~e0
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Egar,Elch,Ga'ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin Ohn,Garrutin,Gart'lo,Garushi,Gashinar,Gashol,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Gost,Grada,Græt Ihn,Grashen,Gravlan,Grag,Grelnit,Grenn Ohn,Greth,Gribbel,Gridda,Grish,Gron Ihn,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kask,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Margian,Mar'Ildian,Markan,Markinos,Mar Ohn,Marra Di'lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermad,Vertick,Vladnir|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Egar,Elch,Ga'ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin Ohn,Garrutin,Gart'lo,Garushi,Gashinar,Gashol,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Gost,Grada,Græt Ihn,Grashen,Gravlan,Grag,Grelnit,Grenn Ohn,Greth,Gribbel,Gridda,Grish,Gron Ihn,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kask,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Margian,Mar'Ildian,Markan,Markinos,Mar Ohn,Marra Di'lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermad,Vertick,Vladnir|~\n"
+#| "|~x"
 msgid "Egar,Elch,Ga’ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin Ohn,Garrutin,Gart’lo,Garushi,Gashinar,Gashol,Gaushii,Gaustun,Gegchi,Gelka Kon,Gelknick,Gillan,Gisharri,Gost,Grada,Græt Ihn,Grashen,Gravlan,Grag,Grelnit,Grenn Ohn,Greth,Gribbel,Gridda,Grish,Gron Ihn,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kask,Kegrid,Kerath Ihn,Kerath Kor,Klash,Kon Garashé,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah Toa,Margian,Mar’Ildian,Markan,Markinos,Mar Ohn,Marra Di’lek,Marrito,Marritos,Merkush,Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermad,Vertick,Vladnir"
-msgstr "Егар,Елх,Гаш,Гадеј Ин,Гакреј Ом,Галек,Галш,Гарадин,Гарчин,Гарк,Гарлан,Гарлин Он,Гарутин,Гартло,Гаруши,Гашинар,Гашел,Гауши,Гаустун,Гекчи,Гелка Кон,Гелкник,Гилан,Гишари,Гост,Града,Грет Ин,Грашен,Гравлан,Греј,Грелнит,Грен Он,Грец,Грибел,Грида,Гриш,Грон Их,Ка,Кан Их,Кариган,Кари Кон,Карон,Касп,Кегрид,Керат Ин,Керат Кор,Клаш,Кон Гарашеј,Краг,Крал Он,Кран Кор,Краш,Краслар,Кренли,Круген,Кун,Ма Тоа,Мал,Маргијан,Марилдијан,Маркан,Маркинос,Мар Он,Мара Дилек,Марито,Маритос,Меркуш,Меритос Гарк,Морустеј,Мур,Оматакеј,Решан,Вашит,Велник,Вералон,Верамо,Верат,Вердит,Веркон,Верлин,Вермад,Вертик,Владнир|~"
+msgstr ""
+"Егар,Елх,Гаш,Гадеј Ин,Гакреј Ом,Галек,Галш,Гарадин,Гарчин,Гарк,Гарлан,Гарлин Он,Гарутин,Гартло,Гаруши,Гашинар,Гашел,Гауши,Гаустун,Гекчи,Гелка Кон,Гелкник,Гилан,Гишари,Гост,Града,Грет Ин,Грашен,Гравлан,Греј,Грелнит,Грен Он,Грец,Грибел,Грида,Гриш,Грон Их,Ка,Кан Их,Кариган,Кари Кон,Карон,Касп,Кегрид,Керат Ин,Керат Кор,Клаш,Кон Гарашеј,Краг,Крал Он,Кран Кор,Краш,Краслар,Кренли,Круген,Кун,Ма Тоа,Мал,Маргијан,Марилдијан,Маркан,Маркинос,Мар Он,Мара Дилек,Марито,Маритос,Меркуш,Меритос Гарк,Морустеј,Мур,Оматакеј,Решан,Вашит,Велник,Вералон,Верамо,Верат,Вердит,Веркон,Верлин,Вермад,Вертик,Владнир|~\n"
+"|~e0"
 
 # |, no-check-spell|~
+# |~e0
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Amprixta,Anexir,Anitraz,Arix,Axiz,Bzz'Kza,Chamil,Cleezi,Clezz,Fazzis,Fizztrax,Flixta,Flizzil,Frikes,Frizzle,Hasz,Heffez,Hertrazzir,Hesz,Hezzir,Hezzis,Hix,Inexis,Irix,Jezzix,Jizz,Kaliez,Kepzs,Kernix,Kersezz,Kertrasz,Kerx,Kerxenix,Kezz,Klexaz,Klezyx,Krarax,Krenarex,Krex,Krinex,Krisess,Laizix,Lazki,Lixeez,Merax,Mexiss,Moxanzz,Naxisz,Nix,Pekzs,Plaxis,Plesix,Presch,Sailik,Salanix,Salik,Sandix,Saprazz,Satras,Skalix,Skandix,Skazix,Skeely,Skeezix,Sklizle,Skrez,Slizilx,Sprizz,Ssexur,Ssizer,Ssorix,Sszasz,Sterizz,Talerez,Tarex,Tarnix,Tezzaz,Tirasch,Tirax,Tirix,Trezz,Venezz,Vriss,Waks,Xaffrasz,Xartrez,Xasz,Xaztex,Xerxix,Xirasz,Xirr,Xirtras,Xirtrez,Xirz,Zandler,Zedrix,Zilrix,Zizzasz,Zslap,Zzalkz,Zzupde|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Amprixta,Anexir,Anitraz,Arix,Axiz,Bzz'Kza,Chamil,Cleezi,Clezz,Fazzis,Fizztrax,Flixta,Flizzil,Frikes,Frizzle,Hasz,Heffez,Hertrazzir,Hesz,Hezzir,Hezzis,Hix,Inexis,Irix,Jezzix,Jizz,Kaliez,Kepzs,Kernix,Kersezz,Kertrasz,Kerx,Kerxenix,Kezz,Klexaz,Klezyx,Krarax,Krenarex,Krex,Krinex,Krisess,Laizix,Lazki,Lixeez,Merax,Mexiss,Moxanzz,Naxisz,Nix,Pekzs,Plaxis,Plesix,Presch,Sailik,Salanix,Salik,Sandix,Saprazz,Satras,Skalix,Skandix,Skazix,Skeely,Skeezix,Sklizle,Skrez,Slizilx,Sprizz,Ssexur,Ssizer,Ssorix,Sszasz,Sterizz,Talerez,Tarex,Tarnix,Tezzaz,Tirasch,Tirax,Tirix,Trezz,Venezz,Vriss,Waks,Xaffrasz,Xartrez,Xasz,Xaztex,Xerxix,Xirasz,Xirr,Xirtras,Xirtrez,Xirz,Zandler,Zedrix,Zilrix,Zizzasz,Zslap,Zzalkz,Zzupde|~\n"
+#| "|~x"
 msgid "Amprixta,Anexir,Anitraz,Arix,Axiz,Bzz’Kza,Chamil,Cleezi,Clezz,Fazzis,Fizztrax,Flixta,Flizzil,Frikes,Frizzle,Hasz,Heffez,Hertrazzir,Hesz,Hezzir,Hezzis,Hix,Inexis,Irix,Jezzix,Jizz,Kaliez,Kepzs,Kernix,Kersezz,Kertrasz,Kerx,Kerxenix,Kezz,Klexaz,Klezyx,Krarax,Krenarex,Krex,Krinex,Krisess,Laizix,Lazki,Lixeez,Merax,Mexiss,Moxanzz,Naxisz,Nix,Pekzs,Plaxis,Plesix,Presch,Sailik,Salanix,Salik,Sandix,Saprazz,Satras,Skalix,Skandix,Skazix,Skeely,Skeezix,Sklizle,Skrez,Slizilx,Sprizz,Ssexur,Ssizer,Ssorix,Sszasz,Sterizz,Talerez,Tarex,Tarnix,Tezzaz,Tirasch,Tirax,Tirix,Trezz,Venezz,Vriss,Waks,Xaffrasz,Xartrez,Xasz,Xaztex,Xerxix,Xirasz,Xirr,Xirtras,Xirtrez,Xirz,Zandler,Zedrix,Zilrix,Zizzasz,Zslap,Zzalkz,Zzupde"
-msgstr "Амприкста,Анексир,Анитраз,Арикс,Аксиз,Бзаказа,Камил,Клези,Клез,Фазис,Фистракс,Фликста,Флизил,Фрикес,Фризл,Хаз,Хефез,Хертразир,Хез,Хезир,Хезис,Хикс,Инексис,Ирикс,Језикс,Јиз,Калијез,Кепс,Керникс,Керсез,Кертраз,Керкс,Керксеникс,Кез,Клексаз,Клезикс,Краракс,Кренарекс,Крекс,Кринекс,Крисес,Лајзикс,Ласки,Ликсез,Меракс,Мексис,Моханз,Наксиз,Никс,Пекс,Плаксис,Плесикс,Пресх,Сајлик,Селаникс,Салик,Сандикс,Сапраз,Сатрас,Скаликс,Скандикс,Сказикс,Скели,Скезикс,Склизл,Скрез,Слизликс,Сприз,Сексур,Сизер,Сорикс,Саз,Стериз,Талерез,Тарекс,Тарникс,Тезаз,Тирасх,Тиракс,Тирикс,Трез,Венез,Врис,Вакс,Ксафраз,Ксартрез,Ксаз,Ксастекс,Ксерксикс,Ксираз,Ксир,Ксиртраз,Ксиртрез,Ксирз,Зандлер,Зедрикс,Зилрикс,Зизаз,Злап,Залкс,Зупде|~"
+msgstr ""
+"Амприкста,Анексир,Анитраз,Арикс,Аксиз,Бзаказа,Камил,Клези,Клез,Фазис,Фистракс,Фликста,Флизил,Фрикес,Фризл,Хаз,Хефез,Хертразир,Хез,Хезир,Хезис,Хикс,Инексис,Ирикс,Језикс,Јиз,Калијез,Кепс,Керникс,Керсез,Кертраз,Керкс,Керксеникс,Кез,Клексаз,Клезикс,Краракс,Кренарекс,Крекс,Кринекс,Крисес,Лајзикс,Ласки,Ликсез,Меракс,Мексис,Моханз,Наксиз,Никс,Пекс,Плаксис,Плесикс,Пресх,Сајлик,Селаникс,Салик,Сандикс,Сапраз,Сатрас,Скаликс,Скандикс,Сказикс,Скели,Скезикс,Склизл,Скрез,Слизликс,Сприз,Сексур,Сизер,Сорикс,Саз,Стериз,Талерез,Тарекс,Тарникс,Тезаз,Тирасх,Тиракс,Тирикс,Трез,Венез,Врис,Вакс,Ксафраз,Ксартрез,Ксаз,Ксастекс,Ксерксикс,Ксираз,Ксир,Ксиртраз,Ксиртрез,Ксирз,Зандлер,Зедрикс,Зилрикс,Зизаз,Злап,Залкс,Зупде|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Turns: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Turns: |~\n"
+#| "|~x"
 msgid "Turns run out"
-msgstr "потеза: |~"
+msgstr ""
+"потеза: |~\n"
+"Истекну ли потези|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Early finish bonus.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Early finish bonus.|~\n"
+#| "|~x"
 msgid "(early finish bonus)"
-msgstr "Бонус за рани завршетак.|~"
+msgstr ""
+"Бонус за рани завршетак.|~\n"
+"(бонус за рани завршетак)|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Alternative objective:|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Alternative objective:|~\n"
+#| "|~x"
 msgid "Bonus objective:"
-msgstr "Алтернативни циљ:|~"
+msgstr ""
+"Алтернативни циљ:|~\n"
+"Бонус циљ:|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-09-10 14:16:50+0200 | 1
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
 #| "Lawful units fight better during the day, and worse at night.\n"
 #| "\n"
 #| "Day: +25% Damage\n"
 #| "Night: -25% Damage|~\n"
+#| "|~x\n"
 #| "|~x"
 msgid ""
 "Lawful units fight better during the day, and worse at night.\n"
@@ -5151,15 +5315,21 @@ msgstr ""
 "\n"
 "дању: +25% штете\n"
 "ноћу: -25% штете|~\n"
-"|~e0"
+"|~e0\n"
+"Законите јединице боље се боре дању, а лошије ноћу.\n"
+"\n"
+"дању: +25% штете\n"
+"ноћу: –25% штете|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-09-10 14:16:50+0200 | 1
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
 #| "Chaotic units fight better at night, and worse during the day.\n"
 #| "\n"
 #| "Day: -25% Damage\n"
 #| "Night: +25% Damage|~\n"
+#| "|~x\n"
 #| "|~x"
 msgid ""
 "Chaotic units fight better at night, and worse during the day.\n"
@@ -5171,278 +5341,465 @@ msgstr ""
 "\n"
 "дању: -25% штете\n"
 "ноћу: +25% штете|~\n"
+"|~e0\n"
+"Хаотичне јединице боље се боре ноћу, а лошије дању.\n"
+"\n"
+"дању: –25% штете\n"
+"ноћу: +25% штете|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "$name's Bridge,$name's Crossing|~\n"
+#| "|~x"
+msgid "$name|’s Bridge,$name|’s Crossing"
+msgstr ""
+"$name|ски мост,$name|ски прелаз|~\n"
 "|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "$name's Bridge,$name's Crossing|~"
-msgid "$name|’s Bridge,$name|’s Crossing"
-msgstr "$name|ски мост,$name|ски прелаз|~"
-
-#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "$name's Highway,$name's Pass,Path of $name|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "$name's Highway,$name's Pass,Path of $name|~\n"
+#| "|~x"
 msgid "$name|’s Highway,$name|’s Pass,Path of $name"
-msgstr "$name|ски друм,$name|ски проход,$name|ски пут|~"
+msgstr ""
+"$name|ски друм,$name|ски проход,$name|ски пут|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "$name Forest,$name's Forest|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "$name Forest,$name's Forest|~\n"
+#| "|~x"
 msgid "$name Forest,$name|’s Forest"
-msgstr "$name|ска шума,$name|ска гора|~"
+msgstr ""
+"$name|ска шума,$name|ска гора|~\n"
+"|~e0"
 
 # well-spelled: ај|~
+# |~e0
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "$name's Peak,Mount $name|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "$name's Peak,Mount $name|~\n"
+#| "|~x"
 msgid "$name|’s Peak,Mount $name"
-msgstr "$name|ски врх,$name|ска планина,$name|ник,$name|ај|~"
+msgstr ""
+"$name|ски врх,$name|ска планина,$name|ник,$name|ај|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "$name's Swamp,$name|marsh,$name|fen|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "$name's Swamp,$name|marsh,$name|fen|~\n"
+#| "|~x"
 msgid "$name|’s Swamp,$name|marsh,$name|fen"
-msgstr "$name|ска мочвара,$name|ска бара,$name|ска мртваја,$name|ски плав|~"
+msgstr ""
+"$name|ска мочвара,$name|ска бара,$name|ска мртваја,$name|ски плав|~\n"
+"|~e0"
 
 # >> village names|~
+# |~e0
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "$road's Rest,$road's Waypoint,$road|bury,$road|ham,$name|bury,$name|ham|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "$road's Rest,$road's Waypoint,$road|bury,$road|ham,$name|bury,$name|ham|~\n"
+#| "|~x"
 msgid "$road|’s Rest,$road|’s Waypoint,$road|bury,$road|ham,$name|bury,$name|ham"
-msgstr "$road|ски пут,$road|ска тачка,$road|бери,$road|ем,$name|бери,$name|ем|~"
+msgstr ""
+"$road|ски пут,$road|ска тачка,$road|бери,$road|ем,$name|бери,$name|ем|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc|~\n"
+#| "|~x"
 msgid "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc,Junicode-Regular.ttf"
-msgstr "DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc|~"
+msgstr ""
+"DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc|~\n"
+"DejaVuSans.ttf,Andagii.ttf,wqy-zenhei.ttc,Junicode-Regular.ttf|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "DejaVu Sans,Andagii,WenQuanYi Zen Hei|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "DejaVu Sans,Andagii,WenQuanYi Zen Hei|~\n"
+#| "|~x"
 msgid "DejaVu Sans,Andagii,WenQuanYi Zen Hei,Junicode"
-msgstr "DejaVu Sans,Andagii,WenQuanYi Zen Hei|~"
+msgstr ""
+"DejaVu Sans,Andagii,WenQuanYi Zen Hei|~\n"
+"DejaVu Sans,Andagii,WenQuanYi Zen Hei,Junicode|~"
 
 # >> Great Mage Delfador|~
+# |~e0
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Don't neglect to earn your leader experience! You need to keep him safe, but if you coddle him too much he may be at too low a level to survive future battles.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Don't neglect to earn your leader experience! You need to keep him safe, but if you coddle him too much he may be at too low a level to survive future battles.|~\n"
+#| "|~x"
 msgid "Don’t neglect to earn your leader experience! You need to keep him safe, but if you coddle him too much he may be too weak to survive future battles."
-msgstr "Не занемари прибављање искуства своме вођу! Мораш га чувати од зла, али ако га превише мазиш, може остати прениског нивоа да би прежив‹ио будуће бојеве.|~"
+msgstr ""
+"Не занемари прибављање искуства своме вођу! Мораш га чувати од зла, али ако га превише мазиш, може остати прениског нивоа да би прежив‹ио будуће бојеве.|~\n"
+"Не занемари прибављање искуства своме вођу! Мораш га чувати од зла, али ако га превише мазиш, може остати преслаб да би прежив‹ио будуће бојеве.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- Great Mage Delfador, 516YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- Great Mage Delfador, 516YW|~\n"
+#| "|~x"
 msgid "<i>― Great Mage Delfador, 516YW</i>"
-msgstr "— велики маг Делфадор, 516.гв.|~"
+msgstr ""
+"— велики маг Делфадор, 516.гв.|~\n"
+"<i>— велики маг Делфадор, 516. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "In the 'Actions' menu, you can select 'Show Enemy Moves' to highlight all possible hexes your adversary can actually move to (assuming your units stay where they are). Use this to make sure the enemy can't reach your weak or injured units on his next turn.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "In the 'Actions' menu, you can select 'Show Enemy Moves' to highlight all possible hexes your adversary can actually move to (assuming your units stay where they are). Use this to make sure the enemy can't reach your weak or injured units on his next turn.|~\n"
+#| "|~x"
 msgid "In the <b>Actions</b> menu, you can select <b>Show Enemy Moves</b> to highlight all the hexes your adversary can move to (assuming your units stay where they are). Use this to make sure the enemy can’t reach your weak or injured units on his next turn."
-msgstr "Из менија „~%/Actions/“ изаберите „~%/Show Enemy Moves/“ да се истакну сва поља која ваш противник заиста може досећи (под претпоставком да ваше јединице остану гд›је јесу). Корисно да се ув›јерите да непријатељ не може дохватити ваше ослабљене или повр›ијеђене јединице у наредном потезу.|~"
+msgstr ""
+"Из менија „~%/Actions/“ изаберите „~%/Show Enemy Moves/“ да се истакну сва поља која ваш противник заиста може досећи (под претпоставком да ваше јединице остану гд›је јесу). Корисно да се ув›јерите да непријатељ не може дохватити ваше ослабљене или повр›ијеђене јединице у наредном потезу.|~\n"
+"Из менија <b>~%/Actions/</b> изаберите <b>~%/Show Enemy Moves/</b> да се истакну сва поља која ваш противник може досећи (под претпоставком да ваше јединице остану гд›је јесу). Корисно да се ув›јерите да непријатељ не може дохватити ваше ослабљене или повр›ијеђене јединице у наредном потезу.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- The Wesnoth Tactical Guide|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- The Wesnoth Tactical Guide|~\n"
+#| "|~x"
 msgid "<i>― The Wesnoth Tactical Guide</i>"
-msgstr "— Тактички водич Веснота|~"
+msgstr ""
+"— Тактички водич Веснота|~\n"
+"<i>— Тактички водич Веснота</i>|~"
 
 # >> King Konrad|~
+# |~e0
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Units with the 'intelligent' trait need fewer experience points to level up. Early in a campaign, try to give killing blows to these units so you can get some high-level troops sooner.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Units with the 'intelligent' trait need fewer experience points to level up. Early in a campaign, try to give killing blows to these units so you can get some high-level troops sooner.|~\n"
+#| "|~x"
 msgid "Units with the <i>Intelligent</i> trait need fewer experience points to level up. Early in a campaign, try to give killing blows to these units so you can get some high-level troops sooner."
-msgstr "Јединице с особином ‘оштроумности’ захт›ијевају мање искуствених поена за напредовање. Покушај да њима задајеш завршне ударце рано током похода, како би војска раније добила јединице виших нивоа.|~"
+msgstr ""
+"Јединице с особином ‘оштроумности’ захт›ијевају мање искуствених поена за напредовање. Покушај да њима задајеш завршне ударце рано током похода, како би војска раније добила јединице виших нивоа.|~\n"
+"Јединице с особином <i>оштроумности</i> захт›ијевају мање искуствених поена за напредовање. Покушај да њима задајеш завршне ударце рано током похода, како би војска раније добила јединице виших нивоа.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- King Konrad, 536YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- King Konrad, 536YW|~\n"
+#| "|~x"
 msgid "<i>― King Konrad, 536YW</i>"
-msgstr "— краљ Конрад, 536.гв.|~"
+msgstr ""
+"— краљ Конрад, 536.гв.|~\n"
+"<i>— краљ Конрад, 536. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "The encircling tactic is very powerful, particularly against fast opponents. By placing two units on opposite sides of an enemy, their zones of control will restrict it to one hex of movement in any direction.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The encircling tactic is very powerful, particularly against fast opponents. By placing two units on opposite sides of an enemy, their zones of control will restrict it to one hex of movement in any direction.|~\n"
+#| "|~x"
 msgid "The encircling tactic is very powerful, particularly against fast opponents. By placing two units on opposite sides of an enemy, their zones of control will restrict it to one hex of movement in any direction. Unfortunately, you must completely surround skirmishers to immobilize them."
-msgstr "Тактика опкољавања је врло моћна, посебице против хитрог противника. Поставивши две јединице на супротним странама непријатељске, њихови надзорни појасеви ограничиће јој кретање на једно поље у било ком см›јеру.|~"
+msgstr ""
+"Тактика опкољавања је врло моћна, посебице против хитрог противника. Поставивши две јединице на супротним странама непријатељске, њихови надзорни појасеви ограничиће јој кретање на једно поље у било ком см›јеру.|~\n"
+"Тактика опкољавања је врло моћна, посебице против хитрог противника. Поставивши две јединице на супротним странама непријатељске, њихови надзорни појасеви ограничиће јој кретање на једно поље у било ком см›јеру. Чаркаши се, нажалост, морају потпуно опколити да би се спутали.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- Memoirs of Gweddry, 627YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- Memoirs of Gweddry, 627YW|~\n"
+#| "|~x"
 msgid "<i>― Memoirs of Gweddry, 627YW</i>"
-msgstr "— Животопис Гведријев, 627.гв.|~"
+msgstr ""
+"— Животопис Гведријев, 627.гв.|~\n"
+"<i>— Животопис Гведријев, 627. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you choose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "You can access the 'Recruit' and 'Recall' commands by right-clicking on a castle tile. That will let you choose which hex you put a new unit in. Placing units wisely can sometimes let you reach a village a turn earlier.|~\n"
+#| "|~x"
 msgid "You can access the <b>Recruit</b> and <b>Recall</b> commands by right-clicking on a castle tile. That will let you choose the precise hex you put a unit in. Placing units wisely can sometimes let you reach a village a turn earlier."
-msgstr "Наредбама „~%/Recruit/“ и „~%/Recall/“ можете приступити десним кликом на поље замка. Потом изаберите поље гд›је желите да се нова јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније.|~"
+msgstr ""
+"Наредбама „~%/Recruit/“ и „~%/Recall/“ можете приступити десним кликом на поље замка. Потом изаберите поље гд›је желите да се нова јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније.|~\n"
+"Наредбама <b>~%/Recruit/</b> и <b>~%/Recall/</b> можете приступити десним кликом на поље замка. Потом изаберите поље гд›је желите да се јединица појави. Мудрим постављањем јединица можете досећи покоје село потез раније.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "There are some helpful summary screens in the main menu: for instance, the 'Status Table' will let you know how your enemies are doing, and how you are doing in comparison.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "There are some helpful summary screens in the main menu: for instance, the 'Status Table' will let you know how your enemies are doing, and how you are doing in comparison.|~\n"
+#| "|~x"
 msgid "There are some helpful summary screens in the main menu: for instance, the <b>Status Table</b> will let you know how your enemies are doing, and how you are doing in comparison."
-msgstr "Главни мени пружа неколико сажетака од користи; на пример, „~%/Status Table/“ показује како се држе ваши непријатељи, и ви насупрот њима.|~"
+msgstr ""
+"Главни мени пружа неколико сажетака од користи; на пример, „~%/Status Table/“ показује како се држе ваши непријатељи, и ви насупрот њима.|~\n"
+"Главни мени пружа неколико сажетака од користи; на пример, <b>~%/Status Table/</b> показује како се држе ваши непријатељи, и ви насупрот њима.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Units with the 'quick' trait move one extra hex per turn. This can be very important when moving through difficult terrain such as water or caves. It can make the difference between being able to move one hex or two.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Units with the 'quick' trait move one extra hex per turn. This can be very important when moving through difficult terrain such as water or caves. It can make the difference between being able to move one hex or two.|~\n"
+#| "|~x"
 msgid "Units with the <i>Quick</i> trait get an extra movement point per turn. This can be very important when moving through difficult terrain such as water or caves. It can make the difference between being able to move one hex or two."
-msgstr "Јединице с особином ‘хитрости’ крећу се поље више по потезу. Ово може бити пресудно при напредовању тешким тереном, попут воде или пећина, гд›је чини разлику између једног и два поља могућег покрета.|~"
+msgstr ""
+"Јединице с особином ‘хитрости’ крећу се поље више по потезу. Ово може бити пресудно при напредовању тешким тереном, попут воде или пећина, гд›је чини разлику између једног и два поља могућег покрета.|~\n"
+"Јединице с особином <i>хитрости</i> имају један поен покрета више по потезу. Ово може бити пресудно при напредовању тешким тереном, попут воде или пећина, гд›је чини разлику између једног и два поља могућег покрета.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- High Lord Kalenz, 470YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- High Lord Kalenz, 470YW|~\n"
+#| "|~x"
 msgid "<i>― High Lord Kalenz, 470YW</i>"
-msgstr "— надгосподар Каленз, 470.гв.|~"
+msgstr ""
+"— надгосподар Каленз, 470.гв.|~\n"
+"<i>— надгосподар Каленз, 470. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "After you have played a few scenarios, read the 'Gameplay' section in the help screen carefully. Details become important as scenarios get harder!|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "After you have played a few scenarios, read the 'Gameplay' section in the help screen carefully. Details become important as scenarios get harder!|~\n"
+#| "|~x"
 msgid "After you have played a few scenarios, read the <b>Gameplay</b> section in the <b>Help</b> screen carefully. Details become important as scenarios get harder!"
-msgstr "Пошто одиграте неколико сценарија, пажљиво прочитајте од›јељак „~%/Gameplay/“ у оквиру помоћи. Детаљи су све важнији како нараста тежина сценарија!|~"
+msgstr ""
+"Пошто одиграте неколико сценарија, пажљиво прочитајте од›јељак „~%/Gameplay/“ у оквиру помоћи. Детаљи су све важнији како нараста тежина сценарија!|~\n"
+"Пошто одиграте неколико сценарија, пажљиво прочитајте од›јељак <b>~%/Gameplay/</b> у оквиру помоћи. Детаљи су све важнији како нараста тежина сценарија!|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- The Wesnoth Community|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- The Wesnoth Community|~\n"
+#| "|~x"
 msgid "<i>― The Wesnoth Community</i>"
-msgstr "— Заједница Веснота|~"
+msgstr ""
+"— Заједница Веснота|~\n"
+"<i>— Заједница Веснота</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- Royal Compendium of Battle Terminology - Volume II, 212YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- Royal Compendium of Battle Terminology - Volume II, 212YW|~\n"
+#| "|~x"
 msgid "<i>― Royal Compendium of Battle Terminology: Volume II (reprinted 221YW)</i>"
-msgstr "— Краљевски зборник бојне терминологије, том II, 212.гв.|~"
+msgstr ""
+"— Краљевски зборник бојне терминологије, том II, 212.гв.|~\n"
+"<i>— Краљевски зборник бојне терминологије, том II, 212. гв. (доштампано 221. гв.)</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- Handbook of Tactical Analysis Volume I - Haldric II, 42YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- Handbook of Tactical Analysis Volume I - Haldric II, 42YW|~\n"
+#| "|~x"
 msgid "<i>― Haldric II, 42YW, Handbook of Tactical Analysis: Volume I</i>"
-msgstr "— Приручник тактичке анализе, том I — Халдрик Други, 42.гв.|~"
+msgstr ""
+"— Приручник тактичке анализе, том I — Халдрик Други, 42.гв.|~\n"
+"<i>— Халдрик Други, Приручник тактичке анализе, том I, 42. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "If you are playing with 'Shroud' or 'Fog of War' turned on, you won't know what you're facing. In this case, long-range scouting units are worth their cost. Try to choose scouts that can easily move across the surrounding terrain, because units see as far as they can move in one turn.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "If you are playing with 'Shroud' or 'Fog of War' turned on, you won't know what you're facing. In this case, long-range scouting units are worth their cost. Try to choose scouts that can easily move across the surrounding terrain, because units see as far as they can move in one turn.|~\n"
+#| "|~x"
 msgid "If you are playing with <b>Shroud</b> or <b>Fog of War</b> active, you won’t know what you’re facing. In this case, long-range scouting units are worth their cost. Try to choose scouts that can easily move across the surrounding terrain, because units can only see as far as they can move in one turn."
-msgstr "Ако вам је током игре укључен ‘покров’ или ‘магла рата’, нећете знати с чим сте суочени. У тим околностима, далекодометне извиђачке јединице вр›иједе сваку пару. Покушајте да бирате оне које ће се лако кретати околним тереном, јер јединице виде онолико далеко колико могу превалити у једном потезу.|~"
+msgstr ""
+"Ако вам је током игре укључен ‘покров’ или ‘магла рата’, нећете знати с чим сте суочени. У тим околностима, далекодометне извиђачке јединице вр›иједе сваку пару. Покушајте да бирате оне које ће се лако кретати околним тереном, јер јединице виде онолико далеко колико могу превалити у једном потезу.|~\n"
+"Ако вам је током игре активан <b>покров</b> или <b>магла рата</b>, нећете знати с чим сте суочени. У тим околностима, далекодометне извиђачке јединице вр›иједе сваку пару. Покушајте да бирате оне које ће се лако кретати околним тереном, јер јединице виде онолико далеко колико могу превалити у једном потезу.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "There are six types of attacks: pierce, blade, impact, fire, cold, and arcane. Different units have weaknesses against different types of attacks. Right-click on a unit and select 'Unit Description' to see which attacks it is resistant to, and which will affect it the most.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "There are six types of attacks: pierce, blade, impact, fire, cold, and arcane. Different units have weaknesses against different types of attacks. Right-click on a unit and select 'Unit Description' to see which attacks it is resistant to, and which will affect it the most.|~\n"
+#| "|~x"
 msgid "There are six types of attack: <i>pierce</i>, <i>blade</i>, <i>impact</i>, <i>fire</i>, <i>cold</i> and <i>arcane</i>. Different units have weaknesses against different types of attacks. Right-click on a unit and select <b>Unit Description</b> to see which attacks it is resistant to, and which will affect it the most."
-msgstr "Постоји шест типова напада: пробој, с›јечиво, удар, ватра, мраз и волшебни. Они различито утичу на различите јединице. Кликните десним на јединицу, изаберите „~%/Unit Description/“, гд›је можете вид›јети на које је нападе отпорна, а који ће је најтеже погодити.|~"
+msgstr ""
+"Постоји шест типова напада: пробој, с›јечиво, удар, ватра, мраз и волшебни. Они различито утичу на различите јединице. Кликните десним на јединицу, изаберите „~%/Unit Description/“, гд›је можете вид›јети на које је нападе отпорна, а који ће је најтеже погодити.|~\n"
+"Постоји шест типова напада: <i>пробој</i>, <i>с›јечиво</i>, <i>удар</i>, <i>ватра</i>, <i>мраз</i> и <i>волшебни</i>. Они различито утичу на различите јединице. Кликните десним на јединицу, изаберите <b>~%/Unit Description/</b>, гд›је можете вид›јети на које је нападе отпорна, а који ће је најтеже погодити.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "The terrain your units are occupying determines the chance your opponents have of hitting them in battle. The defensive rating for the currently selected unit in the currently selected terrain is displayed in the top right corner of the screen.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The terrain your units are occupying determines the chance your opponents have of hitting them in battle. The defensive rating for the currently selected unit in the currently selected terrain is displayed in the top right corner of the screen.|~\n"
+#| "|~x"
 msgid "The terrain occupied by your units is the main factor determining the chance that they will be hit. The defensive rating for the currently selected unit in the currently selected terrain is displayed in the top right corner of the screen."
-msgstr "Терен на коме се ваше јединице налазе одређује у каквој су противници прилици да је погоде у борби. Одбрамбени разред тренутно изабране јединице приказан је у горњем десном углу екрана.|~"
+msgstr ""
+"Терен на коме се ваше јединице налазе одређује у каквој су противници прилици да је погоде у борби. Одбрамбени разред тренутно изабране јединице приказан је у горњем десном углу екрана.|~\n"
+"Терен на коме се ваше јединице налазе главни је чинилац за то какви су изгледи противника да их погоде. Одбрамбени разред тренутно изабране јединице приказан је у горњем десном углу екрана.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Poisoned units will lose eight hitpoints every turn until they are one point from death. They will remain at death's door until the poison is removed. Healers can prevent a poisoned unit from deteriorating, but the poison will not be removed unless the unit regenerates, or begins a turn in a village or next to a unit with the 'Cures' ability.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Poisoned units will lose eight hitpoints every turn until they are one point from death. They will remain at death's door until the poison is removed. Healers can prevent a poisoned unit from deteriorating, but the poison will not be removed unless the unit regenerates, or begins a turn in a village or next to a unit with the 'Cures' ability.|~\n"
+#| "|~x"
 msgid "Poisoned units will lose eight hitpoints every turn until they are one point from dying. They will then remain at death’s door until the poison is removed. Healers can prevent a poisoned unit from deteriorating, but the poison will not be removed unless the unit regenerates, or begins a turn in a village or next to a unit with the <i>Cures</i> ability."
-msgstr "Отроване јединице губиће осам ударпоена по потезу, док не спадну на један пред смрт. Стајаће тако на корак до смрти док се отров не исц›ијели. Видари могу спр›ијечити погоршање стања отроване јединице, али се отрова неће р›ијешити док се не обнови (ако може), или започне потез у селу или надомак јединице са способношћу ‘исц›јељивања’.|~"
+msgstr ""
+"Отроване јединице губиће осам ударпоена по потезу, док не спадну на један пред смрт. Стајаће тако на корак до смрти док се отров не исц›ијели. Видари могу спр›ијечити погоршање стања отроване јединице, али се отрова неће р›ијешити док се не обнови (ако може), или започне потез у селу или надомак јединице са способношћу ‘исц›јељивања’.|~\n"
+"Отроване јединице губиће осам ударпоена по потезу, док не спадну на један пред смрт. Стајаће тада на корак до смрти док се отров не исц›ијели. Видари могу спр›ијечити погоршање стања отроване јединице, али се отрова неће р›ијешити док се не обнови (ако може), или започне потез у селу или надомак јединице са способношћу <i>исц›јељивања</i>.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "You can use units from a previous scenario by selecting 'Recall' in the 'Actions' menu. By recalling the same units over and over, you can build up a powerful and experienced army.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "You can use units from a previous scenario by selecting 'Recall' in the 'Actions' menu. By recalling the same units over and over, you can build up a powerful and experienced army.|~\n"
+#| "|~x"
 msgid "You can reuse units from a previous scenario by selecting <b>Recall</b> from the <b>Actions</b> menu. By recalling the same units over and over, you can build up a powerful and experienced army."
-msgstr "Можете користити јединице из претходног сценарија, помоћу „~%/Recall/“ из менија „~%/Actions/“. Узастопним сазивањем истих јединица, можете изградити моћну и искусну војску.|~"
+msgstr ""
+"Можете користити јединице из претходног сценарија, помоћу „~%/Recall/“ из менија „~%/Actions/“. Узастопним сазивањем истих јединица, можете изградити моћну и искусну војску.|~\n"
+"Можете користити јединице из претходног сценарија, помоћу <b>~%/Recall/</b> из менија <b>~%/Actions/</b>. Узастопним сазивањем истих јединица, можете изградити моћну и искусну војску.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Units of level one and higher have a 'Zone of Control' in each of the hexes next to them. If a unit moves into an enemy's zone of control, it may not move any further that turn. This means that units can have two empty hexes between them and still create a barrier to the enemy. However, skirmishers are skilled enough to ignore these zones.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Units of level one and higher have a 'Zone of Control' in each of the hexes next to them. If a unit moves into an enemy's zone of control, it may not move any further that turn. This means that units can have two empty hexes between them and still create a barrier to the enemy. However, skirmishers are skilled enough to ignore these zones.|~\n"
+#| "|~x"
 msgid "Units of level one and higher have a <i>Zone of Control</i> in the six hexes around them. If a unit moves into an enemy’s zone of control, it may not move any further that turn. This means that units can have two empty hexes between them and still create a barrier to the enemy. Beware, though: skirmishers can pass through these gaps."
-msgstr "Јединице првог и вишег нивоа постављају „надзорни појас“ у свим пољима до себе. Ако се јединица пом›јери у непријатељев надзорни појас, не може се више пом›ијерати у току тог потеза. Ово значи да и јединице размакнуте два поља запречавају пут непријатељу. Чаркаши су, међутим, довољно в›јешти да их се ови појасеви не дотичу.|~"
+msgstr ""
+"Јединице првог и вишег нивоа постављају „надзорни појас“ у свим пољима до себе. Ако се јединица пом›јери у непријатељев надзорни појас, не може се више пом›ијерати у току тог потеза. Ово значи да и јединице размакнуте два поља запречавају пут непријатељу. Чаркаши су, међутим, довољно в›јешти да их се ови појасеви не дотичу.|~\n"
+"Јединице првог и вишег нивоа постављају <i>надзорни појас</i> у шест поља око себе. Ако се јединица пом›јери у непријатељев надзорни појас, не може се више пом›ијерати у току тог потеза. Ово значи да и јединице размакнуте два поља запречавају пут непријатељу. Али пазите: чаркаши, међутим, могу да прођу кроз овакве процепе.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "The chance to hit a unit usually depends on how well that unit can defend itself in the terrain in which it is standing. However, magical attacks always have a 70% chance to hit, and units with the 'marksman' ability will always have at least 60% chance to hit when attacking on their turn.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The chance to hit a unit usually depends on how well that unit can defend itself in the terrain in which it is standing. However, magical attacks always have a 70% chance to hit, and units with the 'marksman' ability will always have at least 60% chance to hit when attacking on their turn.|~\n"
+#| "|~x"
 msgid "The chance to hit a unit usually depends on how well that unit can defend itself in the terrain in which it is standing. However, magical attacks always have a 70% chance to hit, and units with the <i>Marksman</i> ability are guaranteed at least a 60% chance of a hit when they attack on their own turn."
-msgstr "Изгледи да се јединица погоди зависе од тога колико се она може добро бранити на терену гд›је се налази. Ипак, магични напади ув›ијек имају 70% изгледа за погодак, а јединице с особином ‘оштроокости’ имају бар 60% изгледа када ударе у свом потезу.|~"
+msgstr ""
+"Изгледи да се јединица погоди зависе од тога колико се она може добро бранити на терену гд›је се налази. Ипак, магични напади ув›ијек имају 70% изгледа за погодак, а јединице с особином ‘оштроокости’ имају бар 60% изгледа када ударе у свом потезу.|~\n"
+"Изгледи да се јединица погоди зависе од тога колико се она може добро бранити на терену гд›је се налази. Ипак, магични напади ув›ијек имају 70% изгледа за погодак, а јединице с особином <i>оштроокости</i> имају гарантованих бар 60% изгледа када ударе у свом потезу.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- Handbook of Tactical Analysis Volume II - Haldric II, 43YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- Handbook of Tactical Analysis Volume II - Haldric II, 43YW|~\n"
+#| "|~x"
 msgid "<i>― Haldric II, 43YW, Handbook of Tactical Analysis: Volume II</i>"
-msgstr "— Приручник тактичке анализе, том II — Халдрик Други, 43.гв.|~"
+msgstr ""
+"— Приручник тактичке анализе, том II — Халдрик Други, 43.гв.|~\n"
+"<i>— Халдрик Други, Приручник тактичке анализе, том II, 43. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Don't move an injured unit if you don't have to - let it rest. If a unit does not move or attack, it will recover two hitpoints at the beginning of its next turn.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Don't move an injured unit if you don't have to - let it rest. If a unit does not move or attack, it will recover two hitpoints at the beginning of its next turn.|~\n"
+#| "|~x"
 msgid "Don’t move an injured unit if you don’t have to — let it rest. If a unit does not move or attack, it will recover two hitpoints at the beginning of its next turn."
-msgstr "Не пом›ијерајте повређену јединицу ако не морате — нека се одмори. Ако се јединица нити пом›јери нити нападне, повратиће 2 ударпоена на почетку с‹љедећег потеза.|~"
+msgstr ""
+"Не пом›ијерајте повређену јединицу ако не морате — нека се одмори. Ако се јединица нити пом›јери нити нападне, повратиће 2 ударпоена на почетку с‹љедећег потеза.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "On maps where 'Shroud' or 'Fog of War' has been enabled, a unit's sightlines are limited by its maximum movement. Remember this when deciding what unit is best to scout specific types of terrain.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "On maps where 'Shroud' or 'Fog of War' has been enabled, a unit's sightlines are limited by its maximum movement. Remember this when deciding what unit is best to scout specific types of terrain.|~\n"
+#| "|~x"
 msgid "On maps where <i>Shroud</i> or <i>Fog of War</i> has been enabled, all units’ sightlines are limited by their maximum movement. If you have some valuable but slow units, keep at least one fast unit with them so that you are not caught out by a surprise attack."
-msgstr "На мапама гд›је је укључен ‘покров’ или ‘магла рата’, видик јединице ограничен је њеним дометом кретања. Мислите на то када одлучујете која је јединица најбоља за извиђање одређеног терена.|~"
+msgstr ""
+"На мапама гд›је је укључен ‘покров’ или ‘магла рата’, видик јединице ограничен је њеним дометом кретања. Мислите на то када одлучујете која је јединица најбоља за извиђање одређеног терена.|~\n"
+"На мапама гд›је је укључен <i>покров</i> или <i>магла рата</i>, видик свих јединица ограничен је њиховим дометом кретања. Ако имате неке вредне али споре јединице, држите крај њих бар једну брзу јединицу како не би биле ухваћене изненадним нападом.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- Sir Kaylan, 498YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- Sir Kaylan, 498YW|~\n"
+#| "|~x"
 msgid "<i>― Sir Kaylan, 498YW</i>"
-msgstr "— сер Кајлан, 498.гв.|~"
+msgstr ""
+"— сер Кајлан, 498.гв.|~\n"
+"<i>— сер Кајлан, 498. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- Sir Kaylan, 502YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- Sir Kaylan, 502YW|~\n"
+#| "|~x"
 msgid "<i>― Sir Kaylan, 502YW</i>"
-msgstr "— сер Кајлан, 502.гв.|~"
+msgstr ""
+"— сер Кајлан, 502.гв.|~\n"
+"<i>— сер Кајлан, 502. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- Meneldur, 123YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- Meneldur, 123YW|~\n"
+#| "|~x"
 msgid "<i>― Meneldur, 123YW</i>"
-msgstr "— Менелдур, 123.гв.|~"
+msgstr ""
+"— Менелдур, 123.гв.|~\n"
+"<i>— Менелдур, 123. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "In most campaigns you will receive a gold bonus for finishing early, depending on the number of villages on the map and the number of turns you finish early. You will always earn more gold this way than through capturing villages and waiting for turns to run out.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "In most campaigns you will receive a gold bonus for finishing early, depending on the number of villages on the map and the number of turns you finish early. You will always earn more gold this way than through capturing villages and waiting for turns to run out.|~\n"
+#| "|~x"
 msgid "In most campaigns you will receive a gold bonus for finishing early, depending on the number of villages on the map and the number of turns remaining. You will usually earn more gold this way than through capturing villages and waiting for the turns to run out."
-msgstr "У већини похода добијаћете новчане бонусе за рано завршавање сценарија, већ према броју села на мапи и броју потеза које нисте истрошили. Овако ћете ув›ијек добити више злата, него када бисте запос›иједали села и чекали истицање потеза.|~"
+msgstr ""
+"У већини похода добијаћете новчане бонусе за рано завршавање сценарија, већ према броју села на мапи и броју потеза које нисте истрошили. Овако ћете ув›ијек добити више злата, него када бисте запос›иједали села и чекали истицање потеза.|~\n"
+"У већини похода добијаћете новчане бонусе за рано завршавање сценарија, већ према броју села на мапи и броју преосталих потеза. Овако ћете обично добити више злата, него када бисте запос›иједали села и чекали истицање потеза.|~"
 
 # >> Handbook of Tactical Analysis Volume I - Haldric II|~
+# |~e0
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Your leader can recruit or recall units from any keep inside a castle, not just the keep they start on. You can capture a keep from an enemy and recruit from there. Also, some of your allies may be willing to make room for you on their keep so you can recruit there.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Your leader can recruit or recall units from any keep inside a castle, not just the keep they start on. You can capture a keep from an enemy and recruit from there. Also, some of your allies may be willing to make room for you on their keep so you can recruit there.|~\n"
+#| "|~x"
 msgid "<i>Leaders</i> can recruit or recall units from any keep inside a castle, not just the keep they start on. Sometimes your allies may be willing to make room for you on their keep so you can recruit from there, and you can even capture an enemy’s keep and use that."
-msgstr "Твој вођ може унајмљивати или сазивати јединице са било које куле унутар замка, не само из оног одакле је кренуо. Можеш заробити непријатељев замак, и оданде унајмљивати. Такође, можда ће и неки савезник бити вољан да ти привремено уступи свој замак.|~"
+msgstr ""
+"Твој вођ може унајмљивати или сазивати јединице са било које куле унутар замка, не само из оног одакле је кренуо. Можеш заробити непријатељев замак, и оданде унајмљивати. Такође, можда ће и неки савезник бити вољан да ти привремено уступи свој замак.|~\n"
+"<i>Вођи</i> могу унајмљивати или сазивати јединице са било које куле унутар замка, не само из оног одакле су кренули. Понекад ће неки савезник бити вољан да ти привремено уступи свој замак ради унајмљивања, а можеш чак заробити непријатељев замак па оданде унајмљивати.|~"
 
 # >> Handbook of Tactical Analysis Volume I - Haldric II|~
+# |~e0
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Units with the 'leadership' ability help lower-level adjacent units on the same side fight better. Use leaders to help your other units level up faster.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Units with the 'leadership' ability help lower-level adjacent units on the same side fight better. Use leaders to help your other units level up faster.|~\n"
+#| "|~x"
 msgid "Units with the <i>Leadership</i> ability help lower-level adjacent units on the same side fight better. You can move these units slowly along your battle lines and give bonuses to large numbers of lower-level troops."
-msgstr "Јединице са способношћу ‘вођства’ чине да се сус›једне јединице нижег нивоа боре боље. Користи вође да потпомогнеш напредовање другим јединицама.|~"
+msgstr ""
+"Јединице са способношћу ‘вођства’ чине да се сус›једне јединице нижег нивоа боре боље. Користи вође да потпомогнеш напредовање другим јединицама.|~\n"
+"Јединице са способношћу <i>вођства</i> чине да се сус›једне јединице нижег нивоа боре боље. Овакве јединице можеш споро померати дуж својих фронтова, дајући бонусе великом броју јединица нижег нивоа.|~"
 
 # >> Princess Li'sar|~
+# |~e0
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Use lines of units to screen injured units to let them recover.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Use lines of units to screen injured units to let them recover.|~\n"
+#| "|~x"
 msgid "Use lines of troops to screen your injured units while they recover."
-msgstr "Користи фронтове јединица за заштиту рањених при опоравку.|~"
+msgstr ""
+"Користи фронтове јединица за заштиту рањених при опоравку.|~\n"
+"Користи фронтове јединица за заштиту својих рањених током опоравка.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- Princess Li'sar, 515YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- Princess Li'sar, 515YW|~\n"
+#| "|~x"
 msgid "<i>― Princess Li’sar, 515YW</i>"
-msgstr "— принцеза Лиза́ра, 515.гв.|~"
+msgstr ""
+"— принцеза Лиза́ра, 515.гв.|~\n"
+"<i>— принцеза Лиза́ра, 515. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Read the hotkeys list in the preferences menu.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Read the hotkeys list in the preferences menu.|~\n"
+#| "|~x"
 msgid "Read the <b>Hotkeys</b> list in the <b>Preferences</b> menu."
-msgstr "Прочитајте списак пречица са тастатуре у менију поставки.|~"
+msgstr ""
+"Прочитајте списак пречица са тастатуре у менију поставки.|~\n"
+"Прочитајте списак пречица са тастатуре у менију <b>Поставке</b>.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "If you move a unit, but don't attack or discover any additional information, you can undo your move by pressing 'u'.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "If you move a unit, but don't attack or discover any additional information, you can undo your move by pressing 'u'.|~\n"
+#| "|~x"
 msgid "If you move a unit, but don’t attack or discover any additional information, you can undo your move by pressing <b>u</b>."
-msgstr "Ако пом›јерите јединицу, а притом не нападнете или сазнате нове чињенице, можете опозвати потез притиском на ‘u’.|~"
+msgstr ""
+"Ако пом›јерите јединицу, а притом не нападнете или сазнате нове чињенице, можете опозвати потез притиском на ‘u’.|~\n"
+"Ако пом›јерите јединицу, а притом не нападнете или сазнате нове чињенице, можете опозвати потез притиском на <b>u</b>.|~"
 
 # >> Scroll of Chantal|~
 # |~e0
@@ -5457,371 +5814,596 @@ msgstr ""
 "|~e0"
 
 # >> Chantal is an elvish druid (female).|~
+# |~e0
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- The Scroll of Chantal, 516YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- The Scroll of Chantal, 516YW|~\n"
+#| "|~x"
 msgid "<i>― The Scroll of Chantal, 516YW</i>"
-msgstr "— Свитак Чанталин, 516.гв.|~"
+msgstr ""
+"— Свитак Чанталин, 516.гв.|~\n"
+"<i>— Свитак Чанталин, 516. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "The 'slow' attack ability makes enemy units move slower and halves the damage they do on all attacks until they end a turn.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The 'slow' attack ability makes enemy units move slower and halves the damage they do on all attacks until they end a turn.|~\n"
+#| "|~x"
 msgid "The <i>Slow</i> attack makes enemy units move slower and halves the damage they do on all attacks until they end a turn."
-msgstr "Удар ‘успорења’ успорава кретање непријатељске јединице и преполовљава штету коју наноси у свим нападима до краја потеза.|~"
+msgstr ""
+"Удар ‘успорења’ успорава кретање непријатељске јединице и преполовљава штету коју наноси у свим нападима до краја потеза.|~\n"
+"Удар <i>успорења</i> успорава кретање непријатељске јединице и преполовљава штету коју наноси у свим нападима до краја потеза.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Arcane attacks are very powerful against undead.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Arcane attacks are very powerful against undead.|~\n"
+#| "|~x"
 msgid "<i>Arcane</i> attacks are very powerful against undead."
-msgstr "Волшебни напади су врло моћни против немртвих.|~"
+msgstr ""
+"Волшебни напади су врло моћни против немртвих.|~\n"
+"<i>Волшебни</i> напади су врло моћни против немртвих.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- Great Sage Dacyn, 626YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- Great Sage Dacyn, 626YW|~\n"
+#| "|~x"
 msgid "<i>― Great Sage Dacyn, 626YW</i>"
-msgstr "— велики мудрац Десин, 626.гв.|~"
+msgstr ""
+"— велики мудрац Десин, 626.гв.|~\n"
+"<i>— велики мудрац Десин, 626. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Instead of leveling up, high-level units gain an 'After Maximum Level Advancement' (AMLA), which usually increases the unit's maximum hitpoints by three and full-heals them. This is much less than the normal benefits gained from advancing a level, so it is generally more useful to try to advance your lower-level units instead.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Instead of leveling up, high-level units gain an 'After Maximum Level Advancement' (AMLA), which usually increases the unit's maximum hitpoints by three and full-heals them. This is much less than the normal benefits gained from advancing a level, so it is generally more useful to try to advance your lower-level units instead.|~\n"
+#| "|~x"
 msgid "Instead of leveling up, high-level units gain an <i>After Maximum Level Advancement</i> (AMLA) bonus, which usually increases the unit’s maximum hitpoints by three and fully heals it. This is much less than the normal benefits of advancing a level, so it is generally wiser to advance your lower-level units instead."
-msgstr "Ум›јесто новог нивоа, јединице високог нивоа добијају „напредовање по највишем нивоу“ (НАПОН), што им обично повећава максимум ударпоена за три и потпуно их за‹љечује. Ово је много мања добит од оне при напредовању у нивоу, тако да је обично корисније да радите на унапређењу јединица нижег нивоа.|~"
+msgstr ""
+"Ум›јесто новог нивоа, јединице високог нивоа добијају „напредовање по највишем нивоу“ (НАПОН), што им обично повећава максимум ударпоена за три и потпуно их за‹љечује. Ово је много мања добит од оне при напредовању у нивоу, тако да је обично корисније да радите на унапређењу јединица нижег нивоа.|~\n"
+"Ум›јесто новог нивоа, јединице високог нивоа добијају бонус <i>напредовања по највишем нивоу</i> (НАПОН), што им обично повећава максимум ударпоена за три и потпуно их за‹љечује. Ово је много мања добит од оне при напредовању у нивоу, тако да је обично мудрије да унапређујете јединица нижег нивоа.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Nearly every icon and word in Wesnoth's playing screen has a tooltip. Place your mouse pointer over one to get an explanation or description.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Nearly every icon and word in Wesnoth's playing screen has a tooltip. Place your mouse pointer over one to get an explanation or description.|~\n"
+#| "|~x"
 msgid "Nearly every button and icon in the Wesnoth game has a tooltip. Hover the mouse pointer over any button or icon to get a description or explanation of what it does."
-msgstr "Скоро свака икона и р›ијеч на Веснотовом играчком екрану има облачић —  поставите показивач миша изнад онога за шта желите објашњење или опис.|~"
+msgstr ""
+"Скоро свака икона и р›ијеч на Веснотовом играчком екрану има облачић —  поставите показивач миша изнад онога за шта желите објашњење или опис.|~\n"
+"Скоро свако дугме и икона током играња Веснота има облачић — поставите показивач миша изнад онога за шта желите опис или објашњење шта ради.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "- Queen Li'sar, 528YW|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "- Queen Li'sar, 528YW|~\n"
+#| "|~x"
 msgid "<i>― Queen Li’sar, 528YW</i>"
-msgstr "— краљица Лиза́ра, 528.гв.|~"
+msgstr ""
+"— краљица Лиза́ра, 528.гв.|~\n"
+"<i>— краљица Лиза́ра, 528. гв.</i>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "You cannot undo a move that reveals any fog or shroud. Toggle the 'Delay Shroud Updates' option on when you need to move units while retaining the ability to undo.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "You cannot undo a move that reveals any fog or shroud. Toggle the 'Delay Shroud Updates' option on when you need to move units while retaining the ability to undo.|~\n"
+#| "|~x"
 msgid "You cannot undo a move that uncovers hexes hidden by fog or shroud. Turn on the <b>Delay Shroud Updates</b> option when you need to move units while retaining the ability to undo, or use the new Whiteboard planning tool."
-msgstr "Не можете опозвати покретање које открије д‹ио магле или покрова. Укључите опцију „~%/Delay Shroud Updates/“ ако желите да ув›ијек можете опозвати покретање.|~"
+msgstr ""
+"Не можете опозвати покретање које открије д‹ио магле или покрова. Укључите опцију „~%/Delay Shroud Updates/“ ако желите да ув›ијек можете опозвати покретање.|~\n"
+"Не можете опозвати покрет који открије поља сакривена маглом или покровом. Укључите опцију <b>~%/Delay Shroud Updates/</b> ако желите да ув›ијек можете опозвати покрет, или употребите блокче, нову алатку за планирање.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Unwalkable|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Unwalkable|~\n"
+#| "|~x"
 msgctxt "female"
 msgid "unhealable"
-msgstr "расц›јеп|~"
+msgstr ""
+"расц›јеп|~\n"
+"неисц›јељива|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Unwalkable|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Unwalkable|~\n"
+#| "|~x"
 msgid "unhealable"
-msgstr "расц›јеп|~"
+msgstr ""
+"расц›јеп|~\n"
+"неисц›јељив|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "No gold carried over to the next scenario.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "No gold carried over to the next scenario.|~\n"
+#| "|~x"
 msgid "%d%% of gold carried over to the next scenario."
-msgstr "Злато се не преноси у с‹љедећи сценарио.|~"
+msgstr ""
+"Злато се не преноси у с‹љедећи сценарио.|~\n"
+"%d%% злата се преноси у с‹љедећи сценарио.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "mechanical|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "mechanical|~\n"
+#| "|~x"
 msgid "electrical"
-msgstr "механичност|~"
+msgstr ""
+"механичност|~\n"
+"електрични|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "You don't have a leader to recruit with.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "You don't have a leader to recruit with.|~\n"
+#| "|~x"
 msgid "You don’t have a leader to recall with."
-msgstr "Морате имати вођа да бисте унајмљивали.|~"
+msgstr ""
+"Морате имати вођа да бисте унајмљивали.|~\n"
+"Морате имати вођа да бисте сазивали.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "You must have your leader on a keep to recruit or recall units.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "You must have your leader on a keep to recruit or recall units.|~\n"
+#| "|~x"
 msgid "None of your leaders is able to recall that unit."
-msgstr "Вођ вам мора бити на кули да би најмио или сазивао јединице.|~"
+msgstr ""
+"Вођ вам мора бити на кули да би најмио или сазивао јединице.|~\n"
+"Ниједан од ваших вођа не може да сазове ту јединцу.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "You must have your leader on a keep to recruit or recall units.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "You must have your leader on a keep to recruit or recall units.|~\n"
+#| "|~x"
 msgid "You must have a leader on a keep who is able to recall that unit."
-msgstr "Вођ вам мора бити на кули да би најмио или сазивао јединице.|~"
+msgstr ""
+"Вођ вам мора бити на кули да би најмио или сазивао јединице.|~\n"
+"Морате на кули имати вођа који може да сазове ту јединицу.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "There are no vacant castle tiles in which to recruit a unit.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "There are no vacant castle tiles in which to recruit a unit.|~\n"
+#| "|~x"
 msgid "There are no vacant castle tiles in which to recall the unit."
-msgstr "У замку нема више слободних поља за новопридошле јединице.|~"
+msgstr ""
+"У замку нема више слободних поља за новопридошле јединице.|~\n"
+"У замку нема више слободних поља за сазивање јединице.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "You don't have a leader to recruit with.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "You don't have a leader to recruit with.|~\n"
+#| "|~x"
 msgid "You don’t have a leader to recruit with."
-msgstr "Морате имати вођа да бисте унајмљивали.|~"
+msgstr ""
+"Морате имати вођа да бисте унајмљивали.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "You must have your leader on a keep to recruit or recall units.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "You must have your leader on a keep to recruit or recall units.|~\n"
+#| "|~x"
 msgid "You must have a leader on a keep who is able to recruit the unit."
-msgstr "Вођ вам мора бити на кули да би најмио или сазивао јединице.|~"
+msgstr ""
+"Вођ вам мора бити на кули да би најмио или сазивао јединице.|~\n"
+"Морате на кули имати вођа који може да унајми ту јединицу.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "There are no vacant castle tiles in which to recruit a unit.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "There are no vacant castle tiles in which to recruit a unit.|~\n"
+#| "|~x"
 msgid "There are no vacant castle tiles in which to recruit the unit."
-msgstr "У замку нема више слободних поља за новопридошле јединице.|~"
+msgstr ""
+"У замку нема више слободних поља за новопридошле јединице.|~\n"
+"У замку нема више слободних поља за унајмљивање јединице.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "B|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "B|~\n"
+#| "|~x"
 msgctxt "unit_byte"
 msgid "B"
-msgstr "B|~"
+msgstr ""
+"B|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Requesting list of add-ons|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Requesting list of add-ons|~\n"
+#| "|~x"
 msgid "Requesting terms"
-msgstr "Тражим списак додатака|~"
+msgstr ""
+"Тражим списак додатака|~\n"
+"Тражим услове|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Requesting list of add-ons|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Requesting list of add-ons|~\n"
+#| "|~x"
 msgid "Requesting the addon to be deleted"
-msgstr "Тражим списак додатака|~"
+msgstr ""
+"Тражим списак додатака|~\n"
+"Тражим брисање додатка|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Downloads|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Downloads|~\n"
+#| "|~x"
 msgid "Downloading..."
-msgstr "преузето|~"
+msgstr ""
+"преузето|~\n"
+"Преузимам...|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "The add-on has an invalid file or directory name and can not be installed.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The add-on has an invalid file or directory name and can not be installed.|~\n"
+#| "|~x"
 msgid "The add-on has an invalid file or directory name and cannot be installed."
-msgstr "Додатак има лоше име датотеке или фасцикле и не може се инсталирати.|~"
+msgstr ""
+"Додатак има лоше име датотеке или фасцикле и не може се инсталирати.|~\n"
+"|~e0"
 
+# |~x
+# >> @title:window|~
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Dependencies|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Dependencies|~\n"
+#| "|~x"
 msgid "Install dependencies"
-msgstr "Зависности|~"
+msgstr ""
+"Зависности|~\n"
+"Инсталирање зависности|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Connecting to Server...|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Connecting to Server...|~\n"
+#| "|~x"
 msgid "Connecting..."
-msgstr "Повезујем се са сервером...|~"
+msgstr ""
+"Повезујем се са сервером...|~\n"
+"Повезујем се...|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Downloads|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Downloads|~\n"
+#| "|~x"
 msgid "Download"
-msgstr "преузето|~"
+msgstr ""
+"преузето|~\n"
+"Преузми|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "File I/O Error while reading the game|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "File I/O Error while reading the game|~\n"
+#| "|~x"
 msgid "File I/O Error while reading the game: '"
-msgstr "У/И грешка у датотеци приликом читања позиције|~"
+msgstr ""
+"У/И грешка у датотеци приликом читања позиције|~\n"
+"У/И грешка у датотеци приликом читања позиције: '|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Don't show again|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Don't show again|~\n"
+#| "|~x"
 msgid "Don’t show again"
-msgstr "Не показуј поново|~"
+msgstr ""
+"Не показуј поново|~\n"
+"Не приказуј поново|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Initializing teams|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Initializing teams|~\n"
+#| "|~x"
 msgid "Initializing user interface"
-msgstr "Припремам тимове...|~"
+msgstr ""
+"Припремам тимове...|~\n"
+"Припремам корисничко сучеље...|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Loading game configuration.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Loading game configuration.|~\n"
+#| "|~x"
 msgid "Loading game configuration"
-msgstr "Учитавам поставу игре.|~"
+msgstr ""
+"Учитавам поставу игре.|~\n"
+"Учитавам поставу игре...|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
 #. modified: ilic | 2011-05-03 23:30:18+0200 | o
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "Chat Log"
 msgstr ""
 "Дневник ћаскања|~\n"
-"|~"
+"|~\n"
+"|~e0"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: ilic | 2010-02-20 10:48:51+0100 | o
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
 #| "|~x\n"
-#| "Verifying cache...|~"
+#| "Verifying cache...|~\n"
+#| "|~x"
 msgid "Verifying cache"
 msgstr ""
 "Оверавам кеш...|~\n"
+"|~e0\n"
 "|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Reading files and creating cache...|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Reading files and creating cache...|~\n"
+#| "|~x"
 msgid "Reading files and creating cache"
-msgstr "Читам датотеке и стварам кеш...|~"
+msgstr ""
+"Читам датотеке и стварам кеш...|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Reading unit files...|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Reading unit files...|~\n"
+#| "|~x"
 msgid "Reading unit files"
-msgstr "Читам датотеке јединица...|~"
+msgstr ""
+"Читам датотеке јединица...|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Re-initialize fonts for the current language.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Re-initialize fonts for the current language.|~\n"
+#| "|~x"
 msgid "Reinitialize fonts for the current language"
-msgstr "Поново припремам фонтове за текући језик.|~"
+msgstr ""
+"Поново припремам фонтове за текући језик.|~\n"
+"Поново припремам фонтове за текући језик...|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Searching for installed add-ons.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Searching for installed add-ons.|~\n"
+#| "|~x"
 msgid "Searching for installed add-ons"
-msgstr "Тражим инсталиране додатке.|~"
+msgstr ""
+"Тражим инсталиране додатке.|~\n"
+"Тражим инсталиране додатке...|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Loading title screen.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Loading title screen.|~\n"
+#| "|~x"
 msgid "Loading title screen"
-msgstr "Учитавам насловни екран.|~"
+msgstr ""
+"Учитавам насловни екран.|~\n"
+"Учитавам насловни екран...|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "You don't have enough gold to recruit that unit|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "You don't have enough gold to recruit that unit|~\n"
+#| "|~x"
 msgid "You don’t have enough gold to recruit that unit"
-msgstr "Немате довољно злата да унајмите ту јединицу|~"
+msgstr ""
+"Немате довољно злата да унајмите ту јединицу|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "pause at end of turn|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "pause at end of turn|~\n"
+#| "|~x"
 msgid "You cannot end your turn yet!"
-msgstr "паузирај на крају потеза|~"
+msgstr ""
+"паузирај на крају потеза|~\n"
+"Још не можете завршити потез!|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Some units have movement left. Do you really want to end your turn?|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Some units have movement left. Do you really want to end your turn?|~\n"
+#| "|~x"
 msgid "Some units have planned actions left. Do you really want to end your turn?"
-msgstr "Неке јединице се још могу кретати. Желите ли заиста да завршите потез?|~"
+msgstr ""
+"Неке јединице се још могу кретати. Желите ли заиста да завршите потез?|~\n"
+"Неке јединице имају још планираних радњи. Желите ли заиста да завршите потез?|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Sends a private message. You can't send messages to players that don't control a side in a running game you are in.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Sends a private message. You can't send messages to players that don't control a side in a running game you are in.|~\n"
+#| "|~x"
 msgid "Sends a private message. You cannot send private messages to players in a running game you observe or play in."
-msgstr "Шаље приватну поруку. Не можете слати поруке играчима који не управљају неком страном у текућој партији у којој сте и сами.|~"
+msgstr ""
+"Шаље приватну поруку. Не можете слати поруке играчима који не управљају неком страном у текућој партији у којој сте и сами.|~\n"
+"Шаље приватну поруку. Не можете слати приватне поруке играчима у текућој партији коју посматрате или у њој играте.|~"
 
+# |~x
+# well-spelled: Одоткрива|~
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Discover all units in help.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Discover all units in help.|~\n"
+#| "|~x"
 msgid "'Undiscover' all units in help."
-msgstr "Открива све јединице у помоћи.|~"
+msgstr ""
+"Открива све јединице у помоћи.|~\n"
+"„Одоткрива“ све јединице у помоћи.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Players: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Players: |~\n"
+#| "|~x"
 msgid "Layers"
-msgstr "играча: |~"
+msgstr ""
+"играча: |~\n"
+"Слојеви|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Debug mode activated!|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Debug mode activated!|~\n"
+#| "|~x"
 msgid "Planning mode activated!"
-msgstr "Исправљање активирано!|~"
+msgstr ""
+"Исправљање активирано!|~\n"
+"Режим планирања активиран!|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Debug mode deactivated!|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Debug mode deactivated!|~\n"
+#| "|~x"
 msgid "Planning mode deactivated!"
-msgstr "Исправљање деактивирано!|~"
+msgstr ""
+"Исправљање деактивирано!|~\n"
+"Режим планирања деактивиран!|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "You must have your leader on a keep to recruit or recall units.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "You must have your leader on a keep to recruit or recall units.|~\n"
+#| "|~x"
 msgid "You cannot move your leader away from the keep with some planned recruits left."
-msgstr "Вођ вам мора бити на кули да би најмио или сазивао јединице.|~"
+msgstr ""
+"Вођ вам мора бити на кули да би најмио или сазивао јединице.|~\n"
+"Не можете померити вођа са куле док има још планираних унајмљивања.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Do you want to save your game?|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Do you want to save your game?|~\n"
+#| "|~x"
 msgid "Do you want to continue?"
-msgstr "Желите ли да сачувате позицију?|~"
+msgstr ""
+"Желите ли да сачувате позицију?|~\n"
+"Желите ли да наставите?|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Warning: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Warning: |~\n"
+#| "|~x"
 msgid "Warning"
-msgstr "Упозорење: |~"
+msgstr ""
+"Упозорење: |~\n"
+"Упозорење|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "I'm Ready|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "I'm Ready|~\n"
+#| "|~x"
 msgid "I’m Ready"
-msgstr "У бој!|~"
+msgstr ""
+"У бој!|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Anonymous local player|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Anonymous local player|~\n"
+#| "|~x"
 msgid "Add named local player"
-msgstr "Никоговић|~"
+msgstr ""
+"Никоговић|~\n"
+"Додај именованог локалног играча|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Waiting for players to join...|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Waiting for players to join...|~\n"
+#| "|~x"
 msgid "Waiting for players to choose factions..."
-msgstr "Чекамо да се придруже играчи...|~"
+msgstr ""
+"Чекамо да се придруже играчи...|~\n"
+"Чекам да играчи одаберу фракције...|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "$login's game|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "$login's game|~\n"
+#| "|~x"
 msgid "$login|’s game"
-msgstr "$login-ова игра|~"
+msgstr ""
+"$login-ова игра|~\n"
+"$login|-ова игра|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: ilic | 2010-02-20 10:48:51+0100 | o
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
 #| "|~x\n"
 #| "A network disconnection has occurred, and the game\n"
-#| "cannot continue. Do you want to save the game?|~"
+#| "cannot continue. Do you want to save the game?|~\n"
+#| "|~x"
 msgid "A network disconnection has occurred, and the game cannot continue. Do you want to save the game?"
 msgstr ""
 "Мрежна веза је прекинута и игра се не може наставити.\n"
 "Желите ли да сачувате позицију?|~\n"
-"|~e0"
+"|~e0\n"
+"Мрежна веза је прекинута и игра се не може наставити. Желите ли да сачувате позицију?|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1o
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
 #| "|~x\n"
-#| "Search|~"
+#| "Search|~\n"
+#| "|~x"
 msgid "Search:"
 msgstr ""
 "Тражи:|~\n"
-"Тражи|~"
+"Тражи|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Could not connect to host.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Could not connect to host.|~\n"
+#| "|~x"
 msgid "Could not connect to host"
-msgstr "Не могу да се повежем.|~"
+msgstr ""
+"Не могу да се повежем.|~\n"
+"Не могу да се повежем са домаћином|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Error:|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Error:|~\n"
+#| "|~x"
 msgid "Error details:"
-msgstr "Грешка:|~"
+msgstr ""
+"Грешка:|~\n"
+"Детаљи грешке:|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-09-10 14:16:50+0200 | 1
@@ -5834,44 +6416,66 @@ msgstr ""
 "|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
 #| "A network disconnection has occurred, and the game\n"
-#| "cannot continue. Do you want to save the game?|~"
+#| "cannot continue. Do you want to save the game?|~\n"
+#| "|~x"
 msgid "The replay is corrupt/out of sync. It might not make much sense to continue. Do you want to save the game?"
 msgstr ""
 "Мрежна веза је прекинута и игра се не може наставити.\n"
-"Желите ли да сачувате позицију?|~"
+"Желите ли да сачувате позицију?|~\n"
+"Снимак је искварен или ван синхронизације. Вероватно нема много смисла да се настави. Желите ли да сачувате позицију?|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Type|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Type|~\n"
+#| "|~x"
 msgid "Type: "
-msgstr "тип|~"
+msgstr ""
+"тип|~\n"
+"тип: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Label: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Label: |~\n"
+#| "|~x"
 msgid "Level: "
-msgstr "Етикета: |~"
+msgstr ""
+"Етикета: |~\n"
+"ниво: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Advancements|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Advancements|~\n"
+#| "|~x"
 msgid "No advancement"
-msgstr "напредовања|~"
+msgstr ""
+"напредовања|~\n"
+"без напредовања|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Advances to: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Advances to: |~\n"
+#| "|~x"
 msgid "Advances to:"
-msgstr "може постати: |~"
+msgstr ""
+"може постати: |~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Traits|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Traits|~\n"
+#| "|~x"
 msgid "Trait: "
-msgstr "Особине|~"
+msgstr ""
+"Особине|~\n"
+"особина: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-09-10 14:16:50+0200 | 1
@@ -5891,258 +6495,421 @@ msgstr ""
 "|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Abilities: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Abilities: |~\n"
+#| "|~x"
 msgid "Ability: "
-msgstr "способности: |~"
+msgstr ""
+"способности: |~\n"
+"способност: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Terrain|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Terrain|~\n"
+#| "|~x"
 msgid "Terrain: "
-msgstr "терен|~"
+msgstr ""
+"терен|~\n"
+"терен: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Defense|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Defense|~\n"
+#| "|~x"
 msgid "Defense: "
-msgstr "одбрана|~"
+msgstr ""
+"одбрана|~\n"
+"одбрана: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "weapon range: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "weapon range: |~\n"
+#| "|~x"
 msgid "Weapon: "
-msgstr "домет оружја: |~"
+msgstr ""
+"домет оружја: |~\n"
+"оружје: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Damage|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Damage|~\n"
+#| "|~x"
 msgid "Damage: "
-msgstr "штета|~"
+msgstr ""
+"штета|~\n"
+"штета: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Total damage|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Total damage|~\n"
+#| "|~x"
 msgid "Base damage: "
-msgstr "укупна штета|~"
+msgstr ""
+"укупна штета|~\n"
+"базна штета: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Time of day|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Time of day|~\n"
+#| "|~x"
 msgid "Time of day: "
-msgstr "доба дана|~"
+msgstr ""
+"доба дана|~\n"
+"доба дана: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Leadership|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Leadership|~\n"
+#| "|~x"
 msgid "Leadership: "
-msgstr "вођство|~"
+msgstr ""
+"вођство|~\n"
+"вођство: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "slowed: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "slowed: |~\n"
+#| "|~x"
 msgid "Slowed: "
-msgstr "успорена: |~"
+msgstr ""
+"успорена: |~\n"
+"|~e0"
 
 # >> Title to table of attacks.|~
+# |~x
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgctxt "unit help|~"
-#| msgid "Attacks|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgctxt ""
+#| "unit help|~\n"
+#| "|~x"
+#| msgid ""
+#| "Attacks|~\n"
+#| "|~x"
 msgid "Attacks: "
-msgstr "Напади|~"
+msgstr ""
+"Напади|~\n"
+"напада: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "swarm|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "swarm|~\n"
+#| "|~x"
 msgid "Swarm: "
-msgstr "рој|~"
+msgstr ""
+"рој|~\n"
+"рој: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "weapon range: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "weapon range: |~\n"
+#| "|~x"
 msgid "Weapon range: "
-msgstr "домет оружја: |~"
+msgstr ""
+"домет оружја: |~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "damage type: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "damage type: |~\n"
+#| "|~x"
 msgid "Damage type: "
-msgstr "вид штете: |~"
+msgstr ""
+"вид штете: |~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "damage type: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "damage type: |~\n"
+#| "|~x"
 msgid "Damage versus: "
-msgstr "вид штете: |~"
+msgstr ""
+"вид штете: |~\n"
+"штета против: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "% accuracy|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "% accuracy|~\n"
+#| "|~x"
 msgid "Accuracy:"
-msgstr "% прецизности|~"
+msgstr ""
+"% прецизности|~\n"
+"прецизност: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "% parry|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "% parry|~\n"
+#| "|~x"
 msgid "Parry:"
-msgstr "% парирања|~"
+msgstr ""
+"% парирања|~\n"
+"парирање: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Weapon Specials|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Weapon Specials|~\n"
+#| "|~x"
 msgid "Weapon special: "
-msgstr "Својства оружја|~"
+msgstr ""
+"Својства оружја|~\n"
+"својство оружја: |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "no|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "no|~\n"
+#| "|~x"
 msgctxt "prefix_nano"
 msgid "n"
-msgstr "не|~"
+msgstr ""
+"не|~\n"
+"n|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "ai|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "ai|~\n"
+#| "|~x"
 msgctxt "prefix_atto"
 msgid "a"
-msgstr "ВИ|~"
+msgstr ""
+"ВИ|~\n"
+"a|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "KB|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "KB|~\n"
+#| "|~x"
 msgctxt "prefix_kibi"
 msgid "K"
-msgstr "kB|~"
+msgstr ""
+"kB|~\n"
+"k|~"
 
 # well-spelled: ПП|~
+# |~x
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "MP|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "MP|~\n"
+#| "|~x"
 msgctxt "prefix_mega"
 msgid "M"
-msgstr "ПП|~"
+msgstr ""
+"ПП|~\n"
+"M|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "GB|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "GB|~\n"
+#| "|~x"
 msgctxt "prefix_giga"
 msgid "G"
-msgstr "GB|~"
+msgstr ""
+"GB|~\n"
+"G|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "HP|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "HP|~\n"
+#| "|~x"
 msgctxt "prefix_peta"
 msgid "P"
-msgstr "УП|~"
+msgstr ""
+"УП|~\n"
+"P|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgctxt "short end-turn|~"
-#| msgid "E.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgctxt ""
+#| "short end-turn|~\n"
+#| "|~x"
+#| msgid ""
+#| "E.|~\n"
+#| "|~x"
 msgctxt "prefix_exa"
 msgid "E"
-msgstr "К.|~"
+msgstr ""
+"К.|~\n"
+"E|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "ai|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "ai|~\n"
+#| "|~x"
 msgctxt "infix_binary"
 msgid "i"
-msgstr "ВИ|~"
+msgstr ""
+"ВИ|~\n"
+"i|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Show replay|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Show replay|~\n"
+#| "|~x"
 msgid "Show plans for $player"
-msgstr "Пусти снимак|~"
+msgstr ""
+"Пусти снимак|~\n"
+"Прикажи планове играча $player|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Replace with $player|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Replace with $player|~\n"
+#| "|~x"
 msgid "Hide plans for $player"
-msgstr "$player у замену|~"
+msgstr ""
+"$player у замену|~\n"
+"Сакриј планове играча $player|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Compressed Saves|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Compressed Saves|~\n"
+#| "|~x"
 msgid "Compressed saves"
-msgstr "Компресоване позиције|~"
+msgstr ""
+"Компресоване позиције|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Mouse Scrolling|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Mouse Scrolling|~\n"
+#| "|~x"
 msgid "Mouse scrolling"
-msgstr "Панирање мишем|~"
+msgstr ""
+"Панирање мишем|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Middle-click Scrolling|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Middle-click Scrolling|~\n"
+#| "|~x"
 msgid "Middle-click scrolling"
-msgstr "Панирање средњим кликом|~"
+msgstr ""
+"Панирање средњим кликом|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Randomize time of day in begin|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Randomize time of day in begin|~\n"
+#| "|~x"
 msgid "Local time of day area lighting"
-msgstr "Насумично доба дана на почетку|~"
+msgstr ""
+"Насумично доба дана на почетку|~\n"
+"Осветљење подручја према локалном добу дана|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Show Titlescreen Animation|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Show Titlescreen Animation|~\n"
+#| "|~x"
 msgid "Show titlescreen animation"
-msgstr "Анимација насловног екрана|~"
+msgstr ""
+"Анимација насловног екрана|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Show Combat|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Show Combat|~\n"
+#| "|~x"
 msgid "Show combat"
-msgstr "Приказ борбе|~"
+msgstr ""
+"Приказ борбе|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Ping Timeout|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Ping Timeout|~\n"
+#| "|~x"
 msgid "Ping timeout"
-msgstr "Прековр›ијеме пинга|~"
+msgstr ""
+"Прековр›ијеме пинга|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Number of seconds to wait for a ping reply before we time out. Disable with 0.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Number of seconds to wait for a ping reply before we time out. Disable with 0.|~\n"
+#| "|~x"
 msgid "Number of seconds to wait for a ping reply before timing out. Set to 0 to disable"
-msgstr "Колико секунди чекати на одзив пинга пр›ије него што прекорачи вр›ијеме. 0 искључује.|~"
+msgstr ""
+"Колико секунди чекати на одзив пинга пр›ије него што прекорачи вр›ијеме. 0 искључује.|~\n"
+"Колико секунди чекати на одзив пинга пр›ије него што прекорачи вр›ијеме. Задајте 0 да искључите.|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Accept whisper messages from friends only|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Accept whisper messages from friends only|~\n"
+#| "|~x"
 msgid "Accept whispers from friends only"
-msgstr "Шаптачке поруке примају се само од пријатеља|~"
+msgstr ""
+"Шаптачке поруке примају се само од пријатеља|~\n"
+"Шаптања се примају само од пријатеља|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Number of seconds to wait for a ping reply before we time out. Disable with 0.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Number of seconds to wait for a ping reply before we time out. Disable with 0.|~\n"
+#| "|~x"
 msgid "Number of minutes to wait before clearing an ingame chat message. Set to 0 to disable"
-msgstr "Колико секунди чекати на одзив пинга пр›ије него што прекорачи вр›ијеме. 0 искључује.|~"
+msgstr ""
+"Колико секунди чекати на одзив пинга пр›ије него што прекорачи вр›ијеме. 0 искључује.|~\n"
+"Колико минута сачекати пре него што се почисти порука ћаскања у игри. Задајте 0 да искључите.|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Discover all units in help.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Discover all units in help.|~\n"
+#| "|~x"
 msgid "Show all unit types in help"
-msgstr "Открива све јединице у помоћи.|~"
+msgstr ""
+"Открива све јединице у помоћи.|~\n"
+"Сви типови јединица приказани у помоћи|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Choose next scenario|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Choose next scenario|~\n"
+#| "|~x"
 msgid "This is the last scenario."
-msgstr "Избор наредног сценарија.|~"
+msgstr ""
+"Избор наредног сценарија.|~\n"
+"Ово је последњи сценарио.|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
 #| "Lawful units fight better during the day, and worse at night.\n"
 #| "\n"
 #| "Day: +25% Damage\n"
-#| "Night: −25% Damage|~"
+#| "Night: −25% Damage|~\n"
+#| "|~x"
 msgid ""
 "Liminal units only reach their full strength during twilight.\n"
 "\n"
@@ -6152,270 +6919,978 @@ msgstr ""
 "Законите јединице боље се боре дању, а лошије ноћу.\n"
 "\n"
 "дању: +25% штете\n"
-"ноћу: -25% штете|~"
+"ноћу: -25% штете|~\n"
+"Двојствене јединице достижу своју пуну снагу тек око сумрака.\n"
+"\n"
+"дању: –25% штете\n"
+"ноћу: –25% штете|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Lawful units fight better by day, and chaotic units fight better at night. Neutral units are unaffected by the time of day.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Lawful units fight better by day, and chaotic units fight better at night. Neutral units are unaffected by the time of day.|~\n"
+#| "|~x"
 msgid "<i>Lawful</i> units fight better by day, and <i>chaotic</i> units fight better at night. <i>Neutral</i> units are unaffected by the time of day. The rare <i>liminal</i> units fight best during twilight."
-msgstr "Добре јединице боље се боре дању, а хаотичне јединице су јаче ноћу. На неутралне јединице доба дана не утиче.|~"
+msgstr ""
+"Добре јединице боље се боре дању, а хаотичне јединице су јаче ноћу. На неутралне јединице доба дана не утиче.|~\n"
+"<i>Добре</i> јединице боље се боре дању, а <i>хаотичне</i> јединице су јаче ноћу. На <i>неутралне</i> јединице доба дана не утиче. Ретке <i>двојствене</i> јединице најбоље се боре током сумрака.|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Are you sure you want to remove the add-on '$addon|'?|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Are you sure you want to remove the add-on '$addon|'?|~\n"
+#| "|~x"
 msgid "Are you sure you want to remove the following installed add-on?"
-msgid_plural "Are you sure you want to remove the following installed add-ons?|~"
-msgstr[0] "Желите ли заиста да уклоните ‘$addon|’?|~"
-msgstr[1] "Желите ли заиста да уклоните ‘$addon|’?|~"
-msgstr[2] "Желите ли заиста да уклоните ‘$addon|’?|~"
-msgstr[3] "Желите ли заиста да уклоните ‘$addon|’?|~"
+msgid_plural ""
+"Are you sure you want to remove the following installed add-ons?|~\n"
+"|~e0"
+msgstr[0] ""
+"Желите ли заиста да уклоните ‘$addon|’?|~\n"
+"Желите ли заиста да уклоните следеће инсталиране додатке?|~"
+msgstr[1] ""
+"Желите ли заиста да уклоните ‘$addon|’?|~\n"
+"Желите ли заиста да уклоните следеће инсталиране додатке?|~"
+msgstr[2] ""
+"Желите ли заиста да уклоните ‘$addon|’?|~\n"
+"Желите ли заиста да уклоните следеће инсталиране додатке?|~"
+msgstr[3] ""
+"Желите ли заиста да уклоните ‘$addon|’?|~\n"
+"Желите ли заиста да уклоните следећи инсталирани додатак?|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Add-on could not be deleted properly:|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Add-on could not be deleted properly:|~\n"
+#| "|~x"
 msgid "The following add-on could not be deleted properly:"
-msgid_plural "The following add-ons could not be deleted properly:|~"
-msgstr[0] "Додатак се не може усп›јешно обрисати:|~"
-msgstr[1] "Додатак се не може усп›јешно обрисати:|~"
-msgstr[2] "Додатак се не може усп›јешно обрисати:|~"
-msgstr[3] "Додатак се не може усп›јешно обрисати:|~"
+msgid_plural ""
+"The following add-ons could not be deleted properly:|~\n"
+"|~e0"
+msgstr[0] ""
+"Додатак се не може усп›јешно обрисати:|~\n"
+"Следеће додатке није било могуће правилно обрисати:|~"
+msgstr[1] ""
+"Додатак се не може усп›јешно обрисати:|~\n"
+"Следеће додатке није било могуће правилно обрисати:|~"
+msgstr[2] ""
+"Додатак се не може усп›јешно обрисати:|~\n"
+"Следеће додатке није било могуће правилно обрисати:|~"
+msgstr[3] ""
+"Додатак се не може усп›јешно обрисати:|~\n"
+"Следећи додатак није било могуће правилно обрисати:|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Add-on deleted|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Add-on deleted|~\n"
+#| "|~x"
 msgid "Add-on Deleted"
-msgid_plural "Add-ons Deleted|~"
-msgstr[0] "Додатак обрисан|~"
-msgstr[1] "Додатак обрисан|~"
-msgstr[2] "Додатак обрисан|~"
-msgstr[3] "Додатак обрисан|~"
+msgid_plural ""
+"Add-ons Deleted|~\n"
+"|~e0"
+msgstr[0] ""
+"Додатак обрисан|~\n"
+"Додаци обрисани|~"
+msgstr[1] ""
+"Додатак обрисан|~\n"
+"Додаци обрисани|~"
+msgstr[2] ""
+"Додатак обрисан|~\n"
+"Додаци обрисани|~"
+msgstr[3] ""
+"Додатак обрисан|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "The following add-on had errors and could not be loaded:|~"
-#| msgid_plural "The following add-ons had errors and could not be loaded:|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The following add-on had errors and could not be loaded:|~\n"
+#| "|~x"
+#| msgid_plural ""
+#| "The following add-ons had errors and could not be loaded:|~\n"
+#| "|~x"
 msgid "The following add-on was successfully deleted:"
-msgid_plural "The following add-ons were successfully deleted:|~"
-msgstr[0] "С‹љедећи додаци имају грешку и не могу се учитати:|~"
-msgstr[1] "С‹љедећи додаци имају грешку и не могу се учитати:|~"
-msgstr[2] "С‹љедећи додаци имају грешку и не могу се учитати:|~"
-msgstr[3] "С‹љедећи додатак има грешку и не може се учитати:|~"
+msgid_plural ""
+"The following add-ons were successfully deleted:|~\n"
+"|~e0"
+msgstr[0] ""
+"С‹љедећи додаци имају грешку и не могу се учитати:|~\n"
+"Следећи додаци успешно су обрисани:|~"
+msgstr[1] ""
+"С‹љедећи додаци имају грешку и не могу се учитати:|~\n"
+"Следећи додаци успешно су обрисани:|~"
+msgstr[2] ""
+"С‹љедећи додаци имају грешку и не могу се учитати:|~\n"
+"Следећи додаци успешно су обрисани:|~"
+msgstr[3] ""
+"С‹љедећи додатак има грешку и не може се учитати:|~\n"
+"Следећи додатак успешно је обрисан:|~"
 
+# |~x
+# >> Datetime format, see 'man strftime' for possible placeholders.|~
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "%a %b %d %H:%M %Y|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "%a %b %d %H:%M %Y|~\n"
+#| "|~x"
 msgid "%a %b %d %I:%M %p %Y"
-msgstr "%a %b %d %H.%M %Y|~"
+msgstr ""
+"%a %b %d %H.%M %Y|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Remote scenario|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Remote scenario|~\n"
+#| "|~x"
 msgid "Test scenario"
-msgstr "удаљени сценарио|~"
+msgstr ""
+"удаљени сценарио|~\n"
+"Пробни сценарио|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Scenario Start|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Scenario Start|~\n"
+#| "|~x"
 msgid "Scenario start"
-msgstr "почетак сценарија|~"
+msgstr ""
+"почетак сценарија|~\n"
+"|~e0"
 
+# |~x
+# >> Datetime format, see 'man strftime' for possible placeholders.|~
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "%A, %H:%M|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "%A, %H:%M|~\n"
+#| "|~x"
 msgid "%A, %I:%M %p"
-msgstr "%A, %H.%M|~"
+msgstr ""
+"%A, %H.%M|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "<nick>|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "<nick>|~\n"
+#| "|~x"
 msgid "<nickname>"
-msgstr "<надимак>|~"
+msgstr ""
+"<надимак>|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "<nick> <message>|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "<nick> <message>|~\n"
+#| "|~x"
 msgid "<nickname> <message>"
-msgstr "<надимак> <порука>|~"
+msgstr ""
+"<надимак> <порука>|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Add a nick to your ignores list.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Add a nick to your ignores list.|~\n"
+#| "|~x"
 msgid "Add a nickname to your ignores list."
-msgstr "Додаје надимак на списак игнорисаних.|~"
+msgstr ""
+"Додаје надимак на списак игнорисаних.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Add a nick to your friends list.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Add a nick to your friends list.|~\n"
+#| "|~x"
 msgid "Add a nickname to your friends list."
-msgstr "Додаје надимак на списак пријатеља.|~"
+msgstr ""
+"Додаје надимак на списак пријатеља.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Remove a nick from your ignores or friends list.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Remove a nick from your ignores or friends list.|~\n"
+#| "|~x"
 msgid "Remove a nickname from your ignores or friends list."
-msgstr "Уклања играча са списка игнорисаних или пријатеља.|~"
+msgstr ""
+"Уклања играча са списка игнорисаних или пријатеља.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Register your nick|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Register your nick|~\n"
+#| "|~x"
 msgid "Register your nickname"
-msgstr "Региструје ваш надимак.|~"
+msgstr ""
+"Региструје ваш надимак.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Drop your nick.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Drop your nick.|~\n"
+#| "|~x"
 msgid "Drop your nickname."
-msgstr "Испушта ваш надимак.|~"
+msgstr ""
+"Испушта ваш надимак.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Update details for your nick. For possible details see '/details'.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Update details for your nick. For possible details see '/details'.|~\n"
+#| "|~x"
 msgid "Update details for your nickname. For possible details see '/details'."
-msgstr "Ажурира детаље вашег надимка. За могуће детаље, извршити „/details“.|~"
+msgstr ""
+"Ажурира детаље вашег надимка. За могуће детаље, извршити „/details“.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Request information about a nick.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Request information about a nick.|~\n"
+#| "|~x"
 msgid "Request information about a nickname."
-msgstr "Затражите податке о надимку.|~"
+msgstr ""
+"Затражите податке о надимку.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Request a list of details you can set for your registered nick.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Request a list of details you can set for your registered nick.|~\n"
+#| "|~x"
 msgid "Request a list of details you can set for your registered nickname."
-msgstr "Захт›ијева списак детаља које можете задати уз регистровани надимак.|~"
+msgstr ""
+"Захт›ијева списак детаља које можете задати уз регистровани надимак.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "<side> <nick>|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "<side> <nick>|~\n"
+#| "|~x"
 msgid "<side> <nickname>"
-msgstr "<страна> <надимак>|~"
+msgstr ""
+"<страна> <надимак>|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Invalid alignment: '$alignment', needs to be one of lawful, neutral or chaotic.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Invalid alignment: '$alignment', needs to be one of lawful, neutral or chaotic.|~\n"
+#| "|~x"
 msgid "Invalid alignment: '$alignment', needs to be one of lawful, neutral, chaotic, or liminal."
-msgstr "Лош аргумент: ‘$alignment’ мора бити једно од lawful, neutral или chaotic.|~"
+msgstr ""
+"Лош аргумент: ‘$alignment’ мора бити једно од lawful, neutral или chaotic.|~\n"
+"Лош аргумент: ‘$alignment’ мора бити једно од lawful, neutral, chaotic или liminal.|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "The nick '$nick' is already taken.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The nick '$nick' is already taken.|~\n"
+#| "|~x"
 msgid "The nickname '$nick' is already taken."
-msgstr "Надимак „$nick“ већ је заузет.|~"
+msgstr ""
+"Надимак „$nick“ већ је заузет.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "The nick '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The nick '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed.|~\n"
+#| "|~x"
 msgid "The nickname '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed."
-msgstr "Надимак „$nick“ садржи лоше знакове. Дозвољена су само слова, бројеви, подвлаке и цртице.|~"
+msgstr ""
+"Надимак „$nick“ садржи лоше знакове. Дозвољена су само слова, бројеви, подвлаке и цртице.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "The nick '$nick' is too long. Nicks must be 18 characters or less.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The nick '$nick' is too long. Nicks must be 18 characters or less.|~\n"
+#| "|~x"
 msgid "The nickname '$nick' is too long. Nicks must be 20 characters or less."
-msgstr "Надимак „$nick“ је предугачак. Не може имати више од 18 знакова.|~"
+msgstr ""
+"Надимак „$nick“ је предугачак. Не може имати више од 18 знакова.|~\n"
+"Надимак „$nick“ је предугачак. Не може имати више од 20 знакова.|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "The nick '$nick' is reserved and cannot be used by players.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The nick '$nick' is reserved and cannot be used by players.|~\n"
+#| "|~x"
 msgid "The nickname '$nick' is reserved and cannot be used by players."
-msgstr "Надимак „$nick“ је резервисан и играчи га не могу узети.|~"
+msgstr ""
+"Надимак „$nick“ је резервисан и играчи га не могу узети.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "The nick '$nick' is not registered on this server.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The nick '$nick' is not registered on this server.|~\n"
+#| "|~x"
 msgid "The nickname '$nick' is not registered on this server."
-msgstr "Надимак „$nick“ није регистрован на овом серверу.|~"
+msgstr ""
+"Надимак „$nick“ није регистрован на овом серверу.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid " This server disallows unregistered nicks.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| " This server disallows unregistered nicks.|~\n"
+#| "|~x"
 msgid " This server disallows unregistered nicknames."
-msgstr " Овај сервер не дозвољава нерегистроване надимке.|~"
+msgstr ""
+" Овај сервер не дозвољава нерегистроване надимке.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "The nick '$nick' is registered on this server.|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "The nick '$nick' is registered on this server.|~\n"
+#| "|~x"
 msgid "The nickname '$nick' is registered on this server."
-msgstr "Надимак „$nick“ регистрован је на овом серверу.|~"
+msgstr ""
+"Надимак „$nick“ регистрован је на овом серверу.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "WARNING: There is already a client using this nick, logging in will cause that client to be kicked!|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "WARNING: There is already a client using this nick, logging in will cause that client to be kicked!|~\n"
+#| "|~x"
 msgid "WARNING: There is already a client using this nickname, logging in will cause that client to be kicked!"
-msgstr "УПОЗОРЕЊЕ: Један клијент већ има овај надимак, пријављивањем ћете га избацити!|~"
+msgstr ""
+"УПОЗОРЕЊЕ: Један клијент већ има овај надимак, пријављивањем ћете га избацити!|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Fog Of War|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Fog Of War|~\n"
+#| "|~x"
 msgid "Fog of war"
-msgstr "магла рата|~"
+msgstr ""
+"магла рата|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Unlimited Turns|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Unlimited Turns|~\n"
+#| "|~x"
 msgid "Unlimited turns"
-msgstr "неограничено|~"
+msgstr ""
+"неограничено|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Init. Limit: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Init. Limit: |~\n"
+#| "|~x"
 msgid "Init. limit: "
-msgstr "почетни лимит: |~"
+msgstr ""
+"почетни лимит: |~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Turn Bonus: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Turn Bonus: |~\n"
+#| "|~x"
 msgid "Turn bonus: "
-msgstr "бонус потеза: |~"
+msgstr ""
+"бонус потеза: |~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Action Bonus: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Action Bonus: |~\n"
+#| "|~x"
 msgid "Action bonus: "
-msgstr "бонус радњи: |~"
+msgstr ""
+"бонус радњи: |~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Village Gold: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Village Gold: |~\n"
+#| "|~x"
 msgid "Village gold: "
-msgstr "злата по селу: |~"
+msgstr ""
+"злата по селу: |~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Experience Modifier: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Experience Modifier: |~\n"
+#| "|~x"
 msgid "Experience modifier: "
-msgstr "модификатор искуства: |~"
+msgstr ""
+"модификатор искуства: |~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Quick Replays|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Quick Replays|~\n"
+#| "|~x"
 msgid "Quick replays"
-msgstr "Брзи снимци|~"
+msgstr ""
+"Брзи снимци|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Apply Filter|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Apply Filter|~\n"
+#| "|~x"
 msgid "Apply filter"
-msgstr "Прим›ијени филтер|~"
+msgstr ""
+"Прим›ијени филтер|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Vacant Slots|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Vacant Slots|~\n"
+#| "|~x"
 msgid "Vacant slots"
-msgstr "Слободна м›јеста|~"
+msgstr ""
+"Слободна м›јеста|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Friends in Game|~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Friends in Game|~\n"
+#| "|~x"
 msgid "Friends in game"
-msgstr "Пријатељи у игри|~"
+msgstr ""
+"Пријатељи у игри|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Lawful units: |~"
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Lawful units: |~\n"
+#| "|~x"
 msgid "Liminal units: "
-msgstr "законите јединице: |~"
+msgstr ""
+"законите јединице: |~\n"
+"двојствене јединице: |~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "This add-on depends upon the following add-on which you have not installed yet:|~\n"
+#| "|~x"
+#| msgid_plural ""
+#| "This add-on depends upon the following add-ons which you have not installed yet:|~\n"
+#| "|~x"
+msgid "The selected add-on has the following dependency. Do you want to install it?"
+msgid_plural ""
+"The selected add-on has the following dependencies. Do you want to install them?|~\n"
+"|~e0"
+msgstr[0] ""
+"Овај додатак се ослања на следеће који још нису инсталирани:|~\n"
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~"
+msgstr[1] ""
+"Овај додатак се ослања на следеће који још нису инсталирани:|~\n"
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~"
+msgstr[2] ""
+"Овај додатак се ослања на следеће који још нису инсталирани:|~\n"
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~"
+msgstr[3] ""
+"Овај додатак се ослања на следећи који још није инсталиран:|~\n"
+"Изабрани додатак има следећу зависност. Желите ли да је инсталирате?|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Dependencies|~\n"
+#| "|~x"
+msgid "Installation of a dependency failed"
+msgstr ""
+"Зависности|~\n"
+"Инсталирање зависности није успело|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "Dependencies|~\n"
+#| "|~x"
+msgid "Installation of some dependency failed"
+msgstr ""
+"Зависности|~\n"
+"Инсталирање неке зависности није успело|~"
+
+# |~x
+# >> Datetime format, see 'man strftime' for possible placeholders.|~
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "%A, %H:%M|~\n"
+#| "|~x"
+msgid "%I:%M %p"
+msgstr ""
+"%A, %H.%M|~\n"
+"%H.%M|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgid ""
+#| "A network disconnection has occurred, and the game\n"
+#| "cannot continue. Do you want to save the game?|~\n"
+#| "|~x"
+msgid "The game is out of sync. It might not make much sense to continue. Do you want to save your game?"
+msgstr ""
+"Мрежна веза је прекинута и игра се не може наставити.\n"
+"Желите ли да сачувате позицију?|~\n"
+"Игра је испала из синхронизације. Вероватно нема много смисла да се настави. Желите ли да сачувате позицију?|~"
+
+# >> Title to table of attacks.|~
+# |~x
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#| msgctxt ""
+#| "unit help|~\n"
+#| "|~x"
+#| msgid ""
+#| "Attacks|~\n"
+#| "|~x"
+msgid "Base attacks: "
+msgstr ""
+"Напади|~\n"
+"базних напада: |~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Custom lighting for local time of day areas (uses more memory)"
+msgstr "Посебно осветљење за подручја локалног доба дана (тражи више меморије).|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Reverse time graphics"
+msgstr "Обрнута графика времена|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Choose whether the sun moves left-to-right or right-to-left"
+msgstr "Да ли се сунце креће слева удесно или здесна улево.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Follow unit actions"
+msgstr "Праћење радњи јединица|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Choose whether the map view should scroll to a unit when an action or move is animated"
+msgstr "Треба ли приказ мапе да отклиза до јединице при анимацији радње или померања.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Chat message aging"
+msgstr "Старење порука у ћаскању|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Use 12-hour clock format"
+msgstr "12-часовни формат сата|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Confirm loading of saves from a different version"
+msgstr "Потврда за учитавање позиција из различитог издања|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Show all unit types in the help (requires restart). This does not alter the list of encountered units"
+msgstr "Приказује све типове јединица у помоћи (захтева поновно покретање). Овим се не мења списак сусретнутих јединица.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick support"
+msgstr "Подршка за џојстик|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the scroll X-axis joystick"
+msgstr "Џојстик: број џојстика са X-осом за клизање|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the scroll X-axis"
+msgstr "Џојстик: број X-осе за клизање|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the scroll Y-axis joystick"
+msgstr "Џојстик: број џојстика са Y-осом за клизање|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the scroll Y-axis"
+msgstr "Џојстик: број Y-осе за клизање|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: deadzone of the scrolling stick"
+msgstr "Џојстик: мртва зона палице за клизање|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the cursor X-axis joystick"
+msgstr "Џојстик: број џојстика са X-осом за курсор|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the cursor X-axis"
+msgstr "Џојстик: број X-осе за курсор|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the cursor Y-axis joystick"
+msgstr "Џојстик: број џојстика са Y-осом за курсор|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the cursor Y-axis"
+msgstr "Џојстик: број Y-осе за курсор|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: deadzone of the cursor stick"
+msgstr "Џојстик: мртва зона палице за курсор|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the mouse X-axis joystick"
+msgstr "Џојстик: број џојстика са X-осом за миш|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the mouse X-axis"
+msgstr "Џојстик: број X-осе за миш|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the mouse Y-axis joystick"
+msgstr "Џојстик: број џојстика са Y-осом за миш|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the mouse Y-axis"
+msgstr "Џојстик: број Y-осе за миш|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: deadzone of the mouse stick"
+msgstr "Џојстик: мртва зона палице за миш|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the thrust axis joystick"
+msgstr "Џојстик: број џојстика са осом потиска|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: number of the thrust axis"
+msgstr "Џојстик: број осе потиска|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Joystick: deadzone of the thruster"
+msgstr "Џојстик: мртва зона ручке потиска|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "TestCamp"
+msgstr "Пробни поход|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Test campaign used to check if new campaign syntax is working."
+msgstr "Пробни поход за проверу да ли нова синтакса похода ради.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Soldier"
+msgstr "војник|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Lord"
+msgstr "господар|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "High Lord"
+msgstr "високи господар|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Test campaign test [about] entry"
+msgstr "Пробни унос [about] пробног похода|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Test campaign - first scenario (grass)"
+msgstr "Пробни поход — први сценарио (трава)|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Passed test color"
+msgstr "Боја успеле пробе|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Failed test color"
+msgstr "Боја неуспеле пробе|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "sceptre of fire"
+msgstr "ватрено жезло|~"
+
+# |, no-check-spell|~
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Aban,Abbas,Abbud,Abdul-ʿAdl,Abdul-Ahad,Abdul-Alim,Abdul-Aliyy,Abdul-Azim,Abdul-Aziz,Abdul-Badi,Abdul-Baʿith,Abdul-Baqi,Abdul-Bari,Abdul-Barr,Abdul-Basir,Abdul-Basit,Abdul-Fattah,Abdul-Ghaffar,Abdul-Ghafur,Abdul-Ghani,Abdul-Hadi,Abdul-Hafiz,Abdul-Hakam,Abdul-Hakim,Abdul-Halim,Abdul-Hamid,Abdul-Haqq,Abdul-Hasib,Abdul-Hayy,Abdul-Jabbar,Abdul-Jalil,Abdul-Karim,Abdul-Khabir,Abdul-Khaliq,Abdul-Latif,Abdul-Malik,Abdul-Majid,Abdul-Matin,Abdul-Mubdiʾ,Abdul-Mughni,Abdul-Muhaimin,Abdul-Muhsi,Abdul-Muhyi,Abdul-Muʿid,Abdul-Muʿizz,Abdul-Mujib,Abdul-Mumin,Abdul-Muqaddim,Abdul-Muqtadir,Abdul-Musawwir,Abdul-Mutaʿal,Abdul-Nafi,Abdul-Nasser,Abdul-Nasir,Abdul-Nur,Abdul-Qadir,Abdul-Qahhar,Abdul-Qawi,Abdul-Qayyum,Abdul-Quddus,Abdul-Rafi,Abdul-Rahim,Abdul-Rahman,Abdul-Rashid,Abdul-Raʿuf,Abdul-Razzaq,Abdul-Shakur,Abdul-Tawwab,Abdul-Wadud,Abdul-Wahhab,Abdul-Wahid,Abdul-Wajid,Abdul-Wakil,Abdul-Wali,Abdul-Waliy,Abdul-Warith,Abdul-Zahir,Abdullah,ʿAbid,ʿAbidin,Abu Bakr,Aby al-Khayr,Adil,Adham,Adib,ʿAdli,ʿAdnan,ʿAfif,Ahmad,ʿAjib,ʿAkif,Akil,Akram,Alaʾ,Alaʾ al-Din,Alʿ Abbas,Aladdin,al-Bara,al-Hakam,al-Harith,Alhasan,Alhusain,Ali,Alim,Almahdi,al-Safi,Altaf,Altair,al-Tayyib,al-Tijani,al-Tufail,Amid,ʿAmid,Amin,Amir,ʿAmir,Amjad,ʿAmmar,ʿAmro,Anas,Anis,ʿAntarah,Anwar,ʿAqil,Arfan,Arif,ʿArif,Asad,Asʿad,Asadel,Ashraf,Asif,ʿAsim,Aswad,Ataʿ,Ataʿ Allah,Ataʿ al-Rahman,Athil,Athir,ʿAtif,ʿAwad,ʿAwf,Aws,Awwab,Ayham,Ayman,Ayser,Ayyub,Aza,ʿAzab,Azhar,Azim,ʿAziz,ʿAzzam,Badi,Badi al-Zaman,Badr,Badr al-Din,Badri,Bahaʿ,Bahiyy al-Din,Bahij,Bahir,Bakr,Bakri,Baligh,Bandar,Barakah,Barir,Bashshar,Basil,Basim,Bassam,Bayezid,Bayhas,Bilal,Bishr,Boulos,Budail,Burhan,Bushr,Butrus,Dabir,Dani,Darwish,Daʿud,Dhakir,Dhakiy,Dhakwan,Dhul Fiqar,Dirar,Diya,Diya al-Din,Duqaq,Fadi,Fadil,Fadl,Fadl Allah,Fahd,Fahad,Fahmi,Faisal,Faʿiz,Fakhir,Fakhr al-Din,Fakhri,Fakih,Falah,Falih,Faraj,Farhan,Farid,Fariq,Fariq,Faris,Faruq,Fath,Fathi,Fatih,Fatin,Fawwaz,Fawzan,Fawzi,Fayyad,Ferran,Fida,Fikri,Firas,Fuʿad,Fudail,Gamal,Ghayth,Ghali,Ghalib,Ghanim,Ghassan,Ghawth,Ghazwan,Ghiyath,Habbab,Habib,Haddad,Hadi,Hafiz,Hakem,Hakim,Halim,Hamal,Hamas,Hamdan,Hamdi,Hamid,Hamim,Hamzah,Hana,Hanaʾi,Hanbal,Hani,Hanif,Hannad,Haris,Harith,Harun,Hashim,Hassan,Hatim,Haydar,Haytham,Hayyan,Hazim,Hilal,Hilmi,Hisham,Hud,Hudad,Hudhafah,Hudhayfah,Humam,Hussein,Husam,Husam al-Din,Ibrahim,ʿId,Idris,Ihsan,Ihtisham,ʿIkrimah,Ilias,ʿImad,Imad al-Din,Imran,Imtiyaz,Inʿam,Iqbal,ʿIrfan,ʿIsa,ʿIsam,Ishaq,Ismaʿil,Iyad,Iyas,Izz al-Din,Jabbar,Jabr,Jabir,Jad Allah,Jaʿfar,Jal,Jalal,Jalal al-Din,Jalil,Jamal,Jamal al-Din,Jamil,Jarir,Jasim,Jaul,Jaun,Jawad,Jawdah,Jawhar,Jibran,Jibril,Jubair,Jul,Jumah,Junayd,Juwain,Kadar,Kadin,Kadir,Kahil,Kaliq,Kamal,Kamil,Karam,Kardal,Karif,Karim,Kasib,Kasim,Katib,Kazim,Khalaf,Khaldun,Khalid,Khalil,Khalil al-Allah,Khalis,Khatib,Khair al-Din,Khairi,Khoury,Khulus,Khuzaymah,Kutaiba,Labib,Lablab,Latif,Layth,LuʿayLubayd,Luqman,Lut,Lutfi,Maʿd,Madani,Mahbub,Mahdi,Mahfuz,Mahir,Mahjub,Mahmud,Mahrus,Maimun,Majd,Majdy,Majd al-Din,Majid,Makin,Malik,Mamduh,Maʿmun,Maʿin,Mandhur,Mansur,Marghub,Marid,Maʿruf,Marwan,Marzuq,Mashʿal,Mashhur,Masrur,Masʿud,Masun,Maysarah,Mazhar,Mazin,Mehmed,Mihran,Mihyar,Mikaʾil,Miqdad,Misbah,Mishʿal,Miyaz,Muʾadh,Muʾawiyah,Muʾayyad,Mubarak,Mubin,Mudar,Muddaththir,Mufid,Muflih,Muhab,Muhayr,Muhammad,Muhanna,Muhannad,Muhib,Muhibb,Muhsin,Muhtadi,Muhyi al-Din,Muʿin,Muʿizz,Mujab,Mujahid,Mukarram,Mukhlis,Mukhtar,Mulham,Mulhim,Muʿmmar,Muʿmin,Mumtaz,Munahid,Mundhir,Munib,Munif,Munir,Muʿnis,Munjid,Munsif,Muntasir,Murad,Murid,Murshid,Murtada,Musa,Musʿab,Musaʿid,Mushtaq,Muslih,Muslim,Mutafa,Mutaʾ,Muʿtasim,Mutawalli,Muʿtazz,Muthanna,Muti,Muwaffaq,Muyassar,Muzaffar,Mussammil,Nabhan,Nabighah,Nabih,Nabil,Nadhir,Nadim,Nadir,Nafiʾ,Nahid,Naʾil,Naʾim,Naji,Najib,Najid,Najjar,Najm al-Din,Naʿaman,Namir,Nashʿah,Nashʿat,Nashwan,Nasib,Nasih,Nasim,Nasir,Nasir al-Din,Nasr,Nasri,Nasuh,Nawaf,Nawfal,Nayif,Nazih,Nazim,Nazmi,Nibras,Nidal,Nijad,Nimr,Nizar,Nuʿaym,Nuh,Nuhayd,Numair,Nuʿman,Nur al-Din,Nuri,Nusrah,Nusrat,Omar,Orhan,Osman,Qasim,Qays,Qudamah,Qusay,Qatadah,Qutaybah,Qutb,Qutuz,Rabah,Rabi,Radi,Rafi,Rafid,Rafiq,Raghib,Rahman,Raʿid,Raʿif,Rais,Rajaa,Rajab,Raji,Rajih,Rakin,Rami,Ramih,Ramiz,Ramzi,Rani,Rashad,Rashid,Rasil,Rasin,Rasmi,Rasul,Ratib,Raʿuf,Rayhan,Rayyan,Razin,Ridha,Ridwan,Rihab,Riyad,Rizq,Ruhi,Rushd,Rushdi,Ruwayd,Saad,Saʿadah,Sab,Sabih,Sabir,Sabri,Saʿd,Saʿd al-Din,Sadad,Sadid,Sadiq,Saʿdun,Saʿid,Safi,Safiy,Safiy al-Din,Safuh,Safwah,Safwat,Safwan,Sahib,Sahir,Sahl,Saʾib,Saif,Saif al-Din,Sajid,Sajjad,Sakhr,Salah,Salah al-Din,Salamah,Salih,Salim,Salman,Sami,Samih,Samir,Samman,Saqr,Sariyah,Sati,Saud,Sayyid,Shaʿban,Shadi,Shadin,Shafi,Shafiq,Shahid,Shahin,Shahir,Shakib,Shakir,Shams al-Din,Shamal,Shamil,Shamim,Sharaf,Sharif,Shawqi,Shihab,Shihab al-Din,Shihad,Shuʿayb,Shukri,Shumayl,Siddiq,Sinan,Siraj,Siraj al-Din,Sofian,Subhi,Sufyan,Suhayb,Suhayl,Suhaym,Sulaiman,Sumrah,Suraqah,Suʿud,Tahir,Tahsin,Taym Allah,Taj,Taj al-Din,Talal,Talib,Tamim,Tamir,Tamam,Tammam,Taqiy,Tarif,Tariq,Taslim,Tawfiq,Tawhid,Taymullah,Taysir,Tayyib,Thabit,Thamir,Thaqib,Thawab,Thawban,ʿUbaidah,Ubaid,Ubayy,ʿUdayl,ʿUday,ʿUmar,Umarah,Umair,ʾaUrwah,Usaym,Usama,ʿUtbah,Uthal,Uthman,Waddah,Wadi,Wadid,Wafiq,Wahab,Wahhab,Wahid,Waʾil,Wajdi,Wajid,Wajih,Wakil,Walid,Walif,Waliy Allah,Waliy al-Din,Waqar,Waqqas,Ward,Wasif,Wasil,Wasim,Wazir,Yahya,Yaman,Yaʿqub,Yasar,Yasin,Yasir,Yazan,Yazid,Yunus,Yushua,Yusri,Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,Ziyad,Zubayr,Zuhayr"
+msgstr "Абан,Абас,Абуд,Абдул-Адл,Абдул-Ахад,Абдул-Алим,Абдул-Алиј,Абдул-Азим,Абдул-Азиз,Абдул-Бади,Абдул-Бајит,Абдул-Баки,Абдул-Бари,Абдул-Бар,Абдул-Басир,Абдул-Басит,Абдул-Фатах,Абдул-Гафар,Абдул-Гафур,Абдул-Гани,Абдул-Хади,Абдул-Хафиз,Абдул-Хакам,Абдул-Хаким,Абдул-Халим,Абдул-Хамид,Абдул-Хак,Абдул-Хасиб,Абдул-Хај,Абдул-Џабар,Абдул-Џалил,Абдул-Карим,Абдул-Кабир,Абдул-Калик,Абдул-Латиф,Абдул-Малик,Абдул-Маџид,Абдул-Матин,Абдул-Мудбид,Абдул-Мугни,Абдул-Мухајмин,Абдул-Муши,Абдул-Мухиј,Абдул-Мујид,Абдул-Мујиз,Абдул-Муџиб,Абдул-Мумин,Абдул-Мугадим,Абдул-Муктадир,Абдул-Мусавир,Абдул-Мутал,Абдул-Нафи,Абдул-Насер,Абдул-Насир,Абдул-Нур,Абдул-Кадир,Абдул-Кахар,Абдул-Кави,Абдул-Кајум,Абдул-Кудус,Абдул-Рафи,Абдул-Рахим,Абдул-Рахман,Абдул-Рашид,Абдул-Рауф,Абдул-Разак,Абдул-Шакур,Абдул-Таваб,Абдул-Вадуд,Абдул-Вахаб,Абдул-Вахид,Абдул-Ваџид,Абдул-Вакил,Абдул-Вали,Абдул-Валиј,Абдул-Варит,Абдул-Захир,Абдулах,Абид,Абидин,Абу Бакр,Абу ел Кајир,Адил,Адам,Адиб,Адли,Аднан,Афиф,Ахмад,Аџиб,Акиф,Акил,Акрам,Ала,Ал ел Дин,Ел Абас,Аладин,Ел Бара,Еl Хакам,Ел Харит,Алхасан,Алхусеин,Али,Алим,Алмади,Ел Сафи,Алтаф,Алтајир,Ел Тајиб,Ел Тијани,Ел Туфајил,Амид,Амид,Амин,Амир,Амир,Амџад,Амар,Амро,Анас,Анис,Антарах,Анвар,Акил,Арфан,Ариф,Ариф,Асад,Асад,Асадел,Ашраф,Асиф,Асим,Асвад,Ата,Ата Ала,Ата ел Рахман,Атил,Атир,Атиф,Авад,Ав,Авс,Аваб,Ајхам,Ајман,Ајсер,Ајуб,Аза,Азаб,Азхар,Азим,Азиз,Азам,Бади,Бади ел Заман,Бадр,Бадр ел Дин,Бадри,Баха,Бахиј ел Дин,Бахиј,Бахир,Бакр,Бакри,Балиг,Бандар,Барак,Барир,Башар,Басил,Басим,Басам,Бајазит,Бејхас,Билал,Бишр,Булос,Будајил,Бурхан,Бушр,Бутрус,Дабир,Дани,Дарвиш,Дауд,Дакир,Дакиј,Дакван,Дул Фикар,Дирар,Дија,Дија ел Дин,Дукак,Фади,Фадил,Фадл,Фадл Алах,Фахд,Фахад,Фахми,Фејсал,Фајиз,Факир,Факр ел Дин,Факри,Факих,Фалах,Фалих,Фараџ,Фархан,Фарид,Фарик,Фарик,Фарис,Фарук,Фат,Фати,Фатих,Фатин,Фаваз,Фавзан,Фавзи,Фајад,Феран,Фида,Фикри,Фирас,Фујад,Фудајил,Гамал,Гајт,Гали,Галиб,Ганим,Гасан,Гавт,Газван,Гиајт,Хабаб,Хабиб,Хадад,Хади,Хафиз,Хакем,Хаким,Халим,Хамал,Хамас,Хамдан,Хамди,Хамид,Хамим,Хамзах,Хана,Ханаји,Ханбал,Хани,Ханиф,Ханад,Харис,Харит,Харун,Хашим,Хасан,Хатим,Хајдар,Хајтам,Хајан,Хазим,Хилал,Хилми,Хишам,Худ,Худад,Худхафах,Худхајфах,Хумам,Хусеин,Хусам,Хусам ел Дин,Ибрахим,Ид,Идрис,Ихсан,Ихтишам,Икримах,Илијас,Имад,Имад ел Дин,Имран,Имтијаз,Инам,Игбал,Ирфан,Иса,Исам,Ишак,Исмајил,Ијад,Ијас,Из ел Дин,Џабар,Џабр,Џабир,Џад Алах,Џафар,Џал,Џалал,Џалал ел Дин,Џалил,Џамал,Џамал ел Дин,Џамил,Џарир,Џасим,Џаул,Џаун,Џавад,Џавдах,Џавхар,Џибран,Џибрил,Џубајир,Џул,Џумх,Џунајид,Џувајин,Кадар,Кадин,Кадир,Кахил,Калик,Камал,Камил,Карам,Кардал,Кариф,Карим,Касиб,Касим,Катиб,Казим,Калаф,Калдун,Калид,Калил,Калил ел Алах,Калис,Катиб,Кајир ел Дин,Кајири,Кори,Кулус,Кузајмах,Кутајба,Лабиб,Лаблаб,Латиф,Лајит,Луај-Лубајд,Лукман,Лут,Луфти,Мад,Мадани,Махбуб,Махди,Махфуз,Махир,Махџуб,Махмуд,Махрус,Мејенум,Маџд,Маџди,Маџд ел Дин,Маџид,Макин,Малик,Мамдух,Мемун,Мајин,Мандур,Мансур,Маргуб,Марид,Маруф,Марван,Марзук,Машал,Масшур,Масрур,Масуд,Масун,Мајсарах,Мазхар,Мазин,Мехмед,Михран,Михјар,Мекајил,Мигдад,Мизбах,Мишал,Мијаз,Муад,Муавијах,Муајид,Мубарак,Мубин,Мудар,Мудатир,Муфид,Муфлих,Мухаб,Мухајр,Мухамед,Мухана,Муханад,Мухиб,Мухиб,Мухсин,Мухтади,Мухји ел Дин,Мујин,Мујиз,Муџаб,Муџахид,Макарам,Муклис,Муктар,Мулхам,Мулхим,Мумар,Мумин,Мумтаз,Мунахид,Мудир,Муниб,Муниф,Мунир,Мунис,Мунџид,Мунсиф,Мунтасир,Мурат,Мурид,Муршид,Муртада,Муса,Мусаб,Мусајид,Муштак,Муслих,Муслим,Мутафа,Мута,Мутасим,Мутавали,Мутаз,Мутана,Мути,Мувфак,Мујасир,Музараф,Мусамил,Набхан,Набигах,Набих,Набил,Надир,Надим,Надир,Нафи,Нахид,Најил,Најим,Наји,Наџиб,Наџид,Наџар,Наџм ел Дин,Наман,Намир,Нашах,Нашат,Нашван,Насиб,Насих,Насим,Насир,Насир ел Дин,Наср,Насри,Насух,Наваф,Навфал,Најиф,Назих,Назим,Назми,Нибрас,Нидал,Ниџад,Нимр,Низар,Нуајм,Нух,Нухајд,Нумајир,Нуман,Нур ел Дин,Нури,Нусрах,Нусрат,Омар,Орхан,Осман,Касим,Кајс,Кудамах,Кусај,Катадах,Кутајбах,Кутб,Кутуз,Рабах,Раби,Ради,Рафи,Рафид,Рафик,Рагиб,Рахман,Рајид,Рајиф,Рајис,Раџа,Раџаб,Раџи,Раџих,Ракин,Рами,Рамих,Рамиз,Рамзи,Рани,Рашад,Рашид,Расил,Расин,Расми,Расул,Ратиб,Рауф,Рајхан,Рајан,Разин,Рида,Ридван,Рихаб,Ријад,Риск,Рухи,Ружд,Ружди,Рувајд,Сад,Садах,Саб,Сабих,Сабир,Сабри,Сад,Сад ел Дин,Садад,Садид,Садик,Садун,Сајид,Сафи,Сафиј,Сафиј ел Дин,Сафух,Сафвах,Сафват,Сафван,Сахиб,Сахир,Сал,Сајиб,Сајиф,Сајиф ел Дин,Саџид,Саџад,Сакр,Салах,Салах ел Дин,Саламах,Салих,Салим,Салман,Сами,Самих,Самир,Саман,Сакр,Саријах,Сати,Сауд,Сајид,Шабан,Шади,Шадин,Шафи,Шафик,Шахид,Шахин,Шахир,Шакиб,Шакир,Шам ел Дин,Шамал,Шамил,Шамим,Шараф,Шариф,Шавки,Шихаб,Шихаб ел Дин,Шихаб,Шуајб,Шукри,Шумајил,Сидик,Синан,Сираџ,Сираџ ел Дин,Софијан,Суби,Суфјан,Сухајиб,Сухајил,Сухајим,Сулејман,Сумрах,Сурак,Суд,Тахир,Тахсин,Тајм Алах,Таџ,Таџ ел Дин,Талал,Талиб,Тамим,Тамир,Тамам,Тамам,Такиј,Тариф,Тарик,Таслим,Тавфик,Тавхид,Тајмулах,Тајсир,Тајиб,Табит,Тамир,Такиб,Таваб,Тавбан,Убајдах,Убајид,Убај,Удајил,Удај,Умар,Умарах,Умајир,Урвах,Усајим,Усама,Утбах,Утал,Утман,Вадах,Вади,Вадид,Вафик,Вахаб,Вахаб,Вахид,Вајил,Ваџди,Ваџид,Ваџих,Вакил,Валид,Валиф,Валиј Алах,Валиј ел Дин,Вакар,Вакас,Вард,Васиф,Васил,Васим,Вазир,Јахја,Јаман,Јакуб,Јасар,Јасин,Јасир,Јазан,Јазид,Јунус,Јушуа,Јусри,Јусуф,Зафар,Зафир,Захид,Захир,Зајд,Зајим,Зајн,Зариф,Закарија,Заки,Закван,Зијад,Зубајир,Зухајир|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "The <i>Slow</i> ability is extremely powerful because it has such wide-ranging effects. Enemy undead get half the normal benefit from their <i>Drain</i> ability, the damage bonus from <i>Charge</i> or <i>Backstab</i> is cancelled, and the <i>Berserk</i> ability is weakened. Fast foes struggle to escape; slow enemies are almost immobilized, and your own units suffer less retaliation damage, so it’s quicker to heal them."
+msgstr "Способност <i>успоравања</i> изванредно је моћна, због свог далекосежног утицаја. Непријатељским немртвима способност <i>црпљења</i> спада напола, бонус на штету при <i>јуришу</i> и <i>ножу у леђа</i> нестаје, а <i>безглавост</i> је ослабљена. Брзи противници напрежу се да измакну, спори бивају готово укопани, а ваше јединице трпе мање узвратне штете, тако да се могу брже залечити.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Try to operate units with a small number of powerful attacks—such as Dark Adepts, Horsemen, Orcish Grunts or Dwarvish Thunderers—in pairs or threes. This gives you another try whenever your first devastating attack misses — as inevitably happens from time to time."
+msgstr "Покушајте да дејствујете јединицама са малим бројем моћних напада — попут мрачних посвећеника, коњаника, орко-грокташа или патуљ-громовника — у паровима или тројкама. То вам даје додатни покушај кад год први разарајући напад промаши, до чега неминовно долази с времена на време.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Units with three or more attacks—especially magical attacks—are ideal for finishing off enemies with only a few hitpoints remaining. Be sure to use leadership—or a strong or dextrous unit—whenever the extra point or two of damage makes a one-hit kill possible."
+msgstr "Јединице са три или више напада — посебно магичних — идеалне су за докрајчивање непријатеља којима је остало мало ударпоена. Гледајте да употребите вођство, или кршну или спретну јединицу, кад год један или два додатна поена штете могу омогућити победу из прве.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Think twice before dismissing any unit from your recall list, no matter how little experience it has. Sometimes it’s worth paying a premium to know exactly what traits a new arrival will have."
+msgstr "Двапут размислите пре него што отпустите јединицу са списка сазивања, ма колико мало искуства имала. Некада вреди добро платити знање о томе тачно које особине ће новопридошла јединица имати.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "When a tough unit is heavily injured, send it to heal in a village several turns’ movement away from the fighting. Then it can recover in peace (at 10 hitpoints per turn) without tying up front-line villages."
+msgstr "Када жилава јединица буде тешко повређена, пошаљите је на лечење у село неколико потеза кретања далеко од борбе. Тако се може опоравити у миру (10 ударпоена по потезу) и без заузимања села на линији фронта.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "<i>― Lord Hamel of Knalga</i>"
+msgstr "<i>― господар Хамел од Кналге</i>|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Combining multiple special abilities can be deadly. While it may take some work to combine, for example, <i>Leadership</i>, <i>Illuminates</i> and <i>Charge</i> against a slowed opponent, the results can be impressive."
+msgstr "Удруживање више специјалних способности може бити смртоносно. Иако може потрајати удруживање, на пример, <i>вођства</i>, <i>обасјавања</i> и <i>јуриша</i> против успореног противника, резултати ће бити импозантни.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "While finishing early gives a gold bonus, and reduces the opportunities for enemies to kill your valuable troops, it also means you lose chances to earn your units extra experience. When deciding whether or not to finish a scenario early, weigh these factors against one another."
+msgstr "Док рани завршетак даје бонус у злату, и одузима непријатељу прилике да вам уништи вредне јединице, такође значи губитак прилика да својим јединицама зарадите још искуства. Када одлучујете да ли ћете сценарио рано завршити, одвагајте ове чиниоце.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "If your forces have weak defenses everywhere on the map, occupy the areas where your enemies can only attack you by sharing the same disadvantages. Avoid places where your defenses are poor and your enemy’s are merely average. Plan for heavy losses, and take firm control of any hex where the land does favor you."
+msgstr "Ако ваше снаге имају слабу одбрану свуда на мапи, заузмите она подручја где вас непријатељ може напасти под за њега једнако лошим условима. Избегавајте места где је ваша одбрана слаба а непријатељева тек просечна. Планирајте са тешким губицима, и чврсто држите свако поље на којем вам терен одговара.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "<i>Feral</i> units, such as Bats and wild animals, will avoid villages. Even if they occupy a village hex, they do not gain any defensive benefits from the village, although they will still be healed."
+msgstr "<i>Неукроћене</i> јединице, попут слепих мишева и других дивљих животиња, избегаваће села. Чак и када стану на поље са селом, не добијају одбрамбених предности; мада ће ипак бити лечене.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Gold carryover:"
+msgstr "Пренесено злато:|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Notes:"
+msgstr "Белешке:|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "(%d turns left)"
+msgstr "(још %d потеза)|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "(this turn left)"
+msgstr "(последњи потез)|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "very long"
+msgstr "врло дугачак|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "While the add-on has been installed, a dependency is missing. Try to update the installed add-ons."
+msgstr "Иако је додатак инсталиран, недостају неке зависности. Покушајте да ажурирате инсталиране додатке.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Installation failed"
+msgstr "Инсталирање није успело|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "While the add-on has been installed, some dependency is missing. Try to update the installed add-ons."
+msgstr "Иако је додатак инсталиран, недостаје нека зависност. Покушајте да ажурирате инсталиране додатке.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "You seem to be the author of '$addon|'. Downloading '$addon|' may overwrite any changes you have made since the last upload and may delete your pbl file. Do you really wish to continue?"
+msgstr "Изгледа да сте ви аутор додатка „$addon|“. Његовим преузимањем можете пребрисати све измене које сте начинили од последњег отпремања, као и обрисати своју ПБЛ датотеку. Желите ли заиста да наставите?|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Done"
+msgstr "Готово|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Deleting '$addon|' will permanently erase its download and upload counts on the add-ons server. Do you really wish to continue?"
+msgstr "Брисањем додатка „$addon|“ биће трајно обрисана и његова статистика преузимања и отпремања на серверу додатака. Желите ли заиста да наставите?|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "The following add-on appears to have publishing or version control information stored locally, and will not be removed:"
+msgid_plural "The following add-ons appear to have publishing or version control information stored locally, and will not be removed:|~"
+msgstr[0] "За следеће додатке изгледа да садрже локалне податке о издавању или управљању верзијама, па неће бити уклоњени:|~"
+msgstr[1] "За следеће додатке изгледа да садрже локалне податке о издавању или управљању верзијама, па неће бити уклоњени:|~"
+msgstr[2] "За следеће додатке изгледа да садрже локалне податке о издавању или управљању верзијама, па неће бити уклоњени:|~"
+msgstr[3] "За следећи додатак изгледа да садржи локалне податке о издавању или управљању верзијама, па неће бити уклоњен:|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Invalid value in the result key for [end_level]"
+msgstr "Лоша вредност у резултату кључа за [end_level]|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Building terrain rules"
+msgstr "Градим правила терена...|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "No valid castle location found. Too many or too few mountain hexes? (please check the 'max hill size' parameter)"
+msgstr "Нема ниједне погодне локације за замак. Превише или премало планинских поља? Проверите параметар ‘max hill size’.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "You currently can't recall at the highlighted location"
+msgstr "Тренутно не можете сазивати на истакнутој локацији|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Report abuse, rule violations, etc. to the server moderators. Make sure to mention relevant nicknames, etc."
+msgstr "Пријављује злоупотребе, кршења правила, итд. модераторима сервера. Пазите да поменете релевантне надимке, и сл.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Debug foreground terrain."
+msgstr "Исправа предњи план терена.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Debug layers from terrain under the mouse."
+msgstr "Исправља слојева терена под мишем.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Change turn number (and time of day), or increase by one if no number is specified."
+msgstr "Мења број потеза (и доба дана), или га повећава за један ако се број не зада.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "[turn]"
+msgstr "[потез]|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Change turn limit, or turn the turn limit off if no number is specified or it’s −1."
+msgstr "Мења ограничење потеза, или га искључује ако се не зада број или се зада -1.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "[limit]"
+msgstr "[ограничење]|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Invoke a dialog allowing changing control of MP sides."
+msgstr "Позива дијалог за промену управљања над вишеиграчким странама.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Manage persistence data"
+msgstr "Управља подацима трајности.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Toggle planning mode."
+msgstr "Режим планирања.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Access whiteboard options dialog."
+msgstr "Приступ дијалогу опција блокчета.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Do you wish to clear all of your discovered units from help?"
+msgstr "Желите ли да очистите све откривене јединице из помоћи?|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "The nickname '$nick' is inactive. You cannot claim ownership of this nickname until you activate your account via email or ask an administrator to do it for you."
+msgstr "Надимак „$nick“ није активан. Не можете тврдити власништво над овим надимком док не активирате свој налог, преко е-поште или захтевом администратору да то уради за вас.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "You have made too many login attempts."
+msgstr "Превише пута сте покушали да се пријавите.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Enter a name for the new player"
+msgstr "Унесите име новог играча|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Shuffle sides"
+msgstr "промешане стране|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Assign sides to players at random"
+msgstr "Насумично додели стране играчима|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "maximum"
+msgid "max."
+msgstr "макс.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "minimum"
+msgid "min."
+msgstr "мин.|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "None"
+msgstr "нема|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "prefix_milli"
+msgid "m"
+msgstr "m|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "prefix_micro"
+msgid "µ"
+msgstr "µ|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "prefix_pico"
+msgid "p"
+msgstr "p|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "prefix_femto"
+msgid "f"
+msgstr "f|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "prefix_zepto"
+msgid "z"
+msgstr "z|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "prefix_yocto"
+msgid "y"
+msgstr "y|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "prefix_kilo"
+msgid "k"
+msgstr "k|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "prefix_tera"
+msgid "T"
+msgstr "T|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "prefix_zetta"
+msgid "Z"
+msgstr "Z|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "prefix_yotta"
+msgid "Y"
+msgstr "Y|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "liminal"
+msgstr "двојствен|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgctxt "female"
+msgid "liminal"
+msgstr "двојствена|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "SHOW ALL allies’ plans"
+msgstr "ПРИКАЖИ СВЕ планове савезника|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "HIDE ALL allies’ plans"
+msgstr "САКРИЈ СВЕ планове савезника|~"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+msgid "Whiteboard Options"
+msgstr "Опције блокчета|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
