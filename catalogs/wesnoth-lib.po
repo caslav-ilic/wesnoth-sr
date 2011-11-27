@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-lib\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-11-08 23:49+0100\n"
+"POT-Creation-Date: 2011-11-28 00:56+0100\n"
 "PO-Revision-Date: 2011-09-10 14:17+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -1814,13 +1814,18 @@ msgstr "Висина:"
 #. +> devel
 #: data/gui/default/window/editor_new_map.cfg:108
 #: data/gui/default/window/editor_new_map.cfg:109
-msgid "Create new map"
+#, fuzzy
+#| msgid "Create new map"
+msgid "Create New Map"
 msgstr "Направи нову мапу"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
+#. [button]: id=ok
 #. +> devel
-#: data/gui/default/window/editor_resize_map.cfg:35 src/hotkeys.cpp:172
+#: data/gui/default/window/editor_resize_map.cfg:35
+#: data/gui/default/window/editor_resize_map.cfg:270
+#: data/gui/default/window/editor_resize_map.cfg:271 src/hotkeys.cpp:172
 msgid "Resize Map"
 msgstr "Пром›ијени величину мапе"
 
@@ -1859,13 +1864,6 @@ msgstr "Рашири/сажми правац"
 #: data/gui/default/window/editor_resize_map.cfg:248
 msgid "Copy edge terrain"
 msgstr "Копирај рубни терен"
-
-#. [button]: id=ok
-#. +> devel
-#: data/gui/default/window/editor_resize_map.cfg:270
-#: data/gui/default/window/editor_resize_map.cfg:271
-msgid "Resize map"
-msgstr "Пром›ијени величину мапе"
 
 #. [label]: id=title
 #. +> devel
@@ -4780,7 +4778,7 @@ msgid "Island"
 msgstr "острвски"
 
 #. +> devel
-#: src/marked-up_text.cpp:442
+#: src/marked-up_text.cpp:439
 msgid "The maximum text width is less than 1."
 msgstr "Највећа ширина текста је испод 1."
 
@@ -4862,7 +4860,7 @@ msgid "A terrain with a string with more than 4 characters has been found, the a
 msgstr "Нађен терен са ниском дужом од четири знака. Терен на који ово утиче:"
 
 #. +> devel
-#: src/text.cpp:311
+#: src/text.cpp:719
 msgid "The text contains invalid markup: "
 msgstr ""
 
@@ -4899,6 +4897,9 @@ msgstr ""
 #: src/wml_exception.cpp:130
 msgid "The key '$deprecated_key' has been renamed to '$key'. Support for '$deprecated_key' will be removed in version $removal_version."
 msgstr ""
+
+#~ msgid "Resize map"
+#~ msgstr "Пром›ијени величину мапе"
 
 #~ msgid "Allow more than one map to be open at the same time (MDI)"
 #~ msgstr "Дозволи више од једне отворене мапе истовремено (МДИ)"

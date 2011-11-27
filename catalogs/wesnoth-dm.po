@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-dm\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-11-08 23:49+0100\n"
+"POT-Creation-Date: 2011-11-28 00:56+0100\n"
 "PO-Revision-Date: 2011-11-28 00:52+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -430,13 +430,17 @@ msgstr "Не! Меторе... Немој да умреш!"
 #. [message]: speaker=unit
 #. +> devel
 #: data/campaigns/Delfadors_Memoirs/scenarios/02_This_Valley_Belongs_to_Me.cfg:130
-msgid "Heed my last words, Delfador! Journey northeast to Weldyn, and seek out my friend Leollyn. He will help you."
+#, fuzzy
+#| msgid "Heed my last words, Delfador! Journey northeast to Weldyn, and seek out my friend Leollyn. He will help you."
+msgid "Heed my last words, Delfador! Journey northwest to Weldyn, and seek out my friend Leollyn. He will help you."
 msgstr "Послушај моје пос‹љедње р›ијечи, Делфадоре! Запути се на с›јеверозапад, у Велдин, и потражи мог пријатеља Леолина. Он ће ти помоћи."
 
 #. [message]: speaker=Methor
 #. +> devel
 #: data/campaigns/Delfadors_Memoirs/scenarios/02_This_Valley_Belongs_to_Me.cfg:143
-msgid "Well done, Delfador! I see I have trained you well, and you are truly ready to seek your fortune. My traveling days are done, but it is time for you to journey northeast to Weldyn, and seek out my friend Leollyn. He will help you."
+#, fuzzy
+#| msgid "Well done, Delfador! I see I have trained you well, and you are truly ready to seek your fortune. My traveling days are done, but it is time for you to journey northeast to Weldyn, and seek out my friend Leollyn. He will help you."
+msgid "Well done, Delfador! I see I have trained you well, and you are truly ready to seek your fortune. My traveling days are done, but it is time for you to journey northwest to Weldyn, and seek out my friend Leollyn. He will help you."
 msgstr "Одлично, Делфадоре! Видим да те добро обучих и заиста си спреман да потражиш своју срећу. Дани мојих путешествија су готови, али дође час да ти пођеш на с›јеверозапад, у Велдин, и потражиш Леолина, мог пријатеља. Он ће ти помоћи."
 
 #. [message]: id=Delfador
@@ -1499,6 +1503,9 @@ msgid "Follow the dry river, then the road to the signpost in the north. I will 
 msgstr "Прати исушену р›ијеку, и даље пут до с›јеверног путоказа. Водићу те. Улази у куће мртвих крај којих прођеш, можда ти још неки буду вољни помоћи."
 
 #. [message]: speaker=narrator
+#. The Tomb Guardian's dialogue should sound especially archaic
+#. and imperious. If your language has special forms for superior
+#. addressing inferior, use them here.
 #. +> devel
 #: data/campaigns/Delfadors_Memoirs/scenarios/09_Houses_of_the_Undead.cfg:497
 msgid "WHO ENTERS THE TOMB OF AN-USRUKHAR?"
@@ -1511,6 +1518,9 @@ msgid "I... I am Delfador, a mage of Wesnoth."
 msgstr "Ја... Делфадор, маг веснотски."
 
 #. [message]: speaker=narrator
+#. "bestrode" = past tense of archaic verb "bestride", literally
+#. meaning to straddle but with a secondary sense of "to
+#. dominate", and connotations of gigantism.
 #. +> devel
 #: data/campaigns/Delfadors_Memoirs/scenarios/09_Houses_of_the_Undead.cfg:509
 msgid "I am the will of An-Usrukhar, greatest of mages, he who bestrode Irdya in the morning of time, who sleeps now in a death beyond death until the unmaking of the world."
@@ -1537,12 +1547,18 @@ msgid "Foretold?"
 msgstr "Проречено?"
 
 #. [message]: speaker=narrator
+#. "Aeon" is a variant form of the word English word "eon", used
+#. for a long and indefinite span of time. The variant has
+#. mystical connotations.
 #. +> devel
 #: data/campaigns/Delfadors_Memoirs/scenarios/09_Houses_of_the_Undead.cfg:530
 msgid "Foretold in the Primal Aeon, years past beyond your counting. An-Usrukhar the Great, he of whom I am but the tiniest shade and fragment, foresaw in the Mirror of Evanescent Time that a living man would come here to be tested. AND I AM THE TEST!"
 msgstr "Проречено је у Првотном еону, годинама пр›ије вашег рачуна о времену. Ан-Усрухар Величанствени, чија сам ја најмања с›јена и остатак, предвиди у Огледалу ишчезавајућег времена да ће живи чов›јек доћи овд›је да буде искушан. И ЈА САМ КУШЊА!"
 
 #. [message]: speaker=Delfador
+#. "coil" is an archaism. In the English of around 1600, it was
+#. used to refer to a difficulty or entanglement. Translate
+#. freely.
 #. +> devel
 #: data/campaigns/Delfadors_Memoirs/scenarios/09_Houses_of_the_Undead.cfg:538
 msgid "I have felt the coils of prophecy on me before. I am beginning to dislike them."
@@ -1561,6 +1577,10 @@ msgid "I serve my king and my kingdom."
 msgstr "Служим свом краљу и краљевству."
 
 #. [message]: speaker=narrator
+#. The Tomb Guardian speaks closer to literal truth here than
+#. Delfador can possibly know. It is now 470YW; in 501YW,
+#. Garard II will be murdered by his wife and son, and the
+#. usurpation of Asheviere will begin.
 #. +> devel
 #: data/campaigns/Delfadors_Memoirs/scenarios/09_Houses_of_the_Undead.cfg:555
 msgid "Your king will die in an eyeblink and your kingdom in the drawing of a breath. Delfador, I ask you again, ARE YOU A SERVANT OF THE LIGHT?"
@@ -1573,6 +1593,9 @@ msgid "I serve my people and my land."
 msgstr "Служим свом народу и отачаству."
 
 #. [message]: speaker=narrator
+#. "matter" is used here with an archaic meaning, roughly
+#. that of "ground" or "essence".  This sense survives in
+#. modern English in constructions like "It matters a lot."
 #. +> devel
 #: data/campaigns/Delfadors_Memoirs/scenarios/09_Houses_of_the_Undead.cfg:567
 msgid "Peoples vanish and lands wither under the pitiless gaze of eternity; the true matter of the world is deeper. Delfador, I ask you a third time, and on your answer hangs your life: ARE YOU A SERVANT OF THE LIGHT?"
@@ -2017,6 +2040,7 @@ msgid "I command here, but we have lost the north shore. Uncanny creatures stalk
 msgstr "Ја запов›иједам овд›је, али потиснуше нас са с›јеверне обале. Несвети створови тумарају ноћу; наше оружје једва да им може наудити. Плашим се да нисмо у стању издржати снажнији напад."
 
 #. [message]: speaker=Delfador
+#. "be of heart" -> "have courage" in modern English.
 #. +> devel
 #: data/campaigns/Delfadors_Memoirs/scenarios/12_Terror_at_the_Ford_of_Parthyn.cfg:414
 msgid "I have fought these before. Be of heart: impact weapons and magic can defeat them. Do I recall aright that there is a school of mages not far from here?"
@@ -2454,6 +2478,9 @@ msgid "While Delfador was still at the Academy, major events were taking place t
 msgstr "Док Делфадор још учаше на Алдујину, много се ствари изм›ијени у Весноту. Посл›ије сто‹љећа зађевица, међу орковима се издигао ратовођ који их уједини. Б›ијеше ово подједнако лош развој и за људе и за вилењаке."
 
 #. [part]
+#. "errantry" is an archaic English word associated with medieval
+#. knights. It means he wandered around looking for monsters to
+#. slay and wrongs to right.
 #. +> devel
 #: data/campaigns/Delfadors_Memoirs/scenarios/13_The_Return_of_Trouble.cfg:23
 #, fuzzy
@@ -4054,6 +4081,9 @@ msgid "Clash at the Manor"
 msgstr "Сукоб у замку"
 
 #. [part]
+#. "demesne" = the part of a feudal lord's lands reserved for
+#. personal use.
+#. The "Sceptre" spelling is intentional.
 #. +> devel
 #: data/campaigns/Delfadors_Memoirs/scenarios/21_Clash_at_the_Manor.cfg:26
 #, fuzzy

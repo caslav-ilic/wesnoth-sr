@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2011-11-28 00:52+0100\n"
+"PO-Revision-Date: 2011-11-28 00:58+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -4662,38 +4662,12 @@ msgstr "Лоши подаци примљени са сервера|~"
 #. modified: ilic | 2010-04-08 21:45:51+0200 | 1
 #. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
 #| msgid ""
-#| "(A) - auth command|~\n"
-#| "|~x"
-msgid "(A) - admin command"
-msgstr ""
-"(A) — аутф наредба|~\n"
-"(A) — админ. наредба|~"
-
-# well-spelled: аутф|~
-# well-spelled: админ|~
-#. modified: ilic | 2010-04-08 21:40:40+0200 | 1f
-#. modified: ilic | 2010-04-08 21:45:51+0200 | 1
-#. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
-#| msgid ""
 #| "(auth only)|~\n"
 #| "|~x"
 msgid "(admin only)"
 msgstr ""
 "(само аутф)|~\n"
 "(само админ.)|~"
-
-# well-spelled: аутф|~
-# well-spelled: админ|~
-#. modified: ilic | 2010-04-08 21:40:40+0200 | 1f
-#. modified: ilic | 2010-04-08 21:45:51+0200 | 1
-#. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
-#| msgid ""
-#| "(D) - debug only, (N) - network only, (A) - auth only|~\n"
-#| "|~x"
-msgid "(D) - debug only, (N) - network only, (A) - admin only"
-msgstr ""
-"(D) — само исправљање, (N) — само мрежа, (A) — само аутф|~\n"
-"(D) — само исправљање, (N) — само мрежа, (A) — само админ|~"
 
 #. modified: ilic | 2010-04-08 21:40:40+0200 | 1f
 #. modified: ilic | 2010-04-08 21:45:51+0200 | 1
@@ -6231,16 +6205,6 @@ msgstr ""
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
-#| "Some units have movement left. Do you really want to end your turn?|~\n"
-#| "|~x"
-msgid "Some units have planned actions left. Do you really want to end your turn?"
-msgstr ""
-"Неке јединице се још могу кретати. Желите ли заиста да завршите потез?|~\n"
-"Неке јединице имају још планираних радњи. Желите ли заиста да завршите потез?|~"
-
-#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-#| msgid ""
 #| "Sends a private message. You can't send messages to players that don't control a side in a running game you are in.|~\n"
 #| "|~x"
 msgid "Sends a private message. You cannot send private messages to players in a running game you observe or play in."
@@ -7197,71 +7161,11 @@ msgstr ""
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
-#| "The nick '$nick' is already taken.|~\n"
-#| "|~x"
-msgid "The nickname '$nick' is already taken."
-msgstr ""
-"Надимак „$nick“ већ је заузет.|~\n"
-"|~e0"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-#| msgid ""
-#| "The nick '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed.|~\n"
-#| "|~x"
-msgid "The nickname '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed."
-msgstr ""
-"Надимак „$nick“ садржи лоше знакове. Дозвољена су само слова, бројеви, подвлаке и цртице.|~\n"
-"|~e0"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-#| msgid ""
-#| "The nick '$nick' is too long. Nicks must be 18 characters or less.|~\n"
-#| "|~x"
-msgid "The nickname '$nick' is too long. Nicks must be 20 characters or less."
-msgstr ""
-"Надимак „$nick“ је предугачак. Не може имати више од 18 знакова.|~\n"
-"Надимак „$nick“ је предугачак. Не може имати више од 20 знакова.|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-#| msgid ""
-#| "The nick '$nick' is reserved and cannot be used by players.|~\n"
-#| "|~x"
-msgid "The nickname '$nick' is reserved and cannot be used by players."
-msgstr ""
-"Надимак „$nick“ је резервисан и играчи га не могу узети.|~\n"
-"|~e0"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-#| msgid ""
-#| "The nick '$nick' is not registered on this server.|~\n"
-#| "|~x"
-msgid "The nickname '$nick' is not registered on this server."
-msgstr ""
-"Надимак „$nick“ није регистрован на овом серверу.|~\n"
-"|~e0"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-#| msgid ""
 #| " This server disallows unregistered nicks.|~\n"
 #| "|~x"
 msgid " This server disallows unregistered nicknames."
 msgstr ""
 " Овај сервер не дозвољава нерегистроване надимке.|~\n"
-"|~e0"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-#| msgid ""
-#| "The nick '$nick' is registered on this server.|~\n"
-#| "|~x"
-msgid "The nickname '$nick' is registered on this server."
-msgstr ""
-"Надимак „$nick“ регистрован је на овом серверу.|~\n"
 "|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
@@ -7792,10 +7696,6 @@ msgid "Do you wish to clear all of your discovered units from help?"
 msgstr "Желите ли да очистите све откривене јединице из помоћи?|~"
 
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-msgid "The nickname '$nick' is inactive. You cannot claim ownership of this nickname until you activate your account via email or ask an administrator to do it for you."
-msgstr "Надимак „$nick“ није активан. Не можете тврдити власништво над овим надимком док не активирате свој налог, преко е-поште или захтевом администратору да то уради за вас.|~"
-
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "You have made too many login attempts."
 msgstr "Превише пута сте покушали да се пријавите.|~"
 
@@ -7895,6 +7795,172 @@ msgstr "САКРИЈ СВЕ планове савезника|~"
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "Whiteboard Options"
 msgstr "Опције блокчета|~"
+
+# well-spelled: админ|~
+#. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
+#, fuzzy
+#| msgid "(A) - admin command|~"
+msgid "(A) — admin command"
+msgstr "(A) — админ. наредба|~"
+
+# well-spelled: админ|~
+#. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
+#, fuzzy
+#| msgid "(D) - debug only, (N) - network only, (A) - admin only|~"
+msgid "(D) — debug only, (N) — network only, (A) — admin only"
+msgstr "(D) — само исправљање, (N) — само мрежа, (A) — само админ|~"
+
+#. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
+#, fuzzy
+#| msgid "The nickname '$nick' is inactive. You cannot claim ownership of this nickname until you activate your account via email or ask an administrator to do it for you.|~"
+msgid "The nickname ‘$nick’ is inactive. You cannot claim ownership of this nickname until you activate your account via email or ask an administrator to do it for you."
+msgstr "Надимак „$nick“ није активан. Не можете тврдити власништво над овим надимком док не активирате свој налог, преко е-поште или захтевом администратору да то уради за вас.|~"
+
+#. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
+#, fuzzy
+#| msgid "The nickname '$nick' is already taken.|~"
+msgid "The nickname ‘$nick’ is already taken."
+msgstr "Надимак „$nick“ већ је заузет.|~"
+
+#. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
+#, fuzzy
+#| msgid "The nickname '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed.|~"
+msgid "The nickname ‘$nick’ contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed."
+msgstr "Надимак „$nick“ садржи лоше знакове. Дозвољена су само слова, бројеви, подвлаке и цртице.|~"
+
+#. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
+#, fuzzy
+#| msgid "The nickname '$nick' is too long. Nicks must be 20 characters or less.|~"
+msgid "The nickname ‘$nick’ is too long. Nicks must be 20 characters or less."
+msgstr "Надимак „$nick“ је предугачак. Не може имати више од 20 знакова.|~"
+
+#. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
+#, fuzzy
+#| msgid "The nickname '$nick' is reserved and cannot be used by players.|~"
+msgid "The nickname ‘$nick’ is reserved and cannot be used by players."
+msgstr "Надимак „$nick“ је резервисан и играчи га не могу узети.|~"
+
+#. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
+#, fuzzy
+#| msgid "The nickname '$nick' is not registered on this server.|~"
+msgid "The nickname ‘$nick’ is not registered on this server."
+msgstr "Надимак „$nick“ није регистрован на овом серверу.|~"
+
+#. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
+#, fuzzy
+#| msgid "The nickname '$nick' is registered on this server.|~"
+msgid "The nickname ‘$nick’ is registered on this server."
+msgstr "Надимак „$nick“ регистрован је на овом серверу.|~"
+
+# well-spelled: аутф|~
+# well-spelled: админ|~
+#. modified: ilic | 2010-04-08 21:40:40+0200 | 1f
+#. modified: ilic | 2010-04-08 21:45:51+0200 | 1
+#. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
+#. modified: ilic | 2011-11-28 00:58:18+0100 | o
+#~| msgid ""
+#~| "(A) - auth command|~\n"
+#~| "|~x"
+#~ msgid "(A) - admin command"
+#~ msgstr ""
+#~ "(A) — аутф наредба|~\n"
+#~ "(A) — админ. наредба|~"
+
+# well-spelled: аутф|~
+# well-spelled: админ|~
+#. modified: ilic | 2010-04-08 21:40:40+0200 | 1f
+#. modified: ilic | 2010-04-08 21:45:51+0200 | 1
+#. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
+#. modified: ilic | 2011-11-28 00:58:18+0100 | o
+#~| msgid ""
+#~| "(D) - debug only, (N) - network only, (A) - auth only|~\n"
+#~| "|~x"
+#~ msgid "(D) - debug only, (N) - network only, (A) - admin only"
+#~ msgstr ""
+#~ "(D) — само исправљање, (N) — само мрежа, (A) — само аутф|~\n"
+#~ "(D) — само исправљање, (N) — само мрежа, (A) — само админ|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-28 00:58:18+0100 | o
+#~| msgid ""
+#~| "Some units have movement left. Do you really want to end your turn?|~\n"
+#~| "|~x"
+#~ msgid "Some units have planned actions left. Do you really want to end your turn?"
+#~ msgstr ""
+#~ "Неке јединице се још могу кретати. Желите ли заиста да завршите потез?|~\n"
+#~ "Неке јединице имају још планираних радњи. Желите ли заиста да завршите потез?|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-28 00:58:18+0100 | o
+#~| msgid ""
+#~| "The nick '$nick' is already taken.|~\n"
+#~| "|~x"
+#~ msgid "The nickname '$nick' is already taken."
+#~ msgstr ""
+#~ "Надимак „$nick“ већ је заузет.|~\n"
+#~ "|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-28 00:58:18+0100 | o
+#~| msgid ""
+#~| "The nick '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed.|~\n"
+#~| "|~x"
+#~ msgid "The nickname '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed."
+#~ msgstr ""
+#~ "Надимак „$nick“ садржи лоше знакове. Дозвољена су само слова, бројеви, подвлаке и цртице.|~\n"
+#~ "|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-28 00:58:18+0100 | o
+#~| msgid ""
+#~| "The nick '$nick' is too long. Nicks must be 18 characters or less.|~\n"
+#~| "|~x"
+#~ msgid "The nickname '$nick' is too long. Nicks must be 20 characters or less."
+#~ msgstr ""
+#~ "Надимак „$nick“ је предугачак. Не може имати више од 18 знакова.|~\n"
+#~ "Надимак „$nick“ је предугачак. Не може имати више од 20 знакова.|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-28 00:58:18+0100 | o
+#~| msgid ""
+#~| "The nick '$nick' is reserved and cannot be used by players.|~\n"
+#~| "|~x"
+#~ msgid "The nickname '$nick' is reserved and cannot be used by players."
+#~ msgstr ""
+#~ "Надимак „$nick“ је резервисан и играчи га не могу узети.|~\n"
+#~ "|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-28 00:58:18+0100 | o
+#~| msgid ""
+#~| "The nick '$nick' is not registered on this server.|~\n"
+#~| "|~x"
+#~ msgid "The nickname '$nick' is not registered on this server."
+#~ msgstr ""
+#~ "Надимак „$nick“ није регистрован на овом серверу.|~\n"
+#~ "|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-28 00:58:18+0100 | o
+#~| msgid ""
+#~| "The nick '$nick' is registered on this server.|~\n"
+#~| "|~x"
+#~ msgid "The nickname '$nick' is registered on this server."
+#~ msgstr ""
+#~ "Надимак „$nick“ регистрован је на овом серверу.|~\n"
+#~ "|~e0"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-28 00:58:18+0100 | o
+#~ msgid "The nickname '$nick' is inactive. You cannot claim ownership of this nickname until you activate your account via email or ask an administrator to do it for you."
+#~ msgstr "Надимак „$nick“ није активан. Не можете тврдити власништво над овим надимком док не активирате свој налог, преко е-поште или захтевом администратору да то уради за вас.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
