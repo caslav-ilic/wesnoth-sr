@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-lib\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2011-11-28 00:56+0100\n"
-"PO-Revision-Date: 2011-09-10 14:17+0200\n"
+"PO-Revision-Date: 2011-11-30 11:08+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -31,26 +31,20 @@ msgstr "дубока вода"
 #. [terrain_type]: id=deep_water_gray
 #. +> devel
 #: data/core/terrain.cfg:19
-#, fuzzy
-#| msgid "Deep Water"
 msgid "Gray Deep Water"
-msgstr "дубока вода"
+msgstr "сива дубока вода"
 
 #. [terrain_type]: id=deep_water
 #. +> devel
 #: data/core/terrain.cfg:30
-#, fuzzy
-#| msgid "Deep Water"
 msgid "Medium Deep Water"
-msgstr "дубока вода"
+msgstr "средња дубока вода"
 
 #. [terrain_type]: id=deep_water_tropical
 #. +> devel
 #: data/core/terrain.cfg:40
-#, fuzzy
-#| msgid "Deep Water"
 msgid "Tropical Deep Water"
-msgstr "дубока вода"
+msgstr "тропска дубока вода"
 
 #. [terrain_type]: id=gray_tropical_water
 #. [terrain_type]: id=shallow_water
@@ -63,32 +57,26 @@ msgstr "плитка вода"
 #. [terrain_type]: id=gray_tropical_water
 #. +> devel
 #: data/core/terrain.cfg:51
-#, fuzzy
-#| msgid "Shallow Water"
 msgid "Gray Shallow Water"
-msgstr "плитка вода"
+msgstr "сива плитка вода"
 
 #. [terrain_type]: id=shallow_water
 #. +> devel
 #: data/core/terrain.cfg:62
-#, fuzzy
-#| msgid "Shallow Water"
 msgid "Medium Shallow Water"
-msgstr "плитка вода"
+msgstr "средња плитка вода"
 
 #. [terrain_type]: id=tropical_water
 #. +> devel
 #: data/core/terrain.cfg:72
-#, fuzzy
-#| msgid "Shallow Water"
 msgid "Tropical Shallow Water"
-msgstr "плитка вода"
+msgstr "тропска плитка вода"
 
 #. [terrain_type]: id=ford
 #. +> devel
 #: data/core/terrain.cfg:82
 msgid "Ford"
-msgstr ""
+msgstr "газ"
 
 #. [terrain_type]: id=gray_reef
 #. [terrain_type]: id=reef
@@ -101,18 +89,14 @@ msgstr "обалски гребен"
 #. [terrain_type]: id=gray_reef
 #. +> devel
 #: data/core/terrain.cfg:93
-#, fuzzy
-#| msgid "Coastal Reef"
 msgid "Gray Coastal Reef"
-msgstr "обалски гребен"
+msgstr "сиви обалски гребен"
 
 #. [terrain_type]: id=tropical_reef
 #. +> devel
 #: data/core/terrain.cfg:113
-#, fuzzy
-#| msgid "Coastal Reef"
 msgid "Tropical Coastal Reef"
-msgstr "обалски гребен"
+msgstr "тропски обалски гребен"
 
 #. [terrain_type]: id=swamp_water
 #. [terrain_type]: id=quagmire
@@ -125,7 +109,7 @@ msgstr "мочвара"
 #. +> devel
 #: data/core/terrain.cfg:135
 msgid "Muddy Quagmire"
-msgstr ""
+msgstr "блатна бара"
 
 #. [terrain_type]: id=grassland
 #. [terrain_type]: id=savanna
@@ -141,25 +125,25 @@ msgstr "ливада"
 #. +> devel
 #: data/core/terrain.cfg:153
 msgid "Green Grass"
-msgstr ""
+msgstr "зелена трава"
 
 #. [terrain_type]: id=savanna
 #. +> devel
 #: data/core/terrain.cfg:164
 msgid "Semi-dry Grass"
-msgstr ""
+msgstr "полусасушена трава"
 
 #. [terrain_type]: id=grass_dry
 #. +> devel
 #: data/core/terrain.cfg:175
 msgid "Dry Grass"
-msgstr ""
+msgstr "сасушена трава"
 
 #. [terrain_type]: id=leaf_litter
 #. +> devel
 #: data/core/terrain.cfg:185
 msgid "Leaf Litter"
-msgstr ""
+msgstr "опало лишће"
 
 #. [terrain_type]: id=dirt_dark
 #. [terrain_type]: id=dirt
@@ -173,24 +157,20 @@ msgstr "блато"
 #. [terrain_type]: id=dirt_dark
 #. +> devel
 #: data/core/terrain.cfg:197
-#, fuzzy
-#| msgid "Dirt"
 msgid "Dark Dirt"
-msgstr "блато"
+msgstr "тамно блато"
 
 #. [terrain_type]: id=dirt
 #. +> devel
 #: data/core/terrain.cfg:207
 msgid "Regular Dirt"
-msgstr ""
+msgstr "обично блато"
 
 #. [terrain_type]: id=road
 #. +> devel
 #: data/core/terrain.cfg:217
-#, fuzzy
-#| msgid "Dirt"
 msgid "Dry Dirt"
-msgstr "блато"
+msgstr "исушено блато"
 
 #. [terrain_type]: id=road
 #. [terrain_type]: id=road_clean
@@ -208,21 +188,19 @@ msgstr "друм"
 #. +> devel
 #: data/core/terrain.cfg:227
 msgid "Regular Cobbles"
-msgstr ""
+msgstr "обична калдрма"
 
 #. [terrain_type]: id=road_clean
 #. +> devel
 #: data/core/terrain.cfg:237
-#, fuzzy
-#| msgid "Clear Labels"
 msgid "Clean Gray Cobbles"
-msgstr "Уклони етикете"
+msgstr "чиста сива калдрма"
 
 #. [terrain_type]: id=stone_path
 #. +> devel
 #: data/core/terrain.cfg:247
 msgid "Overgrown Cobbles"
-msgstr ""
+msgstr "крупна калдрма"
 
 #. [terrain_type]: id=ice
 #. +> devel
@@ -245,10 +223,8 @@ msgstr "пустиња"
 #. [terrain_type]: id=desert
 #. +> devel
 #: data/core/terrain.cfg:283
-#, fuzzy
-#| msgid "Desert Mountains"
 msgid "Desert Sands"
-msgstr "пустињске планине"
+msgstr "пустињски п›ијесак"
 
 #. [terrain_type]: id=sand
 #. +> devel
@@ -260,7 +236,7 @@ msgstr "п›ијесак"
 #. +> devel
 #: data/core/terrain.cfg:293
 msgid "Beach Sands"
-msgstr ""
+msgstr "обалски п›ијесак"
 
 #. [terrain_type]: id=oasis
 #. +> devel
@@ -283,10 +259,8 @@ msgstr "гротло"
 #. [terrain_type]: id=flowers_mixed
 #. +> devel
 #: data/core/terrain.cfg:337
-#, fuzzy
-#| msgid "Fall Mixed Forest"
 msgid "Mixed Flowers"
-msgstr "јесења мешовита шума"
+msgstr "мешовито цв›ијеће"
 
 #. [terrain_type]: id=farm
 #. +> devel
@@ -298,66 +272,62 @@ msgstr "ораница"
 #. +> devel
 #: data/core/terrain.cfg:355
 msgid "Stones"
-msgstr ""
+msgstr "камење"
 
 #. [terrain_type]: id=mushrooms_small
 #. +> devel
 #: data/core/terrain.cfg:364
 msgid "Small Mushrooms"
-msgstr ""
+msgstr "мале печурке"
 
 #. [terrain_type]: id=mushrooms_farm
 #. +> devel
 #: data/core/terrain.cfg:373
-#, fuzzy
-#| msgid "Mushroom Grove"
 msgid "Mushroom Farm"
-msgstr "гљиварски гај"
+msgstr "засад печурака"
 
 #. [terrain_type]: id=desert_plants
 #. +> devel
 #: data/core/terrain.cfg:382
-#, fuzzy
-#| msgid "Desert Mountains"
 msgid "Desert Plants"
-msgstr "пустињске планине"
+msgstr "пустињске биљке"
 
 #. [terrain_type]: id=desert_plants_sans_bones
 #. +> devel
 #: data/core/terrain.cfg:391
 msgid "Desert Plants without Bones"
-msgstr ""
+msgstr "пустињске биљке без костију"
 
 #. [terrain_type]: id=windmill
 #. [terrain_type]: id=windmill_village
 #. +> devel
 #: data/core/terrain.cfg:400 data/core/terrain.cfg:1279
 msgid "Windmill"
-msgstr ""
+msgstr "ветрењача"
 
 #. [terrain_type]: id=fence
 #. +> devel
 #: data/core/terrain.cfg:409
 msgid "Fence"
-msgstr ""
+msgstr "ограда"
 
 #. [terrain_type]: id=sand_drifts
 #. +> devel
 #: data/core/terrain.cfg:418
 msgid "Stones with Sand Drifts"
-msgstr ""
+msgstr "камење са пешчаним наносом"
 
 #. [terrain_type]: id=water-lilies
 #. +> devel
 #: data/core/terrain.cfg:427
 msgid "Water Lilies"
-msgstr ""
+msgstr "локвањи"
 
 #. [terrain_type]: id=water-lilies-flower
 #. +> devel
 #: data/core/terrain.cfg:437
 msgid "Flowering Water Lilies"
-msgstr ""
+msgstr "цветајући локвањи"
 
 #. [terrain_type]: id=great_tree
 #. [terrain_type]: id=great_tree_dead
@@ -370,10 +340,8 @@ msgstr "велико дрво"
 #. [terrain_type]: id=great_tree_dead
 #. +> devel
 #: data/core/terrain.cfg:464
-#, fuzzy
-#| msgid "Great Tree"
 msgid "Dead Great Tree"
-msgstr "велико дрво"
+msgstr "мртво велико дрво"
 
 #. [terrain_type]: id=tropical_forest
 #. [terrain_type]: id=pine_forest
@@ -491,15 +459,13 @@ msgstr "брда"
 #. +> devel
 #: data/core/terrain.cfg:612
 msgid "Regular Hills"
-msgstr ""
+msgstr "обична брда"
 
 #. [terrain_type]: id=hills_dry
 #. +> devel
 #: data/core/terrain.cfg:621
-#, fuzzy
-#| msgid "Hills"
 msgid "Dry Hills"
-msgstr "брда"
+msgstr "сува брда"
 
 #. [terrain_type]: id=desert_hills
 #. +> devel
@@ -529,10 +495,8 @@ msgstr "планине"
 #. [terrain_type]: id=desert_mountains
 #. +> devel
 #: data/core/terrain.cfg:664
-#, fuzzy
-#| msgid "Desert Mountains"
 msgid "Dry Mountains"
-msgstr "пустињске планине"
+msgstr "суве планине"
 
 #. [terrain_type]: id=snow_mountains
 #. +> devel
@@ -585,10 +549,8 @@ msgstr "‹љетња м›јешовито пошумљена брда"
 #. [terrain_type]: id=mixed_forest_fall_hills
 #. +> devel
 #: data/core/terrain.cfg:766
-#, fuzzy
-#| msgid "Snowy Mixed Forested Hills"
 msgid "Fall Mixed Forested Hills"
-msgstr "с‹њежна м›јешовито пошумљена брда"
+msgstr "јесења м›јешовито пошумљена брда"
 
 #. [terrain_type]: id=mixed_forest_winter_hills
 #. +> devel
@@ -606,13 +568,13 @@ msgstr "с‹њежна м›јешовито пошумљена брда"
 #. +> devel
 #: data/core/terrain.cfg:800
 msgid "Wooden Floor"
-msgstr ""
+msgstr "дрвени под"
 
 #. [terrain_type]
 #. +> devel
 #: data/core/terrain.cfg:802
 msgid "Basic Wooden Floor"
-msgstr ""
+msgstr "прост дрвени под"
 
 #. [terrain_type]: id=lit
 #. +> devel
@@ -624,7 +586,7 @@ msgstr "светло"
 #. +> devel
 #: data/core/terrain.cfg:816
 msgid "Beam of Light"
-msgstr ""
+msgstr "трачак светлости"
 
 #. [terrain_type]: id=cave
 #. [terrain_type]: id=cave_earthy
@@ -636,28 +598,24 @@ msgstr "пећина"
 #. [terrain_type]: id=cave
 #. +> devel
 #: data/core/terrain.cfg:827
-#, fuzzy
-#| msgid "Cave Wall"
 msgid "Cave Floor"
-msgstr "пећински зид"
+msgstr "пећински под"
 
 #. [terrain_type]: id=cave_earthy
 #. +> devel
 #: data/core/terrain.cfg:836
 msgid "Earthy Cave Floor"
-msgstr ""
+msgstr "земљани пећински под"
 
 #. [terrain_type]: id=flagstones_dark
 #. +> devel
 #: data/core/terrain.cfg:846
 msgid "Dark Flagstones"
-msgstr ""
+msgstr "тамне камене плоче"
 
 #. [terrain_type]: id=cave_path
 #. +> devel
 #: data/core/terrain.cfg:856
-#, fuzzy
-#| msgid "Cave path"
 msgid "Cave Path"
 msgstr "пећинска стаза"
 
@@ -671,10 +629,8 @@ msgstr "гљиварски гај"
 #. [terrain_type]: id=fungus_beam
 #. +> devel
 #: data/core/terrain.cfg:875
-#, fuzzy
-#| msgid "Mushroom Grove"
 msgid "Lit Mushroom Grove"
-msgstr "гљиварски гај"
+msgstr "осветљени гљиварски гај"
 
 #. [terrain_type]: id=rocky_cave
 #. +> devel
@@ -689,7 +645,7 @@ msgstr "ст›јеновита пећина"
 #: data/core/terrain.cfg:898 data/core/terrain.cfg:910
 #: data/core/terrain.cfg:922
 msgid "Mine Rail"
-msgstr ""
+msgstr "рудничка шина"
 
 #. [terrain_type]: id=canyon
 #. [terrain_type]: id=chasm_earthy
@@ -705,25 +661,23 @@ msgstr "бездан"
 #. +> devel
 #: data/core/terrain.cfg:940
 msgid "Regular Chasm"
-msgstr ""
+msgstr "обичан бездан"
 
 #. [terrain_type]: id=chasm_earthy
 #. +> devel
 #: data/core/terrain.cfg:951
 msgid "Earthy Chasm"
-msgstr ""
+msgstr "земљани бездан"
 
 #. [terrain_type]: id=abyss
 #. +> devel
 #: data/core/terrain.cfg:962
 msgid "Ethereal Abyss"
-msgstr ""
+msgstr "језоморни бездан"
 
 #. [terrain_type]: id=lava_chasm
 #. +> devel
 #: data/core/terrain.cfg:973
-#, fuzzy
-#| msgid "Lava chasm"
 msgid "Lava Chasm"
 msgstr "бездан лаве"
 
@@ -737,31 +691,25 @@ msgstr "лава"
 #. +> devel
 #: data/core/terrain.cfg:994
 msgid "Volcano"
-msgstr ""
+msgstr "вулкан"
 
 #. [terrain_type]: id=cloud
 #. +> devel
 #: data/core/terrain.cfg:1009
-#, fuzzy
-#| msgid "Impassable Mountains"
 msgid "Regular Impassable Mountains"
-msgstr "непролазне планине"
+msgstr "обичне непролазне планине"
 
 #. [terrain_type]: id=clouddesert
 #. +> devel
 #: data/core/terrain.cfg:1019
-#, fuzzy
-#| msgid "Impassable Mountains"
 msgid "Desert Impassable Mountains"
-msgstr "непролазне планине"
+msgstr "пустињске непролазне планине"
 
 #. [terrain_type]: id=cloud_snow
 #. +> devel
 #: data/core/terrain.cfg:1029
-#, fuzzy
-#| msgid "Impassable Mountains"
 msgid "Snowy Impassable Mountains"
-msgstr "непролазне планине"
+msgstr "с‹њежне непролазне планине"
 
 #. [terrain_type]: id=cavewall
 #. [terrain_type]: id=cavewall_hewn
@@ -776,53 +724,45 @@ msgstr "пећински зид"
 #. [terrain_type]: id=cavewall
 #. +> devel
 #: data/core/terrain.cfg:1040
-#, fuzzy
-#| msgid "Cave Wall"
 msgid "Natural Cave Wall"
-msgstr "пећински зид"
+msgstr "природни пећински зид"
 
 #. [terrain_type]: id=cavewall_hewn
 #. +> devel
 #: data/core/terrain.cfg:1051
-#, fuzzy
-#| msgid "Cave Wall"
 msgid "Hewn Cave Wall"
-msgstr "пећински зид"
+msgstr "обрађени пећински зид"
 
 #. [terrain_type]: id=cavewall_earthy
 #. +> devel
 #: data/core/terrain.cfg:1062
 msgid "Natural Earthy Cave Wall"
-msgstr ""
+msgstr "природни земљани пећински зид"
 
 #. [terrain_type]: id=cavewall_earthy_hewn
 #. +> devel
 #: data/core/terrain.cfg:1073
 msgid "Reinforced Earthy Cave Wall"
-msgstr ""
+msgstr "ојачани земљани пећински зид"
 
 #. [terrain_type]: id=wall_stone
 #. [terrain_type]: id=wall_stone_lit
 #. +> devel
 #: data/core/terrain.cfg:1083 data/core/terrain.cfg:1093
-#, fuzzy
-#| msgid "Cave Wall"
 msgid "Stone Wall"
-msgstr "пећински зид"
+msgstr "камени зид"
 
 #. [terrain_type]: id=wall_stone_lit
 #. +> devel
 #: data/core/terrain.cfg:1094
 msgid "Lit Stone Wall"
-msgstr ""
+msgstr "осветљени камени зид"
 
 #. [terrain_type]: id=impassable_overlay
 #. +> devel
 #: data/core/terrain.cfg:1104
-#, fuzzy
-#| msgid "Impassable"
 msgid "Impassable Overlay"
-msgstr "непролаз"
+msgstr "непролазни преклоп"
 
 #. [terrain_type]: id=void
 #. [terrain_type]: id=off_map
@@ -882,210 +822,176 @@ msgstr "село"
 #. [terrain_type]: id=desert_village
 #. +> devel
 #: data/core/terrain.cfg:1131
-#, fuzzy
-#| msgid "Village"
 msgid "Adobe Village"
-msgstr "село"
+msgstr "село од земљаних опека"
 
 #. [terrain_type]: id=desert_village
 #. +> devel
 #: data/core/terrain.cfg:1144
 msgid "Desert Tent Village"
-msgstr ""
+msgstr "село под пустињским шаторима"
 
 #. [terrain_type]: id=camp_village
 #. +> devel
 #: data/core/terrain.cfg:1157
-#, fuzzy
-#| msgid "Village"
 msgid "Tent Village"
-msgstr "село"
+msgstr "село под шаторима"
 
 #. [terrain_type]: id=orcish_village
 #. +> devel
 #: data/core/terrain.cfg:1172
-#, fuzzy
-#| msgid "Village"
 msgid "Orcish Village"
-msgstr "село"
+msgstr "орковско село"
 
 #. [terrain_type]: id=orcish_snow_village
 #. +> devel
 #: data/core/terrain.cfg:1185
 msgid "Snowy Orcish Village"
-msgstr ""
+msgstr "с‹њежно орковско село"
 
 #. [terrain_type]: id=elven_snow_village
 #. +> devel
 #: data/core/terrain.cfg:1200
 msgid "Snowy Elven Village"
-msgstr ""
+msgstr "с‹њежно вилењачко село"
 
 #. [terrain_type]: id=elven_village
 #. +> devel
 #: data/core/terrain.cfg:1213
-#, fuzzy
-#| msgid "Village"
 msgid "Elven Village"
-msgstr "село"
+msgstr "вилењачко село"
 
 #. [terrain_type]: id=human_village
 #. +> devel
 #: data/core/terrain.cfg:1228
 msgid "Cottage"
-msgstr ""
+msgstr "колиба"
 
 #. [terrain_type]: id=snow_village
 #. +> devel
 #: data/core/terrain.cfg:1241
-#, fuzzy
-#| msgid "Snowy Mountains"
 msgid "Snowy Cottage"
-msgstr "с‹њежне планине"
+msgstr "с‹њежна колиба"
 
 #. [terrain_type]: id=human_village_ruin
 #. +> devel
 #: data/core/terrain.cfg:1254
-#, fuzzy
-#| msgid "Ruined Castle Keep"
 msgid "Ruined Cottage"
-msgstr "кула урушеног замка"
+msgstr "урушена колиба"
 
 #. [terrain_type]: id=city_village
 #. +> devel
 #: data/core/terrain.cfg:1267
 msgid "Human City"
-msgstr ""
+msgstr "људски град"
 
 #. [terrain_type]: id=windmill_village
 #. +> devel
 #: data/core/terrain.cfg:1280
-#, fuzzy
-#| msgid "Village"
 msgid "Windmill Village"
-msgstr "село"
+msgstr "село ветрењача"
 
 #. [terrain_type]: id=city_village_wno
 #. +> devel
 #: data/core/terrain.cfg:1293
 msgid "Snowy Human City"
-msgstr ""
+msgstr "с‹њежни људски град"
 
 #. [terrain_type]: id=city_village
 #. +> devel
 #: data/core/terrain.cfg:1306
 msgid "Ruined Human City"
-msgstr ""
+msgstr "урушени људски град"
 
 #. [terrain_type]: id=hill_village
 #. +> devel
 #: data/core/terrain.cfg:1319
 msgid "Hill Stone Village"
-msgstr ""
+msgstr "село од брдског камења"
 
 #. [terrain_type]: id=snow-hill_village
 #. +> devel
 #: data/core/terrain.cfg:1332
 msgid "Snowy Hill Stone Village"
-msgstr ""
+msgstr "с‹њежно село од брдског камења"
 
 #. [terrain_type]: id=hill_village_ruin
 #. +> devel
 #: data/core/terrain.cfg:1345
 msgid "Ruined Hill Stone Village"
-msgstr ""
+msgstr "урушено село од брдског камења"
 
 #. [terrain_type]: id=tropical_forest_village
 #. +> devel
 #: data/core/terrain.cfg:1358
-#, fuzzy
-#| msgid "Tropical Forest"
 msgid "Tropical Village"
-msgstr "тропска шума"
+msgstr "тропско село"
 
 #. [terrain_type]: id=drake_village
 #. +> devel
 #: data/core/terrain.cfg:1371
-#, fuzzy
-#| msgid "Village"
 msgid "Drake Village"
-msgstr "село"
+msgstr "змашко село"
 
 #. [terrain_type]: id=underground_village
 #. +> devel
 #: data/core/terrain.cfg:1386
-#, fuzzy
-#| msgid "Village"
 msgid "Cave Village"
-msgstr "село"
+msgstr "пећинско село"
 
 #. [terrain_type]: id=dwarven_village
 #. +> devel
 #: data/core/terrain.cfg:1399
-#, fuzzy
-#| msgid "Village"
 msgid "Dwarven Village"
-msgstr "село"
+msgstr "патуљачко село"
 
 #. [terrain_type]: id=hut_village
 #. +> devel
 #: data/core/terrain.cfg:1412
-#, fuzzy
-#| msgid "Cut"
 msgid "Hut"
-msgstr "Исеци"
+msgstr "кућица"
 
 #. [terrain_type]: id=hut_snow_village
 #. +> devel
 #: data/core/terrain.cfg:1425
-#, fuzzy
-#| msgid "Snowy Mountains"
 msgid "Snowy Hut"
-msgstr "с‹њежне планине"
+msgstr "с‹њежна кућица"
 
 #. [terrain_type]: id=logcabin_village
 #. +> devel
 #: data/core/terrain.cfg:1438
 msgid "Log Cabin"
-msgstr ""
+msgstr "брвнара"
 
 #. [terrain_type]: id=logcabin_snow_village
 #. +> devel
 #: data/core/terrain.cfg:1451
-#, fuzzy
-#| msgid "Snowy Mountains"
 msgid "Snowy Log Cabin"
-msgstr "с‹њежне планине"
+msgstr "с‹њежна брвнара"
 
 #. [terrain_type]: id=igloo
 #. +> devel
 #: data/core/terrain.cfg:1464
 msgid "Igloo"
-msgstr ""
+msgstr "игло"
 
 #. [terrain_type]: id=swamp_village
 #. +> devel
 #: data/core/terrain.cfg:1479
-#, fuzzy
-#| msgid "Village"
 msgid "Swamp Village"
-msgstr "село"
+msgstr "мочварно село"
 
 #. [terrain_type]: id=mermen-village
 #. +> devel
 #: data/core/terrain.cfg:1492
-#, fuzzy
-#| msgid "Village"
 msgid "Merfolk Village"
-msgstr "село"
+msgstr "морејско село"
 
 #. [terrain_type]: id=village_overlay
 #. +> devel
 #: data/core/terrain.cfg:1507
-#, fuzzy
-#| msgid "Village gold"
 msgid "Village Overlay"
-msgstr "Злата по селу"
+msgstr "сеоски преклоп"
 
 #. [terrain_type]: id=encampment
 #. [terrain_type]: id=encampment_snow
@@ -1098,10 +1004,8 @@ msgstr "табор"
 #. [terrain_type]: id=encampment_snow
 #. +> devel
 #: data/core/terrain.cfg:1535
-#, fuzzy
-#| msgid "Encampment"
 msgid "Snowy Encampment"
-msgstr "табор"
+msgstr "с‹њежни табор"
 
 #. [terrain_type]: id=orcish_fort
 #. [terrain_type]: id=snow_orcish_fort
@@ -1122,48 +1026,38 @@ msgstr "замак"
 #. [terrain_type]: id=orcish_fort
 #. +> devel
 #: data/core/terrain.cfg:1547
-#, fuzzy
-#| msgid "Castle"
 msgid "Orcish Castle"
-msgstr "замак"
+msgstr "орковски замак"
 
 #. [terrain_type]: id=snow_orcish_fort
 #. +> devel
 #: data/core/terrain.cfg:1559
 msgid "Snowy Orcish Castle"
-msgstr ""
+msgstr "с‹њежни орковски замак"
 
 #. [terrain_type]: id=castle
 #. +> devel
 #: data/core/terrain.cfg:1571
-#, fuzzy
-#| msgid "Castle"
 msgid "Human Castle"
-msgstr "замак"
+msgstr "људски замак"
 
 #. [terrain_type]: id=snow_castle
 #. +> devel
 #: data/core/terrain.cfg:1582
-#, fuzzy
-#| msgid "Snowy Mountains"
 msgid "Snowy Human Castle"
-msgstr "с‹њежне планине"
+msgstr "с‹њежни људски замак"
 
 #. [terrain_type]: id=elven_castle
 #. +> devel
 #: data/core/terrain.cfg:1593
-#, fuzzy
-#| msgid "Castle"
 msgid "Elvish Castle"
-msgstr "замак"
+msgstr "вилењачки замак"
 
 #. [terrain_type]: id=dwarven_castle
 #. +> devel
 #: data/core/terrain.cfg:1605
-#, fuzzy
-#| msgid "Castle"
 msgid "Dwarven Castle"
-msgstr "замак"
+msgstr "патуљачки замак"
 
 #. [terrain_type]: id=ruin
 #. [terrain_type]: id=sunkenruin
@@ -1172,50 +1066,38 @@ msgstr "замак"
 #. +> devel
 #: data/core/terrain.cfg:1616 data/core/terrain.cfg:1628
 #: data/core/terrain.cfg:1641 data/core/terrain.cfg:1666
-#, fuzzy
-#| msgid "Ruined Castle Keep"
 msgid "Ruined Castle"
-msgstr "кула урушеног замка"
+msgstr "урушени замак"
 
 #. [terrain_type]: id=ruin
 #. +> devel
 #: data/core/terrain.cfg:1617
-#, fuzzy
-#| msgid "Ruined Castle Keep"
 msgid "Ruined Human Castle"
-msgstr "кула урушеног замка"
+msgstr "урушени људски замак"
 
 #. [terrain_type]: id=sunkenruin
 #. +> devel
 #: data/core/terrain.cfg:1629
-#, fuzzy
-#| msgid "Sunken Ruin"
 msgid "Sunken Human Ruin"
-msgstr "потопљена рушевина"
+msgstr "потопљена људска рушевина"
 
 #. [terrain_type]: id=swampruin
 #. +> devel
 #: data/core/terrain.cfg:1642
-#, fuzzy
-#| msgid "Swamp Ruin"
 msgid "Swamp Human Ruin"
-msgstr "мочварна рушевина"
+msgstr "мочварна људска рушевина"
 
 #. [terrain_type]: id=sand_castle
 #. +> devel
 #: data/core/terrain.cfg:1655
-#, fuzzy
-#| msgid "Castle"
 msgid "Desert Castle"
-msgstr "замак"
+msgstr "пустињски замак"
 
 #. [terrain_type]: id=sand_castle_ruin
 #. +> devel
 #: data/core/terrain.cfg:1667
-#, fuzzy
-#| msgid "Ruined Castle Keep"
 msgid "Ruined Desert Castle"
-msgstr "кула урушеног замка"
+msgstr "урушени пустињски замак"
 
 #. [terrain_type]: id=encampment_keep
 #. [terrain_type]: id=encampment_keep_tall
@@ -1229,18 +1111,14 @@ msgstr "кула табора"
 #. [terrain_type]: id=encampment_keep_tall
 #. +> devel
 #: data/core/terrain.cfg:1695
-#, fuzzy
-#| msgid "Encampment Keep"
 msgid "Tall Encampment Keep"
-msgstr "кула табора"
+msgstr "кула високог табора"
 
 #. [terrain_type]: id=encampment_snow_keep
 #. +> devel
 #: data/core/terrain.cfg:1708
-#, fuzzy
-#| msgid "Encampment Keep"
 msgid "Snowy Encampment Keep"
-msgstr "кула табора"
+msgstr "кула с‹њежног табора"
 
 #. [terrain_type]: id=orcish_keep
 #. [terrain_type]: id=snow_orcish_keep
@@ -1261,48 +1139,38 @@ msgstr "кула"
 #. [terrain_type]: id=orcish_keep
 #. +> devel
 #: data/core/terrain.cfg:1721
-#, fuzzy
-#| msgid "Fort Keep"
 msgid "Orcish Keep"
-msgstr "кула утврде"
+msgstr "орковска кула"
 
 #. [terrain_type]: id=snow_orcish_keep
 #. +> devel
 #: data/core/terrain.cfg:1734
 msgid "Snowy Orcish Keep"
-msgstr ""
+msgstr "с‹њежна орковска кула"
 
 #. [terrain_type]: id=human_keep
 #. +> devel
 #: data/core/terrain.cfg:1747
-#, fuzzy
-#| msgid "Sunken Castle Keep"
 msgid "Human Castle Keep"
-msgstr "кула потопљеног замка"
+msgstr "кула људског замка"
 
 #. [terrain_type]: id=snow_keep
 #. +> devel
 #: data/core/terrain.cfg:1760
-#, fuzzy
-#| msgid "Sunken Castle Keep"
 msgid "Snowy Human Castle Keep"
-msgstr "кула потопљеног замка"
+msgstr "кула с‹њежног људског замка"
 
 #. [terrain_type]: id=elven_keep
 #. +> devel
 #: data/core/terrain.cfg:1773
-#, fuzzy
-#| msgid "Sunken Castle Keep"
 msgid "Elven Castle Keep"
-msgstr "кула потопљеног замка"
+msgstr "кула вилењачког замка"
 
 #. [terrain_type]: id=dwarven_keep
 #. +> devel
 #: data/core/terrain.cfg:1786
-#, fuzzy
-#| msgid "Sunken Castle Keep"
 msgid "Dwarven Castle Keep"
-msgstr "кула потопљеног замка"
+msgstr "кула патуљачког замка"
 
 #. [terrain_type]: id=ruined_keep
 #. [terrain_type]: id=sunken_keep
@@ -1311,64 +1179,50 @@ msgstr "кула потопљеног замка"
 #. +> devel
 #: data/core/terrain.cfg:1798 data/core/terrain.cfg:1811
 #: data/core/terrain.cfg:1824 data/core/terrain.cfg:1850
-#, fuzzy
-#| msgid "Ruined Castle Keep"
 msgid "Ruined Keep"
-msgstr "кула урушеног замка"
+msgstr "урушена кула"
 
 #. [terrain_type]: id=ruined_keep
 #. +> devel
 #: data/core/terrain.cfg:1799
-#, fuzzy
-#| msgid "Ruined Castle Keep"
 msgid "Ruined Human Castle Keep"
-msgstr "кула урушеног замка"
+msgstr "кула урушеног људског замка"
 
 #. [terrain_type]: id=sunken_keep
 #. +> devel
 #: data/core/terrain.cfg:1812
-#, fuzzy
-#| msgid "Sunken Castle Keep"
 msgid "Sunken Human Castle Keep"
-msgstr "кула потопљеног замка"
+msgstr "кула потопљеног људског замка"
 
 #. [terrain_type]: id=swamp_keep
 #. +> devel
 #: data/core/terrain.cfg:1825
-#, fuzzy
-#| msgid "Sunken Castle Keep"
 msgid "Swamp Human Castle Keep"
-msgstr "кула потопљеног замка"
+msgstr "кула мочварног људског замка"
 
 #. [terrain_type]: id=desert_keep
 #. +> devel
 #: data/core/terrain.cfg:1838
-#, fuzzy
-#| msgid "Desert"
 msgid "Desert Keep"
-msgstr "пустиња"
+msgstr "пустињска кула"
 
 #. [terrain_type]: id=desert_keep_ruined
 #. +> devel
 #: data/core/terrain.cfg:1851
-#, fuzzy
-#| msgid "Ruined Castle Keep"
 msgid "Ruined Desert Keep"
-msgstr "кула урушеног замка"
+msgstr "урушена пустињска кула"
 
 #. [terrain_type]: id=castle_overlay
 #. +> devel
 #: data/core/terrain.cfg:1865
-#, fuzzy
-#| msgid "Castle Keep"
 msgid "Castle Overlay"
-msgstr "кула замка"
+msgstr "преклоп замка"
 
 #. [terrain_type]: id=keep_overlay
 #. +> devel
 #: data/core/terrain.cfg:1877
 msgid "Keep Overlay"
-msgstr ""
+msgstr "преклоп куле"
 
 #. [terrain_type]: id=bridge
 #. [terrain_type]: id=bridgediag1
@@ -1396,10 +1250,8 @@ msgstr "мост"
 #. +> devel
 #: data/core/terrain.cfg:1895 data/core/terrain.cfg:1907
 #: data/core/terrain.cfg:1919
-#, fuzzy
-#| msgid "Bridge"
 msgid "Wooden Bridge"
-msgstr "мост"
+msgstr "дрвени мост"
 
 #. [terrain_type]: id=rotbridge
 #. [terrain_type]: id=rotbridgediag1
@@ -1407,17 +1259,15 @@ msgstr "мост"
 #. +> devel
 #: data/core/terrain.cfg:1931 data/core/terrain.cfg:1943
 #: data/core/terrain.cfg:1955
-#, fuzzy
-#| msgid "Bridge"
 msgid "Rotting Bridge"
-msgstr "мост"
+msgstr "натрули мост"
 
 #. [terrain_type]: id=stone_bridge
 #. +> devel
 #: data/core/terrain.cfg:1969 data/core/terrain.cfg:1981
 #: data/core/terrain.cfg:1993
 msgid "Basic Stone Bridge"
-msgstr ""
+msgstr "прост камени мост"
 
 #. [terrain_type]: id=bridgechasm
 #. [terrain_type]: id=bridgechasmdiag1
@@ -1426,19 +1276,19 @@ msgstr ""
 #: data/core/terrain.cfg:2007 data/core/terrain.cfg:2018
 #: data/core/terrain.cfg:2030
 msgid "Cave Chasm Bridge"
-msgstr ""
+msgstr "мост над пећинским безданом"
 
 #. [terrain_type]: id=off_map
 #. +> devel
 #: data/core/terrain.cfg:2047
 msgid "Off Map"
-msgstr ""
+msgstr "ван мапе"
 
 #. [terrain_type]: id=off_map2
 #. +> devel
 #: data/core/terrain.cfg:2057
 msgid "Experimental Fake Map Edge"
-msgstr ""
+msgstr "пробна лажна ивица мапе"
 
 #. [toggle_button]: id=shroud
 #. [terrain_type]: id=shroud
@@ -1504,8 +1354,6 @@ msgstr "Сервер:"
 #. +> devel
 #: data/gui/default/window/addon_connect.cfg:145
 #: data/gui/default/window/addon_connect.cfg:146
-#, fuzzy
-#| msgid "Update add-ons"
 msgid "Update Add-ons"
 msgstr "Ажурирај додатке"
 
@@ -1563,64 +1411,57 @@ msgstr "Одустани"
 #. +> devel
 #: data/gui/default/window/addon_description.cfg:88
 msgid "Author:"
-msgstr ""
+msgstr "Аутор:"
 
 #. [label]
 #. +> devel
 #: data/gui/default/window/addon_description.cfg:118
-#, fuzzy
-#| msgid "Version: "
 msgid "Version:"
-msgstr "Верзија: "
+msgstr "Издање:"
 
 #. [label]
 #. +> devel
 #: data/gui/default/window/addon_description.cfg:149
 msgid "Size:"
-msgstr ""
+msgstr "Величина:"
 
 #. [label]
 #. +> devel
 #: data/gui/default/window/addon_description.cfg:180
-#, fuzzy
-#| msgid "Unit Description"
 msgid "Description:"
-msgstr "Опис јединице"
+msgstr "Опис:"
 
 #. [scroll_label]: id=description
 #. +> devel
 #: data/gui/default/window/addon_description.cfg:194
 msgid "No description available."
-msgstr ""
+msgstr "Без описа."
 
 #. [label]
 #. +> devel
 #: data/gui/default/window/addon_description.cfg:212
 msgid "Translations:"
-msgstr ""
+msgstr "Преводи:"
 
 #. [scroll_label]: id=translations
 #. +> devel
 #: data/gui/default/window/addon_description.cfg:226
-#, fuzzy
-#| msgid "None"
 msgctxt "translations"
 msgid "None"
-msgstr "никакав"
+msgstr "ниједан"
 
+# >> @title:window
 #. [label]
 #. +> devel
 #: data/gui/default/window/addon_uninstall_list.cfg:51
-#, fuzzy
-#| msgid "Update add-ons"
 msgid "Uninstall Add-ons"
-msgstr "Ажурирај додатке"
+msgstr "Деинсталирање додатака"
 
 #. [scroll_label]
 #. +> devel
 #: data/gui/default/window/addon_uninstall_list.cfg:70
 msgid "Choose the add-ons you want to remove."
-msgstr ""
+msgstr "Изаберите додатке које желите да уклоните."
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=remove
@@ -1671,22 +1512,21 @@ msgstr "У реду"
 #. [label]: id=title
 #. +> devel
 #: data/gui/default/window/campaign_difficulty.cfg:57
-#, fuzzy
-#| msgid "Difficulty: "
 msgid "Difficulty"
-msgstr "Тежина: "
+msgstr "Тежина"
 
 #. [scroll_label]: id=message
 #. +> devel
 #: data/gui/default/window/campaign_difficulty.cfg:77
 msgid "Select difficulty level:"
-msgstr ""
+msgstr "Изаберите ниво тежине:"
 
+# >> @title:window
 #. [label]: id=lblTitle
 #. +> devel
 #: data/gui/default/window/data_manage.cfg:50
 msgid "Manage Data"
-msgstr ""
+msgstr "Управљање подацима"
 
 #. [label]: id=lblChoose
 #. +> devel
@@ -1723,45 +1563,40 @@ msgstr "Датум"
 #: data/gui/default/window/data_manage.cfg:266
 #: data/gui/default/window/data_manage.cfg:267
 msgid "Clear"
-msgstr ""
+msgstr "Очисти"
 
 #. [button]: id=restore
 #. +> devel
 #: data/gui/default/window/data_manage.cfg:283
 #: data/gui/default/window/data_manage.cfg:284
 msgid "Restore"
-msgstr ""
+msgstr "Врати"
 
 #. [button]: id=backup
 #. +> devel
 #: data/gui/default/window/data_manage.cfg:300
 #: data/gui/default/window/data_manage.cfg:301
 msgid "Backup"
-msgstr ""
+msgstr "Направи резерву"
 
+# >> @title:window
 #. [label]: id=title
 #. +> devel
 #: data/gui/default/window/edit_label.cfg:42
-#, fuzzy
-#| msgid "Set Label"
 msgid "Place Label"
-msgstr "Етикетирај"
+msgstr "Етикета места"
 
 #. [label]
 #. +> devel
 #: data/gui/default/window/edit_label.cfg:72
-#, fuzzy
-#| msgid "Set Label"
 msgid "Label:"
-msgstr "Етикетирај"
+msgstr "Етикета:"
 
 #. [toggle_button]: id=team_only_toggle
 #. +> devel
 #: data/gui/default/window/edit_label.cfg:110
-#, fuzzy
-#| msgid "Team 1"
 msgid "Team only"
-msgstr "Тим 1"
+msgstr "Само тимски"
 
 #. [label]
 #. +> devel
@@ -1814,8 +1649,6 @@ msgstr "Висина:"
 #. +> devel
 #: data/gui/default/window/editor_new_map.cfg:108
 #: data/gui/default/window/editor_new_map.cfg:109
-#, fuzzy
-#| msgid "Create new map"
 msgid "Create New Map"
 msgstr "Направи нову мапу"
 
@@ -1865,19 +1698,18 @@ msgstr "Рашири/сажми правац"
 msgid "Copy edge terrain"
 msgstr "Копирај рубни терен"
 
+# >> @title:window
 #. [label]: id=title
 #. +> devel
 #: data/gui/default/window/editor_set_starting_position.cfg:50
-#, fuzzy
-#| msgid "Choose the game to load"
 msgid "Choose Player"
-msgstr "Позиција за учитавање"
+msgstr "Избор играча"
 
 #. [label]: id=message
 #. +> devel
 #: data/gui/default/window/editor_set_starting_position.cfg:70
 msgid "Which player should start here?"
-msgstr ""
+msgstr "Који играч почиње одавде?"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
@@ -1889,10 +1721,8 @@ msgstr "Поставке уређивача"
 #. [label]
 #. +> devel
 #: data/gui/default/window/editor_settings.cfg:53
-#, fuzzy
-#| msgid "Time of day lighting preset"
 msgid "Time of day lighting preset:"
-msgstr "Предефинисан осв›јетљај за доба дана"
+msgstr "Предефинисан осв›јетљај за доба дана:"
 
 #. [button]: id=next_tod
 #. [button]: id=next_tip
@@ -1906,18 +1736,14 @@ msgstr "С‹љедеће"
 #. [toggle_button]: id=custom_tod_toggle
 #. +> devel
 #: data/gui/default/window/editor_settings.cfg:104
-#, fuzzy
-#| msgid "Custom lighting setting"
 msgid "Custom lighting settings"
-msgstr "Поставка посебног осв›јетљаја"
+msgstr "Поставке посебног осв›јетљаја"
 
 #. [toggle_button]: id=custom_tod_auto_refresh
 #. +> devel
 #: data/gui/default/window/editor_settings.cfg:114
-#, fuzzy
-#| msgid "Auto-update map view"
 msgid "Automatically update map view"
-msgstr "Самоажурирај приказ мапе"
+msgstr "Аутоматски ажурирај приказ мапе"
 
 #. [label]
 #. +> devel
@@ -1941,7 +1767,7 @@ msgstr "плава:"
 #. +> devel
 #: data/gui/default/window/editor_settings.cfg:231
 msgid "Allow multiple maps to be open simultaneously"
-msgstr ""
+msgstr "Дозволи истовремено отварање више мапа"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=apply
@@ -2055,8 +1881,6 @@ msgstr "Желите ли заиста да обришете ову позици
 #. [toggle_button]: id=dont_ask_again
 #. +> devel
 #: data/gui/default/window/game_delete.cfg:80
-#, fuzzy
-#| msgid "Don't ask me again!"
 msgid "Don’t ask me again!"
 msgstr "Не питај ме поново"
 
@@ -2137,8 +1961,6 @@ msgstr "ООС грешка"
 #. [toggle_button]: id=ignore_all
 #. +> devel
 #: data/gui/default/window/game_save_oos.cfg:145
-#, fuzzy
-#| msgid "Ignore All"
 msgid "Ignore all"
 msgstr "Игнориши све"
 
@@ -2231,8 +2053,6 @@ msgstr "Изаберите жељени језик:"
 #. +> devel
 #: data/gui/default/window/language_selection.cfg:128
 #: data/gui/default/window/language_selection.cfg:129 src/hotkeys.cpp:204
-#, fuzzy
-#| msgid "Change language"
 msgid "Change Language"
 msgstr "Пром›ијени језик"
 
@@ -2246,7 +2066,7 @@ msgstr "Партије"
 #. +> devel
 #: data/gui/default/window/lobby_main.cfg:176
 msgid "Assign sides to players at random"
-msgstr ""
+msgstr "Насумично додели стране играчима"
 
 #. [row]
 #. +> devel
@@ -2437,40 +2257,30 @@ msgstr "Брзи снимак"
 #. [label]
 #. +> devel
 #: data/gui/default/window/lobby_player_info.cfg:38
-#, fuzzy
-#| msgid "Player Info - "
 msgid "Player Info — "
 msgstr "Подаци о играчу — "
 
 #. [button]: id=start_whisper
 #. +> devel
 #: data/gui/default/window/lobby_player_info.cfg:70
-#, fuzzy
-#| msgid "Send private message"
 msgid "Send Private Message"
 msgstr "Пошаљи приватну поруку"
 
 #. [button]: id=add_to_friends
 #. +> devel
 #: data/gui/default/window/lobby_player_info.cfg:99
-#, fuzzy
-#| msgid "Add As Friend"
 msgid "Add to Friends"
-msgstr "Додај као пријатеља"
+msgstr "Додај међу пријатеље"
 
 #. [button]: id=add_to_ignores
 #. +> devel
 #: data/gui/default/window/lobby_player_info.cfg:108
-#, fuzzy
-#| msgid "Add As Ignore"
 msgid "Add to Ignores"
-msgstr "Додај као игнорисаног"
+msgstr "Додај међу игнорисане"
 
 #. [button]: id=remove_from_list
 #. +> devel
 #: data/gui/default/window/lobby_player_info.cfg:117
-#, fuzzy
-#| msgid "Remove from list"
 msgid "Remove from List"
 msgstr "Уклони са списка"
 
@@ -2514,24 +2324,20 @@ msgstr "Избаци/забрани"
 #. [label]: id=side_title
 #. +> devel
 #: data/gui/default/window/mp_change_control.cfg:21
-#, fuzzy
-#| msgid "Next Side"
 msgid "Side"
-msgstr "С‹љедећа страна"
+msgstr "Страна"
 
 #. [label]: id=nick_title
 #. +> devel
 #: data/gui/default/window/mp_change_control.cfg:73
 msgid "Nickname"
-msgstr ""
+msgstr "Надимак"
 
 #. [label]
 #. +> devel
 #: data/gui/default/window/mp_change_control.cfg:194
-#, fuzzy
-#| msgid "Change Hotkey"
 msgid "Change Control"
-msgstr "Пром›ијени пречицу"
+msgstr "Пром›ијени управљање"
 
 #. [window]: id=mp_cmd_wrapper
 #. +> devel
@@ -2560,18 +2366,14 @@ msgstr "Списак пријатеља/игнорисаних"
 #. [button]: id=add_friend
 #. +> devel
 #: data/gui/default/window/mp_cmd_wrapper.cfg:170
-#, fuzzy
-#| msgid "Add As Friend"
 msgid "Add as Friend"
-msgstr "Додај као пријатеља"
+msgstr "Додај међу пријатеље"
 
 #. [button]: id=add_ignore
 #. +> devel
 #: data/gui/default/window/mp_cmd_wrapper.cfg:185
-#, fuzzy
-#| msgid "Add As Ignore"
 msgid "Add as Ignore"
-msgstr "Додај као игнорисаног"
+msgstr "Додај међу игнорисане"
 
 #. [label]
 #. +> devel
@@ -2683,8 +2485,6 @@ msgstr "Злата по селу"
 #. [toggle_button]: id=fog
 #. +> devel
 #: data/gui/default/window/mp_create_game.cfg:460
-#, fuzzy
-#| msgid "Fog of War"
 msgid "Fog of war"
 msgstr "Магла рата"
 
@@ -2704,7 +2504,7 @@ msgstr "Направи партију"
 #. +> devel
 #: data/gui/default/window/mp_create_game_set_password.cfg:61
 msgid "Set the password that people wanting to join your game as players must enter."
-msgstr ""
+msgstr "Поставите лозинку коју морају да унесу играчи који би да се придруже вашој партији."
 
 #. [label]
 #. +> devel
@@ -2757,12 +2557,6 @@ msgstr "Вишеиграње"
 #. [text_box]: id=user_name
 #. +> devel
 #: data/gui/default/window/mp_method_selection.cfg:90
-#, fuzzy
-#| msgid ""
-#| "You may login to the official multiplayer server with your forum username and password.\n"
-#| "Note that registration is not required to join the server: you need to supply a password only if you wish to use a registered username.\n"
-#| "\n"
-#| "The Battle for Wesnoth forum can be found at http://www.wesnoth.org/forum/"
 msgid ""
 "You may login to the official multiplayer server with your forum username and password.\n"
 "Note that registration is not required to join the server: you need to supply a password only if you wish to use a registered username.\n"
@@ -2771,7 +2565,7 @@ msgid ""
 msgstr ""
 "На званични вишеиграчки сервер можете се пријавити под својим форумским именом и лозинком. Регистрација није неопходна за приступ серверу: лозинку треба да приложите само ако желите да региструјете корисничко име.\n"
 "\n"
-"Форум „Боја за Веснот“ можете наћи на http://www.wesnoth.org/forum/"
+"Форум „Боја за Веснот“ можете наћи на http://forums.wesnoth.org/."
 
 #. [column]
 #. +> devel
@@ -2838,7 +2632,7 @@ msgstr "Помоћ"
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:147
 msgid "Show Battle for Wesnoth help"
-msgstr ""
+msgstr "Прикажи помоћ „Боја за Веснот“"
 
 #. [button]: id=previous_tip
 #. +> devel
@@ -2850,19 +2644,19 @@ msgstr "Претходно"
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:163
 msgid "Show previous tip of the day"
-msgstr ""
+msgstr "Прикажи претходни савет дана"
 
 #. [button]: id=next_tip
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:178
 msgid "Show next tip of the day"
-msgstr ""
+msgstr "Прикажи с‹љедећи савет дана"
 
 #. [grid]
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:223
 msgid "Start a tutorial to familiarize yourself with the game"
-msgstr ""
+msgstr "Покрени подучавање ради упознавања са игром"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [grid]
@@ -2882,13 +2676,13 @@ msgstr "Поход"
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:224
 msgid "Start a new single player campaign"
-msgstr ""
+msgstr "Покрени нови поход за једног играча"
 
 #. [grid]
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:225
 msgid "Play multiplayer (hotseat, LAN, or Internet), or a single scenario against the AI"
-msgstr ""
+msgstr "Вишеиграње (усијано, у ЛАН-у, преко Интернета) или један сценарио против ВИ."
 
 #. [grid]
 #. +> devel
@@ -2899,10 +2693,8 @@ msgstr "Учитај"
 #. [grid]
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:226
-#, fuzzy
-#| msgid "Reloaded game"
 msgid "Load a saved game"
-msgstr "Учитана позиција"
+msgstr "Учитај сачувану позицију"
 
 #. [grid]
 #. +> devel
@@ -2914,21 +2706,19 @@ msgstr "Додаци"
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:227
 msgid "Download usermade campaigns, eras, or map packs"
-msgstr ""
+msgstr "Преузми походе, епохе или пакете мапа које су направили корисници"
 
 #. [grid]
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:228
-#, fuzzy
-#| msgid "Editor"
 msgid "Map Editor"
-msgstr "Уређивач"
+msgstr "Уређивач мапа"
 
 #. [grid]
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:228
 msgid "Start the map editor"
-msgstr ""
+msgstr "Покрени уређивач мапа"
 
 #. [grid]
 #. +> devel
@@ -2940,7 +2730,7 @@ msgstr "Пром›ијени језик"
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:230
 msgid "Configure the game’s settings"
-msgstr ""
+msgstr "Подеси поставке игре"
 
 #. [grid]
 #. +> devel
@@ -2952,13 +2742,11 @@ msgstr "Заслуге"
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:231
 msgid "View the credits"
-msgstr ""
+msgstr "Прикажи заслуге"
 
 #. [grid]
 #. +> devel
 #: data/gui/default/window/title_screen.cfg:232
-#, fuzzy
-#| msgid "Quit Game"
 msgid "Quit the game"
 msgstr "Напусти игру"
 
@@ -2966,13 +2754,13 @@ msgstr "Напусти игру"
 #. +> devel
 #: data/gui/default/window/unit_attack.cfg:195
 msgid "Attack"
-msgstr ""
+msgstr "Нападни"
 
 #. [label]
 #. +> devel
 #: data/gui/default/window/unit_attack.cfg:263
 msgid "Attack enemy"
-msgstr ""
+msgstr "Нападни непријатеља"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
@@ -3035,34 +2823,30 @@ msgstr "Сервер није задат."
 msgid "player"
 msgstr "играч"
 
+# >> strftime() format
 #. +> devel
 #: src/game_preferences.cpp:777
 msgid "%H:%M"
-msgstr ""
+msgstr "%k.%M"
 
+# >> strftime() format
 #. +> devel
 #: src/game_preferences.cpp:780
 msgid "%I:%M %p"
-msgstr ""
+msgstr "%l.%M %p"
 
 #. +> devel
 #: src/game_preferences_display.cpp:173
-#, fuzzy
-#| msgid "Full Screen"
 msgid "Full screen"
 msgstr "Преко ц›ијелог екрана"
 
 #. +> devel
 #: src/game_preferences_display.cpp:174
-#, fuzzy
-#| msgid "Accelerated Speed"
 msgid "Accelerated speed"
 msgstr "Убрзано"
 
 #. +> devel
 #: src/game_preferences_display.cpp:175
-#, fuzzy
-#| msgid "Skip AI Moves"
 msgid "Skip AI moves"
 msgstr "Прескочи потезе ВИ"
 
@@ -3073,43 +2857,31 @@ msgstr "Прекини потез на уоченог савезника"
 
 #. +> devel
 #: src/game_preferences_display.cpp:177
-#, fuzzy
-#| msgid "Show Grid"
 msgid "Show grid"
 msgstr "Прикажи мрежу"
 
 #. +> devel
 #: src/game_preferences_display.cpp:178
-#, fuzzy
-#| msgid "Save Replay on SP/MP Victory or MP Defeat"
 msgid "Save replay on SP/MP victory or MP defeat"
 msgstr "Сачувај снимак при ји./ви. поб›једи или ви. поразу"
 
 #. +> devel
 #: src/game_preferences_display.cpp:179
-#, fuzzy
-#| msgid "Delete Auto-Saves on SP/MP Victory or MP Defeat"
 msgid "Delete auto-saves on SP/MP victory or MP defeat"
 msgstr "Бриши аутопозиције при ји./ви. поб›једи или ви. поразу"
 
 #. +> devel
 #: src/game_preferences_display.cpp:180
-#, fuzzy
-#| msgid "Do Not Show Lobby Joins"
 msgid "Do not show lobby joins"
 msgstr "Не приказуј уласке у хол"
 
 #. +> devel
 #: src/game_preferences_display.cpp:181
-#, fuzzy
-#| msgid "Show Lobby Joins Of Friends Only"
 msgid "Show lobby joins of friends only"
 msgstr "Прикажи уласке у хол само пријатеља"
 
 #. +> devel
 #: src/game_preferences_display.cpp:182
-#, fuzzy
-#| msgid "Show All Lobby Joins"
 msgid "Show all lobby joins"
 msgstr "Прикажи све уласке у хол"
 
@@ -3120,29 +2892,21 @@ msgstr "Ново сучеље хола"
 
 #. +> devel
 #: src/game_preferences_display.cpp:184
-#, fuzzy
-#| msgid "Sort Lobby List"
 msgid "Sort lobby list"
 msgstr "Поређај списак хола"
 
 #. +> devel
 #: src/game_preferences_display.cpp:185
-#, fuzzy
-#| msgid "Iconize Lobby List"
 msgid "Iconize lobby list"
 msgstr "Списак хола у икону"
 
 #. +> devel
 #: src/game_preferences_display.cpp:186
-#, fuzzy
-#| msgid "Save password to preferences (clear text)"
 msgid "Save password to preferences (plain text)"
-msgstr "Сачувај лозинку међу поставкама (чист текст)"
+msgstr "Сачувај лозинку међу поставкама (обични текст)"
 
 #. +> devel
 #: src/game_preferences_display.cpp:187
-#, fuzzy
-#| msgid "Set path to wesnothd"
 msgid "Set Path to wesnothd"
 msgstr "Путања до wesnothd"
 
@@ -3169,58 +2933,48 @@ msgstr "Додај као игнорисаног"
 # кућица
 #. +> devel
 #: src/game_preferences_display.cpp:193
-#, fuzzy
-#| msgid "Show Floating Labels"
 msgid "Show floating labels"
 msgstr "Плутајуће етикете"
 
 # кућица
 #. +> devel
 #: src/game_preferences_display.cpp:194
-#, fuzzy
-#| msgid "Turn Dialog"
 msgid "Turn dialog"
 msgstr "Дијалог потеза"
 
+# кућица
 #. +> devel
 #: src/game_preferences_display.cpp:195
 msgid "Enable planning mode on start"
-msgstr ""
+msgstr "Режим планирања на почетку"
 
+# кућица
 #. +> devel
 #: src/game_preferences_display.cpp:196
 msgid "Hide allies’ plans by default"
-msgstr ""
+msgstr "Подразумевано сакриј планове савезника"
 
 # кућица
 #. +> devel
 #: src/game_preferences_display.cpp:197
-#, fuzzy
-#| msgid "Turn Bell"
 msgid "Turn bell"
 msgstr "Звоно потеза"
 
 # кућица
 #. +> devel
 #: src/game_preferences_display.cpp:198
-#, fuzzy
-#| msgid "Show Team Colors"
 msgid "Show team colors"
 msgstr "Боје тимова"
 
 # кућица
 #. +> devel
 #: src/game_preferences_display.cpp:199
-#, fuzzy
-#| msgid "Show Color Cursors"
 msgid "Show color cursors"
 msgstr "Показивачи у боји"
 
 # кућица
 #. +> devel
 #: src/game_preferences_display.cpp:200
-#, fuzzy
-#| msgid "Show Haloing Effects"
 msgid "Show haloing effects"
 msgstr "Ореолски ефекти"
 
@@ -3254,8 +3008,6 @@ msgstr "Музика"
 # кућица
 #. +> devel
 #: src/game_preferences_display.cpp:207
-#, fuzzy
-#| msgid "Chat Timestamping"
 msgid "Chat timestamping"
 msgstr "Б‹иљежење времена ћаскања"
 
@@ -3273,8 +3025,6 @@ msgstr "Стандардне опције"
 
 #. +> devel
 #: src/game_preferences_display.cpp:210
-#, fuzzy
-#| msgid "User Interface Sounds"
 msgid "User interface sounds"
 msgstr "Звуци корисничког сучеља"
 
@@ -3286,45 +3036,34 @@ msgstr "Посебно"
 # кућица
 #. +> devel
 #: src/game_preferences_display.cpp:215
-#, fuzzy
-#| msgid "Show Unit Idle Animations"
 msgid "Show unit idle animations"
-msgstr "Стајаће анимације јединица"
+msgstr "Анимације мировања јединица"
 
 # кућица
 #. +> devel
 #: src/game_preferences_display.cpp:216
-#, fuzzy
-#| msgid "Show Unit Idle Animations"
 msgid "Show unit standing animations"
-msgstr "Стајаће анимације јединица"
+msgstr "Анимације стајања јединица"
 
+# кућица
 #. +> devel
 #: src/game_preferences_display.cpp:217
-#, fuzzy
-#| msgid "Generate Map"
 msgid "Animate map"
-msgstr "Створи мапу"
+msgstr "Анимирај мапу"
 
 #. +> devel
 #: src/game_preferences_display.cpp:219 src/game_preferences_display.cpp:220
 #: src/game_preferences_display.cpp:221 src/game_preferences_display.cpp:222
-#, fuzzy
-#| msgid "SFX Volume:"
 msgid "Volume:"
-msgstr "Јачина звукова:"
+msgstr "Јачина звука:"
 
 #. +> devel
 #: src/game_preferences_display.cpp:224
-#, fuzzy
-#| msgid "Scroll Speed:"
 msgid "Scroll speed:"
 msgstr "Брзина клизања:"
 
 #. +> devel
 #: src/game_preferences_display.cpp:227
-#, fuzzy
-#| msgid "Sample Rate (Hz):"
 msgid "Sample rate (Hz):"
 msgstr "Учестаност узорковања (Hz):"
 
@@ -3385,8 +3124,6 @@ msgstr "Пром›ијени величину бафера"
 
 #. +> devel
 #: src/game_preferences_display.cpp:297 src/game_preferences_display.cpp:896
-#, fuzzy
-#| msgid "Buffer Size: "
 msgid "Buffer size: "
 msgstr "Величина бафера: "
 
@@ -3408,7 +3145,7 @@ msgstr "Додај вр›ијеме у порукама у ћаскању"
 #. +> devel
 #: src/game_preferences_display.cpp:317
 msgid "Choose whether the game should run full screen or in a window"
-msgstr "Да ли се игра преко ц›ијелог екрана или у прозору"
+msgstr "Играње преко ц›ијелог екрана или у прозору"
 
 #. +> devel
 #: src/game_preferences_display.cpp:320
@@ -3423,37 +3160,35 @@ msgstr "Брзина кретања и борбе јединица"
 #. +> devel
 #: src/game_preferences_display.cpp:342
 msgid "Play short random animations for idle units"
-msgstr ""
+msgstr "Насумичне кратке анимације за мирујуће јединице"
 
 #. +> devel
 #: src/game_preferences_display.cpp:345
 msgid "Continuously animate standing units in the battlefield"
-msgstr ""
+msgstr "Сталне анимације стајаћих јединица на бојишту"
 
 #. +> devel
 #: src/game_preferences_display.cpp:348
 msgid "Display animated terrain graphics"
-msgstr ""
+msgstr "Анимирана графика терен"
 
 #. +> devel
 #: src/game_preferences_display.cpp:354
 msgid "Set the frequency of unit idle animations"
-msgstr "Одреди учестаност стајаћих анимација јединица"
+msgstr "Учестаност стајаћих анимација јединица"
 
 #. +> devel
 #: src/game_preferences_display.cpp:359
 msgid "Set maximum number of automatic saves to be retained"
-msgstr "Постави највећи број самоуписа за задржавање"
+msgstr "Највећи број самоуписа за задржавање"
 
 #. +> devel
 #: src/game_preferences_display.cpp:363
 msgid "Do not animate AI units moving"
-msgstr "Не анимирај ВИ јединице приликом кретања"
+msgstr "Без анимација код ВИ јединица приликом кретања"
 
 #. +> devel
 #: src/game_preferences_display.cpp:366
-#, fuzzy
-#| msgid "Sighting an allied unit interrupts your unit's movement"
 msgid "Sighting an allied unit interrupts your unit’s movement"
 msgstr "Опажање савезничке јединице прекида кретање ваше"
 
@@ -3504,8 +3239,6 @@ msgstr "Прикажи поруке о свим играчима који при
 
 #. +> devel
 #: src/game_preferences_display.cpp:394
-#, fuzzy
-#| msgid "Use new lobby interface"
 msgid "Use New Lobby Interface"
 msgstr "Ново сучеље хола"
 
@@ -3567,12 +3300,12 @@ msgstr "Прикажи дијалог на почетку мог потеза"
 #. +> devel
 #: src/game_preferences_display.cpp:416
 msgid "Activates Planning Mode on game start"
-msgstr ""
+msgstr "Активира режим планирања на почетку партије"
 
 #. +> devel
 #: src/game_preferences_display.cpp:419
 msgid "Hides allies’ Planning Mode plans in multiplayer games"
-msgstr ""
+msgstr "Сакрива планове савезника у вишеиграчким партијама"
 
 #. +> devel
 #: src/game_preferences_display.cpp:422
@@ -3616,10 +3349,8 @@ msgstr "безброј"
 
 #. +> devel
 #: src/game_preferences_display.cpp:950
-#, fuzzy
-#| msgid "Chat Lines: "
 msgid "Chat lines: "
-msgstr "Редови ћаскања: "
+msgstr "Редова ћаскања: "
 
 #. +> devel
 #: src/game_preferences_display.cpp:972 src/game_preferences_display.cpp:980
@@ -3638,17 +3369,13 @@ msgstr "не"
 
 #. +> devel
 #: src/game_preferences_display.cpp:1119
-#, fuzzy
-#| msgid "Friends"
 msgid "friend"
-msgstr "Пријатељи"
+msgstr "пријатељ"
 
 #. +> devel
 #: src/game_preferences_display.cpp:1125
-#, fuzzy
-#| msgid "No ignored"
 msgid "ignored"
-msgstr "Без игнорисаних"
+msgstr "игнорисан"
 
 #. +> devel
 #: src/game_preferences_display.cpp:1129
@@ -3685,12 +3412,11 @@ msgctxt "Advanced section"
 msgid "Advanced"
 msgstr "Напредно"
 
+# >> @title:window
 #. +> devel
 #: src/game_preferences_display.cpp:1292
-#, fuzzy
-#| msgid "Choose the game to load"
 msgid "Choose Theme"
-msgstr "Позиција за учитавање"
+msgstr "Избор теме"
 
 #. +> devel
 #: src/game_preferences_display.cpp:1307
@@ -3720,18 +3446,14 @@ msgstr "Правоугаоник не стаје на платно."
 #. +> devel
 #: src/gui/auxiliary/canvas.cpp:868 src/gui/auxiliary/canvas.cpp:873
 #: src/gui/auxiliary/canvas.cpp:878 src/gui/auxiliary/canvas.cpp:884
-#, fuzzy
-#| msgid "Line doesn't fit on canvas."
 msgid "Circle doesn't fit on canvas."
-msgstr "Линија не стаје на платно."
+msgstr "Круг не стаје на платно."
 
 #. +> devel
 #: src/gui/auxiliary/canvas.cpp:1070 src/gui/auxiliary/canvas.cpp:1077
 #: src/gui/auxiliary/canvas.cpp:1087 src/gui/auxiliary/canvas.cpp:1094
-#, fuzzy
-#| msgid "Line doesn't fit on canvas."
 msgid "Image doesn't fit on canvas."
-msgstr "Линија не стаје на платно."
+msgstr "Слика не стаје на платно."
 
 #. +> devel
 #: src/gui/auxiliary/canvas.cpp:1302
@@ -3785,7 +3507,7 @@ msgstr "Број колона се разликује."
 #. +> devel
 #: src/gui/auxiliary/window_builder/control.cpp:49
 msgid "Found a widget with a helptip and without a tooltip."
-msgstr ""
+msgstr "Нађен виџет са текстом помоћи а без облачића."
 
 #. +> devel
 #: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:47
@@ -3825,19 +3547,17 @@ msgstr "Стек није задат."
 #. +> devel
 #: src/gui/auxiliary/window_builder/tree_view.cpp:46
 msgid "No nodes defined for a tree view."
-msgstr ""
+msgstr "Нема ниједног чвора за приказ стабла."
 
 #. +> devel
 #: src/gui/auxiliary/window_builder/tree_view.cpp:86
 msgid "[node]id 'root' is reserved for the implementation."
-msgstr ""
+msgstr "ИД чвора ‘root’ резервисан је за изведбу."
 
 #. +> devel
 #: src/gui/auxiliary/window_builder/tree_view.cpp:90
-#, fuzzy
-#| msgid "No page defined."
 msgid "No node defined."
-msgstr "Страница није дефинисана."
+msgstr "Нема ниједног чвора."
 
 #. +> devel
 #: src/gui/dialogs/game_load.cpp:274
@@ -3852,14 +3572,12 @@ msgstr "Поход: $campaign_name"
 #. +> devel
 #: src/gui/dialogs/game_load.cpp:305
 msgid "Test scenario"
-msgstr ""
+msgstr "Пробни сценарио"
 
 #. +> devel
 #: src/gui/dialogs/game_load.cpp:313
-#, fuzzy
-#| msgid "replay"
 msgid "Replay"
-msgstr "снимак"
+msgstr "Снимак"
 
 #. +> devel
 #: src/gui/dialogs/game_load.cpp:315
@@ -3868,8 +3586,6 @@ msgstr "Потез"
 
 #. +> devel
 #: src/gui/dialogs/game_load.cpp:317
-#, fuzzy
-#| msgid "Scenario Start"
 msgid "Scenario start"
 msgstr "Почетак сценарија"
 
@@ -3881,7 +3597,7 @@ msgstr "Тежина: "
 #. +> devel
 #: src/gui/dialogs/game_load.cpp:324
 msgid "Version: "
-msgstr "Верзија: "
+msgstr "Издање: "
 
 #. +> devel
 #: src/gui/dialogs/lobby_main.cpp:230
@@ -3905,8 +3621,6 @@ msgstr "Посматрачи нису дозвољени"
 
 #. +> devel
 #: src/gui/dialogs/lobby_main.cpp:1107
-#, fuzzy
-#| msgid "Whisper session with $name started. If you don't want to receive messages from this user, type /ignore $name\n"
 msgid "Whisper session with $name started. If you don’t want to receive messages from this user, type /ignore $name\n"
 msgstr "Започета сесија шаптања за $name|. Ако не желите да примате поруке овог корисника, упишите /ignore $name\n"
 
@@ -3948,7 +3662,7 @@ msgstr "Грешка"
 #. +> devel
 #: src/gui/dialogs/mp_change_control.cpp:244
 msgid "Side $side"
-msgstr ""
+msgstr "Страна $side"
 
 #. +> devel
 #: src/gui/dialogs/mp_create_game.cpp:96
@@ -3960,19 +3674,17 @@ msgstr "Учитај позицију..."
 #: src/gui/dialogs/network_transmission.cpp:57 src/hotkeys.cpp:1178
 msgctxt "unit_byte"
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #. +> devel
 #: src/gui/dialogs/title_screen.cpp:296
-#, fuzzy
-#| msgid "Version: "
 msgid "Version "
-msgstr "Верзија: "
+msgstr "Издање "
 
 #. +> devel
 #: src/gui/dialogs/title_screen.cpp:299
 msgid "Version"
-msgstr "верзија"
+msgstr "издање"
 
 #. +> devel
 #: src/gui/widgets/helper.cpp:137
@@ -3997,7 +3709,7 @@ msgstr "Од›јељак стања или цртања није дефинис
 #. +> devel
 #: src/gui/widgets/tree_view_node.cpp:103
 msgid "Unknown builder id for tree view node."
-msgstr ""
+msgstr "Непознат ИД градитеља за чвор у приказу стабла."
 
 # >? Wtf?
 #. +> devel
@@ -4014,19 +3726,17 @@ msgstr "Не могу да прикажем дијалог који не ста�
 #. +> devel
 #: src/hotkeys.cpp:53
 msgid "Left Mouse Click"
-msgstr ""
+msgstr "Леви клик мишем"
 
 #. +> devel
 #: src/hotkeys.cpp:54
 msgid "Right Mouse Click"
-msgstr ""
+msgstr "Десни клик мишем"
 
 #. +> devel
 #: src/hotkeys.cpp:55
-#, fuzzy
-#| msgid "Generate Map"
 msgid "Animate Map"
-msgstr "Створи мапу"
+msgstr "Анимирај мапу"
 
 #. +> devel
 #: src/hotkeys.cpp:56
@@ -4193,17 +3903,13 @@ msgstr "Статистика"
 
 #. +> devel
 #: src/hotkeys.cpp:92
-#, fuzzy
-#| msgid "Host Networked Game"
 msgid "Pause Network Game"
-msgstr "Домаћин мрежној партији"
+msgstr "Паузирај мрежну партију"
 
 #. +> devel
 #: src/hotkeys.cpp:93
-#, fuzzy
-#| msgid "Host Networked Game"
 msgid "Continue Network Game"
-msgstr "Домаћин мрежној партији"
+msgstr "Настави мрежну партију"
 
 #. +> devel
 #: src/hotkeys.cpp:95
@@ -4232,24 +3938,18 @@ msgstr "Најбољи противнички покрети"
 
 #. +> devel
 #: src/hotkeys.cpp:100
-#, fuzzy
-#| msgid "Save Replay"
 msgid "Play Replay"
-msgstr "Сачувај снимак"
+msgstr "Пусти снимак"
 
 #. +> devel
 #: src/hotkeys.cpp:101
-#, fuzzy
-#| msgid "Save Replay"
 msgid "Reset Replay"
-msgstr "Сачувај снимак"
+msgstr "Ресетуј снимак"
 
 #. +> devel
 #: src/hotkeys.cpp:102
-#, fuzzy
-#| msgid "Save Replay"
 msgid "Stop Replay"
-msgstr "Сачувај снимак"
+msgstr "Заустави снимак"
 
 #. +> devel
 #: src/hotkeys.cpp:103
@@ -4263,15 +3963,11 @@ msgstr "С‹љедећа страна"
 
 #. +> devel
 #: src/hotkeys.cpp:106
-#, fuzzy
-#| msgid "Full map"
 msgid "Full Map"
 msgstr "Ц›ијела мапа"
 
 #. +> devel
 #: src/hotkeys.cpp:108
-#, fuzzy
-#| msgid "Each team"
 msgid "Each Team"
 msgstr "Сваки тим"
 
@@ -4282,45 +3978,43 @@ msgstr "Тим 1"
 
 #. +> devel
 #: src/hotkeys.cpp:111
-#, fuzzy
-#| msgid "Skip animation"
 msgid "Skip Animation"
 msgstr "Прескочи анимацију"
 
 #. +> devel
 #: src/hotkeys.cpp:113
 msgid "Toggle Planning Mode"
-msgstr ""
+msgstr "Режим планирања"
 
 #. +> devel
 #: src/hotkeys.cpp:114
 msgid "Execute Planned Action"
-msgstr ""
+msgstr "Изврши планирану радњу"
 
 #. +> devel
 #: src/hotkeys.cpp:115
 msgid "Execute All Actions"
-msgstr ""
+msgstr "Изврши све радње"
 
 #. +> devel
 #: src/hotkeys.cpp:116
 msgid "Delete Planned Action"
-msgstr ""
+msgstr "Обриши планирану радњу"
 
 #. +> devel
 #: src/hotkeys.cpp:117
 msgid "Move Action Up Queue"
-msgstr ""
+msgstr "Помери радњу нагоре у реду"
 
 #. +> devel
 #: src/hotkeys.cpp:118
 msgid "Move Action Down Queue"
-msgstr ""
+msgstr "Помери радњу надоле у реду"
 
 #. +> devel
 #: src/hotkeys.cpp:119
 msgid "Suppose Dead"
-msgstr ""
+msgstr "Претпостави мртво"
 
 #. +> devel
 #: src/hotkeys.cpp:121
@@ -4354,10 +4048,8 @@ msgstr "Сачувај мапу као"
 
 #. +> devel
 #: src/hotkeys.cpp:130
-#, fuzzy
-#| msgid "Save Map"
 msgid "Save All Maps"
-msgstr "Сачувај мапу"
+msgstr "Сачувај све мапе"
 
 #. +> devel
 #: src/hotkeys.cpp:131
@@ -4371,8 +4063,6 @@ msgstr "Подаци о мапи"
 
 #. +> devel
 #: src/hotkeys.cpp:134
-#, fuzzy
-#| msgid "Swap fore- and background terrains"
 msgid "Swap Foreground/Background Terrains"
 msgstr "Разм›ијени терен спреда и позадине"
 
@@ -4428,8 +4118,6 @@ msgstr "Нал›ијепи"
 
 #. +> devel
 #: src/hotkeys.cpp:146
-#, fuzzy
-#| msgid "Export selected coordinates to system clipboard"
 msgid "Export Selected Coordinates to System Clipboard"
 msgstr "Извези изабране координате у системску оставу"
 
@@ -4580,102 +4268,73 @@ msgstr "Прикажи дневник ћаскања"
 
 #. +> devel
 #: src/hotkeys.cpp:206
-#, fuzzy
-#| msgid "Enter user command"
 msgid "Enter User Command"
 msgstr "Корисничка наредба"
 
 #. +> devel
 #: src/hotkeys.cpp:207
-#, fuzzy
-#| msgid "Custom command"
 msgid "Custom Command"
 msgstr "Посебна наредба"
 
 #. +> devel
 #: src/hotkeys.cpp:208
-#, fuzzy
-#| msgid "Run AI formula"
 msgid "Run Formula"
-msgstr "Изврши ВИ формулу"
+msgstr "Изврши формулу"
 
 #. +> devel
 #: src/hotkeys.cpp:209
-#, fuzzy
-#| msgid "Clear messages"
 msgid "Clear Messages"
 msgstr "Очисти поруке"
 
 #. +> devel
 #: src/hotkeys.cpp:213
-#, fuzzy
-#| msgid "Refresh"
 msgid "Refresh WML"
-msgstr "Осв›јежи"
+msgstr "Осв›јежи ~@/ВМЛ/WML/"
 
 #. +> devel
 #: src/hotkeys.cpp:220
-#, fuzzy
-#| msgid "Previous Unit"
 msgid "Next Tip of the Day"
-msgstr "Претходна јединица"
+msgstr "С‹љедећи савет дана"
 
 #. +> devel
 #: src/hotkeys.cpp:227
-#, fuzzy
-#| msgid "Previous Unit"
 msgid "Previous Tip of the Day"
-msgstr "Претходна јединица"
+msgstr "Претходни савет дана"
 
 #. +> devel
 #: src/hotkeys.cpp:234
-#, fuzzy
-#| msgid "Tutorial"
 msgid "Start Tutorial"
-msgstr "Подучавање"
+msgstr "Покрени подучавање"
 
-# >> @title:window
 #. +> devel
 #: src/hotkeys.cpp:241
-#, fuzzy
-#| msgid "Play a campaign"
 msgid "Start Campaign"
-msgstr "Играње похода"
+msgstr "Покрени поход"
 
 #. +> devel
 #: src/hotkeys.cpp:248
-#, fuzzy
-#| msgid "Multiplayer"
 msgid "Start Multiplayer Game"
-msgstr "Вишеиграње"
+msgstr "Покрени вишеиграчку партију"
 
 #. +> devel
 #: src/hotkeys.cpp:255
-#, fuzzy
-#| msgid "Update add-ons"
 msgid "Manage Add-ons"
-msgstr "Ажурирај додатке"
+msgstr "Управљај додацима"
 
 #. +> devel
 #: src/hotkeys.cpp:262
-#, fuzzy
-#| msgid "Editor"
 msgid "Start Editor"
-msgstr "Уређивач"
+msgstr "Покрени уређивач"
 
 #. +> devel
 #: src/hotkeys.cpp:269
-#, fuzzy
-#| msgid "Credits"
 msgid "Show Credits"
-msgstr "Заслуге"
+msgstr "Прикажи заслуге"
 
 #. +> devel
 #: src/hotkeys.cpp:277
-#, fuzzy
-#| msgid "Show replay"
 msgid "Show Helptip"
-msgstr "Прикажи снимак"
+msgstr "Прикажи текст помоћи"
 
 #. +> devel
 #: src/hotkeys.cpp:875 src/hotkeys.cpp:1220
@@ -4721,15 +4380,11 @@ msgstr "Играчи:"
 
 #. +> devel
 #: src/mapgen_dialog.cpp:123
-#, fuzzy
-#| msgid "Number of Hills:"
 msgid "Number of hills:"
 msgstr "Број брда:"
 
 #. +> devel
 #: src/mapgen_dialog.cpp:124
-#, fuzzy
-#| msgid "Max Hill Size:"
 msgid "Max hill size:"
 msgstr "Највећа величина брда:"
 
@@ -4740,8 +4395,6 @@ msgstr "Села:"
 
 #. +> devel
 #: src/mapgen_dialog.cpp:126
-#, fuzzy
-#| msgid "Castle Size:"
 msgid "Castle size:"
 msgstr "Величина замка:"
 
@@ -4752,8 +4405,6 @@ msgstr "Пејзаж:"
 
 #. +> devel
 #: src/mapgen_dialog.cpp:249
-#, fuzzy
-#| msgid "Roads Between Castles"
 msgid "Roads between castles"
 msgstr "Путеви међу замковима"
 
@@ -4794,8 +4445,6 @@ msgstr "Поставке пречица"
 
 #. +> devel
 #: src/preferences_display.cpp:282 src/preferences_display.cpp:351
-#, fuzzy
-#| msgid "Press desired Hotkey (Esc cancels)"
 msgid "Press desired hotkey (Esc cancels)"
 msgstr "Притисните жељену пречицу (Escape одустаје)"
 
@@ -4822,22 +4471,18 @@ msgstr "Очисти пречицу"
 #. +> devel
 #: src/preferences_display.cpp:394 src/preferences_display.cpp:402
 #: src/preferences_display.cpp:414
-#, fuzzy
-#| msgid "This Hotkey is already in use."
 msgid "This hotkey is already in use."
 msgstr "Пречица је већ у употреби."
 
 #. +> devel
 #: src/preferences_display.cpp:429
-#, fuzzy
-#| msgid "Warning: screenshot hotkeys not combined with Control, Alt or Meta keys."
 msgid "Screenshot hotkeys should be combined with the Control, Alt or Meta modifiers to avoid problems."
-msgstr "Упозорење: пречице за снимање екрана нису комбинације са тастерима Ctrl, Alt или Meta."
+msgstr "Да би се избегли проблеми, пречице за снимање екрана треба да буду комбинације са тастерима Ctrl, Alt или Meta."
 
 #. +> devel
 #: src/preferences_display.cpp:429
 msgid "Warning"
-msgstr ""
+msgstr "Упозорење"
 
 #. +> devel
 #: src/preferences_display.cpp:530
@@ -4847,12 +4492,13 @@ msgstr "Нема алтернативних видео режима"
 #. +> devel
 #: src/preferences_display.cpp:561
 msgid " (widescreen)"
-msgstr ""
+msgstr " (широки екран)"
 
+# >> @title:window
 #. +> devel
 #: src/preferences_display.cpp:565
 msgid "Choose Resolution"
-msgstr "Изабери резолуцију"
+msgstr "Избор резолуције"
 
 #. +> devel
 #: src/terrain_translation.cpp:715
@@ -4862,7 +4508,7 @@ msgstr "Нађен терен са ниском дужом од четири з�
 #. +> devel
 #: src/text.cpp:719
 msgid "The text contains invalid markup: "
-msgstr ""
+msgstr "Текст садржи лоше обележавање: "
 
 #. +> devel
 #: src/wml_exception.cpp:60
@@ -4891,35 +4537,9 @@ msgstr "У од›ијељку ‘[$section|]’ није постављен о�
 #. +> devel
 #: src/wml_exception.cpp:111
 msgid "The key '$key' is deprecated and support will be removed in version $removal_version."
-msgstr ""
+msgstr "Кључ ‘$key’ је превазиђен и подршка за њега ће бити уклоњена у издању $removal_version."
 
 #. +> devel
 #: src/wml_exception.cpp:130
 msgid "The key '$deprecated_key' has been renamed to '$key'. Support for '$deprecated_key' will be removed in version $removal_version."
-msgstr ""
-
-#~ msgid "Resize map"
-#~ msgstr "Пром›ијени величину мапе"
-
-#~ msgid "Allow more than one map to be open at the same time (MDI)"
-#~ msgstr "Дозволи више од једне отворене мапе истовремено (МДИ)"
-
-#, fuzzy
-#~| msgid "Saved Theme Preference: "
-#~ msgid "Saved preference:"
-#~ msgstr "Сачувана подешавања теме: "
-
-#~ msgid "Add waypoint"
-#~ msgstr "Додај путоказ"
-
-#~ msgid "Stop"
-#~ msgstr "Стани"
-
-#~ msgid "Play"
-#~ msgstr "Играј"
-
-#~ msgid "Reset"
-#~ msgstr "Ресетуј"
-
-#~ msgid "Close Window"
-#~ msgstr "Затвори прозор"
+msgstr "Кључ ‘$deprecated_key’ је преименован у ‘$key’. Подршка за ‘$deprecated_key’ биће уклоњена у издању $removal_version."

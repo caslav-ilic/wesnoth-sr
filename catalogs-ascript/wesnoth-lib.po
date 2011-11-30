@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-lib\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:34+0100\n"
-"PO-Revision-Date: 2011-11-28 00:58+0100\n"
+"PO-Revision-Date: 2011-11-30 11:08+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -1405,10 +1405,12 @@ msgstr ""
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 23:53:33+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
 msgid "Choose whether the game should run full screen or in a window"
 msgstr ""
 "Да ли се игра преко целог екрана или у прозору|~\n"
-"Да ли се игра преко ц›ијелог екрана или у прозору|~"
+"Да ли се игра преко ц›ијелог екрана или у прозору|~\n"
+"Играње преко ц›ијелог екрана или у прозору|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
@@ -1422,18 +1424,27 @@ msgstr "Брзина кретања и борбе јединица|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
 msgid "Set the frequency of unit idle animations"
-msgstr "Одреди учестаност стајаћих анимација јединица|~"
+msgstr ""
+"Одреди учестаност стајаћих анимација јединица|~\n"
+"Учестаност стајаћих анимација јединица|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
 msgid "Set maximum number of automatic saves to be retained"
-msgstr "Постави највећи број самоуписа за задржавање|~"
+msgstr ""
+"Постави највећи број самоуписа за задржавање|~\n"
+"Највећи број самоуписа за задржавање|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
 msgid "Do not animate AI units moving"
-msgstr "Не анимирај ВИ јединице приликом кретања|~"
+msgstr ""
+"Не анимирај ВИ јединице приликом кретања|~\n"
+"Без анимација код ВИ јединица приликом кретања|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
@@ -1755,8 +1766,11 @@ msgstr "Тежина: |~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
 msgid "Version: "
-msgstr "Верзија: |~"
+msgstr ""
+"Верзија: |~\n"
+"Издање: |~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
@@ -1795,8 +1809,11 @@ msgstr "Учитај позицију...|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
 msgid "Version"
-msgstr "верзија|~"
+msgstr ""
+"верзија|~\n"
+"издање|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
@@ -2440,10 +2457,15 @@ msgstr "Очисти пречицу|~"
 msgid "There are no alternative video modes available"
 msgstr "Нема алтернативних видео режима|~"
 
+# |~x
+# >> @title:window|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
 msgid "Choose Resolution"
-msgstr "Изабери резолуцију|~"
+msgstr ""
+"Изабери резолуцију|~\n"
+"Избор резолуције|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
@@ -2526,559 +2548,926 @@ msgid "Use new lobby interface"
 msgstr "Ново сучеље хола|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Deep Water|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Deep Water|~\n"
+#| "|~x"
 msgid "Gray Deep Water"
-msgstr "дубока вода|~"
+msgstr ""
+"дубока вода|~\n"
+"сива дубока вода|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Deep Water|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Deep Water|~\n"
+#| "|~x"
 msgid "Medium Deep Water"
-msgstr "дубока вода|~"
+msgstr ""
+"дубока вода|~\n"
+"средња дубока вода|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Deep Water|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Deep Water|~\n"
+#| "|~x"
 msgid "Tropical Deep Water"
-msgstr "дубока вода|~"
+msgstr ""
+"дубока вода|~\n"
+"тропска дубока вода|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Shallow Water|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Shallow Water|~\n"
+#| "|~x"
 msgid "Gray Shallow Water"
-msgstr "плитка вода|~"
+msgstr ""
+"плитка вода|~\n"
+"сива плитка вода|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Shallow Water|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Shallow Water|~\n"
+#| "|~x"
 msgid "Medium Shallow Water"
-msgstr "плитка вода|~"
+msgstr ""
+"плитка вода|~\n"
+"средња плитка вода|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Shallow Water|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Shallow Water|~\n"
+#| "|~x"
 msgid "Tropical Shallow Water"
-msgstr "плитка вода|~"
+msgstr ""
+"плитка вода|~\n"
+"тропска плитка вода|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Coastal Reef|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Coastal Reef|~\n"
+#| "|~x"
 msgid "Gray Coastal Reef"
-msgstr "обалски гребен|~"
+msgstr ""
+"обалски гребен|~\n"
+"сиви обалски гребен|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Coastal Reef|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Coastal Reef|~\n"
+#| "|~x"
 msgid "Tropical Coastal Reef"
-msgstr "обалски гребен|~"
+msgstr ""
+"обалски гребен|~\n"
+"тропски обалски гребен|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Dirt|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Dirt|~\n"
+#| "|~x"
 msgid "Dark Dirt"
-msgstr "блато|~"
+msgstr ""
+"блато|~\n"
+"тамно блато|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Dirt|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Dirt|~\n"
+#| "|~x"
 msgid "Dry Dirt"
-msgstr "блато|~"
+msgstr ""
+"блато|~\n"
+"исушено блато|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Clear Labels|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Clear Labels|~\n"
+#| "|~x"
 msgid "Clean Gray Cobbles"
-msgstr "Уклони етикете|~"
+msgstr ""
+"Уклони етикете|~\n"
+"чиста сива калдрма|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Desert Mountains|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Desert Mountains|~\n"
+#| "|~x"
 msgid "Desert Sands"
-msgstr "пустињске планине|~"
+msgstr ""
+"пустињске планине|~\n"
+"пустињски п›ијесак|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Fall Mixed Forest|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Fall Mixed Forest|~\n"
+#| "|~x"
 msgid "Mixed Flowers"
-msgstr "јесења мешовита шума|~"
+msgstr ""
+"јесења мешовита шума|~\n"
+"мешовито цв›ијеће|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Mushroom Grove|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Mushroom Grove|~\n"
+#| "|~x"
 msgid "Mushroom Farm"
-msgstr "гљиварски гај|~"
+msgstr ""
+"гљиварски гај|~\n"
+"засад печурака|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Desert Mountains|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Desert Mountains|~\n"
+#| "|~x"
 msgid "Desert Plants"
-msgstr "пустињске планине|~"
+msgstr ""
+"пустињске планине|~\n"
+"пустињске биљке|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Great Tree|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Great Tree|~\n"
+#| "|~x"
 msgid "Dead Great Tree"
-msgstr "велико дрво|~"
+msgstr ""
+"велико дрво|~\n"
+"мртво велико дрво|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Hills|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Hills|~\n"
+#| "|~x"
 msgid "Dry Hills"
-msgstr "брда|~"
+msgstr ""
+"брда|~\n"
+"сува брда|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Desert Mountains|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Desert Mountains|~\n"
+#| "|~x"
 msgid "Dry Mountains"
-msgstr "пустињске планине|~"
+msgstr ""
+"пустињске планине|~\n"
+"суве планине|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Snowy Mixed Forested Hills|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Snowy Mixed Forested Hills|~\n"
+#| "|~x"
 msgid "Fall Mixed Forested Hills"
-msgstr "с‹њежна м›јешовито пошумљена брда|~"
+msgstr ""
+"с‹њежна м›јешовито пошумљена брда|~\n"
+"јесења м›јешовито пошумљена брда|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Cave Wall|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Cave Wall|~\n"
+#| "|~x"
 msgid "Cave Floor"
-msgstr "пећински зид|~"
+msgstr ""
+"пећински зид|~\n"
+"пећински под|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Cave path|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Cave path|~\n"
+#| "|~x"
 msgid "Cave Path"
-msgstr "пећинска стаза|~"
+msgstr ""
+"пећинска стаза|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Mushroom Grove|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Mushroom Grove|~\n"
+#| "|~x"
 msgid "Lit Mushroom Grove"
-msgstr "гљиварски гај|~"
+msgstr ""
+"гљиварски гај|~\n"
+"осветљени гљиварски гај|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Lava chasm|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Lava chasm|~\n"
+#| "|~x"
 msgid "Lava Chasm"
-msgstr "бездан лаве|~"
+msgstr ""
+"бездан лаве|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Impassable Mountains|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Impassable Mountains|~\n"
+#| "|~x"
 msgid "Regular Impassable Mountains"
-msgstr "непролазне планине|~"
+msgstr ""
+"непролазне планине|~\n"
+"обичне непролазне планине|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Impassable Mountains|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Impassable Mountains|~\n"
+#| "|~x"
 msgid "Desert Impassable Mountains"
-msgstr "непролазне планине|~"
+msgstr ""
+"непролазне планине|~\n"
+"пустињске непролазне планине|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Impassable Mountains|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Impassable Mountains|~\n"
+#| "|~x"
 msgid "Snowy Impassable Mountains"
-msgstr "непролазне планине|~"
+msgstr ""
+"непролазне планине|~\n"
+"с‹њежне непролазне планине|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Cave Wall|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Cave Wall|~\n"
+#| "|~x"
 msgid "Natural Cave Wall"
-msgstr "пећински зид|~"
+msgstr ""
+"пећински зид|~\n"
+"природни пећински зид|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Cave Wall|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Cave Wall|~\n"
+#| "|~x"
 msgid "Hewn Cave Wall"
-msgstr "пећински зид|~"
+msgstr ""
+"пећински зид|~\n"
+"обрађени пећински зид|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Cave Wall|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Cave Wall|~\n"
+#| "|~x"
 msgid "Stone Wall"
-msgstr "пећински зид|~"
+msgstr ""
+"пећински зид|~\n"
+"камени зид|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Impassable|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Impassable|~\n"
+#| "|~x"
 msgid "Impassable Overlay"
-msgstr "непролаз|~"
+msgstr ""
+"непролаз|~\n"
+"непролазни преклоп|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Village|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
 msgid "Adobe Village"
-msgstr "село|~"
+msgstr ""
+"село|~\n"
+"село од земљаних опека|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Village|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
 msgid "Tent Village"
-msgstr "село|~"
+msgstr ""
+"село|~\n"
+"село под шаторима|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Village|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
 msgid "Orcish Village"
-msgstr "село|~"
+msgstr ""
+"село|~\n"
+"орковско село|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Village|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
 msgid "Elven Village"
-msgstr "село|~"
+msgstr ""
+"село|~\n"
+"вилењачко село|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Snowy Mountains|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Snowy Mountains|~\n"
+#| "|~x"
 msgid "Snowy Cottage"
-msgstr "с‹њежне планине|~"
+msgstr ""
+"с‹њежне планине|~\n"
+"с‹њежна колиба|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Ruined Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Ruined Castle Keep|~\n"
+#| "|~x"
 msgid "Ruined Cottage"
-msgstr "кула урушеног замка|~"
+msgstr ""
+"кула урушеног замка|~\n"
+"урушена колиба|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Village|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
 msgid "Windmill Village"
-msgstr "село|~"
+msgstr ""
+"село|~\n"
+"село ветрењача|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Tropical Forest|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Tropical Forest|~\n"
+#| "|~x"
 msgid "Tropical Village"
-msgstr "тропска шума|~"
+msgstr ""
+"тропска шума|~\n"
+"тропско село|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Village|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
 msgid "Drake Village"
-msgstr "село|~"
+msgstr ""
+"село|~\n"
+"змашко село|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Village|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
 msgid "Cave Village"
-msgstr "село|~"
+msgstr ""
+"село|~\n"
+"пећинско село|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Village|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
 msgid "Dwarven Village"
-msgstr "село|~"
+msgstr ""
+"село|~\n"
+"патуљачко село|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Cut|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Cut|~\n"
+#| "|~x"
 msgid "Hut"
-msgstr "Исеци|~"
+msgstr ""
+"Исеци|~\n"
+"кућица|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Snowy Mountains|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Snowy Mountains|~\n"
+#| "|~x"
 msgid "Snowy Hut"
-msgstr "с‹њежне планине|~"
+msgstr ""
+"с‹њежне планине|~\n"
+"с‹њежна кућица|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Snowy Mountains|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Snowy Mountains|~\n"
+#| "|~x"
 msgid "Snowy Log Cabin"
-msgstr "с‹њежне планине|~"
+msgstr ""
+"с‹њежне планине|~\n"
+"с‹њежна брвнара|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Village|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
 msgid "Swamp Village"
-msgstr "село|~"
+msgstr ""
+"село|~\n"
+"мочварно село|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Village gold|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village gold|~\n"
+#| "|~x"
 msgid "Village Overlay"
-msgstr "Злата по селу|~"
+msgstr ""
+"Злата по селу|~\n"
+"сеоски преклоп|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Encampment|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Encampment|~\n"
+#| "|~x"
 msgid "Snowy Encampment"
-msgstr "табор|~"
+msgstr ""
+"табор|~\n"
+"с‹њежни табор|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Castle|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Castle|~\n"
+#| "|~x"
 msgid "Orcish Castle"
-msgstr "замак|~"
+msgstr ""
+"замак|~\n"
+"орковски замак|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Castle|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Castle|~\n"
+#| "|~x"
 msgid "Human Castle"
-msgstr "замак|~"
+msgstr ""
+"замак|~\n"
+"људски замак|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Snowy Mountains|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Snowy Mountains|~\n"
+#| "|~x"
 msgid "Snowy Human Castle"
-msgstr "с‹њежне планине|~"
+msgstr ""
+"с‹њежне планине|~\n"
+"с‹њежни људски замак|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Castle|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Castle|~\n"
+#| "|~x"
 msgid "Elvish Castle"
-msgstr "замак|~"
+msgstr ""
+"замак|~\n"
+"вилењачки замак|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Castle|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Castle|~\n"
+#| "|~x"
 msgid "Dwarven Castle"
-msgstr "замак|~"
+msgstr ""
+"замак|~\n"
+"патуљачки замак|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Ruined Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Ruined Castle Keep|~\n"
+#| "|~x"
 msgid "Ruined Castle"
-msgstr "кула урушеног замка|~"
+msgstr ""
+"кула урушеног замка|~\n"
+"урушени замак|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Ruined Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Ruined Castle Keep|~\n"
+#| "|~x"
 msgid "Ruined Human Castle"
-msgstr "кула урушеног замка|~"
+msgstr ""
+"кула урушеног замка|~\n"
+"урушени људски замак|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Sunken Ruin|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Sunken Ruin|~\n"
+#| "|~x"
 msgid "Sunken Human Ruin"
-msgstr "потопљена рушевина|~"
+msgstr ""
+"потопљена рушевина|~\n"
+"потопљена људска рушевина|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Swamp Ruin|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Swamp Ruin|~\n"
+#| "|~x"
 msgid "Swamp Human Ruin"
-msgstr "мочварна рушевина|~"
+msgstr ""
+"мочварна рушевина|~\n"
+"мочварна људска рушевина|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Castle|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Castle|~\n"
+#| "|~x"
 msgid "Desert Castle"
-msgstr "замак|~"
+msgstr ""
+"замак|~\n"
+"пустињски замак|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Ruined Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Ruined Castle Keep|~\n"
+#| "|~x"
 msgid "Ruined Desert Castle"
-msgstr "кула урушеног замка|~"
+msgstr ""
+"кула урушеног замка|~\n"
+"урушени пустињски замак|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Encampment Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Encampment Keep|~\n"
+#| "|~x"
 msgid "Tall Encampment Keep"
-msgstr "кула табора|~"
+msgstr ""
+"кула табора|~\n"
+"кула високог табора|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Encampment Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Encampment Keep|~\n"
+#| "|~x"
 msgid "Snowy Encampment Keep"
-msgstr "кула табора|~"
+msgstr ""
+"кула табора|~\n"
+"кула с‹њежног табора|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Fort Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Fort Keep|~\n"
+#| "|~x"
 msgid "Orcish Keep"
-msgstr "кула утврде|~"
+msgstr ""
+"кула утврде|~\n"
+"орковска кула|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Sunken Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Sunken Castle Keep|~\n"
+#| "|~x"
 msgid "Human Castle Keep"
-msgstr "кула потопљеног замка|~"
+msgstr ""
+"кула потопљеног замка|~\n"
+"кула људског замка|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Sunken Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Sunken Castle Keep|~\n"
+#| "|~x"
 msgid "Snowy Human Castle Keep"
-msgstr "кула потопљеног замка|~"
+msgstr ""
+"кула потопљеног замка|~\n"
+"кула с‹њежног људског замка|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Sunken Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Sunken Castle Keep|~\n"
+#| "|~x"
 msgid "Elven Castle Keep"
-msgstr "кула потопљеног замка|~"
+msgstr ""
+"кула потопљеног замка|~\n"
+"кула вилењачког замка|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Sunken Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Sunken Castle Keep|~\n"
+#| "|~x"
 msgid "Dwarven Castle Keep"
-msgstr "кула потопљеног замка|~"
+msgstr ""
+"кула потопљеног замка|~\n"
+"кула патуљачког замка|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Ruined Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Ruined Castle Keep|~\n"
+#| "|~x"
 msgid "Ruined Keep"
-msgstr "кула урушеног замка|~"
+msgstr ""
+"кула урушеног замка|~\n"
+"урушена кула|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Ruined Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Ruined Castle Keep|~\n"
+#| "|~x"
 msgid "Ruined Human Castle Keep"
-msgstr "кула урушеног замка|~"
+msgstr ""
+"кула урушеног замка|~\n"
+"кула урушеног људског замка|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Sunken Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Sunken Castle Keep|~\n"
+#| "|~x"
 msgid "Sunken Human Castle Keep"
-msgstr "кула потопљеног замка|~"
+msgstr ""
+"кула потопљеног замка|~\n"
+"кула потопљеног људског замка|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Sunken Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Sunken Castle Keep|~\n"
+#| "|~x"
 msgid "Swamp Human Castle Keep"
-msgstr "кула потопљеног замка|~"
+msgstr ""
+"кула потопљеног замка|~\n"
+"кула мочварног људског замка|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Desert|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Desert|~\n"
+#| "|~x"
 msgid "Desert Keep"
-msgstr "пустиња|~"
+msgstr ""
+"пустиња|~\n"
+"пустињска кула|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Ruined Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Ruined Castle Keep|~\n"
+#| "|~x"
 msgid "Ruined Desert Keep"
-msgstr "кула урушеног замка|~"
+msgstr ""
+"кула урушеног замка|~\n"
+"урушена пустињска кула|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Castle Keep|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Castle Keep|~\n"
+#| "|~x"
 msgid "Castle Overlay"
-msgstr "кула замка|~"
+msgstr ""
+"кула замка|~\n"
+"преклоп замка|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Bridge|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Bridge|~\n"
+#| "|~x"
 msgid "Wooden Bridge"
-msgstr "мост|~"
+msgstr ""
+"мост|~\n"
+"дрвени мост|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Update add-ons|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Update add-ons|~\n"
+#| "|~x"
 msgid "Update Add-ons"
-msgstr "Ажурирај додатке|~"
+msgstr ""
+"Ажурирај додатке|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Version: |~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Version: |~\n"
+#| "|~x"
 msgid "Version:"
-msgstr "Верзија: |~"
+msgstr ""
+"Верзија: |~\n"
+"Издање:|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Unit Description|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Unit Description|~\n"
+#| "|~x"
 msgid "Description:"
-msgstr "Опис јединице|~"
+msgstr ""
+"Опис јединице|~\n"
+"Опис:|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "None|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "None|~\n"
+#| "|~x"
 msgctxt "translations"
 msgid "None"
-msgstr "никакав|~"
+msgstr ""
+"никакав|~\n"
+"ниједан|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Difficulty: |~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Difficulty: |~\n"
+#| "|~x"
 msgid "Difficulty"
-msgstr "Тежина: |~"
+msgstr ""
+"Тежина: |~\n"
+"Тежина|~"
 
+# |~x
+# >> @title:window|~
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Set Label|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Set Label|~\n"
+#| "|~x"
 msgid "Place Label"
-msgstr "Етикетирај|~"
+msgstr ""
+"Етикетирај|~\n"
+"Етикета места|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Set Label|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Set Label|~\n"
+#| "|~x"
 msgid "Label:"
-msgstr "Етикетирај|~"
+msgstr ""
+"Етикетирај|~\n"
+"Етикета:|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Team 1|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Team 1|~\n"
+#| "|~x"
 msgid "Team only"
-msgstr "Тим 1|~"
+msgstr ""
+"Тим 1|~\n"
+"Само тимски|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Don't ask me again!|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Don't ask me again!|~\n"
+#| "|~x"
 msgid "Don’t ask me again!"
-msgstr "Не питај ме поново|~"
+msgstr ""
+"Не питај ме поново|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Player Info - |~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Player Info - |~\n"
+#| "|~x"
 msgid "Player Info — "
-msgstr "Подаци о играчу — |~"
+msgstr ""
+"Подаци о играчу — |~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Send private message|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Send private message|~\n"
+#| "|~x"
 msgid "Send Private Message"
-msgstr "Пошаљи приватну поруку|~"
+msgstr ""
+"Пошаљи приватну поруку|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Add As Friend|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Add As Friend|~\n"
+#| "|~x"
 msgid "Add to Friends"
-msgstr "Додај као пријатеља|~"
+msgstr ""
+"Додај као пријатеља|~\n"
+"Додај међу пријатеље|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Add As Ignore|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Add As Ignore|~\n"
+#| "|~x"
 msgid "Add to Ignores"
-msgstr "Додај као игнорисаног|~"
+msgstr ""
+"Додај као игнорисаног|~\n"
+"Додај међу игнорисане|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Remove from list|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Remove from list|~\n"
+#| "|~x"
 msgid "Remove from List"
-msgstr "Уклони са списка|~"
+msgstr ""
+"Уклони са списка|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Next Side|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Next Side|~\n"
+#| "|~x"
 msgid "Side"
-msgstr "С‹љедећа страна|~"
+msgstr ""
+"С‹љедећа страна|~\n"
+"Страна|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Change Hotkey|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Change Hotkey|~\n"
+#| "|~x"
 msgid "Change Control"
-msgstr "Пром›ијени пречицу|~"
+msgstr ""
+"Пром›ијени пречицу|~\n"
+"Пром›ијени управљање|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Add As Friend|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Add As Friend|~\n"
+#| "|~x"
 msgid "Add as Friend"
-msgstr "Додај као пријатеља|~"
+msgstr ""
+"Додај као пријатеља|~\n"
+"Додај међу пријатеље|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Add As Ignore|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Add As Ignore|~\n"
+#| "|~x"
 msgid "Add as Ignore"
-msgstr "Додај као игнорисаног|~"
+msgstr ""
+"Додај као игнорисаног|~\n"
+"Додај међу игнорисане|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
 #| msgid ""
 #| "You may login to the official multiplayer server with your forum username and password.\n"
 #| "Note that registration is not required to join the server: you need to supply a password only if you wish to use a registered username.\n"
 #| "\n"
-#| "The Battle for Wesnoth forum can be found at http://www.wesnoth.org/forum/|~"
+#| "The Battle for Wesnoth forum can be found at http://www.wesnoth.org/forum/|~\n"
+#| "|~x"
 msgid ""
 "You may login to the official multiplayer server with your forum username and password.\n"
 "Note that registration is not required to join the server: you need to supply a password only if you wish to use a registered username.\n"
@@ -3087,7 +3476,10 @@ msgid ""
 msgstr ""
 "На званични вишеиграчки сервер можете се пријавити под својим форумским именом и лозинком. Регистрација није неопходна за приступ серверу: лозинку треба да приложите само ако желите да региструјете корисничко име.\n"
 "\n"
-"Форум „Боја за Веснот“ можете наћи на http://www.wesnoth.org/forum/|~"
+"Форум „Боја за Веснот“ можете наћи на http://www.wesnoth.org/forum/|~\n"
+"На званични вишеиграчки сервер можете се пријавити под својим форумским именом и лозинком. Регистрација није неопходна за приступ серверу: лозинку треба да приложите само ако желите да региструјете корисничко име.\n"
+"\n"
+"Форум „Боја за Веснот“ можете наћи на http://forums.wesnoth.org/.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-09-10 14:16:50+0200 | 1
@@ -3100,554 +3492,1559 @@ msgstr ""
 "|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Reloaded game|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Reloaded game|~\n"
+#| "|~x"
 msgid "Load a saved game"
-msgstr "Учитана позиција|~"
+msgstr ""
+"Учитана позиција|~\n"
+"Учитај сачувану позицију|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Editor|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Editor|~\n"
+#| "|~x"
 msgid "Map Editor"
-msgstr "Уређивач|~"
+msgstr ""
+"Уређивач|~\n"
+"Уређивач мапа|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Quit Game|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Quit Game|~\n"
+#| "|~x"
 msgid "Quit the game"
-msgstr "Напусти игру|~"
+msgstr ""
+"Напусти игру|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Generate Map|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Generate Map|~\n"
+#| "|~x"
 msgid "Animate Map"
-msgstr "Створи мапу|~"
+msgstr ""
+"Створи мапу|~\n"
+"Анимирај мапу|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "SFX Volume:|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "SFX Volume:|~\n"
+#| "|~x"
 msgid "Volume:"
-msgstr "Јачина звукова:|~"
+msgstr ""
+"Јачина звукова:|~\n"
+"Јачина звука:|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Sighting an allied unit interrupts your unit's movement|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Sighting an allied unit interrupts your unit's movement|~\n"
+#| "|~x"
 msgid "Sighting an allied unit interrupts your unit’s movement"
-msgstr "Опажање савезничке јединице прекида кретање ваше|~"
+msgstr ""
+"Опажање савезничке јединице прекида кретање ваше|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Friends|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Friends|~\n"
+#| "|~x"
 msgid "friend"
-msgstr "Пријатељи|~"
+msgstr ""
+"Пријатељи|~\n"
+"пријатељ|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "No ignored|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "No ignored|~\n"
+#| "|~x"
 msgid "ignored"
-msgstr "Без игнорисаних|~"
+msgstr ""
+"Без игнорисаних|~\n"
+"игнорисан|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Line doesn't fit on canvas.|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Line doesn't fit on canvas.|~\n"
+#| "|~x"
 msgid "Circle doesn't fit on canvas."
-msgstr "Линија не стаје на платно.|~"
+msgstr ""
+"Линија не стаје на платно.|~\n"
+"Круг не стаје на платно.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Line doesn't fit on canvas.|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Line doesn't fit on canvas.|~\n"
+#| "|~x"
 msgid "Image doesn't fit on canvas."
-msgstr "Линија не стаје на платно.|~"
+msgstr ""
+"Линија не стаје на платно.|~\n"
+"Слика не стаје на платно.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "No page defined.|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "No page defined.|~\n"
+#| "|~x"
 msgid "No node defined."
-msgstr "Страница није дефинисана.|~"
+msgstr ""
+"Страница није дефинисана.|~\n"
+"Нема ниједног чвора.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
 #| msgid ""
 #| "Whisper session with $name started. If you don't want to receive messages from this user, type /ignore $name\n"
-#| "|~"
+#| "|~\n"
+#| "|~x"
 msgid "Whisper session with $name started. If you don’t want to receive messages from this user, type /ignore $name\n"
 msgstr ""
 "Започета сесија шаптања за $name|. Ако не желите да примате поруке овог корисника, упишите /ignore $name\n"
-"|~"
+"|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Version: |~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Version: |~\n"
+#| "|~x"
 msgid "Version "
-msgstr "Верзија: |~"
+msgstr ""
+"Верзија: |~\n"
+"Издање |~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Save Map|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Save Map|~\n"
+#| "|~x"
 msgid "Save All Maps"
-msgstr "Сачувај мапу|~"
+msgstr ""
+"Сачувај мапу|~\n"
+"Сачувај све мапе|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#, fuzzy
-#| msgid "Refresh|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Refresh|~\n"
+#| "|~x"
 msgid "Refresh WML"
-msgstr "Осв›јежи|~"
+msgstr ""
+"Осв›јежи|~\n"
+"Осв›јежи ~@/ВМЛ/WML/|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Village|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
 msgid "Merfolk Village"
-msgstr "село|~"
+msgstr ""
+"село|~\n"
+"морејско село|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Bridge|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Bridge|~\n"
+#| "|~x"
 msgid "Rotting Bridge"
-msgstr "мост|~"
+msgstr ""
+"мост|~\n"
+"натрули мост|~"
 
+# |~x
+# >> @title:window|~
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Update add-ons|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Update add-ons|~\n"
+#| "|~x"
 msgid "Uninstall Add-ons"
-msgstr "Ажурирај додатке|~"
+msgstr ""
+"Ажурирај додатке|~\n"
+"Деинсталирање додатака|~"
 
+# |~x
+# >> @title:window|~
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Choose the game to load|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Choose the game to load|~\n"
+#| "|~x"
 msgid "Choose Player"
-msgstr "Позиција за учитавање|~"
+msgstr ""
+"Позиција за учитавање|~\n"
+"Избор играча|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Time of day lighting preset|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Time of day lighting preset|~\n"
+#| "|~x"
 msgid "Time of day lighting preset:"
-msgstr "Предефинисан осв›јетљај за доба дана|~"
+msgstr ""
+"Предефинисан осв›јетљај за доба дана|~\n"
+"Предефинисан осв›јетљај за доба дана:|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Custom lighting setting|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Custom lighting setting|~\n"
+#| "|~x"
 msgid "Custom lighting settings"
-msgstr "Поставка посебног осв›јетљаја|~"
+msgstr ""
+"Поставка посебног осв›јетљаја|~\n"
+"Поставке посебног осв›јетљаја|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Auto-update map view|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Auto-update map view|~\n"
+#| "|~x"
 msgid "Automatically update map view"
-msgstr "Самоажурирај приказ мапе|~"
+msgstr ""
+"Самоажурирај приказ мапе|~\n"
+"Аутоматски ажурирај приказ мапе|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Ignore All|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Ignore All|~\n"
+#| "|~x"
 msgid "Ignore all"
-msgstr "Игнориши све|~"
+msgstr ""
+"Игнориши све|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Change language|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Change language|~\n"
+#| "|~x"
 msgid "Change Language"
-msgstr "Пром›ијени језик|~"
+msgstr ""
+"Пром›ијени језик|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Fog of War|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Fog of War|~\n"
+#| "|~x"
 msgid "Fog of war"
-msgstr "Магла рата|~"
+msgstr ""
+"Магла рата|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Full Screen|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Full Screen|~\n"
+#| "|~x"
 msgid "Full screen"
-msgstr "Преко ц›ијелог екрана|~"
+msgstr ""
+"Преко ц›ијелог екрана|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Accelerated Speed|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Accelerated Speed|~\n"
+#| "|~x"
 msgid "Accelerated speed"
-msgstr "Убрзано|~"
+msgstr ""
+"Убрзано|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Skip AI Moves|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Skip AI Moves|~\n"
+#| "|~x"
 msgid "Skip AI moves"
-msgstr "Прескочи потезе ВИ|~"
+msgstr ""
+"Прескочи потезе ВИ|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Show Grid|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Show Grid|~\n"
+#| "|~x"
 msgid "Show grid"
-msgstr "Прикажи мрежу|~"
+msgstr ""
+"Прикажи мрежу|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Save Replay on SP/MP Victory or MP Defeat|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Save Replay on SP/MP Victory or MP Defeat|~\n"
+#| "|~x"
 msgid "Save replay on SP/MP victory or MP defeat"
-msgstr "Сачувај снимак при ји./ви. поб›једи или ви. поразу|~"
+msgstr ""
+"Сачувај снимак при ји./ви. поб›једи или ви. поразу|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Delete Auto-Saves on SP/MP Victory or MP Defeat|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Delete Auto-Saves on SP/MP Victory or MP Defeat|~\n"
+#| "|~x"
 msgid "Delete auto-saves on SP/MP victory or MP defeat"
-msgstr "Бриши аутопозиције при ји./ви. поб›једи или ви. поразу|~"
+msgstr ""
+"Бриши аутопозиције при ји./ви. поб›једи или ви. поразу|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Do Not Show Lobby Joins|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Do Not Show Lobby Joins|~\n"
+#| "|~x"
 msgid "Do not show lobby joins"
-msgstr "Не приказуј уласке у хол|~"
+msgstr ""
+"Не приказуј уласке у хол|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Show Lobby Joins Of Friends Only|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Show Lobby Joins Of Friends Only|~\n"
+#| "|~x"
 msgid "Show lobby joins of friends only"
-msgstr "Прикажи уласке у хол само пријатеља|~"
+msgstr ""
+"Прикажи уласке у хол само пријатеља|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Show All Lobby Joins|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Show All Lobby Joins|~\n"
+#| "|~x"
 msgid "Show all lobby joins"
-msgstr "Прикажи све уласке у хол|~"
+msgstr ""
+"Прикажи све уласке у хол|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Sort Lobby List|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Sort Lobby List|~\n"
+#| "|~x"
 msgid "Sort lobby list"
-msgstr "Поређај списак хола|~"
+msgstr ""
+"Поређај списак хола|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Iconize Lobby List|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Iconize Lobby List|~\n"
+#| "|~x"
 msgid "Iconize lobby list"
-msgstr "Списак хола у икону|~"
+msgstr ""
+"Списак хола у икону|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Save password to preferences (clear text)|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Save password to preferences (clear text)|~\n"
+#| "|~x"
 msgid "Save password to preferences (plain text)"
-msgstr "Сачувај лозинку међу поставкама (чист текст)|~"
+msgstr ""
+"Сачувај лозинку међу поставкама (чист текст)|~\n"
+"Сачувај лозинку међу поставкама (обични текст)|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Set path to wesnothd|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Set path to wesnothd|~\n"
+#| "|~x"
 msgid "Set Path to wesnothd"
-msgstr "Путања до wesnothd|~"
+msgstr ""
+"Путања до wesnothd|~\n"
+"|~e0"
 
 # кућица|~
+# |~e0
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Show Floating Labels|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Show Floating Labels|~\n"
+#| "|~x"
 msgid "Show floating labels"
-msgstr "Плутајуће етикете|~"
+msgstr ""
+"Плутајуће етикете|~\n"
+"|~e0"
 
 # кућица|~
+# |~e0
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Turn Dialog|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Turn Dialog|~\n"
+#| "|~x"
 msgid "Turn dialog"
-msgstr "Дијалог потеза|~"
+msgstr ""
+"Дијалог потеза|~\n"
+"|~e0"
 
 # кућица|~
+# |~e0
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Turn Bell|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Turn Bell|~\n"
+#| "|~x"
 msgid "Turn bell"
-msgstr "Звоно потеза|~"
+msgstr ""
+"Звоно потеза|~\n"
+"|~e0"
 
 # кућица|~
+# |~e0
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Show Team Colors|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Show Team Colors|~\n"
+#| "|~x"
 msgid "Show team colors"
-msgstr "Боје тимова|~"
+msgstr ""
+"Боје тимова|~\n"
+"|~e0"
 
 # кућица|~
+# |~e0
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Show Color Cursors|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Show Color Cursors|~\n"
+#| "|~x"
 msgid "Show color cursors"
-msgstr "Показивачи у боји|~"
+msgstr ""
+"Показивачи у боји|~\n"
+"|~e0"
 
 # кућица|~
+# |~e0
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Show Haloing Effects|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Show Haloing Effects|~\n"
+#| "|~x"
 msgid "Show haloing effects"
-msgstr "Ореолски ефекти|~"
+msgstr ""
+"Ореолски ефекти|~\n"
+"|~e0"
 
 # кућица|~
+# |~e0
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Chat Timestamping|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Chat Timestamping|~\n"
+#| "|~x"
 msgid "Chat timestamping"
-msgstr "Б‹иљежење времена ћаскања|~"
+msgstr ""
+"Б‹иљежење времена ћаскања|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "User Interface Sounds|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "User Interface Sounds|~\n"
+#| "|~x"
 msgid "User interface sounds"
-msgstr "Звуци корисничког сучеља|~"
+msgstr ""
+"Звуци корисничког сучеља|~\n"
+"|~e0"
 
 # |~x
 # кућица|~
+# |~e1
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
 #. modified: ilic | 2011-09-10 01:15:13+0200 | o
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
 #| msgid ""
 #| "|~x\n"
-#| "Show Unit Idle Animations|~"
+#| "Show Unit Idle Animations|~\n"
+#| "|~x"
 msgid "Show unit idle animations"
 msgstr ""
 "Приказуј стајаће анимације јединица|~\n"
-"Стајаће анимације јединица|~"
+"Стајаће анимације јединица|~\n"
+"Анимације мировања јединица|~"
 
 # кућица|~
+# |~e0
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Show Unit Idle Animations|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Show Unit Idle Animations|~\n"
+#| "|~x"
 msgid "Show unit standing animations"
-msgstr "Стајаће анимације јединица|~"
+msgstr ""
+"Стајаће анимације јединица|~\n"
+"Анимације стајања јединица|~"
 
+# |~x
+# кућица|~
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Generate Map|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Generate Map|~\n"
+#| "|~x"
 msgid "Animate map"
-msgstr "Створи мапу|~"
+msgstr ""
+"Створи мапу|~\n"
+"Анимирај мапу|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Scroll Speed:|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Scroll Speed:|~\n"
+#| "|~x"
 msgid "Scroll speed:"
-msgstr "Брзина клизања:|~"
+msgstr ""
+"Брзина клизања:|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Sample Rate (Hz):|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Sample Rate (Hz):|~\n"
+#| "|~x"
 msgid "Sample rate (Hz):"
-msgstr "Учестаност узорковања (Hz):|~"
+msgstr ""
+"Учестаност узорковања (Hz):|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Buffer Size: |~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Buffer Size: |~\n"
+#| "|~x"
 msgid "Buffer size: "
-msgstr "Величина бафера: |~"
+msgstr ""
+"Величина бафера: |~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Use new lobby interface|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Use new lobby interface|~\n"
+#| "|~x"
 msgid "Use New Lobby Interface"
-msgstr "Ново сучеље хола|~"
+msgstr ""
+"Ново сучеље хола|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Chat Lines: |~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Chat Lines: |~\n"
+#| "|~x"
 msgid "Chat lines: "
-msgstr "Редови ћаскања: |~"
+msgstr ""
+"Редови ћаскања: |~\n"
+"Редова ћаскања: |~"
 
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Choose the game to load|~"
-msgid "Choose Theme"
-msgstr "Позиција за учитавање|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "replay|~"
-msgid "Replay"
-msgstr "снимак|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Scenario Start|~"
-msgid "Scenario start"
-msgstr "Почетак сценарија|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Host Networked Game|~"
-msgid "Pause Network Game"
-msgstr "Домаћин мрежној партији|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Host Networked Game|~"
-msgid "Continue Network Game"
-msgstr "Домаћин мрежној партији|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Save Replay|~"
-msgid "Play Replay"
-msgstr "Сачувај снимак|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Save Replay|~"
-msgid "Reset Replay"
-msgstr "Сачувај снимак|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Save Replay|~"
-msgid "Stop Replay"
-msgstr "Сачувај снимак|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Full map|~"
-msgid "Full Map"
-msgstr "Ц›ијела мапа|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Each team|~"
-msgid "Each Team"
-msgstr "Сваки тим|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Skip animation|~"
-msgid "Skip Animation"
-msgstr "Прескочи анимацију|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Swap fore- and background terrains|~"
-msgid "Swap Foreground/Background Terrains"
-msgstr "Разм›ијени терен спреда и позадине|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Export selected coordinates to system clipboard|~"
-msgid "Export Selected Coordinates to System Clipboard"
-msgstr "Извези изабране координате у системску оставу|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Enter user command|~"
-msgid "Enter User Command"
-msgstr "Корисничка наредба|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Custom command|~"
-msgid "Custom Command"
-msgstr "Посебна наредба|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Run AI formula|~"
-msgid "Run Formula"
-msgstr "Изврши ВИ формулу|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Clear messages|~"
-msgid "Clear Messages"
-msgstr "Очисти поруке|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Previous Unit|~"
-msgid "Next Tip of the Day"
-msgstr "Претходна јединица|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Previous Unit|~"
-msgid "Previous Tip of the Day"
-msgstr "Претходна јединица|~"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Tutorial|~"
-msgid "Start Tutorial"
-msgstr "Подучавање|~"
-
+# |~x
 # >> @title:window|~
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Play a campaign|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Choose the game to load|~\n"
+#| "|~x"
+msgid "Choose Theme"
+msgstr ""
+"Позиција за учитавање|~\n"
+"Избор теме|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "replay|~\n"
+#| "|~x"
+msgid "Replay"
+msgstr ""
+"снимак|~\n"
+"Снимак|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Scenario Start|~\n"
+#| "|~x"
+msgid "Scenario start"
+msgstr ""
+"Почетак сценарија|~\n"
+"|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Host Networked Game|~\n"
+#| "|~x"
+msgid "Pause Network Game"
+msgstr ""
+"Домаћин мрежној партији|~\n"
+"Паузирај мрежну партију|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Host Networked Game|~\n"
+#| "|~x"
+msgid "Continue Network Game"
+msgstr ""
+"Домаћин мрежној партији|~\n"
+"Настави мрежну партију|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Save Replay|~\n"
+#| "|~x"
+msgid "Play Replay"
+msgstr ""
+"Сачувај снимак|~\n"
+"Пусти снимак|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Save Replay|~\n"
+#| "|~x"
+msgid "Reset Replay"
+msgstr ""
+"Сачувај снимак|~\n"
+"Ресетуј снимак|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Save Replay|~\n"
+#| "|~x"
+msgid "Stop Replay"
+msgstr ""
+"Сачувај снимак|~\n"
+"Заустави снимак|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Full map|~\n"
+#| "|~x"
+msgid "Full Map"
+msgstr ""
+"Ц›ијела мапа|~\n"
+"|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Each team|~\n"
+#| "|~x"
+msgid "Each Team"
+msgstr ""
+"Сваки тим|~\n"
+"|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Skip animation|~\n"
+#| "|~x"
+msgid "Skip Animation"
+msgstr ""
+"Прескочи анимацију|~\n"
+"|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Swap fore- and background terrains|~\n"
+#| "|~x"
+msgid "Swap Foreground/Background Terrains"
+msgstr ""
+"Разм›ијени терен спреда и позадине|~\n"
+"|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Export selected coordinates to system clipboard|~\n"
+#| "|~x"
+msgid "Export Selected Coordinates to System Clipboard"
+msgstr ""
+"Извези изабране координате у системску оставу|~\n"
+"|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Enter user command|~\n"
+#| "|~x"
+msgid "Enter User Command"
+msgstr ""
+"Корисничка наредба|~\n"
+"|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Custom command|~\n"
+#| "|~x"
+msgid "Custom Command"
+msgstr ""
+"Посебна наредба|~\n"
+"|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Run AI formula|~\n"
+#| "|~x"
+msgid "Run Formula"
+msgstr ""
+"Изврши ВИ формулу|~\n"
+"Изврши формулу|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Clear messages|~\n"
+#| "|~x"
+msgid "Clear Messages"
+msgstr ""
+"Очисти поруке|~\n"
+"|~e0"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Previous Unit|~\n"
+#| "|~x"
+msgid "Next Tip of the Day"
+msgstr ""
+"Претходна јединица|~\n"
+"С‹љедећи савет дана|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Previous Unit|~\n"
+#| "|~x"
+msgid "Previous Tip of the Day"
+msgstr ""
+"Претходна јединица|~\n"
+"Претходни савет дана|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Tutorial|~\n"
+#| "|~x"
+msgid "Start Tutorial"
+msgstr ""
+"Подучавање|~\n"
+"Покрени подучавање|~"
+
+# >> @title:window|~
+# |~x
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Play a campaign|~\n"
+#| "|~x"
 msgid "Start Campaign"
-msgstr "Играње похода|~"
+msgstr ""
+"Играње похода|~\n"
+"Покрени поход|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Multiplayer|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Multiplayer|~\n"
+#| "|~x"
 msgid "Start Multiplayer Game"
-msgstr "Вишеиграње|~"
+msgstr ""
+"Вишеиграње|~\n"
+"Покрени вишеиграчку партију|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Update add-ons|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Update add-ons|~\n"
+#| "|~x"
 msgid "Manage Add-ons"
-msgstr "Ажурирај додатке|~"
+msgstr ""
+"Ажурирај додатке|~\n"
+"Управљај додацима|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Editor|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Editor|~\n"
+#| "|~x"
 msgid "Start Editor"
-msgstr "Уређивач|~"
+msgstr ""
+"Уређивач|~\n"
+"Покрени уређивач|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Credits|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Credits|~\n"
+#| "|~x"
 msgid "Show Credits"
-msgstr "Заслуге|~"
+msgstr ""
+"Заслуге|~\n"
+"Прикажи заслуге|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Show replay|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Show replay|~\n"
+#| "|~x"
 msgid "Show Helptip"
-msgstr "Прикажи снимак|~"
+msgstr ""
+"Прикажи снимак|~\n"
+"Прикажи текст помоћи|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Number of Hills:|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Number of Hills:|~\n"
+#| "|~x"
 msgid "Number of hills:"
-msgstr "Број брда:|~"
+msgstr ""
+"Број брда:|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Max Hill Size:|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Max Hill Size:|~\n"
+#| "|~x"
 msgid "Max hill size:"
-msgstr "Највећа величина брда:|~"
+msgstr ""
+"Највећа величина брда:|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Castle Size:|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Castle Size:|~\n"
+#| "|~x"
 msgid "Castle size:"
-msgstr "Величина замка:|~"
+msgstr ""
+"Величина замка:|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Roads Between Castles|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Roads Between Castles|~\n"
+#| "|~x"
 msgid "Roads between castles"
-msgstr "Путеви међу замковима|~"
+msgstr ""
+"Путеви међу замковима|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Press desired Hotkey (Esc cancels)|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Press desired Hotkey (Esc cancels)|~\n"
+#| "|~x"
 msgid "Press desired hotkey (Esc cancels)"
-msgstr "Притисните жељену пречицу (Escape одустаје)|~"
+msgstr ""
+"Притисните жељену пречицу (Escape одустаје)|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "This Hotkey is already in use.|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "This Hotkey is already in use.|~\n"
+#| "|~x"
 msgid "This hotkey is already in use."
-msgstr "Пречица је већ у употреби.|~"
+msgstr ""
+"Пречица је већ у употреби.|~\n"
+"|~e0"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#, fuzzy
-#| msgid "Warning: screenshot hotkeys not combined with Control, Alt or Meta keys.|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Warning: screenshot hotkeys not combined with Control, Alt or Meta keys.|~\n"
+#| "|~x"
 msgid "Screenshot hotkeys should be combined with the Control, Alt or Meta modifiers to avoid problems."
-msgstr "Упозорење: пречице за снимање екрана нису комбинације са тастерима Ctrl, Alt или Meta.|~"
+msgstr ""
+"Упозорење: пречице за снимање екрана нису комбинације са тастерима Ctrl, Alt или Meta.|~\n"
+"Да би се избегли проблеми, пречице за снимање екрана треба да буду комбинације са тастерима Ctrl, Alt или Meta.|~"
 
 #. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
-#, fuzzy
-#| msgid "Create new map|~"
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Create new map|~\n"
+#| "|~x"
 msgid "Create New Map"
-msgstr "Направи нову мапу|~"
+msgstr ""
+"Направи нову мапу|~\n"
+"|~e0"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Dirt|~\n"
+#| "|~x"
+msgid "Regular Dirt"
+msgstr ""
+"блато|~\n"
+"обично блато|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Clear Labels|~\n"
+#| "|~x"
+msgid "Regular Cobbles"
+msgstr ""
+"Уклони етикете|~\n"
+"обична калдрма|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Desert Mountains|~\n"
+#| "|~x"
+msgid "Beach Sands"
+msgstr ""
+"пустињске планине|~\n"
+"обалски п›ијесак|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Cave Wall|~\n"
+#| "|~x"
+msgid "Stones"
+msgstr ""
+"пећински зид|~\n"
+"камење|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Desert Mountains|~\n"
+#| "|~x"
+msgid "Desert Plants without Bones"
+msgstr ""
+"пустињске планине|~\n"
+"пустињске биљке без костију|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
+msgid "Windmill"
+msgstr ""
+"село|~\n"
+"ветрењача|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Hills|~\n"
+#| "|~x"
+msgid "Regular Hills"
+msgstr ""
+"брда|~\n"
+"обична брда|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Bridge|~\n"
+#| "|~x"
+msgid "Wooden Floor"
+msgstr ""
+"мост|~\n"
+"дрвени под|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Cave Wall|~\n"
+#| "|~x"
+msgid "Earthy Cave Floor"
+msgstr ""
+"пећински зид|~\n"
+"земљани пећински под|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Lava chasm|~\n"
+#| "|~x"
+msgid "Regular Chasm"
+msgstr ""
+"бездан лаве|~\n"
+"обичан бездан|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Lava chasm|~\n"
+#| "|~x"
+msgid "Earthy Chasm"
+msgstr ""
+"бездан лаве|~\n"
+"земљани бездан|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Cave Wall|~\n"
+#| "|~x"
+msgid "Natural Earthy Cave Wall"
+msgstr ""
+"пећински зид|~\n"
+"природни земљани пећински зид|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Cave Wall|~\n"
+#| "|~x"
+msgid "Lit Stone Wall"
+msgstr ""
+"пећински зид|~\n"
+"осветљени камени зид|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
+msgid "Desert Tent Village"
+msgstr ""
+"село|~\n"
+"село под пустињским шаторима|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
+msgid "Snowy Orcish Village"
+msgstr ""
+"село|~\n"
+"с‹њежно орковско село|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
+msgid "Snowy Elven Village"
+msgstr ""
+"село|~\n"
+"с‹њежно вилењачко село|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Snowy Mountains|~\n"
+#| "|~x"
+msgid "Cottage"
+msgstr ""
+"с‹њежне планине|~\n"
+"колиба|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Castle|~\n"
+#| "|~x"
+msgid "Human City"
+msgstr ""
+"замак|~\n"
+"људски град|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Snowy Mountains|~\n"
+#| "|~x"
+msgid "Snowy Human City"
+msgstr ""
+"с‹њежне планине|~\n"
+"с‹њежни људски град|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Ruined Castle Keep|~\n"
+#| "|~x"
+msgid "Ruined Human City"
+msgstr ""
+"кула урушеног замка|~\n"
+"урушени људски град|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
+msgid "Hill Stone Village"
+msgstr ""
+"село|~\n"
+"село од брдског камења|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
+msgid "Snowy Hill Stone Village"
+msgstr ""
+"село|~\n"
+"с‹њежно село од брдског камења|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Village|~\n"
+#| "|~x"
+msgid "Ruined Hill Stone Village"
+msgstr ""
+"село|~\n"
+"урушено село од брдског камења|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Snowy Mountains|~\n"
+#| "|~x"
+msgid "Log Cabin"
+msgstr ""
+"с‹њежне планине|~\n"
+"брвнара|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Castle|~\n"
+#| "|~x"
+msgid "Snowy Orcish Castle"
+msgstr ""
+"замак|~\n"
+"с‹њежни орковски замак|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Fort Keep|~\n"
+#| "|~x"
+msgid "Snowy Orcish Keep"
+msgstr ""
+"кула утврде|~\n"
+"с‹њежна орковска кула|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Castle Keep|~\n"
+#| "|~x"
+msgid "Keep Overlay"
+msgstr ""
+"кула замка|~\n"
+"преклоп куле|~"
+
+# |~x
+# >> @title:window|~
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Update add-ons|~\n"
+#| "|~x"
+msgid "Manage Data"
+msgstr ""
+"Ажурирај додатке|~\n"
+"Управљање подацима|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Previous Unit|~\n"
+#| "|~x"
+msgid "Show previous tip of the day"
+msgstr ""
+"Претходна јединица|~\n"
+"Прикажи претходни савет дана|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Previous Unit|~\n"
+#| "|~x"
+msgid "Show next tip of the day"
+msgstr ""
+"Претходна јединица|~\n"
+"Прикажи с‹љедећи савет дана|~"
+
+# >> @title:window|~
+# |~x
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Play a campaign|~\n"
+#| "|~x"
+msgid "Start a new single player campaign"
+msgstr ""
+"Играње похода|~\n"
+"Покрени нови поход за једног играча|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "Editor|~\n"
+#| "|~x"
+msgid "Start the map editor"
+msgstr ""
+"Уређивач|~\n"
+"Покрени уређивач мапа|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1f
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+#| msgid ""
+#| "No page defined.|~\n"
+#| "|~x"
+msgid "No nodes defined for a tree view."
+msgstr ""
+"Страница није дефинисана.|~\n"
+"Нема ниједног чвора за приказ стабла.|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Ford"
+msgstr "газ|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Muddy Quagmire"
+msgstr "блатна бара|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Green Grass"
+msgstr "зелена трава|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Semi-dry Grass"
+msgstr "полусасушена трава|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Dry Grass"
+msgstr "сасушена трава|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Leaf Litter"
+msgstr "опало лишће|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Overgrown Cobbles"
+msgstr "крупна калдрма|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Small Mushrooms"
+msgstr "мале печурке|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Fence"
+msgstr "ограда|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Stones with Sand Drifts"
+msgstr "камење са пешчаним наносом|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Water Lilies"
+msgstr "локвањи|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Flowering Water Lilies"
+msgstr "цветајући локвањи|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Basic Wooden Floor"
+msgstr "прост дрвени под|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Beam of Light"
+msgstr "трачак светлости|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Dark Flagstones"
+msgstr "тамне камене плоче|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Mine Rail"
+msgstr "рудничка шина|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Ethereal Abyss"
+msgstr "језоморни бездан|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Volcano"
+msgstr "вулкан|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Reinforced Earthy Cave Wall"
+msgstr "ојачани земљани пећински зид|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Igloo"
+msgstr "игло|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Basic Stone Bridge"
+msgstr "прост камени мост|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Cave Chasm Bridge"
+msgstr "мост над пећинским безданом|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Off Map"
+msgstr "ван мапе|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Experimental Fake Map Edge"
+msgstr "пробна лажна ивица мапе|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Author:"
+msgstr "Аутор:|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Size:"
+msgstr "Величина:|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "No description available."
+msgstr "Без описа.|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Translations:"
+msgstr "Преводи:|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Choose the add-ons you want to remove."
+msgstr "Изаберите додатке које желите да уклоните.|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Select difficulty level:"
+msgstr "Изаберите ниво тежине:|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Clear"
+msgstr "Очисти|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Restore"
+msgstr "Врати|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Backup"
+msgstr "Направи резерву|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Which player should start here?"
+msgstr "Који играч почиње одавде?|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Allow multiple maps to be open simultaneously"
+msgstr "Дозволи истовремено отварање више мапа|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Assign sides to players at random"
+msgstr "Насумично додели стране играчима|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Nickname"
+msgstr "Надимак|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Set the password that people wanting to join your game as players must enter."
+msgstr "Поставите лозинку коју морају да унесу играчи који би да се придруже вашој партији.|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Show Battle for Wesnoth help"
+msgstr "Прикажи помоћ „Боја за Веснот“|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Start a tutorial to familiarize yourself with the game"
+msgstr "Покрени подучавање ради упознавања са игром|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Play multiplayer (hotseat, LAN, or Internet), or a single scenario against the AI"
+msgstr "Вишеиграње (усијано, у ЛАН-у, преко Интернета) или један сценарио против ВИ.|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Download usermade campaigns, eras, or map packs"
+msgstr "Преузми походе, епохе или пакете мапа које су направили корисници|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Configure the game’s settings"
+msgstr "Подеси поставке игре|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "View the credits"
+msgstr "Прикажи заслуге|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Attack"
+msgstr "Нападни|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Attack enemy"
+msgstr "Нападни непријатеља|~"
+
+# >> strftime() format|~
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "%H:%M"
+msgstr "%k.%M|~"
+
+# >> strftime() format|~
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "%I:%M %p"
+msgstr "%l.%M %p|~"
+
+# кућица|~
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Enable planning mode on start"
+msgstr "Режим планирања на почетку|~"
+
+# кућица|~
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Hide allies’ plans by default"
+msgstr "Подразумевано сакриј планове савезника|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Play short random animations for idle units"
+msgstr "Насумичне кратке анимације за мирујуће јединице|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Continuously animate standing units in the battlefield"
+msgstr "Сталне анимације стајаћих јединица на бојишту|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Display animated terrain graphics"
+msgstr "Анимирана графика терен|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Activates Planning Mode on game start"
+msgstr "Активира режим планирања на почетку партије|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Hides allies’ Planning Mode plans in multiplayer games"
+msgstr "Сакрива планове савезника у вишеиграчким партијама|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Found a widget with a helptip and without a tooltip."
+msgstr "Нађен виџет са текстом помоћи а без облачића.|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "[node]id 'root' is reserved for the implementation."
+msgstr "ИД чвора ‘root’ резервисан је за изведбу.|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Test scenario"
+msgstr "Пробни сценарио|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Side $side"
+msgstr "Страна $side|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgctxt "unit_byte"
+msgid "B"
+msgstr "B|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Unknown builder id for tree view node."
+msgstr "Непознат ИД градитеља за чвор у приказу стабла.|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Left Mouse Click"
+msgstr "Леви клик мишем|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Right Mouse Click"
+msgstr "Десни клик мишем|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Toggle Planning Mode"
+msgstr "Режим планирања|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Execute Planned Action"
+msgstr "Изврши планирану радњу|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Execute All Actions"
+msgstr "Изврши све радње|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Delete Planned Action"
+msgstr "Обриши планирану радњу|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Move Action Up Queue"
+msgstr "Помери радњу нагоре у реду|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Move Action Down Queue"
+msgstr "Помери радњу надоле у реду|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Suppose Dead"
+msgstr "Претпостави мртво|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "Warning"
+msgstr "Упозорење|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid " (widescreen)"
+msgstr " (широки екран)|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "The text contains invalid markup: "
+msgstr "Текст садржи лоше обележавање: |~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "The key '$key' is deprecated and support will be removed in version $removal_version."
+msgstr "Кључ ‘$key’ је превазиђен и подршка за њега ће бити уклоњена у издању $removal_version.|~"
+
+#. modified: ilic | 2011-11-30 11:08:40+0100 | 1
+msgid "The key '$deprecated_key' has been renamed to '$key'. Support for '$deprecated_key' will be removed in version $removal_version."
+msgstr "Кључ ‘$deprecated_key’ је преименован у ‘$key’. Подршка за ‘$deprecated_key’ биће уклоњена у издању $removal_version.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:53:33+0100
