@@ -1,7 +1,7 @@
 # Translation of wesnoth-editor.po into Serbian.
 # Copyright (C) 2005 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011.
 # Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>, 2010.
 # Branko Kokanovic, 2006.
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-editor\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2011-11-28 00:56+0100\n"
-"PO-Revision-Date: 2010-02-22 13:52+0100\n"
+"PO-Revision-Date: 2011-11-30 16:10+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -73,7 +73,7 @@ msgstr "пустиња"
 #. +> devel
 #: data/core/editor/terrain-groups.cfg:37
 msgid "embellishments"
-msgstr ""
+msgstr "орнамент"
 
 #. [editor_group]: id=forest
 #. +> devel
@@ -103,7 +103,7 @@ msgstr "пећина"
 #. +> devel
 #: data/core/editor/terrain-groups.cfg:72
 msgid "obstacle"
-msgstr ""
+msgstr "препрека"
 
 #. [editor_group]: id=village
 #. +> devel
@@ -121,7 +121,7 @@ msgstr "замак"
 #. +> devel
 #: data/core/editor/terrain-groups.cfg:93
 msgid "bridge"
-msgstr ""
+msgstr "мост"
 
 #. [editor_group]: id=special
 #. +> devel
@@ -269,8 +269,6 @@ msgstr "Стварање мапе није усп›јело."
 # наслов
 #. +> devel
 #: src/editor/editor_controller.cpp:520
-#, fuzzy
-#| msgid "Choose a mask to apply"
 msgid "Choose a Mask to Apply"
 msgstr "Избор маске за прим›јењивање"
 
@@ -282,8 +280,6 @@ msgstr "Грешка при учитавању маске"
 # наслов
 #. +> devel
 #: src/editor/editor_controller.cpp:542
-#, fuzzy
-#| msgid "Choose target map"
 msgid "Choose Target Map"
 msgstr "Избор циљне мапе"
 
@@ -329,8 +325,6 @@ msgstr "Опозови"
 
 #. +> devel
 #: src/editor/editor_controller.cpp:1128
-#, fuzzy
-#| msgid "Can't Undo"
 msgid "Can’t Undo"
 msgstr "Опозив неизводљив"
 
@@ -341,8 +335,6 @@ msgstr "Понови"
 
 #. +> devel
 #: src/editor/editor_controller.cpp:1134
-#, fuzzy
-#| msgid "Can't Redo"
 msgid "Can’t Redo"
 msgstr "Понављање неизводљиво"
 
@@ -382,15 +374,17 @@ msgstr "(спољашњи)"
 msgid "Will not work in game without extra care."
 msgstr "Неће радити у игри без додатне бриге."
 
+# |, no-check-spell
 #. +> devel
 #: src/editor/editor_palettes.cpp:526
 msgid "FG: "
-msgstr ""
+msgstr "Пред: "
 
+# |, no-check-spell
 #. +> devel
 #: src/editor/editor_palettes.cpp:527
 msgid "BG: "
-msgstr ""
+msgstr "Поз: "
 
 #. +> devel
 #: src/editor/map_context.cpp:71
@@ -419,9 +413,6 @@ msgstr "Не могу да сачувам мапу: $msg"
 
 #. +> devel
 #: src/gui/dialogs/editor_set_starting_position.cpp:84
-#, fuzzy
-#| msgctxt "(Player)"
-#| msgid "None"
 msgctxt "player"
 msgid "None"
 msgstr "ниједан"
@@ -429,18 +420,9 @@ msgstr "ниједан"
 #. +> devel
 #: src/gui/dialogs/editor_set_starting_position.cpp:96
 msgid "Player $player_number"
-msgstr ""
+msgstr "Играч $player_number"
 
 #. +> devel
 #: src/gui/dialogs/editor_settings.cpp:148
 msgid "Custom setting"
 msgstr "Посебна поставка"
-
-# наслов
-#~ msgid "Choose player"
-#~ msgstr "Избор играча"
-
-#, fuzzy
-#~| msgid "Which player should start here? You can use alt and a number key to set the starting position for a player, and del to clear the starting position under the cursor. Pressing a number key by itself will scroll to that player's starting position."
-#~ msgid "Which player should start here? You can use alt and a number key to set the starting position for a player, and del to clear the starting position under the cursor. Pressing a number key by itself will scroll to that player’s starting position."
-#~ msgstr "Који играч креће одавд›је? тастером Alt и бројем можете задати почетни положај, а Delete уклања онај под курсором. Само тастер броја отклизаће мапу до почетног положаја тога играча."

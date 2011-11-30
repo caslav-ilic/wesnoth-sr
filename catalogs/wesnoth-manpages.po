@@ -1,7 +1,7 @@
 # Translation of wesnoth-manpages.po into Serbian.
 # Copyright (C) 2006 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011.
 # Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>, 2010.
 #
 msgid ""
@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: wesnoth-manpages\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2011-11-28 00:56+0100\n"
-"PO-Revision-Date: 2010-04-28 16:24+0200\n"
-"Last-Translator: Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>\n"
+"PO-Revision-Date: 2011-11-30 16:10+0100\n"
+"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "WESNOTH"
 #: ../../doc/man/wesnoth.6:16 ../../doc/man/wesnothd.6:16
 #, no-wrap
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #. type: TH
 #. +> devel
@@ -90,8 +90,6 @@ msgstr "„Бој за B<Веснот>“ је фантазијска страт
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:42
-#, fuzzy
-#| msgid "Defeat all enemy leaders using a well-chosen cadre of troops, taking care to manage your resources of gold and villages. All units have their own strengths and weaknesses; to win, deploy your forces to their best advantage while denying your foes the chance to do the same. As units gain experience, they acquire new abilities and become more powerful. Play in your own language and test your skill against a smart computer opponent, or join Wesnoth's large community of on-line players. Create your own custom units, scenarios or campaigns, and share them with others."
 msgid "Defeat all enemy leaders using a well-chosen cadre of troops, taking care to manage your resources of gold and villages. All units have their own strengths and weaknesses; to win, deploy your forces to their best advantage while denying your foes the chance to do the same. As units gain experience, they acquire new abilities and become more powerful. Play in your own language and test your skill against a smart computer opponent, or join Wesnoth's large community of online players. Create your own custom units, scenarios or campaigns, and share them with others."
 msgstr "Поразите све непријатељске вође добро изабраном војном дружином, старајући се успут о изворима злата и селима. Свака јединица има своје врлине и мане; да бисте поб›иједили, распоредите снаге тако да се истакну преимућства, притом спр›ијечивши противника да учини то исто. Како јединице постају искусније, добијају нове способности и постају снажније. Играјте на свом матерњем језику искушавајући в›јештине против паметног рачунарског противника, или се придружите Веснотовој великој заједници играча на вези. Правите сопствене посебне јединице, сценарије, походе, и под›ијелите их са другим играчима."
 
@@ -120,13 +118,13 @@ msgstr "поставља вр›иједност BitsPerPixel. Прим›јер
 #: ../../doc/man/wesnoth.6:49
 #, no-wrap
 msgid "B<-c, --campaign[[E<lt>difficultyE<gt>] E<lt>id_campaignE<gt> [E<lt>id_scenarioE<gt>]]>"
-msgstr ""
+msgstr "B<-c, --campaign[[E<lt>тежинаE<gt>] E<lt>ид-походаE<gt> [E<lt>ид-сценаријаE<gt>]]>"
 
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:56
 msgid "goes directly to the campaign based on the parameters.  The difficulty is a number between 1 and current campaign's difficulties number.  The default difficulty is 1.  The scenario must be one of the campaign's child scenarios. The default scenario is campaign's first scenario.  B<Note: When using this switch please ensure that you specify the data directory path as the final argument> aswell, otherwise the game will take the campaign/scenario id as the data dir."
-msgstr ""
+msgstr "скаче директно на поход према параметрима. Тежина је број између 1 и броја тежине похода. Подразумевана тежина је 1. Сценарио мора припадати походу. Подразумеван је први сценарио похода. B<Напомена: При употреби ове опције морате задати и путању директоријума података као последњи аргумент>, иначе ће ИД похода или сценарија бити схваћен као директоријум података."
 
 #. type: TP
 #. +> devel
@@ -138,10 +136,8 @@ msgstr "B<--config-dir>I<\\ име>"
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:63
-#, fuzzy
-#| msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows."
 msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\""
-msgstr "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/."
+msgstr "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“."
 
 #. type: TP
 #. +> devel
@@ -161,13 +157,13 @@ msgstr "исписује путању корисничког поставног 
 #: ../../doc/man/wesnoth.6:66
 #, no-wrap
 msgid "B<--data-dir E<lt>directoryE<gt>>"
-msgstr ""
+msgstr "B<--data-dir E<lt>директоријумE<gt>>"
 
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:69
 msgid "overrides the data directory with the one specified"
-msgstr ""
+msgstr "потискује директоријум података овде задатим."
 
 #. type: TP
 #. +> devel
@@ -192,10 +188,8 @@ msgstr "B<-e, --editor \\ датотека>"
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:79
-#, fuzzy
-#| msgid "start the in-game map editor directly. If I<file> is specified, equivalent to B<-e --load>"
 msgid "start the in-game map editor directly. If I<file> is specified, equivalent to B<-l --load>"
-msgstr "директно покреће уређивач мапа у игри. Ако је задата I<датотека>, истов›јетно са B<-e --load>."
+msgstr "директно покреће уређивач мапа у игри. Ако је задата I<датотека>, истов›јетно са B<-l --load>."
 
 #. type: TP
 #. +> devel
@@ -291,16 +285,15 @@ msgstr "поставља ниво озбиљности домена б‹иље�
 #. type: TP
 #. +> devel
 #: ../../doc/man/wesnoth.6:122
-#, fuzzy, no-wrap
-#| msgid "B<--logdomains>"
+#, no-wrap
 msgid "B<--logdomains\\ [filter]>"
-msgstr "B<--logdomains>"
+msgstr "B<--logdomains\\ [филтер]>"
 
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:127
 msgid "lists defined log domains (only the ones containing B<filter> if used) and exits"
-msgstr ""
+msgstr "набраја дефинисане домене бележења (или оне које садрже B<филтер>, ако је задат) и излази."
 
 #. type: TP
 #. +> devel
@@ -333,13 +326,13 @@ msgstr "покреће вишеиграчку партију. Уз ову опц
 #: ../../doc/man/wesnoth.6:139
 #, no-wrap
 msgid "B<--new-syntax>"
-msgstr ""
+msgstr "B<--new-syntax>"
 
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:142
 msgid "enables the new campaign syntax parsing."
-msgstr ""
+msgstr "активира ново рашчлањивање синтаксе похода."
 
 #. type: TP
 #. +> devel
@@ -411,39 +404,39 @@ msgstr "исписује име директоријума са подацима
 #: ../../doc/man/wesnoth.6:158
 #, no-wrap
 msgid "B<--preprocess, -p[=E<lt>define1E<gt>,E<lt>define2E<gt>,...] E<lt>file/folderE<gt> E<lt>target directoryE<gt>>"
-msgstr ""
+msgstr "B<--preprocess, -p[=E<lt>дефиниција-1E<gt>,E<lt>дефиниција-2E<gt>,...] E<lt>датотека/директоријум<gt> E<lt>циљни директоријумE<gt>>"
 
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:172
 msgid "preprocesses a specified file/folder. The file(s) will be written in specified target directory: a plain cfg file and a processed cfg file. If a folder is specified, it will be preprocessed recursively based on the known preprocessor rules. The common macroses from the data/core/macros will be preprocessed before the specified resources.  B<define1,define2,...> - the extra defines will be added before processing the files. If you want to add them you must add the '=' character before.  If 'SKIP_CORE' is in the define list the data/core won't be preprocessed.  Example: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> or B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>"
-msgstr ""
+msgstr "предобрађује задату датотеку или директоријум. У задати циљни директоријум биће уписане датотеке обичне поставе и обрађене основе. Ако се зада директоријум, биће предобрађен рекурзивно на основу познатих правила предобрађивача. Заједнички макрои из data/core/macros/ биће предобрађени пре задатих ресурса. B<дефиниција-1,дефиниција-2,...> су додатне дефиниције које се додају пре обрађивања датотека. Ако желите да их додате морате пре њих унети знак ‘=’. Ако се у списку дефиниција налази ‘SKIP_CORE’, data/core/ неће бити предобрађен. Пример: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> или B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>."
 
 #. type: TP
 #. +> devel
 #: ../../doc/man/wesnoth.6:172
 #, no-wrap
 msgid "B<--preprocess-input-macros E<lt>source fileE<gt>>"
-msgstr ""
+msgstr "B<--preprocess-input-macros E<lt>изворна-датотекаE<gt>>"
 
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:176
 msgid "used only by the '--preprocess' command.  Specifies a file that contains [preproc_define]s to be included before preprocessing."
-msgstr ""
+msgstr "(само уз опцију ‘--preprocess’) задаје датотеку која садржи дефиниције [preproc_define] за укључивање при предобради."
 
 #. type: TP
 #. +> devel
 #: ../../doc/man/wesnoth.6:176
 #, no-wrap
 msgid "B<--preprocess-output-macros [E<lt>target fileE<gt>]>"
-msgstr ""
+msgstr "B<--preprocess-output-macros [E<lt>циљна датотекаE<gt>]>"
 
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:182
 msgid "used only by the '--preprocess' command.  Will output all preprocessed macros in the target file. If the file is not specified the output will be file '_MACROS_.cfg' in the target directory of preprocess's command.  This switch should be typed before the --preprocess command."
-msgstr ""
+msgstr "(само уз опцију ‘--preprocess’) исписује све предобрађене макрое из циљне датотеке. Ако се датотека не зада, испис ће бити у датотеку ‘_MACROS_.cfg’ у циљном директоријуму из опције ‘--preprocess’. Ову опцију треба навести пре ‘--preprocess’."
 
 #. type: TP
 #. +> devel
@@ -476,13 +469,13 @@ msgstr "повезује се са домаћином ако је задат, и
 #: ../../doc/man/wesnoth.6:190
 #, no-wrap
 msgid "B<--strict-validation>"
-msgstr ""
+msgstr "B<--strict-validation>"
 
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:193
 msgid "validation errors are treated as fatal errors."
-msgstr ""
+msgstr "грешке оверавања сматрају се кобним грешкама."
 
 #. type: TP
 #. +> devel
@@ -746,10 +739,8 @@ msgstr "АУТОРСКА ПРАВА"
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:290 ../../doc/man/wesnothd.6:280
-#, fuzzy
-#| msgid "Copyright \\(co 2003-2009 David White E<lt>davidnwhite@verizon.netE<gt>"
 msgid "Copyright \\(co 2003-2011 David White E<lt>davidnwhite@verizon.netE<gt>"
-msgstr "Ауторска права \\(co 2003-2009 Дејвид Вајт (David White) E<lt>davidnwhite@verizon.netE<gt>."
+msgstr "Ауторска права \\(co 2003–2011 Дејвид Вајт (David White) E<lt>davidnwhite@verizon.netE<gt>."
 
 #. type: Plain text
 #. +> devel
@@ -767,10 +758,8 @@ msgstr "ПОГЛЕДАТИ ЈОШ"
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnoth.6:296
-#, fuzzy
-#| msgid "wesnothd"
 msgid "B<wesnothd>(6)."
-msgstr "wesnothd"
+msgstr "B<wesnothd>(6)."
 
 #. type: TH
 #. +> devel
@@ -1002,7 +991,7 @@ msgstr "B<compress_stored_rooms>"
 #. +> devel
 #: ../../doc/man/wesnothd.6:121
 msgid "Determines whether the rooms file should be read and written to in compressed form. Defaults to B<yes>."
-msgstr "одређује да ли фајл соба треба читати и писати у компресованом облику. Подразум›ијевано B<yes>."
+msgstr "одређује да ли датотеку соба треба читати и писати у компресованом облику. Подразум›ијевано B<yes>."
 
 #. type: TP
 #. +> devel
@@ -1145,7 +1134,7 @@ msgstr "B<room_save_file>"
 #. +> devel
 #: ../../doc/man/wesnothd.6:159
 msgid "Path to a file where the room info should be stored. This file is read on server startup and written to later. If empty or not set, rooms are not loaded and not saved."
-msgstr "путања до фајла гд›је се складиште подаци собе. Овај фајл чита сервер при покретању, и касније уписује. Ако је празно или није задато, собе се не учитавају нити уписују."
+msgstr "путања до датотеке гд›је се складиште подаци собе. Ову датотеку чита сервер при покретању, и касније уписује. Ако је празно или није задато, собе се не учитавају нити уписују."
 
 #. type: TP
 #. +> devel
@@ -1465,7 +1454,5 @@ msgstr "Написао Дејвид Вајт (David White) E<lt>davidnwhite@veri
 #. type: Plain text
 #. +> devel
 #: ../../doc/man/wesnothd.6:286
-#, fuzzy
-#| msgid "wesnoth"
 msgid "B<wesnoth>(6)."
-msgstr "wesnoth"
+msgstr "B<wesnoth>(6)."

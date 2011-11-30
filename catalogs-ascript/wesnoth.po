@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2011-11-28 00:58+0100\n"
+"PO-Revision-Date: 2011-11-30 16:10+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -5272,11 +5272,13 @@ msgstr ""
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-09-10 14:16:50+0200 | 1
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
 #| msgid ""
 #| "Lawful units fight better during the day, and worse at night.\n"
 #| "\n"
 #| "Day: +25% Damage\n"
 #| "Night: -25% Damage|~\n"
+#| "|~x\n"
 #| "|~x\n"
 #| "|~x"
 msgid ""
@@ -5293,16 +5295,22 @@ msgstr ""
 "Законите јединице боље се боре дању, а лошије ноћу.\n"
 "\n"
 "дању: +25% штете\n"
-"ноћу: –25% штете|~"
+"ноћу: –25% штете|~\n"
+"Законите јединице боље се боре дању, а лошије ноћу.\n"
+"\n"
+"дању: +25% штете\n"
+"ноћу: −25% штете|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-09-10 14:16:50+0200 | 1
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
 #| msgid ""
 #| "Chaotic units fight better at night, and worse during the day.\n"
 #| "\n"
 #| "Day: -25% Damage\n"
 #| "Night: +25% Damage|~\n"
+#| "|~x\n"
 #| "|~x\n"
 #| "|~x"
 msgid ""
@@ -5319,6 +5327,10 @@ msgstr ""
 "Хаотичне јединице боље се боре ноћу, а лошије дању.\n"
 "\n"
 "дању: –25% штете\n"
+"ноћу: +25% штете|~\n"
+"Хаотичне јединице боље се боре ноћу, а лошије дању.\n"
+"\n"
+"дању: −25% штете\n"
 "ноћу: +25% штете|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
@@ -6872,11 +6884,13 @@ msgstr ""
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
 #| msgid ""
 #| "Lawful units fight better during the day, and worse at night.\n"
 #| "\n"
 #| "Day: +25% Damage\n"
 #| "Night: −25% Damage|~\n"
+#| "|~x\n"
 #| "|~x"
 msgid ""
 "Liminal units only reach their full strength during twilight.\n"
@@ -6891,7 +6905,11 @@ msgstr ""
 "Двојствене јединице достижу своју пуну снагу тек око сумрака.\n"
 "\n"
 "дању: –25% штете\n"
-"ноћу: –25% штете|~"
+"ноћу: –25% штете|~\n"
+"Двојствене јединице достижу своју пуну снагу тек око сумрака.\n"
+"\n"
+"дању: −25% штете\n"
+"ноћу: −25% штете|~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
@@ -7668,8 +7686,11 @@ msgid "[turn]"
 msgstr "[потез]|~"
 
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
 msgid "Change turn limit, or turn the turn limit off if no number is specified or it’s −1."
-msgstr "Мења ограничење потеза, или га искључује ако се не зада број или се зада -1.|~"
+msgstr ""
+"Мења ограничење потеза, или га искључује ако се не зада број или се зада -1.|~\n"
+"Мења ограничење потеза, или га искључује ако се не зада број или се зада −1.|~"
 
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "[limit]"
