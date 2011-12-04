@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-httt\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2011-11-28 00:56+0100\n"
-"PO-Revision-Date: 2011-09-10 14:17+0200\n"
+"PO-Revision-Date: 2011-12-04 17:45+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -73,10 +73,8 @@ msgstr "заточник"
 #. [campaign]: id=Heir_To_The_Throne
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/_main.cfg:21
-#, fuzzy
-#| msgid "(Novice level, 25 scenarios.)"
 msgid "(Novice level, 23 scenarios.)"
-msgstr "(Почетнички ниво, 25 сценарија.)"
+msgstr "(Почетнички ниво, 23 сценарија.)"
 
 #. [campaign]: id=Heir_To_The_Throne
 #. +> devel
@@ -463,16 +461,12 @@ msgstr "Вилењаци ће се борити. Можда чак и одоле
 #. [message]: speaker=Chantal
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/01_The_Elves_Besieged.cfg:352
-#, fuzzy
-#| msgid "Good luck, Konrad! Don't worry about us, we will fight as best we can!"
 msgid "Good luck, Konrad! Don’t worry about us, we will fight as best we can!"
 msgstr "Са срећом, Конраде! Не брини за нас, борићемо се најбоље што знамо!"
 
 #. [message]: speaker=unit
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/01_The_Elves_Besieged.cfg:368
-#, fuzzy
-#| msgid "I... I don't think I can make it anymore."
 msgid "I... I don’t think I can make it anymore."
 msgstr "Мислим... мислим да не могу даље."
 
@@ -498,8 +492,6 @@ msgstr "Не... не изврших своју дужност да заштит�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/01_The_Elves_Besieged.cfg:394
-#, fuzzy
-#| msgid "Don't die, Delfador! Please, you have to stay alive!"
 msgid "Don’t die, Delfador! Please, you have to stay alive!"
 msgstr "Не умири, Делфадоре! Преклињем те, мораш остати жив!"
 
@@ -566,8 +558,6 @@ msgstr "Не см›ијемо се освртати. Морамо брзо на
 #. [scenario]: id=02_Blackwater_Port
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/02_Blackwater_Port.cfg:4
-#, fuzzy
-#| msgid "Blackwater Port"
 msgctxt "scenario name"
 msgid "Blackwater Port"
 msgstr "Лука Црноморска"
@@ -584,7 +574,7 @@ msgstr "Одупреш ли се док потези не истекну"
 #: data/campaigns/Heir_To_The_Throne/scenarios/02_Blackwater_Port.cfg:25
 #: data/campaigns/Heir_To_The_Throne/scenarios/05b_Isle_of_the_Damned.cfg:25
 msgid "(special bonus)"
-msgstr ""
+msgstr "(посебан бонус)"
 
 #. [objective]: condition=win
 #. +> devel
@@ -804,8 +794,6 @@ msgstr "Појачања стигоше, али видите ово! Наши с
 #. [message]: speaker=Kaylan
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/02_Blackwater_Port.cfg:451
-#, fuzzy
-#| msgid "You have risked your life to defend our city. In return, I place one of my city's finest defenders in your service. Simyr, step forward. I place your lance in the service of young prince Konrad here. May you help him restore order to the country."
 msgid "You have risked your life to defend our city. In return, I place one of my city’s finest defenders in your service. Simyr, step forward. I place your lance in the service of young prince Konrad here. May you help him restore order to the country."
 msgstr "Ризиковали сте своје животе у одбрану нашег града. Заузврат, дајем вам на запов›иједање понајбоље међу нашим градским браниоцима. Симире, иступи. Стављам твоје бојно копље у службу младог принца Конрада овд›је. Нађи му се при руци док буде враћао ред у земљу."
 
@@ -855,8 +843,6 @@ msgstr "Острво Алдујина"
 #. [side]: type=Orcish Warrior, id=Usadar Q'kai
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/03_The_Isle_of_Alduin.cfg:67
-#, fuzzy
-#| msgid "Usadar Q'kai"
 msgid "Usadar Q’kai"
 msgstr "Усадар Квикаји"
 
@@ -982,8 +968,6 @@ msgstr "Преузела је управу над Бисерним заливо�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/03_The_Isle_of_Alduin.cfg:314
-#, fuzzy
-#| msgid "Can't we strike back at her? How many forces does she have at the Bay of Pearls? Can we take it back from her?"
 msgid "Can’t we strike back at her? How many forces does she have at the Bay of Pearls? Can we take it back from her?"
 msgstr "Зар јој не можемо узвратити? Колика је њена војска у Бисерном заливу? Можемо ли јој га истргнути из стиска?"
 
@@ -1002,10 +986,8 @@ msgstr "Бисерни залив"
 #. [objective]: condition=win
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:19
-#, fuzzy
-#| msgid "Defeat one enemy leader, and resist the other until time expires"
 msgid "Defeat one enemy leader, and resist the other until turns run out"
-msgstr "Поразиш ли једног непријатељског вођа, и одупреш се другом док вр›ијеме не истекне"
+msgstr "Поразиш ли једног непријатељског вођа и одупреш се другом док потези не истекну"
 
 #. [objective]: condition=win
 #. +> devel
@@ -1023,7 +1005,7 @@ msgstr "Поразиш ли све непријатељске вође"
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:32
 msgid "Turns run out with both enemy leaders standing"
-msgstr ""
+msgstr "Истекну ли потези а оба непријатељска вођа још су жива"
 
 # |, no-check-spell
 #. [side]: type=Orcish Warrior, id=Dwaba-Kukai
@@ -1036,8 +1018,6 @@ msgstr "Дваба-Кукаји"
 #. [side]: type=Orcish Warrior, id=Managa'Gwin
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:81
-#, fuzzy
-#| msgid "Managa'Gwin"
 msgid "Managa’Gwin"
 msgstr "Манага Гвин"
 
@@ -1103,8 +1083,6 @@ msgstr "Али оркови су најмоћнија раса у ц›ијел�
 #. [message]: speaker=Dwaba-Kukai
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:255
-#, fuzzy
-#| msgid "Shut up, worm! I'm the boss!"
 msgid "Shut up, worm! I’m the boss!"
 msgstr "Умукни, црве! Ја сам овд›је главни!"
 
@@ -1319,8 +1297,6 @@ msgstr "Од сада можеш најмити племенити морејс�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:710
-#, fuzzy
-#| msgid "Now where is Delfador? I hope he's safe!"
 msgid "Now where is Delfador? I hope he’s safe!"
 msgstr "Па гд›је је онда Делфадор? Надам се да је безб›један!"
 
@@ -1357,8 +1333,6 @@ msgstr "Мораш повести нашу војску ка граду, и по
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:745
-#, fuzzy
-#| msgid "I must do that? But what about you, Delfador? You're coming with me, right?"
 msgid "I must do that? But what about you, Delfador? You’re coming with me, right?"
 msgstr "Ја морам то учинити? А шта је с тобом, Делфадоре? Ти исто крећеш са мном, зар не?"
 
@@ -1371,8 +1345,6 @@ msgstr "Бојим се да не, Конраде. Наиђох на неке в
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:755
-#, fuzzy
-#| msgid "But Delfador! I can't do it on my own!"
 msgid "But Delfador! I can’t do it on my own!"
 msgstr "Али Делфадоре! Та не могу то сам извести!"
 
@@ -1451,8 +1423,6 @@ msgstr "Доносим лоше в›ијести. Ашевира је поди�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:865
-#, fuzzy
-#| msgid "I must do this? But you are coming with me, aren't you, Delfador?"
 msgid "I must do this? But you are coming with me, aren’t you, Delfador?"
 msgstr "Ја то морам учинити? Али ти полазиш са мном, зар не, Делфадоре?"
 
@@ -1483,8 +1453,6 @@ msgstr "Пошто оркови контролишу мора, не би бил�
 #. [scenario]: id=05a_Muff_Malals_Peninsula
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/05a_Muff_Malal_Peninsula.cfg:4
-#, fuzzy
-#| msgid "Muff Malal's Peninsula"
 msgid "Muff Malal’s Peninsula"
 msgstr "Полуострво мафа Малала"
 
@@ -1497,10 +1465,8 @@ msgstr "Поб›јегнеш ли низ пут ка Еленсефару"
 #. [objective]: condition=win
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/05a_Muff_Malal_Peninsula.cfg:26
-#, fuzzy
-#| msgid "Muff Malal"
 msgid "Defeat Muff Malal"
-msgstr "маф Малал"
+msgstr "Поразиш ли мафа Малала"
 
 #. [side]: type=Dark Sorcerer, id=Muff Malal
 #. +> devel
@@ -1671,8 +1637,6 @@ msgstr "Чули смо само најгоре ствари о овом ост�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/05b_Isle_of_the_Damned.cfg:173
-#, fuzzy
-#| msgid "Let's hope these rumors are not true! I have none of my men or gold with me! How could I defend myself?"
 msgid "Let’s hope these rumors are not true! I have none of my men or gold with me! How could I defend myself?"
 msgstr "Надајмо се да те гласине нису истините! Нико од мојих људи није крај мене, а ни злата немам! Како бих се могао одбранити?"
 
@@ -1800,8 +1764,6 @@ msgstr "Хвала небесима да смо вас нашли, господ�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/05b_Isle_of_the_Damned.cfg:500
-#, fuzzy
-#| msgid "It's a shame complete victory could not be ours, but thank goodness I am rescued! On to Elensefar!"
 msgid "It’s a shame complete victory could not be ours, but thank goodness I am rescued! On to Elensefar!"
 msgstr "Велика је штета што потпуна поб›једа није могла бити наша, али хвала небесима што сам бар спасен! Напр›ијед ка Еленсефару!"
 
@@ -1945,8 +1907,6 @@ msgstr "А тако, лопови? Ко тврди да вам таквима м
 #. [message]: speaker=Gamlel
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:272
-#, fuzzy
-#| msgid "We would understand if you didn't trust us, of course, but it is in our mutual interest to rid the city of the orcs!"
 msgid "We would understand if you didn’t trust us, of course, but it is in our mutual interest to rid the city of the orcs!"
 msgstr "Разум›ијемо ако нам нећете в›јеровати, дабоме, али је у нашем заједничком интересу да избавимо град од оркова!"
 
@@ -1989,8 +1949,6 @@ msgstr "Помозите нам да продремо у град. Ми ћемо
 #. [message]: speaker=Reglok
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:298
-#, fuzzy
-#| msgid "Excellent. Two hours past midnight meet us on the west bank of the river, across from Elensefar's docks."
 msgid "Excellent. Two hours past midnight meet us on the west bank of the river, across from Elensefar’s docks."
 msgstr "Изврсно. У два часа по поноћи, сретнимо се на западној обали р›ијеке, с ону страну Еленсефаровог пристаништа."
 
@@ -2003,16 +1961,12 @@ msgstr "Желим да појачате наше редове када се ј�
 #. [message]: speaker=Reglok
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:315
-#, fuzzy
-#| msgid "Very well. When you raise your red banner over any building in the city proper, we will see the sign and attack from the city's northern gate."
 msgid "Very well. When you raise your red banner over any building in the city proper, we will see the sign and attack from the city’s northern gate."
 msgstr "Врло добро. Када истакнете свој црвени барјак над било којом зградом у ужем д›ијелу града, то ће нам бити знак да нападнемо кроз с›јеверну градску капију."
 
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:319
-#, fuzzy
-#| msgid "Agreed. But, will you be able to see our flag if it's dark?"
 msgid "Agreed. But, will you be able to see our flag if it’s dark?"
 msgstr "Договорено. Али, како ћете моћи да видите нашу заставу у мраку?"
 
@@ -2044,24 +1998,18 @@ msgstr "Дарглен"
 #. [message]: speaker=Reglok
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:405
-#, fuzzy
-#| msgid "Let's expel these invaders! Today, the city is ours again!"
 msgid "Let’s expel these invaders! Today, the city is ours again!"
 msgstr "Ист›јерајмо сада ове уљезе! Данас, град ће поново бити наш!"
 
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:439
-#, fuzzy
-#| msgid "On the banks of Elensefar's port district, three shadowy figures appeared."
 msgid "On the banks of Elensefar’s port district, three shadowy figures appeared."
 msgstr "На обалама Еленсефаровог пристанишног округа, појавише се три мутне прилике."
 
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:444
-#, fuzzy
-#| msgid "To Konrad's surprise, they quickly made their way across the river's mouth. The turbulent waters hid a nearly invisible ford, wide enough for two soldiers to march shoulder-to-shoulder."
 msgid "To Konrad’s surprise, they quickly made their way across the river’s mouth. The turbulent waters hid a nearly invisible ford, wide enough for two soldiers to march shoulder-to-shoulder."
 msgstr "На Конрадово изненађење, прилике брзо прегазише преко уста р›ијеке. Зап›јенушана вода скривала је готово невидљив плићак, довољно широк да два војника корачају један поред другог."
 
@@ -2110,8 +2058,6 @@ msgstr "Делфадоре! Тако је добро вид›јети те! К�
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:571
-#, fuzzy
-#| msgid "I have been meeting with the Ka'lian, the Great Council of the Elves. This is Kalenz, a great lord of the Northern Elves who came to the Council to offer us the support of his people."
 msgid "I have been meeting with the Ka’lian, the Great Council of the Elves. This is Kalenz, a great lord of the Northern Elves who came to the Council to offer us the support of his people."
 msgstr "Састанчио сам са Калијаном, великим вилењачким в›ијећем. Ово је Каленз, велики господар с›јеверњачких вилењака, који дође на В›ијеће да нам понуди подршку својих сународника."
 
@@ -2124,32 +2070,24 @@ msgstr "Поздрав, пријатељу."
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:585
-#, fuzzy
-#| msgid "Delfador, we have captured this city, but surely Asheviere's men will come and attack us! What should we do?"
 msgid "Delfador, we have captured this city, but surely Asheviere’s men will come and attack us! What should we do?"
 msgstr "Делфадоре, заузели смо град, али ће Ашевирине снаге сигурно поново пристићи и ударити! Шта нам је чинити?"
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:590
-#, fuzzy
-#| msgid "The Ka'lian has met and decided: we must capture the Scepter of Fire."
 msgid "The Ka’lian has met and decided: we must capture the Sceptre of Fire."
 msgstr "Калијан је в›ијећао и одлучио овако: морамо заробити Ватрено жезло."
 
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:595
-#, fuzzy
-#| msgid "The Scepter of Fire? What's that?"
 msgid "The Sceptre of Fire? What’s that?"
 msgstr "Ватрено жезло? Шта је то?"
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:600
-#, fuzzy
-#| msgid "The Scepter of Fire is the most ancient artifact of the realm of Wesnoth. It was forged by the dwarves of Knalga at the request of King Haldric II. It took their finest smiths years to make it, but soon after it was completed, the makers were chased underground, attacked by the elves. None know exactly what occurred, but the Scepter was lost somewhere in the great caverns. Years have passed, and the fortunes of the dwarves have waxed and waned, but the Scepter has never been found."
 msgid "The Sceptre of Fire is the most ancient artifact of the realm of Wesnoth. It was forged by the dwarves of Knalga at the request of King Haldric II. It took their finest smiths years to make it, but soon after it was completed, the makers were chased underground, attacked by the elves. None know exactly what occurred, but the Sceptre was lost somewhere in the great caverns. Years have passed, and the fortunes of the dwarves have waxed and waned, but the Sceptre has never been found."
 msgstr "Ватрено жезло је најдревнија рукотворина у царству Веснота. Исковаше га кналгански патуљци на молбу краља Халдрика Другог, за шта су њиховим најв›јештијим ковачима требале године. Убрзо пошто је сачињено, на његове творце ударише вилењаци и прогнаше их у подземље. Нико не зна шта се ту збило, али Жезло би изгубљено негд›је у великим пећинама. Године су пролазиле, судбину патуљака пратиле плиме и осеке, али Жезло отада не би пронађено."
 
@@ -2162,8 +2100,6 @@ msgstr "Али како се то нас тиче?"
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:610
-#, fuzzy
-#| msgid "When Garard II, your uncle, was deciding upon a successor, he issued an edict that whichever member of the royal family could retrieve the Scepter of Fire would rule the land."
 msgid "When Garard II, your uncle, was deciding upon a successor, he issued an edict that whichever member of the royal family could retrieve the Sceptre of Fire would rule the land."
 msgstr "Када је Гарард Други, твој стриц, одлучивао о насл›иједнику, издао је проглас да ће онај члан краљевске породице који нађе Ватрено жезло, бити тај који ће владати земљом."
 
@@ -2182,8 +2118,6 @@ msgstr "Ми ћемо вам помоћи да га повратите, госп
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:625
-#, fuzzy
-#| msgid "Time is short. We think that Asheviere is also searching for the Scepter, to help seal her place as ruler. But if you find the Scepter first, the people will support you as the king."
 msgid "Time is short. We think that Asheviere is also searching for the Sceptre, to help seal her place as ruler. But if you find the Sceptre first, the people will support you as the king."
 msgstr "Времена немамо. Сматрамо да и Ашевира трага за жезлом, да запечати своје м›јесто на пр›ијестолу. Али ако га ти први нађеш, народ ће те прихватити као краља."
 
@@ -2202,8 +2136,6 @@ msgstr "Да, Конраде. В›јерујем да ћеш једнога д�
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:640
-#, fuzzy
-#| msgid "We cannot go to Wesmere, for Asheviere's orcs have the approaches ringed about with steel; Kalenz and I barely escaped, and Chantal cannot get out. Until we are stronger, we must go where the orcs are not."
 msgid "We cannot go to Wesmere, for Asheviere’s orcs have the approaches ringed about with steel; Kalenz and I barely escaped, and Chantal cannot get out. Until we are stronger, we must go where the orcs are not."
 msgstr "Не можемо у Весмер, јер су Ашевирини оркови челиком препр›ијечили прилазе; Каленз и ја једва се извукосмо, а Чантал не може измаћи. Док не ојачамо, морамо онамо куда оркови неће."
 
@@ -2261,16 +2193,12 @@ msgstr "Конрад, Делфадор и Каленз хитро јахаше �
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/07_Crossroads.cfg:50
-#, fuzzy
-#| msgid "The queen's agents were still scouring the coastal regions, for news of Elensefar's rescue had not yet reached her."
 msgid "The queen’s agents were still scouring the coastal regions, for news of Elensefar’s rescue had not yet reached her."
 msgstr "Краљичине уходе још тумараше приобалним подручјима, јер в›ијест о избављењу Еленсефара још ув›ијек не допр›ије до ње."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/07_Crossroads.cfg:55
-#, fuzzy
-#| msgid "Small as it was, Konrad's army avoided the notice of hostile eyes in the sparsely populated western countryside for a time. However, their luck did not hold."
 msgid "Small as it was, Konrad’s army avoided the notice of hostile eyes in the sparsely populated western countryside for a time. However, their luck did not hold."
 msgstr "Мала каква је била, Конрадова војска неко вр›ијеме б›јеше тешко уочљива у р›ијетко насељеним западним пред›јелима. Али, та им се срећа не одржа задуго."
 
@@ -2296,8 +2224,6 @@ msgstr "Ево нас код великог раскршћа. Требало б�
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/07_Crossroads.cfg:226
-#, fuzzy
-#| msgid "Beware! These hills are not safe! The roads are important to Asheviere's strategy, and she has hired orcs to guard them. We shall have to fight to travel through."
 msgid "Beware! These hills are not safe! The roads are important to Asheviere’s strategy, and she has hired orcs to guard them. We shall have to fight to travel through."
 msgstr "Опрезно! Ова брда нису безб›једна! Путеви су важни за Ашевирине напоре, и унајмила је орке да их чувају. Мораћемо да се боримо да се пробијемо туда."
 
@@ -2336,10 +2262,6 @@ msgstr "Пазите се брда! Многи оркови су у скрови
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/07_Crossroads.cfg:510
-#, fuzzy
-#| msgid ""
-#| "NE - Dan'Tonk\n"
-#| "SE - Fort Tahn"
 msgid ""
 "NE — Dan’Tonk\n"
 "SE — Fort Tahn"
@@ -2350,16 +2272,12 @@ msgstr ""
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/07_Crossroads.cfg:515
-#, fuzzy
-#| msgid "Dan'Tonk, we are so close to Weldyn."
 msgid "Dan’Tonk, we are so close to Weldyn."
 msgstr "Дан Тонк, тако смо близу Велдину."
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/07_Crossroads.cfg:519
-#, fuzzy
-#| msgid "We dare not confront Asheviere yet. We must retrieve the Scepter of Fire and gather more allies in the north."
 msgid "We dare not confront Asheviere yet. We must retrieve the Sceptre of Fire and gather more allies in the north."
 msgstr "Још ув›ијек се не см›ијемо усудити на сукоб са Ашевиром. Морамо наћи Ватрено жезло и сакупити још савезника на с›јеверу."
 
@@ -2378,10 +2296,8 @@ msgstr "Принцеза Веснота"
 #. [objective]: condition=win
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:20
-#, fuzzy
-#| msgid "Force Li'sar's surrender (reduce her hitpoints to 0 or lower)"
 msgid "Force Li’sar’s surrender (reduce her hitpoints to 0 or lower)"
-msgstr "Присилиш ли Лиза́ру на предају (смањивши јој ударпоене на 0 или ниже)"
+msgstr "Примораш ли Лиза́ру на предају (смањивши јој ударпоене на 0 или ниже)"
 
 #. [part]
 #. +> devel
@@ -2398,8 +2314,6 @@ msgstr "...и она послаше свог најспособнијег зап
 #. [label]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:60
-#, fuzzy
-#| msgid "Elmar's Crossing"
 msgid "Elmar’s Crossing"
 msgstr "Елмарово раскршће"
 
@@ -2419,7 +2333,7 @@ msgstr "Елбриџ"
 #: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:89
 #: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:396
 msgid "Li’sar"
-msgstr ""
+msgstr "Лиза́ра"
 
 #. [side]: type=Orcish Warlord, id=Haliel-Maga
 #. [side]: type=General, id=Heford
@@ -2462,16 +2376,12 @@ msgstr "Краљица ме отпосла да те зауставим, сам�
 #. [message]: role=Advisor
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:172
-#, fuzzy
-#| msgid "That's the princess, Li'sar. The daughter of the Queen, and her successor!"
 msgid "That’s the princess, Li’sar. The daughter of the Queen, and her successor!"
 msgstr "То је принцеза, Лиза́ра. Краљичина кћер, и њена насл›иједница!"
 
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:176
-#, fuzzy
-#| msgid "I'm no impostor. It seems that your mother has lied to you."
 msgid "I’m no impostor. It seems that your mother has lied to you."
 msgstr "Нисам ја самозванац. Изгледа да те је мајка слагала."
 
@@ -2502,16 +2412,12 @@ msgstr "Можда не употр›ијебих довољну силу..."
 #. [message]: speaker=unit
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:219
-#, fuzzy
-#| msgid "I surrender! Don't hurt me, impostor."
 msgid "I surrender! Don’t hurt me, impostor."
 msgstr "Предајем се! Немој ме повр›иједити, самозванче."
 
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:223
-#, fuzzy
-#| msgid "I said before I'm not an impostor, but if you yield, I will spare your life."
 msgid "I said before I’m not an impostor, but if you yield, I will spare your life."
 msgstr "Већ рекох да самозванац нисам, али ако се покориш, поштед›јећу ти живот."
 
@@ -2536,8 +2442,6 @@ msgstr "Стари краљ? Чула сам за то, али знам да н�
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:239
-#, fuzzy
-#| msgid "Your mother has lied to you, child. Now I suggest you reconsider, and either join us, or flee an exile. There will be a great battle soon, and if you are on the wrong side of it, we may not have the opportunity to spare your life a second time."
 msgid "Your mother has lied to you, child. Now I suggest you reconsider, and either join us, or flee as an exile. There will be a great battle soon, and if you are on the wrong side of it, we may not have the opportunity to spare your life a second time."
 msgstr "Мајка те је слагала, д›ијете. Предлажем ти да добро размислиш: или нам се придружи, или ти сл›иједи изгнанство. Ускоро ће се догодити велика битка, и будеш ли на погрешној страни у њој, можда нећемо бити у прилици да ти поново поштедимо живот."
 
@@ -2562,8 +2466,6 @@ msgstr "(Ха, ха, нису ни св›јесни колико немртви
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:310
-#, fuzzy
-#| msgid "I see that your forces draw near, impostor! I'll not be defeated in my own backyard so easily... Come forth and attack, my loyal duelist!"
 msgid "I see that your forces draw near, impostor! I’ll not be defeated in my own backyard so easily... Come forth and attack, my loyal duelist!"
 msgstr "Твоје снаге се приближише, самозванче! Нећете ме тако лако поразити на сопственој земљи... Иступи и нападни, мој одани изазивачу!"
 
@@ -2578,8 +2480,6 @@ msgstr "Ронри"
 #. [message]: speaker=Ronry
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:341
-#, fuzzy
-#| msgid "I'll seize their keep, my Lady!"
 msgid "I’ll seize their keep, my Lady!"
 msgstr "Узаптићу њихову кулу, моја госпо!"
 
@@ -2592,24 +2492,18 @@ msgstr "Звучи као да има нечег у рудничком окну.
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:391
-#, fuzzy
-#| msgid "You've discovered my ploy! It doesn't matter, I'll still rout you!"
 msgid "You’ve discovered my ploy! It doesn’t matter, I’ll still rout you!"
 msgstr "Откристе моју смицалицу! Не мари, свеједно ћу вас раст›јерати!"
 
 #. [message]: speaker=Ronry
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:404
-#, fuzzy
-#| msgid "The trap is foiled, but I'll still flush this rabble from their keep!"
 msgid "The trap is foiled, but I’ll still flush this rabble from their keep!"
 msgstr "Клопка је осујећена, али још ув›ијек могу избацити руљу из њихове куле!"
 
 #. [scenario]: id=09_The_Valley_of_Death
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/09_The_Valley_of_Death.cfg:4
-#, fuzzy
-#| msgid "The Valley of Death - The Princess's Revenge"
 msgid "The Valley of Death — The Princess’s Revenge"
 msgstr "Долина смрти — освета Принцезе"
 
@@ -2623,7 +2517,7 @@ msgstr "Преживиш ли два дана"
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/09_The_Valley_of_Death.cfg:24
 msgid "Eradicate the liches"
-msgstr ""
+msgstr "Истребиш ли косце"
 
 # |, no-check-spell
 #. [side]: type=Lich, id=Galga
@@ -2787,8 +2681,6 @@ msgstr "Ово ме место чини неспокојним, чак и сад
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/09_The_Valley_of_Death.cfg:432
-#, fuzzy
-#| msgid "The land of Wesnoth is not safe for us. The Queen's forces reach every corner. We must make haste to the north lands, across the Great River. Let us go quickly!"
 msgid "The land of Wesnoth is not safe for us. The Queen’s forces reach every corner. We must make haste to the north lands, across the Great River. Let us go quickly!"
 msgstr "Окрузи Веснота нам више нису наклоњени. Краљичине снаге досежу до сваког кутка. Морамо похитати у с›јеверњачке земље, преко Велике р›ијеке. Брзо и без окл›ијевања!"
 
@@ -2871,16 +2763,12 @@ msgstr "Могли бисмо покушати, али морамо бити о�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/10_Gryphon_Mountain.cfg:143
-#, fuzzy
-#| msgid "Well, let's start climbing the mountain!"
 msgid "Well, let’s start climbing the mountain!"
 msgstr "Па, почнимо са пентрањем!"
 
 #. [message]: speaker=second_unit
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/10_Gryphon_Mountain.cfg:159
-#, fuzzy
-#| msgid "Here are the mother Gryphon's eggs!"
 msgid "Here are the mother Gryphon’s eggs!"
 msgstr "Ево јаја мајке грифонке!"
 
@@ -2955,8 +2843,6 @@ msgstr "Гријак"
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/10_Gryphon_Mountain.cfg:331
-#, fuzzy
-#| msgid "Indeed, the majestic beasts were now circling the mountain's peak. Several glared in Konrad's direction, their eagle eyes fixed on him at an incredible distance."
 msgid "Indeed, the majestic beasts were now circling the mountain’s peak. Several glared in Konrad’s direction, their eagle eyes fixed on him at an incredible distance."
 msgstr "Збиља, величанствене зв›јери кружише око планинског врха. Неколико их је пиљило пут Конрада, усм›јеривши своје орловске очи на њега са нев›јероватног растојања."
 
@@ -3040,10 +2926,8 @@ msgstr "Немани"
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/11_The_Ford_of_Abez.cfg:194
-#, fuzzy
-#| msgid "This is the Ford of Abez. When we ford this river, we will be leaving Wesnoth, and entering the lands of the North. The dwarves once ruled these lands, but they are now filled only with chaos. This is where your father and uncle were betrayed, almost nineteen years ago now, Konrad."
 msgid "This is the Ford of Abez. When we ford this river, we will be leaving Wesnoth, and entering the lands of the North. The dwarves once ruled these lands, but they are now filled only with chaos. This is where your father and uncle were betrayed, almost seventeen years ago now, Konrad."
-msgstr "Ево газа Абеза. Како пр›ијеђемо р›ијеку, напустићемо Веснот и заћи у земље С›јевера. Патуљци некада владаше овим земљама, али су сада испуњене метежом. Ово је место гд›је твој отац и стриц б›ијеху издани, пр›ије скоро деветнаест година, Конраде."
+msgstr "Ево газа Абеза. Како пр›ијеђемо р›ијеку, напустићемо Веснот и заћи у земље С›јевера. Патуљци некада владаше овим земљама, али су сада испуњене метежом. Ово је место гд›је твој отац и стриц б›ијеху издани, пр›ије скоро седамнаест година, Конраде."
 
 #. [message]: speaker=Konrad
 #. +> devel
@@ -3072,8 +2956,6 @@ msgstr "Добијали смо битку, полако их одбацујућ
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/11_The_Ford_of_Abez.cfg:214
-#, fuzzy
-#| msgid "And then the king's son, in the heat of battle, turned upon the king!"
 msgid "And then the king’s son, in the heat of battle, turned upon the king!"
 msgstr "И онда се краљев син, у жару битке, окрену против краља!"
 
@@ -3134,16 +3016,12 @@ msgstr "Уз сво поштовање, господари, морамо пож�
 #. [message]: speaker=Gaga-Breuk
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/11_The_Ford_of_Abez.cfg:255
-#, fuzzy
-#| msgid "Look! Some of the southerners, men of Wesnoth, are trying to cross into our lands! We will slaughter them by the river's edge!"
 msgid "Look! Some of the southerners, men of Wesnoth, are trying to cross into our lands! We will slaughter them by the river’s edge!"
 msgstr "Гле! Неки јужњаци, људи из Веснота, покушавају да пр›ијеђу у наше земље! Све ћемо их поклати на окуци р›ијеке!"
 
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/11_The_Ford_of_Abez.cfg:259
-#, fuzzy
-#| msgid "Isn't there somewhere else we can cross? Maybe upstream?"
 msgid "Isn’t there somewhere else we can cross? Maybe upstream?"
 msgstr "Зар нема м›јеста гд›је бисмо могли прегазити? Можда узводно?"
 
@@ -3156,8 +3034,6 @@ msgstr "Зима нам се брзо приближава. Преостало �
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/11_The_Ford_of_Abez.cfg:267
-#, fuzzy
-#| msgid "There they are! So it is true, they foiled the undead. Now they are trying to leave Wesnoth. We can't let them cross the river. After them, men!"
 msgid "There they are! So it is true, they foiled the undead. Now they are trying to leave Wesnoth. We can’t let them cross the river. After them, men!"
 msgstr "Ено их! Значи истина је, изб›јегли су немртвима. А сада покушавају да напусте Веснот. Не можемо им допустити да пр›ијеђу р›ијеку. За њима, људи!"
 
@@ -3239,8 +3115,6 @@ msgstr "Не могу да пов›јерујем. Ипак су усп›је�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/11_The_Ford_of_Abez.cfg:439
-#, fuzzy
-#| msgid "Do you think she's really going to chase us, Delfador?"
 msgid "Do you think she’s really going to chase us, Delfador?"
 msgstr "Мислиш ли да ће нас она заиста гонити, Делфадоре?"
 
@@ -3265,8 +3139,6 @@ msgstr "Преко р›ијеке лежаху земље у које је ма
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/12_Northern_Winter.cfg:60
-#, fuzzy
-#| msgid "Swirling, snow-laden winds tore at Konrad's army, signaling the final exit of autumn and the onset of what would be a harsh winter."
 msgid "Swirling, snow-laden winds tore at Konrad’s army, signaling the final exit of autumn and the onset of what would be a harsh winter."
 msgstr "Ковитлајући, сн›ијегом прошарани в›јетрови кидисали су на Конрадову војску, означавајући крај јесени и почетак жестоке зиме."
 
@@ -3274,16 +3146,15 @@ msgstr "Ковитлајући, сн›ијегом прошарани в›је
 #. [side]: type=Orcish Warrior, id=Halgar Du'nar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/12_Northern_Winter.cfg:86
-#, fuzzy
-#| msgid "Halgar Du'nar"
 msgid "Halgar Du’nar"
 msgstr "Халгар Дунар"
 
+# |, no-check-spell
 #. [side]: type=Orcish Warrior, id=Gorlak
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/12_Northern_Winter.cfg:112
 msgid "Gorlak"
-msgstr ""
+msgstr "Горлак"
 
 #. [message]: speaker=Konrad
 #. +> devel
@@ -3294,8 +3165,6 @@ msgstr "Ова је зима опако хладна! Можда би треба
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/12_Northern_Winter.cfg:161
-#, fuzzy
-#| msgid "Stop and rest? My lord, we must go hard after the Scepter of Fire, lest it fall into the hands of our enemies!"
 msgid "Stop and rest? My lord, we must go hard after the Sceptre of Fire, lest it fall into the hands of our enemies!"
 msgstr "Да станемо и одморимо се? Господару, морамо се домоћи Ватреног жезла, не би ли пало шака нашим непријатељима!"
 
@@ -3314,16 +3183,12 @@ msgstr "Да, одморимо се неко вр›ијеме! Сигуран �
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/12_Northern_Winter.cfg:173
-#, fuzzy
-#| msgid "We are pursued by the forces of your arch-enemy, chasing the Scepter of Fire, the fate of the realm in our hands, and you humans want to stop and rest? Onward, I say!"
 msgid "We are pursued by the forces of your arch-enemy, chasing the Sceptre of Fire, the fate of the realm in our hands, and you humans want to stop and rest? Onward, I say!"
 msgstr "Гоне нас снаге вашег најљућег непријатеља, као што гоне и Ватрено жезло. Судбина царства је у нашим рукама, а ви људи би да станете и одмарате се? Напр›ијед, кажем ја!"
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/12_Northern_Winter.cfg:177
-#, fuzzy
-#| msgid "They are right, Kalenz. I had wanted to acquire the Scepter within a moon, but it is not to be. Our soldiers will begin to desert if they do not rest soon. But in these wild north lands, we must fight even for the right to rest. Look to the north! Those foul orcs will not allow us any peace!"
 msgid "They are right, Kalenz. I had wanted to acquire the Sceptre within a moon, but it is not to be. Our soldiers will begin to desert if they do not rest soon. But in these wild north lands, we must fight even for the right to rest. Look to the north! Those foul orcs will not allow us any peace!"
 msgstr "У праву су, Калензе. Же‹љео сам да се домогнем Жезла за не више од м›јесеца, али ми није суђено. Војници ће почети да нас напуштају ако се ускоро не окр›ијепе. Али у овим дивљим с›јеверним пред›јелима, морамо се борити чак и за право на одмор. Гледајте на с›јеверу! Ти огавни оркови нам неће дати ни тренутка предаха!"
 
@@ -3372,8 +3237,6 @@ msgstr "Конрад одреди својим врачаркама да се б
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/12_Northern_Winter.cfg:375
-#, fuzzy
-#| msgid "Konrad finally decided he could not wait until the gryphons grew to maturity - Delfador's insistence that the scepter must be recovered was too compelling. And so after many days of rest, the party set out once again for the dwarven kingdom..."
 msgid "Konrad finally decided he could not wait until the gryphons grew to maturity — Delfador’s insistence that the scepter must be recovered was too compelling. And so after many days of rest, the party set out once again for the dwarven kingdom..."
 msgstr "Конрад коначно одлучи да не може чекати да грифони довољно стасају, ус‹љед Делфадоровог истрајавања да се жезло мора што пр›ије пронаћи. И тако, посл›ије много дана одмора, дружина се поново отисну ка патуљачком краљевству..."
 
@@ -3386,8 +3249,6 @@ msgstr "У осамљеној долини, подигоше логор који
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/12_Northern_Winter.cfg:387
-#, fuzzy
-#| msgid "Eventually Delfador's insistence that the scepter must be recovered proved too compelling, even when it meant dismantling the camp without the spring having yet fully arrived. And so after many days of rest, the party set out once again for the dwarven kingdom..."
 msgid "Eventually Delfador’s insistence that the scepter must be recovered proved too compelling, even when it meant dismantling the camp without the spring having yet fully arrived. And so after many days of rest, the party set out once again for the dwarven kingdom..."
 msgstr "На концу се Делфадорово истрајавање да жезло мора бити повраћено не могаше пренебр›ијећи, чак иако је значило подизање логора пр›ије потпуног доласка про‹љећа. И тако, посл›ије много дана одмора, дружина се поново отисну ка патуљачком краљевству..."
 
@@ -3469,8 +3330,6 @@ msgstr "Робови злим орковима? Морамо их ослобод
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/13_The_Dwarven_Doors.cfg:207
-#, fuzzy
-#| msgid "That would not be a wise choice, for our mission is to retrieve the Scepter of Fire. If we tarry in this place, hordes of orcs will surround us."
 msgid "That would not be a wise choice, for our mission is to retrieve the Sceptre of Fire. If we tarry in this place, hordes of orcs will surround us."
 msgstr "То не би била мудра одлука, јер нама је задатак да пронађемо Ватрено жезло. Будемо ли одуговлачили на овом м›јесту, орковске хорде ће нас опколити."
 
@@ -3550,16 +3409,12 @@ msgstr "Ујка Сомф"
 #. [message]: speaker=unit
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/13_The_Dwarven_Doors.cfg:332
-#, fuzzy
-#| msgid "Who... who's here?"
 msgid "Who... who’s here?"
 msgstr "Ко... ко је то?"
 
 #. [message]: speaker=Uncle Somf
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/13_The_Dwarven_Doors.cfg:347
-#, fuzzy
-#| msgid "$outlaw_name|! How have you been? I haven't seen you in years."
 msgid "$outlaw_name|! How have you been? I haven’t seen you in years."
 msgstr "$outlaw_name|! Шта си ми радио? Не вид›јех те већ годинама."
 
@@ -3632,8 +3487,6 @@ msgstr "Врата су затворене и замандаљена изнут�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/13_The_Dwarven_Doors.cfg:471
-#, fuzzy
-#| msgid "We can't get in! What should we do now?"
 msgid "We can’t get in! What should we do now?"
 msgstr "Не можемо унутра! Шта нам је сада чинити?"
 
@@ -3732,8 +3585,6 @@ msgstr "Предање је истинито! Стално причају о с�
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/13_The_Dwarven_Doors.cfg:658
-#, fuzzy
-#| msgid "But Konrad's party was not alone in entering the caves..."
 msgid "But Konrad’s party was not alone in entering the caves..."
 msgstr "Али Конрадова дружина није једина зарањала у пећине..."
 
@@ -3771,8 +3622,6 @@ msgstr "Релгорн"
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:259
-#, fuzzy
-#| msgid "It's so dark in here I can hardly see!"
 msgid "It’s so dark in here I can hardly see!"
 msgstr "Тако је мрачно, да једва ишта видим!"
 
@@ -3845,32 +3694,24 @@ msgstr "Па, ми... ми..."
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:354
-#, fuzzy
-#| msgid "We have come so that an heir may claim his inheritance, that a king may claim his throne. We seek the Scepter of Fire."
 msgid "We have come so that an heir may claim his inheritance, that a king may claim his throne. We seek the Sceptre of Fire."
 msgstr "Дођосмо да би данас престолонасл›иједник могао да потражи своје насл›иједство, да би сутра краљ могао да затражи свој пр›ијесто. Трагамо за Ватреним жезлом."
 
 #. [message]: speaker=Relgorn
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:359
-#, fuzzy
-#| msgid "The Scepter of Fire? Are you out of your minds? Surely you speak in jest!"
 msgid "The Sceptre of Fire? Are you out of your minds? Surely you speak in jest!"
 msgstr "Ватрено жезло? Јесте ли ви сишли с ума? Сигурно нам се подсм›ијевате!"
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:364
-#, fuzzy
-#| msgid "We jest not, friend. We seek the Scepter of Fire. We seek the help of the dwarves in finding it. But know that we will find it, whether you help us or not."
 msgid "We jest not, friend. We seek the Sceptre of Fire. We seek the help of the dwarves in finding it. But know that we will find it, whether you help us or not."
 msgstr "Не подсм›ијевамо се, пријатељу. Тражимо Ватрено жезло. Тражимо помоћ патуљака да га нађемо. Али знамо да ћемо га пронаћи, помогли нам ви или не."
 
 #. [message]: speaker=Relgorn
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:369
-#, fuzzy
-#| msgid "You speak foolishness. No one even knows if the Scepter of Fire still exists. And who is this heir, this king that you speak of?"
 msgid "You speak foolishness. No one even knows if the Sceptre of Fire still exists. And who is this heir, this king that you speak of?"
 msgstr "Причаш будалаштине. Нико чак није сигуран да Жезло уопште постоји. И ко је тај престолонасл›иједник, тај будући краљ о коме причаш?"
 
@@ -3883,8 +3724,6 @@ msgstr "Ја сам, господине."
 #. [message]: speaker=Relgorn
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:379
-#, fuzzy
-#| msgid "You? Ha ha! This boy that stands before me is the king of Wesnoth? Ha ha! I haven't had such a laugh in a long time. And who are you, old man?"
 msgid "You? Ha ha! This boy that stands before me is the king of Wesnoth? Ha ha! I haven’t had such a laugh in a long time. And who are you, old man?"
 msgstr "Ти? Ха, ха! Д›јечак што стоји преда мном треба да буде краљ Веснота? Ха, ха! Дуго нисам чуо ништа см›јешније. Ако си па ти, старче?"
 
@@ -3921,24 +3760,18 @@ msgstr "Мислили су да сам мртав. Надали су се да 
 #. [message]: speaker=Relgorn
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:434
-#, fuzzy
-#| msgid "And you really think that you can find the Scepter of Fire?"
 msgid "And you really think that you can find the Sceptre of Fire?"
 msgstr "И заиста мислиш да можете наћи Ватрено жезло?"
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:439
-#, fuzzy
-#| msgid "Yes, I do. If you help us, friend, all the treasures of Knalga that we find are yours. We want only the Scepter. It will be dangerous. Make no mistake about that: dwarves will be killed, perhaps many dwarves. But surely it is better than hiding from the orcs like worms."
 msgid "Yes, I do. If you help us, friend, all the treasures of Knalga that we find are yours. We want only the Sceptre. It will be dangerous. Make no mistake about that: dwarves will be killed, perhaps many dwarves. But surely it is better than hiding from the orcs like worms."
 msgstr "Да, мислим. Помогнете ли нам, пријатељу, сва блага Кналге која пронађемо ваша су. Желимо једино Жезло. Биће опасно. Не надајте се другоме: патуљци ће страдати, можда многи међу вама. Али је и то боље него да се кријете од оркова као црви."
 
 #. [message]: speaker=Relgorn
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:444
-#, fuzzy
-#| msgid "You are right, friend. I will put my best men at your disposal. We know not where the Scepter is though. Legend says it is hidden in the eastern tunnels."
 msgid "You are right, friend. I will put my best men at your disposal. We know not where the Sceptre is though. Legend says it is hidden in the eastern tunnels."
 msgstr "У праву си, пријатељу. Даћу ти своје најбоље људе на располагање. Ипак, ми не знамо гд›је је Жезло. Предање каже да је скривено у источним тунелима."
 
@@ -3963,8 +3796,6 @@ msgstr "Жао ми је, принче Конраде. Млади грифони
 #. [message]: speaker=Relgorn
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:561
-#, fuzzy
-#| msgid "What's this? Gryphons in my castle? Remove the beasts!"
 msgid "What’s this? Gryphons in my castle? Remove the beasts!"
 msgstr "Шта је то? Грифони у мом замку? Склањајте те зв›јери!"
 
@@ -3997,8 +3828,6 @@ msgstr "Па, кад већ истрајавате са том лудачком 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:585
-#, fuzzy
-#| msgid "Temper your anger. Relgorn's manner may be rough, but surely there is nothing wrong with his suggestion?"
 msgid "Temper your anger. Relgorn’s manner may be rough, but surely there is nothing wrong with his suggestion?"
 msgstr "Обуздај свој г‹њев. Релгорново држање је можда сирово, али ваљда нема ничег лошег у његовом пр›иједлогу?"
 
@@ -4098,8 +3927,6 @@ msgstr "Бурлин"
 #. [message]: speaker=Burlin
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:164
-#, fuzzy
-#| msgid "My uncle's family drowned after the orcs flooded that cavern..."
 msgid "My uncle’s family drowned after the orcs flooded that cavern..."
 msgstr "Породица мог ујака се удавила пошто су оркови поплавили пећину..."
 
@@ -4118,8 +3945,6 @@ msgstr "Улфдајин"
 #. [message]: speaker=Ulfdain
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:218
-#, fuzzy
-#| msgid "What's this, more trolls? Aye, come to papa, little whelps."
 msgid "What’s this, more trolls? Aye, come to papa, little whelps."
 msgstr "Шта је ово, још тролова? Ако, дођите татици, штенади мала."
 
@@ -4132,8 +3957,6 @@ msgstr "Еј? Ко иде тамо?"
 #. [message]: speaker=Ulfdain
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:226
-#, fuzzy
-#| msgid "What in the world are you? Some sort o' monster's appendage set tae lure me down to be yer watery meal, eh?"
 msgid "What in the world are you? Some sort o’ monster’s appendage set tae lure me down to be yer watery meal, eh?"
 msgstr "Свега ми, шта сте ви? Некакви прив›јесци чудовишта што ме домамише овд›је доле да вам будем водњикави оброк, а?"
 
@@ -4171,8 +3994,6 @@ msgstr "Од када си овд›је?"
 #. [message]: speaker=Ulfdain
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:251
-#, fuzzy
-#| msgid "Och, several days at least. The troll meat is starting to stink, and I'm a little ravenous, if ye catch my drift. Canna' swim past that current, and no' for lack o' tryin'."
 msgid "Och, several days at least. The troll meat is starting to stink, and I’m a little ravenous, if ye catch my drift. Canna’ swim past that current, and no’ for lack o’ tryin’."
 msgstr "Та, бар неколико дана. Троловско месо почиње да заудара, а ја сам помало изгладн‹ио, ако ме пратиш. Не мош пливати преко те струје, и то не због слабог залагања."
 
@@ -4185,8 +4006,6 @@ msgstr "Спасићу те. Држи се за моја рамена, госп�
 #. [message]: speaker=Ulfdain
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:259
-#, fuzzy
-#| msgid "Thanks. Nae need to wait around here. Let's go."
 msgid "Thanks. Nae need to wait around here. Let’s go."
 msgstr "Хвала. Нема се шта овд›је чекати. Пођимо."
 
@@ -4278,8 +4097,6 @@ msgstr "Лионел? Генерал? То ми је име познато..."
 #. [message]: speaker=Lionel
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:494
-#, fuzzy
-#| msgid "Remember me, do you? Aye. I was the king's finest general, sent down to these pits to retrieve the Scepter. But the orcs trapped me and my men in this cavern, to starve to death. The dwarves were no help, leaving me to die. Now I will get revenge on you all!"
 msgid "Remember me, do you? Aye. I was the king’s finest general, sent down to these pits to retrieve the Sceptre. But the orcs trapped me and my men in this cavern, to starve to death. The dwarves were no help, leaving me to die. Now I will get revenge on you all!"
 msgstr "А с›јећаш ме се, је ли? Па да. Б‹ијах краљев најваљанији генерал, и послат у ове јаме да нађем Жезло. Али оркови заробише мене и моје људе у овој пећини, гд›је изглад‹њесмо до смрти. Патуљци не б›ијеху ни од какве помоћи, оставише ме да скапам. Сада ћу вам се свима осветити!"
 
@@ -4298,8 +4115,6 @@ msgstr "Почивај у миру, Лионеле. Јадни, изгубљен
 #. [message]: speaker=Lionel
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:521
-#, fuzzy
-#| msgid "I am destroyed, but my mission must be completed. Though you are foes, you are at least worthy ones, so I will tell you that the Scepter is east from here, the way you have come from, deep in the caverns. I made the mistake of not asking for directions when I became lost. May you have better fortune in your quest than I did!"
 msgid "I am destroyed, but my mission must be completed. Though you are foes, you are at least worthy ones, so I will tell you that the Sceptre is east from here, the way you have come from, deep in the caverns. I made the mistake of not asking for directions when I became lost. May you have better fortune in your quest than I did!"
 msgstr "Ја страдам, али моја дужност мора бити извршена. Иако сте непријатељи, барем сте достојни, па ћу вам рећи: Жезло се налази источно одавд›је, путем којим сте дошли, али дубоко у пећинама. Учиних грешку да не питах за правац пр›ије него што се изгубих. Нека вама судбина буде наклоњенија него мени!"
 
@@ -4318,16 +4133,12 @@ msgstr "Високи, захваљујем вам. Живот у пос‹љед
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:575
-#, fuzzy
-#| msgid "These caves are vast. If we are to find the Scepter of Fire we must hurry. We are not alone, and now that our foes have smelled our blood it will be worse."
 msgid "These caves are vast. If we are to find the Sceptre of Fire we must hurry. We are not alone, and now that our foes have smelled our blood it will be worse."
 msgstr "Ове су пећине бескрајне. Ако ћемо наћи Жезло, морамо пожурити. Нисмо сами, и сада када су наши непријатељи намирисали крв, биће још горе."
 
 #. [message]: speaker=Geldar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:579
-#, fuzzy
-#| msgid "The Scepter? Ah, the Scepter ye seek. You surface dwellers are ambitious. Beyond my citadel the spawn of the darkness hold complete sway. You'll no' survive without assistance."
 msgid "The Sceptre? Ah, the Sceptre ye seek. You surface dwellers are ambitious. Beyond my citadel the spawn of the darkness hold complete sway. You’ll no’ survive without assistance."
 msgstr "Жезло? А, Жезло ви тражите. Ви површњаковићи сте ув›ијек надобудни. Иза моје утврде, накоти мрака држе потпуну превласт. Нећете прежив›јети без помоћи."
 
@@ -4340,16 +4151,12 @@ msgstr "Како ћемо усп›јети?"
 #. [message]: speaker=Geldar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:587
-#, fuzzy
-#| msgid "Northeast o' my keep, young human, the tunnels converge towards the deepest reaches of the underground kingdom. The Scepter can only be there. Please accept the service of my guardsmen. These elite warriors will protect you."
 msgid "Northeast o’ my keep, young human, the tunnels converge towards the deepest reaches of the underground kingdom. The Sceptre can only be there. Please accept the service of my guardsmen. These elite warriors will protect you."
 msgstr "С›јевероисточно одавд›је, млади чов›јече, тунели се сустичу према најдубљим дохватима подземног краљевства. Жезло може бити једино тамо. Примите службу мојих бранича — то су елитни ратници, који ће вас штитити."
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:597
-#, fuzzy
-#| msgid "Your boon is most welcome, sir dwarf. Keeping the Scepter out of the hands of evil beasts is a common goal for us, and we will prevail with your help."
 msgid "Your boon is most welcome, sir dwarf. Keeping the Sceptre out of the hands of evil beasts is a common goal for us, and we will prevail with your help."
 msgstr "Твоје је доброчинство велико, господине патуљче. Да сачувамо Жезло од канџи зликовачких зв›јери, заједнички нам је циљ. Превладаћемо уз твоју помоћ."
 
@@ -4386,8 +4193,6 @@ msgstr "Збрзани савез"
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Return_to_Wesnoth.cfg:33
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Test_of_the_Clans.cfg:56
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:34
-#, fuzzy
-#| msgid "Death of Li'sar"
 msgid "Death of Li’sar"
 msgstr "Настрада ли Лиза́ра"
 
@@ -4463,8 +4268,6 @@ msgstr "Будаласто д›јевојче! У најдубљим смо п�
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:236
-#, fuzzy
-#| msgid "Don't try to trick me! I know why you have come here! But I will put an end to you and your treason here. Then I will get the Scepter, and return to the daylight again!"
 msgid "Don’t try to trick me! I know why you have come here! But I will put an end to you and your treason here. Then I will get the Sceptre, and return to the daylight again!"
 msgstr "Не покушавајте да ме преварите! Знам зашто сте дошли овамо! Али ће овд›је бити крај вашим издајствима. Ја ћу се докопати Жезла, и изн›ијети га на св›јетло дана!"
 
@@ -4501,8 +4304,6 @@ msgstr "Али када се извучемо из ове рупетине, и �
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:372
-#, fuzzy
-#| msgid "Well, we have helped each other survive so far, Princess. Now let's continue together. What do you say?"
 msgid "Well, we have helped each other survive so far, Princess. Now let’s continue together. What do you say?"
 msgstr "Па, до сада се испомогосмо да останемо живи, принцезо. Да наставимо заједно, шта кажеш?"
 
@@ -4515,8 +4316,6 @@ msgstr "Да. Договор је да помажемо једно другом�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:381
-#, fuzzy
-#| msgid "Thank you, Princess. Come, men. Let us find the Scepter!"
 msgid "Thank you, Princess. Come, men. Let us find the Sceptre!"
 msgstr "Хвала ти, принцезо. Хајдемо, људи, нађимо Жезло!"
 
@@ -4524,8 +4323,6 @@ msgstr "Хвала ти, принцезо. Хајдемо, људи, нађим�
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:426
 #: data/campaigns/Heir_To_The_Throne/utils/deaths.cfg:24
-#, fuzzy
-#| msgid "I can't believe it should end like this!"
 msgid "I can’t believe it should end like this!"
 msgstr "Не могу да пов›јерујем да се овако окончава!"
 
@@ -4534,8 +4331,6 @@ msgstr "Не могу да пов›јерујем да се овако окон
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Scepter_of_Fire.cfg:4
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Scepter_of_Fire.cfg:33
-#, fuzzy
-#| msgid "The Scepter of Fire"
 msgid "The Sceptre of Fire"
 msgstr "Ватрено жезло"
 
@@ -4554,16 +4349,12 @@ msgstr "Удаљено брујање и потреси отежаваше ус�
 #. [objective]: condition=win
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Scepter_of_Fire.cfg:62
-#, fuzzy
-#| msgid "Capture the Scepter of Fire with Konrad or Li'sar"
 msgid "Capture the Sceptre of Fire with Konrad or Li’sar"
 msgstr "Покупе ли Конрад или Лиза́ра Ватрено жезло"
 
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Scepter_of_Fire.cfg:160
-#, fuzzy
-#| msgid "The Scepter must be getting close now! Where shall we go?"
 msgid "The Sceptre must be getting close now! Where shall we go?"
 msgstr "Мора да смо већ близу Жезлу! Куда ћемо одавд›је?"
 
@@ -4582,8 +4373,6 @@ msgstr "Да, ос›јећам да је у близини! Морам га п�
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Scepter_of_Fire.cfg:174
-#, fuzzy
-#| msgid "An earthquake! We'll be trapped!"
 msgid "An earthquake! We’ll be trapped!"
 msgstr "Земљотрес! Све ће нас заробити!"
 
@@ -4602,8 +4391,6 @@ msgstr "Св›јесно? Шта? Делфадоре, о чему он то?"
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Scepter_of_Fire.cfg:186
-#, fuzzy
-#| msgid "The Scepter... the earth... the molten lava... the fire... the air around us... everything. It calls out to the heir - I can barely hold it back in my mind. It was forged here, not far north of where we now stand. The sheer power of it!"
 msgid "The Sceptre... the earth... the molten lava... the fire... the air around us... everything. It calls out to the heir — I can barely hold it back in my mind. It was forged here, not far north of where we now stand. The sheer power of it!"
 msgstr "Жезло... и земља... истопљена лава... ватра... ваздух око нас... све. Дозива престолонасл›иједника — једва га могу задржати у свом уму. Овд›је је исковано, недалеко на с›јевер од м›јеста гд›је сада стојимо. Ох, сама његова моћ!"
 
@@ -4640,24 +4427,18 @@ msgstr "Изабрати се мора"
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:16
-#, fuzzy
-#| msgid "The Scepter, initially dulled from decades of dust and debris, began to glow from the ruby's inner fire. Dwarvish runes on the golden handle lit up in pulsating blue. The heat and light were comforting in the pitch-black."
 msgid "The Sceptre, initially dulled from decades of dust and debris, began to glow from the ruby’s inner fire. Dwarvish runes on the golden handle lit up in pulsating blue. The heat and light were comforting in the pitch-black."
 msgstr "Жезло, испрва потмуло од деценија прашине и урушавања, поче да сјаји унутрашњом ватром рубина. Патуљачке руне на златном хвату обасјаше се плавим пулсирањем. Топлота и св›јетло деловаше оспокојавајуће у мрклом мраку."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:21
-#, fuzzy
-#| msgid "An early encounter with the Scepter in the hands of its new owners left several trolls as smoking husks. Sensing the awakening of a powerful magic, the dwellers of the deep quickly scattered and remained out of sight."
 msgid "An early encounter with the Sceptre in the hands of its new owners left several trolls as smoking husks. Sensing the awakening of a powerful magic, the dwellers of the deep quickly scattered and remained out of sight."
 msgstr "Први обрачун, са Жезлом у рукама својих нових власника, остави тек задимљене угарке од неколико тролова. Ос›јећајући буђење моћне магије, становници пећина се брзо разб›јежаше и држаше се ван погледа."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:26
-#, fuzzy
-#| msgid "Delfador led his young charges through lonely corridors and abandoned tunnels for four days. For the first time Konrad saw signs of fatigue in the old wizard's normally inscrutable face. Finally, fresh air greeted the party..."
 msgid "Delfador led his young charges through lonely corridors and abandoned tunnels for four days. For the first time Konrad saw signs of fatigue in the old wizard’s normally inscrutable face. Finally, fresh air greeted the party..."
 msgstr "Делфадор је водио своје младе сапутнике кроз ус›јеке и напуштене тунеле пуна четири дана. По први пут је Конрад вид‹ио назнаке замора на обично нерастумачивом лицу старог чаробњака. Коначно, св›јеж ваздух поздрави дружину..."
 
@@ -4671,8 +4452,6 @@ msgstr "Поразиш ли било којег од непријатељски�
 #. [side]: type=Death Knight, id=Unan-Ka'tall
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:110
-#, fuzzy
-#| msgid "Unan-Ka'tall"
 msgid "Unan-Ka’tall"
 msgstr "Унан-Катал"
 
@@ -4709,8 +4488,6 @@ msgstr "Уистину јесу. Мораћемо да пробијемо себ
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:196
-#, fuzzy
-#| msgid "Perhaps it is in both our best interests for us to remain allies for a little longer... but I do want that Scepter, and someday I will have it!"
 msgid "Perhaps it is in both our best interests for us to remain allies for a little longer... but I do want that Sceptre, and someday I will have it!"
 msgstr "Можда нам је обома у интересу да још мало останемо савезници... али ја желим Жезло, и пр›ије или касније ћу га имати!"
 
@@ -4729,24 +4506,18 @@ msgstr "Извукосмо се."
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:212
-#, fuzzy
-#| msgid "Yes, we have. Now I suppose you want to use the Scepter against me, Princess?"
 msgid "Yes, we have. Now I suppose you want to use the Sceptre against me, Princess?"
 msgstr "Да, јесмо. Претпостављам да ћеш сада хт›јети да употребиш Жезло против мене, принцезо?"
 
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:216
-#, fuzzy
-#| msgid "No, I was thinking... I don't really want to kill you. I have what I came to get. So if you promise never to come south of the Great River, I will spare your life."
 msgid "No, I was thinking... I don’t really want to kill you. I have what I came to get. So if you promise never to come south of the Great River, I will spare your life."
 msgstr "Не, размишљала сам... Не желим заиста да те убијем. Добила сам оно по шта сам дошла. Ако даш р›ијеч да никада више нећеш крочити јужно од Велике р›ијеке, поштед›јећу ти живот."
 
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:220
-#, fuzzy
-#| msgid "With all due respect, Princess, it is once again we who will spare you, Scepter or no Scepter."
 msgid "With all due respect, Princess, it is once again we who will spare you, Sceptre or no Sceptre."
 msgstr "Уз сво поштовање, принцезо, али смо опет ми ти који ће тебе поштед›јети, са Жезлом или без Жезла."
 
@@ -4772,8 +4543,6 @@ msgstr "Верујем да би још мало испомагања било �
 #. "Longlier" <- English "long" + "lies"; translate accordingly
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:240
-#, fuzzy
-#| msgid "I can tell where we are. That is the river that is known as Longlier to men, called Arkan-thoria in my people's ancient tongue. The home of my people lies to the east."
 msgid "I can tell where we are. That is the river that is known as Longlier to men, called Arkan-thoria in my people’s ancient tongue. The home of my people lies to the east."
 msgstr "Ја могу рећи гд›је се налазимо. Ова је р›ијека знана као Лонглијер међу људима, а Аркан-торија на древном језику мога народа. Њихови су домови источно одавд›је."
 
@@ -4900,16 +4669,12 @@ msgstr "Вилењачки господару, ја овд›је запов›�
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:350
-#, fuzzy
-#| msgid "(sigh) I have been spoiled by years of genteel living among your kind, Kalenz. An elf's capacity for introspection and serenity is exceeded only by his ferocity and passion in battle."
 msgid "(sigh) I have been spoiled by years of genteel living among your kind, Kalenz. An elf’s capacity for introspection and serenity is exceeded only by his ferocity and passion in battle."
 msgstr "[уздише] Размазише ме године лагодног живота међу твојима, Калензе. Способност једног вилењака за самоспознају и спокојност надмашена је само његовом жестином и страшћу у боју."
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:354
-#, fuzzy
-#| msgid "It offends your pride and wisdom to suffer the indignity of accepting the will of humans, especially in such a harsh predicament. I urge you to remember how far we have come under Konrad's leadership, and how close we are to bringing the hammer of destiny crashing down on Queen Asheviere's ill-gotten throne. We will journey east."
 msgid "It offends your pride and wisdom to suffer the indignity of accepting the will of humans, especially in such a harsh predicament. I urge you to remember how far we have come under Konrad’s leadership, and how close we are to bringing the hammer of destiny crashing down on Queen Asheviere’s ill-gotten throne. We will journey east."
 msgstr "Вр›ијеђа твој понос и мудрост да трпиш недостојанство прихватања воље људи, посебно под тако тешком сумњом. Молим те да се прис›јетиш докле догурасмо под Конрадовим вођством, и колико смо близу маљем судбине разбити злоосвојени пр›ијесто краљице Ашевире. Поћи ћемо на исток."
 
@@ -4989,8 +4754,6 @@ msgstr "Ко би одбацио тако чудесну рукотворину?
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19a_Snow_Plains.cfg:126
-#, fuzzy
-#| msgid "I believe it belonged to Ila'alion, a mighty Marshal of the Wood. It was enchanted as a boon to him by your elvish friends in the south. He was visiting their home as an envoy from us North Elves and was called upon to vanquish some beast or other."
 msgid "I believe it belonged to Ila’alion, a mighty Marshal of the Wood. It was enchanted as a boon to him by your elvish friends in the south. He was visiting their home as an envoy from us North Elves and was called upon to vanquish some beast or other."
 msgstr "В›јерујем да је припадао Илајалиону, моћном Маршалу од шуме. Мач зачараше на поклон њему твоји вилењачки пријатељи са југа. Био је у пос›јети њиховим домовима, као изасланик с›јеверњачких вилењака, када га позваше да сас›ијече некакву зв›ијер."
 
@@ -5009,8 +4772,6 @@ msgstr "Мора да је била најезда. Без обзира, пош�
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19a_Snow_Plains.cfg:138
-#, fuzzy
-#| msgid "His fellow marshals... well, one could say they were slow to come to Ila'alion's aid as he held this very plain against an orcish incursion. They resented his arrogance as the bearer of the sword, and indignation is a powerful force amongst my people at times. The sword has been lost in orcish territory ever since."
 msgid "His fellow marshals... well, one could say they were slow to come to Ila’alion’s aid as he held this very plain against an orcish incursion. They resented his arrogance as the bearer of the sword, and indignation is a powerful force amongst my people at times. The sword has been lost in orcish territory ever since."
 msgstr "Његови садрузи маршали... па, може се рећи да су касно притекли Илајалиону у помоћ, док је баш у овој равници одбијао налет оркова. Били су увр›ијеђени његовом надменошћу као носиоца мача, а озлојеђеност је понекад моћна сила у мом народу. Мач је још од тада изгубљен негд›је на орковској територији."
 
@@ -5018,8 +4779,6 @@ msgstr "Његови садрузи маршали... па, може се рећ
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19a_Snow_Plains.cfg:142
 #: data/campaigns/Heir_To_The_Throne/scenarios/19b_Swamp_Of_Dread.cfg:349
-#, fuzzy
-#| msgid "He was just someone who couldn't handle the power given to him."
 msgid "He was just someone who couldn’t handle the power given to him."
 msgstr "Он је био само неко ко није ум‹ио да се носи са датом му моћи."
 
@@ -5046,8 +4805,6 @@ msgstr "Заиста..."
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19a_Snow_Plains.cfg:158
-#, fuzzy
-#| msgid "Listen, you whose eyes are fair but hide a vacuum, do you think I do not know what power can do to one's soul? What evils a person is capable of when truth and righteousness are but scrolls that can be rewritten when a queen grows tired of them?"
 msgid "Listen, you whose eyes are fair but hide a vacuum, do you think I do not know what power can do to one’s soul? What evils a person is capable of when truth and righteousness are but scrolls that can be rewritten when a queen grows tired of them?"
 msgstr "Чуј, ти чије су очи поштене али скривају празнину, мислиш ли да не знам шта моћ може учинити нечијој души? За каква је зла особа способна када су истина и правда само списи који се могу пискарати од почетка кад год их се краљица умори?"
 
@@ -5062,8 +4819,6 @@ msgstr "Ц›ијело сам д›ијетињство провела слуш
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19a_Snow_Plains.cfg:166
 #: data/campaigns/Heir_To_The_Throne/scenarios/19b_Swamp_Of_Dread.cfg:373
-#, fuzzy
-#| msgid "I became my mother's most trusted aide-de-camp. I was sent to quiet the worst of the rebellion. Of course they fought back. I never knew who these people were or why they fought my mother. Konrad, you are lucky. You do not know what Wesnoth has been like these past many years. There is no peace. I have never known peace."
 msgid "I became my mother’s most trusted aide-de-camp. I was sent to quiet the worst of the rebellion. Of course they fought back. I never knew who these people were or why they fought my mother. Konrad, you are lucky. You do not know what Wesnoth has been like these past many years. There is no peace. I have never known peace."
 msgstr "Постала сам мајчин најпов›јерљивији помоћник. Слала ме је да сузбијам најгоре побуне. Наравно да су нам узвраћали — никада нисам знала ко су ти људи или зашто се боре против мајке. Конраде, ти си срећан. Ти не знаш како је било у Весноту многих протеклих година. Нема мира. Никада мир нисам ни упознала."
 
@@ -5078,8 +4833,6 @@ msgstr "Ја знам за пехар горчине који је твоја м
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19a_Snow_Plains.cfg:175
 #: data/campaigns/Heir_To_The_Throne/scenarios/19b_Swamp_Of_Dread.cfg:382
-#, fuzzy
-#| msgid "Enough! I can listen to no more of this. Princess, you may want to end your mother's rule, but I will end her life as she ended the life of my father and my brothers. Asheviere's masterwork of treachery will end, and it will end by my blade!"
 msgid "Enough! I can listen to no more of this. Princess, you may want to end your mother’s rule, but I will end her life as she ended the life of my father and my brothers. Asheviere’s masterwork of treachery will end, and it will end by my blade!"
 msgstr "Доста! Не могу више то да слушам. Принцезо, ти можда желиш да окончаш владавину мајчину, али ја ћу окончати њен живот као што је она мог оца и моје браће. Ашевирином мајсторству издаје ће доћи крај, и то на оштрици мог мача!"
 
@@ -5099,7 +4852,7 @@ msgstr "Поразиш ли господара косца Ајмукасура"
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19b_Swamp_Of_Dread.cfg:26
 msgid "Defeat all Death Knights first"
-msgstr ""
+msgstr "Поразиш ли прво све мртве витезове"
 
 # |, no-check-spell
 #. [side]: type=Death Knight, id=Clarustus
@@ -5180,40 +4933,30 @@ msgstr "Његов власник је засигурно био чувени р
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19b_Swamp_Of_Dread.cfg:275
-#, fuzzy
-#| msgid "As the last Death Knight falls, an ear-splitting screech escapes from the Lich. It is clear that controlling such powerful spirits has drained it significantly, and it is seething in anger towards you."
 msgid "As the last of its generals falls, an ear-splitting screech escapes from the lich. It is clear that controlling such powerful spirits has drained it significantly, and it is seething in anger towards you."
-msgstr "Како пос‹љедњи мртви витез паде, ухопарајући врисак изби из косца. Очито га је запов›иједање тако моћним духовима исцрп›јело, и сада кипи од б›ијеса према теби."
+msgstr "Како пос‹љедњи његов генерал паде, ухопарајући врисак изби из косца. Очито га је запов›иједање тако моћним духовима исцрп›јело, и сада кипи од б›ијеса према теби."
 
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19b_Swamp_Of_Dread.cfg:315
-#, fuzzy
-#| msgid "A final blow destroys the lich, releasing a small shock wave of energy outwards. The last Death Knight silently falls to the ground, inanimate. A giant cloud of dust bellows out as the remnants of the Lich's once-mortal skin and centuries of grime and gristle are dislodged for the last time."
 msgid "A final blow destroys the lich, releasing a small shock wave of energy outwards. The last of his minions silently falls like a puppet with its strings cut. A cloud of dust billows outwards as the remnants of the lich’s once-mortal body disintegrate for the last time."
-msgstr "Пос‹љедњи ударац сатре косца, од кога се ослободи мали ударни талас енергије наоколо. Пос‹љедњи мртви витез немо се стропошта, непокретан. Исуче се огроман облак прашине, како из остатака некада смртне прилике косца по пос‹љедњи пут избише сто‹љећа огавности и злобе."
+msgstr "Пос‹љедњи ударац сатре косца, ослободивши из њега мали ударни талас енергије. Преостали његови следбеници нечујно попадаше као лутке пресечених конаца. У облаку прашине, остаци некада смртне прилике косца распадоше се по пос‹љедњи пут."
 
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19b_Swamp_Of_Dread.cfg:322
-#, fuzzy
-#| msgid "A final blow destroys the lich, releasing a small shock wave of energy outwards. A giant cloud of dust bellows out as the remnants of the Lich's once-mortal skin and centuries of grime and gristle are dislodged for the last time."
 msgid "A final blow destroys the lich, releasing a small shock wave of energy outwards. His minions fall like puppets with their strings cut. A cloud of dust billows out as the remnants of the lich’s once-mortal body disintegrate for the last time."
-msgstr "Пос‹љедњи ударац сатре косца, од кога се ослободи мали ударни талас енергије наоколо. Исуче се огроман облак прашине, како из остатака некада смртне прилике косца по пос‹љедњи пут избише сто‹љећа огавности и злобе."
+msgstr "Пос‹љедњи ударац сатре косца, ослободивши из њега мали ударни талас енергије. Његови следбеници попадаше као лутке пресечених конаца. У облаку прашине, остаци некада смртне прилике косца распадоше се по пос‹љедњи пут."
 
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19b_Swamp_Of_Dread.cfg:331
-#, fuzzy
-#| msgid "A final blow destroys the lich, releasing a small shock wave of energy outwards. A giant cloud of dust bellows out as the remnants of the Lich's once-mortal skin and centuries of grime and gristle are dislodged for the last time."
 msgid "A final blow destroys the lich, releasing a small shock wave of energy outwards. A giant cloud of dust billows out as the remnants of the lich’s once-mortal body disintegrate for the last time."
-msgstr "Пос‹љедњи ударац сатре косца, од кога се ослободи мали ударни талас енергије наоколо. Исуче се огроман облак прашине, како из остатака некада смртне прилике косца по пос‹љедњи пут избише сто‹љећа огавности и злобе."
+msgstr "Пос‹љедњи ударац сатре косца, ослободивши из њега мали ударни талас енергије. У огромном облаку прашине, остаци некада смртне прилике косца распадоше се по пос‹љедњи пут."
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19b_Swamp_Of_Dread.cfg:337
-#, fuzzy
-#| msgid "Aimucasur's lordship over this cursed ground is broken."
 msgid "Aimucasur’s lordship over this cursed ground is broken."
 msgstr "Ајмукасурово господарство над овом уклетом земљом је окончано."
 
@@ -5238,8 +4981,6 @@ msgstr "Мрдај даље, вилењаче, осим ако не уживаш
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19b_Swamp_Of_Dread.cfg:365
-#, fuzzy
-#| msgid "Listen, you whose eyes are fair but hide a vacuum, do you not think I know what power does to one's soul? What evils a person is capable of when truth and righteousness are but scrolls that can be rewritten when a queen grows tired of them?"
 msgid "Listen, you whose eyes are fair but hide a vacuum, do you not think I know what power does to one’s soul? What evils a person is capable of when truth and righteousness are but scrolls that can be rewritten when a queen grows tired of them?"
 msgstr "Чуј, ти чије су очи поштене али скривају празнину, мислиш ли да не знам шта моћ може учинити нечијој души? За каква је зла особа способна када су истина и правда само списи који се могу пискарати од почетка кад год их се краљица умори?"
 
@@ -5288,16 +5029,12 @@ msgstr "Један дан наиђоше на језив призор — бро
 #. [message]: role=merman-advisor
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:271
-#, fuzzy
-#| msgid "These are not proper ships, but shallow-draft boats built only recently; much of their timber is green. They were sunk in battle, not by a storm. Those that were not capsized have been burned. The battle must have taken place not long ago, perhaps only a few weeks past. We've found no survivors. One more thing...all flew the banner of the Crown of Wesnoth."
 msgid "These are not proper ships, but shallow-draft boats built only recently; much of their timber is green. They were sunk in battle, not by a storm. Those that were not capsized have been burned. The battle must have taken place not long ago, perhaps only a few weeks past. We’ve found no survivors. One more thing...all flew the banner of the Crown of Wesnoth."
 msgstr "Ово нису прави бродови, већ чамци ниског газа тек скоро саграђени; дрвна грађа им је углавном још зелена. Потопљени су у боју, не у олуји. Који су остали непреврнути, спаљени су. Мора да је до битке дошло недавно, колико пр›ије неколико седмица. Не нађосмо прежив›јелих. Још нешто... Сви носе барјак веснотске круне."
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:275
-#, fuzzy
-#| msgid "Haven't you found any enemy boats, ones the Wesnothians were fighting against?"
 msgid "Haven’t you found any enemy boats, ones the Wesnothians were fighting against?"
 msgstr "Не нађосте ли неки од противничких чамаца, са којима су се Весноћани сукобили?"
 
@@ -5334,8 +5071,6 @@ msgstr "Не може се кроз планине с›јеверно од р�
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:299
-#, fuzzy
-#| msgid "I don't recommend it. Long ago, a lich who was at war with my people appointed some of his most powerful minions to guard the swamps. We must not go that way!"
 msgid "I don’t recommend it. Long ago, a lich who was at war with my people appointed some of his most powerful minions to guard the swamps. We must not go that way!"
 msgstr "Не бих то препоручио. Давно, један косац у рату против мога народа одреди неке од својих најмоћнијих с‹љедбеника да чувају мочваре. Не см›ијемо тим путем!"
 
@@ -5430,8 +5165,6 @@ msgstr "Овај... па наравно, господине змаже. Да с�
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:379
-#, fuzzy
-#| msgid "And I am Princess Li'sar, the only daughter of the late King Garard II and Queen Asheviere. I too am an heir to the throne of Wesnoth!"
 msgid "And I am Princess Li’sar, the only daughter of the late King Garard II and Queen Asheviere. I too am an heir to the throne of Wesnoth!"
 msgstr "А ја принцеза Лиза́ра, једина кћер почившег краља Гарарда Другог и краљице Ашевире. Ја сам такође насл›иједник престола Веснота!"
 
@@ -5439,10 +5172,6 @@ msgstr "А ја принцеза Лиза́ра, једина кћер почи�
 #. [message]: speaker=Keh Ohn
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:386
-#, fuzzy
-#| msgid ""
-#| "(releasing a torrent of fire towards Konrad and Li'sar)\n"
-#| "Soooo... It is you who sent your subordinates to attack us. Now when we've destroyed them, you come to do the job yourselves."
 msgid ""
 "(releasing a torrent of fire towards Konrad and Li’sar)\n"
 "Soooo... It is you who sent your subordinates to attack us. Now when we’ve destroyed them, you come to do the job yourselves."
@@ -5465,8 +5194,6 @@ msgstr "Принц збори истину."
 #. [message]: speaker=Keh Ohn
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:399
-#, fuzzy
-#| msgid "I don't know. Maybe you are telling the truth, maybe not. We drakes don't trust you. Many of our warriors died in the battle and many more are still healing their wounds, but we still have claws. Go back now and leave us in peace. If you go further we'll be forced to show them."
 msgid "I don’t know. Maybe you are telling the truth, maybe not. We drakes don’t trust you. Many of our warriors died in the battle and many more are still healing their wounds, but we still have claws. Go back now and leave us in peace. If you go further we’ll be forced to show them."
 msgstr "Не бих знао. Можда говорите истину, можда не. Ми змагови вам не в›јерујемо. Многи наши ратници пострадаше у боју, многи још видају своје повреде, али су нам канџе још ув›ијек на броју. Пођите назад и оставите нас с миром. Зађете ли даље, моћи ћете их и сами избројати."
 
@@ -5485,8 +5212,6 @@ msgstr "Пренебр›ијегнете ли моје упозорење — �
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:411
-#, fuzzy
-#| msgid "So be it. We have to go down the river; we have no choice. We'll fight our way through if necessary."
 msgid "So be it. We have to go down the river; we have no choice. We’ll fight our way through if necessary."
 msgstr "Онда тако мора бити. Морамо низ р›ијеку, избора немамо. Ако нема друге, борићемо се."
 
@@ -5511,8 +5236,6 @@ msgstr "То су нека од чудовишта на која сам упоз
 #. [message]: speaker=unit
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:585
-#, fuzzy
-#| msgid "We've found $random gold in the drake base."
 msgid "We’ve found $random gold in the drake nest."
 msgstr "Нађосмо $random злата у змашком логору."
 
@@ -5520,16 +5243,12 @@ msgstr "Нађосмо $random злата у змашком логору."
 #. [message]: speaker=Keh Ohn
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:625
-#, fuzzy
-#| msgid "GRRROOOOAAAAR"
 msgid "GRRROOOOAAAAR!"
-msgstr "ГРРРООООААААР"
+msgstr "ГРРРООООААААР!"
 
 #. [message]: speaker=second_unit
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:629
-#, fuzzy
-#| msgid "Hurrah! We've killed their leader"
 msgid "Hurrah! We’ve killed their leader!"
 msgstr "Ура! Средисмо њиховог вођа!"
 
@@ -5542,8 +5261,6 @@ msgstr "Наш вођ је мртав, али не мари! Биће време
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:639
-#, fuzzy
-#| msgid "Keep on going down the river. While we're at it, let us force as many drakes as possible to pay with their lives. They have defied us, and now they will meet the same fate as their leader!"
 msgid "Keep on going down the river. While we’re at it, let us force as many drakes as possible to pay with their lives. They have defied us, and now they will meet the same fate as their leader!"
 msgstr "Наставите низ р›ијеку. Кад смо већ при томе, нат›јерајмо што је више змагова могуће да животима плате. У свом пркосу дожив›јеће исту судбину као и њихов поглавар!"
 
@@ -5568,8 +5285,6 @@ msgstr "То је млади људски наредник, једва више 
 #. [message]: speaker=unit
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:767
-#, fuzzy
-#| msgid "I wonder why the drakes haven't finished him by now? It is strange that there are not any drakes or undead in that area."
 msgid "I wonder why the drakes haven’t finished him by now? It is strange that there are not any drakes or undead in that area."
 msgstr "Питам се зашто га змагови не довршише до сада? Чудно је и што нема једног змага нити немртвог у околини."
 
@@ -5607,16 +5322,12 @@ msgstr "Можда су га послали за вама, али за мном 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:811
-#, fuzzy
-#| msgid "Princess Li'sar, do I have to remind you again that it is Konrad, not you, who is the rightful heir?"
 msgid "Princess Li’sar, do I have to remind you again that it is Konrad, not you, who is the rightful heir?"
 msgstr "Принцезо Лиза́ро, морам ли те опет подс›јећати да је Конрад, а не ти, законити насл›иједник?"
 
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:815
-#, fuzzy
-#| msgid "Whatever.... I still think we should make an effort to rescue him from the unfortunate position he is in. If you help him, I'll do my best to convince him that you are not his enemies but his friends..."
 msgid "Whatever.... I still think we should make an effort to rescue him from the unfortunate position he is in. If you help him, I’ll do my best to convince him that you are not his enemies but his friends..."
 msgstr "Свеједно... Ипак мислим да треба да се потрудимо да га избавимо из несрећног положаја у којем је. Ако му помогнете, даћу све од себе да га уб›иједим да му нисте непријатељи."
 
@@ -5648,7 +5359,7 @@ msgstr "Поштено..."
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:841
 msgid "Rescue the sergeant"
-msgstr ""
+msgstr "Спасеш ли наредника"
 
 #. [message]: speaker=Warven
 #. +> devel
@@ -5659,24 +5370,18 @@ msgstr "Ко... ко сте ви? Пријатељи ил' не?"
 #. [message]: speaker=unit
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:906
-#, fuzzy
-#| msgid "We are friends. Don't worry about it and don't try to fight us - you are in no condition to fight."
 msgid "We are friends. Don’t worry about it and don’t try to fight us — you are in no condition to fight."
 msgstr "Пријатељи смо. Не брини и не противи нам се — ниси ни у каквом стању за борбу."
 
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:910
-#, fuzzy
-#| msgid "I am Princess Li'sar, and we are friends. Join us and wait for the healers to help you, young sergeant."
 msgid "I am Princess Li’sar, and we are friends. Join us and wait for the healers to help you, young sergeant."
 msgstr "Ја сам принцеза Лиза́ра, и ми смо пријатељи. Придружи нам се и почекај наше видаре, млади наредниче."
 
 #. [message]: speaker=Warven
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:914
-#, fuzzy
-#| msgid "Princess Li'sar - here? Your Highness, I am yours to command!"
 msgid "Princess Li’sar — here? Your Highness, I am yours to command!"
 msgstr "Принцеза Лиза́ра — овд›је? Ваше височанство, стојим вам на запов›ијести!"
 
@@ -5707,8 +5412,6 @@ msgstr "Сачекајте. Шта је са оном притоком што с
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:952
-#, fuzzy
-#| msgid "Legend says that that little river comes from the land of the North Elves. It is said that it is an outflow of Everlore, which flows in the land of my home and that there is a cave system in that area with several cave entrances and springs which flow into the ground. I can say no more about it, except that it is swarming with undead and other creatures which find power in the darkness of the caves. We elves prefer not to venture into the caves; instead we put guards near the entrances to kill any foul creature foolish enough to wander outside. No elves have been inside for centuries and that area is unknown to us. Truly, I don't recommend entering the cave if we have any other options."
 msgid "Legend says that that little river comes from the land of the North Elves. It is said that it is an outflow of Everlore, which flows in the land of my home and that there is a cave system in that area with several cave entrances and springs which flow into the ground. I can say no more about it, except that it is swarming with undead and other creatures which find power in the darkness of the caves. We elves prefer not to venture into the caves; instead we put guards near the entrances to kill any foul creature foolish enough to wander outside. No elves have been inside for centuries and that area is unknown to us. Truly, I don’t recommend entering the cave if we have any other options."
 msgstr "Предања говоре да та мала р›ијека стиже из земаља с›јеверњачких вилењака. Каже се да је истока из Свенаука, који тече кроз моју домовину, и да у тој области постоји пећинска мрежа с неколико улаза и извора који отичу у тло. Ништа више не могу рећи, осим да врви немртвима и другим створењима која црпе снагу из пећинске таме. Ми вилењаци тежимо да не залазимо у пећине; ум›јесто тога поставимо страже на улазима, да сатру свако погано створење које залута напоље. Ниједан вилењак није ступио унутра већ сто‹љећима, те нам је подручје непознато. Збиља не препоручујем урањање у пећину ако имамо икаквог другог избора."
 
@@ -5721,16 +5424,12 @@ msgstr "Нажалост, немамо. Напр›ијед у пећину!"
 #. [objective]: condition=win
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:962
-#, fuzzy
-#| msgid "Reach the cave."
 msgid "Reach the cave"
 msgstr "Досегнеш ли пећину"
 
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/19c_Cliffs_of_Thoria.cfg:1006
-#, fuzzy
-#| msgid "I've reached the cave entrance. There seems to be a system of channels running through the mountains. Follow me, and let us hope we somehow manage to get out alive."
 msgid "I’ve reached the cave entrance. There seems to be a system of channels running through the mountains. Follow me, and let us hope we somehow manage to get out alive."
 msgstr "Стигох до уста пећине. Као да се подно планина пружа мрежа канала. Пратите ме, и надајмо се да ћемо се некако живи извући."
 
@@ -5791,10 +5490,8 @@ msgstr "Истекну ли потези пр›ије него се досег�
 #. [objectives]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:50
-#, fuzzy
-#| msgid "Note: your encampment will be dismantled after the first turn.\n"
 msgid "Note: your encampment will be dismantled after the first turn."
-msgstr "Напомена: твој логор ће бити подигнут посл›ије првог потеза.\n"
+msgstr "Напомена: твој логор ће бити подигнут посл›ије првог потеза."
 
 #. [side]: type=Commander, id=Konrad
 #. [side]: type=Elvish Lord, id=Uradredia
@@ -5816,17 +5513,16 @@ msgstr "Савезници"
 msgid "Kior-Dal"
 msgstr "Киор-Дал"
 
+# |, no-check-spell
 #. [side]: type=General, id=Honber
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:135
 msgid "Honber"
-msgstr ""
+msgstr "Хонбер"
 
 #. [side]: type=Elvish Marshal, id=El'rien
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:201
-#, fuzzy
-#| msgid "El'rien"
 msgid "El’rien"
 msgstr "Елријен"
 
@@ -5845,8 +5541,6 @@ msgstr "Посл›ије толико времена у овој дивљини
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:366
-#, fuzzy
-#| msgid "But there is a great fog around us again! We don't know what dangers may lie ahead!"
 msgid "But there is a great fog around us again! We don’t know what dangers may lie ahead!"
 msgstr "Али се око нас опет привија густа магла! Не знамо какве нас опасности вребају испред!"
 
@@ -5946,8 +5640,6 @@ msgstr "Господару, морамо јурнути преко поља пр
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:461
-#, fuzzy
-#| msgid "I was afraid that's what you were going to say."
 msgid "I was afraid that’s what you were going to say."
 msgstr "Плашио сам се да ћеш тачно то рећи."
 
@@ -5978,8 +5670,6 @@ msgstr "Па, Конраде, мислиш ли можемо једностав�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:500
-#, fuzzy
-#| msgid "Stop for a moment, princess. Look - you can barely see them in the distance there, but the advance scouts have found each other. The Queen's troops are marching full speed for the orcs' camp, and vice-versa. These armies are out for blood."
 msgid "Stop for a moment, princess. Look — you can barely see them in the distance there, but the advance scouts have found each other. The Queen’s troops are marching full speed for the orcs’ camp, and vice-versa. These armies are out for blood."
 msgstr "Стани на тренутак, принцезо. Гледај — једва се могу вид›јети тамо у даљини, али су истурене извиднице наишле једна на другу. Краљичине снаге ступају свом брзином ка орковском логору, и обрнуто. Ове су војске намирисале крв."
 
@@ -6073,8 +5763,6 @@ msgstr "Поздрав, пријатељи вилењака! Добродошл�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:683
-#, fuzzy
-#| msgid "Thank you, Lord El'rien. The hospitality of the North Elves is as generous as that of your kin in the south! My men will help you hold out against our enemies."
 msgid "Thank you, Lord El’rien. The hospitality of the North Elves is as generous as that of your kin in the south! My men will help you hold out against our enemies."
 msgstr "Захваљујем, господару Елријене. Гостопримство с›јеверњачких вилењака издашно је колико и ваших јужних сродника! Моји ће људи помоћи у одбрани од наших непријатеља."
 
@@ -6099,8 +5787,6 @@ msgstr "Пријатељи вилењака, сада сте на сигурно
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:768
-#, fuzzy
-#| msgid "El'rien, we have the Scepter of Fire with us! We must escort them to Elensiria!"
 msgid "El’rien, we have the Sceptre of Fire with us! We must escort them to Elensiria!"
 msgstr "Елријене, носимо Ватрено жезло са собом! Морамо их отпратити до Еленсирије!"
 
@@ -6126,7 +5812,7 @@ msgstr "Нађеш ли излаза из подземља и спроведеш
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/20b_Underground_Channels.cfg:33
 msgid "Help the Wose fend off the undead attack"
-msgstr ""
+msgstr "Помогнеш ли иверима да обију налет немртвих"
 
 # |, no-check-spell
 #. [side]: type=Saurian Oracle, id=Szerkz
@@ -6250,8 +5936,6 @@ msgstr "Колико брзо људска раса стасава! Тек се�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:131
-#, fuzzy
-#| msgid "Forgive me, Elf, but I'm afraid I do not recall meeting you before."
 msgid "Forgive me, Elf, but I’m afraid I do not recall meeting you before."
 msgstr "Опрости ми, вилењакињо, али се бојим да на памтим тај ранији сусрет."
 
@@ -6306,32 +5990,24 @@ msgstr "Не вид›јех својим очима, принцезо, али �
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:173
-#, fuzzy
-#| msgid "Well, that is why I must take the Scepter. I will return, and people will accept me as Queen. I will rule justly and fairly. My mother is only Queen Mother. The throne is rightfully mine, and with the Scepter I can prove it."
 msgid "Well, that is why I must take the Sceptre. I will return, and people will accept me as Queen. I will rule justly and fairly. My mother is only Queen Mother. The throne is rightfully mine, and with the Sceptre I can prove it."
 msgstr "То је онда разлог зашто ја морам пон›ијети Жезло. Вратићу се, и народ ће ме прихватити као краљицу. Владаћу праведно и поштено. Моја мајка је само краљица мајка. Трон по правди припада мени, и са Жезлом то могу и доказати."
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:177
-#, fuzzy
-#| msgid "Princess, there is some good in you, but the throne is not yours to claim. Konrad has the Scepter. He will take the throne."
 msgid "Princess, there is some good in you, but the throne is not yours to claim. Konrad has the Sceptre. He will take the throne."
 msgstr "Принцезо, има нешто добра у теби, али трон није твој да на њега полажеш право. Конрад носи Жезло. Он ће ступити на пр›ијесто."
 
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:183
-#, fuzzy
-#| msgid "Well, I have the Scepter! I will return and the people will accept me as Queen! My mother is only Queen Mother. The Throne is rightfully mine, and I will rule from it with justice and fairness. I may even accept you as my adviser and counselor, Delfador."
 msgid "Well, I have the Sceptre! I will return and the people will accept me as Queen! My mother is only Queen Mother. The Throne is rightfully mine, and I will rule from it with justice and fairness. I may even accept you as my adviser and counselor, Delfador."
 msgstr "Онда, Жезло је код мене! Вратићу се и народ ће ме прихватити за краљицу! Моја мајка је тек краљица мајка. Трон је по правди мени нам›ијењен, и владаћу праведно и поштено. Можда ћу и тебе, Делфадоре, примити за сав›јетника и пов›јереника."
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:187
-#, fuzzy
-#| msgid "Though you have the Scepter, Princess, it is rightfully Konrad's. You have it now only because we helped you get it."
 msgid "Though you have the Sceptre, Princess, it is rightfully Konrad’s. You have it now only because we helped you get it."
 msgstr "Иако имаш Жезло, принцезо, правично је да оно припадне Конраду. Сада га ти носиш, само зато што смо ти помогли да га се домогнеш."
 
@@ -6350,8 +6026,6 @@ msgstr "Ако буде требало, принцезо, захт›ијева�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:199
-#, fuzzy
-#| msgid "Delfador! Li'sar has become our friend. I don't want to fight her! As long as she rules well, what does it matter if she becomes queen?"
 msgid "Delfador! Li’sar has become our friend. I don’t want to fight her! As long as she rules well, what does it matter if she becomes queen?"
 msgstr "Делфадоре! Лиза́ра је постала наш пријатељ. Не желим да се борим против ње! Ако ће добро да влада, какве везе има ако она постане краљица?"
 
@@ -6388,8 +6062,6 @@ msgstr "Парандра, то што збориш може се некима ч
 #. [message]: speaker=Parandra
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:226
-#, fuzzy
-#| msgid "In so many things you are right, Delfador, and your wisdom is unmatched in the world of men. But in this, you are mistaken. Li'sar is the heir. She should take the throne. Now that I have met her for myself, I am sure of it."
 msgid "In so many things you are right, Delfador, and your wisdom is unmatched in the world of men. But in this, you are mistaken. Li’sar is the heir. She should take the throne. Now that I have met her for myself, I am sure of it."
 msgstr "На толико начина си у праву, Делфадоре, и твоја је мудрост без премца у св›ијету људи. Али у овоме, гр›ијешиш. Лиза́ра је насл›иједница. Она треба да преузме пр›ијесто. Сада када је лично сусретох, то је изван сваке сумње."
 
@@ -6402,8 +6074,6 @@ msgstr "Значи она ће сести на пр›ијесто, а не ја
 #. [message]: speaker=Parandra
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:234
-#, fuzzy
-#| msgid "Li'sar should be Queen, but you will go with her. Indeed, I suspect we could not convince you otherwise. I have seen the way you look at her, Konrad. I think that now you would follow her even to the ends of the earth."
 msgid "Li’sar should be Queen, but you will go with her. Indeed, I suspect we could not convince you otherwise. I have seen the way you look at her, Konrad. I think that now you would follow her even to the ends of the earth."
 msgstr "Лиза́ра треба да буде краљица, али ћеш ти поћи с њом. Уистину, не в›јерујем бисмо те могли уб›иједити у шта друго. Вид›јела сам како гледаш према њој, Конраде. Мислим да би је од сада пратио и на крајеве св›ијета."
 
@@ -6422,8 +6092,6 @@ msgstr "Ако је тако као што кажеш, Конраде, можд�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:246
-#, fuzzy
-#| msgid "That is a generous offer, my lady, but you are indeed right, I would rather go with Li'sar."
 msgid "That is a generous offer, my lady, but you are indeed right, I would rather go with Li’sar."
 msgstr "То је великодушна понуда, госпо, али си заиста у праву, радије бих кренуо са Лиза́ром."
 
@@ -6436,8 +6104,6 @@ msgstr "А шта ти кажеш, Урадредија?"
 #. [message]: speaker=Uradredia
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:254
-#, fuzzy
-#| msgid "Tell me, Li'sar, are you willing to fight your own mother for the throne?"
 msgid "Tell me, Li’sar, are you willing to fight your own mother for the throne?"
 msgstr "Реци ми, Лиза́ра, јеси ли вољна да се око пр›ијестола бориш против сопствене мајке?"
 
@@ -6462,8 +6128,6 @@ msgstr "А ти си већ неко вр›ијеме у нашем друшт�
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:270
-#, fuzzy
-#| msgid "Wisdom has been spoken here today, Delfador. We have been with Li'sar in the most trying of times, and risked life and limb with her. Yet we still have both our lives and our limbs. She lacks experience, and has too much of the brashness of youth, but she will make a good Queen in time."
 msgid "Wisdom has been spoken here today, Delfador. We have been with Li’sar in the most trying of times, and risked life and limb with her. Yet we still have both our lives and our limbs. She lacks experience, and has too much of the brashness of youth, but she will make a good Queen in time."
 msgstr "Мудрост је овд›је данас изречена, Делфадоре. Били смо поред Лиза́ре у времена најтежих искушења, и ризиковали главе заједно с њом. Па ипак су нам још ув›ијек на раменима. Недостаје јој искуства, и пуна је младалачке дрскости, али ће с временом постати од ње добра краљица."
 
@@ -6482,8 +6146,6 @@ msgstr "Има један други пут којим можете поћи н�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/21_Elven_Council.cfg:282
-#, fuzzy
-#| msgid "Mountains of the dragons? That sounds very dangerous! I didn't even think there were such things as dragons!"
 msgid "Mountains of the dragons? That sounds very dangerous! I didn’t even think there were such things as dragons!"
 msgstr "Змајевске планине? Звучи врло опасно! Нисам ни сањао да постоје такве ствари као што су змајеви!"
 
@@ -6532,24 +6194,18 @@ msgstr "Конрад је стајао на бедему гледајући на
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Return_to_Wesnoth.cfg:71
-#, fuzzy
-#| msgid "Kalenz's champion courtiers escorted Konrad and Delfador through their forest, a near-invincible vanguard. War had spread to the Northlands, but by taking long-deserted trails through the rugged eastern hills, it failed to find the band of rebels. The high craggy peaks of the mountains of the Dragons looked down on them in deserted desolation."
 msgid "Kalenz’s champion courtiers escorted Konrad and Delfador through their forest, a near-invincible vanguard. War had spread to the Northlands, but by taking long-deserted trails through the rugged eastern hills, it failed to find the band of rebels. The high craggy peaks of the mountains of the Dragons looked down on them in deserted desolation."
 msgstr "Калензови дворски заточници испратише Конрада и Делфадора кроз шуму, скоро непоб›једива стража. Рат се проширио на С›јевероземље, али пошто је дружина ступала давно напуштеним стазама кроз грбава источна брда, не усп›је да их ухвати у свој ковитлац. Високи ст›јеновити врхови змајевских планина гледали су надо‹ље на њих у испрану пустош."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Return_to_Wesnoth.cfg:76
-#, fuzzy
-#| msgid "Konrad's small band of elves had grown to a massive army. The occasional hermit mage knew better than to interfere with its progress, and soon the plains of Northeastern Wesnoth lay before them."
 msgid "Konrad’s small band of elves had grown to a massive army. The occasional hermit mage knew better than to interfere with its progress, and soon the plains of Northeastern Wesnoth lay before them."
 msgstr "Конрадова мала почетна скупина вилењака је нарасла у велику војску. Покоји маг пустињак знао је боље него да се ум›ијеша у њихово напредовање, и ускоро се равнице с›јевероисточног Веснота нађоше пред њима."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Return_to_Wesnoth.cfg:81
-#, fuzzy
-#| msgid "After spending the greater part of a year in remote, dangerous wastes, Konrad's heart leapt at the thought this journey was almost over. Though the greatest danger lay ahead, he knew he was finally returning home."
 msgid "After spending the greater part of a year in remote, dangerous wastes, Konrad’s heart leapt at the thought this journey was almost over. Though the greatest danger lay ahead, he knew he was finally returning home."
 msgstr "Пошто је провео већи д‹ио године у забаченим, опасним пустошима, Конрадово срце је играло на помисао да је пут скоро при крају. Иако највећа опасност тек лежаше пред њим, ос›јећао је да се напокон враћа кући."
 
@@ -6582,16 +6238,12 @@ msgstr "Стој! Ко иде тамо?"
 #. [message]: speaker=Dwar-Ni
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Return_to_Wesnoth.cfg:183
-#, fuzzy
-#| msgid "Look! It is the traitor Li'sar, with the old mage and the filthy elven lord. Quickly, capture them! The Queen wishes to make them her prisoners."
 msgid "Look! It is the traitor Li’sar, with the old mage and the filthy elven lord. Quickly, capture them! The Queen wishes to make them her prisoners."
 msgstr "Гледајте! То је издајница Лиза́ра, покрај старог мага и прљавог вилењачког господара. Брзо, похватајмо их! Краљица жели да их начини својим заточеницима."
 
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Return_to_Wesnoth.cfg:187
-#, fuzzy
-#| msgid "What? Me, a traitor? It is the Queen who is a traitor, for not obeying the wishes of King Garard II. We have the Scepter of Fire, so let us in!"
 msgid "What? Me, a traitor? It is the Queen who is a traitor, for not obeying the wishes of King Garard II. We have the Sceptre of Fire, so let us in!"
 msgstr "Шта? Ја, издајница? Краљица је та која је издајица, јер не испоштова жељу краља Гарарда другог. Код нас је Ватрено жезло, стога нас пуштајте унутра!"
 
@@ -6629,8 +6281,6 @@ msgstr "Предомислили смо се. Сада нам је нам›је
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Return_to_Wesnoth.cfg:226
-#, fuzzy
-#| msgid "We must make haste! Far greater challenges lie before us, by tarrying here we're diminishing our resources."
 msgid "We must make haste! Far greater challenges lie before us, by tarrying here we’re diminishing our resources."
 msgstr "Морамо пожурити! Много већи изазови леже пред нама, одуговлачењем овд›је само трошимо своја средства."
 
@@ -6875,16 +6525,12 @@ msgstr "Служићете нама. Штитићете наше бокове, �
 #. [message]: speaker=Kalenz
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Test_of_the_Clans.cfg:456
-#, fuzzy
-#| msgid "Delfador, don't you think it is time we settled this?"
 msgid "Delfador, don’t you think it is time we settled this?"
 msgstr "Делфадоре, не мислиш ли да је вр›ијеме да размрсимо ово?"
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Test_of_the_Clans.cfg:460
-#, fuzzy
-#| msgid "Yes, it is time. It is time for the truth to be told. I had hoped to take this secret to my grave, but it isn't to be. You elves live too long, and though I have tried hard to understand, your wisdom is foreign to me."
 msgid "Yes, it is time. It is time for the truth to be told. I had hoped to take this secret to my grave, but it isn’t to be. You elves live too long, and though I have tried hard to understand, your wisdom is foreign to me."
 msgstr "Да, вр›ијеме је. Вр›ијеме је да се каже истина. Надах се да ћу ту тајну у гроб понети, али није ми суђено. Ви вилењаци предуго живите, и поред тога што сам покушао да је појмим, ваша ми је мудрост остала страна."
 
@@ -6897,16 +6543,12 @@ msgstr "Тајна? Каква тајна, Делфадоре? О чему то 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Test_of_the_Clans.cfg:469
-#, fuzzy
-#| msgid "We should not speak of it now. Instead come with me, Konrad and Li'sar, to the top of mount Elnar. To look at Weldyn. To make plans for the battle, and to talk."
 msgid "We should not speak of it now. Instead come with me, Konrad and Li’sar, to the top of mount Elnar. To look at Weldyn. To make plans for the battle, and to talk."
 msgstr "Не треба о томе овд›је. Стога пођите са мном, Конраде и Лиза́ро, на врх планине Елнар. Да осмотримо Велдин. Да искујемо планове за битку, и да попричамо."
 
 #. [message]: speaker=Delfador
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Test_of_the_Clans.cfg:497
-#, fuzzy
-#| msgid "We are routing their forces! Let's see if the Clan has had enough. Their help in guarding our flanks will be invaluable."
 msgid "We are routing their forces! Let’s see if the Clan has had enough. Their help in guarding our flanks will be invaluable."
 msgstr "Разбијамо њихове редове! Да видимо да ли је Клану било доста. Њихове снаге на нашим боковима биће непроц›јењиве."
 
@@ -6943,8 +6585,6 @@ msgstr "Не вид›јех овај град већ седамнаест го�
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:57
-#, fuzzy
-#| msgid "The battle had been long and hard. We had been defeated. Eldred was slain, but I knew that Asheviere's wrath would be great. That many innocents would be slain. I had to save the monarchy. I had to save the princes. I made haste to Weldyn, before the guards of Asheviere could get there, to carry out their evil orders."
 msgid "The battle had been long and hard. We had been defeated. Eldred was slain, but I knew that Asheviere’s wrath would be great. That many innocents would be slain. I had to save the monarchy. I had to save the princes. I made haste to Weldyn, before the guards of Asheviere could get there, to carry out their evil orders."
 msgstr "Битка је била дуга и тешка. Пораз нам је био неизб›јежан. Са Елдредом мртвим, знао сам да ће Ашевирин г‹њев бити неизм›ијеран. Толико ће невиних бити пос›јечено. Морао сам служим краљевству. Морао сам да спасим принчеве. Пожурио сам ка Велдину, да престигнем Ашевирину гарду са њиховим опаким наређењима."
 
@@ -6957,16 +6597,12 @@ msgstr "Али нисам усп‹ио. Закаснио сам. Улет‹и�
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:65
-#, fuzzy
-#| msgid "Of course, you are surprised by this, but it is the truth. In haste, I vanquished the evil ones who had committed this foul deed. Then I took the little prince's broken body, and away I rode. Far away, to the land of the elves."
 msgid "Of course, you are surprised by this, but it is the truth. In haste, I vanquished the evil ones who had committed this foul deed. Then I took the little prince’s broken body, and away I rode. Far away, to the land of the elves."
 msgstr "Наравно, изненађени сте овим, али је истина. У очајању, побих злобнике који извршише то грозно д›јело. Онда подигох беживотно т›ијело малог принца, и одјахах одатле. Далеко, у земље вилењачке."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:70
-#, fuzzy
-#| msgid "By strange and mysterious fortune, the Elf Lady Parandra had come across a human child. She knew not where he had come from, only that the orcs would have eaten him if it weren't for her intervention. The elves felt that great fortune smiled upon this man-child. Perhaps that is why this most truthful of peoples agreed to my plan."
 msgid "By strange and mysterious fortune, the Elf Lady Parandra had come across a human child. She knew not where he had come from, only that the orcs would have eaten him if it weren’t for her intervention. The elves felt that great fortune smiled upon this man-child. Perhaps that is why this most truthful of peoples agreed to my plan."
 msgstr "Чудном и тајанственом згодом, баш у то вр›ијеме вилењачка госпа Парандра натрапа на људско д›ијете. Није знала одакле је дошло, само то да би га оркови растргли да се она није ум›ијешала. Вилењаци су ос›јећали да се том људском д›јетету велика срећа осм›ијехнула. Можда се зато тај истинољубиви народ прихвати мог плана."
 
@@ -6979,8 +6615,6 @@ msgstr "Пошто смо сахранили малог принца, догов
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:78
-#, fuzzy
-#| msgid "I had thought that we could one day make you king, Konrad. But now I see that fate has made a different choice. That despite all of Asheviere's evil, this Li'sar is fit for the throne. She is the rightful queen. From a long line of kings, stretching all the way back to the seafarers of old from the west."
 msgid "I had thought that we could one day make you king, Konrad. But now I see that fate has made a different choice. That despite all of Asheviere’s evil, this Li’sar is fit for the throne. She is the rightful queen. From a long line of kings, stretching all the way back to the seafarers of old from the west."
 msgstr "Замишљао сам да бисмо те једног дана могли учинити краљем, Конраде. Али сада видим да је судбина начинила другачији избор. Да је упркос свом Ашевирином злу, Лиза́ра пристала за пр›ијесто. Да ће бити праведна краљица. Из дуге лозе краљева, што се протеже све до прастарих морепловаца са запада."
 
@@ -7026,8 +6660,6 @@ msgstr "Рђава в›јештице. Твоја војска куша смр�
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:242
-#, fuzzy
-#| msgid "Surrender, mother. The land's blood is spent. I have come to take my rightful place."
 msgid "Surrender, mother. The land’s blood is spent. I have come to take my rightful place."
 msgstr "Предај се, мајко. Крв ове земље је истрошена. Дошла сам да преузмем м›јесто које ми припада."
 
@@ -7076,8 +6708,6 @@ msgstr "Чак и сада, не можеш изрећи истину? Похл�
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:292
-#, fuzzy
-#| msgid "Li'sar strikes a killing blow!"
 msgid "Li’sar strikes a killing blow!"
 msgstr "Лиза́ра зададе смртни ударац!"
 
@@ -7180,16 +6810,12 @@ msgstr "И тако прође Ашевира, мрачна краљица Ве�
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:461
-#, fuzzy
-#| msgid "We have won at last! Li'sar! You will be queen!"
 msgid "We have won at last! Li’sar! You will be queen!"
 msgstr "Напокон поб›иједисмо! Лиза́ро! Ти ћеш бити краљица!"
 
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_Battle_for_Wesnoth.cfg:465
-#, fuzzy
-#| msgid "Yes, but I won't ever forget what you have done for me, Konrad, Delfador, and Kalenz."
 msgid "Yes, but I won’t ever forget what you have done for me, Konrad, Delfador, and Kalenz."
 msgstr "Да, али никада нећу заборавити ваша д›јела, Конраде, Делфадоре, и Калензе."
 
@@ -7214,8 +6840,6 @@ msgstr "Епилог"
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/25_HttT_Epilogue.cfg:11
-#, fuzzy
-#| msgid "And so the Dark Queen's reign was ended. Li'sar, daughter of Garard II and Heir to the Throne of Wesnoth, was crowned Queen and Bearer of the Scepter of Fire, which she would pass on to all her successors."
 msgid "And so the Dark Queen’s reign was ended. Li’sar, daughter of Garard II and Heir to the Throne of Wesnoth, was crowned Queen and Bearer of the Sceptre of Fire, which she would pass on to all her successors."
 msgstr "И тако се оконча страховлада Мрачне краљице. Лиза́ра, кћер Гарарда Другог и насл›иједница престола Веснотовог, б›ијеше крунисана као краљица и Носилац Ватреног жезла, које ће се предавати свим будућим насл›иједницима."
 
@@ -7228,8 +6852,6 @@ msgstr "Током своје дугов›јечне владавине, исп
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/25_HttT_Epilogue.cfg:19
-#, fuzzy
-#| msgid "Delfador became Li'sar's High Counselor, advising her in the most important matters of state. He lived until a ripe old age and was granted a royal funeral, after which he was buried in the Royal Crypt in Weldyn."
 msgid "Delfador became Li’sar’s High Counselor, advising her in the most important matters of state. He lived until a ripe old age and was granted a royal funeral, after which he was buried in the Royal Crypt in Weldyn."
 msgstr "Делфадор је постао Лиза́рин високи сав›јетник, упућујући је у многа важна државничка питања. Дожив‹ио је зрелу старост, и сахрањен са краљевским почастима, на в›јечни починак у краљевској гробници Велдина."
 
@@ -7242,8 +6864,6 @@ msgstr "Каленз се вратио свом дому на с›јеверу,
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/scenarios/25_HttT_Epilogue.cfg:27
-#, fuzzy
-#| msgid "Konrad became a noble in Li'sar's court. He married Li'sar, and together they had two sons and a daughter."
 msgid "Konrad became a noble in Li’sar’s court. He married Li’sar, and together they had two sons and a daughter."
 msgstr "Конрад постаде велможа на Лиза́рином двору. Оженио се Лиза́ром, и подигли су два дечака и кћер."
 
@@ -7409,8 +7029,6 @@ msgstr "уснули грифон"
 #. [unit_type]: id=Sleeping Gryphon, race=gryphon
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/units/Sleeping_Gryphon.cfg:18
-#, fuzzy
-#| msgid "Shhhh! The Gryphon is sleeping! You'd better not wake it up!"
 msgid "Shhhh! The Gryphon is sleeping! You’d better not wake it up!"
 msgstr "Шшш! Грифон спава! Боље ти је да га не пробудиш!"
 
@@ -7549,8 +7167,6 @@ msgstr ""
 #. [object]: id=object_scepter
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/httt_utils.cfg:384
-#, fuzzy
-#| msgid "Scepter of Fire"
 msgid "Sceptre of Fire"
 msgstr "Ватрено жезло"
 
@@ -7593,8 +7209,6 @@ msgstr "Напокон! Жезло је код мене!"
 #. [message]: speaker=Konrad
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/httt_utils.cfg:448
-#, fuzzy
-#| msgid "Indeed. You managed to reach it, Li'sar. I hope you shall use it wisely."
 msgid "Indeed. You managed to reach it, Li’sar. I hope you shall use it wisely."
 msgstr "Уистину. Усп›јела си да га досегнеш, Лиза́ро. Надам се да ћеш га смотрено користити."
 
@@ -7613,18 +7227,14 @@ msgstr "Жезло носиоца чини моћним, али никако б�
 #. [message]: speaker=Li'sar
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/httt_utils.cfg:460
-#, fuzzy
-#| msgid "I think I know what I'm doing. Come, let us go!"
 msgid "I think I know what I’m doing. Come, let us go!"
 msgstr "Мислим да знам шта радим. Хајде, пођимо!"
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/intro.cfg:5
-#, fuzzy
-#| msgid "In the twenty-seventh year of the reign of Garard II, king of Wesnoth, the kingdom was plunged into a bitter war with the Orcs of the North."
 msgid "In the twenty-eighth year of the reign of Garard II, king of Wesnoth, the kingdom was plunged into a bitter war with the Orcs of the North."
-msgstr "У двадесетседму годину владавине Гарарда Другог, краља Веснота, краљевство би гурнуто у огорчени рат са с›јеверним орковима "
+msgstr "У двадесетосму годину владавине Гарарда Другог, краља Веснота, краљевство би гурнуто у огорчени рат са с›јеверним орковима "
 
 #. [part]
 #. +> devel
@@ -7635,16 +7245,12 @@ msgstr "С›јеверњаци се улогорише код Галкадар�
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/intro.cfg:14
-#, fuzzy
-#| msgid "Eldred was a brave and courageous warrior, able to lead his soldiers well. Unfortunately for Garard, his son was also ambitious... and treacherous. In the heat of battle, Eldred's men turned on the king. And so, Garard was slain in battle that day, along with his brother and all his sons but Eldred."
 msgid "Eldred was a brave and courageous warrior, able to lead his soldiers well. Unfortunately for Garard, his son was also ambitious... and treacherous. In the heat of battle, Eldred’s men turned on the king. And so, Garard was slain in battle that day, along with his brother and all his sons but Eldred."
 msgstr "Елдред б›јеше храбар и одважан ратник, и способан да добро води своје војнике. На несрећу по Гарарда, његов син такође б›јеше надобудан... и превртљив. У жестини битке, Елдредови људи се окренуше против краља. И тако, Гарард б›јеше тог дана пос›јечен у бици, заједно са својим братом и свим синовима, осим Елдреда."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/intro.cfg:18
-#, fuzzy
-#| msgid "Garard's queen, Asheviere, looked on with glee, having come to watch the battle from a nearby hill. The rule of her son would surely satisfy her lust for power far better than her husband's had."
 msgid "Garard’s queen, Asheviere, looked on with glee, having come to watch the battle from a nearby hill. The rule of her son would surely satisfy her lust for power far better than her husband’s had."
 msgstr "Гарардова краљица, Ашевира, која је посматрала битку са оближњег брда, то прими са злобном радошћу. Владавина њеног сина, задовољиће њену жудњу за моћи много боље него што је то могла њеног мужа."
 
@@ -7657,16 +7263,12 @@ msgstr "У зам›јену за данак, ратовођ С›јевера �
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/intro.cfg:26
-#, fuzzy
-#| msgid "But Garard's arch-mage, Delfador, had escaped the battle and, riding with haste, reached Weldyn first. He mustered a force of loyalists to fight Eldred and avenge the king's death. The loyalist army marched north to meet Eldred."
 msgid "But Garard’s arch-mage, Delfador, had escaped the battle and, riding with haste, reached Weldyn first. He mustered a force of loyalists to fight Eldred and avenge the king’s death. The loyalist army marched north to meet Eldred."
 msgstr "Али, Гарардов архимаг, Делфадор, б›јеше прежив‹ио битку, и јашући у журби први стиже у Велдин. Тамо сакупи одану војску да се супротстави Елдреду и освети краљеву смрт. Лојалисти похиташе на с›јевер у сусрет Елдреду."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/intro.cfg:30
-#, fuzzy
-#| msgid "Eldred made war upon Delfador and his forces with his mother's advice ringing in his ears: 'Fight no one great or small except the old mage, whose head should be severed from his shoulders.'"
 msgid "Eldred made war upon Delfador and his forces with his mother’s advice ringing in his ears: <i>“Fight no one great or small except the old mage, whose head should be severed from his shoulders.”</i>"
 msgstr "Елдред ступи у бој са Делфадоровим снагама, док му је мајчин сав›јет одјекивао у ушима: „Не удари на великог нити на малог, већ једино на старог мага, коме главу са рамена треба сас›јећи.“"
 
@@ -7679,31 +7281,23 @@ msgstr "И Елдред се заиста суочи са Делфадором �
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/intro.cfg:38
-#, fuzzy
-#| msgid "In the end Delfador's men were defeated and routed, but Asheviere found her son's lifeless body, fixed to the ground by the great mage's staff."
 msgid "In the end Delfador’s men were defeated and routed, but Asheviere found her son’s lifeless body, fixed to the ground by the great mage’s staff."
 msgstr "На концу, Делфадорови људи б‹ијаху поражени и разбијени, али Ашевира нађе беживотно т›ијело свог сина, прибијеног за земљу штапом великог мага."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/intro.cfg:42
-#, fuzzy
-#| msgid "Asheviere herself then took command of the army and led it back to Weldyn. Knowing that the king's young nephews were next in line to the throne, she ordered them all killed, and declared herself Queen of Wesnoth."
 msgid "Asheviere herself then took command of the army and led it back to Weldyn. Knowing that the king’s young nephews were next in line to the throne, she ordered them all killed, and declared herself Queen of Wesnoth."
 msgstr "Ашевира сама преузе запов›једништво над војском и поведе је назад у Велдин. Знајући да су краљеви млади нећаци с‹љедећи по реду за трон, она нареди да се сви побију, а себе прогласи Краљицом Веснота."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/intro.cfg:46
-#, fuzzy
-#| msgid "Soon after news of Asheviere's orders reached Delfador, he secretly entered the palace and stole away Konrad, the youngest of Garard's nephews, thereby saving him from death."
 msgid "Soon after news of Asheviere’s orders reached Delfador, he secretly entered the palace and stole away Konrad, the youngest of Garard’s nephews, thereby saving him from death."
 msgstr "Убрзо пошто вести о Ашевирином наређењу доспеше до Делфадора, он потајно из краљевске палате одведе Конрада, најмлађег од Гарардових нећака, спасивши га тако сигурне смрти."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Heir_To_The_Throne/utils/intro.cfg:50
-#, fuzzy
-#| msgid "Fleeing to the Aethenwood beyond the south-western border of Wesnoth, Delfador raised the child Konrad under the protection of the Elves, watching sadly as Asheviere's reign of terror over the land began..."
 msgid "Fleeing to the Aethenwood beyond the south-western border of Wesnoth, Delfador raised the child Konrad under the protection of the Elves, watching sadly as Asheviere’s reign of terror over the land began..."
 msgstr "Изб›јегавши у Етенвуд, са ону страну југозападне границе Веснота, Делфадор одгајаше Конрада под заштитом вилењака, посматрајући тужно како отпоче Ашеверина страховлада над земљом..."
