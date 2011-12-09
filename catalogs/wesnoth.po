@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2011-12-09 15:37+0100\n"
-"PO-Revision-Date: 2011-11-30 16:11+0100\n"
+"PO-Revision-Date: 2011-12-09 16:37+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -4145,8 +4145,6 @@ msgstr "алијаси:"
 # well-spelled: админ
 #. +> devel
 #: src/menu_events.cpp:2296
-#, fuzzy
-#| msgid "(A) - admin command"
 msgid "(A) — admin command"
 msgstr "(A) — админ. наредба"
 
@@ -4341,8 +4339,6 @@ msgstr "Упит собе."
 # well-spelled: админ
 #. +> devel
 #: src/menu_events.cpp:2502
-#, fuzzy
-#| msgid "(D) - debug only, (N) - network only, (A) - admin only"
 msgid "(D) — debug only, (N) — network only, (A) — admin only"
 msgstr "(D) — само исправљање, (N) — само мрежа, (A) — само админ"
 
@@ -4870,8 +4866,6 @@ msgstr "Веза је истекла."
 
 #. +> devel
 #: src/multiplayer.cpp:239
-#, fuzzy
-#| msgid "The nickname '$nick' is inactive. You cannot claim ownership of this nickname until you activate your account via email or ask an administrator to do it for you."
 msgid "The nickname ‘$nick’ is inactive. You cannot claim ownership of this nickname until you activate your account via email or ask an administrator to do it for you."
 msgstr "Надимак „$nick“ није активан. Не можете тврдити власништво над овим надимком док не активирате свој налог, преко е-поште или захтевом администратору да то уради за вас."
 
@@ -4897,36 +4891,26 @@ msgstr "Морате се прво пријавити."
 
 #. +> devel
 #: src/multiplayer.cpp:337
-#, fuzzy
-#| msgid "The nickname '$nick' is already taken."
 msgid "The nickname ‘$nick’ is already taken."
 msgstr "Надимак „$nick“ већ је заузет."
 
 #. +> devel
 #: src/multiplayer.cpp:339
-#, fuzzy
-#| msgid "The nickname '$nick' contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed."
 msgid "The nickname ‘$nick’ contains invalid characters. Only alpha-numeric characters, underscores and hyphens are allowed."
 msgstr "Надимак „$nick“ садржи лоше знакове. Дозвољена су само слова, бројеви, подвлаке и цртице."
 
 #. +> devel
 #: src/multiplayer.cpp:343
-#, fuzzy
-#| msgid "The nickname '$nick' is too long. Nicks must be 20 characters or less."
 msgid "The nickname ‘$nick’ is too long. Nicks must be 20 characters or less."
 msgstr "Надимак „$nick“ је предугачак. Не може имати више од 20 знакова."
 
 #. +> devel
 #: src/multiplayer.cpp:346
-#, fuzzy
-#| msgid "The nickname '$nick' is reserved and cannot be used by players."
 msgid "The nickname ‘$nick’ is reserved and cannot be used by players."
 msgstr "Надимак „$nick“ је резервисан и играчи га не могу узети."
 
 #. +> devel
 #: src/multiplayer.cpp:348
-#, fuzzy
-#| msgid "The nickname '$nick' is not registered on this server."
 msgid "The nickname ‘$nick’ is not registered on this server."
 msgstr "Надимак „$nick“ није регистрован на овом серверу."
 
@@ -4937,8 +4921,6 @@ msgstr " Овај сервер не дозвољава нерегистрова�
 
 #. +> devel
 #: src/multiplayer.cpp:351 src/multiplayer.cpp:353
-#, fuzzy
-#| msgid "The nickname '$nick' is registered on this server."
 msgid "The nickname ‘$nick’ is registered on this server."
 msgstr "Надимак „$nick“ регистрован је на овом серверу."
 
