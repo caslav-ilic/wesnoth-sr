@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-anl\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2011-11-08 23:49+0100\n"
-"PO-Revision-Date: 2011-12-09 16:46+0100\n"
+"PO-Revision-Date: 2011-12-10 10:16+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -29,10 +29,8 @@ msgstr "4и: Нова земља"
 #. [multiplayer]: id=multiplayer_A_New_Land
 #. +> devel
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:6
-#, fuzzy
-#| msgid "This 4p survival scenario allows you to construct buildings and terraform the land. Use map settings. Recommended starting gold=100."
 msgid "This 4p survival scenario allows you to construct buildings and terraform the land. Use map settings. The recommended starting gold is 100."
-msgstr "Сценарио опстанка за четири играча који дозвољава подизање грађевина и обликовање земље. Употр›ијебите поставке мапе. Препоручено злато на почетку 100."
+msgstr "Сценарио опстанка за четири играча који дозвољава подизање грађевина и обликовање земље. Употр›ијебите поставке мапе. Препоручено злато на почетку је 100."
 
 #. [part]
 #. +> devel
@@ -106,10 +104,8 @@ msgstr "Један од твојих сељака натрапа на нека �
 #. [message]: type=Peasant
 #. +> devel
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:591
-#, fuzzy
-#| msgid "I swear I saw somebody trapped in the spider's web. Maybe we should rescue them?"
 msgid "I swear I saw somebody trapped in the spider’s web. Maybe we should rescue him?"
-msgstr "Кунем се да сам вид‹ио неке ухваћене у пауковој мрежи. Можда би требало да их спасемо?"
+msgstr "Кунем се да сам вид‹ио неког ухваћеног у пауковој мрежи. Можда би требало да га спасемо?"
 
 #. [message]: speaker=narrator
 #. +> devel
@@ -347,43 +343,31 @@ msgstr "Забрињавајуће мало знаш о в›јештини ра
 #. [set_variable]
 #. +> devel
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:250
-#, fuzzy
-#| msgid ""
-#| "$player_name\n"
-#| "Share knowledge of agriculture"
 msgid ""
 "<span color='green'>$player_name</span>\n"
 "Share knowledge of agriculture"
 msgstr ""
-"$player_name\n"
+"<span color='green'>$player_name</span>\n"
 "Под›ијели знање о пољопривреди"
 
 #. [set_variable]
 #. +> devel
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:257
-#, fuzzy
-#| msgid ""
-#| "$player_name\n"
-#| "Share knowledge of mining"
 msgid ""
 "<span color='green'>$player_name</span>\n"
 "Share knowledge of mining"
 msgstr ""
-"$player_name\n"
+"<span color='green'>$player_name</span>\n"
 "Под›ијели знање о рударству"
 
 #. [set_variable]
 #. +> devel
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:264
-#, fuzzy
-#| msgid ""
-#| "$player_name\n"
-#| "Share knowledge of warfare"
 msgid ""
 "<span color='green'>$player_name</span>\n"
 "Share knowledge of warfare"
 msgstr ""
-"$player_name\n"
+"<span color='green'>$player_name</span>\n"
 "Под›ијели знање о ратовању"
 
 #. [message]: speaker=unit
@@ -410,15 +394,11 @@ msgstr "Ништа"
 #. [option]: speaker=unit
 #. +> devel
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:315
-#, fuzzy
-#| msgid ""
-#| "Donate Funds\n"
-#| "Give 20 gold to another player"
 msgid ""
 "<span color='green'>Donate Funds</span>\n"
 "Give 20 gold to another player"
 msgstr ""
-"Приложи средства\n"
+"<span color='green'>Приложи средства</span>\n"
 "Подај 20 златника другом играчу"
 
 #. [message]: speaker=unit
@@ -437,15 +417,11 @@ msgstr "Назад"
 #. [option]: speaker=unit
 #. +> devel
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:359
-#, fuzzy
-#| msgid ""
-#| "Share Knowledge\n"
-#| "Help an ally with their research"
 msgid ""
 "<span color='green'>Share Knowledge</span>\n"
 "Help an ally with their research"
 msgstr ""
-"Подели знање\n"
+"<span color='green'>Подели знање</span>\n"
 "Помози савезника у његовом истраживању"
 
 #. [message]: speaker=unit
@@ -457,34 +433,24 @@ msgstr "С ким ћеш под›ијелити своја сазнања?"
 #. [option]: speaker=unit
 #. +> devel
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:417
-#, fuzzy
-#| msgid ""
-#| "Negotiate with the Dwarves\n"
-#| "Lets you recruit a Dwarvish unit\n"
-#| "Negotiation Progress: $player_$side_number|.leader_option_1.progress|/$player_$side_number|.leader_option_1.target"
 msgid ""
 "<span color='green'>Negotiate with the Dwarves</span>\n"
 "Lets you recruit a Dwarvish unit\n"
 "Negotiation Progress: $player_$side_number|.leader_option_1.progress|/$player_$side_number|.leader_option_1.target"
 msgstr ""
-"Преговарај са патуљцима\n"
+"<span color='green'>Преговарај са патуљцима</span>\n"
 "Омогућава најамљивање патуљачке јединице\n"
 "Напредак преговора: $player_$side_number|.leader_option_1.progress|/$player_$side_number|.leader_option_1.target"
 
 #. [option]: speaker=unit
 #. +> devel
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:472
-#, fuzzy
-#| msgid ""
-#| "Negotiate with the Elves\n"
-#| "Lets you recruit an Elvish unit\n"
-#| "Negotiation Progress: $player_$side_number|.leader_option_2.progress|/$player_$side_number|.leader_option_2.target"
 msgid ""
 "<span color='green'>Negotiate with the Elves</span>\n"
 "Lets you recruit an Elvish unit\n"
 "Negotiation Progress: $player_$side_number|.leader_option_2.progress|/$player_$side_number|.leader_option_2.target"
 msgstr ""
-"Преговарај са вилењацима\n"
+"<span color='green'>Преговарај са вилењацима</span>\n"
 "Омогућава најамљивање вилењачке јединице\n"
 "Напредак преговора: $player_$side_number|.leader_option_2.progress|/$player_$side_number|.leader_option_2.target"
 
@@ -546,19 +512,13 @@ msgstr "Истраживање"
 #. [message]: speaker=unit
 #. +> devel
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:144
-#, fuzzy
-#| msgid ""
-#| "We are currently studying $player_$side_number|.research.current_target|. To which end would you have our scholars devote their minds?\n"
-#| "\n"
-#| "Our farms produce $player_$side_number|.farming.gold|g\n"
-#| "Our mines produce $player_$side_number|.mining.gold|g\n"
 msgid ""
 "We are currently studying $player_$side_number|.research.target_language_name|. To which end would you have our scholars devote their minds?\n"
 "\n"
 "Our farms produce $player_$side_number|.farming.gold|g\n"
 "Our mines produce $player_$side_number|.mining.gold|g\n"
 msgstr ""
-"Тренутно проучавамо $player_$side_number|.research.current_target|. Којем циљу желиш да наши учењаци посвете своје мисли?\n"
+"Тренутно проучавамо $player_$side_number|.research.target_language_name|. Којем циљу желиш да наши учењаци посвете своје мисли?\n"
 "\n"
 "Наше фарме производе $player_$side_number|.farming.gold| зл.\n"
 "Наши рудници производе $player_$side_number|.mining.gold| зл.\n"
@@ -572,17 +532,12 @@ msgstr "Настави као и до сада"
 #. [option]: speaker=unit
 #. +> devel
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:167
-#, fuzzy
-#| msgid ""
-#| "Agriculture\n"
-#| "Farmers produce +1 gold\n"
-#| "Study Progress: $player_$side_number|.farming.progress|/$player_$side_number|.farming.target"
 msgid ""
 "<span color='green'>Agriculture</span>\n"
 "Farmers produce +1 gold\n"
 "Study Progress: $player_$side_number|.farming.progress|/$player_$side_number|.farming.target"
 msgstr ""
-"Пољопривреда\n"
+"<span color='green'>Пољопривреда</span>\n"
 "Земљорадници да производе +1 зл.\n"
 "Напредак проучавања: $player_$side_number|.farming.progress|/$player_$side_number|.farming.target"
 
@@ -597,17 +552,12 @@ msgstr "пољопривреда"
 #. [option]: speaker=unit
 #. +> devel
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:178
-#, fuzzy
-#| msgid ""
-#| "Mining\n"
-#| "Miners produce +1 gold\n"
-#| "Study Progress: $player_$side_number|.mining.progress|/$player_$side_number|.mining.target"
 msgid ""
 "<span color='green'>Mining</span>\n"
 "Miners produce +1 gold\n"
 "Study Progress: $player_$side_number|.mining.progress|/$player_$side_number|.mining.target"
 msgstr ""
-"Рударство\n"
+"<span color='green'>Рударство</span>\n"
 "Рудари да производе +1 зл.\n"
 "Напредак проучавања: $player_$side_number|.mining.progress|/$player_$side_number|.mining.target"
 
@@ -620,17 +570,12 @@ msgstr "рударство"
 #. [option]: speaker=unit
 #. +> devel
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:189
-#, fuzzy
-#| msgid ""
-#| "Warfare\n"
-#| "Allows you to recruit a new type of unit\n"
-#| "Study Progress: $player_$side_number|.warfare.progress|/$player_$side_number|.warfare.target"
 msgid ""
 "<span color='green'>Warfare</span>\n"
 "Allows you to recruit a new type of unit\n"
 "Study Progress: $player_$side_number|.warfare.progress|/$player_$side_number|.warfare.target"
 msgstr ""
-"Ратовање\n"
+"<span color='green'>Ратовање</span>\n"
 "Могућност најамљивања новог типа јединица\n"
 "Напредак проучавања: $player_$side_number|.warfare.progress|/$player_$side_number|.warfare.target"
 

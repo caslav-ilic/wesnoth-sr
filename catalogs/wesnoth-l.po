@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-l\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2011-11-28 00:56+0100\n"
-"PO-Revision-Date: 2011-12-09 16:46+0100\n"
+"PO-Revision-Date: 2011-12-10 10:16+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -83,10 +83,8 @@ msgstr "б›јегунац"
 #. "marchlander" is archaic English for an inhabitant of a border region.
 #. +> devel
 #: data/campaigns/Liberty/_main.cfg:27
-#, fuzzy
-#| msgid "(Intermediate level, 9 scenarios)"
 msgid "(Intermediate level, 8 scenarios.)"
-msgstr "(Средњи ниво, 9 сценарија)"
+msgstr "(Средњи ниво, 8 сценарија.)"
 
 #. [campaign]: id=Liberty
 #. Yes, that is "marchlanders", not "marshlanders".
@@ -567,10 +565,8 @@ msgstr "Харпере, б›јежи одавд›је. Ово није бој 
 #. [message]: speaker=Baldras
 #. +> devel
 #: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:202
-#, fuzzy
-#| msgid "I am the magistrate of Dallben, and it is YOU who will be leaving Dallben, be it dead or alive."
 msgid "I am the magistrate of Dallben, and it is <i>you</i> who will be leaving Dallben, be it dead or alive."
-msgstr "Ја сам судија у Далбену, и ТИ си тај који ће га напустити, жив или мртав, како изволиш."
+msgstr "Ја сам судија у Далбену, и <i>ти</i> си тај који ће га напустити, жив или мртав, како изволиш."
 
 #. [message]: speaker=Tarwen
 #. +> devel
@@ -636,7 +632,7 @@ msgstr "Стратегија наде"
 #. +> devel
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:43
 msgid "Relana"
-msgstr ""
+msgstr "Релана"
 
 # |, no-check-spell
 #. [side]: type=Orcish Warrior, id=Urk Delek
@@ -675,18 +671,14 @@ msgstr "Поразиш ли оба непријатељска вођа"
 #. [objective]: condition=lose
 #. +> devel
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:139
-#, fuzzy
-#| msgid "Death of Relnan"
 msgid "Death of Relana"
-msgstr "Настрада ли Релнан"
+msgstr "Настрада ли Релана"
 
 #. [message]: speaker=Baldras
 #. +> devel
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:177
-#, fuzzy
-#| msgid "Relnan, thank you for welcoming our messenger and agreeing to meet with us. In your many years as Delwyn's magistrate I have never known your judgment to err."
 msgid "Relana, thank you for welcoming our messenger and agreeing to meet with us. In your many years as Delwyn’s magistrate I have never known your judgment to err."
-msgstr "Релнане, хвала ти што си примио нашег гласника и пристао на сусрет. За све твоје године службовања у Делвину, не познах да си једном криво поступио."
+msgstr "Релана, хвала ти што си примила нашег гласника и пристала на сусрет. За све твоје године службовања у Делвину, не познах да си једном криво поступила."
 
 #. [message]: speaker=Relana
 #. +> devel
@@ -698,7 +690,7 @@ msgstr "Дуго се не вид›јесмо, пријатељу стари. �
 #. +> devel
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:185
 msgid "You do not understand. We attacked a Wesnoth army patrol. Not only that, the leader was no man I had ever seen in Annuvin province before. Never has one been sent out here as a patrol captain who was so ruthless and cruel."
-msgstr "Ниси разумео. Ударисмо на извидницу веснотске војске. Не само то, већ им је вођ био чов›јек којег никада пр›ије не вид›јех у покрајини Анувин. Још не б›ијеше послат овамо као капетан извиднице неко тако немилосрдан и окрутан."
+msgstr "Ниси разумела. Ударисмо на извидницу веснотске војске. Не само то, већ им је вођ био чов›јек којег никада пр›ије не вид›јех у покрајини Анувин. Још не б›ијеше послат овамо као капетан извиднице неко тако немилосрдан и окрутан."
 
 #. [message]: speaker=Harper
 #. +> devel
@@ -733,8 +725,6 @@ msgstr "Слажем се. Али, Балдрасе, шта ћеш му збор
 #. [message]: speaker=Baldras
 #. +> devel
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:209
-#, fuzzy
-#| msgid "We need evidence. Hard evidence...but wait, are those orcish war drums I hear?"
 msgid "We need evidence. Hard evidence... but wait— Are those orcish war drums I hear?"
 msgstr "Потребни су нам докази. Чврсти докази... Чек, чујем ли ја то орковске ратне бубњеве?"
 
@@ -778,8 +768,6 @@ msgstr "Тако је. А и злато у њиховим торбицама и�
 #. [message]: speaker=Baldras
 #. +> devel
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:251
-#, fuzzy
-#| msgid "Can the darkest rumors be true, then? Does the Kingdom...does Queen Asheviere...send orcs against her own people?"
 msgid "Can the darkest rumors be true, then? Does the Kingdom— Does Queen Asheviere... send orcs against her own people?"
 msgstr "Могу ли најмрачније гласине бити истините? Да ли краљевство... да ли то краљица Ашевира... шаље орке против сопственог народа?"
 
@@ -792,18 +780,14 @@ msgstr "Мислим да је твоје посланство господар�
 #. [message]: speaker=Baldras
 #. +> devel
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:273
-#, fuzzy
-#| msgid "We have tarried here for far too long... there is no way we can reach Elensefar and return with help before the Wesnoth army destroys our homes. Retreat!!"
 msgid "We have tarried here for far too long... There is no way we can reach Elensefar and return with help before the Wesnoth army destroys our homes. Retreat!!"
 msgstr "Превише смо одуговлачили... Нема нам више изгледа да досегнемо Еленсефар и доведемо помоћ пр›ије него што нам веснотска војска уништи домове. Повлачење!"
 
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:279
-#, fuzzy
-#| msgid "Baldras and Relnan returned to their villages to find them destroyed, with those who fought left dead and the few survivors born away to unguessable fates. It was a bitter doom, and as Wesnoth descended into darkness they would live to see worse."
 msgid "Baldras and Relana returned to their villages to find them destroyed, with those who fought left dead and the few survivors born away to unguessable fates. It was a bitter doom, and as Wesnoth descended into darkness they would live to see worse."
-msgstr "Балдрас и Релнан вратише се у своја села да би их затекли разрушена, са свима који се борише мртвим, а малобројним прежив›јелима одведеним у незамисливе судбине. Б›ијеше то горка клетва, и док Веснот буде понирао у таму, дожив›јеће да виде још горе."
+msgstr "Балдрас и Релана вратише се у своја села да би их затекли разрушена, са свима који се борише мртвим, а малобројним прежив›јелима одведеним у незамисливе судбине. Б›ијеше то горка клетва, и док Веснот буде понирао у таму, дожив›јеће да виде још горе."
 
 #. [scenario]: id=04_Unlawful_Orders
 #. +> devel
@@ -858,16 +842,12 @@ msgstr "Ротел"
 #. [message]: speaker=Lord Maddock
 #. +> devel
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:190
-#, fuzzy
-#| msgid "Baldras, your trip here was not wise. The Queen's patrols have been visiting the local villages and bringing the elders here. Those that swear allegiance to the Queen are allowed to return home. Those that do not..."
 msgid "Baldras, your trip here was not wise. The Queen’s patrols have been visiting the local villages and bringing the elders here. Those that swear allegiance to the Queen are allowed to return home. Those that do not—"
 msgstr "Балдрасе, није ти било мудро запутити се овамо. Краљичине извиднице свраћају по селима и доводе овамо њихове стар›јешине. Оне који се закуну краљици на оданост пуштају да се врате кућама. Оне који то не учине..."
 
 #. [message]: speaker=Baldras
 #. +> devel
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:194
-#, fuzzy
-#| msgid "...are dispatched on the spot. I know the price of dissent. But what of you?"
 msgid "— Are dispatched on the spot. I know the price of dissent. But what of you?"
 msgstr "...ликвидирају на лицу м›јеста. Позната ми је ц›ијена непослушности. Али шта је с тобом?"
 
@@ -892,8 +872,6 @@ msgstr "Хоћу. Краљица се домогла пр›ијестола к�
 #. [message]: speaker=Lord Maddock
 #. +> devel
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:210
-#, fuzzy
-#| msgid "We have an uneasy peace until they are done with the smaller villages and finally come around to obtaining my oath. The treaty between Elensefar and Wesnoth is ancient, but I am not so naive as to place my full trust in it. Not in these wicked times."
 msgid "We have an uneasy peace until they are done with the smaller villages and finally come around to obtaining my oath. The treaty between Elensefar and Wesnoth is ancient, but I am not so naïve as to place my full trust in it. Not in these wicked times."
 msgstr "У мучном смо миру док не сврше са мањим насеобинама те коначно дођу овамо затражити моју заклетву. Споразум између Еленсефара и Веснота древан је, али нисам толико наиван да се потпуно поуздам у њ. Не у ова изопачена времена."
 
@@ -1087,10 +1065,8 @@ msgstr "Харпере, ви млађи и бржи сада нам морате
 #. [message]: speaker=Harper
 #. +> devel
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:658
-#, fuzzy
-#| msgid "They've seen us, RUN!"
 msgid "They’ve seen us! <i>Run</i>!"
-msgstr "Видеше нас, б›јеж'!"
+msgstr "Видеше нас, <i>б›јеж’</i>!"
 
 #. [message]: speaker=Baldras
 #. +> devel
@@ -1137,10 +1113,8 @@ msgstr "Похитајмо, и још им можемо избећи у С›ј�
 #. [message]: speaker=Baldras
 #. +> devel
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:753
-#, fuzzy
-#| msgid "Lead the way..."
 msgid "Lead the way."
-msgstr "Поведи онда..."
+msgstr "Поведи онда."
 
 #. [message]: speaker=Baldras
 #. +> devel
@@ -1240,10 +1214,8 @@ msgstr "Не желимо. Ви сте потражили нас. Али, поз
 #. [message]: speaker=Helicrom
 #. +> devel
 #: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:264
-#, fuzzy
-#| msgid "Carcyn is always foggy as of late because these woods have recently become home to a lich and two of its underling necromancers. Our experiments may have actually aroused it from sleep... we're not exactly sure."
 msgid "Carcyn is always foggy as of late because these woods have recently become home to a lich and two of its underling necromancers. Our experiments may have actually aroused it from sleep... We’re not exactly sure."
-msgstr "У пос‹љедње вр›ијеме Карсин је непрекидно магловит, јер ове шуме недавно постадоше дом једном косцу и двојици његових поданичких некроманата. Можда су га баш наши експерименти разбудили... нисмо сасвим сигурни."
+msgstr "У пос‹љедње вр›ијеме Карсин је непрекидно магловит, јер ове шуме недавно постадоше дом једном косцу и двојици његових поданичких некроманата. Можда су га баш наши експерименти разбудили... Нисмо сасвим сигурни."
 
 #. [message]: speaker=Baldras
 #. +> devel
@@ -1254,8 +1226,6 @@ msgstr "Тако да сада морате бранити и своју поз�
 #. [message]: speaker=Helicrom
 #. +> devel
 #: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:293
-#, fuzzy
-#| msgid "Finally that creature is dead, yet its foolish minions resist."
 msgid "Finally, that creature is dead, yet its foolish minions resist."
 msgstr "Напокон је то створење мртво, па ипак се његови будаласти поданици опиру."
 
@@ -1352,8 +1322,6 @@ msgstr "Рад сам да нам се придружиш у борби прот
 #. [message]: speaker=Helicrom
 #. +> devel
 #: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:415
-#, fuzzy
-#| msgid "Alright. I need time to clean up this forest and recall my men from the countryside. We will be ready to march in 7 days. All now hinges on you! Until then..."
 msgid "All right. I need time to clean up this forest and recall my men from the countryside. We will be ready to march in seven days. All now hinges on you! Until then..."
 msgstr "Нека буде. Требаће нешто времена да почистимо шуму и сазовемо људе из оближњих крајева. За седам дана бићемо спремни за покрет. Сада све зависи од тебе! До тада..."
 
@@ -1384,12 +1352,12 @@ msgstr "Док су напредовали, многи мушкарци и же�
 #. [part]
 #. +> devel
 #: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:31
-#, fuzzy
-#| msgid "Knowing they too would be labeled criminals, he reluctantly accepted their help. (Baldras is now able to recruit outlaws.)"
 msgid ""
 "Knowing they too would be labeled criminals, he reluctantly accepted their help.\n"
 "<b>Note:</b> Baldras is now able to recruit Outlaws."
-msgstr "Знајући да ће и сами бити проказани као разбојници, Балдрас с окл›ијевањем прихвати њихову помоћ. [Балдрас сада може да најми одметнике.]"
+msgstr ""
+"Знајући да ће и сами бити проказани као разбојници, Балдрас с окл›ијевањем прихвати њихову помоћ.\n"
+"<b>Напомена:</b> Балдрас сада може да најми одметнике."
 
 #. [part]
 #. +> devel
@@ -1439,8 +1407,6 @@ msgstr "Р›ијечи господара Мадока тешко ме прит
 #. [message]: speaker=Harper
 #. +> devel
 #: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:158
-#, fuzzy
-#| msgid "What's worse is that she appears to have taken notice. We have counted five platoons of heavy infantry marching towards the garrison in just the last 2 hours."
 msgid "What’s worse is that she appears to have taken notice. We have counted five platoons of heavy infantry marching towards the garrison in just the last two hours."
 msgstr "Што је још горе, чини се да је почела да обраћа пажњу. Избројасмо пет одреда тешке п›јешадије у покрету ка гарнизону, само за протекла два сата."
 
@@ -1460,11 +1426,9 @@ msgstr "Пичер"
 #. [message]: speaker=Pitcher
 #. +> devel
 #: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:172
-#, fuzzy
-#| msgid "(Baldras!)"
 msgctxt "whisper"
 msgid "<i>Baldras!</i>"
-msgstr "(Балдрасе!)"
+msgstr "<i>Балдрасе!</i>"
 
 #. [message]: speaker=Harper
 #. +> devel
@@ -1481,10 +1445,8 @@ msgstr "Коњаниче, умукни пр›ије него што на отк
 #. [message]: speaker=Pitcher
 #. +> devel
 #: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:187
-#, fuzzy
-#| msgid "Master Baldras, I bring news from the north. During the past week, several patrols have again ventured across the Great River into Annuvin. A man named Relnan opposed them with a small militia. He was victorious."
 msgid "Master Baldras, I bring news from the north. During the past week, several patrols have again ventured across the Great River into Annuvin. A woman named Relana opposed them with a small militia. She was victorious."
-msgstr "Господару Балдрасе, долазим с в›ијестима са с›јевера. Током протекле седмице, неколико извидница је поново зашло преко Велике р›ијеке, у Анувин. Супротставио им се један по имену Релнан, с нешто милиције. И надвладао их."
+msgstr "Господару Балдрасе, долазим с в›ијестима са с›јевера. Током протекле седмице, неколико извидница је поново зашло преко Велике р›ијеке, у Анувин. Супротставила им се једна по имену Релана, с нешто милиције. И надвладала их."
 
 #. [message]: speaker=Majel
 #. +> devel
@@ -1561,8 +1523,6 @@ msgstr "Ау! Врело! Не гази по ватри!"
 #. [message]: speaker=Baldras
 #. +> devel
 #: data/campaigns/Liberty/scenarios/07_The_Hunters.cfg:344
-#, fuzzy
-#| msgid "What a bloody mess. We must attack Halstead next. If we wait, they will become invincible. If we can burn it to the ground before that happens, our people may have a chance. Rest well tonight, because tomorrow's battle will decide the fate of our homes, our families, and our freedom."
 msgid "What a bloody mess. We must attack Halstead next. If we wait, they will become invincible. If we can burn it to the ground before that happens, our people may have a chance. Rest well tonight, because tomorrow’s battle will decide the fate of our homes, our families, and our freedom."
 msgstr "Какав крвави неред. Сад одмах морамо ударити на Халстед. Окл›ијевамо ли, постаће непоб›једиви. Ако га спалимо до темеља пр›ије него што дотле дође, наш народ још може имати изгледа. Добро се вечерас одморите, јер ће сутрашњи бој одлучити судбине наших домова, породица, и наше слободе."
 
@@ -1587,10 +1547,8 @@ msgstr "Слава"
 #. [part]
 #. +> devel
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:25
-#, fuzzy
-#| msgid "In the Year of Wesnoth 161, 338 years before Asheviere's betrayal, the newly crowned king sought to make safe once and for all the wildlands that separated the human cities surrounding Weldyn and the coastal regions of Elensefar."
 msgid "In the Year of Wesnoth 161, the newly crowned king sought to tame the wildlands that separated the human cities surrounding Weldyn and the coastal regions of Elensefar once and for all."
-msgstr "Године Веснота 161, 338 година пр›ије Ашевирине издаје, новокрунисани краљ пожеле да учини безб›једном, једном и за свагда, дивљину која раздвајаше људске градове око Велдина и приобална подручја Еленсефара."
+msgstr "Године Веснота 161, новокрунисани краљ пожеле да укроти дивљину која раздвајаше људске градове око Велдина и приобална подручја Еленсефара, једном за свагда."
 
 #. [part]
 #. +> devel
@@ -1782,10 +1740,8 @@ msgstr "Огласи наступање!"
 #. [message]: speaker=Sir Gwydion
 #. +> devel
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:572
-#, fuzzy
-#| msgid "Knights of Elensefar, behold: the battle has already begun! Make camp here. Then, we CHARGE!"
 msgid "Knights of Elensefar, behold: the battle has already begun! Make camp here. Then, we charge!"
-msgstr "Витезови Еленсефара, почујте: бој је већ отпочео! Улогоримо се овд›је, а онда... На јуриш!"
+msgstr "Витезови Еленсефара, почујте: бој је већ отпочео! Улогоримо се овд›је, а онда... на јуриш!"
 
 #. [message]: speaker=Baldras
 #. +> devel
@@ -1850,18 +1806,14 @@ msgstr "Не можемо остати овд›је. Тврђава само ш
 #. [message]: speaker=Baldras
 #. +> devel
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:806
-#, fuzzy
-#| msgid "I think it's working! Everybody get clear NOW!"
 msgid "I think it’s working! Everybody get clear <i>now</i>!"
-msgstr "Мислим да ради! Сви на чистац, одмах!"
+msgstr "Мислим да ради! Сви на чистац, <i>одмах</i>!"
 
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:830
-#, fuzzy
-#| msgid "With a thunderous earthquake and a vast billowing of dust, thousands of tons of stone and wood crashed in on itself. Some of it tumbled down the steep sides, while the remainder came to rest several hundred feet below ground, in the bowels of the hollowed-out mountain."
 msgid "With a thunderous roar and a vast billowing of dust, thousands of tons of stone and wood crashed in on itself. Some of it tumbled down the steep sides, while the remainder came to rest several hundred feet below ground, in the bowels of the hollowed-out mountain."
-msgstr "Уз громогласне потресе и неизм›ијерне клобуке прашине, хиљаде тона камена и дрвета уруши се само у себе. Нешто се прели преко обронака, а остатак се сурва неколико стотина стопа под земљу, у гротло издубљене планине."
+msgstr "Уз громогласну рику и неизм›ијерне клобуке прашине, хиљаде тона камена и дрвета уруши се само у себе. Нешто се прели преко обронака, а остатак се сурва неколико стотина стопа под земљу, у гротло издубљене планине."
 
 #. [message]: speaker=narrator
 #. +> devel
@@ -1903,8 +1855,6 @@ msgstr "Наш сан о слободи... крај му... уухх."
 #. [message]: speaker=narrator
 #. +> devel
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:956
-#, fuzzy
-#| msgid "The rebellion had stakes its all on victory at Halstead, but win or lose, there would be no help for the villagers, ground beneath the wheels of Asheviere's wrath."
 msgid "The rebellion had staked its all on victory at Halstead, but win or lose, there would be no help for the villagers, ground beneath the wheels of Asheviere’s wrath."
 msgstr "Бунџије све положише на поб›једу код Халстеда, али добију ли или изгубе, неће бити спаса сељанима, сам‹љевеним под точковима Ашевириног б›ијеса."
 
@@ -1960,10 +1910,8 @@ msgstr "Није ово ни случајно мала поб›једа. Пот
 #. [message]: speaker=Dommel
 #. +> devel
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:1066
-#, fuzzy
-#| msgid "You... underestimate the... cruelty and ambition of your Queen... unngh.."
 msgid "You... underestimate the... cruelty and ambition of your Queen... Uungh..."
-msgstr "Ти... потц›јењујеш... окрутност и славољубље своје краљице... ууррх."
+msgstr "Ти... потц›јењујеш... окрутност и славољубље своје краљице... ууррх..."
 
 #. [message]: speaker=Baldras
 #. +> devel
@@ -2022,26 +1970,20 @@ msgstr "Сељаци преобраћени у одметнике напокон
 #. [part]
 #. +> devel
 #: data/campaigns/Liberty/scenarios/09_Epilogue.cfg:36
-#, fuzzy
-#| msgid "...a grimy note nailed to a charred post that read, 'Baldras, You would have been proud. We gave 'em hell. But in the end, it wasn't enough.'"
 msgid "... a grimy note nailed to a charred post that read, <i>“Baldras, You would have been proud. We gave ’em hell. But in the end, it wasn’t enough.”</i>"
 msgstr "...суморну поруку прикуцану на угарак стуба, која је гласила: „Балдрасе, био би поносан. Увукли смо их у пакао. Али на крају, није било довољно.“"
 
 #. [part]
 #. +> devel
 #: data/campaigns/Liberty/scenarios/09_Epilogue.cfg:40
-#, fuzzy
-#| msgid "'We fled like criminals in the night, but we made sure that no one would harass us anymore.'"
 msgid "<i>“We fled like criminals in the night, but we made sure that no one would harass us anymore.”</i>"
 msgstr "„Утекли смо као разбојници у ноћ, али смо се побринули да нас нико више не узнемирава.“"
 
 #. [part]
 #. +> devel
 #: data/campaigns/Liberty/scenarios/09_Epilogue.cfg:44
-#, fuzzy
-#| msgid "'If you wish to find us, head southwest. When you reach the land's end, just keep going. See you in the Three Sisters, old friend. - Relnan' "
 msgid "<i>“If you wish to find us, head southwest. When you reach the land’s end, just keep going. See you in the Three Sisters, old friend. ― Relana”</i>"
-msgstr "„Ако желиш да нас пронађеш, пођи на југозапад. Кад достигнеш крај земље, настави даље. Видимо се у Три сестре, стари пријатељу. — Релнан“"
+msgstr "„Ако желиш да нас пронађеш, пођи на југозапад. Кад достигнеш крај земље, настави даље. Видимо се у Три сестре, стари пријатељу. — Релана“"
 
 #. [unit_type]: id=Bone Knight, race=undead
 #. +> devel
@@ -2151,8 +2093,6 @@ msgstr "маг с›ијенке"
 #. [unit_type]: id=Shadow Mage, race=human
 #. +> devel
 #: data/campaigns/Liberty/units/Shadow_Mage.cfg:22
-#, fuzzy
-#| msgid "Years of violence and brutality to support the study of forbidden magical arts have turned the shadow mages into feared fighters. Now completely enthralled with power, they have been known to command small followings of henchmen. They are outmatched in direct magical combat with their magic-using peers, instead channeling their energies into devestating melee attacks. Despite their offensive power, the corruption in their souls has begun to adversely affect their health."
 msgid "Years of violence and brutality to support the study of forbidden magical arts have turned the shadow mages into feared fighters. Now completely enthralled with power, they have been known to command small followings of henchmen. They are outmatched in direct magical combat with their magic-using peers, instead channeling their energies into devastating melee attacks. Despite their offensive power, the corruption in their souls has begun to adversely affect their health."
 msgstr "Године насиља и окрутности како би истрајали у изучавању забрањених магијских в›јештина претвориле су магове с›ијенке у застрашујуће борце. Сада потпуно обдарени моћи, зна се да запов›иједају малим групама најамника. Како их у непосредној магијског борби њихови чисто-магијски парњаци могу их надмашити, често усредсређују свој напор у разарајуће нападе прса у прса. Упркос свој јуришној моћи, исквареност у њиховим душама почела је да им нагриза здравље."
 
@@ -2207,11 +2147,9 @@ msgstr "Ц›ијело се село обраћа вишем стар›јеш�
 #. [female]
 #. +> devel
 #: data/campaigns/Liberty/units/Villagers.cfg:58
-#, fuzzy
-#| msgid "Senior Village Elder"
 msgctxt "female"
 msgid "Senior Village Elder"
-msgstr "виши сеоски стар›јешина"
+msgstr "виша сеоска стар›јешиница"
 
 #. [unit_type]: id=Footpad_Peasant
 #. +> devel
