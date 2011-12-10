@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-sotbe\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2011-11-28 00:57+0100\n"
-"PO-Revision-Date: 2011-12-09 16:47+0100\n"
+"PO-Revision-Date: 2011-12-10 09:11+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -108,18 +108,14 @@ msgstr "Графички дизајн и графика"
 #. [scenario]: id=01_End_of_Peace
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/01_End_of_Peace.cfg:4
-#, fuzzy
-#| msgid "End Of Peace"
 msgid "End of Peace"
 msgstr "Крај мира"
 
 #. [objective]: condition=win
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/01_End_of_Peace.cfg:22
-#, fuzzy
-#| msgid "Defeat Albert"
 msgid "Defeat Alber"
-msgstr "Поразиш ли Алберта"
+msgstr "Поразиш ли Албера"
 
 #. [objective]: condition=lose
 #. +> devel
@@ -208,10 +204,8 @@ msgstr "Капуе"
 #. [side]: type=Lieutenant, id=Alber
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/01_End_of_Peace.cfg:73
-#, fuzzy
-#| msgid "Albert"
 msgid "Alber"
-msgstr "Алберт"
+msgstr "Албер"
 
 #. [side]: type=Lieutenant, id=Alber
 #. [side]: type=General, id=Lanbec'h
@@ -230,8 +224,6 @@ msgstr "Људи"
 #. [part]
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/01_End_of_Peace.cfg:102
-#, fuzzy
-#| msgid "Rahul I, Lord Protector of the Northern Alliance, concluded peace with enemy orcs during the 4th year of his leadership. He ended a 15-year war with Black-Eye Karun, ruler of the enemy orcs. A peace treaty between the Alliance and the orcs settled their territorial disputes."
 msgid "Rahul I, Lord Protector of the Northern Alliance, concluded peace with enemy orcs during the fourth year of his leadership. He ended a 15-year war with Black-Eye Karun, ruler of the enemy orcs. A peace treaty between the Alliance and the orcs settled their territorial disputes."
 msgstr "Рахул Први, господар заштитник С›јеверњачког савеза, закључи мир са орковским непријатељем током четврте године својег вођства. Тиме оконча петнаестогодишњи рат са Црнооким Каруном, орковским владаром. Мировним споразумом разр›ијешише се територијални спорови."
 
@@ -256,18 +248,14 @@ msgstr "У тринаесту годину господар-заштитништ
 #. [part]
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/01_End_of_Peace.cfg:123
-#, fuzzy
-#| msgid "Retaliating, the orcs systematically slaughtered human colonies and villages on their lands. Then, Earl Lanbec'h - the most powerful human warlord of the North - determined to abolish the orcish menace raised an army and conferred leadership of it to his son-in-law Baron Albert."
 msgid "Retaliating, the orcs systematically slaughtered human colonies and villages on their lands. Then, Earl Lanbec’h — the most powerful human warlord of the North — determined to abolish the orcish menace raised an army and conferred leadership of it to his son-in-law Baron Alber."
-msgstr "За одмазду, оркови кренуше темељно да разарају људске насеобине и села у својим земљама. Жупан Ланбек, најмоћнији људски ратовођ С›јевера, одлучан да оконча орковску пр›ијетњу подиже војску и на њено чело постави свога зета, барона Алберта."
+msgstr "За одмазду, оркови кренуше темељно да разарају људске насеобине и села у својим земљама. Жупан Ланбек, најмоћнији људски ратовођ С›јевера, одлучан да оконча орковску пр›ијетњу подиже војску и на њено чело постави свога зета, барона Албера."
 
 #. [part]
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/01_End_of_Peace.cfg:128
-#, fuzzy
-#| msgid "Baron Albert personally led a small vanguard with the mission to establish a base inside orcish lands."
 msgid "Baron Alber personally led a small vanguard with the mission to establish a base inside orcish lands."
-msgstr "Барон Алберт лично поведе малу претходницу, са задатком да успоставе упориште унутар орковских земаља."
+msgstr "Барон Албер лично поведе малу претходницу, са задатком да успоставе упориште унутар орковских земаља."
 
 #. [part]
 #. +> devel
@@ -314,10 +302,8 @@ msgstr "Враг"
 #. [message]: speaker=Vrag
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/01_End_of_Peace.cfg:205
-#, fuzzy
-#| msgid " *pant* Chief! Chief!"
 msgid "(<i>Pant</i>) Chief! Chief!"
-msgstr "[задихано] Поглавице! Поглавице!"
+msgstr "[<i>задихано</i>] Поглавице! Поглавице!"
 
 #. [message]: speaker=Kapou'e
 #. +> devel
@@ -497,16 +483,12 @@ msgstr "Мој отац је често причао о врачевима Ве�
 #. [message]: speaker=Kapou'e
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/02_The_Human_Army.cfg:170
-#, fuzzy
-#| msgid " $stored_helper.name|!"
 msgid "$stored_helper.name|!"
-msgstr " $stored_helper.name|!"
+msgstr "$stored_helper.name|!"
 
 #. [message]: role=Helper
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/02_The_Human_Army.cfg:175
-#, fuzzy
-#| msgid "Yeah Chief?"
 msgid "Yeah, Chief?"
 msgstr "Да, поглавице?"
 
@@ -581,10 +563,8 @@ msgstr "Преведеш ли Капуа до руба планина"
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/03_Toward_Mountains_of_Haag.cfg:35
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/03_Toward_Mountains_of_Haag.cfg:286
-#, fuzzy
-#| msgid "Defeat all enemy leaders"
 msgid "Defeat the enemy leader"
-msgstr "Поразиш ли све непријатељске вође"
+msgstr "Поразиш ли непријатељског вођа"
 
 # |, no-check-spell
 #. [side]: type=Dwarvish Lord, id=Kwili
@@ -633,7 +613,7 @@ msgstr "Види, бачваста будало, нисмо пошли да ва
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/03_Toward_Mountains_of_Haag.cfg:154
 msgid "(<i>Snicker</i>)"
-msgstr ""
+msgstr "[<i>церекање</i>]"
 
 #. [message]: speaker=Kwili
 #. +> devel
@@ -805,16 +785,12 @@ msgstr "Аргх! Умирем!"
 #. [message]: speaker=Kapou'e
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/03_Toward_Mountains_of_Haag.cfg:385
-#, fuzzy
-#| msgid "You were warned, dwarf. Riders, spread out of the area and collect what you can from each of these houses. If anyone refuses to pay, tie them up and take it anyway. Let them know that they live only on my good graces. I'll take the army to Barag Gór. Catch up when you're done."
 msgid "You were warned, dwarf. Riders, spread out of the area and collect what you can from each of these houses. If anyone refuses to pay, tie them up and take it anyway. Let them know that they live only on my good graces. I’ll take the army to Barag Gór. Catch up when you’re done."
 msgstr "Упозорио сам те, патуљче. Јахачи, раширите се около и покупите све што можете из сваке од ових кућа. Ко одбије да плати, свежите га и одузмите му шта треба. Нека схвате да остају живи само због моје добре воље. Ја ћу повести војску у Бараг Гор. Сустигните нас кад завршите."
 
 #. [message]: role=doggie
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/03_Toward_Mountains_of_Haag.cfg:395
-#, fuzzy
-#| msgid "Sounds like fun. Alright boys, let's go!"
 msgid "Sounds like fun. All right boys, let’s go!"
 msgstr "Делује забавно. У реду, момци, полазимо!"
 
@@ -869,8 +845,6 @@ msgstr "Отац би пошао да вам помогне. Увредио би
 #. [scenario]: id=04_The_Siege_of_Barag_Gor
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/04_The_Siege_of_Barag_Gor.cfg:4
-#, fuzzy
-#| msgid "The Siege Of Barag Gór"
 msgid "The Siege of Barag Gór"
 msgstr "Опсада Барага Гора"
 
@@ -982,8 +956,6 @@ msgstr "Када дружина напокон стиже до Барага Го
 #. [message]: speaker=Kapou'e
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/04_The_Siege_of_Barag_Gor.cfg:263
-#, fuzzy
-#| msgid "What the...! Barag Gór is besieged by elves. The wose-born weaklings have always been jealous of our power, but what reason do they have to attack the city?"
 msgid "What the—! Barag Gór is besieged by elves! The wose-born weaklings have always been jealous of our power, but what reason do they have to attack the city?"
 msgstr "Шта до...! Бараг Гор, по вилењачком опсадом. Ти иверорођени слабићи одувек су били љубоморни на нашу моћ, али каквог разлога могу имати да нападну град?"
 
@@ -996,10 +968,8 @@ msgstr "А шта би очекивао, поглавице? Ипак су то 
 #. [message]: speaker=Kapou'e
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/04_The_Siege_of_Barag_Gor.cfg:273
-#, fuzzy
-#| msgid "Hmmm, $scout.name go find out what they are up to."
 msgid "Hmmm. $scout.name, go find out what they are up to."
-msgstr "Хм... $scout.name, пођи и откриј шта су то наумили."
+msgstr "Хм. $scout.name, пођи и откриј шта су то наумили."
 
 #. [message]: role=Scout
 #. +> devel
@@ -1070,16 +1040,12 @@ msgstr "И тако, узвишени вилењаци сведоше се на 
 #. [message]: speaker=Etheliel
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/04_The_Siege_of_Barag_Gor.cfg:358
-#, fuzzy
-#| msgid "KILL HIM!!!"
 msgid "KILL HIM!!"
-msgstr "УБИЈТЕ ГА!!!"
+msgstr "УБИЈТЕ ГА!!"
 
 #. [message]: role=Scout
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/04_The_Siege_of_Barag_Gor.cfg:381
-#, fuzzy
-#| msgid "Hahahahaha! If you can!"
 msgid "Hahaha! If you can!"
 msgstr "Ха, ха, ха! Ако смогнете!"
 
@@ -1273,8 +1239,6 @@ msgstr "Слобода! Свака ти хвала, сине Црнооког. �
 #. [scenario]: id=05_To_the_Harbor_of_Tirigaz
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/05_To_the_Harbor_of_Tirigaz.cfg:4
-#, fuzzy
-#| msgid "To the Harbour of Tirigaz"
 msgid "To the Harbor of Tirigaz"
 msgstr "Ка луци Тиригаз"
 
@@ -1381,10 +1345,8 @@ msgstr "Али..."
 #. [message]: speaker=Gork
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/05_To_the_Harbor_of_Tirigaz.cfg:338
-#, fuzzy
-#| msgid "Hush, Vraurk, We must trust the Son of the Black-Eye in these matters, for he is far more versed in them then we are."
 msgid "Hush, Vraurk, we must trust the Son of the Black-Eye in these matters, for he is far more cunning in them than we are."
-msgstr "Ћути, Враурче. У овим питањима морамо веровати сину Црнооког, јер је он у њих много упућенији од нас."
+msgstr "Ћути, Враурче. У овим питањима морамо веровати сину Црнооког, јер је он у томе много лукавији од нас."
 
 #. [message]: speaker=Grüü
 #. +> devel
@@ -1407,10 +1369,8 @@ msgstr "Пише: с-в-е-т-а в-о-д-и-ц-а."
 #. [message]: speaker=unit
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/05_To_the_Harbor_of_Tirigaz.cfg:365
-#, fuzzy
-#| msgid "I'm thirsty ... *gulp* *gulp*"
 msgid "I’m thirsty... <i>Gulp gulp</i>"
-msgstr "Баш сам жедан... [глу, глу]"
+msgstr "Баш сам жедан... [<i>глу, глу</i>]"
 
 #. [message]: speaker=unit
 #. +> devel
@@ -1718,10 +1678,8 @@ msgstr "Пожурите онда, дижите логор, морамо сти�
 #. [message]: speaker=Pirk
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:178
-#, fuzzy
-#| msgid "What!? Through all this chaos!?"
 msgid "What?! Through all this chaos?!"
-msgstr "Шта!? Кроз овај метеж?"
+msgstr "Шта?! Кроз овај метеж?!"
 
 #. [message]: speaker=Kapou'e
 #. +> devel
@@ -1775,16 +1733,12 @@ msgstr "Ви тролови сте ударени!"
 #. [message]: speaker=Grüü
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:267
-#, fuzzy
-#| msgid "YUCK! Disgusting! These things taste horrible!"
 msgid "<i>Yuck</i>! Disgusting! These things taste horrible!"
-msgstr "БЉАК! Одвратно! Ова ствар има ужасан укус!"
+msgstr "<i>Бљак</i>! Одвратно! Ова ствар има ужасан укус!"
 
 #. [message]: speaker=Kapou'e
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:272
-#, fuzzy
-#| msgid "I don't know if you should have eaten that Grüü, you don't look so good."
 msgid "I don’t know if you should have eaten that, Grüü, you don’t look so good."
 msgstr "Можда није требало то да поједеш, Гри, не изгледаш добро."
 
@@ -1816,7 +1770,7 @@ msgstr "Ма биће њему добро за који минут. Трол ј�
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:297
 msgid "(<i>Puke</i>)"
-msgstr ""
+msgstr "[<i>повраћа</i>]"
 
 #. [message]: speaker=second_unit
 #. +> devel
@@ -1857,34 +1811,26 @@ msgstr "Поразиш ли Ар-Данта"
 #. [message]: speaker=Grüü
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:371
-#, fuzzy
-#| msgid "...food..."
 msgid "... Food...!"
-msgstr "...храна..."
+msgstr "... Храна...!"
 
 #. [message]: speaker=Vraurk
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:376
-#, fuzzy
-#| msgid "...water..."
 msgid "... Water...!"
-msgstr "...вода..."
+msgstr "... Вода...!"
 
 #. [message]: speaker=Kapou'e
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:381
-#, fuzzy
-#| msgid "...Come... on .... people .... we have .... to .... keep.... going...."
 msgid "... Come... on..., people...! We have... to... keep... going..."
-msgstr "... Хајдете... морамо... да... се... крећемо..."
+msgstr "... Хајдете...! Морамо... да... се... крећемо..."
 
 #. [message]: speaker=Pirk
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:386
-#, fuzzy
-#| msgid ".... can't.... the .... heat.... is.... too..... much...."
 msgid "... Can’t... The... heat... is... too... much..."
-msgstr "... не могу.... врелина... прејака..."
+msgstr "... Не могу.... врелина... прејака..."
 
 #. [scenario]: id=08_Silent_Forest
 #. +> devel
@@ -1957,10 +1903,8 @@ msgstr "Шта би вилењаци радили овако дубоко у о�
 #. [message]: speaker=unit
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/08_Silent_Forest.cfg:187
-#, fuzzy
-#| msgid "Elves! You were right, Pirk, this place is infested with the skinny weaklings."
 msgid "Elves! You were right, Gork, this place is infested with the skinny weaklings."
-msgstr "Вилењаци! У праву си био, Пирче, ово место је заражено тим слабуњавцима."
+msgstr "Вилењаци! У праву си био, Горче, ово место је заражено тим слабуњавцима."
 
 #. [message]: speaker=second_unit
 #. +> devel
@@ -2100,8 +2044,6 @@ msgstr "По вашој заповести, госпо."
 #. [scenario]: id=09_Shan_Taum_the_Smug
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/09_Shan_Taum_the_Smug.cfg:4
-#, fuzzy
-#| msgid "Shan Taum The Smug"
 msgid "Shan Taum the Smug"
 msgstr "Шан Таум Умишљени"
 
@@ -2114,10 +2056,8 @@ msgstr "Преживиш ли претњу Шана Таума 20 потеза"
 #. [objective]: condition=win
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/09_Shan_Taum_the_Smug.cfg:26
-#, fuzzy
-#| msgid "Shan Taum"
 msgid "Defeat Shan Taum"
-msgstr "Шан Таум"
+msgstr "Поразиш ли Шана Таума"
 
 #. [side]: type=Orcish Warlord, id=Shan Taum
 #. [unit]: type=Orcish Warlord, id=Shan Taum
@@ -2220,8 +2160,6 @@ msgstr "Ечарп"
 #. [message]: speaker=Echarp
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/09_Shan_Taum_the_Smug.cfg:168
-#, fuzzy
-#| msgid "What is this? Are you mad!? Humans are to besiege our fortress at Prestim and you are fighting each other!?"
 msgid "What is this? Are you mad?! Humans are to besiege our fortress at Prestim and you are fighting each other?!"
 msgstr "Шта је ово? Јесте ли полудели?! Људи само што нису опсадили нашу тврђаву код Престима, а ви сте ударили један на другога?!"
 
@@ -2258,10 +2196,8 @@ msgstr "Не разумеш. Оркови су разједињени већ в�
 #. [message]: speaker=Vraurk
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/09_Shan_Taum_the_Smug.cfg:193
-#, fuzzy
-#| msgid "This is true. Now we are pressed from all sides by humans and elves; we need a leader that can unite all banners. This one is YOU!"
 msgid "This is true. Now we are pressed from all sides by humans and elves; we need a leader that can unite all banners. This one is <i>you</i>!"
-msgstr "Истина. Сада нас са свих страна притискају људи и вилењаци; треба нам вођ који ће окупити све барјаке. Тај вођ си ТИ!"
+msgstr "Истина. Сада нас са свих страна притискају људи и вилењаци; треба нам вођ који ће окупити све барјаке. Тај вођ си <i>ти</i>!"
 
 #. [message]: speaker=Kapou'e
 #. +> devel
@@ -2284,8 +2220,6 @@ msgstr "Капуе, ако Престим падне људи ће придоб�
 #. [message]: speaker=Pirk
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/09_Shan_Taum_the_Smug.cfg:209
-#, fuzzy
-#| msgid "Leave your people here Kapou'e - they are safe for the moment - and go defend Prestim. In the meantime, now that the council is complete again, we will decide. We may have to form the Great Horde again, and give you the leadership on it."
 msgid "Leave your people here Kapou’e — they are safe for the moment — and go defend Prestim. In the meantime, now that the council is complete again, we will decide. We may have to form the Great Horde again, and give you the leadership on it."
 msgstr "Остави свој народ овде, Капуе — за сада ће бити безбедни — и пођи у одбрану Престима. У међувремену, сада када је веће поново на окупу, одлучићемо. Можда ћемо морати да подигнемо Велику хорду, и тебе поставимо на њено чело."
 
@@ -2306,7 +2240,7 @@ msgstr "Спасавање Инарикса"
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/10_Saving_Inarix.cfg:34
 msgid "Wait for Inarix’s arrival from the south on turn 4"
-msgstr ""
+msgstr "Сачекаш ли Инариксово приспеће са југа у четвртом потезу"
 
 #. [objective]: condition=win
 #. +> devel
@@ -2323,10 +2257,8 @@ msgstr "Спроведеш ли Инарикса и бар четири саур
 #. [objectives]
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/10_Saving_Inarix.cfg:67
-#, fuzzy
-#| msgid "Note: whoever detonates the bridge will die.\n"
 msgid "Note: whoever detonates the bridge will die."
-msgstr "Напомена: ко год детонира мост, умреће.\n"
+msgstr "Напомена: ко год детонира мост, умреће."
 
 #. [unit]: type=Elvish Champion, id=Thelarion
 #. [side]: type=Elvish Champion, id=Thelarion
@@ -2517,11 +2449,12 @@ msgstr "Аааааргх!"
 msgid "Wait a moment."
 msgstr "Чекни мало."
 
+# well-spelled: Фууу
 #. [message]: speaker=unit
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/10_Saving_Inarix.cfg:572
 msgid "<i>Phew!</i>"
-msgstr ""
+msgstr "<i>Фууу</i>!"
 
 #. [message]: speaker=Kapou'e
 #. +> devel
@@ -2592,7 +2525,7 @@ msgstr "Сачуваш ли Престим четири дана"
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:30
 msgid "Enemies control any villages on the north side of the river when turns run out"
-msgstr ""
+msgstr "Задрже ли непријатељи иједно село северно од реке кад потези истекну"
 
 # |, no-check-spell
 #. [event]
@@ -2624,7 +2557,7 @@ msgstr "Престимске зидине су чврсте као стена, �
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:255
 msgid "I’m not that sure. Every fortress has its own weakness. Prestim’s walls are strong but long and it is difficult to defend them from many directions at once. This Earl Lanbec’h must know they can’t break through by only fording the river where the bridge previously stood so he must have a better plan than that."
-msgstr ""
+msgstr "Не бих био тако сигуран. Свака тврђава има неку слабост. Престимске зидине су чврсте, али су дугачке и тешко је бранити их са толико страна одједном. Том жупану Ланбеку мора бити јасно да се не може пробити просто прегазивши реку на месту где је мост стајао, мора да има неки бољи план од тога."
 
 #. [message]: role=cannonfodder
 #. +> devel
@@ -2648,13 +2581,13 @@ msgstr "Кроз четири дана. Плашим се да је прекас
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:275
 msgid "Fool! We can hold that long. But we have to have Prestim firmly in control when the shamans arrive with the Great Horde. We can’t let the humans establish a foothold on this side of the river."
-msgstr ""
+msgstr "Будало! Толико можемо издржати. Престим мора бити чврсто под нашом влашћу кад пристигну врачеви са Великом хордом. Не смемо дозволити људима да успоставе упориште са ове стране реке."
 
 #. [message]: speaker=Kapou'e
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:285
 msgid "Because if we cannot decisively beat these humans, the other tribes won’t think us strong enough to lead them. Each chieftain will try to claim the leadership of the horde for themselves and the humans will be able to break through our defenses."
-msgstr ""
+msgstr "Јер, ако ове људе не потучемо до ногу, друга племена неће веровати да смо довољно јаки да их предводимо. Сваки ће поглавица покушати да присвоји вођство над хордом за себе, и људи ће се пробити кроз нашу одбрану."
 
 #. [message]: role=cannonfodder
 #. +> devel
@@ -2672,19 +2605,19 @@ msgstr "Тада, отпоче битка за Престим."
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:377
 msgid "Look, the humans are boarding a ship!"
-msgstr ""
+msgstr "Гле, људи се укрцавају на брод!"
 
 #. [message]
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:886
 msgid "Charge!"
-msgstr ""
+msgstr "Јуриш!"
 
 #. [message]
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:895
 msgid "Get them!"
-msgstr ""
+msgstr "Држите их!"
 
 #. [unit]: type=Merman Warrior, id=Plouf
 #. +> devel
@@ -2708,31 +2641,31 @@ msgstr "Проклетници! И људи-рибе су уз њих."
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:1094
 msgid "The Great Horde is almost here! Drive them out of our villages <b>now</b>!"
-msgstr ""
+msgstr "Велика хорда само што није! Истерајте их из наших села, <i>хитно</i>!"
 
 #. [message]: speaker=Gork
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:1130
 msgid "Here we are!"
-msgstr ""
+msgstr "Ево нас!"
 
 #. [message]: role=greathordewarlord1
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:1135
 msgid "What’s this? This weakling has let humans enter Prestim? I will lead the horde and push them to the river!"
-msgstr ""
+msgstr "Шта је ово? Тај слабић је допустио људима да уђу у Престим? Ја ћу повести хорду, и одбацити их до реке!"
 
 #. [message]: role=greathordewarlord2
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:1141
 msgid "Bah! I’m the only one strong enough to drive out the humans! The Great Horde follows me!"
-msgstr ""
+msgstr "Зар тако! Само сам ја довољно јак да истерам људе! Велика хорда ће ме следити!"
 
 #. [message]: speaker=Earl Lanbec'h
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/11_Clash_of_Armies.cfg:1147
 msgid "Look at that, the stupid orcs are starting to fight amongst themselves! Now’s our chance, everyone attack!"
-msgstr ""
+msgstr "Гледај само, глупи оркови почињу да се кошкају међусобно! Сад нам је прилика, сви у напад!"
 
 #. [message]: speaker=Gork
 #. +> devel
@@ -2794,20 +2727,18 @@ msgstr "Настрада ли Алброк"
 msgid "Death of Flar’Tar"
 msgstr "Настрада ли Флартар"
 
-# |, no-check-spell
 #. [side]: type=General, id=Arthain
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/12_Giving_Some_Back.cfg:83
-#, fuzzy
-#| msgid "Arthur"
 msgid "Arthain"
-msgstr "Артур"
+msgstr "Артајн"
 
+# |, no-check-spell
 #. [side]: type=Lieutenant, id=Hanak
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/12_Giving_Some_Back.cfg:103
 msgid "Hanak"
-msgstr ""
+msgstr "Ханак"
 
 #. [part]
 #. +> devel
@@ -3007,10 +2938,8 @@ msgstr "Сада има да плате за оно што су учинили �
 #. [message]: speaker=Kapou'e
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/13_The_Dwarvish_Stand.cfg:301
-#, fuzzy
-#| msgid "Victory...Grüü, what <i>is</i> that you are eating?"
 msgid "Victory! ... Grüü, what <i>is</i> that you are eating?"
-msgstr "Победа... Гри, шта <i>то</i> жваћеш?"
+msgstr "Победа...! Гри, шта <i>то</i> жваћеш?"
 
 #. [message]: speaker=Grüü
 #. +> devel
@@ -3035,19 +2964,15 @@ msgstr "Телтис"
 #. [side]: type=General, id=Fredor
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/14_Back_Home.cfg:153
-#, fuzzy
-#| msgid "Fredrick"
 msgid "Fredor"
-msgstr "Фредрик"
+msgstr "Фредор"
 
 # |, no-check-spell
 #. [side]: type=General, id=Georan
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/14_Back_Home.cfg:170
-#, fuzzy
-#| msgid "Georgy"
 msgid "Georan"
-msgstr "Георги"
+msgstr "Георан"
 
 #. [part]
 #. +> devel
@@ -3143,10 +3068,8 @@ msgstr "Овај, поглавице..."
 #. [message]: speaker=Kapou'e
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/14_Back_Home.cfg:317
-#, fuzzy
-#| msgid "...yes, Grüü?"
 msgid "... Yes, Grüü?"
-msgstr "...да, Гри?"
+msgstr "... Да, Гри?"
 
 #. [message]: speaker=Grüü
 #. +> devel
@@ -3241,10 +3164,8 @@ msgstr "ГОВОРИ!"
 #. [message]: speaker=Thelarion
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/14_Back_Home.cfg:609
-#, fuzzy
-#| msgid "...well, what do you want to know?"
 msgid "... Well, what do you want to know?"
-msgstr "...па, шта бисте да знате?"
+msgstr "... Па, шта бисте да знате?"
 
 #. [message]: speaker=second_unit
 #. +> devel
@@ -3255,8 +3176,6 @@ msgstr "Почни тиме што ћеш нам рећи ко вам је ре�
 #. [message]: speaker=Thelarion
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/14_Back_Home.cfg:619
-#, fuzzy
-#| msgid "Uh.... we have intelligence."
 msgid "Uh... we have intelligence."
 msgstr "Овај... обавештајни извори."
 
@@ -3269,10 +3188,8 @@ msgstr "Немој још да те притегнем."
 #. [message]: speaker=Thelarion
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/14_Back_Home.cfg:629
-#, fuzzy
-#| msgid "OK OK, Shan Taum the Smug told us that that's where the shamans were, and that it was a rally point and weapons depot for you orcs."
 msgid "I yield. Shan Taum the Smug told us that that’s where the shamans were, and that it was a rally point and weapons depot for you orcs."
-msgstr "У реду, у реду, Шан Таум Умишљени нам рече да су ту врачеви, и да је то зборна тачка и стовариште оружја вас оркова."
+msgstr "Предајем се. Шан Таум Умишљени нам рече да су ту врачеви, и да је то зборна тачка и стовариште оружја вас оркова."
 
 #. [message]: speaker=second_unit
 #. +> devel
@@ -3295,8 +3212,6 @@ msgstr "Црнооког Каруна да не узимаш у уста, иве
 #. [message]: speaker=Thelarion
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/14_Back_Home.cfg:649
-#, fuzzy
-#| msgid "They're.... the humans killed them."
 msgid "They’re... the humans killed them."
 msgstr "Они су... људи су их побили."
 
@@ -3328,7 +3243,7 @@ msgstr "Боље иди погледај."
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/14_Back_Home.cfg:682
 msgid "I obey."
-msgstr ""
+msgstr "Слушам."
 
 #. [message]: speaker=narrator
 #. +> devel
@@ -3340,10 +3255,8 @@ msgstr "Неколико минута касније..."
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/14_Back_Home.cfg:701
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/14_Back_Home.cfg:713
-#, fuzzy
-#| msgid "WHAT! The human-worms and tree-shaggers have gone too far! BLOOD AND STEEL! I want every human and elf in this area slaughtered! Show no mercy, give no quarter!"
 msgid "<i>What</i>?! The human-worms and tree-shaggers have gone too far! BLOOD AND STEEL! I want every human and elf in this area slaughtered! Show no mercy, give no quarter!"
-msgstr "ШТА! Људски црви и дрвољупци одоше предалеко! КРВ И ЧЕЛИК! Хоћу да се збрише сваки човек и вилењак у овој области! Без милости, без заробљеника!"
+msgstr "<i>Шта</i>?! Људски црви и дрвољупци одоше предалеко! КРВ И ЧЕЛИК! Хоћу да се збрише сваки човек и вилењак у овој области! Без милости, без заробљеника!"
 
 #. [message]: speaker=second_unit
 #. +> devel
@@ -3550,7 +3463,7 @@ msgstr "Настављамо даље, следи нам састанак са �
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/15_Civil_War.cfg:576
 msgid "I can’t leave these renegades unguarded at our rear. I must take care of them before continuing."
-msgstr ""
+msgstr "Не могу да оставим ове одметнике нечуване у нашој позадини. Морамо се позабавити њима пре него што кренемо."
 
 #. [scenario]: id=16_The_Coward
 #. +> devel
@@ -3611,10 +3524,8 @@ msgstr "Добро ти јутро, Шане Тауме!"
 #. [message]: speaker=Shan Taum
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/16_The_Coward.cfg:246
-#, fuzzy
-#| msgid "What... Kapou'e! What in the frozen northlands are you doing here."
 msgid "What... Kapou’e! What in the frozen northlands are you doing here?!"
-msgstr "Шта... Капуе! Смрзнутог ми Североземља, шта ти радиш овде?"
+msgstr "Шта... Капуе! Смрзнутог ми Североземља, шта ти радиш овде?!"
 
 #. [message]: speaker=Kapou'e
 #. +> devel
@@ -3649,8 +3560,6 @@ msgstr "ЛАЖИ! СВЕ СУ ТО ЛАЖИ!"
 #. [message]: speaker=Kapou'e
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/16_The_Coward.cfg:281
-#, fuzzy
-#| msgid "Right..... So what will it be, beheading or torture?"
 msgid "Right... So what will it be, beheading or torture?"
 msgstr "Ма сигурно... Шта ће бити онда, глава или мучење?"
 
@@ -3705,10 +3614,8 @@ msgstr "Задржиш ли људе"
 #. [objective]: condition=win
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/17_The_Human_Attack.cfg:31
-#, fuzzy
-#| msgid "Defeat Lanbec'h"
 msgid "Defeat Earl Lanbec’h"
-msgstr "Поразиш ли Ланбека"
+msgstr "Поразиш ли жупана Ланбека"
 
 #. [part]
 #. +> devel
@@ -3725,8 +3632,6 @@ msgstr "Кад је стигао, затече своје заповеднике
 #. [part]
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/17_The_Human_Attack.cfg:144
-#, fuzzy
-#| msgid "Their presence proved to be unnecessary. It came as a shock to Kapou'e to discover, after a few days, that his people held him in awe. News of Kapou'e's exploits had been widely circulated - from his rescue of the shamans at Barag Gór, to his forced march through the northern blizzards. Younger grunts especially worshiped him with such fervor that he found it almost frightening."
 msgid "Their presence proved to be unnecessary. It came as a shock to Kapou’e to discover, after a few days, that his people held him in awe. News of Kapou’e’s exploits had been widely circulated — from his rescue of the shamans at Barag Gór, to his forced march through the northern blizzards. Younger grunts especially worshiped him with such fervor that he found it almost frightening."
 msgstr "Њихово се присуство, пак, показа непотребним. Капуе је остао запањен откривши, после неколико дана, да га његов народ гледа са страхопоштовањем. Вести о Капуовим подвизима широко су се пренеле — од избављања врачева код Барага Гора, до упорног марша кроз с›јеверне мећаве. Посебно су га млади грокташи обожавали са таквим заносом да је то било скоро застрашујуће."
 
@@ -3964,8 +3869,6 @@ msgstr "Ха, ха! Одлично изведено, Шане Тауме. То �
 #. [message]: speaker=Howgarth III
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/18_Northern_Alliance.cfg:432
-#, fuzzy
-#| msgid "Hold, Earl Lanbec'h. I have reached an agreement with these orcs. Since your army has been the aggressor, you must immediately disperse your army and withdraw from orcish territory. Once that is done then Kapou'e will give you back Dorset and call off the horde. I have had dealings with Kapou'e's father before and I believe his blood will be trustworthy. And if that isn't enough, then we are here to protect you in case he violates the pact."
 msgid "Hold, Earl Lanbec’h. I have reached an agreement with these orcs. Since your army has been the aggressor, you must immediately disperse your army and withdraw from orcish territory. Once that is done then Kapou’e will give you back Dorset and call off the horde. I have had dealings with Kapou’e’s father before and I believe his blood will be trustworthy. And if that isn’t enough, then we are here to protect you in case he violates the pact."
 msgstr "Стој, жупане Ланбече. Постигао сам договор са овим орковима. Пошто је твоја војска овде окупаторска, мораш је одмах распршити и повући се са орковске земље. Пошто тако учиниш, Капуе ће ти вратити Дорсет и опозвати Хорду. Већ сам пословао са Капуовим оцем, и верујем да му је крв честита. Ако ти то није довољно, ту смо ми да те заштитимо у случају да погази договор."
 
@@ -3990,10 +3893,8 @@ msgstr "Ха! Баш смешно, Хогарте. Погледај око се�
 #. [message]: speaker=Howgarth III
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/18_Northern_Alliance.cfg:452
-#, fuzzy
-#| msgid "Not today, my friend. *whistles*"
 msgid "Not today, my friend. (<i>Whistles</i>)"
-msgstr "Неће данас, пријатељу. [зазвижда]"
+msgstr "Неће данас, пријатељу. [<i>зазвижда</i>]"
 
 #. [message]: speaker=Howgarth III
 #. +> devel
@@ -4029,21 +3930,19 @@ msgstr "Јесте, коначно смо ухватили кукавицу. Ш�
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/18_Northern_Alliance.cfg:669
 msgid "Blood and steel! The traitor was mine!"
-msgstr ""
+msgstr "Крв и челик! Тај издајник је био мој!"
 
 #. [message]: speaker=Howgarth III
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/18_Northern_Alliance.cfg:675
 msgid "I’m sorry, Kapou’e. I’ll have my men leave what remains of him to you."
-msgstr ""
+msgstr "Извини, Капуе. Наложићу својима да ти оставе што остане од њега."
 
 #. [message]
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/18_Northern_Alliance.cfg:681
-#, fuzzy
-#| msgid "Yeah, we finally got the coward. What do you want us to do with him chief?"
 msgid "What do you want us to do with him chief?"
-msgstr "Јесте, коначно смо ухватили кукавицу. Шта ћемо са њим, поглавице?"
+msgstr "Шта ћемо са њим, поглавице?"
 
 #. [message]: speaker=Kapou'e
 #. +> devel
@@ -4066,8 +3965,6 @@ msgstr "Епилог"
 #. [part]
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/19_Epilogue.cfg:28
-#, fuzzy
-#| msgid "True to his word, once Lanbec'h had been slain, Howgarth III dispersed the Earl's forces and withdrew them from orcish territory. For his part Kapou'e withdrew from Dorset and dispersed the Great Horde. However, before the horde was dispersed he appointed three more shamans - with the consent of all - to make the Great Council complete again."
 msgid "True to his word, once Lanbec’h had been slain, Howgarth III dispersed the Earl’s forces and withdrew them from orcish territory. For his part Kapou’e withdrew from Dorset and dispersed the Great Horde. However, before the horde was dispersed he appointed three more shamans — with the consent of all — to make the Great Council complete again."
 msgstr "Веран својој речи, пошто је Ланбек посечен Хогарт Трећи распрши жупанове снаге и повуче их са орковске земље. Са своје стране, Капуе се повуче из Дорсета и распусти Велику хорду. Међутим, пре него што је Хорда распуштена, именова он још три врача — уз сагласност свих — како би Велико веће поново било потпуно."
 
@@ -4086,8 +3983,6 @@ msgstr "Капуе владаше много година, које прођош
 #. [part]
 #. +> devel
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/19_Epilogue.cfg:44
-#, fuzzy
-#| msgid "During the eighth year of Kapou'e's reign, and then again in the fourteenth, the orcish territories were once again invaded, first by the elves, and then once again by the humans. As testament to the power of the orcs united under Kapou'e, both attacks were quickly and decisively crushed, even before the Northern Alliance could intervene."
 msgid "During the eighth year of Kapou’e’s reign, and then again in the fourteenth, the orcish territories were once again invaded, first by the elves, and then once again by the humans. As testament to the power of the orcs united under Kapou’e, both attacks were quickly and decisively crushed, even before the Northern Alliance could intervene."
 msgstr "У осмој години Капуове владавине, па онда још једном у четрнаестој, орковску земљу још једном нападоше, прво вилењаци а затим људи. Као св›једочанство моћи оркова уједињених под Капуом, оба напада б›јеху брзо и одлучно разбијена, чак пр›ије него што је С›јеверњачки савез стигао да се ум›ијеша."
 
