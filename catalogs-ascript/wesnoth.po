@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2011-12-09 16:37+0100\n"
+"PO-Revision-Date: 2011-12-26 13:29+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -4198,11 +4198,6 @@ msgstr "border_size треба да је између 0,0 и 0,5.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid "No time of day has been defined."
-msgstr "Доба дана није одређено.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
 msgid "Unknown unit type '$type|' while generating traits"
 msgstr "Непознат тип јединице ‘$type|’ при стварању особина|~"
 
@@ -6072,16 +6067,6 @@ msgstr ""
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
-#| "Downloads|~\n"
-#| "|~x"
-msgid "Download"
-msgstr ""
-"преузето|~\n"
-"Преузми|~"
-
-#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-#| msgid ""
 #| "File I/O Error while reading the game|~\n"
 #| "|~x"
 msgid "File I/O Error while reading the game: '"
@@ -6118,17 +6103,6 @@ msgid "Loading game configuration"
 msgstr ""
 "Учитавам поставу игре.|~\n"
 "Учитавам поставу игре...|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-#. modified: ilic | 2011-05-03 23:30:18+0200 | o
-#. modified: ilic | 2011-09-10 01:15:13+0200 | 1
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-msgid "Chat Log"
-msgstr ""
-"Дневник ћаскања|~\n"
-"|~\n"
-"|~e0"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: ilic | 2010-02-20 10:48:51+0100 | o
@@ -7634,10 +7608,6 @@ msgid "You seem to be the author of '$addon|'. Downloading '$addon|' may overwri
 msgstr "Изгледа да сте ви аутор додатка „$addon|“. Његовим преузимањем можете пребрисати све измене које сте начинили од последњег отпремања, као и обрисати своју ПБЛ датотеку. Желите ли заиста да наставите?|~"
 
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-msgid "Done"
-msgstr "Готово|~"
-
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 msgid "Deleting '$addon|' will permanently erase its download and upload counts on the add-ons server. Do you really wish to continue?"
 msgstr "Брисањем додатка „$addon|“ биће трајно обрисана и његова статистика преузимања и отпремања на серверу додатака. Желите ли заиста да наставите?|~"
 
@@ -7910,6 +7880,40 @@ msgid "The nickname ‘$nick’ is registered on this server."
 msgstr ""
 "Надимак „$nick“ регистрован је на овом серверу.|~\n"
 "|~e0"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2011-12-26 13:29:21+0100 | o
+#~ msgid "No time of day has been defined."
+#~ msgstr "Доба дана није одређено.|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-12-26 13:29:21+0100 | o
+#~| msgid ""
+#~| "Downloads|~\n"
+#~| "|~x"
+#~ msgid "Download"
+#~ msgstr ""
+#~ "преузето|~\n"
+#~ "Преузми|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2011-05-03 23:30:18+0200 | o
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-12-26 13:29:21+0100 | o
+#~ msgid "Chat Log"
+#~ msgstr ""
+#~ "Дневник ћаскања|~\n"
+#~ "|~\n"
+#~ "|~e0"
+
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2011-12-26 13:29:21+0100 | o
+#~ msgid "Done"
+#~ msgstr "Готово|~"
 
 # well-spelled: аутф|~
 # well-spelled: админ|~
