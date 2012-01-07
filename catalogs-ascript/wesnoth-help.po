@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2011-12-11 11:01+0100\n"
+"PO-Revision-Date: 2012-01-07 13:05+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -326,17 +326,6 @@ msgstr ""
 #. modified: ilic | 2011-11-28 00:52:46+0100
 msgid "Recruiting and Recalling"
 msgstr "Унајмљивање и сазивање|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-msgid ""
-"\n"
-"\n"
-"If you right-clicked on a castle hex and selected recruit, the new unit will appear in that square. Otherwise, it will appear in a free square near the keep. You may only recruit as many units as you have free hexes in your castle, and you cannot spend more gold than you actually have on recruiting."
-msgstr ""
-"\n"
-"\n"
-"Ако кликнете десним на поље замка и изаберете најам, нова јединица ће се појавити баш у том пољу. У супротном, појавиће се у произвољном слободном пољу близу куле. Можете унајмити само онолико јединица колико имате слободних поља у замку, и не можете потрошити више злата него што вам је тренутно на располагању.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-26 14:38:15+0100 | 1
@@ -3969,32 +3958,6 @@ msgstr ""
 #. modified: ilic | 2011-11-10 20:06:13+0100 | 1f
 #. modified: ilic | 2011-11-28 00:52:46+0100 | 1
 #| msgid ""
-#| "Castles are any sort of permanent fortification. Nearly all units receive a considerable bonus to their defense by being stationed in a castle, and all units receive full movement in a castle. Stationing units in a castle represents its defensive capability. Without a unit in each wall hex, an enemy can simply sneak into the castle unchallenged, gaining the same defensive bonus as everyone inside.\n"
-#| "\n"
-#| "Most units have about 60% defense in a castle.\n"
-#| "\n"
-#| "|~\n"
-#| "|~x"
-msgid ""
-"<italic>text='Castles'</italic> are any sort of permanent fortification. Nearly all units receive a considerable bonus to their defense by being stationed in a castle, and all units receive full movement in a castle. Stationing units in a castle represents its defensive capability. Without a unit in each wall hex, an enemy can simply sneak into the castle unchallenged, gaining the same defensive bonus as everyone inside.\n"
-"\n"
-"Most units have about 60% defense in a castle.\n"
-"\n"
-msgstr ""
-"Замкови означавају сва трајна утврђења. Скоро све јединице добијају значајну заштиту док се налазе у замку, а све добијају и пуну покретљивост. Постављање јединица у замку одражава његову одбрамбену нам›јену; ако је неко поље замка празно, непријатељ може просто ући на њега и тако уживати исту одбрану као и било ко други у замку.\n"
-"\n"
-"Већина јединица добија око 60% заштите у замку.\n"
-"\n"
-"|~\n"
-"<italic>text='Замкови'</italic> означавају сва трајна утврђења. Скоро све јединице добијају значајну заштиту док се налазе у замку, а све добијају и пуну покретљивост. Постављање јединица у замку одражава његову одбрамбену нам›јену; ако је неко поље замка празно, непријатељ може просто ући на њега и тако уживати исту одбрану као и било ко други у замку.\n"
-"\n"
-"Већина јединица добија око 60% заштите у замку.\n"
-"\n"
-"|~"
-
-#. modified: ilic | 2011-11-10 20:06:13+0100 | 1f
-#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
-#| msgid ""
 #| "The instability of sand makes it harder for most units to cross, and leaves them wide open to attack. In contrast, the wide feet or snakelike bodies of the lizardly races make sand much easier for them to navigate.\n"
 #| "\n"
 #| "Most units receive 20 to 40% defense in Sand.|~\n"
@@ -4819,16 +4782,6 @@ msgstr ""
 #. modified: ilic | 2011-11-28 00:52:46+0100 | 1f
 #. modified: ilic | 2011-11-28 00:52:46+0100 | 1
 #| msgid ""
-#| "Each side begins with one leader in their keep. At the start of any battle, and at times during it, you will need to recruit <ref>dst='..units' text='units'</ref> into your army. To recruit, you must have your leader (for instance, Konrad in the Heir to the Throne campaign) on the Keep square of a <ref>dst='terrain_castle' text='Castle'</ref>. Then you may recruit by either choosing Recruit from the menu or right-clicking on a hex and selecting <italic>text=Recruit</italic>. This brings up the recruit menu, which lists units available for recruitment, along with their gold cost. Click on a unit to see its statistics, then press the recruit button to recruit it.|~\n"
-#| "|~x"
-msgid "Each side begins with one leader in their keep. At the start of any battle, and at times during it, you will need to recruit <ref>dst='..units' text='units'</ref> into your army. To recruit, you must have your leader (for instance, Konrad in the <italic>text='Heir to the Throne'</italic> campaign) on the keep square of a <ref>dst='terrain_castle' text='castle'</ref>. Then you may recruit by either choosing <bold>text='Recruit'</bold> from the menu or right-clicking on a hex and selecting <bold>text='Recruit'</bold>. This brings up the recruit menu, which lists units available for recruitment, along with their gold cost. Click on a unit to see its statistics, then press the recruit button to recruit it."
-msgstr ""
-"Свака страна започиње са једним вођем у својој кули. На почетку сваке битке, а понекад и током ње, мораћете да унајмљујете <ref>dst='..units' text='јединице'</ref> за своју војску. Да бисте најмили, ваш вођ (нпр. Конрад у походу „~%/Heir to the Throne/“) мора стајати на пољу куле у <ref>dst='terrain_castle' text='замку'</ref>. Тада можете или изабрати „~%/Recruit/“ из менија, или кликнути десним на поље и изабрати <italic>text='~%/Recruit/'</italic>. Ово ће вам дати списак јединица које можете унајмити, заједно са ц›ијеном коју морате платити за сваку. Кликните на јединицу да видите њене карактеристике, а на дугме „~%/Recruit/“ да је унајмите.|~\n"
-"Свака страна започиње са једним вођем у својој кули. На почетку сваке битке, а понекад и током ње, мораћете да унајмљујете <ref>dst='..units' text='јединице'</ref> за своју војску. Да бисте најмили, ваш вођ (нпр. Конрад у походу „~%/Heir to the Throne/“) мора стајати на пољу куле у <ref>dst='terrain_castle' text='замку'</ref>. Тада можете или изабрати „~%/Recruit/“ из менија, или кликнути десним на поље и изабрати <italic>text='~%/Recruit/'</italic>. Ово ће вам дати списак јединица које можете унајмити, заједно са ц›ијеном коју морате платити за сваку. Кликните на јединицу да видите њене карактеристике, а на дугме <italic>text='~%/Recruit/'</italic> да је унајмите.|~"
-
-#. modified: ilic | 2011-11-28 00:52:46+0100 | 1f
-#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
-#| msgid ""
 #| "\n"
 #| "\n"
 #| "Another thing to keep in mind while moving is Zones of Control. Each unit generates a zone of control in the hexes immediately surrounding it, and any enemy unit entering those hexes immediately ends its movement. Learning how to use zones of control to your advantage is an important part of Wesnoth, as only <ref>dst='ability_skirmisher' text='Skirmishers'</ref> can ignore zones of control.|~\n"
@@ -5369,10 +5322,6 @@ msgid "New Continent"
 msgstr "Нови континент|~"
 
 #. modified: ilic | 2011-11-28 00:52:46+0100 | 1
-msgid "New Continent -- The great continent to the east of <ref>dst='morogor' text='Morogor'</ref>. Its existence is unknown to the drakes until the flight of Galun."
-msgstr "Нови континент је велики континент источно од <ref>dst='morogor' text='Морогора'</ref>. За његово постојање змагови нису знали пре Галуновог лета.|~"
-
-#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
 msgid "Abyss"
 msgstr "Бездан|~"
 
@@ -5393,10 +5342,6 @@ msgid "Straight Path"
 msgstr "прави пут|~"
 
 #. modified: ilic | 2011-11-28 00:52:46+0100 | 1
-msgid "'The drakish tradition of perpetual expansion and conquest. This term is mostly used by the members of the <ref>dst='spiral_path' text='Spiral Path'</ref>."
-msgstr "Змашка традиција непрекидног ширења и освајања. Овај израз обично користе чланови <ref>dst='spiral_path' text='Спиралног пута'</ref>.|~"
-
-#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
 msgid "Dominant"
 msgstr "надмоћник|~"
 
@@ -5415,10 +5360,6 @@ msgstr "Период, не сасвим уједначен, између уза�
 #. modified: ilic | 2011-11-28 00:52:46+0100 | 1
 msgid "Recorder"
 msgstr "бележник|~"
-
-#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
-msgid "A Recorder is a Drakish scrollkeeper whose has mastered the drakish <ref>dst='drakish_script' text='script'</ref>. The recorders are the only <ref>dst='caste' text='caste'</ref> of Drake not determined by biology: they recruit their members from all of the other castes."
-msgstr "Бележник је змашки чувар свитака који је овладао <ref>dst='drakish_script' text='змашким писмом'</ref>. Бележници су једина змашка <ref>dst='caste' text='каста'</ref> која није биолошки одређена: њихови чланови стижу из свих осталих каста.|~"
 
 #. modified: ilic | 2011-11-28 00:52:46+0100 | 1
 msgid "A portion of the <ref>dst='breeding_cycle' text='breeding cycle'</ref>."
@@ -5822,10 +5763,6 @@ msgid "Midday"
 msgstr "подне|~"
 
 #. modified: ilic | 2011-11-28 00:52:46+0100 | 1
-msgid "Receive only 50% defense in land-based villages"
-msgstr "само 50% одбране у копненим селима|~"
-
-#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
 msgid "Bats come in many shapes and sizes, and most are fairly harmless, feeding on insects and other small animals. The larger and more vicious breeds are known to pose a threat to humans and other races as well as their livestock, especially when encountered in groups. Typically nocturnal, they are often kept (and occasionally tamed) by those who share their love of the night."
 msgstr "Шишмиша има разних величина и грађа, од којих је већина безопасна, хранећи се инсектима и другим животињицама. Али постоје и веће и злокобније врсте које су претња људима и другима расама, и њиховој стоци, посебно када се сусретну у групама. То су обично ноћна створења, и зато их често држе (а понекад и припитомљавају) они који деле исту склоност ка ноћи.|~"
 
@@ -5892,6 +5829,141 @@ msgid "Fledgling"
 msgstr ""
 "Л›ијечење|~\n"
 "ројеник|~"
+
+#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
+#, fuzzy
+#| msgid "New Continent -- The great continent to the east of <ref>dst='morogor' text='Morogor'</ref>. Its existence is unknown to the drakes until the flight of Galun.|~"
+msgid "The great continent to the east of <ref>dst='morogor' text='Morogor'</ref>. Its existence is unknown to the drakes until the flight of Galun."
+msgstr "Нови континент је велики континент источно од <ref>dst='morogor' text='Морогора'</ref>. За његово постојање змагови нису знали пре Галуновог лета.|~"
+
+#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
+#, fuzzy
+#| msgid "'The drakish tradition of perpetual expansion and conquest. This term is mostly used by the members of the <ref>dst='spiral_path' text='Spiral Path'</ref>.|~"
+msgid "The drakish tradition of perpetual expansion and conquest. This term is mostly used by the members of the <ref>dst='spiral_path' text='Spiral Path'</ref>."
+msgstr "Змашка традиција непрекидног ширења и освајања. Овај израз обично користе чланови <ref>dst='spiral_path' text='Спиралног пута'</ref>.|~"
+
+#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
+#, fuzzy
+#| msgid "A Recorder is a Drakish scrollkeeper whose has mastered the drakish <ref>dst='drakish_script' text='script'</ref>. The recorders are the only <ref>dst='caste' text='caste'</ref> of Drake not determined by biology: they recruit their members from all of the other castes.|~"
+msgid "A Recorder is a Drakish scrollkeeper who has mastered the drakish <ref>dst='drakish_script' text='script'</ref>. The recorders are the only <ref>dst='caste' text='caste'</ref> of Drake not determined by biology: they recruit their members from all of the other castes."
+msgstr "Бележник је змашки чувар свитака који је овладао <ref>dst='drakish_script' text='змашким писмом'</ref>. Бележници су једина змашка <ref>dst='caste' text='каста'</ref> која није биолошки одређена: њихови чланови стижу из свих осталих каста.|~"
+
+#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
+#, fuzzy
+#| msgid "Each side begins with one leader in their keep. At the start of any battle, and at times during it, you will need to recruit <ref>dst='..units' text='units'</ref> into your army. To recruit, you must have your leader (for instance, Konrad in the <italic>text='Heir to the Throne'</italic> campaign) on the keep square of a <ref>dst='terrain_castle' text='castle'</ref>. Then you may recruit by either choosing <bold>text='Recruit'</bold> from the menu or right-clicking on a hex and selecting <bold>text='Recruit'</bold>. This brings up the recruit menu, which lists units available for recruitment, along with their gold cost. Click on a unit to see its statistics, then press the recruit button to recruit it.|~"
+msgid "Each side begins with one leader in their keep. At the start of any battle, and at times during it, you will need to recruit <ref>dst='..units' text='units'</ref> into your army. To recruit, you must have your leader (for instance, Konrad in the <italic>text='Heir to the Throne'</italic> campaign) on the keep hex of a <ref>dst='terrain_castle' text='castle'</ref>. Then you may recruit by either choosing <bold>text='Recruit'</bold> from the menu or right-clicking on a hex and selecting <bold>text='Recruit'</bold>. This brings up the recruit menu, which lists units available for recruitment, along with their gold cost. Click on a unit to see its statistics, then press the recruit button to recruit it."
+msgstr "Свака страна започиње са једним вођем у својој кули. На почетку сваке битке, а понекад и током ње, мораћете да унајмљујете <ref>dst='..units' text='јединице'</ref> за своју војску. Да бисте најмили, ваш вођ (нпр. Конрад у походу „~%/Heir to the Throne/“) мора стајати на пољу куле у <ref>dst='terrain_castle' text='замку'</ref>. Тада можете или изабрати „~%/Recruit/“ из менија, или кликнути десним на поље и изабрати <italic>text='~%/Recruit/'</italic>. Ово ће вам дати списак јединица које можете унајмити, заједно са ц›ијеном коју морате платити за сваку. Кликните на јединицу да видите њене карактеристике, а на дугме <italic>text='~%/Recruit/'</italic> да је унајмите.|~"
+
+#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "\n"
+#| "If you right-clicked on a castle hex and selected recruit, the new unit will appear in that square. Otherwise, it will appear in a free square near the keep. You may only recruit as many units as you have free hexes in your castle, and you cannot spend more gold than you actually have on recruiting.|~"
+msgid ""
+"\n"
+"\n"
+"If you right-clicked on a castle hex and selected recruit, the new unit will appear in that hex. Otherwise, it will appear in a free hex near the keep. You may only recruit as many units as you have free hexes in your castle, and you cannot spend more gold than you actually have on recruiting."
+msgstr ""
+"\n"
+"\n"
+"Ако кликнете десним на поље замка и изаберете најам, нова јединица ће се појавити баш у том пољу. У супротном, појавиће се у произвољном слободном пољу близу куле. Можете унајмити само онолико јединица колико имате слободних поља у замку, и не можете потрошити више злата него што вам је тренутно на располагању.|~"
+
+#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
+#, fuzzy
+#| msgid ""
+#| "<italic>text='Castles'</italic> are any sort of permanent fortification. Nearly all units receive a considerable bonus to their defense by being stationed in a castle, and all units receive full movement in a castle. Stationing units in a castle represents its defensive capability. Without a unit in each wall hex, an enemy can simply sneak into the castle unchallenged, gaining the same defensive bonus as everyone inside.\n"
+#| "\n"
+#| "Most units have about 60% defense in a castle.\n"
+#| "\n"
+#| "|~"
+msgid ""
+"<italic>text='Castles'</italic> are any sort of permanent fortification. Nearly all units receive a considerable bonus to their defense by being stationed in a castle, and most units receive full movement in a castle. Stationing units in a castle represents its defensive capability. Without a unit in each wall hex, an enemy can simply sneak into the castle unchallenged, gaining the same defensive bonus as everyone inside.\n"
+"\n"
+"Most units have about 60% defense in a castle.\n"
+"\n"
+msgstr ""
+"<italic>text='Замкови'</italic> означавају сва трајна утврђења. Скоро све јединице добијају значајну заштиту док се налазе у замку, а све добијају и пуну покретљивост. Постављање јединица у замку одражава његову одбрамбену нам›јену; ако је неко поље замка празно, непријатељ може просто ући на њега и тако уживати исту одбрану као и било ко други у замку.\n"
+"\n"
+"Већина јединица добија око 60% заштите у замку.\n"
+"\n"
+"|~"
+
+#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
+#, fuzzy
+#| msgid "Receive only 50% defense in land-based villages|~"
+msgid "Receives only 50% defense in land-based villages"
+msgstr "само 50% одбране у копненим селима|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2012-01-07 13:05:45+0100 | o
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "If you right-clicked on a castle hex and selected recruit, the new unit will appear in that square. Otherwise, it will appear in a free square near the keep. You may only recruit as many units as you have free hexes in your castle, and you cannot spend more gold than you actually have on recruiting."
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Ако кликнете десним на поље замка и изаберете најам, нова јединица ће се појавити баш у том пољу. У супротном, појавиће се у произвољном слободном пољу близу куле. Можете унајмити само онолико јединица колико имате слободних поља у замку, и не можете потрошити више злата него што вам је тренутно на располагању.|~"
+
+#. modified: ilic | 2011-11-10 20:06:13+0100 | 1f
+#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
+#. modified: ilic | 2012-01-07 13:05:45+0100 | o
+#~| msgid ""
+#~| "Castles are any sort of permanent fortification. Nearly all units receive a considerable bonus to their defense by being stationed in a castle, and all units receive full movement in a castle. Stationing units in a castle represents its defensive capability. Without a unit in each wall hex, an enemy can simply sneak into the castle unchallenged, gaining the same defensive bonus as everyone inside.\n"
+#~| "\n"
+#~| "Most units have about 60% defense in a castle.\n"
+#~| "\n"
+#~| "|~\n"
+#~| "|~x"
+#~ msgid ""
+#~ "<italic>text='Castles'</italic> are any sort of permanent fortification. Nearly all units receive a considerable bonus to their defense by being stationed in a castle, and all units receive full movement in a castle. Stationing units in a castle represents its defensive capability. Without a unit in each wall hex, an enemy can simply sneak into the castle unchallenged, gaining the same defensive bonus as everyone inside.\n"
+#~ "\n"
+#~ "Most units have about 60% defense in a castle.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Замкови означавају сва трајна утврђења. Скоро све јединице добијају значајну заштиту док се налазе у замку, а све добијају и пуну покретљивост. Постављање јединица у замку одражава његову одбрамбену нам›јену; ако је неко поље замка празно, непријатељ може просто ући на њега и тако уживати исту одбрану као и било ко други у замку.\n"
+#~ "\n"
+#~ "Већина јединица добија око 60% заштите у замку.\n"
+#~ "\n"
+#~ "|~\n"
+#~ "<italic>text='Замкови'</italic> означавају сва трајна утврђења. Скоро све јединице добијају значајну заштиту док се налазе у замку, а све добијају и пуну покретљивост. Постављање јединица у замку одражава његову одбрамбену нам›јену; ако је неко поље замка празно, непријатељ може просто ући на њега и тако уживати исту одбрану као и било ко други у замку.\n"
+#~ "\n"
+#~ "Већина јединица добија око 60% заштите у замку.\n"
+#~ "\n"
+#~ "|~"
+
+#. modified: ilic | 2011-11-28 00:52:46+0100 | 1f
+#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
+#. modified: ilic | 2012-01-07 13:05:45+0100 | o
+#~| msgid ""
+#~| "Each side begins with one leader in their keep. At the start of any battle, and at times during it, you will need to recruit <ref>dst='..units' text='units'</ref> into your army. To recruit, you must have your leader (for instance, Konrad in the Heir to the Throne campaign) on the Keep square of a <ref>dst='terrain_castle' text='Castle'</ref>. Then you may recruit by either choosing Recruit from the menu or right-clicking on a hex and selecting <italic>text=Recruit</italic>. This brings up the recruit menu, which lists units available for recruitment, along with their gold cost. Click on a unit to see its statistics, then press the recruit button to recruit it.|~\n"
+#~| "|~x"
+#~ msgid "Each side begins with one leader in their keep. At the start of any battle, and at times during it, you will need to recruit <ref>dst='..units' text='units'</ref> into your army. To recruit, you must have your leader (for instance, Konrad in the <italic>text='Heir to the Throne'</italic> campaign) on the keep square of a <ref>dst='terrain_castle' text='castle'</ref>. Then you may recruit by either choosing <bold>text='Recruit'</bold> from the menu or right-clicking on a hex and selecting <bold>text='Recruit'</bold>. This brings up the recruit menu, which lists units available for recruitment, along with their gold cost. Click on a unit to see its statistics, then press the recruit button to recruit it."
+#~ msgstr ""
+#~ "Свака страна започиње са једним вођем у својој кули. На почетку сваке битке, а понекад и током ње, мораћете да унајмљујете <ref>dst='..units' text='јединице'</ref> за своју војску. Да бисте најмили, ваш вођ (нпр. Конрад у походу „~%/Heir to the Throne/“) мора стајати на пољу куле у <ref>dst='terrain_castle' text='замку'</ref>. Тада можете или изабрати „~%/Recruit/“ из менија, или кликнути десним на поље и изабрати <italic>text='~%/Recruit/'</italic>. Ово ће вам дати списак јединица које можете унајмити, заједно са ц›ијеном коју морате платити за сваку. Кликните на јединицу да видите њене карактеристике, а на дугме „~%/Recruit/“ да је унајмите.|~\n"
+#~ "Свака страна започиње са једним вођем у својој кули. На почетку сваке битке, а понекад и током ње, мораћете да унајмљујете <ref>dst='..units' text='јединице'</ref> за своју војску. Да бисте најмили, ваш вођ (нпр. Конрад у походу „~%/Heir to the Throne/“) мора стајати на пољу куле у <ref>dst='terrain_castle' text='замку'</ref>. Тада можете или изабрати „~%/Recruit/“ из менија, или кликнути десним на поље и изабрати <italic>text='~%/Recruit/'</italic>. Ово ће вам дати списак јединица које можете унајмити, заједно са ц›ијеном коју морате платити за сваку. Кликните на јединицу да видите њене карактеристике, а на дугме <italic>text='~%/Recruit/'</italic> да је унајмите.|~"
+
+#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
+#. modified: ilic | 2012-01-07 13:05:45+0100 | o
+#~ msgid "New Continent -- The great continent to the east of <ref>dst='morogor' text='Morogor'</ref>. Its existence is unknown to the drakes until the flight of Galun."
+#~ msgstr "Нови континент је велики континент источно од <ref>dst='morogor' text='Морогора'</ref>. За његово постојање змагови нису знали пре Галуновог лета.|~"
+
+#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
+#. modified: ilic | 2012-01-07 13:05:45+0100 | o
+#~ msgid "'The drakish tradition of perpetual expansion and conquest. This term is mostly used by the members of the <ref>dst='spiral_path' text='Spiral Path'</ref>."
+#~ msgstr "Змашка традиција непрекидног ширења и освајања. Овај израз обично користе чланови <ref>dst='spiral_path' text='Спиралног пута'</ref>.|~"
+
+#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
+#. modified: ilic | 2012-01-07 13:05:45+0100 | o
+#~ msgid "A Recorder is a Drakish scrollkeeper whose has mastered the drakish <ref>dst='drakish_script' text='script'</ref>. The recorders are the only <ref>dst='caste' text='caste'</ref> of Drake not determined by biology: they recruit their members from all of the other castes."
+#~ msgstr "Бележник је змашки чувар свитака који је овладао <ref>dst='drakish_script' text='змашким писмом'</ref>. Бележници су једина змашка <ref>dst='caste' text='каста'</ref> која није биолошки одређена: њихови чланови стижу из свих осталих каста.|~"
+
+#. modified: ilic | 2011-11-28 00:52:46+0100 | 1
+#. modified: ilic | 2012-01-07 13:05:45+0100 | o
+#~ msgid "Receive only 50% defense in land-based villages"
+#~ msgstr "само 50% одбране у копненим селима|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100

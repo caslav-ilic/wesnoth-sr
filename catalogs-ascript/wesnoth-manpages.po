@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-manpages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2011-11-30 16:10+0100\n"
+"PO-Revision-Date: 2012-01-07 13:05+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -1279,14 +1279,6 @@ msgid "2011"
 msgstr "2011|~"
 
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
-msgid "B<-c, --campaign[[E<lt>difficultyE<gt>] E<lt>id_campaignE<gt> [E<lt>id_scenarioE<gt>]]>"
-msgstr "B<-c, --campaign[[E<lt>тежинаE<gt>] E<lt>ид-походаE<gt> [E<lt>ид-сценаријаE<gt>]]>|~"
-
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
-msgid "goes directly to the campaign based on the parameters.  The difficulty is a number between 1 and current campaign's difficulties number.  The default difficulty is 1.  The scenario must be one of the campaign's child scenarios. The default scenario is campaign's first scenario.  B<Note: When using this switch please ensure that you specify the data directory path as the final argument> aswell, otherwise the game will take the campaign/scenario id as the data dir."
-msgstr "скаче директно на поход према параметрима. Тежина је број између 1 и броја тежине похода. Подразумевана тежина је 1. Сценарио мора припадати походу. Подразумеван је први сценарио похода. B<Напомена: При употреби ове опције морате задати и путању директоријума података као последњи аргумент>, иначе ће ИД похода или сценарија бити схваћен као директоријум података.|~"
-
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
 msgid "B<--data-dir E<lt>directoryE<gt>>"
 msgstr "B<--data-dir E<lt>директоријумE<gt>>|~"
 
@@ -1297,14 +1289,6 @@ msgstr "потискује директоријум података овде з
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
 msgid "lists defined log domains (only the ones containing B<filter> if used) and exits"
 msgstr "набраја дефинисане домене бележења (или оне које садрже B<филтер>, ако је задат) и излази.|~"
-
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
-msgid "B<--new-syntax>"
-msgstr "B<--new-syntax>|~"
-
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
-msgid "enables the new campaign syntax parsing."
-msgstr "активира ново рашчлањивање синтаксе похода.|~"
 
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
 msgid "B<--preprocess, -p[=E<lt>define1E<gt>,E<lt>define2E<gt>,...] E<lt>file/folderE<gt> E<lt>target directoryE<gt>>"
@@ -1337,6 +1321,44 @@ msgstr "B<--strict-validation>|~"
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
 msgid "validation errors are treated as fatal errors."
 msgstr "грешке оверавања сматрају се кобним грешкама.|~"
+
+#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
+#, fuzzy
+#| msgid "B<-c, --campaign[[E<lt>difficultyE<gt>] E<lt>id_campaignE<gt> [E<lt>id_scenarioE<gt>]]>|~"
+msgid "B<-c, --campaign \\ [E<lt>id_campaignE<gt>]>"
+msgstr "B<-c, --campaign[[E<lt>тежинаE<gt>] E<lt>ид-походаE<gt> [E<lt>ид-сценаријаE<gt>]]>|~"
+
+#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
+#, fuzzy
+#| msgid "goes directly to the campaign based on the parameters.  The difficulty is a number between 1 and current campaign's difficulties number.  The default difficulty is 1.  The scenario must be one of the campaign's child scenarios. The default scenario is campaign's first scenario.  B<Note: When using this switch please ensure that you specify the data directory path as the final argument> aswell, otherwise the game will take the campaign/scenario id as the data dir.|~"
+msgid "goes directly to the campaign with id E<lt>id_campaignE<gt>. A selection menu will appear if no id was specified.  B<Note:> When using this switch please ensure that you specify the data directory path as the final argument aswell, otherwise the game will take the campaign/scenario id as the data dir."
+msgstr "скаче директно на поход према параметрима. Тежина је број између 1 и броја тежине похода. Подразумевана тежина је 1. Сценарио мора припадати походу. Подразумеван је први сценарио похода. B<Напомена: При употреби ове опције морате задати и путању директоријума података као последњи аргумент>, иначе ће ИД похода или сценарија бити схваћен као директоријум података.|~"
+
+#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
+#, fuzzy
+#| msgid "B<--data-dir E<lt>directoryE<gt>>|~"
+msgid "B<--campaign-difficulty E<lt>difficultyE<gt>>"
+msgstr "B<--data-dir E<lt>директоријумE<gt>>|~"
+
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
+#. modified: ilic | 2012-01-07 13:05:45+0100 | o
+#~ msgid "B<-c, --campaign[[E<lt>difficultyE<gt>] E<lt>id_campaignE<gt> [E<lt>id_scenarioE<gt>]]>"
+#~ msgstr "B<-c, --campaign[[E<lt>тежинаE<gt>] E<lt>ид-походаE<gt> [E<lt>ид-сценаријаE<gt>]]>|~"
+
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
+#. modified: ilic | 2012-01-07 13:05:45+0100 | o
+#~ msgid "goes directly to the campaign based on the parameters.  The difficulty is a number between 1 and current campaign's difficulties number.  The default difficulty is 1.  The scenario must be one of the campaign's child scenarios. The default scenario is campaign's first scenario.  B<Note: When using this switch please ensure that you specify the data directory path as the final argument> aswell, otherwise the game will take the campaign/scenario id as the data dir."
+#~ msgstr "скаче директно на поход према параметрима. Тежина је број између 1 и броја тежине похода. Подразумевана тежина је 1. Сценарио мора припадати походу. Подразумеван је први сценарио похода. B<Напомена: При употреби ове опције морате задати и путању директоријума података као последњи аргумент>, иначе ће ИД похода или сценарија бити схваћен као директоријум података.|~"
+
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
+#. modified: ilic | 2012-01-07 13:05:45+0100 | o
+#~ msgid "B<--new-syntax>"
+#~ msgstr "B<--new-syntax>|~"
+
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
+#. modified: ilic | 2012-01-07 13:05:45+0100 | o
+#~ msgid "enables the new campaign syntax parsing."
+#~ msgstr "активира ново рашчлањивање синтаксе похода.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 23:54:43+0100 | 1
