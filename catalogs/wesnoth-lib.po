@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-lib\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2012-04-01 16:39+0200\n"
-"PO-Revision-Date: 2012-01-07 13:20+0100\n"
+"PO-Revision-Date: 2012-04-01 16:53+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -4013,8 +4013,6 @@ msgstr "Прескочи анимацију"
 #. TRANSLATORS: whiteboard menu entry: toggle planning mode
 #. +> stable
 #: src/hotkeys.cpp:114
-#, fuzzy
-#| msgid "Toggle Planning Mode"
 msgctxt "whiteboard"
 msgid "Planning Mode"
 msgstr "Режим планирања"
@@ -4022,17 +4020,13 @@ msgstr "Режим планирања"
 #. TRANSLATORS: whiteboard menu entry: execute planned action
 #. +> stable
 #: src/hotkeys.cpp:116
-#, fuzzy
-#| msgid "Execute All Actions"
 msgctxt "whiteboard"
 msgid "Execute Action"
-msgstr "Изврши све радње"
+msgstr "Изврши радњу"
 
 #. TRANSLATORS: whiteboard menu entry: execute all planned actions
 #. +> stable
 #: src/hotkeys.cpp:118
-#, fuzzy
-#| msgid "Execute All Actions"
 msgctxt "whiteboard"
 msgid "Execute All Actions"
 msgstr "Изврши све радње"
@@ -4040,38 +4034,30 @@ msgstr "Изврши све радње"
 #. TRANSLATORS: whiteboard menu entry: delete planned action
 #. +> stable
 #: src/hotkeys.cpp:120
-#, fuzzy
-#| msgid "Delete Planned Action"
 msgctxt "whiteboard"
 msgid "Delete Action"
-msgstr "Обриши планирану радњу"
+msgstr "Обриши радњу"
 
 #. TRANSLATORS: whiteboard menu entry: move planned action up queue
 #. +> stable
 #: src/hotkeys.cpp:122
-#, fuzzy
-#| msgid "Move Action Up Queue"
 msgctxt "whiteboard"
 msgid "Move Action Up"
-msgstr "Помери радњу нагоре у реду"
+msgstr "Помери радњу нагоре"
 
 #. TRANSLATORS: whiteboard menu entry: move planned action down queue
 #. +> stable
 #: src/hotkeys.cpp:124
-#, fuzzy
-#| msgid "Move Action Down Queue"
 msgctxt "whiteboard"
 msgid "Move Action Down"
-msgstr "Помери радњу надоле у реду"
+msgstr "Помери радњу надоле"
 
 #. TRANSLATORS: whiteboard menu entry: plan as if unit was dead
 #. +> stable
 #: src/hotkeys.cpp:126
-#, fuzzy
-#| msgid "Suppose Dead"
 msgctxt "whiteboard"
 msgid "Suppose Dead"
-msgstr "Претпостави мртво"
+msgstr "Претпостави мртвом"
 
 #. +> stable
 #: src/hotkeys.cpp:128
@@ -4600,6 +4586,3 @@ msgstr "Кључ ‘$key’ је превазиђен и подршка за њ�
 #: src/wml_exception.cpp:130
 msgid "The key '$deprecated_key' has been renamed to '$key'. Support for '$deprecated_key' will be removed in version $removal_version."
 msgstr "Кључ ‘$deprecated_key’ је преименован у ‘$key’. Подршка за ‘$deprecated_key’ биће уклоњена у издању $removal_version."
-
-#~ msgid "Execute Planned Action"
-#~ msgstr "Изврши планирану радњу"
