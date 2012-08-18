@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-l\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2012-02-18 17:14+0100\n"
+"POT-Creation-Date: 2012-08-18 11:51+0200\n"
 "PO-Revision-Date: 2012-01-07 13:20+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -463,14 +463,14 @@ msgstr "Нико не запази недаћу маленог, скрајнут
 msgid "Civil Disobedience"
 msgstr "Грађанска непослушност"
 
-#. [side]: type=Bandit, id=Baldras
-#. [side]: type=Shadow Lord, id=Helicrom
 #. [side]: type=Highwayman, id=Baldras
-#. [side]
-#. [side]: type=Rogue, id=Hans
+#. [side]: type=Bandit, id=Baldras
 #. [side]: type=Highwayman_Peasant, id=Relana
-#. [side]: type=General, id=Lord Maddock
+#. [side]: type=Rogue, id=Hans
 #. [side]: type=Bandit_Peasant, id=Baldras
+#. [side]
+#. [side]: type=General, id=Lord Maddock
+#. [side]: type=Shadow Lord, id=Helicrom
 #. +> stable
 #: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:36
 #: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:68
@@ -495,13 +495,13 @@ msgstr "Побуњеници"
 msgid "Tarwen"
 msgstr "Тарвен"
 
-#. [side]: type=General, id=Dommel
-#. [side]
-#. [side]: type=Master Bowman, id=Quentin
-#. [side]: type=General, id=Kestrel
-#. [side]: type=Cavalier, id=Tarwen
 #. [side]: type=Royal Guard, id=Archarel
 #. [side]: type=Iron Mauler, id=Linneus
+#. [side]: type=Master Bowman, id=Quentin
+#. [side]
+#. [side]: type=Cavalier, id=Tarwen
+#. [side]: type=General, id=Kestrel
+#. [side]: type=General, id=Dommel
 #. +> stable
 #: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:50
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:86
@@ -641,11 +641,11 @@ msgstr "Релана"
 msgid "Urk Delek"
 msgstr "Урк Делек"
 
+#. [side]: type=Orcish Warrior, id=Urk Delek
+#. [side]: type=Saurian Oracle, id=Thhsthss
 #. [side]: type=Necromancer, id=Mal-Jarrof
 #. [side]: type=Necromancer, id=Mal-Jerod
 #. [side]: type=Lich, id=Sel-Mana
-#. [side]: type=Orcish Warrior, id=Urk Delek
-#. [side]: type=Saurian Oracle, id=Thhsthss
 #. +> stable
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:92
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:114
@@ -907,67 +907,67 @@ msgstr "Док сунце залази, почиње да се одиграва 
 
 #. [message]: speaker=Harper
 #. +> stable
-#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:557
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:569
 msgid "I cannot believe what my eyes are seeing! The flesh runs from their bones... these are not human warriors we fight. They are evil spirits masquerading as human!"
 msgstr "Не могу да в›јерујем шта ми очи говоре! Месо им се одваја од костију... Ово нису људски ратници насупрот нас, већ злодуси што се издају за људе!"
 
 #. [message]: speaker=Lord Maddock
 #. +> stable
-#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:568
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:580
 msgid "Their human aspect is returning! This is an evil manner of sorcery we face, but one that we may yet overcome. CHARGE!"
 msgstr "Враћа им се људско обличје! Са злим смо чаробњаштвом суочени, али таквим које још можемо надвладати. Јуриш!"
 
 #. [message]: speaker=second_unit
 #. +> stable
-#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:582
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:594
 msgid "Who are you? What are you?"
 msgstr "Ко сте ви? Ко сте ви?"
 
 #. [message]: speaker=Kestrel
 #. +> stable
-#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:586
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:598
 msgid "We are accursed. We were once under the command of Prince Eldred, the King’s son and betrayer. The price for our treason is this hellish existence. We know not who or what inflicted this curse upon us, but our mortal deaths may be only the beginning of the penance we are doomed to pay."
 msgstr "Ми смо проклети. Б‹ијасмо некад под запов›једништвом принца Елдреда, краљевог сина и издајника. Ц›ијена наше издаје ово је паклено постојање. Не знамо ко или шта баци клетву на нас, али наш смртнички крај може бити тек почетак покајања које смо принуђени да поднесемо."
 
 #. [message]: speaker=Baldras
 #. +> stable
-#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:597
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:609
 msgid "Lord Maddock, now that we are victorious, will you help us?"
 msgstr "Господару Мадоче, сада кад поб›иједисмо, хоћеш ли нам помоћи?"
 
 #. [message]: speaker=Lord Maddock
 #. +> stable
-#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:601
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:613
 msgid "I will not. Unless you want me to round up the city’s thieves to fight for you, I do not have the troops to spare. However, I am not the only one who commands men in this corner of Wesnoth."
 msgstr "Нећу. Осим ако не желиш да сакупим градске лопове да се боре за вас, немам друге војске коју бих издвојио. Међутим, нисам ја једни који запов›иједа снагама у овом кутку Веснота."
 
 #. [message]: speaker=Baldras
 #. +> stable
-#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:605
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:617
 msgid "I don’t understand. There are no other noble lords in this area."
 msgstr "Не разум›ијем. У овом подручју нема других велможа."
 
 #. [message]: speaker=Lord Maddock
 #. +> stable
-#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:609
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:621
 msgid "Southeast of here there is a town, and there you may find assistance of the type I cannot give."
 msgstr "Југоисточно одавд›је налази се град, у њему можеш наћи помоћ од врсте какву ја не могу пружити."
 
 #. [message]: speaker=Baldras
 #. +> stable
-#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:613
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:625
 msgid "Wish us well. If we are to resist the Wesnoth army a second time, we’re going to need more than clubs and slings against steel."
 msgstr "Пожели нам добро. Ако ћемо се по други пут одупр›ијети веснотској војсци, требаће нам више од батина и праћки наспрам челика."
 
 #. [message]: speaker=Baldras
 #. +> stable
-#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:632
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:644
 msgid "Look, more riders come from the southeast. We cannot survive another assault. We are finished!"
 msgstr "Гледајте, стиже још јахача са југоистока. Не можемо прежив›јети још један јуриш. С нама је свршено!"
 
 #. [message]: speaker=narrator
 #. +> stable
-#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:645
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:657
 msgid "Indeed, Asheviere’s armies had mustered and struck before the nascent rebellion could even be planned. Her power and ruthlessness — and their toll of death — would only grow greater with time."
 msgstr "Заиста, Ашевирине војске се окупише и ударише пр›ије него што се млада буна могла имало разрадити. Њена моћ и окрутност — и смртни данак за њима — само ће расти временом."
 

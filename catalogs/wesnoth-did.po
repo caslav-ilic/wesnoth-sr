@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-did\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2012-02-18 17:14+0100\n"
+"POT-Creation-Date: 2012-08-18 11:51+0200\n"
 "PO-Revision-Date: 2011-12-10 10:16+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -144,11 +144,11 @@ msgstr "Убрзо између дрвећа изби човек у одежди
 msgid "Drogan, the captain of the guard, replied, <i>“Surely you know that the penalty for necromancy is death. For your aid we will promise you rest and safety. Upon your departure, however, you are banished from these lands, not to return on pain of death. We thank you for your help, but need no alliances with those who deal only in dark magic.”</i>"
 msgstr "Дроган, капетан гарде, одговори: „Засигурно знаш да се некромантија кажњава смрћу. За исказану помоћ, обећавамо ти конак и безбедност. Чим кренеш, међутим, сматрај се прот›јераним из ових земаља, да се не вратиш ако ти је до живота. Захваљујемо ти за помоћ, али нема савеза са онима који се служе само мрачном магијом.“"
 
+#. [side]: type=Frontier Baroness, id=Dela Keshar
 #. [side]: type=General, id=Taylor
 #. [side]: type=Apprentice Mage, id=Malin Keshar
 #. [side]: type=Sergeant, id=Drogan
 #. [side]
-#. [side]: type=Frontier Baroness, id=Dela Keshar
 #. +> stable
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:68
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:106
@@ -177,12 +177,12 @@ msgstr "Браниоци"
 msgid "Malin Keshar"
 msgstr "Малин Кешар"
 
-#. [side]: type=Orcish Warlord, id=Gron'r Hronk
-#. [side]: type=Orcish Warlord, id=K'rrlar Oban
 #. [side]: type=Orcish Warrior, id=Kreg'a'shar Trr
 #. [side]: type=Orcish Warlord, id=Borth
 #. [side]: type=Orcish Warlord, id=P'Gareth
 #. [side]: type=Orcish Warlord, id=K'Vark
+#. [side]: type=Orcish Warlord, id=Gron'r Hronk
+#. [side]: type=Orcish Warlord, id=K'rrlar Oban
 #. +> stable
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:85
 #: data/campaigns/Descent_Into_Darkness/scenarios/04_Beginning_of_the_Revenge.cfg:59
@@ -200,8 +200,8 @@ msgstr "Оркови"
 msgid "Kreg’a’shar Trr"
 msgstr "Крегашар Тр"
 
-#. [side]: type=Sergeant, id=Drogan
 #. [side]: type=Lieutenant, id=Drogan
+#. [side]: type=Sergeant, id=Drogan
 #. +> stable
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:109
 #: data/campaigns/Descent_Into_Darkness/scenarios/06_Return_to_Parthyn.cfg:79
@@ -923,8 +923,8 @@ msgstr "Неки дан потом, Малин препозна блиско о�
 msgid "Guardsmen"
 msgstr "Гардисти"
 
-#. [unit]: type=Frontier Baroness, id=Dela Keshar
 #. [side]: type=Frontier Baroness, id=Dela Keshar
+#. [unit]: type=Frontier Baroness, id=Dela Keshar
 #. +> stable
 #: data/campaigns/Descent_Into_Darkness/scenarios/06_Return_to_Parthyn.cfg:100
 #: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:506
@@ -2014,19 +2014,19 @@ msgstr "погранична бароница"
 
 #. [unit_type]: id=Frontier Baroness, race=human
 #. +> stable
-#: data/campaigns/Descent_Into_Darkness/units/frontier-baroness.cfg:24
+#: data/campaigns/Descent_Into_Darkness/units/frontier-baroness.cfg:23
 msgid "On the frontiers of Wesnoth, all able-bodied men and women must be able to defend the town at need. While the men are most often trained in the use of sword or bow, the women learn the use of staff and sling. The most proficient are more than a match for any orcs foolish enough to engage them in combat."
 msgstr "На веснотским границама, сви пристали мушкарци и жене морају бити оспособљени да бране град у невољи. Док се мушкарци углавном обучавају за руковање мачем и луком, жене се уче употреби штапа и праћке. Најспособније су више него на равној нози са било којим орком довољно необазривим да их изазове у борби."
 
 #. [attack]: type=impact
 #. +> stable
-#: data/campaigns/Descent_Into_Darkness/units/frontier-baroness.cfg:93
+#: data/campaigns/Descent_Into_Darkness/units/frontier-baroness.cfg:92
 msgid "staff"
 msgstr "штап"
 
 #. [attack]: type=impact
 #. +> stable
-#: data/campaigns/Descent_Into_Darkness/units/frontier-baroness.cfg:102
+#: data/campaigns/Descent_Into_Darkness/units/frontier-baroness.cfg:101
 msgid "sling"
 msgstr "праћка"
 

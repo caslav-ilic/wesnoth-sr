@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-sof\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2012-02-18 17:14+0100\n"
+"POT-Creation-Date: 2012-08-18 11:51+0200\n"
 "PO-Revision-Date: 2011-12-10 10:17+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -169,13 +169,13 @@ msgstr "Халдрик други"
 msgid "Glildur"
 msgstr "Глилдур"
 
-#. [side]: type=Elvish Captain, id=Glildur
+#. [side]
+#. [side]: type=Elvish Captain, id=Glindur
 #. [side]: type=Elvish Marshal, id=Crintil
+#. [side]: type=Elvish Captain, id=Glildur
 #. [side]: type=Elvish Marshal, id=Gaenlar
 #. [side]: type=Elvish Marshal, id=Glinan
 #. [side]: type=Elvish Captain, id=Kalnar
-#. [side]: type=Elvish Captain, id=Glindur
-#. [side]
 #. +> stable
 #: data/campaigns/Sceptre_of_Fire/scenarios/1_A_Bargain_is_Struck.cfg:75
 #: data/campaigns/Sceptre_of_Fire/scenarios/2_Closing_the_Gates.cfg:42
@@ -438,9 +438,9 @@ msgstr "Вид›јећу шта могу да урадим. Али треба �
 msgid "Very well. I have the silver here, ready to ship, and I will send someone over with the stone itself. He will stay with you as you make the sceptre, and make sure you are going to get it done on time. I expect it done before my reign as king is ended."
 msgstr "Добро. Имам сребро код себе, спремно за испоруку, а послаћу неког са самим каменом. Остаће уз вас док не сачините жезло и постараће се да га завршите на вр›ијеме. Очекујем да жезло буде готово пр›ије но што се дани мог краљевања окончају."
 
-#. [unit]: type=Dragoon, id=Alanin
 #. [side]: id=Alanin, type=Dragoon
 #. [side]: type=Haldric II, id=Haldric II
+#. [unit]: type=Dragoon, id=Alanin
 #. +> stable
 #: data/campaigns/Sceptre_of_Fire/scenarios/1_A_Bargain_is_Struck.cfg:307
 #: data/campaigns/Sceptre_of_Fire/scenarios/7_Outriding_the_Outriders.cfg:30
@@ -619,8 +619,8 @@ msgstr "Затварање капија"
 msgid "Glindur"
 msgstr "Глиндур"
 
-#. [side]
 #. [side]: type=Troll Warrior, type=Troll
+#. [side]
 #. +> stable
 #: data/campaigns/Sceptre_of_Fire/scenarios/2_Closing_the_Gates.cfg:53
 #: data/campaigns/Sceptre_of_Fire/scenarios/4_Gathering_Materials.cfg:876
@@ -2255,8 +2255,8 @@ msgid "We have driven all of the dwarves and elves out of these caves! Now, seal
 msgstr "Ист›јерасмо све патуљке и вилењаке из пећина! Запечатите капије, одмах!"
 
 # well-spelled: Гаах
-#. [message]: speaker=Durstorn
 #. [message]: speaker=Baglur
+#. [message]: speaker=Durstorn
 #. +> stable
 #: data/campaigns/Sceptre_of_Fire/scenarios/5_Hills_of_the_Shorbear_Clan.cfg:795
 #: data/campaigns/Sceptre_of_Fire/utils/utils.cfg:61
@@ -2846,8 +2846,8 @@ msgid "You fool, you let the enemy get at me when I was unarmed!"
 msgstr "Лудо, дозволио си да ме непријатељи нападну ненаоружаног!"
 
 # |, no-check-spell
-#. [message]: speaker=narrator
 #. [message]: speaker=Thursagan
+#. [message]: speaker=narrator
 #. +> stable
 #: data/campaigns/Sceptre_of_Fire/scenarios/8_The_Dragon.cfg:418
 #: data/campaigns/Sceptre_of_Fire/utils/utils.cfg:84
