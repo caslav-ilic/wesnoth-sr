@@ -34,12 +34,12 @@ S.summit = dict(
 S.branches = [
     #dict(
         #id="devel",
-        #topdir=os.path.join(WESVCS, "trunk", "po"),
+        #topdir=os.path.join(WESVCS, "po"),
         #by_lang=S.lang,
     #),
     dict(
         id="stable",
-        topdir=os.path.join(WESVCS, "branches", "1.10", "po"),
+        topdir=os.path.join(WESVCS, "po"),
         by_lang=S.lang,
     ),
 ]
