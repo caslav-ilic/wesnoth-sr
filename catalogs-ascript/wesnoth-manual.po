@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2012-02-18 17:25+0100\n"
+"PO-Revision-Date: 2014-03-09 08:48+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -556,19 +556,6 @@ msgid "Current time or time left (in timed multiplayer games)"
 msgstr ""
 "текуће или преостало време (у вишеиграчким партијама на време)|~\n"
 "текуће или преостало вр›ијеме (у вишеиграчким партијама на време)|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
-msgid "Current hex position (x-coordinate, y-coordinate)"
-msgstr "тренутни положај поља (x- и y-координата)|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. modified: djuric | 2010-03-15 21:55:24+0100 | 1
-#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
-msgid "Defense and movement of the currently selected unit on the marked hex"
-msgstr ""
-"одбрана и покрет тренутно изабране јединице на обележеном пољу|~\n"
-"одбрана и покрет тренутно изабране јединице на об‹иљеженом пољу|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
@@ -1512,11 +1499,6 @@ msgstr "механичност|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
-msgid "Mechanical units aren&#8217;t alive and thus are immune to poison, also drain and plague doesn&#8217;t work on them.  Mechanical units generally have <emphasis>Mechanical</emphasis> as their only trait."
-msgstr "Механичке јединице нису живе па су имуне на отров, а ни црпљење ни куга немају утицаја на њих. Обично је ово једина особина механичких јединица.|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
 msgid "Unit Specialties"
 msgstr "Специјалности јединица|~"
 
@@ -2086,16 +2068,6 @@ msgstr "ако је јединица савезник којим не управ
 #. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
 msgid "<imageobject> <imagedata fileref=\"images/orb-none.jpg\"/> </imageobject>"
 msgstr "<imageobject> <imagedata fileref=\"images/orb-none.jpg\"/> </imageobject>|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
-msgid "No orb"
-msgstr "Без куглице|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
-msgid "Enemy units have no orb on the top of their energy bar"
-msgstr "Непријатељске јединице немају куглицу поврх енерготраке.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
@@ -2812,19 +2784,6 @@ msgid "Advanced units have higher upkeep than lower level units (1 gp per level)
 msgstr "Напредне јединице траже веће издатке него јединице нижег нивоа (1 златник по нивоу). Изузетак су лојалне јединице.|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
-#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
-#| msgid ""
-#| "<imageobject> <imagedata fileref=\"images/main-menu-1.5.11.jpg\"/> </imageobject>|~\n"
-#| "<imageobject> <imagedata fileref=\"images/main-menu-1.{-5.11-}{+9.4+}.jpg\"/> </imageobject>|~\n"
-#| "|~x"
-msgid "<imageobject> <imagedata fileref=\"images/main-menu-1.9.4.jpg\"/> </imageobject>"
-msgstr ""
-"<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/main-menu-1.7.10.jpg\"/> </imageobject>|~\n"
-"|~e0\n"
-"<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/main-menu-1.9.11.jpg\"/> </imageobject>|~"
-
-#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-09-10 14:16:50+0200 | 1
 #. modified: ilic | 2011-12-11 10:50:29+0100 | 1
 #| msgid ""
@@ -2846,58 +2805,6 @@ msgid "Campaigns are sequences of battles with a connecting storyline. Typical c
 msgstr ""
 "Походи су низови битака повезаних током приче. Уобичајени походи садрже 10–20 сценарија. Главну предност похода̂ чини то што вам омогућавају да развијате своју војску. По завршетку сваког сценарија преостале јединице бивају сачуване, тако да их можете користити у наредном сценарију. Ако неку јединицу не желите да употр›ијебите током датог сценарија, она се преноси на с‹љедећи, тако да не губите јединице које не користите.|~\n"
 "|~e0"
-
-#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
-#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
-#| msgid ""
-#| "<imageobject> <imagedata fileref=\"images/multiplayer-1.5.11.jpg\"/> </imageobject>|~\n"
-#| "<imageobject> <imagedata fileref=\"images/multiplayer-1.{-5.11-}{+9.4+}.jpg\"/> </imageobject>|~\n"
-#| "|~x"
-msgid "<imageobject> <imagedata fileref=\"images/multiplayer-1.9.4.jpg\"/> </imageobject>"
-msgstr ""
-"<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/multiplayer-1.7.10.jpg\"/> </imageobject>|~\n"
-"|~e0\n"
-"|~e0"
-
-#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
-#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
-#| msgid ""
-#| "<imageobject> <imagedata fileref=\"images/game-screen-1.5.7.jpg\"/> </imageobject>|~\n"
-#| "<imageobject> <imagedata fileref=\"images/game-screen-1.{-5.7-}{+9.4+}.jpg\"/> </imageobject>|~\n"
-#| "|~x"
-msgid "<imageobject> <imagedata fileref=\"images/game-screen-1.9.4.jpg\"/> </imageobject>"
-msgstr ""
-"<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/game-screen-1.7.10.jpg\"/> </imageobject>|~\n"
-"|~e0\n"
-"<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/game-screen-1.9.11.jpg\"/> </imageobject>|~"
-
-#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
-#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
-#| msgid ""
-#| "<imageobject> <imagedata fileref=\"images/top_pane-1.5.7.jpg\"/> </imageobject>|~\n"
-#| "<imageobject> <imagedata fileref=\"images/top_pane-1.{-5.7-}{+9.4+}.jpg\"/> </imageobject>|~\n"
-#| "|~x"
-msgid "<imageobject> <imagedata fileref=\"images/top_pane-1.9.4.jpg\"/> </imageobject>"
-msgstr ""
-"<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/top_pane-1.7.10.jpg\"/> </imageobject>|~\n"
-"|~e0\n"
-"<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/top_pane-1.9.11.jpg\"/> </imageobject>|~"
-
-#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
-#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
-#| msgid ""
-#| "<imageobject> <imagedata fileref=\"images/right_pane-1.5.7.jpg\"/> </imageobject>|~\n"
-#| "<imageobject> <imagedata fileref=\"images/right_pane-1.{-5.7-}{+9.4+}.jpg\"/> </imageobject>|~\n"
-#| "|~x"
-msgid "<imageobject> <imagedata fileref=\"images/right_pane-1.9.4.jpg\"/> </imageobject>"
-msgstr ""
-"<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/right_pane-1.7.10.jpg\"/> </imageobject>|~\n"
-"|~e0\n"
-"<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/right_pane-1.9.11.jpg\"/> </imageobject>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
@@ -3248,19 +3155,6 @@ msgid "Pandora specific controls and hotkeys"
 msgstr ""
 "Контроле и пречице|~\n"
 "Контроле и пречице на пандори|~"
-
-#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
-#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
-#| msgid ""
-#| "<imageobject> <imagedata fileref=\"images/recruit-1.5.7.jpg\"/> </imageobject>|~\n"
-#| "<imageobject> <imagedata fileref=\"images/recruit-1.{-5.7-}{+9.4+}.jpg\"/> </imageobject>|~\n"
-#| "|~x"
-msgid "<imageobject> <imagedata fileref=\"images/recruit-1.9.4.jpg\"/> </imageobject>"
-msgstr ""
-"<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/recruit-1.7.10.jpg\"/> </imageobject>|~\n"
-"|~e0\n"
-"|~e0"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-09-10 14:16:50+0200 | 1
@@ -3646,6 +3540,201 @@ msgid "Each side is given some amount of gold to begin with, and receives 2 gold
 msgstr ""
 "Свака страна добија нешто злата за почетак, и по два златника на потез и још по два за свако пос›једнуто село. Током похода, почетно злато је прво веће од 80% злата пренесеног из претходног сценарија и најмање количине дефинисане за тренутни сценарио, која је обично то мања што је ниво тежине већи.|~\n"
 "Свака страна добија нешто злата за почетак, и по два златника на потез и још по два за свако пос›једнуто село. Током похода, почетно злато је најмања количина дефинисана за тренутни сценарио, која је обично то мања што је ниво тежине већи. У додатак овоме, често вам се пренесе одређен проценат злата из претходног сценарија. Тај проценат зависи од сценарија, и најчешће је поменут у циљевима сценарија.|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "<imageobject> <imagedata fileref=\"images/main-menu-1.9.4.jpg\"/> </imageobject>|~"
+msgid "<imageobject> <imagedata fileref=\"images/main-menu-1.11.9.jpg\"/> </imageobject>"
+msgstr "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/main-menu-1.9.11.jpg\"/> </imageobject>|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "<imageobject> <imagedata fileref=\"images/multiplayer-1.9.4.jpg\"/> </imageobject>|~"
+msgid "<imageobject> <imagedata fileref=\"images/multiplayer-1.11.9.jpg\"/> </imageobject>"
+msgstr "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/multiplayer-1.7.10.jpg\"/> </imageobject>|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "<imageobject> <imagedata fileref=\"images/game-screen-1.9.4.jpg\"/> </imageobject>|~"
+msgid "<imageobject> <imagedata fileref=\"images/game-screen-1.11.9.jpg\"/> </imageobject>"
+msgstr "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/game-screen-1.9.11.jpg\"/> </imageobject>|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "<imageobject> <imagedata fileref=\"images/top_pane-1.9.4.jpg\"/> </imageobject>|~"
+msgid "<imageobject> <imagedata fileref=\"images/top_pane-1.11.9.jpg\"/> </imageobject>"
+msgstr "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/top_pane-1.9.11.jpg\"/> </imageobject>|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "<imageobject> <imagedata fileref=\"images/right_pane-1.9.4.jpg\"/> </imageobject>|~"
+msgid "<imageobject> <imagedata fileref=\"images/right_pane-1.11.9.jpg\"/> </imageobject>"
+msgstr "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/right_pane-1.9.11.jpg\"/> </imageobject>|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "Defense and movement of the currently selected unit on the marked hex|~"
+msgid "Current hex position (x-coordinate, y-coordinate), defense and movement of the currently selected unit on the marked hex"
+msgstr "одбрана и покрет тренутно изабране јединице на об‹иљеженом пољу|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "<imageobject> <imagedata fileref=\"images/recruit-1.9.4.jpg\"/> </imageobject>|~"
+msgid "<imageobject> <imagedata fileref=\"images/recruit-1.11.9.jpg\"/> </imageobject>"
+msgstr "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/recruit-1.7.10.jpg\"/> </imageobject>|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "Mechanical units aren&#8217;t alive and thus are immune to poison, also drain and plague doesn&#8217;t work on them.  Mechanical units generally have <emphasis>Mechanical</emphasis> as their only trait.|~"
+msgid "Elemental units aren&#8217;t alive and thus are immune to poison, and drain and plague don&#8217;t work on them.  Elemental units generally have <emphasis>Elemental</emphasis> as their only trait."
+msgstr "Механичке јединице нису живе па су имуне на отров, а ни црпљење ни куга немају утицаја на њих. Обично је ово једина особина механичких јединица.|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "Mechanical units aren&#8217;t alive and thus are immune to poison, also drain and plague doesn&#8217;t work on them.  Mechanical units generally have <emphasis>Mechanical</emphasis> as their only trait.|~"
+msgid "Mechanical units aren&#8217;t alive and thus are immune to poison, and drain and plague don&#8217;t work on them.  Mechanical units generally have <emphasis>Mechanical</emphasis> as their only trait."
+msgstr "Механичке јединице нису живе па су имуне на отров, а ни црпљење ни куга немају утицаја на њих. Обично је ово једина особина механичких јединица.|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "Poison|~"
+msgid "Unpoison"
+msgstr "отров|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "A unit which can cure an ally of poison, although the ally will receive no additional healing on the turn it is cured of the poison.|~"
+msgid "A curer can cure a unit of poison, although that unit will receive no additional healing on the turn it is cured of the poison."
+msgstr "Јединица може ослободити савезничку јединицу од отрова, која међутим неће бити додатно изл›ијечена у потезу у којем је прочишћена од отрова.|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "Blue orb|~"
+msgid "Black orb"
+msgstr "Плава куглица|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "Enemy units have no orb on the top of their energy bar|~"
+msgid "Enemy units have a red orb on the top of their energy bar"
+msgstr "Непријатељске јединице немају куглицу поврх енерготраке.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~ msgid "Current hex position (x-coordinate, y-coordinate)"
+#~ msgstr "тренутни положај поља (x- и y-координата)|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: djuric | 2010-03-15 21:55:24+0100 | 1
+#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~ msgid "Defense and movement of the currently selected unit on the marked hex"
+#~ msgstr ""
+#~ "одбрана и покрет тренутно изабране јединице на обележеном пољу|~\n"
+#~ "одбрана и покрет тренутно изабране јединице на об‹иљеженом пољу|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~ msgid "Mechanical units aren&#8217;t alive and thus are immune to poison, also drain and plague doesn&#8217;t work on them.  Mechanical units generally have <emphasis>Mechanical</emphasis> as their only trait."
+#~ msgstr "Механичке јединице нису живе па су имуне на отров, а ни црпљење ни куга немају утицаја на њих. Обично је ово једина особина механичких јединица.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~ msgid "No orb"
+#~ msgstr "Без куглице|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-03-15 21:55:24+0100
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~ msgid "Enemy units have no orb on the top of their energy bar"
+#~ msgstr "Непријатељске јединице немају куглицу поврх енерготраке.|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
+#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~| msgid ""
+#~| "<imageobject> <imagedata fileref=\"images/main-menu-1.5.11.jpg\"/> </imageobject>|~\n"
+#~| "<imageobject> <imagedata fileref=\"images/main-menu-1.{-5.11-}{+9.4+}.jpg\"/> </imageobject>|~\n"
+#~| "|~x"
+#~ msgid "<imageobject> <imagedata fileref=\"images/main-menu-1.9.4.jpg\"/> </imageobject>"
+#~ msgstr ""
+#~ "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/main-menu-1.7.10.jpg\"/> </imageobject>|~\n"
+#~ "|~e0\n"
+#~ "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/main-menu-1.9.11.jpg\"/> </imageobject>|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
+#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~| msgid ""
+#~| "<imageobject> <imagedata fileref=\"images/multiplayer-1.5.11.jpg\"/> </imageobject>|~\n"
+#~| "<imageobject> <imagedata fileref=\"images/multiplayer-1.{-5.11-}{+9.4+}.jpg\"/> </imageobject>|~\n"
+#~| "|~x"
+#~ msgid "<imageobject> <imagedata fileref=\"images/multiplayer-1.9.4.jpg\"/> </imageobject>"
+#~ msgstr ""
+#~ "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/multiplayer-1.7.10.jpg\"/> </imageobject>|~\n"
+#~ "|~e0\n"
+#~ "|~e0"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
+#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~| msgid ""
+#~| "<imageobject> <imagedata fileref=\"images/game-screen-1.5.7.jpg\"/> </imageobject>|~\n"
+#~| "<imageobject> <imagedata fileref=\"images/game-screen-1.{-5.7-}{+9.4+}.jpg\"/> </imageobject>|~\n"
+#~| "|~x"
+#~ msgid "<imageobject> <imagedata fileref=\"images/game-screen-1.9.4.jpg\"/> </imageobject>"
+#~ msgstr ""
+#~ "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/game-screen-1.7.10.jpg\"/> </imageobject>|~\n"
+#~ "|~e0\n"
+#~ "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/game-screen-1.9.11.jpg\"/> </imageobject>|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
+#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~| msgid ""
+#~| "<imageobject> <imagedata fileref=\"images/top_pane-1.5.7.jpg\"/> </imageobject>|~\n"
+#~| "<imageobject> <imagedata fileref=\"images/top_pane-1.{-5.7-}{+9.4+}.jpg\"/> </imageobject>|~\n"
+#~| "|~x"
+#~ msgid "<imageobject> <imagedata fileref=\"images/top_pane-1.9.4.jpg\"/> </imageobject>"
+#~ msgstr ""
+#~ "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/top_pane-1.7.10.jpg\"/> </imageobject>|~\n"
+#~ "|~e0\n"
+#~ "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/top_pane-1.9.11.jpg\"/> </imageobject>|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
+#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~| msgid ""
+#~| "<imageobject> <imagedata fileref=\"images/right_pane-1.5.7.jpg\"/> </imageobject>|~\n"
+#~| "<imageobject> <imagedata fileref=\"images/right_pane-1.{-5.7-}{+9.4+}.jpg\"/> </imageobject>|~\n"
+#~| "|~x"
+#~ msgid "<imageobject> <imagedata fileref=\"images/right_pane-1.9.4.jpg\"/> </imageobject>"
+#~ msgstr ""
+#~ "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/right_pane-1.7.10.jpg\"/> </imageobject>|~\n"
+#~ "|~e0\n"
+#~ "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/right_pane-1.9.11.jpg\"/> </imageobject>|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1f
+#. modified: ilic | 2011-12-11 13:15:09+0100 | 1
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~| msgid ""
+#~| "<imageobject> <imagedata fileref=\"images/recruit-1.5.7.jpg\"/> </imageobject>|~\n"
+#~| "<imageobject> <imagedata fileref=\"images/recruit-1.{-5.7-}{+9.4+}.jpg\"/> </imageobject>|~\n"
+#~| "|~x"
+#~ msgid "<imageobject> <imagedata fileref=\"images/recruit-1.9.4.jpg\"/> </imageobject>"
+#~ msgstr ""
+#~ "<imageobject> <imagedata fileref=\"images/~#!~@|sr|sr@latin|!~@|sr@ijekavian|sr@ijekavianlatin|!/recruit-1.7.10.jpg\"/> </imageobject>|~\n"
+#~ "|~e0\n"
+#~ "|~e0"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-03-15 21:55:24+0100 | 1

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-editor\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2012-08-18 11:51+0200\n"
+"POT-Creation-Date: 2014-03-09 08:46+0100\n"
 "PO-Revision-Date: 2011-11-30 16:10+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -21,296 +21,503 @@ msgstr ""
 "X-Environment: wesnoth, wesnoth/noent\n"
 "X-Wrapping: fine\n"
 
-#. [brush]
+#. [brush]: id=brush-1
 #. +> stable
-#: data/core/editor/brushes.cfg:5
+#: data/core/editor/brushes.cfg:6
 msgid "Single Hex"
 msgstr "једно поље"
 
-#. [brush]
+#. [brush]: id=brush-2
 #. +> stable
-#: data/core/editor/brushes.cfg:15
+#: data/core/editor/brushes.cfg:16
 msgid "Radius 1 Hex"
 msgstr "полупречник једно поље"
 
-#. [brush]
+#. [brush]: id=brush-3
 #. +> stable
-#: data/core/editor/brushes.cfg:25
+#: data/core/editor/brushes.cfg:26
 msgid "Radius 2 Hex"
 msgstr "полупречник два поља"
 
-#. [brush]
+#. [brush]: id=brush-nw-se
 #. +> stable
-#: data/core/editor/brushes.cfg:55
+#: data/core/editor/brushes.cfg:47
 msgid "Hex Line NW-SE"
+msgstr "линија поља СЗ-ЈИ"
+
+#. [brush]: id=brush-sw-ne
+#. +> stable
+#: data/core/editor/brushes.cfg:63
+#, fuzzy
+#| msgid "Hex Line NW-SE"
+msgid "Hex Line SE-NW"
 msgstr "линија поља СЗ-ЈИ"
 
 #. [editor_group]: id=all
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:10
+#: data/core/editor/terrain-groups.cfg:11
 msgid "all"
 msgstr "све"
 
 #. [editor_group]: id=water
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:16
+#: data/core/editor/terrain-groups.cfg:17
 msgid "water"
 msgstr "вода"
 
 #. [editor_group]: id=flat
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:23
+#: data/core/editor/terrain-groups.cfg:24
 msgid "flat"
 msgstr "равно"
 
 #. [editor_group]: id=desert
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:30
+#: data/core/editor/terrain-groups.cfg:31
 msgid "desert"
 msgstr "пустиња"
 
 #. [editor_group]: id=embellishments
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:37
+#: data/core/editor/terrain-groups.cfg:38
 msgid "embellishments"
 msgstr "орнамент"
 
 #. [editor_group]: id=forest
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:44
+#: data/core/editor/terrain-groups.cfg:45
 msgid "forest"
 msgstr "шума"
 
+#. [editor_group]: id=fall
+#. +> stable
+#: data/core/editor/terrain-groups.cfg:52
+msgid "fall"
+msgstr ""
+
 #. [editor_group]: id=frozen
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:51
+#: data/core/editor/terrain-groups.cfg:59
 msgid "frozen"
 msgstr "смрзнуто"
 
 #. [editor_group]: id=rough
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:58
+#: data/core/editor/terrain-groups.cfg:66
 msgid "rough"
 msgstr "крш"
 
 #. [editor_group]: id=cave
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:65
+#: data/core/editor/terrain-groups.cfg:73
 msgid "cave"
 msgstr "пећина"
 
 #. [editor_group]: id=obstacle
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:72
+#: data/core/editor/terrain-groups.cfg:80
 msgid "obstacle"
 msgstr "препрека"
 
 #. [editor_group]: id=village
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:79
+#: data/core/editor/terrain-groups.cfg:87
 msgid "village"
 msgstr "село"
 
 #. [editor_group]: id=castle
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:86
+#: data/core/editor/terrain-groups.cfg:94
 msgid "castle"
 msgstr "замак"
 
 #. [editor_group]: id=bridge
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:93
+#: data/core/editor/terrain-groups.cfg:101
 msgid "bridge"
 msgstr "мост"
 
 #. [editor_group]: id=special
 #. +> stable
-#: data/core/editor/terrain-groups.cfg:100
+#: data/core/editor/terrain-groups.cfg:108
 msgid "special"
 msgstr "специјално"
 
-#. [editor_tool_hint]: id=editor-tool-paint
-#. [editor_tool_hint]: id=editor-tool-fill
-#. [menu]: id=draw_button_editor
-#. [menu]: id=flood_button_editor
+#. [editor_times]: id=empty
 #. +> stable
-#: data/core/editor/tool-hints.cfg:7 data/core/editor/tool-hints.cfg:13
-#: data/themes/editor.cfg:181 data/themes/editor.cfg:194
-msgid "Use left/right mouse button to draw fore-/background terrain. Hold Shift to paint base layer only. Ctrl+click to sample terrain under cursor."
-msgstr "Л›ијевим/десним дугметом миша цртате терен спр›иједа/у позадини. Држите Shift за сликање само по основном слоју. Ctrl+кликом узимате узорак терена испод показивача."
+#: data/core/editor/time-of-day.cfg:5
+#, fuzzy
+#| msgctxt "player"
+#| msgid "None"
+msgid "None"
+msgstr "ниједан"
 
-#. [editor_tool_hint]: id=editor-tool-select
-#. [menu]: id=select_button_editor
+#. [editor_times]: id=test
 #. +> stable
-#: data/core/editor/tool-hints.cfg:19 data/themes/editor.cfg:216
-msgid "Left mouse button selects, right deselects. Hold Shift for magic-wand selection of tiles with same terrain."
-msgstr "Л›ијево дугме миша бира, десно поништава. Држите Shift за избор магичним штапићем плочица са истим тереном."
+#: data/core/editor/time-of-day.cfg:10
+msgid "Test"
+msgstr ""
 
-#. [editor_tool_hint]: id=editor-tool-starting-position
-#. [menu]: id=start_position_button_editor
+#. [editor_times]: id=default
 #. +> stable
-#: data/core/editor/tool-hints.cfg:25 data/themes/editor.cfg:205
-msgid "Left mouse button displays player selection, right clears. Number keys scroll to the starting position, alt+number sets respective starting position under cursor, delete clears."
-msgstr "Л›ијево дугме миша приказује избор играча, десно уклања. Тастери бројева клизају до почетних положаја, Alt+број поставља тај почетни положај под показивач, Delete уклања."
+#: data/core/editor/time-of-day.cfg:21
+msgid "Default"
+msgstr ""
 
-#. [editor_tool_hint]: id=editor-paste
+#. [editor_times]: id=summer
 #. +> stable
-#: data/core/editor/tool-hints.cfg:30
-msgid "Click to paste, zoom out for more accuracy when pasting large areas. Use the edit menu to transform the clipboard (rotate, mirror)."
-msgstr "Кликом на‹љепљујете; умањите приказ за више прецизности при налепљивању већих подручја. Кроз мени „Уређивање“ обрађујете оставу (заокретање, превртање)."
+#: data/core/editor/time-of-day.cfg:27
+msgid "Summer"
+msgstr ""
 
-#. [menu]: id=menu-editor-file
+#. [editor_times]: id=winter
 #. +> stable
-#: data/themes/editor.cfg:122
+#: data/core/editor/time-of-day.cfg:33
+msgid "Winter"
+msgstr ""
+
+#. [editor_times]: id=underground
+#. +> stable
+#: data/core/editor/time-of-day.cfg:39
+msgid "Underground"
+msgstr ""
+
+#. [editor_times]: id=deep_underground
+#. +> stable
+#: data/core/editor/time-of-day.cfg:45
+msgid "Deep Underground"
+msgstr ""
+
+#. [editor_times]: id=indoors
+#. +> stable
+#: data/core/editor/time-of-day.cfg:51
+msgid "Indoors"
+msgstr ""
+
+#. [editor_times]: id=24
+#. +> stable
+#: data/core/editor/time-of-day.cfg:57
+msgid "24 Hour Schedule"
+msgstr ""
+
+#. [editor_times]: id=after_the_fall
+#. +> stable
+#: data/core/editor/time-of-day.cfg:63
+msgid "After the Fall"
+msgstr ""
+
+#. [theme]: id=editor
+#. +> stable
+#: data/themes/editor.cfg:11
+#, fuzzy
+#| msgid "Edit"
+msgctxt "theme"
+msgid "Editor"
+msgstr "Уређивање"
+
+#. [menu]: id=menu-editor-file, type=turbo
+#. +> stable
+#: data/themes/editor.cfg:63
 msgid "File"
 msgstr "Датотека"
 
-#. [menu]: id=menu-editor-edit
-#. +> stable
-#: data/themes/editor.cfg:133
-msgid "Edit"
-msgstr "Уређивање"
-
 #. [menu]: id=menu-editor-map
 #. +> stable
-#: data/themes/editor.cfg:143
+#: data/themes/editor.cfg:84
 msgid "Map"
 msgstr "Мапа"
 
+#. [menu]: id=menu-editor-transitions
+#. +> stable
+#: data/themes/editor.cfg:92
+msgid "Transition Update"
+msgstr ""
+
 #. [menu]: id=menu-editor-window
 #. +> stable
-#: data/themes/editor.cfg:153
+#: data/themes/editor.cfg:99
 msgid "Window"
 msgstr "Прозор"
 
+#. [menu]: id=menu-editor-areas
+#. +> stable
+#: data/themes/editor.cfg:108
+msgid "Areas"
+msgstr ""
+
+#. [menu]: id=menu-editor-local-time
+#. +> stable
+#: data/themes/editor.cfg:116
+msgid "Assign Local Time"
+msgstr ""
+
+#. [menu]: id=menu-editor-local-schedule
+#. +> stable
+#: data/themes/editor.cfg:122
+msgid "Assign Local Time Schedule"
+msgstr ""
+
+#. [menu]: id=menu-editor-side
+#. +> stable
+#: data/themes/editor.cfg:130
+msgid "Side"
+msgstr ""
+
 #. [label]: id=villages-icon
 #. +> stable
-#: data/themes/editor.cfg:272
+#: data/themes/editor.cfg:148
 msgid "villages"
 msgstr "села"
 
+#. [label]: id=units-icon
 #. +> stable
-#: src/editor/editor_controller.cpp:132
-msgid "Quit Editor"
-msgstr "Напусти уређивач"
+#: data/themes/editor.cfg:165
+msgid "units"
+msgstr ""
+
+#. [menu]: id=switch_time
+#. +> stable
+#: data/themes/editor.cfg:444
+msgid "Time Schedule Menu"
+msgstr ""
+
+#. [menu]: id=menu-playlist
+#. +> stable
+#: data/themes/editor.cfg:455
+msgid "Playlist"
+msgstr ""
+
+#. [menu]: id=menu-editor-schedule
+#. +> stable
+#: data/themes/editor.cfg:461
+msgid "Assign Time Schedule"
+msgstr ""
 
 #. +> stable
-#: src/editor/editor_controller.cpp:286
+#: src/editor/action/mouse/mouse_action_unit.cpp:58
+msgid "Identifier: "
+msgstr ""
+
+#. +> stable
+#: src/editor/action/mouse/mouse_action_unit.cpp:59
+msgid "Name: "
+msgstr ""
+
+#. +> stable
+#: src/editor/action/mouse/mouse_action_unit.cpp:60
+msgid "Type: "
+msgstr ""
+
+#. +> stable
+#: src/editor/action/mouse/mouse_action_unit.cpp:61
+msgid "Level: "
+msgstr ""
+
+#. +> stable
+#: src/editor/action/mouse/mouse_action_unit.cpp:62
+msgid "Cost: "
+msgstr ""
+
+#. +> stable
+#: src/editor/action/mouse/mouse_action_unit.cpp:63
+msgid "Recruit: "
+msgstr ""
+
+#. +> stable
+#: src/editor/editor_controller.cpp:177
 msgid "Fatal error"
 msgstr "Кобна грешка"
 
 #. +> stable
-#: src/editor/editor_controller.cpp:311 src/editor/editor_controller.cpp:1098
-msgid "(New Map)"
-msgstr "(нова мапа)"
-
-#. +> stable
-#: src/editor/editor_controller.cpp:317
+#: src/editor/editor_controller.cpp:205
 msgid "Do you really want to quit?"
 msgstr "Желите ли заиста да напустите?"
 
 #. +> stable
-#: src/editor/editor_controller.cpp:319
+#: src/editor/editor_controller.cpp:207
 msgid "Do you really want to quit? Changes in the map since the last save will be lost."
 msgstr "Желите ли заиста да напустите? Изм›јене на мапи од пос‹љедњег уписа биће изгубљене."
 
 #. +> stable
-#: src/editor/editor_controller.cpp:321
+#: src/editor/editor_controller.cpp:209
 msgid "Do you really want to quit? The following maps were modified and all changes since the last save will be lost:"
 msgstr "Желите ли заиста да напустите? С‹љедеће мапе су изм›ијењене и све изм›јене од пос‹љедњег уписа биће изгубљене:"
 
 # наслов
 #. +> stable
-#: src/editor/editor_controller.cpp:326
+#: src/editor/editor_controller.cpp:212
 msgid "Quit"
 msgstr "Напуштање"
 
 #. +> stable
-#: src/editor/editor_controller.cpp:391
+#: src/editor/editor_controller.cpp:223
 msgid "No editor time-of-day found."
 msgstr "Нема доба дана у уређивачу."
 
 #. +> stable
-#: src/editor/editor_controller.cpp:412
-msgid "Do you want to discard all changes you made to the map since the last save?"
-msgstr "Желите ли да одбаците све изм›јене над мапом од пос‹љедњег уписа?"
+#: src/editor/editor_controller.cpp:1070
+msgid "Change Unit ID"
+msgstr ""
 
 #. +> stable
-#: src/editor/editor_controller.cpp:412
-msgid "Unsaved Changes"
-msgstr "Несачуване измене"
+#: src/editor/editor_controller.cpp:1071
+msgid "ID:"
+msgstr ""
+
+#. +> stable
+#: src/editor/editor_controller.cpp:1087
+msgid "Rename Unit"
+msgstr ""
+
+#. +> stable
+#: src/editor/editor_controller.cpp:1088
+msgid "Name:"
+msgstr ""
+
+#. +> stable
+#: src/editor/map/context_manager.cpp:127
+#: src/editor/map/context_manager.cpp:288
+msgid "(New Map)"
+msgstr "(нова мапа)"
 
 # наслов
 #. +> stable
-#: src/editor/editor_controller.cpp:434
-msgid "Choose a Map to Open"
+#: src/editor/map/context_manager.cpp:184
+#, fuzzy
+#| msgid "Choose a Map to Open"
+msgid "Choose a File to Open"
 msgstr "Избор мапе за отварање"
 
 #. +> stable
-#: src/editor/editor_controller.cpp:468
-msgid "Save the Map As"
-msgstr "Сачувај мапу као"
+#: src/editor/map/context_manager.cpp:290
+#, fuzzy
+#| msgid "(New Map)"
+msgid "(New Scenario)"
+msgstr "(нова мапа)"
 
 #. +> stable
-#: src/editor/editor_controller.cpp:471
-msgid "The file already exists. Do you want to overwrite it?"
-msgstr "Датотека већ постоји. Желите ли да је пребришете?"
+#: src/editor/map/context_manager.cpp:322
+msgid "(Unnamed Area)"
+msgstr ""
 
 #. +> stable
-#: src/editor/editor_controller.cpp:488
-msgid "No random map generators found."
-msgstr "Нема ниједног генератора насумичних мапа."
-
-#. +> stable
-#: src/editor/editor_controller.cpp:501 src/editor/editor_controller.cpp:505
-msgid "Map creation failed."
-msgstr "Стварање мапе није усп›јело."
+#: src/editor/map/context_manager.cpp:345
+#, fuzzy
+#| msgid "(New Map)"
+msgid "(New Side)"
+msgstr "(нова мапа)"
 
 # наслов
 #. +> stable
-#: src/editor/editor_controller.cpp:520
+#: src/editor/map/context_manager.cpp:411
 msgid "Choose a Mask to Apply"
 msgstr "Избор маске за прим›јењивање"
 
 #. +> stable
-#: src/editor/editor_controller.cpp:527
+#: src/editor/map/context_manager.cpp:418
 msgid "Error loading mask"
 msgstr "Грешка при учитавању маске"
 
+#. +> stable
+#: src/editor/map/context_manager.cpp:437
+msgid "Identifier:"
+msgstr ""
+
+#. +> stable
+#: src/editor/map/context_manager.cpp:437
+msgid "Rename Area"
+msgstr ""
+
 # наслов
 #. +> stable
-#: src/editor/editor_controller.cpp:542
+#: src/editor/map/context_manager.cpp:448
 msgid "Choose Target Map"
 msgstr "Избор циљне мапе"
 
 #. +> stable
-#: src/editor/editor_controller.cpp:549 src/editor/editor_controller.cpp:739
+#: src/editor/map/context_manager.cpp:455
+#: src/editor/map/context_manager.cpp:887
 msgid "Error loading map"
 msgstr "Грешка при учитавању мапе"
 
 #. +> stable
-#: src/editor/editor_controller.cpp:653 src/editor/editor_controller.cpp:695
+#: src/editor/map/context_manager.cpp:572
+msgid "Save the Map As"
+msgstr "Сачувај мапу као"
+
+#. +> stable
+#: src/editor/map/context_manager.cpp:576
+#: src/editor/map/context_manager.cpp:604
+msgid "The file already exists. Do you want to overwrite it?"
+msgstr "Датотека већ постоји. Желите ли да је пребришете?"
+
+#. +> stable
+#: src/editor/map/context_manager.cpp:600
+#, fuzzy
+#| msgid "Save the Map As"
+msgid "Save the Scenario As"
+msgstr "Сачувај мапу као"
+
+#. +> stable
+#: src/editor/map/context_manager.cpp:639
+msgid "No random map generators found."
+msgstr "Нема ниједног генератора насумичних мапа."
+
+#. +> stable
+#: src/editor/map/context_manager.cpp:652
+#: src/editor/map/context_manager.cpp:656
+msgid "Map creation failed."
+msgstr "Стварање мапе није усп›јело."
+
+#. +> stable
+#: src/editor/map/context_manager.cpp:668
+msgid "Unsaved Changes"
+msgstr "Несачуване измене"
+
+#. +> stable
+#: src/editor/map/context_manager.cpp:669
+msgid "Do you want to discard all changes you made to the map since the last save?"
+msgstr "Желите ли да одбаците све изм›јене над мапом од пос‹љедњег уписа?"
+
+#. +> stable
+#: src/editor/map/context_manager.cpp:766
+#, fuzzy
+#| msgid "This map is already open."
+msgid "This scenario is already open."
+msgstr "Ова мапа је већ отворена."
+
+#. +> stable
+#: src/editor/map/context_manager.cpp:788
+#: src/editor/map/context_manager.cpp:843
 msgid "This map is already open."
 msgstr "Ова мапа је већ отворена."
 
 #. +> stable
-#: src/editor/editor_controller.cpp:674
+#: src/editor/map/context_manager.cpp:809
+#, fuzzy
+#| msgid "Map saved."
+msgid "Scenario saved."
+msgstr "Мапа је сачувана."
+
+#. +> stable
+#: src/editor/map/context_manager.cpp:823
 msgid "Map saved."
 msgstr "Мапа је сачувана."
 
 #. +> stable
-#: src/editor/editor_controller.cpp:718
+#: src/editor/map/context_manager.cpp:866
 msgid "Loaded embedded map data"
 msgstr "Учитани угн›ијежђени подаци мапе."
 
 # >> @title:window
 #. +> stable
-#: src/editor/editor_controller.cpp:719 src/editor/editor_controller.cpp:733
+#: src/editor/map/context_manager.cpp:867
+#: src/editor/map/context_manager.cpp:881
 msgid "Map loaded from scenario"
 msgstr "Мапа учитана из сценарија"
 
 #. +> stable
-#: src/editor/editor_controller.cpp:729
+#: src/editor/map/context_manager.cpp:877
 msgid ""
 "Loaded referenced map file:\n"
 "$new"
@@ -319,110 +526,129 @@ msgstr ""
 "$new"
 
 #. +> stable
-#: src/editor/editor_controller.cpp:1128
-msgid "Undo"
-msgstr "Опозови"
-
-#. +> stable
-#: src/editor/editor_controller.cpp:1130
-msgid "Can’t Undo"
-msgstr "Опозив неизводљив"
-
-#. +> stable
-#: src/editor/editor_controller.cpp:1134
-msgid "Redo"
-msgstr "Понови"
-
-#. +> stable
-#: src/editor/editor_controller.cpp:1136
-msgid "Can’t Redo"
-msgstr "Понављање неизводљиво"
-
-#. +> stable
-#: src/editor/editor_controller.cpp:1141
-msgid "Auto-update Terrain Transitions: Yes"
-msgstr "Самоажурирање прелаза терена: да"
-
-#. +> stable
-#: src/editor/editor_controller.cpp:1144
-msgid "Auto-update Terrain Transitions: Partial"
-msgstr "Самоажурирање прелаза терена: делимично"
-
-#. +> stable
-#: src/editor/editor_controller.cpp:1148
-msgid "Auto-update Terrain Transitions: No"
-msgstr "Самоажурирање прелаза терена: не"
-
-#. +> stable
-#: src/editor/editor_map.cpp:150
+#: src/editor/map/editor_map.cpp:149
 msgid "Player"
 msgstr "Играч"
 
 #. +> stable
-#: src/editor/editor_map.cpp:257
+#: src/editor/map/editor_map.cpp:266
 msgid "The size of the target map is different from the current map"
 msgstr "Величина циљне мапе је различита од текуће"
 
+#. +> stable
+#: src/editor/map/map_context.cpp:127
+msgid "File not found"
+msgstr "Датотека није нађена."
+
+#. +> stable
+#: src/editor/map/map_context.cpp:133
+#, fuzzy
+#| msgid "Empty map file"
+msgid "Empty file"
+msgstr "Празна датотека мапе."
+
+#. +> stable
+#: src/editor/map/map_context.cpp:175
+msgid "The map file looks like a scenario, but the map_data value does not point to an existing file"
+msgstr "Датотека мапе личи на сценарио, али вр›иједност map_data не показује на постојећу датотеку."
+
+#. +> stable
+#: src/editor/map/map_context.cpp:508
+#, fuzzy
+#| msgid "Could not save the map: $msg"
+msgid "Could not save the scenario: $msg"
+msgstr "Не могу да сачувам мапу: $msg"
+
+#. +> stable
+#: src/editor/map/map_context.cpp:535
+msgid "Could not save into scenario"
+msgstr "Не могу да сачувам у сценарио."
+
+#. +> stable
+#: src/editor/map/map_context.cpp:542
+msgid "Could not save the map: $msg"
+msgstr "Не могу да сачувам мапу: $msg"
+
+#. +> stable
+#: src/editor/palette/editor_palettes.cpp:59
+#: src/editor/palette/editor_palettes.cpp:114
+msgid "(Unknown Group)"
+msgstr ""
+
 # >> non-core terrain
 #. +> stable
-#: src/editor/editor_palettes.cpp:503
+#: src/editor/palette/editor_palettes.cpp:383
 msgid "(non-core)"
 msgstr "(спољашњи)"
 
 #. +> stable
-#: src/editor/editor_palettes.cpp:504
+#: src/editor/palette/editor_palettes.cpp:384
 msgid "Will not work in game without extra care."
 msgstr "Неће радити у игри без додатне бриге."
 
 # |, no-check-spell
 #. +> stable
-#: src/editor/editor_palettes.cpp:532
+#: src/editor/palette/terrain_palettes.cpp:223
 msgid "FG: "
 msgstr "Пред: "
 
 # |, no-check-spell
 #. +> stable
-#: src/editor/editor_palettes.cpp:533
+#: src/editor/palette/terrain_palettes.cpp:224
 msgid "BG: "
 msgstr "Поз: "
 
 #. +> stable
-#: src/editor/map_context.cpp:71
-msgid "File not found"
-msgstr "Датотека није нађена."
+#: src/gui/dialogs/editor/custom_tod.cpp:129
+msgid "Choose File"
+msgstr ""
 
 #. +> stable
-#: src/editor/map_context.cpp:85
-msgid "The map file looks like a scenario, but the map_data value does not point to an existing file"
-msgstr "Датотека мапе личи на сценарио, али вр›иједност map_data не показује на постојећу датотеку."
-
-#. +> stable
-#: src/editor/map_context.cpp:100
-msgid "Empty map file"
-msgstr "Празна датотека мапе."
-
-#. +> stable
-#: src/editor/map_context.cpp:220
-msgid "Could not save into scenario"
-msgstr "Не могу да сачувам у сценарио."
-
-#. +> stable
-#: src/editor/map_context.cpp:227
-msgid "Could not save the map: $msg"
-msgstr "Не могу да сачувам мапу: $msg"
-
-#. +> stable
-#: src/gui/dialogs/editor_set_starting_position.cpp:84
+#: src/gui/dialogs/editor_set_starting_position.cpp:87
 msgctxt "player"
 msgid "None"
 msgstr "ниједан"
 
 #. +> stable
-#: src/gui/dialogs/editor_set_starting_position.cpp:96
+#: src/gui/dialogs/editor_set_starting_position.cpp:100
 msgid "Player $player_number"
 msgstr "Играч $player_number"
 
-#. +> stable
-#: src/gui/dialogs/editor_settings.cpp:166
-msgid "Custom setting"
-msgstr "Посебна поставка"
+#~ msgid "Use left/right mouse button to draw fore-/background terrain. Hold Shift to paint base layer only. Ctrl+click to sample terrain under cursor."
+#~ msgstr "Л›ијевим/десним дугметом миша цртате терен спр›иједа/у позадини. Држите Shift за сликање само по основном слоју. Ctrl+кликом узимате узорак терена испод показивача."
+
+#~ msgid "Left mouse button selects, right deselects. Hold Shift for magic-wand selection of tiles with same terrain."
+#~ msgstr "Л›ијево дугме миша бира, десно поништава. Држите Shift за избор магичним штапићем плочица са истим тереном."
+
+#~ msgid "Left mouse button displays player selection, right clears. Number keys scroll to the starting position, alt+number sets respective starting position under cursor, delete clears."
+#~ msgstr "Л›ијево дугме миша приказује избор играча, десно уклања. Тастери бројева клизају до почетних положаја, Alt+број поставља тај почетни положај под показивач, Delete уклања."
+
+#~ msgid "Click to paste, zoom out for more accuracy when pasting large areas. Use the edit menu to transform the clipboard (rotate, mirror)."
+#~ msgstr "Кликом на‹љепљујете; умањите приказ за више прецизности при налепљивању већих подручја. Кроз мени „Уређивање“ обрађујете оставу (заокретање, превртање)."
+
+#~ msgid "Quit Editor"
+#~ msgstr "Напусти уређивач"
+
+#~ msgid "Undo"
+#~ msgstr "Опозови"
+
+#~ msgid "Can’t Undo"
+#~ msgstr "Опозив неизводљив"
+
+#~ msgid "Redo"
+#~ msgstr "Понови"
+
+#~ msgid "Can’t Redo"
+#~ msgstr "Понављање неизводљиво"
+
+#~ msgid "Auto-update Terrain Transitions: Yes"
+#~ msgstr "Самоажурирање прелаза терена: да"
+
+#~ msgid "Auto-update Terrain Transitions: Partial"
+#~ msgstr "Самоажурирање прелаза терена: делимично"
+
+#~ msgid "Auto-update Terrain Transitions: No"
+#~ msgstr "Самоажурирање прелаза терена: не"
+
+#~ msgid "Custom setting"
+#~ msgstr "Посебна поставка"

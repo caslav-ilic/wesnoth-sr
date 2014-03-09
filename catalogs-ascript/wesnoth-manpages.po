@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-manpages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2013-03-10 10:08+0100\n"
+"PO-Revision-Date: 2014-03-09 08:48+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -1277,17 +1277,6 @@ msgid "lists defined log domains (only the ones containing B<filter> if used) an
 msgstr "набраја дефинисане домене бележења (или оне које садрже B<филтер>, ако је задат) и излази.|~"
 
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
-#. modified: ilic | 2012-01-14 14:50:16+0100 | 1
-msgid "B<--preprocess, -p[=E<lt>define1E<gt>,E<lt>define2E<gt>,...] E<lt>file/folderE<gt> E<lt>target directoryE<gt>>"
-msgstr ""
-"B<--preprocess, -p[=E<lt>дефиниција-1E<gt>,E<lt>дефиниција-2E<gt>,...] E<lt>датотека/директоријум<gt> E<lt>циљни директоријумE<gt>>|~\n"
-"B<--preprocess, -p[=E<lt>дефиниција-1E<gt>,E<lt>дефиниција-2E<gt>,...] E<lt>датотека/директоријумE<gt> E<lt>циљни директоријумE<gt>>|~"
-
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
-msgid "preprocesses a specified file/folder. The file(s) will be written in specified target directory: a plain cfg file and a processed cfg file. If a folder is specified, it will be preprocessed recursively based on the known preprocessor rules. The common macroses from the data/core/macros will be preprocessed before the specified resources.  B<define1,define2,...> - the extra defines will be added before processing the files. If you want to add them you must add the '=' character before.  If 'SKIP_CORE' is in the define list the data/core won't be preprocessed.  Example: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> or B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>"
-msgstr "предобрађује задату датотеку или директоријум. У задати циљни директоријум биће уписане датотеке обичне поставе и обрађене основе. Ако се зада директоријум, биће предобрађен рекурзивно на основу познатих правила предобрађивача. Заједнички макрои из data/core/macros/ биће предобрађени пре задатих ресурса. B<дефиниција-1,дефиниција-2,...> су додатне дефиниције које се додају пре обрађивања датотека. Ако желите да их додате морате пре њих унети знак ‘=’. Ако се у списку дефиниција налази ‘SKIP_CORE’, data/core/ неће бити предобрађен. Пример: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> или B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>.|~"
-
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
 msgid "B<--preprocess-input-macros E<lt>source fileE<gt>>"
 msgstr "B<--preprocess-input-macros E<lt>изворна-датотекаE<gt>>|~"
 
@@ -1331,16 +1320,6 @@ msgstr ""
 "скаче директно на поход према параметрима. Тежина је број између 1 и броја тежине похода. Подразумевана тежина је 1. Сценарио мора припадати походу. Подразумеван је први сценарио похода. B<Напомена: При употреби ове опције морате задати и путању директоријума података као последњи аргумент>, иначе ће ИД похода или сценарија бити схваћен као директоријум података.|~\n"
 "скаче директно на поход са ИД-ом E<lt>ид-походаE<gt>. Ако се ИД не зада, појавиће се мени за избор. B<Напомена:> При употреби ове опције морате задати и путању директоријума података као последњи аргумент, иначе ће ИД похода или сценарија бити схваћен као директоријум података.|~"
 
-#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
-#. modified: ilic | 2012-01-07 13:20:00+0100 | 1
-#| msgid ""
-#| "B<--data-dir E<lt>directoryE<gt>>|~\n"
-#| "|~x"
-msgid "B<--campaign-difficulty E<lt>difficultyE<gt>>"
-msgstr ""
-"B<--data-dir E<lt>директоријумE<gt>>|~\n"
-"B<--campaign-difficulty E<lt>тежинаE<gt>>|~"
-
 #. modified: ilic | 2012-01-07 13:20:00+0100 | 1f
 #. modified: ilic | 2012-01-07 13:20:00+0100 | 1
 #| msgid ""
@@ -1373,6 +1352,54 @@ msgstr ""
 #. modified: ilic | 2013-03-10 10:08:19+0100 | 1
 msgid "2013"
 msgstr "2013|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "B<--campaign-difficulty E<lt>difficultyE<gt>>|~"
+msgid "B<--campaign-difficulty [E<lt>difficultyE<gt>]>"
+msgstr "B<--campaign-difficulty E<lt>тежинаE<gt>>|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "B<--preprocess, -p[=E<lt>define1E<gt>,E<lt>define2E<gt>,...] E<lt>file/folderE<gt> E<lt>target directoryE<gt>>|~"
+msgid "B<-p, --preprocess E<lt>source file/folderE<gt> E<lt>target directoryE<gt>>"
+msgstr "B<--preprocess, -p[=E<lt>дефиниција-1E<gt>,E<lt>дефиниција-2E<gt>,...] E<lt>датотека/директоријумE<gt> E<lt>циљни директоријумE<gt>>|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "preprocesses a specified file/folder. The file(s) will be written in specified target directory: a plain cfg file and a processed cfg file. If a folder is specified, it will be preprocessed recursively based on the known preprocessor rules. The common macroses from the data/core/macros will be preprocessed before the specified resources.  B<define1,define2,...> - the extra defines will be added before processing the files. If you want to add them you must add the '=' character before.  If 'SKIP_CORE' is in the define list the data/core won't be preprocessed.  Example: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> or B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>|~"
+msgid "preprocesses a specified file/folder. For each file(s) a plain .cfg file and a processed .cfg file will be written in specified target directory. If a folder is specified, it will be preprocessed recursively based on the known preprocessor rules. The common macroses from the \"data/core/macros\" directory will be preprocessed before the specified resources.  Example: B<-p ~/wesnoth/data/campaigns/tutorial ~/result.> For details regarding the preprocessor visit: http://wiki.wesnoth.org/PreprocessorRef#Command-line_preprocessor"
+msgstr "предобрађује задату датотеку или директоријум. У задати циљни директоријум биће уписане датотеке обичне поставе и обрађене основе. Ако се зада директоријум, биће предобрађен рекурзивно на основу познатих правила предобрађивача. Заједнички макрои из data/core/macros/ биће предобрађени пре задатих ресурса. B<дефиниција-1,дефиниција-2,...> су додатне дефиниције које се додају пре обрађивања датотека. Ако желите да их додате морате пре њих унети знак ‘=’. Ако се у списку дефиниција налази ‘SKIP_CORE’, data/core/ неће бити предобрађен. Пример: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> или B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>.|~"
+
+#. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
+#, fuzzy
+#| msgid "B<--era=>I<value>|~"
+msgid "B<--multiplayer-repeat=>I<value>"
+msgstr "B<--era=>I<вр›иједност>|~"
+
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
+#. modified: ilic | 2012-01-14 14:50:16+0100 | 1
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~ msgid "B<--preprocess, -p[=E<lt>define1E<gt>,E<lt>define2E<gt>,...] E<lt>file/folderE<gt> E<lt>target directoryE<gt>>"
+#~ msgstr ""
+#~ "B<--preprocess, -p[=E<lt>дефиниција-1E<gt>,E<lt>дефиниција-2E<gt>,...] E<lt>датотека/директоријум<gt> E<lt>циљни директоријумE<gt>>|~\n"
+#~ "B<--preprocess, -p[=E<lt>дефиниција-1E<gt>,E<lt>дефиниција-2E<gt>,...] E<lt>датотека/директоријумE<gt> E<lt>циљни директоријумE<gt>>|~"
+
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~ msgid "preprocesses a specified file/folder. The file(s) will be written in specified target directory: a plain cfg file and a processed cfg file. If a folder is specified, it will be preprocessed recursively based on the known preprocessor rules. The common macroses from the data/core/macros will be preprocessed before the specified resources.  B<define1,define2,...> - the extra defines will be added before processing the files. If you want to add them you must add the '=' character before.  If 'SKIP_CORE' is in the define list the data/core won't be preprocessed.  Example: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> or B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>"
+#~ msgstr "предобрађује задату датотеку или директоријум. У задати циљни директоријум биће уписане датотеке обичне поставе и обрађене основе. Ако се зада директоријум, биће предобрађен рекурзивно на основу познатих правила предобрађивача. Заједнички макрои из data/core/macros/ биће предобрађени пре задатих ресурса. B<дефиниција-1,дефиниција-2,...> су додатне дефиниције које се додају пре обрађивања датотека. Ако желите да их додате морате пре њих унети знак ‘=’. Ако се у списку дефиниција налази ‘SKIP_CORE’, data/core/ неће бити предобрађен. Пример: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> или B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>.|~"
+
+#. modified: ilic | 2012-01-07 13:05:45+0100 | 1f
+#. modified: ilic | 2012-01-07 13:20:00+0100 | 1
+#. modified: ilic | 2014-03-09 08:48:41+0100 | o
+#~| msgid ""
+#~| "B<--data-dir E<lt>directoryE<gt>>|~\n"
+#~| "|~x"
+#~ msgid "B<--campaign-difficulty E<lt>difficultyE<gt>>"
+#~ msgstr ""
+#~ "B<--data-dir E<lt>директоријумE<gt>>|~\n"
+#~ "B<--campaign-difficulty E<lt>тежинаE<gt>>|~"
 
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
