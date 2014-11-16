@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-httt\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-03-09 08:46+0100\n"
+"POT-Creation-Date: 2014-11-16 11:49+0100\n"
 "PO-Revision-Date: 2012-10-29 23:51+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -207,7 +207,7 @@ msgstr "Настрада ли Делфадор"
 #: data/campaigns/Heir_To_The_Throne/scenarios/13_The_Dwarven_Doors.cfg:54
 #: data/campaigns/Heir_To_The_Throne/scenarios/14_Plunging_Into_the_Darkness.cfg:42
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:49
-#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:67
+#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:73
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Scepter_of_Fire.cfg:437
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:70
 #: data/campaigns/Heir_To_The_Throne/scenarios/19a_Snow_Plains.cfg:55
@@ -1806,7 +1806,7 @@ msgstr "Агадла"
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:112
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:87
 #: data/campaigns/Heir_To_The_Throne/scenarios/15_The_Lost_General.cfg:102
-#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:127
+#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:133
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:98
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_A_Choice_Must_Be_Made.cfg:142
 msgid "Evil"
@@ -1849,7 +1849,7 @@ msgstr "Има их велико мноштво, то неће ићи лако! 
 msgid "Here come the elves! Our newly forged alliance with the orcs will give us the power to crush them with ease!"
 msgstr "Ево гд›је долазе вилењаци! Уз наш новосклопљени савез са орковима, имамо силу да их смождимо као од шале!"
 
-#. [message]: role=Konrad
+#. [message]: speaker=Konrad
 #. +> stable
 #: data/campaigns/Heir_To_The_Throne/scenarios/06_The_Siege_of_Elensefar.cfg:191
 msgid "We must take the city, and destroy the evil undead before reinforcements arrive!"
@@ -2333,7 +2333,7 @@ msgstr "Елбриџ"
 #: data/campaigns/Heir_To_The_Throne/scenarios/08_The_Princess_of_Wesnoth.cfg:86
 #: data/campaigns/Heir_To_The_Throne/scenarios/11_The_Ford_of_Abez.cfg:64
 #: data/campaigns/Heir_To_The_Throne/scenarios/13_The_Dwarven_Doors.cfg:657
-#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:86
+#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:92
 #: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:398
 msgid "Li’sar"
 msgstr "Лиза́ра"
@@ -4202,34 +4202,34 @@ msgstr "Настрада ли Лиза́ра"
 
 #. [part]
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:49
+#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:55
 msgid "The last dwarvish settlement far behind them, the party descended into the deepest parts of the hewn caverns. Except for disturbances caused by the occasional goblin, the air in the lower passages was still and tomblike."
 msgstr "Оставивши пос‹љедњу патуљачку насеобину иза себе, дружина се упустила у најдубља подручја усекнутих пећина. Осим лахора иза понеког гоблина, ваздух у доњим пролазима б›јеше миран као у гробници."
 
 #. [part]
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:53
+#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:59
 msgid "Stepping through a low corridor, Konrad and Delfador emerged from the maze-like catacombs into icy blackness. Darkness seemed to crush them. Lights flickered and went out. Even the staff of the elder mage struggled to produce enough light to see by."
 msgstr "Искорачивши из ниског ходника, Конрад и Делфадор избише из изувијаних катакомби у ледено црнило. Тама као да их је заробила. Светла трепнуше и угасише се. Чак се и штап старог мага напрезао да изнедри довољно светла за обасјавање пута."
 
 #. [part]
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:57
+#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:63
 msgid "A cavernous void stretched out ahead, across which no ceiling or walls were visible. Wind howled and whipped over narrow ledges bridging the depths, almost as if animated by powerful nearby magic... and newly awoken evil."
 msgstr "Испред се ширила пећинска празнина, преко које се није вид›јела ни таваница ни зидови. В›јетар је завијао и шибао преко уских испуста што су премошћавали дубине, као да је оживљен неком моћном магијом... и пробуђеним злом."
 
 #. [side]: type=Commander, id=Konrad
 #. [side]: type=Princess, id=Li'sar
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:73
-#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:95
+#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:79
+#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:101
 msgid "Humans"
 msgstr "Људи"
 
 # |, no-check-spell
 #. [side]: type=Troll Warrior, id=Haaf-Garga
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:112
+#: data/campaigns/Heir_To_The_Throne/scenarios/16_Hasty_Alliance.cfg:118
 msgid "Haaf-Garga"
 msgstr "Хаф-Гарга"
 
@@ -5817,61 +5817,61 @@ msgstr "Господару Калензе, господару Конраде, н
 
 #. [message]: speaker=Delfador
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:652
+#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:655
 msgid "There are some orcs! We must let them fight the men of Wesnoth, and avoid engaging them at all costs!"
 msgstr "Ено неких оркова! Морамо их оставити да се бију са војском Веснота, и по сваку ц›ијену изб›јећи да се упетљамо!"
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:663
+#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:669
 msgid "There they are! Charge!"
 msgstr "Ено их тамо! Јуриш!"
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:688
+#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:697
 msgid "There you are! You must come quickly east to Lintanir!!"
 msgstr "Ту сте! Морате брзо поћи источно у Линтанир!"
 
 #. [message]: speaker=El'rien
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:703
+#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:712
 msgid "Greetings, Elf-friend! Welcome to Emetria, my hold in Lintanir. You must take shelter here until the battle passes. If you stay with me here for a little while, we will all be safe."
 msgstr "Поздрав, пријатељи вилењака! Добродошли у Еметрију, мој пос›јед у Линтаниру. Морате се склонити овд›је док битка не прође. Ако неко вр›ијеме останете овд›је покрај мене, сви ћемо бити безб›једни."
 
 #. [message]: speaker=Konrad
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:707
+#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:716
 msgid "Thank you, Lord El’rien. The hospitality of the North Elves is as generous as that of your kin in the south! My men will help you hold out against our enemies."
 msgstr "Захваљујем, господару Елријене. Гостопримство с›јеверњачких вилењака издашно је колико и ваших јужних сродника! Моји ће људи помоћи у одбрани од наших непријатеља."
 
 #. [message]: speaker=Delfador
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:721
+#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:730
 msgid "Konrad, you have made it to the domain of the North Elves. Continue moving east and let the elves guard your rear."
 msgstr "Конраде, стигао си до царства с›јеверњачких вилењака. Настави да се крећеш ка истоку и препусти вилењацима да ти чувају леђа."
 
 #. [message]: speaker=Delfador
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:778
+#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:787
 msgid "We have not yet reached the forest, and the battle still rages. We are caught between two vast armies and cannot escape to safety! We are defeated!"
 msgstr "Шума је још пред нама, а битка још ув›ијек б›јесни. Ухваћени смо између дв›ије огромне војске и не можемо се никако домоћи сигурности! Пропали смо!"
 
 #. [message]: speaker=El'rien
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:788
+#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:797
 msgid "Elf-friends, you have made it to safety!"
 msgstr "Пријатељи вилењака, сада сте на сигурном!"
 
 #. [message]: speaker=Kalenz
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:792
+#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:801
 msgid "El’rien, we have the Sceptre of Fire with us! We must escort them to Elensiria!"
 msgstr "Елријене, носимо Ватрено жезло са собом! Морамо их отпратити до Еленсирије!"
 
 #. [message]: speaker=El'rien
 #. +> stable
-#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:796
+#: data/campaigns/Heir_To_The_Throne/scenarios/20a_North_Elves.cfg:805
 msgid "Indeed. We will escort you to our capital, where we will make Council."
 msgstr "Уистину. Отпратићемо вас до наше пр›ијестонице, гд›је ћемо сазвати В›ијеће."
 
@@ -6598,7 +6598,9 @@ msgstr "Рекла бих да сте у забуни! Мени ћете пом�
 #. [message]: role=clanboss
 #. +> stable
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Test_of_the_Clans.cfg:448
-msgid "Who then is your leader? Who do we serve?"
+#, fuzzy
+#| msgid "Who then is your leader? Who do we serve?"
+msgid "Who then is your leader? Whom do we serve?"
 msgstr "Ко је онда ваш вођ? Коме ми то служимо?"
 
 #. [message]: speaker=Delfador

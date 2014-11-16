@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-lib\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-03-09 08:46+0100\n"
+"POT-Creation-Date: 2014-11-16 11:49+0100\n"
 "PO-Revision-Date: 2012-04-01 16:53+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -26,7 +26,7 @@ msgstr ""
 #. [terrain_type]: id=deep_water_tropical
 #. +> stable
 #: data/core/terrain.cfg:18 data/core/terrain.cfg:29 data/core/terrain.cfg:40
-#: data/core/terrain.cfg:2354 data/core/terrain.cfg:2355
+#: data/core/terrain.cfg:2352 data/core/terrain.cfg:2353
 msgid "Deep Water"
 msgstr "дубока вода"
 
@@ -54,7 +54,7 @@ msgstr "тропска дубока вода"
 #. [terrain_type]: id=tropical_water
 #. +> stable
 #: data/core/terrain.cfg:51 data/core/terrain.cfg:62 data/core/terrain.cfg:73
-#: data/core/terrain.cfg:2313 data/core/terrain.cfg:2314
+#: data/core/terrain.cfg:2311 data/core/terrain.cfg:2312
 msgid "Shallow Water"
 msgstr "плитка вода"
 
@@ -94,8 +94,8 @@ msgstr ""
 #. [terrain_type]: id=tropical_reef
 #. +> stable
 #: data/core/terrain.cfg:96 data/core/terrain.cfg:107
-#: data/core/terrain.cfg:118 data/core/terrain.cfg:2268
-#: data/core/terrain.cfg:2269
+#: data/core/terrain.cfg:118 data/core/terrain.cfg:2266
+#: data/core/terrain.cfg:2267
 msgid "Coastal Reef"
 msgstr "обалски гребен"
 
@@ -124,7 +124,7 @@ msgstr "тропски обалски гребен"
 #. [terrain_type]: id=swamp_water_reed
 #. +> stable
 #: data/core/terrain.cfg:131 data/core/terrain.cfg:142
-#: data/core/terrain.cfg:2297 data/core/terrain.cfg:2298
+#: data/core/terrain.cfg:2295 data/core/terrain.cfg:2296
 msgid "Swamp"
 msgstr "мочвара"
 
@@ -272,7 +272,7 @@ msgstr ""
 #. [terrain_type]: id=sand
 #. [terrain_type]: id=sand_beach
 #. +> stable
-#: data/core/terrain.cfg:302 data/core/terrain.cfg:2255
+#: data/core/terrain.cfg:302 data/core/terrain.cfg:2253
 msgid "Sand"
 msgstr "п›ијесак"
 
@@ -285,7 +285,7 @@ msgstr "обалски п›ијесак"
 #. [terrain_type]: id=sand
 #. [terrain_type]: id=sand_beach
 #. +> stable
-#: data/core/terrain.cfg:307 data/core/terrain.cfg:2259
+#: data/core/terrain.cfg:307 data/core/terrain.cfg:2257
 msgid ""
 "The instability of <italic>text='sand'</italic> makes it harder for most units to cross, and leaves them wide open to attack. In contrast, the wide feet or snakelike bodies of the reptilian races make sand much easier for them to navigate.\n"
 "\n"
@@ -440,8 +440,8 @@ msgstr "мртво велико дрво"
 #: data/core/terrain.cfg:613 data/core/terrain.cfg:625
 #: data/core/terrain.cfg:637 data/core/terrain.cfg:649
 #: data/core/terrain.cfg:661 data/core/terrain.cfg:673
-#: data/core/terrain.cfg:685 data/core/terrain.cfg:2380
-#: data/core/terrain.cfg:2381
+#: data/core/terrain.cfg:685 data/core/terrain.cfg:2378
+#: data/core/terrain.cfg:2379
 msgid "Forest"
 msgstr "шума"
 
@@ -547,8 +547,8 @@ msgstr "снежна мешовита шума"
 #. [terrain_type]: id=snow_hills
 #. +> stable
 #: data/core/terrain.cfg:701 data/core/terrain.cfg:711
-#: data/core/terrain.cfg:731 data/core/terrain.cfg:2283
-#: data/core/terrain.cfg:2284
+#: data/core/terrain.cfg:731 data/core/terrain.cfg:2281
+#: data/core/terrain.cfg:2282
 msgid "Hills"
 msgstr "брда"
 
@@ -587,7 +587,7 @@ msgstr "с‹њежна брда"
 #: data/core/terrain.cfg:746 data/core/terrain.cfg:756
 #: data/core/terrain.cfg:766 data/core/terrain.cfg:1001
 #: data/core/terrain.cfg:1011 data/core/terrain.cfg:1022
-#: data/core/terrain.cfg:2340 data/core/terrain.cfg:2341
+#: data/core/terrain.cfg:2338 data/core/terrain.cfg:2339
 msgid "Mountains"
 msgstr "планине"
 
@@ -640,7 +640,7 @@ msgstr "трачак светлости"
 #. [terrain_type]: id=cave_floor
 #. +> stable
 #: data/core/terrain.cfg:805 data/core/terrain.cfg:815
-#: data/core/terrain.cfg:2240 data/core/terrain.cfg:2241
+#: data/core/terrain.cfg:2238 data/core/terrain.cfg:2239
 msgid "Cave"
 msgstr "пећина"
 
@@ -825,13 +825,13 @@ msgstr "осветљени камени зид"
 
 #. [terrain_type]: id=impassable_overlay
 #. +> stable
-#: data/core/terrain.cfg:1098
+#: data/core/terrain.cfg:1097
 msgid "Impassable Overlay"
 msgstr "непролазни преклоп"
 
 #. [terrain_type]: id=unwalkable_overlay
 #. +> stable
-#: data/core/terrain.cfg:1112
+#: data/core/terrain.cfg:1110
 #, fuzzy
 #| msgid "Impassable Overlay"
 msgid "Unwalkable Overlay"
@@ -841,8 +841,8 @@ msgstr "непролазни преклоп"
 #. [terrain_type]: id=off_map2
 #. [terrain_type]: id=void
 #. +> stable
-#: data/core/terrain.cfg:1124 data/core/terrain.cfg:2180
-#: data/core/terrain.cfg:2191
+#: data/core/terrain.cfg:1122 data/core/terrain.cfg:2178
+#: data/core/terrain.cfg:2189
 msgid "Void"
 msgstr "празнина"
 
@@ -877,196 +877,196 @@ msgstr "празнина"
 #. [terrain_type]: id=village_overlay
 #. [terrain_type]: id=windmill_village
 #. +> stable
-#: data/core/terrain.cfg:1140 data/core/terrain.cfg:1153
-#: data/core/terrain.cfg:1166 data/core/terrain.cfg:1181
-#: data/core/terrain.cfg:1194 data/core/terrain.cfg:1209
-#: data/core/terrain.cfg:1222 data/core/terrain.cfg:1237
-#: data/core/terrain.cfg:1250 data/core/terrain.cfg:1263
-#: data/core/terrain.cfg:1276 data/core/terrain.cfg:1289
-#: data/core/terrain.cfg:1302 data/core/terrain.cfg:1315
-#: data/core/terrain.cfg:1328 data/core/terrain.cfg:1341
-#: data/core/terrain.cfg:1354 data/core/terrain.cfg:1367
-#: data/core/terrain.cfg:1380 data/core/terrain.cfg:1395
-#: data/core/terrain.cfg:1408 data/core/terrain.cfg:1421
-#: data/core/terrain.cfg:1434 data/core/terrain.cfg:1447
-#: data/core/terrain.cfg:1460 data/core/terrain.cfg:1473
-#: data/core/terrain.cfg:1488 data/core/terrain.cfg:1501
-#: data/core/terrain.cfg:1519 data/core/terrain.cfg:2405
-#: data/core/terrain.cfg:2406
+#: data/core/terrain.cfg:1138 data/core/terrain.cfg:1151
+#: data/core/terrain.cfg:1164 data/core/terrain.cfg:1179
+#: data/core/terrain.cfg:1192 data/core/terrain.cfg:1207
+#: data/core/terrain.cfg:1220 data/core/terrain.cfg:1235
+#: data/core/terrain.cfg:1248 data/core/terrain.cfg:1261
+#: data/core/terrain.cfg:1274 data/core/terrain.cfg:1287
+#: data/core/terrain.cfg:1300 data/core/terrain.cfg:1313
+#: data/core/terrain.cfg:1326 data/core/terrain.cfg:1339
+#: data/core/terrain.cfg:1352 data/core/terrain.cfg:1365
+#: data/core/terrain.cfg:1378 data/core/terrain.cfg:1393
+#: data/core/terrain.cfg:1406 data/core/terrain.cfg:1419
+#: data/core/terrain.cfg:1432 data/core/terrain.cfg:1445
+#: data/core/terrain.cfg:1458 data/core/terrain.cfg:1471
+#: data/core/terrain.cfg:1486 data/core/terrain.cfg:1499
+#: data/core/terrain.cfg:1517 data/core/terrain.cfg:2403
+#: data/core/terrain.cfg:2404
 msgid "Village"
 msgstr "село"
 
 #. [terrain_type]: id=desert_village
 #. +> stable
-#: data/core/terrain.cfg:1141
+#: data/core/terrain.cfg:1139
 msgid "Adobe Village"
 msgstr "село од земљаних опека"
 
 #. [terrain_type]: id=desert_village_tent
 #. +> stable
-#: data/core/terrain.cfg:1154
+#: data/core/terrain.cfg:1152
 msgid "Desert Tent Village"
 msgstr "село под пустињским шаторима"
 
 #. [terrain_type]: id=camp_village
 #. +> stable
-#: data/core/terrain.cfg:1167
+#: data/core/terrain.cfg:1165
 msgid "Tent Village"
 msgstr "село под шаторима"
 
 #. [terrain_type]: id=orcish_village
 #. +> stable
-#: data/core/terrain.cfg:1182
+#: data/core/terrain.cfg:1180
 msgid "Orcish Village"
 msgstr "орковско село"
 
 #. [terrain_type]: id=orcish_snow_village
 #. +> stable
-#: data/core/terrain.cfg:1195
+#: data/core/terrain.cfg:1193
 msgid "Snowy Orcish Village"
 msgstr "с‹њежно орковско село"
 
 #. [terrain_type]: id=elven_snow_village
 #. +> stable
-#: data/core/terrain.cfg:1210
+#: data/core/terrain.cfg:1208
 msgid "Snowy Elven Village"
 msgstr "с‹њежно вилењачко село"
 
 #. [terrain_type]: id=elven_village
 #. +> stable
-#: data/core/terrain.cfg:1223
+#: data/core/terrain.cfg:1221
 msgid "Elven Village"
 msgstr "вилењачко село"
 
 #. [terrain_type]: id=human_village
 #. +> stable
-#: data/core/terrain.cfg:1238
+#: data/core/terrain.cfg:1236
 msgid "Cottage"
 msgstr "колиба"
 
 #. [terrain_type]: id=snow_village
 #. +> stable
-#: data/core/terrain.cfg:1251
+#: data/core/terrain.cfg:1249
 msgid "Snowy Cottage"
 msgstr "с‹њежна колиба"
 
 #. [terrain_type]: id=human_village_ruin
 #. +> stable
-#: data/core/terrain.cfg:1264
+#: data/core/terrain.cfg:1262
 msgid "Ruined Cottage"
 msgstr "урушена колиба"
 
 #. [terrain_type]: id=city_village
 #. +> stable
-#: data/core/terrain.cfg:1277
+#: data/core/terrain.cfg:1275
 msgid "Human City"
 msgstr "људски град"
 
 #. [terrain_type]: id=windmill_village
 #. +> stable
-#: data/core/terrain.cfg:1290
+#: data/core/terrain.cfg:1288
 msgid "Windmill Village"
 msgstr "село ветрењача"
 
 #. [terrain_type]: id=city_village_wno
 #. +> stable
-#: data/core/terrain.cfg:1303
+#: data/core/terrain.cfg:1301
 msgid "Snowy Human City"
 msgstr "с‹њежни људски град"
 
 #. [terrain_type]: id=city_village_ruin
 #. +> stable
-#: data/core/terrain.cfg:1316
+#: data/core/terrain.cfg:1314
 msgid "Ruined Human City"
 msgstr "урушени људски град"
 
 #. [terrain_type]: id=hill_village
 #. +> stable
-#: data/core/terrain.cfg:1329
+#: data/core/terrain.cfg:1327
 msgid "Hill Stone Village"
 msgstr "село од брдског камења"
 
 #. [terrain_type]: id=snow-hill_village
 #. +> stable
-#: data/core/terrain.cfg:1342
+#: data/core/terrain.cfg:1340
 msgid "Snowy Hill Stone Village"
 msgstr "с‹њежно село од брдског камења"
 
 #. [terrain_type]: id=hill_village_ruin
 #. +> stable
-#: data/core/terrain.cfg:1355
+#: data/core/terrain.cfg:1353
 msgid "Ruined Hill Stone Village"
 msgstr "урушено село од брдског камења"
 
 #. [terrain_type]: id=tropical_forest_village
 #. +> stable
-#: data/core/terrain.cfg:1368
+#: data/core/terrain.cfg:1366
 msgid "Tropical Village"
 msgstr "тропско село"
 
 #. [terrain_type]: id=drake_village
 #. +> stable
-#: data/core/terrain.cfg:1381
+#: data/core/terrain.cfg:1379
 msgid "Drake Village"
 msgstr "змашко село"
 
 #. [terrain_type]: id=underground_village
 #. +> stable
-#: data/core/terrain.cfg:1396
+#: data/core/terrain.cfg:1394
 msgid "Cave Village"
 msgstr "пећинско село"
 
 #. [terrain_type]: id=dwarven_village
 #. +> stable
-#: data/core/terrain.cfg:1409
+#: data/core/terrain.cfg:1407
 msgid "Dwarven Village"
 msgstr "патуљачко село"
 
 #. [terrain_type]: id=hut_village
 #. +> stable
-#: data/core/terrain.cfg:1422
+#: data/core/terrain.cfg:1420
 msgid "Hut"
 msgstr "кућица"
 
 #. [terrain_type]: id=hut_snow_village
 #. +> stable
-#: data/core/terrain.cfg:1435
+#: data/core/terrain.cfg:1433
 msgid "Snowy Hut"
 msgstr "с‹њежна кућица"
 
 #. [terrain_type]: id=logcabin_village
 #. +> stable
-#: data/core/terrain.cfg:1448
+#: data/core/terrain.cfg:1446
 msgid "Log Cabin"
 msgstr "брвнара"
 
 #. [terrain_type]: id=logcabin_snow_village
 #. +> stable
-#: data/core/terrain.cfg:1461
+#: data/core/terrain.cfg:1459
 msgid "Snowy Log Cabin"
 msgstr "с‹њежна брвнара"
 
 #. [terrain_type]: id=igloo
 #. +> stable
-#: data/core/terrain.cfg:1474
+#: data/core/terrain.cfg:1472
 msgid "Igloo"
 msgstr "игло"
 
 #. [terrain_type]: id=swamp_village
 #. +> stable
-#: data/core/terrain.cfg:1489
+#: data/core/terrain.cfg:1487
 msgid "Swamp Village"
 msgstr "мочварно село"
 
 #. [terrain_type]: id=mermen-village
 #. +> stable
-#: data/core/terrain.cfg:1502
+#: data/core/terrain.cfg:1500
 msgid "Merfolk Village"
 msgstr "морејско село"
 
 #. [terrain_type]: id=mermen-village
 #. +> stable
-#: data/core/terrain.cfg:1503
+#: data/core/terrain.cfg:1501
 msgid ""
 "<italic>text='Submerged villages'</italic> are the homes of merfolk and nagas. While water-dwelling creatures are at home here, land-dwellers have a hard time navigating and defending these villages. However, like any village, the facilities are available to all creatures which allow units to tend to their wounds. Any unit stationed in a village can heal eight hitpoints each turn, or be cured of poison.\n"
 "\n"
@@ -1075,21 +1075,21 @@ msgstr ""
 
 #. [terrain_type]: id=village_overlay
 #. +> stable
-#: data/core/terrain.cfg:1520
+#: data/core/terrain.cfg:1518
 msgid "Village Overlay"
 msgstr "сеоски преклоп"
 
 #. [terrain_type]: id=encampment
 #. [terrain_type]: id=encampment_snow
 #. +> stable
-#: data/core/terrain.cfg:1536 data/core/terrain.cfg:1537
-#: data/core/terrain.cfg:1548
+#: data/core/terrain.cfg:1534 data/core/terrain.cfg:1535
+#: data/core/terrain.cfg:1546
 msgid "Encampment"
 msgstr "табор"
 
 #. [terrain_type]: id=encampment_snow
 #. +> stable
-#: data/core/terrain.cfg:1549
+#: data/core/terrain.cfg:1547
 msgid "Snowy Encampment"
 msgstr "с‹њежни табор"
 
@@ -1103,41 +1103,41 @@ msgstr "с‹њежни табор"
 #. [terrain_type]: id=snow_castle
 #. [terrain_type]: id=snow_orcish_fort
 #. +> stable
-#: data/core/terrain.cfg:1560 data/core/terrain.cfg:1572
-#: data/core/terrain.cfg:1584 data/core/terrain.cfg:1596
-#: data/core/terrain.cfg:1607 data/core/terrain.cfg:1619
-#: data/core/terrain.cfg:1669 data/core/terrain.cfg:1879
-#: data/core/terrain.cfg:2324 data/core/terrain.cfg:2325
+#: data/core/terrain.cfg:1558 data/core/terrain.cfg:1570
+#: data/core/terrain.cfg:1582 data/core/terrain.cfg:1594
+#: data/core/terrain.cfg:1605 data/core/terrain.cfg:1617
+#: data/core/terrain.cfg:1667 data/core/terrain.cfg:1877
+#: data/core/terrain.cfg:2322 data/core/terrain.cfg:2323
 msgid "Castle"
 msgstr "замак"
 
 #. [terrain_type]: id=orcish_fort
 #. +> stable
-#: data/core/terrain.cfg:1561
+#: data/core/terrain.cfg:1559
 msgid "Orcish Castle"
 msgstr "орковски замак"
 
 #. [terrain_type]: id=snow_orcish_fort
 #. +> stable
-#: data/core/terrain.cfg:1573
+#: data/core/terrain.cfg:1571
 msgid "Snowy Orcish Castle"
 msgstr "с‹њежни орковски замак"
 
 #. [terrain_type]: id=human_castle
 #. +> stable
-#: data/core/terrain.cfg:1585
+#: data/core/terrain.cfg:1583
 msgid "Human Castle"
 msgstr "људски замак"
 
 #. [terrain_type]: id=snow_castle
 #. +> stable
-#: data/core/terrain.cfg:1597
+#: data/core/terrain.cfg:1595
 msgid "Snowy Human Castle"
 msgstr "с‹њежни људски замак"
 
 #. [terrain_type]: id=elven_castle
 #. +> stable
-#: data/core/terrain.cfg:1608
+#: data/core/terrain.cfg:1606
 #, fuzzy
 #| msgid "Elven Castle Keep"
 msgid "Elven Castle"
@@ -1145,7 +1145,7 @@ msgstr "кула вилењачког замка"
 
 #. [terrain_type]: id=dwarven_castle
 #. +> stable
-#: data/core/terrain.cfg:1620
+#: data/core/terrain.cfg:1618
 msgid "Dwarven Castle"
 msgstr "патуљачки замак"
 
@@ -1154,38 +1154,38 @@ msgstr "патуљачки замак"
 #. [terrain_type]: id=sunkenruin
 #. [terrain_type]: id=swampruin
 #. +> stable
-#: data/core/terrain.cfg:1631 data/core/terrain.cfg:1643
-#: data/core/terrain.cfg:1656 data/core/terrain.cfg:1681
+#: data/core/terrain.cfg:1629 data/core/terrain.cfg:1641
+#: data/core/terrain.cfg:1654 data/core/terrain.cfg:1679
 msgid "Ruined Castle"
 msgstr "урушени замак"
 
 #. [terrain_type]: id=ruin
 #. +> stable
-#: data/core/terrain.cfg:1632
+#: data/core/terrain.cfg:1630
 msgid "Ruined Human Castle"
 msgstr "урушени људски замак"
 
 #. [terrain_type]: id=sunkenruin
 #. +> stable
-#: data/core/terrain.cfg:1644
+#: data/core/terrain.cfg:1642
 msgid "Sunken Human Ruin"
 msgstr "потопљена људска рушевина"
 
 #. [terrain_type]: id=swampruin
 #. +> stable
-#: data/core/terrain.cfg:1657
+#: data/core/terrain.cfg:1655
 msgid "Swamp Human Ruin"
 msgstr "мочварна људска рушевина"
 
 #. [terrain_type]: id=sand_castle
 #. +> stable
-#: data/core/terrain.cfg:1670
+#: data/core/terrain.cfg:1668
 msgid "Desert Castle"
 msgstr "пустињски замак"
 
 #. [terrain_type]: id=sand_castle_ruin
 #. +> stable
-#: data/core/terrain.cfg:1682
+#: data/core/terrain.cfg:1680
 msgid "Ruined Desert Castle"
 msgstr "урушени пустињски замак"
 
@@ -1193,20 +1193,20 @@ msgstr "урушени пустињски замак"
 #. [terrain_type]: id=encampment_keep_tall
 #. [terrain_type]: id=encampment_snow_keep
 #. +> stable
-#: data/core/terrain.cfg:1697 data/core/terrain.cfg:1709
-#: data/core/terrain.cfg:1722
+#: data/core/terrain.cfg:1695 data/core/terrain.cfg:1707
+#: data/core/terrain.cfg:1720
 msgid "Encampment Keep"
 msgstr "кула табора"
 
 #. [terrain_type]: id=encampment_keep_tall
 #. +> stable
-#: data/core/terrain.cfg:1710
+#: data/core/terrain.cfg:1708
 msgid "Tall Encampment Keep"
 msgstr "кула високог табора"
 
 #. [terrain_type]: id=encampment_snow_keep
 #. +> stable
-#: data/core/terrain.cfg:1723
+#: data/core/terrain.cfg:1721
 msgid "Snowy Encampment Keep"
 msgstr "кула с‹њежног табора"
 
@@ -1219,46 +1219,46 @@ msgstr "кула с‹њежног табора"
 #. [terrain_type]: id=snow_keep
 #. [terrain_type]: id=snow_orcish_keep
 #. +> stable
-#: data/core/terrain.cfg:1735 data/core/terrain.cfg:1748
-#: data/core/terrain.cfg:1761 data/core/terrain.cfg:1774
-#: data/core/terrain.cfg:1787 data/core/terrain.cfg:1800
-#: data/core/terrain.cfg:1852 data/core/terrain.cfg:1892
+#: data/core/terrain.cfg:1733 data/core/terrain.cfg:1746
+#: data/core/terrain.cfg:1759 data/core/terrain.cfg:1772
+#: data/core/terrain.cfg:1785 data/core/terrain.cfg:1798
+#: data/core/terrain.cfg:1850 data/core/terrain.cfg:1890
 msgid "Keep"
 msgstr "кула"
 
 #. [terrain_type]: id=orcish_keep
 #. +> stable
-#: data/core/terrain.cfg:1736
+#: data/core/terrain.cfg:1734
 msgid "Orcish Keep"
 msgstr "орковска кула"
 
 #. [terrain_type]: id=snow_orcish_keep
 #. +> stable
-#: data/core/terrain.cfg:1749
+#: data/core/terrain.cfg:1747
 msgid "Snowy Orcish Keep"
 msgstr "с‹њежна орковска кула"
 
 #. [terrain_type]: id=human_keep
 #. +> stable
-#: data/core/terrain.cfg:1762
+#: data/core/terrain.cfg:1760
 msgid "Human Castle Keep"
 msgstr "кула људског замка"
 
 #. [terrain_type]: id=snow_keep
 #. +> stable
-#: data/core/terrain.cfg:1775
+#: data/core/terrain.cfg:1773
 msgid "Snowy Human Castle Keep"
 msgstr "кула с‹њежног људског замка"
 
 #. [terrain_type]: id=elven_keep
 #. +> stable
-#: data/core/terrain.cfg:1788
+#: data/core/terrain.cfg:1786
 msgid "Elven Castle Keep"
 msgstr "кула вилењачког замка"
 
 #. [terrain_type]: id=dwarven_keep
 #. +> stable
-#: data/core/terrain.cfg:1801
+#: data/core/terrain.cfg:1799
 msgid "Dwarven Castle Keep"
 msgstr "кула патуљачког замка"
 
@@ -1267,50 +1267,50 @@ msgstr "кула патуљачког замка"
 #. [terrain_type]: id=sunken_keep
 #. [terrain_type]: id=swamp_keep
 #. +> stable
-#: data/core/terrain.cfg:1813 data/core/terrain.cfg:1826
-#: data/core/terrain.cfg:1839 data/core/terrain.cfg:1865
+#: data/core/terrain.cfg:1811 data/core/terrain.cfg:1824
+#: data/core/terrain.cfg:1837 data/core/terrain.cfg:1863
 msgid "Ruined Keep"
 msgstr "урушена кула"
 
 #. [terrain_type]: id=ruined_keep
 #. +> stable
-#: data/core/terrain.cfg:1814
+#: data/core/terrain.cfg:1812
 msgid "Ruined Human Castle Keep"
 msgstr "кула урушеног људског замка"
 
 #. [terrain_type]: id=sunken_keep
 #. +> stable
-#: data/core/terrain.cfg:1827
+#: data/core/terrain.cfg:1825
 msgid "Sunken Human Castle Keep"
 msgstr "кула потопљеног људског замка"
 
 #. [terrain_type]: id=swamp_keep
 #. +> stable
-#: data/core/terrain.cfg:1840
+#: data/core/terrain.cfg:1838
 msgid "Swamp Human Castle Keep"
 msgstr "кула мочварног људског замка"
 
 #. [terrain_type]: id=desert_keep
 #. +> stable
-#: data/core/terrain.cfg:1853
+#: data/core/terrain.cfg:1851
 msgid "Desert Keep"
 msgstr "пустињска кула"
 
 #. [terrain_type]: id=desert_keep_ruined
 #. +> stable
-#: data/core/terrain.cfg:1866
+#: data/core/terrain.cfg:1864
 msgid "Ruined Desert Keep"
 msgstr "урушена пустињска кула"
 
 #. [terrain_type]: id=castle_overlay
 #. +> stable
-#: data/core/terrain.cfg:1880
+#: data/core/terrain.cfg:1878
 msgid "Castle Overlay"
 msgstr "преклоп замка"
 
 #. [terrain_type]: id=keep_overlay
 #. +> stable
-#: data/core/terrain.cfg:1893
+#: data/core/terrain.cfg:1891
 msgid "Keep Overlay"
 msgstr "преклоп куле"
 
@@ -1327,12 +1327,12 @@ msgstr "преклоп куле"
 #. [terrain_type]: id=stone_bridgediag1
 #. [terrain_type]: id=stone_bridgediag2
 #. +> stable
-#: data/core/terrain.cfg:1911 data/core/terrain.cfg:1926
-#: data/core/terrain.cfg:1939 data/core/terrain.cfg:1952
-#: data/core/terrain.cfg:1964 data/core/terrain.cfg:1977
-#: data/core/terrain.cfg:1992 data/core/terrain.cfg:2004
-#: data/core/terrain.cfg:2017 data/core/terrain.cfg:2032
-#: data/core/terrain.cfg:2043 data/core/terrain.cfg:2056
+#: data/core/terrain.cfg:1909 data/core/terrain.cfg:1924
+#: data/core/terrain.cfg:1937 data/core/terrain.cfg:1950
+#: data/core/terrain.cfg:1962 data/core/terrain.cfg:1975
+#: data/core/terrain.cfg:1990 data/core/terrain.cfg:2002
+#: data/core/terrain.cfg:2015 data/core/terrain.cfg:2030
+#: data/core/terrain.cfg:2041 data/core/terrain.cfg:2054
 msgid "Bridge"
 msgstr "мост"
 
@@ -1340,14 +1340,14 @@ msgstr "мост"
 #. [terrain_type]: id=bridgediag1
 #. [terrain_type]: id=bridgediag2
 #. +> stable
-#: data/core/terrain.cfg:1912 data/core/terrain.cfg:1927
-#: data/core/terrain.cfg:1940
+#: data/core/terrain.cfg:1910 data/core/terrain.cfg:1925
+#: data/core/terrain.cfg:1938
 msgid "Wooden Bridge"
 msgstr "дрвени мост"
 
 #. [terrain_type]: id=bridge
 #. +> stable
-#: data/core/terrain.cfg:1918
+#: data/core/terrain.cfg:1916
 msgid ""
 "To those capable of building one, the ability to lay a <italic>text='bridge'</italic> offers a liberation from the fickle nature of waterways, whose fords come and go with the rise and fall of the waterline. This is to say nothing of the luxury of dry feet, the loss of which is no laughing matter in the cold months of the year.\n"
 "\n"
@@ -1358,8 +1358,8 @@ msgstr ""
 #. [terrain_type]: id=rotbridgediag1
 #. [terrain_type]: id=rotbridgediag2
 #. +> stable
-#: data/core/terrain.cfg:1953 data/core/terrain.cfg:1965
-#: data/core/terrain.cfg:1978
+#: data/core/terrain.cfg:1951 data/core/terrain.cfg:1963
+#: data/core/terrain.cfg:1976
 msgid "Rotting Bridge"
 msgstr "натрули мост"
 
@@ -1367,8 +1367,8 @@ msgstr "натрули мост"
 #. [terrain_type]: id=stone_bridgediag1
 #. [terrain_type]: id=stone_bridgediag2
 #. +> stable
-#: data/core/terrain.cfg:1993 data/core/terrain.cfg:2005
-#: data/core/terrain.cfg:2018
+#: data/core/terrain.cfg:1991 data/core/terrain.cfg:2003
+#: data/core/terrain.cfg:2016
 msgid "Basic Stone Bridge"
 msgstr "прост камени мост"
 
@@ -1376,8 +1376,8 @@ msgstr "прост камени мост"
 #. [terrain_type]: id=bridgechasmdiag1
 #. [terrain_type]: id=bridgechasmdiag2
 #. +> stable
-#: data/core/terrain.cfg:2033 data/core/terrain.cfg:2044
-#: data/core/terrain.cfg:2057
+#: data/core/terrain.cfg:2031 data/core/terrain.cfg:2042
+#: data/core/terrain.cfg:2055
 msgid "Cave Chasm Bridge"
 msgstr "мост над пећинским безданом"
 
@@ -1385,8 +1385,8 @@ msgstr "мост над пећинским безданом"
 #. [terrain_type]: id=hangingbridgediag1
 #. [terrain_type]: id=hangingbridgediag2
 #. +> stable
-#: data/core/terrain.cfg:2072 data/core/terrain.cfg:2084
-#: data/core/terrain.cfg:2096
+#: data/core/terrain.cfg:2070 data/core/terrain.cfg:2082
+#: data/core/terrain.cfg:2094
 #, fuzzy
 #| msgid "Rotting Bridge"
 msgid "Hanging Bridge"
@@ -1396,8 +1396,8 @@ msgstr "натрули мост"
 #. [terrain_type]: id=stonechasmbridgediag1
 #. [terrain_type]: id=stonechasmbridgediag2
 #. +> stable
-#: data/core/terrain.cfg:2109 data/core/terrain.cfg:2120
-#: data/core/terrain.cfg:2131
+#: data/core/terrain.cfg:2107 data/core/terrain.cfg:2118
+#: data/core/terrain.cfg:2129
 #, fuzzy
 #| msgid "Cave Chasm Bridge"
 msgid "Stone Chasm Bridge"
@@ -1407,8 +1407,8 @@ msgstr "мост над пећинским безданом"
 #. [terrain_type]: id=plankbridgediag1
 #. [terrain_type]: id=plankbridgediag2
 #. +> stable
-#: data/core/terrain.cfg:2143 data/core/terrain.cfg:2154
-#: data/core/terrain.cfg:2165
+#: data/core/terrain.cfg:2141 data/core/terrain.cfg:2152
+#: data/core/terrain.cfg:2163
 #, fuzzy
 #| msgid "Bridge"
 msgid "Plank Bridge"
@@ -1416,39 +1416,39 @@ msgstr "мост"
 
 #. [terrain_type]: id=off_map
 #. +> stable
-#: data/core/terrain.cfg:2181
+#: data/core/terrain.cfg:2179
 msgid "Off Map"
 msgstr "ван мапе"
 
 #. [terrain_type]: id=off_map2
 #. +> stable
-#: data/core/terrain.cfg:2192
+#: data/core/terrain.cfg:2190
 msgid "Experimental Fake Map Edge"
 msgstr "пробна лажна ивица мапе"
 
 #. [terrain_type]: id=shroud
 #. [toggle_button]: id=shroud
 #. +> stable
-#: data/core/terrain.cfg:2202 data/gui/default/window/editor_edit_side.cfg:176
+#: data/core/terrain.cfg:2200 data/gui/default/window/editor_edit_side.cfg:176
 #: data/gui/default/window/mp_create_game.cfg:479
 msgid "Shroud"
 msgstr "покров"
 
 #. [terrain_type]: id=fog
 #. +> stable
-#: data/core/terrain.cfg:2212
+#: data/core/terrain.cfg:2210
 msgid "Fog"
 msgstr "магла"
 
 #. [terrain_type]: id=fungus
 #. +> stable
-#: data/core/terrain.cfg:2227 data/core/terrain.cfg:2228
+#: data/core/terrain.cfg:2225 data/core/terrain.cfg:2226
 msgid "Fungus"
 msgstr ""
 
 #. [terrain_type]: id=fungus
 #. +> stable
-#: data/core/terrain.cfg:2231
+#: data/core/terrain.cfg:2229
 msgid ""
 "<italic>text='Mushroom groves'</italic> are vast underground forests of giant mushrooms,\n"
 "which thrive in the damp darkness. Most units have trouble negotiating the spongy floor of smaller fungi, but they have plenty of cover behind the larger stalks. Mounted units, however, become completely mired and lack proper freedom of movement in combat. Undead units have a natural affinity for decay and function quite well in mushroom forests.\n"
@@ -1458,7 +1458,7 @@ msgstr ""
 
 #. [terrain_type]: id=cave
 #. +> stable
-#: data/core/terrain.cfg:2243
+#: data/core/terrain.cfg:2241
 msgid ""
 "<italic>text='Cave'</italic> terrain represents any underground cavern with enough room for a unit to pass.\n"
 "Most units are wholly unfamiliar with the terrain, and thus are both slowed down and hindered in defense. Dwarves and trolls, who make their homes in caves, both have a relatively easy time navigating this terrain, especially dwarves, who by dint of their small size can navigate many obstacles that other races cannot. Occasionally caves are <ref>dst='terrain_illuminated_cave' text='illuminated'</ref>.\n"
@@ -1470,7 +1470,7 @@ msgstr ""
 
 #. [terrain_type]: id=sand
 #. +> stable
-#: data/core/terrain.cfg:2256
+#: data/core/terrain.cfg:2254
 #, fuzzy
 #| msgid "Sand"
 msgid "Sands"
@@ -1478,7 +1478,7 @@ msgstr "п›ијесак"
 
 #. [terrain_type]: id=reef
 #. +> stable
-#: data/core/terrain.cfg:2273
+#: data/core/terrain.cfg:2271
 msgid ""
 "<italic>text='Coastal reefs'</italic> are shallows formed by stone, coral and sand.\n"
 "This provides most land units with a more steady footing and defensive positions than wading in shallow water normally would and also grants most water-dwelling races an exceptionally high defense.\n"
@@ -1488,7 +1488,7 @@ msgstr ""
 
 #. [terrain_type]: id=hills
 #. +> stable
-#: data/core/terrain.cfg:2287
+#: data/core/terrain.cfg:2285
 msgid ""
 "<italic>text='Hills'</italic> represent any reasonably rough terrain,\n"
 "with enough dips and rises in the ground to provide some cover. Hills are difficult for most troops to navigate. Dwarves, trolls, and orcs have enough familiarity with the terrain that they can pass through it without being slowed down. Cavalry have enough trouble navigating the terrain that any defensive aid lent by cover is negated.\n"
@@ -1498,7 +1498,7 @@ msgstr ""
 
 #. [terrain_type]: id=swamp_water
 #. +> stable
-#: data/core/terrain.cfg:2302
+#: data/core/terrain.cfg:2300
 msgid ""
 "<italic>text='Swamps'</italic> represent any sort of wetlands.\n"
 "Swamps slow down nearly everyone, and inhibit their ability to defend themselves. An exception to this is any race bodily skilled in navigating water; these receive both full movement and a defensive bonus. Those that make their living in the wetlands are also adept at using this terrain for cover.\n"
@@ -1508,7 +1508,7 @@ msgstr ""
 
 #. [terrain_type]: id=shallow_water
 #. +> stable
-#: data/core/terrain.cfg:2315
+#: data/core/terrain.cfg:2313
 msgid ""
 "<italic>text='Shallow water'</italic> represents any body of water deep enough to come up to roughly a man’s waist. This is enough to slow down nearly anyone and leave them wide open to attack. Dwarves, given that the water reaches up almost to their heads, have an extremely hard time of this. The exception is any race whose bodies naturally lend themselves to swimming, for which they receive a considerable defensive bonus and full movement.\n"
 "\n"
@@ -1517,7 +1517,7 @@ msgstr ""
 
 #. [terrain_type]: id=castle
 #. +> stable
-#: data/core/terrain.cfg:2330
+#: data/core/terrain.cfg:2328
 msgid ""
 "<italic>text='Castles'</italic> are any sort of permanent fortification.\n"
 "Nearly all units receive a considerable bonus to their defense by being stationed in a castle, and most units receive full movement in a castle. Stationing units in a castle represents its defensive capability. Without a unit in each wall hex, an enemy can simply sneak into the castle unchallenged, gaining the same defensive bonus as everyone inside.\n"
@@ -1527,7 +1527,7 @@ msgstr ""
 
 #. [terrain_type]: id=mountains
 #. +> stable
-#: data/core/terrain.cfg:2344
+#: data/core/terrain.cfg:2342
 msgid ""
 "<italic>text='Mountains'</italic> are steep enough that units often have to climb over obstacles to move.\n"
 "By this nature, they provide a considerable defensive bonus for most troops, but they also severely impede any passage through them. Most cavalry simply cannot enter mountainous terrain; however, elvish cavalry is an exception to this, as are the goblin wolf riders. Both dwarves and trolls are native to mountainous terrain, and have a very easy time getting around.\n"
@@ -1537,7 +1537,7 @@ msgstr ""
 
 #. [terrain_type]: id=deep_water
 #. +> stable
-#: data/core/terrain.cfg:2356
+#: data/core/terrain.cfg:2354
 msgid ""
 "<italic>text='Deep water'</italic> represents any body of water deep enough to cover a man’s head.\n"
 "Most units cannot enter deep water: it is the domain of units which can either fly, or are exceptionally strong swimmers.\n"
@@ -1547,13 +1547,13 @@ msgstr ""
 
 #. [terrain_type]: id=flat
 #. +> stable
-#: data/core/terrain.cfg:2367 data/core/terrain.cfg:2368
+#: data/core/terrain.cfg:2365 data/core/terrain.cfg:2366
 msgid "Flat"
 msgstr "равница"
 
 #. [terrain_type]: id=flat
 #. +> stable
-#: data/core/terrain.cfg:2369
+#: data/core/terrain.cfg:2367
 msgid ""
 "<italic>text='Grassland'</italic> represents open plains, whether cultivated, cut back for grazing, or wild.\n"
 "Being open ground, grassland is both very easy to move across, but is also difficult to defend oneself in. Typically, those units that perform best on grassland are either cavalry, or very agile units which take advantage of the open space.\n"
@@ -1563,7 +1563,7 @@ msgstr ""
 
 #. [terrain_type]: id=forest
 #. +> stable
-#: data/core/terrain.cfg:2382
+#: data/core/terrain.cfg:2380
 msgid ""
 "<italic>text='Forests'</italic> represent any woodland with significant undergrowth, enough to hinder passage. Though they slow nearly everyone down, forests do offer better defense to most units than open ground. Cavalry, however, have so much trouble navigating them that any benefit gained by stealth is negated. Elves are an exception to this general rule for forests. Not only do they possess full movement in forests, but they also gain a considerable defensive bonus. Dwarves are another exception to this rule; though they are able to plow through the forests without much loss of speed, their utter unfamiliarity with the terrain causes them to receive no defensive bonus.\n"
 "\n"
@@ -1572,13 +1572,13 @@ msgstr ""
 
 #. [terrain_type]: id=frozen
 #. +> stable
-#: data/core/terrain.cfg:2392 data/core/terrain.cfg:2393
+#: data/core/terrain.cfg:2390 data/core/terrain.cfg:2391
 msgid "Frozen"
 msgstr "клизавица"
 
 #. [terrain_type]: id=frozen
 #. +> stable
-#: data/core/terrain.cfg:2395
+#: data/core/terrain.cfg:2393
 msgid ""
 "<italic>text='Frozen'</italic> terrain represents any flat area that is covered by snow or ice.\n"
 "Most units are slowed down on it, and have a harder time defending themselves. Note that swimming units, even those who can breathe underwater, cannot swim underneath ice.\n"
@@ -1588,7 +1588,7 @@ msgstr ""
 
 #. [terrain_type]: id=village
 #. +> stable
-#: data/core/terrain.cfg:2408
+#: data/core/terrain.cfg:2406
 msgid ""
 "<italic>text='Villages'</italic> represent any group of buildings, human or otherwise.\n"
 "Almost all units, even cavalry, have an easy time navigating villages, and most units gain a defensive bonus from being stationed in a village. Villages allow units the resources to clean and tend to their wounds, which allows any unit stationed therein to heal eight hitpoints each turn, or to be cured of poison.\n"
@@ -1598,37 +1598,37 @@ msgstr ""
 
 #. [terrain_type]: id=impassable
 #. +> stable
-#: data/core/terrain.cfg:2418 data/core/terrain.cfg:2419
+#: data/core/terrain.cfg:2416 data/core/terrain.cfg:2417
 msgid "Impassable"
 msgstr "непролаз"
 
 #. [terrain_type]: id=impassable
 #. +> stable
-#: data/core/terrain.cfg:2421
+#: data/core/terrain.cfg:2419
 msgid "Obstacles that not even the most determined traveler may overcome include solid walls of stone and mountains so tall and steep that they are constantly wreathed in cloud. Even flying creatures cannot navigate the jagged peaks at such rarefied heights, and not even the fiercest troll can smash through thick walls of stone."
 msgstr ""
 
 #. [terrain_type]: id=unwalkable
 #. +> stable
-#: data/core/terrain.cfg:2428 data/core/terrain.cfg:2429
+#: data/core/terrain.cfg:2426 data/core/terrain.cfg:2427
 msgid "Unwalkable"
 msgstr "расцеп"
 
 #. [terrain_type]: id=unwalkable
 #. +> stable
-#: data/core/terrain.cfg:2431
+#: data/core/terrain.cfg:2429
 msgid "<italic>text='Unwalkable terrain'</italic> covers any chasm or gorge which, as the name implies, cannot be crossed simply by walking. Chasms are noted for sheer walls which would take days to traverse. As far as gameplay is concerned, only units capable of flying can cross this terrain."
 msgstr ""
 
 #. [terrain_type]: id=rails
 #. +> stable
-#: data/core/terrain.cfg:2438 data/core/terrain.cfg:2439
+#: data/core/terrain.cfg:2436 data/core/terrain.cfg:2437
 msgid "Rails"
 msgstr ""
 
 #. [terrain_type]: id=rails
 #. +> stable
-#: data/core/terrain.cfg:2441
+#: data/core/terrain.cfg:2439
 msgid "<italic>text='Rails'</italic> are used to transport ore. By Dwarfs. Mostly."
 msgstr ""
 
@@ -1641,11 +1641,11 @@ msgstr ""
 #: data/gui/default/widget/window_default.cfg:140
 #: data/gui/default/window/addon_description.cfg:555
 #: data/gui/default/window/addon_filter_options.cfg:416
-#: data/gui/default/window/chat_log.cfg:172
-#: data/gui/default/window/gamestate_inspector.cfg:254
+#: data/gui/default/window/chat_log.cfg:205
+#: data/gui/default/window/gamestate_inspector.cfg:279
 #: data/gui/default/window/lobby_main.cfg:619
 #: data/gui/default/window/lobby_player_info.cfg:200
-#: data/gui/default/window/message.cfg:135 src/construct_dialog.cpp:135
+#: data/gui/default/window/message.cfg:137 src/construct_dialog.cpp:135
 #: src/generators/mapgen_dialog.cpp:110
 msgid "Close"
 msgstr "Затвори"
@@ -1688,7 +1688,7 @@ msgstr "Уклони додатке"
 #. +> stable
 #: data/gui/default/window/addon_connect.cfg:188
 #: data/gui/default/window/title_screen.cfg:179
-#: src/hotkey/hotkey_command.cpp:233
+#: src/hotkey/hotkey_command.cpp:234
 msgid "Help"
 msgstr "Помоћ"
 
@@ -1714,7 +1714,7 @@ msgstr "Повежи се"
 #: data/gui/default/window/edit_text.cfg:130
 #: data/gui/default/window/editor_edit_label.cfg:191
 #: data/gui/default/window/editor_edit_scenario.cfg:304
-#: data/gui/default/window/editor_edit_side.cfg:490
+#: data/gui/default/window/editor_edit_side.cfg:488
 #: data/gui/default/window/editor_generate_map.cfg:107
 #: data/gui/default/window/editor_new_map.cfg:125
 #: data/gui/default/window/editor_resize_map.cfg:284
@@ -1723,7 +1723,7 @@ msgstr "Повежи се"
 #: data/gui/default/window/game_load.cfg:477
 #: data/gui/default/window/game_save.cfg:135
 #: data/gui/default/window/language_selection.cfg:141
-#: data/gui/default/window/message.cfg:149
+#: data/gui/default/window/message.cfg:151
 #: data/gui/default/window/mp_change_control.cfg:160
 #: data/gui/default/window/mp_cmd_wrapper.cfg:470
 #: data/gui/default/window/mp_connect.cfg:176
@@ -1924,7 +1924,7 @@ msgstr "Радње"
 #, fuzzy
 #| msgid "Campaign"
 msgctxt "addons_of_type"
-msgid "SP/MP Campaigns"
+msgid "SP/MP campaigns"
 msgstr "Поход"
 
 # >> @title:window
@@ -2106,7 +2106,7 @@ msgstr "Играње похода"
 #: data/gui/default/window/edit_text.cfg:116
 #: data/gui/default/window/editor_edit_label.cfg:177
 #: data/gui/default/window/editor_edit_scenario.cfg:290
-#: data/gui/default/window/editor_edit_side.cfg:478
+#: data/gui/default/window/editor_edit_side.cfg:476
 #: data/gui/default/window/editor_set_starting_position.cfg:162
 #: data/gui/default/window/folder_create.cfg:120
 #: data/gui/default/window/game_load.cfg:463
@@ -2130,8 +2130,8 @@ msgstr "Играње похода"
 #: data/gui/default/window/wml_error.cfg:162
 #: data/gui/default/window/wml_message.cfg:485
 #: data/gui/default/window/wml_message.cfg:714 src/construct_dialog.cpp:121
-#: src/construct_dialog.cpp:128 src/gui/dialogs/message.cpp:167
-#: src/gui/dialogs/message.cpp:174
+#: src/construct_dialog.cpp:128 src/gui/dialogs/message.cpp:173
+#: src/gui/dialogs/message.cpp:180
 msgid "OK"
 msgstr "У реду"
 
@@ -2161,7 +2161,7 @@ msgstr "Страница:"
 
 #. [slider]: id=page_number
 #. +> stable
-#: data/gui/default/window/chat_log.cfg:72
+#: data/gui/default/window/chat_log.cfg:74
 msgid "Last"
 msgstr "Последње"
 
@@ -2169,7 +2169,7 @@ msgstr "Последње"
 #. [button]: id=previous_tip
 #. [button]: id=previous_tod
 #. +> stable
-#: data/gui/default/window/chat_log.cfg:86
+#: data/gui/default/window/chat_log.cfg:98
 #: data/gui/default/window/custom_tod.cfg:326
 #: data/gui/default/window/title_screen.cfg:195
 msgid "Previous"
@@ -2177,7 +2177,7 @@ msgstr "Претходно"
 
 #. [button]: id=previous_page
 #. +> stable
-#: data/gui/default/window/chat_log.cfg:87
+#: data/gui/default/window/chat_log.cfg:99
 #, fuzzy
 #| msgid "Previous"
 msgid "Previous page"
@@ -2187,7 +2187,7 @@ msgstr "Претходно"
 #. [button]: id=next_tip
 #. [button]: id=next_tod
 #. +> stable
-#: data/gui/default/window/chat_log.cfg:94
+#: data/gui/default/window/chat_log.cfg:106
 #: data/gui/default/window/custom_tod.cfg:349
 #: data/gui/default/window/title_screen.cfg:210
 msgid "Next"
@@ -2195,7 +2195,7 @@ msgstr "С‹љедеће"
 
 #. [button]: id=next_page
 #. +> stable
-#: data/gui/default/window/chat_log.cfg:95
+#: data/gui/default/window/chat_log.cfg:107
 #, fuzzy
 #| msgid "Next Side"
 msgid "Next page"
@@ -2203,10 +2203,21 @@ msgstr "С‹љедећа страна"
 
 #. [label]
 #. +> stable
-#: data/gui/default/window/chat_log.cfg:113
+#: data/gui/default/window/chat_log.cfg:125
 #: data/gui/default/window/lobby_main.cfg:575
 msgid "Filter:"
 msgstr "Филтер:"
+
+#. [button]: id=copy
+#. +> stable
+#: data/gui/default/window/chat_log.cfg:189
+#: data/gui/default/window/gamestate_inspector.cfg:238
+#: data/gui/default/window/wml_error.cfg:124
+#, fuzzy
+#| msgid "Copy"
+msgctxt "clipboard"
+msgid "Copy"
+msgstr "Умножи"
 
 #. [label]
 #. +> stable
@@ -2566,13 +2577,6 @@ msgstr "људски град"
 #. [row]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:402
-msgctxt "controller"
-msgid "Human/AI"
-msgstr ""
-
-#. [row]
-#. +> stable
-#: data/gui/default/window/editor_edit_side.cfg:404
 #, fuzzy
 #| msgid "Team only"
 msgctxt "controller"
@@ -2581,7 +2585,7 @@ msgstr "Само тимски"
 
 #. [row]
 #. +> stable
-#: data/gui/default/window/editor_edit_side.cfg:406
+#: data/gui/default/window/editor_edit_side.cfg:404
 #, fuzzy
 #| msgctxt "translations"
 #| msgid "None"
@@ -2591,7 +2595,7 @@ msgstr "ниједан"
 
 #. [row]
 #. +> stable
-#: data/gui/default/window/editor_edit_side.cfg:423
+#: data/gui/default/window/editor_edit_side.cfg:421
 #, fuzzy
 #| msgid "Players:"
 msgctxt "controller"
@@ -2628,7 +2632,7 @@ msgstr "Створи"
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_new_map.cfg:35
-#: src/hotkey/hotkey_command.cpp:130
+#: src/hotkey/hotkey_command.cpp:131
 msgid "New Map"
 msgstr "Нова мапа"
 
@@ -2660,7 +2664,7 @@ msgstr "Направи партију"
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_resize_map.cfg:35
-#: src/hotkey/hotkey_command.cpp:198
+#: src/hotkey/hotkey_command.cpp:199
 msgid "Resize Map"
 msgstr "Пром›ијени величину мапе"
 
@@ -2835,7 +2839,7 @@ msgstr "Не приказуј уласке у хол"
 #: data/gui/default/window/game_save_overwrite.cfg:97
 #: data/gui/default/window/mp_depcheck_confirm_change.cfg:130
 #: data/gui/default/window/mp_host_game_prompt.cfg:105
-#: src/construct_dialog.cpp:124 src/gui/dialogs/message.cpp:182
+#: src/construct_dialog.cpp:124 src/gui/dialogs/message.cpp:188
 msgid "Yes"
 msgstr "Да"
 
@@ -2848,7 +2852,7 @@ msgstr "Да"
 #: data/gui/default/window/game_save_overwrite.cfg:111
 #: data/gui/default/window/mp_depcheck_confirm_change.cfg:144
 #: data/gui/default/window/mp_host_game_prompt.cfg:118
-#: src/construct_dialog.cpp:125 src/gui/dialogs/message.cpp:185
+#: src/construct_dialog.cpp:125 src/gui/dialogs/message.cpp:191
 msgid "No"
 msgstr "Не"
 
@@ -3045,7 +3049,7 @@ msgstr ""
 
 #. [label]
 #. +> stable
-#: data/gui/default/window/gamestate_inspector.cfg:223
+#: data/gui/default/window/gamestate_inspector.cfg:226
 #, fuzzy
 #| msgid "Content"
 msgid "Contents"
@@ -3882,8 +3886,8 @@ msgstr "раса"
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. +> stable
-#: data/gui/default/window/wml_error.cfg:40 src/gui/dialogs/message.cpp:199
-#: src/gui/dialogs/transient_message.cpp:59
+#: data/gui/default/window/wml_error.cfg:40 src/gui/dialogs/message.cpp:205
+#: src/gui/dialogs/transient_message.cpp:77
 msgid "Error"
 msgstr "Грешка"
 
@@ -3893,15 +3897,6 @@ msgstr "Грешка"
 #: data/gui/default/window/wml_error.cfg:112 src/gui/dialogs/wml_error.cpp:192
 msgid "Details:"
 msgstr ""
-
-#. [button]: id=copy
-#. +> stable
-#: data/gui/default/window/wml_error.cfg:124
-#, fuzzy
-#| msgid "Copy"
-msgctxt "clipboard"
-msgid "Copy"
-msgstr "Умножи"
 
 #. [button]: id=copy
 #. +> stable
@@ -4502,7 +4497,7 @@ msgstr "(празан списак)"
 
 #. +> stable
 #: src/game_preferences_display.cpp:1406
-#: src/hotkey/hotkey_preferences_display.cpp:216
+#: src/hotkey/hotkey_preferences_display.cpp:217
 msgctxt "Prefs section"
 msgid "General"
 msgstr "Опште"
@@ -4849,7 +4844,7 @@ msgid "All Add-ons"
 msgstr "Додаци"
 
 #. +> stable
-#: src/gui/dialogs/addon_list.cpp:233
+#: src/gui/dialogs/addon_list.cpp:227
 #: src/gui/dialogs/network_transmission.cpp:56
 #: src/gui/dialogs/network_transmission.cpp:57
 #: src/gui/dialogs/screenshot_notification.cpp:72
@@ -5014,12 +5009,12 @@ msgid "Widget definition '$definition' doesn't contain the definition for '$id'.
 msgstr "Дефиниција виџета „$definition“ не садржи дефиницију за „$id“."
 
 #. +> stable
-#: src/gui/widgets/settings.cpp:521
+#: src/gui/widgets/settings.cpp:519
 msgid "No default gui defined."
 msgstr "Подразум›ијевано сучеље није дефинисано."
 
 #. +> stable
-#: src/gui/widgets/settings.cpp:550
+#: src/gui/widgets/settings.cpp:548
 msgid "No state or draw section defined."
 msgstr "Од›јељак стања или цртања није дефинисан."
 
@@ -5036,7 +5031,7 @@ msgstr "Клику отпуштања треба дугме „click_dismiss“ 
 
 #. +> stable
 #: src/gui/widgets/window.cpp:1072 src/gui/widgets/window.cpp:1109
-#: src/tests/gui/test_gui2.cpp:432
+#: src/tests/gui/test_gui2.cpp:452
 msgid "Failed to show a dialog, which doesn't fit on the screen."
 msgstr "Не могу да прикажем дијалог који не стаје на екран."
 
@@ -5181,7 +5176,7 @@ msgid "Save Replay"
 msgstr "Сачувај снимак"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:65 src/hotkey/hotkey_command.cpp:133
+#: src/hotkey/hotkey_command.cpp:65 src/hotkey/hotkey_command.cpp:134
 msgid "Save Map"
 msgstr "Сачувај мапу"
 
@@ -5414,733 +5409,733 @@ msgid "Switch Time of Day"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:125
+#: src/hotkey/hotkey_command.cpp:126
 msgid "Switch Map"
 msgstr "Пребаци мапу"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:126
+#: src/hotkey/hotkey_command.cpp:127
 msgid "Assign Local Time"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:128
+#: src/hotkey/hotkey_command.cpp:129
 msgid "Custom Time of Day Creator"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:129
+#: src/hotkey/hotkey_command.cpp:130
 msgid "Partial Undo"
 msgstr "Делимично опозови"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:131
+#: src/hotkey/hotkey_command.cpp:132
 #, fuzzy
 #| msgid "Test scenario"
 msgid "New Scenario"
 msgstr "Пробни сценарио"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:132
+#: src/hotkey/hotkey_command.cpp:133
 msgid "Load Map"
 msgstr "Учитај мапу"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:134
+#: src/hotkey/hotkey_command.cpp:135
 msgid "Save Map As"
 msgstr "Сачувај мапу као"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:135
+#: src/hotkey/hotkey_command.cpp:136
 #, fuzzy
 #| msgid "Scenario start"
 msgid "Save Scenario As"
 msgstr "Почетак сценарија"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:136
+#: src/hotkey/hotkey_command.cpp:137
 msgid "Save All Maps"
 msgstr "Сачувај све мапе"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:137
+#: src/hotkey/hotkey_command.cpp:138
 msgid "Revert All Changes"
 msgstr "Врати све изм›јене"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:138
+#: src/hotkey/hotkey_command.cpp:139
 msgid "Map Information"
 msgstr "Подаци о мапи"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:140
+#: src/hotkey/hotkey_command.cpp:141
 #, fuzzy
 #| msgid "Selected game"
 msgid "Clear Selected Item Set"
 msgstr "Изабрана партија"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:141
+#: src/hotkey/hotkey_command.cpp:142
 #, fuzzy
 #| msgid "Swap Foreground/Background Terrains"
 msgid "Swap Foreground/Background Palette Item"
 msgstr "Разм›ијени терен спреда и позадине"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:142
+#: src/hotkey/hotkey_command.cpp:143
 msgid "Change Palette Group"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:143
+#: src/hotkey/hotkey_command.cpp:144
 msgid "Scroll Palette Left"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:144
+#: src/hotkey/hotkey_command.cpp:145
 msgid "Scroll Palette Right"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:146
+#: src/hotkey/hotkey_command.cpp:147
 #, fuzzy
 #| msgid "Next Side"
 msgid "Add New Side"
 msgstr "С‹љедећа страна"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:148
+#: src/hotkey/hotkey_command.cpp:149
 msgid "Next Tool"
 msgstr "С‹љедећа алатка"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:150
+#: src/hotkey/hotkey_command.cpp:151
 msgid "Paint Tool"
 msgstr "Алатка сликања"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:150 src/hotkey/hotkey_command.cpp:151
+#: src/hotkey/hotkey_command.cpp:151 src/hotkey/hotkey_command.cpp:152
 msgid "Use left/right mouse button to draw fore-/background terrain. Hold Shift to paint base layer only. Ctrl+click to sample terrain under cursor."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:151
+#: src/hotkey/hotkey_command.cpp:152
 msgid "Fill Tool"
 msgstr "Алатка испуне"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:152
+#: src/hotkey/hotkey_command.cpp:153
 msgid "Left mouse button selects or deselects with Ctrl, right brings up a context menu. Hold Shift for magic-wand selection of tiles with same terrain."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:152
+#: src/hotkey/hotkey_command.cpp:153
 msgid "Selection Tool"
 msgstr "Алатка избора"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:153
+#: src/hotkey/hotkey_command.cpp:154
 msgid "Left mouse button displays player selection, right clears. Number keys scroll to the starting position, alt+number sets respective starting position under cursor, delete clears."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:153
+#: src/hotkey/hotkey_command.cpp:154
 #, fuzzy
 #| msgid "Set Starting Positions Tool"
 msgid "Starting Positions Tool"
 msgstr "Алатка задавања почетних положаја"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:154
+#: src/hotkey/hotkey_command.cpp:155
 #, fuzzy
 #| msgid "Fill Tool"
 msgid "Label Tool"
 msgstr "Алатка испуне"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:154
+#: src/hotkey/hotkey_command.cpp:155
 msgid "Left mouse button sets or drags a label, right clears."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:155
+#: src/hotkey/hotkey_command.cpp:156
 msgid "Left mouse button sets a new unit or moves a unit via drag and drop, right brings up a context menu. Needs a defined side."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:155
+#: src/hotkey/hotkey_command.cpp:156
 #, fuzzy
 #| msgid "Paint Tool"
 msgid "Unit Tool"
 msgstr "Алатка сликања"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:156
+#: src/hotkey/hotkey_command.cpp:157
 #, fuzzy
 #| msgid "Next Tool"
 msgid "Item Tool"
 msgstr "С‹љедећа алатка"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:156
+#: src/hotkey/hotkey_command.cpp:157
 msgid "Left mouse button sets a new item or moves it via drag and drop, right clears. Not implemented yet."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:157
+#: src/hotkey/hotkey_command.cpp:158
 msgid "Left mouse button sets or drags a sound source, right clears. Not implemented yet."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:157
+#: src/hotkey/hotkey_command.cpp:158
 msgid "Sound Source Tool"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:158
+#: src/hotkey/hotkey_command.cpp:159
 msgid "Left mouse button sets the village ownership to the current side, right clears. Needs a defined side."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:158
+#: src/hotkey/hotkey_command.cpp:159
 #, fuzzy
 #| msgid "Village gold"
 msgid "Village Tool"
 msgstr "Злата по селу"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:160
+#: src/hotkey/hotkey_command.cpp:161
 #, fuzzy
 #| msgid "Recruit"
 msgid "Can Recruit"
 msgstr "Унајми"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:160
+#: src/hotkey/hotkey_command.cpp:161
 msgid "Toggle the recruit attribute of a unit."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:161
+#: src/hotkey/hotkey_command.cpp:162
 msgid "Can be Renamed"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:161
+#: src/hotkey/hotkey_command.cpp:162
 msgid "Toggle the unit being renameable."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:162
+#: src/hotkey/hotkey_command.cpp:163
 msgid "Assign Recruit List"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:162
+#: src/hotkey/hotkey_command.cpp:163
 msgid "Assign the selected unit set as recruit list to the unit."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:164
+#: src/hotkey/hotkey_command.cpp:165
 #, fuzzy
 #| msgid "Change Control"
 msgid "Change Unit ID"
 msgstr "Пром›ијени управљање"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:165
+#: src/hotkey/hotkey_command.cpp:166
 msgid "Loyal"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:167
+#: src/hotkey/hotkey_command.cpp:168
 msgid "Toggle Minimap Unit Coding"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:168
+#: src/hotkey/hotkey_command.cpp:169
 msgid "Toggle Minimap Terrain Coding"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:170
+#: src/hotkey/hotkey_command.cpp:171
 msgid "Toggle Minimap Unit Drawing"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:171
+#: src/hotkey/hotkey_command.cpp:172
 msgid "Toggle Minimap Village Drawing"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:172
+#: src/hotkey/hotkey_command.cpp:173
 msgid "Toggle Minimap Terrain Drawing"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:174
+#: src/hotkey/hotkey_command.cpp:175
 msgid "Next Brush"
 msgstr "С‹љедећа четкица"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:175
+#: src/hotkey/hotkey_command.cpp:176
 msgid "Default Brush"
 msgstr "Подразум›ијевана четкица"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:176
+#: src/hotkey/hotkey_command.cpp:177
 msgid "Single Tile"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:177
+#: src/hotkey/hotkey_command.cpp:178
 msgid "Radius One"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:178
+#: src/hotkey/hotkey_command.cpp:179
 msgid "Radius Two"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:179
+#: src/hotkey/hotkey_command.cpp:180
 msgid "Brush NW-SE"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:180
+#: src/hotkey/hotkey_command.cpp:181
 msgid "Brush SW-NE"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:182
+#: src/hotkey/hotkey_command.cpp:183
 msgid "Cut"
 msgstr "Исеци"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:183
+#: src/hotkey/hotkey_command.cpp:184
 msgid "Copy"
 msgstr "Умножи"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:184
+#: src/hotkey/hotkey_command.cpp:185
 msgid "Left mouse button pastes from the clipboard, right brings up a context menu."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:184
+#: src/hotkey/hotkey_command.cpp:185
 msgid "Paste"
 msgstr "Нал›ијепи"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:185
+#: src/hotkey/hotkey_command.cpp:186
 msgid "Export Selected Coordinates to System Clipboard"
 msgstr "Извези изабране координате у системску оставу"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:186
+#: src/hotkey/hotkey_command.cpp:187
 msgid "Select All"
 msgstr "Изабери све"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:187
+#: src/hotkey/hotkey_command.cpp:188
 msgid "Select Inverse"
 msgstr "Обрни избор"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:188
+#: src/hotkey/hotkey_command.cpp:189
 msgid "Select None"
 msgstr "Поништи избор"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:189
+#: src/hotkey/hotkey_command.cpp:190
 msgid "Rotate Clipboard Clockwise"
 msgstr "Заокрени оставу у см›јеру казаљке"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:190
+#: src/hotkey/hotkey_command.cpp:191
 msgid "Rotate Clipboard Counter-Clockwise"
 msgstr "Заокрени оставу супротно см›јеру казаљке"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:191
+#: src/hotkey/hotkey_command.cpp:192
 msgid "Flip Clipboard Horizontally"
 msgstr "Преврни оставу водоравно"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:192
+#: src/hotkey/hotkey_command.cpp:193
 msgid "Flip Clipboard Vertically"
 msgstr "Преврни оставу усправно"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:193
+#: src/hotkey/hotkey_command.cpp:194
 msgid "Rotate Selection"
 msgstr "Заокрени избор"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:194
+#: src/hotkey/hotkey_command.cpp:195
 msgid "Flip Selection"
 msgstr "Преврни избор"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:195
+#: src/hotkey/hotkey_command.cpp:196
 msgid "Fill Selection"
 msgstr "Испуни избор"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:196
+#: src/hotkey/hotkey_command.cpp:197
 #, fuzzy
 #| msgid "Generate Tiles In Selection"
 msgid "Generate Tiles in Selection"
 msgstr "Створи плочице у избору"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:197
+#: src/hotkey/hotkey_command.cpp:198
 #, fuzzy
 #| msgid "Randomize Tiles In Selection"
 msgid "Randomize Tiles in Selection"
 msgstr "Насумично плочице у избору"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:199
+#: src/hotkey/hotkey_command.cpp:200
 msgid "Rotate Map"
 msgstr "Заокрени мапу"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:200
+#: src/hotkey/hotkey_command.cpp:201
 msgid "Generate Map"
 msgstr "Створи мапу"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:201
+#: src/hotkey/hotkey_command.cpp:202
 msgid "Apply a Mask"
 msgstr "Прим›ијени маску"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:202
+#: src/hotkey/hotkey_command.cpp:203
 msgid "Create Mask"
 msgstr "Створи маску"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:203
+#: src/hotkey/hotkey_command.cpp:204
 msgid "Refresh Display"
 msgstr "Осв›јежи приказ"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:205
+#: src/hotkey/hotkey_command.cpp:206
 msgid "Update Terrain Transitions"
 msgstr "Ажурирај прелазе терена"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:208
+#: src/hotkey/hotkey_command.cpp:209
 #, fuzzy
 #| msgid "Update Terrain Transitions"
 msgid "Toggle Terrain Transition Update"
 msgstr "Ажурирај прелазе терена"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:210
-msgid "Auto-update Terrain Transitions"
-msgstr "Самоажурирај прелазе терена"
-
-#. +> stable
 #: src/hotkey/hotkey_command.cpp:211
-#, fuzzy
-#| msgid "Auto-update Terrain Transitions"
-msgid "Auto-update Terrain Transitions: No"
+msgid "Auto-update Terrain Transitions"
 msgstr "Самоажурирај прелазе терена"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:212
 #, fuzzy
 #| msgid "Auto-update Terrain Transitions"
+msgid "Auto-update Terrain Transitions: No"
+msgstr "Самоажурирај прелазе терена"
+
+#. +> stable
+#: src/hotkey/hotkey_command.cpp:213
+#, fuzzy
+#| msgid "Auto-update Terrain Transitions"
 msgid "Auto-update Terrain Transitions: Partial"
 msgstr "Самоажурирај прелазе терена"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:214
+#: src/hotkey/hotkey_command.cpp:215
 msgid "Refresh Image Cache"
 msgstr "Осв›јежи кеш слика"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:215
+#: src/hotkey/hotkey_command.cpp:216
 msgid "Draw Hex Coordinates"
 msgstr "Цртај координате поља"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:216
+#: src/hotkey/hotkey_command.cpp:217
 msgid "Draw Terrain Codes"
 msgstr "Цртај теренске кодове"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:218
+#: src/hotkey/hotkey_command.cpp:219
 #, fuzzy
 #| msgid "Rotate Selection"
 msgid "Save Selection to Area"
 msgstr "Заокрени избор"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:219
+#: src/hotkey/hotkey_command.cpp:220
 #, fuzzy
 #| msgid "Selected game"
 msgid "Rename Selected Area"
 msgstr "Изабрана партија"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:220
+#: src/hotkey/hotkey_command.cpp:221
 #, fuzzy
 #| msgid "Selected game"
 msgid "Remove Selected Area"
 msgstr "Изабрана партија"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:221
+#: src/hotkey/hotkey_command.cpp:222
 msgid "Add New Area"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:223
+#: src/hotkey/hotkey_command.cpp:224
 #, fuzzy
 #| msgid "Test scenario"
 msgid "Edit Scenario"
 msgstr "Пробни сценарио"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:224
+#: src/hotkey/hotkey_command.cpp:225
 #, fuzzy
 #| msgid "Next Side"
 msgid "Edit Side"
 msgstr "С‹љедећа страна"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:225
+#: src/hotkey/hotkey_command.cpp:226
 #, fuzzy
 #| msgid "Remove"
 msgid "Remove Side"
 msgstr "Уклони"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:227
+#: src/hotkey/hotkey_command.cpp:228
 msgid "Delay Shroud Updates"
 msgstr "Застој ажурирања покрова"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:228
+#: src/hotkey/hotkey_command.cpp:229
 msgid "Update Shroud Now"
 msgstr "Ажурирај покров сада"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:229
+#: src/hotkey/hotkey_command.cpp:230
 msgid "Continue Move"
 msgstr "Настави потез"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:230
+#: src/hotkey/hotkey_command.cpp:231
 msgid "Find Label or Unit"
 msgstr "Нађи етикету или јединицу"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:231
+#: src/hotkey/hotkey_command.cpp:232
 msgid "Speak to Ally"
 msgstr "Причај савезнику"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:232
+#: src/hotkey/hotkey_command.cpp:233
 msgid "Speak to All"
 msgstr "Причај свима"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:234
+#: src/hotkey/hotkey_command.cpp:235
 msgid "View Chat Log"
 msgstr "Прикажи дневник ћаскања"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:235
+#: src/hotkey/hotkey_command.cpp:236
 msgid "Enter User Command"
 msgstr "Корисничка наредба"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:236
+#: src/hotkey/hotkey_command.cpp:237
 msgid "Custom Command"
 msgstr "Посебна наредба"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:237
+#: src/hotkey/hotkey_command.cpp:238
 msgid "Run Formula"
 msgstr "Изврши формулу"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:238
+#: src/hotkey/hotkey_command.cpp:239
 msgid "Clear Messages"
 msgstr "Очисти поруке"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:240
+#: src/hotkey/hotkey_command.cpp:241
 msgid "Change Language"
 msgstr "Пром›ијени језик"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:241
+#: src/hotkey/hotkey_command.cpp:242
 msgid "Refresh WML"
 msgstr "Осв›јежи ~@/ВМЛ/WML/"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:242
+#: src/hotkey/hotkey_command.cpp:243
 msgid "Next Tip of the Day"
 msgstr "С‹љедећи савет дана"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:243
+#: src/hotkey/hotkey_command.cpp:244
 msgid "Previous Tip of the Day"
 msgstr "Претходни савет дана"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:244
+#: src/hotkey/hotkey_command.cpp:245
 msgid "Start Tutorial"
 msgstr "Покрени подучавање"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:245
+#: src/hotkey/hotkey_command.cpp:246
 msgid "Start Campaign"
 msgstr "Покрени поход"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:246
+#: src/hotkey/hotkey_command.cpp:247
 msgid "Start Multiplayer Game"
 msgstr "Покрени вишеиграчку партију"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:247
+#: src/hotkey/hotkey_command.cpp:248
 msgid "Manage Add-ons"
 msgstr "Управљај додацима"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:248
+#: src/hotkey/hotkey_command.cpp:249
 msgid "Start Editor"
 msgstr "Покрени уређивач"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:249
+#: src/hotkey/hotkey_command.cpp:250
 msgid "Show Credits"
 msgstr "Прикажи заслуге"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:251
+#: src/hotkey/hotkey_command.cpp:252
 msgid "Show Helptip"
 msgstr "Прикажи текст помоћи"
 
 #. +> stable
-#: src/hotkey/hotkey_command.cpp:254
+#: src/hotkey/hotkey_command.cpp:255
 msgid "Unrecognized Command"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:402 src/hotkey/hotkey_item.cpp:405
+#: src/hotkey/hotkey_item.cpp:406 src/hotkey/hotkey_item.cpp:409
 msgid "Button"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:402
+#: src/hotkey/hotkey_item.cpp:406
 msgid "Mouse"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:405 src/hotkey/hotkey_item.cpp:441
+#: src/hotkey/hotkey_item.cpp:409 src/hotkey/hotkey_item.cpp:445
 msgid "Joystick"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:411
+#: src/hotkey/hotkey_item.cpp:415
 msgid "Centered"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:414
+#: src/hotkey/hotkey_item.cpp:418
 msgid "Up"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:417
+#: src/hotkey/hotkey_item.cpp:421
 #, fuzzy
 #| msgid "Height:"
 msgid "Right"
 msgstr "Висина:"
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:420
+#: src/hotkey/hotkey_item.cpp:424
 msgid "Down"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:423
+#: src/hotkey/hotkey_item.cpp:427
 msgid "Left"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:426
+#: src/hotkey/hotkey_item.cpp:430
 msgid "RightUp"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:429
+#: src/hotkey/hotkey_item.cpp:433
 msgid "RightDown"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:432
+#: src/hotkey/hotkey_item.cpp:436
 msgid "LeftUp"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:435
+#: src/hotkey/hotkey_item.cpp:439
 msgid "LeftDown"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:438
+#: src/hotkey/hotkey_item.cpp:442
 #, fuzzy
 #| msgid "Unknown era"
 msgid "Unknown"
 msgstr "Непозната епоха"
 
 #. +> stable
-#: src/hotkey/hotkey_item.cpp:441
+#: src/hotkey/hotkey_item.cpp:445
 #, fuzzy
 #| msgid "Hut"
 msgid "Hat"
 msgstr "кућица"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:149
+#: src/hotkey/hotkey_preferences_display.cpp:150
 #, fuzzy
 #| msgid "Hotkeys"
 msgid "Hotkeys Reset"
 msgstr "Пречице"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:150
+#: src/hotkey/hotkey_preferences_display.cpp:151
 msgid "All hotkeys have been reset to their default values."
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:166
+#: src/hotkey/hotkey_preferences_display.cpp:167
 msgid "Hotkey Settings"
 msgstr "Поставке пречица"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:171
+#: src/hotkey/hotkey_preferences_display.cpp:172
 #, fuzzy
 #| msgid "Default"
 msgid "Defaults"
 msgstr "Подразумевано"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:174
+#: src/hotkey/hotkey_preferences_display.cpp:175
 msgid "Reset all bindings to the default values"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:218
+#: src/hotkey/hotkey_preferences_display.cpp:219
 #, fuzzy
 #| msgid "Toggle Full Screen"
 msgctxt "Prefs section"
@@ -6148,7 +6143,7 @@ msgid "Title Screen"
 msgstr "Преко ц›ијелог екрана"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:220
+#: src/hotkey/hotkey_preferences_display.cpp:221
 #, fuzzy
 #| msgid "Games"
 msgctxt "Prefs section"
@@ -6156,7 +6151,7 @@ msgid "Game"
 msgstr "Партије"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:222
+#: src/hotkey/hotkey_preferences_display.cpp:223
 #, fuzzy
 #| msgid "Map Editor"
 msgctxt "Prefs section"
@@ -6164,39 +6159,39 @@ msgid "Editor"
 msgstr "Уређивач мапа"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:249
+#: src/hotkey/hotkey_preferences_display.cpp:250
 #, fuzzy
 #| msgid "Hotkeys"
 msgid "Add Hotkey"
 msgstr "Пречице"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:250
+#: src/hotkey/hotkey_preferences_display.cpp:251
 msgid "Clear Hotkey"
 msgstr "Очисти пречицу"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:256
+#: src/hotkey/hotkey_preferences_display.cpp:257
 msgid "Action"
 msgstr "радња"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:257
+#: src/hotkey/hotkey_preferences_display.cpp:258
 msgid "Binding"
 msgstr "свеза"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:565
+#: src/hotkey/hotkey_preferences_display.cpp:577
 msgid "Press desired hotkey (Esc cancels)"
 msgstr "Притисните жељену пречицу (Escape одустаје)"
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:692
+#: src/hotkey/hotkey_preferences_display.cpp:704
 msgid "\"$hotkey_sequence|\" is in use by \"$old_hotkey_action|\". Do you wish to reassign it to \"$new_hotkey_action|\"?"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/hotkey_preferences_display.cpp:697
+#: src/hotkey/hotkey_preferences_display.cpp:709
 #, fuzzy
 #| msgid "Clear Hotkey"
 msgid "Reassign Hotkey"
@@ -6219,7 +6214,7 @@ msgid "en_US"
 msgstr "~#|~@/sr/sr@latin/|~@/sr@ijekavian,sr/sr@ijekavianlatin,sr@latin/|"
 
 #. +> stable
-#: src/marked-up_text.cpp:441
+#: src/marked-up_text.cpp:438
 msgid "The maximum text width is less than 1."
 msgstr "Највећа ширина текста је испод 1."
 
@@ -6235,7 +6230,7 @@ msgstr "Нема алтернативних видео режима"
 
 # >> @title:window
 #. +> stable
-#: src/preferences_display.cpp:353
+#: src/preferences_display.cpp:354
 msgid "Choose Resolution"
 msgstr "Избор резолуције"
 
@@ -6245,7 +6240,7 @@ msgid "A terrain with a string with more than 4 characters has been found, the a
 msgstr "Нађен терен са ниском дужом од четири знака. Терен на који ово утиче:"
 
 #. +> stable
-#: src/text.cpp:749
+#: src/text.cpp:745
 msgid "The text contains invalid markup: "
 msgstr "Текст садржи лоше обележавање: "
 

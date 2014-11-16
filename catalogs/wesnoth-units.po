@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-units\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-03-09 08:47+0100\n"
+"POT-Creation-Date: 2014-11-16 11:49+0100\n"
 "PO-Revision-Date: 2011-11-30 16:11+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -276,9 +276,9 @@ msgstr "Крво-шишмиши тако су названи ус‹љед св�
 #. [attack]: type=blade
 #. [attack]: type=pierce
 #. +> stable
-#: data/core/units/bats/Bat_Blood.cfg:115
+#: data/core/units/bats/Bat_Blood.cfg:129
 #: data/core/units/bats/Bat_Dread.cfg:44
-#: data/core/units/bats/Bat_Vampire.cfg:115
+#: data/core/units/bats/Bat_Vampire.cfg:128
 #: data/core/units/goblins/Direwolf_Rider.cfg:44
 #: data/core/units/goblins/Knight.cfg:46
 #: data/core/units/goblins/Pillager.cfg:45
@@ -1472,13 +1472,13 @@ msgstr "велевитез"
 
 #. [unit_type]: id=Grand Knight, race=human
 #. +> stable
-#: data/core/units/humans/Horse_Grand_Knight.cfg:20
+#: data/core/units/humans/Horse_Grand_Knight.cfg:21
 msgid "Grand Knights have reached the acme of skill with sword and lance. Wearing full plate, and riding steeds bred more for power than for speed, these warriors form the core of any serious cavalry force. A grand knight at the head of a charge is a terrifying sight for infantry, and is often enough to break right through a defensive line."
 msgstr "Велевитези су достигли врхунац ум›ијећа са мачем и бојним копљем. Носећи пуни челични оклоп, и јашући на вранцима узгајаним пр›ије за снагу него брзину, ови ратници чине језгро било које озбиљне коњичке силе. Велевитез на челу јуриша застрашујући је призор за п›јешадију, и често је довољан да пробије одбрамбену постројбу."
 
 #. [attack]: type=blade
 #. +> stable
-#: data/core/units/humans/Horse_Grand_Knight.cfg:36
+#: data/core/units/humans/Horse_Grand_Knight.cfg:37
 #: data/core/units/humans/Loyalist_Cavalier.cfg:49
 #: data/core/units/humans/Loyalist_General.cfg:56
 #: data/core/units/humans/Loyalist_Grand_Marshal.cfg:51
@@ -1488,7 +1488,7 @@ msgstr "дуги мач"
 
 #. [attack]: type=pierce
 #. +> stable
-#: data/core/units/humans/Horse_Grand_Knight.cfg:45
+#: data/core/units/humans/Horse_Grand_Knight.cfg:46
 #: data/core/units/humans/Horse_Knight.cfg:44
 #: data/core/units/humans/Horse_Lancer.cfg:36
 #: data/core/units/humans/Horse_Paladin.cfg:61
@@ -1944,7 +1944,8 @@ msgstr ""
 
 #. [attack]: type=fire
 #. +> stable
-#: data/core/units/humans/Mage.cfg:50 data/core/units/humans/Mage_Silver.cfg:57
+#: data/core/units/humans/Mage.cfg:50
+#: data/core/units/humans/Mage_Silver.cfg:57
 msgid "missile"
 msgstr "пројектил"
 
@@ -2241,7 +2242,8 @@ msgstr "Ове ситне криминалце њихови шефови чес�
 #: data/core/units/humans/Outlaw_Ruffian.cfg:35
 #: data/core/units/humans/Outlaw_Thug.cfg:36
 #: data/core/units/merfolk/Entangler.cfg:26
-#: data/core/units/merfolk/Netcaster.cfg:37 data/core/units/trolls/Troll.cfg:37
+#: data/core/units/merfolk/Netcaster.cfg:37
+#: data/core/units/trolls/Troll.cfg:37
 msgid "club"
 msgstr "батина"
 
@@ -2502,7 +2504,8 @@ msgstr ""
 #: data/core/units/khalifate/Jawal.cfg:32
 #: data/core/units/khalifate/Jundi.cfg:30
 #: data/core/units/khalifate/Muharib.cfg:30
-#: data/core/units/khalifate/Rami.cfg:31 data/core/units/khalifate/Saree.cfg:31
+#: data/core/units/khalifate/Rami.cfg:31
+#: data/core/units/khalifate/Saree.cfg:31
 msgid "composite bow"
 msgstr ""
 
@@ -2858,7 +2861,8 @@ msgstr "Морејке, као и вилењаци, имају моћну уро
 #. [attack]: type=impact
 #. +> stable
 #: data/core/units/merfolk/Enchantress.cfg:45
-#: data/core/units/merfolk/Initiate.cfg:47 data/core/units/merfolk/Siren.cfg:53
+#: data/core/units/merfolk/Initiate.cfg:47
+#: data/core/units/merfolk/Siren.cfg:53
 msgid "water spray"
 msgstr "водени пљусак"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-thot\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-03-09 08:46+0100\n"
+"POT-Creation-Date: 2014-11-16 11:49+0100\n"
 "PO-Revision-Date: 2011-12-10 10:17+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -1507,7 +1507,7 @@ msgstr "Карагов двор"
 #. [unit]: type=Lich, id=Karrag
 #. +> stable
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:46
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:264
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:268
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:47
 msgid "Karrag"
 msgstr "Караг"
@@ -1527,137 +1527,144 @@ msgstr "Калкартанци"
 msgid "Defeat Karrag"
 msgstr "Поразиш ли Карага"
 
+#. [objective]: condition=lose
+#. +> stable
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:167
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:362
+msgid "Death of Dulcatulos"
+msgstr "Настрада ли Дулкатлос"
+
 # well-spelled: Пссст
 #. [message]: speaker=Aiglondur
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:184
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:188
 msgid "Psst, Angarthing... Karrag and those dwarves on the dais, they’re all <i>masked</i>."
 msgstr "Пссст, Ангартинже... Караг и они патуљци за катедром, сви су <i>маскирани</i>."
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:189
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:193
 msgid "I see it. There is something very wrong here."
 msgstr "Видим. Нешто овд›је никако не ваља."
 
 #. [message]: speaker=Karrag
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:194
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:198
 msgid "Hail, fellow dwarves. All Kal Kartha thanks you for your timely rescue."
 msgstr "Поздрав, пријатељи патуљци. Ц›ијела вам је Кал Карта захвална за правовремено избављење."
 
 #. [message]: speaker=Aiglondur
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:199
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:203
 msgid "We are from Knalga; your clans are kin to ours of old. We but did our duty to kin."
 msgstr "Ми смо из Кналге; ваши кланови су наш древни род. Тек смо штовали своју сународничку дужност."
 
 #. [message]: speaker=Karrag
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:204
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:208
 msgid "All dwarves are kin, and must prevail against orcs and humans and other dirtgrubbers. You can be part of the fist that smites them."
 msgstr "Сви су патуљци род, и морају превладати над орковима и људима, и осталим земљогмисцима. Можете бити д‹ио песнице која ће их смождити."
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:209
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:213
 msgid "We did not come to smite anyone, but to re-open contact and trade."
 msgstr "Нисмо дошли никога да смождимо, већ да успоставимо везе и трговину."
 
 #. [message]: speaker=Karrag
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:214
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:218
 msgid "Trade? Your destruction of the besieging orcs was a far nobler act than trade. There can be more such victories. And there will be by the power of our ancient heirloom, the Hammer of Thursagan."
 msgstr "Трговину? Ваш разарајући удар по опседајућим орковима б›ијеше далеко племенитији чин од трговине. Може бити још сличних поб›једа. И биће, тако нам моћи нашег древног насл›иједства, Чекића Турсагановог."
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:219
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:223
 msgid "It is remembered in Knalga that Kal Kartha holds the Hammer."
 msgstr "Памти се у Кналги да се Кал Карта стара о Чекићу."
 
 #. [message]: speaker=Karrag
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:224
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:228
 msgid "Yes! And the Hammer holds the soul of the dwarves, the true people. Together, we can march to greater victories! Will you of Knalga join me?"
 msgstr "Да! Чекић чува и душу патуљака, правог народа. Заједно, можемо кренути у још веће поб›једе! Хоћете ли ми се ви из Кналге придружити?"
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:229
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:233
 msgid "On one condition. You must take off that mask and show your true face. I am a witness."
 msgstr "Уз један услов. Морате скинути маску и показати своје право лице. Ја сам св›једок."
 
 #. [message]: speaker=Karrag
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:234
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:238
 msgid "You... do not wish to see what is beneath this mask. I was terribly wounded in an orcish attack. Disfigured."
 msgstr "Ти... не желиш да видиш оно под маском. Страшно сам рањен у орковском нападу. Изобличен."
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:239
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:243
 msgid "But the Law must see. A dwarf must put his name and his face behind his deeds. I am a witness."
 msgstr "Али Закон мора вид›јети. Патуљак мора именом и образом стати пред своја д›јела. Ја сам св›једок."
 
 #. [message]: speaker=Karrag
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:244
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:248
 msgid "Impertinent fool! It is not for you to dictate to a lord in his own holding, much less one who holds the very soul of the dwarves in his hand."
 msgstr "Дрска будало! Није твоје да наређујеш господару у његовом здању, а још мање оном који у својој шаци држи саму душу патуљака."
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:249
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:253
 msgid "The Law speaks. Against him with the eyes to see, no deception can hold. I AM A WITNESS!"
 msgstr "Закон говори. Насупрот очију да покажу, никаква се притворност не може одржати. ЈА САМ СВ›ЈЕДОК!"
 
 #. [message]: speaker=Dulcatulos
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:282
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:286
 msgid "No... no... it is horrible! My lord, how did you come to this?"
 msgstr "Не... не... страшно! Господару, како је дошло до тога?"
 
 #. [message]: speaker=Karrag
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:287
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:291
 msgid "I lingered for weeks in agony. Only my hatred and the runelore of old sustained me, until I became as I am. I will have revenge; I will destroy the orcs, and the humans, and the elves, and all but the true people!"
 msgstr "Седмицама сам копнио у хропцу. Само ме мржња и рунонаук из давнина одржаше, док не постах овакав као сад. Осветићу се; сатрћу орке, и људе, и вилењаке, и све осим правог народа!"
 
 #. [message]: speaker=Karrag
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:292
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:296
 msgid "And you have sealed your doom. Hundreds of dirtgrubbers have already died to weave a web of blood around the Hammer and the soul of the dwarves. You and your new friends will be the last sacrifices I require to bind the entire dwarvish race to my purpose. TAKE THEM!"
 msgstr "А ти си запечатио своју судбину. Стотине земљогмизаца већ страда да се истка мрежа крви око Чекића и душе патуљака. Ти и твоји нови пријатељи бићете пос‹љедња жртва неопходна ми да упрем целу патуљачку расу у својему науму. ДРЖИТЕ ИХ!"
 
 #. [message]: speaker=narrator
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:299
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:303
 msgid "Neither side can recruit or recall. You must win with the troops you have."
 msgstr "Ниједна страна не може ни најмити ни сазивати. Мораш се изборити с војском коју имаш."
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:316
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:320
 msgid "Wait... the lich’s apparent death was another illusion. In truth he ran through that doorway behind the throne."
 msgstr "Чекај... очевидна смрт косца б›ијеше још једна обмана. У збиљи поб›јеже кроз онај пролаз иза пр›ијестола."
 
 #. [message]: speaker=Dulcatulos
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:321
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:325
 msgid "Then Karrag has fled to the underlevels. None but his masked ones go there any more."
 msgstr "Онда је Караг похитао у исподнивое. Нико осим његових маскираних више не ступа тамо."
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:326
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:330
 msgid "We must follow. Quickly! It may be his talk of perverting the Hammer was merely mad raving, but we cannot allow the risk that his foul spell might succeed."
 msgstr "Морамо га пратити. Брзо! Може бити да је прича о изопачењу Чекића тек сулудо бунцање, али не см›ијемо препустити случају изгледе да његова погана чаролија ипак усп›ије."
 
 #. [message]: speaker=Aiglondur
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:344
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1241
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_The_Court_of_Karrag.cfg:348
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1253
 msgid "Without Dulcatulos to explain our actions to the Kal Karthans we’ll have to fight them, too. Our mission has failed."
 msgstr "Без Дулкатлоса да објасни наша чињења Калкартанцима, мораћемо и противу њих. То нам је крај."
 
@@ -1680,12 +1687,6 @@ msgstr "Флелин"
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:151
 msgid "Lannex"
 msgstr "Ланекс"
-
-#. [objective]: condition=lose
-#. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:362
-msgid "Death of Dulcatulos"
-msgstr "Настрада ли Дулкатлос"
 
 #. [message]: speaker=Angarthing
 #. +> stable
@@ -1773,197 +1774,197 @@ msgstr "Ос›јећам исквареност. Неко веће зло бу�
 
 #. [message]: speaker=Dranath
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:521
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:525
 msgid "You cannot pass, fools. The doors I guard are sealed by the power of the Hammer itself."
 msgstr "Нема вам проласка, будале. Врата које чувам запечаћене су моћи самог Чекића."
 
 #. [message]: speaker=second_unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:526
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:530
 msgid "We’ll see about that!"
 msgstr "Још ћемо то вид›јети!"
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:561
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:565
 msgid "It seems that guard spoke truth. These doors cannot be forced open by any means we have!"
 msgstr "Изгледа да је чувар зборио истину. Нема нам никаквог начина да развалимо ова врата!"
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:565
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:569
 msgid "I sense these bindings to be the work of common sorcery, not the power of the Hammer. Usually to each such locking spell there is some sort of key. If we can but find the key, we will able to open these doors."
 msgstr "Ос›јећам да су ове свезе дело једноставног чаробњаштва, не моћи Чекића. Обично за сваку закључавајућу чаролију постоји некакав кључ. Ако га нађемо, моћи ћемо да отворимо врата."
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:591
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:595
 msgid "The key has been uttered, these doors should open..."
 msgstr "Кључ је изговорен, врата би требало да се отворе..."
 
 # well-spelled: ааах
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:602
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:606
 msgid "There we go... faugh, what is that smell!"
 msgstr "Тако, крећемо... ааах, какав је то воњ!"
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:639
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:643
 msgid "I think I hear noises, ahead of us..."
 msgstr "Чини ми се да чујем нешто, пред нама..."
 
 #. [message]: speaker=Karrag
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:657
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:665
 msgid "Fresh blood! Exactly what I need to complete the rite."
 msgstr "Св›јежа крв! Тачно што ми треба да довршим обред."
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:678
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:686
 msgid "It’s locked, but nothing that our hammers can’t manage."
 msgstr "Закључано, али ништа што би зауставило наше чекиће."
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:700
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:708
 msgid "A scroll with some strange writing on it..."
 msgstr "Свитак с чудним записом..."
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:705
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:713
 msgid "I believe that will be the key-spell for that sealed door."
 msgstr "В›јерујем да ће то бити кључ-чаролија за запечаћена врата."
 
 # |, no-check-spell
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:710
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:718
 msgid "(<i>Reads</i>) <i>Kannin a’kana du’masi a’forigln de’amp.</i>"
 msgstr "[<i>чита</i>] Канин акана думаси афориглен деамп."
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:715
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:723
 msgid "Now try the door again. It should open."
 msgstr "Проверите опет врата, требало би да се отворе."
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:735
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:756
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:743
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:764
 msgid "A door. Perhaps Karrag is hiding in here..."
 msgstr "Врата. Можда се Караг скрива иза њих..."
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:775
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:783
 msgid "150 gold pieces. This should help."
 msgstr "150 златника. Биће од користи."
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:796
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:804
 msgid "150 gold pieces. I wonder why Karrag would choose to store his gold here."
 msgstr "150 златника. Питам се зашто ли је Караг овд›је одложио своје злато."
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:819
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:827
 msgid "An old caved-in passageway. Perhaps if we clear away some of this rubble we may be able to get through..."
 msgstr "Стари ус›јечени пролаз. Можда се можемо пробити ако рашчистимо ово камење..."
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:840
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:848
 msgid "Another old caved-in passageway..."
 msgstr "Још један ус›јечени пролаз..."
 
 # |, no-check-spell
 #. [unit]: type=Dwarvish Steelclad, id=Trisi
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:877
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:885
 msgid "Trisi"
 msgstr "Триси"
 
 # |, no-check-spell
 #. [unit]: type=Dwarvish Steelclad, id=Malifen
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:929
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:937
 msgid "Malifen"
 msgstr "Малифен"
 
 # |, no-check-spell
 #. [unit]: type=Dwarvish Thunderguard, id=Borras
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:981
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:989
 msgid "Borras"
 msgstr "Борас"
 
 # |, no-check-spell
 #. [unit]: type=Dwarvish Steelclad, id=Zamak
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1033
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1041
 msgid "Zamak"
 msgstr "Земок"
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1077
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1126
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1085
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1134
 msgid "When I step on this rune, I feel strange indeed. I feel like I am being pulled somewhere else, but at the same time being held back by an equally powerful force."
 msgstr "Кад ступим на ову руну, ос›јетим се некако чудно. Као да ме вуче негд›је другд›је, али у исто вр›ијеме и задржава једнако јака сила."
 
 #. [message]: speaker=Angarthing
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1082
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1131
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1090
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1139
 msgid "It seems to be some sort of a teleportation device. What’s more, the bindings that are preventing it from working seem to be the same ones that bar those sealed gates."
 msgstr "Изгледа као некакав уређај за телепортацију. Штавише, свезе које га спречавају да ради чине се истим као оне којима су запечаћена врата."
 
 #. [message]: speaker=Aragoth
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1170
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1182
 msgid "Our master’s ritual must not be interrupted. Stop them!"
 msgstr "Обред нашег господара не см›ије бити прекинут. Зауставите их!"
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1185
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1197
 msgid "Yon doors are big, tightly locked — and, I would imagine, well barricaded. This may take a while."
 msgstr "Повећа врата, добрано закључана — и, да се помислити, темељито запр›ијечена. Ово може потрајати."
 
 #. [message]: speaker=Aiglondur
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1190
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1202
 msgid "Go through that rubble yonder; see if you can dig up some sort of battering ram."
 msgstr "Пођи кроз тај камењар; види ако можеш да се домогнеш некаквог овна за разбијање."
 
 #. [message]: speaker=narrator
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1196
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1208
 msgid "One hour later"
 msgstr "Прође један сат."
 
 # well-spelled: Држ'те
 #. [message]: speaker=Aiglondur
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1201
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1213
 msgid "The door is about to give. Brace yourselves, everyone."
 msgstr "Врата само што нису попустила. Држ'те се сада сви."
 
 #. [message]: speaker=Karrag
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1220
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1232
 msgid "No! No! No! Dirtgrubbers must die! The true people must rule all!"
 msgstr "Не! Не! Не! Земљогмисци морају умр›ијети! Прави народ ће над свима владати!"
 
 #. [message]: speaker=Aiglondur
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1225
+#: data/campaigns/The_Hammer_of_Thursagan/scenarios/12_The_Underlevels.cfg:1237
 msgid "The ‘true people’ speak through our axes. Die, foul lich."
 msgstr "„Прави народ“ говори кроз наше с›јекире. Умри, погани кошче."
 

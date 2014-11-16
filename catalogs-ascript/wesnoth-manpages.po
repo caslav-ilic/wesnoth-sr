@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-manpages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2014-03-09 08:48+0100\n"
+"PO-Revision-Date: 2014-11-16 11:50+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -81,16 +81,6 @@ msgstr ""
 "поставља вредност BitsPerPixel. Пример: B<--bpp 32>|~\n"
 "поставља вр›иједност BitsPerPixel. Пример: B<--bpp 32>|~\n"
 "поставља вр›иједност BitsPerPixel. Прим›јер: B<--bpp 32>|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
-msgid "B<--config-dir>I<\\ name>"
-msgstr "B<--config-dir>I<\\ име>|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
-msgid "B<--config-path>"
-msgstr "B<--config-path>|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
@@ -1207,16 +1197,6 @@ msgstr "Редовно излазно стање је 0, када је серв�
 #. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
 #| msgid ""
-#| "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.|~\n"
-#| "|~x"
-msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\""
-msgstr ""
-"задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/.|~\n"
-"задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“.|~"
-
-#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
-#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
-#| msgid ""
 #| "start the in-game map editor directly. If I<file> is specified, equivalent to B<-e --load>|~\n"
 #| "|~x"
 msgid "start the in-game map editor directly. If I<file> is specified, equivalent to B<-l --load>"
@@ -1376,6 +1356,83 @@ msgstr "предобрађује задату датотеку или дирек
 #| msgid "B<--era=>I<value>|~"
 msgid "B<--multiplayer-repeat=>I<value>"
 msgstr "B<--era=>I<вр›иједност>|~"
+
+#. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
+#, fuzzy
+#| msgid "B<--path>|~"
+msgid "B<--data-path>"
+msgstr "B<--path>|~"
+
+#. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
+#, fuzzy
+#| msgid "prints the name of the game data directory and exits.|~"
+msgid "path the path of the data directory and exits."
+msgstr "исписује име директоријума са подацима игре и излази.|~"
+
+#. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
+#, fuzzy
+#| msgid "B<--config-dir>I<\\ name>|~"
+msgid "B<--userconfig-dir>I<\\ name>"
+msgstr "B<--config-dir>I<\\ име>|~"
+
+#. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
+#, fuzzy
+#| msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\"|~"
+msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\".  Under X11 this defaults to $XDG_CONFIG_HOME or $HOME/.config/wesnoth, on other systems to the userdata path."
+msgstr "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“.|~"
+
+#. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
+#, fuzzy
+#| msgid "B<--config-path>|~"
+msgid "B<--userconfig-path>"
+msgstr "B<--config-path>|~"
+
+#. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
+#, fuzzy
+#| msgid "B<--config-dir>I<\\ name>|~"
+msgid "B<--userdata-dir>I<\\ name>"
+msgstr "B<--config-dir>I<\\ име>|~"
+
+#. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
+#, fuzzy
+#| msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\"|~"
+msgid "sets the userdata directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the userdata directory outside the $HOME or \"My Documents\\eMy Games\"."
+msgstr "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“.|~"
+
+#. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
+#, fuzzy
+#| msgid "B<--path>|~"
+msgid "B<--userdata-path>"
+msgstr "B<--path>|~"
+
+#. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
+#, fuzzy
+#| msgid "prints the path of the user configuration directory and exits.|~"
+msgid "prints the path of the userdata directory and exits."
+msgstr "исписује путању корисничког поставног директоријума и излази.|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: ilic | 2014-11-16 11:50:17+0100 | o
+#~ msgid "B<--config-dir>I<\\ name>"
+#~ msgstr "B<--config-dir>I<\\ име>|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
+#. modified: ilic | 2014-11-16 11:50:17+0100 | o
+#~ msgid "B<--config-path>"
+#~ msgstr "B<--config-path>|~"
+
+#. modified: ilic | 2011-09-10 01:15:13+0200 | 1f
+#. modified: ilic | 2011-11-30 16:10:21+0100 | 1
+#. modified: ilic | 2014-11-16 11:50:17+0100 | o
+#~| msgid ""
+#~| "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.|~\n"
+#~| "|~x"
+#~ msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\""
+#~ msgstr ""
+#~ "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/.|~\n"
+#~ "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“.|~"
 
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
 #. modified: ilic | 2012-01-14 14:50:16+0100 | 1
