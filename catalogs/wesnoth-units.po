@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-units\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-11-16 11:49+0100\n"
+"POT-Creation-Date: 2015-08-12 20:40+0200\n"
 "PO-Revision-Date: 2011-11-30 16:11+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -89,8 +89,7 @@ msgstr "с›јекира"
 #: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Masked_Fighter.cfg:41
 #: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Masked_Lord.cfg:38
 #: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Masked_Steelclad.cfg:38
-#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:32
-#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:146
+#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:34
 #: data/core/units/dwarves/Arcanister.cfg:48
 #: data/core/units/dwarves/Fighter.cfg:62 data/core/units/dwarves/Lord.cfg:69
 #: data/core/units/dwarves/Runemaster.cfg:42
@@ -223,28 +222,26 @@ msgstr ""
 "Иако може проћи неколико минута док се припреми само један хитац из громоштапа, у очима патуљака његово дејство је сасвим достојно тог чекања."
 
 #. [unit_type]: id=Dwarvish Rune Lord prerevelation, race=dwarf
-#. [unit_type]: id=Dwarvish Rune Lord, race=dwarf
 #. [unit_type]: id=Dwarvish Runemaster, race=dwarf
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:6
-#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:118
+#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:7
 #: data/core/units/dwarves/Runemaster.cfg:5
 msgid "Dwarvish Runemaster"
 msgstr "патуљ-руномајстор"
 
+#. [unit_type]: id=Dwarvish Rune Lord
 #. [unit_type]: id=Dwarvish Rune Lord prerevelation, race=dwarf
-#. [unit_type]: id=Dwarvish Rune Lord, race=dwarf
 #. [unit_type]: id=Dwarvish Runemaster, race=dwarf
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:27
-#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:141
+#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:29
+#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:73
 #: data/core/units/dwarves/Runemaster.cfg:25
 msgid "Except for those with almost supernatural skill, the highest rank a runecrafter can rise to is that of the Dwarvish Runemaster. Striking blows nearly as powerful as those of the best warriors, they would be fearsome without their craft, but with it they are also nigh on invincible, since their runes cause the physical blows of their enemies to deal less damage than would be expected."
 msgstr "Осим оних са готово натприродном в›јештином, највећи чин који проучавалац руна може досећи јесте онај патуљ-руномајстора. Наносећи ударе скоро као у најбољих ратника, били би застрашујући и без свог руноум›ијећа, а са њим су замало непоб›једиви: рунама постижу да физички удари њихових непријатеља наносе мање штете него што би обично."
 
 #. [attack]: type=cold
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:44
+#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:83
 #: data/core/units/undead/Necro_Ancient_Lich.cfg:60
 #: data/core/units/undead/Necro_Lich.cfg:60
 msgid "chill tempest"
@@ -252,7 +249,7 @@ msgstr "хладна олуја"
 
 #. [attack]: type=arcane
 #. +> stable
-#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:56
+#: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:95
 #: data/core/units/undead/Necro_Ancient_Lich.cfg:72
 #: data/core/units/undead/Necro_Dark_Adept.cfg:54
 #: data/core/units/undead/Necro_Dark_Sorcerer.cfg:82
@@ -260,6 +257,15 @@ msgstr "хладна олуја"
 #: data/core/units/undead/Necromancer.cfg:63
 msgid "shadow wave"
 msgstr "талас с›ијенки"
+
+#. [unit_type]: id=Autumn Shyde, race=elf
+#. [unit_type]: id=Elvish Shyde, race=elf
+#. +> stable
+#: data/campaigns/The_Rise_Of_Wesnoth/units/Autumn_Shyde.cfg:5
+#: data/core/units/elves/Shyde.cfg:4
+msgctxt "female"
+msgid "Elvish Shyde"
+msgstr "вилин-шејда"
 
 #. [unit_type]: id=Blood Bat, race=bats
 #. +> stable
@@ -1241,13 +1247,6 @@ msgstr "Кружише једном изв›јесна прича, о виле�
 msgctxt "female"
 msgid "Elvish Sharpshooter"
 msgstr "вилин-далекометашица"
-
-#. [unit_type]: id=Elvish Shyde, race=elf
-#. +> stable
-#: data/core/units/elves/Shyde.cfg:4
-msgctxt "female"
-msgid "Elvish Shyde"
-msgstr "вилин-шејда"
 
 #. [unit_type]: id=Elvish Shyde, race=elf
 #. +> stable
@@ -3794,6 +3793,102 @@ msgstr "Поступци оживљавања мртвог т›ијела на�
 #: data/core/units/undead/Spirit_Ghost.cfg:70
 msgid "touch"
 msgstr "додир"
+
+#. [variation]
+#. +> stable
+#: data/core/units/undead/Corpse_Soulless.cfg:137
+#: data/core/units/undead/Corpse_Walking.cfg:136
+#, fuzzy
+#| msgid "Sky Drake"
+msgctxt "wc_variation"
+msgid "Drake"
+msgstr "змаго-небохват"
+
+#. [variation]
+#. +> stable
+#: data/core/units/undead/Corpse_Soulless.cfg:151
+#: data/core/units/undead/Corpse_Walking.cfg:150
+msgctxt "wc_variation"
+msgid "Dwarf"
+msgstr ""
+
+#. [variation]
+#. +> stable
+#: data/core/units/undead/Corpse_Soulless.cfg:163
+#: data/core/units/undead/Corpse_Walking.cfg:162
+#, fuzzy
+#| msgid "Goblin Knight"
+msgctxt "wc_variation"
+msgid "Goblin"
+msgstr "гобли-витез"
+
+#. [variation]
+#. +> stable
+#: data/core/units/undead/Corpse_Soulless.cfg:175
+#: data/core/units/undead/Corpse_Walking.cfg:183
+msgctxt "wc_variation"
+msgid "Mounted"
+msgstr ""
+
+#. [variation]
+#. +> stable
+#: data/core/units/undead/Corpse_Soulless.cfg:187
+#: data/core/units/undead/Corpse_Walking.cfg:174
+#, fuzzy
+#| msgid "Gryphon"
+msgctxt "wc_variation"
+msgid "Gryphon"
+msgstr "грифон"
+
+#. [variation]
+#. +> stable
+#: data/core/units/undead/Corpse_Soulless.cfg:196
+#: data/core/units/undead/Corpse_Walking.cfg:195
+#, fuzzy
+#| msgid "Saurian Augur"
+msgctxt "wc_variation"
+msgid "Saurian"
+msgstr "саур-претсказач"
+
+#. [variation]
+#. +> stable
+#: data/core/units/undead/Corpse_Soulless.cfg:208
+#: data/core/units/undead/Corpse_Walking.cfg:207
+#, fuzzy
+#| msgid "hammer"
+msgctxt "wc_variation"
+msgid "Swimmer"
+msgstr "чекић"
+
+#. [variation]
+#. +> stable
+#: data/core/units/undead/Corpse_Soulless.cfg:218
+#: data/core/units/undead/Corpse_Walking.cfg:217
+#, fuzzy
+#| msgid "Troll"
+msgctxt "wc_variation"
+msgid "Troll"
+msgstr "трол"
+
+#. [variation]
+#. +> stable
+#: data/core/units/undead/Corpse_Soulless.cfg:230
+#: data/core/units/undead/Corpse_Walking.cfg:229
+#, fuzzy
+#| msgid "Wose"
+msgctxt "wc_variation"
+msgid "Wose"
+msgstr "ивер"
+
+#. [variation]
+#. +> stable
+#: data/core/units/undead/Corpse_Soulless.cfg:242
+#: data/core/units/undead/Corpse_Walking.cfg:241
+#, fuzzy
+#| msgid "Boat"
+msgctxt "wc_variation"
+msgid "Bat"
+msgstr "чамац"
 
 #. [unit_type]: id=Walking Corpse, race=undead
 #. +> stable

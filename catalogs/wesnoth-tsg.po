@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-tsg\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-11-16 11:49+0100\n"
+"POT-Creation-Date: 2015-08-12 20:40+0200\n"
 "PO-Revision-Date: 2011-12-10 10:17+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -2883,7 +2883,7 @@ msgstr "Вестинско веће стиже у потезу $council_arrive_t
 #. [message]: speaker=unit
 #. +> stable
 #: data/campaigns/The_South_Guard/scenarios/08b_The_Tides_of_War.cfg:511
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:324
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:331
 #: data/campaigns/The_South_Guard/utils/sg_deaths.cfg:12
 msgid "I have failed my kingdom and duty..."
 msgstr "Изнев›јерих своје краљевство и дужност..."
@@ -3005,7 +3005,6 @@ msgid "You too, Ethiliel? All these humans are the same! They fell trees to till
 msgstr "Зар и ти, Етилијел? Сви људи су исти! Обарају дрвеће да ору земљу; сада оборише и нашег вођа! Не можемо подн›ијети таква д›јела! Умр›ијећеш заједно са њима!"
 
 #. [event]
-#. [message]
 #. [unit]: type=$unit_type
 #. +> stable
 #: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:222
@@ -3016,7 +3015,6 @@ msgstr "Зар и ти, Етилијел? Сви људи су исти! Оба�
 #: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:227
 #: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:228
 #: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:299
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:311
 msgid "Disciple of Mebrin"
 msgstr "с‹љедбеник Мебринов"
 
@@ -3050,28 +3048,28 @@ msgstr "Ителденово упориште"
 msgid "Send Ethiliel to the Great Tree and parley with Ithelden"
 msgstr "Отправиш ли Етилијел до Великог дрвета на надмудривање са Ителденом"
 
-#. [message]
+#. [message]: speaker=$new_elf.id
 #. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:312
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:317
 msgid "For every one of us you strike down, more will rise!"
 msgstr "За сваког од нас кога пос›ијечете, још ће их се уздићи!"
 
 #. [message]: speaker=unit
 #. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:338
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:345
 #: data/campaigns/The_South_Guard/utils/sg_deaths.cfg:64
 msgid "I have given my all for my kingdom! Avenge me, Deoran!"
 msgstr "Дадох све од себе за своје краљевство! Освети ме, Деоране!"
 
 #. [message]: speaker=Minister Hylas
 #. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:351
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:358
 msgid "Ithelden’s elves have killed Ethiliel! Now we have no chance to come to an agreement with them. A war with the Elves is imminent."
 msgstr "Ителденови вилењаци убише Етилијел! Сад нам нема изгледа да их уразумимо. Рат са вилењацима је неизб›ијежан."
 
 #. [message]: speaker=Deoran
 #. +> stable
-#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:355
+#: data/campaigns/The_South_Guard/scenarios/09a_Vengeance.cfg:362
 msgid "We are far away from Weldyn. We’ll surely all be killed long before any reinforcements arrive."
 msgstr "Далеко смо од Велдина. Нема сумње да ћемо сви изгинути многе пр›ије но што пристигну појачања."
 

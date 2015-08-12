@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-11-16 11:50+0100\n"
+"POT-Creation-Date: 2015-08-12 20:41+0200\n"
 "PO-Revision-Date: 2015-08-12 20:34+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -384,7 +384,7 @@ msgstr "Џојстик: мртва зона ручке потиска"
 #. [unstore_unit]
 #. +> stable
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:366
-#: data/lua/wml-tags.lua:1355 src/actions/attack.cpp:983
+#: data/lua/wml-tags.lua:1795 src/actions/attack.cpp:983
 msgid "poisoned"
 msgstr "отрован"
 
@@ -392,7 +392,7 @@ msgstr "отрован"
 #. [objectives]
 #. +> stable
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/15_A_New_Land.cfg:201
-#: data/lua/wml/objectives.lua:1837
+#: data/lua/wml/objectives.lua:2464
 msgid "Gold carryover:"
 msgstr "Пренесено злато:"
 
@@ -400,7 +400,7 @@ msgstr "Пренесено злато:"
 #. [note]
 #. +> stable
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/15_A_New_Land.cfg:212
-#: data/lua/wml/objectives.lua:1838
+#: data/lua/wml/objectives.lua:2465
 msgid "Notes:"
 msgstr "Белешке:"
 
@@ -460,121 +460,121 @@ msgstr "Разни доприноси"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1336
+#: data/core/about.cfg:1339
 msgid "Internationalization Managers"
 msgstr "Управљање интернационализацијом"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1361
+#: data/core/about.cfg:1364
 msgid "English strings edition"
 msgstr "Издање с британским нискама"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1368
+#: data/core/about.cfg:1371
 msgid "Afrikaans Translation"
 msgstr "Африканс превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1388
+#: data/core/about.cfg:1391
 msgid "Arabic Translation"
 msgstr "Арапски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1395
+#: data/core/about.cfg:1398
 msgid "Basque Translation"
 msgstr "Баскијски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1408
+#: data/core/about.cfg:1411
 msgid "Bulgarian Translation"
 msgstr "Бугарски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1427
+#: data/core/about.cfg:1430
 msgid "Catalan Translation"
 msgstr "Каталонски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1468
+#: data/core/about.cfg:1471
 msgid "Chinese Translation"
 msgstr "Кинески превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1539
+#: data/core/about.cfg:1551
 msgid "Chinese (Taiwan) Translation"
 msgstr "Кинески (Тајван) превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1552
+#: data/core/about.cfg:1564
 msgid "Croatian Translation"
 msgstr "Хрватски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1562
+#: data/core/about.cfg:1574
 msgid "Czech Translation"
 msgstr "Чешки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1622
+#: data/core/about.cfg:1634
 msgid "Danish Translation"
 msgstr "Дански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1653
+#: data/core/about.cfg:1665
 msgid "Dutch Translation"
 msgstr "Холандски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1717
+#: data/core/about.cfg:1729
 msgid "English (GB) Translation"
 msgstr "Британски енглески превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1740
+#: data/core/about.cfg:1752
 msgid "English (Shaw) Translation"
 msgstr "Енглески (шовијански) превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1758
+#: data/core/about.cfg:1770
 msgid "Esperanto Translation"
 msgstr "Есперанто превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1777
+#: data/core/about.cfg:1789
 msgid "Estonian Translation"
 msgstr "Естонски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1787
+#: data/core/about.cfg:1799
 msgid "Filipino Translation"
 msgstr "Филипински превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1797
+#: data/core/about.cfg:1809
 msgid "Finnish Translation"
 msgstr "Фински превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:1843
+#: data/core/about.cfg:1855
 msgid "French Translation"
 msgstr "Француски превод"
 
@@ -582,221 +582,221 @@ msgstr "Француски превод"
 # well-spelled: Фурлански
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2005
+#: data/core/about.cfg:2017
 msgid "Friulian Translation"
 msgstr "Фурлански превод"
 
 # well-spelled: Галицијански
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2012
+#: data/core/about.cfg:2024
 msgid "Galician Translation"
 msgstr "Галицијански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2048
+#: data/core/about.cfg:2060
 msgid "German Translation"
 msgstr "‹Њемачки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2122
+#: data/core/about.cfg:2134
 msgid "Greek Translation"
 msgstr "Грчки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2165
+#: data/core/about.cfg:2177
 msgid "Hebrew Translation"
 msgstr "Хебрејски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2178
+#: data/core/about.cfg:2190
 msgid "Hungarian Translation"
 msgstr "Мађарски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2239
+#: data/core/about.cfg:2251
 msgid "Icelandic Translation"
 msgstr "Исландски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2249
+#: data/core/about.cfg:2261
 msgid "Indonesian Translation"
 msgstr "Индонежански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2272
+#: data/core/about.cfg:2284
 msgid "Irish Translation"
 msgstr "Ирски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2279
+#: data/core/about.cfg:2291
 msgid "Italian Translation"
 msgstr "Италијански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2326
+#: data/core/about.cfg:2338
 msgid "Japanese Translation"
 msgstr "Јапански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2394
+#: data/core/about.cfg:2406
 msgid "Korean Translation"
 msgstr "Корејски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2402
+#: data/core/about.cfg:2414
 msgid "Latin Translation"
 msgstr "Латински превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2428
+#: data/core/about.cfg:2440
 msgid "Latvian Translation"
 msgstr "Летонски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2439
+#: data/core/about.cfg:2451
 msgid "Lithuanian Translation"
 msgstr "Литвански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2464
+#: data/core/about.cfg:2476
 msgid "Macedonian Translation"
 msgstr "Македонски превод"
 
 # well-spelled: Марати
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2471
+#: data/core/about.cfg:2483
 msgid "Marathi Translation"
 msgstr "Марати превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2480
+#: data/core/about.cfg:2492
 msgid "Norwegian Translation"
 msgstr "Норвешки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2505
+#: data/core/about.cfg:2517
 msgid "Old English Translation"
 msgstr "Староенглески превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2523
+#: data/core/about.cfg:2535
 msgid "Polish Translation"
 msgstr "Пољски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2567
+#: data/core/about.cfg:2579
 msgid "Portuguese Translation"
 msgstr "Португалски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2585
+#: data/core/about.cfg:2597
 msgid "Portuguese (Brazil) Translation"
 msgstr "Португалски бразилски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2639
+#: data/core/about.cfg:2651
 msgid "Romanian Translation"
 msgstr "Румунски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2647
+#: data/core/about.cfg:2659
 msgid "Russian Translation"
 msgstr "Руски превод"
 
 # well-spelled: гелски
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2736
+#: data/core/about.cfg:2748
 msgid "Scottish Gaelic Translation"
 msgstr "Шкотски гелски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2745
+#: data/core/about.cfg:2757
 msgid "Serbian Translation"
 msgstr "Српски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2764
+#: data/core/about.cfg:2776
 msgid "Slovak Translation"
 msgstr "Словачки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2793
+#: data/core/about.cfg:2805
 msgid "Slovenian Translation"
 msgstr "Словеначки превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2809
+#: data/core/about.cfg:2821
 msgid "Spanish Translation"
 msgstr "Шпански превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2891
+#: data/core/about.cfg:2903
 msgid "Swedish Translation"
 msgstr "Шведски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2932
+#: data/core/about.cfg:2944
 msgid "Turkish Translation"
 msgstr "Турски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2954
+#: data/core/about.cfg:2966
 msgid "Ukrainian Translation"
 msgstr "Украјински превод"
 
 # well-spelled: јужнокаталонски
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2967
+#: data/core/about.cfg:2979
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Валенсијски (јужнокаталонски) превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2980
+#: data/core/about.cfg:2992
 msgid "Vietnamese Translation"
 msgstr "Вијетнамски превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:2999
+#: data/core/about.cfg:3011
 msgid "RACV’s Translation"
 msgstr "Валенсијски (РАЦВ) превод"
 
 #. [about]
 #. +> stable
-#: data/core/about.cfg:3006
+#: data/core/about.cfg:3018
 msgid "Bots"
 msgstr "Ботови"
 
@@ -2059,13 +2059,13 @@ msgstr "Истекну ли потези"
 
 #. [lua]: generate_objectives
 #. +> stable
-#: data/core/macros/objective-utils.cfg:14 data/lua/wml/objectives.lua:1899
+#: data/core/macros/objective-utils.cfg:14 data/lua/wml/objectives.lua:2526
 msgid "Early finish bonus."
 msgstr "Бонус за рани завршетак."
 
 #. [lua]: generate_objectives
 #. +> stable
-#: data/core/macros/objective-utils.cfg:17 data/lua/wml/objectives.lua:1901
+#: data/core/macros/objective-utils.cfg:17 data/lua/wml/objectives.lua:2528
 msgid "No early finish bonus."
 msgstr "Без бонуса за рани завршетак."
 
@@ -2081,7 +2081,7 @@ msgstr "(бонус за рани завршетак)"
 
 #. [lua]: generate_objectives
 #. +> stable
-#: data/core/macros/objective-utils.cfg:29 data/lua/wml/objectives.lua:1909
+#: data/core/macros/objective-utils.cfg:29 data/lua/wml/objectives.lua:2536
 msgid "No gold carried over to the next scenario."
 msgstr "Злато се не преноси у с‹љедећи сценарио."
 
@@ -2636,7 +2636,7 @@ msgstr "DejaVu Sans,Andagii,Droid Sans Japanese,Droid Sans Fallback,Junicode"
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #. +> stable
-#: data/lua/wml-tags.lua:1355 src/actions/attack.cpp:983
+#: data/lua/wml-tags.lua:1795 src/actions/attack.cpp:983
 msgctxt "female"
 msgid "poisoned"
 msgstr "отрована"
@@ -2644,7 +2644,7 @@ msgstr "отрована"
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #. +> stable
-#: data/lua/wml-tags.lua:1357 src/actions/attack.cpp:988
+#: data/lua/wml-tags.lua:1797 src/actions/attack.cpp:988
 msgctxt "female"
 msgid "slowed"
 msgstr "успорена"
@@ -2652,14 +2652,14 @@ msgstr "успорена"
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #. +> stable
-#: data/lua/wml-tags.lua:1357 src/actions/attack.cpp:988
+#: data/lua/wml-tags.lua:1797 src/actions/attack.cpp:988
 msgid "slowed"
 msgstr "успорен"
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #. +> stable
-#: data/lua/wml-tags.lua:1358 src/actions/attack.cpp:993
+#: data/lua/wml-tags.lua:1798 src/actions/attack.cpp:993
 msgctxt "female"
 msgid "petrified"
 msgstr "окамењена"
@@ -2667,51 +2667,51 @@ msgstr "окамењена"
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #. +> stable
-#: data/lua/wml-tags.lua:1358 src/actions/attack.cpp:993
+#: data/lua/wml-tags.lua:1798 src/actions/attack.cpp:993
 msgid "petrified"
 msgstr "окамењен"
 
 #. [lua]: set_status
 #. +> stable
-#: data/lua/wml-tags.lua:1359
+#: data/lua/wml-tags.lua:1799
 msgctxt "female"
 msgid "unhealable"
 msgstr "неисц›јељива"
 
 #. [lua]: set_status
 #. +> stable
-#: data/lua/wml-tags.lua:1359
+#: data/lua/wml-tags.lua:1799
 msgid "unhealable"
 msgstr "неисц›јељив"
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: generate_objectives
 #. +> stable
-#: data/lua/wml/objectives.lua:1835 src/mp_game_utils.cpp:157
+#: data/lua/wml/objectives.lua:2462 src/mp_game_utils.cpp:157
 msgid "Victory:"
 msgstr "поб›једа:"
 
 #. [lua]: generate_objectives
 #. +> stable
-#: data/lua/wml/objectives.lua:1836
+#: data/lua/wml/objectives.lua:2463
 msgid "Defeat:"
 msgstr "пораз:"
 
 #. [lua]: generate_objectives
 #. +> stable
-#: data/lua/wml/objectives.lua:1856
+#: data/lua/wml/objectives.lua:2483
 msgid "(%d turns left)"
 msgstr "(још %d потеза)"
 
 #. [lua]: generate_objectives
 #. +> stable
-#: data/lua/wml/objectives.lua:1858
+#: data/lua/wml/objectives.lua:2485
 msgid "(this turn left)"
 msgstr "(последњи потез)"
 
 #. [lua]: generate_objectives
 #. +> stable
-#: data/lua/wml/objectives.lua:1911
+#: data/lua/wml/objectives.lua:2538
 msgid "%d%% of gold carried over to the next scenario."
 msgstr "%d%% злата се преноси у с‹љедећи сценарио."
 
@@ -2742,70 +2742,236 @@ msgstr "врло дугачак"
 msgid "electrical"
 msgstr "електрични"
 
-#. [theme]: id=Default
+#. [action]: id=button-playreplay, type=image
 #. +> stable
-#: data/themes/default.cfg:34
-msgctxt "theme"
-msgid "Default"
-msgstr "Подразумевана"
+#: data/themes/_initial.cfg:397 data/themes/_initial.cfg:530
+msgid "Play"
+msgstr "Играј"
 
-#. [theme]: id=Default
+#. [action]: id=button-playreplay, type=image
 #. +> stable
-#: data/themes/default.cfg:35
-msgid "Default theme."
-msgstr "Подразумевана тема."
+#: data/themes/_initial.cfg:398 data/themes/_initial.cfg:531
+msgid "continuous replay"
+msgstr "снимак без паузе"
+
+#. [action]: id=button-stopreplay, type=image
+#. +> stable
+#: data/themes/_initial.cfg:412 data/themes/_initial.cfg:544
+msgid "Stop"
+msgstr "Стани"
+
+#. [action]: id=button-stopreplay, type=image
+#. +> stable
+#: data/themes/_initial.cfg:413 data/themes/_initial.cfg:545
+msgid "pause at end of turn"
+msgstr "паузирај на крају потеза"
+
+#. [action]: id=button-resetreplay, type=image
+#. +> stable
+#: data/themes/_initial.cfg:428 data/themes/_initial.cfg:558
+msgid "Reset"
+msgstr "Ресетуј"
+
+#. [action]: id=button-resetreplay, type=image
+#. +> stable
+#: data/themes/_initial.cfg:429 data/themes/_initial.cfg:559
+msgid "reset to beginning"
+msgstr "врати на почетак"
+
+#. [action]: id=button-nextturn, type=image
+#. +> stable
+#: data/themes/_initial.cfg:444 data/themes/_initial.cfg:572
+msgid "Next Turn"
+msgstr "С‹љедећи потез"
+
+#. [action]: id=button-nextturn, type=image
+#. +> stable
+#: data/themes/_initial.cfg:445 data/themes/_initial.cfg:573
+msgid "play turn"
+msgstr "пусти потез"
+
+#. [action]: id=button-nextside, type=image
+#. +> stable
+#: data/themes/_initial.cfg:460 data/themes/_initial.cfg:586
+msgid "Next Side"
+msgstr "С‹љедећа страна"
+
+#. [action]: id=button-nextside, type=image
+#. +> stable
+#: data/themes/_initial.cfg:461 data/themes/_initial.cfg:587
+msgid "play side turn"
+msgstr "пусти потез стране"
+
+#. [menu]: id=show-what
+#. +> stable
+#: data/themes/_initial.cfg:473 data/themes/_initial.cfg:613
+msgid "Point of view"
+msgstr "тачка гледишта"
+
+#. [action]: id=skip-animation, type=checkbox
+#. +> stable
+#: data/themes/_initial.cfg:485 data/themes/_initial.cfg:625
+msgid "Skip animation"
+msgstr "Прескочи анимацију"
+
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]: id=replay-label
+#. +> stable
+#: data/themes/_initial.cfg:515 src/dialogs.cpp:838
+msgid "Replay"
+msgstr "Снимак"
+
+#. [action]: id=button-nextmove, type=image
+#. +> stable
+#: data/themes/_initial.cfg:600
+#, fuzzy
+#| msgid "Next Side"
+msgid "Next Move"
+msgstr "С‹љедећа страна"
+
+#. [action]: id=button-nextmove, type=image
+#. +> stable
+#: data/themes/_initial.cfg:601
+#, fuzzy
+#| msgid "play side turn"
+msgid "play single move"
+msgstr "пусти потез стране"
+
+#. [theme]: id=Classic
+#. +> stable
+#: data/themes/classic.cfg:11
+msgctxt "theme"
+msgid "Classic"
+msgstr ""
+
+#. [theme]: id=Classic
+#. +> stable
+#: data/themes/classic.cfg:13
+msgid "The classic, pre-1.12 theme"
+msgstr ""
 
 #. [menu]: id=menu-main
 #. +> stable
-#: data/themes/default.cfg:82 data/themes/pandora.cfg:114
+#: data/themes/classic.cfg:106 data/themes/default.cfg:80
+#: data/themes/pandora.cfg:112
 msgid "Menu"
 msgstr "Мени"
 
-#. [menu]: id=menu-autosaves
-#. +> stable
-#: data/themes/default.cfg:92
-msgid "Back to..."
-msgstr "Назад на..."
-
 #. [menu]: id=actions-menu
 #. +> stable
-#: data/themes/default.cfg:100
+#: data/themes/classic.cfg:117 data/themes/default.cfg:98
 msgid "Actions"
 msgstr "Радње"
 
 # намерно кратко, на уском дугмету
 #. [action]: id=button-endturn
 #. +> stable
-#: data/themes/default.cfg:121
+#: data/themes/classic.cfg:140 data/themes/default.cfg:119
 msgid "End Turn"
 msgstr "Готово"
 
 # намерно кратко, на уском дугмету
 #. [action]: id=button-endturn
 #. +> stable
-#: data/themes/default.cfg:122
+#: data/themes/classic.cfg:141 data/themes/default.cfg:120
 msgid "End Scenario"
 msgstr "Крај"
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=label-hp
 #. +> stable
-#: data/themes/default.cfg:134 src/dialogs.cpp:280 src/unit.cpp:2473
-#: src/unit.cpp:2673
+#: data/themes/classic.cfg:215 data/themes/default.cfg:132 src/dialogs.cpp:280
+#: src/unit.cpp:2473 src/unit.cpp:2673
 msgid "HP"
 msgstr "УП"
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=label-xp
 #. +> stable
-#: data/themes/default.cfg:143 src/dialogs.cpp:282 src/dialogs.cpp:454
+#: data/themes/classic.cfg:224 data/themes/default.cfg:141 src/dialogs.cpp:282
+#: src/dialogs.cpp:454
 msgid "XP"
 msgstr "ИП"
+
+#. [label]: id=gold-icon
+#. +> stable
+#: data/themes/classic.cfg:234 data/themes/default.cfg:166
+#: data/themes/pandora.cfg:179
+msgid "gold"
+msgstr "злато"
+
+#. [label]: id=villages-icon
+#. +> stable
+#: data/themes/classic.cfg:243 data/themes/default.cfg:175
+msgid "villages"
+msgstr "села"
+
+#. [label]: id=units-icon
+#. +> stable
+#: data/themes/classic.cfg:252 data/themes/default.cfg:184
+msgid "units"
+msgstr "јединице"
+
+#. [label]: id=upkeep-icon
+#. +> stable
+#: data/themes/classic.cfg:261 data/themes/default.cfg:193
+msgid "upkeep"
+msgstr "издаци"
+
+#. [label]: id=income-icon
+#. +> stable
+#: data/themes/classic.cfg:270 data/themes/default.cfg:202
+#: data/themes/pandora.cfg:132
+msgid "income"
+msgstr "приходи"
+
+#. [unit_level]: id=unit-level
+#. +> stable
+#: data/themes/classic.cfg:432
+msgctxt "statuspanel"
+msgid "level"
+msgstr "ниво"
+
+#. [unit_moves]: id=unit-moves
+#. +> stable
+#: data/themes/classic.cfg:462
+msgctxt "statuspanel"
+msgid "moves"
+msgstr "кретњи"
+
+# well-spelled: одб
+#. [unit_defense]: id=unit-defense
+#. +> stable
+#: data/themes/classic.cfg:471
+msgctxt "statuspanel"
+msgid "terrain def."
+msgstr "теренска одб."
+
+#. [theme]: id=Default
+#. +> stable
+#: data/themes/default.cfg:32
+msgctxt "theme"
+msgid "Default"
+msgstr "Подразумевана"
+
+#. [theme]: id=Default
+#. +> stable
+#: data/themes/default.cfg:33
+#, fuzzy
+#| msgid "Default theme."
+msgid "The default theme"
+msgstr "Подразумевана тема."
+
+#. [menu]: id=menu-autosaves
+#. +> stable
+#: data/themes/default.cfg:90
+msgid "Back to..."
+msgstr "Назад на..."
 
 # well-spelled: ПП
 #. [label]: id=label-mp
 #. +> stable
-#: data/themes/default.cfg:151
+#: data/themes/default.cfg:149
 msgid "MP"
 msgstr "ПП"
 
@@ -2813,136 +2979,36 @@ msgstr "ПП"
 # well-spelled: одб
 #. [label]: id=label-def
 #. +> stable
-#: data/themes/default.cfg:159
+#: data/themes/default.cfg:157
 msgid "def"
 msgstr "одб"
 
-#. [label]: id=gold-icon
-#. +> stable
-#: data/themes/default.cfg:168 data/themes/pandora.cfg:181
-msgid "gold"
-msgstr "злато"
-
-#. [label]: id=villages-icon
-#. +> stable
-#: data/themes/default.cfg:177
-msgid "villages"
-msgstr "села"
-
-#. [label]: id=units-icon
-#. +> stable
-#: data/themes/default.cfg:186
-msgid "units"
-msgstr "јединице"
-
-#. [label]: id=upkeep-icon
-#. +> stable
-#: data/themes/default.cfg:195
-msgid "upkeep"
-msgstr "издаци"
-
-#. [label]: id=income-icon
-#. +> stable
-#: data/themes/default.cfg:204 data/themes/pandora.cfg:134
-msgid "income"
-msgstr "приходи"
-
 #. [unit_level]: id=unit-level
 #. +> stable
-#: data/themes/default.cfg:394
+#: data/themes/default.cfg:392
 msgctxt "statuspanel"
 msgid "lvl"
 msgstr "нв"
 
-#. [action]: id=button-playreplay, type=image
-#. +> stable
-#: data/themes/macros.cfg:397
-msgid "Play"
-msgstr "Играј"
-
-#. [action]: id=button-playreplay, type=image
-#. +> stable
-#: data/themes/macros.cfg:398
-msgid "continuous replay"
-msgstr "снимак без паузе"
-
-#. [action]: id=button-stopreplay, type=image
-#. +> stable
-#: data/themes/macros.cfg:412
-msgid "Stop"
-msgstr "Стани"
-
-#. [action]: id=button-stopreplay, type=image
-#. +> stable
-#: data/themes/macros.cfg:413
-msgid "pause at end of turn"
-msgstr "паузирај на крају потеза"
-
-#. [action]: id=button-resetreplay, type=image
-#. +> stable
-#: data/themes/macros.cfg:428
-msgid "Reset"
-msgstr "Ресетуј"
-
-#. [action]: id=button-resetreplay, type=image
-#. +> stable
-#: data/themes/macros.cfg:429
-msgid "reset to beginning"
-msgstr "врати на почетак"
-
-#. [action]: id=button-nextturn, type=image
-#. +> stable
-#: data/themes/macros.cfg:444
-msgid "Next Turn"
-msgstr "С‹љедећи потез"
-
-#. [action]: id=button-nextturn, type=image
-#. +> stable
-#: data/themes/macros.cfg:445
-msgid "play turn"
-msgstr "пусти потез"
-
-#. [action]: id=button-nextside, type=image
-#. +> stable
-#: data/themes/macros.cfg:460
-msgid "Next Side"
-msgstr "С‹љедећа страна"
-
-#. [action]: id=button-nextside, type=image
-#. +> stable
-#: data/themes/macros.cfg:461
-msgid "play side turn"
-msgstr "пусти потез стране"
-
-#. [menu]: id=show-what
-#. +> stable
-#: data/themes/macros.cfg:473
-msgid "Point of view"
-msgstr "тачка гледишта"
-
-#. [action]: id=skip-animation, type=checkbox
-#. +> stable
-#: data/themes/macros.cfg:485
-msgid "Skip animation"
-msgstr "Прескочи анимацију"
-
 #. [theme]: id=Pandora
 #. +> stable
-#: data/themes/pandora.cfg:22
+#: data/themes/pandora.cfg:20
 msgctxt "theme"
 msgid "Pandora"
 msgstr "Пандора"
 
 #. [theme]: id=Pandora
 #. +> stable
-#: data/themes/pandora.cfg:23
-msgid "800x480 theme optimized for Pandora devices."
+#: data/themes/pandora.cfg:21
+#, fuzzy
+#| msgid "800x480 theme optimized for Pandora devices."
+msgid "An 800×480 theme optimized for Pandora devices"
 msgstr "800×400 тема прилагођена уређајима пандора."
 
 # као и порука „End Turn“
 #. [action]: id=end-turn
 #. +> stable
-#: data/themes/pandora.cfg:153
+#: data/themes/pandora.cfg:151
 msgid ""
 "End\n"
 "Turn"
@@ -3524,17 +3590,17 @@ msgid "cured"
 msgstr ""
 
 #. +> stable
-#: src/actions/move.cpp:592
+#: src/actions/move.cpp:595
 msgid "Ambushed!"
 msgstr "Зас›једа!"
 
 #. +> stable
-#: src/actions/move.cpp:1116
+#: src/actions/move.cpp:1119
 msgid "Failed teleport! Exit not empty"
 msgstr "Неусп›јешна телепортација! Излаз није празан."
 
 #. +> stable
-#: src/actions/move.cpp:1133
+#: src/actions/move.cpp:1136
 msgctxt "Part of 'Units sighted! (...)' sentence"
 msgid "1 friendly"
 msgid_plural "$friends friendly"
@@ -3544,7 +3610,7 @@ msgstr[2] "$friends савезничких"
 msgstr[3] "једна савезничка"
 
 #. +> stable
-#: src/actions/move.cpp:1134
+#: src/actions/move.cpp:1137
 msgctxt "Part of 'Units sighted! (...)' sentence"
 msgid "1 enemy"
 msgid_plural "$enemies enemy"
@@ -3554,12 +3620,12 @@ msgstr[2] "$enemies непријатељских"
 msgstr[3] "једна непријатељска"
 
 #. +> stable
-#: src/actions/move.cpp:1135
+#: src/actions/move.cpp:1138
 msgid "Units sighted! ($friendphrase, $enemyphrase)"
 msgstr "Уочене јединице! ($friendphrase, $enemyphrase)"
 
 #. +> stable
-#: src/actions/move.cpp:1139
+#: src/actions/move.cpp:1142
 msgid "Enemy unit sighted!"
 msgid_plural "$enemies enemy units sighted!"
 msgstr[0] "Уочена $enemies непријатељска јединица!"
@@ -3568,7 +3634,7 @@ msgstr[2] "Уочено $enemies непријатељских јединица!"
 msgstr[3] "Уочена непријатељска јединица!"
 
 #. +> stable
-#: src/actions/move.cpp:1143
+#: src/actions/move.cpp:1146
 msgid "Friendly unit sighted"
 msgid_plural "$friends friendly units sighted"
 msgstr[0] "Уочена $friends савезничка јединица"
@@ -3577,7 +3643,7 @@ msgstr[2] "Уочено $friends савезничких јединица"
 msgstr[3] "Уочена савезничка јединица"
 
 #. +> stable
-#: src/actions/move.cpp:1159
+#: src/actions/move.cpp:1162
 msgid "(press $hotkey to keep moving)"
 msgstr "(притисните $hotkey да продужи)"
 
@@ -3874,7 +3940,7 @@ msgstr[3] "Изабрани додатак има следећу зависно�
 #. +> stable
 #: src/addon/manager_ui.cpp:241 src/addon/manager_ui.cpp:313
 #: src/addon/manager_ui.cpp:328 src/addon/manager_ui.cpp:333
-#: src/addon/manager_ui.cpp:886
+#: src/addon/manager_ui.cpp:884
 #, fuzzy
 #| msgid "The server responded with an error: \""
 msgid "The server responded with an error:"
@@ -3921,7 +3987,7 @@ msgstr "Желите ли да наставите?"
 # >> @title:window
 #. +> stable
 #: src/addon/manager_ui.cpp:293 src/addon/manager_ui.cpp:304
-#: src/addon/manager_ui.cpp:1082 src/multiplayer.cpp:276
+#: src/addon/manager_ui.cpp:1080 src/multiplayer.cpp:276
 msgid "Confirm"
 msgstr "Потврда"
 
@@ -3932,7 +3998,7 @@ msgstr "Брисањем додатка „$addon|“ биће трајно об
 
 #. +> stable
 #: src/addon/manager_ui.cpp:317 src/addon/manager_ui.cpp:336
-#: src/multiplayer_wait.cpp:436
+#: src/multiplayer_wait.cpp:437
 msgid "Response"
 msgstr "Одзив"
 
@@ -4013,12 +4079,12 @@ msgid "Options"
 msgstr "Радње"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:904
+#: src/addon/manager_ui.cpp:902
 msgid "Add-on Installed"
 msgstr "Додатак инсталиран"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:904
+#: src/addon/manager_ui.cpp:902
 #, fuzzy
 #| msgid "Add-on Deleted"
 #| msgid_plural "Add-ons Deleted"
@@ -4026,26 +4092,26 @@ msgid "Add-on Updated"
 msgstr "Додаци обрисани"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:905
+#: src/addon/manager_ui.cpp:903
 msgid "The add-on '$addon_title|' has been successfully installed."
 msgstr "Додатак ‘$addon_title|’ усп›јешно инсталиран."
 
 #. +> stable
-#: src/addon/manager_ui.cpp:905
+#: src/addon/manager_ui.cpp:903
 #, fuzzy
 #| msgid "The add-on '$addon_title|' has been successfully installed."
 msgid "The add-on '$addon_title|' has been successfully updated."
 msgstr "Додатак ‘$addon_title|’ усп›јешно инсталиран."
 
 #. +> stable
-#: src/addon/manager_ui.cpp:910
+#: src/addon/manager_ui.cpp:908
 #, fuzzy
 #| msgid "Add-on Installed"
 msgid "Add-ons Installed"
 msgstr "Додатак инсталиран"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:910
+#: src/addon/manager_ui.cpp:908
 #, fuzzy
 #| msgid "Add-on Deleted"
 #| msgid_plural "Add-ons Deleted"
@@ -4053,33 +4119,33 @@ msgid "Add-ons Updated"
 msgstr "Додаци обрисани"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:911
+#: src/addon/manager_ui.cpp:909
 #, fuzzy
 #| msgid "All add-ons updated successfully."
 msgid "All add-ons installed successfully."
 msgstr "Сви додаци усп›јешно ажурирани."
 
 #. +> stable
-#: src/addon/manager_ui.cpp:911
+#: src/addon/manager_ui.cpp:909
 msgid "All add-ons updated successfully."
 msgstr "Сви додаци усп›јешно ажурирани."
 
 #. +> stable
-#: src/addon/manager_ui.cpp:915
+#: src/addon/manager_ui.cpp:913
 #, fuzzy
 #| msgid "Installation failed"
 msgid "Installation Failed"
 msgstr "Инсталирање није успело"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:915
+#: src/addon/manager_ui.cpp:913
 #, fuzzy
 #| msgid "Update failed"
 msgid "Update Failed"
 msgstr "Ажурирање није усп›јело"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:917
+#: src/addon/manager_ui.cpp:915
 #, fuzzy
 #| msgid "The following add-on could not be downloaded or updated successfully:"
 #| msgid_plural "The following add-ons could not be downloaded or updated successfully:"
@@ -4091,29 +4157,29 @@ msgstr[2] "С‹љедећи додаци имају грешку и не мог
 msgstr[3] "С‹љедећи додатак има грешку и не може се усп›јешно преузети или ажурирати:"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:960 src/addon/manager_ui.cpp:970
+#: src/addon/manager_ui.cpp:958 src/addon/manager_ui.cpp:968
 #, fuzzy
 #| msgid "An error occurred while communicating with the server."
 msgid "An error occurred while downloading the add-ons list from the server."
 msgstr "Грешка у комуникацији са сервером."
 
 #. +> stable
-#: src/addon/manager_ui.cpp:988
+#: src/addon/manager_ui.cpp:986
 msgid "Network communication error."
 msgstr "Грешка у мрежној комуникацији."
 
 #. +> stable
-#: src/addon/manager_ui.cpp:991 src/addon/manager_ui.cpp:994
+#: src/addon/manager_ui.cpp:989 src/addon/manager_ui.cpp:992
 msgid "Remote host disconnected."
 msgstr "Удаљени домаћин је прекинуо везу."
 
 #. +> stable
-#: src/addon/manager_ui.cpp:997
+#: src/addon/manager_ui.cpp:995
 msgid "A problem occurred when trying to create the files necessary to install this add-on."
 msgstr "Проблем при стварању датотека неопходних за инсталирање овог додатка."
 
 #. +> stable
-#: src/addon/manager_ui.cpp:1006
+#: src/addon/manager_ui.cpp:1004
 msgid ""
 "A local file with add-on publishing information could not be read.\n"
 "\n"
@@ -4122,17 +4188,17 @@ msgid ""
 msgstr ""
 
 #. +> stable
-#: src/addon/manager_ui.cpp:1012
+#: src/addon/manager_ui.cpp:1010
 msgid "The add-ons server address specified is not valid."
 msgstr ""
 
 #. +> stable
-#: src/addon/manager_ui.cpp:1026
+#: src/addon/manager_ui.cpp:1024
 msgid "You have no add-ons installed."
 msgstr "Нема инсталираних додатака."
 
 #. +> stable
-#: src/addon/manager_ui.cpp:1077
+#: src/addon/manager_ui.cpp:1075
 msgid "Are you sure you want to remove the following installed add-on?"
 msgid_plural "Are you sure you want to remove the following installed add-ons?"
 msgstr[0] "Желите ли заиста да уклоните следеће инсталиране додатке?"
@@ -4141,7 +4207,7 @@ msgstr[2] "Желите ли заиста да уклоните следеће �
 msgstr[3] "Желите ли заиста да уклоните следећи инсталирани додатак?"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:1103
+#: src/addon/manager_ui.cpp:1101
 msgid "The following add-on appears to have publishing or version control information stored locally, and will not be removed:"
 msgid_plural "The following add-ons appear to have publishing or version control information stored locally, and will not be removed:"
 msgstr[0] "За следеће додатке изгледа да садрже локалне податке о издавању или управљању верзијама, па неће бити уклоњени:"
@@ -4150,7 +4216,7 @@ msgstr[2] "За следеће додатке изгледа да садрже �
 msgstr[3] "За следећи додатак изгледа да садржи локалне податке о издавању или управљању верзијама, па неће бити уклоњен:"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:1113
+#: src/addon/manager_ui.cpp:1111
 msgid "The following add-on could not be deleted properly:"
 msgid_plural "The following add-ons could not be deleted properly:"
 msgstr[0] "Следеће додатке није било могуће правилно обрисати:"
@@ -4159,7 +4225,7 @@ msgstr[2] "Следеће додатке није било могуће прав
 msgstr[3] "Следећи додатак није било могуће правилно обрисати:"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:1120
+#: src/addon/manager_ui.cpp:1118
 msgid "Add-on Deleted"
 msgid_plural "Add-ons Deleted"
 msgstr[0] "Додаци обрисани"
@@ -4168,7 +4234,7 @@ msgstr[2] "Додаци обрисани"
 msgstr[3] "Додатак обрисан"
 
 #. +> stable
-#: src/addon/manager_ui.cpp:1122
+#: src/addon/manager_ui.cpp:1120
 msgid "The following add-on was successfully deleted:"
 msgid_plural "The following add-ons were successfully deleted:"
 msgstr[0] "Следећи додаци успешно су обрисани:"
@@ -4377,11 +4443,6 @@ msgstr "Подучавање"
 #: src/dialogs.cpp:830
 msgid "Test scenario"
 msgstr "Пробни сценарио"
-
-#. +> stable
-#: src/dialogs.cpp:838
-msgid "Replay"
-msgstr "Снимак"
 
 #. +> stable
 #: src/dialogs.cpp:840 src/savegame.cpp:1125
@@ -4617,7 +4678,7 @@ msgstr "У/И грешка у датотеци приликом читања п�
 
 #. +> stable
 #: src/game_controller.cpp:543
-msgid "This is a multiplayer scenario. Some parts of it may not work properly in single-player. It is recommended to load this scenario through the Multiplayer -> Load Game dialog instead."
+msgid "This is a multiplayer scenario. Some parts of it may not work properly in single-player. It is recommended to load this scenario through the <b>Multiplayer</b> → <b>Load Game</b> dialog instead."
 msgstr ""
 
 #. +> stable
@@ -4796,31 +4857,31 @@ msgid "Error"
 msgstr "Грешка"
 
 #. +> stable
-#: src/hotkey/command_executor.cpp:508 src/hotkey/command_executor.cpp:670
+#: src/hotkey/command_executor.cpp:509 src/hotkey/command_executor.cpp:671
 #: src/multiplayer_connect.cpp:384 src/multiplayer_lobby.cpp:863
 #: src/multiplayer_wait.cpp:188
 msgid "Quit"
 msgstr "Напусти"
 
 #. +> stable
-#: src/hotkey/command_executor.cpp:509 src/hotkey/command_executor.cpp:671
+#: src/hotkey/command_executor.cpp:510 src/hotkey/command_executor.cpp:672
 #, fuzzy
 #| msgid "Do you really want to dismiss him?"
 msgid "Do you really want to quit?"
 msgstr "Желите ли заиста да га отпустите?"
 
 #. +> stable
-#: src/hotkey/command_executor.cpp:626
+#: src/hotkey/command_executor.cpp:627
 msgid "Map-Screenshot"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/command_executor.cpp:626
+#: src/hotkey/command_executor.cpp:627
 msgid "Screenshot"
 msgstr ""
 
 #. +> stable
-#: src/hotkey/command_executor.cpp:633
+#: src/hotkey/command_executor.cpp:634
 msgid "Screenshot Done"
 msgstr ""
 
@@ -4863,7 +4924,7 @@ msgstr "издаци"
 
 #. +> stable
 #: src/leader_scroll_dialog.cpp:51 src/menu_events.cpp:200
-#: src/multiplayer_connect.cpp:380 src/multiplayer_wait.cpp:562
+#: src/multiplayer_connect.cpp:380 src/multiplayer_wait.cpp:563
 msgid "Income"
 msgstr "приход"
 
@@ -5756,7 +5817,7 @@ msgid "whisper to $receiver"
 msgstr "шапат за $receiver"
 
 #. +> stable
-#: src/menu_events.cpp:2294 src/multiplayer_ui.cpp:433
+#: src/menu_events.cpp:2294 src/multiplayer_ui.cpp:481
 msgid "whisper: $sender"
 msgstr "шапат: $sender"
 
@@ -6354,25 +6415,25 @@ msgstr "модификатор искуства: "
 
 #. +> stable
 #: src/multiplayer_connect.cpp:67 src/multiplayer_connect.cpp:217
-#: src/multiplayer_connect.cpp:253 src/multiplayer_lobby.cpp:876
+#: src/multiplayer_connect.cpp:253
 msgid "Normal"
 msgstr "уобичајено"
 
 #. +> stable
 #: src/multiplayer_connect.cpp:213 src/multiplayer_connect.cpp:249
-#: src/multiplayer_wait.cpp:554 src/multiplayer_wait.cpp:562
+#: src/multiplayer_wait.cpp:555 src/multiplayer_wait.cpp:563
 msgid "("
 msgstr "("
 
 #. +> stable
 #: src/multiplayer_connect.cpp:213 src/multiplayer_connect.cpp:249
-#: src/multiplayer_wait.cpp:554 src/multiplayer_wait.cpp:565
+#: src/multiplayer_wait.cpp:555 src/multiplayer_wait.cpp:566
 msgid ")"
 msgstr ")"
 
 #. +> stable
 #: src/multiplayer_connect.cpp:215 src/multiplayer_connect.cpp:251
-#: src/multiplayer_wait.cpp:564
+#: src/multiplayer_wait.cpp:565
 msgid "+"
 msgstr "+"
 
@@ -6657,7 +6718,7 @@ msgid "No description available."
 msgstr "Опис није доступан."
 
 #. +> stable
-#: src/multiplayer_create_engine.cpp:139 src/multiplayer_create_engine.cpp:804
+#: src/multiplayer_create_engine.cpp:139 src/multiplayer_create_engine.cpp:805
 #, fuzzy
 #| msgid "The game could not be loaded: "
 msgid "Map could not be loaded: "
@@ -6771,13 +6832,22 @@ msgid "Search:"
 msgstr "Тражи:"
 
 #. +> stable
+#: src/multiplayer_lobby.cpp:876
+#, fuzzy
+#| msgid "Save Replay"
+msgid "Normal Replays"
+msgstr "Сачувај снимак"
+
+#. +> stable
 #: src/multiplayer_lobby.cpp:877
-msgid "Quick replays"
+#, fuzzy
+#| msgid "Quick replays"
+msgid "Quick Replays"
 msgstr "Брзи снимци"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:878
-msgid "Enter blindfolded"
+msgid "Enter Blindfolded"
 msgstr ""
 
 #. +> stable
@@ -6831,9 +6901,16 @@ msgid "Invalid Color"
 msgstr "Лоша боја"
 
 #. +> stable
-#: src/multiplayer_ui.cpp:316
+#: src/multiplayer_ui.cpp:317
 msgid "Selected user: "
 msgstr "Изабрани корисник: "
+
+#. +> stable
+#: src/multiplayer_ui.cpp:455
+#, fuzzy
+#| msgid "Accept whispers from friends only"
+msgid "$sender is messaging you, and you accept whispers from friends only."
+msgstr "Шаптања се примају само од пријатеља"
 
 #. +> stable
 #: src/multiplayer_wait.cpp:140
@@ -6851,27 +6928,27 @@ msgid "Waiting for game to start..."
 msgstr "Чекам да партија почне ..."
 
 #. +> stable
-#: src/multiplayer_wait.cpp:296
+#: src/multiplayer_wait.cpp:297
 msgid "No era information found."
 msgstr "Нема података о епохама."
 
 #. +> stable
-#: src/multiplayer_wait.cpp:300
+#: src/multiplayer_wait.cpp:301
 msgid "No multiplayer sides found"
 msgstr "Нема вишеиграчких страна"
 
 #. +> stable
-#: src/multiplayer_wait.cpp:347
+#: src/multiplayer_wait.cpp:348
 msgid "Choose your faction:"
 msgstr "Изаберите своју фракцију:"
 
 #. +> stable
-#: src/multiplayer_wait.cpp:347
+#: src/multiplayer_wait.cpp:348
 msgid "Starting position: "
 msgstr "Почетни положај: "
 
 #. +> stable
-#: src/multiplayer_wait.cpp:558
+#: src/multiplayer_wait.cpp:559
 msgctxt "multiplayer_starting_gold"
 msgid "Gold"
 msgid_plural "multiplayer_starting_gold^Gold"
@@ -6881,7 +6958,7 @@ msgstr[2] "златника"
 msgstr[3] "златник"
 
 #. +> stable
-#: src/multiplayer_wait.cpp:615
+#: src/multiplayer_wait.cpp:616
 msgid "Getting game data..."
 msgstr "Преузимам податке партије..."
 
@@ -6928,54 +7005,54 @@ msgid "time left for current turn"
 msgstr "преостало вр›ијеме за текући потез"
 
 #. +> stable
-#: src/play_controller.cpp:259 src/replay_controller.cpp:148
+#: src/play_controller.cpp:259 src/replay_controller.cpp:149
 msgid "current local time"
 msgstr "тренутно локално вр›ијеме"
 
 #. +> stable
-#: src/play_controller.cpp:1199 src/savegame.cpp:407 src/savegame.cpp:419
+#: src/play_controller.cpp:1207 src/savegame.cpp:407 src/savegame.cpp:419
 #: src/savegame.cpp:1081 src/savegame.cpp:1083
 msgid "Auto-Save"
 msgstr "Аутопозиција"
 
 #. +> stable
-#: src/play_controller.cpp:1203
+#: src/play_controller.cpp:1211
 #, fuzzy
 #| msgid "Back to turn "
 msgid "Back to Turn "
 msgstr "Назад на потез "
 
 #. +> stable
-#: src/play_controller.cpp:1211
+#: src/play_controller.cpp:1219
 #, fuzzy
 #| msgid "Back to turn "
 msgid "Back to Start"
 msgstr "Назад на потез "
 
 #. +> stable
-#: src/play_controller.cpp:1504
+#: src/play_controller.cpp:1512
 msgid "The game is out of sync. It might not make much sense to continue. Do you want to save your game?"
 msgstr "Игра је испала из синхронизације. Вероватно нема много смисла да се настави. Желите ли да сачувате позицију?"
 
 #. +> stable
-#: src/play_controller.cpp:1505 src/replay_controller.cpp:367
+#: src/play_controller.cpp:1513 src/replay_controller.cpp:368
 msgid "Error details:"
 msgstr "Детаљи грешке:"
 
 #. +> stable
-#: src/play_controller.cpp:1531
+#: src/play_controller.cpp:1539
 #, fuzzy
 #| msgid "(press $hotkey to keep moving)"
 msgid "(press $hk to disable)"
 msgstr "(притисните $hotkey да продужи)"
 
 #. +> stable
-#: src/play_controller.cpp:1531
+#: src/play_controller.cpp:1539
 msgid "Accelerated speed enabled!"
 msgstr ""
 
 #. +> stable
-#: src/play_controller.cpp:1535
+#: src/play_controller.cpp:1543
 msgid "Accelerated speed disabled!"
 msgstr ""
 
@@ -7020,7 +7097,7 @@ msgid "This scenario has ended. Do you want to continue the campaign?"
 msgstr "Сценарио је окончан. Желите ли да наставите поход?"
 
 #. +> stable
-#: src/playcampaign.cpp:642
+#: src/playcampaign.cpp:644
 msgid "Unknown scenario: '$scenario|'"
 msgstr "Непознат сценарио: ‘$scenario|’"
 
@@ -7030,17 +7107,17 @@ msgid "$name has taken control"
 msgstr "$name преузе управљање"
 
 #. +> stable
-#: src/playmp_controller.cpp:202
+#: src/playmp_controller.cpp:204
 msgid "Undoing moves not yet transmitted to the server."
 msgstr "Опозив покрета се не може одаслати на сервер."
 
 #. +> stable
-#: src/playmp_controller.cpp:417
+#: src/playmp_controller.cpp:419
 msgid "Waiting for next scenario..."
 msgstr "Чекам на наредни сценарио..."
 
 #. +> stable
-#: src/playmp_controller.cpp:556
+#: src/playmp_controller.cpp:558
 msgid ""
 "The game is out of sync, and cannot continue. There are a number of reasons this could happen: this can occur if you or another player have modified their game settings. This may mean one of the players is attempting to cheat. It could also be due to a bug in the game, but this is less likely.\n"
 "\n"
@@ -7140,7 +7217,7 @@ msgid "A network disconnection has occurred, and the game cannot continue. Do yo
 msgstr "Мрежна веза је прекинута и игра се не може наставити. Желите ли да сачувате позицију?"
 
 #. +> stable
-#: src/playsingle_controller.cpp:793
+#: src/playsingle_controller.cpp:794
 msgid "It is now $name|’s turn"
 msgstr "На потезу је $name"
 
@@ -7177,7 +7254,7 @@ msgid "$player has left the game. What do you want to do?"
 msgstr "$player напусти игру. Шта желите да учините?"
 
 #. +> stable
-#: src/replay_controller.cpp:366
+#: src/replay_controller.cpp:367
 msgid "The replay is corrupt/out of sync. It might not make much sense to continue. Do you want to save the game?"
 msgstr "Снимак је искварен или ван синхронизације. Вероватно нема много смисла да се настави. Желите ли да сачувате позицију?"
 
@@ -8244,19 +8321,6 @@ msgstr "Опције блокчета"
 #~ msgctxt "theme"
 #~ msgid "UnitBox"
 #~ msgstr "јединице"
-
-#~ msgctxt "statuspanel"
-#~ msgid "level"
-#~ msgstr "ниво"
-
-#~ msgctxt "statuspanel"
-#~ msgid "moves"
-#~ msgstr "кретњи"
-
-# well-spelled: одб
-#~ msgctxt "statuspanel"
-#~ msgid "terrain def."
-#~ msgstr "теренска одб."
 
 #~ msgctxt "Multiplayer_AI"
 #~ msgid "RCA AI"

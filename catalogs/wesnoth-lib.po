@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-lib\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-11-16 11:49+0100\n"
+"POT-Creation-Date: 2015-08-12 20:40+0200\n"
 "PO-Revision-Date: 2015-08-12 20:33+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
@@ -1725,7 +1725,7 @@ msgstr "Повежи се"
 #: data/gui/default/window/language_selection.cfg:141
 #: data/gui/default/window/message.cfg:151
 #: data/gui/default/window/mp_change_control.cfg:160
-#: data/gui/default/window/mp_cmd_wrapper.cfg:470
+#: data/gui/default/window/mp_cmd_wrapper.cfg:485
 #: data/gui/default/window/mp_connect.cfg:176
 #: data/gui/default/window/mp_create_game.cfg:559
 #: data/gui/default/window/mp_create_game_choose_mods.cfg:202
@@ -3316,7 +3316,7 @@ msgstr "Разлог избацивања/забране:"
 #. [button]: id=kick
 #. +> stable
 #: data/gui/default/window/lobby_player_info.cfg:168
-#: data/gui/default/window/mp_cmd_wrapper.cfg:389
+#: data/gui/default/window/mp_cmd_wrapper.cfg:399
 msgid "Kick"
 msgstr "Избаци"
 
@@ -3388,31 +3388,31 @@ msgstr "Додај међу игнорисане"
 
 #. [label]
 #. +> stable
-#: data/gui/default/window/mp_cmd_wrapper.cfg:241
+#: data/gui/default/window/mp_cmd_wrapper.cfg:251
 msgid "Moderating"
 msgstr "Модерисање"
 
 #. [label]
 #. +> stable
-#: data/gui/default/window/mp_cmd_wrapper.cfg:271
+#: data/gui/default/window/mp_cmd_wrapper.cfg:281
 msgid "Reason:"
 msgstr "Разлог:"
 
 #. [label]
 #. +> stable
-#: data/gui/default/window/mp_cmd_wrapper.cfg:323
+#: data/gui/default/window/mp_cmd_wrapper.cfg:333
 msgid "Time:"
 msgstr "Вр›ијеме:"
 
 #. [button]: id=status
 #. +> stable
-#: data/gui/default/window/mp_cmd_wrapper.cfg:374
+#: data/gui/default/window/mp_cmd_wrapper.cfg:384
 msgid "Status"
 msgstr "Статус"
 
 #. [button]: id=ban
 #. +> stable
-#: data/gui/default/window/mp_cmd_wrapper.cfg:404
+#: data/gui/default/window/mp_cmd_wrapper.cfg:414
 msgid "Ban"
 msgstr "Забрани"
 
@@ -3925,24 +3925,24 @@ msgid "Creation of the directory failed."
 msgstr "Стварање директоријума није усп›јело."
 
 #. +> stable
-#: src/game_preferences.cpp:352
+#: src/game_preferences.cpp:357
 msgid "No server has been defined."
 msgstr "Сервер није задат."
 
 #. +> stable
-#: src/game_preferences.cpp:432
+#: src/game_preferences.cpp:437
 msgid "player"
 msgstr "играч"
 
 # >> strftime() format
 #. +> stable
-#: src/game_preferences.cpp:959
+#: src/game_preferences.cpp:964
 msgid "%H:%M"
 msgstr "%k.%M"
 
 # >> strftime() format
 #. +> stable
-#: src/game_preferences.cpp:962
+#: src/game_preferences.cpp:967
 msgid "%I:%M %p"
 msgstr "%l.%M %p"
 
@@ -6104,6 +6104,16 @@ msgstr "Непозната епоха"
 #| msgid "Hut"
 msgid "Hat"
 msgstr "кућица"
+
+#. +> stable
+#: src/hotkey/hotkey_preferences_display.cpp:134
+msgid "Add a new binding to \"$hotkey_description|\""
+msgstr ""
+
+#. +> stable
+#: src/hotkey/hotkey_preferences_display.cpp:136
+msgid "Clears the current bindings for \"$hotkey_description|\""
+msgstr ""
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:150

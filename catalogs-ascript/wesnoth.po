@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2015-08-12 20:33+0200\n"
+"PO-Revision-Date: 2015-08-12 20:41+0200\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -6591,16 +6591,6 @@ msgstr ""
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
 #| msgid ""
-#| "Quick Replays|~\n"
-#| "|~x"
-msgid "Quick replays"
-msgstr ""
-"Брзи снимци|~\n"
-"|~e0"
-
-#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
-#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
-#| msgid ""
 #| "Apply Filter|~\n"
 #| "|~x"
 msgid "Apply filter"
@@ -8558,16 +8548,6 @@ msgstr ""
 "основна ВИ|~\n"
 "Подразумевана|~"
 
-#. modified: ilic | 2015-08-12 20:33:28+0200 | 1f
-#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
-#| msgid ""
-#| "Default AI|~\n"
-#| "|~x"
-msgid "Default theme."
-msgstr ""
-"основна ВИ|~\n"
-"Подразумевана тема.|~"
-
 # |, no-check-spell|~
 #. modified: ilic | 2015-08-12 20:33:28+0200 | 1
 msgctxt "save_compression"
@@ -8942,34 +8922,116 @@ msgid "def"
 msgstr "одб|~"
 
 #. modified: ilic | 2015-08-12 20:33:28+0200 | 1
-msgid "800x480 theme optimized for Pandora devices."
-msgstr "800×400 тема прилагођена уређајима пандора.|~"
-
-#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
 msgid "Use the map editor's <i>Areas</i> menu to define regions later addressed by event or ai coding."
 msgstr "Користите мени <i>~%/Areas/</i> у уређивачу мапа да дефинишете зоне које ће адресирати догађаји или ВИ.|~"
 
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
-#. modified: ilic | 2014-11-16 11:50:17+0100 | o
-#~ msgctxt "statuspanel"
-#~ msgid "level"
-#~ msgstr "ниво|~"
+#. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
+#, fuzzy
+#| msgid "Next Side|~"
+msgid "Next Move"
+msgstr "С‹љедећа страна|~"
+
+#. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
+#, fuzzy
+#| msgid "play side turn|~"
+msgid "play single move"
+msgstr "пусти потез стране|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
 #. modified: ilic | 2014-11-16 11:50:17+0100 | o
-#~ msgctxt "statuspanel"
-#~ msgid "moves"
-#~ msgstr "кретњи|~"
+#. modified: ilic | 2015-08-12 20:41:49+0200
+msgctxt "statuspanel"
+msgid "level"
+msgstr "ниво|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2014-11-16 11:50:17+0100 | o
+#. modified: ilic | 2015-08-12 20:41:49+0200
+msgctxt "statuspanel"
+msgid "moves"
+msgstr "кретњи|~"
 
 # well-spelled: одб|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
 #. modified: ilic | 2014-11-16 11:50:17+0100 | o
-#~ msgctxt "statuspanel"
-#~ msgid "terrain def."
-#~ msgstr "теренска одб.|~"
+#. modified: ilic | 2015-08-12 20:41:49+0200
+msgctxt "statuspanel"
+msgid "terrain def."
+msgstr "теренска одб.|~"
+
+#. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
+#, fuzzy
+#| msgid "Default theme.|~"
+msgid "The default theme"
+msgstr "Подразумевана тема.|~"
+
+#. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
+#, fuzzy
+#| msgid "800x480 theme optimized for Pandora devices.|~"
+msgid "An 800×480 theme optimized for Pandora devices"
+msgstr "800×400 тема прилагођена уређајима пандора.|~"
+
+#. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
+#, fuzzy
+#| msgid "Save Replay|~"
+msgid "Normal Replays"
+msgstr "Сачувај снимак|~"
+
+#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
+#. modified: ilic | 2010-02-20 10:48:51+0100 | o
+#. modified: ilic | 2010-04-24 12:14:57+0200 | 1f
+#. modified: ilic | 2010-04-24 12:43:18+0200 | 1
+#. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
+#. modified: ilic | 2011-11-08 23:50:35+0100 | o
+#. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
+#, fuzzy
+#| msgid ""
+#| "|~x\n"
+#| "Replay|~\n"
+#| "|~x\n"
+#| "Quick replays|~"
+msgid "Quick Replays"
+msgstr ""
+"Убрзани снимци|~\n"
+"Снимак|~\n"
+"Брзи снимци|~\n"
+"|~e2"
+
+#. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
+#, fuzzy
+#| msgid "Accept whispers from friends only|~"
+msgid "$sender is messaging you, and you accept whispers from friends only."
+msgstr "Шаптања се примају само од пријатеља|~"
+
+#. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
+#. modified: ilic | 2011-11-09 17:28:16+0100 | 1
+#. modified: ilic | 2015-08-12 20:41:49+0200 | o
+#~| msgid ""
+#~| "Quick Replays|~\n"
+#~| "|~x"
+#~ msgid "Quick replays"
+#~ msgstr ""
+#~ "Брзи снимци|~\n"
+#~ "|~e0"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1f
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#. modified: ilic | 2015-08-12 20:41:49+0200 | o
+#~| msgid ""
+#~| "Default AI|~\n"
+#~| "|~x"
+#~ msgid "Default theme."
+#~ msgstr ""
+#~ "основна ВИ|~\n"
+#~ "Подразумевана тема.|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#. modified: ilic | 2015-08-12 20:41:49+0200 | o
+#~ msgid "800x480 theme optimized for Pandora devices."
+#~ msgstr "800×400 тема прилагођена уређајима пандора.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
 #. modified: ilic | 2014-11-16 11:50:17+0100 | of
@@ -10222,22 +10284,6 @@ msgstr "Користите мени <i>~%/Areas/</i> у уређивачу ма�
 #. modified: ilic | 2011-11-08 23:50:35+0100 | o
 #~ msgid "<side> <nick>"
 #~ msgstr "<страна> <надимак>|~"
-
-#. modified: ilic | 2010-01-22 12:34:44+0100 | 1
-#. modified: ilic | 2010-02-20 10:48:51+0100 | o
-#. modified: ilic | 2010-04-24 12:14:57+0200 | 1f
-#. modified: ilic | 2010-04-24 12:43:18+0200 | 1
-#. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
-#. modified: ilic | 2011-11-08 23:50:35+0100 | o
-#~| msgid ""
-#~| "|~x\n"
-#~| "Replay|~\n"
-#~| "|~x"
-#~ msgid "Quick Replays"
-#~ msgstr ""
-#~ "Убрзани снимци|~\n"
-#~ "Снимак|~\n"
-#~ "Брзи снимци|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1o
 #. modified: ilic | 2010-04-24 12:14:57+0200 | 1f
