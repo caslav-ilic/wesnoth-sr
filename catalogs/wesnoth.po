@@ -1,15 +1,15 @@
 # Translation of wesnoth.po into Serbian.
 # Copyright (C) 2005 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
-# Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>, 2010, 2011.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015.
+# Dalibor Djuric <daliborddjuric@gmail.com>, 2010, 2011.
 # Branko Kokanovic, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2014-11-16 11:50+0100\n"
-"PO-Revision-Date: 2013-03-10 10:08+0100\n"
+"PO-Revision-Date: 2015-08-12 20:34+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
-"X-Associated-UI-Catalogs: wesnoth-lib wesnoth wesnoth-help wesnoth-httt\n"
+"X-Associated-UI-Catalogs: wesnoth-editor wesnoth-lib wesnoth wesnoth-help wesnoth-httt\n"
 "X-Wrapping: fine\n"
 
 #. [advanced_preference]: type=combo
@@ -27,79 +27,75 @@ msgstr ""
 #. much.
 #. +> stable
 #: data/advanced_preferences.cfg:7
-#, fuzzy
-#| msgid "Compressed saves"
 msgid "Compress saved games"
 msgstr "Компресоване позиције"
 
+# |, no-check-spell
 #. [option]: type=combo
 #. +> stable
 #: data/advanced_preferences.cfg:12
 msgctxt "save_compression"
 msgid "Gzip"
-msgstr ""
+msgstr "гзип"
 
+# |, no-check-spell
 #. [option]: type=combo
 #. +> stable
 #: data/advanced_preferences.cfg:13
 msgctxt "save_compression_short"
 msgid "gzip"
-msgstr ""
+msgstr "гзип"
 
 #. [option]: type=combo
 #. +> stable
 #: data/advanced_preferences.cfg:14
 msgctxt "save_compression_desc"
 msgid "Default compression, faster"
-msgstr ""
+msgstr "Подразумевана компресија, брже."
 
+# |, no-check-spell
 #. [option]: type=combo
 #. +> stable
 #: data/advanced_preferences.cfg:18
 msgctxt "save_compression"
 msgid "Bzip2"
-msgstr ""
+msgstr "бзип2"
 
+# |, no-check-spell
 #. [option]: type=combo
 #. +> stable
 #: data/advanced_preferences.cfg:19
 msgctxt "save_compression_short"
 msgid "bzip2"
-msgstr ""
+msgstr "бзип2"
 
 #. [option]: type=combo
 #. +> stable
 #: data/advanced_preferences.cfg:20
 msgctxt "save_compression_desc"
 msgid "Best compression, slower"
-msgstr ""
+msgstr "Најбоља компресија, спорије."
 
 #. [option]: type=combo
 #. +> stable
 #: data/advanced_preferences.cfg:24
-#, fuzzy
-#| msgid "None"
 msgctxt "save_compression"
 msgid "No"
-msgstr "нема"
+msgstr "без"
 
 #. [option]: type=combo
 #. +> stable
 #: data/advanced_preferences.cfg:25
-#, fuzzy
-#| msgid "no"
 msgctxt "save_compression_short"
 msgid "no"
-msgstr "не"
+msgstr "без"
 
 #. [option]: type=combo
 #. +> stable
 #: data/advanced_preferences.cfg:26
-#, fuzzy
-#| msgid "Reading unit files"
 msgctxt "save_compression_desc"
 msgid "Large plain text files"
-msgstr "Читам датотеке јединица..."
+msgstr "Велике обичнотекстуалне датотеке."
 
 #. [advanced_preference]: type=boolean
 #. +> stable
@@ -230,8 +226,6 @@ msgstr "12-часовни формат сата"
 #. [advanced_preference]: type=boolean
 #. +> stable
 #: data/advanced_preferences.cfg:170
-#, fuzzy
-#| msgid "Confirm loading of saves from a different version"
 msgid "Confirm loading saves from a different version"
 msgstr "Потврда за учитавање позиција из различитог издања"
 
@@ -263,13 +257,13 @@ msgstr "Замењује класични вишеиграчки хол нови
 #. +> stable
 #: data/advanced_preferences.cfg:194
 msgid "Show color cursors"
-msgstr ""
+msgstr "Показивачи у боји"
 
 #. [advanced_preference]: type=boolean
 #. +> stable
 #: data/advanced_preferences.cfg:195
 msgid "Use colored mouse cursors, which may be slower or break the game (use at your own risk)"
-msgstr ""
+msgstr "Користе се обојени показивачи миша, што може успорити или покварити игру (користите на сопствени ризик)."
 
 #. [advanced_preference]: type=boolean
 #. +> stable
@@ -810,101 +804,98 @@ msgstr "Ботови"
 #. +> stable
 #: data/core/editor/items.cfg:4
 msgid "Items"
-msgstr ""
+msgstr "Предмети"
 
 #. [item]: id=altar_evil
 #. +> stable
 #: data/core/editor/items.cfg:9
 msgid "Evil Altar"
-msgstr ""
+msgstr "зли олтар"
 
 #. [item]: id=altar
 #. +> stable
 #: data/core/editor/items.cfg:15
 msgid "Altar"
-msgstr ""
+msgstr "олтар"
 
 #. [item]: id=ankh-necklace
 #. +> stable
 #: data/core/editor/items.cfg:21
 msgid "Ankh Necklace"
-msgstr ""
+msgstr "огрлица са анком"
 
 #. [item]: id=anvil
 #. +> stable
 #: data/core/editor/items.cfg:27
 msgid "Anvil"
-msgstr ""
+msgstr "наковањ"
 
 #. [item]: id=archery-target
 #. +> stable
 #: data/core/editor/items.cfg:33
 msgid "Archery Target"
-msgstr ""
+msgstr "стрељачка мета"
 
 #. [item]: id=armor-golden
 #. +> stable
 #: data/core/editor/items.cfg:39
 msgid "Golden Armor"
-msgstr ""
+msgstr "златни оклоп"
 
 #. [item]: id=armor
 #. +> stable
 #: data/core/editor/items.cfg:45
 msgid "Armor"
-msgstr ""
+msgstr "оклоп"
 
 #. [item]: id=axe
 #. +> stable
 #: data/core/editor/items.cfg:51
 msgid "Axe"
-msgstr ""
+msgstr "секира"
 
 #. [item]: id=ball-blue
 #. +> stable
 #: data/core/editor/items.cfg:57
-#, fuzzy
-#| msgid "Blue"
 msgid "Blue Ball"
-msgstr "плава"
+msgstr "плава кугла"
 
 #. [item]: id=ball-green
 #. +> stable
 #: data/core/editor/items.cfg:63
-#, fuzzy
-#| msgid "Green"
 msgid "Green Ball"
-msgstr "зелена"
+msgstr "зелена кугла"
 
+# боље него ‘магента’, нема сукоба
 #. [item]: id=ball-magenta
 #. +> stable
 #: data/core/editor/items.cfg:69
 msgid "Magenta Ball"
-msgstr ""
+msgstr "црвена кугла"
 
 #. [item]: id=barrel
 #. +> stable
 #: data/core/editor/items.cfg:75
 msgid "Barrel"
-msgstr ""
+msgstr "буре"
 
 #. [item]: id=bomb
 #. +> stable
 #: data/core/editor/items.cfg:81
 msgid "Bomb"
-msgstr ""
+msgstr "бомба"
 
 #. [item]: id=bones
 #. +> stable
 #: data/core/editor/items.cfg:87
 msgid "Bones"
-msgstr ""
+msgstr "кости"
 
 #. [item]: id=bonestack
 #. +> stable
 #: data/core/editor/items.cfg:93
 msgid "Bonestack"
-msgstr ""
+msgstr "назидане кости"
 
 #. [item]: id=book1
 #. [item]: id=book2
@@ -916,103 +907,97 @@ msgstr ""
 #: data/core/editor/items.cfg:111 data/core/editor/items.cfg:117
 #: data/core/editor/items.cfg:123
 msgid "Book"
-msgstr ""
+msgstr "књига"
 
 #. [item]: id=bow-crystal
 #. +> stable
 #: data/core/editor/items.cfg:129
 msgid "Crystal Bow"
-msgstr ""
+msgstr "кристални лук"
 
 #. [item]: id=bow-elven
 #. +> stable
 #: data/core/editor/items.cfg:135
 msgid "Elven Bow"
-msgstr ""
+msgstr "вилењачки лук"
 
 #. [item]: id=bow
 #. +> stable
 #: data/core/editor/items.cfg:141
-#, fuzzy
-#| msgid "Brown"
 msgid "Bow"
-msgstr "смеђа"
+msgstr "лук"
 
 #. [item]: id=box
 #. +> stable
 #: data/core/editor/items.cfg:147
 msgid "Box"
-msgstr ""
+msgstr "кутија"
 
 #. [item]: id=brazier
 #. +> stable
 #: data/core/editor/items.cfg:153
 msgid "Brazier"
-msgstr ""
+msgstr "мангал"
 
 #. [item]: id=buckler
 #. +> stable
 #: data/core/editor/items.cfg:159
 msgid "Buckler"
-msgstr ""
+msgstr "одбијач"
 
 #. [item]: id=burial
 #. +> stable
 #: data/core/editor/items.cfg:165
-#, fuzzy
-#| msgid "Tutorial"
 msgid "Burial"
-msgstr "Подучавање"
+msgstr "хумка"
 
 #. [item]: id=cage
 #. +> stable
 #: data/core/editor/items.cfg:171
 msgid "Cage"
-msgstr ""
+msgstr "кавез"
 
 #. [item]: id=chest-plain-closed
 #. +> stable
 #: data/core/editor/items.cfg:177
 msgid "Closed Plain Chest"
-msgstr ""
+msgstr "затворен обични ковчег"
 
 #. [item]: id=chest-plain-open
 #. +> stable
 #: data/core/editor/items.cfg:183
 msgid "Open Plain Chest"
-msgstr ""
+msgstr "отворен обични ковчег"
 
 #. [item]: id=chest
 #. +> stable
 #: data/core/editor/items.cfg:189
 msgid "Chest"
-msgstr ""
+msgstr "ковчег"
 
 #. [item]: id=cloak-green
 #. +> stable
 #: data/core/editor/items.cfg:195
-#, fuzzy
-#| msgid "Green"
 msgid "Green Cloak"
-msgstr "зелена"
+msgstr "зелени огртач"
 
 #. [item]: id=coffin-closed
 #. +> stable
 #: data/core/editor/items.cfg:201
 msgid "Closed Coffin"
-msgstr ""
+msgstr "затворен мртвачки ковчег"
 
 #. [item]: id=dragonstatue
 #. +> stable
 #: data/core/editor/items.cfg:207
 msgid "Dragon Statue"
-msgstr ""
+msgstr "кип змаја"
 
 #. [item]: id=flame-sword
 #. +> stable
 #: data/core/editor/items.cfg:213
 msgid "Flaming Sword"
-msgstr ""
+msgstr "пламени мач"
 
 #. [item]: id=flower1
 #. [item]: id=flower2
@@ -1021,50 +1006,44 @@ msgstr ""
 #. +> stable
 #: data/core/editor/items.cfg:219 data/core/editor/items.cfg:225
 #: data/core/editor/items.cfg:231 data/core/editor/items.cfg:237
-#, fuzzy
-#| msgid "slowed"
 msgid "Flower"
-msgstr "успорен"
+msgstr "цвет"
 
 #. [item]: id=gohere
 #. +> stable
 #: data/core/editor/items.cfg:243
 msgid "Go Here Overlay"
-msgstr ""
+msgstr "упутни преклоп"
 
 #. [item]: id=gold-coins-large
 #. +> stable
 #: data/core/editor/items.cfg:249
 msgid "Large Pile of Gold Coins"
-msgstr ""
+msgstr "велика гомила златника"
 
 #. [item]: id=gold-coins-medium
 #. +> stable
 #: data/core/editor/items.cfg:255
 msgid "Pile of Gold Coins"
-msgstr ""
+msgstr "гомила златника"
 
 #. [item]: id=gold-coins-small
 #. +> stable
 #: data/core/editor/items.cfg:261
 msgid "Small Pile of Gold Coins"
-msgstr ""
+msgstr "мала гомила златника"
 
-# well-spelled: одб
 #. [item]: id=grain-sheaf
 #. +> stable
 #: data/core/editor/items.cfg:267
-#, fuzzy
-#| msgctxt "statuspanel"
-#| msgid "terrain def."
 msgid "Grain Sheaf"
-msgstr "теренска одб."
+msgstr "житни сноп"
 
 #. [item]: id=hammer-runic
 #. +> stable
 #: data/core/editor/items.cfg:273
 msgid "Runic Hammer"
-msgstr ""
+msgstr "рунски чекић"
 
 #. [item]: id=holly-water
 #. [object]
@@ -1077,46 +1056,44 @@ msgstr "света водица"
 #. +> stable
 #: data/core/editor/items.cfg:285
 msgid "Key"
-msgstr ""
+msgstr "кључ"
 
 #. [item]: id=leather-pack
 #. +> stable
 #: data/core/editor/items.cfg:291
 msgid "Leather Pack"
-msgstr ""
+msgstr "кожна торба"
 
 #. [item]: id=orcish-flag
 #. +> stable
 #: data/core/editor/items.cfg:297
 msgid "Orcish Flag"
-msgstr ""
+msgstr "орковска застава"
 
 #. [item]: id=ornate1
 #. [item]: id=ornate2
 #. +> stable
 #: data/core/editor/items.cfg:303 data/core/editor/items.cfg:309
 msgid "Ornate"
-msgstr ""
+msgstr "украс"
 
 #. [item]: id=potion-blue
 #. +> stable
 #: data/core/editor/items.cfg:315
 msgid "Blue Potion"
-msgstr ""
+msgstr "плави напитак"
 
 #. [item]: id=potion-green
 #. +> stable
 #: data/core/editor/items.cfg:321
-#, fuzzy
-#| msgid "Greek Translation"
 msgid "Green Potion"
-msgstr "Грчки превод"
+msgstr "зелени напитак"
 
 #. [item]: id=potion-gray
 #. +> stable
 #: data/core/editor/items.cfg:327
 msgid "Gray Potion"
-msgstr ""
+msgstr "сиви напитак"
 
 #. [item]: id=potion-poison
 #. [object]: id={ID}
@@ -1129,59 +1106,53 @@ msgstr "отров"
 #. +> stable
 #: data/core/editor/items.cfg:339
 msgid "Red Potion"
-msgstr ""
+msgstr "црвени напитак"
 
 #. [item]: id=potion-yellow
 #. +> stable
 #: data/core/editor/items.cfg:345
 msgid "Yellow Potion"
-msgstr ""
+msgstr "жути напитак"
 
 #. [item]: id=ring-brown
 #. +> stable
 #: data/core/editor/items.cfg:351
-#, fuzzy
-#| msgid "Brown"
 msgid "Brown Ring"
-msgstr "смеђа"
+msgstr "смеђи прстен"
 
 #. [item]: id=ring-gold
 #. +> stable
 #: data/core/editor/items.cfg:357
 msgid "Golden Ring"
-msgstr ""
+msgstr "златни прстен"
 
 #. [item]: id=ring-red
 #. +> stable
 #: data/core/editor/items.cfg:363
 msgid "Red Ring"
-msgstr ""
+msgstr "црвени прстен"
 
 #. [item]: id=ring-silver
 #. +> stable
 #: data/core/editor/items.cfg:369
 msgid "Silver Ring"
-msgstr ""
+msgstr "сребрни прстен"
 
 #. [item]: id=ring-white
 #. +> stable
 #: data/core/editor/items.cfg:375
-#, fuzzy
-#| msgid "White"
 msgid "White Ring"
-msgstr "б›ијела"
+msgstr "б›ијели прстен"
 
 #. [item]: id=scarecrow
 #. +> stable
 #: data/core/editor/items.cfg:381
 msgid "Scarecrow"
-msgstr ""
+msgstr "страшило"
 
 #. [item]: id=sceptre-of-fire
 #. +> stable
 #: data/core/editor/items.cfg:387
-#, fuzzy
-#| msgid "sceptre of fire"
 msgid "Sceptre of Fire"
 msgstr "ватрено жезло"
 
@@ -1189,25 +1160,25 @@ msgstr "ватрено жезло"
 #. +> stable
 #: data/core/editor/items.cfg:393
 msgid "Fancy Spear"
-msgstr ""
+msgstr "украшено копље"
 
 #. [item]: id=staff-magic
 #. +> stable
 #: data/core/editor/items.cfg:399
 msgid "Magic Staff"
-msgstr ""
+msgstr "магични штап"
 
 #. [item]: id=staff
 #. +> stable
 #: data/core/editor/items.cfg:405
 msgid "Staff"
-msgstr ""
+msgstr "штап"
 
 #. [item]: id=stone-tablet
 #. +> stable
 #: data/core/editor/items.cfg:411
 msgid "Stone Tablet"
-msgstr ""
+msgstr "камена таблица"
 
 #. [item]: id=storm-trident
 #. [object]
@@ -1221,104 +1192,97 @@ msgstr "олујни трозубац"
 #. +> stable
 #: data/core/editor/items.cfg:423 data/core/editor/items.cfg:429
 msgid "Bale of Straw"
-msgstr ""
+msgstr "бала сламе"
 
 #. [item]: id=sword
 #. +> stable
 #: data/core/editor/items.cfg:435
 msgid "Sword"
-msgstr ""
+msgstr "мач"
 
 #. [item_group]: id=scenery
 #. +> stable
 #: data/core/editor/items.cfg:441
-#, fuzzy
-#| msgctxt "addon_type"
-#| msgid "Scenario"
 msgid "Scenery"
-msgstr "сценарио"
+msgstr "Предели"
 
 #. [item]: id=castle-ruins
 #. +> stable
 #: data/core/editor/items.cfg:447
 msgid "Castle Ruins"
-msgstr ""
+msgstr "рушевине замка"
 
 #. [item]: id=circle-magic-glow
 #. +> stable
 #: data/core/editor/items.cfg:453
 msgid "Glowing Magic Circle"
-msgstr ""
+msgstr "светлећи магични круг"
 
 #. [item]: id=circle-magic
 #. +> stable
 #: data/core/editor/items.cfg:459
 msgid "Magic Circle"
-msgstr ""
+msgstr "магични круг"
 
 #. [item]: id=dwarven-doors-closed
 #. +> stable
 #: data/core/editor/items.cfg:465
 msgid "Closed Dwarven Doors"
-msgstr ""
+msgstr "затворена патуљачка врата"
 
 #. [item]: id=fire
 #. +> stable
 #: data/core/editor/items.cfg:472
-#, fuzzy
-#| msgid "fire"
 msgid "Campfire"
-msgstr "ватра"
+msgstr "логорска ватра"
 
 #. [item]: id=flames
 #. +> stable
 #: data/core/editor/items.cfg:479
 msgid "Flames"
-msgstr ""
+msgstr "пламенови"
 
 #. [item]: id=gate-rusty-se
 #. +> stable
 #: data/core/editor/items.cfg:485
 msgid "Rusty Gate South East"
-msgstr ""
+msgstr "зарђала капија југоисточно"
 
 #. [item]: id=gate-rusty-sw
 #. +> stable
 #: data/core/editor/items.cfg:491
 msgid "Rusty Gate South West"
-msgstr ""
+msgstr "зарђала капија југозападна"
 
 #. [item]: id=icepack1
 #. +> stable
 #: data/core/editor/items.cfg:497
 msgid "Ice Pack"
-msgstr ""
+msgstr "ледени брег"
 
 #. [item]: id=leanto
 #. +> stable
 #: data/core/editor/items.cfg:503
 msgid "Lean-to"
-msgstr ""
+msgstr "заклон"
 
 #. [item]: id=lighthouse
 #. +> stable
 #: data/core/editor/items.cfg:508
-#, fuzzy
-#| msgid "Light Red"
 msgid "Lighthouse"
-msgstr "св›ијетлоцрвена"
+msgstr "светионик"
 
 #. [item]: id=mausoleum
 #. +> stable
 #: data/core/editor/items.cfg:516
 msgid "Mausoleum"
-msgstr ""
+msgstr "маузолеј"
 
 #. [item]: id=mine-abandoned
 #. +> stable
 #: data/core/editor/items.cfg:522
 msgid "Abandoned Mine"
-msgstr ""
+msgstr "напуштени рудник"
 
 #. [item]: id=monolith1
 #. [item]: id=monolith2
@@ -1328,42 +1292,38 @@ msgstr ""
 #: data/core/editor/items.cfg:528 data/core/editor/items.cfg:534
 #: data/core/editor/items.cfg:540 data/core/editor/items.cfg:546
 msgid "Monolith"
-msgstr ""
+msgstr "монолит"
 
 #. [item]: id=nest-empty
 #. +> stable
 #: data/core/editor/items.cfg:552
-#, fuzzy
-#| msgid "(Empty slot)"
 msgid "Empty Nest"
-msgstr "(празно)"
+msgstr "празно гнездо"
 
 #. [item]: id=nest-full
 #. +> stable
 #: data/core/editor/items.cfg:558
 msgid "Full Nest"
-msgstr ""
+msgstr "пуно гнездо"
 
 #. [item]: id=oak-leaning
 #. +> stable
 #: data/core/editor/items.cfg:564
-#, fuzzy
-#| msgid "Warning: "
 msgid "Leaning Oak"
-msgstr "Упозорење: "
+msgstr "нагнути храст"
 
 #. [item]: id=pine1
 #. [item]: id=pine2
 #. +> stable
 #: data/core/editor/items.cfg:570 data/core/editor/items.cfg:576
 msgid "Pine Tree"
-msgstr ""
+msgstr "борово стабло"
 
 #. [item]: id=rock-cairn
 #. +> stable
 #: data/core/editor/items.cfg:582
 msgid "Rock Cairn"
-msgstr ""
+msgstr "камена купа"
 
 #. [item]: id=rock1
 #. [item]: id=rock2
@@ -1373,13 +1333,13 @@ msgstr ""
 #: data/core/editor/items.cfg:588 data/core/editor/items.cfg:594
 #: data/core/editor/items.cfg:600 data/core/editor/items.cfg:606
 msgid "Rock"
-msgstr ""
+msgstr "камен"
 
 #. [item]: id=rubble
 #. +> stable
 #: data/core/editor/items.cfg:612
 msgid "Rubble"
-msgstr ""
+msgstr "шљунак"
 
 #. [item]: id=rune1
 #. [item]: id=rune2
@@ -1392,7 +1352,7 @@ msgstr ""
 #: data/core/editor/items.cfg:630 data/core/editor/items.cfg:636
 #: data/core/editor/items.cfg:642 data/core/editor/items.cfg:648
 msgid "Rune"
-msgstr ""
+msgstr "руна"
 
 #. [item]: id=rune1-glow
 #. [item]: id=rune2-glow
@@ -1405,38 +1365,38 @@ msgstr ""
 #: data/core/editor/items.cfg:666 data/core/editor/items.cfg:672
 #: data/core/editor/items.cfg:678 data/core/editor/items.cfg:684
 msgid "Glowing Rune"
-msgstr ""
+msgstr "светлећа руна"
 
 #. [item]: id=shipwreck
 #. [item]: id=wreck
 #. +> stable
 #: data/core/editor/items.cfg:690 data/core/editor/items.cfg:841
 msgid "Shipwreck"
-msgstr ""
+msgstr "олупина"
 
 #. [item]: id=signpost
 #. +> stable
 #: data/core/editor/items.cfg:695
 msgid "Signpost"
-msgstr ""
+msgstr "путоказ"
 
 #. [item]: id=slab1
 #. +> stable
 #: data/core/editor/items.cfg:701
 msgid "Slab"
-msgstr ""
+msgstr "плоча"
 
 #. [item]: id=snowbits
 #. +> stable
 #: data/core/editor/items.cfg:707
 msgid "Piles of Snow"
-msgstr ""
+msgstr "гомилице снега"
 
 #. [item]: id=summoning-center
 #. +> stable
 #: data/core/editor/items.cfg:714
 msgid "Summoning Center"
-msgstr ""
+msgstr "призивни центар"
 
 #. [item]: id=summoning-circle1
 #. [item]: id=summoning-circle2
@@ -1449,49 +1409,49 @@ msgstr ""
 #: data/core/editor/items.cfg:732 data/core/editor/items.cfg:738
 #: data/core/editor/items.cfg:744 data/core/editor/items.cfg:750
 msgid "Summoning Circle"
-msgstr ""
+msgstr "призивни круг"
 
 #. [item]: id=temple1
 #. +> stable
 #: data/core/editor/items.cfg:756
 msgid "Temple"
-msgstr ""
+msgstr "храм"
 
 #. [item]: id=tent-fancy-red
 #. +> stable
 #: data/core/editor/items.cfg:762
 msgid "Fancy Red Tent"
-msgstr ""
+msgstr "украшен црвени шатор"
 
 #. [item]: id=tent-ruin-1
 #. +> stable
 #: data/core/editor/items.cfg:768
 msgid "Ruined Tent"
-msgstr ""
+msgstr "урушени шатор"
 
 #. [item]: id=tent-shop-weapons
 #. +> stable
 #: data/core/editor/items.cfg:773
 msgid "Weapons Shop Tent"
-msgstr ""
+msgstr "оружарски шатор"
 
 #. [item]: id=trapdoor-closed
 #. +> stable
 #: data/core/editor/items.cfg:780
 msgid "Closed Trapdoor"
-msgstr ""
+msgstr "затворена подна врата"
 
 #. [item]: id=trapdoor-open
 #. +> stable
 #: data/core/editor/items.cfg:786
 msgid "Open Trapdoor"
-msgstr ""
+msgstr "отворена подна врата"
 
 #. [item]: id=trash
 #. +> stable
 #: data/core/editor/items.cfg:792
 msgid "Trash Pile"
-msgstr ""
+msgstr "хрпа смећа"
 
 #. [item]: id=village-human-burned1
 #. [item]: id=village-human-burned2
@@ -1500,34 +1460,32 @@ msgstr ""
 #. +> stable
 #: data/core/editor/items.cfg:798 data/core/editor/items.cfg:804
 #: data/core/editor/items.cfg:810 data/core/editor/items.cfg:816
-#, fuzzy
-#| msgid "Owned village"
 msgid "Burned Human Village"
-msgstr "запос›једнуто село"
+msgstr "спаљено људско село"
 
 #. [item]: id=well
 #. +> stable
 #: data/core/editor/items.cfg:821
 msgid "Well"
-msgstr ""
+msgstr "бунар"
 
 #. [item]: id=whirlpool
 #. +> stable
 #: data/core/editor/items.cfg:827
 msgid "Whirlpool"
-msgstr ""
+msgstr "вир"
 
 #. [item]: id=windmill
 #. +> stable
 #: data/core/editor/items.cfg:835
 msgid "Windmill"
-msgstr ""
+msgstr "ветрењача"
 
 #. [set_menu_item]: id=ai_controller_unit_control_{UNIT_ID}
 #. +> stable
 #: data/core/macros/ai_controller.cfg:22
 msgid "Ask $ai_controller_unit.name to move here"
-msgstr ""
+msgstr "Тражи да се $ai_controller_unit.name пом›јери овд›је"
 
 #. [set_menu_item]: id=ai_controller_leader_control_{CONTROLLED_SIDE}
 #. +> stable
@@ -1606,8 +1564,6 @@ msgstr "гледа да порази $ai_controller.side_$ally_side|_current_set
 #: data/core/macros/ai_controller.cfg:248
 #: data/core/macros/ai_controller.cfg:379
 #: data/core/macros/ai_controller.cfg:383
-#, fuzzy
-#| msgid "side $temp_i"
 msgid "Side $temp_i"
 msgstr "страна $temp_i"
 
@@ -1622,10 +1578,8 @@ msgstr "страна $temp_i"
 #. +> stable
 #: data/core/macros/ai_controller.cfg:262
 #: data/core/macros/ai_controller.cfg:397
-#, fuzzy
-#| msgid "$side_i_leader.name (side $temp_i|)"
 msgid "side $temp_i ($side_i_leader.name|)"
-msgstr "$side_i_leader.name (страна $temp_i|)"
+msgstr "страна $temp_i ($side_i_leader.name|)"
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [value]
@@ -2184,7 +2138,7 @@ msgstr "Рачунарски играч можда неће ум›јети ва
 #. +> stable
 #: data/core/macros/utils.cfg:805
 msgid "You retrieve $amount_gold pieces of gold."
-msgstr ""
+msgstr "Скупили сте $amount_gold златника."
 
 #. [color_range]: id=1
 #. [color_range]: id=red
@@ -2215,10 +2169,8 @@ msgstr "плава"
 #. [color_range]: id=lightblue
 #. +> stable
 #: data/core/team-colors.cfg:38
-#, fuzzy
-#| msgid "Light Red"
 msgid "Light blue"
-msgstr "св›ијетлоцрвена"
+msgstr "св›ијетлоплава"
 
 #. [color_range]: id=3
 #. [color_range]: id=green
@@ -2231,7 +2183,7 @@ msgstr "зелена"
 #. +> stable
 #: data/core/team-colors.cfg:50
 msgid "Bright green"
-msgstr ""
+msgstr "св›ијетлозелена"
 
 #. [color_range]: id=4
 #. [color_range]: id=purple
@@ -2261,11 +2213,12 @@ msgstr "смеђа"
 msgid "Orange"
 msgstr "наранџаста"
 
+# well-spelled: светлонаранџаста
 #. [color_range]: id=brightorange
 #. +> stable
 #: data/core/team-colors.cfg:80
 msgid "Bright orange"
-msgstr ""
+msgstr "св›ијетлонаранџаста"
 
 #. [color_range]: id=8
 #. [color_range]: id=white
@@ -2293,75 +2246,73 @@ msgstr "злато"
 #. +> stable
 #: data/core/team-colors.cfg:107
 msgid "Reef"
-msgstr ""
+msgstr "корал"
 
 #. [color_range]: id=shallow_water
 #. +> stable
 #: data/core/team-colors.cfg:113
 msgid "Shallow water"
-msgstr ""
+msgstr "плитка вода"
 
 #. [color_range]: id=deep_water
 #. +> stable
 #: data/core/team-colors.cfg:119
 msgid "Deep water"
-msgstr ""
+msgstr "дубока вода"
 
 #. [color_range]: id=swamp_water
 #. +> stable
 #: data/core/team-colors.cfg:125
 msgid "Swamp water"
-msgstr ""
+msgstr "мочварна вода"
 
 #. [color_range]: id=flat
 #. +> stable
 #: data/core/team-colors.cfg:131
 msgid "Flat"
-msgstr ""
+msgstr "равница"
 
 #. [color_range]: id=hills
 #. +> stable
 #: data/core/team-colors.cfg:137
-#, fuzzy
-#| msgid "Kills"
 msgid "Hills"
-msgstr "поб›једе"
+msgstr "брда"
 
 #. [color_range]: id=mountains
 #. +> stable
 #: data/core/team-colors.cfg:143
 msgid "Mountains"
-msgstr ""
+msgstr "планине"
 
 #. [color_range]: id=forest
 #. +> stable
 #: data/core/team-colors.cfg:149
 msgid "Forest"
-msgstr ""
+msgstr "шума"
 
 #. [color_range]: id=sand
 #. +> stable
 #: data/core/team-colors.cfg:155
 msgid "Sand"
-msgstr ""
+msgstr "песак"
 
 #. [color_range]: id=frozen
 #. +> stable
 #: data/core/team-colors.cfg:161
 msgid "Frozen"
-msgstr ""
+msgstr "лед"
 
 #. [color_range]: id=cave
 #. +> stable
 #: data/core/team-colors.cfg:167
 msgid "Cave"
-msgstr ""
+msgstr "пећина"
 
 #. [color_range]: id=fungus
 #. +> stable
 #: data/core/team-colors.cfg:173
 msgid "Fungus"
-msgstr ""
+msgstr "гљиве"
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=village
@@ -2374,33 +2325,31 @@ msgstr "село"
 #. +> stable
 #: data/core/team-colors.cfg:185
 msgid "Castle"
-msgstr ""
+msgstr "замак"
 
 #. [color_range]: id=keep
 #. +> stable
 #: data/core/team-colors.cfg:191
 msgid "Keep"
-msgstr ""
+msgstr "кула"
 
 #. [color_range]: id=rails
 #. +> stable
 #: data/core/team-colors.cfg:197
 msgid "Rail"
-msgstr ""
+msgstr "шина"
 
 #. [color_range]: id=unwalkable
 #. +> stable
 #: data/core/team-colors.cfg:203
-#, fuzzy
-#| msgid "unhealable"
 msgid "Unwalkable"
-msgstr "неисц›јељив"
+msgstr "расц›јеп"
 
 #. [color_range]: id=impassable
 #. +> stable
 #: data/core/team-colors.cfg:209
 msgid "Impassable"
-msgstr ""
+msgstr "непролаз"
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=fog
@@ -2798,13 +2747,13 @@ msgstr "електрични"
 #: data/themes/default.cfg:34
 msgctxt "theme"
 msgid "Default"
-msgstr ""
+msgstr "Подразумевана"
 
 #. [theme]: id=Default
 #. +> stable
 #: data/themes/default.cfg:35
 msgid "Default theme."
-msgstr ""
+msgstr "Подразумевана тема."
 
 #. [menu]: id=menu-main
 #. +> stable
@@ -2815,10 +2764,8 @@ msgstr "Мени"
 #. [menu]: id=menu-autosaves
 #. +> stable
 #: data/themes/default.cfg:92
-#, fuzzy
-#| msgid "Back to turn "
 msgid "Back to..."
-msgstr "Назад на потез "
+msgstr "Назад на..."
 
 #. [menu]: id=actions-menu
 #. +> stable
@@ -2862,11 +2809,13 @@ msgstr "ИП"
 msgid "MP"
 msgstr "ПП"
 
+# скраћено од ‘defense’?
+# well-spelled: одб
 #. [label]: id=label-def
 #. +> stable
 #: data/themes/default.cfg:159
 msgid "def"
-msgstr ""
+msgstr "одб"
 
 #. [label]: id=gold-icon
 #. +> stable
@@ -2901,12 +2850,9 @@ msgstr "приходи"
 #. [unit_level]: id=unit-level
 #. +> stable
 #: data/themes/default.cfg:394
-#, fuzzy
-#| msgctxt "statuspanel"
-#| msgid "level"
 msgctxt "statuspanel"
 msgid "lvl"
-msgstr "ниво"
+msgstr "нв"
 
 #. [action]: id=button-playreplay, type=image
 #. +> stable
@@ -2983,24 +2929,20 @@ msgstr "Прескочи анимацију"
 #. [theme]: id=Pandora
 #. +> stable
 #: data/themes/pandora.cfg:22
-#, fuzzy
-#| msgid "Random"
 msgctxt "theme"
 msgid "Pandora"
-msgstr "насумично"
+msgstr "Пандора"
 
 #. [theme]: id=Pandora
 #. +> stable
 #: data/themes/pandora.cfg:23
 msgid "800x480 theme optimized for Pandora devices."
-msgstr ""
+msgstr "800×400 тема прилагођена уређајима пандора."
 
-# намерно кратко, на уском дугмету
+# као и порука „End Turn“
 #. [action]: id=end-turn
 #. +> stable
 #: data/themes/pandora.cfg:153
-#, fuzzy
-#| msgid "End Turn"
 msgid ""
 "End\n"
 "Turn"
@@ -3010,15 +2952,13 @@ msgstr "Готово"
 #. +> stable
 #: data/tips.cfg:4
 msgid "Use the map editor's <i>Areas</i> menu to define regions later addressed by event or ai coding."
-msgstr ""
+msgstr "Користите мени <i>~%/Areas/</i> у уређивачу мапа да дефинишете зоне које ће адресирати догађаји или ВИ."
 
 #. [tip]
 #. +> stable
 #: data/tips.cfg:5 data/tips.cfg:9 data/tips.cfg:13
-#, fuzzy
-#| msgid "<i>― The Wesnoth Tactical Guide</i>"
 msgid "<i>― The Wesnoth Design Guide</i>"
-msgstr "<i>— Тактички водич Веснота</i>"
+msgstr "<i>— Пројектни водич Веснота</i>"
 
 #. [tip]
 #. +> stable

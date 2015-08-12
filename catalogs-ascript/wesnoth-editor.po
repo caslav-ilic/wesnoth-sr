@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-editor\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:34+0100\n"
-"PO-Revision-Date: 2014-03-09 08:48+0100\n"
+"PO-Revision-Date: 2015-08-12 20:33+0200\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -144,10 +144,14 @@ msgstr ""
 "Желите ли заиста да напустите? С‹љедеће мапе су изм›ијењене и све изм›јене од пос‹љедњег уписа биће изгубљене:|~"
 
 # наслов|~
+# >> @title:window|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
 msgid "Quit"
-msgstr "Напуштање|~"
+msgstr ""
+"Напуштање|~\n"
+"|~e0"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
@@ -167,10 +171,15 @@ msgstr ""
 "Желите ли да одбаците све измене над мапом од последњег уписа?|~\n"
 "Желите ли да одбаците све изм›јене над мапом од пос‹љедњег уписа?|~"
 
+# |~x
+# >> @title:window|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
 msgid "Save the Map As"
-msgstr "Сачувај мапу као|~"
+msgstr ""
+"Сачувај мапу као|~\n"
+"Уписивање мапе под именом|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 12:08:06+0100
@@ -297,26 +306,34 @@ msgstr ""
 
 # наслов|~
 # |~e0
+# >> @title:window|~
 #. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
 #| msgid ""
 #| "Choose a mask to apply|~\n"
+#| "|~x\n"
 #| "|~x"
 msgid "Choose a Mask to Apply"
 msgstr ""
 "Избор маске за прим›јењивање|~\n"
+"|~e0\n"
 "|~e0"
 
 # наслов|~
 # |~e0
+# >> @title:window|~
 #. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
 #| msgid ""
 #| "Choose target map|~\n"
+#| "|~x\n"
 #| "|~x"
 msgid "Choose Target Map"
 msgstr ""
 "Избор циљне мапе|~\n"
+"|~e0\n"
 "|~e0"
 
 #. modified: ilic | 2011-11-30 16:10:21+0100 | 1
@@ -346,73 +363,270 @@ msgid "Player $player_number"
 msgstr "Играч $player_number|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Hex Line NW-SE|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "Hex Line NW-SE|~\n"
+#| "|~x"
 msgid "Hex Line SE-NW"
-msgstr "линија поља СЗ-ЈИ|~"
+msgstr ""
+"линија поља СЗ-ЈИ|~\n"
+"линија поља ЈИ-СЗ|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "player|~"
-#| msgid "None|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgctxt ""
+#| "player|~\n"
+#| "|~x"
+#| msgid ""
+#| "None|~\n"
+#| "|~x"
 msgid "None"
-msgstr "ниједан|~"
+msgstr ""
+"ниједан|~\n"
+"ништа|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Edit|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "Edit|~\n"
+#| "|~x"
 msgctxt "theme"
 msgid "Editor"
-msgstr "Уређивање|~"
+msgstr ""
+"Уређивање|~\n"
+"Уређивач|~"
 
 # наслов|~
+# >> @title:window|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Choose a Map to Open|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "Choose a Map to Open|~\n"
+#| "|~x"
 msgid "Choose a File to Open"
-msgstr "Избор мапе за отварање|~"
+msgstr ""
+"Избор мапе за отварање|~\n"
+"Избор фајла за отварање|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "(New Map)|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "(New Map)|~\n"
+#| "|~x"
 msgid "(New Scenario)"
-msgstr "(нова мапа)|~"
+msgstr ""
+"(нова мапа)|~\n"
+"(нови сценарио)|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "(New Map)|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "(New Map)|~\n"
+#| "|~x"
 msgid "(New Side)"
-msgstr "(нова мапа)|~"
+msgstr ""
+"(нова мапа)|~\n"
+"(нова страна)|~"
 
+# |~x
+# >> @title:window|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Save the Map As|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "Save the Map As|~\n"
+#| "|~x"
 msgid "Save the Scenario As"
-msgstr "Сачувај мапу као|~"
+msgstr ""
+"Сачувај мапу као|~\n"
+"Уписивање сценарија под именом|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "This map is already open.|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "This map is already open.|~\n"
+#| "|~x"
 msgid "This scenario is already open."
-msgstr "Ова мапа је већ отворена.|~"
+msgstr ""
+"Ова мапа је већ отворена.|~\n"
+"Овај сценарио је већ отворен.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Map saved.|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "Map saved.|~\n"
+#| "|~x"
 msgid "Scenario saved."
-msgstr "Мапа је сачувана.|~"
+msgstr ""
+"Мапа је сачувана.|~\n"
+"Сценарио је сачуван.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Empty map file|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "Empty map file|~\n"
+#| "|~x"
 msgid "Empty file"
-msgstr "Празна датотека мапе.|~"
+msgstr ""
+"Празна датотека мапе.|~\n"
+"Празна датотека.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Could not save the map: $msg|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "Could not save the map: $msg|~\n"
+#| "|~x"
 msgid "Could not save the scenario: $msg"
-msgstr "Не могу да сачувам мапу: $msg|~"
+msgstr ""
+"Не могу да сачувам мапу: $msg|~\n"
+"Не могу да сачувам сценарио: $msg|~"
+
+# наслов|~
+# >> @title:window|~
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1f
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "Choose player|~\n"
+#| "|~x"
+msgid "Choose File"
+msgstr ""
+"Избор играча|~\n"
+"Избор фајла|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "fall"
+msgstr "јесен|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Test"
+msgstr "проба|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Default"
+msgstr "подразумевано|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Summer"
+msgstr "лето|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Winter"
+msgstr "зима|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Underground"
+msgstr "подземље|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Deep Underground"
+msgstr "дубоко подземље|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Indoors"
+msgstr "унутра|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "24 Hour Schedule"
+msgstr "24-часовни распоред|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "After the Fall"
+msgstr "после пада|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Transition Update"
+msgstr "Ажурирање прелаза|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Areas"
+msgstr "Области|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Assign Local Time"
+msgstr "Додели локално време|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Assign Local Time Schedule"
+msgstr "Додели локални временски распоред|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Side"
+msgstr "Страна|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "units"
+msgstr "јединице|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Time Schedule Menu"
+msgstr "Мени временског распореда|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Playlist"
+msgstr "Листа пуштања|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Assign Time Schedule"
+msgstr "Додели временски распоред|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Identifier: "
+msgstr "Идентификатор: |~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Name: "
+msgstr "Име: |~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Type: "
+msgstr "Тип: |~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Level: "
+msgstr "Ниво: |~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Cost: "
+msgstr "Цена: |~"
+
+# ?|~
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Recruit: "
+msgstr "Унајмљује: |~"
+
+# >> @title:window|~
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Change Unit ID"
+msgstr "Измена ИД-а јединице|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "ID:"
+msgstr "ИД:|~"
+
+# >> @title:window|~
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Rename Unit"
+msgstr "Преименовање јединице|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Name:"
+msgstr "Име:|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "(Unnamed Area)"
+msgstr "(неименована област)|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Identifier:"
+msgstr "Идентификатор:|~"
+
+# >> @title:window|~
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "Rename Area"
+msgstr "Преименовање области|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "(Unknown Group)"
+msgstr "(непозната група)|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-22 12:08:06+0100 | 1

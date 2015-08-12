@@ -1,15 +1,15 @@
 # Translation of wesnoth-manpages.po into Serbian.
 # Copyright (C) 2006 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
-# Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>, 2010.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015.
+# Dalibor Djuric <daliborddjuric@gmail.com>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-manpages\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2014-11-16 11:49+0100\n"
-"PO-Revision-Date: 2013-03-10 10:08+0100\n"
+"PO-Revision-Date: 2015-08-12 20:33+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -129,10 +129,9 @@ msgstr "скаче директно на поход са ИД-ом E<lt>ид-п�
 #. type: TP
 #. +> stable
 #: ../../doc/man/wesnoth.6:54
-#, fuzzy, no-wrap
-#| msgid "B<--campaign-difficulty E<lt>difficultyE<gt>>"
+#, no-wrap
 msgid "B<--campaign-difficulty [E<lt>difficultyE<gt>]>"
-msgstr "B<--campaign-difficulty E<lt>тежинаE<gt>>"
+msgstr "B<--campaign-difficulty [E<lt>тежинаE<gt>]>"
 
 # rewrite-msgid: /widget/dialog/
 #. type: Plain text
@@ -170,18 +169,15 @@ msgstr "потискује директоријум података овде з
 #. type: TP
 #. +> stable
 #: ../../doc/man/wesnoth.6:63
-#, fuzzy, no-wrap
-#| msgid "B<--path>"
+#, no-wrap
 msgid "B<--data-path>"
-msgstr "B<--path>"
+msgstr "B<--data-path>>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:66
-#, fuzzy
-#| msgid "prints the name of the game data directory and exits."
 msgid "path the path of the data directory and exits."
-msgstr "исписује име директоријума са подацима игре и излази."
+msgstr "исписује путању директоријума са подацима и излази."
 
 #. type: TP
 #. +> stable
@@ -407,31 +403,28 @@ msgstr "исписује име директоријума са подацима
 #. type: TP
 #. +> stable
 #: ../../doc/man/wesnoth.6:152
-#, fuzzy, no-wrap
-#| msgid "B<--preprocess, -p[=E<lt>define1E<gt>,E<lt>define2E<gt>,...] E<lt>file/folderE<gt> E<lt>target directoryE<gt>>"
+#, no-wrap
 msgid "B<-p, --preprocess E<lt>source file/folderE<gt> E<lt>target directoryE<gt>>"
-msgstr "B<--preprocess, -p[=E<lt>дефиниција-1E<gt>,E<lt>дефиниција-2E<gt>,...] E<lt>датотека/директоријумE<gt> E<lt>циљни директоријумE<gt>>"
+msgstr "B<-p, --preprocess E<lt>изворна датотека/директоријумE<gt> E<lt>циљни директоријумE<gt>>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:162
-#, fuzzy
-#| msgid "preprocesses a specified file/folder. The file(s) will be written in specified target directory: a plain cfg file and a processed cfg file. If a folder is specified, it will be preprocessed recursively based on the known preprocessor rules. The common macroses from the data/core/macros will be preprocessed before the specified resources.  B<define1,define2,...> - the extra defines will be added before processing the files. If you want to add them you must add the '=' character before.  If 'SKIP_CORE' is in the define list the data/core won't be preprocessed.  Example: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> or B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>"
 msgid "preprocesses a specified file/folder. For each file(s) a plain .cfg file and a processed .cfg file will be written in specified target directory. If a folder is specified, it will be preprocessed recursively based on the known preprocessor rules. The common macroses from the \"data/core/macros\" directory will be preprocessed before the specified resources.  Example: B<-p ~/wesnoth/data/campaigns/tutorial ~/result.> For details regarding the preprocessor visit: http://wiki.wesnoth.org/PreprocessorRef#Command-line_preprocessor"
-msgstr "предобрађује задату датотеку или директоријум. У задати циљни директоријум биће уписане датотеке обичне поставе и обрађене основе. Ако се зада директоријум, биће предобрађен рекурзивно на основу познатих правила предобрађивача. Заједнички макрои из data/core/macros/ биће предобрађени пре задатих ресурса. B<дефиниција-1,дефиниција-2,...> су додатне дефиниције које се додају пре обрађивања датотека. Ако желите да их додате морате пре њих унети знак ‘=’. Ако се у списку дефиниција налази ‘SKIP_CORE’, data/core/ неће бити предобрађен. Пример: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> или B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>."
+msgstr "предобрађује задату датотеку или директоријум. За сваку датотеку, у задати циљни директоријум биће уписана обична .cfg датотека и обрађена .cfg датотека. Ако се зада директоријум, биће обрађен рекурзивно на основу познатих правила предобраде. Заједнички макрои из директоријума data/core/macros биће предобрађени пре задатих ресурса. Пример: B<-p ~/wesnoth/data/campaigns/tutorial ~/result.> Детаље о предобрађивачу потражите на http://wiki.wesnoth.org/PreprocessorRef#Command-line_preprocessor"
 
 #. type: TP
 #. +> stable
 #: ../../doc/man/wesnoth.6:163
 #, no-wrap
 msgid "B<--preprocess-defines=DEFINE1,DEFINE2,etc>"
-msgstr ""
+msgstr "B<--preprocess-defines=ДЕФИНИЦИЈА1,ДЕФИНИЦИЈА2,итд>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:168
 msgid "comma separated list of defines to be used by the '--preprocess' command. If B<SKIP_CORE> is in the define list the \"data/core\" directory won't be preprocessed."
-msgstr ""
+msgstr "запетама раздвојен списак дефиниција које ће користити наредба --preprocess. Ако се на списку налази B<SKIP_CORE>, директоријум data/core неће бити предобрађен."
 
 #. type: TP
 #. +> stable
@@ -490,26 +483,26 @@ msgstr "повезује се са домаћином ако је задат, и
 #: ../../doc/man/wesnoth.6:186
 #, no-wrap
 msgid "B<--username>I<E<lt>usernameE<gt>>"
-msgstr ""
+msgstr "B<--username>I<E<lt>корисникE<gt>>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:189
 msgid "uses E<lt>usernameE<gt> when connecting to a server, ignoring other preferences."
-msgstr ""
+msgstr "задаје E<lt>корисникаE<gt> при повезивању на сервер, игноришући друге поставке."
 
 #. type: TP
 #. +> stable
 #: ../../doc/man/wesnoth.6:189
 #, no-wrap
 msgid "B<--password>I<E<lt>passwordE<gt>>"
-msgstr ""
+msgstr "B<--password>I<E<lt>лозинкаE<gt>>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:192
 msgid "uses E<lt>passwordE<gt> when connecting to a server, ignoring other preferences. Unsafe."
-msgstr ""
+msgstr "задаје E<lt>лозинкуE<gt> при повезивању на сервер, игноришући друге поставке. Небезбедно."
 
 #. type: TP
 #. +> stable
@@ -540,26 +533,22 @@ msgstr "покреће игру са малим пробним сценарио�
 #. type: TP
 #. +> stable
 #: ../../doc/man/wesnoth.6:198
-#, fuzzy, no-wrap
-#| msgid "B<--config-dir>I<\\ name>"
+#, no-wrap
 msgid "B<--userconfig-dir>I<\\ name>"
-msgstr "B<--config-dir>I<\\ име>"
+msgstr "B<--userconfig-dir>I<\\ име>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:207
-#, fuzzy
-#| msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\""
 msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\".  Under X11 this defaults to $XDG_CONFIG_HOME or $HOME/.config/wesnoth, on other systems to the userdata path."
-msgstr "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“."
+msgstr "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“. Под ~@/Иксом 11/X-om 11/ ово је подразумевано $XDG_CONFIG_HOME или $HOME/.config/wesnoth, а на другим системима путања корисничких података."
 
 #. type: TP
 #. +> stable
 #: ../../doc/man/wesnoth.6:207
-#, fuzzy, no-wrap
-#| msgid "B<--config-path>"
+#, no-wrap
 msgid "B<--userconfig-path>"
-msgstr "B<--config-path>"
+msgstr "B<--userconfig-path>"
 
 #. type: Plain text
 #. +> stable
@@ -570,34 +559,28 @@ msgstr "исписује путању корисничког поставног 
 #. type: TP
 #. +> stable
 #: ../../doc/man/wesnoth.6:210
-#, fuzzy, no-wrap
-#| msgid "B<--config-dir>I<\\ name>"
+#, no-wrap
 msgid "B<--userdata-dir>I<\\ name>"
-msgstr "B<--config-dir>I<\\ име>"
+msgstr "B<--userdata-dir>I<\\ име>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:217
-#, fuzzy
-#| msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\""
 msgid "sets the userdata directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the userdata directory outside the $HOME or \"My Documents\\eMy Games\"."
-msgstr "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“."
+msgstr "задаје директоријум корисничких података I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању овог директоријума изван $HOME или „My Documents\\eMy Games“."
 
 #. type: TP
 #. +> stable
 #: ../../doc/man/wesnoth.6:217
-#, fuzzy, no-wrap
-#| msgid "B<--path>"
+#, no-wrap
 msgid "B<--userdata-path>"
-msgstr "B<--path>"
+msgstr "B<--userdata-path>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:220
-#, fuzzy
-#| msgid "prints the path of the user configuration directory and exits."
 msgid "prints the path of the userdata directory and exits."
-msgstr "исписује путању корисничког поставног директоријума и излази."
+msgstr "исписује путању директоријума корисничких података и излази."
 
 #. type: TP
 #. +> stable
@@ -734,27 +717,26 @@ msgstr "излази пошто се сценарио оконча, без пр�
 #: ../../doc/man/wesnoth.6:269
 #, no-wrap
 msgid "B<--ignore-map-settings>"
-msgstr ""
+msgstr "B<--ignore-map-settings>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:272
 msgid "do not use map settings, use default values instead."
-msgstr ""
+msgstr "не користи поставке мапе, већ подразумеване вредности."
 
 #. type: TP
 #. +> stable
 #: ../../doc/man/wesnoth.6:272
-#, fuzzy, no-wrap
-#| msgid "B<--era=>I<value>"
+#, no-wrap
 msgid "B<--multiplayer-repeat=>I<value>"
-msgstr "B<--era=>I<вр›иједност>"
+msgstr "B<--multiplayer-repeat=>I<вр›иједност>"
 
 #. type: Plain text
 #. +> stable
 #: ../../doc/man/wesnoth.6:279
 msgid "repeats a multiplayer game I<value> times. Best to use with B<--nogui> for scriptable benchmarking."
-msgstr ""
+msgstr "понавља играчку партију I<вр›иједност> пута. При скриптованом одмеравању најбоље користити уз B<--nogui>."
 
 #. type: TP
 #. +> stable

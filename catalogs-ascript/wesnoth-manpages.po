@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-manpages\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2014-11-16 11:50+0100\n"
+"PO-Revision-Date: 2015-08-12 20:33+0200\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -1334,82 +1334,176 @@ msgid "2013"
 msgstr "2013|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "B<--campaign-difficulty E<lt>difficultyE<gt>>|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "B<--campaign-difficulty E<lt>difficultyE<gt>>|~\n"
+#| "|~x"
 msgid "B<--campaign-difficulty [E<lt>difficultyE<gt>]>"
-msgstr "B<--campaign-difficulty E<lt>тежинаE<gt>>|~"
+msgstr ""
+"B<--campaign-difficulty E<lt>тежинаE<gt>>|~\n"
+"B<--campaign-difficulty [E<lt>тежинаE<gt>]>|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "B<--preprocess, -p[=E<lt>define1E<gt>,E<lt>define2E<gt>,...] E<lt>file/folderE<gt> E<lt>target directoryE<gt>>|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "B<--preprocess, -p[=E<lt>define1E<gt>,E<lt>define2E<gt>,...] E<lt>file/folderE<gt> E<lt>target directoryE<gt>>|~\n"
+#| "|~x"
 msgid "B<-p, --preprocess E<lt>source file/folderE<gt> E<lt>target directoryE<gt>>"
-msgstr "B<--preprocess, -p[=E<lt>дефиниција-1E<gt>,E<lt>дефиниција-2E<gt>,...] E<lt>датотека/директоријумE<gt> E<lt>циљни директоријумE<gt>>|~"
+msgstr ""
+"B<--preprocess, -p[=E<lt>дефиниција-1E<gt>,E<lt>дефиниција-2E<gt>,...] E<lt>датотека/директоријумE<gt> E<lt>циљни директоријумE<gt>>|~\n"
+"B<-p, --preprocess E<lt>изворна датотека/директоријумE<gt> E<lt>циљни директоријумE<gt>>|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "preprocesses a specified file/folder. The file(s) will be written in specified target directory: a plain cfg file and a processed cfg file. If a folder is specified, it will be preprocessed recursively based on the known preprocessor rules. The common macroses from the data/core/macros will be preprocessed before the specified resources.  B<define1,define2,...> - the extra defines will be added before processing the files. If you want to add them you must add the '=' character before.  If 'SKIP_CORE' is in the define list the data/core won't be preprocessed.  Example: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> or B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "preprocesses a specified file/folder. The file(s) will be written in specified target directory: a plain cfg file and a processed cfg file. If a folder is specified, it will be preprocessed recursively based on the known preprocessor rules. The common macroses from the data/core/macros will be preprocessed before the specified resources.  B<define1,define2,...> - the extra defines will be added before processing the files. If you want to add them you must add the '=' character before.  If 'SKIP_CORE' is in the define list the data/core won't be preprocessed.  Example: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> or B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>|~\n"
+#| "|~x"
 msgid "preprocesses a specified file/folder. For each file(s) a plain .cfg file and a processed .cfg file will be written in specified target directory. If a folder is specified, it will be preprocessed recursively based on the known preprocessor rules. The common macroses from the \"data/core/macros\" directory will be preprocessed before the specified resources.  Example: B<-p ~/wesnoth/data/campaigns/tutorial ~/result.> For details regarding the preprocessor visit: http://wiki.wesnoth.org/PreprocessorRef#Command-line_preprocessor"
-msgstr "предобрађује задату датотеку или директоријум. У задати циљни директоријум биће уписане датотеке обичне поставе и обрађене основе. Ако се зада директоријум, биће предобрађен рекурзивно на основу познатих правила предобрађивача. Заједнички макрои из data/core/macros/ биће предобрађени пре задатих ресурса. B<дефиниција-1,дефиниција-2,...> су додатне дефиниције које се додају пре обрађивања датотека. Ако желите да их додате морате пре њих унети знак ‘=’. Ако се у списку дефиниција налази ‘SKIP_CORE’, data/core/ неће бити предобрађен. Пример: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> или B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>.|~"
+msgstr ""
+"предобрађује задату датотеку или директоријум. У задати циљни директоријум биће уписане датотеке обичне поставе и обрађене основе. Ако се зада директоријум, биће предобрађен рекурзивно на основу познатих правила предобрађивача. Заједнички макрои из data/core/macros/ биће предобрађени пре задатих ресурса. B<дефиниција-1,дефиниција-2,...> су додатне дефиниције које се додају пре обрађивања датотека. Ако желите да их додате морате пре њих унети знак ‘=’. Ако се у списку дефиниција налази ‘SKIP_CORE’, data/core/ неће бити предобрађен. Пример: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> или B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>.|~\n"
+"предобрађује задату датотеку или директоријум. За сваку датотеку, у задати циљни директоријум биће уписана обична .cfg датотека и обрађена .cfg датотека. Ако се зада директоријум, биће обрађен рекурзивно на основу познатих правила предобраде. Заједнички макрои из директоријума data/core/macros биће предобрађени пре задатих ресурса. Пример: B<-p ~/wesnoth/data/campaigns/tutorial ~/result.> Детаље о предобрађивачу потражите на http://wiki.wesnoth.org/PreprocessorRef#Command-line_preprocessor|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "B<--era=>I<value>|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "B<--era=>I<value>|~\n"
+#| "|~x"
 msgid "B<--multiplayer-repeat=>I<value>"
-msgstr "B<--era=>I<вр›иједност>|~"
+msgstr ""
+"B<--era=>I<вр›иједност>|~\n"
+"B<--multiplayer-repeat=>I<вр›иједност>|~"
 
 #. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
-#, fuzzy
-#| msgid "B<--path>|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "B<--path>|~\n"
+#| "|~x"
 msgid "B<--data-path>"
-msgstr "B<--path>|~"
+msgstr ""
+"B<--path>|~\n"
+"B<--data-path>>|~"
 
 #. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
-#, fuzzy
-#| msgid "prints the name of the game data directory and exits.|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "prints the name of the game data directory and exits.|~\n"
+#| "|~x"
 msgid "path the path of the data directory and exits."
-msgstr "исписује име директоријума са подацима игре и излази.|~"
+msgstr ""
+"исписује име директоријума са подацима игре и излази.|~\n"
+"исписује путању директоријума са подацима и излази.|~"
 
 #. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
-#, fuzzy
-#| msgid "B<--config-dir>I<\\ name>|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "B<--config-dir>I<\\ name>|~\n"
+#| "|~x"
 msgid "B<--userconfig-dir>I<\\ name>"
-msgstr "B<--config-dir>I<\\ име>|~"
+msgstr ""
+"B<--config-dir>I<\\ име>|~\n"
+"B<--userconfig-dir>I<\\ име>|~"
 
 #. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
-#, fuzzy
-#| msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\"|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\"|~\n"
+#| "|~x"
 msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\".  Under X11 this defaults to $XDG_CONFIG_HOME or $HOME/.config/wesnoth, on other systems to the userdata path."
-msgstr "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“.|~"
+msgstr ""
+"задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“.|~\n"
+"задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“. Под ~@/Иксом 11/X-om 11/ ово је подразумевано $XDG_CONFIG_HOME или $HOME/.config/wesnoth, а на другим системима путања корисничких података.|~"
 
 #. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
-#, fuzzy
-#| msgid "B<--config-path>|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "B<--config-path>|~\n"
+#| "|~x"
 msgid "B<--userconfig-path>"
-msgstr "B<--config-path>|~"
+msgstr ""
+"B<--config-path>|~\n"
+"B<--userconfig-path>|~"
 
 #. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
-#, fuzzy
-#| msgid "B<--config-dir>I<\\ name>|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "B<--config-dir>I<\\ name>|~\n"
+#| "|~x"
 msgid "B<--userdata-dir>I<\\ name>"
-msgstr "B<--config-dir>I<\\ име>|~"
+msgstr ""
+"B<--config-dir>I<\\ име>|~\n"
+"B<--userdata-dir>I<\\ име>|~"
 
 #. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
-#, fuzzy
-#| msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\"|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\"|~\n"
+#| "|~x"
 msgid "sets the userdata directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the userdata directory outside the $HOME or \"My Documents\\eMy Games\"."
-msgstr "задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“.|~"
+msgstr ""
+"задаје поставни директоријум I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању поставног директоријума изван $HOME или „My Documents\\eMy Games“.|~\n"
+"задаје директоријум корисничких података I<име>, под $HOME или „Моји документи\\eМоје игре“ на ~@/Виндоузу/Windowsu/. Такође можете задати апсолутну путању овог директоријума изван $HOME или „My Documents\\eMy Games“.|~"
 
 #. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
-#, fuzzy
-#| msgid "B<--path>|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "B<--path>|~\n"
+#| "|~x"
 msgid "B<--userdata-path>"
-msgstr "B<--path>|~"
+msgstr ""
+"B<--path>|~\n"
+"B<--userdata-path>|~"
 
 #. modified: ilic | 2014-11-16 11:50:17+0100 | 1f
-#, fuzzy
-#| msgid "prints the path of the user configuration directory and exits.|~"
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "prints the path of the user configuration directory and exits.|~\n"
+#| "|~x"
 msgid "prints the path of the userdata directory and exits."
-msgstr "исписује путању корисничког поставног директоријума и излази.|~"
+msgstr ""
+"исписује путању корисничког поставног директоријума и излази.|~\n"
+"исписује путању директоријума корисничких података и излази.|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1f
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+#| msgid ""
+#| "B<--logdomains>|~\n"
+#| "|~x"
+msgid "B<--ignore-map-settings>"
+msgstr ""
+"B<--logdomains>|~\n"
+"B<--ignore-map-settings>|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "B<--preprocess-defines=DEFINE1,DEFINE2,etc>"
+msgstr "B<--preprocess-defines=ДЕФИНИЦИЈА1,ДЕФИНИЦИЈА2,итд>|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "comma separated list of defines to be used by the '--preprocess' command. If B<SKIP_CORE> is in the define list the \"data/core\" directory won't be preprocessed."
+msgstr "запетама раздвојен списак дефиниција које ће користити наредба --preprocess. Ако се на списку налази B<SKIP_CORE>, директоријум data/core неће бити предобрађен.|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "B<--username>I<E<lt>usernameE<gt>>"
+msgstr "B<--username>I<E<lt>корисникE<gt>>|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "uses E<lt>usernameE<gt> when connecting to a server, ignoring other preferences."
+msgstr "задаје E<lt>корисникаE<gt> при повезивању на сервер, игноришући друге поставке.|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "B<--password>I<E<lt>passwordE<gt>>"
+msgstr "B<--password>I<E<lt>лозинкаE<gt>>|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "uses E<lt>passwordE<gt> when connecting to a server, ignoring other preferences. Unsafe."
+msgstr "задаје E<lt>лозинкуE<gt> при повезивању на сервер, игноришући друге поставке. Небезбедно.|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "do not use map settings, use default values instead."
+msgstr "не користи поставке мапе, већ подразумеване вредности.|~"
+
+#. modified: ilic | 2015-08-12 20:33:28+0200 | 1
+msgid "repeats a multiplayer game I<value> times. Best to use with B<--nogui> for scriptable benchmarking."
+msgstr "понавља играчку партију I<вр›иједност> пута. При скриптованом одмеравању најбоље користити уз B<--nogui>.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-22 23:54:43+0100
