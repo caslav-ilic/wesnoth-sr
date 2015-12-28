@@ -1,13 +1,13 @@
 # Translation of wesnoth-help.po into Serbian.
 # Copyright (C) 2011 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2011, 2012.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2011, 2012, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-help\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2015-08-12 20:40+0200\n"
-"PO-Revision-Date: 2012-04-01 16:53+0200\n"
+"PO-Revision-Date: 2015-12-28 23:51+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: wesnoth, wesnoth/noent\n"
 "X-Wrapping: fine\n"
-"X-Associated-UI-Catalogs: wesnoth-lib wesnoth wesnoth-httt\n"
+"X-Associated-UI-Catalogs: wesnoth wesnoth-lib wesnoth wesnoth-httt\n"
 
 #. [time]: id=underground
 #. +> stable
@@ -38,14 +38,8 @@ msgstr "безглавост"
 #. +> stable
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:668
 #: data/core/macros/abilities.cfg:563
-#, fuzzy
-#| msgid ""
-#| "Berserk:\n"
-#| "Whether used offensively or defensively, this attack presses the engagement until one of the combatants is slain, or 30 rounds of attacks have occurred."
 msgid "Whether used offensively or defensively, this attack presses the engagement until one of the combatants is slain, or 30 rounds of attacks have occurred."
-msgstr ""
-"Безглавост:\n"
-"Било да се употребљава у нападу или одбрани, борба траје све док једна упетљана јединица не настрада, или прође 30 рунди напада."
+msgstr "Било да се употребљава у нападу или одбрани, борба траје све док једна упетљана јединица не настрада, или прође 30 рунди напада."
 
 #. [chance_to_hit]: id=magical
 #. +> stable
@@ -58,21 +52,13 @@ msgstr "магичност"
 #. +> stable
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:679
 #: data/core/macros/abilities.cfg:642
-#, fuzzy
-#| msgid ""
-#| "Magical:\n"
-#| "This attack always has a 70% chance to hit regardless of the defensive ability of the unit being attacked."
 msgid "This attack always has a 70% chance to hit regardless of the defensive ability of the unit being attacked."
-msgstr ""
-"Магичност:\n"
-"Напад ув›ијек има 70% изгледа да погоди, без обзира на одбрамбену способност нападнуте јединице."
+msgstr "Напад ув›ијек има 70% изгледа да погоди, без обзира на одбрамбену способност нападнуте јединице."
 
 #. [firststrike]: id=firststrike
 #. +> stable
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:688
 #: data/core/macros/abilities.cfg:686
-#, fuzzy
-#| msgid "firststrike"
 msgid "first strike"
 msgstr "први удар"
 
@@ -80,14 +66,8 @@ msgstr "први удар"
 #. +> stable
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:690
 #: data/core/macros/abilities.cfg:687
-#, fuzzy
-#| msgid ""
-#| "First Strike:\n"
-#| "This unit always strikes first with this attack, even if they are defending."
 msgid "This unit always strikes first with this attack, even if they are defending."
-msgstr ""
-"Први удар:\n"
-"Јединица ув›ијек удара прва у борби, чак и када се брани."
+msgstr "Јединица ув›ијек удара прва у борби, чак и када се брани."
 
 #. [heals]: id=healing
 #. +> stable
@@ -108,20 +88,12 @@ msgstr "л›ијечење +4"
 #. +> stable
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:18
 #: data/core/macros/abilities.cfg:12
-#, fuzzy
-#| msgid ""
-#| "Heals +4:\n"
-#| "Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
-#| "\n"
-#| "A unit cared for by this healer may heal up to 4 HP per turn, or stop poison from taking effect for that turn.\n"
-#| "A poisoned unit cannot be cured of its poison by a healer, and must seek the care of a village or a unit that can cure."
 msgid ""
 "Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
 "\n"
 "A unit cared for by this healer may heal up to 4 HP per turn, or stop poison from taking effect for that turn.\n"
 "A poisoned unit cannot be cured of its poison by a healer, and must seek the care of a village or a unit that can cure."
 msgstr ""
-"Л›ијечење +4:\n"
 "Омогућава јединици да л›ијечи сус›једне савезничке јединице на почетку сваког потеза.\n"
 "\n"
 "Јединица под утицајем овог видара може повратити до 4 УП по потезу, или не ос›јетити дејство отрова у датом потезу.\n"
@@ -146,20 +118,12 @@ msgstr "л›ијечење +8"
 #. +> stable
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:46
 #: data/core/macros/abilities.cfg:31
-#, fuzzy
-#| msgid ""
-#| "Heals +8:\n"
-#| "This unit combines herbal remedies with magic to heal units more quickly than is normally possible on the battlefield.\n"
-#| "\n"
-#| "A unit cared for by this healer may heal up to 8 HP per turn, or stop poison from taking effect for that turn.\n"
-#| "A poisoned unit cannot be cured of its poison by a healer, and must seek the care of a village or a unit that can cure."
 msgid ""
 "This unit combines herbal remedies with magic to heal units more quickly than is normally possible on the battlefield.\n"
 "\n"
 "A unit cared for by this healer may heal up to 8 HP per turn, or stop poison from taking effect for that turn.\n"
 "A poisoned unit cannot be cured of its poison by a healer, and must seek the care of a village or a unit that can cure."
 msgstr ""
-"Л›ијечење +8:\n"
 "Ова јединица обједињује ‹љековите траве и магију како би л›ијечила брже него што је то уобичајено на бојном пољу.\n"
 "\n"
 "Јединица под утицајем овог видара може повратити до 8 УП по потезу, или не ос›јетити дејство отрова у датом потезу.\n"
@@ -375,26 +339,6 @@ msgstr "Североземље"
 #. [topic]: id=northlands
 #. +> stable
 #: data/core/encyclopedia/geography.cfg:113
-#, fuzzy
-#| msgid ""
-#| "There is no government of the Northlands. Various groups of orcs, dwarves, barbarian men and even elves populate the region. The northern and eastern borders are not defined, the southern border is the <ref>dst='great_river' text='Great River'</ref>, and the western border is the <ref>dst='great_ocean' text='Great Ocean'</ref>.\n"
-#| "\n"
-#| "    • Notable cities:\n"
-#| "          ◦ Glamdrol: An Orcish tribal capital\n"
-#| "          ◦ Romyr: Another Orcish tribal capital\n"
-#| "          ◦ Wesmere: The location of the Ka’lian — the Elvish Council\n"
-#| "          ◦ Dwarven Doors: A mixed human/dwarven town in the region of Knalga in the southern Heart Mountains. A major trade center.\n"
-#| "          ◦ Dallben and Delwyn: Human villages originally built by settlers who crossed the Great River during Wesnoth’s Golden Age expansion. Now abandoned. The forested area northeast of Elensefar, where these villages were located, was named the Annuvin province by men but was known by the elves as Wesmere.\n"
-#| "\n"
-#| "    • Notable land features:\n"
-#| "          ◦ Heart Mountains: A virtually impassable barrier between the river country and the Northern Plains.\n"
-#| "          ◦ Heartfangs: the particularly forbidding stretch of high peaks southwest of Lake Vrug and north of the Forest of Wesmere. The most inhospitable and dangerous portion of the Heart Mountains; only hermits, madmen, and mages live there.\n"
-#| "          ◦ Swamp of Dread: a very large bog located between the Heart Mountains and the Great River. A notoriously dangerous place.\n"
-#| "          ◦ Lake Vrug: A large mountain lake whose river carves the only pathway through the Northern Mountains\n"
-#| "          ◦ Arkan-thoria: The river than comes out of Lake Vrug. This is the elvish name; among humans it is called Longlier.\n"
-#| "          ◦ River Listra: The south-running tributary of the Great River into which the Arkan-thoria empties.\n"
-#| "          ◦ Lintanir Forest: The southernmost portion of the Great Northern Forest, a gigantic wood whose eastern and northern boundaries are known only the elves. Their capitol, Elensiria, has only seldom been visited by humans.\n"
-#| "          ◦ Great River: The origin of this river is somewhere in the east of the northern lands"
 msgid ""
 "There is no government of the Northlands. Various groups of orcs, dwarves, barbarian men and even elves populate the region. The northern and eastern borders are not defined, the southern border is the <ref>dst='great_river' text='Great River'</ref>, and the western border is the <ref>dst='great_ocean' text='Great Ocean'</ref>.\n"
 "\n"
@@ -418,7 +362,6 @@ msgstr ""
 "\n"
 "    • Истакнути градови:\n"
 "          ◦ Гламдрол: орковска племенска престоница.\n"
-"          ◦ Ромир: још једна орковска племенска престоница.\n"
 "          ◦ Весмер: седиште Калијана, вилењачког већа.\n"
 "          ◦ Патуљачке двери: мешани људско-патуљачки град у области Кналге, у јужним Језгреним планинама. Велико трговачко средиште.\n"
 "          ◦ Далбен и Делвин: људска села која првобитно подигоше насељеници што дођоше преко Велике реке, током ширења у златно доба Веснота. Тренутно напуштена. Пошумљено подручје североисточно од Еленсефара, где се ова села налазише, људи су назвали покрајином Анувин, а међу вилењацима знано је као Весмер.\n"
@@ -478,32 +421,6 @@ msgstr "Далеки север"
 #. [topic]: id=far_north
 #. +> stable
 #: data/core/encyclopedia/geography.cfg:152
-#, fuzzy
-#| msgid ""
-#| "Cold, harsh, and inaccessible, the Far North is the ancestral home of the Orcish Clannate. It lies north of the <ref>dst='heart_mountains' text='Heart Mountains'</ref>, which the Orcs call the Haggid-Dargor and claim (without merit) as their own. To the east lie the Unaligned Tribes of the Wild Steppe, who fell out of the control of the Clannate, instead roaming with wild human barbarians and clashing with the High Elves of the North Plains (known as North Elves in human lands). The High Elves themselves reside further east, where it is rumored they rule a vast kingdom.\n"
-#| "\n"
-#| "    • Notable cities:\n"
-#| "          ◦ Barag Gor, a city home to the Orcish Council\n"
-#| "          ◦ Bitok\n"
-#| "          ◦ Borstep\n"
-#| "          ◦ Castelfrang\n"
-#| "          ◦ Farzi\n"
-#| "          ◦ Festog\n"
-#| "          ◦ Grisbi\n"
-#| "          ◦ Lmarig\n"
-#| "          ◦ Melmog\n"
-#| "          ◦ Prestim\n"
-#| "          ◦ Tirigaz\n"
-#| "    • Notable land features:\n"
-#| "          ◦ Swamp of Desolation\n"
-#| "          ◦ Mountains of Dorth\n"
-#| "          ◦ Mountains of Haag\n"
-#| "          ◦ Green Forest\n"
-#| "          ◦ Silent Forest\n"
-#| "          ◦ Forest of Thelien\n"
-#| "          ◦ River Oumph\n"
-#| "          ◦ River Bork\n"
-#| "          ◦ Wild Steppe"
 msgid ""
 "Cold, harsh, and inaccessible, the Far North is the ancestral home of the Orcish Clannate. It lies north of the <ref>dst='heart_mountains' text='Heart Mountains'</ref>, which the Orcs call the Haggid-Dargor and claim (without merit) as their own. To the east lie the Unaligned Tribes of the Wild Steppe, who fell out of the control of the Clannate, instead roaming with wild human barbarians and clashing with the High Elves of the North Plains (known as North Elves in human lands). The High Elves themselves reside further east, where it is rumored they rule a vast kingdom.\n"
 "\n"
@@ -535,24 +452,23 @@ msgstr ""
 "          ◦ Бараг Гор, град домаћин Орковског већа\n"
 "          ◦ Биток\n"
 "          ◦ Борстеп\n"
-"          ◦ Кастелфранг\n"
 "          ◦ Фарзи\n"
-"          ◦ Фестог\n"
-"          ◦ Гризби\n"
 "          ◦ Лмариг\n"
 "          ◦ Мелмог\n"
 "          ◦ Престим\n"
 "          ◦ Тиригаз\n"
+"          ◦ Дорест, најсевернији људски град\n"
 "    • Истакнута географија:\n"
-"          ◦ Мочвара пустоши\n"
+"          ◦ Црне мочваре\n"
 "          ◦ Дортске планине\n"
 "          ◦ Хашке планине\n"
-"          ◦ Зелена шума\n"
+"          ◦ Зеленодрвна\n"
 "          ◦ Нечујна шума\n"
 "          ◦ Телијанска шума\n"
 "          ◦ река Оумф\n"
 "          ◦ река Борк\n"
-"          ◦ Дивља степа"
+"          ◦ Мразна пустош\n"
+"          ◦ Јалове равнице"
 
 #. [section]: id=introduction
 #. [topic]: id=..introduction
@@ -615,7 +531,7 @@ msgstr "Терен"
 #. +> stable
 #: data/core/help.cfg:71 data/core/help.cfg:500
 msgid "Add-ons"
-msgstr ""
+msgstr "Додаци"
 
 #. [section]: id=commands
 #. [topic]: id=..commands
@@ -631,18 +547,16 @@ msgid ""
 "This section will list all the units you discover as you explore the world of Wesnoth. When you see a new unit during a campaign or multiplayer scenario it will be added to its race’s subsection; you can then view its page any time you wish. A unit’s page will provide a general description, its statistics, attacks, resistances, and movement and defense values.\n"
 "\n"
 msgstr ""
+"Ова одељак набраја све јединице које сте до сада открили истраживањем света Веснота. Када у току похода или вишеиграчког сценарија видите нову јединицу, биће додата у пододељак своје расе; потом можете погледати њену страницу кад год желите. Ту ће бити дат опис јединице, њена статистика, напади, отпорности, и вредности кретања и одбране.\n"
+"\n"
 
 #. [topic]: id=..abilities_section
 #. +> stable
 #: data/core/help.cfg:101
-#, fuzzy
-#| msgid ""
-#| "Certain units have abilities that either directly affect other units, or have an impact on how the unit interacts with other units. These abilities will be listed under this topic as you encounter them.\n"
-#| "\n"
 msgid ""
 "Certain units have abilities that either directly affect other units or have an impact on how the unit interacts with other units. These abilities will be listed under this section as you encounter them. Each page will provide a description of what the ability does and which (currently discovered) units have it.\n"
 "\n"
-msgstr "Изв›јесне јединице пос›једују способности којима или непосредно утичу на друге јединице, или на садејство са другим јединицама. Те способности ће бити тумачене у овом од›ијељку, како на њих будете наилазили.\n"
+msgstr "Изв›јесне јединице пос›једују способности којима или непосредно утичу на друге јединице или на садејство са другим јединицама. Те способности ће бити тумачене у овом од›ијељку, како на њих будете наилазили. Свака страница даје опис онога што способност чини и које је (до тада откривене) јединице поседују.\n"
 
 #. [topic]: id=..weapon_specials
 #. +> stable
@@ -651,6 +565,8 @@ msgid ""
 "Some weapons have special features that increase the effectiveness of attacking with them. When you see a new weapon special during a campaign or multiplayer scenario it will be added to this list; you can then view its page any time you wish. Each page will provide a description of what the weapon special does and which (currently discovered) units have it.\n"
 "\n"
 msgstr ""
+"Нека оружа имају посебне могућности које им увећавају учинковитост у нападу. Када видите ново својство оружја током похода или вишеиграчког сценарија, биће додата на овај списак; потом можете погледати њену страницу кад год желите. Ту ће бити дат опис онога што својство чини и које га (до тада откривене) јединице поседују.\n"
+"\n"
 
 #. [topic]: id=.unknown_unit
 #. +> stable
@@ -853,10 +769,8 @@ msgstr " жута, ако се јесте пом›јерила, али се ј�
 #. [topic]: id=orbs
 #. +> stable
 #: data/core/help.cfg:192
-#, fuzzy
-#| msgid " red if it can no longer move or attack, or the user ended the unit’s turn."
 msgid " black if it can no longer move or attack, or the user ended the unit’s turn."
-msgstr " црвена, ако се више не може пом›ијерати нити нападати, или јој је играч окончао потез, и"
+msgstr " црна, ако се више не може пом›ијерати нити нападати, или јој је играч окончао потез, и"
 
 #. [topic]: id=orbs
 #. +> stable
@@ -867,10 +781,8 @@ msgstr " плава, ако је јединица савезник којим н
 #. [topic]: id=orbs
 #. +> stable
 #: data/core/help.cfg:194
-#, fuzzy
-#| msgid " Enemy units have no orb on top of their energy bar."
 msgid " Enemy units have a red orb on top of their energy bar."
-msgstr " Непријатељске јединице немају овакве куглице."
+msgstr " Непријатељске јединице имају црвену куглицу над енерготраком."
 
 #. [topic]: id=hitpoints
 #. +> stable
@@ -1776,14 +1688,8 @@ msgstr "<italic>text='Остареле'</italic> јединице трпе −8 
 #. [topic]: id=..terrains_section
 #. +> stable
 #: data/core/help.cfg:493
-#, fuzzy
-#| msgid ""
-#| "Game maps feature a variety of terrains that affect both unit movement and a unit’s defensive capability in combat.\n"
-#| "\n"
 msgid "Game maps feature a variety of terrains that affect both unit movement and a unit’s defensive capability in combat."
-msgstr ""
-"Мапе у игри доносе прегршт терена који утичу и на кретање и на одбрамбене способности јединица у борби.\n"
-"\n"
+msgstr "Мапе у игри доносе прегршт терена који утичу и на кретање и на одбрамбене способности јединица у борби."
 
 #. [topic]: id=..addons
 #. +> stable
@@ -1792,21 +1698,18 @@ msgid ""
 "The degree of customization offered by the Wesnoth engine allows players to create their own game content, including new scenarios, campaigns, and much more beyond what is offered in the official content bundled with the game.\n"
 "\n"
 msgstr ""
+"Степен прилагодљивости који нуди мотор Веснота омогућава играчима да стварају сопствене садржаје, укључујући нове сценарије, походе, и још много тога изван понуђеног званичним садржајем који стиже уз игру.\n"
+"\n"
 
 #. [topic]: id=using_addons
 #. +> stable
 #: data/core/help.cfg:511
 msgid "Using Add-ons"
-msgstr ""
+msgstr "Употреба додатака"
 
 #. [topic]: id=using_addons
 #. +> stable
 #: data/core/help.cfg:512
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "<header>text=Damage</header>"
 msgid ""
 "\n"
 "\n"
@@ -1814,13 +1717,13 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"<header>text=Штета</header>"
+"<header>text='Походи и сценарији'</header>"
 
 #. [topic]: id=using_addons
 #. +> stable
 #: data/core/help.cfg:512
 msgid "The game supports different types of add-on content, which are not all available in every gameplay mode."
-msgstr ""
+msgstr "Игра подржава различите типове додатних садржаја, који нису доступни у свим режимима извођења."
 
 #. [topic]: id=using_addons
 #. +> stable
@@ -1830,17 +1733,21 @@ msgid ""
 "\n"
 "Single-player campaigns are collections of scenarios that fit together to tell a story. Both stand-alone scenarios—if intended to be played as such—and regular campaigns are available from the <italic>text='Campaigns'</italic> menu at the title screen."
 msgstr ""
+"\n"
+"\n"
+"Једноиграчки походи су збирке сценарија који заједно представљају једну причу. И самостални сценарији — ако намењени таквом игрању — и нормални походи доступни су  кроз мени <italic>text='~%/Campaigns/'</italic> на насловном екрану."
 
 #. [topic]: id=using_addons
 #. +> stable
 #: data/core/help.cfg:516
-#, fuzzy
-#| msgid "<header>text='Units having this special attack'</header>"
 msgid ""
 "\n"
 "\n"
 "<header>text='Multiplayer Campaigns, Scenarios, and Map Packs'</header>"
-msgstr "<header>text='Јединице с овим посебним нападом'</header>"
+msgstr ""
+"\n"
+"\n"
+"<header>text='Вишеиграчки походи, сценарији и пакети мапа'</header>"
 
 #. [topic]: id=using_addons
 #. +> stable
@@ -1850,15 +1757,13 @@ msgid ""
 "\n"
 "<italic>text='Multiplayer'</italic> games can be played in fully customized, scripted scenarios or even specially designed campaigns. There are also packs providing sets of individual multiplayer scenarios."
 msgstr ""
+"\n"
+"\n"
+"<italic>text='Вишеиграчке'</italic> партије могу да се играју са потпуно прилагођеним, скриптованим сценаријима, па чак и наменски дизајнираним походима. Ту су и пакети скупова појединачних вишеиграчких сценарија."
 
 #. [topic]: id=using_addons
 #. +> stable
 #: data/core/help.cfg:520
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "<header>text='Order and Number of Strikes'</header>"
 msgid ""
 "\n"
 "\n"
@@ -1866,7 +1771,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"<header>text='Редосл›ијед и број удара'</header>"
+"<header>text='Вишеиграчке епохе и фракције'</header>"
 
 #. [topic]: id=using_addons
 #. +> stable
@@ -1878,15 +1783,15 @@ msgid ""
 "\n"
 "In <italic>text='Multiplayer'</italic> mode, you can choose an era when creating a new game, and players can pick from the available factions for that era when setting up their sides and teams."
 msgstr ""
+"\n"
+"\n"
+"У сврхе извођења, разнолике расе створења у свету сарађују једна са другом кроз фракције, груписане као уравнотежени скупови са заједничком темом. На пример, главне фракције Веснота налазе се у приложеној подразумеваној епохи.\n"
+"\n"
+"У <italic>text='вишеиграчком'</italic> режиму, можете задати епоху при стварању нове партије, а играчи могу бирати између расположивих фракције те епохе када намештају своје стране и тимове."
 
 #. [topic]: id=using_addons
 #. +> stable
 #: data/core/help.cfg:526
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "<header>text='Chance to Hit'</header>"
 msgid ""
 "\n"
 "\n"
@@ -1894,7 +1799,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"<header>text='Изгледи за погодак'</header>"
+"<header>text='Вишеиграчке модификације'</header>"
 
 #. [topic]: id=using_addons
 #. +> stable
@@ -1904,15 +1809,13 @@ msgid ""
 "\n"
 "Modifications are optional scenario- and era-independent scripts for <italic>text='Multiplayer'</italic> games that can alter the default ruleset in various ways. You can choose and configure modifications when creating a new game."
 msgstr ""
+"\n"
+"\n"
+"Модификације су опционе скрипте везане за сценарије и епохе у <italic>text='вишеиграчким'</italic> партијама које на разне начине мењају подразумевани скуп правила. Модификације можете бирати и подешавати док стварате нову партију."
 
 #. [topic]: id=using_addons
 #. +> stable
 #: data/core/help.cfg:530
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "<header>text='Chance to Hit'</header>"
 msgid ""
 "\n"
 "\n"
@@ -1920,7 +1823,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"<header>text='Изгледи за погодак'</header>"
+"<header>text='Ресурси за ауторе'</header>"
 
 #. [topic]: id=using_addons
 #. +> stable
@@ -1930,12 +1833,15 @@ msgid ""
 "\n"
 "Content authors can use resource packs available on the add-ons server to enrich their own content with existing assets such as images, music, and code. These are not generally intended for direct use in-game; however, other playable add-ons may depend on them and suggest or require their installation during download."
 msgstr ""
+"\n"
+"\n"
+"Аутори садржаја могу да користе пакете ресурса доступне на серверу додатака, да би обогатили своје дело постојећим средствима попут слика, музике и кода. Ови пакети уопштено нису предвиђени за непосредну употребу у игри. Међутим, други игриви додаци могу зависити од њих, те предлагати или захтевати њихово инсталирање током преузимања."
 
 #. [topic]: id=installing_addons
 #. +> stable
 #: data/core/help.cfg:541
 msgid "Installing Add-ons"
-msgstr ""
+msgstr "Инсталирање додатака"
 
 #. [topic]: id=installing_addons
 #. +> stable
@@ -1949,12 +1855,19 @@ msgid ""
 "\n"
 "To install an add-on, select it from the list and click <bold>text='OK'</bold>, or simply double-click on the add-on’s title. The <bold>text='Description'</bold> button provides you with additional details about the add-on, such as its full description, installation status, and available languages."
 msgstr ""
+"Кориснички додаци могу да се набављају и ажурирају кроз опцију <italic>text='~%/Add-ons/'</italic> у главном менију. По повезивању на сервер додатака (подразумевано <italic>text='add-ons.wesnoth.org'</italic>), добићете списак додатака доступних за преузимање са сервера.\n"
+"\n"
+"Стање инсталације сваког додатка приказано је испод сваке ставке. За додатке који су <italic>text='надоградиви'</italic> или <italic>text='застарели'</italic> на серверу, инсталирана и објављена верзија биће дата у колони <italic>text='~%/Version/'</italic>.\n"
+"\n"
+"Додатке можете тражити по кључним речима тако што унесете жељене изразе у поље <bold>text='~%/Filter/'</bold>, раздвојене размацима. Такође можете поређати списак додатака кликом на заглавље колоне, и изабрати приказ само појединих категорија кликом на дугме <bold>text='~%/Options/'</bold> у горњем десном углу.\n"
+"\n"
+"Додатак инсталирате тако што га изаберете са списка и кликните на <bold>text='~%/OK/'</bold>, или једноставно двокликнете на наслов додатка. Дугме <bold>text='~%/Description/'</bold> пружа више детаља о додатку, попут пуног описа, стања инсталације и доступних језика."
 
 #. [topic]: id=removing_addons
 #. +> stable
 #: data/core/help.cfg:555
 msgid "Removing Add-ons"
-msgstr ""
+msgstr "Уклањање додатака"
 
 #. [topic]: id=removing_addons
 #. +> stable
@@ -1964,6 +1877,9 @@ msgid ""
 "\n"
 "It is not possible to remove add-ons for which there is publishing information (<italic>text='.pbl'</italic> files) attached, in order to prevent its accidental loss. If necessary, you must manually delete the information files or the add-ons themselves using a file manager provided by your platform."
 msgstr ""
+"Додатке уклањате преко <bold>text='~%/Remove Add-ons/'</bold> у дијалогу везе са сервером додатака. Добићете опције да уклоните било који број тренутно инсталираних додатака.\n"
+"\n"
+"Није могуће уклонити додатак који има придружене податке о објављивању (<italic>text='.pbl'</italic> фајл), како би се спречио њихов случајни губитак. Ако заиста то желите, морате ручно уклонити фајл са подацима, или и цео додатак, помоћу менаџера датотека који нуди ваша платформа."
 
 #. [topic]: id=general_commands
 #. +> stable
@@ -2028,6 +1944,9 @@ msgid ""
 "Display the controller status of a side.\n"
 "\n"
 msgstr ""
+"\n"
+"приказ стања управљача страном.\n"
+"\n"
 
 #. [topic]: id=general_commands
 #. +> stable
@@ -2149,6 +2068,9 @@ msgid ""
 "Launch a dialog to assist the host in changing the human controllers of sides.\n"
 "\n"
 msgstr ""
+"\n"
+"покреће дијалог за испомоћ домаћину у мењању људских управљача странама.\n"
+"\n"
 
 #. [topic]: id=mp_commands
 #. +> stable
@@ -2158,6 +2080,9 @@ msgid ""
 "Toggle the idle state for a side. The host may make a side idle after a network disconnection.\n"
 "\n"
 msgstr ""
+"\n"
+"обрће стање мировања страни. Домаћин може ставити страну у мировање после прекида мрежне везе.\n"
+"\n"
 
 #. [topic]: id=mp_commands
 #. +> stable
@@ -2369,14 +2294,8 @@ msgstr "исц›јељивање"
 #. [heals]: id=curing
 #. +> stable
 #: data/core/macros/abilities.cfg:51
-#, fuzzy
-#| msgid ""
-#| "Cures:\n"
-#| "A curer can cure a unit of poison, although that unit will receive no additional healing on the turn it is cured of the poison."
 msgid "A curer can cure a unit of poison, although that unit will receive no additional healing on the turn it is cured of the poison."
-msgstr ""
-"Исц›јељивање:\n"
-"Исц›јелитељ може ослободити јединицу отрова, али исц›ијељена јединица неће бити додатно изл›ијечена у потезу у којем је прочишћена од отрова."
+msgstr "Исц›јелитељ може ослободити јединицу отрова, али исц›ијељена јединица неће бити додатно изл›ијечена у потезу у којем је прочишћена од отрова."
 
 #. [regenerate]: id=regenerates
 #. +> stable
@@ -2394,14 +2313,8 @@ msgstr "обнављање"
 #. [regenerate]: id=regenerates
 #. +> stable
 #: data/core/macros/abilities.cfg:75
-#, fuzzy
-#| msgid ""
-#| "Regenerates:\n"
-#| "The unit will heal itself 8 HP per turn. If it is poisoned, it will remove the poison instead of healing."
 msgid "The unit will heal itself 8 HP per turn. If it is poisoned, it will remove the poison instead of healing."
-msgstr ""
-"Обнављање:\n"
-"Јединица ће сама себе л›ијечити 8 УП по потезу. Буде ли отрована, уклониће отров ум›јесто за‹љечивања."
+msgstr "Јединица ће сама себе л›ијечити 8 УП по потезу. Буде ли отрована, уклониће отров ум›јесто за‹љечивања."
 
 #. [resistance]: id=steadfast
 #. +> stable
@@ -2419,14 +2332,8 @@ msgstr "постојаност"
 #. [resistance]: id=steadfast
 #. +> stable
 #: data/core/macros/abilities.cfg:96
-#, fuzzy
-#| msgid ""
-#| "Steadfast:\n"
-#| "This unit’s resistances are doubled, up to a maximum of 50%, when defending. Vulnerabilities are not affected."
 msgid "This unit’s resistances are doubled, up to a maximum of 50%, when defending. Vulnerabilities are not affected."
-msgstr ""
-"Постојаност:\n"
-"Отпорности јединице су удвостручене при одбрани, до највише 50%. Не утиче на рањивост."
+msgstr "Отпорности јединице су удвостручене при одбрани, до највише 50%. Не утиче на рањивост."
 
 #. [leadership]: id=leadership
 #. +> stable
@@ -2450,18 +2357,11 @@ msgstr "вођство"
 #: data/core/macros/abilities.cfg:111 data/core/macros/abilities.cfg:133
 #: data/core/macros/abilities.cfg:167 data/core/macros/abilities.cfg:213
 #: data/core/macros/abilities.cfg:271
-#, fuzzy
-#| msgid ""
-#| "Leadership:\n"
-#| "This unit can lead our own units that are next to it, making them fight better.\n"
-#| "\n"
-#| "Adjacent own units of lower level will do more damage in battle. When a unit adjacent to, of a lower level than, and on the same side as a unit with Leadership engages in combat, its attacks do 25% more damage times the difference in their levels."
 msgid ""
 "This unit can lead our own units that are next to it, making them fight better.\n"
 "\n"
 "Adjacent own units of lower level will do more damage in battle. When a unit adjacent to, of a lower level than, and on the same side as a unit with Leadership engages in combat, its attacks do 25% more damage times the difference in their levels."
 msgstr ""
-"Вођство:\n"
 "Јединица може запов›иједати јединицама до ње, како би се оне боље бориле.\n"
 "\n"
 "Сус›једне јединице нижег нивоа биће ум›јешније у борби. Сус›једна јединица нижег нивоа од пријатељске јединице-вођа, правиће 25% више штете у нападу по нивоу разлике међу њима."
@@ -2482,14 +2382,8 @@ msgstr "чаркање"
 #. [skirmisher]: id=skirmisher
 #. +> stable
 #: data/core/macros/abilities.cfg:339
-#, fuzzy
-#| msgid ""
-#| "Skirmisher:\n"
-#| "This unit is skilled in moving past enemies quickly, and ignores all enemy Zones of Control."
 msgid "This unit is skilled in moving past enemies quickly, and ignores all enemy Zones of Control."
-msgstr ""
-"Чаркање:\n"
-"Јединица је в›јешта у брзом измицању непријатељима, игноришући све противничке надзорне појасеве."
+msgstr "Јединица је в›јешта у брзом измицању непријатељима, игноришући све противничке надзорне појасеве."
 
 #. [illuminates]: id=illumination
 #. +> stable
@@ -2507,18 +2401,11 @@ msgstr "обасјавање"
 #. [illuminates]: id=illumination
 #. +> stable
 #: data/core/macros/abilities.cfg:354
-#, fuzzy
-#| msgid ""
-#| "Illuminates:\n"
-#| "This unit illuminates the surrounding area, making lawful units fight better, and chaotic units fight worse.\n"
-#| "\n"
-#| "Any units adjacent to this unit will fight as if it were dusk when it is night, and as if it were day when it is dusk."
 msgid ""
 "This unit illuminates the surrounding area, making lawful units fight better, and chaotic units fight worse.\n"
 "\n"
 "Any units adjacent to this unit will fight as if it were dusk when it is night, and as if it were day when it is dusk."
 msgstr ""
-"Обасјавање:\n"
 "Јединица осв›јетљава околно подручје, што чини да се законите јединице боре усп›јешније, а хаотичне лошије.\n"
 "\n"
 "Све јединице сус›једне овој бориће се у току ноћи као да је сумрак, а у вр›ијеме сумрака као да је дан."
@@ -2539,14 +2426,8 @@ msgstr "телепортација"
 #. [teleport]: id=teleport
 #. +> stable
 #: data/core/macros/abilities.cfg:368
-#, fuzzy
-#| msgid ""
-#| "Teleport:\n"
-#| "This unit may teleport between any two empty villages owned by its side using one of its moves."
 msgid "This unit may teleport between any two empty villages owned by its side using one of its moves."
-msgstr ""
-"Телепортација:\n"
-"Јединица се може телепортовати између два празна села у пос›једу своје стране, уз утрошак једног покрета."
+msgstr "Јединица се може телепортовати између два празна села у пос›једу своје стране, уз утрошак једног покрета."
 
 #. [hides]: id=ambush
 #. +> stable
@@ -2564,18 +2445,11 @@ msgstr "зас›једа"
 #. [hides]: id=ambush
 #. +> stable
 #: data/core/macros/abilities.cfg:408 data/core/macros/abilities.cfg:411
-#, fuzzy
-#| msgid ""
-#| "Ambush:\n"
-#| "This unit can hide in forest, and remain undetected by its enemies.\n"
-#| "\n"
-#| "Enemy units cannot see this unit while it is in forest, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgid ""
 "This unit can hide in forest, and remain undetected by its enemies.\n"
 "\n"
 "Enemy units cannot see this unit while it is in forest, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr ""
-"Зас›једа:\n"
 "Јединица се може скривати у шуми, тако да је непријатељи не уоче.\n"
 "\n"
 "Противничке јединице не могу вид›јети нити напасти ову јединицу док је у шуми, све док не ступе до ње. Непријатељска јединица која прва открије скривену, истог часа губи сву преосталу покретност у потезу."
@@ -2590,18 +2464,11 @@ msgstr "вребање"
 #. [hides]: id=nightstalk
 #. +> stable
 #: data/core/macros/abilities.cfg:430 data/core/macros/abilities.cfg:435
-#, fuzzy
-#| msgid ""
-#| "Nightstalk:\n"
-#| "The unit becomes invisible during night.\n"
-#| "\n"
-#| "Enemy units cannot see this unit at night, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgid ""
 "The unit becomes invisible during night.\n"
 "\n"
 "Enemy units cannot see this unit at night, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr ""
-"Вребање:\n"
 "Јединица постаје невидљива током ноћи.\n"
 "\n"
 "Противничке јединице не могу вид›јети нити напасти ову јединицу када је ноћ, осим ако јој се не налазе у сус›једству. Непријатељска јединица која прва открије невидљиву, истог часа губи сву преосталу покретност у потезу."
@@ -2629,18 +2496,11 @@ msgstr "скривање"
 #. [hides]: id=concealment
 #. +> stable
 #: data/core/macros/abilities.cfg:454 data/core/macros/abilities.cfg:459
-#, fuzzy
-#| msgid ""
-#| "Concealment:\n"
-#| "This unit can hide in villages (with the exception of water villages), and remain undetected by its enemies, except by those standing next to it.\n"
-#| "\n"
-#| "Enemy units can not see this unit while it is in a village, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgid ""
 "This unit can hide in villages (with the exception of water villages), and remain undetected by its enemies, except by those standing next to it.\n"
 "\n"
 "Enemy units can not see this unit while it is in a village, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr ""
-"Скривање:\n"
 "Јединица се може скривати у селима (с изузетком водених), тако да је непријатељи не виде осим када стоје покрај ње.\n"
 "\n"
 "Противничке јединице не могу вид›јети нити напасти ову јединицу док је у селу, осим ако јој се не налазе у сус›једству. Непријатељска јединица која прва открије скривену, истог часа губи сву преосталу покретност у потезу."
@@ -2661,18 +2521,11 @@ msgstr "зарањање"
 #. [hides]: id=submerge
 #. +> stable
 #: data/core/macros/abilities.cfg:478 data/core/macros/abilities.cfg:483
-#, fuzzy
-#| msgid ""
-#| "Submerge:\n"
-#| "This unit can hide in deep water, and remain undetected by its enemies.\n"
-#| "\n"
-#| "Enemy units cannot see this unit while it is in deep water, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgid ""
 "This unit can hide in deep water, and remain undetected by its enemies.\n"
 "\n"
 "Enemy units cannot see this unit while it is in deep water, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr ""
-"Зарањање:\n"
 "Јединица се може скривати у дубокој води, тако да је непријатељи не виде.\n"
 "\n"
 "Противничке јединице не могу вид›јети нити напасти ову јединицу док је у дубини, осим ако јој се не налазе у сус›једству. Непријатељска јединица која прва открије зароњену, истог часа губи сву преосталу покретност у потезу."
@@ -2693,10 +2546,8 @@ msgstr "храњење"
 #. [dummy]: id=feeding
 #. +> stable
 #: data/core/macros/abilities.cfg:505
-#, fuzzy
-#| msgid " This unit gains 1 hitpoint added to its maximum whenever it kills a living unit."
 msgid "This unit gains 1 hitpoint added to its maximum whenever it kills a unit, except units that are immune to plague."
-msgstr " Овој јединици се додаје један ударпоен на највећи број кад год убије живу јединицу."
+msgstr "Овој јединици се додаје један ударпоен на највећи број кад год убије другу јединицу, осим оних имуних на кугу."
 
 #. [unstore_unit]
 #. +> stable
@@ -2713,14 +2564,8 @@ msgstr "нож у леђа"
 #. [damage]: id=backstab
 #. +> stable
 #: data/core/macros/abilities.cfg:574
-#, fuzzy
-#| msgid ""
-#| "Backstab:\n"
-#| "When used offensively, this attack deals double damage if there is an enemy of the target on the opposite side of the target, and that unit is not incapacitated (turned to stone or otherwise paralyzed)."
 msgid "When used offensively, this attack deals double damage if there is an enemy of the target on the opposite side of the target, and that unit is not incapacitated (turned to stone or otherwise paralyzed)."
-msgstr ""
-"Нож у леђа:\n"
-"Употр›ијебљен офанзивно, овај напад наноси двоструку штету ако пријатељска јединица стоји са наспрамне стране нападнуте, и притом није онеспособљена (претворена у камен или друкчије ван строја)."
+msgstr "Употр›ијебљен офанзивно, овај напад наноси двоструку штету ако пријатељска јединица стоји са наспрамне стране нападнуте, и притом није онеспособљена (претворена у камен или друкчије ван строја)."
 
 #. [plague]: id=plague({TYPE}), type={TYPE}
 #. [plague]: id=plague, type=Walking Corpse
@@ -2732,26 +2577,14 @@ msgstr "куга"
 #. [plague]: id=plague({TYPE}), type={TYPE}
 #. +> stable
 #: data/core/macros/abilities.cfg:587
-#, fuzzy
-#| msgid ""
-#| "Plague:\n"
-#| "When a unit is killed by a Plague attack, that unit is replaced with a unit identical to and on the same side as the unit with the Plague attack. This doesn’t work on Undead or units in villages."
 msgid "When a unit is killed by a Plague attack, that unit is replaced with a unit identical to and on the same side as the unit with the Plague attack. This doesn’t work on Undead or units in villages."
-msgstr ""
-"Куга:\n"
-"Када јединица настрада под нападом куге, бива зам›ијењена истов›јетном јединицом али на страни оне која је бацила кугу. Не ради на немртвима или јединицама у селу."
+msgstr "Када јединица настрада под нападом куге, бива зам›ијењена истов›јетном јединицом али на страни оне која је бацила кугу. Не ради на немртвима или јединицама у селу."
 
 #. [plague]: id=plague, type=Walking Corpse
 #. +> stable
 #: data/core/macros/abilities.cfg:598
-#, fuzzy
-#| msgid ""
-#| "Plague:\n"
-#| "When a unit is killed by a Plague attack, that unit is replaced with a Walking Corpse on the same side as the unit with the Plague attack. This doesn’t work on Undead or units in villages."
 msgid "When a unit is killed by a Plague attack, that unit is replaced with a Walking Corpse on the same side as the unit with the Plague attack. This doesn’t work on Undead or units in villages."
-msgstr ""
-"Куга:\n"
-"Када јединица настрада под нападом куге, бива зам›ијењена бауљашем на страни оне која је бацила кугу. Ово не ради на немртвима или јединицама у селу."
+msgstr "Када јединица настрада под нападом куге, бива зам›ијењена бауљашем на страни оне која је бацила кугу. Ово не ради на немртвима или јединицама у селу."
 
 #. [slow]: id=slow
 #. +> stable
@@ -2762,14 +2595,8 @@ msgstr "успоравање"
 #. [slow]: id=slow
 #. +> stable
 #: data/core/macros/abilities.cfg:609
-#, fuzzy
-#| msgid ""
-#| "Slow:\n"
-#| "This attack slows the target until it ends a turn. Slow halves the damage caused by attacks and the movement cost for a slowed unit is doubled. A unit that is slowed will feature a snail icon in its sidebar information when it is selected."
 msgid "This attack slows the target until it ends a turn. Slow halves the damage caused by attacks and the movement cost for a slowed unit is doubled. A unit that is slowed will feature a snail icon in its sidebar information when it is selected."
-msgstr ""
-"Успоравање:\n"
-"Напад успорава циљану јединицу док не заврши потез. Штета коју јединица чини у нападу тиме бива преполовљена, а трошак кретања јој је удвостручен. Успорена јединица носиће икону пужа у подацима са стране када се изабере."
+msgstr "Напад успорава циљану јединицу док не заврши потез. Штета коју јединица чини у нападу тиме бива преполовљена, а трошак кретања јој је удвостручен. Успорена јединица носиће икону пужа у подацима са стране када се изабере."
 
 #. [petrifies]: id=petrifies
 #. +> stable
@@ -2780,14 +2607,8 @@ msgstr "окамењивање"
 #. [petrifies]: id=petrifies
 #. +> stable
 #: data/core/macros/abilities.cfg:619
-#, fuzzy
-#| msgid ""
-#| "Petrify:\n"
-#| "This attack petrifies the target, turning it to stone. Units that have been petrified may not move or attack."
 msgid "This attack petrifies the target, turning it to stone. Units that have been petrified may not move or attack."
-msgstr ""
-"Окамењивање:\n"
-"Напад претвара циљану јединицу у камен. Тада се она не може покретати нити нападати."
+msgstr "Напад претвара циљану јединицу у камен. Тада се она не може покретати нити нападати."
 
 #. [chance_to_hit]: id=marksman
 #. +> stable
@@ -2798,14 +2619,8 @@ msgstr "оштроокост"
 #. [chance_to_hit]: id=marksman
 #. +> stable
 #: data/core/macros/abilities.cfg:629
-#, fuzzy
-#| msgid ""
-#| "Marksman:\n"
-#| "When used offensively, this attack always has at least a 60% chance to hit."
 msgid "When used offensively, this attack always has at least a 60% chance to hit."
-msgstr ""
-"Оштроокост:\n"
-"При нападу, ув›ијек постоји барем 60% изгледа да дође до поготка."
+msgstr "При нападу, ув›ијек постоји барем 60% изгледа да дође до поготка."
 
 #. [swarm]: id=swarm
 #. +> stable
@@ -2816,14 +2631,8 @@ msgstr "рој"
 #. [swarm]: id=swarm
 #. +> stable
 #: data/core/macros/abilities.cfg:654
-#, fuzzy
-#| msgid ""
-#| "Swarm:\n"
-#| "The number of strikes of this attack decreases when the unit is wounded. The number of strikes is proportional to the percentage of its of maximum HP the unit has. For example a unit with 3/4 of its maximum HP will get 3/4 of the number of strikes."
 msgid "The number of strikes of this attack decreases when the unit is wounded. The number of strikes is proportional to the percentage of its of maximum HP the unit has. For example a unit with 3/4 of its maximum HP will get 3/4 of the number of strikes."
-msgstr ""
-"Рој:\n"
-"Број удара при нападу се смањује како јединица бива повређивана. Број напада је сразм›ијеран односу тренутних УП и највише УП које јединица може имати. На прим›јер, јединица са 3/4 пуних УП имаће 3/4 удара при нападу."
+msgstr "Број удара при нападу се смањује како јединица бива повређивана. Број напада је сразм›ијеран односу тренутних УП и највише УП које јединица може имати. На прим›јер, јединица са 3/4 пуних УП имаће 3/4 удара при нападу."
 
 #. [damage]: id=charge
 #. +> stable
@@ -2834,14 +2643,8 @@ msgstr "јуриш"
 #. [damage]: id=charge
 #. +> stable
 #: data/core/macros/abilities.cfg:664
-#, fuzzy
-#| msgid ""
-#| "Charge:\n"
-#| "When used offensively, this attack deals double damage to the target. It also causes this unit to take double damage from the target’s counterattack."
 msgid "When used offensively, this attack deals double damage to the target. It also causes this unit to take double damage from the target’s counterattack."
-msgstr ""
-"Јуриш:\n"
-"Употр›ијебљен офанзивно, овај напад наноси двоструку штету мети. Али такође доводи до двоструког оштећења уколико циљана јединица удари у противнападу."
+msgstr "Употр›ијебљен офанзивно, овај напад наноси двоструку штету мети. Али такође доводи до двоструког оштећења уколико циљана јединица удари у противнападу."
 
 #. [drains]: id=drains
 #. +> stable
@@ -2852,14 +2655,8 @@ msgstr "црпљење"
 #. [drains]: id=drains
 #. +> stable
 #: data/core/macros/abilities.cfg:677
-#, fuzzy
-#| msgid ""
-#| "Drain:\n"
-#| "This unit drains health from living units, healing itself for half the amount of damage it deals (rounded down)."
 msgid "This unit drains health from living units, healing itself for half the amount of damage it deals (rounded down)."
-msgstr ""
-"Црпљење:\n"
-"Јединица црпи здравље животних јединица, л›ијечећи себе у износу половине штете коју нанесе (заокружено надоле)."
+msgstr "Јединица црпи здравље животних јединица, л›ијечећи себе у износу половине штете коју нанесе (заокружено надоле)."
 
 #. [poison]: id=poison
 #. +> stable
@@ -2870,14 +2667,8 @@ msgstr "отров"
 #. [poison]: id=poison
 #. +> stable
 #: data/core/macros/abilities.cfg:697
-#, fuzzy
-#| msgid ""
-#| "Poison:\n"
-#| "This attack poisons living targets. Poisoned units lose 8 HP every turn until they are cured or are reduced to 1 HP. Poison can not, of itself, kill a unit."
 msgid "This attack poisons living targets. Poisoned units lose 8 HP every turn until they are cured or are reduced to 1 HP. Poison can not, of itself, kill a unit."
-msgstr ""
-"Отров:\n"
-"Овај напад трује животне мете. Отроване јединице губе 8 УП по потезу, док не буду исц›ијељене или сведене на 1 УП. Отров не може сам по себи докрајчити јединицу."
+msgstr "Овај напад трује животне мете. Отроване јединице губе 8 УП по потезу, док не буду исц›ијељене или сведене на 1 УП. Отров не може сам по себи докрајчити јединицу."
 
 #. [advancement]: id=amla_default
 #. +> stable
@@ -3034,110 +2825,92 @@ msgstr "прва стража четврти час"
 #. [time]: id=dawn1
 #. +> stable
 #: data/core/macros/schedules.cfg:478
-#, fuzzy
-#| msgid "First Watch"
 msgid "First Dawn"
-msgstr "прва стража"
+msgstr "прва зора"
 
 #. [time]: id=dawn2
 #. +> stable
 #: data/core/macros/schedules.cfg:488
-#, fuzzy
-#| msgid "Second Watch"
 msgid "Second Dawn"
-msgstr "друга стража"
+msgstr "друга зора"
 
 #. [time]: id=morning1
 #. +> stable
 #: data/core/macros/schedules.cfg:498
-#, fuzzy
-#| msgid "Morning"
 msgid "First Morning"
-msgstr "јутро"
+msgstr "прво јутро"
 
 #. [time]: id=morning2
 #. +> stable
 #: data/core/macros/schedules.cfg:507
-#, fuzzy
-#| msgid "Morning"
 msgid "Second Morning"
-msgstr "јутро"
+msgstr "друго јутро"
 
 #. [time]: id=midday1
 #. +> stable
 #: data/core/macros/schedules.cfg:516
-#, fuzzy
-#| msgid "Midday"
 msgid "First Midday"
-msgstr "подне"
+msgstr "прво подне"
 
 #. [time]: id=midday2
 #. +> stable
 #: data/core/macros/schedules.cfg:525
-#, fuzzy
-#| msgid "Second Watch"
 msgid "Second Midday"
-msgstr "друга стража"
+msgstr "друго подне"
 
 #. [time]: id=afternoon1
 #. +> stable
 #: data/core/macros/schedules.cfg:534
-#, fuzzy
-#| msgid "Afternoon"
 msgid "First Afternoon"
-msgstr "поподне"
+msgstr "прво поподне"
 
 #. [time]: id=afternoon2
 #. +> stable
 #: data/core/macros/schedules.cfg:543
-#, fuzzy
-#| msgid "Afternoon"
 msgid "Second Afternoon"
-msgstr "поподне"
+msgstr "друго поподне"
 
 #. [time]: id=dusk1
 #. +> stable
 #: data/core/macros/schedules.cfg:552
 msgid "First Dusk"
-msgstr ""
+msgstr "први сумрак"
 
 #. [time]: id=dusk2
 #. +> stable
 #: data/core/macros/schedules.cfg:562
-#, fuzzy
-#| msgid "Second Watch"
 msgid "Second Dusk"
-msgstr "друга стража"
+msgstr "други сумрак"
 
 #. [time]: id=short_dark
 #. +> stable
 #: data/core/macros/schedules.cfg:572
 msgid "The Short Dark"
-msgstr ""
+msgstr "кратка тама"
 
 #. [time]: id=long_dark1
 #. +> stable
 #: data/core/macros/schedules.cfg:584
 msgid "The Long Dark (1)"
-msgstr ""
+msgstr "дуга тама (1)"
 
 #. [time]: id=long_dark2
 #. +> stable
 #: data/core/macros/schedules.cfg:596
 msgid "The Long Dark (2)"
-msgstr ""
+msgstr "дуга тама (2)"
 
 #. [time]: id=long_dark3
 #. +> stable
 #: data/core/macros/schedules.cfg:610
 msgid "The Long Dark (3)"
-msgstr ""
+msgstr "дуга тама (3)"
 
 #. [time]: id=long_dark4
 #. +> stable
 #: data/core/macros/schedules.cfg:622
 msgid "The Long Dark (4)"
-msgstr ""
+msgstr "дуга тама (4)"
 
 #. +> stable
 #: data/core/macros/special-notes.cfg:3
@@ -3587,21 +3360,6 @@ msgstr "змагови"
 #. [race]: id=drake
 #. +> stable
 #: data/core/units.cfg:58
-#, fuzzy
-#| msgid ""
-#| "Drakes are large, winged and fire-breathing creatures, reminiscent of true dragons. On average, an adult drake stands around three meters tall and easily weighs more than a man and a horse combined. Their skin is made up of hard scales, resistant to most physical strikes except piercing and cold damage. Most drakes are capable of true flight and can travel long distances quickly. However, their sheer weight and bulk limits their flight ability somewhat, making them ungainly in the air. Where possible, they make use of terrain features such as hills, mountains and trees as launch points in order to gain greater height and speed. Fortunately for their enemies, they are still quite clumsy creatures and surprisingly slow in combat. This, combined with their large size, renders them easy targets for those who dare attack them.\n"
-#| "\n"
-#| "Drakes are inherently magical creatures, with a mysterious internal fire fueling their very lives. This can easily be witnessed when one of their kind perishes in combat; its internal fire is released, burning their remains in to ashes. Their internal fire is also their greatest weakness; it makes them extremely vulnerable to cold attacks. Despite their magical nature, drakes are incapable of channeling magic in a controlled manner. While the magic imbued within a drake’s body enables it to spit fire and gives it life, they have no willful control over its functions of this magic.\n"
-#| "\n"
-#| "<header>text='Society'</header>\n"
-#| "Drakes are a relatively warlike race and their societies can be best described as cultured martial societies. The core of a drake tribe is a small group of veteran warriors headed by a mutually respected — or simply feared — <ref>dst='dominant' text='dominant'</ref> who rules the society with an iron fist. Every drake is expected to earn their place in the strict hierarchy, to obey their superiors and command their inferiors. Entry to the ruling elite is only possible through challenging and defeating a superior in single combat, which is the way the hierarchy within the elite itself is established. The use of deception of any kind towards any fellow drake is, without exception, seen as cowardly and unacceptable.\n"
-#| "\n"
-#| "While their warlike nature and sense of territory drives them to defend their territories savagely, drakes rarely invade or trespass on areas already occupied by the other major races. Instead, they settle in unpopulated areas to establish their own territory there. They primarily feed on large game they hunt in the lowlands around their homes, but hatchlings and lower caste drakes are known to feed also on certain of moss and fungi they cultivate deep in their caverns. The only technology drakes value is armor- and weapon-smithing, and neither know or need other science and culture besides this. However the few implements they do fashion are almost unrivaled in quality, only matched by those produced in the finest Dwarvish foundries.\n"
-#| "\n"
-#| "Drakes are hatched from eggs and usually live naturally between 20 to 30 years. Death in battle is the most preferred way for a drake to leave this world. Unlike the elder members of other races, drakes naturally grow more aggressive and reckless towards the ends of their natural lives, perhaps to help ensure their place in the heroic legends of their kind.\n"
-#| "\n"
-#| "<header>text='Geography'</header>\n"
-#| "Drakes originated from an archipelago of volcanic islands called <ref>dst='morogor' text='Morogor'</ref> in the <ref>dst='great_ocean' text='Great Ocean'</ref>. A combination of population pressure and the subsidence of many of their home islands has caused colonies of drakes to spread to the <ref>dst='great_continent' text='Great Continent'</ref>. Drakes tend to make their homes in mountain caverns near volcanoes to protect their eggs, hatchings and forges. While drakes naturally prefer warmth, their internal fire is more than capable of sustaining them even in a relatively cold climate, a feature which has allowed them to populate even some of the mountains of the far north of the Great Continent."
 msgid ""
 "Drakes are large, winged and fire-breathing creatures, reminiscent of true dragons. On average, an adult drake stands around three meters tall and easily weighs more than a man and a horse combined. Their skin is made up of hard scales, resistant to most physical strikes except piercing and cold damage. Most drakes are capable of true flight and can travel long distances quickly. However, their sheer weight and bulk limits their flight ability somewhat, making them ungainly in the air. Where possible, they make use of terrain features such as hills, mountains and trees as launch points in order to gain greater height and speed. Fortunately for their enemies, they are still quite clumsy creatures and surprisingly slow in combat. This, combined with their large size, renders them easy targets for those who dare attack them.\n"
 "\n"
@@ -3718,21 +3476,21 @@ msgstr ""
 #: data/core/units.cfg:132
 msgctxt "race"
 msgid "Falcon"
-msgstr ""
+msgstr "соко"
 
 #. [race]: id=falcon, description=
 #. +> stable
 #: data/core/units.cfg:133
 msgctxt "race+female"
 msgid "Falcon"
-msgstr ""
+msgstr "соколица"
 
 #. [race]: id=falcon, description=
 #. +> stable
 #: data/core/units.cfg:134
 msgctxt "race"
 msgid "Falcons"
-msgstr ""
+msgstr "соколи"
 
 #. [race]: id=goblin
 #. +> stable
@@ -3836,27 +3594,27 @@ msgstr ""
 #: data/core/units.cfg:199
 msgctxt "race"
 msgid "Khalifate Human"
-msgstr ""
+msgstr "калифаћанин"
 
 #. [race]: id=khalifate
 #. +> stable
 #: data/core/units.cfg:200
 msgctxt "race+female"
 msgid "Khalifate Human"
-msgstr ""
+msgstr "калифаћанка"
 
 #. [race]: id=khalifate
 #. +> stable
 #: data/core/units.cfg:201
 msgctxt "race+plural"
 msgid "Khalifate"
-msgstr ""
+msgstr "калифаћани"
 
 #. [race]: id=khalifate
 #. +> stable
 #: data/core/units.cfg:202
 msgid "This race does not have a description yet."
-msgstr ""
+msgstr "Ова раса још нема опис."
 
 #. [race]: id=lizard, description=
 #. +> stable
@@ -4004,8 +3762,6 @@ msgstr "огрови"
 #. [race]: id=ogre
 #. +> stable
 #: data/core/units.cfg:272
-#, fuzzy
-#| msgid "Ogres are a wild and uncivilized race who dwell mainly in the wilderness of the Great Continent. Physically, they resemble humans and orcs but are larger and stronger. Even their adolescents are more than a match for most men. Ogres are distrusted in many populated areas and usually either avoid them or are driven out by force. Instead, they lurk the mountainous areas on the edges of civilization, where hungry ogre bandits provide a constant threat to travelers and caravans. While ogres are not particularly intelligent or quick, their toughness and physical strength make them a valuable asset in the armies of other races. They are especially valued by more ruthless commanders who don't mind the ogres' brutality. Little is known about their biology or society, if they can truly be said to have one, but they are said to attack alongside wolves and other beasts. Whether this is a sign of cooperation, domestication, or simply mutual opportunism is not known."
 msgid "Ogres are a wild and uncivilized race who dwell mainly in the wilderness of the Great Continent. Physically, they resemble humans and orcs but are larger and stronger. Even their adolescents are more than a match for most men. Ogres are distrusted in many populated areas and usually either avoid them or are driven out by force. Instead, they lurk the mountainous areas on the edges of civilization, where hungry ogre bandits provide a constant threat to travelers and caravans. While ogres are not particularly intelligent or quick, their toughness and physical strength make them a valuable asset in the armies of other races. They are especially valued by more ruthless commanders who don’t mind the ogres’ brutality. Little is known about their biology or society, if they can truly be said to have one, but they are said to attack alongside wolves and other beasts. Whether this is a sign of cooperation, domestication, or simply mutual opportunism is not known."
 msgstr "Огрови су дивља и нецивилизована раса што пребива углавном по дивљинама Великог континента. Физички наликују људима и орковима, али су већи и јачи. Чак су и млади огрови више него равни већини људи. У многим насељеним подручјима не трпе огрове, тако да их огрови што избегавају што бивају силом избацивани. Уместо тога вребају у планинским областима на рубовима цивилизације, где су гладни огровски разбојници стална претња путницима и караванима. Иако огрови нису посебно оштроумни нити брзи, због своје жилавости и физичке снаге радо су виђени у војскама других раса. Посебно их цене безобзирнији заповедници којима не смета огровска суровост. Мало се зна о биологији и друштвеним односима огрова, ако се уопште може рећи да их имају, али се прича да нападају заједно са вуковима и другим зверима. Да ли је то знак сарадње, припитомљавања или просто обостраног опортунизма, није познато."
 
@@ -4119,14 +3875,6 @@ msgstr "немртви"
 #. [race]: id=undead
 #. +> stable
 #: data/core/units.cfg:325
-#, fuzzy
-#| msgid ""
-#| "Undead are not really a single race of creatures, although often treated as such. Almost any dead creature can, by a sufficiently skilled necromancer, be reanimated and rise again in undeath. Undead are for the most part unnatural but mindless constructs, obeying whoever created them without question nor thought. A greater mystery of necromancy is in how constructs are sustained without continuous effort from the necromancer. An undead creature does not require the constant attention of the necromancer to command and sustain, but can work autonomously according to the commands of it’s master. Only rarely, perhaps once every few months, does the necromancer need to maintain his creation.\n"
-#| "\n"
-#| "Necromancy is almost solely limited to humans. Even the legends of magically apt races like elves and mermen tell of very few of their kind who have ever delved in the dark arts. It is surmised that necromantic magic requires great adaptability and a flexible mind, extremes of which are most commonly found in humans. The ultimate goal of most necromancers is to turn the same art of preserving and imbuing life upon themselves, to alter themselves at whatever cost, to ultimately escape death by preserving their own mind and spirit.\n"
-#| "\n"
-#| "<header>text='Geography'</header>\n"
-#| "While undead lords arrived on the Great Continent in considerable numbers only in the wake of Haldric I, they were not completely unheard of by elves and dwarves before that."
 msgid ""
 "Undead are not really a single race of creatures, although often treated as such. Almost any dead creature can, by a sufficiently skilled necromancer, be reanimated and rise again in undeath. Undead are for the most part unnatural but mindless constructs, obeying whoever created them without question nor thought. A greater mystery of necromancy is in how constructs are sustained without continuous effort from the necromancer. An undead creature does not require the constant attention of the necromancer to command and sustain, but can work autonomously according to the commands of its master. Only rarely, perhaps once every few months, does the necromancer need to maintain his creation.\n"
 "\n"
@@ -4180,6 +3928,7 @@ msgstr "ивери"
 #. [race]: id=wose
 #. +> stable
 #: data/core/units.cfg:352
+#, untranslated
 msgid ""
 "The mighty wose resides within the deepest forests of the known world. To the untrained eye, the wose appears to be nothing more than an oddly shaped, yet noble, tree. As guardians of the forest, the woses share a deeper connection to the woodlands than even the elves. While the woses are a peaceful race, disturbance of the ancient forests, which they tend, will incite the wrath of nature itself. Woses are slow moving creatures that may spend centuries standing in one location undisturbed by the ebb and flow of time.\n"
 "\n"
@@ -4189,6 +3938,13 @@ msgid ""
 "\n"
 "The life span of the wose is unknown, although the most ancient members of this race have lived many hundreds of years and have grown to massive heights. It is thought that unless a wose falls in battle, it will find no natural end. Content to pass the centuries standing like a sentry, uninterested in the goings-on of the civilized world, the wose will stir only to march to the defense of the natural world and the forests it calls home."
 msgstr ""
+"Моћни ивери пребивају у најдубљим шумама познатог света. Неувежбаном оку један ивер не изгледа ништа другачије од дрвета чудног облика и извесне префињености. Као чувари шуме, ивери негују дубљу везу са дрвећем него чак и вилењаци. Иако су ивери мирољубива раса, узнемиравање прастарих шума, о којима се старају, изазваће бес саме природе. Ивери су створења која се споро крећу, и могу провести векове стојећи на истом месту, неузнемирени плимама и осекама времена.\n"
+"\n"
+"Иако се сами не упуштају у магију, ивери имају дубоку везу са вилинским. Оно мало што се зна о овој прастарој раси долази од вилењачких учењака, који верују да је та тајанствена моћ, којој су најмоћнији вилењаци посветили читав век да њоме завладају, иверима урођена. Иако ивери наликују дрвећу, не потичу од истих предака. За ивере се верује да спадају у најстарија створења на свету, можда старија и од шума које насељавају, и нагађа се да је управо вилинска моћ дала овим бићима вечни задатак да се служе као заштитници шуме.\n"
+"\n"
+"Ивери нису ни најмање ратоборни и тешко се привољавају борби. Па ипак, одговориће слепим насиљем у одбрану својих шумских територија. Будући да се споро крећу, рањиви су изван шума. Због блиске везе са вилинским, ивери су посебно осетљиви на волшебно. Тврдо дрво, које чини ивера готово непробојним за физичке нападе, кобно је рањиво на пламен. Дебела кора и способност упрезања вилинске моћи у сврху брзог обнављања кад је рањен, омогућава иверу да одстоји непријатељски јуриш довољно дуго да успе да узврати разарајућом снагом, запањујућом према његовој мирној, тромој природи. Унутар свог шумског дома, ивер може да се утопи у дрвеће и ухвати у заседу чак и најувежбанијег вилењачког извиђача.\n"
+"\n"
+"Животни век ивера није познат, мада најдревнији чланови ове расе живе већ стотинама година и досежу стрмоглаве висине. Сматра се да ако ивер не падне у бици, неће му бити природног краја. Вољни да пропусте векове стојећи као стражари, неометени догађањима у цивилизованом свету, ивери ће се ускомешати само у одбрану природног света и шума које сматрају својим домовима."
 
 #. +> stable
 #: src/help.cpp:52
@@ -4232,10 +3988,8 @@ msgstr "Фракције се користе само у вишеигрању"
 
 #. +> stable
 #: src/help.cpp:1327
-#, fuzzy
-#| msgid "Terrain"
 msgid "Base Terrain: "
-msgstr "терен"
+msgstr "базни терен: "
 
 #. +> stable
 #: src/help.cpp:1410
@@ -4255,19 +4009,17 @@ msgstr "може постати: "
 #. +> stable
 #: src/help.cpp:1470
 msgid "Base unit: "
-msgstr ""
+msgstr "базна јединица: "
 
 #. +> stable
 #: src/help.cpp:1475
 msgid "Base units: "
-msgstr ""
+msgstr "базне јединице: "
 
 #. +> stable
 #: src/help.cpp:1493
-#, fuzzy
-#| msgid "Factions:"
 msgid "Variations: "
-msgstr "фракције:"
+msgstr "варијације: "
 
 #. +> stable
 #: src/help.cpp:1517 src/help.cpp:1894 src/help.cpp:2038
@@ -4304,12 +4056,12 @@ msgstr "кретање: "
 #. +> stable
 #: src/help.cpp:1560
 msgid "Vision: "
-msgstr ""
+msgstr "доглед: "
 
 #. +> stable
 #: src/help.cpp:1562
 msgid "Jamming: "
-msgstr ""
+msgstr "ометање: "
 
 #. +> stable
 #: src/help.cpp:1563
@@ -4398,12 +4150,12 @@ msgstr "трошак кретања"
 #. +> stable
 #: src/help.cpp:1682
 msgid "Vision Cost"
-msgstr ""
+msgstr "трошак догледа"
 
 #. +> stable
 #: src/help.cpp:1685
 msgid "Jamming Cost"
-msgstr ""
+msgstr "трошак ометања"
 
 #. +> stable
 #: src/help.cpp:2044
