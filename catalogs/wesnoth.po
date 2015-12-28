@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2015-08-12 20:41+0200\n"
-"PO-Revision-Date: 2015-08-12 20:34+0200\n"
+"PO-Revision-Date: 2015-12-28 15:17+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -2821,34 +2821,32 @@ msgstr "Прескочи анимацију"
 msgid "Replay"
 msgstr "Снимак"
 
+# ‘потез’ је већ заузето
 #. [action]: id=button-nextmove, type=image
 #. +> stable
 #: data/themes/_initial.cfg:600
-#, fuzzy
-#| msgid "Next Side"
 msgid "Next Move"
-msgstr "С‹љедећа страна"
+msgstr "С‹љедећи покрет"
 
+# ‘потез’ је већ заузето
 #. [action]: id=button-nextmove, type=image
 #. +> stable
 #: data/themes/_initial.cfg:601
-#, fuzzy
-#| msgid "play side turn"
 msgid "play single move"
-msgstr "пусти потез стране"
+msgstr "пусти један покрет"
 
 #. [theme]: id=Classic
 #. +> stable
 #: data/themes/classic.cfg:11
 msgctxt "theme"
 msgid "Classic"
-msgstr ""
+msgstr "Класична"
 
 #. [theme]: id=Classic
 #. +> stable
 #: data/themes/classic.cfg:13
 msgid "The classic, pre-1.12 theme"
-msgstr ""
+msgstr "Класична тема, пре 1.12"
 
 #. [menu]: id=menu-main
 #. +> stable
@@ -2957,10 +2955,8 @@ msgstr "Подразумевана"
 #. [theme]: id=Default
 #. +> stable
 #: data/themes/default.cfg:33
-#, fuzzy
-#| msgid "Default theme."
 msgid "The default theme"
-msgstr "Подразумевана тема."
+msgstr "Подразумевана тема"
 
 #. [menu]: id=menu-autosaves
 #. +> stable
@@ -3000,10 +2996,8 @@ msgstr "Пандора"
 #. [theme]: id=Pandora
 #. +> stable
 #: data/themes/pandora.cfg:21
-#, fuzzy
-#| msgid "800x480 theme optimized for Pandora devices."
 msgid "An 800×480 theme optimized for Pandora devices"
-msgstr "800×400 тема прилагођена уређајима пандора."
+msgstr "800×400 тема прилагођена уређајима пандора"
 
 # као и порука „End Turn“
 #. [action]: id=end-turn
@@ -3030,13 +3024,13 @@ msgstr "<i>— Пројектни водич Веснота</i>"
 #. +> stable
 #: data/tips.cfg:8
 msgid "Create a <i>New Scenario</i> in the editor's <i>File</i> menu to make use of advanced features."
-msgstr ""
+msgstr "Направите <i>нови сценарио</i> из менија <i>~%/File/</i> у уређивачу да искористите напредне могућности."
 
 #. [tip]
 #. +> stable
 #: data/tips.cfg:12
 msgid "Scenarios saved from the editor in their default folder can be selected in the mp create screen's <i>User Scenarios</i> section."
-msgstr ""
+msgstr "Сценарији сачувани кроз уређивач у подразумеваној фасцикли могу да се изаберу на вишеиграчком екрану под одељком <i>~%/User Scenarios/</i>."
 
 # >> Great Mage Delfador
 #. [tip]
@@ -3536,8 +3530,6 @@ msgstr "Морате имати вођа да бисте сазивали."
 
 #. +> stable
 #: src/actions/create.cpp:612
-#, fuzzy
-#| msgid "None of your leaders is able to recall that unit."
 msgid "None of your leaders are able to recall that unit."
 msgstr "Ниједан од ваших вођа не може да сазове ту јединцу."
 
@@ -3554,7 +3546,7 @@ msgstr "У замку нема више слободних поља за саз�
 #. +> stable
 #: src/actions/create.cpp:630 src/actions/create.cpp:766
 msgid "An unrecognized error has occurred."
-msgstr ""
+msgstr "Непозната грешка."
 
 #. +> stable
 #: src/actions/create.cpp:744
@@ -3563,10 +3555,8 @@ msgstr "Морате имати вођа да бисте унајмљивали.
 
 #. +> stable
 #: src/actions/create.cpp:748
-#, fuzzy
-#| msgid "None of your leaders is able to recall that unit."
 msgid "None of your leaders are able to recruit that unit."
-msgstr "Ниједан од ваших вођа не може да сазове ту јединцу."
+msgstr "Ниједан од ваших вођа не може да унајми ту јединцу."
 
 #. +> stable
 #: src/actions/create.cpp:752
@@ -3581,13 +3571,13 @@ msgstr "У замку нема више слободних поља за уна�
 #. +> stable
 #: src/actions/heal.cpp:278
 msgid "cured"
-msgstr ""
+msgstr "исц›јељен"
 
 #. +> stable
 #: src/actions/heal.cpp:278
 msgctxt "female"
 msgid "cured"
-msgstr ""
+msgstr "исц›јељена"
 
 #. +> stable
 #: src/actions/move.cpp:595
@@ -3649,59 +3639,43 @@ msgstr "(притисните $hotkey да продужи)"
 
 #. +> stable
 #: src/addon/client.cpp:68
-#, fuzzy
-#| msgid "Connecting to Server..."
 msgid "Connecting to $server_address|..."
-msgstr "Повезујем се са сервером..."
+msgstr "Повезујем се са $server_address|..."
 
 #. +> stable
 #: src/addon/client.cpp:80
-#, fuzzy
-#| msgid "Requesting list of add-ons"
 msgid "Downloading list of add-ons..."
-msgstr "Тражим списак додатака"
+msgstr "Преузимам списак додатака..."
 
 #. +> stable
 #: src/addon/client.cpp:94
-#, fuzzy
-#| msgid "Requesting terms"
 msgid "Requesting distribution terms..."
-msgstr "Тражим услове"
+msgstr "Тражим услове дистрибуирања..."
 
 #. +> stable
 #: src/addon/client.cpp:143
-#, fuzzy
-#| msgid "Downloading add-on: $addon_title|..."
 msgid "Sending add-on <i>$addon_title</i>..."
-msgstr "Преузимам додатак: $addon_title|..."
+msgstr "Шаљем додатак <i>$addon_title</i>..."
 
 #. +> stable
 #: src/addon/client.cpp:177
-#, fuzzy
-#| msgid "Downloading add-on: $addon_title|..."
 msgid "Removing add-on <i>$addon_title</i> from the server..."
-msgstr "Преузимам додатак: $addon_title|..."
+msgstr "Уклањам додатак <i>$addon_title</i> са сервера..."
 
 #. +> stable
 #: src/addon/client.cpp:204
-#, fuzzy
-#| msgid "Downloading add-on: $addon_title|..."
 msgid "Downloading add-on <i>$addon_title</i>..."
-msgstr "Преузимам додатак: $addon_title|..."
+msgstr "Преузимам додатак <i>$addon_title</i>..."
 
 #. +> stable
 #: src/addon/client.cpp:218
-#, fuzzy
-#| msgid "The add-on has an invalid file or directory name and cannot be installed."
 msgid "The add-on <i>$addon_title</i> has an invalid file or directory name and cannot be installed."
-msgstr "Додатак има лоше име датотеке или фасцикле и не може се инсталирати."
+msgstr "Додатак <i>$addon_title</i> има лоше име датотеке или фасцикле и не може се инсталирати."
 
 #. +> stable
 #: src/addon/client.cpp:306 src/addon/manager_ui.cpp:751
-#, fuzzy
-#| msgid "Add-on Installed"
 msgid "Add-ons Manager"
-msgstr "Додатак инсталиран"
+msgstr "Менаџер додатака"
 
 #. +> stable
 #: src/addon/info.cpp:156
@@ -3715,15 +3689,12 @@ msgctxt "addon_type"
 msgid "Scenario"
 msgstr "сценарио"
 
-# well-spelled: вигр
+# well-spelled: јигр, вигр
 #. +> stable
 #: src/addon/info.cpp:160
-#, fuzzy
-#| msgctxt "addon_type"
-#| msgid "MP campaign"
 msgctxt "addon_type"
 msgid "SP/MP Campaign"
-msgstr "вигр. поход"
+msgstr "јигр/вигр. поход"
 
 # well-spelled: вигр
 #. +> stable
@@ -3763,12 +3734,9 @@ msgstr "вигр. поход"
 # well-spelled: вигр
 #. +> stable
 #: src/addon/info.cpp:172
-#, fuzzy
-#| msgctxt "addon_type"
-#| msgid "MP faction"
 msgctxt "addon_type"
 msgid "MP modification"
-msgstr "вигр. фракција"
+msgstr "вигр. модификација"
 
 #. +> stable
 #: src/addon/info.cpp:174
@@ -3796,121 +3764,111 @@ msgstr "B"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:97
-#, fuzzy
-#| msgid "Add-on Installed"
 msgctxt "addon_state"
 msgid "Not installed"
-msgstr "Додатак инсталиран"
+msgstr "није инсталиран"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:97
 msgctxt "addon_state"
 msgid "Published, not installed"
-msgstr ""
+msgstr "објављен, није инсталиран"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:104
-#, fuzzy
-#| msgid "Add-on Installed"
 msgctxt "addon_state"
 msgid "Installed"
-msgstr "Додатак инсталиран"
+msgstr "инсталиран"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:104
-#, fuzzy
-#| msgid "Publish add-on: "
 msgctxt "addon_state"
 msgid "Published"
-msgstr "Објави додатак: "
+msgstr "објављен"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:107
 msgctxt "addon_state"
 msgid "Installed, upgradable"
-msgstr ""
+msgstr "инсталиран, надоградив"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:107
 msgctxt "addon_state"
 msgid "Published, upgradable"
-msgstr ""
+msgstr "објављен, надоградив"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:110
 msgctxt "addon_state"
 msgid "Installed, outdated on server"
-msgstr ""
+msgstr "инсталиран, застарео на серверу"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:110
 msgctxt "addon_state"
 msgid "Published, outdated on server"
-msgstr ""
+msgstr "објављен, застарео на серверу"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:113
 msgctxt "addon_state"
 msgid "Installed, broken"
-msgstr ""
+msgstr "инсталиран, покварен"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:113
-#, fuzzy
-#| msgid "Publish add-on: "
 msgctxt "addon_state"
 msgid "Published, broken"
-msgstr "Објави додатак: "
+msgstr "објављен, покварен"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:115
-#, fuzzy
-#| msgid "Unknown era"
 msgctxt "addon_state"
 msgid "Unknown"
-msgstr "непозната епоха"
+msgstr "непознат"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:148
-#, fuzzy
-#| msgid "The selected add-on has the following dependency. Do you want to install it?"
-#| msgid_plural "The selected add-on has the following dependencies. Do you want to install them?"
 msgid "The selected add-on has the following dependency, which is not currently installed or available from the server. Do you wish to continue?"
 msgid_plural "The selected add-on has the following dependencies, which are not currently installed or available from the server. Do you wish to continue?"
-msgstr[0] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?"
-msgstr[1] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?"
-msgstr[2] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?"
-msgstr[3] "Изабрани додатак има следећу зависност. Желите ли да је инсталирате?"
+msgstr[0] "Изабрани додатак има следеће зависности које тренутно нису инсталиране нити доступне на серверу. Желите ли да наставите?"
+msgstr[1] "Изабрани додатак има следеће зависности које тренутно нису инсталиране нити доступне на серверу. Желите ли да наставите?"
+msgstr[2] "Изабрани додатак има следеће зависности које тренутно нису инсталиране нити доступне на серверу. Желите ли да наставите?"
+msgstr[3] "Изабрани додатак има следећу зависност која тренутно није инсталирана нити доступна на серверу. Желите ли да наставите?"
 
 # >> @title:window
 #. +> stable
 #: src/addon/manager_ui.cpp:157
-#, fuzzy
-#| msgid "Install dependencies"
 msgid "Broken Dependencies"
-msgstr "Инсталирање зависности"
+msgstr "Покварене зависности"
 
+# >> @title:column
 #. +> stable
 #: src/addon/manager_ui.cpp:173 src/addon/manager_ui.cpp:582
 msgid "Author"
 msgstr "аутор"
 
+# >> @title:column
 #. +> stable
 #: src/addon/manager_ui.cpp:173 src/addon/manager_ui.cpp:576
 #: src/dialogs.cpp:277 src/dialogs.cpp:452 src/dialogs.cpp:875
 msgid "Name"
 msgstr "име"
 
+# >> @title:column
 #. +> stable
 #: src/addon/manager_ui.cpp:173 src/addon/manager_ui.cpp:580
 msgid "Version"
 msgstr "верзија"
 
+# >> @title:column
 #. +> stable
 #: src/addon/manager_ui.cpp:174 src/addon/manager_ui.cpp:582
 msgid "Size"
 msgstr "величина"
 
+# >> @title:column
 #. +> stable
 #: src/addon/manager_ui.cpp:174 src/addon/manager_ui.cpp:591
 #: src/dialogs.cpp:276 src/dialogs.cpp:451 src/menu_events.cpp:995
@@ -3920,69 +3878,61 @@ msgstr "тип"
 # >> @title:window
 #. +> stable
 #: src/addon/manager_ui.cpp:204
-#, fuzzy
-#| msgid "Install dependencies"
 msgid "Install Dependencies"
 msgstr "Инсталирање зависности"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:205
-#, fuzzy
-#| msgid "The selected add-on has the following dependency. Do you want to install it?"
-#| msgid_plural "The selected add-on has the following dependencies. Do you want to install them?"
 msgid "The selected add-on has the following dependency, which is not currently installed. Do you wish to install it before continuing?"
 msgid_plural "The selected add-on has the following dependencies, which are not currently installed. Do you wish to install them before continuing?"
-msgstr[0] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?"
-msgstr[1] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?"
-msgstr[2] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?"
-msgstr[3] "Изабрани додатак има следећу зависност. Желите ли да је инсталирате?"
+msgstr[0] "Изабрани додатак има следеће зависности које тренутно нису инсталиране. Желите ли да их инсталирате пре него што наставите?"
+msgstr[1] "Изабрани додатак има следеће зависности које тренутно нису инсталиране. Желите ли да их инсталирате пре него што наставите?"
+msgstr[2] "Изабрани додатак има следеће зависности које тренутно нису инсталиране. Желите ли да их инсталирате пре него што наставите?"
+msgstr[3] "Изабрани додатак има следећу зависност која тренутно није инсталирана. Желите ли да је инсталирате пре него што наставите?"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:241 src/addon/manager_ui.cpp:313
 #: src/addon/manager_ui.cpp:328 src/addon/manager_ui.cpp:333
 #: src/addon/manager_ui.cpp:884
-#, fuzzy
-#| msgid "The server responded with an error: \""
 msgid "The server responded with an error:"
-msgstr "Сервер је одговорио грешком: \""
+msgstr "Сервер је одговорио грешком:"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:252
 msgid "The following dependency could not be installed. Do you still wish to continue?"
 msgid_plural "The following dependencies could not be installed. Do you still wish to continue?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Следеће зависности не могу да се инсталирају. Желите ли свеједно да наставите?"
+msgstr[1] "Следеће зависности не могу да се инсталирају. Желите ли свеједно да наставите?"
+msgstr[2] "Следеће зависности не могу да се инсталирају. Желите ли свеједно да наставите?"
+msgstr[3] "Следећа зависност не може да се инсталира. Желите ли свеједно да наставите?"
 
+# >> @title:window
 #. +> stable
 #: src/addon/manager_ui.cpp:256
-#, fuzzy
-#| msgid "Installation failed"
 msgid "Dependencies Installation Failed"
-msgstr "Инсталирање није успело"
+msgstr "Инсталирање зависности није успело"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:279
 msgid "The add-on '$addon|' is already installed and contains additional information that will be permanently lost if you continue:"
-msgstr ""
+msgstr "Додатак ‘$addon|’ је већ инсталиран и садржи додатне податке који ће бити трајно изгубљени ако наставите:"
 
+# >> @item:intext
 #. +> stable
 #: src/addon/manager_ui.cpp:283
 msgid "Publishing information file (.pbl)"
-msgstr ""
+msgstr "датотека података о објављивању (.pbl)"
 
+# >> @item:intext
 #. +> stable
 #: src/addon/manager_ui.cpp:287
 msgid "Version control system (VCS) information"
-msgstr ""
+msgstr "подаци о систему управљања верзијама (СУВ)"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:291
-#, fuzzy
-#| msgid "Do you want to continue?"
 msgid "Do you really wish to continue?"
-msgstr "Желите ли да наставите?"
+msgstr "Желите ли заиста да наставите?"
 
 # >> @title:window
 #. +> stable
@@ -4007,38 +3957,33 @@ msgstr "Одзив"
 msgid "Terms"
 msgstr "Услови"
 
+# >> @title:column
 #. +> stable
 #: src/addon/manager_ui.cpp:578
-#, fuzzy
-#| msgid "New version"
 msgid "New Version"
 msgstr "нова верзија"
 
+# >> @title:column
 #. +> stable
 #: src/addon/manager_ui.cpp:578
-#, fuzzy
-#| msgid "Old version"
 msgid "Old Version"
 msgstr "стара верзија"
 
+# >> @title:column
 #. +> stable
 #: src/addon/manager_ui.cpp:591
 msgid "Downloads"
-msgstr "преузето"
+msgstr "преузимања"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:711
-#, fuzzy
-#| msgid "Publish add-on: "
 msgid "Publish: $addon_title"
-msgstr "Објави додатак: "
+msgstr "Објави: $addon_title"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:720
-#, fuzzy
-#| msgid "Delete add-on: "
 msgid "Delete: $addon_title"
-msgstr "Обриши додатак: "
+msgstr "Обриши: $addon_title"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:747
@@ -4047,10 +3992,8 @@ msgstr "На овом серверу нема додатака спремних 
 
 #. +> stable
 #: src/addon/manager_ui.cpp:748
-#, fuzzy
-#| msgid "There are no add-ons available for download from this server."
 msgid "There are no add-ons matching the specified criteria on this server."
-msgstr "На овом серверу нема додатака спремних за преузимање."
+msgstr "На овом серверу нема додатака који одговарају задатим критеријумима."
 
 #. +> stable
 #: src/addon/manager_ui.cpp:770 src/dialogs.cpp:534 src/dialogs.cpp:900
@@ -4065,18 +4008,14 @@ msgstr "Опис"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:783
-#, fuzzy
-#| msgid "Update all"
 msgid "Update All"
 msgstr "Ажурирај све"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:790
-#, fuzzy
-#| msgid "Actions"
 msgctxt "filter"
 msgid "Options"
-msgstr "Радње"
+msgstr "Опције"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:902
@@ -4085,11 +4024,8 @@ msgstr "Додатак инсталиран"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:902
-#, fuzzy
-#| msgid "Add-on Deleted"
-#| msgid_plural "Add-ons Deleted"
 msgid "Add-on Updated"
-msgstr "Додаци обрисани"
+msgstr "Додатак ажуриран"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:903
@@ -4098,32 +4034,23 @@ msgstr "Додатак ‘$addon_title|’ усп›јешно инсталир�
 
 #. +> stable
 #: src/addon/manager_ui.cpp:903
-#, fuzzy
-#| msgid "The add-on '$addon_title|' has been successfully installed."
 msgid "The add-on '$addon_title|' has been successfully updated."
-msgstr "Додатак ‘$addon_title|’ усп›јешно инсталиран."
+msgstr "Додатак ‘$addon_title|’ усп›јешно ажуриран."
 
 #. +> stable
 #: src/addon/manager_ui.cpp:908
-#, fuzzy
-#| msgid "Add-on Installed"
 msgid "Add-ons Installed"
-msgstr "Додатак инсталиран"
+msgstr "Додаци инсталирани"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:908
-#, fuzzy
-#| msgid "Add-on Deleted"
-#| msgid_plural "Add-ons Deleted"
 msgid "Add-ons Updated"
-msgstr "Додаци обрисани"
+msgstr "Додаци ажурирани"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:909
-#, fuzzy
-#| msgid "All add-ons updated successfully."
 msgid "All add-ons installed successfully."
-msgstr "Сви додаци усп›јешно ажурирани."
+msgstr "Сви додаци усп›јешно инсталирани."
 
 #. +> stable
 #: src/addon/manager_ui.cpp:909
@@ -4132,36 +4059,27 @@ msgstr "Сви додаци усп›јешно ажурирани."
 
 #. +> stable
 #: src/addon/manager_ui.cpp:913
-#, fuzzy
-#| msgid "Installation failed"
 msgid "Installation Failed"
-msgstr "Инсталирање није успело"
+msgstr "Инсталирање пропало"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:913
-#, fuzzy
-#| msgid "Update failed"
 msgid "Update Failed"
-msgstr "Ажурирање није усп›јело"
+msgstr "Ажурирање пропало"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:915
-#, fuzzy
-#| msgid "The following add-on could not be downloaded or updated successfully:"
-#| msgid_plural "The following add-ons could not be downloaded or updated successfully:"
 msgid "The following add-on could not be downloaded or installed successfully:"
 msgid_plural "The following add-ons could not be downloaded or installed successfully:"
-msgstr[0] "С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или ажурирати:"
-msgstr[1] "С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или ажурирати:"
-msgstr[2] "С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или ажурирати:"
-msgstr[3] "С‹љедећи додатак има грешку и не може се усп›јешно преузети или ажурирати:"
+msgstr[0] "С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или инсталирати:"
+msgstr[1] "С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или инсталирати:"
+msgstr[2] "С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или инсталирати:"
+msgstr[3] "С‹љедећи додатак има грешку и не може се усп›јешно преузети или инсталирати:"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:958 src/addon/manager_ui.cpp:968
-#, fuzzy
-#| msgid "An error occurred while communicating with the server."
 msgid "An error occurred while downloading the add-ons list from the server."
-msgstr "Грешка у комуникацији са сервером."
+msgstr "Грешка у преузимању листе додатака са сервера."
 
 #. +> stable
 #: src/addon/manager_ui.cpp:986
@@ -4186,11 +4104,15 @@ msgid ""
 "File: $path\n"
 "Error message: $msg"
 msgstr ""
+"Локална датотека са подацима о објављивању додатка не може да се прочита.\n"
+"\n"
+"Датотека: $path\n"
+"Порука грешке: $msg"
 
 #. +> stable
 #: src/addon/manager_ui.cpp:1010
 msgid "The add-ons server address specified is not valid."
-msgstr ""
+msgstr "Задата адреса сервера додатака није добра."
 
 #. +> stable
 #: src/addon/manager_ui.cpp:1024
@@ -4310,10 +4232,8 @@ msgstr "Желите ли заиста да га отпустите?"
 #. TRANSLATORS: this string ends with a space
 #. +> stable
 #: src/dialogs.cpp:107
-#, fuzzy
-#| msgid "My lord, this unit is loyal and requires no upkeep! "
 msgid "This unit is loyal and requires no upkeep. "
-msgstr "Господару, ова јединица је одана и не тражи издатке! "
+msgstr "Ова јединица је одана и не тражи издатке. "
 
 #. +> stable
 #: src/dialogs.cpp:108 src/dialogs.cpp:112 src/dialogs.cpp:117
@@ -4323,18 +4243,14 @@ msgstr "Желите ли заиста да је отпустите?"
 #. TRANSLATORS: this string ends with a space
 #. +> stable
 #: src/dialogs.cpp:111
-#, fuzzy
-#| msgid "My lord, this unit is an experienced one, having advanced levels! "
 msgid "This unit is an experienced one, having advanced levels. "
-msgstr "Господару, ова јединица је искусна, и на вишем нивоу! "
+msgstr "Ова јединица је искусна, и на вишем нивоу. "
 
 #. TRANSLATORS: this string ends with a space
 #. +> stable
 #: src/dialogs.cpp:116
-#, fuzzy
-#| msgid "My lord, this unit is close to advancing a level! "
 msgid "This unit is close to advancing a level. "
-msgstr "Господару, ова јединица је близу напредовању! "
+msgstr "Ова јединица је близу напредовању. "
 
 #. +> stable
 #: src/dialogs.cpp:121 src/dialogs.cpp:538
@@ -4492,15 +4408,13 @@ msgstr "Учитавање позиције"
 
 #. +> stable
 #: src/dialogs.cpp:907
-#, fuzzy
-#| msgid "Difficulty: "
 msgid "Change difficulty"
-msgstr "Тежина: "
+msgstr "Промени тежину"
 
 #. +> stable
 #: src/dialogs.cpp:910
 msgid "Change campaign difficulty before loading"
-msgstr ""
+msgstr "Промени тежину похода пре учитавања"
 
 #. +> stable
 #: src/dialogs.cpp:918
@@ -4510,7 +4424,7 @@ msgstr "Пусти снимак"
 #. +> stable
 #: src/dialogs.cpp:920
 msgid "Play the embedded replay from the saved game if applicable"
-msgstr ""
+msgstr "Пусти угнежђени снимак из позиције ако је могуће"
 
 #. +> stable
 #: src/dialogs.cpp:924
@@ -4520,7 +4434,7 @@ msgstr "Поништи наређења"
 #. +> stable
 #: src/dialogs.cpp:926
 msgid "Cancel any pending unit movements in the saved game"
-msgstr ""
+msgstr "Откажи све наступајуће покрете јединица у позицији"
 
 #. +> stable
 #: src/dialogs.cpp:933
@@ -4580,7 +4494,7 @@ msgstr "Не могу да нађем тип вођа за фракцију $fac
 #. +> stable
 #: src/flg_manager.cpp:303
 msgid "Cannot obtain genders for invalid leader $leader"
-msgstr ""
+msgstr "Не могу да добавим полове за лошег вођа $leader"
 
 # >> Datetime format, see 'man strftime' for possible placeholders.
 #. +> stable
@@ -4614,10 +4528,8 @@ msgstr "%b %d"
 # >> Datetime format, see 'man strftime' for possible placeholders.
 #. +> stable
 #: src/format_time_summary.cpp:65
-#, fuzzy
-#| msgid "%b %d %y"
 msgid "%b %d %Y"
-msgstr "%b %d %y"
+msgstr "%b %d %Y"
 
 #. +> stable
 #: src/game_config.cpp:354
@@ -4626,10 +4538,8 @@ msgstr "Лош опсег боја: "
 
 #. +> stable
 #: src/game_config_manager.cpp:180
-#, fuzzy
-#| msgid "Error loading game configuration files: '"
 msgid "Error loading game configuration files. The game will now exit."
-msgstr "Грешка при учитавању поставних датотека игре: '"
+msgstr "Грешка при учитавању поставних датотека игре. Игра ће бити напуштена."
 
 #. +> stable
 #: src/game_config_manager.cpp:279
@@ -4644,10 +4554,10 @@ msgstr[3] "С‹љедећи додатак има грешку и не може
 #: src/game_config_manager.cpp:283
 msgid "Please report this to the author or maintainer of this add-on."
 msgid_plural "Please report this to the respective authors or maintainers of these add-ons."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Пријавите ово ауторима или одржаваоцима ових додатака."
+msgstr[1] "Пријавите ово ауторима или одржаваоцима ових додатака."
+msgstr[2] "Пријавите ово ауторима или одржаваоцима ових додатака."
+msgstr[3] "Пријавите ово аутору или одржаваоцу овог додатка."
 
 #. +> stable
 #: src/game_controller.cpp:332 src/game_controller.cpp:936
@@ -4679,7 +4589,7 @@ msgstr "У/И грешка у датотеци приликом читања п�
 #. +> stable
 #: src/game_controller.cpp:543
 msgid "This is a multiplayer scenario. Some parts of it may not work properly in single-player. It is recommended to load this scenario through the <b>Multiplayer</b> → <b>Load Game</b> dialog instead."
-msgstr ""
+msgstr "Ово је вишеиграчки сценарио. Неки делови можда неће радити исправно у једноигрању. Боље учитајте овај сценарио преко <b>~%/Multiplayer/</b> → <b>~%/Load Game/</b>."
 
 #. +> stable
 #: src/game_controller.cpp:543 src/multiplayer.cpp:262
@@ -4716,10 +4626,8 @@ msgstr "Мапу игре није могуће учитати: "
 
 #. +> stable
 #: src/game_display.cpp:956 src/game_display.cpp:982
-#, fuzzy
-#| msgid "Chat message aging"
 msgid "Chat message"
-msgstr "Старење порука у ћаскању"
+msgstr "Порука у ћаскању"
 
 #. +> stable
 #: src/game_display.cpp:956 src/game_display.cpp:978
@@ -4865,25 +4773,23 @@ msgstr "Напусти"
 
 #. +> stable
 #: src/hotkey/command_executor.cpp:510 src/hotkey/command_executor.cpp:672
-#, fuzzy
-#| msgid "Do you really want to dismiss him?"
 msgid "Do you really want to quit?"
-msgstr "Желите ли заиста да га отпустите?"
+msgstr "Желите ли заиста да напустите?"
 
 #. +> stable
 #: src/hotkey/command_executor.cpp:627
 msgid "Map-Screenshot"
-msgstr ""
+msgstr "Снимак екрана мапе"
 
 #. +> stable
 #: src/hotkey/command_executor.cpp:627
 msgid "Screenshot"
-msgstr ""
+msgstr "Снимак екрана"
 
 #. +> stable
 #: src/hotkey/command_executor.cpp:634
 msgid "Screenshot Done"
-msgstr ""
+msgstr "Снимак екрана готов"
 
 #. +> stable
 #: src/intro.cpp:36
@@ -4982,17 +4888,12 @@ msgstr ""
 
 #. +> stable
 #: src/leader_scroll_dialog.cpp:190 src/menu_events.cpp:334
-#, fuzzy
-#| msgctxt "scenario settings"
-#| msgid ""
-#| "Gold Per\n"
-#| "Village"
 msgctxt "scenario settings"
 msgid ""
 "Support Per\n"
 "Village"
 msgstr ""
-"злата\n"
+"подршке\n"
 "по селу"
 
 #. +> stable
@@ -5209,10 +5110,8 @@ msgstr "Неке јединице се још могу кретати. Жели�
 
 #. +> stable
 #: src/menu_events.cpp:857
-#, fuzzy
-#| msgid "Some units have movement left. Do you really want to end your turn?"
 msgid "Some units have not moved. Do you really want to end your turn?"
-msgstr "Неке јединице се још могу кретати. Желите ли заиста да завршите потез?"
+msgstr "Неке јединице се нису померале. Желите ли заиста да завршите потез?"
 
 #. +> stable
 #: src/menu_events.cpp:909
@@ -5221,10 +5120,8 @@ msgstr "Преименуј јединицу"
 
 #. +> stable
 #: src/menu_events.cpp:910
-#, fuzzy
-#| msgid "Name: "
 msgid "Name:"
-msgstr "Име: "
+msgstr "Име:"
 
 #. +> stable
 #: src/menu_events.cpp:994
@@ -5545,10 +5442,8 @@ msgstr "[<страна> [on/off]]"
 
 #. +> stable
 #: src/menu_events.cpp:2060
-#, fuzzy
-#| msgid "Switch a side to/from AI control."
 msgid "Switch a side to/from idle state."
-msgstr "Даје или одузима управљање страном ВИ."
+msgstr "Ставља или уклања стање мировања страни."
 
 #. +> stable
 #: src/menu_events.cpp:2063
@@ -5563,12 +5458,12 @@ msgstr "Дод›јељује управљање страном другом и�
 #. +> stable
 #: src/menu_events.cpp:2065
 msgid "<side>"
-msgstr ""
+msgstr "<страна>"
 
 #. +> stable
 #: src/menu_events.cpp:2065
 msgid "Query the controller status of a side."
-msgstr ""
+msgstr "Испитује стање управљача страном."
 
 #. +> stable
 #: src/menu_events.cpp:2067
@@ -5905,10 +5800,8 @@ msgstr "тражим податке о кориснику $nick"
 
 #. +> stable
 #: src/menu_events.cpp:2635
-#, fuzzy
-#| msgid "Couldn't find label or unit containing the string '$search'."
 msgid "Could not find label or unit containing the string ‘$search’."
-msgstr "Не могу да нађем етикету или јединицу која садржи ‘$search|’."
+msgstr "Не могу да нађем етикету или јединицу која садржи ‘$search’."
 
 # well-spelled: дроидовати
 #. +> stable
@@ -5922,13 +5815,10 @@ msgstr "Не може се дроидовати лоша страна: ‘$side|
 msgid "Can't droid networked side: '$side'."
 msgstr "Не може се дроидовати умрежена страна: ‘$side|’."
 
-# well-spelled: дроидовати
 #. +> stable
 #: src/menu_events.cpp:2708
-#, fuzzy
-#| msgid "Can't droid invalid side: '$side'."
 msgid "Can't idle invalid side: '$side'."
-msgstr "Не може се дроидовати лоша страна: ‘$side|’."
+msgstr "Не може се ставити у мировање лоша страна: ‘$side|’."
 
 #. +> stable
 #: src/menu_events.cpp:2760
@@ -5942,17 +5832,13 @@ msgstr "Не може се пром›ијенити управљање над �
 
 #. +> stable
 #: src/menu_events.cpp:2781
-#, fuzzy
-#| msgid "Can't change control of invalid side: '$side'."
 msgid "Can't query control of invalid side: '$side'."
-msgstr "Не може се пром›ијенити управљање над лошом страном: ‘$side|’."
+msgstr "Не може се испитати управљање над лошом страном: ‘$side|’."
 
 #. +> stable
 #: src/menu_events.cpp:2787
-#, fuzzy
-#| msgid "Can't change control of out-of-bounds side: '$side'."
 msgid "Can't query control of out-of-bounds side: '$side'."
-msgstr "Не може се пром›ијенити управљање над страном ван граница: ‘$side|’."
+msgstr "Не може се испитати над страном ван граница: ‘$side|’."
 
 #. +> stable
 #: src/menu_events.cpp:2901
@@ -6058,39 +5944,33 @@ msgstr "Избор оружја:"
 # >> @title:window
 #. +> stable
 #: src/mp_depcheck.cpp:483
-#, fuzzy
-#| msgid "Install dependencies"
 msgid "Failed to resolve dependencies"
-msgstr "Инсталирање зависности"
+msgstr "Не могу да се разреше зависности"
 
 #. +> stable
 #: src/mp_depcheck.cpp:509
 msgid "Scenario can't be activated. Some dependencies are missing: "
-msgstr ""
+msgstr "Сценарио не може да се активира јер недостају неке зависности: "
 
 #. +> stable
 #: src/mp_depcheck.cpp:565 src/mp_depcheck.cpp:688
-#, fuzzy
-#| msgid "No eras found."
 msgid "No compatible eras found."
-msgstr "Нема ниједне епохе."
+msgstr "Нема ниједне сагласне епохе."
 
 #. +> stable
 #: src/mp_depcheck.cpp:581
 msgid "Era can't be activated. Some dependencies are missing: "
-msgstr ""
+msgstr "Епоха не може да се активира јер недостају неке зависности: "
 
 #. +> stable
 #: src/mp_depcheck.cpp:634 src/mp_depcheck.cpp:725
-#, fuzzy
-#| msgid "No multiplayer sides found"
 msgid "No compatible scenarios found."
-msgstr "Нема вишеиграчких страна"
+msgstr "Нема ниједног сагласног сценарија."
 
 #. +> stable
 #: src/mp_depcheck.cpp:663
 msgid "Not all of the chosen modifications are compatible. Some of them will be disabled."
-msgstr ""
+msgstr "Неке од изабраних модификација нису сагласне. Неке ће бити искључене."
 
 #. +> stable
 #: src/mp_game_utils.cpp:113
@@ -6119,10 +5999,8 @@ msgstr "Читам са сервера..."
 
 #. +> stable
 #: src/multiplayer.cpp:181
-#, fuzzy
-#| msgid "The server requires version '$version1' while you are using version '$version2'"
 msgid "The server accepts versions '$version1' while you are using version '$version2'"
-msgstr "Сервер захт›ијева верзију '$version1', док је ваша '$version2'."
+msgstr "Сервер прихвата верзије ‘$version1’, док је ваша ‘$version2’."
 
 #. +> stable
 #: src/multiplayer.cpp:192
@@ -6132,7 +6010,7 @@ msgstr "Петља преусм›јеравања на страни серве�
 #. +> stable
 #: src/multiplayer.cpp:251
 msgid "The nickname ‘$nick’ is inactive. You cannot claim ownership of this nickname until you activate your account via email or ask an administrator to do it for you."
-msgstr "Надимак „$nick“ није активан. Не можете тврдити власништво над овим надимком док не активирате свој налог, преко е-поште или захтевом администратору да то уради за вас."
+msgstr "Надимак ‘$nick’ није активан. Не можете тврдити власништво над овим надимком док не активирате свој налог, преко е-поште или захтевом администратору да то уради за вас."
 
 #. +> stable
 #: src/multiplayer.cpp:260
@@ -6207,10 +6085,8 @@ msgstr "Превише пута сте покушали да се пријави
 # >> @title:window
 #. +> stable
 #: src/multiplayer_configure.cpp:47
-#, fuzzy
-#| msgid "Confirm"
 msgid "Configure Game"
-msgstr "Потврда"
+msgstr "Подешавање игре"
 
 #. +> stable
 #: src/multiplayer_configure.cpp:56
@@ -6220,7 +6096,7 @@ msgstr "временски лимит"
 #. +> stable
 #: src/multiplayer_configure.cpp:71
 msgid "Generic"
-msgstr ""
+msgstr "Опште"
 
 #. +> stable
 #: src/multiplayer_configure.cpp:72
@@ -6259,10 +6135,8 @@ msgstr "Лозинка..."
 
 #. +> stable
 #: src/multiplayer_configure.cpp:86
-#, fuzzy
-#| msgid "Select an add-on to update:"
 msgid "Select an entry point:"
-msgstr "Изаберите додатак за ажурирање:"
+msgstr "Изаберите тачку уласка:"
 
 #. +> stable
 #: src/multiplayer_configure.cpp:104
@@ -6301,10 +6175,8 @@ msgstr "Приход који свако село доноси у сваком �
 
 #. +> stable
 #: src/multiplayer_configure.cpp:141
-#, fuzzy
-#| msgid "The maximum number of turns the game can last"
 msgid "The number of unit levels each village can support"
-msgstr "Максималан број потеза колико партија може трајати"
+msgstr "Број нивоа јединица које свако село може да подржи"
 
 #. +> stable
 #: src/multiplayer_configure.cpp:147
@@ -6403,10 +6275,8 @@ msgstr "злата по селу: "
 
 #. +> stable
 #: src/multiplayer_configure.cpp:395
-#, fuzzy
-#| msgid "Village gold: "
 msgid "Village support: "
-msgstr "злата по селу: "
+msgstr "подршке по селу: "
 
 #. +> stable
 #: src/multiplayer_configure.cpp:401
@@ -6449,24 +6319,18 @@ msgstr "играч/тип"
 
 #. +> stable
 #: src/multiplayer_connect.cpp:372
-#, fuzzy
-#| msgid "Faction"
 msgid "Faction/Name"
-msgstr "фракција"
+msgstr "фракција/име"
 
 #. +> stable
 #: src/multiplayer_connect.cpp:374
-#, fuzzy
-#| msgid "Team/Gender"
 msgid "Leader/Gender"
-msgstr "тим/пол"
+msgstr "вођ/пол"
 
 #. +> stable
 #: src/multiplayer_connect.cpp:376
-#, fuzzy
-#| msgid "Color"
 msgid "Team/Color"
-msgstr "боја"
+msgstr "вођ/боја"
 
 #. +> stable
 #: src/multiplayer_connect.cpp:383
@@ -6476,12 +6340,12 @@ msgstr "У бој!"
 #. +> stable
 #: src/multiplayer_connect.cpp:399
 msgid "The scenario is invalid because it has no id."
-msgstr "Сценарио није је неправилан јер нема ИД."
+msgstr "Сценарио је лош јер нема ИД."
 
 #. +> stable
 #: src/multiplayer_connect.cpp:415
 msgid "The scenario is invalid because it has no sides."
-msgstr "Сценарио није је неправилан јер нема страна."
+msgstr "Сценарио је лош јер нема страна."
 
 #. +> stable
 #: src/multiplayer_connect.cpp:589
@@ -6556,22 +6420,18 @@ msgstr "Направи партију"
 
 #. +> stable
 #: src/multiplayer_create.cpp:68
-#, fuzzy
-#| msgid "Filter: "
 msgid "Filter:"
-msgstr "Филтер: "
+msgstr "филтер:"
 
 #. +> stable
 #: src/multiplayer_create.cpp:69 src/multiplayer_create.cpp:375
 msgid "Number of players: any"
-msgstr ""
+msgstr "број играча: колико год"
 
 #. +> stable
 #: src/multiplayer_create.cpp:70
-#, fuzzy
-#| msgid "Random start time"
 msgid "Random map options:"
-msgstr "насумично време почетка"
+msgstr "опције насумичне мапе:"
 
 #. +> stable
 #: src/multiplayer_create.cpp:71 src/multiplayer_lobby.cpp:602
@@ -6584,20 +6444,18 @@ msgid ""
 "No eras available\n"
 "for this game."
 msgstr ""
+"Нема расположивих\n"
+"епоха за ову партију."
 
 #. +> stable
 #: src/multiplayer_create.cpp:74 src/multiplayer_lobby.cpp:622
-#, fuzzy
-#| msgid "Disable notifications"
 msgid "Modifications:"
-msgstr "Без обав›јештења"
+msgstr "модификације:"
 
 #. +> stable
 #: src/multiplayer_create.cpp:78
-#, fuzzy
-#| msgid "Next Turn"
 msgid "Next"
-msgstr "С‹љедећи потез"
+msgstr "С‹љедеће"
 
 #. +> stable
 #: src/multiplayer_create.cpp:80
@@ -6617,52 +6475,37 @@ msgstr "Учитај позицију..."
 #. +> stable
 #: src/multiplayer_create.cpp:83 src/multiplayer_create.cpp:272
 msgid "Activate"
-msgstr ""
+msgstr "Активирај"
 
 #. +> stable
 #: src/multiplayer_create.cpp:103
-#, fuzzy
-#| msgctxt "addon_type"
-#| msgid "Scenario"
 msgid "Scenarios"
-msgstr "сценарио"
+msgstr "Сценарији"
 
 #. +> stable
 #: src/multiplayer_create.cpp:104
-#, fuzzy
-#| msgctxt "addon_type"
-#| msgid "Campaign"
 msgid "Campaigns"
-msgstr "поход"
+msgstr "Походи"
 
 #. +> stable
 #: src/multiplayer_create.cpp:105
-#, fuzzy
-#| msgid "Share Maps"
 msgid "User Maps"
-msgstr "Д›ијели мапе"
+msgstr "Корисничке мапе"
 
 #. +> stable
 #: src/multiplayer_create.cpp:106
-#, fuzzy
-#| msgctxt "addon_type"
-#| msgid "Scenario"
 msgid "User Scenarios"
-msgstr "сценарио"
+msgstr "Кориснички сценарији"
 
 #. +> stable
 #: src/multiplayer_create.cpp:107
-#, fuzzy
-#| msgid "Random"
 msgid "Random Maps"
-msgstr "насумично"
+msgstr "Насумичне мапе"
 
 #. +> stable
 #: src/multiplayer_create.cpp:124 src/multiplayer_create.cpp:125
-#, fuzzy
-#| msgid "No eras found."
 msgid "No games found."
-msgstr "Нема ниједне епохе."
+msgstr "Нема ниједне партије."
 
 #. +> stable
 #: src/multiplayer_create.cpp:156
@@ -6680,20 +6523,18 @@ msgid ""
 "Modifications:\n"
 "None found."
 msgstr ""
+"Модификације:\n"
+"нема ниједне."
 
 #. +> stable
 #: src/multiplayer_create.cpp:181 src/multiplayer_create.cpp:270
-#, fuzzy
-#| msgid "Debug mode activated!"
 msgid "Deactivate"
-msgstr "Исправљање активирано!"
+msgstr "Деактивирај"
 
 #. +> stable
 #: src/multiplayer_create.cpp:239
-#, fuzzy
-#| msgid "The map is invalid."
 msgid "The level is invalid."
-msgstr "Мапа је неправилна."
+msgstr "Ниво је лош."
 
 #. +> stable
 #: src/multiplayer_create.cpp:324
@@ -6707,10 +6548,8 @@ msgstr "величина: "
 
 #. +> stable
 #: src/multiplayer_create.cpp:377
-#, fuzzy
-#| msgid "Name of game:"
 msgid "Number of players: "
-msgstr "назив партије:"
+msgstr "број играча: "
 
 #. +> stable
 #: src/multiplayer_create.cpp:484 src/unit_types.cpp:794
@@ -6719,29 +6558,24 @@ msgstr "Опис није доступан."
 
 #. +> stable
 #: src/multiplayer_create_engine.cpp:139 src/multiplayer_create_engine.cpp:805
-#, fuzzy
-#| msgid "The game could not be loaded: "
 msgid "Map could not be loaded: "
-msgstr "Позицију није могуће учитати: "
+msgstr "Мапу није могуће учитати: "
 
 #. +> stable
 #: src/multiplayer_create_engine.cpp:143
-#, fuzzy
-#| msgid "The game could not be loaded: "
 msgid "Map could not be loaded."
-msgstr "Позицију није могуће учитати: "
+msgstr "Мапу није могуће учитати."
 
+# >> @item Map size:
 #. +> stable
 #: src/multiplayer_create_engine.cpp:165
-#, fuzzy
-#| msgid " No help available."
 msgid "not available."
-msgstr " Помоћ није доступна."
+msgstr "недоступна."
 
 #. +> stable
 #: src/multiplayer_create_engine.cpp:217
 msgid "User made map"
-msgstr ""
+msgstr "корисничка мапа"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:128
@@ -6755,31 +6589,23 @@ msgstr " (непозната епоха)"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:486
-#, fuzzy
-#| msgctxt "addon_type"
-#| msgid "Scenario"
 msgid "Scenario:"
-msgstr "сценарио"
+msgstr "сценарио:"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:526
-#, fuzzy
-#| msgctxt "addon_type"
-#| msgid "Campaign"
 msgid "Campaign:"
-msgstr "поход"
+msgstr "поход:"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:557
-#, fuzzy
-#| msgid "Campaign: $campaign_name"
 msgid "Unknown campaign: $campaign_id"
-msgstr "Поход: $campaign_name"
+msgstr "непознат поход: $campaign_name"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:634
 msgid " (missing)"
-msgstr ""
+msgstr " (недостаје)"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:670 src/multiplayer_lobby.cpp:1028
@@ -6833,22 +6659,18 @@ msgstr "Тражи:"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:876
-#, fuzzy
-#| msgid "Save Replay"
 msgid "Normal Replays"
-msgstr "Сачувај снимак"
+msgstr "Нормални снимци"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:877
-#, fuzzy
-#| msgid "Quick replays"
 msgid "Quick Replays"
 msgstr "Брзи снимци"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:878
 msgid "Enter Blindfolded"
-msgstr ""
+msgstr "Улаз везаних очију"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:882
@@ -6858,7 +6680,7 @@ msgstr "Брзо скочи на активни потез при посматр
 #. +> stable
 #: src/multiplayer_lobby.cpp:883
 msgid "Do not show replay turns"
-msgstr ""
+msgstr "Не приказуј снимке потеза"
 
 #. +> stable
 #: src/multiplayer_lobby.cpp:896
@@ -6907,10 +6729,8 @@ msgstr "Изабрани корисник: "
 
 #. +> stable
 #: src/multiplayer_ui.cpp:455
-#, fuzzy
-#| msgid "Accept whispers from friends only"
 msgid "$sender is messaging you, and you accept whispers from friends only."
-msgstr "Шаптања се примају само од пријатеља"
+msgstr "$sender вам шаље поруку, а шаптања примате само од пријатеља."
 
 #. +> stable
 #: src/multiplayer_wait.cpp:140
@@ -7017,17 +6837,13 @@ msgstr "Аутопозиција"
 
 #. +> stable
 #: src/play_controller.cpp:1211
-#, fuzzy
-#| msgid "Back to turn "
 msgid "Back to Turn "
 msgstr "Назад на потез "
 
 #. +> stable
 #: src/play_controller.cpp:1219
-#, fuzzy
-#| msgid "Back to turn "
 msgid "Back to Start"
-msgstr "Назад на потез "
+msgstr "Назад на почетак "
 
 #. +> stable
 #: src/play_controller.cpp:1512
@@ -7041,20 +6857,18 @@ msgstr "Детаљи грешке:"
 
 #. +> stable
 #: src/play_controller.cpp:1539
-#, fuzzy
-#| msgid "(press $hotkey to keep moving)"
 msgid "(press $hk to disable)"
-msgstr "(притисните $hotkey да продужи)"
+msgstr "(притисните $kh да искључите)"
 
 #. +> stable
 #: src/play_controller.cpp:1539
 msgid "Accelerated speed enabled!"
-msgstr ""
+msgstr "Убрзање активирано."
 
 #. +> stable
 #: src/play_controller.cpp:1543
 msgid "Accelerated speed disabled!"
-msgstr ""
+msgstr "Убрзање деактивирано."
 
 #. +> stable
 #: src/playcampaign.cpp:92
@@ -7129,10 +6943,8 @@ msgstr ""
 
 #. +> stable
 #: src/playsingle_controller.cpp:230
-#, fuzzy
-#| msgid "(press $hotkey to keep moving)"
 msgid "(press $hotkey to deactivate)"
-msgstr "(притисните $hotkey да продужи)"
+msgstr "(притисните $hotkey да деактивирате)"
 
 #. +> stable
 #: src/playsingle_controller.cpp:276
@@ -7234,14 +7046,12 @@ msgstr "Замени локалним играчем"
 #. +> stable
 #: src/playturn.cpp:269
 msgid "Set side to idle"
-msgstr ""
+msgstr "Постави мировање страни"
 
 #. +> stable
 #: src/playturn.cpp:270
-#, fuzzy
-#| msgid "Abort game"
 msgid "Save and abort game"
-msgstr "Прекини игру"
+msgstr "Сачувај и прекини партију"
 
 #. +> stable
 #: src/playturn.cpp:278 src/playturn.cpp:292
@@ -7251,7 +7061,7 @@ msgstr "$player у замену"
 #. +> stable
 #: src/playturn.cpp:298
 msgid "$player has left the game. What do you want to do?"
-msgstr "$player напусти игру. Шта желите да учините?"
+msgstr "$player напусти партију. Шта желите да учините?"
 
 #. +> stable
 #: src/replay_controller.cpp:367
@@ -7349,10 +7159,12 @@ msgstr "поредак: "
 msgid "Ability: "
 msgstr "способност: "
 
+# >> Activity:
+# >> Weapon special:
 #. +> stable
 #: src/reports.cpp:405 src/reports.cpp:831
 msgid " (inactive)"
-msgstr ""
+msgstr " (неактивно)"
 
 #. +> stable
 #: src/reports.cpp:457
@@ -7393,15 +7205,13 @@ msgstr "одбрана: "
 
 #. +> stable
 #: src/reports.cpp:581
-#, fuzzy
-#| msgid "Version: "
 msgid "vision: "
-msgstr "Верзија: "
+msgstr "доглед: "
 
 #. +> stable
 #: src/reports.cpp:609
 msgid "Movement Costs:"
-msgstr ""
+msgstr "трошак кретања:"
 
 #. +> stable
 #: src/reports.cpp:699 src/reports.cpp:916 src/reports.cpp:928
@@ -7420,10 +7230,8 @@ msgstr "базна штета: "
 
 #. +> stable
 #: src/reports.cpp:706 src/reports.cpp:740 src/reports.cpp:750
-#, fuzzy
-#| msgid "Weapon special: "
 msgid "With specials: "
-msgstr "својство оружја: "
+msgstr "са својствима: "
 
 #. +> stable
 #: src/reports.cpp:709
@@ -7447,10 +7255,8 @@ msgstr "напада: "
 
 #. +> stable
 #: src/reports.cpp:725
-#, fuzzy
-#| msgid "Turn bonus: "
 msgid "Max swarm bonus: "
-msgstr "бонус потеза: "
+msgstr "макс. бонус ројења: "
 
 #. +> stable
 #: src/reports.cpp:726 src/reports.cpp:745
@@ -7464,15 +7270,13 @@ msgstr "базних напада: "
 
 #. +> stable
 #: src/reports.cpp:733
-#, fuzzy
-#| msgid "Weapon special: "
 msgid "Specials: "
-msgstr "својство оружја: "
+msgstr "својства: "
 
 #. +> stable
 #: src/reports.cpp:743
 msgid "Subject to swarm: "
-msgstr ""
+msgstr "подложност ројењу: "
 
 #. +> stable
 #: src/reports.cpp:762
@@ -7547,28 +7351,22 @@ msgstr "Упозорење: Датотека коју сте покушали д
 #. +> stable
 #: src/savegame.cpp:608
 msgid "The save has corrupt version information ($version_number|) and cannot be loaded."
-msgstr ""
+msgstr "Позиција има искварене податке о верзији ($version_number|), те не може да се учита."
 
 #. +> stable
 #: src/savegame.cpp:631
-#, fuzzy
-#| msgid "This save is from a version too old to be loaded."
 msgid "This save is from an old, unsupported version ($version_number|) and cannot be loaded."
-msgstr "Ова позиција је сачувана престаром верзијом игре да би се учитала."
+msgstr "Ова позиција је из старе, неподржане верзије ($version_number|), те не може да се учита."
 
 #. +> stable
 #: src/savegame.cpp:640
-#, fuzzy
-#| msgid "This save is from a different version of the game. Do you want to try to load it?"
 msgid "This save is from a different version of the game ($version_number|). Do you wish to try to load it?"
-msgstr "Ова позиција је сачувана различитом верзијом игре. Желите ли да покушате учитавање?"
+msgstr "Ова позиција је сачувана различитом верзијом игре ($version_number|). Желите ли да покушате учитавање?"
 
 #. +> stable
 #: src/savegame.cpp:697
-#, fuzzy
-#| msgid "This is not a multiplayer save"
 msgid "This is not a multiplayer save."
-msgstr "Ово није вишеиграчка позиција"
+msgstr "Ово није вишеиграчка позиција."
 
 #. +> stable
 #: src/savegame.cpp:792
@@ -7587,10 +7385,8 @@ msgstr "Пребрисати?"
 
 #. +> stable
 #: src/savegame.cpp:885
-#, fuzzy
-#| msgid "Save names should not end on '.gz'. Please choose a different name."
 msgid "Save names should not end on '.gz' or '.bz2'. Please remove the extension."
-msgstr "Имена позиција не треба завршавати са ‘.gz’. Задајте другачије име."
+msgstr "Имена позиција не треба завршавати са ‘.gz’ или ‘.bz2’. Уклоните наставак."
 
 #. +> stable
 #: src/savegame.cpp:951
@@ -7599,10 +7395,8 @@ msgstr "Сачувано"
 
 #. +> stable
 #: src/savegame.cpp:951
-#, fuzzy
-#| msgid "The game has been saved"
 msgid "The game has been saved."
-msgstr "Позиција је сачувана"
+msgstr "Позиција је сачувана."
 
 #. +> stable
 #: src/savegame.cpp:982 src/savegame.cpp:1003
@@ -7636,20 +7430,18 @@ msgstr "Неочекивани знакови на почетку линије"
 
 #. +> stable
 #: src/serialization/parser.cpp:153
-#, fuzzy
-#| msgid "Missing closing tag for tag $tag at $pos"
 msgid "Missing closing tag for tag [$tag]"
-msgstr "Недостаје затварајућа ознака за $tag код $pos"
+msgstr "Недостаје затварајућа ознака за ознаку [$tag]"
 
 #. +> stable
 #: src/serialization/parser.cpp:154
 msgid "expected at $pos"
-msgstr ""
+msgstr "очекивано код $pos"
 
 #. +> stable
 #: src/serialization/parser.cpp:154 src/serialization/parser.cpp:218
 msgid "opened at $pos"
-msgstr ""
+msgstr "отворено код $pos"
 
 #. +> stable
 #: src/serialization/parser.cpp:167
@@ -7683,15 +7475,13 @@ msgstr "Неочекивана затварајућа ознака"
 
 #. +> stable
 #: src/serialization/parser.cpp:217
-#, fuzzy
-#| msgid "Found invalid closing tag $tag2 for tag $tag1 (opened at $pos)"
 msgid "Found invalid closing tag [/$tag2] for tag [$tag1]"
-msgstr "Нађена лоша затварајућа ознака $tag2 за $tag1 (отворено код $pos)"
+msgstr "Нађена лоша затварајућа ознака [/$tag2] за ознаку [$tag1]"
 
 #. +> stable
 #: src/serialization/parser.cpp:218
 msgid "closed at $pos"
-msgstr ""
+msgstr "затворено код $pos"
 
 #. +> stable
 #: src/serialization/parser.cpp:247 src/serialization/parser.cpp:259
@@ -7711,14 +7501,12 @@ msgstr "Недовршен текст под наводницима"
 #. +> stable
 #: src/serialization/parser.cpp:378
 msgid "at $pos"
-msgstr ""
+msgstr "код $pos"
 
 #. +> stable
 #: src/serialization/parser.cpp:392
-#, fuzzy
-#| msgid "$error, value '$value', previous '$previous_value' at $pos"
 msgid "Value: '$value' Previous: '$previous_value'"
-msgstr "$error, вр›иједност „$value“, претходна „$previous_value“ код $pos"
+msgstr "Вредност: ‘$value|’ претходна: ‘$previous_value|’"
 
 #. +> stable
 #: src/serialization/string_utils.cpp:570
@@ -7860,24 +7648,18 @@ msgstr "детаљи"
 
 #. +> stable
 #: src/statistics_dialog.cpp:169
-#, fuzzy
-#| msgid "Test scenario"
 msgid "Select Scenario"
-msgstr "Пробни сценарио"
+msgstr "Изабери сценарио"
 
+# >> @title:column
 #. +> stable
 #: src/statistics_dialog.cpp:225 src/statistics_dialog.cpp:303
-#, fuzzy
-#| msgctxt "addon_type"
-#| msgid "Campaign"
 msgid "Campaign"
 msgstr "поход"
 
+# >> @title:column
 #. +> stable
 #: src/statistics_dialog.cpp:225 src/statistics_dialog.cpp:303
-#, fuzzy
-#| msgctxt "addon_type"
-#| msgid "Scenario"
 msgid "Scenario"
 msgstr "сценарио"
 
@@ -7911,247 +7693,249 @@ msgstr "примљена"
 msgid "Skip"
 msgstr "Прескочи"
 
+# well-spelled: пон
 #. +> stable
 #: src/strftime.cpp:23
 msgid "Mon"
-msgstr ""
+msgstr "пон"
 
+# well-spelled: нед
 #. +> stable
 #: src/strftime.cpp:23
 msgid "Sun"
-msgstr ""
+msgstr "нед"
 
+# well-spelled: уто
 #. +> stable
 #: src/strftime.cpp:23
 msgid "Tue"
-msgstr ""
+msgstr "уто"
 
+# well-spelled: сре
 #. +> stable
 #: src/strftime.cpp:23
-#, fuzzy
-#| msgid "Red"
 msgid "Wed"
-msgstr "црвена"
+msgstr "сре"
 
+# well-spelled: пет
 #. +> stable
 #: src/strftime.cpp:24
 msgid "Fri"
-msgstr ""
+msgstr "пет"
 
+# well-spelled: суб
 #. +> stable
 #: src/strftime.cpp:24
-#, fuzzy
-#| msgid "Status"
 msgid "Sat"
-msgstr "стање"
+msgstr "суб"
 
+# well-spelled: чет
 #. +> stable
 #: src/strftime.cpp:24
 msgid "Thu"
-msgstr ""
+msgstr "чет"
 
 #. +> stable
 #: src/strftime.cpp:25
 msgid "Monday"
-msgstr ""
+msgstr "понедељак"
 
 #. +> stable
 #: src/strftime.cpp:25
 msgid "Sunday"
-msgstr ""
+msgstr "недеља"
 
 #. +> stable
 #: src/strftime.cpp:25
 msgid "Tuesday"
-msgstr ""
+msgstr "уторак"
 
 #. +> stable
 #: src/strftime.cpp:26
 msgid "Friday"
-msgstr ""
+msgstr "петак"
 
 #. +> stable
 #: src/strftime.cpp:26
 msgid "Saturday"
-msgstr ""
+msgstr "субота"
 
 #. +> stable
 #: src/strftime.cpp:26
 msgid "Thursday"
-msgstr ""
+msgstr "четвртак"
 
 #. +> stable
 #: src/strftime.cpp:26
 msgid "Wednesday"
-msgstr ""
+msgstr "среда"
 
+# well-spelled: апр
 #. +> stable
 #: src/strftime.cpp:27
 msgid "Apr"
-msgstr ""
+msgstr "апр"
 
+# well-spelled: феб
 #. +> stable
 #: src/strftime.cpp:27
 msgid "Feb"
-msgstr ""
+msgstr "феб"
 
+# well-spelled: јан
 #. +> stable
 #: src/strftime.cpp:27
 msgid "Jan"
-msgstr ""
+msgstr "јан"
 
+# well-spelled: мар
 #. +> stable
 #: src/strftime.cpp:27
 msgid "Mar"
-msgstr ""
+msgstr "мар"
 
+# well-spelled: авг
 #. +> stable
 #: src/strftime.cpp:28
 msgid "Aug"
-msgstr ""
+msgstr "авг"
 
+# well-spelled: јул
 #. +> stable
 #: src/strftime.cpp:28
 msgid "Jul"
-msgstr ""
+msgstr "јул"
 
+# well-spelled: јун
 #. +> stable
 #: src/strftime.cpp:28
 msgid "Jun"
-msgstr ""
+msgstr "јун"
 
+# well-spelled: окт
 #. +> stable
 #: src/strftime.cpp:28
 msgid "Oct"
-msgstr ""
+msgstr "окт"
 
+# well-spelled: сеп
 #. +> stable
 #: src/strftime.cpp:28
 msgid "Sep"
-msgstr ""
+msgstr "сеп"
 
+# well-spelled: мај
 #. +> stable
 #: src/strftime.cpp:28
 msgctxt "abbrev"
 msgid "May"
-msgstr ""
+msgstr "мај"
 
+# well-spelled: дец
 #. +> stable
 #: src/strftime.cpp:29
 msgid "Dec"
-msgstr ""
+msgstr "дец"
 
+# well-spelled: нов
 #. +> stable
 #: src/strftime.cpp:29
 msgid "Nov"
-msgstr ""
+msgstr "нов"
 
 #. +> stable
 #: src/strftime.cpp:30
 msgid "February"
-msgstr ""
+msgstr "фебруар"
 
 #. +> stable
 #: src/strftime.cpp:30
 msgid "January"
-msgstr ""
+msgstr "јануар"
 
 #. +> stable
 #: src/strftime.cpp:30
-#, fuzzy
-#| msgid "Search"
 msgid "March"
-msgstr "Тражи"
+msgstr "март"
 
 #. +> stable
 #: src/strftime.cpp:31
 msgid "April"
-msgstr ""
+msgstr "април"
 
 #. +> stable
 #: src/strftime.cpp:31
 msgid "August"
-msgstr ""
+msgstr "август"
 
 #. +> stable
 #: src/strftime.cpp:31
 msgid "July"
-msgstr ""
+msgstr "јул"
 
 #. +> stable
 #: src/strftime.cpp:31
 msgid "June"
-msgstr ""
+msgstr "јун"
 
 #. +> stable
 #: src/strftime.cpp:31
 msgid "May"
-msgstr ""
+msgstr "мај"
 
 #. +> stable
 #: src/strftime.cpp:32
 msgid "December"
-msgstr ""
+msgstr "децембар"
 
 #. +> stable
 #: src/strftime.cpp:32
 msgid "November"
-msgstr ""
+msgstr "новембар"
 
 #. +> stable
 #: src/strftime.cpp:32
 msgid "October"
-msgstr ""
+msgstr "октобар"
 
 #. +> stable
 #: src/strftime.cpp:32
 msgid "September"
-msgstr ""
+msgstr "септембар"
 
 #. +> stable
 #: src/strftime.cpp:73
-#, fuzzy
-#| msgid "%a %b %d %H:%M %Y"
 msgid "%a %b %e %H:%M:%S %Y"
-msgstr "%a %b %d %H.%M %Y"
+msgstr "%a %e. %b %H.%M.%S %Y."
 
 #. +> stable
 #: src/strftime.cpp:77
-#, fuzzy
-#| msgid "%a %b %d %H:%M %Y"
 msgid "%a %d %b %Y %H:%M:%S %z"
-msgstr "%a %b %d %H.%M %Y"
+msgstr "%a %e. %b %Y. %H.%M.%S %z"
 
+# well-spelled: пр
 #. +> stable
 #: src/strftime.cpp:88
-#, fuzzy
-#| msgctxt "prefix_mega"
-#| msgid "M"
 msgid "AM"
-msgstr "M"
+msgstr "пр."
 
+# well-spelled: по
 #. +> stable
 #: src/strftime.cpp:88
-#, fuzzy
-#| msgctxt "prefix_mega"
-#| msgid "M"
 msgid "PM"
-msgstr "M"
+msgstr "по."
 
+# well-spelled: пр
 #. +> stable
 #: src/strftime.cpp:91
-#, fuzzy
-#| msgid "Name"
 msgid "am"
-msgstr "име"
+msgstr "пр."
 
+# well-spelled: по
 #. +> stable
 #: src/strftime.cpp:91
-#, fuzzy
-#| msgctxt "prefix_milli"
-#| msgid "m"
 msgid "pm"
-msgstr "m"
+msgstr "по."
 
 #. +> stable
 #: src/terrain.cpp:180
@@ -8176,14 +7960,12 @@ msgstr "border_size треба да је између 0,0 и 0,5."
 #. +> stable
 #: src/theme.cpp:599 src/theme.cpp:604
 msgid "Hotkey(s): "
-msgstr ""
+msgstr "Пречице: "
 
 #. +> stable
 #: src/time_of_day.cpp:43
-#, fuzzy
-#| msgid "Time of day"
 msgid "Stub Time of Day"
-msgstr "доба дана"
+msgstr "неко доба дана"
 
 #. +> stable
 #: src/unit.cpp:2432 src/unit.cpp:2662 src/unit.cpp:2743
@@ -8314,127 +8096,3 @@ msgstr "Сакриј планове играча $player"
 #: src/whiteboard/manager.cpp:1104
 msgid "Whiteboard Options"
 msgstr "Опције блокчета"
-
-#, fuzzy
-#~| msgctxt "status"
-#~| msgid "Units"
-#~ msgctxt "theme"
-#~ msgid "UnitBox"
-#~ msgstr "јединице"
-
-#~ msgctxt "Multiplayer_AI"
-#~ msgid "RCA AI"
-#~ msgstr "РЦА ВИ"
-
-#~ msgid "(side $temp_i|)"
-#~ msgstr "(страна $temp_i|)"
-
-#~ msgid "The server responded with an error: \"$error|\""
-#~ msgstr "Сервер је одговорио грешком: „$error|“"
-
-#~ msgid "Sending add-on"
-#~ msgstr "Шаљем додатак"
-
-#~ msgid "Requesting the addon to be deleted"
-#~ msgstr "Тражим брисање додатка"
-
-#~ msgid "Downloading..."
-#~ msgstr "Преузимам..."
-
-#~ msgid "Installation of a dependency failed"
-#~ msgstr "Инсталирање зависности није успело"
-
-#~ msgid "While the add-on has been installed, a dependency is missing. Try to update the installed add-ons."
-#~ msgstr "Иако је додатак инсталиран, недостају неке зависности. Покушајте да ажурирате инсталиране додатке."
-
-#~ msgid "Outdated add-ons"
-#~ msgstr "Застар›јели додаци"
-
-#~ msgid "An outdated local add-on has publishing information attached. It will not be offered for updating."
-#~ msgid_plural "Some outdated local add-ons have publishing information attached. They will not be offered for updating."
-#~ msgstr[0] "Уз неке застар›јеле локалне додатке приложени су подаци за објављивање. Неће бити понуђени за ажурирање."
-#~ msgstr[1] "Уз неке застар›јеле локалне додатке приложени су подаци за објављивање. Неће бити понуђени за ажурирање."
-#~ msgstr[2] "Уз неке застар›јеле локалне додатке приложени су подаци за објављивање. Неће бити понуђени за ажурирање."
-#~ msgstr[3] "Уз застар›јели локални додатак приложени су подаци за објављивање. Неће бити понуђен за ажурирање."
-
-#~ msgid "No add-ons to update"
-#~ msgstr "Нема додатака за ажурирање"
-
-#~ msgid "Could not find any updated add-ons on this server."
-#~ msgstr "Не могу да нађем ниједан ажурирани додатак на овом серверу."
-
-#~ msgid "Update add-ons"
-#~ msgstr "Ажурирај додатке"
-
-#~ msgid "Installation of some dependency failed"
-#~ msgstr "Инсталирање неке зависности није успело"
-
-#~ msgid "While the add-on has been installed, some dependency is missing. Try to update the installed add-ons."
-#~ msgstr "Иако је додатак инсталиран, недостаје нека зависност. Покушајте да ажурирате инсталиране додатке."
-
-#~ msgid "Update succeeded"
-#~ msgstr "Ажурирање усп›јело"
-
-#~ msgid "Add-on updated successfully."
-#~ msgstr "Додатак усп›јешно ажуриран."
-
-#~ msgid "You seem to be the author of '$addon|'. Downloading '$addon|' may overwrite any changes you have made since the last upload and may delete your pbl file. Do you really wish to continue?"
-#~ msgstr "Изгледа да сте ви аутор додатка „$addon|“. Његовим преузимањем можете пребрисати све измене које сте начинили од последњег отпремања, као и обрисати своју ПБЛ датотеку. Желите ли заиста да наставите?"
-
-#~ msgid "Connecting..."
-#~ msgstr "Повезујем се..."
-
-# >> dialog title
-#~ msgid "Get add-ons"
-#~ msgstr "Добављање додатака"
-
-#~ msgid "Choose the add-on to download."
-#~ msgstr "Изаберите додатак за преузимање."
-
-#~ msgid "Choose the game to load"
-#~ msgstr "Изаберите позицију за учитавање"
-
-#~ msgid "KB"
-#~ msgstr "kB"
-
-#~ msgid "Do you really want to start the server?"
-#~ msgstr "Желите ли заиста да покренете сервер?"
-
-#~ msgid "The server will run in a background process until all users have disconnected."
-#~ msgstr "Сервер ће радити као позадински процес док се не откаче сви корисници."
-
-#~ msgid "Don’t show again"
-#~ msgstr "Не приказуј поново"
-
-#~ msgid "ERROR DETAILS:"
-#~ msgstr "ДЕТАЉИ ГРЕШКЕ:"
-
-#~ msgid "' (The game will now exit)"
-#~ msgstr "' (игра ће се сад угасити)"
-
-#~ msgid "?"
-#~ msgstr "?"
-
-#~ msgid "A map without a header is not supported"
-#~ msgstr "Мапе без заглавља нису подржане."
-
-#~ msgid "Add named local player"
-#~ msgstr "Додај именованог локалног играча"
-
-#~ msgid "Enter a name for the new player"
-#~ msgstr "Унесите име новог играча"
-
-#~ msgid "Map to play:"
-#~ msgstr "мапа за играње:"
-
-#~ msgid "Invalid era selected"
-#~ msgstr "Изабрана је лоша епоха"
-
-#~ msgid "Downloading next scenario..."
-#~ msgstr "Преузимам с‹љедећи сценарио..."
-
-#~ msgid "$error, value '$value' at $pos"
-#~ msgstr "$error, вр›иједност „$value“ код $pos"
-
-#~ msgid "Unknown unit type '$type|' while generating traits"
-#~ msgstr "Непознат тип јединице ‘$type|’ при стварању особина"

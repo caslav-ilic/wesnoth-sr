@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2015-08-12 20:41+0200\n"
+"PO-Revision-Date: 2015-12-28 15:17+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -1581,20 +1581,35 @@ msgstr ""
 msgid "Add-on Installed"
 msgstr "Додатак инсталиран|~"
 
+# |~x
+# >> @title:column|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 msgid "Name"
-msgstr "име|~"
+msgstr ""
+"име|~\n"
+"|~e0"
 
+# |~x
+# >> @title:column|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 msgid "Author"
-msgstr "аутор|~"
+msgstr ""
+"аутор|~\n"
+"|~e0"
 
+# |~x
+# >> @title:column|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 msgid "Size"
-msgstr "величина|~"
+msgstr ""
+"величина|~\n"
+"|~e0"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: djuric | 2010-02-26 14:38:15+0100 | 1
@@ -1609,20 +1624,35 @@ msgstr ""
 msgid "Could not connect to host."
 msgstr "Не могу да се повежем.|~"
 
+# |~x
+# >> @title:column|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 msgid "Version"
-msgstr "верзија|~"
+msgstr ""
+"верзија|~\n"
+"|~e0"
 
+# |~x
+# >> @title:column|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 msgid "Downloads"
-msgstr "преузето|~"
+msgstr ""
+"преузето|~\n"
+"преузимања|~"
 
+# |~x
+# >> @title:column|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 msgid "Type"
-msgstr "тип|~"
+msgstr ""
+"тип|~\n"
+"|~e0"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
@@ -3046,19 +3076,23 @@ msgstr "играч/тип|~"
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
 #. modified: ilic | 2010-03-28 22:56:35+0200 | 1
 #. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 msgid "The scenario is invalid because it has no id."
 msgstr ""
 "Сценарио није није ваљан јер нема ИД.|~\n"
-"Сценарио није је неправилан јер нема ИД.|~"
+"Сценарио није је неправилан јер нема ИД.|~\n"
+"Сценарио је лош јер нема ИД.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
 #. modified: ilic | 2010-03-28 22:56:35+0200 | 1
 #. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 msgid "The scenario is invalid because it has no sides."
 msgstr ""
 "Сценарио није није ваљан јер нема страна.|~\n"
-"Сценарио није је неправилан јер нема страна.|~"
+"Сценарио није је неправилан јер нема страна.|~\n"
+"Сценарио је лош јер нема страна.|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
@@ -3610,8 +3644,11 @@ msgstr "$player у замену|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 msgid "$player has left the game. What do you want to do?"
-msgstr "$player напусти игру. Шта желите да учините?|~"
+msgstr ""
+"$player напусти игру. Шта желите да учините?|~\n"
+"$player напусти партију. Шта желите да учините?|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
@@ -7042,13 +7079,16 @@ msgstr ""
 
 #. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
 #. modified: ilic | 2011-12-09 16:37:20+0100 | 1
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 #| msgid ""
 #| "The nickname '$nick' is inactive. You cannot claim ownership of this nickname until you activate your account via email or ask an administrator to do it for you.|~\n"
+#| "|~x\n"
 #| "|~x"
 msgid "The nickname ‘$nick’ is inactive. You cannot claim ownership of this nickname until you activate your account via email or ask an administrator to do it for you."
 msgstr ""
 "Надимак „$nick“ није активан. Не можете тврдити власништво над овим надимком док не активирате свој налог, преко е-поште или захтевом администратору да то уради за вас.|~\n"
-"|~e0"
+"|~e0\n"
+"Надимак ‘$nick’ није активан. Не можете тврдити власништво над овим надимком док не активирате свој налог, преко е-поште или захтевом администратору да то уради за вас.|~"
 
 #. modified: ilic | 2011-11-28 00:58:18+0100 | 1f
 #. modified: ilic | 2011-12-09 16:37:20+0100 | 1
@@ -7614,776 +7654,1325 @@ msgstr ""
 "<i>— Пројектни водич Веснота</i>|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "None of your leaders is able to recall that unit.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "None of your leaders is able to recall that unit.|~\n"
+#| "|~x"
 msgid "None of your leaders are able to recall that unit."
-msgstr "Ниједан од ваших вођа не може да сазове ту јединцу.|~"
+msgstr ""
+"Ниједан од ваших вођа не може да сазове ту јединцу.|~\n"
+"|~e0"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "None of your leaders is able to recall that unit.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "None of your leaders is able to recall that unit.|~\n"
+#| "|~x"
 msgid "None of your leaders are able to recruit that unit."
-msgstr "Ниједан од ваших вођа не може да сазове ту јединцу.|~"
+msgstr ""
+"Ниједан од ваших вођа не може да сазове ту јединцу.|~\n"
+"Ниједан од ваших вођа не може да унајми ту јединцу.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Connecting to Server...|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Connecting to Server...|~\n"
+#| "|~x"
 msgid "Connecting to $server_address|..."
-msgstr "Повезујем се са сервером...|~"
+msgstr ""
+"Повезујем се са сервером...|~\n"
+"Повезујем се са $server_address|...|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Requesting list of add-ons|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Requesting list of add-ons|~\n"
+#| "|~x"
 msgid "Downloading list of add-ons..."
-msgstr "Тражим списак додатака|~"
+msgstr ""
+"Тражим списак додатака|~\n"
+"Преузимам списак додатака...|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Requesting terms|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Requesting terms|~\n"
+#| "|~x"
 msgid "Requesting distribution terms..."
-msgstr "Тражим услове|~"
+msgstr ""
+"Тражим услове|~\n"
+"Тражим услове дистрибуирања...|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Downloading add-on: $addon_title|...|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Downloading add-on: $addon_title|...|~\n"
+#| "|~x"
 msgid "Sending add-on <i>$addon_title</i>..."
-msgstr "Преузимам додатак: $addon_title|...|~"
+msgstr ""
+"Преузимам додатак: $addon_title|...|~\n"
+"Шаљем додатак <i>$addon_title</i>...|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Downloading add-on: $addon_title|...|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Downloading add-on: $addon_title|...|~\n"
+#| "|~x"
 msgid "Removing add-on <i>$addon_title</i> from the server..."
-msgstr "Преузимам додатак: $addon_title|...|~"
+msgstr ""
+"Преузимам додатак: $addon_title|...|~\n"
+"Уклањам додатак <i>$addon_title</i> са сервера...|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Downloading add-on: $addon_title|...|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Downloading add-on: $addon_title|...|~\n"
+#| "|~x"
 msgid "Downloading add-on <i>$addon_title</i>..."
-msgstr "Преузимам додатак: $addon_title|...|~"
+msgstr ""
+"Преузимам додатак: $addon_title|...|~\n"
+"Преузимам додатак <i>$addon_title</i>...|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The add-on has an invalid file or directory name and cannot be installed.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The add-on has an invalid file or directory name and cannot be installed.|~\n"
+#| "|~x"
 msgid "The add-on <i>$addon_title</i> has an invalid file or directory name and cannot be installed."
-msgstr "Додатак има лоше име датотеке или фасцикле и не може се инсталирати.|~"
+msgstr ""
+"Додатак има лоше име датотеке или фасцикле и не може се инсталирати.|~\n"
+"Додатак <i>$addon_title</i> има лоше име датотеке или фасцикле и не може се инсталирати.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Add-on Installed|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Add-on Installed|~\n"
+#| "|~x"
 msgid "Add-ons Manager"
-msgstr "Додатак инсталиран|~"
+msgstr ""
+"Додатак инсталиран|~\n"
+"Менаџер додатака|~"
 
 # well-spelled: вигр|~
+# well-spelled: јигр, вигр|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "addon_type|~"
-#| msgid "MP campaign|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "addon_type|~\n"
+#| "|~x"
+#| msgid ""
+#| "MP campaign|~\n"
+#| "|~x"
 msgctxt "addon_type"
 msgid "SP/MP Campaign"
-msgstr "вигр. поход|~"
+msgstr ""
+"вигр. поход|~\n"
+"јигр/вигр. поход|~"
 
 # well-spelled: вигр|~
+# |~e0
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "addon_type|~"
-#| msgid "MP faction|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "addon_type|~\n"
+#| "|~x"
+#| msgid ""
+#| "MP faction|~\n"
+#| "|~x"
 msgctxt "addon_type"
 msgid "MP modification"
-msgstr "вигр. фракција|~"
+msgstr ""
+"вигр. фракција|~\n"
+"вигр. модификација|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Add-on Installed|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Add-on Installed|~\n"
+#| "|~x"
 msgctxt "addon_state"
 msgid "Not installed"
-msgstr "Додатак инсталиран|~"
+msgstr ""
+"Додатак инсталиран|~\n"
+"није инсталиран|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Add-on Installed|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Add-on Installed|~\n"
+#| "|~x"
 msgctxt "addon_state"
 msgid "Installed"
-msgstr "Додатак инсталиран|~"
+msgstr ""
+"Додатак инсталиран|~\n"
+"инсталиран|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Publish add-on: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Publish add-on: |~\n"
+#| "|~x"
 msgctxt "addon_state"
 msgid "Published"
-msgstr "Објави додатак: |~"
+msgstr ""
+"Објави додатак: |~\n"
+"објављен|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Publish add-on: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Publish add-on: |~\n"
+#| "|~x"
 msgctxt "addon_state"
 msgid "Published, broken"
-msgstr "Објави додатак: |~"
+msgstr ""
+"Објави додатак: |~\n"
+"објављен, покварен|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Unknown era|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Unknown era|~\n"
+#| "|~x"
 msgctxt "addon_state"
 msgid "Unknown"
-msgstr "непозната епоха|~"
+msgstr ""
+"непозната епоха|~\n"
+"непознат|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The selected add-on has the following dependency. Do you want to install it?|~"
-#| msgid_plural "The selected add-on has the following dependencies. Do you want to install them?|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The selected add-on has the following dependency. Do you want to install it?|~\n"
+#| "|~x"
+#| msgid_plural ""
+#| "The selected add-on has the following dependencies. Do you want to install them?|~\n"
+#| "|~x"
 msgid "The selected add-on has the following dependency, which is not currently installed or available from the server. Do you wish to continue?"
-msgid_plural "The selected add-on has the following dependencies, which are not currently installed or available from the server. Do you wish to continue?|~"
-msgstr[0] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~"
-msgstr[1] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~"
-msgstr[2] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~"
-msgstr[3] "Изабрани додатак има следећу зависност. Желите ли да је инсталирате?|~"
+msgid_plural ""
+"The selected add-on has the following dependencies, which are not currently installed or available from the server. Do you wish to continue?|~\n"
+"|~e0"
+msgstr[0] ""
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~\n"
+"Изабрани додатак има следеће зависности које тренутно нису инсталиране нити доступне на серверу. Желите ли да наставите?|~"
+msgstr[1] ""
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~\n"
+"Изабрани додатак има следеће зависности које тренутно нису инсталиране нити доступне на серверу. Желите ли да наставите?|~"
+msgstr[2] ""
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~\n"
+"Изабрани додатак има следеће зависности које тренутно нису инсталиране нити доступне на серверу. Желите ли да наставите?|~"
+msgstr[3] ""
+"Изабрани додатак има следећу зависност. Желите ли да је инсталирате?|~\n"
+"Изабрани додатак има следећу зависност која тренутно није инсталирана нити доступна на серверу. Желите ли да наставите?|~"
 
 # >> @title:window|~
+# |~e0
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Install dependencies|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Install dependencies|~\n"
+#| "|~x"
 msgid "Broken Dependencies"
-msgstr "Инсталирање зависности|~"
+msgstr ""
+"Инсталирање зависности|~\n"
+"Покварене зависности|~"
 
 # >> @title:window|~
+# |~e0
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Install dependencies|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Install dependencies|~\n"
+#| "|~x"
 msgid "Install Dependencies"
-msgstr "Инсталирање зависности|~"
+msgstr ""
+"Инсталирање зависности|~\n"
+"|~e0"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The selected add-on has the following dependency. Do you want to install it?|~"
-#| msgid_plural "The selected add-on has the following dependencies. Do you want to install them?|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The selected add-on has the following dependency. Do you want to install it?|~\n"
+#| "|~x"
+#| msgid_plural ""
+#| "The selected add-on has the following dependencies. Do you want to install them?|~\n"
+#| "|~x"
 msgid "The selected add-on has the following dependency, which is not currently installed. Do you wish to install it before continuing?"
-msgid_plural "The selected add-on has the following dependencies, which are not currently installed. Do you wish to install them before continuing?|~"
-msgstr[0] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~"
-msgstr[1] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~"
-msgstr[2] "Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~"
-msgstr[3] "Изабрани додатак има следећу зависност. Желите ли да је инсталирате?|~"
+msgid_plural ""
+"The selected add-on has the following dependencies, which are not currently installed. Do you wish to install them before continuing?|~\n"
+"|~e0"
+msgstr[0] ""
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~\n"
+"Изабрани додатак има следеће зависности које тренутно нису инсталиране. Желите ли да их инсталирате пре него што наставите?|~"
+msgstr[1] ""
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~\n"
+"Изабрани додатак има следеће зависности које тренутно нису инсталиране. Желите ли да их инсталирате пре него што наставите?|~"
+msgstr[2] ""
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~\n"
+"Изабрани додатак има следеће зависности које тренутно нису инсталиране. Желите ли да их инсталирате пре него што наставите?|~"
+msgstr[3] ""
+"Изабрани додатак има следећу зависност. Желите ли да је инсталирате?|~\n"
+"Изабрани додатак има следећу зависност која тренутно није инсталирана. Желите ли да је инсталирате пре него што наставите?|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The server responded with an error: \"|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The server responded with an error: \"|~\n"
+#| "|~x"
 msgid "The server responded with an error:"
-msgstr "Сервер је одговорио грешком: \"|~"
+msgstr ""
+"Сервер је одговорио грешком: \"|~\n"
+"Сервер је одговорио грешком:|~"
 
+# |~x
+# >> @title:window|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Installation failed|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Installation failed|~\n"
+#| "|~x"
 msgid "Dependencies Installation Failed"
-msgstr "Инсталирање није успело|~"
+msgstr ""
+"Инсталирање није успело|~\n"
+"Инсталирање зависности није успело|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Do you want to continue?|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Do you want to continue?|~\n"
+#| "|~x"
 msgid "Do you really wish to continue?"
-msgstr "Желите ли да наставите?|~"
+msgstr ""
+"Желите ли да наставите?|~\n"
+"Желите ли заиста да наставите?|~"
 
+# |~x
+# >> @title:column|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "New version|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "New version|~\n"
+#| "|~x"
 msgid "New Version"
-msgstr "нова верзија|~"
+msgstr ""
+"нова верзија|~\n"
+"|~e0"
 
+# |~x
+# >> @title:column|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Old version|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Old version|~\n"
+#| "|~x"
 msgid "Old Version"
-msgstr "стара верзија|~"
+msgstr ""
+"стара верзија|~\n"
+"|~e0"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Publish add-on: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Publish add-on: |~\n"
+#| "|~x"
 msgid "Publish: $addon_title"
-msgstr "Објави додатак: |~"
+msgstr ""
+"Објави додатак: |~\n"
+"Објави: $addon_title|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Delete add-on: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Delete add-on: |~\n"
+#| "|~x"
 msgid "Delete: $addon_title"
-msgstr "Обриши додатак: |~"
+msgstr ""
+"Обриши додатак: |~\n"
+"Обриши: $addon_title|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "There are no add-ons available for download from this server.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "There are no add-ons available for download from this server.|~\n"
+#| "|~x"
 msgid "There are no add-ons matching the specified criteria on this server."
-msgstr "На овом серверу нема додатака спремних за преузимање.|~"
+msgstr ""
+"На овом серверу нема додатака спремних за преузимање.|~\n"
+"На овом серверу нема додатака који одговарају задатим критеријумима.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Update all|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Update all|~\n"
+#| "|~x"
 msgid "Update All"
-msgstr "Ажурирај све|~"
+msgstr ""
+"Ажурирај све|~\n"
+"|~e0"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Actions|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Actions|~\n"
+#| "|~x"
 msgctxt "filter"
 msgid "Options"
-msgstr "Радње|~"
+msgstr ""
+"Радње|~\n"
+"Опције|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Add-on Deleted|~"
-#| msgid_plural "Add-ons Deleted|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Add-on Deleted|~\n"
+#| "|~x"
+#| msgid_plural ""
+#| "Add-ons Deleted|~\n"
+#| "|~x"
 msgid "Add-on Updated"
-msgstr "Додаци обрисани|~"
+msgstr ""
+"Додаци обрисани|~\n"
+"Додатак ажуриран|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The add-on '$addon_title|' has been successfully installed.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The add-on '$addon_title|' has been successfully installed.|~\n"
+#| "|~x"
 msgid "The add-on '$addon_title|' has been successfully updated."
-msgstr "Додатак ‘$addon_title|’ усп›јешно инсталиран.|~"
+msgstr ""
+"Додатак ‘$addon_title|’ усп›јешно инсталиран.|~\n"
+"Додатак ‘$addon_title|’ усп›јешно ажуриран.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Add-on Installed|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Add-on Installed|~\n"
+#| "|~x"
 msgid "Add-ons Installed"
-msgstr "Додатак инсталиран|~"
+msgstr ""
+"Додатак инсталиран|~\n"
+"Додаци инсталирани|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Add-on Deleted|~"
-#| msgid_plural "Add-ons Deleted|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Add-on Deleted|~\n"
+#| "|~x"
+#| msgid_plural ""
+#| "Add-ons Deleted|~\n"
+#| "|~x"
 msgid "Add-ons Updated"
-msgstr "Додаци обрисани|~"
+msgstr ""
+"Додаци обрисани|~\n"
+"Додаци ажурирани|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "All add-ons updated successfully.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "All add-ons updated successfully.|~\n"
+#| "|~x"
 msgid "All add-ons installed successfully."
-msgstr "Сви додаци усп›јешно ажурирани.|~"
+msgstr ""
+"Сви додаци усп›јешно ажурирани.|~\n"
+"Сви додаци усп›јешно инсталирани.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Installation failed|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Installation failed|~\n"
+#| "|~x"
 msgid "Installation Failed"
-msgstr "Инсталирање није успело|~"
+msgstr ""
+"Инсталирање није успело|~\n"
+"Инсталирање пропало|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Update failed|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Update failed|~\n"
+#| "|~x"
 msgid "Update Failed"
-msgstr "Ажурирање није усп›јело|~"
+msgstr ""
+"Ажурирање није усп›јело|~\n"
+"Ажурирање пропало|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The following add-on could not be downloaded or updated successfully:|~"
-#| msgid_plural "The following add-ons could not be downloaded or updated successfully:|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The following add-on could not be downloaded or updated successfully:|~\n"
+#| "|~x"
+#| msgid_plural ""
+#| "The following add-ons could not be downloaded or updated successfully:|~\n"
+#| "|~x"
 msgid "The following add-on could not be downloaded or installed successfully:"
-msgid_plural "The following add-ons could not be downloaded or installed successfully:|~"
-msgstr[0] "С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или ажурирати:|~"
-msgstr[1] "С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или ажурирати:|~"
-msgstr[2] "С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или ажурирати:|~"
-msgstr[3] "С‹љедећи додатак има грешку и не може се усп›јешно преузети или ажурирати:|~"
+msgid_plural ""
+"The following add-ons could not be downloaded or installed successfully:|~\n"
+"|~e0"
+msgstr[0] ""
+"С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или ажурирати:|~\n"
+"С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или инсталирати:|~"
+msgstr[1] ""
+"С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или ажурирати:|~\n"
+"С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или инсталирати:|~"
+msgstr[2] ""
+"С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или ажурирати:|~\n"
+"С‹љедећи додаци имају грешку и не могу се усп›јешно преузети или инсталирати:|~"
+msgstr[3] ""
+"С‹љедећи додатак има грешку и не може се усп›јешно преузети или ажурирати:|~\n"
+"С‹љедећи додатак има грешку и не може се усп›јешно преузети или инсталирати:|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "An error occurred while communicating with the server.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "An error occurred while communicating with the server.|~\n"
+#| "|~x"
 msgid "An error occurred while downloading the add-ons list from the server."
-msgstr "Грешка у комуникацији са сервером.|~"
+msgstr ""
+"Грешка у комуникацији са сервером.|~\n"
+"Грешка у преузимању листе додатака са сервера.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "My lord, this unit is loyal and requires no upkeep! |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "My lord, this unit is loyal and requires no upkeep! |~\n"
+#| "|~x"
 msgid "This unit is loyal and requires no upkeep. "
-msgstr "Господару, ова јединица је одана и не тражи издатке! |~"
+msgstr ""
+"Господару, ова јединица је одана и не тражи издатке! |~\n"
+"Ова јединица је одана и не тражи издатке. |~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "My lord, this unit is an experienced one, having advanced levels! |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "My lord, this unit is an experienced one, having advanced levels! |~\n"
+#| "|~x"
 msgid "This unit is an experienced one, having advanced levels. "
-msgstr "Господару, ова јединица је искусна, и на вишем нивоу! |~"
+msgstr ""
+"Господару, ова јединица је искусна, и на вишем нивоу! |~\n"
+"Ова јединица је искусна, и на вишем нивоу. |~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "My lord, this unit is close to advancing a level! |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "My lord, this unit is close to advancing a level! |~\n"
+#| "|~x"
 msgid "This unit is close to advancing a level. "
-msgstr "Господару, ова јединица је близу напредовању! |~"
+msgstr ""
+"Господару, ова јединица је близу напредовању! |~\n"
+"Ова јединица је близу напредовању. |~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Difficulty: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Difficulty: |~\n"
+#| "|~x"
 msgid "Change difficulty"
-msgstr "Тежина: |~"
+msgstr ""
+"Тежина: |~\n"
+"Промени тежину|~"
 
 # >> Datetime format, see 'man strftime' for possible placeholders.|~
+# |~e0
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "%b %d %y|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "%b %d %y|~\n"
+#| "|~x"
 msgid "%b %d %Y"
-msgstr "%b %d %y|~"
+msgstr ""
+"%b %d %y|~\n"
+"%b %d %Y|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Error loading game configuration files: '|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Error loading game configuration files: '|~\n"
+#| "|~x"
 msgid "Error loading game configuration files. The game will now exit."
-msgstr "Грешка при учитавању поставних датотека игре: '|~"
+msgstr ""
+"Грешка при учитавању поставних датотека игре: '|~\n"
+"Грешка при учитавању поставних датотека игре. Игра ће бити напуштена.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Chat message aging|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Chat message aging|~\n"
+#| "|~x"
 msgid "Chat message"
-msgstr "Старење порука у ћаскању|~"
+msgstr ""
+"Старење порука у ћаскању|~\n"
+"Порука у ћаскању|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Do you really want to dismiss him?|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Do you really want to dismiss him?|~\n"
+#| "|~x"
 msgid "Do you really want to quit?"
-msgstr "Желите ли заиста да га отпустите?|~"
+msgstr ""
+"Желите ли заиста да га отпустите?|~\n"
+"Желите ли заиста да напустите?|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "scenario settings|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "scenario settings|~\n"
+#| "|~x"
 #| msgid ""
 #| "Gold Per\n"
-#| "Village|~"
+#| "Village|~\n"
+#| "|~x"
 msgctxt "scenario settings"
 msgid ""
 "Support Per\n"
 "Village"
 msgstr ""
 "злата\n"
+"по селу|~\n"
+"подршке\n"
 "по селу|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Some units have movement left. Do you really want to end your turn?|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Some units have movement left. Do you really want to end your turn?|~\n"
+#| "|~x"
 msgid "Some units have not moved. Do you really want to end your turn?"
-msgstr "Неке јединице се још могу кретати. Желите ли заиста да завршите потез?|~"
+msgstr ""
+"Неке јединице се још могу кретати. Желите ли заиста да завршите потез?|~\n"
+"Неке јединице се нису померале. Желите ли заиста да завршите потез?|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
 #. modified: ilic | 2011-09-10 01:15:13+0200 | o
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 #| msgid ""
 #| "|~x\n"
-#| "Next Turn|~"
+#| "Next Turn|~\n"
+#| "|~x"
 msgid "Next"
 msgstr ""
 "Даље|~\n"
-"С‹љедећи потез|~"
+"С‹љедећи потез|~\n"
+"С‹љедеће|~"
 
 #. modified: ilic | 2010-04-24 12:14:57+0200 | 1f
 #. modified: ilic | 2010-04-24 12:43:18+0200 | 1
 #. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
 #. modified: ilic | 2011-09-10 01:15:13+0200 | o
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 #| msgid ""
 #| "Filter: |~\n"
 #| "|~x\n"
-#| "|~e0"
+#| "|~e0\n"
+#| "|~x"
 msgid "Filter:"
 msgstr ""
 "Филтер: |~\n"
 "Филтер:|~\n"
-"|~e0"
+"|~e0\n"
+"филтер:|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: ilic | 2010-02-20 10:48:51+0100 | o
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 #| msgid ""
 #| "|~x\n"
-#| "Name: |~"
+#| "Name: |~\n"
+#| "|~x"
 msgid "Name:"
 msgstr ""
 "Име:|~\n"
-"Име: |~"
+"Име: |~\n"
+"|~e0"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Switch a side to/from AI control.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Switch a side to/from AI control.|~\n"
+#| "|~x"
 msgid "Switch a side to/from idle state."
-msgstr "Даје или одузима управљање страном ВИ.|~"
+msgstr ""
+"Даје или одузима управљање страном ВИ.|~\n"
+"Ставља или уклања стање мировања страни.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Couldn't find label or unit containing the string '$search'.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Couldn't find label or unit containing the string '$search'.|~\n"
+#| "|~x"
 msgid "Could not find label or unit containing the string ‘$search’."
-msgstr "Не могу да нађем етикету или јединицу која садржи ‘$search|’.|~"
+msgstr ""
+"Не могу да нађем етикету или јединицу која садржи ‘$search|’.|~\n"
+"Не могу да нађем етикету или јединицу која садржи ‘$search’.|~"
 
 # well-spelled: дроидовати|~
+# |~x
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Can't droid invalid side: '$side'.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Can't droid invalid side: '$side'.|~\n"
+#| "|~x"
 msgid "Can't idle invalid side: '$side'."
-msgstr "Не може се дроидовати лоша страна: ‘$side|’.|~"
+msgstr ""
+"Не може се дроидовати лоша страна: ‘$side|’.|~\n"
+"Не може се ставити у мировање лоша страна: ‘$side|’.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Can't change control of invalid side: '$side'.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Can't change control of invalid side: '$side'.|~\n"
+#| "|~x"
 msgid "Can't query control of invalid side: '$side'."
-msgstr "Не може се пром›ијенити управљање над лошом страном: ‘$side|’.|~"
+msgstr ""
+"Не може се пром›ијенити управљање над лошом страном: ‘$side|’.|~\n"
+"Не може се испитати управљање над лошом страном: ‘$side|’.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Can't change control of out-of-bounds side: '$side'.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Can't change control of out-of-bounds side: '$side'.|~\n"
+#| "|~x"
 msgid "Can't query control of out-of-bounds side: '$side'."
-msgstr "Не може се пром›ијенити управљање над страном ван граница: ‘$side|’.|~"
+msgstr ""
+"Не може се пром›ијенити управљање над страном ван граница: ‘$side|’.|~\n"
+"Не може се испитати над страном ван граница: ‘$side|’.|~"
 
 # >> @title:window|~
+# |~e0
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Install dependencies|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Install dependencies|~\n"
+#| "|~x"
 msgid "Failed to resolve dependencies"
-msgstr "Инсталирање зависности|~"
+msgstr ""
+"Инсталирање зависности|~\n"
+"Не могу да се разреше зависности|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "No eras found.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "No eras found.|~\n"
+#| "|~x"
 msgid "No compatible eras found."
-msgstr "Нема ниједне епохе.|~"
+msgstr ""
+"Нема ниједне епохе.|~\n"
+"Нема ниједне сагласне епохе.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "No multiplayer sides found|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "No multiplayer sides found|~\n"
+#| "|~x"
 msgid "No compatible scenarios found."
-msgstr "Нема вишеиграчких страна|~"
+msgstr ""
+"Нема вишеиграчких страна|~\n"
+"Нема ниједног сагласног сценарија.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The server requires version '$version1' while you are using version '$version2'|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The server requires version '$version1' while you are using version '$version2'|~\n"
+#| "|~x"
 msgid "The server accepts versions '$version1' while you are using version '$version2'"
-msgstr "Сервер захт›ијева верзију '$version1', док је ваша '$version2'.|~"
+msgstr ""
+"Сервер захт›ијева верзију '$version1', док је ваша '$version2'.|~\n"
+"Сервер прихвата верзије ‘$version1’, док је ваша ‘$version2’.|~"
 
 # >> @title:window|~
+# |~e0
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Confirm|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Confirm|~\n"
+#| "|~x"
 msgid "Configure Game"
-msgstr "Потврда|~"
+msgstr ""
+"Потврда|~\n"
+"Подешавање игре|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Select an add-on to update:|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Select an add-on to update:|~\n"
+#| "|~x"
 msgid "Select an entry point:"
-msgstr "Изаберите додатак за ажурирање:|~"
+msgstr ""
+"Изаберите додатак за ажурирање:|~\n"
+"Изаберите тачку уласка:|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The maximum number of turns the game can last|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The maximum number of turns the game can last|~\n"
+#| "|~x"
 msgid "The number of unit levels each village can support"
-msgstr "Максималан број потеза колико партија може трајати|~"
+msgstr ""
+"Максималан број потеза колико партија може трајати|~\n"
+"Број нивоа јединица које свако село може да подржи|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Village gold: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Village gold: |~\n"
+#| "|~x"
 msgid "Village support: "
-msgstr "злата по селу: |~"
+msgstr ""
+"злата по селу: |~\n"
+"подршке по селу: |~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Faction|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Faction|~\n"
+#| "|~x"
 msgid "Faction/Name"
-msgstr "фракција|~"
+msgstr ""
+"фракција|~\n"
+"фракција/име|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Team/Gender|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Team/Gender|~\n"
+#| "|~x"
 msgid "Leader/Gender"
-msgstr "тим/пол|~"
+msgstr ""
+"тим/пол|~\n"
+"вођ/пол|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Color|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Color|~\n"
+#| "|~x"
 msgid "Team/Color"
-msgstr "боја|~"
+msgstr ""
+"боја|~\n"
+"вођ/боја|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Random start time|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Random start time|~\n"
+#| "|~x"
 msgid "Random map options:"
-msgstr "насумично време почетка|~"
+msgstr ""
+"насумично време почетка|~\n"
+"опције насумичне мапе:|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Disable notifications|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Disable notifications|~\n"
+#| "|~x"
 msgid "Modifications:"
-msgstr "Без обав›јештења|~"
+msgstr ""
+"Без обав›јештења|~\n"
+"модификације:|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "addon_type|~"
-#| msgid "Scenario|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "addon_type|~\n"
+#| "|~x"
+#| msgid ""
+#| "Scenario|~\n"
+#| "|~x"
 msgid "Scenarios"
-msgstr "сценарио|~"
+msgstr ""
+"сценарио|~\n"
+"Сценарији|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "addon_type|~"
-#| msgid "Campaign|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "addon_type|~\n"
+#| "|~x"
+#| msgid ""
+#| "Campaign|~\n"
+#| "|~x"
 msgid "Campaigns"
-msgstr "поход|~"
+msgstr ""
+"поход|~\n"
+"Походи|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Share Maps|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Share Maps|~\n"
+#| "|~x"
 msgid "User Maps"
-msgstr "Д›ијели мапе|~"
+msgstr ""
+"Д›ијели мапе|~\n"
+"Корисничке мапе|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "addon_type|~"
-#| msgid "Scenario|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "addon_type|~\n"
+#| "|~x"
+#| msgid ""
+#| "Scenario|~\n"
+#| "|~x"
 msgid "User Scenarios"
-msgstr "сценарио|~"
+msgstr ""
+"сценарио|~\n"
+"Кориснички сценарији|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Random|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Random|~\n"
+#| "|~x"
 msgid "Random Maps"
-msgstr "насумично|~"
+msgstr ""
+"насумично|~\n"
+"Насумичне мапе|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "No eras found.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "No eras found.|~\n"
+#| "|~x"
 msgid "No games found."
-msgstr "Нема ниједне епохе.|~"
+msgstr ""
+"Нема ниједне епохе.|~\n"
+"Нема ниједне партије.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Debug mode activated!|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Debug mode activated!|~\n"
+#| "|~x"
 msgid "Deactivate"
-msgstr "Исправљање активирано!|~"
+msgstr ""
+"Исправљање активирано!|~\n"
+"Деактивирај|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The map is invalid.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The map is invalid.|~\n"
+#| "|~x"
 msgid "The level is invalid."
-msgstr "Мапа је неправилна.|~"
+msgstr ""
+"Мапа је неправилна.|~\n"
+"Ниво је лош.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Name of game:|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Name of game:|~\n"
+#| "|~x"
 msgid "Number of players: "
-msgstr "назив партије:|~"
+msgstr ""
+"назив партије:|~\n"
+"број играча: |~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The game could not be loaded: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The game could not be loaded: |~\n"
+#| "|~x"
 msgid "Map could not be loaded: "
-msgstr "Позицију није могуће учитати: |~"
+msgstr ""
+"Позицију није могуће учитати: |~\n"
+"Мапу није могуће учитати: |~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The game could not be loaded: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The game could not be loaded: |~\n"
+#| "|~x"
 msgid "Map could not be loaded."
-msgstr "Позицију није могуће учитати: |~"
+msgstr ""
+"Позицију није могуће учитати: |~\n"
+"Мапу није могуће учитати.|~"
 
+# |~x
+# >> @item Map size:|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid " No help available.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| " No help available.|~\n"
+#| "|~x"
 msgid "not available."
-msgstr " Помоћ није доступна.|~"
+msgstr ""
+" Помоћ није доступна.|~\n"
+"недоступна.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "addon_type|~"
-#| msgid "Scenario|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "addon_type|~\n"
+#| "|~x"
+#| msgid ""
+#| "Scenario|~\n"
+#| "|~x"
 msgid "Scenario:"
-msgstr "сценарио|~"
+msgstr ""
+"сценарио|~\n"
+"сценарио:|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "addon_type|~"
-#| msgid "Campaign|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "addon_type|~\n"
+#| "|~x"
+#| msgid ""
+#| "Campaign|~\n"
+#| "|~x"
 msgid "Campaign:"
-msgstr "поход|~"
+msgstr ""
+"поход|~\n"
+"поход:|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Campaign: $campaign_name|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Campaign: $campaign_name|~\n"
+#| "|~x"
 msgid "Unknown campaign: $campaign_id"
-msgstr "Поход: $campaign_name|~"
+msgstr ""
+"Поход: $campaign_name|~\n"
+"непознат поход: $campaign_name|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Back to turn |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Back to turn |~\n"
+#| "|~x"
 msgid "Back to Turn "
-msgstr "Назад на потез |~"
+msgstr ""
+"Назад на потез |~\n"
+"|~e0"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Back to turn |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Back to turn |~\n"
+#| "|~x"
 msgid "Back to Start"
-msgstr "Назад на потез |~"
+msgstr ""
+"Назад на потез |~\n"
+"Назад на почетак |~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "(press $hotkey to keep moving)|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "(press $hotkey to keep moving)|~\n"
+#| "|~x"
 msgid "(press $hk to disable)"
-msgstr "(притисните $hotkey да продужи)|~"
+msgstr ""
+"(притисните $hotkey да продужи)|~\n"
+"(притисните $kh да искључите)|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "(press $hotkey to keep moving)|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "(press $hotkey to keep moving)|~\n"
+#| "|~x"
 msgid "(press $hotkey to deactivate)"
-msgstr "(притисните $hotkey да продужи)|~"
+msgstr ""
+"(притисните $hotkey да продужи)|~\n"
+"(притисните $hotkey да деактивирате)|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Abort game|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Abort game|~\n"
+#| "|~x"
 msgid "Save and abort game"
-msgstr "Прекини игру|~"
+msgstr ""
+"Прекини игру|~\n"
+"Сачувај и прекини партију|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Version: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Version: |~\n"
+#| "|~x"
 msgid "vision: "
-msgstr "Верзија: |~"
+msgstr ""
+"Верзија: |~\n"
+"доглед: |~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Weapon special: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Weapon special: |~\n"
+#| "|~x"
 msgid "With specials: "
-msgstr "својство оружја: |~"
+msgstr ""
+"својство оружја: |~\n"
+"са својствима: |~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Turn bonus: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Turn bonus: |~\n"
+#| "|~x"
 msgid "Max swarm bonus: "
-msgstr "бонус потеза: |~"
+msgstr ""
+"бонус потеза: |~\n"
+"макс. бонус ројења: |~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Weapon special: |~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Weapon special: |~\n"
+#| "|~x"
 msgid "Specials: "
-msgstr "својство оружја: |~"
+msgstr ""
+"својство оружја: |~\n"
+"својства: |~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "This save is from a version too old to be loaded.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "This save is from a version too old to be loaded.|~\n"
+#| "|~x"
 msgid "This save is from an old, unsupported version ($version_number|) and cannot be loaded."
-msgstr "Ова позиција је сачувана престаром верзијом игре да би се учитала.|~"
+msgstr ""
+"Ова позиција је сачувана престаром верзијом игре да би се учитала.|~\n"
+"Ова позиција је из старе, неподржане верзије ($version_number|), те не може да се учита.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "This save is from a different version of the game. Do you want to try to load it?|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "This save is from a different version of the game. Do you want to try to load it?|~\n"
+#| "|~x"
 msgid "This save is from a different version of the game ($version_number|). Do you wish to try to load it?"
-msgstr "Ова позиција је сачувана различитом верзијом игре. Желите ли да покушате учитавање?|~"
+msgstr ""
+"Ова позиција је сачувана различитом верзијом игре. Желите ли да покушате учитавање?|~\n"
+"Ова позиција је сачувана различитом верзијом игре ($version_number|). Желите ли да покушате учитавање?|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "This is not a multiplayer save|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "This is not a multiplayer save|~\n"
+#| "|~x"
 msgid "This is not a multiplayer save."
-msgstr "Ово није вишеиграчка позиција|~"
+msgstr ""
+"Ово није вишеиграчка позиција|~\n"
+"Ово није вишеиграчка позиција.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Save names should not end on '.gz'. Please choose a different name.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Save names should not end on '.gz'. Please choose a different name.|~\n"
+#| "|~x"
 msgid "Save names should not end on '.gz' or '.bz2'. Please remove the extension."
-msgstr "Имена позиција не треба завршавати са ‘.gz’. Задајте другачије име.|~"
+msgstr ""
+"Имена позиција не треба завршавати са ‘.gz’. Задајте другачије име.|~\n"
+"Имена позиција не треба завршавати са ‘.gz’ или ‘.bz2’. Уклоните наставак.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "The game has been saved|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The game has been saved|~\n"
+#| "|~x"
 msgid "The game has been saved."
-msgstr "Позиција је сачувана|~"
+msgstr ""
+"Позиција је сачувана|~\n"
+"Позиција је сачувана.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Missing closing tag for tag $tag at $pos|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Missing closing tag for tag $tag at $pos|~\n"
+#| "|~x"
 msgid "Missing closing tag for tag [$tag]"
-msgstr "Недостаје затварајућа ознака за $tag код $pos|~"
+msgstr ""
+"Недостаје затварајућа ознака за $tag код $pos|~\n"
+"Недостаје затварајућа ознака за ознаку [$tag]|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Found invalid closing tag $tag2 for tag $tag1 (opened at $pos)|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Found invalid closing tag $tag2 for tag $tag1 (opened at $pos)|~\n"
+#| "|~x"
 msgid "Found invalid closing tag [/$tag2] for tag [$tag1]"
-msgstr "Нађена лоша затварајућа ознака $tag2 за $tag1 (отворено код $pos)|~"
+msgstr ""
+"Нађена лоша затварајућа ознака $tag2 за $tag1 (отворено код $pos)|~\n"
+"Нађена лоша затварајућа ознака [/$tag2] за ознаку [$tag1]|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "$error, value '$value', previous '$previous_value' at $pos|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "$error, value '$value', previous '$previous_value' at $pos|~\n"
+#| "|~x"
 msgid "Value: '$value' Previous: '$previous_value'"
-msgstr "$error, вр›иједност „$value“, претходна „$previous_value“ код $pos|~"
+msgstr ""
+"$error, вр›иједност „$value“, претходна „$previous_value“ код $pos|~\n"
+"Вредност: ‘$value|’ претходна: ‘$previous_value|’|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Test scenario|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Test scenario|~\n"
+#| "|~x"
 msgid "Select Scenario"
-msgstr "Пробни сценарио|~"
+msgstr ""
+"Пробни сценарио|~\n"
+"Изабери сценарио|~"
 
+# |~x
+# >> @title:column|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "addon_type|~"
-#| msgid "Campaign|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "addon_type|~\n"
+#| "|~x"
+#| msgid ""
+#| "Campaign|~\n"
+#| "|~x"
 msgid "Campaign"
-msgstr "поход|~"
+msgstr ""
+"поход|~\n"
+"|~e0"
 
+# |~x
+# >> @title:column|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "addon_type|~"
-#| msgid "Scenario|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "addon_type|~\n"
+#| "|~x"
+#| msgid ""
+#| "Scenario|~\n"
+#| "|~x"
 msgid "Scenario"
-msgstr "сценарио|~"
+msgstr ""
+"сценарио|~\n"
+"|~e0"
 
+# |~x
+# well-spelled: сре|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Red|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Red|~\n"
+#| "|~x"
 msgid "Wed"
-msgstr "црвена|~"
+msgstr ""
+"црвена|~\n"
+"сре|~"
 
+# |~x
+# well-spelled: суб|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Status|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Status|~\n"
+#| "|~x"
 msgid "Sat"
-msgstr "стање|~"
+msgstr ""
+"стање|~\n"
+"суб|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Search|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Search|~\n"
+#| "|~x"
 msgid "March"
-msgstr "Тражи|~"
+msgstr ""
+"Тражи|~\n"
+"март|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "%a %b %d %H:%M %Y|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "%a %b %d %H:%M %Y|~\n"
+#| "|~x"
 msgid "%a %b %e %H:%M:%S %Y"
-msgstr "%a %b %d %H.%M %Y|~"
+msgstr ""
+"%a %b %d %H.%M %Y|~\n"
+"%a %e. %b %H.%M.%S %Y.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "%a %b %d %H:%M %Y|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "%a %b %d %H:%M %Y|~\n"
+#| "|~x"
 msgid "%a %d %b %Y %H:%M:%S %z"
-msgstr "%a %b %d %H.%M %Y|~"
+msgstr ""
+"%a %b %d %H.%M %Y|~\n"
+"%a %e. %b %Y. %H.%M.%S %z|~"
 
+# |~x
+# well-spelled: пр|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "prefix_mega|~"
-#| msgid "M|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "prefix_mega|~\n"
+#| "|~x"
+#| msgid ""
+#| "M|~\n"
+#| "|~x"
 msgid "AM"
-msgstr "M|~"
+msgstr ""
+"M|~\n"
+"пр.|~"
 
+# |~x
+# well-spelled: по|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "prefix_mega|~"
-#| msgid "M|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "prefix_mega|~\n"
+#| "|~x"
+#| msgid ""
+#| "M|~\n"
+#| "|~x"
 msgid "PM"
-msgstr "M|~"
+msgstr ""
+"M|~\n"
+"по.|~"
 
+# |~x
+# well-spelled: пр|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Name|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Name|~\n"
+#| "|~x"
 msgid "am"
-msgstr "име|~"
+msgstr ""
+"име|~\n"
+"пр.|~"
 
+# |~x
+# well-spelled: по|~
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgctxt "prefix_milli|~"
-#| msgid "m|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "prefix_milli|~\n"
+#| "|~x"
+#| msgid ""
+#| "m|~\n"
+#| "|~x"
 msgid "pm"
-msgstr "m|~"
+msgstr ""
+"m|~\n"
+"по.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
-#, fuzzy
-#| msgid "Time of day|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Time of day|~\n"
+#| "|~x"
 msgid "Stub Time of Day"
-msgstr "доба дана|~"
+msgstr ""
+"доба дана|~\n"
+"неко доба дана|~"
 
 #. modified: ilic | 2015-08-12 20:33:28+0200 | 1f
 #. modified: ilic | 2015-08-12 20:33:28+0200 | 1
@@ -8925,17 +9514,29 @@ msgstr "одб|~"
 msgid "Use the map editor's <i>Areas</i> menu to define regions later addressed by event or ai coding."
 msgstr "Користите мени <i>~%/Areas/</i> у уређивачу мапа да дефинишете зоне које ће адресирати догађаји или ВИ.|~"
 
+# |~x
+# ‘потез’ је већ заузето|~
 #. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
-#, fuzzy
-#| msgid "Next Side|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Next Side|~\n"
+#| "|~x"
 msgid "Next Move"
-msgstr "С‹љедећа страна|~"
+msgstr ""
+"С‹љедећа страна|~\n"
+"С‹љедећи покрет|~"
 
+# |~x
+# ‘потез’ је већ заузето|~
 #. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
-#, fuzzy
-#| msgid "play side turn|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "play side turn|~\n"
+#| "|~x"
 msgid "play single move"
-msgstr "пусти потез стране|~"
+msgstr ""
+"пусти потез стране|~\n"
+"пусти један покрет|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
@@ -8963,22 +9564,34 @@ msgid "terrain def."
 msgstr "теренска одб.|~"
 
 #. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
-#, fuzzy
-#| msgid "Default theme.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Default theme.|~\n"
+#| "|~x"
 msgid "The default theme"
-msgstr "Подразумевана тема.|~"
+msgstr ""
+"Подразумевана тема.|~\n"
+"Подразумевана тема|~"
 
 #. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
-#, fuzzy
-#| msgid "800x480 theme optimized for Pandora devices.|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "800x480 theme optimized for Pandora devices.|~\n"
+#| "|~x"
 msgid "An 800×480 theme optimized for Pandora devices"
-msgstr "800×400 тема прилагођена уређајима пандора.|~"
+msgstr ""
+"800×400 тема прилагођена уређајима пандора.|~\n"
+"800×400 тема прилагођена уређајима пандора|~"
 
 #. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
-#, fuzzy
-#| msgid "Save Replay|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Save Replay|~\n"
+#| "|~x"
 msgid "Normal Replays"
-msgstr "Сачувај снимак|~"
+msgstr ""
+"Сачувај снимак|~\n"
+"Нормални снимци|~"
 
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. modified: ilic | 2010-02-20 10:48:51+0100 | o
@@ -8987,24 +9600,598 @@ msgstr "Сачувај снимак|~"
 #. reviewed/hybdl: djuric | 2010-04-28 16:24:33+0200
 #. modified: ilic | 2011-11-08 23:50:35+0100 | o
 #. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
-#, fuzzy
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 #| msgid ""
 #| "|~x\n"
 #| "Replay|~\n"
 #| "|~x\n"
-#| "Quick replays|~"
+#| "Quick replays|~\n"
+#| "|~x"
 msgid "Quick Replays"
 msgstr ""
 "Убрзани снимци|~\n"
 "Снимак|~\n"
 "Брзи снимци|~\n"
+"|~e2\n"
 "|~e2"
 
 #. modified: ilic | 2015-08-12 20:41:49+0200 | 1f
-#, fuzzy
-#| msgid "Accept whispers from friends only|~"
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Accept whispers from friends only|~\n"
+#| "|~x"
 msgid "$sender is messaging you, and you accept whispers from friends only."
-msgstr "Шаптања се примају само од пријатеља|~"
+msgstr ""
+"Шаптања се примају само од пријатеља|~\n"
+"$sender вам шаље поруку, а шаптања примате само од пријатеља.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "cures|~\n"
+#| "|~x"
+msgid "cured"
+msgstr ""
+"исц›јељивање|~\n"
+"исц›јељен|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "cures|~\n"
+#| "|~x"
+msgctxt "female"
+msgid "cured"
+msgstr ""
+"исц›јељивање|~\n"
+"исц›јељена|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Add-on Installed|~\n"
+#| "|~x"
+msgctxt "addon_state"
+msgid "Published, not installed"
+msgstr ""
+"Додатак инсталиран|~\n"
+"објављен, није инсталиран|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Add-on Installed|~\n"
+#| "|~x"
+msgctxt "addon_state"
+msgid "Installed, upgradable"
+msgstr ""
+"Додатак инсталиран|~\n"
+"инсталиран, надоградив|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Publish add-on: |~\n"
+#| "|~x"
+msgctxt "addon_state"
+msgid "Published, upgradable"
+msgstr ""
+"Објави додатак: |~\n"
+"објављен, надоградив|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Publish add-on: |~\n"
+#| "|~x"
+msgctxt "addon_state"
+msgid "Published, outdated on server"
+msgstr ""
+"Објави додатак: |~\n"
+"објављен, застарео на серверу|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Add-on Installed|~\n"
+#| "|~x"
+msgctxt "addon_state"
+msgid "Installed, broken"
+msgstr ""
+"Додатак инсталиран|~\n"
+"инсталиран, покварен|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "The selected add-on has the following dependency. Do you want to install it?|~\n"
+#| "|~x"
+#| msgid_plural ""
+#| "The selected add-on has the following dependencies. Do you want to install them?|~\n"
+#| "|~x"
+msgid "The following dependency could not be installed. Do you still wish to continue?"
+msgid_plural ""
+"The following dependencies could not be installed. Do you still wish to continue?|~\n"
+"|~e0"
+msgstr[0] ""
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~\n"
+"Следеће зависности не могу да се инсталирају. Желите ли свеједно да наставите?|~"
+msgstr[1] ""
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~\n"
+"Следеће зависности не могу да се инсталирају. Желите ли свеједно да наставите?|~"
+msgstr[2] ""
+"Изабрани додатак има следеће зависности. Желите ли да их инсталирате?|~\n"
+"Следеће зависности не могу да се инсталирају. Желите ли свеједно да наставите?|~"
+msgstr[3] ""
+"Изабрани додатак има следећу зависност. Желите ли да је инсталирате?|~\n"
+"Следећа зависност не може да се инсталира. Желите ли свеједно да наставите?|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "<side> <nick>|~\n"
+#| "|~x"
+msgid "<side>"
+msgstr ""
+"<страна> <надимак>|~\n"
+"<страна>|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Name of game:|~\n"
+#| "|~x"
+msgid "Number of players: any"
+msgstr ""
+"назив партије:|~\n"
+"број играча: колико год|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Debug mode activated!|~\n"
+#| "|~x"
+msgid "Activate"
+msgstr ""
+"Исправљање активирано!|~\n"
+"Активирај|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Disable notifications|~\n"
+#| "|~x"
+msgid ""
+"Modifications:\n"
+"None found."
+msgstr ""
+"Без обав›јештења|~\n"
+"Модификације:\n"
+"нема ниједне.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Share Maps|~\n"
+#| "|~x"
+msgid "User made map"
+msgstr ""
+"Д›ијели мапе|~\n"
+"корисничка мапа|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Don't show again|~\n"
+#| "|~x"
+msgid "Do not show replay turns"
+msgstr ""
+"Не показуј поново|~\n"
+"Не приказуј снимке потеза|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Switch a side to/from AI control.|~\n"
+#| "|~x"
+msgid "Set side to idle"
+msgstr ""
+"Даје или одузима управљање страном ВИ.|~\n"
+"Постави мировање страни|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Movement Cost|~\n"
+#| "|~x"
+msgid "Movement Costs:"
+msgstr ""
+"трошак кретања|~\n"
+"трошак кретања:|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "This save is from a version too old to be loaded.|~\n"
+#| "|~x"
+msgid "The save has corrupt version information ($version_number|) and cannot be loaded."
+msgstr ""
+"Ова позиција је сачувана престаром верзијом игре да би се учитала.|~\n"
+"Позиција има искварене податке о верзији ($version_number|), те не може да се учита.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Closed Trapdoor|~\n"
+#| "|~x"
+msgid "closed at $pos"
+msgstr ""
+"затворена подна врата|~\n"
+"затворено код $pos|~"
+
+# |~x
+# well-spelled: пон|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Morning|~\n"
+#| "|~x"
+msgid "Mon"
+msgstr ""
+"јутро|~\n"
+"пон|~"
+
+# |~x
+# well-spelled: мар|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Search|~\n"
+#| "|~x"
+msgid "Mar"
+msgstr ""
+"Тражи|~\n"
+"мар|~"
+
+# |~x
+# well-spelled: окт|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "race|~\n"
+#| "|~x"
+#| msgid ""
+#| "Orc|~\n"
+#| "|~x"
+msgid "Oct"
+msgstr ""
+"орк|~\n"
+"окт|~"
+
+# |~x
+# well-spelled: нов|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgctxt ""
+#| "save_compression|~\n"
+#| "|~x"
+#| msgid ""
+#| "No|~\n"
+#| "|~x"
+msgid "Nov"
+msgstr ""
+"без|~\n"
+"нов|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1f
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#| msgid ""
+#| "Movement|~\n"
+#| "|~x"
+msgid "November"
+msgstr ""
+"Кретање|~\n"
+"новембар|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgctxt "theme"
+msgid "Classic"
+msgstr "Класична|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "The classic, pre-1.12 theme"
+msgstr "Класична тема, пре 1.12|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Create a <i>New Scenario</i> in the editor's <i>File</i> menu to make use of advanced features."
+msgstr "Направите <i>нови сценарио</i> из менија <i>~%/File/</i> у уређивачу да искористите напредне могућности.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Scenarios saved from the editor in their default folder can be selected in the mp create screen's <i>User Scenarios</i> section."
+msgstr "Сценарији сачувани кроз уређивач у подразумеваној фасцикли могу да се изаберу на вишеиграчком екрану под одељком <i>~%/User Scenarios/</i>.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "An unrecognized error has occurred."
+msgstr "Непозната грешка.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgctxt "addon_state"
+msgid "Installed, outdated on server"
+msgstr "инсталиран, застарео на серверу|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "The add-on '$addon|' is already installed and contains additional information that will be permanently lost if you continue:"
+msgstr "Додатак ‘$addon|’ је већ инсталиран и садржи додатне податке који ће бити трајно изгубљени ако наставите:|~"
+
+# >> @item:intext|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Publishing information file (.pbl)"
+msgstr "датотека података о објављивању (.pbl)|~"
+
+# >> @item:intext|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Version control system (VCS) information"
+msgstr "подаци о систему управљања верзијама (СУВ)|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid ""
+"A local file with add-on publishing information could not be read.\n"
+"\n"
+"File: $path\n"
+"Error message: $msg"
+msgstr ""
+"Локална датотека са подацима о објављивању додатка не може да се прочита.\n"
+"\n"
+"Датотека: $path\n"
+"Порука грешке: $msg|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "The add-ons server address specified is not valid."
+msgstr "Задата адреса сервера додатака није добра.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Change campaign difficulty before loading"
+msgstr "Промени тежину похода пре учитавања|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Play the embedded replay from the saved game if applicable"
+msgstr "Пусти угнежђени снимак из позиције ако је могуће|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Cancel any pending unit movements in the saved game"
+msgstr "Откажи све наступајуће покрете јединица у позицији|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Cannot obtain genders for invalid leader $leader"
+msgstr "Не могу да добавим полове за лошег вођа $leader|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Please report this to the author or maintainer of this add-on."
+msgid_plural "Please report this to the respective authors or maintainers of these add-ons.|~"
+msgstr[0] "Пријавите ово ауторима или одржаваоцима ових додатака.|~"
+msgstr[1] "Пријавите ово ауторима или одржаваоцима ових додатака.|~"
+msgstr[2] "Пријавите ово ауторима или одржаваоцима ових додатака.|~"
+msgstr[3] "Пријавите ово аутору или одржаваоцу овог додатка.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "This is a multiplayer scenario. Some parts of it may not work properly in single-player. It is recommended to load this scenario through the <b>Multiplayer</b> → <b>Load Game</b> dialog instead."
+msgstr "Ово је вишеиграчки сценарио. Неки делови можда неће радити исправно у једноигрању. Боље учитајте овај сценарио преко <b>~%/Multiplayer/</b> → <b>~%/Load Game/</b>.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Map-Screenshot"
+msgstr "Снимак екрана мапе|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Screenshot"
+msgstr "Снимак екрана|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Screenshot Done"
+msgstr "Снимак екрана готов|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Query the controller status of a side."
+msgstr "Испитује стање управљача страном.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Scenario can't be activated. Some dependencies are missing: "
+msgstr "Сценарио не може да се активира јер недостају неке зависности: |~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Era can't be activated. Some dependencies are missing: "
+msgstr "Епоха не може да се активира јер недостају неке зависности: |~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Not all of the chosen modifications are compatible. Some of them will be disabled."
+msgstr "Неке од изабраних модификација нису сагласне. Неке ће бити искључене.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Generic"
+msgstr "Опште|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid ""
+"No eras available\n"
+"for this game."
+msgstr ""
+"Нема расположивих\n"
+"епоха за ову партију.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid " (missing)"
+msgstr " (недостаје)|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Enter Blindfolded"
+msgstr "Улаз везаних очију|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Accelerated speed enabled!"
+msgstr "Убрзање активирано.|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Accelerated speed disabled!"
+msgstr "Убрзање деактивирано.|~"
+
+# >> Activity:
+# >> Weapon special:|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid " (inactive)"
+msgstr " (неактивно)|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Subject to swarm: "
+msgstr "подложност ројењу: |~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "expected at $pos"
+msgstr "очекивано код $pos|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "opened at $pos"
+msgstr "отворено код $pos|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "at $pos"
+msgstr "код $pos|~"
+
+# well-spelled: нед|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Sun"
+msgstr "нед|~"
+
+# well-spelled: уто|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Tue"
+msgstr "уто|~"
+
+# well-spelled: пет|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Fri"
+msgstr "пет|~"
+
+# well-spelled: чет|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Thu"
+msgstr "чет|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Monday"
+msgstr "понедељак|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Sunday"
+msgstr "недеља|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Tuesday"
+msgstr "уторак|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Friday"
+msgstr "петак|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Saturday"
+msgstr "субота|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Thursday"
+msgstr "четвртак|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Wednesday"
+msgstr "среда|~"
+
+# well-spelled: апр|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Apr"
+msgstr "апр|~"
+
+# well-spelled: феб|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Feb"
+msgstr "феб|~"
+
+# well-spelled: јан|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Jan"
+msgstr "јан|~"
+
+# well-spelled: авг|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Aug"
+msgstr "авг|~"
+
+# well-spelled: јул|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Jul"
+msgstr "јул|~"
+
+# well-spelled: јун|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Jun"
+msgstr "јун|~"
+
+# well-spelled: сеп|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Sep"
+msgstr "сеп|~"
+
+# well-spelled: мај|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgctxt "abbrev"
+msgid "May"
+msgstr "мај|~"
+
+# well-spelled: дец|~
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Dec"
+msgstr "дец|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "February"
+msgstr "фебруар|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "January"
+msgstr "јануар|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "April"
+msgstr "април|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "August"
+msgstr "август|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "July"
+msgstr "јул|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "June"
+msgstr "јун|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "May"
+msgstr "мај|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "December"
+msgstr "децембар|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "October"
+msgstr "октобар|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "September"
+msgstr "септембар|~"
+
+#. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+msgid "Hotkey(s): "
+msgstr "Пречице: |~"
 
 #. modified: ilic | 2011-11-08 23:50:35+0100 | 1f
 #. modified: ilic | 2011-11-09 17:28:16+0100 | 1
