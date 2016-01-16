@@ -1,15 +1,15 @@
 # Translation of wesnoth-lib.po into Serbian.
 # Copyright (C) 2005 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011, 2012, 2015.
-# Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>, 2010.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011, 2012, 2015, 2016.
+# Dalibor Djuric <daliborddjuric@gmail.com>, 2010.
 # Branko Kokanovic, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-lib\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2015-08-12 20:40+0200\n"
-"PO-Revision-Date: 2015-08-12 20:33+0200\n"
+"PO-Revision-Date: 2016-01-16 21:26+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -86,7 +86,7 @@ msgstr "газ"
 #. +> stable
 #: data/core/terrain.cfg:90
 msgid "When a river happens to be extremely shallow, passing over it is a trivial matter for land based units. Moreover, any creature best adapted to swimming has full mobility even at such places in the river. As far as gameplay is concerned, a river ford is treated as either grassland or shallow water, choosing whichever one offers the best defensive and movement bonuses for the unit on it."
-msgstr ""
+msgstr "На м›јестима гд›је је р›ијека врло плитка, копнене јединице је могу лако прегазити. Сва створења прилагођена пливању имају пуну покретљивост у таквим појасевима р›ијеке. У погледу извођења, р›јечни газ узима се или као равница или као плитка вода, већ према томе које пружа бољу заштиту и покретљивост јединици која стоји на њему."
 
 #. [terrain_type]: id=gray_reef
 #. [terrain_type]: id=medium_reef
@@ -108,10 +108,8 @@ msgstr "сиви обалски гребен"
 #. [terrain_type]: id=medium_reef
 #. +> stable
 #: data/core/terrain.cfg:108
-#, fuzzy
-#| msgid "Coastal Reef"
 msgid "Medium Coastal Reef"
-msgstr "обалски гребен"
+msgstr "средњи обалски гребен"
 
 #. [terrain_type]: id=tropical_reef
 #. +> stable
@@ -131,10 +129,8 @@ msgstr "мочвара"
 #. [terrain_type]: id=swamp_water_reed
 #. +> stable
 #: data/core/terrain.cfg:132
-#, fuzzy
-#| msgid "Swamp Human Castle Keep"
 msgid "Swamp Water Reed"
-msgstr "кула мочварног људског замка"
+msgstr "мочварна водена трска"
 
 #. [terrain_type]: id=quagmire
 #. +> stable
@@ -225,7 +221,7 @@ msgstr "обична калдрма"
 #. +> stable
 #: data/core/terrain.cfg:239
 msgid "<italic>text='Roads'</italic> are beaten paths of dirt, formed by many travelers passing over them. As far as gameplay is concerned, roads behave as flat terrain."
-msgstr ""
+msgstr "<italic>text='Друмови'</italic> су стазе угажене земље, настале преласцима многих путника преко њих. Што се играња тиче, друмови дођу исто што и равница."
 
 #. [terrain_type]: id=road_clean
 #. +> stable
@@ -267,7 +263,7 @@ msgstr "пустињски п›ијесак"
 #. +> stable
 #: data/core/terrain.cfg:296
 msgid "<italic>text='Deserts'</italic> have a somewhat different composition than small sand pits or beaches, however for gameplay purposes they are identical. See <ref>dst='terrain_sand' text='sand'</ref>."
-msgstr ""
+msgstr "<italic>text='Пустиње'</italic> су понешто различитог састава од малих п›јешчаних јама или плажа, али су у оквиру игре истов›јетне. Види <ref>dst='terrain_sand' text='п›ијесак'</ref>."
 
 #. [terrain_type]: id=sand
 #. [terrain_type]: id=sand_beach
@@ -291,6 +287,9 @@ msgid ""
 "\n"
 "Most units receive 20 to 40% defense in sand."
 msgstr ""
+"Непостојаност <italic>text='п›ијеска'</italic> чини га већини јединица тежим за прелазак, и оставља их отвореним за нападе. Насупрот томе, широка стопала и змијолика тела рептилских раса знатно олакшавају кретање п›ијеском.\n"
+"\n"
+"Већина јединица добије 20 до 40% заштите у п›ијеску."
 
 #. [terrain_type]: id=oasis
 #. +> stable
@@ -361,10 +360,8 @@ msgstr "ветрењача"
 #. [terrain_type]: id=campfire
 #. +> stable
 #: data/core/terrain.cfg:423
-#, fuzzy
-#| msgid "Campaign"
 msgid "Campfire"
-msgstr "Поход"
+msgstr "логорска ватра"
 
 #. [terrain_type]: id=fence
 #. +> stable
@@ -394,13 +391,13 @@ msgstr "цветајући локвањи"
 #. +> stable
 #: data/core/terrain.cfg:471
 msgid "Trash"
-msgstr ""
+msgstr "смеће"
 
 #. [terrain_type]: id=detritus_bones
 #. +> stable
 #: data/core/terrain.cfg:480
 msgid "Remains"
-msgstr ""
+msgstr "остаци"
 
 #. [terrain_type]: id=great_tree
 #. [terrain_type]: id=great_tree_dead
@@ -454,32 +451,26 @@ msgstr "тропска шума"
 #. [terrain_type]: id=rainforest
 #. +> stable
 #: data/core/terrain.cfg:530
-#, fuzzy
-#| msgid "Pine Forest"
 msgid "Rainforest"
-msgstr "зимзелена шума"
+msgstr "кишна шума"
 
 #. [terrain_type]: id=palm_desert_forest
 #. +> stable
 #: data/core/terrain.cfg:542
-#, fuzzy
-#| msgid "Pine Forest"
 msgid "Palm Forest"
-msgstr "зимзелена шума"
+msgstr "палмина шума"
 
 #. [terrain_type]: id=palm_forest
 #. +> stable
 #: data/core/terrain.cfg:554
-#, fuzzy
-#| msgid "Pine Forest"
 msgid "Dense Palm Forest"
-msgstr "зимзелена шума"
+msgstr "густа палмина шума"
 
 #. [terrain_type]: id=savanna_forest
 #. +> stable
 #: data/core/terrain.cfg:566
 msgid "Savanna"
-msgstr ""
+msgstr "савана"
 
 #. [terrain_type]: id=pine_forest
 #. +> stable
@@ -594,10 +585,8 @@ msgstr "планине"
 #. [terrain_type]: id=regular_mountains
 #. +> stable
 #: data/core/terrain.cfg:747
-#, fuzzy
-#| msgid "Regular Impassable Mountains"
 msgid "Regular Mountains"
-msgstr "обичне непролазне планине"
+msgstr "обичне планине"
 
 #. [terrain_type]: id=desert_mountains
 #. +> stable
@@ -696,6 +685,9 @@ msgid ""
 "\n"
 "Most units have about 50% defense in rocky caves, whereas cavalry are limited to 40%. Dwarves enjoy 60% defense in rockbound caves."
 msgstr ""
+"<italic>text='Ст›јеновите пећине'</italic> настају дејством воде и в›јетра, који носе ерозивне честице које стружу ст›ијене. Ус‹љед многих назубљења и удубљења, већини јединица је кретање отежано, али се могу добро скривати. Патуљци и тролови, који су главни насељеници пећина, лако се крећу овим тереном. Патуљци посебно, ус‹љед своје мале висине, су у пуној предности у овим пећинама. Повремено су пећине <ref>dst='terrain_illuminated_cave' text='обасјане'</ref>.\n"
+"\n"
+"Већина јединица има око 50% заштите у ст›јеновитим пећинама, коњица 40%, а патуљци чак 60%."
 
 #. [terrain_type]: id=mine_rails
 #. [terrain_type]: id=mine_railsdiag1
@@ -750,7 +742,7 @@ msgstr "лава"
 #. +> stable
 #: data/core/terrain.cfg:979
 msgid "The dangers inherent in trying to walk on <italic>text='lava'</italic> are fairly obvious. As far as movement is concerned, lava is equivalent to <ref>dst='terrain_unwalkable' text='unwalkable'</ref> terrain, and can only be crossed by those units capable of flying a considerable distance above it. The molten magma also produces a substantial glow, illuminating the area immediately above it. This provides an attack bonus for lawful units and removes the attack bonus from chaotic units."
-msgstr ""
+msgstr "Опасности у покушајима савладавања <italic>text='лаве'</italic> очигледне су. Што се кретања тиче, лава спада у <ref>dst='terrain_unwalkable' text='непроходан'</ref> терен, те је могу прећи само јединице које могу да лете повисоко изнад. Растопљена магма такође производи значајно исијавање, осв›јетљавајући околну област. Ово пружа предност у нападу законитим јединицама, а одузима је хаотичним."
 
 #. [terrain_type]: id=volcano
 #. +> stable
@@ -829,13 +821,12 @@ msgstr "осветљени камени зид"
 msgid "Impassable Overlay"
 msgstr "непролазни преклоп"
 
+# ? Можда недовољна разлика у односу на „непролазни преклоп“ изнад?
 #. [terrain_type]: id=unwalkable_overlay
 #. +> stable
 #: data/core/terrain.cfg:1110
-#, fuzzy
-#| msgid "Impassable Overlay"
 msgid "Unwalkable Overlay"
-msgstr "непролазни преклоп"
+msgstr "непроходни преклоп"
 
 #. [terrain_type]: id=off_map
 #. [terrain_type]: id=off_map2
@@ -1072,6 +1063,9 @@ msgid ""
 "\n"
 "Merfolk and nagas have 60% defense in submerged villages, whereas land based units usually have a low defense."
 msgstr ""
+"<italic>text='Подводна села'</italic> су домови морејцима и нагајцима. Док се водо-бивствујућа створења у њима ос›јећају као код куће, становницима копна отежано је кретање кроз ова села и њихова одбрана. Међутим, као и било које село, пружају средства за видање свим створењима чије су јединице способне за старање о својим повредама. Јединица која борави у селу извидаће осам ударпоена по потезу, или бити исц›ијељена од отрова.\n"
+"\n"
+"Морејци и нагајци уживају 60% одбране у подводним селима, док је за копнене јединице тај постотак обично низак."
 
 #. [terrain_type]: id=village_overlay
 #. +> stable
@@ -1138,10 +1132,8 @@ msgstr "с‹њежни људски замак"
 #. [terrain_type]: id=elven_castle
 #. +> stable
 #: data/core/terrain.cfg:1606
-#, fuzzy
-#| msgid "Elven Castle Keep"
 msgid "Elven Castle"
-msgstr "кула вилењачког замка"
+msgstr "вилењачки замак"
 
 #. [terrain_type]: id=dwarven_castle
 #. +> stable
@@ -1353,6 +1345,9 @@ msgid ""
 "\n"
 "For those who go by land or sea, a bridge is the best of both worlds — for gameplay purposes, it is treated either as grassland or the underlying water, whichever offers the best movement and defensive bonuses for the unit occupying the bridge hex. Note that a swimming unit and a land unit are not capable of occupying a bridge hex at the same time."
 msgstr ""
+"Онима који су кадри да их граде, <italic>text='мостови'</italic> пружају слободу од хировитих природних водених токова, чији прелази израњају и нестају са скоковима и падовима водостаја. А да се не помиње луксуз сувих стопала, што никако није за занемарити у хладнијим м›јесецима године.\n"
+"\n"
+"Било за копнене или пливачке јединице, мост је најбоље од оба св›ијета. У оквиру игре, узима се или као равница или као плитка вода, према томе која опција више одговара заштити и кретању јединице на мосту. Имајте у виду да пливајућа и копнена јединица ипак не могу стајати заједно на пољу моста."
 
 #. [terrain_type]: id=rotbridge
 #. [terrain_type]: id=rotbridgediag1
@@ -1379,7 +1374,7 @@ msgstr "прост камени мост"
 #: data/core/terrain.cfg:2031 data/core/terrain.cfg:2042
 #: data/core/terrain.cfg:2055
 msgid "Cave Chasm Bridge"
-msgstr "мост над пећинским безданом"
+msgstr "пећински мост над безданом"
 
 #. [terrain_type]: id=hangingbridge
 #. [terrain_type]: id=hangingbridgediag1
@@ -1387,10 +1382,8 @@ msgstr "мост над пећинским безданом"
 #. +> stable
 #: data/core/terrain.cfg:2070 data/core/terrain.cfg:2082
 #: data/core/terrain.cfg:2094
-#, fuzzy
-#| msgid "Rotting Bridge"
 msgid "Hanging Bridge"
-msgstr "натрули мост"
+msgstr "висећи мост"
 
 #. [terrain_type]: id=stonechasmbridge
 #. [terrain_type]: id=stonechasmbridgediag1
@@ -1398,21 +1391,18 @@ msgstr "натрули мост"
 #. +> stable
 #: data/core/terrain.cfg:2107 data/core/terrain.cfg:2118
 #: data/core/terrain.cfg:2129
-#, fuzzy
-#| msgid "Cave Chasm Bridge"
 msgid "Stone Chasm Bridge"
-msgstr "мост над пећинским безданом"
+msgstr "камени мост над безданом"
 
+# Даске послагане налик на црепове крова.
 #. [terrain_type]: id=plankbridge
 #. [terrain_type]: id=plankbridgediag1
 #. [terrain_type]: id=plankbridgediag2
 #. +> stable
 #: data/core/terrain.cfg:2141 data/core/terrain.cfg:2152
 #: data/core/terrain.cfg:2163
-#, fuzzy
-#| msgid "Bridge"
 msgid "Plank Bridge"
-msgstr "мост"
+msgstr "црепни мост"
 
 #. [terrain_type]: id=off_map
 #. +> stable
@@ -1444,7 +1434,7 @@ msgstr "магла"
 #. +> stable
 #: data/core/terrain.cfg:2225 data/core/terrain.cfg:2226
 msgid "Fungus"
-msgstr ""
+msgstr "гљиве"
 
 #. [terrain_type]: id=fungus
 #. +> stable
@@ -1455,6 +1445,9 @@ msgid ""
 "\n"
 "Most units receive 50% to 60% defense in mushroom groves, whereas cavalry receive only 20%."
 msgstr ""
+"<italic>text='Гљиварски гајеви'</italic> су непрегледне подземне шуме огромних печурки, које одлично усп›ијевају у влажној тами. Већини јединица је проблем корачати преко сунђерасте подлоге од мањих печурака, али зато имају обиље заклона иза већих стабљика. Коњичке јединице су, међутим, потпуно упетљане и недостаје им слобода кретања у борби. С обзиром на своју склоност распадању, немртве јединице д›јелају сасвим добро у овим гљивичним шумама.\n"
+"\n"
+"Већина јединица прима 50 до 60% заштите у гљиварским гајевима, али коњица свега 20%."
 
 #. [terrain_type]: id=cave
 #. +> stable
@@ -1467,12 +1460,15 @@ msgid ""
 "\n"
 "Most units receive 20 to 40% defense in caves, whereas dwarves have 50%."
 msgstr ""
+"У <italic>text='пећински'</italic> терен спадају сва подземна окна са довољно простора да се кроз њих креће. Већини јединица то је потпуно непознат терен, и стога су и успорене и рањиве у одбрани. Патуљци и тролови, којима су насупрот томе домови у пећинама, лако се крећу њима. Посебно уживају патуљци, који врлином свог ниског раста могу заобилазити препреке несавладиве другим расама. Повремено су пећине <ref>dst='terrain_illuminated_cave' text='обасјане'</ref>.\n"
+"\n"
+"Ретки потези подземног света обасјани су светлом што са се површине пробила надоле кроз суморну таму. Ово пружа предност у нападу законитим јединицама, а одузима је хаотичним. У сваком другом погледу овај терен је функционално истоветан нормалном <ref>dst='terrain_cave' text='пећинском терену'</ref>.\n"
+"\n"
+"Већина јединица добија 20 до 40% заштите у пећинама, док патуљци имају 50%."
 
 #. [terrain_type]: id=sand
 #. +> stable
 #: data/core/terrain.cfg:2254
-#, fuzzy
-#| msgid "Sand"
 msgid "Sands"
 msgstr "п›ијесак"
 
@@ -1485,6 +1481,9 @@ msgid ""
 "\n"
 "Mermen and Naga both receive 70% defense on coastal reefs."
 msgstr ""
+"<italic>text='Обалски гребени'</italic> су плићаци сачињени од камена, корала и п›ијеска. Већини копнених јединица пружају бољи ослонац и одбрамбени положај него што је уобичајено за гажење кроз плитку воду, а водо-бивствујућим расама представљају изванредну заштиту.\n"
+"\n"
+"И морејци и нагајци уживају 70% заштите на обалским гребенима."
 
 #. [terrain_type]: id=hills
 #. +> stable
@@ -1495,6 +1494,9 @@ msgid ""
 "\n"
 "Most units have about 50% defense in hills, whereas cavalry are limited to 40%. Dwarves enjoy 60% defense in hills."
 msgstr ""
+"<italic>text='Брда'</italic> чини сваки разумно нераван терен, са довољно удолина и узвишица да пружи некакву заштиту. Већини јединица је тешко кретати се брдима. Патуљци, тролови и оркови су довољно упознати са оваквим тереном, да им кретање не буде отежано. Коњица има озбиљних проблема, који негирају могуће користи у одбрани.\n"
+"\n"
+"Већина јединица има око 50% заштите у брдима, док је коњица ограничена на 40%. Патуљци уживају чак 60% заштите у брдима."
 
 #. [terrain_type]: id=swamp_water
 #. +> stable
@@ -1505,6 +1507,9 @@ msgid ""
 "\n"
 "Most units make do with 30% defense in swamps. Mermen, naga, and saurians all generally enjoy 60%."
 msgstr ""
+"<italic>text='Мочвару'</italic> чине све врсте клизног земљишта. Мочваре успоравају скоро сваког, а и сметају одбрани. Изузетак томе су расе в›јеште у кретању водом, које имају и пуну покретљивост и заштиту. Они који пребивају у оваквим крајевима, такође су ум›јешни у коришћењу мочварног терена за скривање.\n"
+"\n"
+"Већина јединица мора се помирити са 30% заштите у мочварама. Насупрот њима, морејци, нагајци и сауријанци уживају чак 60%."
 
 #. [terrain_type]: id=shallow_water
 #. +> stable
@@ -1514,6 +1519,9 @@ msgid ""
 "\n"
 "Most units make do with 20 to 30% defense in shallow water, whereas both naga and mermen enjoy 60%."
 msgstr ""
+"<italic>text='Плитка вода'</italic> представља водене појасеве који досежу отприлике до људског струка. То је већ довољно да успори скоро свакога и остави их незаштићене при нападу. Патуљцима то посебно тешко пада, пошто им вода досеже скоро до глава. Изузетак су расе природно прилагођене пливању, које стога имају пуну покретљивост и значајну добит у одбрани.\n"
+"\n"
+"Већина јединица трпи свега 20 до 30% заштите у плиткој води, док нагајци и морејци уживају 60%"
 
 #. [terrain_type]: id=castle
 #. +> stable
@@ -1524,6 +1532,9 @@ msgid ""
 "\n"
 "Most units have about 60% defense in a castle."
 msgstr ""
+"<italic>text='Замкови'</italic> означавају сва трајна утврђења. Скоро све јединице добијају значајну заштиту док се налазе у замку, а већина добија и пуну покретљивост. Постављање јединица у замку одражава његову одбрамбену нам›јену; ако је неко поље замка празно, непријатељ може просто ући на њега и тако уживати исту одбрану као и било ко други у замку.\n"
+"\n"
+"Већина јединица добија око 60% заштите у замку."
 
 #. [terrain_type]: id=mountains
 #. +> stable
@@ -1534,6 +1545,9 @@ msgid ""
 "\n"
 "Most units receive about 60% defense in mountains, whereas Dwarves enjoy 70%."
 msgstr ""
+"<italic>text='Планине'</italic> су довољно стрме да јединице често морају да се веру преко препрека да би се кретале. Стога, планине пружају приличну заштиту већини јединица, али их такође и озбиљно ограничавају у кретању. Већина коњичких јединица једноставно не може ићи планинским тереном; изузетак томе је вилењачка коњица, као гоблински вукоседлаши. Планине су и патуљцима и троловима домаћи терен, те се они врло лако сналазе по њима.\n"
+"\n"
+"Већина јединица има око 60% заштите у планини, а патуљци уживају 70%."
 
 #. [terrain_type]: id=deep_water
 #. +> stable
@@ -1544,6 +1558,9 @@ msgid ""
 "\n"
 "Mermen and naga both receive 50% defense in deep water, with full movement."
 msgstr ""
+"<italic>text='Дубока вода'</italic> представља све појасеве довољно дубоке да пређу чов›јеку преко главе. Већина јединица не може ући у дубоку воду; она је погодна онима који или лете, или су одлични пливачи.\n"
+"\n"
+"И морејци и нагајци имају 50% заштите у дубокој води, уз пуну покретљивост."
 
 #. [terrain_type]: id=flat
 #. +> stable
@@ -1560,6 +1577,9 @@ msgid ""
 "\n"
 "Most units have defense of 30 to 40% on grassland."
 msgstr ""
+"<italic>text='Равница'</italic> представља отворене просторе, било обрађене, покошене за испашу, или дивље. Равницом је лако кретати се, али је тешко у њој бранити се. Јединице које се добро носе у равници су обично или коњичке, или врло окретне јединице, којима отворени простори иду на руку.\n"
+"\n"
+"Већина јединица има одбрану од 30 до 40% у равници."
 
 #. [terrain_type]: id=forest
 #. +> stable
@@ -1569,6 +1589,9 @@ msgid ""
 "\n"
 "Most units have 50% defense in forests, but cavalry are limited to 30%. Elves, on the other hand, enjoy 60 to 70% defense, even their mounted units. Dwarves generally receive only 30% defense in forests."
 msgstr ""
+"<italic>text='Шуме'</italic> представљају било које земљиште са довољно растиња да ограничи покретљивост кроз њих. Иако успоравају скоро свакога, шуме већини јединица пружају и већу заштиту него отворен терен. Коњица, међутим, има толико проблема у кретању, да им је свака користи од прикривености негирана. Вилењаци су изузетак ових општих правила о шуми. Не само да се могу неометано кретати у њој, већ имају и значајну одбрамбену добит. Патуљци су још један изузетак; иако могу да се пробијају кроз шуму без много губитка у брзини, њихова потпуна неупознатост са таквим тереном води малој заштићености у борби.\n"
+"\n"
+"Већина јединица има 50% заштите у шуми, али је коњица ограничена на 30%. Вилењаци, с друге стране, добијају чак 60 до 70% у одбрани, чак и на коњима. Патуљци обично добијају свега 30%."
 
 #. [terrain_type]: id=frozen
 #. +> stable
@@ -1585,6 +1608,9 @@ msgid ""
 "\n"
 "Most units have 20 to 40% defense in frozen terrain."
 msgstr ""
+"<italic>text='Клизави'</italic> терен означава сваку равничарску област која је прекривена сн›ијегом или ледом. Успорава већину јединица, и отежава им одбрану. Имајте у виду да пливачке јединице, чак и оне што могу да дишу под водом, не могу пливати под ледом.\n"
+"\n"
+"Већина јединица има 20 до 40% заштите на клизавици."
 
 #. [terrain_type]: id=village
 #. +> stable
@@ -1595,6 +1621,9 @@ msgid ""
 "\n"
 "Most units have 50 to 60% defense in villages, whereas cavalry receive only 40%."
 msgstr ""
+"<italic>text='Села'</italic> чине било какве скупине грађевина, људских или других. Скоро све јединице, чак и коњица, немају проблема у кретању кроз села, а већина их добија и предност у одбрани док су у селу. Јединице се у селу могу окр›ијепити и извидати повреде, ус‹љед чега свака јединица добија 8 УП по потезу док се налази у селу; такође, бива исц›ијељена уколико је отрована.\n"
+"\n"
+"Већина јединица добија 50 до 60% заштите у селима, а коњица само 40%."
 
 #. [terrain_type]: id=impassable
 #. +> stable
@@ -1606,7 +1635,7 @@ msgstr "непролаз"
 #. +> stable
 #: data/core/terrain.cfg:2419
 msgid "Obstacles that not even the most determined traveler may overcome include solid walls of stone and mountains so tall and steep that they are constantly wreathed in cloud. Even flying creatures cannot navigate the jagged peaks at such rarefied heights, and not even the fiercest troll can smash through thick walls of stone."
-msgstr ""
+msgstr "У препреке које ни најупорнији путник не може савладати спадају чврсти камени бедеми и планине тако стрме и високе да су непрекидно ов›јенчане облацима. Чак се ни летећа створења не могу пробити између назубљених врхова на прор›ијеђеним висинама, нити најсуровији трол развалити збијени зидни камен."
 
 #. [terrain_type]: id=unwalkable
 #. +> stable
@@ -1618,19 +1647,19 @@ msgstr "расц›јеп"
 #. +> stable
 #: data/core/terrain.cfg:2429
 msgid "<italic>text='Unwalkable terrain'</italic> covers any chasm or gorge which, as the name implies, cannot be crossed simply by walking. Chasms are noted for sheer walls which would take days to traverse. As far as gameplay is concerned, only units capable of flying can cross this terrain."
-msgstr ""
+msgstr "У <italic>text='расц›јеп'</italic> се рачуна какав бездан или кланац, онај који се, како му име каже, не може п›јешке превалити. Бездани су познати по тектонским зидовима, за које би били потребни дани да се пр›ијеђу. Што се играња тиче, само летачке јединице могу пр›ијећи преко оваквог терена."
 
 #. [terrain_type]: id=rails
 #. +> stable
 #: data/core/terrain.cfg:2436 data/core/terrain.cfg:2437
 msgid "Rails"
-msgstr ""
+msgstr "шине"
 
 #. [terrain_type]: id=rails
 #. +> stable
 #: data/core/terrain.cfg:2439
 msgid "<italic>text='Rails'</italic> are used to transport ore. By Dwarfs. Mostly."
-msgstr ""
+msgstr "<italic>text='Шине'</italic> служе за преношење руде. Код патуљака. Углавном."
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
@@ -1746,18 +1775,14 @@ msgstr "Одустани"
 #. [label]
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:88
-#, fuzzy
-#| msgid "Type"
 msgid "Type:"
-msgstr "тип"
+msgstr "Тип:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:115
-#, fuzzy
-#| msgid "Status"
 msgid "Status:"
-msgstr "Статус"
+msgstr "Стање:"
 
 #. [label]
 #. +> stable
@@ -1782,21 +1807,21 @@ msgstr "Аутор:"
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:228
 msgid "Downloads:"
-msgstr ""
+msgstr "Преузимања:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:258
 msgctxt "date"
 msgid "Last updated:"
-msgstr ""
+msgstr "Ажурирано:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:284
 msgctxt "date"
 msgid "First uploaded:"
-msgstr ""
+msgstr "Прво отпремање:"
 
 #. [label]
 #. +> stable
@@ -1815,23 +1840,18 @@ msgstr "Без описа."
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:376
 msgid "Website:"
-msgstr ""
+msgstr "Веб сајт:"
 
 #. [label]: id=url_none
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:400
-#, fuzzy
-#| msgctxt "translations"
-#| msgid "None"
 msgctxt "url"
 msgid "None"
-msgstr "ниједан"
+msgstr "нема"
 
 #. [button]: id=url_copy
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:435
-#, fuzzy
-#| msgid "Copy"
 msgctxt "url"
 msgid "Copy"
 msgstr "Умножи"
@@ -1840,36 +1860,33 @@ msgstr "Умножи"
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:436
 msgid "Copy this URL to clipboard"
-msgstr ""
+msgstr "Умножи овај УРЛ у оставу"
 
 #. [button]: id=url_go
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:449
 msgctxt "url"
 msgid "Go"
-msgstr ""
+msgstr "Иди"
 
 #. [button]: id=url_go
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:450
 msgid "Visit this URL with a web browser"
-msgstr ""
+msgstr "Посети овај УРЛ веб прегледачем"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:478
 msgid "Dependencies:"
-msgstr ""
+msgstr "Зависности:"
 
 #. [scroll_label]: id=dependencies
 #. +> stable
 #: data/gui/default/window/addon_description.cfg:492
-#, fuzzy
-#| msgctxt "translations"
-#| msgid "None"
 msgctxt "addon_dependencies"
 msgid "None"
-msgstr "ниједан"
+msgstr "нема"
 
 #. [label]
 #. +> stable
@@ -1882,191 +1899,169 @@ msgstr "Преводи:"
 #: data/gui/default/window/addon_description.cfg:524
 msgctxt "translations"
 msgid "None"
-msgstr "ниједан"
+msgstr "нема"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:49
-#, fuzzy
-#| msgid "Campaign"
 msgctxt "addons_of_type"
 msgid "Campaigns"
-msgstr "Поход"
+msgstr "походи"
 
+# well-spelled: вигр
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:50
 msgctxt "addons_of_type"
 msgid "MP eras"
-msgstr ""
+msgstr "вигр. епохе"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:53
-#, fuzzy
-#| msgid "Scenario start"
 msgctxt "addons_of_type"
 msgid "Scenarios"
-msgstr "Почетак сценарија"
+msgstr "сценарији"
 
+# well-spelled: вигр
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:54
-#, fuzzy
-#| msgid "Actions"
 msgctxt "addons_of_type"
 msgid "MP factions"
-msgstr "Радње"
+msgstr "вигр. фракције"
 
+# well-spelled: јигр, вигр
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:57
-#, fuzzy
-#| msgid "Campaign"
 msgctxt "addons_of_type"
 msgid "SP/MP campaigns"
-msgstr "Поход"
+msgstr "јигр/вигр. походи"
 
-# >> @title:window
+# well-spelled: вигр
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:58
-#, fuzzy
-#| msgid "Play a campaign"
 msgctxt "addons_of_type"
 msgid "MP campaigns"
-msgstr "Играње похода"
+msgstr "вигр. походи"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:61
 msgctxt "addons_of_type"
 msgid "Resources"
-msgstr ""
+msgstr "ресурси"
 
+# well-spelled: вигр
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:62
-#, fuzzy
-#| msgid "Test scenario"
 msgctxt "addons_of_type"
 msgid "MP scenarios"
-msgstr "Пробни сценарио"
+msgstr "вигр. сценарији"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:66
-#, fuzzy
-#| msgid "Other games"
 msgctxt "addons_of_type"
 msgid "Other"
-msgstr "Друге партије"
+msgstr "друго"
 
+# well-spelled: вигр
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:67
 msgctxt "addons_of_type"
 msgid "MP map-packs"
-msgstr ""
+msgstr "вигр. пакети мапа"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:70
-#, fuzzy
-#| msgid "Unknown era"
 msgctxt "addons_of_type"
 msgid "Unknown"
-msgstr "Непозната епоха"
+msgstr "непознато"
 
+# well-spelled: вигр
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:71
-#, fuzzy
-#| msgid "Moderation"
 msgctxt "addons_of_type"
 msgid "MP modifications"
-msgstr "Модерисање"
+msgstr "вигр. модификације"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:170
-#, fuzzy
-#| msgid "Actions"
 msgid "Options"
-msgstr "Радње"
+msgstr "Опције"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:184
 msgid "Add-ons matching the following criteria will be displayed."
-msgstr ""
+msgstr "Биће приказани додаци поклопљени наредним критеријумима."
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:221
-#, fuzzy
-#| msgid "Translations:"
 msgid "Installation status:"
-msgstr "Преводи:"
+msgstr "Стање инсталације:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:264
-#, fuzzy
-#| msgid "Add-ons"
 msgid "Add-on types:"
-msgstr "Додаци"
+msgstr "Типови додатака:"
 
 #. [button]: id=toggle_all_displayed_types
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:277
-#, fuzzy
-#| msgid "Toggle Ellipses"
 msgid "Toggle All"
-msgstr "Приказ елипса"
+msgstr "Обрни све"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:321
 msgid "Add-ons will be sorted as follows when no column is selected:"
-msgstr ""
+msgstr "Кад нема изабране колоне додаци ће бити поређани:"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:351
 msgctxt "sort"
 msgid "By name"
-msgstr ""
+msgstr "по имену"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:356
 msgctxt "sort"
 msgid "By last updated"
-msgstr ""
+msgstr "по ажурирању"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:361
 msgctxt "sort"
 msgid "By first upload"
-msgstr ""
+msgstr "по првом отпремању"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:377
-#, fuzzy
-#| msgid "Binding"
 msgctxt "sort"
 msgid "Ascending"
-msgstr "свеза"
+msgstr "растуће"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/addon_filter_options.cfg:382
 msgctxt "sort"
 msgid "Descending"
-msgstr ""
+msgstr "опадајуће"
 
 #. [scroll_label]
 #. +> stable
@@ -2084,12 +2079,9 @@ msgstr "Изаберите додатке које желите да уклон�
 msgid "Remove"
 msgstr "Уклони"
 
-# >> @title:window
 #. [label]
 #. +> stable
 #: data/gui/default/window/campaign_dialog.cfg:55
-#, fuzzy
-#| msgid "Play a campaign"
 msgid "Play a Campaign"
 msgstr "Играње похода"
 
@@ -2178,10 +2170,8 @@ msgstr "Претходно"
 #. [button]: id=previous_page
 #. +> stable
 #: data/gui/default/window/chat_log.cfg:99
-#, fuzzy
-#| msgid "Previous"
 msgid "Previous page"
-msgstr "Претходно"
+msgstr "Претходна страница"
 
 #. [button]: id=next_page
 #. [button]: id=next_tip
@@ -2196,10 +2186,8 @@ msgstr "С‹љедеће"
 #. [button]: id=next_page
 #. +> stable
 #: data/gui/default/window/chat_log.cfg:107
-#, fuzzy
-#| msgid "Next Side"
 msgid "Next page"
-msgstr "С‹љедећа страна"
+msgstr "С‹љедећа страница"
 
 #. [label]
 #. +> stable
@@ -2213,8 +2201,6 @@ msgstr "Филтер:"
 #: data/gui/default/window/chat_log.cfg:189
 #: data/gui/default/window/gamestate_inspector.cfg:238
 #: data/gui/default/window/wml_error.cfg:124
-#, fuzzy
-#| msgid "Copy"
 msgctxt "clipboard"
 msgid "Copy"
 msgstr "Умножи"
@@ -2223,7 +2209,7 @@ msgstr "Умножи"
 #. +> stable
 #: data/gui/default/window/custom_tod.cfg:45
 msgid "Custom Time of Day Schedule"
-msgstr ""
+msgstr "Посебан распоред доба дана"
 
 #. [label]
 #. +> stable
@@ -2241,32 +2227,29 @@ msgstr "Име:"
 #. +> stable
 #: data/gui/default/window/custom_tod.cfg:100
 msgid "ID:"
-msgstr ""
+msgstr "ИД:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/custom_tod.cfg:133
 msgid "Metadata:"
-msgstr ""
+msgstr "Метаподаци:"
 
 #. [button]: id=image_button
 #. +> stable
 #: data/gui/default/window/custom_tod.cfg:147
 msgid "Image"
-msgstr ""
+msgstr "Слика"
 
 #. [button]: id=mask_button
 #. +> stable
 #: data/gui/default/window/custom_tod.cfg:157
 msgid "Mask"
-msgstr ""
+msgstr "Маска"
 
 #. [button]: id=sound_button
 #. +> stable
 #: data/gui/default/window/custom_tod.cfg:167
-#, fuzzy
-#| msgctxt "Prefs section"
-#| msgid "Sound"
 msgid "Sound"
 msgstr "Звук"
 
@@ -2274,13 +2257,13 @@ msgstr "Звук"
 #. +> stable
 #: data/gui/default/window/custom_tod.cfg:180
 msgid "long size text"
-msgstr ""
+msgstr "дугачак текст"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/custom_tod.cfg:201
 msgid "Lawful Bonus:"
-msgstr ""
+msgstr "бонус законитог:"
 
 #. [label]
 #. +> stable
@@ -2304,21 +2287,19 @@ msgstr "плава:"
 #. +> stable
 #: data/gui/default/window/custom_tod.cfg:337
 msgid "100/100"
-msgstr ""
+msgstr "100/100"
 
 #. [button]: id=new
 #. +> stable
 #: data/gui/default/window/custom_tod.cfg:359
 msgid "New ToD"
-msgstr ""
+msgstr "Нови распоред"
 
 #. [button]: id=delete
 #. +> stable
 #: data/gui/default/window/custom_tod.cfg:369
-#, fuzzy
-#| msgid "Delete"
 msgid "Delete ToD"
-msgstr "Обриши"
+msgstr "Обриши распоред"
 
 # >> @title:window
 #. [label]: id=lblTitle
@@ -2402,113 +2383,92 @@ msgstr "Само тимски"
 #. [toggle_button]: id=immutable_toggle
 #. +> stable
 #: data/gui/default/window/editor_edit_label.cfg:112
-#, fuzzy
-#| msgid "Impassable"
 msgid "Immutable"
-msgstr "непролаз"
+msgstr "Неизменљиво"
 
 #. [toggle_button]: id=visible_fog_toggle
 #. +> stable
 #: data/gui/default/window/editor_edit_label.cfg:130
 msgid "Visible in fog"
-msgstr ""
+msgstr "Видљиво у магли"
 
 #. [toggle_button]: id=visible_shroud_toggle
 #. +> stable
 #: data/gui/default/window/editor_edit_label.cfg:148
 msgid "Visible in shroud"
-msgstr ""
+msgstr "Видљиво у покрову"
 
 #. [label]: id=title
 #. +> stable
 #: data/gui/default/window/editor_edit_scenario.cfg:42
-#, fuzzy
-#| msgid "Editor Settings"
 msgid "Edit Scenario Settings"
-msgstr "Поставке уређивача"
+msgstr "Уређивање поставки сценарија"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_edit_scenario.cfg:72
 msgid "Identifier:"
-msgstr ""
+msgstr "Идентификатор:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_edit_scenario.cfg:173
-#, fuzzy
-#| msgid "Experience modifier"
 msgid "Experience modifier:"
-msgstr "Модификатор искуства"
+msgstr "Модификатор искуства:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_edit_scenario.cfg:204
-#, fuzzy
-#| msgid "Turn"
 msgid "Turns:"
-msgstr "Потез"
+msgstr "Потеза:"
 
 #. [toggle_button]: id=victory_when_enemies_defeated
 #. +> stable
 #: data/gui/default/window/editor_edit_scenario.cfg:244
 msgid "Declare victory once all enemies are defeated"
-msgstr ""
+msgstr "Прогласи победу на пораз свих непријатеља"
 
 #. [toggle_button]: id=random_start_time
 #. +> stable
 #: data/gui/default/window/editor_edit_scenario.cfg:262
-#, fuzzy
-#| msgid "Random start time"
 msgid "Random starting time"
 msgstr "Насумично вр›ијеме почетка"
 
 #. [label]: id=title
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:54
-#, fuzzy
-#| msgid "Side $side"
 msgid "Side Setup"
-msgstr "Страна $side"
+msgstr "Постављање стране"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:77
-#, fuzzy
-#| msgid "Number of hills:"
 msgid "Number:"
-msgstr "Број брда:"
+msgstr "Број:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:105
 msgid "Team identifier:"
-msgstr ""
+msgstr "Идентификатор тима:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:133
-#, fuzzy
-#| msgid "Team only"
 msgid "Team name:"
-msgstr "Само тимски"
+msgstr "Име тима:"
 
-# кућица
 #. [toggle_button]: id=share_maps
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:188
-#, fuzzy
-#| msgid "Animate map"
 msgid "Share map"
-msgstr "Анимирај мапу"
+msgstr "Подели мапу"
 
 #. [toggle_button]: id=no_leader
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:200
-#, fuzzy
-#| msgid "Leader"
 msgid "No leader"
-msgstr "Вођ"
+msgstr "Без вођа"
 
 #. [toggle_button]: id=fog
 #. +> stable
@@ -2521,86 +2481,71 @@ msgstr "Магла рата"
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:228
 msgid "Share view"
-msgstr ""
+msgstr "Подели приказ"
 
 #. [toggle_button]: id=hidden
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:240
-#, fuzzy
-#| msgid "Status Table"
 msgid "Hide in status table"
-msgstr "Табела стања"
+msgstr "Сакриј у табели стања"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:269
 msgid "Gold:"
-msgstr ""
+msgstr "Злата:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:297
-#, fuzzy
-#| msgid "Gold per village"
 msgid "Gold per village:"
-msgstr "Злата по селу"
+msgstr "Злата по селу:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:325
 msgid "Income:"
-msgstr ""
+msgstr "Приход:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:353
-#, fuzzy
-#| msgid "Gold per village"
 msgid "Support per village:"
-msgstr "Злата по селу"
+msgstr "Подршке по селу:"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:383
 msgid "Controller:"
-msgstr ""
+msgstr "Управљач:"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:400
-#, fuzzy
-#| msgid "Human City"
 msgctxt "controller"
 msgid "Human"
-msgstr "људски град"
+msgstr "чов›јек"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:402
-#, fuzzy
-#| msgid "Team only"
 msgctxt "controller"
 msgid "AI only"
-msgstr "Само тимски"
+msgstr "само ВИ"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:404
-#, fuzzy
-#| msgctxt "translations"
-#| msgid "None"
 msgctxt "controller"
 msgid "None"
-msgstr "ниједан"
+msgstr "нико"
 
 #. [row]
 #. +> stable
 #: data/gui/default/window/editor_edit_side.cfg:421
-#, fuzzy
-#| msgid "Players:"
 msgctxt "controller"
 msgid "Player number:"
-msgstr "Играчи:"
+msgstr "Број играча:"
 
 #. [label]
 #. +> stable
@@ -2655,10 +2600,8 @@ msgstr "Висина:"
 #. [button]: id=ok
 #. +> stable
 #: data/gui/default/window/editor_new_map.cfg:115
-#, fuzzy
-#| msgid "Create Game"
 msgid "Create"
-msgstr "Направи партију"
+msgstr "Направи"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
@@ -2695,10 +2638,8 @@ msgstr "Стара висина:"
 #. [label]
 #. +> stable
 #: data/gui/default/window/editor_resize_map.cfg:154
-#, fuzzy
-#| msgid "Expand / shrink direction"
 msgid "Expand/shrink direction:"
-msgstr "Рашири/сажми правац"
+msgstr "Смер ширења/сажимања:"
 
 #. [toggle_button]: id=copy_edge_terrain
 #. +> stable
@@ -2709,10 +2650,8 @@ msgstr "Копирај рубни терен"
 #. [button]: id=ok
 #. +> stable
 #: data/gui/default/window/editor_resize_map.cfg:274
-#, fuzzy
-#| msgid "Resize Map"
 msgid "Resize"
-msgstr "Пром›ијени величину мапе"
+msgstr "Пром›ијени величину"
 
 # >> @title:window
 #. [label]: id=title
@@ -2732,7 +2671,7 @@ msgstr "Који играч почиње одавде?"
 #. +> stable
 #: data/gui/default/window/folder_create.cfg:43 src/filechooser.cpp:85
 msgid "New Folder"
-msgstr "Нова фасцикла"
+msgstr "Нови директоријум"
 
 #. [label]
 #. +> stable
@@ -2821,10 +2760,8 @@ msgstr "Желите ли заиста да обришете ову позици
 #. +> stable
 #: data/gui/default/window/game_delete.cfg:80
 #: data/gui/default/window/mp_host_game_prompt.cfg:79
-#, fuzzy
-#| msgid "Do not show lobby joins"
 msgid "Do not show again"
-msgstr "Не приказуј уласке у хол"
+msgstr "Не приказуј више"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
@@ -2874,16 +2811,14 @@ msgstr "Обриши"
 #. [toggle_button]: id=change_difficulty
 #. +> stable
 #: data/gui/default/window/game_load.cfg:383
-#, fuzzy
-#| msgid "Difficulty"
 msgid "Change difficulty"
-msgstr "Тежина"
+msgstr "Пром›ијени тежину"
 
 #. [toggle_button]: id=change_difficulty
 #. +> stable
 #: data/gui/default/window/game_load.cfg:384
 msgid "Change campaign difficulty before loading"
-msgstr ""
+msgstr "Промени тежину похода пре учитавања"
 
 #. [toggle_button]: id=show_replay
 #. +> stable
@@ -2895,7 +2830,7 @@ msgstr "Прикажи снимак"
 #. +> stable
 #: data/gui/default/window/game_load.cfg:404
 msgid "Play the embedded replay from the saved game if applicable"
-msgstr ""
+msgstr "Пусти угнежђени снимак из позиције ако га има"
 
 #. [toggle_button]: id=cancel_orders
 #. +> stable
@@ -2907,15 +2842,13 @@ msgstr "Обустави наређења"
 #. +> stable
 #: data/gui/default/window/game_load.cfg:423
 msgid "Cancel any pending unit movements in the saved game"
-msgstr ""
+msgstr "Обустави сва наступајућа кретања јединица у позицији"
 
 #. [button]: id=copy
 #. [button]: id=copy_
 #. +> stable
 #: data/gui/default/window/game_paths.cfg:47
 #: data/gui/default/window/screenshot_notification.cfg:34
-#, fuzzy
-#| msgid "Copy"
 msgctxt "filesystem"
 msgid "Copy"
 msgstr "Умножи"
@@ -2925,71 +2858,63 @@ msgstr "Умножи"
 #. +> stable
 #: data/gui/default/window/game_paths.cfg:48
 #: data/gui/default/window/screenshot_notification.cfg:35
-#, fuzzy
-#| msgid "Choose the game to load"
 msgid "Copy this path to clipboard"
-msgstr "Позиција за учитавање"
+msgstr "Умножи ову путању у оставу"
 
 #. [button]: id=browse_
 #. +> stable
 #: data/gui/default/window/game_paths.cfg:63
 msgctxt "filesystem"
 msgid "Browse"
-msgstr ""
+msgstr "Прегледај"
 
 #. [button]: id=browse_
 #. +> stable
 #: data/gui/default/window/game_paths.cfg:64
 msgid "Browse this location using a file manager"
-msgstr ""
+msgstr "Прегледај ову локацију менаџером датотека"
 
 #. [label]: id=title
 #. +> stable
 #: data/gui/default/window/game_paths.cfg:105
-#, fuzzy
-#| msgid "Cave Path"
 msgid "Game Paths"
-msgstr "пећинска стаза"
+msgstr "Путање игре"
 
 #. [grid]
 #. +> stable
 #: data/gui/default/window/game_paths.cfg:127
 msgid "Game data:"
-msgstr ""
+msgstr "Подаци игре:"
 
 #. [grid]
 #. +> stable
 #: data/gui/default/window/game_paths.cfg:129
 msgid "Configuration:"
-msgstr ""
+msgstr "Постава:"
 
 #. [grid]
 #. +> stable
 #: data/gui/default/window/game_paths.cfg:131
 msgid "User data:"
-msgstr ""
+msgstr "Кориснички подаци:"
 
 #. [grid]
 #. +> stable
 #: data/gui/default/window/game_paths.cfg:133
-#, fuzzy
-#| msgid "Save Game"
 msgid "Saved games:"
-msgstr "Сачувај позицију"
+msgstr "Позиције:"
 
 #. [grid]
 #. +> stable
 #: data/gui/default/window/game_paths.cfg:135
-#, fuzzy
-#| msgid "Add-ons"
 msgid "Add-ons:"
-msgstr "Додаци"
+msgstr "Додаци:"
 
 #. [grid]
 #. +> stable
 #: data/gui/default/window/game_paths.cfg:137
 msgid "Cache:"
-msgstr ""
+msgstr "Кеш:"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
@@ -3033,6 +2958,7 @@ msgstr "Позиција већ постоји. Желите ли да је пр
 msgid "Gamestate Inspector"
 msgstr "Испитивач стања игре"
 
+# >> @title:column
 #. [label]: id=typename
 #. [label]: id=unit_type
 #. +> stable
@@ -3041,19 +2967,19 @@ msgstr "Испитивач стања игре"
 msgid "Type"
 msgstr "тип"
 
+# >> @title:column
 #. [label]: id=name
 #. +> stable
 #: data/gui/default/window/gamestate_inspector.cfg:164
 msgid "Items"
-msgstr ""
+msgstr "ставке"
 
+# >> @title:column
 #. [label]
 #. +> stable
 #: data/gui/default/window/gamestate_inspector.cfg:226
-#, fuzzy
-#| msgid "Content"
 msgid "Contents"
-msgstr "Садржај"
+msgstr "садржај"
 
 #. [grid]
 #. [label]
@@ -3499,20 +3425,17 @@ msgstr "Злата по селу"
 msgid "Random start time"
 msgstr "Насумично вр›ијеме почетка"
 
-# >> @title:window
 #. [label]
 #. +> stable
 #: data/gui/default/window/mp_create_game_choose_mods.cfg:54
-#, fuzzy
-#| msgid "Choose Resolution"
 msgid "Choose Modifications"
-msgstr "Избор резолуције"
+msgstr "Избор модификација"
 
 #. [label]: id=message
 #. +> stable
 #: data/gui/default/window/mp_create_game_choose_mods.cfg:73
 msgid "Enable the modifications you want to be active during the game."
-msgstr ""
+msgstr "Модификације које желите да буду активне током играња."
 
 #. [scroll_label]: id=message
 #. +> stable
@@ -3531,29 +3454,25 @@ msgstr "Лозинка:"
 #. +> stable
 #: data/gui/default/window/mp_depcheck_confirm_change.cfg:40
 msgid "Confirm"
-msgstr ""
+msgstr "Потврда"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/mp_depcheck_confirm_change.cfg:98
 msgid "Would you like to apply the changes?"
-msgstr ""
+msgstr "Желите ли да примените измене?"
 
 #. [label]
 #. +> stable
 #: data/gui/default/window/mp_depcheck_select_new.cfg:40
-#, fuzzy
-#| msgid "User interface sounds"
 msgid "User Interaction Required"
-msgstr "Звуци корисничког сучеља"
+msgstr "Потребан одзив корисника"
 
 #. [label]: id=message
 #. +> stable
 #: data/gui/default/window/mp_depcheck_select_new.cfg:59
-#, fuzzy
-#| msgid "User interface sounds"
 msgid "User interaction required"
-msgstr "Звуци корисничког сучеља"
+msgstr "Потребан одзив корисника"
 
 #. [column]
 #. [label]
@@ -3567,7 +3486,7 @@ msgstr "Домаћин мрежној партији"
 #. +> stable
 #: data/gui/default/window/mp_host_game_prompt.cfg:58
 msgid "A local server instance has to be started in order to host a networked game. The server will run as a background process until all users have disconnected. Do you wish to continue?"
-msgstr ""
+msgstr "Мора да се покрене локални примерак сервера да би се удомила мрежна партија. Сервер ће радити као позадински процес све док сви корисници не прекину везу. Желите ли да наставите?"
 
 #. [window]: id=mp_login
 #. +> stable
@@ -3676,38 +3595,31 @@ msgstr "Изабери"
 #: data/gui/default/window/screenshot_notification.cfg:50
 msgctxt "filesystem"
 msgid "Open"
-msgstr ""
+msgstr "Отвори"
 
 #. [button]: id=open
 #. +> stable
 #: data/gui/default/window/screenshot_notification.cfg:51
 msgid "Open this file with an external application"
-msgstr ""
+msgstr "Отвори ову датотеку спољашњим програмом"
 
 #. [label]: id=title
 #. +> stable
 #: data/gui/default/window/screenshot_notification.cfg:95
-#, fuzzy
-#| msgid "Screenshot done"
 msgid "Screenshot Saved"
-msgstr "Снимање завршено"
+msgstr "Снимак екрана сачуван"
 
-# >! contexts
-# >> Take screenshot
-# >> Base for screenshot file names
 #. [button]: id=browse_dir
 #. +> stable
 #: data/gui/default/window/screenshot_notification.cfg:185
-#, fuzzy
-#| msgid "Screenshot"
 msgid "Screenshots..."
-msgstr "Снимак екрана"
+msgstr "Снимци екрана..."
 
 #. [button]: id=browse_dir
 #. +> stable
 #: data/gui/default/window/screenshot_notification.cfg:187
 msgid "Browse the screenshots folder using a file manager"
-msgstr ""
+msgstr "Прегледајте директоријум снимака екрана менаџером датотека"
 
 # >> @title:window
 #. [label]
@@ -3719,10 +3631,8 @@ msgstr "Избор теме"
 #. [label]
 #. +> stable
 #: data/gui/default/window/theme_list.cfg:67
-#, fuzzy
-#| msgid "New theme will take effect on next new or loaded game."
 msgid "The new theme will take effect after loading or starting a new game."
-msgstr "Нова тема ће се исказати по с‹љедећем покретању игре или учитавању позиције."
+msgstr "Нова тема ће ступити на снагу пошто учитате или покренете нову партију."
 
 #. [button]: id=help
 #. +> stable
@@ -3896,13 +3806,13 @@ msgstr "Грешка"
 #. +> stable
 #: data/gui/default/window/wml_error.cfg:112 src/gui/dialogs/wml_error.cpp:192
 msgid "Details:"
-msgstr ""
+msgstr "Детаљи:"
 
 #. [button]: id=copy
 #. +> stable
 #: data/gui/default/window/wml_error.cfg:125
 msgid "Copy this report to clipboard"
-msgstr ""
+msgstr "Умножи овај извештај у оставу"
 
 #. +> stable
 #: src/filechooser.cpp:80
@@ -3974,12 +3884,12 @@ msgstr "Прикажи мрежу"
 #. +> stable
 #: src/game_preferences_display.cpp:182
 msgid "Save replays at the end of scenarios"
-msgstr ""
+msgstr "Сачувај снимак на крају сценарија"
 
 #. +> stable
 #: src/game_preferences_display.cpp:183
 msgid "Delete auto-saves at the end of scenarios"
-msgstr ""
+msgstr "Обриши аутопозиције на крају сценарија"
 
 #. +> stable
 #: src/game_preferences_display.cpp:184
@@ -4096,7 +4006,7 @@ msgstr "Пречице"
 #. +> stable
 #: src/game_preferences_display.cpp:206
 msgid "Paths"
-msgstr ""
+msgstr "Путање"
 
 # кућица
 #. +> stable
@@ -4305,14 +4215,12 @@ msgstr "Опажање савезничке јединице прекида кр
 #. +> stable
 #: src/game_preferences_display.cpp:374
 msgid "Saves replays of games on victory in all modes and defeat in multiplayer"
-msgstr ""
+msgstr "Уписује снимке партије при победи у свим режимима и још при поразима у вишеигрању"
 
 #. +> stable
 #: src/game_preferences_display.cpp:377
-#, fuzzy
-#| msgid "Delete auto-saves on SP/MP victory or MP defeat"
 msgid "Deletes previous auto-saves on victory in all modes and defeat in multiplayer"
-msgstr "Бриши аутопозиције при ји./ви. поб›једи или ви. поразу"
+msgstr "Брише претходне аутопозиције при победи у свим режимима и још при поразу у вишеигрању"
 
 #. +> stable
 #: src/game_preferences_display.cpp:379
@@ -4326,17 +4234,13 @@ msgstr "Поређај играче на списку у холу по груп�
 
 #. +> stable
 #: src/game_preferences_display.cpp:385
-#, fuzzy
-#| msgid "Show icons in front of the player names in the lobby."
 msgid "Show icons in front of the player names in the lobby"
-msgstr "Прикажи иконе испред имена играча у холу."
+msgstr "Прикажи иконе испред имена играча у холу"
 
 #. +> stable
 #: src/game_preferences_display.cpp:388
-#, fuzzy
-#| msgid "Uncheck to delete the saved password (on exit)."
 msgid "Uncheck to delete the saved password (on exit)"
-msgstr "Ако је празно, брише сачувану лозинку (при напуштању)."
+msgstr "Ако је празно, брише сачувану лозинку (при напуштању)"
 
 #. +> stable
 #: src/game_preferences_display.cpp:392
@@ -4355,10 +4259,8 @@ msgstr "Прикажи поруке о свим играчима који при
 
 #. +> stable
 #: src/game_preferences_display.cpp:398
-#, fuzzy
-#| msgid "Find and set path to MP server to host LAN games."
 msgid "Find and set path to MP server to host LAN games"
-msgstr "Пронађите и поставите путању до ви. сервера, за удомљавање ЛАН партија."
+msgstr "Пронађите и поставите путању до ви. сервера, за удомљавање ЛАН партија"
 
 #. +> stable
 #: src/game_preferences_display.cpp:399
@@ -4373,12 +4275,12 @@ msgstr "Назад на вишеиграчке опције"
 #. +> stable
 #: src/game_preferences_display.cpp:401
 msgid "Add this username to your friends list (add optional notes, e.g., 'player_name notes on friend')"
-msgstr ""
+msgstr "Додајте ово корисничко име на списак пријатеља (опционо са белешкама, нпр. „име-играча белешке о пријатељу“)."
 
 #. +> stable
 #: src/game_preferences_display.cpp:402
 msgid "Add this username to your ignores list (add optional reason, e.g., 'player_name reason ignored')"
-msgstr ""
+msgstr "Додајте ово корисничко име на списак игнорисаних (уз опциони разлог, нпр. „име-играча разлог игнорисања“)."
 
 #. +> stable
 #: src/game_preferences_display.cpp:403
@@ -4443,7 +4345,7 @@ msgstr "Прикажи и подеси пречице са тастатуре"
 #. +> stable
 #: src/game_preferences_display.cpp:434
 msgid "View game file paths"
-msgstr ""
+msgstr "Прикажи путање датотека игре"
 
 #. +> stable
 #: src/game_preferences_display.cpp:764
@@ -4576,13 +4478,10 @@ msgstr "Пејзаж:"
 msgid "Roads between castles"
 msgstr "Путеви међу замковима"
 
-# кућица
 #. +> stable
 #: src/generators/mapgen_dialog.cpp:256
-#, fuzzy
-#| msgid "Show floating labels"
 msgid "Show labels"
-msgstr "Плутајуће етикете"
+msgstr "Прикажи етикете"
 
 #. +> stable
 #: src/generators/mapgen_dialog.cpp:314
@@ -4708,7 +4607,7 @@ msgstr "Страница није дефинисана."
 #. +> stable
 #: src/gui/auxiliary/window_builder/pane.cpp:37
 msgid "Need at least 1 parallel item."
-msgstr ""
+msgstr "Потребна бар једна паралелна ставка."
 
 #. +> stable
 #: src/gui/auxiliary/window_builder/slider.cpp:68
@@ -4739,109 +4638,103 @@ msgstr "Нема ниједног чвора."
 #: src/gui/dialogs/addon/description.cpp:109
 msgctxt "addon_state"
 msgid "Not installed"
-msgstr ""
+msgstr "није инсталиран"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:111
 msgctxt "addon_state"
 msgid "Published, not installed"
-msgstr ""
+msgstr "објављен, није инсталиран"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:116
 msgctxt "addon_state"
 msgid "Installed"
-msgstr ""
+msgstr "инсталиран"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:118
 msgctxt "addon_state"
 msgid "Published"
-msgstr ""
+msgstr "објављен"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:123
 msgctxt "addon_state"
 msgid "Installed, not tracking local version"
-msgstr ""
+msgstr "инсталиран, прати локалну верзију"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:127
 msgctxt "addon_state"
 msgid "Published, not tracking local version"
-msgstr ""
+msgstr "инсталиран, не прати локалну верзију"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:133
 msgctxt "addon_state"
 msgid "Installed ($local_version|), upgradable"
-msgstr ""
+msgstr "инсталиран ($local_version|), надоградив"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:135
 msgctxt "addon_state"
 msgid "Published ($local_version| installed), upgradable"
-msgstr ""
+msgstr "објављен (инсталиран $local_version|), надоградив"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:142
 msgctxt "addon_state"
 msgid "Installed ($local_version|), outdated on server"
-msgstr ""
+msgstr "инсталиран ($local_version|), застарео на серверу"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:144
 msgctxt "addon_state"
 msgid "Published ($local_version| installed), outdated on server"
-msgstr ""
+msgstr "објављен (инсталиран $local_version|), застарео на серверу"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:150
 msgctxt "addon_state"
 msgid "Installed, broken"
-msgstr ""
+msgstr "инсталиран, покварен"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:152
 msgctxt "addon_state"
 msgid "Published, broken"
-msgstr ""
+msgstr "објављен, покварен"
 
 #. +> stable
 #: src/gui/dialogs/addon/description.cpp:156
-#, fuzzy
-#| msgid "Unknown era"
 msgctxt "addon_state"
 msgid "Unknown"
-msgstr "Непозната епоха"
+msgstr "непознато"
 
 #. +> stable
 #: src/gui/dialogs/addon/filter_options.cpp:294
 msgctxt "addons_view"
 msgid "Not Installed"
-msgstr ""
+msgstr "нису инсталирани"
 
 #. +> stable
 #: src/gui/dialogs/addon/filter_options.cpp:296
-#, fuzzy
-#| msgid "Impassable"
 msgctxt "addons_view"
 msgid "Upgradable"
-msgstr "непролаз"
+msgstr "надоградиви"
 
 #. +> stable
 #: src/gui/dialogs/addon/filter_options.cpp:298
 msgctxt "addons_view"
 msgid "Installed"
-msgstr ""
+msgstr "инсталирани"
 
 #. +> stable
 #: src/gui/dialogs/addon/filter_options.cpp:300
-#, fuzzy
-#| msgid "Add-ons"
 msgctxt "addons_view"
 msgid "All Add-ons"
-msgstr "Додаци"
+msgstr "сви додаци"
 
 #. +> stable
 #: src/gui/dialogs/addon_list.cpp:227
@@ -4960,12 +4853,12 @@ msgstr "Учитај позицију..."
 #. +> stable
 #: src/gui/dialogs/mp_depcheck_confirm_change.cpp:64
 msgid "$requester requires the following modifications to be enabled:"
-msgstr ""
+msgstr "$requester тражи да се укључе следеће модификације:"
 
 #. +> stable
 #: src/gui/dialogs/mp_depcheck_confirm_change.cpp:68
 msgid "$requester requires the following modifications to be disabled:"
-msgstr ""
+msgstr "$requester тражи да се искључе следеће модификације:"
 
 #. +> stable
 #: src/gui/dialogs/mp_depcheck_select_new.cpp:67
@@ -4973,6 +4866,8 @@ msgid ""
 "The currently chosen scenario is not compatible with your setup.\n"
 "Please select a compatible one."
 msgstr ""
+"Тренутно изабрани сценарио није сагласан са вашом поставом.\n"
+"Изаберите неки сагласан."
 
 #. +> stable
 #: src/gui/dialogs/mp_depcheck_select_new.cpp:72
@@ -4980,6 +4875,8 @@ msgid ""
 "The currently chosen era is not compatible with your setup.\n"
 "Please select a compatible one."
 msgstr ""
+"Тренутно изабрана епоха није сагласна са вашом поставом.\n"
+"Изаберите неку сагласну."
 
 #. +> stable
 #: src/gui/dialogs/mp_depcheck_select_new.cpp:78
@@ -4987,6 +4884,8 @@ msgid ""
 "The currently chosen modification is not compatible with your setup.\n"
 "Please select a compatible one."
 msgstr ""
+"Тренутно изабрана модификација није сагласна са вашом поставом.\n"
+"Изаберите неку сагласну."
 
 #. +> stable
 #: src/gui/dialogs/title_screen.cpp:293
@@ -5037,36 +4936,28 @@ msgstr "Не могу да прикажем дијалог који не ста�
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:38
-#, fuzzy
-#| msgid "Cancel"
 msgid "cancel"
 msgstr "Одустани"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:39
-#, fuzzy
-#| msgid "Select None"
 msgid "Select Hex"
-msgstr "Поништи избор"
+msgstr "Изабери поље"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:40
-#, fuzzy
-#| msgid "Select None"
 msgid "Deselect Hex"
-msgstr "Поништи избор"
+msgstr "Поништи избор поља"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:41
-#, fuzzy
-#| msgid "Attack"
 msgid "Move/Attack"
-msgstr "Нападни"
+msgstr "Крени/нападни"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:42
 msgid "Select/Move/Attack"
-msgstr ""
+msgstr "Изабери/крени/нападни"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:43
@@ -5148,10 +5039,8 @@ msgstr "Убрзано"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:58
-#, fuzzy
-#| msgid "Unit Description"
 msgid "Terrain Description"
-msgstr "Опис јединице"
+msgstr "Опис терена"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:59
@@ -5165,10 +5054,8 @@ msgstr "Преименуј јединицу"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:61
-#, fuzzy
-#| msgid "Delete File"
 msgid "Delete Unit"
-msgstr "Обриши датотеку"
+msgstr "Обриши јединицу"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:64
@@ -5237,10 +5124,8 @@ msgstr "Пром›ијени страну (испр.!)"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:79
-#, fuzzy
-#| msgid "Create Unit (Debug!)"
 msgid "Kill Unit (Debug!)"
-msgstr "Направи јединицу (испр.!)"
+msgstr "Убиј јединицу (исправљање!)"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:81
@@ -5269,10 +5154,8 @@ msgstr "Настави мрежну партију"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:87
-#, fuzzy
-#| msgid "Start Editor"
 msgid "Quit Editor"
-msgstr "Покрени уређивач"
+msgstr "Напусти уређивач"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:88
@@ -5406,7 +5289,7 @@ msgstr "Затвори мапу"
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:124
 msgid "Switch Time of Day"
-msgstr ""
+msgstr "Промени доба дана"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:126
@@ -5416,12 +5299,13 @@ msgstr "Пребаци мапу"
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:127
 msgid "Assign Local Time"
-msgstr ""
+msgstr "Додели локално време"
 
+# rewrite-msgid: /Creator/Editor/
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:129
 msgid "Custom Time of Day Creator"
-msgstr ""
+msgstr "Уређивач посебног доба дана"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:130
@@ -5430,10 +5314,8 @@ msgstr "Делимично опозови"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:132
-#, fuzzy
-#| msgid "Test scenario"
 msgid "New Scenario"
-msgstr "Пробни сценарио"
+msgstr "Нови сценарио"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:133
@@ -5447,10 +5329,8 @@ msgstr "Сачувај мапу као"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:136
-#, fuzzy
-#| msgid "Scenario start"
 msgid "Save Scenario As"
-msgstr "Почетак сценарија"
+msgstr "Сачувај сценарио као"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:137
@@ -5469,39 +5349,33 @@ msgstr "Подаци о мапи"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:141
-#, fuzzy
-#| msgid "Selected game"
 msgid "Clear Selected Item Set"
-msgstr "Изабрана партија"
+msgstr "Очисти изабрани скуп ставки"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:142
-#, fuzzy
-#| msgid "Swap Foreground/Background Terrains"
 msgid "Swap Foreground/Background Palette Item"
-msgstr "Разм›ијени терен спреда и позадине"
+msgstr "Размени ставку палете предњег плана/позадине"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:143
 msgid "Change Palette Group"
-msgstr ""
+msgstr "Измени групу палете"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:144
 msgid "Scroll Palette Left"
-msgstr ""
+msgstr "Клизај палету улево"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:145
 msgid "Scroll Palette Right"
-msgstr ""
+msgstr "Клизај палету удесно"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:147
-#, fuzzy
-#| msgid "Next Side"
 msgid "Add New Side"
-msgstr "С‹љедећа страна"
+msgstr "Додај нову страну"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:149
@@ -5516,7 +5390,7 @@ msgstr "Алатка сликања"
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:151 src/hotkey/hotkey_command.cpp:152
 msgid "Use left/right mouse button to draw fore-/background terrain. Hold Shift to paint base layer only. Ctrl+click to sample terrain under cursor."
-msgstr ""
+msgstr "Левим/десним дугметом миша цртате предњи план/позадину терена. Држите Shift за цртање само основног слоја. Ctrl+клик узима терен под показивачем."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:152
@@ -5526,7 +5400,7 @@ msgstr "Алатка испуне"
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:153
 msgid "Left mouse button selects or deselects with Ctrl, right brings up a context menu. Hold Shift for magic-wand selection of tiles with same terrain."
-msgstr ""
+msgstr "Лево дугме миша бира или поништава избор уз Ctrl, десно даје контекстни мени. Држите Shift за избор магичним штапићем плочица са истим тереном."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:153
@@ -5536,141 +5410,128 @@ msgstr "Алатка избора"
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:154
 msgid "Left mouse button displays player selection, right clears. Number keys scroll to the starting position, alt+number sets respective starting position under cursor, delete clears."
-msgstr ""
+msgstr "Лево дугме миша приказује избор играча, десно га чисти. Тастери бројева клизају до почетног положаја, Alt+број задаје одговарајући почетни положај на онај под мишем, Delete га брише."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:154
-#, fuzzy
-#| msgid "Set Starting Positions Tool"
 msgid "Starting Positions Tool"
-msgstr "Алатка задавања почетних положаја"
+msgstr "Алатка почетних положаја"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:155
-#, fuzzy
-#| msgid "Fill Tool"
 msgid "Label Tool"
-msgstr "Алатка испуне"
+msgstr "Алатка етикета"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:155
 msgid "Left mouse button sets or drags a label, right clears."
-msgstr ""
+msgstr "Лево дугме миша поставља и превлачи етикету, десно је чисти."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:156
 msgid "Left mouse button sets a new unit or moves a unit via drag and drop, right brings up a context menu. Needs a defined side."
-msgstr ""
+msgstr "Лево дугме миша поставља нову јединицу или помера јединицу превлачењем, десно даје контекстни мени. Захтева дефинисану страну."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:156
-#, fuzzy
-#| msgid "Paint Tool"
 msgid "Unit Tool"
-msgstr "Алатка сликања"
+msgstr "Алатка јединица"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:157
-#, fuzzy
-#| msgid "Next Tool"
 msgid "Item Tool"
-msgstr "С‹љедећа алатка"
+msgstr "Алатка ставки"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:157
 msgid "Left mouse button sets a new item or moves it via drag and drop, right clears. Not implemented yet."
-msgstr ""
+msgstr "Лево дугме миша поставља нову ставку или је помера превлачењем, десно је чисти. Још нији изведено."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:158
 msgid "Left mouse button sets or drags a sound source, right clears. Not implemented yet."
-msgstr ""
+msgstr "Лево дугме миша поставља или превлачи извор звука, десно га чисти. Још није изведено."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:158
 msgid "Sound Source Tool"
-msgstr ""
+msgstr "Алатка извора звука"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:159
 msgid "Left mouse button sets the village ownership to the current side, right clears. Needs a defined side."
-msgstr ""
+msgstr "Лево дугме миша поставља припадност села на текућу страну, десно га чисти. Захтева дефинисану страну."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:159
-#, fuzzy
-#| msgid "Village gold"
 msgid "Village Tool"
-msgstr "Злата по селу"
+msgstr "Алатка села"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:161
-#, fuzzy
-#| msgid "Recruit"
 msgid "Can Recruit"
-msgstr "Унајми"
+msgstr "Може да најми"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:161
 msgid "Toggle the recruit attribute of a unit."
-msgstr ""
+msgstr "Задајте атрибут унајмљивања јединице."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:162
 msgid "Can be Renamed"
-msgstr ""
+msgstr "Може да се преименује"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:162
 msgid "Toggle the unit being renameable."
-msgstr ""
+msgstr "Задајте да ли се јединица може преименовати."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:163
 msgid "Assign Recruit List"
-msgstr ""
+msgstr "Додели списак унајмљивања"
 
+# >> ?
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:163
 msgid "Assign the selected unit set as recruit list to the unit."
-msgstr ""
+msgstr "Доделите изабраној јединици списак унајмљивања."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:165
-#, fuzzy
-#| msgid "Change Control"
 msgid "Change Unit ID"
-msgstr "Пром›ијени управљање"
+msgstr "Промени ИД јединице"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:166
 msgid "Loyal"
-msgstr ""
+msgstr "Лојална"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:168
 msgid "Toggle Minimap Unit Coding"
-msgstr ""
+msgstr "Кодирање јединица минимапе"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:169
 msgid "Toggle Minimap Terrain Coding"
-msgstr ""
+msgstr "Кодирање терена минимапе"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:171
 msgid "Toggle Minimap Unit Drawing"
-msgstr ""
+msgstr "Исцртавање јединица на минимапи"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:172
 msgid "Toggle Minimap Village Drawing"
-msgstr ""
+msgstr "Исцртавање села на минимапи"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:173
 msgid "Toggle Minimap Terrain Drawing"
-msgstr ""
+msgstr "Исцртавање терена на минимапи"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:175
@@ -5685,27 +5546,27 @@ msgstr "Подразум›ијевана четкица"
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:177
 msgid "Single Tile"
-msgstr ""
+msgstr "Једна плочица"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:178
 msgid "Radius One"
-msgstr ""
+msgstr "Полупречник један"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:179
 msgid "Radius Two"
-msgstr ""
+msgstr "Полупречник два"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:180
 msgid "Brush NW-SE"
-msgstr ""
+msgstr "Четкица СЗ-ЈИ"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:181
 msgid "Brush SW-NE"
-msgstr ""
+msgstr "Четкица ЈЗ-СИ"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:183
@@ -5720,7 +5581,7 @@ msgstr "Умножи"
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:185
 msgid "Left mouse button pastes from the clipboard, right brings up a context menu."
-msgstr ""
+msgstr "Лево дугме миша налепљује из оставе, десно даје контекстни мени."
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:185
@@ -5784,15 +5645,11 @@ msgstr "Испуни избор"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:197
-#, fuzzy
-#| msgid "Generate Tiles In Selection"
 msgid "Generate Tiles in Selection"
 msgstr "Створи плочице у избору"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:198
-#, fuzzy
-#| msgid "Randomize Tiles In Selection"
 msgid "Randomize Tiles in Selection"
 msgstr "Насумично плочице у избору"
 
@@ -5828,10 +5685,8 @@ msgstr "Ажурирај прелазе терена"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:209
-#, fuzzy
-#| msgid "Update Terrain Transitions"
 msgid "Toggle Terrain Transition Update"
-msgstr "Ажурирај прелазе терена"
+msgstr "Укључи/искључи ажурирање прелаза терена"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:211
@@ -5840,17 +5695,13 @@ msgstr "Самоажурирај прелазе терена"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:212
-#, fuzzy
-#| msgid "Auto-update Terrain Transitions"
 msgid "Auto-update Terrain Transitions: No"
-msgstr "Самоажурирај прелазе терена"
+msgstr "Самоажурирај прелазе терена: не"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:213
-#, fuzzy
-#| msgid "Auto-update Terrain Transitions"
 msgid "Auto-update Terrain Transitions: Partial"
-msgstr "Самоажурирај прелазе терена"
+msgstr "Самоажурирај прелазе терена: делимично"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:215
@@ -5869,50 +5720,38 @@ msgstr "Цртај теренске кодове"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:219
-#, fuzzy
-#| msgid "Rotate Selection"
 msgid "Save Selection to Area"
-msgstr "Заокрени избор"
+msgstr "Сачувај избор у зону"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:220
-#, fuzzy
-#| msgid "Selected game"
 msgid "Rename Selected Area"
-msgstr "Изабрана партија"
+msgstr "Преименуј изабрану зону"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:221
-#, fuzzy
-#| msgid "Selected game"
 msgid "Remove Selected Area"
-msgstr "Изабрана партија"
+msgstr "Уклони изабрану зону"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:222
 msgid "Add New Area"
-msgstr ""
+msgstr "Додај нову зону"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:224
-#, fuzzy
-#| msgid "Test scenario"
 msgid "Edit Scenario"
-msgstr "Пробни сценарио"
+msgstr "Уреди сценарио"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:225
-#, fuzzy
-#| msgid "Next Side"
 msgid "Edit Side"
-msgstr "С‹љедећа страна"
+msgstr "Уреди страну"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:226
-#, fuzzy
-#| msgid "Remove"
 msgid "Remove Side"
-msgstr "Уклони"
+msgstr "Уклони страну"
 
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:228
@@ -6027,105 +5866,97 @@ msgstr "Прикажи текст помоћи"
 #. +> stable
 #: src/hotkey/hotkey_command.cpp:255
 msgid "Unrecognized Command"
-msgstr ""
+msgstr "Непозната наредба"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:406 src/hotkey/hotkey_item.cpp:409
 msgid "Button"
-msgstr ""
+msgstr "Дугме"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:406
 msgid "Mouse"
-msgstr ""
+msgstr "Миш"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:409 src/hotkey/hotkey_item.cpp:445
 msgid "Joystick"
-msgstr ""
+msgstr "Џојстик"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:415
 msgid "Centered"
-msgstr ""
+msgstr "центар"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:418
 msgid "Up"
-msgstr ""
+msgstr "горе"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:421
-#, fuzzy
-#| msgid "Height:"
 msgid "Right"
-msgstr "Висина:"
+msgstr "десно"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:424
 msgid "Down"
-msgstr ""
+msgstr "доле"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:427
 msgid "Left"
-msgstr ""
+msgstr "лево"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:430
 msgid "RightUp"
-msgstr ""
+msgstr "десно-горе"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:433
 msgid "RightDown"
-msgstr ""
+msgstr "десно-доле"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:436
 msgid "LeftUp"
-msgstr ""
+msgstr "лево-горе"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:439
 msgid "LeftDown"
-msgstr ""
+msgstr "лево-доле"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:442
-#, fuzzy
-#| msgid "Unknown era"
 msgid "Unknown"
-msgstr "Непозната епоха"
+msgstr "непознато"
 
 #. +> stable
 #: src/hotkey/hotkey_item.cpp:445
-#, fuzzy
-#| msgid "Hut"
 msgid "Hat"
-msgstr "кућица"
+msgstr "капица"
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:134
 msgid "Add a new binding to \"$hotkey_description|\""
-msgstr ""
+msgstr "Додај нову свезу за „$hotkey_description|“"
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:136
 msgid "Clears the current bindings for \"$hotkey_description|\""
-msgstr ""
+msgstr "Чисти тренутне свезе за „$hotkey_description|“."
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:150
-#, fuzzy
-#| msgid "Hotkeys"
 msgid "Hotkeys Reset"
-msgstr "Пречице"
+msgstr "Ресетуј пречице"
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:151
 msgid "All hotkeys have been reset to their default values."
-msgstr ""
+msgstr "Све пречице су враћене на подразумеване вредности."
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:167
@@ -6134,46 +5965,36 @@ msgstr "Поставке пречица"
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:172
-#, fuzzy
-#| msgid "Default"
 msgid "Defaults"
 msgstr "Подразумевано"
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:175
 msgid "Reset all bindings to the default values"
-msgstr ""
+msgstr "Ресетуј све свезе на подразумевано"
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:219
-#, fuzzy
-#| msgid "Toggle Full Screen"
 msgctxt "Prefs section"
 msgid "Title Screen"
-msgstr "Преко ц›ијелог екрана"
+msgstr "Насловни екран"
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:221
-#, fuzzy
-#| msgid "Games"
 msgctxt "Prefs section"
 msgid "Game"
-msgstr "Партије"
+msgstr "Игра"
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:223
-#, fuzzy
-#| msgid "Map Editor"
 msgctxt "Prefs section"
 msgid "Editor"
-msgstr "Уређивач мапа"
+msgstr "Уређивач"
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:250
-#, fuzzy
-#| msgid "Hotkeys"
 msgid "Add Hotkey"
-msgstr "Пречице"
+msgstr "Додај пречицу"
 
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:251
@@ -6198,14 +6019,13 @@ msgstr "Притисните жељену пречицу (Escape одустај�
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:704
 msgid "\"$hotkey_sequence|\" is in use by \"$old_hotkey_action|\". Do you wish to reassign it to \"$new_hotkey_action|\"?"
-msgstr ""
+msgstr "„$hotkey_sequence|“ тренутно извршава „$old_hotkey_action|“. Желите ли да је пребаците на „$new_hotkey_action|“?"
 
+# >> @title:window
 #. +> stable
 #: src/hotkey/hotkey_preferences_display.cpp:709
-#, fuzzy
-#| msgid "Clear Hotkey"
 msgid "Reassign Hotkey"
-msgstr "Очисти пречицу"
+msgstr "Поновна додела пречице"
 
 #. TRANSLATORS: This is the language code which will be used
 #. to store and fetch localized non-textual resources, such as images,
@@ -6287,135 +6107,3 @@ msgstr "Кључ ‘$key’ је превазиђен и подршка за њ�
 #: src/wml_exception.cpp:134
 msgid "The key '$deprecated_key' has been renamed to '$key'. Support for '$deprecated_key' will be removed in version $removal_version."
 msgstr "Кључ ‘$deprecated_key’ је преименован у ‘$key’. Подршка за ‘$deprecated_key’ биће уклоњена у издању $removal_version."
-
-#~ msgid "Forested Hills"
-#~ msgstr "шумoвита брда"
-
-#~ msgid "Forested Snow Hills"
-#~ msgstr "шумовита снежна брда"
-
-#~ msgid "Summer Deciduous Forested Hills"
-#~ msgstr "‹љетња листопадно пошумљена брда"
-
-#~ msgid "Fall Deciduous Forested Hills"
-#~ msgstr "јесења листопадно пошумљена брда"
-
-#~ msgid "Winter Deciduous Forested Hills"
-#~ msgstr "зимска листопадно пошумљена брда"
-
-#~ msgid "Snowy Deciduous Forested Hills"
-#~ msgstr "снежна листопадно пошумљена брда"
-
-#~ msgid "Summer Mixed Forested Hills"
-#~ msgstr "‹љетња м›јешовито пошумљена брда"
-
-#~ msgid "Fall Mixed Forested Hills"
-#~ msgstr "јесења м›јешовито пошумљена брда"
-
-#~ msgid "Winter Mixed Forested Hills"
-#~ msgstr "зимска м›јешовито пошумљена брда"
-
-#~ msgid "Snowy Mixed Forested Hills"
-#~ msgstr "с‹њежна м›јешовито пошумљена брда"
-
-#~ msgid "Elvish Castle"
-#~ msgstr "вилењачки замак"
-
-#~ msgid "Update Add-ons"
-#~ msgstr "Ажурирај додатке"
-
-# >> @title:window
-#~ msgid "Uninstall Add-ons"
-#~ msgstr "Деинсталирање додатака"
-
-#~ msgid "Create New Map"
-#~ msgstr "Направи нову мапу"
-
-#~ msgid "Time of day lighting preset:"
-#~ msgstr "Предефинисан осв›јетљај за доба дана:"
-
-#~ msgid "Custom lighting settings"
-#~ msgstr "Поставке посебног осв›јетљаја"
-
-#~ msgid "Automatically update map view"
-#~ msgstr "Аутоматски ажурирај приказ мапе"
-
-#~ msgid "Allow multiple maps to be open simultaneously"
-#~ msgstr "Дозволи истовремено отварање више мапа"
-
-#~ msgid "Don’t ask me again!"
-#~ msgstr "Не питај ме поново"
-
-#~ msgid "x"
-#~ msgstr "×"
-
-#~ msgid "OOS error"
-#~ msgstr "ООС грешка"
-
-#~ msgid "Types"
-#~ msgstr "Типови"
-
-#~ msgid "Inspection window"
-#~ msgstr "Прозор испитивања"
-
-#~ msgid "Variable"
-#~ msgstr "Пром›јенљива"
-
-#~ msgid "Create game"
-#~ msgstr "Направи партију"
-
-#~ msgid "Save replay on SP/MP victory or MP defeat"
-#~ msgstr "Сачувај снимак при ји./ви. поб›једи или ви. поразу"
-
-# кућица
-#~ msgid "Show color cursors"
-#~ msgstr "Показивачи у боји"
-
-#~ msgid "Save Replay on SP/MP Victory or MP Defeat"
-#~ msgstr "Сачувај снимак при ји./ви. поб›једи или ви. поразу"
-
-#~ msgid "Delete Auto-Saves on SP/MP Victory or MP Defeat"
-#~ msgstr "Бриши аутопозиције при ји./ви. поб›једи или ви. поразу"
-
-#~ msgid "Add this username to your friends list"
-#~ msgstr "Додај корисничко име на списак пријатеља"
-
-#~ msgid "Add this username to your ignores list"
-#~ msgstr "Додај корисничко име на списак игнорисаних"
-
-#~ msgid "Use colored mouse cursors (may be slower)"
-#~ msgstr "Обојени показивачи миша (може успоравати)"
-
-#~ msgid "Left Mouse Click"
-#~ msgstr "Леви клик мишем"
-
-#~ msgid "Right Mouse Click"
-#~ msgstr "Десни клик мишем"
-
-#~ msgid "Do you really want to quit?"
-#~ msgstr "Стварно би да отиђеш?"
-
-# >> Base for map screenshot file names
-#~ msgid "Map-Screenshot"
-#~ msgstr "снимак-с-мапом"
-
-#~ msgid "Change Hotkey"
-#~ msgstr "Пром›ијени пречицу"
-
-#~ msgid "This hotkey is already in use."
-#~ msgstr "Пречица је већ у употреби."
-
-#~ msgid "Screenshot hotkeys should be combined with the Control, Alt or Meta modifiers to avoid problems."
-#~ msgstr "Да би се избегли проблеми, пречице за снимање екрана треба да буду комбинације са тастерима Ctrl, Alt или Meta."
-
-#~ msgid "Warning"
-#~ msgstr "Упозорење"
-
-#~ msgid " (widescreen)"
-#~ msgstr " (широки екран)"
-
-#~ msgid "Use new lobby interface"
-#~ msgstr "Ново сучеље хола"
-
-#~ msgid "Use New Lobby Interface"
-#~ msgstr "Ново сучеље хола"

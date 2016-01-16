@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-22 12:35+0100\n"
-"PO-Revision-Date: 2015-12-28 15:17+0100\n"
+"PO-Revision-Date: 2016-01-16 21:26+0100\n"
 "Last-Translator: Ascriber\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -1501,11 +1501,15 @@ msgid "Scenario"
 msgstr "сценарио|~"
 
 # well-spelled: вигр|~
+# |~e0
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2016-01-16 21:26:08+0100 | 1
 msgctxt "addon_type"
 msgid "MP era"
-msgstr "вигр. раздобље|~"
+msgstr ""
+"вигр. раздобље|~\n"
+"вигр. епоха|~"
 
 # well-spelled: вигр|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
@@ -1515,11 +1519,15 @@ msgid "MP faction"
 msgstr "вигр. фракција|~"
 
 # well-spelled: вигр|~
+# |~e0
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
 #. reviewed/hybdl: djuric | 2010-02-26 14:38:15+0100
+#. modified: ilic | 2016-01-16 21:26:08+0100 | 1
 msgctxt "addon_type"
 msgid "MP map-pack"
-msgstr "вигр. пакета мапа|~"
+msgstr ""
+"вигр. пакета мапа|~\n"
+"вигр. пакет мапа|~"
 
 # well-spelled: вигр|~
 #. modified: ilic | 2010-01-22 12:34:44+0100 | 1
@@ -7735,13 +7743,16 @@ msgstr ""
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
 #. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#. modified: ilic | 2016-01-16 21:26:08+0100 | 1
 #| msgid ""
 #| "The add-on has an invalid file or directory name and cannot be installed.|~\n"
+#| "|~x\n"
 #| "|~x"
 msgid "The add-on <i>$addon_title</i> has an invalid file or directory name and cannot be installed."
 msgstr ""
 "Додатак има лоше име датотеке или фасцикле и не може се инсталирати.|~\n"
-"Додатак <i>$addon_title</i> има лоше име датотеке или фасцикле и не може се инсталирати.|~"
+"Додатак <i>$addon_title</i> има лоше име датотеке или фасцикле и не може се инсталирати.|~\n"
+"Додатак <i>$addon_title</i> има лоше име датотеке или директоријума и не може се инсталирати.|~"
 
 #. modified: ilic | 2014-03-09 08:48:41+0100 | 1f
 #. modified: ilic | 2015-12-28 15:17:46+0100 | 1
@@ -9907,8 +9918,11 @@ msgid "Create a <i>New Scenario</i> in the editor's <i>File</i> menu to make use
 msgstr "Направите <i>нови сценарио</i> из менија <i>~%/File/</i> у уређивачу да искористите напредне могућности.|~"
 
 #. modified: ilic | 2015-12-28 15:17:46+0100 | 1
+#. modified: ilic | 2016-01-16 21:26:08+0100 | 1
 msgid "Scenarios saved from the editor in their default folder can be selected in the mp create screen's <i>User Scenarios</i> section."
-msgstr "Сценарији сачувани кроз уређивач у подразумеваној фасцикли могу да се изаберу на вишеиграчком екрану под одељком <i>~%/User Scenarios/</i>.|~"
+msgstr ""
+"Сценарији сачувани кроз уређивач у подразумеваној фасцикли могу да се изаберу на вишеиграчком екрану под одељком <i>~%/User Scenarios/</i>.|~\n"
+"Сценарији сачувани кроз уређивач у подразумеваном директоријуму могу да се изаберу на вишеиграчком екрану под одељком <i>~%/User Scenarios/</i>.|~"
 
 #. modified: ilic | 2015-12-28 15:17:46+0100 | 1
 msgid "An unrecognized error has occurred."

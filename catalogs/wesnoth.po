@@ -1,7 +1,7 @@
 # Translation of wesnoth.po into Serbian.
 # Copyright (C) 2005 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016.
 # Dalibor Djuric <daliborddjuric@gmail.com>, 2010, 2011.
 # Branko Kokanovic, 2006.
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2015-08-12 20:41+0200\n"
-"PO-Revision-Date: 2015-12-28 15:17+0100\n"
+"PO-Revision-Date: 2016-01-16 21:26+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -3030,7 +3030,7 @@ msgstr "Направите <i>нови сценарио</i> из менија <i
 #. +> stable
 #: data/tips.cfg:12
 msgid "Scenarios saved from the editor in their default folder can be selected in the mp create screen's <i>User Scenarios</i> section."
-msgstr "Сценарији сачувани кроз уређивач у подразумеваној фасцикли могу да се изаберу на вишеиграчком екрану под одељком <i>~%/User Scenarios/</i>."
+msgstr "Сценарији сачувани кроз уређивач у подразумеваном директоријуму могу да се изаберу на вишеиграчком екрану под одељком <i>~%/User Scenarios/</i>."
 
 # >> Great Mage Delfador
 #. [tip]
@@ -3670,7 +3670,7 @@ msgstr "Преузимам додатак <i>$addon_title</i>..."
 #. +> stable
 #: src/addon/client.cpp:218
 msgid "The add-on <i>$addon_title</i> has an invalid file or directory name and cannot be installed."
-msgstr "Додатак <i>$addon_title</i> има лоше име датотеке или фасцикле и не може се инсталирати."
+msgstr "Додатак <i>$addon_title</i> има лоше име датотеке или директоријума и не може се инсталирати."
 
 #. +> stable
 #: src/addon/client.cpp:306 src/addon/manager_ui.cpp:751
@@ -3701,7 +3701,7 @@ msgstr "јигр/вигр. поход"
 #: src/addon/info.cpp:162
 msgctxt "addon_type"
 msgid "MP era"
-msgstr "вигр. раздобље"
+msgstr "вигр. епоха"
 
 # well-spelled: вигр
 #. +> stable
@@ -3715,7 +3715,7 @@ msgstr "вигр. фракција"
 #: src/addon/info.cpp:166
 msgctxt "addon_type"
 msgid "MP map-pack"
-msgstr "вигр. пакета мапа"
+msgstr "вигр. пакет мапа"
 
 # well-spelled: вигр
 #. +> stable
