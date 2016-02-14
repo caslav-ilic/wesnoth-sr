@@ -1,7 +1,7 @@
 # Translation of wesnoth-tutorial.po into Serbian.
 # Copyright (C) 2005 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2011, 2012.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2011, 2012, 2016.
 # Dalibor Djuric <daliborddjuric@gmail.com>, 2010.
 # Branko Kokanovic, 2006.
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-tutorial\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2014-11-16 11:49+0100\n"
-"PO-Revision-Date: 2012-04-01 16:53+0200\n"
+"PO-Revision-Date: 2016-02-14 17:51+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -752,13 +752,13 @@ msgstr "Ове лутке нападају тек када им се прибл�
 #. +> stable
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:1202
 msgid "End Scenario"
-msgstr ""
+msgstr "Крај сценарија"
 
 #. [message]: speaker=narrator
 #. +> stable
 #: data/campaigns/tutorial/scenarios/1_Tutorial.cfg:1215
 msgid "Do you want to keep practicing? You can end this scenario at any time by using the <b>End Scenario</b> item in the context menu."
-msgstr ""
+msgstr "Желиш ли још да вежбаш? Сценарио увек можеш да окончаш преко ставке <b>~%/End Scenario/</b> у контекстном менију."
 
 #. [option]: speaker=narrator
 #. +> stable
@@ -1283,22 +1283,14 @@ msgstr "Нападни орка стр›ијелцем"
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:955
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "To review the capabilities of any unit—including an enemy—hover the mouse over it, and you will see a unit summary on the right of the screen"
 msgid "To review the capabilities of any unit—including an enemy—hover the mouse over it, and you will see a unit summary on the right of the screen"
-msgstr ""
-"\n"
-"Способности било које јединице — укључујући и непријатељске — можеш погледати тако што наднесеш миш над њу и погледаш сажетак јединице на десној страни екрана."
+msgstr "Способности било које јединице — укључујући и непријатељске — можеш погледати тако што наднесеш миш над њу и погледаш сажетак јединице на десној страни екрана."
 
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:955
-#, fuzzy
-#| msgid "<big>Unit Summaries</big>"
 msgid "Unit Summaries"
-msgstr "<big>Сажеци јединица</big>"
+msgstr "Сажеци јединица"
 
 #. [event]
 #. +> stable
@@ -1333,22 +1325,14 @@ msgstr "Твоје остале јединице не могу допр›ије
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:992
-#, fuzzy
-#| msgid "<big>Long-distance Movement</big>"
 msgid "Long-distance Movement"
-msgstr "<big>Прелажење великих даљина</big>"
+msgstr "Прелажење великих даљина"
 
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:992
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "You can order a unit to move for multiple turns by selecting the unit and clicking on the destination. A number will indicate how many turns it will take to get there."
 msgid "You can order a unit to move for multiple turns by selecting the unit and clicking on the destination. A number will indicate how many turns it will take to get there."
-msgstr ""
-"\n"
-"Можеш наредити јединици да се креће током више потеза, тако што је изабереш и кликнеш на одредиште. Број ће показати колико је потеза потребно да се стигне тамо."
+msgstr "Можеш наредити јединици да се креће током више потеза, тако што је изабереш и кликнеш на одредиште. Број ће показати колико је потеза потребно да се стигне тамо."
 
 #. [event]
 #. +> stable
@@ -1505,22 +1489,14 @@ msgstr "Опрезно! Ноћ се спустила а оркови су ств
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:1214
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "After this dialog, hold the mouse over the landscape image below the minimap on the right. This brings up a description of the time of day, showing who has the advantage."
 msgid "After this dialog, hold the mouse over the landscape image below the minimap on the right. This brings up a description of the time of day, showing who has the advantage."
-msgstr ""
-"\n"
-"Посл›ије ове поруке, наднеси миш преко пејзажа испод минимапе на десној страни. То ће позвати опис тренутног доба дана, у коме се види ко има предност."
+msgstr "Посл›ије ове поруке, наднеси миш преко пејзажа испод минимапе на десној страни. То ће позвати опис тренутног доба дана, у коме се види ко има предност."
 
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:1214
-#, fuzzy
-#| msgid "<big>Time of Day</big>"
 msgid "Time of Day"
-msgstr "<big>Доба дана</big>"
+msgstr "Доба дана"
 
 #. [event]
 #. +> stable
@@ -1543,62 +1519,38 @@ msgstr "Чувај се тих оркова што прелазе реку! Уђ
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:1235
-#, fuzzy
-#| msgid "<big>Tracking Unused Units</big>"
 msgid "Tracking Unused Units"
-msgstr "<big>Уочавање неупотребљених јединица</big>"
+msgstr "Уочавање неупотребљених јединица"
 
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:1235
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "You can ensure you use all your troops by pressing <b>n</b> to step from one unit to the next. If you press <b>space</b>, you can mark the currently selected unit as having finished its turn, which stops you moving it by accident later on. When <b>n</b> no longer selects a new unit, it’s safe to end your turn."
 msgid "You can ensure you use all your troops by pressing <b>n</b> to step from one unit to the next. If you press <b>space</b>, you can mark the currently selected unit as having finished its turn, which stops you moving it by accident later on. When <b>n</b> no longer selects a new unit, it’s safe to end your turn."
-msgstr ""
-"\n"
-"Да су ти све јединице искоришћене можеш се уверити притискањем <b>n</b>, које скаче од једне до друге јединице. Притиском на <b>Space</b> можеш окончати потез тренутно изабране јединице, што спречава да је помериш касније случајно. Када <b>n</b> више не бира ниједну јединицу, можеш окончати свој потез."
+msgstr "Да су ти све јединице искоришћене можеш се уверити притискањем <b>n</b>, које скаче од једне до друге јединице. Притиском на <b>Space</b> можеш окончати потез тренутно изабране јединице, што спречава да је помериш касније случајно. Када <b>n</b> више не бира ниједну јединицу, можеш окончати свој потез."
 
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:1240
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "In this scenario, you only need to defeat the orc leader to win. (Victory conditions for a scenario are given under <b>Scenario Objectives</b> in the <b>Main Menu</b>)."
 msgid "In this scenario, you only need to defeat the orc leader to win. (Victory conditions for a scenario are given under <b>Scenario Objectives</b> in the <b>Main Menu</b>)."
-msgstr ""
-"\n"
-"У овом сценарију, за поб›једу треба само да поразиш орковског вођа. (Услови за поб›једу у тренутном сценарију дати су под <b>~%/Scenario Objectives/</b> у главном менију.)"
+msgstr "У овом сценарију, за поб›једу треба само да поразиш орковског вођа. (Услови за поб›једу у тренутном сценарију дати су под <b>~%/Scenario Objectives/</b> у главном менију.)"
 
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:1240
-#, fuzzy
-#| msgid "<big>Victory Conditions</big>"
 msgid "Victory Conditions"
-msgstr "<big>Услови за поб›једу</big>"
+msgstr "Услови за поб›једу"
 
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:1245
-#, fuzzy
-#| msgid "<big>Recruit the Right Unit Types</big>"
 msgid "Recruit the Right Unit Types"
-msgstr "<big>Унајмљивање правих типова јединица</big>"
+msgstr "Унајмљивање правих типова јединица"
 
 #. [event]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:1245
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Remember to recruit troops useful for the situation. Archers are particularly effective against Grunts, Wolf Riders and the orcish leader."
 msgid "Remember to recruit troops useful for the situation. Archers are particularly effective against Grunts, Wolf Riders and the orcish leader."
-msgstr ""
-"\n"
-"Пази да унајмљујеш снаге погодне за дате околности. Стр›ијелци су посебно д›јелотворни против грокташа, вукоседлаша и орковског вођа."
+msgstr "Пази да унајмљујеш снаге погодне за дате околности. Стр›ијелци су посебно д›јелотворни против грокташа, вукоседлаша и орковског вођа."
 
 #. [then]
 #. +> stable
@@ -1664,22 +1616,14 @@ msgstr "Губитак видара штети свим нашим снагам�
 #. [then]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:1440
-#, fuzzy
-#| msgid "<big>Tracking Enemy Movement</big>"
 msgid "Tracking Enemy Movement"
-msgstr "<big>Праћење противникових покрета</big>"
+msgstr "Праћење противникових покрета"
 
 #. [then]
 #. +> stable
 #: data/campaigns/tutorial/scenarios/2_Tutorial.cfg:1440
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "You can see where an enemy can reach by moving the mouse over them. You can see all possible enemy moves at once with the <b>Show Enemy Moves</b> command from the <b>Actions</b> menu."
 msgid "You can see where an enemy can reach by moving the mouse over them. You can see all possible enemy moves at once with the <b>Show Enemy Moves</b> command from the <b>Actions</b> menu."
-msgstr ""
-"\n"
-"Куда би непријатељ могао стићи можеш да видиш надношењем миша над њега. Можеш вид›јети и све могуће потезе непријатеља одједном, наредбом <b>~%/Show Enemy Moves/</b> у менију <b>~%/Actions/</b>."
+msgstr "Куда би непријатељ могао стићи можеш да видиш надношењем миша над њега. Можеш вид›јети и све могуће потезе непријатеља одједном, наредбом <b>~%/Show Enemy Moves/</b> у менију <b>~%/Actions/</b>."
 
 #. [else]
 #. +> stable
@@ -1800,6 +1744,3 @@ msgstr "Дрвенци се користе за вежбање мачевања 
 #: data/campaigns/tutorial/units/Quintain.cfg:24
 msgid "flail"
 msgstr "млатило"
-
-#~ msgid "Do you want to keep practicing?"
-#~ msgstr "Треба ли ти још в›јежбања?"

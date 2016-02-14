@@ -1,7 +1,7 @@
 # Translation of wesnoth-multiplayer.po into Serbian.
 # Copyright (C) 2005 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011, 2016.
 # Dalibor Djuric <daliborddjuric@gmail.com>, 2010.
 # Branko Kokanovic, 2006.
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-multiplayer\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2014-11-16 11:49+0100\n"
-"PO-Revision-Date: 2011-12-26 13:33+0100\n"
+"PO-Revision-Date: 2016-02-14 17:51+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian\n"
 "Language: sr\n"
@@ -30,7 +30,7 @@ msgstr "Корисничка мапа"
 #. +> stable
 #: data/multiplayer/eras.cfg:5
 msgid "Custom"
-msgstr ""
+msgstr "посебна"
 
 #. [multiplayer_side]: id=Random
 #. +> stable
@@ -42,7 +42,7 @@ msgstr "насумична"
 #. +> stable
 #: data/multiplayer/eras.cfg:125
 msgid "<span strikethrough='true' foreground='#%02x%02x%02x'>Side %d</span>"
-msgstr ""
+msgstr "<span strikethrough='true' foreground='#%02x%02x%02x'>Страна %d</span>"
 
 #. [lua]: id=unit.id }), speaker=narrator, speaker=narrator
 #. +> stable
@@ -66,13 +66,13 @@ msgstr "<span foreground='%s'>Страна %d</span> има предност."
 #. +> stable
 #: data/multiplayer/eras.cfg:176
 msgid "Default"
-msgstr "подразумевана"
+msgstr "Подразумевана"
 
 #. [era]: id=era_default
 #. +> stable
 #: data/multiplayer/eras.cfg:177
 msgid "The standard era for Wesnoth multiplayer. Consists of six factions and is generally balanced."
-msgstr ""
+msgstr "Стандардна епоха за вишеиграње у Весноту. Чине је шест фракција и уопштено је уравнотежена."
 
 #. [era]: id=era_heroes
 #. +> stable
@@ -84,13 +84,13 @@ msgstr "Доба јунака"
 #. +> stable
 #: data/multiplayer/eras.cfg:198
 msgid "An era with higher level units: level three leaders, with level one and two units available for recruit. Consists of six factions. Not considered balanced."
-msgstr ""
+msgstr "Епоха са јединицама виших нивоа: вођи трећег нивоа, са јединицама првог и другог нивоа за унајмљивање. Садржи шест фракција. Не сматра се уравнотеженом."
 
 #. [era]: id=era_khalifate
 #. +> stable
 #: data/multiplayer/eras.cfg:205
 msgid "Default + Khalifate"
-msgstr ""
+msgstr "Подразумевана са калифаћанима"
 
 #. [era]: id=era_khalifate
 #. +> stable
@@ -100,14 +100,15 @@ msgid ""
 "\n"
 "This era is still under development, so please be sure to report any problems that arise."
 msgstr ""
+"Епоха са једном додатном фракцијом поред шест из подразумеване епохе. Калифатске јединице не користе магију, већ се ослањају на пажљиву употребу терена и усклађене ударе у сумрак или зору.\n"
+"\n"
+"Ова епоха је још у развоју, па би било добро да пријавите било какве проблеме на које наиђете."
 
 #. [era]: id=era_khalifate_heroes
 #. +> stable
 #: data/multiplayer/eras.cfg:216
-#, fuzzy
-#| msgid "Age of Heroes"
 msgid "Age of Heroes + Khalifate"
-msgstr "Доба јунака"
+msgstr "Доба јунака са калифаћанима"
 
 #. [era]: id=era_khalifate_heroes
 #. +> stable
@@ -117,6 +118,9 @@ msgid ""
 "\n"
 "This era is still under development, so please be sure to report any problems that arise."
 msgstr ""
+"Епоха са једном додатном фракцијом поред шест из доба јунака. Калифатске јединице не користе магију, већ се ослањају на пажљиву употребу терена и усклађене ударе у сумрак или зору.\n"
+"\n"
+"Ова епоха је још у развоју, па би било добро да пријавите било какве проблеме на које наиђете."
 
 #. [multiplayer_side]: id=Drakes, type=random
 #. +> stable
@@ -130,7 +134,7 @@ msgstr "Змагови"
 #: data/multiplayer/factions/khalifate-aoh.cfg:4
 #: data/multiplayer/factions/khalifate-default.cfg:4
 msgid "Khalifate"
-msgstr ""
+msgstr "Калифаћани"
 
 #. [multiplayer_side]: id=Knalgan Alliance, type=random
 #. +> stable
@@ -1954,14 +1958,3 @@ msgstr "Проба Веснота: шетање кроз покров"
 #: data/multiplayer/scenarios/Wesbench_Shroud_Walk.cfg:10
 msgid "A wesnoth benchmark, use --no-delay --multiplayer --scenario=wesbench_shroud_walk --exit-at-end."
 msgstr "Проба перформанси, употр›ијебите: --no-delay --multiplayer --scenario=wesbench_shroud_walk --exit-at-end"
-
-#, fuzzy
-#~| msgid "Random map"
-#~ msgid "Random map by YAMG"
-#~ msgstr "Насумично"
-
-#~ msgid "4p — Lagoon"
-#~ msgstr "4и: Лагуна"
-
-#~ msgid "Four factions contend for dominance over this watery settlement."
-#~ msgstr "Четири фракције боре се за превласт у овој водњикавој настамби."
